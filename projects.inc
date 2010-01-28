@@ -4,14 +4,6 @@ $biomed = array(
     "Biology and Medicine",
     array(
         array(
-            "POEM@HOME",
-            "http://boinc.fzk.de/poem/",
-            "University of Karlsruhe",
-            "Protein structure prediction",
-            "POEM@HOME uses a computational approach to predict the biologically active structure of proteins, to understand the signal-processing mechanisms when the proteins interact with one another, to understand diseases related to protein malfunction or aggregation, and to develop new drugs on the basis of the three-dimensions structure of biologically important proteins.",
-            "poem.jpg"
-        ),
-        array(
             "Docking@Home",
             "http://docking.cis.udel.edu/",
             "University of Delaware",
@@ -24,8 +16,8 @@ $biomed = array(
             "http://www.gpugrid.net/",
             "Barcelona Biomedical Research Park (PRBB)",
             "Molecular simulations of proteins",
-            "GPUGrid.net opens novel computational scenarios by the first full-atom molecular dynamics code (CellMD) specially optimized to run on NVIDIA GPUs. New biomedical applications suddenly become possible giving a new role to computational biology for biomedical research.",
-            "gpugrid.png"
+            "GPUGrid.net opens novel computational scenarios by the first full-atom molecular dynamics code (CellMD) specially optimized to run on NVIDIA GPUs and the Sony PlayStation 3. New biomedical applications suddenly become possible giving a new role to computational biology for biomedical research.",
+            "ps3grid.png"
         ),
         array(
             "Superlink@Technion",
@@ -188,14 +180,6 @@ $mixed = array(
     "Multiple applications",
     array(
         array(
-            "EDGeS@Home",
-            "http://home.edges-grid.eu/home/",
-            "MTA-SZTAKI Laboratory of Parallel and Distributed Systems (Budapest)",
-            "Scientific research in multiple areas",
-            "The EDGeS@Home Beta project integrates volunteer computing into the service grid network of Europe by allowing service grids to send workunits to be processed by the volunteers of this project. The scientific projects covered by the project include math, physics, biology, etc.",
-            "logo_edges.png"
-        ),
-        array(
             "Ibercivis",
             "http://registro.ibercivis.es/",
             "Spanish universities and research centers",
@@ -216,14 +200,6 @@ $mixed = array(
 $math = array(
     "Mathematics, computing, and games",
     array(
-        array(
-            "NFS@home",
-            "http://escatter11.fullerton.edu/nfs/",
-            "California State University Fullerton",
-            "Factorization of large integers",
-            "NFS@Home is a research project that uses Internet-connected computers to do the lattice sieving step in the Number Field Sieve factorization of large integers. As a young school student, you gained your first experience at breaking an integer into prime factors, such as 15 = 3 * 5 or 35 = 5 * 7. NFS@Home is a continuation of that experience, only with integers that are hundreds of digits long.",
-            "NFS_Logo.jpg"
-        ),
         array(
             "VTU@home",
             "http://boinc.vgtu.lt/vtuathome/",

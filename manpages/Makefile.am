@@ -13,17 +13,14 @@ if ENABLE_MANAGER
 endif
 
 if ENABLE_SERVER
-  SERVER_MANS = appmgr.8
+  SERVER_MANS = 
 endif
 
 man_MANS = $(CLIENT_MANS) $(CLIENTGUI_MANS) $(SERVER_MANS)
 
-SUFFIXES = .xml .1 .8
+SUFFIXES = .xml .1
 
 .xml.1:
-	$(DOCBOOK2X_MAN) $<
-
-.xml.8:
 	$(DOCBOOK2X_MAN) $<
 
 all-local: $(man_MANS)

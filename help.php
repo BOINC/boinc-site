@@ -38,7 +38,7 @@ $n = 0;
 foreach ($langs as $lang) {
     $lang_enc = urlencode($lang);
     if ($n) {
-        echo " &middot; ";
+        echo "<br>";
     }
     $n++;
     echo "<a href=\"help_lang.php?lang=$lang_enc\"><b>$lang</b></a>";
@@ -48,7 +48,7 @@ echo "
 <p>
 ".sprintf(
     tra("If you're an experienced BOINC user, we encourage you to %sbecome a Help Volunteer%s.  It's a great way to help the cause of scientific research and volunteer computing - and it's fun!"),
-    "<a href=http://boinc.berkeley.edu/wiki/Help_volunteer>",
+    "<a href=\"trac/wiki/HelpVolunteer\">",
     "</a>"
 )."
 <p>

@@ -86,9 +86,7 @@ function show_pictures() {
 function show_download($pname) {
     echo "
         <table cellpadding=10><tr><td valign=top>
-        ".tra("BOINC is a program that lets you donate your idle computer time to science projects like SETI@home, Climateprediction.net, Rosetta@home, World Community Grid, and many others. <p> After installing BOINC on your computer, you can connect it to as many of these projects as you like.")
-        ."<p>"
-        .tra("You may run this software on a computer only if you own the computer or have the permission of its owner.").
+        ".tra("BOINC is a program that lets you donate your idle computer time to science projects like SETI@home, Climateprediction.net, Rosetta@home, World Community Grid, and many others. <p> After installing BOINC on your computer, you can connect it to as many of these projects as you like.").
         "<p>"
     ;
     if ($_GET['foo']) $pname = null;
@@ -113,8 +111,8 @@ function show_download($pname) {
         <p>
         <b>"
         .sprintf(
-            tra("Note: if your computer is equipped with an Graphics Processing Unit (GPU), you may be able to %suse it to compute faster%s"),
-                "<a href=http://boinc.berkeley.edu/wiki/GPU_computing>", ".</a>"
+            tra("Note: if your computer is equipped with an NVIDIA Graphics Processing Unit (GPU), you may be able to %suse it to compute faster%s"),
+                "<a href=cuda.php>", ".</a>"
         )
         ."</b>
         <br><br>
@@ -123,7 +121,7 @@ function show_download($pname) {
         | <a href=\"wiki/Release_Notes\"><span class=nobr>".tra("Release notes")."</span></a>
         | <a href=\"wiki/BOINC_Help\"><span class=nobr>".tra("Help")."</span></a>
         | <a href=download_all.php><span class=nobr>".tra("All versions")."</span></a>
-        | <a href=\"trac/wiki/VersionHistory\">".tra("Version history")."</a>
+        | <a href=\"trac/wiki/VersionHistory\">Version history</a>
         </center>
         </td><td valign=top>
     ";

@@ -6,7 +6,11 @@
  */
 
 
-pre, code {
+pre {
+    font-size: medium;
+}
+
+code {
     font-size: medium;
 }
 
@@ -17,12 +21,12 @@ a.heading {
 a:link, a:visited, a:active{
 	color: rgb(0, 105, 161);
     text-decoration: none;
-#font-weight: bold;
+	font-weight: bold;
 }
 
 a:hover {
     color: rgb(232, 174, 0);
-#font-weight: bold;
+	font-weight: bold;
 }
 
 body , table , input , select {
@@ -63,10 +67,6 @@ span.section_title{
     text-align: center;
 }
 
-span.news_title,
-span.inboxunread {
-    font-weight: bold;
-}
 
 span.note{
 	font-weight: normal;
@@ -75,12 +75,6 @@ span.note{
 span.news_date {
     color: rgb(100,100,100);
     font-size: 0.9em;
-    float: right;
-}
-
-hr.news_line {
-    border: 0;
-    border-bottom: 1px solid rgb(200, 200, 200);
 }
 
 pre {
