@@ -6,7 +6,10 @@
 require_once("docutil.php");
 require_once("versions.inc");
 require_once("download_util.inc");
-require_once("../html/inc/translation.inc");
+$dir = getcwd();
+chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
+require_once("../inc/translation.inc");
+chdir($dir);
 
 $apps = array(
     array('classic.jpg', 180, 143),
