@@ -45,7 +45,7 @@ function linux_info() {
 
 $w78 = array(
     "num"=>"7.8.2",
-    "status"=>"Development version",
+    "status"=>"Recommended version",
     "file"=>"boinc_7.8.2_windows_intelx86.exe",
     "vbox_file"=>"boinc_7.8.2_windows_intelx86_vbox.exe",
     "vbox_version"=>"5.1.26",
@@ -55,7 +55,7 @@ $w78 = array(
 
 $w77 = array(
     "num"=>"7.7.2",
-    "status"=>"Development version",
+    "status"=>"Older version",
     "file"=>"boinc_7.7.2_windows_intelx86.exe",
     "vbox_file"=>"boinc_7.7.2_windows_intelx86_vbox.exe",
     "vbox_version"=>"5.1.18",
@@ -65,7 +65,7 @@ $w77 = array(
 
 $w76 = array(
     "num"=>"7.6.33",
-    "status"=>"Recommended version",
+    "status"=>"Older version",
     "file"=>"boinc_7.6.33_windows_intelx86.exe",
     "vbox_file"=>"boinc_7.6.33_windows_intelx86_vbox.exe",
     "vbox_version"=>"5.0.18",
@@ -101,7 +101,7 @@ $w5816 = array(
 
 $w78x64 = array(
     "num"=>"7.8.2",
-    "status"=>"Development version",
+    "status"=>"Recommended version",
     "file"=>"boinc_7.8.2_windows_x86_64.exe",
     "vbox_file"=>"boinc_7.8.2_windows_x86_64_vbox.exe",
     "vbox_version"=>"5.1.26",
@@ -121,7 +121,7 @@ $w77x64 = array(
 
 $w76x64 = array(
     "num"=>"7.6.33",
-    "status"=>"Recommended version",
+    "status"=>"Older version",
     "file"=>"boinc_7.6.33_windows_x86_64.exe",
     "vbox_file"=>"boinc_7.6.33_windows_x86_64_vbox.exe",
     "vbox_version"=>"5.0.18",
@@ -151,7 +151,7 @@ $w72x64 = array(
 
 $m78 = array(
     "num"=>"7.8.2",
-    "status"=>"Development version",
+    "status"=>"Recommended version",
     "file"=>"boinc_7.8.2_macOSX_x86_64.zip",
     "date"=>"29 Aug 2017",
     "type"=>"mac_advanced",
@@ -159,7 +159,7 @@ $m78 = array(
 
 $m76 = array(
     "num"=>"7.6.34",
-    "status"=>"Recommended version (standard GUI)",
+    "status"=>"Older version (standard GUI)",
     "file"=>"boinc_7.6.34_macOSX_x86_64.zip",
     "date"=>"9 Apr 2017",
     "type"=>"mac_advanced",
@@ -301,19 +301,19 @@ $a74dev = array(
     "type"=>"apk",
 );
 
-$a74dev = array(
-    "num"=>"7.4.43",
-    "status"=>"Development Version",
-    "file"=>"boinc_7.4.43.apk",
-    "date"=>"15 Apr 2016",
-    "type"=>"apk",
-);
-
 $a74 = array(
     "num"=>"7.4.53",
     "status"=>"Recommended Version",
     "file"=>"boinc_7.4.53.apk",
     "date"=>"3 Jul 2016",
+    "type"=>"apk",
+);
+
+$a74dev = array(
+    "num"=>"7.4.43",
+    "status"=>"Development Version",
+    "file"=>"boinc_7.4.43.apk",
+    "date"=>"15 Apr 2016",
     "type"=>"apk",
 );
 
@@ -416,7 +416,6 @@ $android = array(
     "description"=>"Android version 4.1 and later for ARM, AArch64, MIPS, MIPS64, x86, and x86_64<br>We recommend that, rather than downloading BOINC from here,</br>you get it from the Google Play Store or the Amazon app store (for Kindle Fire)",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>array(
-        $a74dev,
         $a74,
     )
 );
