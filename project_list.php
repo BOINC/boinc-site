@@ -4,10 +4,13 @@
 // which it does every 14 days.
 // Don't break backwards compatibility!
 
+$dir = getcwd();
+chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
 require_once("../inc/translation.inc");
 require_once("projects.inc");
 require_once("account_managers.inc");
 require_once("get_platforms.inc");
+chdir($dir);
 
 header('Content-type: text/xml');
 echo '<?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -16,11 +19,9 @@ echo '<?xml version="1.0" encoding="ISO-8859-1" ?>
 
 $proj_list = array();
 
-shuffle($areas);
 foreach ($areas as $area) {
     $area_name = $area[0];
     $projects = $area[1];
-    shuffle($projects);
     foreach ($projects as $p) {
         $np = null;
         if (array_key_exists(5, $p) && strlen($p[5])) {

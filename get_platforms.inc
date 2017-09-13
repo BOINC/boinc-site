@@ -279,7 +279,7 @@ function make_friendly_string($l, $comma) {
 //
 function get_platforms_cached($url) {
     $u = urlencode($url);
-    $fname = "/home/boincadm/boinc/doc/platforms/$u";
+    $fname = "/home/boincadm/boinc-site/platforms/$u";
     $t = @filemtime($fname);
 	if (strstr($url, "gpugrid") || ($t && $t > time() - 604800)) {
         return json_decode(file_get_contents($fname));
