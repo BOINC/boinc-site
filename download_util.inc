@@ -94,28 +94,22 @@ function download_link(
         echo "<table width=100%><tr valign=top align=center><td>\n";
 
         if ($vbox_file) {
-            // the current BOINC VBox doesn't work on Win 10,
-            // so don't show the VBox button.
-            // TODO: remove this when we make a new release
-            //
-            if (!strstr($client_info, "Windows NT 10")) {
-                echo "
-                    <a href=\"$vbox_url\" class=\"btn btn-success\"><font size=+1><u>"
-                    .tra("Download BOINC + VirtualBox")
-                    ."</u></font>
-                    <br>"
-                    // "for %s" identifies the operating system, e.g. "for Windows"
-                    .sprintf(tra("for %s"), $long_name)
-                    ." ($vbox_size MB)"
-                    ."<br><small>"
-                    .sprintf(tra("BOINC %s"), $num)
-                    .", "
-                    .sprintf(tra("VirtualBox %s"), $vbox_version)
-                    ."</small></a>
-                    &nbsp;
-                    &nbsp;
-                ";
-            }
+            echo "
+                <a href=\"$vbox_url\" class=\"btn btn-success\"><font size=+1><u>"
+                .tra("Download BOINC + VirtualBox")
+                ."</u></font>
+                <br>"
+                // "for %s" identifies the operating system, e.g. "for Windows"
+                .sprintf(tra("for %s"), $long_name)
+                ." ($vbox_size MB)"
+                ."<br><small>"
+                .sprintf(tra("BOINC %s"), $num)
+                .", "
+                .sprintf(tra("VirtualBox %s"), $vbox_version)
+                ."</small></a>
+                &nbsp;
+                &nbsp;
+            ";
         }
         if (!$vbox_file || !$vbox_req) {
             echo "
