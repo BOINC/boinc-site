@@ -18,7 +18,7 @@ $sensing = array(
     array(
         array(
             "Quake Catcher Network",
-            "http://quakecatcher.net",
+            "http://quakecatcher.net/sensor",
             tra("University of Southern California"),
             tra("Seismology"),
             tra("Quake-Catcher Network uses sensors attached to computers and smartphones to detect seismic waves."),
@@ -99,16 +99,16 @@ $biomed = array(
             "",
             "Study and design RNA molecules"
         ),
-        array(
-            "FiND@Home",
-            "http://findah.ucd.ie/",
-            tra("University College Dublin"),
-            tra("Antimalarial drug discovery"),
-            tra("The parasite that causes malaria continues to evolve resistance to available medication. We therefore urgently need to discover new drugs, targeting new proteins in the parasite. The FiND@Home project is aimed at finding these new targets."),
-            "",
-            "",
-            "Develop malaria drugs"
-        ),
+//        array(
+//            "FiND@Home",
+//            "http://findah.ucd.ie/",
+//            tra("University College Dublin"),
+//            tra("Antimalarial drug discovery"),
+//            tra("The parasite that causes malaria continues to evolve resistance to available medication. We therefore urgently need to discover new drugs, targeting new proteins in the parasite. The FiND@Home project is aimed at finding these new targets."),
+//            "",
+//            "",
+//            "Develop malaria drugs"
+//        ),
 //        array(
 //            "POEM@HOME",
 //            "http://boinc.fzk.de/poem/",
@@ -386,7 +386,7 @@ $astro_phys_chem = array(
 //        ),
         array(
             "LHC@home",
-            "http://lhcathome.cern.ch/",
+            "https://lhcathome.cern.ch/lhcathome/",
             tra("CERN (European Organization for Nuclear Research)"),
             tra("Physics"),
             tra("The Large Hadron Collider (LHC) is a particle accelerator at CERN, the European Organization for Nuclear Research, the world's largest particle physics laboratory.  It is the most powerful instrument ever built to investigate on particles proprieties. LHC@home runs simulations to improve the design of LHC and its detectors."),
@@ -450,7 +450,7 @@ $mixed = array(
     array(
         array(
             "Citizen Science Grid",
-            "http://csgrid.org/csg/",
+            "https://csgrid.org/csg/",
             "University of North Dakota",
             tra("Molecular biology, Computer Science"),
             tra("The Citizen Science Grid is dedicated to supporting a wide range of research and educational projects using volunteer computing and citizen science."),
