@@ -13,10 +13,25 @@
 // 6: master URL (if different from web site)
 // 7: 1-sentence summary
 
+function project(
+    $name, $web_url, $home, $area, $description, $logo, $master_url, $summary
+) {
+    $x = new StdClass;
+    $x->name = $name;
+    $x->web_url = $web_url;
+    $x->home = $home;
+    $x->area = $area;
+    $x->description = $description;
+    $x->logo = $logo;
+    $x->master_url = $master_url;
+    $x->summary = $summary;
+    return $x;
+}
+
 $sensing = array(
     tra("Distributed sensing"),
     array(
-        array(
+        project(
             "Quake Catcher Network",
             "http://quakecatcher.net/sensor",
             tra("University of Southern California"),
@@ -26,7 +41,7 @@ $sensing = array(
             "http://quakecatcher.net/sensor/",
             "Help detect earthquakes"
         ),
-        array(
+        project(
             "Radioactive@Home",
             "http://radioactiveathome.org/boinc/",
             tra("BOINC Poland Foundation"),
@@ -42,7 +57,7 @@ $sensing = array(
 $cogsci = array(
     tra("Cognitive science and artifical intelligence"),
     array(
-        array(
+        project(
             "MindModeling@Home",
             "http://mindmodeling.org/",
             "University of Dayton and Wright State University",
@@ -62,7 +77,7 @@ $cogsci = array(
 //
 $dormant_projects = array(
     array(
-        array(
+        project(
             "FreeHAL",
             "http://www.freehal.net/freehal_at_home/",
             tra("Independent"),
@@ -79,7 +94,7 @@ $dormant_projects = array(
 $biomed = array(
     tra("Biology and Medicine"),
     array(
-        array(
+        project(
             "DENIS@Home",
             "http://denis.usj.es/denisathome/",
             "San Jorge University, Zaragoza, Spain",
@@ -89,7 +104,7 @@ $biomed = array(
             "",
             "Study the physiology of the heart"
         ),
-        array(
+        project(
             "RNA World",
             "http://www.rnaworld.de/rnaworld/",
             "Rechenkraft.net e.V.",
@@ -99,7 +114,7 @@ $biomed = array(
             "",
             "Study and design RNA molecules"
         ),
-//        array(
+//        project(
 //            "FiND@Home",
 //            "http://findah.ucd.ie/",
 //            tra("University College Dublin"),
@@ -109,7 +124,7 @@ $biomed = array(
 //            "",
 //            "Develop malaria drugs"
 //        ),
-//        array(
+//        project(
 //            "POEM@HOME",
 //            "http://boinc.fzk.de/poem/",
 //            tra("University of Karlsruhe (Germany)"),
@@ -119,7 +134,7 @@ $biomed = array(
 //            "",
 //            "Study protein structure and interaction"
 //        ),
-//        array(
+//        project(
 //            "Docking@Home",
 //            "http://docking.cis.udel.edu/",
 //            tra("University of Delaware"),
@@ -129,7 +144,7 @@ $biomed = array(
 //            "",
 //            "Study protein-ligand interactions"
 //        ),
-//        array(
+//        project(
 //            "Simulation One",
 //            "http://mmgboinc.unimi.it/",
 //            "Universita degli Studi, Milan, Italy",
@@ -139,7 +154,7 @@ $biomed = array(
 //            "",
 //            "Study molecules that protect proteins"
 //        ),
-        array(
+        project(
             "GPUGrid.net",
             "http://www.gpugrid.net/",
             tra("Barcelona Biomedical Research Park (PRBB)"),
@@ -149,7 +164,7 @@ $biomed = array(
             "",
             "Help biomedical research"
         ),
-//        array(
+//        project(
 //            "Superlink@Technion",
 //            "http://cbl-boinc-server2.cs.technion.ac.il/superlinkattechnion/",
 //            tra("Technion, Israel"),
@@ -159,7 +174,7 @@ $biomed = array(
 //            "",
 //            "Find genetic causes of diseases"
 //        ),
-//        array(
+//        project(
 //            "Proteins@Home",
 //            "http://biology.polytechnique.fr/proteinsathome",
 //            tra("Ecole Polytechnique, Paris"),
@@ -167,7 +182,7 @@ $biomed = array(
 //            tra("By joining Proteins@Home, you will be part of a large-scale protein structure prediction project and help to advance an important area of science. By increasing our knowledge of proteins, you will contribute to a better understanding of many diseases and pathologies, and to progress in both medicine and technology. Proteins@Home is not for profit."),
 //            "proteinsathome.gif"
 //        ),
-//        array(
+//        project(
 //            "The Lattice Project",
 //            "http://boinc.umiacs.umd.edu/",
 //            tra("University of Maryland Center for Bioinformatics and Computational Biology"),
@@ -177,7 +192,7 @@ $biomed = array(
 //            "",
 //            "Study evolution using genetics"
 //        ),
-//        array(
+//        project(
 //            "Malariacontrol.net",
 //            "http://www.malariacontrol.net/",
 //            tra("The Swiss Tropical Institute"),
@@ -187,7 +202,7 @@ $biomed = array(
 //            "",
 //            "Study the spread of malaria"
 //        ),
-//        array(
+//        project(
 //            "Tanpaku",
 //            "http://issofty17.is.noda.tus.ac.jp/",
 //            tra("Tokyo University of Science"),
@@ -195,7 +210,7 @@ $biomed = array(
 //            tra("To predict protein structure and function from genetic sequences, using the 'Brownian Dynamics' (BD) method.  This method enables us to simulate more efficiently than conventional methods."),
 //            "tanpaku.jpg"
 //        ),
-//        array(
+//        project(
 //            "Predictor@home",
 //            "http://predictor.chem.lsa.umich.edu/",
 //            tra("University of Michigan"),
@@ -203,7 +218,7 @@ $biomed = array(
 //            tra("Protein structure prediction starts from a sequence of amino acids and attempts to predict the folded, functioning, form of the protein.  Predicting the structure of an unknown protein is a critical problem in enabling structure-based drug design to treat new and existing diseases."),
 //            "predictor.jpg"
 //        ),
-        array(
+        project(
             "Rosetta@home",
             "http://boinc.bakerlab.org/rosetta/",
             tra("University of Washington"),
@@ -213,7 +228,7 @@ $biomed = array(
             "",
             "Study diseases such as HIV, malaria, cancer, and Alzheimer's"
         ),
-//        array(
+//        project(
 //            "SIMAP",
 //            "http://boincsimap.org/boincsimap/",
 //            tra("University of Vienna"),
@@ -228,14 +243,14 @@ $biomed = array(
 $earth = array(
     tra("Earth Sciences"),
     array(
-//        array(
+//        project(
 //            "Virtual Prairie",
 //            "http://vcsc.cs.uh.edu/virtual-prairie/",
 //            tra("University of Houston"),
 //            tra("Study of botanical ecosystems"),
 //            tra("Provide ecological guidelines on the design of prairies with the best potential for water purification.")
 //        ),
-        array(
+        project(
             "Climateprediction.net",
             "http://climateprediction.net/",
             tra("Oxford University"),
@@ -250,7 +265,7 @@ $earth = array(
 $astro_phys_chem = array(
     tra("Physical Science"),
     array(
-        array(
+        project(
             "Acoustics@home",
             "http://www.acousticsathome.ru/boinc/",
             "V.I. Ilichev Pacific Oceanological Institute, Far Eastern Federal University, Matrosov Institute for System Dynamics and Control Theory, A.A. Kharkevich Institute for Information Transmission Problems, Dorodnicyn Computing Centre",
@@ -260,7 +275,7 @@ $astro_phys_chem = array(
             "",
             "Study underwater acoustics"
         ),
-//        array("XANSONS for COD",
+//        project("XANSONS for COD",
 //            "http://xansons4cod.com/xansons4cod/",
 //            "Private; supported by the Russian Foundation for Basic Research.",
 //            "Crystallography",
@@ -269,7 +284,7 @@ $astro_phys_chem = array(
 //            "",
 //            "Study nano-materials"
 //        ),
-//        array(
+//        project(
 //            "CONVECTOR",
 //            "http://convector.fsv.cvut.cz/",
 //            "Czech Technical University in Prague",
@@ -279,7 +294,7 @@ $astro_phys_chem = array(
 //            "",
 //            "Study mechanical engineering"
 //        ),
-        array(
+        project(
             "theSkyNet POGS",
             "http://pogs.theskynet.org/pogs/",
             "The International Centre for Radio Astronomy Research (Perth, Australia)",
@@ -290,7 +305,7 @@ $astro_phys_chem = array(
             "",
             "Analyze images of space"
         ),
-        array(
+        project(
             "Asteroids@home",
             "http://asteroidsathome.net/boinc/",
             "Charles University in Prague",
@@ -300,7 +315,7 @@ $astro_phys_chem = array(
             "",
             "Study the properties of asteroids"
         ),
-//        array(
+//        project(
 //            "Constellation",
 //            "http://aerospaceresearch.net/constellation/",
 //            "<a href='http://rechenkraft.net'>Rechenkraft.net</a>, <a href='http://stuttgart.dglr.de'>DGLR</a>, <a href='http://selfnet.de'>Selfnet</a>, and <a href='http://shackspace.de'>shack</a>",
@@ -310,7 +325,7 @@ $astro_phys_chem = array(
 //            "",
 //            tra("Perform aerospace-related simulations")
 //        ),
-//        array(
+//        project(
 //            "eOn",
 //            "http://eon.ices.utexas.edu/eon2/",
 //            tra("University of Texas at Austin"),
@@ -320,7 +335,7 @@ $astro_phys_chem = array(
 //            "",
 //            "Study the time evolution of atomic systems"
 //        ),
-//        array(
+//        project(
 //            "Orbit@home",
 //            "http://orbit.psi.edu/oah/",
 //            tra("Planetary Science Institute"),
@@ -328,7 +343,7 @@ $astro_phys_chem = array(
 //            tra("Monitor and study the hazard posed by near-Earth asteroids"),
 //            "http://orbit.psi.edu/"
 //        ),
-        array(
+        project(
             "Cosmology@Home",
             "http://www.cosmologyathome.org/",
             tra("University of Illinois at Urbana-Champaign"),
@@ -338,7 +353,7 @@ $astro_phys_chem = array(
             "",
             "Study the evolution of the Universe"
         ),
-        array(
+        project(
             "Universe@Home",
             "http://universeathome.pl/universe/",
             "University of Warsaw",
@@ -348,7 +363,7 @@ $astro_phys_chem = array(
             "",
             tra("Do research in physics and astronomy")
         ),
-        array(
+        project(
             "Milkyway@home",
             "http://milkyway.cs.rpi.edu/milkyway/",
             tra("Rensselaer Polytechnic Institute"),
@@ -358,7 +373,7 @@ $astro_phys_chem = array(
             "",
             tra("Study the structure of the Milky Way galaxy")
         ),
-        array(
+        project(
             "Leiden Classical",
             "http://boinc.gorlaeus.net/",
             tra("Leiden University, The Netherlands"),
@@ -368,7 +383,7 @@ $astro_phys_chem = array(
             "",
             tra("Help students do atomic simulations")
         ),
-//        array(
+//        project(
 //            "uFluids@home",
 //            "http://www.ufluids.net/",
 //            tra("Purdue University"),
@@ -376,7 +391,7 @@ $astro_phys_chem = array(
 //            tra("The uFluids project simulates two-phase fluid behavior in microgravity and microfluidics problems. Our goal is to design better satellite propellant management devices and address two-phase flow in microchannel and MEMS devices."),
 //            "ufluids.gif"
 //        ),
-        array(
+        project(
             "Einstein@home",
             "https://einsteinathome.org/",
             tra("University of Wisconsin - Milwaukee (USA), Max Planck Institute for Gravitational Physics - Hanover (Germany)"),
@@ -386,7 +401,7 @@ $astro_phys_chem = array(
             "",
             tra("Help detect pulsars and gravitational waves")
         ),
-//        array(
+//        project(
 //            "Albert@home",
 //            "http://albert.phys.uwm.edu/",
 //            tra("Univ. of Wisconsin - Milwaukee, Max Planck Institute"),
@@ -394,7 +409,7 @@ $astro_phys_chem = array(
 //            "Test project for Einstein@home",
 //            ""
 //        ),
-        array(
+        project(
             "LHC@home",
             "https://lhcathome.cern.ch/lhcathome/",
             tra("CERN (European Organization for Nuclear Research)"),
@@ -404,7 +419,7 @@ $astro_phys_chem = array(
             "",
             tra("Improve the design of the Large Hadron Collider")
         ),
-//        array(
+//        project(
 //            "vLHCathome",
 //            "http://lhcathome2.cern.ch/vLHCathome/",
 //            tra("CERN (European Organization for Nuclear Research)"),
@@ -414,7 +429,7 @@ $astro_phys_chem = array(
 //            "",
 //            tra("Simulate high-energy particle collisions")
 //        ),
-//        array(
+//        project(
 //            "ATLAS@Home",
 //            "http://atlasathome.cern.ch/",
 //            tra("CERN (European Organization for Nuclear Research)"),
@@ -424,7 +439,7 @@ $astro_phys_chem = array(
 //            "",
 //            tra("Simulate high-energy particle collisions for CERN")
 //        ),
-        array(
+        project(
             "SETI@home",
             "http://setiathome.berkeley.edu/",
             tra("University of California, Berkeley"),
@@ -434,7 +449,7 @@ $astro_phys_chem = array(
             "",
             tra("Search for evidence of extra-terrestrial life")
         ),
-//        array(
+//        project(
 //            "Quantum Monte Carlo at Home",
 //            "http://qah.uni-muenster.de/",
 //            tra("University of Muenster (Germany)"),
@@ -442,7 +457,7 @@ $astro_phys_chem = array(
 //            tra("Study the structure and reactivity of molecules using Quantum Chemistry."),
 //            "logo_oben.jpg"
 //        ),
-//        array(
+//        project(
 //            "Spinhenge@home",
 //            "http://spin.fh-bielefeld.de/",
 //            tra("Bielefeld University of Applied Sciences"),
@@ -458,7 +473,7 @@ $astro_phys_chem = array(
 $mixed = array(
     tra("Multiple applications"),
     array(
-        array(
+        project(
             "Citizen Science Grid",
             "https://csgrid.org/csg/",
             "University of North Dakota",
@@ -468,7 +483,7 @@ $mixed = array(
             "",
             tra("Support science from the University of North Dakota")
         ),
-        array(
+        project(
             "CAS@home",
             "http://casathome.ihep.ac.cn/",
             tra("Chinese Academy of Sciences"),
@@ -478,7 +493,7 @@ $mixed = array(
             "",
             tra("Help Chinese researchers")
         ),
-        array(
+        project(
             "Yoyo@home",
             "http://www.rechenkraft.net/yoyo/",
             tra("Independent"),
@@ -488,7 +503,7 @@ $mixed = array(
             "",
             tra("Do research in math, physics, and evolution")
         ),
-//        array(
+//        project(
 //            "EDGeS@Home",
 //            "http://home.edges-grid.eu/home/",
 //            tra("MTA-SZTAKI Laboratory of Parallel and Distributed Systems (Hungary)"),
@@ -498,7 +513,7 @@ $mixed = array(
 //            "",
 //            tra("Help European researchers")
 //        ),
-//        array(
+//        project(
 //            "Ibercivis",
 //            "http://registro.ibercivis.es/",
 //            tra("Spanish universities and research centers"),
@@ -508,7 +523,7 @@ $mixed = array(
 //            "",
 //            tra("Help Spanish researchers")
 //        ),
-        array(
+        project(
             "World Community Grid",
             "http://www.worldcommunitygrid.org/",
             tra("IBM Corporate Citizenship"),
@@ -523,7 +538,7 @@ $mixed = array(
 $math = array(
     tra("Mathematics, computing, and games"),
     array(
-        array(
+        project(
             "Amicable Numbers",
             "https://sech.me/boinc/Amicable/",
             "Independent",
@@ -533,7 +548,7 @@ $math = array(
             "",
             tra("Do research in number theory")
         ),
-//        array(
+//        project(
 //            "SubsetSum@Home",
 //            "http://volunteer.cs.und.edu/subset_sum/",
 //            "University of North Dakota, Computer Science Department",
@@ -543,7 +558,7 @@ $math = array(
 //            "",
 //            "Study the Subset Sum problem"
 //        ),
-//        array(
+//        project(
 //            "OProject@Home",
 //            "http://oproject.info/",
 //            tra("Independent"),
@@ -553,7 +568,7 @@ $math = array(
 //            "",
 //            "Do research in math, physics, and Artificial Intelligence"
 //        ),
-        array(
+        project(
             "NumberFields@home",
             "http://numberfields.asu.edu/NumberFields/",
             "Arizona State University, school of Mathematics",
@@ -563,7 +578,7 @@ $math = array(
             "",
             tra("Do research in algebraic number theory")
         ),
-//        array(
+//        project(
 //            "VolPEx",
 //            "http://volpex.cs.uh.edu/VCP/",
 //            "University of Houston",
@@ -573,7 +588,7 @@ $math = array(
 //            "",
 //            "Study parallel computing across multiple computers"
 //        ),
-        array(
+        project(
             "SAT@home",
             "http://sat.isa.ru/pdsat/",
             "Institute for System Dynamics and Control Theory and Institute for Information Transmission Problems, Russian Academy of Science",
@@ -583,7 +598,7 @@ $math = array(
             "",
             tra("Study computational complexity")
         ),
-//        array(
+//        project(
 //            "Mersenne@home",
 //            "http://mersenneathome.net/",
 //            tra("Independent"),
@@ -592,7 +607,7 @@ $math = array(
 //
 //            "mersenne_logo80.png"
 //        ),
-//        array(
+//        project(
 //            "DistrRTgen",
 //            "http://boinc.freerainbowtables.com/distrrtgen/",
 //            "Independent",
@@ -602,7 +617,7 @@ $math = array(
 //            "",
 //            "Study hash functions"
 //        ),
-        array(
+        project(
             "Moo! Wrapper",
             "http://moowrap.net/",
             "Independent",
@@ -612,7 +627,7 @@ $math = array(
             "",
             tra("Run applications from distributed.net")
         ),
-        array(
+        project(
             "Enigma@Home",
             "http://www.enigmaathome.net/",
             tra("Independent"),
@@ -622,7 +637,7 @@ $math = array(
             "",
             tra("Decode WWII submarine messages")
         ),
-        array(
+        project(
             "Collatz Conjecture",
             "https://boinc.thesonntags.com/collatz/",
             tra("Independent"),
@@ -632,7 +647,7 @@ $math = array(
             "",
             tra("Study the Collatz Conjecture")
         ),
-        array(
+        project(
             "NFS@home",
             "http://escatter11.fullerton.edu/nfs/",
             tra("California State University Fullerton"),
@@ -642,7 +657,7 @@ $math = array(
             "",
             tra("Study the factorization of large integers")
         ),
-//        array(
+//        project(
 //            "VTU@home",
 //            "http://boinc.vgtu.lt/vtuathome/",
 //            tra("Vilnius Gediminas Technical University and Kaunas University of Technology (Lithuania)"),
@@ -652,7 +667,7 @@ $math = array(
 //            "",
 //            "Help Lithuanian researchers"
 //        ),
-//        array(
+//        project(
 //            "AQUA@home",
 //            "http://aqua.dwavesys.com/",
 //            tra("D-Wave Systems, Inc."),
@@ -660,7 +675,7 @@ $math = array(
 //            tra("D-Wave's AQUA (Adiabatic QUantum Algorithms) is a research project whose goal is to predict the performance of superconducting adiabatic quantum computers on a variety of hard problems arising in fields ranging from materials science to machine learning. AQUA@home uses Internet-connected computers to help design and analyze quantum computing algorithms, using Quantum Monte Carlo techniques."),
 //            "logo_dwave2.png"
 //        ),
-//        array(
+//        project(
 //            "SHA-1 Collision Search Graz",
 //            "http://boinc.iaik.tugraz.at/sha1_coll_search/",
 //            tra("Graz University of Technology (Austria)"),
@@ -668,7 +683,7 @@ $math = array(
 //            tra("Search for collisions (weaknesses) of the widely-used SHA-1 hash function."),
 //            "LogoKryptoGroup_klein.jpg"
 //        ),
-//        array(
+//        project(
 //            "ABC@home",
 //            "http://abcathome.com/",
 //            tra("Mathematical Institute of Leiden University / Kennislink"),
@@ -678,7 +693,7 @@ $math = array(
 //            "",
 //            "Study the ABC conjecture"
 //        ),
-        array(
+        project(
             "PrimeGrid",
             "http://www.primegrid.com/",
             tra("Independent"),
@@ -688,7 +703,7 @@ $math = array(
             "",
             tra("Search for large prime numbers")
         ),
-        array(
+        project(
             "primaboinca",
             "http://www.primaboinca.com/",
             tra("Hochschule RheinMain University of Applied Sciences"),
@@ -698,7 +713,7 @@ $math = array(
             "",
             tra("Study the properties of prime numbers")
         ),
-        array(
+        project(
             "SZTAKI Desktop Grid",
             "http://szdg.lpds.sztaki.hu/szdg/",
             tra("MTA-SZTAKI Laboratory of Parallel and Distributed Systems (Hungary)"),
@@ -708,7 +723,7 @@ $math = array(
             "",
             tra("Study number theory")
         ),
-//        array(
+//        project(
 //            "Riesel Sieve",
 //            "http://boinc.rieselsieve.com/",
 //            tra("Riesel Sieve community"),
@@ -716,7 +731,7 @@ $math = array(
 //            tra("Find prime numbers of the form k*2<sup>n</sup>-1"),
 //            ""
 //        ),
-//        array(
+//        project(
 //            "Rectilinear Crossing Number",
 //            "http://dist.ist.tugraz.at/cape5/",
 //            tra("Graz University of Technology (Austria)"),
@@ -724,7 +739,7 @@ $math = array(
 //            tra("What is the least number of crossings a straight-edge drawing of the complete graph on top of a set of n points in the plane obtains?  From very recent (not even published yet) mathematical considerations the rectilinear crossing numbers for n=19 and n=21 are also known. So the most tantalizing problem now is to determine the true value for n=18, which is the main focus of this project."),
 //            ""
 //        ),
-//        array(
+//        project(
 //            "Chess960@home",
 //            "http://www.chess960athome.org/alpha/",
 //            tra("Chess-960.org"),
@@ -732,7 +747,7 @@ $math = array(
 //            tra("This project studies Chess 960, a variant of orthodox chess. In classical chess the starting position of the game never changes.  In Chess 960, just before the start of every game, the initial configuration of the chess pieces is determined randomly."),
 //            "chess960athome.jpg"
 //        ),
-//        array(
+//        project(
 //            "NQueens@home",
 //            "http://nqueens.ing.udec.cl/",
 //            tra("Universidad de Concepción, Chile"),
@@ -740,7 +755,7 @@ $math = array(
 //            tra("The eight queens problem consists of trying to place eight queens on a chessboard so that no queen attacks any other queen.  I has long been known that there are 92 solutions, of which 12 are distinct. NQueens@home studies the generalization to N queens on an NxN board, for N=19 and greater."),
 //            "NQueens-Logo1b.png"
 //        ),
-//        array(
+//        project(
 //            "sudoku@vtaiwan",
 //            "http://sudoku.nctu.edu.tw/",
 //            "National Chiao Tung University, Taiwan",
@@ -750,7 +765,7 @@ $math = array(
 //            "",
 //            "Find the minimum Sudoku puzzle"
 //        ),
-//        array(
+//        project(
 //            "Surveill@Home",
 //            "http://surveill.dei.uc.pt/surveill",
 //            "University of Coimbra, Portugal",
@@ -758,7 +773,7 @@ $math = array(
 //            tra("Surveill@Home is a research project that conducts end-to-end fine-grained monitoring of web sites.  The project will deploy thousands of probes, each of which repeatedly performs transactions on web sites.  This approach provides end-user failure and performance statistics."),
 //            "surveill.png"
 //        ),
-        array(
+        project(
             "Gerasim@Home",
             "http://gerasim.boinc.ru/",
             "Southwest State University (Russia)",
@@ -766,9 +781,9 @@ $math = array(
             tra("Testing and comparison of heuristic methods for getting separations of parallel algorithms working in the CAD system for designing logic control systems"),
             "gerasim.gif",
             "",
-            "",
+            ""
         ),
-        array(
+        project(
             "SRBase",
             "http://srbase.my-firewall.org/sr5/",
             "Independent",

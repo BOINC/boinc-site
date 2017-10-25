@@ -20,15 +20,14 @@
 // pre-configured for a particular project or AM account
 //
 // This script gets (via POST)
-//  - info about a project or AM
-//  - optional account info
+//  - ID of a project or AM
+//  - optional login token
 //  - the name of an installer file
 // Action:
-// - look up the URL in a list of vetted entities
+// - look up the ID
 // - start a download of the requested installer,
-//   with a filename that encodes the entity and account info
+//   with a filename that encodes the ID and login token
 //
-// The installer looks at its own filename and creates init files accordingly
 
 $dir = getcwd();
 chdir("../projects/dev/html/user");

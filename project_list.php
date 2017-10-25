@@ -24,22 +24,22 @@ foreach ($areas as $area) {
     $projects = $area[1];
     foreach ($projects as $p) {
         $np = null;
-        if (array_key_exists(5, $p) && strlen($p[5])) {
-            $np->image = $p[5];
+        if ($p->logo) {
+            $np->image = $p->logo;
         }
-        $np->url = $p[1];
-        $np->web_url = $p[1];
-        if (array_key_exists(6, $p) && strlen($p[6])) {
-            $np->web_url = $p[6];
+        $np->url = $p->web_url;
+        $np->web_url = $p->web_url;
+        if (strlen($p->master_url)) {
+            $np->url = $p->master_url;
         }
-        if (array_key_exists(7, $p) && strlen($p[7])) {
-            $np->summary = $p[7];
+        if (strlen($p->summary)) {
+            $np->summary = $p->summary;
         }
-        $np->home = $p[2];
+        $np->home = $p->home;
         $np->general_area = $area_name;
-        $np->specific_area = $p[3];
-        $np->description = $p[4];
-        $np->name = $p[0];
+        $np->specific_area = $p->area;
+        $np->description = $p->description;
+        $np->name = $p->name;
 
         $proj_list[] = $np;
     }
@@ -76,10 +76,10 @@ foreach($proj_list as $p) {
 }
 
 foreach ($account_managers as $am) {
-    $name = $am[0];
-    $url = $am[1];
-    $desc = $am[2];
-    $image = $am[3];
+    $name = $am->name;
+    $url = $am->url;
+    $desc = $am->description;
+    $image = $am->logo;
     echo "   <account_manager>
         <name>$name</name>
         <url>$url</url>

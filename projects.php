@@ -47,62 +47,15 @@ If your computer is equipped with a Graphics Processing Unit
 <a href=\"http://boinc.berkeley.edu/wiki/GPU_computing\">use it to compute faster</a>.
 ";
 
-// Display projects grouped by area.
-// Randomize order of areas, and of projects within an area
-//
-function grouped_display($areas) {
-    start_table("table-striped");
-    row_heading_array(array(
-        "Project<br><small>Mouse over for details; click to visit web site</small>",
-        "Home",
-        "Research area",
-        "Supported platforms"
-        ),
-        'bg-default'
-    );
-    shuffle($areas);
-    foreach ($areas as $area) {
-        $title = $area[0];
-        if (sizeof($area)==3) $title .= $area[2];
-        list_bar($title);
-        $projects = $area[1];
-        shuffle($projects);
-        $n = 0;
-        foreach ($projects as $p) {
-            $img = "";
-            if (array_key_exists(5, $p) && $p[5]) {
-                $img= "<img align=right vspace=4 hspace=4 src=images/$p[5]>";
-            }
-            $desc = addslashes($p[4]);
-            $x = "<a href=$p[1] onmouseover=\"Tip('$img <b>Sponsor:</b> $p[2]<hr><b>Area:</b> $p[3]<hr><b>Goal:</b> $desc')\">$p[0]</a>";
-            $home = $p[2];
-            $area = $p[3];
-            $master_url = $p[1];
-            if (array_key_exists(6, $p) && strlen($p[6])) {
-                $master_url = $p[6];
-            }
-            $p = get_platforms_string($master_url);
-            echo "<tr class=row$n>
-                <td valign=top>$x</td>
-                <td valign=top>$home</td>
-                <td valign=top>$area</td>
-                <td width=30% valign=top>$p</td>
-                </tr>
-            ";
-            $n = 1-$n;
-        }
-    }
-    end_table();
+function comp_name($p1, $p2) {
+    return strcasecmp($p1->name, $p2->name);
 }
 
-function comp_name($p1, $p2) {
-    return strcasecmp($p1[0], $p2[0]);
-}
 function comp_area($p1, $p2) {
-    if ($p1['area'] == $p2['area']) {
-        return strcasecmp($p1[0], $p2[0]);
+    if ($p1->area == $p2->area) {
+        return strcasecmp($p1->name, $p2->name);
     }
-    return $p1['area'] > $p2['area'];
+    return $p1->area > $p2->area;
 }
 
 function ordered_display($areas, $sort) {
@@ -113,7 +66,7 @@ function ordered_display($areas, $sort) {
         $title = $area[0];
         $projs = $area[1];
         foreach ($projs as $p) {
-            $p['area'] = $title;
+            $p->category = $title;
             $projects[] = $p;
         }
     }
@@ -133,18 +86,18 @@ function ordered_display($areas, $sort) {
     $n = 0;
     foreach ($projects as $p) {
         $img = "";
-        if (array_key_exists(5, $p) && $p[5]) {
-            $img= "<img align=right vspace=4 hspace=4 src=images/$p[5]>";
+        if ($p->logo) {
+            $img= "<img align=right vspace=4 hspace=4 src=images/$p->logo>";
         }
-        $arg = "$img <font size=.8em><b>Goal:</b> $p[4] <br> <b>Sponsor:</b> $p[2]<br><b>Area:</b> $p[3]";
+        $arg = "$img <font size=.8em><b>Goal:</b> $p->description <br> <b>Sponsor:</b> $p->home<br><b>Area:</b> $p->area";
         $arg = addslashes($arg);
-        $x = "<a href=$p[1] onmouseover=\"Tip('$arg', WIDTH, 500, FONTSIZE, '12px', BGCOLOR, '#eeddcc')\" onmouseout=\"UnTip()\">$p[0]</a>";
-        $home = $p[2];
-        $area = $p['area'];
-        $spec_area = $p[3];
-        $master_url = $p[1];
-        if (array_key_exists(6, $p) && strlen($p[6])) {
-            $master_url = $p[6];
+        $x = "<a href=$p->web_url onmouseover=\"Tip('$arg', WIDTH, 500, FONTSIZE, '12px', BGCOLOR, '#eeddcc')\" onmouseout=\"UnTip()\">$p->name</a>";
+        $home = $p->home;
+        $category = $p->category;
+        $area = $p->area;
+        $master_url = $p->web_url;
+        if (strlen($p->master_url)) {
+            $master_url = $p->master_url;
         }
         $p = get_platform_icons($master_url);
         if (!$p) {
@@ -155,8 +108,8 @@ function ordered_display($areas, $sort) {
         }
         echo "<tr class=row$n>
             <td valign=top>$x</td>
+            <td valign=top>$category</td>
             <td valign=top>$area</td>
-            <td valign=top>$spec_area</td>
             <td valign=top>$home</td>
             <td width=30% valign=top>$p</td>
             </tr>
@@ -165,8 +118,6 @@ function ordered_display($areas, $sort) {
     }
     end_table();
 }
-
-//grouped_display($areas);
 
 $sort = @$_GET['sort'];
 ordered_display($areas, $sort);
