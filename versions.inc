@@ -44,12 +44,12 @@ function linux_info() {
 }
 
 $w78 = array(
-    "num"=>"7.8.2",
+    "num"=>"7.8.3",
     "status"=>"Recommended version",
-    "file"=>"boinc_7.8.2_windows_intelx86.exe",
-    "vbox_file"=>"boinc_7.8.2_windows_intelx86_vbox.exe",
+    "file"=>"boinc_7.8.3_windows_intelx86.exe",
+    "vbox_file"=>"boinc_7.8.3_windows_intelx86_vbox.exe",
     "vbox_version"=>"5.1.26",
-    "date"=>"28 Aug 2017",
+    "date"=>"3 Oct 2017",
     "type"=>"win_new",
 );
 
@@ -100,12 +100,12 @@ $w5816 = array(
 );
 
 $w78x64 = array(
-    "num"=>"7.8.2",
+    "num"=>"7.8.3",
     "status"=>"Recommended version",
-    "file"=>"boinc_7.8.2_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.8.2_windows_x86_64_vbox.exe",
+    "file"=>"boinc_7.8.3_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.8.3_windows_x86_64_vbox.exe",
     "vbox_version"=>"5.1.26",
-    "date"=>"28 Aug 2017",
+    "date"=>"3 Oct 2017",
     "type"=>"win_new",
 );
 
@@ -150,11 +150,19 @@ $w72x64 = array(
 );
 
 $m78 = array(
-    "num"=>"7.8.2",
+    "num"=>"7.8.3",
     "status"=>"Recommended version",
-    "file"=>"boinc_7.8.2_macOSX_x86_64.zip",
-    "date"=>"29 Aug 2017",
+    "file"=>"boinc_7.8.3_macOSX_x86_64.zip",
+    "date"=>"4 Oct 2017",
     "type"=>"mac_advanced",
+);
+
+$m78c = array(
+    "num"=>"7.8.3",
+    "status"=>"Recommended version (Unix command-line version)",
+    "file"=>"boinc_7.8.3_x86_64-apple-darwin.zip",
+    "date"=>"4 Oct 2017",
+    "type"=>"bare_core",
 );
 
 $m76 = array(
@@ -351,6 +359,7 @@ $mac = array(
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
           $m78,
+          $m78c,
           $m76,
           $m76c,
           $m74,

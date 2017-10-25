@@ -19,22 +19,71 @@
 
 // utility functions for download links
 
-function regular_link() {
+function concierge_link($concierge, $url, $long_name, $size, $num) {
+    echo sprintf(
+        '<form action="https://boinc.berkeley.edu/concierge.php" method="post">
+        <input type=hidden name=project_id value="%d">
+        <input type=hidden name=user_name value="%s">
+        <input type=hidden name=auth value="%s">
+        <input type=hidden name=filename value="%s">
+        <input type=submit value="Download">
+        </form>
+        ',
+        $concierge->id,
+        $concierge->user_name,
+        $concierge->auth,
+        $url
+    );
 }
 
-function concierge_link($concierge, $download_url) {
-    return sprintf(
+function concierge_link_vbox(
+    $concierge, $vbox_url, $long_name, $vbox_size, $num, $vbox_version
+){
+    echo sprintf(
         '<form action="https://boinc.berkeley.edu/concierge.php" method="post">
         <input type=hidden name=master_url value="%s">
         <input type=hidden name=user_name value="%s">
         <input type=hidden name=auth value="%s">
-        <input type=hidden name=download_url value="%s">
+        <input type=hidden name=filename value="%s">
+        <input type=submit value="Download BOINC and VirtualBox">
+        </form>
         ',
         $concierge->master_url,
         $concierge->user_name,
         $concierge->auth,
-        $download_url
+        $vbox_url
     );
+}
+
+function button_link_vbox($vbox_url, $long_name, $vbox_size, $num, $vbox_version) {
+    echo "
+        <a href=\"$vbox_url\" class=\"btn btn-success\"><font size=+1><u>"
+        .tra("Download BOINC + VirtualBox")
+        ."</u></font>
+        <br>"
+        // "for %s" identifies the operating system, e.g. "for Windows"
+        .sprintf(tra("for %s"), $long_name)
+        ." ($vbox_size MB)"
+        ."<br><small>"
+        .sprintf(tra("BOINC %s"), $num)
+        .", "
+        .sprintf(tra("VirtualBox %s"), $vbox_version)
+        ."</small></a>
+        &nbsp;
+        &nbsp;
+    ";
+}
+
+function button_link($url, $long_name, $size, $num) {
+    echo "
+        <a href=\"$url\" class=\"btn btn-info\"><font size=2><u>".tra("Download BOINC")."</u></font>
+        <br>"
+        .sprintf(tra("for %s"), $long_name)
+        ." ($size MB)"
+        ."<br><small>"
+        .sprintf(tra("BOINC %s"), $num)
+        ."</small></a>
+    ";
 }
 
 // Show download link(s) for the given platform,
@@ -74,14 +123,7 @@ function download_link(
     $path = "dl/$file";
     $url = $url_base.$file;
     $dlink = "<a href=\"$url\">$file</a>";
-    $s = number_format(filesize($path)/1000000, 2);
-
-    if ($concierge) {
-        $url = concierge_url($concierge, $url);
-        if ($vbox_file) {
-            $vbox_url = concierge_url($concierge, $vbox_url);
-        }
-    }
+    $size = number_format(filesize($path)/1000000, 2);
 
     if ($button) {
         if ($vbox_file && !$vbox_req) {
@@ -94,33 +136,22 @@ function download_link(
         echo "<table width=100%><tr valign=top align=center><td>\n";
 
         if ($vbox_file) {
-            echo "
-                <a href=\"$vbox_url\" class=\"btn btn-success\"><font size=+1><u>"
-                .tra("Download BOINC + VirtualBox")
-                ."</u></font>
-                <br>"
-                // "for %s" identifies the operating system, e.g. "for Windows"
-                .sprintf(tra("for %s"), $long_name)
-                ." ($vbox_size MB)"
-                ."<br><small>"
-                .sprintf(tra("BOINC %s"), $num)
-                .", "
-                .sprintf(tra("VirtualBox %s"), $vbox_version)
-                ."</small></a>
-                &nbsp;
-                &nbsp;
-            ";
+            if ($concierge) {
+                concierge_link_vbox(
+                    $concierge, $vbox_file, $long_name, $vbox_size, $num, $vbox_version
+                );
+            } else {
+                button_link_vbox(
+                    $vbox_url, $long_name, $vbox_size, $num, $vbox_version
+                );
+            }
         }
         if (!$vbox_file || !$vbox_req) {
-            echo "
-                <a href=\"$url\" class=\"btn btn-info\"><font size=2><u>".tra("Download BOINC")."</u></font>
-                <br>"
-                .sprintf(tra("for %s"), $long_name)
-                ." ($s MB)"
-                ."<br><small>"
-                .sprintf(tra("BOINC %s"), $num)
-                ."</small></a>
-            ";
+            if ($concierge) {
+                concierge_link($concierge, $url, $long_name, $size, $num);
+            } else {
+                button_link($url, $long_name, $size, $num);
+            }
         }
         echo "</td></tr></table>\n";
         if ($pname == 'linux'||$pname == 'linuxx64') {
@@ -138,7 +169,7 @@ function download_link(
         echo "<tr>
             <td class=rowlineleft>$long_name</td>
             <td class=rowline> $num</td>
-            <td class=rowlineright><a href=$url>Download</a> ($s MB)</td>
+            <td class=rowlineright><a href=$url>Download</a> ($size MB)</td>
             </tr>
         ";
     }

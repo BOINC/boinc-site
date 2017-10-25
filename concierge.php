@@ -30,7 +30,10 @@
 //
 // The installer looks at its own filename and creates init files accordingly
 
+$dir = getcwd();
+chdir("../projects/dev/html/user");
 require_once("../inc/util.inc");
+chdir($dir);
 require_once("versions.inc");
 require_once("projects.inc");
 require_once("concierge.inc");
@@ -41,11 +44,9 @@ $master_url = urldecode(post_str("master_url"));
 //
 $vp = vps_lookup($master_url);
 if (!$vp) {
-    echo "URL not found";
+    echo "URL $master_url not found";
     exit;
 }
-
-// could also check HTTP_REFERER here, but that can be forged
 
 $auth = post_str("auth", true);
 if ($auth) $auth = urldecode($auth);
@@ -53,7 +54,7 @@ if ($auth) $auth = urldecode($auth);
 $user_name = post_str("user_name", true);
 if ($user_name) $user_name = urldecode($user_name);
 
-$download_filename = post_str("download_filename");
+$filename = post_str("filename");
 
 $download_url = "https://boinc.berkeley.edu/dl/$filename";
 
@@ -69,7 +70,7 @@ $download_url = "https://boinc.berkeley.edu/dl/$filename";
 // to show on the welcome screen.
 // Can get that by other means (e.g. get_config RPC)
 
-$info = sprintf("pu=%s&am=%d",
+$info = sprintf("p=%d&am=%d",
     $master_url,
     $vp->is_am?1:0
 );
@@ -82,6 +83,7 @@ if ($auth && $user_name) {
 }
 
 $filename .= '__'.base64_encode($info);
+echo "url: $download_url  file: $filename\n"; exit;
 header("Location: ".$download_url);
 header(sprintf('Content-Disposition: attachment; filename="%s"', $filename));
 

@@ -1,5 +1,10 @@
 <?php
-require_once("../html/inc/translation.inc");
+
+$dir = getcwd();
+chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
+require_once("../inc/translation.inc");
+chdir("$dir");
+
 $languages = get_supported_languages();
 $lang = $_GET['lang'];
 if (!in_array($lang, $languages) && $lang!="auto" && $lang!="en") {

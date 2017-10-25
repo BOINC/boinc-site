@@ -22,6 +22,7 @@
 // create an apache-writable dir called "scenarios" there,
 // and symlink from html/inc to sim_util.inc
 
+chdir("~/projects/dev/html/user");
 require_once("../inc/util.inc");
 require_once("../inc/sim_util.inc");
 

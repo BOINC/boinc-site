@@ -250,15 +250,25 @@ $earth = array(
 $astro_phys_chem = array(
     tra("Physical Science"),
     array(
-        array("XANSONS for COD",
-            "http://xansons4cod.com/xansons4cod/",
-            "Private; supported by the Russian Foundation for Basic Research.",
-            "Crystallography",
-            "XANSONS for COD is a research project aimed to create an open access database of simulated x-ray and neutron powder diffraction patterns for nanocrystalline phase of the materials presented in the Crystallography Open Database (COD).",
+        array(
+            "Acoustics@home",
+            "http://www.acousticsathome.ru/boinc/",
+            "V.I. Ilichev Pacific Oceanological Institute, Far Eastern Federal University, Matrosov Institute for System Dynamics and Control Theory, A.A. Kharkevich Institute for Information Transmission Problems, Dorodnicyn Computing Centre",
+            "Physics, Underwater acoustics",
+            "In underwater acoustics the notion of geoacoustic inversion refers to a collection of techniques that can be used for the reconstruction of medium parameters. The medium parameters are usually understood as the sound speed profile in water (i.e., the dependence of the sound speed on the depth) and the sound speed and density in the sea bottom sediment layers. Medium parameters reconstruction is of great importance for problems of underwater communication and for the development of underwater navigation systems.",
             "",
             "",
-            "Study nano-materials"
+            "Study underwater acoustics"
         ),
+//        array("XANSONS for COD",
+//            "http://xansons4cod.com/xansons4cod/",
+//            "Private; supported by the Russian Foundation for Basic Research.",
+//            "Crystallography",
+//            "XANSONS for COD is a research project aimed to create an open access database of simulated x-ray and neutron powder diffraction patterns for nanocrystalline phase of the materials presented in the Crystallography Open Database (COD).",
+//            "",
+//            "",
+//            "Study nano-materials"
+//        ),
 //        array(
 //            "CONVECTOR",
 //            "http://convector.fsv.cvut.cz/",
@@ -513,6 +523,16 @@ $mixed = array(
 $math = array(
     tra("Mathematics, computing, and games"),
     array(
+        array(
+            "Amicable Numbers",
+            "https://sech.me/boinc/Amicable/",
+            "Independent",
+            "Mathematics",
+            "'Amicable numbers' are pairs where the sum of the proper divisors of each is equal to the other number. The goal of this project is to collect all amicable numbers up to a very large limit.",
+            "",
+            "",
+            tra("Do research in number theory")
+        ),
 //        array(
 //            "SubsetSum@Home",
 //            "http://volunteer.cs.und.edu/subset_sum/",
