@@ -14,9 +14,11 @@
 // 7: 1-sentence summary
 
 function project(
-    $name, $web_url, $home, $area, $description, $logo, $master_url, $summary
+    $id, $name, $web_url, $home, $area, $description,
+    $logo, $master_url, $summary
 ) {
     $x = new StdClass;
+    $x->id = $id;
     $x->name = $name;
     $x->web_url = $web_url;
     $x->home = $home;
@@ -28,10 +30,51 @@ function project(
     return $x;
 }
 
+// numeric project and AM IDs.
+// NEVER REUSE IDs
+//
+define('PROJ_QCN',              1);
+define('PROJ_RADIOACTIVE',      2);
+define('PROJ_MINDMODELING',     3);
+define('PROJ_DENIS',            4);
+define('PROJ_RNA_WORLD',        5);
+define('PROJ_GPU_GRID',         6);
+define('PROJ_ROSETTA',          7);
+define('PROJ_CPDN',             8);
+define('PROJ_ACOUSTICS',        9);
+define('PROJ_POGS',            10);
+define('PROJ_ASTEROIDS',       11);
+define('PROJ_COSMOLOGY',       12);
+define('PROJ_UNIVERSE',        13);
+define('PROJ_MILKYWAY',        14);
+define('PROJ_LEIDEN',          15);
+define('PROJ_EINSTEIN',        16);
+define('PROJ_LHC',             17);
+define('PROJ_SETI',            18);
+define('PROJ_CSG',             19);
+define('PROJ_CAS',             20);
+define('PROJ_YOYO',            21);
+define('PROJ_WCG',             22);
+define('PROJ_AMICABLE',        23);
+define('PROJ_NUMBERFIELDS',    24);
+define('PROJ_SAT',             25);
+define('PROJ_MOO',             26);
+define('PROJ_ENIGMA',          27);
+define('PROJ_COLLATZ',         28);
+define('PROJ_NFS',             29);
+define('PROJ_PRIMEGRID',       30);
+define('PROJ_PRIMABOINCA',     31);
+define('PROJ_SZTAKI',          32);
+define('PROJ_GERASIM',         33);
+define('PROJ_SRBASE',          34);
+define('PROJ_BAM',             35);
+define('PROJ_GRIDREPUBLIC',    36);
+
 $sensing = array(
     tra("Distributed sensing"),
     array(
         project(
+            PROJ_QCN,
             "Quake Catcher Network",
             "http://quakecatcher.net/sensor",
             tra("University of Southern California"),
@@ -42,6 +85,7 @@ $sensing = array(
             "Help detect earthquakes"
         ),
         project(
+            PROJ_RADIOACTIVE,
             "Radioactive@Home",
             "http://radioactiveathome.org/boinc/",
             tra("BOINC Poland Foundation"),
@@ -58,6 +102,7 @@ $cogsci = array(
     tra("Cognitive science and artifical intelligence"),
     array(
         project(
+            PROJ_MINDMODELING,
             "MindModeling@Home",
             "http://mindmodeling.org/",
             "University of Dayton and Wright State University",
@@ -78,6 +123,7 @@ $cogsci = array(
 $dormant_projects = array(
     array(
         project(
+            0,
             "FreeHAL",
             "http://www.freehal.net/freehal_at_home/",
             tra("Independent"),
@@ -95,6 +141,7 @@ $biomed = array(
     tra("Biology and Medicine"),
     array(
         project(
+            PROJ_DENIS,
             "DENIS@Home",
             "http://denis.usj.es/denisathome/",
             "San Jorge University, Zaragoza, Spain",
@@ -105,6 +152,7 @@ $biomed = array(
             "Study the physiology of the heart"
         ),
         project(
+            PROJ_RNA_WORLD,
             "RNA World",
             "http://www.rnaworld.de/rnaworld/",
             "Rechenkraft.net e.V.",
@@ -155,6 +203,7 @@ $biomed = array(
 //            "Study molecules that protect proteins"
 //        ),
         project(
+            PROJ_GPU_GRID,
             "GPUGrid.net",
             "http://www.gpugrid.net/",
             tra("Barcelona Biomedical Research Park (PRBB)"),
@@ -219,6 +268,7 @@ $biomed = array(
 //            "predictor.jpg"
 //        ),
         project(
+            PROJ_ROSETTA,
             "Rosetta@home",
             "http://boinc.bakerlab.org/rosetta/",
             tra("University of Washington"),
@@ -251,6 +301,7 @@ $earth = array(
 //            tra("Provide ecological guidelines on the design of prairies with the best potential for water purification.")
 //        ),
         project(
+            PROJ_CPDN,
             "Climateprediction.net",
             "http://climateprediction.net/",
             tra("Oxford University"),
@@ -266,6 +317,7 @@ $astro_phys_chem = array(
     tra("Physical Science"),
     array(
         project(
+            PROJ_ACOUSTICS,
             "Acoustics@home",
             "http://www.acousticsathome.ru/boinc/",
             "V.I. Ilichev Pacific Oceanological Institute, Far Eastern Federal University, Matrosov Institute for System Dynamics and Control Theory, A.A. Kharkevich Institute for Information Transmission Problems, Dorodnicyn Computing Centre",
@@ -295,6 +347,7 @@ $astro_phys_chem = array(
 //            "Study mechanical engineering"
 //        ),
         project(
+            PROJ_POGS,
             "theSkyNet POGS",
             "http://pogs.theskynet.org/pogs/",
             "The International Centre for Radio Astronomy Research (Perth, Australia)",
@@ -306,6 +359,7 @@ $astro_phys_chem = array(
             "Analyze images of space"
         ),
         project(
+            PROJ_ASTEROIDS,
             "Asteroids@home",
             "http://asteroidsathome.net/boinc/",
             "Charles University in Prague",
@@ -344,6 +398,7 @@ $astro_phys_chem = array(
 //            "http://orbit.psi.edu/"
 //        ),
         project(
+            PROJ_COSMOLOGY,
             "Cosmology@Home",
             "http://www.cosmologyathome.org/",
             tra("University of Illinois at Urbana-Champaign"),
@@ -354,6 +409,7 @@ $astro_phys_chem = array(
             "Study the evolution of the Universe"
         ),
         project(
+            PROJ_UNIVERSE,
             "Universe@Home",
             "http://universeathome.pl/universe/",
             "University of Warsaw",
@@ -364,6 +420,7 @@ $astro_phys_chem = array(
             tra("Do research in physics and astronomy")
         ),
         project(
+            PROJ_MILKYWAY,
             "Milkyway@home",
             "http://milkyway.cs.rpi.edu/milkyway/",
             tra("Rensselaer Polytechnic Institute"),
@@ -374,6 +431,7 @@ $astro_phys_chem = array(
             tra("Study the structure of the Milky Way galaxy")
         ),
         project(
+            PROJ_LEIDEN,
             "Leiden Classical",
             "http://boinc.gorlaeus.net/",
             tra("Leiden University, The Netherlands"),
@@ -392,6 +450,7 @@ $astro_phys_chem = array(
 //            "ufluids.gif"
 //        ),
         project(
+            PROJ_EINSTEIN,
             "Einstein@home",
             "https://einsteinathome.org/",
             tra("University of Wisconsin - Milwaukee (USA), Max Planck Institute for Gravitational Physics - Hanover (Germany)"),
@@ -410,6 +469,7 @@ $astro_phys_chem = array(
 //            ""
 //        ),
         project(
+            PROJ_LHC,
             "LHC@home",
             "https://lhcathome.cern.ch/lhcathome/",
             tra("CERN (European Organization for Nuclear Research)"),
@@ -440,6 +500,7 @@ $astro_phys_chem = array(
 //            tra("Simulate high-energy particle collisions for CERN")
 //        ),
         project(
+            PROJ_SETI,
             "SETI@home",
             "http://setiathome.berkeley.edu/",
             tra("University of California, Berkeley"),
@@ -474,6 +535,7 @@ $mixed = array(
     tra("Multiple applications"),
     array(
         project(
+            PROJ_CSG,
             "Citizen Science Grid",
             "https://csgrid.org/csg/",
             "University of North Dakota",
@@ -484,6 +546,7 @@ $mixed = array(
             tra("Support science from the University of North Dakota")
         ),
         project(
+            PROJ_CAS,
             "CAS@home",
             "http://casathome.ihep.ac.cn/",
             tra("Chinese Academy of Sciences"),
@@ -494,6 +557,7 @@ $mixed = array(
             tra("Help Chinese researchers")
         ),
         project(
+            PROJ_YOYO,
             "Yoyo@home",
             "http://www.rechenkraft.net/yoyo/",
             tra("Independent"),
@@ -524,6 +588,7 @@ $mixed = array(
 //            tra("Help Spanish researchers")
 //        ),
         project(
+            PROJ_WCG,
             "World Community Grid",
             "http://www.worldcommunitygrid.org/",
             tra("IBM Corporate Citizenship"),
@@ -539,6 +604,7 @@ $math = array(
     tra("Mathematics, computing, and games"),
     array(
         project(
+            PROJ_AMICABLE,
             "Amicable Numbers",
             "https://sech.me/boinc/Amicable/",
             "Independent",
@@ -569,6 +635,7 @@ $math = array(
 //            "Do research in math, physics, and Artificial Intelligence"
 //        ),
         project(
+            PROJ_NUMBERFIELDS,
             "NumberFields@home",
             "http://numberfields.asu.edu/NumberFields/",
             "Arizona State University, school of Mathematics",
@@ -589,6 +656,7 @@ $math = array(
 //            "Study parallel computing across multiple computers"
 //        ),
         project(
+            PROJ_SAT,
             "SAT@home",
             "http://sat.isa.ru/pdsat/",
             "Institute for System Dynamics and Control Theory and Institute for Information Transmission Problems, Russian Academy of Science",
@@ -618,6 +686,7 @@ $math = array(
 //            "Study hash functions"
 //        ),
         project(
+            PROJ_MOO,
             "Moo! Wrapper",
             "http://moowrap.net/",
             "Independent",
@@ -628,6 +697,7 @@ $math = array(
             tra("Run applications from distributed.net")
         ),
         project(
+            PROJ_ENIGMA,
             "Enigma@Home",
             "http://www.enigmaathome.net/",
             tra("Independent"),
@@ -638,6 +708,7 @@ $math = array(
             tra("Decode WWII submarine messages")
         ),
         project(
+            PROJ_COLLATZ,
             "Collatz Conjecture",
             "https://boinc.thesonntags.com/collatz/",
             tra("Independent"),
@@ -648,6 +719,7 @@ $math = array(
             tra("Study the Collatz Conjecture")
         ),
         project(
+            PROJ_NFS,
             "NFS@home",
             "http://escatter11.fullerton.edu/nfs/",
             tra("California State University Fullerton"),
@@ -694,6 +766,7 @@ $math = array(
 //            "Study the ABC conjecture"
 //        ),
         project(
+            PROJ_PRIMEGRID,
             "PrimeGrid",
             "http://www.primegrid.com/",
             tra("Independent"),
@@ -704,6 +777,7 @@ $math = array(
             tra("Search for large prime numbers")
         ),
         project(
+            PROJ_PRIMABOINCA,
             "primaboinca",
             "http://www.primaboinca.com/",
             tra("Hochschule RheinMain University of Applied Sciences"),
@@ -714,6 +788,7 @@ $math = array(
             tra("Study the properties of prime numbers")
         ),
         project(
+            PROJ_SZTAKI,
             "SZTAKI Desktop Grid",
             "http://szdg.lpds.sztaki.hu/szdg/",
             tra("MTA-SZTAKI Laboratory of Parallel and Distributed Systems (Hungary)"),
@@ -774,6 +849,7 @@ $math = array(
 //            "surveill.png"
 //        ),
         project(
+            PROJ_GERASIM,
             "Gerasim@Home",
             "http://gerasim.boinc.ru/",
             "Southwest State University (Russia)",
@@ -784,6 +860,7 @@ $math = array(
             ""
         ),
         project(
+            PROJ_SRBASE,
             "SRBase",
             "http://srbase.my-firewall.org/sr5/",
             "Independent",
@@ -807,5 +884,32 @@ function lookup_project($url) {
     }
     return null;
 }
+
+function acct_mgr($id, $name, $url, $description, $logo) {
+    $x = new StdClass;
+    $x->id = $id;
+    $x->name = $name;
+    $x->url = $url;
+    $x->description = $description;
+    $x->logo = $logo;
+    return $x;
+}
+
+$account_managers = array(
+    acct_mgr(
+        PROJ_BAM,
+        "BAM!",
+        "https://bam.boincstats.com/",
+        tra("BAM! lets you create and manage BOINC project accounts, set preferences, join or create teams, connect your computers to projects, and much more."),
+        "BAM.png"
+    ),
+    acct_mgr(
+        PROJ_GRIDREPUBLIC,
+        "Gridrepublic",
+        "http://www.gridrepublic.org/",
+        tra("Gridrepublic lets you connect your computer to multiple projects, set preferences, and view your credit history."),
+        "logo_gridrepublic_vc.gif"
+    ),
+);
 
 ?>
