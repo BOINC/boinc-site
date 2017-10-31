@@ -1,7 +1,7 @@
 <?php
 // This file is part of BOINC.
 // http://boinc.berkeley.edu
-// Copyright (C) 2014 University of California
+// Copyright (C) 2017 University of California
 //
 // BOINC is free software; you can redistribute it and/or modify it
 // under the terms of the GNU Lesser General Public License
@@ -21,69 +21,32 @@
 //
 // This script gets (via POST)
 //  - ID of a project or AM
-//  - optional login token
+//  - login token
 //  - the name of an installer file
-// Action:
-// - look up the ID
-// - start a download of the requested installer,
-//   with a filename that encodes the ID and login token
+// It downloads the requested installer,
+// with a filename that encodes the project ID and login token
 //
 
 $dir = getcwd();
 chdir("../projects/dev/html/user");
 require_once("../inc/util.inc");
 chdir($dir);
-require_once("versions.inc");
-require_once("projects.inc");
-require_once("concierge.inc");
 
-$master_url = urldecode(post_str("master_url"));
-
-// check if URL is in vetted list
-//
-$vp = vps_lookup($master_url);
-if (!$vp) {
-    echo "URL $master_url not found";
-    exit;
-}
-
-$auth = post_str("auth", true);
-if ($auth) $auth = urldecode($auth);
-
-$user_name = post_str("user_name", true);
-if ($user_name) $user_name = urldecode($user_name);
-
+$project_id = post_int("project_id");
+$token = post_str("token");
 $filename = post_str("filename");
-
-$download_url = "https://boinc.berkeley.edu/dl/$filename";
-
-// add info to filename.
-// We should keep the filename as short as possible;
-// long filenames are unexpected and might scare people off.
-// So add only the basics:
-// - entity URL
-// - whether it's an AM
-// - account user name and account token
-//
-// Would be nice to include other stuff (entity institution/description)
-// to show on the welcome screen.
-// Can get that by other means (e.g. get_config RPC)
-
-$info = sprintf("p=%d&am=%d",
-    $master_url,
-    $vp->is_am?1:0
-);
-
-if ($auth && $user_name) {
-    $info .= sprintf("&ut=%s&un=%s",
-        $auth,
-        $user_name
-    );
+if (strstr($filename, "..")) exit;
+if (strstr($filename, "/")) exit;
+$path = "dl/$filename";
+if (strstr($filename, ".exe")) {
+    $x = sprintf('__%d_%s.exe', $project_id, $token);
+    $new_filename = str_replace('.exe', $x, $filename);
+} else {
+    $new_filename = sprintf("%s__%d_%s", $filename, $project_id, $token);
 }
-
-$filename .= '__'.base64_encode($info);
-echo "url: $download_url  file: $filename\n"; exit;
-header("Location: ".$download_url);
-header(sprintf('Content-Disposition: attachment; filename="%s"', $filename));
+header("Content-length: ".filesize($path));
+header("Content-type: application/octet-stream");
+header(sprintf('Content-Disposition: attachment; filename=%s;', $new_filename));
+readfile($path);
 
 ?>

@@ -19,43 +19,9 @@
 
 // utility functions for download links
 
-function concierge_link($concierge, $url, $long_name, $size, $num) {
-    echo sprintf(
-        '<form action="https://boinc.berkeley.edu/concierge.php" method="post">
-        <input type=hidden name=project_id value="%d">
-        <input type=hidden name=user_name value="%s">
-        <input type=hidden name=auth value="%s">
-        <input type=hidden name=filename value="%s">
-        <input type=submit value="Download">
-        </form>
-        ',
-        $concierge->id,
-        $concierge->user_name,
-        $concierge->auth,
-        $url
-    );
-}
-
-function concierge_link_vbox(
-    $concierge, $vbox_url, $long_name, $vbox_size, $num, $vbox_version
-){
-    echo sprintf(
-        '<form action="https://boinc.berkeley.edu/concierge.php" method="post">
-        <input type=hidden name=master_url value="%s">
-        <input type=hidden name=user_name value="%s">
-        <input type=hidden name=auth value="%s">
-        <input type=hidden name=filename value="%s">
-        <input type=submit value="Download BOINC and VirtualBox">
-        </form>
-        ',
-        $concierge->master_url,
-        $concierge->user_name,
-        $concierge->auth,
-        $vbox_url
-    );
-}
-
-function button_link_vbox($vbox_url, $long_name, $vbox_size, $num, $vbox_version) {
+function button_link_vbox(
+    $vbox_url, $long_name, $vbox_size, $num, $vbox_version
+) {
     echo "
         <a href=\"$vbox_url\" class=\"btn btn-success\"><font size=+1><u>"
         .tra("Download BOINC + VirtualBox")
@@ -89,17 +55,14 @@ function button_link($url, $long_name, $size, $num) {
 // Show download link(s) for the given platform,
 // showing version and download size information.
 // Show both VBox and non-VBox links if available.
-// If via concierge, show links as form submit buttons
 //
 function download_link(
     $client_info,
     $pname,
     $button=false,
         // show as button (else table row)
-    $vbox_req=false,
+    $vbox_req=false
         // if vbox version is available, show only it
-    $concierge = null
-        // download via concierge w/ info given by this object
 ) {
     global $platforms;
     global $url_base;
@@ -136,22 +99,12 @@ function download_link(
         echo "<table width=100%><tr valign=top align=center><td>\n";
 
         if ($vbox_file) {
-            if ($concierge) {
-                concierge_link_vbox(
-                    $concierge, $vbox_file, $long_name, $vbox_size, $num, $vbox_version
-                );
-            } else {
-                button_link_vbox(
-                    $vbox_url, $long_name, $vbox_size, $num, $vbox_version
-                );
-            }
+            button_link_vbox(
+                $vbox_url, $long_name, $vbox_size, $num, $vbox_version
+            );
         }
         if (!$vbox_file || !$vbox_req) {
-            if ($concierge) {
-                concierge_link($concierge, $url, $long_name, $size, $num);
-            } else {
-                button_link($url, $long_name, $size, $num);
-            }
+            button_link($url, $long_name, $size, $num);
         }
         echo "</td></tr></table>\n";
         if ($pname == 'linux'||$pname == 'linuxx64') {

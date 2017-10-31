@@ -68,30 +68,45 @@ function show_detail($v) {
 
 
 function show_version_xml($v, $p) {
-    $name = $p["name"];
-    $dbname = $p["dbname"];
-    $num = $v["num"];
-    $file = $v["file"];
-    $status = $v["status"];
-    $path = "dl/$file";
-    $url = version_url($v['file']);
-    $dlink = "<a href=$url>$file</a>";
-    $s = number_format(filesize($path)/1000000, 2);
-    $date = $v["date"];
-    $type = type_text($v["type"]);
-    echo "
-<version>
-    <platform>$name</platform>
-    <dbplatform>$dbname</dbplatform>
-    <description>$status</description>
-    <date>$date</date>
-    <version_num>$num</version_num>
-    <url>$url</url>
-    <filename>$file</filename>
-    <size_mb>$s</size_mb>
-    <installer>$type</installer>
-</version>
-";
+    $path = "dl/".$v["file"];
+    echo sprintf(
+'<version>
+    <platform>%s</platform>
+    <dbplatform>%s</dbplatform>
+    <description>%s</description>
+    <date>%s</date>
+    <version_num>%s</version_num>
+    <url>%s</url>
+    <filename>%s</filename>
+    <size_mb>%s</size_mb>
+    <installer>%s</installer>
+',
+        $p["name"],
+        $p["dbname"],
+        $v["status"],
+        $v["date"],
+        $v["num"],
+        version_url($v['file']),
+        $v["file"],
+        number_format(filesize($path)/1000000, 2),
+        type_text($v["type"])
+    );
+    if (array_key_exists('vbox_file', $v)) {
+        $path = "dl/".$v["vbox_file"];
+        echo sprintf(
+'    <vbox_version>%s</vbox_version>
+    <vbox_url>%s</vbox_url>
+    <vbox_filename>%s</vbox_filename>
+    <vbox_size_mb>%s</vbox_size_mb>
+',
+            $v['vbox_version'],
+            version_url($v['vbox_file']),
+            $v['vbox_file'],
+            number_format(filesize($path)/1000000, 2)
+        );
+    }
+    echo '</version>
+';
 }
 
 function show_version($pname, $i, $v) {
