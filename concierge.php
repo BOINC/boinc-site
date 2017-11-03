@@ -34,15 +34,18 @@ chdir($dir);
 
 $project_id = post_int("project_id");
 $token = post_str("token");
+$user_id = post_str("user_id");
 $filename = post_str("filename");
 if (strstr($filename, "..")) exit;
 if (strstr($filename, "/")) exit;
 $path = "dl/$filename";
 if (strstr($filename, ".exe")) {
-    $x = sprintf('__%d_%s.exe', $project_id, $token);
+    $x = sprintf('__%d_%d_%s.exe', $project_id, $user_id, $token);
     $new_filename = str_replace('.exe', $x, $filename);
 } else {
-    $new_filename = sprintf("%s__%d_%s", $filename, $project_id, $token);
+    $new_filename = sprintf("%s__%d_%d_%s",
+        $filename, $project_id, $user_id, $token
+    );
 }
 header("Content-length: ".filesize($path));
 header("Content-type: application/octet-stream");
