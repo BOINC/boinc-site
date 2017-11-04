@@ -2,7 +2,10 @@
 require_once("docutil.php");
 require_once("spoken_languages.php");
 require_once("help_db.php");
-require_once("../html/inc/translation.inc");
+$dir = getcwd();
+chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
+require_once("../inc/translation.inc");
+chdir($dir);
 
 page_head(tra("Live help via Skype or email"));
 
