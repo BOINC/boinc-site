@@ -140,17 +140,17 @@ $dormant_projects = array(
 $biomed = array(
     tra("Biology and Medicine"),
     array(
-        project(
-            PROJ_DENIS,
-            "DENIS@Home",
-            "http://denis.usj.es/denisathome/",
-            "San Jorge University, Zaragoza, Spain",
-            tra("Medical physiology"),
-            tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
-            "",
-            "",
-            "Study the physiology of the heart"
-        ),
+//        project(
+//            PROJ_DENIS,
+//            "DENIS@Home",
+//            "http://denis.usj.es/denisathome/",
+//            "San Jorge University, Zaragoza, Spain",
+//            tra("Medical physiology"),
+//            tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
+//            "",
+//            "",
+//            "Study the physiology of the heart"
+//        ),
         project(
             PROJ_RNA_WORLD,
             "RNA World",
