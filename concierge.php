@@ -24,7 +24,8 @@
 //  - login token
 //  - the name of an installer file
 // It downloads the requested installer,
-// with a filename that encodes the project ID and login token
+// with a filename that encodes the project ID and login token (Win)
+// or adding this info to the download zip (Mac)
 //
 
 $dir = getcwd();
@@ -32,24 +33,89 @@ chdir("../projects/dev/html/user");
 require_once("../inc/util.inc");
 chdir($dir);
 
+// default: just send the file
+//
+function other($filename) {
+    $path = "dl/$filename";
+    header("Content-length: ".filesize($path));
+    header("Content-type: application/octet-stream");
+    header(sprintf('Content-Disposition: attachment; filename=%s;', $filename));
+    readfile($path);
+}
+
+// Windows: encode info in filename
+//
+function windows($filename, $project_id, $user_id, $token) {
+    $path = "dl/$filename";
+    if (strstr($filename, ".exe")) {
+        $x = sprintf('__%d_%d_%s.exe', $project_id, $user_id, $token);
+        $new_filename = str_replace('.exe', $x, $filename);
+    } else {
+        $new_filename = sprintf("%s__%d_%d_%s",
+            $filename, $project_id, $user_id, $token
+        );
+    }
+    header("Content-length: ".filesize($path));
+    header("Content-type: application/octet-stream");
+    header(sprintf('Content-Disposition: attachment; filename=%s;', $new_filename));
+    readfile($path);
+}
+
+// Mac: add info file to zip
+//
+function mac($filename, $project_id, $user_id, $token) {
+    // make a temp dir
+    //
+    $tempdir = tempnam("/tmp", "concierge_mac_");
+    unlink($tempdir);
+    if (!mkdir($tempdir)) {
+        other($filename);
+    }
+
+    // copy installer to a temp file
+    //
+    $zpath = "$tempdir/$filename";
+    copy("dl/$filename", $zpath);
+
+    // create info file
+    //
+    $ifile = "installer_filename.txt";
+    $ipath = "$tempdir/$ifile";
+    file_put_contents(
+        $ipath, sprintf("__%d_%d_%s", $project_id, $user_id, $token)
+    );
+
+    // add to zip
+    //
+    exec("cd $tempdir; zip $filename $ifile");
+
+    // download it
+    //
+    header("Content-length: ".filesize($zpath));
+    header("Content-type: application/zip");
+    header(sprintf('Content-Disposition: attachment; filename=%s;', $filename));
+    readfile($zpath);
+
+    // clean up temp files
+    //
+    unlink($ipath);
+    unlink($zpath);
+    rmdir($tempdir);
+}
+
 $project_id = post_int("project_id");
 $token = post_str("token");
 $user_id = post_str("user_id");
 $filename = post_str("filename");
 if (strstr($filename, "..")) exit;
 if (strstr($filename, "/")) exit;
-$path = "dl/$filename";
-if (strstr($filename, ".exe")) {
-    $x = sprintf('__%d_%d_%s.exe', $project_id, $user_id, $token);
-    $new_filename = str_replace('.exe', $x, $filename);
+
+if (strstr($filename, "win")) {
+    windows($filename, $project_id, $user_id, $token);
+} else if (strstr($filename, "macOSX")) {
+    mac($filename, $project_id, $user_id, $token);
 } else {
-    $new_filename = sprintf("%s__%d_%d_%s",
-        $filename, $project_id, $user_id, $token
-    );
+    other($filename);
 }
-header("Content-length: ".filesize($path));
-header("Content-type: application/octet-stream");
-header(sprintf('Content-Disposition: attachment; filename=%s;', $new_filename));
-readfile($path);
 
 ?>

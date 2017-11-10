@@ -1,0 +1,11 @@
+.tip {
+    font:15px Arial,Helvetica,sans-serif;
+    border:solid 1px #666666;
+    padding:10px;
+    position:absolute;
+    z-index:100;
+    visibility:hidden;
+    color:#333333;
+    background-color:#ffffcc;
+    layer-background-color:#ffffcc;
+}

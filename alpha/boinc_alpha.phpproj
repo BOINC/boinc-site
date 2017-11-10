@@ -1,0 +1,104 @@
+"General"
+{
+"ProjectType" = "local"
+"AutoLoadTemplate" = "%s.php;class.%s.php;"
+"IncludeDirs" = ""
+"ProjectIdGuid" = "{AB4384B1-5A55-4E69-A403-8E5CA7BDE80C}"
+"ProjectVersion" = "2.9.1.6290"
+}
+"Configurations"
+{
+    "Local|PHP 5.2"
+    {
+    }
+    "Staging|PHP 5.2"
+    {
+    }
+    "Production|PHP 5.2"
+    {
+    }
+}
+"Files"
+{
+    "test.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_util.inc"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_users.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_instructions.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_details.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test.sql"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_needscoverage.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_mailer.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "top_testers.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_form2.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    ".vsphpignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_list.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_action.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_matrix.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_form.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_status.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test_summary.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "cron.sh"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}
+"References"
+{
+}

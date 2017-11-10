@@ -1,0 +1,49 @@
+"Reminder" emails to alpha testers.
+
+This should be sent to testers who haven't reported
+a result in the last N days
+
+------------------
+
+Subject: BOINC Alpha Test status
+
+Dear (name):
+
+Please help us complete the testing of BOINC version 7.4.23.
+To do this:
+
+- Download the software from http://boinc.berkeley.edu/download.php
+
+- Perform the tests described at
+  http://boinc.berkeley.edu/alpha/test_matrix.php
+  Do whatever tests you can; you don't need to do all of them.
+
+- Report the outcomes of your tests - positive or negative - at
+  http://boinc.berkeley.edu/alpha/test_form.php
+
+We need positive test results to be confident that BOINC will
+work correctly on the wide range of volunteer computers.
+We release a version only when we have
+at least 5 positive results for each test and computer type.
+
+The testing of version 7.4.23 is currently 8% complete.
+When this reaches 100% we can release it to the public.
+
+Your history of BOINC Alpha testing is:
+
+Joined: 7 July 2010
+Number of test results reported: 10
+Last test result reported: 9 Dec 2011
+
+The BOINC Alpha email list is used to announce new versions for testing
+and to discuss bugs and design issues.
+If you are not subscribed to the email list,
+we encourage you to do: visit
+http://lists.ssl.berkeley.edu/mailman/listinfo/boinc_alpha
+
+If you are unable to continue testing BOINC and want to
+stop getting emails about it, please notify me or David.
+
+Thanks for your help.
+
+Rom Walton
