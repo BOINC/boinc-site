@@ -150,18 +150,18 @@ $w72x64 = array(
 );
 
 $m78 = array(
-    "num"=>"7.8.3",
+    "num"=>"7.8.4",
     "status"=>"Recommended version",
-    "file"=>"boinc_7.8.3_macOSX_x86_64.zip",
-    "date"=>"4 Oct 2017",
+    "file"=>"boinc_7.8.4_macOSX_x86_64.zip",
+    "date"=>"10 Nov 2017",
     "type"=>"mac_advanced",
 );
 
 $m78c = array(
-    "num"=>"7.8.3",
+    "num"=>"7.8.4",
     "status"=>"Recommended version (Unix command-line version)",
-    "file"=>"boinc_7.8.3_x86_64-apple-darwin.zip",
-    "date"=>"4 Oct 2017",
+    "file"=>"boinc_7.8.4_x86_64-apple-darwin.zip",
+    "date"=>"10 Nov 2017",
     "type"=>"bare_core",
 );
 
