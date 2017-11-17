@@ -39,7 +39,7 @@ echo "
     <h3> <a href=server_test_matrix.php>Test cases</a></h3>
     <dd> The set of test procedures</dd>
     <h3><a href=server_form.php>Report test results</a></h3>
-    <dd> Submit test results for a particular platform and version</dd>
+    <dd> Submit test results </dd>
     <h3> <a href=server_summary.php>View results</a></h3>
     <dd> See test results for recent versions</dd>
     <a href=home.php>Your account</a>

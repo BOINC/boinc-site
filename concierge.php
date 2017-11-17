@@ -63,44 +63,48 @@ function windows($filename, $project_id, $user_id, $token) {
 
 // Mac: add info file to zip
 //
-function mac($filename, $project_id, $user_id, $token) {
+function mac($zipname, $project_id, $user_id, $token) {
     // make a temp dir
     //
     $tempdir = tempnam("/tmp", "concierge_mac_");
     unlink($tempdir);
     if (!mkdir($tempdir)) {
-        other($filename);
+        other($zipname);
     }
 
-    // copy installer to a temp file
+    // copy installer to temp dir
     //
-    $zpath = "$tempdir/$filename";
-    copy("dl/$filename", $zpath);
+    $zpath = "$tempdir/$zipname";
+    copy("dl/$zipname", $zpath);
+
+    // get name without the .zip
+    //
+    $fname = substr($zipname, 0, strlen($zipname)-4);
+
+    mkdir("$tempdir/$fname");
 
     // create info file
     //
-    $ifile = "installer_filename.txt";
-    $ipath = "$tempdir/$ifile";
+    $ifile = "account_data.txt";
+    $ipath = "$tempdir/$fname/$ifile";
     file_put_contents(
         $ipath, sprintf("__%d_%d_%s", $project_id, $user_id, $token)
     );
 
     // add to zip
     //
-    exec("cd $tempdir; zip $filename $ifile");
+    exec("cd $tempdir; zip $zipname $fname/$ifile");
 
     // download it
     //
     header("Content-length: ".filesize($zpath));
     header("Content-type: application/zip");
-    header(sprintf('Content-Disposition: attachment; filename=%s;', $filename));
+    header(sprintf('Content-Disposition: attachment; filename=%s;', $zipname));
     readfile($zpath);
 
     // clean up temp files
     //
-    unlink($ipath);
-    unlink($zpath);
-    rmdir($tempdir);
+    exec("/bin/rm -rf $tempdir");
 }
 
 $project_id = post_int("project_id");

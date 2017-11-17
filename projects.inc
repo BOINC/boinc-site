@@ -4,32 +4,6 @@
 // look at https://boinc.berkeley.edu/project_list.php in a browser to make sure
 // you didn't mess up the XML
 
-// 0: name
-// 1: web site URL
-// 2: home
-// 3: area
-// 4: description
-// 5: logo
-// 6: master URL (if different from web site)
-// 7: 1-sentence summary
-
-function project(
-    $id, $name, $web_url, $home, $area, $description,
-    $logo, $master_url, $summary
-) {
-    $x = new StdClass;
-    $x->id = $id;
-    $x->name = $name;
-    $x->web_url = $web_url;
-    $x->home = $home;
-    $x->area = $area;
-    $x->description = $description;
-    $x->logo = $logo;
-    $x->master_url = $master_url;
-    $x->summary = $summary;
-    return $x;
-}
-
 // numeric project and AM IDs.
 // NEVER REUSE IDs
 //
@@ -69,10 +43,49 @@ define('PROJ_GERASIM',         33);
 define('PROJ_SRBASE',          34);
 define('PROJ_BAM',             35);
 define('PROJ_GRIDREPUBLIC',    36);
+define('PROJ_BOINC_TEST',      100);
+define('PROJ_ONBOARD',         101);
+
+function project(
+    $id, $name, $web_url, $home, $area, $description,
+    $logo, $master_url, $summary
+) {
+    $x = new StdClass;
+    $x->id = $id;
+    $x->name = $name;
+    $x->web_url = $web_url;
+    $x->home = $home;
+    $x->area = $area;
+    $x->description = $description;
+    $x->logo = $logo;
+    $x->master_url = $master_url;
+    $x->summary = $summary;
+    return $x;
+}
+
+// 0: name
+// 1: web site URL
+// 2: home
+// 3: area
+// 4: description
+// 5: logo
+// 6: master URL (if different from web site)
+// 7: 1-sentence summary
 
 $sensing = array(
     tra("Distributed sensing"),
     array(
+        project(
+            PROJ_BOINC_TEST,
+            "BOINC test",
+            "https://boinc.berkeley.edu/test/",
+            "UC Berkeley",
+            "Testing",
+            "Test new BOINC features",
+            "",
+            "",
+            "Test new BOINC features"
+        ),
         project(
             PROJ_QCN,
             "Quake Catcher Network",
@@ -909,6 +922,13 @@ $account_managers = array(
         "http://www.gridrepublic.org/",
         tra("Gridrepublic lets you connect your computer to multiple projects, set preferences, and view your credit history."),
         "logo_gridrepublic_vc.gif"
+    ),
+    acct_mgr(
+        PROJ_ONBOARD,
+        "Onboard",
+        "https://boinc.berkeley.edu/test2/",
+        "Onboard prototype",
+        ""
     ),
 );
 

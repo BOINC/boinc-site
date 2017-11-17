@@ -7,9 +7,12 @@
 $dir = getcwd();
 chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
 require_once("../inc/translation.inc");
+require_once("../inc/util.inc");
 require_once("projects.inc");
 require_once("get_platforms.inc");
 chdir($dir);
+
+$test = get_str("test", true);
 
 header('Content-type: text/xml');
 echo '<?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -22,6 +25,7 @@ foreach ($areas as $area) {
     $area_name = $area[0];
     $projects = $area[1];
     foreach ($projects as $p) {
+        if (!$test && $p->id >= 100) continue;
         $np = null;
         if ($p->logo) {
             $np->image = $p->logo;
@@ -77,6 +81,7 @@ foreach($proj_list as $p) {
 }
 
 foreach ($account_managers as $am) {
+    if (!$test && $am->id >= 100) continue;
     echo "   <account_manager>
         <name>$am->name</name>
         <id>$am->id</id>
