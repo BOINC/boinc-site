@@ -24,7 +24,7 @@ $min_version = get_str("min_version", true);
 $max_version = get_str("max_version", true);
 $version = get_str("version", true);
 $type_name = get_str("type", true);
-if ( isset($_SERVER['HTTP_USER_AGENT'] ) {
+if (isset($_SERVER['HTTP_USER_AGENT'])) {
     $client_info = $_SERVER['HTTP_USER_AGENT'];
 } else {
     $client_info = "";

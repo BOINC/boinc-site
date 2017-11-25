@@ -44,11 +44,13 @@ define('PROJ_SRBASE',          34);
 define('PROJ_BAM',             35);
 define('PROJ_GRIDREPUBLIC',    36);
 define('PROJ_BOINC_TEST',      100);
-define('PROJ_ONBOARD',         101);
+define('PROJ_SCIENCE_UNITED',  101);
+
+require_once("keywords.inc");
 
 function project(
     $id, $name, $web_url, $home, $area, $description,
-    $logo, $master_url, $summary
+    $logo, $master_url, $summary, $keywords
 ) {
     $x = new StdClass;
     $x->id = $id;
@@ -58,8 +60,9 @@ function project(
     $x->area = $area;
     $x->description = $description;
     $x->logo = $logo;
-    $x->master_url = $master_url;
+    $x->master_url = $master_url?$master_url:$web_url;
     $x->summary = $summary;
+    $x->keywords = $keywords;
     return $x;
 }
 
@@ -84,7 +87,8 @@ $sensing = array(
             "Test new BOINC features",
             "",
             "",
-            "Test new BOINC features"
+            "Test new BOINC features",
+            array(KW_MATH_CS, KW_AMERICAS, KW_US, KW_UCB)
         ),
         project(
             PROJ_QCN,
@@ -95,7 +99,8 @@ $sensing = array(
             tra("Quake-Catcher Network uses sensors attached to computers and smartphones to detect seismic waves."),
             "",
             "http://quakecatcher.net/sensor/",
-            "Help detect earthquakes"
+            "Help detect earthquakes",
+            array(KW_EARTH_SCI, KW_AMERICAS, KW_US, KW_USC)
         ),
         project(
             PROJ_RADIOACTIVE,
@@ -106,13 +111,14 @@ $sensing = array(
             tra("Radioactive@Home is creating a free and continuously updated map of radiation levels using sensors connected to volunteers' computers.  You must buy a sensor to participate."),
             "radioactive.jpg",
             "",
-            "Monitor radiation levels"
+            "Monitor radiation levels",
+            array(KW_ENV_RESEARCH, KW_EUROPE, KW_POLAND)
         ),
     ),
 );
 
 $cogsci = array(
-    tra("Cognitive science and artifical intelligence"),
+    tra("Cognitive science and artificial intelligence"),
     array(
         project(
             PROJ_MINDMODELING,
@@ -123,7 +129,8 @@ $cogsci = array(
             tra("MindModeling@Home uses computational cognitive process modeling to better understand the human mind, and specifically to study the mechanisms and processes that enable and moderate human performance and learning."),
             "mmlogo.gif",
             "",
-            "Model the human brain"
+            "Model the human brain",
+            array(KW_AI, KW_AMERICAS, KW_US, KW_U_DAYTON)
         ),
     ),
 );
@@ -144,7 +151,8 @@ $dormant_projects = array(
             tra("Parse and convert semantic nets for use in FreeHAL, an artificial intelligence that uses semantic networks, stemmers, part of speech databases, and part of speech taggers in order to imitate human behavior in conversations."),
             "",
             "",
-            "Create an artificial intelligence"
+            "Create an artificial intelligence",
+            array()
         ),
     ),
 );
@@ -153,17 +161,6 @@ $dormant_projects = array(
 $biomed = array(
     tra("Biology and Medicine"),
     array(
-//        project(
-//            PROJ_DENIS,
-//            "DENIS@Home",
-//            "http://denis.usj.es/denisathome/",
-//            "San Jorge University, Zaragoza, Spain",
-//            tra("Medical physiology"),
-//            tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
-//            "",
-//            "",
-//            "Study the physiology of the heart"
-//        ),
         project(
             PROJ_RNA_WORLD,
             "RNA World",
@@ -173,48 +170,9 @@ $biomed = array(
             tra("RNA World seeks to identify, analyze, structurally predict and design RNA molecules on the basis of established bioinformatics software."),
             "rna4.png",
             "",
-            "Study and design RNA molecules"
+            "Study and design RNA molecules",
+            array(KW_BIOMED, KW_GENETICS, KW_EUROPE, KW_GERMANY)
         ),
-//        project(
-//            "FiND@Home",
-//            "http://findah.ucd.ie/",
-//            tra("University College Dublin"),
-//            tra("Antimalarial drug discovery"),
-//            tra("The parasite that causes malaria continues to evolve resistance to available medication. We therefore urgently need to discover new drugs, targeting new proteins in the parasite. The FiND@Home project is aimed at finding these new targets."),
-//            "",
-//            "",
-//            "Develop malaria drugs"
-//        ),
-//        project(
-//            "POEM@HOME",
-//            "http://boinc.fzk.de/poem/",
-//            tra("University of Karlsruhe (Germany)"),
-//            tra("Protein structure prediction"),
-//            tra("POEM@HOME uses a computational approach to predict the biologically active structure of proteins, to understand the signal-processing mechanisms when the proteins interact with one another, to understand diseases related to protein malfunction or aggregation, and to develop new drugs on the basis of the three-dimensions structure of biologically important proteins."),
-//            "poem.jpg",
-//            "",
-//            "Study protein structure and interaction"
-//        ),
-//        project(
-//            "Docking@Home",
-//            "http://docking.cis.udel.edu/",
-//            tra("University of Delaware"),
-//            tra("Study of protein - ligand interactions"),
-//            tra("Docking@Home has both bioscience and computer science goals. The project aims to further knowledge of the atomic details of protein-ligand interactions and, by doing so, will search for insights into the discovery of novel pharmaceuticals."),
-//            "docking.png",
-//            "",
-//            "Study protein-ligand interactions"
-//        ),
-//        project(
-//            "Simulation One",
-//            "http://mmgboinc.unimi.it/",
-//            "Universita degli Studi, Milan, Italy",
-//            "Molecular biology",
-//            "The project studies osmoprotectants - small molecules that protect proteins, for example by thermal stress. Thanks to these molecules in nature we can find plants able to survive without water, or bacteria able to survive in extreme environmental conditions. And how is this possible? Answering this question could have a major impact in agriculture, e.g. developing plants that require less water intake.",
-//            "SimOne_logo.png",
-//            "",
-//            "Study molecules that protect proteins"
-//        ),
         project(
             PROJ_GPU_GRID,
             "GPUGrid.net",
@@ -224,62 +182,9 @@ $biomed = array(
             tra("GPUGrid.net opens novel computational scenarios by the first full-atom molecular dynamics code (CellMD) specially optimized to run on NVIDIA GPUs. New biomedical applications suddenly become possible giving a new role to computational biology for biomedical research."),
             "gpugrid.png",
             "",
-            "Help biomedical research"
+            "Help biomedical research",
+            array(KW_BIOMED, KW_EUROPE, KW_SPAIN, KW_PRBB)
         ),
-//        project(
-//            "Superlink@Technion",
-//            "http://cbl-boinc-server2.cs.technion.ac.il/superlinkattechnion/",
-//            tra("Technion, Israel"),
-//            tra("Genetic linkage analysis"),
-//            tra("Superlink@Technion helps geneticists all over the world find disease-provoking genes causing some types of diabetes, hypertension (high blood pressure), cancer, schizophrenia and many others."),
-//            "superlink_logo.gif",
-//            "",
-//            "Find genetic causes of diseases"
-//        ),
-//        project(
-//            "Proteins@Home",
-//            "http://biology.polytechnique.fr/proteinsathome",
-//            tra("Ecole Polytechnique, Paris"),
-//            tra("Protein structure prediction"),
-//            tra("By joining Proteins@Home, you will be part of a large-scale protein structure prediction project and help to advance an important area of science. By increasing our knowledge of proteins, you will contribute to a better understanding of many diseases and pathologies, and to progress in both medicine and technology. Proteins@Home is not for profit."),
-//            "proteinsathome.gif"
-//        ),
-//        project(
-//            "The Lattice Project",
-//            "http://boinc.umiacs.umd.edu/",
-//            tra("University of Maryland Center for Bioinformatics and Computational Biology"),
-//            tra("Life science research"),
-//            tra("The Lattice Project, developed and administered at the University of Maryland, supplies computing power to researchers worldwide who are studying evolutionary relationships using DNA and protein sequence data."),
-//            "lattice.gif",
-//            "",
-//            "Study evolution using genetics"
-//        ),
-//        project(
-//            "Malariacontrol.net",
-//            "http://www.malariacontrol.net/",
-//            tra("The Swiss Tropical Institute"),
-//            tra("Epidemiology"),
-//            tra("Simulation models of the transmission dynamics and health effects of malaria are an important tool for malaria control. They can be used to determine optimal strategies for delivering mosquito nets, chemotherapy, or new vaccines which are currently under development and testing.  Such modeling is extremely computer intensive, requiring simulations of large human populations with a diverse set of parameters related to biological and social factors that influence the distribution of the disease. "),
-//            "africaathome.gif",
-//            "",
-//            "Study the spread of malaria"
-//        ),
-//        project(
-//            "Tanpaku",
-//            "http://issofty17.is.noda.tus.ac.jp/",
-//            tra("Tokyo University of Science"),
-//            tra("Biology"),
-//            tra("To predict protein structure and function from genetic sequences, using the 'Brownian Dynamics' (BD) method.  This method enables us to simulate more efficiently than conventional methods."),
-//            "tanpaku.jpg"
-//        ),
-//        project(
-//            "Predictor@home",
-//            "http://predictor.chem.lsa.umich.edu/",
-//            tra("University of Michigan"),
-//            tra("Biology"),
-//            tra("Protein structure prediction starts from a sequence of amino acids and attempts to predict the folded, functioning, form of the protein.  Predicting the structure of an unknown protein is a critical problem in enabling structure-based drug design to treat new and existing diseases."),
-//            "predictor.jpg"
-//        ),
         project(
             PROJ_ROSETTA,
             "Rosetta@home",
@@ -289,30 +194,14 @@ $biomed = array(
             tra("Determine the 3-dimensional shapes of proteins in research that may ultimately lead to finding cures for some major human diseases. By running Rosetta@home you will help us speed up and extend our research in ways we couldn't possibly attempt without your help. You will also be helping our efforts at designing new proteins to fight diseases such as HIV, malaria, cancer, and Alzheimer's"),
             "rosetta_at_home_logo.jpg",
             "",
-            "Study diseases such as HIV, malaria, cancer, and Alzheimer's"
+            "Study diseases such as HIV, malaria, cancer, and Alzheimer's",
+            array(KW_BIOMED, KW_DISEASE, KW_PROTEINS, KW_AMERICAS, KW_US, KW_UW)
         ),
-//        project(
-//            "SIMAP",
-//            "http://boincsimap.org/boincsimap/",
-//            tra("University of Vienna"),
-//            tra("Biology"),
-//            tra("Calculate similarities between proteins. SIMAP provides a public database of the resulting data, which plays a key role in many bioinformatics research projects."),
-//            "simaplogo.jpg",
-//            "",
-//            "Calculate similarities between proteins"
-//        ),
     ),
 );
 $earth = array(
     tra("Earth Sciences"),
     array(
-//        project(
-//            "Virtual Prairie",
-//            "http://vcsc.cs.uh.edu/virtual-prairie/",
-//            tra("University of Houston"),
-//            tra("Study of botanical ecosystems"),
-//            tra("Provide ecological guidelines on the design of prairies with the best potential for water purification.")
-//        ),
         project(
             PROJ_CPDN,
             "Climateprediction.net",
@@ -322,7 +211,8 @@ $earth = array(
             tra("Investigate the approximations that have to be made in state-of-the-art climate models. By running the model thousands of times we hope to find out how the model responds to slight tweaks to these approximations - slight enough to not make the approximations any less realistic. This will allow us to improve our understanding of how sensitive our models are to small changes and also to things like changes in carbon dioxide and the sulphur cycle. This will allow us to explore how climate may change in the next century under a wide range of different scenarios."),
             "cpn_logo_world_1.jpg",
             "http://climateapps2.oucs.ox.ac.uk/cpdnboinc/",
-            "Study long-term climate change"
+            "Study long-term climate change",
+            array(KW_EARTH_SCI, KW_CLIMATE, KW_EUROPE, KW_UK, KW_OXFORD)
         ),
     ),
 );
@@ -338,27 +228,9 @@ $astro_phys_chem = array(
             "In underwater acoustics the notion of geoacoustic inversion refers to a collection of techniques that can be used for the reconstruction of medium parameters. The medium parameters are usually understood as the sound speed profile in water (i.e., the dependence of the sound speed on the depth) and the sound speed and density in the sea bottom sediment layers. Medium parameters reconstruction is of great importance for problems of underwater communication and for the development of underwater navigation systems.",
             "",
             "",
-            "Study underwater acoustics"
+            "Study underwater acoustics",
+            array(KW_PHYSICS, KW_EUROPE, KW_RUSSIA)
         ),
-//        project("XANSONS for COD",
-//            "http://xansons4cod.com/xansons4cod/",
-//            "Private; supported by the Russian Foundation for Basic Research.",
-//            "Crystallography",
-//            "XANSONS for COD is a research project aimed to create an open access database of simulated x-ray and neutron powder diffraction patterns for nanocrystalline phase of the materials presented in the Crystallography Open Database (COD).",
-//            "",
-//            "",
-//            "Study nano-materials"
-//        ),
-//        project(
-//            "CONVECTOR",
-//            "http://convector.fsv.cvut.cz/",
-//            "Czech Technical University in Prague",
-//            tra("Mechanical engineering"),
-//            tra("Currently we are calculating the optimum design of a structure call the 52 bar truss"),
-//            "convector.jpg",
-//            "",
-//            "Study mechanical engineering"
-//        ),
         project(
             PROJ_POGS,
             "theSkyNet POGS",
@@ -369,7 +241,8 @@ $astro_phys_chem = array(
 
             "",
             "",
-            "Analyze images of space"
+            "Analyze images of space",
+            array(KW_ASTRONOMY, KW_OCEANIA, KW_AUSTRALIA)
         ),
         project(
             PROJ_ASTEROIDS,
@@ -380,36 +253,9 @@ $astro_phys_chem = array(
             tra("The aim of the project is to derive shapes and spin for a significant part of the asteroid population. As input data, we use any asteroid photometry that is available. The results are asteroid convex shape models with the direction of the spin axis and the rotation period."),
             "asteroids_logo.jpg",
             "",
-            "Study the properties of asteroids"
+            "Study the properties of asteroids",
+            array(KW_ASTRONOMY, KW_EUROPE, KW_CZECH, KW_CHARLES_PRAGUE)
         ),
-//        project(
-//            "Constellation",
-//            "http://aerospaceresearch.net/constellation/",
-//            "<a href='http://rechenkraft.net'>Rechenkraft.net</a>, <a href='http://stuttgart.dglr.de'>DGLR</a>, <a href='http://selfnet.de'>Selfnet</a>, and <a href='http://shackspace.de'>shack</a>",
-//            tra("Aerospace-related science and engineering"),
-//            tra("Constellation is a platform for aerospace-related simulations, including trajectory optimization of launchers, satellites and probes, simulation of Moon's near-surface exosphere, and analysis of dynamic systems of exploration-rovers"),
-//            "constellation2.png",
-//            "",
-//            tra("Perform aerospace-related simulations")
-//        ),
-//        project(
-//            "eOn",
-//            "http://eon.ices.utexas.edu/eon2/",
-//            tra("University of Texas at Austin"),
-//            tra("Chemistry"),
-//            tra("A common problem in theoretical chemistry, condensed matter physics and materials science is the calculation of the time evolution of an atomic scale system where, for example, chemical reactions and/or diffusion occur. Generally the events of interest are quite rare (many orders of magnitude slower than the vibrational movements of the atoms), and therefore direct simulations, tracking every movement of the atoms, would take thousands of years of computer calculations on the fastest present day computer before a single event of interest can be expected to occur.  Our research group is interested in calculating the long time dynamics of systems."),
-//            "",
-//            "",
-//            "Study the time evolution of atomic systems"
-//        ),
-//        project(
-//            "Orbit@home",
-//            "http://orbit.psi.edu/oah/",
-//            tra("Planetary Science Institute"),
-//            tra("Astronomy"),
-//            tra("Monitor and study the hazard posed by near-Earth asteroids"),
-//            "http://orbit.psi.edu/"
-//        ),
         project(
             PROJ_COSMOLOGY,
             "Cosmology@Home",
@@ -419,7 +265,8 @@ $astro_phys_chem = array(
             tra("The goal of Cosmology@Home is to search for the model that best describes our Universe and to find the range of models that agree with the available astronomical particle physics data."),
             "cosmo.jpg",
             "",
-            "Study the evolution of the Universe"
+            "Study the evolution of the Universe",
+            array(KW_ASTRONOMY, KW_COSMOLOGY, KW_AMERICAS, KW_US, KW_U_ILLINOIS)
         ),
         project(
             PROJ_UNIVERSE,
@@ -430,7 +277,8 @@ $astro_phys_chem = array(
             tra("Universe@Home aims to create the first database of the simulated stellar content of the Universe, from the earliest stars to the most exotic black hole binaries."),
             "universe_at_home.png",
             "",
-            tra("Do research in physics and astronomy")
+            tra("Do research in physics and astronomy"),
+            array(KW_ASTRONOMY, KW_EUROPE, KW_POLAND, KW_U_WARSAW)
         ),
         project(
             PROJ_MILKYWAY,
@@ -441,7 +289,8 @@ $astro_phys_chem = array(
             tra("The goal of Milkyway@Home is to create a highly accurate three dimensional model of the Milky Way galaxy using data gathered by the Sloan Digital Sky Survey."),
             "mw.png",
             "",
-            tra("Study the structure of the Milky Way galaxy")
+            tra("Study the structure of the Milky Way galaxy"),
+            array(KW_ASTRONOMY, KW_AMERICAS, KW_US, KW_RPI)
         ),
         project(
             PROJ_LEIDEN,
@@ -452,16 +301,9 @@ $astro_phys_chem = array(
             tra("Surface science calculations using Classical Dynamics.  Leiden Classical allows volunteers, students and other scientist to submit their personal calculations to the grid. Each user has his own personal queue for Classical Dynamics jobs. In this way students have used the grid to simulate liquid argon, or to test the validity of the ideal gas law by actually doing the simulations through the grid."),
             "leiden_classical.png",
             "",
-            tra("Help students do atomic simulations")
+            tra("Help students do atomic simulations"),
+            array(KW_CHEMISTRY, KW_EUROPE, KW_HOLLAND)
         ),
-//        project(
-//            "uFluids@home",
-//            "http://www.ufluids.net/",
-//            tra("Purdue University"),
-//            tra("Physics/Aeronautics"),
-//            tra("The uFluids project simulates two-phase fluid behavior in microgravity and microfluidics problems. Our goal is to design better satellite propellant management devices and address two-phase flow in microchannel and MEMS devices."),
-//            "ufluids.gif"
-//        ),
         project(
             PROJ_EINSTEIN,
             "Einstein@home",
@@ -471,16 +313,9 @@ $astro_phys_chem = array(
             tra("Einstein@Home uses your computer's idle time to search for weak astrophysical signals from spinning neutron stars (often called pulsars) using data from the LIGO gravitational-wave detectors, the Arecibo radio telescope, and the Fermi gamma-ray satellite."),
             "einstein.jpg",
             "",
-            tra("Help detect pulsars and gravitational waves")
+            tra("Help detect pulsars and gravitational waves"),
+            array(KW_ASTRONOMY, KW_GW, KW_PULSARS, KW_EUROPE, KW_GERMANY, KW_AEI)
         ),
-//        project(
-//            "Albert@home",
-//            "http://albert.phys.uwm.edu/",
-//            tra("Univ. of Wisconsin - Milwaukee, Max Planck Institute"),
-//            tra("Astrophysics"),
-//            "Test project for Einstein@home",
-//            ""
-//        ),
         project(
             PROJ_LHC,
             "LHC@home",
@@ -490,28 +325,9 @@ $astro_phys_chem = array(
             tra("The Large Hadron Collider (LHC) is a particle accelerator at CERN, the European Organization for Nuclear Research, the world's largest particle physics laboratory.  It is the most powerful instrument ever built to investigate on particles proprieties. LHC@home runs simulations to improve the design of LHC and its detectors."),
             "lhc.jpg",
             "",
-            tra("Improve the design of the Large Hadron Collider")
+            tra("Improve the design of the Large Hadron Collider"),
+            array(KW_PHYSICS, KW_PARTICLE_PHYSICS, KW_EUROPE, KW_CERN)
         ),
-//        project(
-//            "vLHCathome",
-//            "http://lhcathome2.cern.ch/vLHCathome/",
-//            tra("CERN (European Organization for Nuclear Research)"),
-//            tra("Physics"),
-//            tra("This project uses CERN-developed virtual machine technology for LHC event physics simulation on volunteer computers.  Requires that you install VirtualBox on your computer"),
-//            "t4t.png",
-//            "",
-//            tra("Simulate high-energy particle collisions")
-//        ),
-//        project(
-//            "ATLAS@Home",
-//            "http://atlasathome.cern.ch/",
-//            tra("CERN (European Organization for Nuclear Research)"),
-//            tra("Physics"),
-//            tra("ATLAS@Home uses volunteer computing to run simulations for ATLAS, a particle physics experiment at CERN's Large Hadron Collider.  ATLAS searches for new particles and processes using head-on collisions of protons of extraordinary high energy."),
-//            "atlas_at_home.jpg",
-//            "",
-//            tra("Simulate high-energy particle collisions for CERN")
-//        ),
         project(
             PROJ_SETI,
             "SETI@home",
@@ -521,26 +337,9 @@ $astro_phys_chem = array(
             tra("SETI (Search for Extraterrestrial Intelligence) is a scientific area whose goal is to detect intelligent life outside Earth. One approach, known as radio SETI, uses radio telescopes to listen for narrow-bandwidth radio signals from space. Such signals are not known to occur naturally, so a detection would provide evidence of extraterrestrial technology."),
             "seti_logo.png",
             "",
-            tra("Search for evidence of extra-terrestrial life")
+            tra("Search for evidence of extra-terrestrial life"),
+            array(KW_ASTRONOMY, KW_SETI, KW_AMERICAS, KW_US, KW_UCB)
         ),
-//        project(
-//            "Quantum Monte Carlo at Home",
-//            "http://qah.uni-muenster.de/",
-//            tra("University of Muenster (Germany)"),
-//            tra("Chemistry"),
-//            tra("Study the structure and reactivity of molecules using Quantum Chemistry."),
-//            "logo_oben.jpg"
-//        ),
-//        project(
-//            "Spinhenge@home",
-//            "http://spin.fh-bielefeld.de/",
-//            tra("Bielefeld University of Applied Sciences"),
-//            tra("Chemical engineering and nanotechnology"),
-//            tra("The study of molecular magnets and controlled nanoscale magnetism.  These magnetic molecules may be used to develop tiny magnetic switches, with applications in medicine (such as local tumor chemotherapy) and biotechnology."),
-//            "rotating-fe30-h90px.gif",
-//            "",
-//            "Study nanoscale magnetism"
-//        ),
     ),
 );
 
@@ -556,7 +355,8 @@ $mixed = array(
             tra("The Citizen Science Grid is dedicated to supporting a wide range of research and educational projects using volunteer computing and citizen science."),
             "",
             "",
-            tra("Support science from the University of North Dakota")
+            tra("Support science from the University of North Dakota"),
+            array(KW_BIOMED, KW_MATH_CS, KW_AMERICAS, KW_US, KW_UND)
         ),
         project(
             PROJ_CAS,
@@ -567,7 +367,8 @@ $mixed = array(
             tra("CAS@home is hosted by the Computing Centre of the Institute of High Energy Physics (IHEP), Chinese Academy of Sciences, for Chinese scientists with projects studying protein structure, nanotechnology, cancer genomics, and high energy physics."),
             "cas_at_home.jpg",
             "",
-            tra("Help Chinese researchers")
+            tra("Help Chinese researchers"),
+            array(KW_PHYSICS, KW_BIOMED, KW_ASIA, KW_CHINA)
         ),
         project(
             PROJ_YOYO,
@@ -578,28 +379,9 @@ $mixed = array(
             tra("Yoyo@home is an adapter between BOINC and several existing volunteer computing projects: ECM, Muon, Evolution@home, and distributed.net"),
             "",
             "",
-            tra("Do research in math, physics, and evolution")
+            tra("Do research in math, physics, and evolution"),
+            array(KW_MATH_CS, KW_PHYSICS, KW_GENETICS, KW_EUROPE, KW_GERMANY)
         ),
-//        project(
-//            "EDGeS@Home",
-//            "http://home.edges-grid.eu/home/",
-//            tra("MTA-SZTAKI Laboratory of Parallel and Distributed Systems (Hungary)"),
-//            tra("European research projects"),
-//            tra("The EDGeS@Home Beta project integrates volunteer computing into the service grid network of Europe by allowing service grids to send workunits to be processed by the volunteers of this project. The scientific projects covered by the project include math, physics, biology, etc."),
-//            "logo_edges.png",
-//            "",
-//            tra("Help European researchers")
-//        ),
-//        project(
-//            "Ibercivis",
-//            "http://registro.ibercivis.es/",
-//            tra("Spanish universities and research centers"),
-//            tra("Various Spanish research projects"),
-//            tra("Research in physics, material science, and biomedicine"),
-//            "cabecera2.jpg",
-//            "",
-//            tra("Help Spanish researchers")
-//        ),
         project(
             PROJ_WCG,
             "World Community Grid",
@@ -609,7 +391,8 @@ $mixed = array(
             tra("To further critical non-profit research on some of humanity's most pressing problems by creating the world's largest volunteer computing grid.  Research includes HIV-AIDS, cancer, tropical and neglected diseases, solar energy, clean water and many more."),
             "wcg.jpg",
             "",
-            tra("Do biomedical and environmental research")
+            tra("Do biomedical and environmental research"),
+            array(KW_BIOMED, KW_EARTH_SCI, KW_AMERICAS, KW_US)
         ),
     ),
 );
@@ -625,28 +408,9 @@ $math = array(
             "'Amicable numbers' are pairs where the sum of the proper divisors of each is equal to the other number. The goal of this project is to collect all amicable numbers up to a very large limit.",
             "",
             "",
-            tra("Do research in number theory")
+            tra("Do research in number theory"),
+            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE)
         ),
-//        project(
-//            "SubsetSum@Home",
-//            "http://volunteer.cs.und.edu/subset_sum/",
-//            "University of North Dakota, Computer Science Department",
-//            tra("Computer Science"),
-//            "Research in computational complexity",
-//            "",
-//            "",
-//            "Study the Subset Sum problem"
-//        ),
-//        project(
-//            "OProject@Home",
-//            "http://oproject.info/",
-//            tra("Independent"),
-//            tra("Mathematics, Physics, Artificial Intelligence"),
-//            tra("Simulation of quantum computing; Goldbach's conjecture."),
-//            "oproject_logo.png",
-//            "",
-//            "Do research in math, physics, and Artificial Intelligence"
-//        ),
         project(
             PROJ_NUMBERFIELDS,
             "NumberFields@home",
@@ -656,18 +420,9 @@ $math = array(
             tra("NumberFields@home searches for fields with special properties. The primary application of this research is in the realm of algebraic number theory. Number theorists can mine the data for interesting patterns to help them formulate conjectures about number fields. Ultimately, this research will lead to a deeper understanding of the profound properties of numbers, the basic building blocks of all mathematics."),
             "nf_banner_10.jpg",
             "",
-            tra("Do research in algebraic number theory")
+            tra("Do research in algebraic number theory"),
+            array(KW_MATH_CS, KW_AMERICAS, KW_US, KW_ASU)
         ),
-//        project(
-//            "VolPEx",
-//            "http://volpex.cs.uh.edu/VCP/",
-//            "University of Houston",
-//            "Computer science",
-//            "Creating effective parallel computing on multiple volatile nodes. Apply research on REMD Protein Folding.",
-//            "",
-//            "",
-//            "Study parallel computing across multiple computers"
-//        ),
         project(
             PROJ_SAT,
             "SAT@home",
@@ -677,27 +432,9 @@ $math = array(
             tra("Solve hard and practically important problems (discrete functions inversion problems, discrete optimization, bioinformatics, etc.) that can be effectively reduced to Boolean satisfiability problem."),
             "sat_logo.png",
             "",
-            tra("Study computational complexity")
+            tra("Study computational complexity"),
+            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA, KW_RAS)
         ),
-//        project(
-//            "Mersenne@home",
-//            "http://mersenneathome.net/",
-//            tra("Independent"),
-//            tra("Mathematics"),
-//            tra("Mersenne@home searches for 'Mersenne primes' - prime numbers of the form 2<sup>p</sup>-1."),
-//
-//            "mersenne_logo80.png"
-//        ),
-//        project(
-//            "DistrRTgen",
-//            "http://boinc.freerainbowtables.com/distrrtgen/",
-//            "Independent",
-//            tra("Cryptography"),
-//            "To give the world's security experts the best tools available for detecting weak hashes. This can help them to force developers to use more secure methods of password protection.",
-//            "freerainbowtables_logo.png",
-//            "",
-//            "Study hash functions"
-//        ),
         project(
             PROJ_MOO,
             "Moo! Wrapper",
@@ -707,7 +444,8 @@ $math = array(
             tra("Run applications from distributed.net"),
             "",
             "",
-            tra("Run applications from distributed.net")
+            tra("Run applications from distributed.net"),
+            array(KW_MATH_CS)
         ),
         project(
             PROJ_ENIGMA,
@@ -718,7 +456,8 @@ $math = array(
             tra("Attempt to decode 3 original Enigma messages. The signals were intercepted in the North Atlantic in 1942 and are believed to be unbroken."),
             "",
             "",
-            tra("Decode WWII submarine messages")
+            tra("Decode WWII submarine messages"),
+            array(KW_MATH_CS, KW_EUROPE)
         ),
         project(
             PROJ_COLLATZ,
@@ -729,7 +468,8 @@ $math = array(
             tra("Study the Collatz Conjecture, an unsolved conjecture in mathematics"),
             "",
             "",
-            tra("Study the Collatz Conjecture")
+            tra("Study the Collatz Conjecture"),
+            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE)
         ),
         project(
             PROJ_NFS,
@@ -740,44 +480,9 @@ $math = array(
             tra("NFS@Home is a research project that uses Internet-connected computers to do the lattice sieving step in the Number Field Sieve factorization of large integers. As a young school student, you gained your first experience at breaking an integer into prime factors, such as 15 = 3 * 5 or 35 = 5 * 7. NFS@Home is a continuation of that experience, only with integers that are hundreds of digits long."),
             "NFS_Logo.jpg",
             "",
-            tra("Study the factorization of large integers")
+            tra("Study the factorization of large integers"),
+            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_AMERICAS, KW_US, KW_FULLERTON)
         ),
-//        project(
-//            "VTU@home",
-//            "http://boinc.vgtu.lt/vtuathome/",
-//            tra("Vilnius Gediminas Technical University and Kaunas University of Technology (Lithuania)"),
-//            tra("Software testing"),
-//            tra("The aim of this project is to provide a powerful distributed computing platform for scientists of Vilnius Gediminas Technical University (VGTU) as well as others Lithuanian academic institutions.  Current applications involve the study of Monte-Carlo based software testing."),
-//            "vtuathome-white.gif",
-//            "",
-//            "Help Lithuanian researchers"
-//        ),
-//        project(
-//            "AQUA@home",
-//            "http://aqua.dwavesys.com/",
-//            tra("D-Wave Systems, Inc."),
-//            tra("Quantum computing"),
-//            tra("D-Wave's AQUA (Adiabatic QUantum Algorithms) is a research project whose goal is to predict the performance of superconducting adiabatic quantum computers on a variety of hard problems arising in fields ranging from materials science to machine learning. AQUA@home uses Internet-connected computers to help design and analyze quantum computing algorithms, using Quantum Monte Carlo techniques."),
-//            "logo_dwave2.png"
-//        ),
-//        project(
-//            "SHA-1 Collision Search Graz",
-//            "http://boinc.iaik.tugraz.at/sha1_coll_search/",
-//            tra("Graz University of Technology (Austria)"),
-//            tra("Cryptography"),
-//            tra("Search for collisions (weaknesses) of the widely-used SHA-1 hash function."),
-//            "LogoKryptoGroup_klein.jpg"
-//        ),
-//        project(
-//            "ABC@home",
-//            "http://abcathome.com/",
-//            tra("Mathematical Institute of Leiden University / Kennislink"),
-//            tra("Mathematics"),
-//            tra("Search for 'abc-triples': positive integers a,b,c such that a+b=c, a &lt; b &lt; c, a,b,c have no common divisors and c > rad(abc), where rad(n) is the product of the distinct prime factors of n. The ABC conjecture says that there are only finitely many a,b,c such that log(c)/log(rad(abc)) > h for any real h > 1. The ABC conjecture is currently one of the greatest open problems in mathematics. If it is proven to be true, a lot of other open problems can be answered directly from it."),
-//            "abclogo.jpg",
-//            "",
-//            "Study the ABC conjecture"
-//        ),
         project(
             PROJ_PRIMEGRID,
             "PrimeGrid",
@@ -787,7 +492,8 @@ $math = array(
             tra("Primegrid has multiple projects searching for different forms of very large prime numbers, including searching for the largest known prime number."),
             "primegrid_logo.png",
             "",
-            tra("Search for large prime numbers")
+            tra("Search for large prime numbers"),
+            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE)
         ),
         project(
             PROJ_PRIMABOINCA,
@@ -798,7 +504,8 @@ $math = array(
             tra("Search for counterexamples to two conjectures related to the identification of prime numbers"),
             "logo_primaboinca.gif",
             "",
-            tra("Study the properties of prime numbers")
+            tra("Study the properties of prime numbers"),
+            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE, KW_GERMANY)
         ),
         project(
             PROJ_SZTAKI,
@@ -809,58 +516,9 @@ $math = array(
             tra("Find all the generalized binary number systems (in which bases are matrices and digits are vectors) up to dimension 11."),
             "szdg1_small.jpg",
             "",
-            tra("Study number theory")
+            tra("Study number theory"),
+            array(KW_MATH_CS, KW_EUROPE, KW_HUNGARY)
         ),
-//        project(
-//            "Riesel Sieve",
-//            "http://boinc.rieselsieve.com/",
-//            tra("Riesel Sieve community"),
-//            tra("Mathematics"),
-//            tra("Find prime numbers of the form k*2<sup>n</sup>-1"),
-//            ""
-//        ),
-//        project(
-//            "Rectilinear Crossing Number",
-//            "http://dist.ist.tugraz.at/cape5/",
-//            tra("Graz University of Technology (Austria)"),
-//            tra("Mathematics"),
-//            tra("What is the least number of crossings a straight-edge drawing of the complete graph on top of a set of n points in the plane obtains?  From very recent (not even published yet) mathematical considerations the rectilinear crossing numbers for n=19 and n=21 are also known. So the most tantalizing problem now is to determine the true value for n=18, which is the main focus of this project."),
-//            ""
-//        ),
-//        project(
-//            "Chess960@home",
-//            "http://www.chess960athome.org/alpha/",
-//            tra("Chess-960.org"),
-//            tra("Game study"),
-//            tra("This project studies Chess 960, a variant of orthodox chess. In classical chess the starting position of the game never changes.  In Chess 960, just before the start of every game, the initial configuration of the chess pieces is determined randomly."),
-//            "chess960athome.jpg"
-//        ),
-//        project(
-//            "NQueens@home",
-//            "http://nqueens.ing.udec.cl/",
-//            tra("Universidad de Concepción, Chile"),
-//            tra("Mathematics"),
-//            tra("The eight queens problem consists of trying to place eight queens on a chessboard so that no queen attacks any other queen.  I has long been known that there are 92 solutions, of which 12 are distinct. NQueens@home studies the generalization to N queens on an NxN board, for N=19 and greater."),
-//            "NQueens-Logo1b.png"
-//        ),
-//        project(
-//            "sudoku@vtaiwan",
-//            "http://sudoku.nctu.edu.tw/",
-//            "National Chiao Tung University, Taiwan",
-//            tra("Mathematics"),
-//            "Sudoku@vtaiwan seeks to solve the minimum Sudoku problem, a well-known problem in mathematics and computer science.",
-//            "sudoku.png",
-//            "",
-//            "Find the minimum Sudoku puzzle"
-//        ),
-//        project(
-//            "Surveill@Home",
-//            "http://surveill.dei.uc.pt/surveill",
-//            "University of Coimbra, Portugal",
-//            "Web performance",
-//            tra("Surveill@Home is a research project that conducts end-to-end fine-grained monitoring of web sites.  The project will deploy thousands of probes, each of which repeatedly performs transactions on web sites.  This approach provides end-user failure and performance statistics."),
-//            "surveill.png"
-//        ),
         project(
             PROJ_GERASIM,
             "Gerasim@Home",
@@ -870,7 +528,8 @@ $math = array(
             tra("Testing and comparison of heuristic methods for getting separations of parallel algorithms working in the CAD system for designing logic control systems"),
             "gerasim.gif",
             "",
-            ""
+            "",
+            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA)
         ),
         project(
             PROJ_SRBASE,
@@ -881,7 +540,8 @@ $math = array(
             "SRBase is a mathematical research project that uses Internet-connected computers trying to solve Sierpinski / Riesel Bases up to 1030.",
             "",
             "",
-            ""
+            "",
+            array(KW_MATH_CS, KW_NUMBER_THEORY)
         ),
     ),
 );
@@ -924,10 +584,10 @@ $account_managers = array(
         "logo_gridrepublic_vc.gif"
     ),
     acct_mgr(
-        PROJ_ONBOARD,
-        "Onboard",
+        PROJ_SCIENCE_UNITED,
+        "Science United",
         "https://boinc.berkeley.edu/test2/",
-        "Onboard prototype",
+        "Science United prototype",
         ""
     ),
 );
