@@ -39,6 +39,7 @@ define('PROJ_GERASIM',         33);
 define('PROJ_SRBASE',          34);
 define('PROJ_BAM',             35);
 define('PROJ_GRIDREPUBLIC',    36);
+define('PROJ_SOURCEFINDER',    37);
 define('PROJ_BOINC_TEST',      100);
 define('PROJ_SCIENCE_UNITED',  101);
 

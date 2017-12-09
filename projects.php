@@ -9,7 +9,7 @@ echo "
 <p>
 BOINC is used by many volunteer computing <b>projects</b>.
 Some are based at universities and research labs,
-others are run by companies and individuals.
+others are run by private groups or individuals.
 You can participate in any number of these projects.
 <p>
 In deciding whether to participate in a project,

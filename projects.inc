@@ -89,7 +89,7 @@ $cogsci = array(
         project(
             PROJ_MINDMODELING,
             "MindModeling@Home",
-            "http://mindmodeling.org/",
+            "https://mindmodeling.org/",
             "University of Dayton and Wright State University",
             tra("Cognitive Science"),
             tra("MindModeling@Home uses computational cognitive process modeling to better understand the human mind, and specifically to study the mechanisms and processes that enable and moderate human performance and learning."),
@@ -211,6 +211,18 @@ $astro_phys_chem = array(
             array(KW_ASTRONOMY, KW_OCEANIA, KW_AUSTRALIA)
         ),
         project(
+            PROJ_SOURCEFINDER,
+            "SourceFinder",
+            "https://sourcefinder.theskynet.org/duchamp/",
+            "The International Centre for Radio Astronomy Research (Perth, Australia)",
+            tra("Astronomy"),
+            "Sourcefinder aims to test the effectiveness of algorithms that process 'cubes' of data that contain radio sources, and identify the location of the sources within the cube.",
+            "",
+            "",
+            "Improve radio astronomy algorithms",
+            array(KW_ASTRONOMY, KW_OCEANIA, KW_AUSTRALIA)
+        ),
+        project(
             PROJ_ASTEROIDS,
             "Asteroids@home",
             "http://asteroidsathome.net/boinc/",
@@ -237,7 +249,7 @@ $astro_phys_chem = array(
         project(
             PROJ_UNIVERSE,
             "Universe@Home",
-            "http://universeathome.pl/universe/",
+            "https://universeathome.pl/universe/",
             "University of Warsaw",
             tra("Astronomy"),
             tra("Universe@Home aims to create the first database of the simulated stellar content of the Universe, from the earliest stars to the most exotic black hole binaries."),
@@ -278,7 +290,7 @@ $astro_phys_chem = array(
             tra("Astrophysics"),
             tra("Einstein@Home uses your computer's idle time to search for weak astrophysical signals from spinning neutron stars (often called pulsars) using data from the LIGO gravitational-wave detectors, the Arecibo radio telescope, and the Fermi gamma-ray satellite."),
             "einstein.jpg",
-            "",
+            "http://einsteinathome.org/",
             tra("Help detect pulsars and gravitational waves"),
             array(KW_ASTRONOMY, KW_GW, KW_PULSARS, KW_EUROPE, KW_GERMANY, KW_AEI)
         ),
@@ -380,7 +392,7 @@ $math = array(
         project(
             PROJ_NUMBERFIELDS,
             "NumberFields@home",
-            "http://numberfields.asu.edu/NumberFields/",
+            "https://numberfields.asu.edu/NumberFields/",
             "Arizona State University, school of Mathematics",
             tra("Mathematics"),
             tra("NumberFields@home searches for fields with special properties. The primary application of this research is in the realm of algebraic number theory. Number theorists can mine the data for interesting patterns to help them formulate conjectures about number fields. Ultimately, this research will lead to a deeper understanding of the profound properties of numbers, the basic building blocks of all mathematics."),
@@ -440,7 +452,7 @@ $math = array(
         project(
             PROJ_NFS,
             "NFS@home",
-            "http://escatter11.fullerton.edu/nfs/",
+            "https://escatter11.fullerton.edu/nfs/",
             tra("California State University Fullerton"),
             tra("Factorization of large integers"),
             tra("NFS@Home is a research project that uses Internet-connected computers to do the lattice sieving step in the Number Field Sieve factorization of large integers. As a young school student, you gained your first experience at breaking an integer into prime factors, such as 15 = 3 * 5 or 35 = 5 * 7. NFS@Home is a continuation of that experience, only with integers that are hundreds of digits long."),

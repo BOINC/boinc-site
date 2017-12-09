@@ -161,4 +161,20 @@ function client_info_to_platform($client_info) {
     }
 }
 
+// same, but return long platform name
+//
+function client_info_to_platform_long($client_info) {
+    switch (client_info_to_platform($client_info)) {
+    case "winx64": return "windows_x86_64";
+    case "win": return "windows_intelx86";
+    case "mac": return "x86_64-apple-darwin";
+    case "mac32": return "i686-apple-darwin";
+    case "macppc": return "powerpc-apple-darwin";
+    case "android": return "arm-android-linux-gnu";
+    case "linuxx64": return "x86_64-pc-linux-gnu";
+    case "linux": return "i686-pc-linux-gnu";
+    }
+    return null;
+}
+
 ?>
