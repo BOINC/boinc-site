@@ -290,7 +290,7 @@ $astro_phys_chem = array(
             tra("Astrophysics"),
             tra("Einstein@Home uses your computer's idle time to search for weak astrophysical signals from spinning neutron stars (often called pulsars) using data from the LIGO gravitational-wave detectors, the Arecibo radio telescope, and the Fermi gamma-ray satellite."),
             "einstein.jpg",
-            "http://einsteinathome.org/",
+            "http://einstein.phys.uwm.edu/",
             tra("Help detect pulsars and gravitational waves"),
             array(KW_ASTRONOMY, KW_GW, KW_PULSARS, KW_EUROPE, KW_GERMANY, KW_AEI)
         ),
@@ -400,6 +400,30 @@ $math = array(
             "",
             tra("Do research in algebraic number theory"),
             array(KW_MATH_CS, KW_AMERICAS, KW_US, KW_ASU)
+        ),
+        project(
+            PROJ_ODLK,
+            "ODLK",
+            "https://boinc.progger.info/odlk/",
+            "Independent",
+            tra("Mathematics"),
+            "OLDK is building a database of canonical forms of diagonal Latin squares of the 10th order",
+            "",
+            "",
+            "Discover Latin Squares",
+            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA, KW_RAS)
+        ),
+        project(
+            PROJ_ODLK1,
+            "ODLK1",
+            "http://boinc.multi-pool.info/latinsquares/",
+            "Independent",
+            tra("Mathematics"),
+            "OLDK is building a database of canonical forms of diagonal Latin squares of the 10th order",
+            "",
+            "",
+            "Discover Latin Squares",
+            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA, KW_RAS)
         ),
         project(
             PROJ_SAT,

@@ -37,7 +37,7 @@ function vol_modes($vol) {
         return "Either";
     }
     if ($vol->text_ok) {
-        return "Text only";
+        return "Chat only";
     }
     if ($vol->voice_ok) {
         return "Voice only";
@@ -116,7 +116,7 @@ function show_vols($vols) {
     start_table("table-striped");
     row_heading_array(array(
         "Volunteer name<br><font size=2>click to contact</font>",
-        "Voice/Text",
+        "Voice/Chat",
         "Info",
         "Feedback <br><font size=-2>Click to see comments</font>",
     ));

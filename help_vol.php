@@ -1,7 +1,10 @@
 <?php
 
-require_once("docutil.php");
-require_once("../html/inc/util.inc");
+$dir = getcwd();
+chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
+require_once("../inc/util.inc");
+chdir($dir);
+//require_once("docutil.php");
 require_once("help_funcs.php");
 require_once("help_db.php");
 
@@ -61,14 +64,14 @@ function show_rating($vol, $rating) {
         <form action=help_vol.php>
         <input type=hidden name=volid value=\"$vol->id\">
     ";
-    list_start();
-    list_item(
+    start_table();
+    row2(
         "Rating<br><span class=note>Would you recommend $vol->name to people seeking help with BOINC?</span>",
         star_select("rating", $rating->rating)
     );
-    list_item("Comments", textarea("comment", $rating->comment));
-    list_item("", "<input type=submit name=rate value=OK>");
-    list_end();
+    row2("Comments", textarea("comment", $rating->comment));
+    row2("", "<input type=submit name=rate value=OK>");
+    end_table();
     echo "
     </form>
     ";
@@ -76,33 +79,26 @@ function show_rating($vol, $rating) {
 
 function email_contact($vol) {
     echo "
-        <p>
-        <h2>Contact $vol->name by email</h2>
         <form action=help_vol.php>
         <input type=hidden name=volid value=\"$vol->id\">
     ";
-    list_start();
-    list_item(
+    start_table();
+    row2(
         "Your email address",
         input("email_addr", "")
     );
-    list_item("Subject<br><span class=note>Include 'BOINC' in the subject so $vol->name will know it's not spam</span>", input("subject", ""));
-    list_item("Message<br><span class=note>
-            
-        Please include a detailed description of the problem
-        you're experiencing.
-        If possible, include the contents of BOINC's event log.
-        </span>",
+    row2("Subject<br><small>Include 'BOINC' in the subject so $vol->name will know it's not spam</small>", input("subject", ""));
+    row2("Message<br><small>Please include a detailed description of the problem you're experiencing.  Include the contents of BOINC's event log if relevant.</small>",
         textarea("message", "")
     );
-    list_item("", "<input type=submit name=send_email value=OK>");
-    list_end();
+    row2("", "<input type=submit name=send_email value=OK>");
+    end_table();
     echo "</form>
     ";
 }
 
-$send_email = get_str2('send_email');
-$rate = get_str2('rate');
+$send_email = get_str('send_email', true);
+$rate = get_str('rate', true);
 //session_set_cookie_params(86400*365);
 //@session_start();
 //$uid = @session_id();
@@ -200,8 +196,11 @@ if (false) {
         live_contact($vol);
     }
 }
-    echo "<h2>Contact $vol->name by Skype</h2>\n";
-    skype_call_button($vol);
+    if ($vol->voice_ok || $vol->text_ok) {
+        echo "<h2>Contact $vol->name by Skype</h2>\n";
+        skype_call_button($vol);
+    }
+    echo "<p> <h2>Contact $vol->name by email</h2>\n";
     email_contact($vol);
     echo "</td></tr></table><p>\n";
     echo "<table class=box cellpadding=8 width=100%><tr><td>";

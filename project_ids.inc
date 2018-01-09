@@ -40,6 +40,8 @@ define('PROJ_SRBASE',          34);
 define('PROJ_BAM',             35);
 define('PROJ_GRIDREPUBLIC',    36);
 define('PROJ_SOURCEFINDER',    37);
+define('PROJ_ODLK',            38);
+define('PROJ_ODLK1',           39);
 define('PROJ_BOINC_TEST',      100);
 define('PROJ_SCIENCE_UNITED',  101);
 
