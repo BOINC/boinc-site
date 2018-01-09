@@ -399,7 +399,7 @@ $math = array(
             "nf_banner_10.jpg",
             "",
             tra("Do research in algebraic number theory"),
-            array(KW_MATH_CS, KW_AMERICAS, KW_US, KW_ASU)
+            array(KW_MATH_CS, KW_AMERICAS, KW_US, KW_ARIZONA_STATE)
         ),
         project(
             PROJ_ODLK,
