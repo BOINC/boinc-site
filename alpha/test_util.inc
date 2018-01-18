@@ -1,18 +1,41 @@
 <?php
+// This file is part of BOINC.
+// http://boinc.berkeley.edu
+// Copyright (C) 2018 University of California
+//
+// BOINC is free software; you can redistribute it and/or modify it
+// under the terms of the GNU Lesser General Public License
+// as published by the Free Software Foundation,
+// either version 3 of the License, or (at your option) any later version.
+//
+// BOINC is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+// See the GNU Lesser General Public License for more details.
+//
+// You should have received a copy of the GNU Lesser General Public License
+// along with BOINC.  If not, see <http://www.gnu.org/licenses/>.
 
 error_reporting(E_ALL);
 ini_set('display_errors', true);
 ini_set('display_startup_errors', true);
 
 require_once("../inc/util.inc");
-require_once("test.inc");
+if (!empty($server)) {
+    require_once("server_test.inc");
+    $report_table = "server_test_report";
+} else {
+    require_once("test.inc");
+    $report_table = "test_report";
+}
 
 db_init();
 
 // # of reports for the given platform/version
 //
 function pcount($p, $v) {
-    $r = _mysql_query("select count(*) from test_report where version='$v' and platform = '$p' and status<>3");
+    global $report_table;
+    $r = _mysql_query("select count(*) from $report_table where version='$v' and platform = '$p' and status<>3");
     $s = _mysql_fetch_row($r);
     return $s[0];
 }
@@ -20,7 +43,8 @@ function pcount($p, $v) {
 // # of reports for the given test/version
 //
 function tcount($p, $v) {
-    $r = _mysql_query("select count(*) from test_report where version='$v' and test_group = '$p' and status<>3");
+    global $report_table;
+    $r = _mysql_query("select count(*) from $report_table where version='$v' and test_group = '$p' and status<>3");
     $s = _mysql_fetch_row($r);
     return $s[0];
 }
@@ -91,11 +115,6 @@ Platforms for which we need more reports:
 
     $html = $html."</table></body></html><p><p>";
 
-
-    //
-    // Test Cases
-    //
-
     $html = $html."
             Tests for which we need more reports:
             <p>
@@ -119,7 +138,6 @@ Tests for which we need more reports:
     }
 
     $html = $html."</table></body></html>";
-
 }
 
 function current_version() {
@@ -144,8 +162,9 @@ function test_groups_for_version($v) {
 }
 
 function reports_for_version($v) {
+    global $report_table;
     $rs = array();
-    $q = "select * from test_report where version='$v' and status<>3";
+    $q = "select * from $report_table where version='$v' and status<>3";
     $r = _mysql_query($q);
     while ($rep = _mysql_fetch_object($r)) {
         $rs[] = $rep;
@@ -218,9 +237,10 @@ function test_group_name($short_name) {
 }
 
 function show_status_select($t, $user, $v, $p) {
+    global $report_table;
     $tgname = $t[0];
     $pname = $p[0];
-    $query = "select * from test_report where userid=$user->id and version='$v' and platform='$pname' and test_group='$tgname'";
+    $query = "select * from $report_table where userid=$user->id and version='$v' and platform='$pname' and test_group='$tgname'";
     $result = _mysql_query($query);
     $tr = _mysql_fetch_object($result);
     $ch0 = "";
@@ -265,16 +285,15 @@ function show_test_groups($user, $v, $p) {
         $i++;
     }
 
-    echo "<table cellpadding=4 border=1>
-        <tr>
-        <th>Test group<br><span class=note>Mouse over for description</span></th>
-        <th>Not<br> tested</th>
-        <th>No<br>bugs<br>found</th>
-        <th>Minor<br>bugs<br>found</th>
-        <th>Major<br>bugs<br>found</th>
-        <th>Comments (include BOINC Trac ticket number if applicable)</th>
-        </tr>
-    ";
+    start_table("table-striped");
+    row_heading_array(array(
+        "Test group<br><span class=note>Mouse over for description</span>",
+        "Not<br> tested",
+        "No<br>bugs<br>found",
+        "Minor<br>bugs<br>found",
+        "Major<br>bugs<br>found",
+        "Comments (include BOINC Trac ticket number if applicable)",
+    ));
     $i = 0;
     foreach ($test_groups as $t) {
         if ($t[3] && $t[3] != $p[3]) continue;
@@ -288,7 +307,7 @@ function show_test_groups($user, $v, $p) {
         echo "</tr>\n";
         $i++;
     }
-    echo "</table>\n";
+    end_table();
 }
 
 function show_test_cases($user, $v, $p, $cur_release) {

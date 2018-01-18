@@ -1,6 +1,10 @@
 <?php
-require_once("test_util.inc");
 require_once("../inc/util.inc");
+$server = 0;
+if (get_int("server", true)) {
+    $server = 1;
+}
+require_once("test_util.inc");
 
 
 $user = "";
@@ -16,7 +20,7 @@ if ($show_all) {
 } else {
     page_head("Test cases for current release");
     echo "
-        <a href=test_matrix.php?show_all=1>Show all tests</a>
+        <a href=test_matrix.php?server=$server&show_all=1>Show all tests</a>
     ";
 }
 echo "

@@ -8,8 +8,8 @@ require_once("test_util.inc");
 
 $mail = new PHPMailer();
 $mail->IsSendmail();
-$mail->From     = "rwalton@ssl.berkeley.edu";
-$mail->FromName = "Rom Walton";
+$mail->From     = "davea@ssl.berkeley.edu";
+$mail->FromName = "David Anderson";
 $mail->Subject  = "BOINC Alpha Testing";
 
 echo "Opening dist lits fine...\n";
@@ -20,7 +20,7 @@ if ($f) {
 
 		$html = "
 <p></p>
-<p>Howdy Folks,</p>
+<p>Dear tester:</p>
 
 <p>Please disregard if you have already logged test results to http://boinc.berkeley.edu/alpha/</p>
 

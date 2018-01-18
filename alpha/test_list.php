@@ -1,8 +1,14 @@
 <?php
 
-require_once("test_util.inc");
 require_once("../inc/db.inc");
 require_once("../inc/util.inc");
+
+$server = 0;
+if (get_int("server", true)) {
+        $server = 1;
+}
+
+require_once("test_util.inc");
 
 $version = BoincDb::escape_string(get_str("version"));
 $platform = get_str("platform", true);
@@ -23,27 +29,26 @@ function show_report($r) {
     $tg = test_group_name($r->test_group);
     $c = $r->comment;
     if (!$c) $c = "<br>";
-    echo "
-        <tr>
-        <td>$user->name</td>
-        <td>$pn</td>
-        <td>$tg</td>
-        <td>$status</td>
-        <td>$c</td>
-        <td>$r->mod_time</td>
-    ";
+    $x = array(
+        $user->name,
+        $pn,
+        $tg,
+        $status,
+        $r->mod_time,
+    );
     if ($platform == "android") {
-        echo "<td>$r->product_name</td>\n";
+        $x[] = $r->product_name;
     }
-    echo "
-        </tr>
-    ";
+    $x[] = $c;
+    row_array($x);
 }
+
+page_head("Test results");
 
 db_init();
 
 $tr = array();
-$query = "select * from test_report where version='$version'";
+$query = "select * from $report_table where version='$version'";
 $result = _mysql_query($query);
 if (!$result) {
     echo _mysql_error();
@@ -54,22 +59,19 @@ while ($r = _mysql_fetch_object($result)) {
 }
 _mysql_free_result($result);
 
-echo "
-    <table cellpadding=4 border=1>
-    <tr>
-        <th>User</th>
-        <th>Platform</th>
-        <th>Test group</th>
-        <th>Status</th>
-        <th>Comment</th>
-        <th>Time</th>
-";
+start_table("table-striped");
+$x = array(
+    "User",
+    "Platform",
+    "Test group",
+    "Status",
+    "Time",
+);
 if ($platform == "android") {
-    echo " <th>Device model</th>\n";
+    $x[] = "Device model";
 }
-echo "
-    </tr>
-";
+$x[] = "Comment";
+row_heading_array($x);
 
 foreach($tr as $r) {
     if ($platform && $r->platform != $platform) continue;
@@ -79,5 +81,6 @@ foreach($tr as $r) {
     show_report($r);
 }
 
-echo "</table>\n";
+end_table();
+page_tail();
 ?>

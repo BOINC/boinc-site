@@ -1,4 +1,5 @@
 <?php
+DEPRECATED
 require_once("server_util.inc");
 require_once("../inc/util.inc");
 

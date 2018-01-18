@@ -2,7 +2,7 @@
 
 require_once("docutil.php");
 
-include("../html/inc/stats_sites.inc");
+include("../boinc/html/inc/stats_sites.inc");
 
 function language($lang, $sites) {
     echo "<tr><td bgcolor=eeeeee valign=top width=250>$lang</td><td>\n";

@@ -2,6 +2,12 @@
 
 require_once("../inc/db.inc");
 require_once("../inc/util.inc");
+
+$server = 0;
+if (get_int("server", true)) {
+        $server = 1;
+}
+
 require_once("test_util.inc");
 
 db_init();
@@ -54,7 +60,7 @@ while ($r = _mysql_fetch_object($result)) {
 _mysql_free_result($result);
 
 start_table();
-row1("OVERALL STATUS");
+row1("Overall status");
 echo "<tr><td>\n";
 show_status($n, "test_list.php?version=$version");
 $fl = fraction_left(lookup_version($version));
@@ -68,7 +74,7 @@ echo "
 end_table();
 
 start_table();
-row1("PLATFORMS");
+row1("Platforms");
 
 $v = lookup_version($version);
 

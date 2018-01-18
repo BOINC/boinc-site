@@ -1,8 +1,12 @@
 <?php
 
+DEPRECATED
+
 require_once("../inc/db.inc");
 require_once("../inc/util.inc");
-require_once("server_util.inc");
+
+$server = true;
+require_once("test_util.inc");
 
 db_init();
 
@@ -26,7 +30,7 @@ echo "
     <input type=hidden name=version value=$version>
 ";
 
-show_test_groups($user, $version);
+show_test_groups($user, $version, "Linux");
 
 echo "
     <p>

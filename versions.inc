@@ -99,6 +99,16 @@ $w5816 = array(
     "type"=>"win_new",
 );
 
+$w79x64 = array(
+    "num"=>"7.9.0",
+    "status"=>"Development version",
+    "file"=>"boinc_7.9.0_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.9.0_windows_x86_64_vbox.exe",
+    "vbox_version"=>"5.1.26",
+    "date"=>"8 Dec 2018",
+    "type"=>"win_new",
+);
+
 $w78x64 = array(
     "num"=>"7.8.3",
     "status"=>"Recommended version",
@@ -150,18 +160,18 @@ $w72x64 = array(
 );
 
 $m78 = array(
-    "num"=>"7.8.4",
+    "num"=>"7.8.6",
     "status"=>"Recommended version",
-    "file"=>"boinc_7.8.4_macOSX_x86_64.zip",
-    "date"=>"10 Nov 2017",
+    "file"=>"boinc_7.8.6_macOSX_x86_64.zip",
+    "date"=>"14 Jan 2018",
     "type"=>"mac_advanced",
 );
 
 $m78c = array(
-    "num"=>"7.8.4",
+    "num"=>"7.8.6",
     "status"=>"Recommended version (Unix command-line version)",
-    "file"=>"boinc_7.8.4_x86_64-apple-darwin.zip",
-    "date"=>"10 Nov 2017",
+    "file"=>"boinc_7.8.6_x86_64-apple-darwin.zip",
+    "date"=>"14 Jan 2018",
     "type"=>"bare_core",
 );
 
@@ -207,7 +217,7 @@ $m66 = array(
 
 $m76c = array(
     "num"=>"7.6.34",
-    "status"=>"Recommended version (Unix command-line version)",
+    "status"=>"Older version (Unix command-line version)",
     "file"=>"boinc_7.6.34_x86_64-apple-darwin.zip",
     "date"=>"9 April 2017",
     "type"=>"bare_core",
@@ -342,15 +352,25 @@ $windows = array(
     )
 );
 
+if (empty($experimental)) {
+    $v = array(
+          $w78x64,
+          $w76x64,
+          $w74x64,
+    );
+} else {
+    $v = array(
+          $w79x64,
+          $w78x64,
+          $w76x64,
+          $w74x64,
+    );
+}
 $windowsx64 = array(
     "name"=>"Windows 64-bit",
     "description"=>"XP/Vista/7/8/8.1/10",
     "dbname" => "windows_x86_64",
-    "versions"=>array(
-          $w78x64,
-          $w76x64,
-          $w74x64,
-    )
+    "versions"=>$v
 );
 
 $mac = array(

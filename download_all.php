@@ -1,10 +1,28 @@
 <?php
 
+// This file is part of BOINC.
+// http://boinc.berkeley.edu
+// Copyright (C) 2018 University of California
+//
+// BOINC is free software; you can redistribute it and/or modify it
+// under the terms of the GNU Lesser General Public License
+// as published by the Free Software Foundation,
+// either version 3 of the License, or (at your option) any later version.
+//
+// BOINC is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+// See the GNU Lesser General Public License for more details.
+//
+// You should have received a copy of the GNU Lesser General Public License
+// along with BOINC.  If not, see <http://www.gnu.org/licenses/>.
+
 // show information about downloadable BOINC client software
 //
 // URL options:
-// xml=1            Show results as XML (other options are ignored)
+// xml=1            Show results as XML
 // dev=1            Show "development" versions
+// exp=1            Show "experimental" versions
 // min_version=x    show no versions earlier than x
 // max_version=x    show no versions later than x
 // version=x        show version x
@@ -15,6 +33,7 @@ chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
 require_once("../inc/util.inc");
 chdir($dir);
 
+$experimental = get_str("exp", true);
 require_once("versions.inc");
 
 $xml = get_str("xml", true);

@@ -401,7 +401,7 @@ $ati = array("ati", "ATI GPU tests", 5, null,
     "
 );
 
-$boinc = array("boinc", "Configuration tests", 5, null,
+$exclusive_app = array("exclusive_app", "Exclusive apps", 5, null,
     "<ul>
         <li>Add an 'exclusive application' to <b>cc_config.xml</b>.
         For example:
@@ -567,12 +567,13 @@ $boincandroid = array("boincandroid", "BOINC Android GUI", 5, null,
     "
 );
 
-
-$retired_test_groups = array(
+// the following tests are needed only when specific areas change
+//
+$as_needed_tests = array(
     $transfer_restart,                 // Only needed on libcurl version changes
-    $firewall,
     $proxyhttp,                        // Only needed on libcurl version changes
     $proxysocks,                       // Only needed on libcurl version changes
+    $firewall,
     $v6_win_compat_private,
     $v6_win_secure_private,
     $v6_win_secure_public,
@@ -581,23 +582,27 @@ $retired_test_groups = array(
     $screensaver,
     $gui_rpc_auth,
     $trickle,
-      $cuda,
+    $cuda,
     $ati,
-    $boinc,
+    $exclusive_app,
     $boincmanager,
     $boincmanagerterms,
     $boincmanagerexit,
+    $boincmanagernotices,
     $attach_wizard,
     $acct_mgr,
+    $preference,
+    $boincandroid,
 );
 
-$all_test_groups = array(
+// the following needed for every client release
+//
+$general_tests = array(
     $general,
     $clean,
-    $preference,
-    $boincmanagernotices,
-    $boincandroid
 );
+
+$all_test_groups = array_merge($general_tests, $as_needed_tests);
 
 $test_smoke = array(
     $general,
@@ -607,29 +612,24 @@ $test_android = array(
     $boincandroid,
 );
 
-$all_test_groups_minus_windows = array(
-    $general,
-    $clean,
-    $preference,
-    $boinc,
-);
-
-$all_test_groups_minus_libcurl = array(
-    $general,
-    $clean,
-    $preference,
-    $boinc,
-);
-
+// deprecated
 $all_test_groups_minus_android = array(
     $general,
     $clean,
     $preference,
-    $boincmanagernotices,
+);
+
+$screensaver_tests = array(
+    $general,
+    $clean,
+    $screensaver
 );
 
 // newer versions first
+// MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
+//
 $versions = array(
+    array("7.8.6", $screensaver_tests, $platforms_mac),
     array("7.8.3", $all_test_groups_minus_android, $platforms_win_mac),
     array("7.8.2", $all_test_groups_minus_android, $platforms_win_mac),
     array("7.8.1", $all_test_groups_minus_android, $platforms_win_mac),

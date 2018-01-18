@@ -1,5 +1,7 @@
 <?php
 
+$server = false;
+
 require_once("../inc/db.inc");
 require_once("../inc/util.inc");
 require_once("../inc/news.inc");
@@ -15,6 +17,15 @@ $stopped = web_stopped();
 $rssname = PROJECT . " RSS 2.0" ;
 $rsslink = URL_BASE . "rss_main.php";
 
+function platform_list($v) {
+    $x = "";
+    foreach ($v[2] as $p) {
+        $x .= $p[1];
+        $x .= ", ";
+    }
+    return $x;
+}
+
 page_head(PROJECT);
 if (!$stopped) {
     get_logged_in_user(false);
@@ -27,11 +38,12 @@ echo "
     on a wide range of computers,
     thereby increasing the reliability of software released to the public.
 ";
-start_table("");
+start_table("table-striped");
 $cv = current_version();
 $fl = fraction_left($cv);
 $pd = number_format(100*(1-$fl), 0);
 row2("Version being tested", $cv[0]);
+row2("Platforms", platform_list($cv));
 row2("Testing is", "$pd% complete");
 end_table();
 echo "

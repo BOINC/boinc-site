@@ -3,6 +3,8 @@
 require_once("../inc/util.inc");
 require_once("server_test.inc");
 
+DEPRECATED
+
 db_init();
 
 // # of reports for the given test/version

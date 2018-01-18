@@ -1,5 +1,7 @@
 <?php
 
+DEPRECATED
+
 require_once("../inc/db.inc");
 require_once("../inc/util.inc");
 

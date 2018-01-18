@@ -6,6 +6,12 @@
 
 require_once("../inc/db.inc");
 require_once("../inc/util.inc");
+
+$server = 0;
+if (get_int("server", true)) {
+    $server = 1;
+}
+
 require_once("test_util.inc");
 
 db_init();
@@ -26,6 +32,7 @@ echo "
     <p>
     <form action=test_form2.php>
     <input type=hidden name=version value=$version>
+    <input type=hidden name=server value=$server>
     <p>
     Which platform did you test on?
     <br>
