@@ -45,18 +45,6 @@ $sensing = array(
     tra("Distributed sensing"),
     array(
         project(
-            PROJ_BOINC_TEST,
-            "BOINC test",
-            "https://boinc.berkeley.edu/test/",
-            "UC Berkeley",
-            "Testing",
-            "Test new BOINC features",
-            "",
-            "",
-            "Test new BOINC features",
-            array(KW_MATH_CS, KW_AMERICAS, KW_US, KW_UCB)
-        ),
-        project(
             PROJ_QCN,
             "Quake Catcher Network",
             "http://quakecatcher.net/sensor",
@@ -290,7 +278,7 @@ $astro_phys_chem = array(
             tra("Astrophysics"),
             tra("Einstein@Home uses your computer's idle time to search for weak astrophysical signals from spinning neutron stars (often called pulsars) using data from the LIGO gravitational-wave detectors, the Arecibo radio telescope, and the Fermi gamma-ray satellite."),
             "einstein.jpg",
-            "http://einstein.phys.uwm.edu/",
+            "https://einstein.phys.uwm.edu/",
             tra("Help detect pulsars and gravitational waves"),
             array(KW_ASTRONOMY, KW_GW, KW_PULSARS, KW_EUROPE, KW_GERMANY, KW_AEI)
         ),
@@ -588,8 +576,8 @@ $account_managers = array(
     acct_mgr(
         PROJ_SCIENCE_UNITED,
         "Science United",
-        "https://boinc.berkeley.edu/test2/",
-        "Science United prototype",
+        "https://scienceunited.org/",
+        "Science United is a simple and friendly interface to BOINC.  You sign up for science areas instead of projects.",
         ""
     ),
 );

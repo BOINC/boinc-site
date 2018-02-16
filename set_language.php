@@ -6,11 +6,12 @@ require_once("../inc/translation.inc");
 chdir("$dir");
 
 $languages = get_supported_languages();
-$lang = $_GET['lang'];
+$lang = sanitize_tags(get_str("lang", true));
+
 if (!in_array($lang, $languages) && $lang!="auto" && $lang!="en") {
     echo "Language $lang is not supported";
 } else {
-    setcookie('lang', $lang, time()+3600*24*365);
+    send_cookie('lang', $lang, true);
     header('Location: index.php');
 }
 ?>

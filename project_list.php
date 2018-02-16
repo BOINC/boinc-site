@@ -26,7 +26,7 @@ foreach ($areas as $area) {
     $area_name = $area[0];
     $projects = $area[1];
     foreach ($projects as $p) {
-        if (!$test && $p->id >= 100) continue;
+        if (!$test && $p->id >= 1000) continue;
         $p->general_area = $area_name;
         $proj_list[] = $p;
     }
@@ -51,11 +51,11 @@ foreach($proj_list as $p) {
         }
         echo "    </platforms>\n";
     }
-    if (isset($p->logo)) {
+    if (!empty($p->logo)) {
         echo "      <image>https://boinc.berkeley.edu/images/$p->logo</image>
 ";
     }
-    if (isset($p->summary)) {
+    if (!empty($p->summary)) {
         echo "      <summary>$p->summary</summary>
 ";
     }
@@ -67,7 +67,7 @@ foreach($proj_list as $p) {
 }
 
 foreach ($account_managers as $am) {
-    if (!$test && $am->id >= 100) continue;
+    if (!$test && $am->id >= 1000) continue;
     echo "   <account_manager>
         <name>$am->name</name>
         <id>$am->id</id>

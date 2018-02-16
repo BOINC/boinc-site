@@ -108,6 +108,11 @@ $clean = array("clean", "Clean install and uninstall", 5, null,
     </ul>
     "
 );
+
+$auto_attach = array("auto_attach", "Auto-attach", 5, null,
+    ""
+);
+
 $transfer_restart = array("transfer_restart", "File transfer restart", 5, null,
     "<ul>
         <li> In the middle of a long file download, note the fraction done,
@@ -629,6 +634,7 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
+    array("7.9.1", $all_test_groups_minus_android, $platforms_win_mac_linux),
     array("7.8.6", $screensaver_tests, $platforms_mac),
     array("7.8.3", $all_test_groups_minus_android, $platforms_win_mac),
     array("7.8.2", $all_test_groups_minus_android, $platforms_win_mac),
