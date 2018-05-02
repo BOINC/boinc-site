@@ -75,6 +75,7 @@ $general = array("general", "General tests", 10, null,
      </ul>
     "
 );
+
 $clean = array("clean", "Clean install and uninstall", 5, null,
     "<ul>
         <li> Rename the BOINC data directory to a temporary directory name.
@@ -83,16 +84,6 @@ $clean = array("clean", "Clean install and uninstall", 5, null,
              <li> Windows XP: go to <b>Start > Control Panel > Add/Remove Programs</b> and uninstall BOINC
              <li> Windows 7/8: go to <b>Start > Control Panel > Programs and Features</b> and uninstall BOINC
              <li> Mac: run the 'uninstall BOINC' utility included in the Extras folder with the installer.
-             </ul>
-        <li> Verify that the boinc_projects, boinc_users, and boinc_admins local groups have been deleted.
-             <ul>
-             <li> Windows: go to <b>Start > All Programs > Accessories > Command prompt</b> and type 'net localgroup' in the command prompt window. None of the above groups should be listed
-             <li> Mac: execute /Applications/Utilities/Terminal.app, type 'dscl . list /users UniqueID' in the terminal window. None of the above groups should be listed
-             </ul>
-        <li> Verify that the boinc_master and boinc_project user accounts have been deleted.
-             <ul>
-             <li> Windows: go to <b>Start > All Programs > Accessories > Command Prompt</b> and type 'net users' in the command prompt window. None of the above users should be listed
-             <li> Mac: execute /Applications/Utilities/Terminal.app, type 'dscl . list /groups PrimaryGroupID' in the terminal window. None of the above users should be listed
              </ul>
         <li> Install new BOINC.
         <li> Verify that client and manager run,
@@ -109,8 +100,57 @@ $clean = array("clean", "Clean install and uninstall", 5, null,
     "
 );
 
+$clean_accounts = array(
+    "clean_accounts", "Account/group cleanup on uninstall", 5, null,
+    "<ul>
+        <li> Uninstall BOINC
+        <li> Verify that the boinc_projects, boinc_users, and boinc_admins local groups have been deleted.
+             <ul>
+             <li> Windows: go to <b>Start > All Programs > Accessories > Command prompt</b> and type 'net localgroup' in the command prompt window. None of the above groups should be listed
+             <li> Mac: execute /Applications/Utilities/Terminal.app, type 'dscl . list /users UniqueID' in the terminal window. None of the above groups should be listed
+             </ul>
+        <li> Verify that the boinc_master and boinc_project user accounts have been deleted.
+             <ul>
+             <li> Windows: go to <b>Start > All Programs > Accessories > Command Prompt</b> and type 'net users' in the command prompt window. None of the above users should be listed
+             <li> Mac: execute /Applications/Utilities/Terminal.app, type 'dscl . list /groups PrimaryGroupID' in the terminal window. None of the above users should be listed
+             </ul>
+    </ul>
+    "
+);
+
 $auto_attach = array("auto_attach", "Auto-attach", 5, null,
-    ""
+    "<p>
+    Auto-attach is a feature where you download the BOINC installer
+    directly from a project or account manager,
+    and when the client first runs it's attached to that project or AM.
+    You don't go through the BOINC web site to download the software,
+    and you don't see the Attach Wizard.
+    <p>
+    The feature involves server software.
+    Currently only SETI@home (project) and Science United (account manager)
+    have the needed server support.
+    <p>
+    To test this feature on SETI@home:
+    <ul>
+    <li> Uninstall BOINC or rename your data directory.
+    <li> In a browser, visit
+    <a href=https://setiathome.berkeley.edu/download.php?dev=1>
+    https://setiathome.berkeley.edu/download.php?dev=1
+    </a>
+    <li> Click on either link (with or without Vbox) and install.
+    <li> Verify that BOINC starts up attached to your SETI@home account.
+    </ul>
+    To test this feature on Science United:
+    <ul>
+    <li> Uninstall BOINC or rename your data directory.
+    <li> In a browser, visit
+    <a href=https://scienceunited.org/>https://scienceunited.org/</a>
+    <li> Create an account, and download BOINC
+    <li> Verify that BOINC starts up attached to Science United
+    </ul>
+    If you are already using Science United,
+    go directly to https://scienceunited.org/download.php?dev=1
+    "
 );
 
 $transfer_restart = array("transfer_restart", "File transfer restart", 5, null,
@@ -598,6 +638,8 @@ $as_needed_tests = array(
     $acct_mgr,
     $preference,
     $boincandroid,
+    $clean_accounts,
+    $auto_attach,
 );
 
 // the following needed for every client release
@@ -634,7 +676,8 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
-    array("7.9.1", $all_test_groups_minus_android, $platforms_win_mac_linux),
+    array("7.9.3", array($general, $clean, $auto_attach), $platforms_win_mac_linux),
+    array("7.9.2", array($general, $clean, $auto_attach), $platforms_win_mac_linux),
     array("7.8.6", $screensaver_tests, $platforms_mac),
     array("7.8.3", $all_test_groups_minus_android, $platforms_win_mac),
     array("7.8.2", $all_test_groups_minus_android, $platforms_win_mac),

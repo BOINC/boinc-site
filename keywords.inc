@@ -22,8 +22,6 @@
 define('KW_CATEGORY_SCIENCE', 0);
 define('KW_CATEGORY_LOC', 1);
 
-// science area
-
 define('KW_ASTRONOMY',      1);
 define('KW_SETI',           2);
 define('KW_PULSARS',        3);
@@ -40,54 +38,52 @@ define('KW_DISEASE',        13);
 define('KW_CANCER',         14);
 define('KW_MATH_CS',        15);
 define('KW_AI',             16);
+define('KW_OCEANIA',        17);
+define('KW_AUSTRALIA',      18);
+
+define('KW_EUROPE',         20);
+define('KW_GERMANY',        21);
+define('KW_ASIA',           22);
+define('KW_AMERICAS',       23);
+define('KW_US',             24);
+define('KW_UCB',            25);
+define('KW_AEI',            26);
+define('KW_CERN',           27);
+define('KW_UW',             28);
 define('KW_EARTH_SCI',      29);
+define('KW_SPAIN',          30);
+define('KW_SAN_JORGE',      31);
 define('KW_NUMBER_THEORY',  32);
 define('KW_CRYPTO',         33);
 define('KW_ENV_RESEARCH',   34);
 define('KW_CLIMATE',        35);
-define('KW_CHEMISTRY',      36);
-
-
-// location
-
-define('KW_OCEANIA',        1001);
-define('KW_AUSTRALIA',      1002);
-define('KW_EUROPE',         1003);
-define('KW_GERMANY',        1004);
-define('KW_ASIA',           1005);
-define('KW_AMERICAS',       1006);
-define('KW_US',             1007);
-define('KW_UCB',            1008);
-define('KW_AEI',            1009);
-define('KW_CERN',           1010);
-define('KW_UW',             1011);
-define('KW_SPAIN',          1012);
-define('KW_SAN_JORGE',      1013);
-define('KW_CZECH',          1014);
-define('KW_CHARLES_PRAGUE', 1015);
-define('KW_RECHENKRAFT',    1016);
-define('KW_RHEINMAIN',      1017);
-define('KW_HUNGARY',        1018);
-define('KW_IRELAND',        1019);
-define('KW_UC_DUBLIN',      1020);
-define('KW_POLAND',         1021);
-define('KW_RUSSIA',         1022);
-define('KW_SW_STATE_RUSSIA', 1023);
-define('KW_RAS',            1024);
-define('KW_PRBB',           1025);
-define('KW_UK',             1026);
-define('KW_OXFORD',         1027);
-define('KW_CHINA',          1028);
-define('KW_U_DAYTON',       1029);
-define('KW_WRIGHT_STATE',   1030);
-define('KW_USC',            1031);
-define('KW_FULLERTON',      1032);
-define('KW_ARIZONA_STATE',  1033);
-define('KW_U_ILLINOIS',     1034);
-define('KW_UND',            1035);
-define('KW_U_WARSAW',       1036);
-define('KW_HOLLAND',        1037);
-define('KW_RPI',            1038);
+define('KW_CZECH',          36);
+define('KW_CHARLES_PRAGUE', 37);
+define('KW_RECHENKRAFT',    38);
+define('KW_RHEINMAIN',      39);
+define('KW_HUNGARY',        40);
+define('KW_IRELAND',        41);
+define('KW_UC_DUBLIN',      42);
+define('KW_POLAND',         43);
+define('KW_RUSSIA',         44);
+define('KW_SW_STATE_RUSSIA', 45);
+define('KW_RAS',            46);
+define('KW_PRBB',           47);
+define('KW_UK',             48);
+define('KW_OXFORD',         49);
+define('KW_CHINA',          50);
+define('KW_U_DAYTON',       51);
+define('KW_WRIGHT_STATE',   52);
+define('KW_USC',            53);
+define('KW_FULLERTON',      54);
+define('KW_ARIZONA_STATE',  55);
+define('KW_U_ILLINOIS',     56);
+define('KW_U_WARSAW',       57);
+define('KW_RPI',            58);
+define('KW_INTERNATIONAL',  59);
+define('KW_UND',            60);
+define('KW_HOLLAND',        61);
+define('KW_CHEMISTRY',      62);
 
 $job_keywords = array();
 
@@ -118,12 +114,12 @@ keyword('KW_ASTRONOMY', KW_CATEGORY_SCIENCE, 0, 0,
     keyword('KW_COSMOLOGY', KW_CATEGORY_SCIENCE, 1, KW_ASTRONOMY,
         'Cosmology'
     );
-    keyword('KW_CHEMISTRY', KW_CATEGORY_SCIENCE, 0, 0,
-        'Chemistry'
-    );
-    keyword('KW_PHYSICS', KW_CATEGORY_SCIENCE, 0, 0,
-        'Physics'
-    );
+keyword('KW_CHEMISTRY', KW_CATEGORY_SCIENCE, 0, 0,
+    'Chemistry'
+);
+keyword('KW_PHYSICS', KW_CATEGORY_SCIENCE, 0, 0,
+    'Physics'
+);
     keyword('KW_PARTICLE_PHYSICS', KW_CATEGORY_SCIENCE, 1, KW_PHYSICS,
         'Particle physics'
     );
@@ -172,12 +168,12 @@ keyword('KW_EARTH_SCI', KW_CATEGORY_SCIENCE, 0, 0,
 
 // Locations
 
+keyword('KW_INTERNATIONAL', KW_CATEGORY_LOC, 0, 0,
+    'International'
+);
 keyword('KW_EUROPE', KW_CATEGORY_LOC, 0, 0,
     'Europe'
 );
-    keyword('KW_HOLLAND', KW_CATEGORY_LOC, 1, KW_EUROPE,
-        'Holland'
-    );
     keyword('KW_CERN', KW_CATEGORY_LOC, 1, KW_EUROPE,
         'CERN'
     );
@@ -199,6 +195,9 @@ keyword('KW_EUROPE', KW_CATEGORY_LOC, 0, 0,
         keyword('KW_RHEINMAIN', KW_CATEGORY_LOC, 2, KW_GERMANY,
             'Hochschule RheinMain University of Applied Sciences'
         );
+    keyword('KW_HOLLAND', KW_CATEGORY_LOC, 1, KW_EUROPE,
+        'Holland'
+    );
     keyword('KW_HUNGARY', KW_CATEGORY_LOC, 1, KW_EUROPE,
         'Hungary'
     );
@@ -280,10 +279,10 @@ keyword('KW_AMERICAS', KW_CATEGORY_LOC, 0, 0,
         keyword('KW_U_ILLINOIS', KW_CATEGORY_LOC, 2, KW_US,
             'University of Illinois'
         );
-        keyword('KW_UND', KW_CATEGORY_LOC, 2, KW_US,
-            'University of North Dakota'
-        );
         keyword('KW_RPI', KW_CATEGORY_LOC, 2, KW_US,
             'Rensselaer Polytechnic Institute'
+        );
+        keyword('KW_UND', KW_CATEGORY_LOC, 2, KW_US,
+            'University of North Dakota'
         );
 ?>

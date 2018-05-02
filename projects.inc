@@ -116,6 +116,18 @@ $biomed = array(
     tra("Biology and Medicine"),
     array(
         project(
+            PROJ_DENIS,
+            "DENIS@Home",
+            "https://denis.usj.es/denisathome/",
+            "San Jorge University, Zaragoza, Spain",
+            tra("Medical physiology"),
+            tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
+            "",
+            "",
+            "Study the physiology of the heart",
+            array(KW_BIOMED, KW_EUROPE, KW_SPAIN)
+        ),
+        project(
             PROJ_RNA_WORLD,
             "RNA World",
             "http://www.rnaworld.de/rnaworld/",
@@ -278,9 +290,9 @@ $astro_phys_chem = array(
             tra("Astrophysics"),
             tra("Einstein@Home uses your computer's idle time to search for weak astrophysical signals from spinning neutron stars (often called pulsars) using data from the LIGO gravitational-wave detectors, the Arecibo radio telescope, and the Fermi gamma-ray satellite."),
             "einstein.jpg",
-            "https://einstein.phys.uwm.edu/",
+            "",
             tra("Help detect pulsars and gravitational waves"),
-            array(KW_ASTRONOMY, KW_GW, KW_PULSARS, KW_EUROPE, KW_GERMANY, KW_AEI)
+            array(KW_ASTRONOMY, KW_GW, KW_PULSARS, KW_INTERNATIONAL, KW_AEI)
         ),
         project(
             PROJ_LHC,
@@ -292,7 +304,7 @@ $astro_phys_chem = array(
             "lhc.jpg",
             "",
             tra("Improve the design of the Large Hadron Collider"),
-            array(KW_PHYSICS, KW_PARTICLE_PHYSICS, KW_EUROPE, KW_CERN)
+            array(KW_PHYSICS, KW_PARTICLE_PHYSICS, KW_INTERNATIONAL, KW_CERN)
         ),
         project(
             PROJ_SETI,

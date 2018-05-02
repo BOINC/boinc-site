@@ -24,12 +24,12 @@ We do not provide instructions for installing or using these applications.
 In most cases the author has provided these instructions.
 If not, contact the author.
 Instructions for installing and running BOINC are
-<a href=http://boinc.berkeley.edu/wiki/User_manual>here</a>.
+<a href=https://boinc.berkeley.edu/wiki/User_manual>here</a>.
 <li>
 To submit software for inclusion in this list,
-please email <a href=http://boinc.berkeley.edu/trac/wiki/ProjectPeople>David Anderson</a>.
+please email <a href=https://boinc.berkeley.edu/trac/wiki/ProjectPeople>David Anderson</a>.
 BOINC provides several
-<a href=http://boinc.berkeley.edu/trac/wiki/SoftwareAddon>APIs for
+<a href=https://boinc.berkeley.edu/trac/wiki/SoftwareAddon>APIs for
 developing add-on software</a>.
 </ul>
 ";
@@ -54,7 +54,7 @@ function show_group($name, $list, $short_name) {
 		$desc = $item[3];
         $iname = urlencode($file);
 		echo "
-			<tr><td><a href=http://boinc.berkeley.edu/addon_item.php?platform=$short_name&item=$iname>$itemname</a></td>
+			<tr><td><a href=https://boinc.berkeley.edu/addon_item.php?platform=$short_name&item=$iname>$itemname</a></td>
 				<td>$desc</td>
 			</tr>
 		";

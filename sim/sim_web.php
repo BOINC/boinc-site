@@ -294,7 +294,7 @@ function show_simulation_summary($scen, $sim) {
 // link for new simulation
 //
 function show_scenario() {
-    $name = get_str("name");
+    $name = strip_tags(get_str("name"));
     $d = "scenarios/$name";
     if (!is_dir($d)) {
         error_page("No such scenario");
@@ -361,7 +361,7 @@ function log_flag_boxes() {
 }
 
 function simulation_form() {
-    $scen = get_str("scen");
+    $scen = strip_tags(get_str("scen"));
     $detail = get_str("detail", true);
     page_head("Do simulation");
     start_table();
@@ -418,7 +418,7 @@ function simulation_form() {
 //
 function simulation_action() {
     $user = get_logged_in_user();
-    $scen = post_str("scen");
+    $scen = strip_tags(post_str("scen"));
     if (!is_dir("scenarios/$scen")) {
         error_page("no such scenario");
     }

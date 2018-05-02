@@ -14,6 +14,7 @@ require_once("projects.inc");
 require_once("get_platforms.inc");
 
 $test = get_str("test", true);
+    // show test projects? (ID >= 1000)
 
 header('Content-type: text/xml');
 echo '<?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -59,9 +60,7 @@ foreach($proj_list as $p) {
         echo "      <summary>$p->summary</summary>
 ";
     }
-    if ($test) {
-        echo "<keywords>".implode(" ", $p->keywords)."</keywords>\n";
-    }
+    echo "        <keywords>".implode(" ", $p->keywords)."</keywords>\n";
     echo "    </project>
 ";
 }

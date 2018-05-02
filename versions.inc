@@ -37,19 +37,22 @@ function type_text($type) {
 
 function linux_info() {
     return "Tested on the current Ubuntu distribution; may work on others.
-    <br>If available, we recommend that you install a
+    <br>These versions are not current.
+    We recommend that instead you
     <a href=https://boinc.berkeley.edu/wiki/Installing_BOINC#Linux>
-    distribution-specific package</a>
-    instead.  ";
+    install BOINC using a package manager,
+    run it using Docker,
+    or use a bootable ISO image</a>.
+    ";
 }
 
 $w79 = array(
-    "num"=>"7.9.1",
+    "num"=>"7.9.3",
     "status"=>"Development version",
-    "file"=>"boinc_7.9.1_windows_intelx86.exe",
-    "vbox_file"=>"boinc_7.9.1_windows_intelx86_vbox.exe",
-    "vbox_version"=>"5.2.6",
-    "date"=>"16 Feb 2018",
+    "file"=>"boinc_7.9.3_windows_intelx86.exe",
+    "vbox_file"=>"boinc_7.9.3_windows_intelx86_vbox.exe",
+    "vbox_version"=>"5.2.8",
+    "date"=>"14 March 2018",
     "type"=>"win_new",
 );
 
@@ -110,12 +113,12 @@ $w5816 = array(
 );
 
 $w79x64 = array(
-    "num"=>"7.9.1",
+    "num"=>"7.9.3",
     "status"=>"Development version",
-    "file"=>"boinc_7.9.1_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.9.1_windows_x86_64_vbox.exe",
-    "vbox_version"=>"5.2.6",
-    "date"=>"16 Feb 2018",
+    "file"=>"boinc_7.9.3_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.9.3_windows_x86_64_vbox.exe",
+    "vbox_version"=>"5.2.8",
+    "date"=>"14 March 2018",
     "type"=>"win_new",
 );
 
@@ -170,10 +173,10 @@ $w72x64 = array(
 );
 
 $m79 = array(
-    "num"=>"7.9.1",
+    "num"=>"7.9.3",
     "status"=>"Development version",
-    "file"=>"boinc_7.9.1_macOSX_x86_64.zip",
-    "date"=>"16 Feb 2018",
+    "file"=>"boinc_7.9.3_macOSX_x86_64.zip",
+    "date"=>"14 March 2018",
     "type"=>"mac_advanced",
 );
 $m78 = array(
@@ -185,10 +188,10 @@ $m78 = array(
 );
 
 $m79c = array(
-    "num"=>"7.9.1",
+    "num"=>"7.9.3",
     "status"=>"Development version (Unix command-line version)",
-    "file"=>"boinc_7.9.1_x86_64-apple-darwin.zip",
-    "date"=>"16 Feb 2018",
+    "file"=>"boinc_7.9.3_x86_64-apple-darwin.zip",
+    "date"=>"14 March 2018",
     "type"=>"bare_core",
 );
 
@@ -238,6 +241,14 @@ $m66 = array(
     "file"=>"boinc_6.6.36_macOSX_universal.zip",
     "date"=>"10 June 2009",
     "type"=>"mac_advanced",
+);
+
+$mupdater = array(
+    "num"=>"any",
+    "status"=>"Certificate updater for old versions of BOINC (works on OS 10.3.9 - OS 10.5.8)",
+    "file"=>"update_boinc_certificate.zip",
+    "date"=>"28 April 2018",
+    "type"=>"cert_updater",
 );
 
 $m76c = array(
@@ -425,6 +436,7 @@ $macppc = array(
         $m612c_ppc,
         $m66,
         $m66c,
+        $mupdater,
     )
 );
 

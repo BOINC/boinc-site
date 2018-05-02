@@ -43,9 +43,9 @@ function other($filename) {
     readfile($path);
 }
 
-// Windows: encode info in filename
+// encode info in filename
 //
-function windows($filename, $project_id, $user_id, $token) {
+function change_filename($filename, $project_id, $user_id, $token) {
     $path = "dl/$filename";
     if (strstr($filename, ".exe")) {
         $x = sprintf('__%d_%d_%s.exe', $project_id, $user_id, $token);
@@ -61,7 +61,7 @@ function windows($filename, $project_id, $user_id, $token) {
     readfile($path);
 }
 
-// Mac: add info file to zip
+// Mac: change name of installer file within zip
 //
 function mac($zipname, $project_id, $user_id, $token) {
     // make a temp dir
@@ -72,7 +72,7 @@ function mac($zipname, $project_id, $user_id, $token) {
         other($zipname);
     }
 
-    // copy installer to temp dir
+    // copy zip to temp dir
     //
     $zpath = "$tempdir/$zipname";
     copy("dl/$zipname", $zpath);
@@ -81,25 +81,24 @@ function mac($zipname, $project_id, $user_id, $token) {
     //
     $fname = substr($zipname, 0, strlen($zipname)-4);
 
-    mkdir("$tempdir/$fname");
-
-    // create info file
+    // unzip, rename, zip
     //
-    $ifile = "account_data.txt";
-    $ipath = "$tempdir/$fname/$ifile";
-    file_put_contents(
-        $ipath, sprintf("__%d_%d_%s", $project_id, $user_id, $token)
+    $cmd = sprintf('cd %s; unzip %s; mv "%s/BOINC Installer.app" "%s/BOINC Installer__%d_%d_%s.app"; rm %s; zip -r %s %s',
+        $tempdir,
+        $zipname,
+        $fname,
+        $fname, $project_id, $user_id, $token,
+        $zipname,
+        $zipname, $fname
     );
-
-    // add to zip
-    //
-    exec("cd $tempdir; zip $zipname $fname/$ifile");
+    exec($cmd);
 
     // download it
     //
     header("Content-length: ".filesize($zpath));
     header("Content-type: application/zip");
     header(sprintf('Content-Disposition: attachment; filename=%s;', $zipname));
+        // need this, otherwise download file is "concierge.php"
     readfile($zpath);
 
     // clean up temp files
@@ -115,7 +114,7 @@ if (strstr($filename, "..")) exit;
 if (strstr($filename, "/")) exit;
 
 if (strstr($filename, "win")) {
-    windows($filename, $project_id, $user_id, $token);
+    change_filename($filename, $project_id, $user_id, $token);
 } else if (strstr($filename, "macOSX")) {
     mac($filename, $project_id, $user_id, $token);
 } else {
