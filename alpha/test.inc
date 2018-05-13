@@ -676,6 +676,7 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
+    array("7.10.2", array($general, $clean, $auto_attach), $platforms_win_mac_linux),
     array("7.9.3", array($general, $clean, $auto_attach), $platforms_win_mac_linux),
     array("7.9.2", array($general, $clean, $auto_attach), $platforms_win_mac_linux),
     array("7.8.6", $screensaver_tests, $platforms_mac),

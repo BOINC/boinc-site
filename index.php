@@ -193,7 +193,7 @@ function show_software() {
                 <p></p>
                 <center>
                 <a class="btn btn-xs btn-primary" href="https://github.com/BOINC/boinc">'.tra("Github").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/ProjectGovernance">'.tra("Governance").'</a>
+                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincGovernanceWorkingGroups">'.tra("Organization").'</a>
                 </center>
                 <p></p>
             ';

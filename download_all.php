@@ -49,6 +49,10 @@ if (isset($_SERVER['HTTP_USER_AGENT'])) {
     $client_info = "";
 }
 
+if ($pname && !array_key_exists($pname, $platforms)) {
+    error_page("platform not found");
+}
+
 // if not XML, dev defaults to 1
 //
 if (!$xml) {
@@ -203,9 +207,6 @@ function show_platform_xml($short_name, $p, $dev) {
 //
 if ($pname && $version) {
     $p = $platforms[$pname];
-    if (!$p) {
-        boinc_error_page("platform not found");
-    }
     $long_name = $p["name"];
     $va = $p["versions"];
     foreach ($va as $v) {
@@ -216,7 +217,7 @@ if ($pname && $version) {
             exit();
         }
     }
-    boinc_error_page( "version not found\n");
+    error_page( "version not found\n");
 }
 
 if ($xml) {

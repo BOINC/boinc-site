@@ -176,7 +176,7 @@ $earth = array(
             tra("Climate study"),
             tra("Investigate the approximations that have to be made in state-of-the-art climate models. By running the model thousands of times we hope to find out how the model responds to slight tweaks to these approximations - slight enough to not make the approximations any less realistic. This will allow us to improve our understanding of how sensitive our models are to small changes and also to things like changes in carbon dioxide and the sulphur cycle. This will allow us to explore how climate may change in the next century under a wide range of different scenarios."),
             "cpn_logo_world_1.jpg",
-            "http://climateapps2.oucs.ox.ac.uk/cpdnboinc/",
+            "http://www.cpdn.org/cpdnboinc/",
             "Study long-term climate change",
             array(KW_EARTH_SCI, KW_CLIMATE, KW_EUROPE, KW_UK, KW_OXFORD)
         ),
@@ -197,31 +197,31 @@ $astro_phys_chem = array(
             "Study underwater acoustics",
             array(KW_PHYSICS, KW_EUROPE, KW_RUSSIA)
         ),
-        project(
-            PROJ_POGS,
-            "theSkyNet POGS",
-            "http://pogs.theskynet.org/pogs/",
-            "The International Centre for Radio Astronomy Research (Perth, Australia)",
-            tra("Astronomy"),
-            tra("TheSkyNet POGS is an astronomy project studying 16 different properties of galaxies, including brightness, mass, amount of dust and how fast stars are forming. We are using your processing power to conduct pixel-by-pixel calculations on multi-wavelength (ultraviolet, optical and near-infrared light) images of galaxies to produce an atlas that will help astronomers to better understand the distant universe."),
-
-            "",
-            "",
-            "Analyze images of space",
-            array(KW_ASTRONOMY, KW_OCEANIA, KW_AUSTRALIA)
-        ),
-        project(
-            PROJ_SOURCEFINDER,
-            "SourceFinder",
-            "https://sourcefinder.theskynet.org/duchamp/",
-            "The International Centre for Radio Astronomy Research (Perth, Australia)",
-            tra("Astronomy"),
-            "Sourcefinder aims to test the effectiveness of algorithms that process 'cubes' of data that contain radio sources, and identify the location of the sources within the cube.",
-            "",
-            "",
-            "Improve radio astronomy algorithms",
-            array(KW_ASTRONOMY, KW_OCEANIA, KW_AUSTRALIA)
-        ),
+//        project(
+//            PROJ_POGS,
+//            "theSkyNet POGS",
+//            "http://pogs.theskynet.org/pogs/",
+//            "The International Centre for Radio Astronomy Research (Perth, Australia)",
+//            tra("Astronomy"),
+//            tra("TheSkyNet POGS is an astronomy project studying 16 different properties of galaxies, including brightness, mass, amount of dust and how fast stars are forming. We are using your processing power to conduct pixel-by-pixel calculations on multi-wavelength (ultraviolet, optical and near-infrared light) images of galaxies to produce an atlas that will help astronomers to better understand the distant universe."),
+//
+//            "",
+//            "",
+//            "Analyze images of space",
+//            array(KW_ASTRONOMY, KW_OCEANIA, KW_AUSTRALIA)
+//        ),
+//        project(
+//            PROJ_SOURCEFINDER,
+//            "SourceFinder",
+//            "https://sourcefinder.theskynet.org/duchamp/",
+//            "The International Centre for Radio Astronomy Research (Perth, Australia)",
+//            tra("Astronomy"),
+//            "Sourcefinder aims to test the effectiveness of algorithms that process 'cubes' of data that contain radio sources, and identify the location of the sources within the cube.",
+//            "",
+//            "",
+//            "Improve radio astronomy algorithms",
+//            array(KW_ASTRONOMY, KW_OCEANIA, KW_AUSTRALIA)
+//        ),
         project(
             PROJ_ASTEROIDS,
             "Asteroids@home",
