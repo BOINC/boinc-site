@@ -24,6 +24,7 @@ $platforms_mac = array(
     array("mac111", "Mac OS X 10.11", 1, "mac"),
     array("mac112", "Mac OS X 10.12", 5, "mac"),
     array("mac113", "Mac OS X 10.13", 5, "mac"),
+    array("mac114", "Mac OS X 10.14", 1, "mac"),
 );
 
 $platforms_linux = array(
@@ -126,31 +127,41 @@ $auto_attach = array("auto_attach", "Auto-attach", 5, null,
     You don't go through the BOINC web site to download the software,
     and you don't see the Attach Wizard.
     <p>
+    This works on Windows and Mac, not on Linux.
+    <p>
     The feature involves server software.
     Currently only SETI@home (project) and Science United (account manager)
     have the needed server support.
     <p>
     To test this feature on SETI@home:
     <ul>
-    <li> Uninstall BOINC or rename your data directory.
+    <li> If you've already installed the version being tested, uninstall it.
+    <li> Remove or rename your data directory.
     <li> In a browser, visit
     <a href=https://setiathome.berkeley.edu/download.php?dev=1>
     https://setiathome.berkeley.edu/download.php?dev=1
-    </a>
+    </a>; log in if necessary.
     <li> Click on either link (with or without Vbox) and install.
     <li> Verify that BOINC starts up attached to your SETI@home account.
     </ul>
     To test this feature on Science United:
     <ul>
-    <li> Uninstall BOINC or rename your data directory.
+    <li> If you've already installed the version being tested, uninstall it.
+    <li> Remove or rename your data directory.
     <li> In a browser, visit
     <a href=https://scienceunited.org/>https://scienceunited.org/</a>
-    <li> Create an account, and download BOINC
-    <li> Verify that BOINC starts up attached to Science United
+    <li> Log in; create an account if needed; select science preferences.
+    <li> Go to <a href=https://scienceunited.org/download.php?dev=1>https://scienceunited.org/download.php?dev=1</a>; download and install BOINC.
+    <li> Verify that BOINC starts up using Science United,
+        and attached to two projects that match your science preferences.
     </ul>
-    If you are already using Science United,
-    go directly to https://scienceunited.org/download.php?dev=1
     "
+);
+
+$wsl = array("wsl", "Windows Subsystem for Linux (WSL)", 5, null,
+    "If you're running Windows 10 and have WSL enabled,
+    look at the startup messages and verify that WSL is being
+    detected correctly."
 );
 
 $transfer_restart = array("transfer_restart", "File transfer restart", 5, null,
@@ -676,6 +687,8 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
+    array("7.12.1", array($general, $auto_attach), $platforms_win),
+    array("7.12.0", array($general, $clean, $auto_attach, $wsl), $platforms_win_mac_linux),
     array("7.10.2", array($general, $clean, $auto_attach), $platforms_win_mac_linux),
     array("7.9.3", array($general, $clean, $auto_attach), $platforms_win_mac_linux),
     array("7.9.2", array($general, $clean, $auto_attach), $platforms_win_mac_linux),

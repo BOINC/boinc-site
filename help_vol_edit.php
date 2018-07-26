@@ -129,7 +129,7 @@ if ($create == 'OK') {
     }
     $vol2 = vol_lookup_email($vol->email_addr);
     if ($vol2) {
-        boinc_error_page("There's already an account with email address $vol->email_addr");
+        boinc_error_page("There's already an account with that email address");
     }
     $retval = vol_insert($vol);
     if (!$retval) {
@@ -168,7 +168,7 @@ if ($create == 'OK') {
     $password = stripslashes($_GET['password']);
     $vol = vol_lookup_email($email_addr);
     if (!$vol) {
-        boinc_error_page("Bad email address $email_addr");
+        boinc_error_page("No account with that email address");
     }
     if (!$password) {
         email_password($vol);
@@ -191,7 +191,7 @@ if ($create == 'OK') {
     $old_password = stripslashes($_GET['old_password']);
     $vol = vol_lookup_email($old_email_addr);
     if (!$vol) {
-        boinc_error_page("Bad email address $old_email_addr");
+        boinc_error_page("No account with that email address");
     }
     if ($old_password != $vol->password) {
         boinc_error_page("Bad password");

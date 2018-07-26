@@ -287,6 +287,7 @@ function get_platforms_cached($url) {
         return json_decode(file_get_contents($fname));
     }
     $l = get_platforms($url);
+    echo "got $url";
     if (!$l) {
         $l = get_platforms2($url);
     }
@@ -323,12 +324,12 @@ function get_platform_icons($url) {
 //$u = "http://lhcathome2.cern.ch/test4theory";
 //$u = "http://www.rnaworld.de/rnaworld/";
 //$u = "http://boinc.gorlaeus.net/";
-//$u = "http://einstein.phys.uwm.edu/";
+//$u = "https://www.dhep.ga/boinc/";
+//$x = get_platforms_cached($u);
+//print_r($x);
 //$x = get_platforms($u);
 //print_r($x);
 //echo get_platforms_string($u);
-//$x = "http://sat.isa.ru/pdsat/";
-//print_r( get_platforms($x));
 
 
 // Mediawiki extension to show a project's platforms.

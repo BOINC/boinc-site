@@ -8,8 +8,8 @@ require_once("test_util.inc");
 
 $mail = new PHPMailer();
 $mail->IsSendmail();
-$mail->From     = "rwalton@ssl.berkeley.edu";
-$mail->FromName = "Rom Walton";
+$mail->From     = "davea@ssl.berkeley.edu";
+$mail->FromName = "David Anderson";
 $mail->Subject  = "BOINC Alpha Testing";
 
 $r = _mysql_query("select * from test_report");
@@ -38,34 +38,39 @@ testing process, please let me know.<br>
 We rely on the help of volunteers like you to make sure that<br>
 BOINC runs smoothly on all types of computers.</p>
 <p>Thanks in advance,<br>
-Rom Walton<br>
-BOINC Development team</p>
+David Anderson<br>
+BOINC project</p>
 <p></p>
 ";
 
 		$message = "
-Dear $user->name:\n
-\n
-We notice that since joining the BOINC Alpha Test project on $create_date,\n
-you have not yet reported any test results\n
-using our web-based reporting system:\n
-http://isaac.ssl.berkeley.edu/alpha/test_form.php\n
-\n
-It's very important that you report results,\n
-even if you don't find any problems.\n
-We don't release BOINC software until it gets at least 5\n
-\"No bugs found\" reports for each test and computer type.\n
-\n
-If you have any questions or problems with the BOINC Alpha\n
-testing process, please let me know.\n
-We rely on the help of volunteers like you to make sure that\n
-BOINC runs smoothly on all types of computers.\n
-\n
-Thanks in advance,\n
-Rom Walton\n
-BOINC Development team\n
+Dear $user->name:
+
+We notice that since joining the BOINC Alpha Test project on $create_date,
+you have not yet reported any test results
+using our web-based reporting system:
+http://isaac.ssl.berkeley.edu/alpha/test_form.php
+
+It's very important that you report results,
+even if you don't find any problems.
+We don't release BOINC software until it gets at least 5
+\"No bugs found\" reports for each test and computer type.
+
+If you have any questions or problems with the BOINC Alpha
+testing process, please let me know.
+We rely on the help of volunteers like you to make sure that
+BOINC runs smoothly on all types of computers.
+
+Thanks in advance,
+David Anderson
+BOINC project
 \n
 ";
+
+        echo $user->email_addr;
+        echo $user->name;
+        echo $message;
+        continue;
 
 		$mail->Body     = $html;
 		$mail->AltBody  = $message;

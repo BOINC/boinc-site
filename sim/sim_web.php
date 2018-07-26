@@ -544,7 +544,7 @@ case null:
     show_scenarios();
     break;
 default:
-    die("unknown action $action");
+    die("unknown action");
 }
 
 ?>

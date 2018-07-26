@@ -150,20 +150,20 @@ function show_participate() {
 
 function show_science() {
     panel(
-        tra("High-throughput computing with BOINC"),
+        tra("Compute with BOINC"),
         function() {
             echo 
-                tra("%1 Scientists %2: use BOINC to create a %3 volunteer computing project %4, giving you the power of thousands of CPUs and GPUs.",
-                    "<b>", "</b>", "<a href=volunteer.php>", "</a>"
+                tra("%1Scientists%2: use BOINC to create a %3volunteer computing project%4, giving you the power of thousands of CPUs and GPUs.",
+                    "<b>", "</b>", "<a href=https://boinc.berkeley.edu/trac/wiki/VolunteerComputing>", "</a>"
                 )
                 .'<p></p>'.
-                tra("%1 Universities %2: use BOINC to create a %3 Virtual Campus Supercomputing Center %4.",
+                tra("%1 Universities%2: use BOINC to create a %3Virtual Campus Supercomputing Center%4.",
                     "<b>", "</b>",
                     "<a href=\"trac/wiki/VirtualCampusSupercomputerCenter\">", "</a>"
                 )
                 .'<p></p>'.
-                tra("%1 Companies %2: use BOINC for %3 desktop Grid computing %4.",
-                    "<b>", "</b>", "<a href=dg.php>", "</a>"
+                tra("%1Companies%2: use BOINC for %3desktop Grid computing%4.",
+                    "<b>", "</b>", "<a href=https://boinc.berkeley.edu/trac/wiki/DesktopGrid>", "</a>"
                 )
                 .'<p></p>
                 <center>
@@ -179,14 +179,15 @@ function show_software() {
         tra("Software development"),
         function() {
             echo 
-                tra("BOINC is a software platform for volunteer computing. It includes client, server, and web components, and APIs for connecting other components.").'
-                '.tra("BOINC is distributed under the LGPL open-source license.").'
+                tra("BOINC includes client, server, and web components, and APIs for connecting other components.").'
+                '.tra("It is distributed under the LGPLv3 open-source license.").'
                 <p></p>
                 <center>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/SourceCodeGit">'.tra("Source code").'</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/SoftwareBuilding">'.tra("Building BOINC").'</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/SoftwareAddon">APIs</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/SoftwareDevelopment">'.tra("Design documents").'</a>
+                <a class="btn btn-xs btn-primary" href="trac/wiki/CodingStyle">'.tra("Coding style").'</a>
                 </center>
                 <p></p>
                 '.tra("BOINC software development is community-based.  Everyone is welcome to participate.").'
@@ -194,6 +195,7 @@ function show_software() {
                 <center>
                 <a class="btn btn-xs btn-primary" href="https://github.com/BOINC/boinc">'.tra("Github").'</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/BoincGovernanceWorkingGroups">'.tra("Organization").'</a>
+                <a class="btn btn-xs btn-primary" href="trac/wiki/AdminTasks">'.tra("Tasks").'</a>
                 </center>
                 <p></p>
             ';
@@ -210,10 +212,11 @@ function show_boinc() {
         'The BOINC Project',
         function() {
             echo '
-                The BOINC project is based at the University of California, Berkeley Spaces Sciences Laboratory.  It has operated since 2002, with funding primarily from the National Science Foundation.
+                The BOINC project is located at the University of California, Berkeley.  It has existed since 2002, with funding primarily from the National Science Foundation.
                 <p></p>
                 <center>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/ProjectPeople">Contact us</a>
+                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincPapers">Papers</a>
                 </center>
             ';
         }
@@ -261,7 +264,6 @@ function left() {
     show_science();
     show_software();
     show_boinc();
-    show_participant();
     //show_nsf();
     echo '</div>';
 }
@@ -269,6 +271,7 @@ function left() {
 function right() {
     echo '<div class="container-fluid">';
     show_news_items();
+    show_participant();
     echo '</div>';
 }
 

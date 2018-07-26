@@ -1,5 +1,24 @@
 <?php
 
+// This file is part of BOINC.
+// http://boinc.berkeley.edu
+// Copyright (C) 2018 University of California
+//
+// BOINC is free software; you can redistribute it and/or modify it
+// under the terms of the GNU Lesser General Public License
+// as published by the Free Software Foundation,
+// either version 3 of the License, or (at your option) any later version.
+//
+// BOINC is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+// See the GNU Lesser General Public License for more details.
+//
+// You should have received a copy of the GNU Lesser General Public License
+// along with BOINC.  If not, see <http://www.gnu.org/licenses/>.
+
+// Show project list as XML.
+//
 // The BOINC client uses this to get a current list of projects,
 // which it does every 14 days.
 // Don't break backwards compatibility!
@@ -28,6 +47,7 @@ foreach ($areas as $area) {
     $projects = $area[1];
     foreach ($projects as $p) {
         if (!$test && $p->id >= 1000) continue;
+            // test projects have temp IDs >= 1000
         $p->general_area = $area_name;
         $proj_list[] = $p;
     }
@@ -38,6 +58,7 @@ foreach($proj_list as $p) {
         <name>$p->name</name>
         <id>$p->id</id>
         <url>$p->master_url</url>
+        <web_url>$p->web_url</web_url>
         <general_area>$p->general_area</general_area>
         <specific_area>$p->area</specific_area>
         <description><![CDATA[$p->description]]></description>

@@ -39,6 +39,8 @@ function project(
 // 4: description
 // 5: logo
 // 6: master URL (if different from web site)
+//      This should match their get_project_config.php
+//      maybe should automate this
 // 7: 1-sentence summary
 
 $sensing = array(
@@ -123,7 +125,7 @@ $biomed = array(
             tra("Medical physiology"),
             tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
             "",
-            "",
+            "http://denis.usj.es/denisathome/",
             "Study the physiology of the heart",
             array(KW_BIOMED, KW_EUROPE, KW_SPAIN)
         ),
@@ -270,18 +272,18 @@ $astro_phys_chem = array(
             tra("Study the structure of the Milky Way galaxy"),
             array(KW_ASTRONOMY, KW_AMERICAS, KW_US, KW_RPI)
         ),
-        project(
-            PROJ_LEIDEN,
-            "Leiden Classical",
-            "http://boinc.gorlaeus.net/",
-            tra("Leiden University, The Netherlands"),
-            tra("Chemistry"),
-            tra("Surface science calculations using Classical Dynamics.  Leiden Classical allows volunteers, students and other scientist to submit their personal calculations to the grid. Each user has his own personal queue for Classical Dynamics jobs. In this way students have used the grid to simulate liquid argon, or to test the validity of the ideal gas law by actually doing the simulations through the grid."),
-            "leiden_classical.png",
-            "",
-            tra("Help students do atomic simulations"),
-            array(KW_CHEMISTRY, KW_EUROPE, KW_HOLLAND)
-        ),
+//        project(
+//            PROJ_LEIDEN,
+//            "Leiden Classical",
+//            "http://boinc.gorlaeus.net/",
+//            tra("Leiden University, The Netherlands"),
+//            tra("Chemistry"),
+//            tra("Surface science calculations using Classical Dynamics.  Leiden Classical allows volunteers, students and other scientist to submit their personal calculations to the grid. Each user has his own personal queue for Classical Dynamics jobs. In this way students have used the grid to simulate liquid argon, or to test the validity of the ideal gas law by actually doing the simulations through the grid."),
+//            "leiden_classical.png",
+//            "",
+//            tra("Help students do atomic simulations"),
+//            array(KW_CHEMISTRY, KW_EUROPE, KW_HOLLAND)
+//        ),
         project(
             PROJ_EINSTEIN,
             "Einstein@home",
@@ -290,7 +292,7 @@ $astro_phys_chem = array(
             tra("Astrophysics"),
             tra("Einstein@Home uses your computer's idle time to search for weak astrophysical signals from spinning neutron stars (often called pulsars) using data from the LIGO gravitational-wave detectors, the Arecibo radio telescope, and the Fermi gamma-ray satellite."),
             "einstein.jpg",
-            "",
+            "http://einstein.phys.uwm.edu/",
             tra("Help detect pulsars and gravitational waves"),
             array(KW_ASTRONOMY, KW_GW, KW_PULSARS, KW_INTERNATIONAL, KW_AEI)
         ),
@@ -509,18 +511,18 @@ $math = array(
             tra("Study the properties of prime numbers"),
             array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE, KW_GERMANY)
         ),
-        project(
-            PROJ_SZTAKI,
-            "SZTAKI Desktop Grid",
-            "http://szdg.lpds.sztaki.hu/szdg/",
-            tra("MTA-SZTAKI Laboratory of Parallel and Distributed Systems (Hungary)"),
-            tra("Mathematics"),
-            tra("Find all the generalized binary number systems (in which bases are matrices and digits are vectors) up to dimension 11."),
-            "szdg1_small.jpg",
-            "",
-            tra("Study number theory"),
-            array(KW_MATH_CS, KW_EUROPE, KW_HUNGARY)
-        ),
+//        project(
+//            PROJ_SZTAKI,
+//            "SZTAKI Desktop Grid",
+//            "http://szdg.lpds.sztaki.hu/szdg/",
+//            tra("MTA-SZTAKI Laboratory of Parallel and Distributed Systems (Hungary)"),
+//            tra("Mathematics"),
+//            tra("Find all the generalized binary number systems (in which bases are matrices and digits are vectors) up to dimension 11."),
+//            "szdg1_small.jpg",
+//            "",
+//            tra("Study number theory"),
+//            array(KW_MATH_CS, KW_EUROPE, KW_HUNGARY)
+//        ),
         project(
             PROJ_GERASIM,
             "Gerasim@Home",
@@ -545,10 +547,24 @@ $math = array(
             "",
             array(KW_MATH_CS, KW_NUMBER_THEORY)
         ),
+        project(
+            PROJ_DHEP,
+            "Distributed Hardware Evolution Project",
+            "https://dhep.ga/boinc/",
+            "University of Sussex",
+            "Electrical Engineering",
+            "DHEP uses a Genetic Algorithm in a coevolutionary setting to synthesise future super-reliable electronics such as those used in autonomous vehicles, power stations, medical equipment, aerospace. These are of increasingly paramount importance as more and more human lives rely on well functioning hardware.",
+            "dhep.png",
+            "",
+            "Help design super-reliable electronic circuits",
+            array(KW_MATH_CS, KW_EUROPE, KW_UK)
+        ),
     ),
 );
 
-$areas = array($biomed, $astro_phys_chem, $math, $earth, $mixed, $cogsci, $sensing);
+$areas = array(
+    $biomed, $astro_phys_chem, $math, $earth, $mixed, $cogsci, $sensing
+);
 
 function lookup_project($url) {
     foreach ($areas as $area) {

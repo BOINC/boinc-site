@@ -42,6 +42,7 @@ define('PROJ_GRIDREPUBLIC',    36);
 define('PROJ_SOURCEFINDER',    37);
 define('PROJ_ODLK',            38);
 define('PROJ_ODLK1',           39);
+define('PROJ_DHEP',            40);
 define('PROJ_SCIENCE_UNITED',  101);
 
 ?>
