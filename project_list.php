@@ -23,11 +23,8 @@
 // which it does every 14 days.
 // Don't break backwards compatibility!
 
-$dir = getcwd();
-chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
 require_once("../inc/translation.inc");
 require_once("../inc/util.inc");
-chdir($dir);
 
 require_once("projects.inc");
 require_once("get_platforms.inc");

@@ -29,7 +29,7 @@ define('POST_MAX_LINKS', 4);
 define('MODERATORS_CAN_BANISH', '1');
 
 function navbar($prefix, $user, $fixed) {
-    $brand = '<a href="https://boinc.berkeley.edu"><img height="50" src="https://boinc.berkeley.edu/logo/boinc_logo.png"></a>&nbsp;&nbsp;';
+    $brand = '<p></p><center><a href="https://boinc.berkeley.edu"><img height="50" src="https://boinc.berkeley.edu/logo/boinc_logo.png"></a><br><font color=#bbbbbb>Message boards</font></center>';
     navbar_start($brand, $fixed, false);
         // instead of PROJECT you can use an <img> or other HTML
 

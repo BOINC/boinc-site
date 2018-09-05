@@ -28,10 +28,7 @@
 // or adding this info to the download zip (Mac)
 //
 
-$dir = getcwd();
-chdir("../projects/dev/html/user");
 require_once("../inc/util.inc");
-chdir($dir);
 
 // default: just send the file
 //

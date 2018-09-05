@@ -1,10 +1,7 @@
 <?php
 
-$dir = getcwd();
-chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
 require_once("../inc/util.inc");
 require_once("../inc/translation.inc");
-chdir("$dir");
 
 $languages = get_supported_languages();
 $lang = sanitize_tags(get_str("lang", true));

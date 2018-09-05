@@ -28,10 +28,7 @@
 // version=x        show version x
 // platform=x       show only versions for platform x (win/mac/linux/solaris)
 
-$dir = getcwd();
-chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
 require_once("../inc/util.inc");
-chdir($dir);
 
 $experimental = get_str("exp", true);
 require_once("versions.inc");

@@ -1,6 +1,5 @@
 <?php
 
-//define("MYSQLI", false);
 if (isset($_SERVER) && array_key_exists('SERVER_NAME', $_SERVER)) {
     $host = $_SERVER["SERVER_NAME"];
     if ($host == "bossa.berkeley.edu") {
@@ -14,13 +13,10 @@ if (isset($_SERVER) && array_key_exists('SERVER_NAME', $_SERVER)) {
     }
 }
 
-$dir = getcwd();
-chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
 require_once("../inc/util.inc");
 require_once("../inc/language_names.inc");
 require_once("../inc/news.inc");
 require_once("../inc/forum.inc");
-chdir($dir);
 
 function show_participant() {
     $i = rand(0, 99);

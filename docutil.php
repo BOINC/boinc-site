@@ -1,10 +1,7 @@
 <?php
 
-$dir = getcwd();
-chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
 require_once("../inc/util_basic.inc");
 require_once("../inc/translation.inc");
-chdir($dir);
 
 if (0) {
     $x = $_SERVER['PHP_SELF'];

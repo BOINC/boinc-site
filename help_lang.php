@@ -1,9 +1,6 @@
 <?php
 
-$dir = getcwd();
-chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
 require_once("../inc/util.inc");
-chdir($dir);
 
 require_once("help_db.php");
 require_once("help_funcs.php");
