@@ -84,65 +84,101 @@ function show_news_items() {
     );
 }
 
-function show_participate() {
+function top() {
     panel(
-        // "Volunteer" is used as a verb
-            tra("Volunteer"),
+        //"Volunteer" is used as a verb
+        //tra("Volunteer"),
+            "",
         function () {
-            echo tra("Use the idle time on your computer (Windows, Mac, Linux, or Android) to cure diseases, study global warming, discover pulsars, and do many other types of scientific research.  It's safe, secure, and easy:");
-            echo '<p>
-                <center>
-                <a class="btn btn-lg btn-success" href="download.php">'.tra("Download").'</a>
-                </center>
-                <p></p>
-                '.tra("For Android devices, get the BOINC app from the Google Play Store; for Kindle, get it from the Amazon App Store.").'
-                <p></p>
-            ';
+            echo "<p>\n ";
             echo tra(
-                "You can choose to support %1 projects %2 such as %3, %4, and %5, among many others.",
+                "BOINC lets you help cutting-edge science research
+                using your computer (Windows, Mac, Linux) or Android device.
+                BOINC downloads scientific computing jobs
+                to your computer and runs them invisibly in the background.
+                It's easy and safe."
+            );
+            echo "</p><p>\n ";
+            echo tra(
+                "About 30 science projects use BOINC; examples include %3, %4, and %5.",
                 '<a href="projects.php">', '</a>',
                 '<a href="https://einsteinathome.org">Einstein@Home</a>',
                 '<a href="https://worldcommunitygrid.org">IBM World Community Grid</a>',
                 '<a href="https://setiathome.berkeley.edu">SETI@home</a>'
             );
-            echo " ";
-            echo tra("If you run several projects, try an %1 account manager %2 such as %3 GridRepublic %4 or %5 BAM! %6. ",
-                "<a href=\"https://boinc.berkeley.edu/wiki/Account_managers\">", "</a>",
-                "<a href=\"https://www.gridrepublic.org\">", "</a>",
-                "<a href=\"https://bam.boincstats.com/\">", "</a>"
-            );
-            echo '
-                <p></p>
-                '.tra("Learn more:").'
-                <p></p>
-                <center>
-                <a class="btn btn-xs btn-primary" href="projects.php">'.tra("Projects").'</a>
-                <a class="btn btn-xs btn-primary" href="https://boinc.berkeley.edu/wiki/User_manual"><span class=nobr>'.tra("Manual").'</span></a> 
-                <a class="btn btn-xs btn-primary" href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
-                <a class="btn btn-xs btn-primary" href="links.php"><span class=nobr>'.tra("Links").'</span></a> 
-                </center>
+            echo ' These projects investigate diseases, study global warming, discover pulsars, and do many other types of scientific research.
+                </p><p>
+                You can participate in either of two ways:
+                </p><p>
             ';
             echo '
-                <p></p>
-                Communicate:
-                <p></p>
+                <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm-6">
                 <center>
-                <a class="btn btn-xs btn-primary" href="dev/">'.tra("Message boards").'</a>
-                <a class="btn btn-xs btn-primary" href="https://boinc.berkeley.edu/wiki/BOINC_Help">'.tra("Help").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/EmailLists">'.tra("Email lists").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincEvents">'.tra("Events").'</a>
+
+                <p>
+                <font size=+2>Choose science areas</font>
+                </p><p>
+                To contribute to science areas
+                (biomedicine, physics, astronomy, and so on)
+                use <a href=https://scienceunited.org>Science United</a>.
+                Your computer will do work for current and future projects
+                in those areas.
+                </p><p>
+
+                <a class="btn btn-lg btn-success" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
                 </center>
-                <p></p>
-                '.tra("Other ways to help:").'
-                <p></p>
+                </div>
+                <div class="col-sm-1" ><p></p><font size=+1>or</font></div>
+                <div class="col-sm-5" >
                 <center>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/ContributePage">'.tra("Overview").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/TranslateIntro">'.tra("Translate").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/AlphaInstructions">'.tra("Test").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/WikiMeta">'.tra("Document").'</a>
-                <a class="btn btn-xs btn-primary" href="https://boinc.berkeley.edu/wiki/Publicizing_BOINC">'.tra("Publicize").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/ReportBugs">'.tra("Report bugs").'</a>
+                <p>
+                <font size=+2>Choose projects</font>
+                </p><p>
+                To contribute to specific projects,
+                download BOINC and follow the directions.
+                </p><p>
+                <a class="btn btn-lg btn-success" href="download.php">'.tra("Download BOINC").'</a>
                 </center>
+                </div>
+                </div>
+                </div>
+            ';
+            echo '
+                </p><hr>
+                <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm-4">
+                <font size=+2>
+                '.tra("Learn more").'
+                </font>
+                <br><a href="projects.php">'.tra("Projects").'</a>
+                <br><a href="https://boinc.berkeley.edu/wiki/User_manual"><span class=nobr>'.tra("Manual").'</span></a> 
+                <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
+                <br><a btn-primary" href="links.php"><span class=nobr>'.tra("Links").'</span></a> 
+                <p>
+                </div><div class="col-sm-4">
+                <font size=+2>
+                '.tra("Communicate").'
+                </font>
+                <br><a href="forum_index.php">'.tra("Message boards").'</a>
+                <br><a href="https://boinc.berkeley.edu/wiki/BOINC_Help">'.tra("Help").'</a>
+                <br><a href="trac/wiki/EmailLists">'.tra("Email lists").'</a>
+                <br><a href="trac/wiki/BoincEvents">'.tra("Events").'</a>
+                <p>
+                </div><div class="col-sm-4">
+                <font size=+2>
+                '.tra("Other ways to help").'
+                </font>
+                <br><a href="trac/wiki/TranslateIntro">'.tra("Translate").'</a>
+                <br><a href="trac/wiki/AlphaInstructions">'.tra("Test").'</a>
+                <br><a href="trac/wiki/WikiMeta">'.tra("Document").'</a>
+                <br><a href="https://boinc.berkeley.edu/wiki/Publicizing_BOINC">'.tra("Publicize").'</a>
+                <br><a href="trac/wiki/ReportBugs">'.tra("Report bugs").'</a>
+                </div>
+                </div>
+                </div>
             ';
         }
     );
@@ -150,7 +186,7 @@ function show_participate() {
 
 function show_science() {
     panel(
-        tra("Compute with BOINC"),
+        tra("Create a BOINC project"),
         function() {
             echo 
                 tra("%1Scientists%2: use BOINC to create a %3volunteer computing project%4, giving you the power of thousands of CPUs and GPUs.",
@@ -176,7 +212,7 @@ function show_science() {
 }
 function show_software() {
     panel(
-        tra("Software development"),
+        tra("Software"),
         function() {
             echo 
                 tra("BOINC includes client, server, and web components, and APIs for connecting other components.").'
@@ -231,11 +267,6 @@ function show_nsf() {
         <a href=\"https://nsf.gov\">National Science Foundation</a>
         through awards SCI-0221529, SCI-0438443, SCI-0506411,
                 PHY/0555655, and OCI-0721124.
-        <span class=note>
-        Any opinions, findings, and conclusions or recommendations expressed in
-        this material are those of the author(s)
-        and do not necessarily reflect the views of the National Science Foundation.
-        </span>
         </td></tr>
     ";
 }
@@ -260,24 +291,24 @@ echo '
 
 function left() {
     echo '<div class="container-fluid">';
-    show_participate();
     show_science();
     show_software();
     show_boinc();
-    //show_nsf();
+    show_participant();
     echo '</div>';
 }
 
 function right() {
     echo '<div class="container-fluid">';
     show_news_items();
-    show_participant();
     echo '</div>';
 }
 
-page_head(tra("Open-source software for volunteer computing"), null, true);
+echo "<p>&nbsp;</p>\n";
+page_head(tra("Compute for Science"), null, true);
 
-grid(null, 'left', 'right');
+grid('top', 'left', 'right');
 
+    show_nsf();
 page_tail(true, true);
 ?>
