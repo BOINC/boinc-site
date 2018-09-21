@@ -110,7 +110,7 @@ function top() {
             echo '
                 <div class="container-fluid">
                 <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" style="background-color:#efefef">
                 <center>
 
                 <p>
@@ -126,8 +126,8 @@ function top() {
                 <a class="btn btn-lg btn-success" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
                 </center>
                 </div>
-                <div class="col-sm-1" ><p></p><font size=+1>or</font></div>
-                <div class="col-sm-5" >
+                <div class="col-sm-1" ><p></p><center><font size=+1>or</font></center></div>
+                <div class="col-sm-5" style="background-color:#efefef">
                 <center>
                 <p>
                 <font size=+2>Choose projects</font>
@@ -142,17 +142,17 @@ function top() {
                 </div>
             ';
             echo '
-                </p><hr>
+                </p>
                 <div class="container-fluid">
                 <div class="row">
                 <div class="col-sm-4">
                 <font size=+2>
                 '.tra("Learn more").'
                 </font>
-                <br><a href="projects.php">'.tra("Projects").'</a>
-                <br><a href="https://boinc.berkeley.edu/wiki/User_manual"><span class=nobr>'.tra("Manual").'</span></a> 
+                <br><a href="projects.php">'.tra("Science projects").'</a>
+                <br><a href="https://boinc.berkeley.edu/wiki/User_manual"><span class=nobr>'.tra("User manual").'</span></a> 
                 <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
-                <br><a btn-primary" href="links.php"><span class=nobr>'.tra("Links").'</span></a> 
+                <br><a btn-primary" href="links.php"><span class=nobr>'.tra("Web resources").'</span></a> 
                 <p>
                 </div><div class="col-sm-4">
                 <font size=+2>
@@ -161,7 +161,7 @@ function top() {
                 <br><a href="forum_index.php">'.tra("Message boards").'</a>
                 <br><a href="https://boinc.berkeley.edu/wiki/BOINC_Help">'.tra("Help").'</a>
                 <br><a href="trac/wiki/EmailLists">'.tra("Email lists").'</a>
-                <br><a href="trac/wiki/BoincEvents">'.tra("Events").'</a>
+                <br><a href="trac/wiki/ReportBugs">'.tra("Report bugs").'</a>
                 <p>
                 </div><div class="col-sm-4">
                 <font size=+2>
@@ -171,7 +171,6 @@ function top() {
                 <br><a href="trac/wiki/AlphaInstructions">'.tra("Test").'</a>
                 <br><a href="trac/wiki/WikiMeta">'.tra("Document").'</a>
                 <br><a href="https://boinc.berkeley.edu/wiki/Publicizing_BOINC">'.tra("Publicize").'</a>
-                <br><a href="trac/wiki/ReportBugs">'.tra("Report bugs").'</a>
                 </div>
                 </div>
                 </div>
@@ -182,25 +181,25 @@ function top() {
 
 function show_science() {
     panel(
-        tra("Create a BOINC project"),
+        tra("High-Throughput Computing with BOINC"),
         function() {
-            echo 
-                tra("%1Scientists%2: use BOINC to create a %3volunteer computing project%4, giving you the power of thousands of CPUs and GPUs.",
-                    "<b>", "</b>", "<a href=https://boinc.berkeley.edu/trac/wiki/VolunteerComputing>", "</a>"
-                )
-                .'<p></p>'.
-                tra("%1 Universities%2: use BOINC to create a %3Virtual Campus Supercomputing Center%4.",
-                    "<b>", "</b>",
-                    "<a href=\"trac/wiki/VirtualCampusSupercomputerCenter\">", "</a>"
-                )
-                .'<p></p>'.
-                tra("%1Companies%2: use BOINC for %3desktop Grid computing%4.",
-                    "<b>", "</b>", "<a href=https://boinc.berkeley.edu/trac/wiki/DesktopGrid>", "</a>"
-                )
-                .'<p></p>
+            echo "
+                <p>
+                BOINC is a platform for high-throughput computing
+                on a large scale (thousands or millions of computers).
+                It can be used for volunteer computing
+                (using consumer devices)
+                or grid computing (using organizational resources).
+                It supports virtualized, parallel, and GPU-based applications.
+                <p>
+                BOINC is distributed under the LGPL open source license.
+                It can be used for commercial purposes,
+                and applications need not be open source.
+            ";
+            echo '
                 <center>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/ProjectMain">'.tra("Documentation").'</a>
-                <a class="btn btn-xs btn-primary" href=trac/wiki/BoincDocker>'.tra("BOINC and Docker").'</a>
+                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincOverview">'.tra("Computing with BOINC").'</a>
+                <a class="btn btn-xs btn-primary" href="trac/wiki/ProjectMain">'.tra("Technical Documentation").'</a>
                 </center>
             ';
         }
@@ -249,6 +248,7 @@ function show_boinc() {
                 <center>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/ProjectPeople">Contact us</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/BoincPapers">Papers</a>
+                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincEvents">'.tra("Events").'</a>
                 </center>
             ';
         }
@@ -257,13 +257,11 @@ function show_boinc() {
 
 function show_nsf() {
     echo "
-        <tr><td>
-        <img align=left hspace=8 src=nsf.gif alt=\"NSF logo\">
+        <img hspace=8 src=images/nsf.gif alt=\"NSF logo\">
         BOINC is supported by the
         <a href=\"https://nsf.gov\">National Science Foundation</a>
         through awards SCI-0221529, SCI-0438443, SCI-0506411,
                 PHY/0555655, and OCI-0721124.
-        </td></tr>
     ";
 }
 
@@ -306,5 +304,6 @@ page_head(tra("Compute for Science"), null, true);
 grid('top', 'left', 'right');
 
     show_nsf();
+    echo "<br>";
 page_tail(true, true);
 ?>

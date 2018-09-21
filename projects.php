@@ -13,7 +13,7 @@ others are run by private groups or individuals.
 You can participate in any number of these projects.
 <p>
 In deciding whether to participate in a project,
-read its web site and consider the following questions:
+read its web site and think about:
 
 <ul>
 <li> Does the project clearly describe its goals?
@@ -30,17 +30,6 @@ A list of scientific publications of BOINC projects</a>.
 
 The following projects are known to us at BOINC,
 and we believe that their descriptions are accurate.
-";
-//See also <a href=wiki/Project_list>a complete list of projects</a>.
-echo "
-
-<p>
-Projects have different requirements such as memory size;
-a partial summary is <a href=http://boincfaq.mundayweb.com/index.php?view=67>here</a>.
-<p>
-If your computer is equipped with a Graphics Processing Unit
-(GPU), you may be able to
-<a href=\"http://boinc.berkeley.edu/wiki/GPU_computing\">use it to compute faster</a>.
 ";
 
 function comp_name($p1, $p2) {

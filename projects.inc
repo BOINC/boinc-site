@@ -4,15 +4,9 @@
 // look at https://boinc.berkeley.edu/project_list.php in a browser to make sure
 // you didn't mess up the XML
 
-// for tra()
-//
-$dir = getcwd();
-chdir("/mydisks/a/users/boincadm/projects/dev/html/user");
 require_once("../inc/util.inc");
-chdir($dir);
-
-require_once("keywords.inc");
-require_once("project_ids.inc");
+require_once("../inc/keywords.inc");
+require_once("../inc/project_ids.inc");
 
 function project(
     $id, $name, $web_url, $home, $area, $description,
@@ -558,6 +552,18 @@ $math = array(
             "",
             "Help design super-reliable electronic circuits",
             array(KW_MATH_CS, KW_EUROPE, KW_UK)
+        ),
+        project(
+            PROJ_DBN,
+            "DBN Upper Bound",
+            "http://anthgrid.com/dbnupperbound/",
+            "Independent",
+            "Mathematics",
+            "DBN Upper Bound is related to the theory of the Riemann zeta function.",
+            "",
+            "",
+            "",
+            array(KW_MATH_CS)
         ),
     ),
 );

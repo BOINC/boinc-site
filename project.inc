@@ -18,7 +18,7 @@ define("SYS_ADMIN_EMAIL", "davea@ssl.berkeley.edu");
 define("POST_REPORT_EMAILS", "bernievine@gmail.com, elst93@gmail.com, ksmarkspsych@gmail.com, DjangoFett@gmx.net, r.haselgrove@btinternet.com");
 define('DISABLE_TEAMS', 1);
 define('COUNTRY_FLAGS', 1);
-define("SHORTCUT_ICON", "img/favicon.gif");
+define("SHORTCUT_ICON", "img/f2.gif");
 define('RECORD_USER_IP', true);
 define('NO_COMPUTING', true);
 define('NO_STATS', true);
@@ -62,7 +62,7 @@ function project_banner($title, $prefix, $is_main) {
             <img src="logo/www_logo.gif" alt="BOINC">
             </div>
             <div class="col-sm-6" align=center>
-            <span style="padding-left:0px; padding-right:30px; font-size:35px;">
+            <span style="padding-left:0px; padding-right:30px; font-size:42px;">
             '.$title.'
             </span>
             </div>
