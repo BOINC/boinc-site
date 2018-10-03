@@ -119,14 +119,14 @@ $biomed = array(
             tra("Medical physiology"),
             tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
             "",
-            "http://denis.usj.es/denisathome/",
+            "",
             "Study the physiology of the heart",
             array(KW_BIOMED, KW_EUROPE, KW_SPAIN)
         ),
         project(
             PROJ_RNA_WORLD,
             "RNA World",
-            "http://www.rnaworld.de/rnaworld/",
+            "https://www.rnaworld.de/rnaworld/",
             "Rechenkraft.net e.V.",
             tra("Molecular biology"),
             tra("RNA World seeks to identify, analyze, structurally predict and design RNA molecules on the basis of established bioinformatics software."),
@@ -138,7 +138,7 @@ $biomed = array(
         project(
             PROJ_GPU_GRID,
             "GPUGrid.net",
-            "http://www.gpugrid.net/",
+            "https://www.gpugrid.net/",
             tra("Barcelona Biomedical Research Park (PRBB)"),
             tra("Molecular simulations of proteins"),
             tra("GPUGrid.net opens novel computational scenarios by the first full-atom molecular dynamics code (CellMD) specially optimized to run on NVIDIA GPUs. New biomedical applications suddenly become possible giving a new role to computational biology for biomedical research."),
@@ -150,7 +150,7 @@ $biomed = array(
         project(
             PROJ_ROSETTA,
             "Rosetta@home",
-            "http://boinc.bakerlab.org/rosetta/",
+            "https://boinc.bakerlab.org/rosetta/",
             tra("University of Washington"),
             tra("Biology"),
             tra("Determine the 3-dimensional shapes of proteins in research that may ultimately lead to finding cures for some major human diseases. By running Rosetta@home you will help us speed up and extend our research in ways we couldn't possibly attempt without your help. You will also be helping our efforts at designing new proteins to fight diseases such as HIV, malaria, cancer, and Alzheimer's"),
@@ -167,12 +167,12 @@ $earth = array(
         project(
             PROJ_CPDN,
             "Climateprediction.net",
-            "http://climateprediction.net/",
+            "https://climateprediction.net/",
             tra("Oxford University"),
             tra("Climate study"),
             tra("Investigate the approximations that have to be made in state-of-the-art climate models. By running the model thousands of times we hope to find out how the model responds to slight tweaks to these approximations - slight enough to not make the approximations any less realistic. This will allow us to improve our understanding of how sensitive our models are to small changes and also to things like changes in carbon dioxide and the sulphur cycle. This will allow us to explore how climate may change in the next century under a wide range of different scenarios."),
             "cpn_logo_world_1.jpg",
-            "http://www.cpdn.org/cpdnboinc/",
+            "https://www.cpdn.org/cpdnboinc/",
             "Study long-term climate change",
             array(KW_EARTH_SCI, KW_CLIMATE, KW_EUROPE, KW_UK, KW_OXFORD)
         ),
@@ -221,7 +221,7 @@ $astro_phys_chem = array(
         project(
             PROJ_ASTEROIDS,
             "Asteroids@home",
-            "http://asteroidsathome.net/boinc/",
+            "https://asteroidsathome.net/boinc/",
             "Charles University in Prague",
             tra("Astrophysics"),
             tra("The aim of the project is to derive shapes and spin for a significant part of the asteroid population. As input data, we use any asteroid photometry that is available. The results are asteroid convex shape models with the direction of the spin axis and the rotation period."),
@@ -233,7 +233,7 @@ $astro_phys_chem = array(
         project(
             PROJ_COSMOLOGY,
             "Cosmology@Home",
-            "http://www.cosmologyathome.org/",
+            "https://www.cosmologyathome.org/",
             tra("University of Illinois at Urbana-Champaign"),
             tra("Astronomy"),
             tra("The goal of Cosmology@Home is to search for the model that best describes our Universe and to find the range of models that agree with the available astronomical particle physics data."),
@@ -257,7 +257,7 @@ $astro_phys_chem = array(
         project(
             PROJ_MILKYWAY,
             "Milkyway@home",
-            "http://milkyway.cs.rpi.edu/milkyway/",
+            "https://milkyway.cs.rpi.edu/milkyway/",
             tra("Rensselaer Polytechnic Institute"),
             tra("Astronomy"),
             tra("The goal of Milkyway@Home is to create a highly accurate three dimensional model of the Milky Way galaxy using data gathered by the Sloan Digital Sky Survey."),
@@ -286,7 +286,7 @@ $astro_phys_chem = array(
             tra("Astrophysics"),
             tra("Einstein@Home uses your computer's idle time to search for weak astrophysical signals from spinning neutron stars (often called pulsars) using data from the LIGO gravitational-wave detectors, the Arecibo radio telescope, and the Fermi gamma-ray satellite."),
             "einstein.jpg",
-            "http://einstein.phys.uwm.edu/",
+            "https://einstein.phys.uwm.edu/",
             tra("Help detect pulsars and gravitational waves"),
             array(KW_ASTRONOMY, KW_GW, KW_PULSARS, KW_INTERNATIONAL, KW_AEI)
         ),
@@ -305,7 +305,7 @@ $astro_phys_chem = array(
         project(
             PROJ_SETI,
             "SETI@home",
-            "http://setiathome.berkeley.edu/",
+            "https://setiathome.berkeley.edu/",
             tra("University of California, Berkeley"),
             tra("Astrophysics, astrobiology"),
             tra("SETI (Search for Extraterrestrial Intelligence) is a scientific area whose goal is to detect intelligent life outside Earth. One approach, known as radio SETI, uses radio telescopes to listen for narrow-bandwidth radio signals from space. Such signals are not known to occur naturally, so a detection would provide evidence of extraterrestrial technology."),
@@ -347,7 +347,7 @@ $mixed = array(
         project(
             PROJ_YOYO,
             "Yoyo@home",
-            "http://www.rechenkraft.net/yoyo/",
+            "https://www.rechenkraft.net/yoyo/",
             tra("Independent"),
             tra("Mathematics, physics, evolution"),
             tra("Yoyo@home is an adapter between BOINC and several existing volunteer computing projects: ECM, Muon, Evolution@home, and distributed.net"),
@@ -359,7 +359,7 @@ $mixed = array(
         project(
             PROJ_WCG,
             "World Community Grid",
-            "http://www.worldcommunitygrid.org/",
+            "https://www.worldcommunitygrid.org/",
             tra("IBM Corporate Citizenship"),
             tra("Medical, environmental and other humanitarian research"),
             tra("To further critical non-profit research on some of humanity's most pressing problems by creating the world's largest volunteer computing grid.  Research includes HIV-AIDS, cancer, tropical and neglected diseases, solar energy, clean water and many more."),
@@ -412,7 +412,7 @@ $math = array(
         project(
             PROJ_ODLK1,
             "ODLK1",
-            "http://boinc.multi-pool.info/latinsquares/",
+            "https://boinc.multi-pool.info/latinsquares/",
             "Independent",
             tra("Mathematics"),
             "OLDK is building a database of canonical forms of diagonal Latin squares of the 10th order",
@@ -436,7 +436,7 @@ $math = array(
         project(
             PROJ_MOO,
             "Moo! Wrapper",
-            "http://moowrap.net/",
+            "https://moowrap.net/",
             "Independent",
             tra("Cryptography and combinatorics"),
             tra("Run applications from distributed.net"),
@@ -484,7 +484,7 @@ $math = array(
         project(
             PROJ_PRIMEGRID,
             "PrimeGrid",
-            "http://www.primegrid.com/",
+            "https://www.primegrid.com/",
             tra("Independent"),
             tra("Mathematics"),
             tra("Primegrid has multiple projects searching for different forms of very large prime numbers, including searching for the largest known prime number."),
@@ -496,7 +496,7 @@ $math = array(
         project(
             PROJ_PRIMABOINCA,
             "primaboinca",
-            "http://www.primaboinca.com/",
+            "https://www.primaboinca.com/",
             tra("Hochschule RheinMain University of Applied Sciences"),
             tra("Mathematics"),
             tra("Search for counterexamples to two conjectures related to the identification of prime numbers"),
