@@ -39,13 +39,12 @@ function show_pictures() {
 function show_download($client_info, $pname) {
     echo "
         <table cellpadding=10><tr><td valign=top>
-        ".tra("BOINC is a program that lets you donate your idle computer time to science projects like SETI@home, Climateprediction.net, Rosetta@home, World Community Grid, and many others.")
-        ."  "
-        .tra("After installing BOINC on your computer, you can connect it to as many of these projects as you like.")
-        ."<p>"
-        .tra("You may run this software on a computer only if you own the computer or have the permission of its owner.").
-        "<p>"
-    ;
+        <p>
+    ";
+    echo tra("BOINC is a program that lets you donate your idle computer time to science projects like SETI@home, Climateprediction.net, Rosetta@home, World Community Grid, and many others.");
+    echo "\n";
+    echo tra("After installing BOINC on your computer, you can connect it to as many of these projects as you like.");
+    echo "\n<p>";
     if ($pname == 'android') {
         echo "<b>"
             .tra("We recommend that you download BOINC from the Google Play Store or Amazon Appstore, not from here.")
@@ -74,14 +73,18 @@ function show_download($client_info, $pname) {
     }
     if ($pname != 'android') {
         echo "
-            <br>
+            <br><p>
             After downloading BOINC you must <b>install</b> it:
             typically this means double-clicking on the file icon
             when the download is finished.
         ";
     }
+    echo "<p>\n".tra("When you first run BOINC, you will be asked to choose a project. For instructions, see the %1BOINC User Manual%2.", "<a href=https://boinc.berkeley.edu/wiki/User_manual>", "</a>");
+
+    echo "<p>\n".tra("You may run this software on a computer only if you own the computer or have the permission of its owner.");
     echo "
         <p>
+        <hr>
         <center>
         <a href=\"wiki/System_requirements\"><span class=nobr>".tra("System requirements")."</span></a>
         &middot; <a href=\"wiki/Release_Notes\"><span class=nobr>".tra("Release notes")."</span></a>
@@ -108,7 +111,7 @@ if (get_str2('xml')) {
 
 $client_info = $_SERVER['HTTP_USER_AGENT'];
 
-page_head(tra("BOINC: compute for science"));
+page_head(tra("Participate in BOINC"));
 
 if (get_str2('all_platforms')) {
     show_download($client_info, null);

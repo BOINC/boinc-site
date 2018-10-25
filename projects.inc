@@ -559,7 +559,7 @@ $math = array(
             "http://anthgrid.com/dbnupperbound/",
             "Independent",
             "Mathematics",
-            "DBN Upper Bound is related to the theory of the Riemann zeta function.",
+            "DBN Upper Bound does computations related to the Riemann zeta function.",
             "",
             "",
             "",

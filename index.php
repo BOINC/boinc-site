@@ -86,7 +86,7 @@ function top() {
         //tra("Volunteer"),
             "",
         function () {
-            echo "<p>\n ";
+            echo "<p>\n";
             echo tra(
                 "BOINC lets you help cutting-edge science research
                 using your computer (Windows, Mac, Linux) or Android device.
