@@ -7,6 +7,9 @@ require_once("help_db.php");
 $volid = get_int('volid');
 
 $vol = vol_lookup($volid);
+if (!$vol || $vol->hide) {
+    error_page("No such volunteer");
+}
 
 function show_info($vol) {
     $x = "Country: $vol->country\n";
@@ -105,16 +108,16 @@ if ($send_email) {
     $subject = stripslashes($_GET['subject']);
     $vol = vol_lookup($volid);
     if (!$vol || $vol->hide) {
-        boinc_error_page("No such volunteer $volid");
+        error_page("No such volunteer $volid");
     }
     $msg = stripslashes($_GET['message']);
     if (!$msg) {
-        boinc_error_page("You must supply a message");
+        error_page("You must supply a message");
     }
     $body = "The following message was sent by a BOINC Help user.\n";
     $email_addr = $_GET['email_addr'];
     if (!is_valid_email_addr($email_addr)) {
-        boinc_error_page("You must specify a valid email address");
+        error_page("You must specify a valid email address");
     }
     $reply = "\r\nreply-to: $email_addr";
     $body .= "\n\n";
@@ -128,15 +131,15 @@ if ($send_email) {
     $volid = $_GET['volid'];
     $vol = vol_lookup($volid);
     if (!$vol) {
-        boinc_error_page("No such volunteer $volid");
+        error_page("No such volunteer $volid");
     }
-    $x = $_GET['rating'];
-    if ($x==null) {
-        boinc_error_page("no rating given");
+    $x = get_int('rating', true);
+    if ($x===null) {
+        error_page("You must supply a rating (0-5 stars)");
     }
     $rating = (int) $x;
     if ($rating < 0 || $rating > 5) {
-        boinc_error_page("bad rating");
+        error_page("bad rating");
     }
     $comment = stripslashes($_GET['comment']);
     $r = null;
@@ -160,7 +163,7 @@ if ($send_email) {
     }
     if (!$retval) {
         echo mysql_error();
-        boinc_error_page("database error");
+        error_page("database error");
     }
     page_head("Feedback recorded");
     echo "Your feedback has been recorded.  Thanks.
@@ -200,7 +203,10 @@ if (false) {
     email_contact($vol);
     echo "</td></tr></table><p>\n";
     echo "<table class=box cellpadding=8 width=100%><tr><td>";
-    $rating = rating_vol_auth($vol->id, $uid);
+    $rating = null;
+    if ($uid) {
+        $rating = rating_vol_auth($vol->id, $uid);
+    }
     if (!$rating) {
         $rating = new StdClass;
         $rating->rating = -1;
