@@ -27,12 +27,12 @@ function project(
 }
 
 // 0: name
-// 1: web site URL
+// 1: web RPC URL
 // 2: home
 // 3: area
 // 4: description
 // 5: logo
-// 6: master URL (if different from web site)
+// 6: master URL (if different from web RPC URL)
 //      This should match their get_project_config.php
 //      maybe should automate this
 // 7: 1-sentence summary
@@ -167,12 +167,12 @@ $earth = array(
         project(
             PROJ_CPDN,
             "Climateprediction.net",
-            "http://climateprediction.net/",
+            "https://www.cpdn.org/cpdnboinc/",
             tra("Oxford University"),
             tra("Climate study"),
             tra("Investigate the approximations that have to be made in state-of-the-art climate models. By running the model thousands of times we hope to find out how the model responds to slight tweaks to these approximations - slight enough to not make the approximations any less realistic. This will allow us to improve our understanding of how sensitive our models are to small changes and also to things like changes in carbon dioxide and the sulphur cycle. This will allow us to explore how climate may change in the next century under a wide range of different scenarios."),
             "cpn_logo_world_1.jpg",
-            "http://www.cpdn.org/cpdnboinc/",
+            "https://climateprediction.net/",
             "Study long-term climate change",
             array(KW_EARTH_SCI, KW_CLIMATE, KW_EUROPE, KW_UK, KW_OXFORD)
         ),

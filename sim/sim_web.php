@@ -199,18 +199,17 @@ function create_scenario_form() {
         (items with * are required).
         <form action=sim_web.php method=post enctype=\"multipart/form-data\">
         <input type=hidden name=action value=create_scenario>
-        <table>
     ";
+    start_table();
     row2("* client_state.xml", "<input name=client_state type=file>");
     row2("global_prefs.xml", "<input name=global_prefs type=file>");
     row2("global_prefs_override.xml", "<input name=global_prefs_override type=file>");
     row2("cc_config.xml", "<input name=cc_config type=file>");
+    row2("app_config.xml", "<input name=app_config type=file> Project URL: <input name=app_config_url>");
     row2("* Description", "<textarea name=description cols=40></textarea>");
     row2("", "<input type=submit value=OK>");
-    echo "
-        </table>
-        </form>
-    ";
+    end_table();
+    echo "</form>\n";
     page_tail();
 }
 
@@ -232,6 +231,18 @@ function create_dir_seqno($dir) {
     $p = "$dir/$i";
     mkdir($p);
     return "$i";
+}
+
+// convert master URL to directory name
+//
+function escape_project_url($url) {
+    $x = strstr($url, "://");
+    $x = substr($x, 3);
+    $x = str_replace("/", "_", $x);
+    if (substr($x, -1) == "_") {
+        $x = substr($x, 0, -1);
+    }
+    return $x;
 }
 
 // choose scenario name
@@ -264,6 +275,14 @@ function create_scenario() {
     $ccc = $_FILES['cc_config']['tmp_name'];
     if (is_uploaded_file($ccc)) {
         move_uploaded_file($ccc, "$d/cc_config.xml");
+    }
+    $appc = $_FILES['app_config']['tmp_name'];
+    $appc_url = post_str("app_config_url");
+    if ($appc_url && is_uploaded_file($appc)) {
+        $url = escape_project_url($appc_url);
+        mkdir("$d/projects");
+        mkdir("$d/projects/$url");
+        move_uploaded_file($appc, "$d/projects/$url/app_config.xml");
     }
     file_put_contents("$d/userid", "$user->id");
     file_put_contents("$d/description", $desc);
