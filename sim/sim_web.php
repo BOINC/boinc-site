@@ -205,7 +205,8 @@ function create_scenario_form() {
     row2("global_prefs.xml", "<input name=global_prefs type=file>");
     row2("global_prefs_override.xml", "<input name=global_prefs_override type=file>");
     row2("cc_config.xml", "<input name=cc_config type=file>");
-    row2("app_config.xml", "<input name=app_config type=file> Project URL: <input name=app_config_url>");
+    row2("app_config.xml #1", "<input name=app_config1 type=file> Project URL: <input name=app_config_url1>");
+    row2("app_config.xml #2", "<input name=app_config2 type=file> Project URL: <input name=app_config_url2>");
     row2("* Description", "<textarea name=description cols=40></textarea>");
     row2("", "<input type=submit value=OK>");
     end_table();
@@ -276,8 +277,16 @@ function create_scenario() {
     if (is_uploaded_file($ccc)) {
         move_uploaded_file($ccc, "$d/cc_config.xml");
     }
-    $appc = $_FILES['app_config']['tmp_name'];
-    $appc_url = post_str("app_config_url");
+    $appc = $_FILES['app_config1']['tmp_name'];
+    $appc_url = post_str("app_config_url1");
+    if ($appc_url && is_uploaded_file($appc)) {
+        $url = escape_project_url($appc_url);
+        mkdir("$d/projects");
+        mkdir("$d/projects/$url");
+        move_uploaded_file($appc, "$d/projects/$url/app_config.xml");
+    }
+    $appc = $_FILES['app_config2']['tmp_name'];
+    $appc_url = post_str("app_config_url2");
     if ($appc_url && is_uploaded_file($appc)) {
         $url = escape_project_url($appc_url);
         mkdir("$d/projects");

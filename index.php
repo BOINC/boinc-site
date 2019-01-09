@@ -31,7 +31,7 @@ function show_participant() {
             echo '
                 <p> </p>
                 <a class="btn btn-xs btn-primary" href=chart_list.php>'.tra("Top 100 volunteers").'</a>
-                <a class="btn btn-xs btn-primary" href="links.php#stats">'.tra("Statistics").'</a>
+                <a class="btn btn-xs btn-primary" href=https://boinc.berkeley.edu/trac/wiki/WebResources#Creditstatistics>'.tra("Statistics").'</a>
                 <hr>
                 <p>
             ';
@@ -110,7 +110,7 @@ function top() {
             echo '
                 <div class="container-fluid">
                 <div class="row">
-                <div class="col-sm-6" style="background-color:#efefef">
+                <div class="col-sm-6" style="background-color:#e8e8ff">
                 <center>
 
                 <p>
@@ -127,7 +127,7 @@ function top() {
                 </center>
                 </div>
                 <div class="col-sm-1" ><p></p><center><font size=+1>or</font></center></div>
-                <div class="col-sm-5" style="background-color:#efefef">
+                <div class="col-sm-5" style="background-color:#e8e8ff">
                 <center>
                 <p>
                 <font size=+2>Choose projects</font>
@@ -152,7 +152,7 @@ function top() {
                 <br><a href="projects.php">'.tra("Science projects").'</a>
                 <br><a href="https://boinc.berkeley.edu/wiki/User_manual"><span class=nobr>'.tra("User manual").'</span></a> 
                 <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
-                <br><a btn-primary" href="links.php"><span class=nobr>'.tra("Web resources").'</span></a> 
+                <br><a btn-primary href=https://boinc.berkeley.edu/trac/wiki/WebResources><span class=nobr>'.tra("Web resources").'</span></a> 
                 <p>
                 </div><div class="col-sm-4">
                 <font size=+2>

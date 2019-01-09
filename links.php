@@ -1,10 +1,19 @@
 <?php
 
+echo "Deprecated: see <a href=https://boinc.berkeley.edu/trac/wiki/WebResources>https://boinc.berkeley.edu/trac/wiki/WebResources</a>";
+exit;
 require_once("docutil.php");
 
 include("../inc/stats_sites.inc");
 
 function language($lang, $sites) {
+    echo "<h4>$lang</h4>\n<ul>\n";
+    foreach ($sites as $s) {
+        echo "<li>$s\n";
+    }
+    echo "</ul>\n";
+    return;
+
     echo "<tr><td bgcolor=eeeeee valign=top width=250>$lang</td><td>\n";
     shuffle($sites);
     foreach ($sites as $s) {
