@@ -36,7 +36,8 @@ $team_name = $argv[3];
 
 $user = BoincUser::lookup_email_addr($email_addr);
 if (!$user) {
-    $passwd_hash = md5("foobar".$email_addr);
+    $e = strtolower($email_addr);
+    $passwd_hash = md5("foobar".$e);
     $user = make_user($email_addr, $user_name, $passwd_hash);
     if (!$user) die("can't create user\n");
 

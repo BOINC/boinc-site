@@ -62,8 +62,7 @@ function show_totals() {
     echo
         tra("24-hour average:")." $petaflops ".tra("PetaFLOPS.")."
         <br>
-        ".tra("Active:")." $users ".tra("volunteers,")." $hosts ".tra("computers.
-")."
+        ".tra("Active:")." $users ".tra("volunteers,")." $hosts ".tra("computers").".
     ";
 }
 
@@ -82,18 +81,10 @@ function show_news_items() {
 
 function top() {
     panel(
-        //"Volunteer" is used as a verb
-        //tra("Volunteer"),
-            "",
+        "",
         function () {
             echo "<p>\n";
-            echo tra(
-                "BOINC lets you help cutting-edge science research
-                using your computer (Windows, Mac, Linux) or Android device.
-                BOINC downloads scientific computing jobs
-                to your computer and runs them invisibly in the background.
-                It's easy and safe."
-            );
+            echo tra("BOINC lets you help cutting-edge science research using your computer (Windows, Mac, Linux) or Android device.  BOINC downloads scientific computing jobs to your computer and runs them invisibly in the background.  It's easy and safe.");
             echo "</p><p>\n ";
             echo tra(
                 "About 30 science projects use BOINC; examples include %3, %4, and %5.",
@@ -102,38 +93,42 @@ function top() {
                 '<a href="https://worldcommunitygrid.org">IBM World Community Grid</a>',
                 '<a href="https://setiathome.berkeley.edu">SETI@home</a>'
             );
-            echo ' These projects investigate diseases, study global warming, discover pulsars, and do many other types of scientific research.
-                </p><p>
-                You can participate in either of two ways:
+            echo tra('These projects investigate diseases, study global warming, discover pulsars, and do many other types of scientific research.');
+            echo '
                 </p><p>
             ';
+            echo tra('You can participate in either of two ways:');
             echo '
+                </p><p>
                 <div class="container-fluid">
                 <div class="row">
-                <div class="col-sm-6" style="background-color:#e8e8ff">
+                <div class="col-sm-6" style="background-color:#faf8e0">
                 <center>
 
-                <p>
-                <font size=+2>Choose science areas</font>
-                </p><p>
-                To contribute to science areas
-                (biomedicine, physics, astronomy, and so on)
-                use <a href=https://scienceunited.org>Science United</a>.
-                Your computer will do work for current and future projects
-                in those areas.
+                <p><p>
+            ';
+            echo sprintf('<font size=+2>%s</font><p><p>',
+                tra('Choose science areas')
+            );
+            echo tra('To contribute to science areas (biomedicine, physics, astronomy, and so on) use %1.  Your computer will do work for current and future projects in those areas.',
+                '<a href=https://scienceunited.org>Science United</a>'
+            );
+            echo '
                 </p><p>
 
                 <a class="btn btn-lg btn-success" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
                 </center>
                 </div>
                 <div class="col-sm-1" ><p></p><center><font size=+1>or</font></center></div>
-                <div class="col-sm-5" style="background-color:#e8e8ff">
+                <div class="col-sm-5" style="background-color:#faf8e0">
                 <center>
-                <p>
-                <font size=+2>Choose projects</font>
-                </p><p>
-                To contribute to specific projects,
-                download BOINC and follow the directions.
+                <p><p>
+            ';
+            echo sprintf('<font size=+2>%s</font><p><p>',
+                tra('Choose projects')
+            );
+            echo tra('To contribute to specific projects, download BOINC and follow the directions.');
+            echo '
                 </p><p>
                 <a class="btn btn-lg btn-success" href="download.php">'.tra("Download BOINC").'</a>
                 </center>
@@ -224,7 +219,7 @@ function show_software() {
                 '.tra("BOINC software development is community-based.  Everyone is welcome to participate.").'
                 <p></p>
                 <center>
-                <a class="btn btn-xs btn-primary" href="https://github.com/BOINC/boinc">'.tra("Github").'</a>
+                <a class="btn btn-xs btn-primary" href="https://github.com/BOINC/boinc">Github</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/BoincGovernanceWorkingGroups">'.tra("Organization").'</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/AdminTasks">'.tra("Tasks").'</a>
                 </center>
@@ -246,8 +241,8 @@ function show_boinc() {
                 The BOINC project is located at the University of California, Berkeley.  It has existed since 2002, with funding primarily from the National Science Foundation.
                 <p></p>
                 <center>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/ProjectPeople">Contact us</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincPapers">Papers</a>
+                <a class="btn btn-xs btn-primary" href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
+                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/BoincEvents">'.tra("Events").'</a>
                 </center>
             ';

@@ -7,12 +7,11 @@
 // to the top, and set their strings to "English"
 // (should automate this)
 
-$path = ".";
-
 $date = strftime('%Y-%m-%d %H:%M %Z');
+
 $header = <<<HDR
 # BOINC web translation
-# Copyright (C) 2008-2009 University of California
+# Copyright (C) 2019 University of California
 #
 # This file is distributed under the same license as BOINC.
 #
@@ -32,7 +31,8 @@ msgstr ""
 
 HDR;
 
-$files = "docutil.php download.php help.php help_funcs.php index.php projects.inc ../html/inc/news.inc";
+$files = "index.php download.php download_util.inc help.php help_funcs.php projects.inc";
+
 $pipe = popen("xgettext --omit-header --add-comments -o - --keyword=tra -L PHP $files", "r");
 
 $out = fopen("BOINC-Web.pot", "w");

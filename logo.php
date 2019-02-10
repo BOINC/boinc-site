@@ -261,8 +261,8 @@ foreach ($banners as $b) {
     $imgs = $b[1];
     foreach ($imgs as $i) {
         $large = $i[0];
-        $small = $i[1];
-        $size = $i[2];
+        $small = count($i)>1?$i[1]:null;
+        $size = count($i)>2?$i[2]:null;
         if ($small) {
             if ($size) {
                 echo "<a href=$large><img hspace=10 src=$small height=$size></a>";

@@ -1,0 +1,862 @@
+# BOINC web translation
+# Copyright (C) 2019 University of California
+#
+# This file is distributed under the same license as BOINC.
+#
+# FileID  : $Id$
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: BOINC $Id$\n"
+"Report-Msgid-Bugs-To: BOINC translation team <boinc_loc@ssl.berkeley.edu>\n"
+"POT-Creation-Date: 2019-02-09 22:34 PST\n"
+"Last-Translator: Generated automatically from source files\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: index.php:25
+msgid "Computing power"
+msgstr ""
+
+#: index.php:33
+msgid "Top 100 volunteers"
+msgstr ""
+
+#: index.php:34
+msgid "Statistics"
+msgstr ""
+
+#: index.php:63
+msgid "24-hour average:"
+msgstr ""
+
+#: index.php:63
+msgid "PetaFLOPS."
+msgstr ""
+
+#: index.php:65
+msgid "Active:"
+msgstr ""
+
+#: index.php:65
+msgid "volunteers,"
+msgstr ""
+
+#: index.php:65
+msgid "computers"
+msgstr ""
+
+#: index.php:71
+msgid "News"
+msgstr ""
+
+#: index.php:76
+msgid "Database not available; please try again later."
+msgstr ""
+
+#: index.php:87
+msgid ""
+"BOINC lets you help cutting-edge science research using your computer "
+"(Windows, Mac, Linux) or Android device.  BOINC downloads scientific "
+"computing jobs to your computer and runs them invisibly in the background.  "
+"It's easy and safe."
+msgstr ""
+
+#: index.php:90
+msgid "About 30 science projects use BOINC; examples include %3, %4, and %5."
+msgstr ""
+
+#: index.php:96
+msgid ""
+"These projects investigate diseases, study global warming, discover pulsars, "
+"and do many other types of scientific research."
+msgstr ""
+
+#: index.php:100
+msgid "You can participate in either of two ways:"
+msgstr ""
+
+#: index.php:111
+msgid "Choose science areas"
+msgstr ""
+
+#: index.php:113
+msgid ""
+"To contribute to science areas (biomedicine, physics, astronomy, and so on) "
+"use %1.  Your computer will do work for current and future projects in those "
+"areas."
+msgstr ""
+
+#: index.php:119
+msgid "Join Science United"
+msgstr ""
+
+#: index.php:128
+msgid "Choose projects"
+msgstr ""
+
+#: index.php:130
+msgid ""
+"To contribute to specific projects, download BOINC and follow the directions."
+msgstr ""
+
+#: index.php:133 download_util.inc:45
+msgid "Download BOINC"
+msgstr ""
+
+#: index.php:145
+msgid "Learn more"
+msgstr ""
+
+#: index.php:147
+msgid "Science projects"
+msgstr ""
+
+#: index.php:148
+msgid "User manual"
+msgstr ""
+
+#: index.php:149
+msgid "Add-ons"
+msgstr ""
+
+#: index.php:150
+msgid "Web resources"
+msgstr ""
+
+#: index.php:154
+msgid "Communicate"
+msgstr ""
+
+#: index.php:156
+msgid "Message boards"
+msgstr ""
+
+#: index.php:157 download.php:91
+msgid "Help"
+msgstr ""
+
+#: index.php:158
+msgid "Email lists"
+msgstr ""
+
+#: index.php:159
+msgid "Report bugs"
+msgstr ""
+
+#: index.php:163
+msgid "Other ways to help"
+msgstr ""
+
+#: index.php:165
+msgid "Translate"
+msgstr ""
+
+#: index.php:166
+msgid "Test"
+msgstr ""
+
+#: index.php:167
+msgid "Document"
+msgstr ""
+
+#: index.php:168
+msgid "Publicize"
+msgstr ""
+
+#: index.php:179
+msgid "High-Throughput Computing with BOINC"
+msgstr ""
+
+#: index.php:196
+msgid "Computing with BOINC"
+msgstr ""
+
+#: index.php:197
+msgid "Technical Documentation"
+msgstr ""
+
+#: index.php:205
+msgid "Software"
+msgstr ""
+
+#: index.php:208
+msgid ""
+"BOINC includes client, server, and web components, and APIs for connecting "
+"other components."
+msgstr ""
+
+#: index.php:209
+msgid "It is distributed under the LGPLv3 open-source license."
+msgstr ""
+
+#: index.php:212
+msgid "Source code"
+msgstr ""
+
+#: index.php:213
+msgid "Building BOINC"
+msgstr ""
+
+#: index.php:215
+msgid "Design documents"
+msgstr ""
+
+#: index.php:216
+msgid "Coding style"
+msgstr ""
+
+#: index.php:219
+msgid ""
+"BOINC software development is community-based.  Everyone is welcome to "
+"participate."
+msgstr ""
+
+#: index.php:223
+msgid "Organization"
+msgstr ""
+
+#: index.php:224
+msgid "Tasks"
+msgstr ""
+
+#: index.php:244
+msgid "Contact"
+msgstr ""
+
+#: index.php:245
+msgid "Papers"
+msgstr ""
+
+#: index.php:246
+msgid "Events"
+msgstr ""
+
+#: index.php:297
+msgid "Compute for Science"
+msgstr ""
+
+#: download.php:44
+msgid ""
+"BOINC is a program that lets you donate your idle computer time to science "
+"projects like SETI@home, Climateprediction.net, Rosetta@home, World "
+"Community Grid, and many others."
+msgstr ""
+
+#: download.php:46
+msgid ""
+"After installing BOINC on your computer, you can connect it to as many of "
+"these projects as you like."
+msgstr ""
+
+#: download.php:50
+msgid ""
+"We recommend that you download BOINC from the Google Play Store or Amazon "
+"Appstore, not from here."
+msgstr ""
+
+#: download.php:82
+msgid ""
+"When you first run BOINC, you will be asked to choose a project. For "
+"instructions, see the %1BOINC User Manual%2."
+msgstr ""
+
+#: download.php:84
+msgid ""
+"You may run this software on a computer only if you own the computer or have "
+"the permission of its owner."
+msgstr ""
+
+#: download.php:89
+msgid "System requirements"
+msgstr ""
+
+#: download.php:90
+msgid "Release notes"
+msgstr ""
+
+#: download.php:92
+msgid "All versions"
+msgstr ""
+
+#: download.php:93
+msgid "Version history"
+msgstr ""
+
+#: download.php:94
+msgid "GPU computing"
+msgstr ""
+
+#: download.php:114
+msgid "Participate in BOINC"
+msgstr ""
+
+#: download_util.inc:27
+msgid "Download BOINC + VirtualBox"
+msgstr ""
+
+#. "for %s" identifies the operating system, e.g. "for Windows"
+#: download_util.inc:31 download_util.inc:47
+#, php-format
+msgid "for %s"
+msgstr ""
+
+#: download_util.inc:34 download_util.inc:50
+#, php-format
+msgid "BOINC %s"
+msgstr ""
+
+#: download_util.inc:36
+#, php-format
+msgid "VirtualBox %s"
+msgstr ""
+
+#: download_util.inc:93
+msgid ""
+"We recommend that you also install %1 VirtualBox %2, so your computer can "
+"work on science projects that require it."
+msgstr ""
+
+#: download_util.inc:95
+msgid "Learn more about VirtualBox."
+msgstr ""
+
+#: help.php:7
+msgid "Live help via Skype or email"
+msgstr ""
+
+#: help.php:11
+msgid ""
+"BOINC Live Help lets you get one-on-one help from an experienced BOINC user "
+"who can answer questions about BOINC, help you install BOINC, and "
+"troubleshoot problems."
+msgstr ""
+
+#: help.php:14
+msgid "You can communicate with a helper"
+msgstr ""
+
+#: help.php:16
+msgid "by email"
+msgstr ""
+
+#: help.php:18
+msgid ""
+"\n"
+"by voice, using %1 Skype %2, a free Internet-based telephone system. If you "
+"don't already have Skype, you can %3 download and install it now %4.  When "
+"you're finished, return to this page."
+msgstr ""
+
+#: help.php:25
+msgid "using Skype chat"
+msgstr ""
+
+#: help.php:28
+msgid ""
+"Volunteers speaking many languages are available. Please select a language "
+"(number of helpers is shown):"
+msgstr ""
+
+#: help.php:43
+msgid "Be a Help Volunteer"
+msgstr ""
+
+#: help.php:46
+#, php-format
+msgid ""
+"If you're an experienced BOINC user, we encourage you to %sbecome a Help "
+"Volunteer%s.  It's a great way to help the cause of scientific research and "
+"volunteer computing - and it's fun!"
+msgstr ""
+
+#: help.php:52
+#, php-format
+msgid ""
+"If you're already a Help Volunteer: to edit your settings, %sclick here%s."
+msgstr ""
+
+#: help_funcs.php:136
+msgid ""
+"BOINC helpers are unpaid volunteers.  Their advice is not endorsed by BOINC."
+msgstr ""
+
+#: help_funcs.php:139
+msgid ""
+"%1 Never %2 give email address or password information to BOINC helpers."
+msgstr ""
+
+#: projects.inc:41
+msgid "Distributed sensing"
+msgstr ""
+
+#: projects.inc:47
+msgid "University of Southern California"
+msgstr ""
+
+#: projects.inc:48
+msgid "Seismology"
+msgstr ""
+
+#: projects.inc:49
+msgid ""
+"Quake-Catcher Network uses sensors attached to computers and smartphones to "
+"detect seismic waves."
+msgstr ""
+
+#: projects.inc:59
+msgid "BOINC Poland Foundation"
+msgstr ""
+
+#: projects.inc:60
+msgid "Environmental research"
+msgstr ""
+
+#: projects.inc:61
+msgid ""
+"Radioactive@Home is creating a free and continuously updated map of "
+"radiation levels using sensors connected to volunteers' computers.  You must "
+"buy a sensor to participate."
+msgstr ""
+
+#: projects.inc:71
+msgid "Cognitive science and artificial intelligence"
+msgstr ""
+
+#: projects.inc:78
+msgid "Cognitive Science"
+msgstr ""
+
+#: projects.inc:79
+msgid ""
+"MindModeling@Home uses computational cognitive process modeling to better "
+"understand the human mind, and specifically to study the mechanisms and "
+"processes that enable and moderate human performance and learning."
+msgstr ""
+
+#: projects.inc:99 projects.inc:351 projects.inc:452 projects.inc:464
+#: projects.inc:488
+msgid "Independent"
+msgstr ""
+
+#: projects.inc:100
+msgid "Artificial intelligence"
+msgstr ""
+
+#: projects.inc:101
+msgid ""
+"Parse and convert semantic nets for use in FreeHAL, an artificial "
+"intelligence that uses semantic networks, stemmers, part of speech "
+"databases, and part of speech taggers in order to imitate human behavior in "
+"conversations."
+msgstr ""
+
+#: projects.inc:112
+msgid "Biology and Medicine"
+msgstr ""
+
+#: projects.inc:119
+msgid "Medical physiology"
+msgstr ""
+
+#: projects.inc:120
+msgid ""
+"DENIS@Home does cardiac electrophysiological simulations, studying the "
+"electrical activity of the heart."
+msgstr ""
+
+#: projects.inc:131
+msgid "Molecular biology"
+msgstr ""
+
+#: projects.inc:132
+msgid ""
+"RNA World seeks to identify, analyze, structurally predict and design RNA "
+"molecules on the basis of established bioinformatics software."
+msgstr ""
+
+#: projects.inc:142
+msgid "Barcelona Biomedical Research Park (PRBB)"
+msgstr ""
+
+#: projects.inc:143
+msgid "Molecular simulations of proteins"
+msgstr ""
+
+#: projects.inc:144
+msgid ""
+"GPUGrid.net opens novel computational scenarios by the first full-atom "
+"molecular dynamics code (CellMD) specially optimized to run on NVIDIA GPUs. "
+"New biomedical applications suddenly become possible giving a new role to "
+"computational biology for biomedical research."
+msgstr ""
+
+#: projects.inc:154
+msgid "University of Washington"
+msgstr ""
+
+#: projects.inc:155
+msgid "Biology"
+msgstr ""
+
+#: projects.inc:156
+msgid ""
+"Determine the 3-dimensional shapes of proteins in research that may "
+"ultimately lead to finding cures for some major human diseases. By running "
+"Rosetta@home you will help us speed up and extend our research in ways we "
+"couldn't possibly attempt without your help. You will also be helping our "
+"efforts at designing new proteins to fight diseases such as HIV, malaria, "
+"cancer, and Alzheimer's"
+msgstr ""
+
+#: projects.inc:165
+msgid "Earth Sciences"
+msgstr ""
+
+#: projects.inc:171
+msgid "Oxford University"
+msgstr ""
+
+#: projects.inc:172
+msgid "Climate study"
+msgstr ""
+
+#: projects.inc:173
+msgid ""
+"Investigate the approximations that have to be made in state-of-the-art "
+"climate models. By running the model thousands of times we hope to find out "
+"how the model responds to slight tweaks to these approximations - slight "
+"enough to not make the approximations any less realistic. This will allow us "
+"to improve our understanding of how sensitive our models are to small "
+"changes and also to things like changes in carbon dioxide and the sulphur "
+"cycle. This will allow us to explore how climate may change in the next "
+"century under a wide range of different scenarios."
+msgstr ""
+
+#: projects.inc:182
+msgid "Physical Science"
+msgstr ""
+
+#: projects.inc:226 projects.inc:286
+msgid "Astrophysics"
+msgstr ""
+
+#: projects.inc:227
+msgid ""
+"The aim of the project is to derive shapes and spin for a significant part "
+"of the asteroid population. As input data, we use any asteroid photometry "
+"that is available. The results are asteroid convex shape models with the "
+"direction of the spin axis and the rotation period."
+msgstr ""
+
+#: projects.inc:237
+msgid "University of Illinois at Urbana-Champaign"
+msgstr ""
+
+#: projects.inc:238 projects.inc:250 projects.inc:262
+msgid "Astronomy"
+msgstr ""
+
+#: projects.inc:239
+msgid ""
+"The goal of Cosmology@Home is to search for the model that best describes "
+"our Universe and to find the range of models that agree with the available "
+"astronomical particle physics data."
+msgstr ""
+
+#: projects.inc:251
+msgid ""
+"Universe@Home aims to create the first database of the simulated stellar "
+"content of the Universe, from the earliest stars to the most exotic black "
+"hole binaries."
+msgstr ""
+
+#: projects.inc:254
+msgid "Do research in physics and astronomy"
+msgstr ""
+
+#: projects.inc:261
+msgid "Rensselaer Polytechnic Institute"
+msgstr ""
+
+#: projects.inc:263
+msgid ""
+"The goal of Milkyway@Home is to create a highly accurate three dimensional "
+"model of the Milky Way galaxy using data gathered by the Sloan Digital Sky "
+"Survey."
+msgstr ""
+
+#: projects.inc:266
+msgid "Study the structure of the Milky Way galaxy"
+msgstr ""
+
+#: projects.inc:285
+msgid ""
+"University of Wisconsin - Milwaukee (USA), Max Planck Institute for "
+"Gravitational Physics - Hanover (Germany)"
+msgstr ""
+
+#: projects.inc:287
+msgid ""
+"Einstein@Home uses your computer's idle time to search for weak "
+"astrophysical signals from spinning neutron stars (often called pulsars) "
+"using data from the LIGO gravitational-wave detectors, the Arecibo radio "
+"telescope, and the Fermi gamma-ray satellite."
+msgstr ""
+
+#: projects.inc:290
+msgid "Help detect pulsars and gravitational waves"
+msgstr ""
+
+#: projects.inc:297
+msgid "CERN (European Organization for Nuclear Research)"
+msgstr ""
+
+#: projects.inc:298
+msgid "Physics"
+msgstr ""
+
+#: projects.inc:299
+msgid ""
+"The Large Hadron Collider (LHC) is a particle accelerator at CERN, the "
+"European Organization for Nuclear Research, the world's largest particle "
+"physics laboratory.  It is the most powerful instrument ever built to "
+"investigate on particles proprieties. LHC@home runs simulations to improve "
+"the design of LHC and its detectors."
+msgstr ""
+
+#: projects.inc:302
+msgid "Improve the design of the Large Hadron Collider"
+msgstr ""
+
+#: projects.inc:309
+msgid "University of California, Berkeley"
+msgstr ""
+
+#: projects.inc:310
+msgid "Astrophysics, astrobiology"
+msgstr ""
+
+#: projects.inc:311
+msgid ""
+"SETI (Search for Extraterrestrial Intelligence) is a scientific area whose "
+"goal is to detect intelligent life outside Earth. One approach, known as "
+"radio SETI, uses radio telescopes to listen for narrow-bandwidth radio "
+"signals from space. Such signals are not known to occur naturally, so a "
+"detection would provide evidence of extraterrestrial technology."
+msgstr ""
+
+#: projects.inc:314
+msgid "Search for evidence of extra-terrestrial life"
+msgstr ""
+
+#: projects.inc:321
+msgid "Multiple applications"
+msgstr ""
+
+#: projects.inc:328
+msgid "Molecular biology, Computer Science"
+msgstr ""
+
+#: projects.inc:329
+msgid ""
+"The Citizen Science Grid is dedicated to supporting a wide range of research "
+"and educational projects using volunteer computing and citizen science."
+msgstr ""
+
+#: projects.inc:332
+msgid "Support science from the University of North Dakota"
+msgstr ""
+
+#: projects.inc:339
+msgid "Chinese Academy of Sciences"
+msgstr ""
+
+#: projects.inc:340
+msgid "Physics, biochemistry, and others"
+msgstr ""
+
+#: projects.inc:341
+msgid ""
+"CAS@home is hosted by the Computing Centre of the Institute of High Energy "
+"Physics (IHEP), Chinese Academy of Sciences, for Chinese scientists with "
+"projects studying protein structure, nanotechnology, cancer genomics, and "
+"high energy physics."
+msgstr ""
+
+#: projects.inc:344
+msgid "Help Chinese researchers"
+msgstr ""
+
+#: projects.inc:352
+msgid "Mathematics, physics, evolution"
+msgstr ""
+
+#: projects.inc:353
+msgid ""
+"Yoyo@home is an adapter between BOINC and several existing volunteer "
+"computing projects: ECM, Muon, Evolution@home, and distributed.net"
+msgstr ""
+
+#: projects.inc:356
+msgid "Do research in math, physics, and evolution"
+msgstr ""
+
+#: projects.inc:363
+msgid "IBM Corporate Citizenship"
+msgstr ""
+
+#: projects.inc:364
+msgid "Medical, environmental and other humanitarian research"
+msgstr ""
+
+#: projects.inc:365
+msgid ""
+"To further critical non-profit research on some of humanity's most pressing "
+"problems by creating the world's largest volunteer computing grid.  Research "
+"includes HIV-AIDS, cancer, tropical and neglected diseases, solar energy, "
+"clean water and many more."
+msgstr ""
+
+#: projects.inc:368
+msgid "Do biomedical and environmental research"
+msgstr ""
+
+#: projects.inc:374
+msgid "Mathematics, computing, and games"
+msgstr ""
+
+#: projects.inc:385
+msgid "Do research in number theory"
+msgstr ""
+
+#: projects.inc:393 projects.inc:405 projects.inc:417 projects.inc:465
+#: projects.inc:489 projects.inc:501
+msgid "Mathematics"
+msgstr ""
+
+#: projects.inc:394
+msgid ""
+"NumberFields@home searches for fields with special properties. The primary "
+"application of this research is in the realm of algebraic number theory. "
+"Number theorists can mine the data for interesting patterns to help them "
+"formulate conjectures about number fields. Ultimately, this research will "
+"lead to a deeper understanding of the profound properties of numbers, the "
+"basic building blocks of all mathematics."
+msgstr ""
+
+#: projects.inc:397
+msgid "Do research in algebraic number theory"
+msgstr ""
+
+#: projects.inc:429
+msgid "Computer Science"
+msgstr ""
+
+#: projects.inc:430
+msgid ""
+"Solve hard and practically important problems (discrete functions inversion "
+"problems, discrete optimization, bioinformatics, etc.) that can be "
+"effectively reduced to Boolean satisfiability problem."
+msgstr ""
+
+#: projects.inc:433
+msgid "Study computational complexity"
+msgstr ""
+
+#: projects.inc:441
+msgid "Cryptography and combinatorics"
+msgstr ""
+
+#: projects.inc:442 projects.inc:445
+msgid "Run applications from distributed.net"
+msgstr ""
+
+#: projects.inc:453
+msgid "Cryptography"
+msgstr ""
+
+#: projects.inc:454
+msgid ""
+"Attempt to decode 3 original Enigma messages. The signals were intercepted "
+"in the North Atlantic in 1942 and are believed to be unbroken."
+msgstr ""
+
+#: projects.inc:457
+msgid "Decode WWII submarine messages"
+msgstr ""
+
+#: projects.inc:466
+msgid "Study the Collatz Conjecture, an unsolved conjecture in mathematics"
+msgstr ""
+
+#: projects.inc:469
+msgid "Study the Collatz Conjecture"
+msgstr ""
+
+#: projects.inc:476
+msgid "California State University Fullerton"
+msgstr ""
+
+#: projects.inc:477
+msgid "Factorization of large integers"
+msgstr ""
+
+#: projects.inc:478
+msgid ""
+"NFS@Home is a research project that uses Internet-connected computers to do "
+"the lattice sieving step in the Number Field Sieve factorization of large "
+"integers. As a young school student, you gained your first experience at "
+"breaking an integer into prime factors, such as 15 = 3 * 5 or 35 = 5 * 7. "
+"NFS@Home is a continuation of that experience, only with integers that are "
+"hundreds of digits long."
+msgstr ""
+
+#: projects.inc:481
+msgid "Study the factorization of large integers"
+msgstr ""
+
+#: projects.inc:490
+msgid ""
+"Primegrid has multiple projects searching for different forms of very large "
+"prime numbers, including searching for the largest known prime number."
+msgstr ""
+
+#: projects.inc:493
+msgid "Search for large prime numbers"
+msgstr ""
+
+#: projects.inc:500
+msgid "Hochschule RheinMain University of Applied Sciences"
+msgstr ""
+
+#: projects.inc:502
+msgid ""
+"Search for counterexamples to two conjectures related to the identification "
+"of prime numbers"
+msgstr ""
+
+#: projects.inc:505
+msgid "Study the properties of prime numbers"
+msgstr ""
+
+#: projects.inc:526
+msgid ""
+"Testing and comparison of heuristic methods for getting separations of "
+"parallel algorithms working in the CAD system for designing logic control "
+"systems"
+msgstr ""
+
+#: projects.inc:600
+msgid ""
+"BAM! lets you create and manage BOINC project accounts, set preferences, "
+"join or create teams, connect your computers to projects, and much more."
+msgstr ""
+
+#: projects.inc:607
+msgid ""
+"Gridrepublic lets you connect your computer to multiple projects, set "
+"preferences, and view your credit history."
+msgstr ""
