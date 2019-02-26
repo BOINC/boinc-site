@@ -98,14 +98,15 @@ function top() {
                 </p><p>
             ';
             echo tra('You can participate in either of two ways:');
+            $s = 'style="background-color:#fffff8; border-style: solid; border-width:2px; border-radius: 6px; border-color:#a0a0a0"';
+
             echo '
                 </p><p>
                 <div class="container-fluid">
                 <div class="row">
-                <div class="col-sm-6" style="background-color:#faf8e0">
+                <div class="col-sm-6"'.$s.'>
                 <center>
-
-                <p><p>
+                <br style="line-height: 6px" />
             ';
             echo sprintf('<font size=+2>%s</font><p><p>',
                 tra('Choose science areas')
@@ -115,14 +116,14 @@ function top() {
             );
             echo '
                 </p><p>
-
                 <a class="btn btn-lg btn-success" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
                 </center>
+                <br style="line-height: 6px" />
                 </div>
                 <div class="col-sm-1" ><p></p><center><font size=+1>or</font></center></div>
-                <div class="col-sm-5" style="background-color:#faf8e0">
+                <div class="col-sm-5"'.$s.'>
                 <center>
-                <p><p>
+                <br style="line-height: 6px" />
             ';
             echo sprintf('<font size=+2>%s</font><p><p>',
                 tra('Choose projects')
@@ -132,6 +133,7 @@ function top() {
                 </p><p>
                 <a class="btn btn-lg btn-success" href="download.php">'.tra("Download BOINC").'</a>
                 </center>
+                <br style="line-height: 6px" />
                 </div>
                 </div>
                 </div>

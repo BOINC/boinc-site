@@ -3,10 +3,14 @@
 // NOTE: the core client fetches download.php?xml=1 every so often;
 // don't break this!!!
 
-require_once("docutil.php");
 require_once("versions.inc");
 require_once("download_util.inc");
 require_once("../inc/translation.inc");
+
+// If we use BOINC's page_head() we get a banner with login links etc.
+// We don't want that here; use the old one
+
+require_once("docutil.php");
 
 $apps = array(
     array('classic.jpg', 180, 143),
@@ -113,7 +117,7 @@ $client_info = $_SERVER['HTTP_USER_AGENT'];
 
 page_head(tra("Participate in BOINC"));
 
-if (get_str2('all_platforms')) {
+if (get_str2('all_platforms', true)) {
     show_download($client_info, null);
 } else {
     show_download($client_info, client_info_to_platform($client_info));

@@ -565,6 +565,18 @@ $math = array(
             "",
             array(KW_MATH_CS)
         ),
+        project(
+            PROJ_RAKESEARCH,
+            'RakeSearch',
+            'https://rake.boincfast.ru/rakesearch/',
+            'Karelian Research Center, Russian Academy of Sciences',
+            'Mathematics',
+            'The enormous size of the diagonal Latin squares space makes it unfeasible to enumerate all its objects straightforwardly in reasonable time. So, in order to discover the structure of this space, sophisticated search methods are needed. In RakeSearch project, we implement an application that picks up separate pairs of mutually orthogonal DLSs, which allows to reconstruct full graphs of their orthogonality.',
+            '',
+            '',
+            'Study Latin Squares',
+            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA)
+        ),
     ),
 );
 

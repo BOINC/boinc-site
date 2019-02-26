@@ -1,5 +1,3 @@
-DEPRECATED
-
 <?php
 
 require_once("../inc/util_basic.inc");
