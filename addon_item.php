@@ -15,7 +15,7 @@ function show_item($y) {
         $url = "https://boinc.berkeley.edu/addons/$file";
     }
 
-    page_head($y[1]);
+    old_page_head($y[1]);
     list_start();
     list_item(
         "Name<br><font size=-2>Click to download</font>",
@@ -40,7 +40,7 @@ function show_item($y) {
     list_item("Date", $d);
     list_end();
 
-    page_tail();
+    old_page_tail();
 }
 
 if ($platform == 'win') {

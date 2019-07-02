@@ -20,36 +20,40 @@
 // utility functions for download links
 
 function button_link_vbox(
-    $vbox_url, $long_name, $vbox_size, $num, $vbox_version
+    $vbox_url, $long_name, $vbox_size, $boinc_version, $vbox_version
 ) {
-    echo "
-        <a href=\"$vbox_url\" class=\"btn btn-success\"><font size=+1><u>"
-        .tra("Download BOINC + VirtualBox")
-        ."</u></font>
-        <br>"
+    echo sprintf('
+        <a href="%s" class="btn btn-success"><font size=+1><u>%s</u></font>
+        <br>%s (%.2f MB)
+        <br><small>(BOINC %s, VirtualBox %s)</small></a>
+        ',
+        $vbox_url,
+        tra("Download BOINC + VirtualBox"),
         // "for %s" identifies the operating system, e.g. "for Windows"
-        .sprintf(tra("for %s"), $long_name)
-        ." ($vbox_size MB)"
-        ."<br><small>"
-        .sprintf(tra("BOINC %s"), $num)
-        .", "
-        .sprintf(tra("VirtualBox %s"), $vbox_version)
-        ."</small></a>
+        tra("for %1", $long_name),
+        $vbox_size,
+        $boinc_version,
+        $vbox_version
+    );
+    echo "
         &nbsp;
         &nbsp;
     ";
 }
 
-function button_link($url, $long_name, $size, $num) {
-    echo "
-        <a href=\"$url\" class=\"btn btn-info\"><font size=2><u>".tra("Download BOINC")."</u></font>
-        <br>"
-        .sprintf(tra("for %s"), $long_name)
-        ." ($size MB)"
-        ."<br><small>"
-        .sprintf(tra("BOINC %s"), $num)
-        ."</small></a>
-    ";
+function button_link($url, $long_name, $size, $boinc_version, $green) {
+    echo sprintf('
+        <a href="%s" class="btn %s"><font size=+1><u>%s</u></font>
+        <br>%s (%.2f MB)
+        <br><small>(BOINC %s)</small></a>
+        ',
+        $url,
+        $green?"btn-success":"btn-info",
+        tra("Download BOINC"),
+        tra("for %1", $long_name),
+        $size,
+        $boinc_version
+    );
 }
 
 // Show download link(s) for the given platform,
@@ -104,7 +108,7 @@ function download_link(
             );
         }
         if (!$vbox_file || !$vbox_req) {
-            button_link($url, $long_name, $size, $num);
+            button_link($url, $long_name, $size, $num, !$vbox_file);
         }
         echo "</td></tr></table>\n";
         if ($pname == 'linux'||$pname == 'linuxx64') {

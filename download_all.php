@@ -29,6 +29,7 @@
 // platform=x       show only versions for platform x (win/mac/linux/solaris)
 
 require_once("../inc/util.inc");
+require_once("docutil.php");
 
 $experimental = get_str("exp", true);
 require_once("versions.inc");
@@ -208,9 +209,9 @@ if ($pname && $version) {
     $va = $p["versions"];
     foreach ($va as $v) {
         if ($v['num'] == $version && $type_name==$v['type']) {
-            page_head("BOINC version $version for $long_name");
+            old_page_head("BOINC version $version for $long_name");
             show_detail($v);
-            page_tail();
+            old_page_tail();
             exit();
         }
     }
@@ -234,12 +235,12 @@ if ($xml) {
     if ($pname) {
         $p = $platforms[$pname];
         $name = $p['name'];
-        page_head("Download BOINC client software for $name");
+        old_page_head("Download BOINC client software for $name");
         start_table("table-striped");
         show_platform($pname, $p, $dev);
         end_table();
     } else {
-        page_head("Download BOINC client software");
+        old_page_head("Download BOINC client software");
         start_table("table-striped");
         foreach($platforms as $short_name=>$p) {
             show_platform($short_name, $p, $dev);
@@ -262,7 +263,7 @@ if ($xml) {
         restricted by platform and/or version number,
         or presented  in XML format</a>.
     ";
-    page_tail();
+    old_page_tail();
 }
 
 ?>

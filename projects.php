@@ -1,8 +1,9 @@
 <?php
 
 require_once("projects.inc");
+require_once("docutil.php");
 require_once("get_platforms.inc");
-page_head("Choosing BOINC projects");
+old_page_head("Choosing BOINC projects");
 
 echo "
 <script src=\"wz_tooltip.js\"></script>
@@ -113,5 +114,5 @@ and would like it to be included on this list,
 please <a href=trac/wiki/ProjectPeople>contact us</a>.
 
 ";
-page_tail();
+old_page_tail();
 ?>

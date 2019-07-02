@@ -98,7 +98,14 @@ function top() {
                 </p><p>
             ';
             echo tra('You can participate in either of two ways:');
-            $s = 'style="background-color:#fffff8; border-style: solid; border-width:2px; border-radius: 6px; border-color:#a0a0a0"';
+
+            // style for join/download boxes
+            //
+            $s = 'style="background-color:#fffff0; border-style: solid; border-width:1.5px; border-radius: 6px; border-color:#c8c8c8"';
+
+            // half-line spacer
+            //
+            $spacer = '<br style="line-height: 5px" />';
 
             echo '
                 </p><p>
@@ -106,7 +113,7 @@ function top() {
                 <div class="row">
                 <div class="col-sm-6"'.$s.'>
                 <center>
-                <br style="line-height: 6px" />
+                '.$spacer.'
             ';
             echo sprintf('<font size=+2>%s</font><p><p>',
                 tra('Choose science areas')
@@ -118,12 +125,12 @@ function top() {
                 </p><p>
                 <a class="btn btn-lg btn-success" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
                 </center>
-                <br style="line-height: 6px" />
+                '.$spacer.'
                 </div>
                 <div class="col-sm-1" ><p></p><center><font size=+1>or</font></center></div>
                 <div class="col-sm-5"'.$s.'>
                 <center>
-                <br style="line-height: 6px" />
+                '.$spacer.'
             ';
             echo sprintf('<font size=+2>%s</font><p><p>',
                 tra('Choose projects')
@@ -133,7 +140,7 @@ function top() {
                 </p><p>
                 <a class="btn btn-lg btn-success" href="download.php">'.tra("Download BOINC").'</a>
                 </center>
-                <br style="line-height: 6px" />
+                '.$spacer.'
                 </div>
                 </div>
                 </div>
@@ -224,6 +231,7 @@ function show_software() {
                 <a class="btn btn-xs btn-primary" href="https://github.com/BOINC/boinc">Github</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/BoincGovernanceWorkingGroups">'.tra("Organization").'</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/AdminTasks">'.tra("Tasks").'</a>
+                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincEvents">'.tra("Events").'</a>
                 </center>
                 <p></p>
             ';
@@ -232,8 +240,6 @@ function show_software() {
 }
                 // <a class="btn btn-xs btn-primary" href="trac/wiki/DevProcess">'.tra("Development process").'</a>
                 // <a class="btn btn-xs btn-primary" href="trac/wiki/DevProjects">'.tra("Development tasks").'</a>
-                // <a class="btn btn-xs btn-primary" href="trac/wiki/AdminTasks">'.tra("Maintenance tasks").'</a>
-                // <a class="btn btn-xs btn-primary" href="logo.php">'.tra("Graphics").'</a>
 
 function show_boinc() {
     panel(
@@ -245,7 +251,7 @@ function show_boinc() {
                 <center>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
                 <a class="btn btn-xs btn-primary" href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincEvents">'.tra("Events").'</a>
+                <a class="btn btn-xs btn-primary" href="logo.php">'.tra("Graphics").'</a>
                 </center>
             ';
         }

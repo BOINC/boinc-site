@@ -1,12 +1,13 @@
 <?php
 require_once("../inc/util.inc");
+require_once("docutil.php");
 
 require_once("addon_data.php");
 
 $strip_header = get_str('strip_header', true);
 
 if (!$strip_header) {
-page_head('BOINC add-on software');
+old_page_head('BOINC add-on software');
 echo "
 <p>
 The following programs complement or enhance BOINC,
@@ -73,6 +74,6 @@ echo "<a name=web></a>\n";
 show_group("Web applications", $web, 'web');
 
 if (!$strip_header) {
-page_tail();
+old_page_tail();
 }
 ?>

@@ -1,6 +1,6 @@
 <?php
 require_once("docutil.php");
-page_head("Sandbox design");
+old_page_head("Sandbox design");
 
 echo "
 This document describes the permissions structure for 

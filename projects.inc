@@ -5,6 +5,7 @@
 // you didn't mess up the XML
 
 require_once("../inc/util.inc");
+//require_once("../inc/translation.inc");
 require_once("../inc/keywords.inc");
 require_once("../inc/project_ids.inc");
 
@@ -314,6 +315,18 @@ $astro_phys_chem = array(
             tra("Search for evidence of extra-terrestrial life"),
             array(KW_ASTRONOMY, KW_SETI, KW_AMERICAS, KW_US, KW_UCB)
         ),
+        project(
+            PROJ_NANOHUB,
+            "nanoHUB@Home",
+            "https://boinc.nanohub.org/nanoHUB_at_home/",
+            "Purdue University",
+            "Nanoscience",
+            "nanoHUB@Home provides computing power to users of the nanoHUB portal for nanoscience.",
+            "",
+            "",
+            "",
+            array(KW_AMERICAS, KW_US, KW_NANOSCIENCE)
+        ),
     ),
 );
 
@@ -368,6 +381,18 @@ $mixed = array(
             tra("Do biomedical and environmental research"),
             array(KW_BIOMED, KW_EARTH_SCI, KW_AMERICAS, KW_US)
         ),
+        project(
+            PROJ_TACC,
+            "BOINC@TACC",
+            "https://boinc.tacc.utexas.edu/",
+            "Texas Advanced Computing Center",
+            "Multiple scientific areas",
+            "BOINC@TACC provides computing power to U.S. researchers in a multiplet scientific areas.",
+            "",
+            "",
+            "",
+            array(KW_AMERICAS, KW_US)
+        ),
     ),
 );
 $math = array(
@@ -421,18 +446,18 @@ $math = array(
             "Discover Latin Squares",
             array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA, KW_RAS)
         ),
-        project(
-            PROJ_SAT,
-            "SAT@home",
-            "http://sat.isa.ru/pdsat/",
-            "Institute for System Dynamics and Control Theory and Institute for Information Transmission Problems, Russian Academy of Science",
-            tra("Computer Science"),
-            tra("Solve hard and practically important problems (discrete functions inversion problems, discrete optimization, bioinformatics, etc.) that can be effectively reduced to Boolean satisfiability problem."),
-            "sat_logo.png",
-            "",
-            tra("Study computational complexity"),
-            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA, KW_RAS)
-        ),
+//        project(
+//            PROJ_SAT,
+//            "SAT@home",
+//            "http://sat.isa.ru/pdsat/",
+//            "Institute for System Dynamics and Control Theory and Institute for Information Transmission Problems, Russian Academy of Science",
+//            tra("Computer Science"),
+//            tra("Solve hard and practically important problems (discrete functions inversion problems, discrete optimization, bioinformatics, etc.) that can be effectively reduced to Boolean satisfiability problem."),
+//            "sat_logo.png",
+//            "",
+//            tra("Study computational complexity"),
+//            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA, KW_RAS)
+//        ),
         project(
             PROJ_MOO,
             "Moo! Wrapper",

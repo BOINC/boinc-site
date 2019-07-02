@@ -1,7 +1,7 @@
 <?php
 require_once("docutil.php");
 
-page_head("Logos and graphics");
+old_page_head("Logos and graphics");
 
 function art_list_head() {
     echo "
@@ -300,5 +300,5 @@ The Latin text means 'Berkeley open and shared resources'.
 
 ";
 
-page_tail();
+old_page_tail();
 ?>

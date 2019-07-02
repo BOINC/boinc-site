@@ -113,9 +113,13 @@ if (get_str2('xml')) {
     exit();
 }
 
-$client_info = $_SERVER['HTTP_USER_AGENT'];
+$client_info = get_str2('user_agent');  // for debugging
+if (!$client_info) {
+    $client_info = $_SERVER['HTTP_USER_AGENT'];
+}
 
-page_head(tra("Participate in BOINC"));
+
+old_page_head(tra("Install BOINC"));
 
 if (get_str2('all_platforms', true)) {
     show_download($client_info, null);
@@ -123,6 +127,6 @@ if (get_str2('all_platforms', true)) {
     show_download($client_info, client_info_to_platform($client_info));
 }
 
-page_tail(true);
+old_page_tail(true);
 
 ?>

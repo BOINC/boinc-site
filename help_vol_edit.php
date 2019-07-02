@@ -107,9 +107,9 @@ function get_form_data() {
 }
 
 function email_password($vol) {
-    page_head("Emailing password");
+    old_page_head("Emailing password");
     echo "We're emailing your Help Volunteer password to $vol->email_addr.";
-    page_tail();
+    old_page_tail();
     $body = "Your BOINC Help Volunteer password is:\n$vol->password\n";
     mail($vol->email_addr, "Help Volunteer info", $body, "From: BOINC");
 }
@@ -134,9 +134,9 @@ if ($create == 'OK') {
     $retval = vol_insert($vol);
     if (!$retval) {
         echo mysql_error();
-        page_head("database error");
+        old_page_head("database error");
     } else {
-        page_head("Registration finished");
+        old_page_head("Registration finished");
         echo "
             Thanks - you're now registered as a BOINC Help Volunteer.
             <p>
@@ -145,9 +145,9 @@ if ($create == 'OK') {
             and click on the link at the bottom of the page.
         ";
     }
-    page_tail();
+    old_page_tail();
 } else if ($edit_login) {
-    page_head("Edit your Help Volunteer account");
+    old_page_head("Edit your Help Volunteer account");
     echo "Please enter the email address and password
         of your Help Volunteer account.
         <form action=help_vol_edit.php>
@@ -162,7 +162,7 @@ if ($create == 'OK') {
     );
     list_end();
     echo "</form>\n";
-    page_tail();
+    old_page_tail();
 } else if ($edit_form == "OK") {
     $email_addr = stripslashes($_GET['email_addr']);
     $password = stripslashes($_GET['password']);
@@ -177,7 +177,7 @@ if ($create == 'OK') {
     if ($password != $vol->password) {
         boinc_error_page("Bad password");
     }
-    page_head("Edit your Help Volunteer Account");
+    old_page_head("Edit your Help Volunteer Account");
     echo "
         <form action=help_vol_edit.php>
         <input type=hidden name=old_email_addr value=\"$email_addr\">
@@ -185,7 +185,7 @@ if ($create == 'OK') {
     ";
     print_form($vol, 'edit_action');
     echo "</form>\n";
-    page_tail();
+    old_page_tail();
 } else if ($edit_action) {
     $old_email_addr = stripslashes($_GET['old_email_addr']);
     $old_password = stripslashes($_GET['old_password']);
@@ -202,22 +202,22 @@ if ($create == 'OK') {
     $retval = vol_update($vol2);
     if (!$retval) {
         echo mysql_error();
-        page_head("database error");
-        page_tail();
+        old_page_head("database error");
+        old_page_tail();
     } else {
-        page_head("Update completed");
+        old_page_head("Update completed");
         echo "Your Help Volunteer account information has been updated.";
-        page_tail();
+        old_page_tail();
     }
 } else {
-    page_head("Register as a BOINC Help Volunteer");
+    old_page_head("Register as a BOINC Help Volunteer");
     $vol = null;
     $vol->voice_ok = 1;
     $vol->text_ok = 1;
     echo "<form action=help_vol_edit.php>\n";
     print_form($vol, 'create');
     echo "</form>\n";
-    page_tail();
+    old_page_tail();
 }
 
 ?>

@@ -42,7 +42,9 @@ function html_tag() {
     }
 }
 
-function page_head($title, $extra="") {
+// old page head, doesn't do login/navbar stuff
+//
+function old_page_head($title, $extra="") {
     global $book;
     global $chap_num;
     if ($book) {
@@ -91,7 +93,7 @@ function copyright() {
     ";
 }
 
-function page_tail($translatable=false, $is_main=false) {
+function old_page_tail($translatable=false, $is_main=false) {
     global $book;
     if ($book) {
         return;

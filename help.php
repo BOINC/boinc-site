@@ -4,7 +4,7 @@ require_once("spoken_languages.php");
 require_once("help_db.php");
 require_once("../inc/translation.inc");
 
-page_head(tra("Live help via Skype or email"));
+old_page_head(tra("Live help via Skype or email"));
 
 echo "
 <p>
@@ -54,5 +54,5 @@ echo "
     "</a>"
 )."
 ";
-page_tail();
+old_page_tail();
 ?>
