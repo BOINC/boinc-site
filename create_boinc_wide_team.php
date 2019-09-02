@@ -38,7 +38,7 @@ $user = BoincUser::lookup_email_addr($email_addr);
 if (!$user) {
     $e = strtolower($email_addr);
     $passwd_hash = md5("foobar".$e);
-    $user = make_user($email_addr, $user_name, $passwd_hash);
+    $user = make_user($e, $user_name, $passwd_hash);
     if (!$user) die("can't create user\n");
 
     echo "created user $user->id\n";

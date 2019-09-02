@@ -30,8 +30,8 @@ function show_participant() {
             show_totals();
             echo '
                 <p> </p>
-                <a class="btn btn-xs btn-primary" href=chart_list.php>'.tra("Top 100 volunteers").'</a>
-                <a class="btn btn-xs btn-primary" href=https://boinc.berkeley.edu/trac/wiki/WebResources#Creditstatistics>'.tra("Statistics").'</a>
+                <a class="btn btn-s btn-primary" href=chart_list.php>'.tra("Top 100 volunteers").'</a>
+                <a class="btn btn-s btn-primary" href=https://boinc.berkeley.edu/trac/wiki/WebResources#Creditstatistics>'.tra("Statistics").'</a>
                 <hr>
                 <p>
             ';
@@ -93,6 +93,7 @@ function top() {
                 '<a href="https://worldcommunitygrid.org">IBM World Community Grid</a>',
                 '<a href="https://setiathome.berkeley.edu">SETI@home</a>'
             );
+            echo " ";
             echo tra('These projects investigate diseases, study global warming, discover pulsars, and do many other types of scientific research.');
             echo '
                 </p><p>
@@ -101,17 +102,17 @@ function top() {
 
             // style for join/download boxes
             //
-            $s = 'style="background-color:#fffff0; border-style: solid; border-width:1.5px; border-radius: 6px; border-color:#c8c8c8"';
+            $s = 'style="background-color:#036; a.link{color:white;}; color:white; border-style: solid; border-width:1.5px; border-radius: 6px; border-color:#c8c8c8"';
 
             // half-line spacer
             //
-            $spacer = '<br style="line-height: 5px" />';
+            $spacer = '<br style="line-height: 10px" />';
 
             echo '
                 </p><p>
                 <div class="container-fluid">
                 <div class="row">
-                <div class="col-sm-6"'.$s.'>
+                <div class="col-sm-5"'.$s.'>
                 <center>
                 '.$spacer.'
             ';
@@ -119,15 +120,15 @@ function top() {
                 tra('Choose science areas')
             );
             echo tra('To contribute to science areas (biomedicine, physics, astronomy, and so on) use %1.  Your computer will do work for current and future projects in those areas.',
-                '<a href=https://scienceunited.org>Science United</a>'
+                '<a href=https://scienceunited.org style="color:orange">Science United</a>'
             );
             echo '
                 </p><p>
-                <a class="btn btn-lg btn-success" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
+                <a class="btn btn-lg" style="background-color:gold; color:black" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
                 </center>
                 '.$spacer.'
                 </div>
-                <div class="col-sm-1" ><p></p><center><font size=+1>or</font></center></div>
+                <div class="col-sm-2" ><p></p><center><font size=+1>or</font></center></div>
                 <div class="col-sm-5"'.$s.'>
                 <center>
                 '.$spacer.'
@@ -138,13 +139,14 @@ function top() {
             echo tra('To contribute to specific projects, download BOINC and follow the directions.');
             echo '
                 </p><p>
-                <a class="btn btn-lg btn-success" href="download.php">'.tra("Download BOINC").'</a>
+                <a class="btn btn-lg" style="background-color:gold; color:black" href="download.php">'.tra("Download BOINC").'</a>
                 </center>
                 '.$spacer.'
                 </div>
                 </div>
                 </div>
             ';
+            echo $spacer;
             echo '
                 </p>
                 <div class="container-fluid">
@@ -179,7 +181,8 @@ function top() {
                 </div>
                 </div>
             ';
-        }
+        },
+        "panel-borderless"
     );
 }
 
@@ -202,8 +205,8 @@ function show_science() {
             ";
             echo '
                 <center>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincOverview">'.tra("Computing with BOINC").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/ProjectMain">'.tra("Technical Documentation").'</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/BoincOverview">'.tra("Computing with BOINC").'</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/ProjectMain">'.tra("Technical Documentation").'</a>
                 </center>
             ';
         }
@@ -218,28 +221,28 @@ function show_software() {
                 '.tra("It is distributed under the LGPLv3 open-source license.").'
                 <p></p>
                 <center>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/SourceCodeGit">'.tra("Source code").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/SoftwareBuilding">'.tra("Building BOINC").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/SoftwareAddon">APIs</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/SoftwareDevelopment">'.tra("Design documents").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/CodingStyle">'.tra("Coding style").'</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/SourceCodeGit">'.tra("Source code").'</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/SoftwareBuilding">'.tra("Building BOINC").'</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/SoftwareAddon">APIs</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/SoftwareDevelopment">'.tra("Design documents").'</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/CodingStyle">'.tra("Coding style").'</a>
                 </center>
                 <p></p>
                 '.tra("BOINC software development is community-based.  Everyone is welcome to participate.").'
                 <p></p>
                 <center>
-                <a class="btn btn-xs btn-primary" href="https://github.com/BOINC/boinc">Github</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincGovernanceWorkingGroups">'.tra("Organization").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/AdminTasks">'.tra("Tasks").'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincEvents">'.tra("Events").'</a>
+                <a class="btn btn-s btn-primary" href="https://github.com/BOINC/boinc">Github</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/BoincGovernanceWorkingGroups">'.tra("Organization").'</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/AdminTasks">'.tra("Tasks").'</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/BoincEvents">'.tra("Events").'</a>
                 </center>
                 <p></p>
             ';
         }
     );
 }
-                // <a class="btn btn-xs btn-primary" href="trac/wiki/DevProcess">'.tra("Development process").'</a>
-                // <a class="btn btn-xs btn-primary" href="trac/wiki/DevProjects">'.tra("Development tasks").'</a>
+                // <a class="btn btn-s btn-primary" href="trac/wiki/DevProcess">'.tra("Development process").'</a>
+                // <a class="btn btn-s btn-primary" href="trac/wiki/DevProjects">'.tra("Development tasks").'</a>
 
 function show_boinc() {
     panel(
@@ -249,9 +252,9 @@ function show_boinc() {
                 The BOINC project is located at the University of California, Berkeley.  It has existed since 2002, with funding primarily from the National Science Foundation.
                 <p></p>
                 <center>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
-                <a class="btn btn-xs btn-primary" href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
-                <a class="btn btn-xs btn-primary" href="logo.php">'.tra("Graphics").'</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
+                <a class="btn btn-s btn-primary" href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
+                <a class="btn btn-s btn-primary" href="logo.php">'.tra("Graphics").'</a>
                 </center>
             ';
         }
@@ -270,7 +273,6 @@ function show_nsf() {
 
 header("Content-type: text/html; charset=utf-8");
 
-//html_tag();
 $rh_col_width = 390;
 
 echo '

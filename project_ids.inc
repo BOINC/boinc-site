@@ -47,6 +47,7 @@ define('PROJ_DBN',              41);
 define('PROJ_RAKESEARCH',       42);
 define('PROJ_NANOHUB',          43);
 define('PROJ_TACC',             44);
+define('PROJ_GRCPOOL',         45);
 define('PROJ_SCIENCE_UNITED',  101);
 
 ?>

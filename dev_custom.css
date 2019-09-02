@@ -1,0 +1,50 @@
+# fixes to light-backround themes
+
+table a:not(.btn), .table a:not(.btn), table a, .table a, a {
+    text-decoration: none;
+}
+
+table a:hover, .table a:hover, a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    font-size: 15px;
+}
+
+body , table , input , select {
+#font-family: "Trebuchet MS", Verdana, Arial, Sans Serif;
+    font-family: "Helvetica", Verdana, Arial, Sans Serif;
+    font-size: 14px;
+}
+
+hr {
+    border-color:gray;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+
+.panel-borderless {
+    border: 0;
+    box-shadow: none;
+}
+
+
+.panel-primary .panel-heading {
+    background-color: #036;
+}
+
+.btn-s {
+    background-color: #036;
+    padding: 2px 4px;
+    margin: 3px;
+}
+

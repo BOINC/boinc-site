@@ -182,18 +182,18 @@ $earth = array(
 $astro_phys_chem = array(
     tra("Physical Science"),
     array(
-        project(
-            PROJ_ACOUSTICS,
-            "Acoustics@home",
-            "http://www.acousticsathome.ru/boinc/",
-            "V.I. Ilichev Pacific Oceanological Institute, Far Eastern Federal University, Matrosov Institute for System Dynamics and Control Theory, A.A. Kharkevich Institute for Information Transmission Problems, Dorodnicyn Computing Centre",
-            "Physics, Underwater acoustics",
-            "In underwater acoustics the notion of geoacoustic inversion refers to a collection of techniques that can be used for the reconstruction of medium parameters. The medium parameters are usually understood as the sound speed profile in water (i.e., the dependence of the sound speed on the depth) and the sound speed and density in the sea bottom sediment layers. Medium parameters reconstruction is of great importance for problems of underwater communication and for the development of underwater navigation systems.",
-            "",
-            "",
-            "Study underwater acoustics",
-            array(KW_PHYSICS, KW_EUROPE, KW_RUSSIA)
-        ),
+//        project(
+//            PROJ_ACOUSTICS,
+//            "Acoustics@home",
+//            "http://www.acousticsathome.ru/boinc/",
+//            "V.I. Ilichev Pacific Oceanological Institute, Far Eastern Federal University, Matrosov Institute for System Dynamics and Control Theory, A.A. Kharkevich Institute for Information Transmission Problems, Dorodnicyn Computing Centre",
+//            "Physics, Underwater acoustics",
+//            "In underwater acoustics the notion of geoacoustic inversion refers to a collection of techniques that can be used for the reconstruction of medium parameters. The medium parameters are usually understood as the sound speed profile in water (i.e., the dependence of the sound speed on the depth) and the sound speed and density in the sea bottom sediment layers. Medium parameters reconstruction is of great importance for problems of underwater communication and for the development of underwater navigation systems.",
+//            "",
+//            "",
+//            "Study underwater acoustics",
+//            array(KW_PHYSICS, KW_EUROPE, KW_RUSSIA)
+//        ),
 //        project(
 //            PROJ_POGS,
 //            "theSkyNet POGS",
@@ -578,18 +578,18 @@ $math = array(
             "Help design super-reliable electronic circuits",
             array(KW_MATH_CS, KW_EUROPE, KW_UK)
         ),
-        project(
-            PROJ_DBN,
-            "DBN Upper Bound",
-            "http://anthgrid.com/dbnupperbound/",
-            "Independent",
-            "Mathematics",
-            "DBN Upper Bound does computations related to the Riemann zeta function.",
-            "",
-            "",
-            "",
-            array(KW_MATH_CS)
-        ),
+//        project(
+//            PROJ_DBN,
+//            "DBN Upper Bound",
+//            "http://anthgrid.com/dbnupperbound/",
+//            "Independent",
+//            "Mathematics",
+//            "DBN Upper Bound does computations related to the Riemann zeta function.",
+//            "",
+//            "",
+//            "",
+//            array(KW_MATH_CS)
+//        ),
         project(
             PROJ_RAKESEARCH,
             'RakeSearch',
@@ -649,6 +649,13 @@ $account_managers = array(
         "Science United",
         "https://scienceunited.org/",
         "Science United is a simple and friendly interface to BOINC.  You sign up for science areas instead of projects.",
+        ""
+    ),
+    acct_mgr(
+        PROJ_GRCPOOL,
+        "GRCPool",
+        "https://grcpool.com",
+        "GRCPool.com is a cryptocurrency mining pool which rewards work performed using BOINC.",
         ""
     ),
 );
