@@ -45,7 +45,7 @@ function show_totals() {
     $fn = "boinc_state.xml";
     if (!file_exists($fn) || filemtime($fn) < time()-86400) {
         $uid = time();
-        $x = file_get_contents("https://boincstats.com/en/xml/boincState?uid=$uid");
+        $x = file_get_contents("https://www.boincstats.com/xml/boincState?uid=$uid");
         if ($x) {
             $f = fopen($fn, "w");
             fwrite($f, $x);
@@ -54,6 +54,10 @@ function show_totals() {
     $x = file_get_contents($fn);
     $users = parse_element($x, "<participants_active>");
     $hosts = parse_element($x, "<hosts_active>");
+    $dusers = parse_element($x, "<participants_day>");
+    if ((int)$dusers > 0) $dusers = "+".$dusers;
+    $dhosts = parse_element($x, "<hosts_day>");
+    if ((int)$dhosts > 0) $dhosts = "+".$dhosts;
     $credit_day = parse_element($x, "<credit_day>");
     $users = number_format($users);
     $hosts = number_format($hosts);
@@ -63,6 +67,8 @@ function show_totals() {
         tra("24-hour average:")." $petaflops ".tra("PetaFLOPS.")."
         <br>
         ".tra("Active:")." $users ".tra("volunteers,")." $hosts ".tra("computers").".
+        <br>
+        ".tra("Daily change:")." $dusers ".tra("volunteers,")." $dhosts ".tra("computers").".
     ";
 }
 
@@ -112,7 +118,7 @@ function top() {
                 </p><p>
                 <div class="container-fluid">
                 <div class="row">
-                <div class="col-sm-5"'.$s.'>
+                <div class="col-sm-6"'.$s.'>
                 <center>
                 '.$spacer.'
             ';
@@ -124,11 +130,11 @@ function top() {
             );
             echo '
                 </p><p>
-                <a class="btn btn-lg" style="background-color:gold; color:black" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
+                <a class="btn btn-lg" style="background-color:#ffd730; color:black" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
                 </center>
                 '.$spacer.'
                 </div>
-                <div class="col-sm-2" ><p></p><center><font size=+1>or</font></center></div>
+                <div class="col-sm-1" ><p></p><center><font size=+1>or</font></center></div>
                 <div class="col-sm-5"'.$s.'>
                 <center>
                 '.$spacer.'
@@ -139,7 +145,7 @@ function top() {
             echo tra('To contribute to specific projects, download BOINC and follow the directions.');
             echo '
                 </p><p>
-                <a class="btn btn-lg" style="background-color:gold; color:black" href="download.php">'.tra("Download BOINC").'</a>
+                <a class="btn btn-lg" style="background-color:ffd730; color:black" href="download.php">'.tra("Download BOINC").'</a>
                 </center>
                 '.$spacer.'
                 </div>

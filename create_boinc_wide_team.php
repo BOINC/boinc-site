@@ -54,5 +54,6 @@ if (!$retval) {
     die("can't update user\n");
 }
 
-echo "done\n";
+echo "I created that team, and an account with your email addess
+and password 'foobar'.  Let me know if any problems.\n";
 ?>

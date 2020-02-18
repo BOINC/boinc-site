@@ -16,15 +16,16 @@ $platforms_win = array(
 $platforms_mac = array(
     //array("mac104", "Mac OS X 10.4", 1, "mac"),
     //array("mac105", "Mac OS X 10.5", 1, "mac"),
-    array("mac106", "Mac OS X 10.6", 1, "mac"),
-    array("mac107", "Mac OS X 10.7", 1, "mac"),
-    array("mac108", "Mac OS X 10.8", 1, "mac"),
-    array("mac109", "Mac OS X 10.9", 1, "mac"),
-    array("mac110", "Mac OS X 10.10", 1, "mac"),
+    //array("mac106", "Mac OS X 10.6", 1, "mac"),
+    //array("mac107", "Mac OS X 10.7", 1, "mac"),
+    //array("mac108", "Mac OS X 10.8", 1, "mac"),
+    //array("mac109", "Mac OS X 10.9", 1, "mac"),
+    //array("mac110", "Mac OS X 10.10", 1, "mac"),
     array("mac111", "Mac OS X 10.11", 1, "mac"),
-    array("mac112", "Mac OS X 10.12", 5, "mac"),
+    array("mac112", "Mac OS X 10.12", 1, "mac"),
     array("mac113", "Mac OS X 10.13", 5, "mac"),
-    array("mac114", "Mac OS X 10.14", 1, "mac"),
+    array("mac114", "Mac OS X 10.14", 5, "mac"),
+    array("mac115", "Mac OS X 10.15", 1, "mac"),
 );
 
 $platforms_linux = array(
@@ -687,6 +688,7 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
+    array("7.16.3", array($general, $clean, $screensaver), $platforms_win_mac),
     array("7.14.2", array($general, $clean, $screensaver), $platforms_win_mac),
     array("7.14.1", array($general, $clean, $screensaver), $platforms_win_mac_linux),
     array("7.12.1", array($general, $auto_attach), $platforms_win),

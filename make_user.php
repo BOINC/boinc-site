@@ -29,7 +29,7 @@ require_once("../inc/user_util.inc");
 if ($argc != 3) die("usage: make_user username email\n");
 
 $user_name = $argv[1];
-$email_addr = $argv[2];
+$email_addr = strtolower($argv[2]);
 
 $user = BoincUser::lookup_email_addr($email_addr);
 if ($user) {
@@ -39,5 +39,14 @@ $passwd_hash = md5("foobar".$email_addr);
 $user = make_user($email_addr, $user_name, $passwd_hash);
 if (!$user) die("can't create user\n");
 echo "created user $user->id\n";
+echo "
+Thanks for helping!
+I created a BOINC Alpha Test account for you with password 'foobar'.
+Testing instructions are here:
+https://boinc.berkeley.edu/trac/wiki/AlphaInstructions
+In particular, please join the boinc_alpha email list.
+
+-- David
+";
 
 ?>

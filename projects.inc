@@ -168,7 +168,7 @@ $earth = array(
         project(
             PROJ_CPDN,
             "Climateprediction.net",
-            "https://www.cpdn.org/cpdnboinc/",
+            "https://www.cpdn.org/",
             tra("Oxford University"),
             tra("Climate study"),
             tra("Investigate the approximations that have to be made in state-of-the-art climate models. By running the model thousands of times we hope to find out how the model responds to slight tweaks to these approximations - slight enough to not make the approximations any less realistic. This will allow us to improve our understanding of how sensitive our models are to small changes and also to things like changes in carbon dioxide and the sulphur cycle. This will allow us to explore how climate may change in the next century under a wide range of different scenarios."),
@@ -470,18 +470,18 @@ $math = array(
             tra("Run applications from distributed.net"),
             array(KW_MATH_CS)
         ),
-        project(
-            PROJ_ENIGMA,
-            "Enigma@Home",
-            "http://www.enigmaathome.net/",
-            tra("Independent"),
-            tra("Cryptography"),
-            tra("Attempt to decode 3 original Enigma messages. The signals were intercepted in the North Atlantic in 1942 and are believed to be unbroken."),
-            "",
-            "",
-            tra("Decode WWII submarine messages"),
-            array(KW_MATH_CS, KW_EUROPE)
-        ),
+//        project(
+//            PROJ_ENIGMA,
+//            "Enigma@Home",
+//            "http://www.enigmaathome.net/",
+//            tra("Independent"),
+//            tra("Cryptography"),
+//            tra("Attempt to decode 3 original Enigma messages. The signals were intercepted in the North Atlantic in 1942 and are believed to be unbroken."),
+//            "",
+//            "",
+//            tra("Decode WWII submarine messages"),
+//            array(KW_MATH_CS, KW_EUROPE)
+//        ),
         project(
             PROJ_COLLATZ,
             "Collatz Conjecture",
@@ -566,18 +566,18 @@ $math = array(
             "",
             array(KW_MATH_CS, KW_NUMBER_THEORY)
         ),
-        project(
-            PROJ_DHEP,
-            "Distributed Hardware Evolution Project",
-            "https://dhep.ga/boinc/",
-            "University of Sussex",
-            "Electrical Engineering",
-            "DHEP uses a Genetic Algorithm in a coevolutionary setting to synthesise future super-reliable electronics such as those used in autonomous vehicles, power stations, medical equipment, aerospace. These are of increasingly paramount importance as more and more human lives rely on well functioning hardware.",
-            "dhep.png",
-            "",
-            "Help design super-reliable electronic circuits",
-            array(KW_MATH_CS, KW_EUROPE, KW_UK)
-        ),
+//        project(
+//            PROJ_DHEP,
+//            "Distributed Hardware Evolution Project",
+//            "https://dhep.ga/boinc/",
+//            "University of Sussex",
+//            "Electrical Engineering",
+//            "DHEP uses a Genetic Algorithm in a coevolutionary setting to synthesise future super-reliable electronics such as those used in autonomous vehicles, power stations, medical equipment, aerospace. These are of increasingly paramount importance as more and more human lives rely on well functioning hardware.",
+//            "dhep.png",
+//            "",
+//            "Help design super-reliable electronic circuits",
+//            array(KW_MATH_CS, KW_EUROPE, KW_UK)
+//        ),
 //        project(
 //            PROJ_DBN,
 //            "DBN Upper Bound",
