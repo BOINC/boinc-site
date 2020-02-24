@@ -1,7 +1,7 @@
 <?php
 require_once("docutil.php");
-require_once("spoken_languages.php");
-require_once("help_db.php");
+require_once("../inc/spoken_languages.inc");
+require_once("../inc/help_db.inc");
 require_once("../inc/translation.inc");
 
 old_page_head(tra("Live help via Skype or email"));

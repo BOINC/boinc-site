@@ -1,10 +1,10 @@
 <?php
 
 require_once("docutil.php");
-require_once("spoken_languages.php");
-require_once("help_funcs.php");
-require_once("help_db.php");
-require_once("countries.inc");
+require_once("../inc/spoken_languages.inc");
+require_once("../inc/help_funcs.inc");
+require_once("../inc/help_db.inc");
+require_once("../inc/countries.inc");
 
 function print_form($vol, $action_name) {
     list_start();
@@ -39,7 +39,7 @@ function print_form($vol, $action_name) {
     );
     list_item(
         "Country",
-        "<select name=country>".country_select($vol->country)."</select>"
+        "<select name=country>".country_select_options($vol->country)."</select>"
     );
     list_item(
         "Specialties<br><font size=-2>

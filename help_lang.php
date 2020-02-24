@@ -1,10 +1,9 @@
 <?php
 
 require_once("../inc/util.inc");
-
-require_once("help_db.php");
-require_once("help_funcs.php");
-require_once("spoken_languages.php");
+require_once("../inc/help_db.inc");
+require_once("../inc/help_funcs.inc");
+require_once("../inc/spoken_languages.inc");
 
 $lang = $_GET["lang"];
 
