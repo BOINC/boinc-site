@@ -205,9 +205,9 @@ function list_end() {
 }
 
 function boinc_error_page($x) {
-    page_head("Error");
+    old_page_head("Error");
     echo $x;
-    page_tail();
+    old_page_tail();
     exit();
 }
 

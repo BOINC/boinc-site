@@ -35,8 +35,10 @@ function friendly_name($p) {
     case 'arm-android-linux-gnu': $q = 'Android/ARM'; break;
     case 'arm-android': $q = 'Android/ARM'; break;
     case 'arm-unknown-linux-gnu': $q = 'Linux/ARM'; break;
+    case 'arm-unknown-linux-gnu': $q = 'Linux/ARM'; break;
     case 'x86_64-pc-freebsd': $q = 'FreeBSD/x86'; break;
-    case 'arm-unknown-linux-gnueabihf': $q = 'Linux on ARM (e.g., Raspberry Pi)';
+    case 'arm-unknown-linux-gnueabihf': $q = 'Linux on ARM (e.g., Raspberry Pi)'; break;
+    case 'aarch64-unknown-linux-gnu': $q = 'Linux on ARM'; break;
     }
     if (strlen($pc)) {
         if (strstr($pc, 'cuda')) $q .= " (NVIDIA GPU)";
@@ -79,6 +81,7 @@ function get_platform_icon_flags($l) {
         if (strstr($p, "freebsd")) $x->freebsd = true;
         if (strstr($p, "arm-unknown-linux-gnueabihf")) $x->rasp_pi = true;
         if (strstr($p, "armv5")) $x->rasp_pi = true;
+        if (strstr($p, "aarch64")) $x->rasp_pi = true;
         if (strstr($p, "armv6")) $x->rasp_pi = true;
         if (strstr($pc, "ati")) $x->amd_gpu = true;
         if (strstr($pc, "amd")) $x->amd_gpu = true;

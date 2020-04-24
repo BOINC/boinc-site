@@ -37,11 +37,10 @@ function type_text($type) {
 
 function linux_info() {
     return "Tested on the current Ubuntu distribution; may work on others.
-    <br>These versions are not current.
+    <br>These versions may not be current.
     We recommend that instead you
     <a href=https://boinc.berkeley.edu/wiki/Installing_BOINC#Linux>
-    install BOINC using a package manager,
-    run it using Docker,
+    install BOINC using a package manager, run it using Docker,
     or use a bootable ISO image</a>.
     ";
 }
@@ -144,18 +143,18 @@ $w5816 = array(
 );
 
 $w716x64 = array(
-    "num"=>"7.16.4",
-    "status"=>"Development version",
-    "file"=>"boinc_7.16.4_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.16.4_windows_x86_64_vbox.exe",
+    "num"=>"7.16.5",
+    "status"=>"Recommended version",
+    "file"=>"boinc_7.16.5_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.16.5_windows_x86_64_vbox.exe",
     "vbox_version"=>"6.0.14",
-    "date"=>"23 January 2020",
+    "date"=>"10 March 2020",
     "type"=>"win_new",
 );
 
 $w714x64 = array(
     "num"=>"7.14.2",
-    "status"=>"Recommended version",
+    "status"=>"Older version",
     "file"=>"boinc_7.14.2_windows_x86_64.exe",
     "vbox_file"=>"boinc_7.14.2_windows_x86_64_vbox.exe",
     "vbox_version"=>"5.2.8",
@@ -236,16 +235,38 @@ $w72x64 = array(
 ///// MAC STARTS HERE
 
 $m716 = array(
-    "num"=>"7.16.3",
-    "status"=>"Development version",
-    "file"=>"boinc_7.16.3_macOSX_x86_64.zip",
-    "date"=>"29 September 2019",
+    "num"=>"7.16.6",
+    "status"=>"Recommended version",
+    "file"=>"boinc_7.16.6_macOSX_x86_64.zip",
+    "date"=>"3 April 2020",
+    "type"=>"mac_advanced",
+);
+$m716c = array(
+    "num"=>"7.16.6",
+    "status"=>"Recommended version (Unix command-line version)",
+    "file"=>"boinc_7.16.6_x86_64-apple-darwin.zip",
+    "date"=>"3 April 2020",
+    "type"=>"bare_core",
+);
+$m714 = array(
+    "num"=>"7.14.4",
+    "status"=>"Older version",
+    "file"=>"boinc_7.14.4_macOSX_x86_64.zip",
+    "date"=>"31 March 2020",
     "type"=>"mac_advanced",
 );
 
-$m714 = array(
+$m714c = array(
+    "num"=>"7.14.4",
+    "status"=>"Older version (Unix command-line version)",
+    "file"=>"boinc_7.14.4_x86_64-apple-darwin.zip",
+    "date"=>"31 March 2020",
+    "type"=>"bare_core",
+);
+
+$m714_2 = array(
     "num"=>"7.14.2",
-    "status"=>"Recommended version",
+    "status"=>"Older version",
     "file"=>"boinc_7.14.2_macOSX_x86_64.zip",
     "date"=>"11 October 2018",
     "type"=>"mac_advanced",
@@ -275,17 +296,9 @@ $m78 = array(
     "type"=>"mac_advanced",
 );
 
-$m716c = array(
-    "num"=>"7.16.3",
-    "status"=>"Development version (Unix command-line version)",
-    "file"=>"boinc_7.16.3_x86_64-apple-darwin.zip",
-    "date"=>"29 September 2019",
-    "type"=>"bare_core",
-);
-
-$m714c = array(
+$m714_2c = array(
     "num"=>"7.14.2",
-    "status"=>"Recommended version (Unix command-line version)",
+    "status"=>"Older version (Unix command-line version)",
     "file"=>"boinc_7.14.2_x86_64-apple-darwin.zip",
     "date"=>"11 October 2018",
     "type"=>"bare_core",
@@ -435,6 +448,14 @@ $l70ubuntu = array(
     "type"=>"sea",
 );
 
+$l716ubuntux64dev = array(
+    "num"=>"7.16.6",
+    "status"=>"Development version",
+    "file"=>"boinc_ubuntu_7.16.6_x86_64-pc-linux-gnu.sh",
+    "date"=>"5 April 2020",
+    "type"=>"sea",
+);
+
 $l74ubuntux64dev = array(
     "num"=>"7.4.22",
     "status"=>"Recommended version",
@@ -500,9 +521,8 @@ $windows = array(
     "description"=>"XP/Vista/7/8/8.1/10",
     "dbname" => "windows_intelx86",
     "versions"=>array(
-          $w716,
+          //$w716,
           $w714,
-          $w712,
           $w66,
           $w5816,
     )
@@ -510,12 +530,11 @@ $windows = array(
 
 $windowsx64 = array(
     "name"=>"Windows 64-bit",
-    "description"=>"XP/Vista/7/8/8.1/10",
+    "description"=>"Vista/7/8/8.1/10",
     "dbname" => "windows_x86_64",
     "versions"=> array(
-          //$w716x64,
+          $w716x64,
           $w714x64,
-          $w712x64,
     )
 );
 
@@ -528,10 +547,8 @@ $mac = array(
           $m716c,
           $m714,
           $m714c,
-          $m712,
-          $m712c,
-          $m76,
-          $m76c,
+//          $m76,
+//          $m76c,
 //          $m74,
 //          $m74c,
     )
@@ -554,8 +571,6 @@ $macppc = array(
     "versions"=>array(
         $m612_ppc,
         $m612c_ppc,
-        $m66,
-        $m66c,
         $mupdater,
     )
 );
@@ -567,7 +582,6 @@ $linux = array(
     "versions"=>array(
           $l74ubuntudev,
           //$l72ubuntu,
-          $l70ubuntu,
     )
 );
 
@@ -576,9 +590,9 @@ $linuxx64 = array(
     "description"=> linux_info(),
     "dbname" => "x86_64-pc-linux-gnu",
     "versions"=>array(
+          $l716ubuntux64dev,
           $l74ubuntux64dev,
           //$l72ubuntux64,
-          $l70ubuntux64,
     )
 );
 

@@ -54,6 +54,12 @@ if (!$retval) {
     die("can't update user\n");
 }
 
-echo "I created that team, and an account with your email addess
-and password 'foobar'.  Let me know if any problems.\n";
+echo "I created a BOINC-wide team named '$team_name',
+and an account with email address '$email_addr'
+and password 'foobar'.
+You can log in here:
+https://boinc.berkeley.edu/teams/home.php
+Let me know if any problems.
+-- David
+";
 ?>

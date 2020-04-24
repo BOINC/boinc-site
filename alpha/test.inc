@@ -6,10 +6,10 @@
 // 3: category (win, mac, linux)
 
 $platforms_win = array(
-    array("winxp", "Windows XP", 1, "win"),
-    array("winvista_x64", "Windows Vista", 1, "win"),
+    //array("winxp", "Windows XP", 1, "win"),
+    //array("winvista_x64", "Windows Vista", 1, "win"),
     array("win7_x64", "Windows 7", 5, "win"),
-    array("win8_x64", "Windows 8/8.1", 5, "win"),
+    //array("win8_x64", "Windows 8/8.1", 5, "win"),
     array("win10_x64", "Windows 10", 5, "win"),
 );
 
@@ -688,8 +688,9 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
-    array("7.16.3", array($general, $clean, $screensaver), $platforms_win_mac),
-    array("7.14.2", array($general, $clean, $screensaver), $platforms_win_mac),
+    array("7.16.6", array($general, $clean), $platforms_mac_linux),
+    array("7.16.5", array($general, $clean), $platforms_win),
+    array("7.14.3", array($general, $clean, $screensaver), $platforms_mac),
     array("7.14.1", array($general, $clean, $screensaver), $platforms_win_mac_linux),
     array("7.12.1", array($general, $auto_attach), $platforms_win),
     array("7.12.0", array($general, $clean, $auto_attach, $wsl), $platforms_win_mac_linux),

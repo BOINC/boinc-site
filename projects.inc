@@ -41,18 +41,18 @@ function project(
 $sensing = array(
     tra("Distributed sensing"),
     array(
-        project(
-            PROJ_QCN,
-            "Quake Catcher Network",
-            "http://quakecatcher.net/sensor",
-            tra("University of Southern California"),
-            tra("Seismology"),
-            tra("Quake-Catcher Network uses sensors attached to computers and smartphones to detect seismic waves."),
-            "",
-            "http://quakecatcher.net/sensor/",
-            "Help detect earthquakes",
-            array(KW_EARTH_SCI, KW_AMERICAS, KW_US, KW_USC)
-        ),
+//        project(
+//            PROJ_QCN,
+//            "Quake Catcher Network",
+//            "http://quakecatcher.net/sensor",
+//            tra("University of Southern California"),
+//            tra("Seismology"),
+//            tra("Quake-Catcher Network uses sensors attached to computers and smartphones to detect seismic waves."),
+//            "",
+//            "http://quakecatcher.net/sensor/",
+//            "Help detect earthquakes",
+//            array(KW_EARTH_SCI, KW_AMERICAS, KW_US, KW_USC)
+//        ),
         project(
             PROJ_RADIOACTIVE,
             "Radioactive@Home",
@@ -112,18 +112,18 @@ $dormant_projects = array(
 $biomed = array(
     tra("Biology and Medicine"),
     array(
-        project(
-            PROJ_DENIS,
-            "DENIS@Home",
-            "https://denis.usj.es/denisathome/",
-            "San Jorge University, Zaragoza, Spain",
-            tra("Medical physiology"),
-            tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
-            "",
-            "http://denis.usj.es/denisathome/",
-            "Study the physiology of the heart",
-            array(KW_BIOMED, KW_EUROPE, KW_SPAIN)
-        ),
+//        project(
+//            PROJ_DENIS,
+//            "DENIS@Home",
+//            "https://denis.usj.es/denisathome/",
+//            "San Jorge University, Zaragoza, Spain",
+//            tra("Medical physiology"),
+//            tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
+//            "",
+//            "http://denis.usj.es/denisathome/",
+//            "Study the physiology of the heart",
+//            array(KW_BIOMED, KW_EUROPE, KW_SPAIN)
+//        ),
         project(
             PROJ_RNA_WORLD,
             "RNA World",
@@ -362,12 +362,12 @@ $mixed = array(
             "Yoyo@home",
             "http://www.rechenkraft.net/yoyo/",
             tra("Independent"),
-            tra("Mathematics, physics, evolution"),
-            tra("Yoyo@home is an adapter between BOINC and several existing volunteer computing projects: ECM, Muon, Evolution@home, and distributed.net"),
+            tra("Mathematics"),
+            tra("Yoyo@home is an adapter between BOINC and several existing volunteer computing projects."),
             "",
             "",
-            tra("Do research in math, physics, and evolution"),
-            array(KW_MATH_CS, KW_PHYSICS, KW_GENETICS, KW_EUROPE, KW_GERMANY)
+            tra("Do research in math"),
+            array(KW_MATH_CS, KW_EUROPE, KW_GERMANY)
         ),
         project(
             PROJ_WCG,

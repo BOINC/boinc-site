@@ -537,7 +537,11 @@ array(
 array('CPDNSpy.rar',
     'CPDNSpy Linux/Mac',
     '1.3',
-    'Stats/Benchmarkprogram. Only for CPDN!!!'
+    'Stats/Benchmarkprogram. Only for CPDN!!!',
+    '',
+    '',
+    '',
+    '',
 ),
 //array('SETIControl.hqx',
 //    'SETI Control',
