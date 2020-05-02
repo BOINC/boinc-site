@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# rename .po files from transifex
+
+for file in web_*; do mv "${file}" "${file/web_/}"; done
