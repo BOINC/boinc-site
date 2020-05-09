@@ -35,10 +35,9 @@ function friendly_name($p) {
     case 'arm-android-linux-gnu': $q = 'Android/ARM'; break;
     case 'arm-android': $q = 'Android/ARM'; break;
     case 'arm-unknown-linux-gnu': $q = 'Linux/ARM'; break;
-    case 'arm-unknown-linux-gnu': $q = 'Linux/ARM'; break;
+    case 'aarch64-unknown-linux-gnu': $q = 'Linux on ARM64'; break;
     case 'x86_64-pc-freebsd': $q = 'FreeBSD/x86'; break;
     case 'arm-unknown-linux-gnueabihf': $q = 'Linux on ARM (e.g., Raspberry Pi)'; break;
-    case 'aarch64-unknown-linux-gnu': $q = 'Linux on ARM'; break;
     }
     if (strlen($pc)) {
         if (strstr($pc, 'cuda')) $q .= " (NVIDIA GPU)";
@@ -218,10 +217,11 @@ function get_platforms($url) {
             }
         }
     }
-    return array_unique($list);
+    return array_values(array_unique($list));
 }
 
-// get platforms from app.php?xml=1 (deprecated)
+// get platforms from app.php?xml=1
+// Deprecated, but needed for old projects like mindmodeling
 //
 function get_platforms2($url) {
     $url .= 'apps.php?xml=1';
@@ -232,7 +232,7 @@ function get_platforms2($url) {
     }
     libxml_use_internal_errors(true);
     $s = simplexml_load_string($x);
-    $list = null;
+    $list = array();
     foreach($s->application as $a) {
         foreach ($a->version as $v) {
             if (!array_key_exists('platform_short', $v)) continue;
@@ -248,7 +248,7 @@ function get_platforms2($url) {
             $list[] = (string)$p;
         }
     }
-    return array_unique($list);
+    return array_values(array_unique($list));
 }
 
 // convert an array of platform names into a comma-separated
@@ -327,11 +327,12 @@ function get_platform_icons($url) {
 //$u = "http://lhcathome2.cern.ch/test4theory";
 //$u = "http://www.rnaworld.de/rnaworld/";
 //$u = "http://boinc.gorlaeus.net/";
-//$u = "https://www.dhep.ga/boinc/";
+//$u = "https://mindmodeling.org/";
 //$x = get_platforms_cached($u);
 //print_r($x);
-//$x = get_platforms($u);
+//$x = get_platforms2($u);
 //print_r($x);
+//echo json_encode($x);
 //echo get_platforms_string($u);
 
 

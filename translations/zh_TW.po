@@ -8,16 +8,19 @@
 # Translators:
 # Dewei Li <asimops0258@gmail.com>, 2019
 # Po-Chun Huang <aphroteus@gmail.com>, 2015
+# Robert Kwan, 2020
 # Tony Chang <Tony.TY_Chang@htc.com>, 2015
 # Willy Wu <df910105@yahoo.com.tw>, 2015
 # Willy Wu <df910105@yahoo.com.tw>, 2015-2016,2018
+# 孟邦 王, 2019
+# 江昱輝 <darkanglephantom@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: BOINC\n"
 "Report-Msgid-Bugs-To: BOINC translation team <boinc_loc@ssl.berkeley.edu>\n"
 "POT-Creation-Date: 2019-02-09 22:34 PST\n"
-"PO-Revision-Date: 2019-02-20 04:55+0000\n"
-"Last-Translator: Dewei Li <asimops0258@gmail.com>\n"
+"PO-Revision-Date: 2020-01-04 22:29+0000\n"
+"Last-Translator: Robert Kwan\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/boinc/boinc/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,17 +75,17 @@ msgid ""
 "(Windows, Mac, Linux) or Android device.  BOINC downloads scientific "
 "computing jobs to your computer and runs them invisibly in the background.  "
 "It's easy and safe."
-msgstr ""
+msgstr "BOINC使你能夠用你的裝置（Windows, Mac, Linux 或 Android）幫助最新的科學研究。BOINC下載運算計畫到你的電腦上並在背景運作，操作簡單。"
 
 #: index.php:90
 msgid "About 30 science projects use BOINC; examples include %3, %4, and %5."
-msgstr ""
+msgstr "約有30個科學計畫使用BOINC，包含 %3, %4  和 %5"
 
 #: index.php:96
 msgid ""
 "These projects investigate diseases, study global warming, discover pulsars,"
 " and do many other types of scientific research."
-msgstr ""
+msgstr "這些項目包含疾病研究，全球變暖研究，脈衝星搜索，以及許多其他類型的科學研究。"
 
 #: index.php:100
 msgid "You can participate in either of two ways:"
@@ -97,11 +100,11 @@ msgid ""
 "To contribute to science areas (biomedicine, physics, astronomy, and so on) "
 "use %1.  Your computer will do work for current and future projects in those"
 " areas."
-msgstr ""
+msgstr "要為科學領域（生物醫學，物理學，天文學等）做出貢獻，請使用%1。您的計算機將為這些領域的現有和未來的項目工作。"
 
 #: index.php:119
 msgid "Join Science United"
-msgstr ""
+msgstr "加入Science United"
 
 #: index.php:128
 msgid "Choose projects"
@@ -111,7 +114,7 @@ msgstr "選擇專案"
 msgid ""
 "To contribute to specific projects, download BOINC and follow the "
 "directions."
-msgstr ""
+msgstr "要對特定專案做出貢獻，請下載 BOINC 並依照指示進行。"
 
 #: index.php:133 download_util.inc:45
 msgid "Download BOINC"
@@ -127,7 +130,7 @@ msgstr "科學項目"
 
 #: index.php:148
 msgid "User manual"
-msgstr ""
+msgstr "使用指南"
 
 #: index.php:149
 msgid "Add-ons"
@@ -135,11 +138,11 @@ msgstr "附加組件"
 
 #: index.php:150
 msgid "Web resources"
-msgstr ""
+msgstr "線上資源"
 
 #: index.php:154
 msgid "Communicate"
-msgstr ""
+msgstr "交流"
 
 #: index.php:156
 msgid "Message boards"
@@ -159,7 +162,7 @@ msgstr "錯誤回報"
 
 #: index.php:163
 msgid "Other ways to help"
-msgstr ""
+msgstr "其他提供協助的方式"
 
 #: index.php:165
 msgid "Translate"
@@ -179,29 +182,29 @@ msgstr "宣傳"
 
 #: index.php:179
 msgid "High-Throughput Computing with BOINC"
-msgstr ""
+msgstr "使用 BOINC 進行高通量運算"
 
 #: index.php:196
 msgid "Computing with BOINC"
-msgstr ""
+msgstr "使用 BOINC 進行運算"
 
 #: index.php:197
 msgid "Technical Documentation"
-msgstr ""
+msgstr "技術文件"
 
 #: index.php:205
 msgid "Software"
-msgstr ""
+msgstr "軟體"
 
 #: index.php:208
 msgid ""
 "BOINC includes client, server, and web components, and APIs for connecting "
 "other components."
-msgstr ""
+msgstr "BOINC 包含了客戶端、伺服器、網頁元件，以及用來連接其他元件的 API。"
 
 #: index.php:209
 msgid "It is distributed under the LGPLv3 open-source license."
-msgstr ""
+msgstr "它是根據LGPLv3開源許可證分發的。"
 
 #: index.php:212
 msgid "Source code"
@@ -217,17 +220,17 @@ msgstr "設計文件"
 
 #: index.php:216
 msgid "Coding style"
-msgstr ""
+msgstr "程式設計風格"
 
 #: index.php:219
 msgid ""
 "BOINC software development is community-based.  Everyone is welcome to "
 "participate."
-msgstr ""
+msgstr "BOINC 是由社群開發的軟體。我們歡迎每個人的參與。"
 
 #: index.php:223
 msgid "Organization"
-msgstr ""
+msgstr "組織"
 
 #: index.php:224
 msgid "Tasks"
@@ -239,7 +242,7 @@ msgstr "聯繫"
 
 #: index.php:245
 msgid "Papers"
-msgstr ""
+msgstr "論文"
 
 #: index.php:246
 msgid "Events"
@@ -247,7 +250,7 @@ msgstr "活動"
 
 #: index.php:297
 msgid "Compute for Science"
-msgstr ""
+msgstr "為科學進行運算"
 
 #: download.php:44
 msgid ""
@@ -272,7 +275,7 @@ msgstr "我們建議您使用Google Play Store或Amazon Appstore下載BOINC，�
 msgid ""
 "When you first run BOINC, you will be asked to choose a project. For "
 "instructions, see the %1BOINC User Manual%2."
-msgstr ""
+msgstr "當您首次執行 BOINC，會先詢問您要選擇哪一項專案。如果需要操作指南，請參見 %1BOINC 使用手冊 %2。"
 
 #: download.php:84
 msgid ""
@@ -302,7 +305,7 @@ msgstr "GPU運算"
 
 #: download.php:114
 msgid "Participate in BOINC"
-msgstr ""
+msgstr "參與BOINC"
 
 #: download_util.inc:27
 msgid "Download BOINC + VirtualBox"
@@ -343,11 +346,11 @@ msgid ""
 "BOINC Live Help lets you get one-on-one help from an experienced BOINC user "
 "who can answer questions about BOINC, help you install BOINC, and "
 "troubleshoot problems."
-msgstr ""
+msgstr "BOINC Live Help可讓您從經驗豐富的BOINC用戶那裡獲得一對一的幫助，該用戶可以回答有關BOINC的問題，幫助您安裝BOINC以及解決問題。"
 
 #: help.php:14
 msgid "You can communicate with a helper"
-msgstr "您可以與幫助者取得聯繫"
+msgstr "您可以與支援人員取得聯繫"
 
 #: help.php:16
 msgid "by email"
@@ -395,7 +398,7 @@ msgstr "BOINC幫助人員都是不支薪的志工。他們的建議不代表BOIN
 #: help_funcs.php:139
 msgid ""
 "%1 Never %2 give email address or password information to BOINC helpers."
-msgstr "%1千萬不要%2將你的電子信箱或者密碼提供給BOINC幫助人員。"
+msgstr "%1千萬不要%2將你的電子信箱或者密碼提供給BOINC支援人員。"
 
 #: projects.inc:41
 msgid "Distributed sensing"
@@ -432,7 +435,7 @@ msgstr "Radioactive@Home使用志願者電腦上的感測器來建立一個免�
 
 #: projects.inc:71
 msgid "Cognitive science and artificial intelligence"
-msgstr ""
+msgstr "認知科學和人工智慧"
 
 #: projects.inc:78
 msgid "Cognitive Science"
@@ -739,7 +742,7 @@ msgstr "數學，運算和遊戲"
 
 #: projects.inc:385
 msgid "Do research in number theory"
-msgstr ""
+msgstr "研究數論"
 
 #: projects.inc:393 projects.inc:405 projects.inc:417 projects.inc:465
 #: projects.inc:489 projects.inc:501
@@ -821,7 +824,7 @@ msgid ""
 "breaking an integer into prime factors, such as 15 = 3 * 5 or 35 = 5 * 7. "
 "NFS@Home is a continuation of that experience, only with integers that are "
 "hundreds of digits long."
-msgstr "NFS@Home 是一個運用網路互連的電腦進行大整數數域篩選分解中的格篩步驟的研究專案。當您還是一個年輕的學生時，應該就有分解質因數的經歷，比如 15 = 3 * 5 或者 35 = 5 * 7。 NFS@Home 正是這一經歷的延續，不過卻是分解有數百位數字長的大整數。"
+msgstr "NFS@Home 是一個運用網路互連的電腦進行大整數數域篩選分解中的格篩步驟的研究專案。當您還是一個年輕的學生時，應該就有分解質因數的經驗，比如 15 = 3 * 5 或者 35 = 5 * 7。 NFS@Home 正是這個它的延續，不過它分解的是有數百位數字長的大整數。"
 
 #: projects.inc:481
 msgid "Study the factorization of large integers"
@@ -862,11 +865,10 @@ msgstr "測試並比較啟發式方法以研究用於CAD邏輯控制設計系統
 msgid ""
 "BAM! lets you create and manage BOINC project accounts, set preferences, "
 "join or create teams, connect your computers to projects, and much more."
-msgstr ""
+msgstr "BAM! 允許您創建和管理BOINC項目帳戶，設置首選項，加入或創建團隊，將計算機連接到項目等等。"
 
 #: projects.inc:607
 msgid ""
 "Gridrepublic lets you connect your computer to multiple projects, set "
 "preferences, and view your credit history."
-msgstr ""
-
+msgstr "Gridrepublic允許您將計算機連接到多個項目，設置首選項以及查看自己的信用記錄。"

@@ -870,4 +870,3 @@ msgid ""
 "Gridrepublic lets you connect your computer to multiple projects, set "
 "preferences, and view your credit history."
 msgstr "Gridrepublic låter dig ansluta din enhet till flera projekt, göra inställningar och se din poänghistorik."
-

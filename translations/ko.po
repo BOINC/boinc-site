@@ -865,4 +865,3 @@ msgid ""
 "Gridrepublic lets you connect your computer to multiple projects, set "
 "preferences, and view your credit history."
 msgstr "Gridrepublic은 여러분 컴퓨터를 여러 프로젝트에 연결시키고, 환경설정을 설정하고, 크레딧 이력을 보여줍니다."
-

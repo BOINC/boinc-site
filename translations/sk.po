@@ -6,19 +6,19 @@
 # FileID  : $Id$
 # 
 # Translators:
-# aceman444, 2016-2017
+# aceman444, 2016-2017,2019
 # aceman444, 2015
 # Jakub Meisner <jakub@jlfoto.sk>, 2017
 # Michal Zajacka, 2015-2016
 # Michal Zajacka, 2016
-# Ondrej Sluciak <ondrej.sluciak@gmail.com>, 2019
+# Ondrej Sluciak, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: BOINC\n"
 "Report-Msgid-Bugs-To: BOINC translation team <boinc_loc@ssl.berkeley.edu>\n"
 "POT-Creation-Date: 2019-02-09 22:34 PST\n"
-"PO-Revision-Date: 2019-02-17 18:16+0000\n"
-"Last-Translator: Ondrej Sluciak <ondrej.sluciak@gmail.com>\n"
+"PO-Revision-Date: 2019-12-25 20:28+0000\n"
+"Last-Translator: aceman444\n"
 "Language-Team: Slovak (http://www.transifex.com/boinc/boinc/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +57,7 @@ msgstr "dobrovoľníci,"
 
 #: index.php:65
 msgid "computers"
-msgstr ""
+msgstr "počítače"
 
 #: index.php:71
 msgid "News"
@@ -73,11 +73,11 @@ msgid ""
 "(Windows, Mac, Linux) or Android device.  BOINC downloads scientific "
 "computing jobs to your computer and runs them invisibly in the background.  "
 "It's easy and safe."
-msgstr ""
+msgstr "BOINC vám umožňuje pomôcť špičkovému vedeckému výskumu použitím vášho počítača (Windows, Mac, Linux) alebo zariadenia a Android.  BOINC stiahne vedecké úlohy do vášho počítača a potom ich neviditeľne na pozadí spracuje.  Je to ľahké a bezpečné."
 
 #: index.php:90
 msgid "About 30 science projects use BOINC; examples include %3, %4, and %5."
-msgstr ""
+msgstr "Okolo 30 vedeckých projektov používa BOINC; napríklad %3, %4, a %5."
 
 #: index.php:96
 msgid ""
@@ -87,7 +87,7 @@ msgstr ""
 
 #: index.php:100
 msgid "You can participate in either of two ways:"
-msgstr ""
+msgstr "Môžete sa zapojiť jedným z dvoch spôsobov:"
 
 #: index.php:111
 msgid "Choose science areas"
@@ -124,11 +124,11 @@ msgstr "Zistiť viac"
 
 #: index.php:147
 msgid "Science projects"
-msgstr ""
+msgstr "Vedecké projekty"
 
 #: index.php:148
 msgid "User manual"
-msgstr ""
+msgstr "Používateľská príručka"
 
 #: index.php:149
 msgid "Add-ons"
@@ -136,7 +136,7 @@ msgstr "Doplnky"
 
 #: index.php:150
 msgid "Web resources"
-msgstr ""
+msgstr "Webové zdroje"
 
 #: index.php:154
 msgid "Communicate"
@@ -160,7 +160,7 @@ msgstr "Nahlásiť chyby"
 
 #: index.php:163
 msgid "Other ways to help"
-msgstr ""
+msgstr "Iné spôsoby ako pomôcť"
 
 #: index.php:165
 msgid "Translate"
@@ -180,11 +180,11 @@ msgstr "Publikovať"
 
 #: index.php:179
 msgid "High-Throughput Computing with BOINC"
-msgstr ""
+msgstr "Vysokopriepustné počítanie s BOINC"
 
 #: index.php:196
 msgid "Computing with BOINC"
-msgstr ""
+msgstr "Počítanie s BOINC"
 
 #: index.php:197
 msgid "Technical Documentation"
@@ -192,7 +192,7 @@ msgstr "Technická dokumentácia"
 
 #: index.php:205
 msgid "Software"
-msgstr ""
+msgstr "Softvér"
 
 #: index.php:208
 msgid ""
@@ -202,7 +202,7 @@ msgstr ""
 
 #: index.php:209
 msgid "It is distributed under the LGPLv3 open-source license."
-msgstr ""
+msgstr "Je šírený pod licenciou otvoreného zdrojového kódu LGPLv3."
 
 #: index.php:212
 msgid "Source code"
@@ -228,7 +228,7 @@ msgstr "BOINC je projekt vyvíjaný komunitou. Každá spolupráca je vítaná."
 
 #: index.php:223
 msgid "Organization"
-msgstr ""
+msgstr "Organizácia"
 
 #: index.php:224
 msgid "Tasks"
@@ -240,7 +240,7 @@ msgstr "Kontakt"
 
 #: index.php:245
 msgid "Papers"
-msgstr ""
+msgstr "Vedecké články"
 
 #: index.php:246
 msgid "Events"
@@ -248,7 +248,7 @@ msgstr "Udalosti"
 
 #: index.php:297
 msgid "Compute for Science"
-msgstr ""
+msgstr "Počítajte pre vedu"
 
 #: download.php:44
 msgid ""
@@ -273,7 +273,7 @@ msgstr "Odporúčame stiahnuť BOINC z Google Play alebo z Amazon Appstore a nie
 msgid ""
 "When you first run BOINC, you will be asked to choose a project. For "
 "instructions, see the %1BOINC User Manual%2."
-msgstr ""
+msgstr "Pri prvom spustení BOINC budete požiadaný o zvolenie projektu. Pre inštrukcie si pozrite %1Používateľskú príručku BOINC%2."
 
 #: download.php:84
 msgid ""
@@ -303,7 +303,7 @@ msgstr "Výpočty pomocou GPU"
 
 #: download.php:114
 msgid "Participate in BOINC"
-msgstr ""
+msgstr "Zapojte sa do BOINC"
 
 #: download_util.inc:27
 msgid "Download BOINC + VirtualBox"
@@ -870,4 +870,3 @@ msgid ""
 "Gridrepublic lets you connect your computer to multiple projects, set "
 "preferences, and view your credit history."
 msgstr ""
-

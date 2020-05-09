@@ -151,13 +151,13 @@ $biomed = array(
         project(
             PROJ_ROSETTA,
             "Rosetta@home",
-            "http://boinc.bakerlab.org/rosetta/",
+            "https://boinc.bakerlab.org/rosetta/",
             tra("University of Washington"),
             tra("Biology"),
-            tra("Determine the 3-dimensional shapes of proteins in research that may ultimately lead to finding cures for some major human diseases. By running Rosetta@home you will help us speed up and extend our research in ways we couldn't possibly attempt without your help. You will also be helping our efforts at designing new proteins to fight diseases such as HIV, malaria, cancer, and Alzheimer's"),
+            tra("Determine the 3-dimensional shapes of proteins in research that may ultimately lead to finding cures for some major human diseases. By running Rosetta@home you will help us speed up and extend our research in ways we couldn't possibly attempt without your help. You will also be helping our efforts at designing new proteins to fight diseases such as COVID-19, HIV, malaria, cancer, and Alzheimer's"),
             "rosetta_at_home_logo.jpg",
             "",
-            "Study diseases such as HIV, malaria, cancer, and Alzheimer's",
+            "Study diseases such as COVID-19, HIV, malaria, cancer, and Alzheimer's",
             array(KW_BIOMED, KW_DISEASE, KW_PROTEINS, KW_AMERICAS, KW_US, KW_UW)
         ),
     ),
@@ -303,18 +303,18 @@ $astro_phys_chem = array(
             tra("Improve the design of the Large Hadron Collider"),
             array(KW_PHYSICS, KW_PARTICLE_PHYSICS, KW_INTERNATIONAL, KW_CERN)
         ),
-        project(
-            PROJ_SETI,
-            "SETI@home",
-            "http://setiathome.berkeley.edu/",
-            tra("University of California, Berkeley"),
-            tra("Astrophysics, astrobiology"),
-            tra("SETI (Search for Extraterrestrial Intelligence) is a scientific area whose goal is to detect intelligent life outside Earth. One approach, known as radio SETI, uses radio telescopes to listen for narrow-bandwidth radio signals from space. Such signals are not known to occur naturally, so a detection would provide evidence of extraterrestrial technology."),
-            "seti_logo.png",
-            "",
-            tra("Search for evidence of extra-terrestrial life"),
-            array(KW_ASTRONOMY, KW_SETI, KW_AMERICAS, KW_US, KW_UCB)
-        ),
+//        project(
+//            PROJ_SETI,
+//            "SETI@home",
+//            "http://setiathome.berkeley.edu/",
+//            tra("University of California, Berkeley"),
+//            tra("Astrophysics, astrobiology"),
+//            tra("SETI (Search for Extraterrestrial Intelligence) is a scientific area whose goal is to detect intelligent life outside Earth. One approach, known as radio SETI, uses radio telescopes to listen for narrow-bandwidth radio signals from space. Such signals are not known to occur naturally, so a detection would provide evidence of extraterrestrial technology."),
+//            "seti_logo.png",
+//            "",
+//            tra("Search for evidence of extra-terrestrial life"),
+//            array(KW_ASTRONOMY, KW_SETI, KW_AMERICAS, KW_US, KW_UCB)
+//        ),
         project(
             PROJ_NANOHUB,
             "nanoHUB@Home",

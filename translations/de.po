@@ -7,15 +7,18 @@
 # 
 # Translators:
 # Christian Beer <christian.beer@posteo.de>, 2015-2017,2019
+# Frank Joswig <fjodo.de@gmail.com>, 2020
 # Jan Schladetzky <inactive+Keiken@transifex.com>, 2015
 # Jonas <jesus_007@posteo.de>, 2015
+# Max Kraft <codo1983@gmail.com>, 2020
+# Peter Pogodsky <peterpogodsky@gmx.de>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: BOINC\n"
 "Report-Msgid-Bugs-To: BOINC translation team <boinc_loc@ssl.berkeley.edu>\n"
 "POT-Creation-Date: 2019-02-09 22:34 PST\n"
-"PO-Revision-Date: 2019-02-10 16:59+0000\n"
-"Last-Translator: Christian Beer <christian.beer@posteo.de>\n"
+"PO-Revision-Date: 2020-03-23 10:01+0000\n"
+"Last-Translator: Max Kraft <codo1983@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/boinc/boinc/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,36 +73,36 @@ msgid ""
 "(Windows, Mac, Linux) or Android device.  BOINC downloads scientific "
 "computing jobs to your computer and runs them invisibly in the background.  "
 "It's easy and safe."
-msgstr ""
+msgstr "Mit BOINC können Sie aktuelle wissenschaftliche Forschungsaufgaben auf Ihrem Computer (Windows, Mac, Linux) oder Android-Gerät unterstützen. BOINC lädt wissenschaftliche Computeraufträge auf Ihren Computer herunter und führt sie im Hintergrund aus. Es ist einfach und vor sicher."
 
 #: index.php:90
 msgid "About 30 science projects use BOINC; examples include %3, %4, and %5."
-msgstr ""
+msgstr "Ungefähr 30 wissenschaftliche Projekte benutzen BOINC; Beispiele beinhalten %3, %4, und %5."
 
 #: index.php:96
 msgid ""
 "These projects investigate diseases, study global warming, discover pulsars,"
 " and do many other types of scientific research."
-msgstr ""
+msgstr "Diese Projekte untersuchen Krankheiten, studieren globale Erwärmung, entdecken Pulsare und machen viele andere Arten von wissenschaftlichen Forschungen."
 
 #: index.php:100
 msgid "You can participate in either of two ways:"
-msgstr ""
+msgstr "Du kannst dich auf zwei Wegen beteiligen:"
 
 #: index.php:111
 msgid "Choose science areas"
-msgstr ""
+msgstr "Wähle Wissenschaftsbereiche"
 
 #: index.php:113
 msgid ""
 "To contribute to science areas (biomedicine, physics, astronomy, and so on) "
 "use %1.  Your computer will do work for current and future projects in those"
 " areas."
-msgstr ""
+msgstr "Um einen Beitrag für wissenschaftliche Bereiche (Biomedizin, Physik, Astronomie usw.) zu leisten %1. Ihr Computer wird für aktuelle und zukünftige Projekte in diesen Bereichen eingesetzt."
 
 #: index.php:119
 msgid "Join Science United"
-msgstr ""
+msgstr "Trete \"Wissenschaft Vereint\" bei"
 
 #: index.php:128
 msgid "Choose projects"
@@ -109,7 +112,7 @@ msgstr "Projekte auswählen"
 msgid ""
 "To contribute to specific projects, download BOINC and follow the "
 "directions."
-msgstr ""
+msgstr "Um an spezifischen Projekten teilzunehmen, lade BOINC herunter und folge den Anweisungen."
 
 #: index.php:133 download_util.inc:45
 msgid "Download BOINC"
@@ -121,11 +124,11 @@ msgstr "Mehr erfahren"
 
 #: index.php:147
 msgid "Science projects"
-msgstr ""
+msgstr "Wissenschaftliche Projekte"
 
 #: index.php:148
 msgid "User manual"
-msgstr ""
+msgstr "Benutzer Anleitung"
 
 #: index.php:149
 msgid "Add-ons"
@@ -133,11 +136,11 @@ msgstr "Erweiterungen"
 
 #: index.php:150
 msgid "Web resources"
-msgstr ""
+msgstr "Netz Ressource"
 
 #: index.php:154
 msgid "Communicate"
-msgstr ""
+msgstr "Kommuniziere"
 
 #: index.php:156
 msgid "Message boards"
@@ -189,17 +192,17 @@ msgstr "Technische Dokumentation"
 
 #: index.php:205
 msgid "Software"
-msgstr ""
+msgstr "Programm "
 
 #: index.php:208
 msgid ""
 "BOINC includes client, server, and web components, and APIs for connecting "
 "other components."
-msgstr ""
+msgstr "BOINC umfasst Client-, Server- und Web-Komponenten sowie APIs für die Verbindung anderer Komponenten."
 
 #: index.php:209
 msgid "It is distributed under the LGPLv3 open-source license."
-msgstr ""
+msgstr "Es wird vertrieben unter der LGPLv3 Open-Source Lizenz"
 
 #: index.php:212
 msgid "Source code"
@@ -215,7 +218,7 @@ msgstr "Designdokumente"
 
 #: index.php:216
 msgid "Coding style"
-msgstr ""
+msgstr "Programmierstil"
 
 #: index.php:219
 msgid ""
@@ -237,7 +240,7 @@ msgstr "Kontakt"
 
 #: index.php:245
 msgid "Papers"
-msgstr ""
+msgstr "Unterlagen"
 
 #: index.php:246
 msgid "Events"
@@ -270,7 +273,7 @@ msgstr "Wir empfehlen, BOINC über den Google Play Store oder Amazon Appstore zu
 msgid ""
 "When you first run BOINC, you will be asked to choose a project. For "
 "instructions, see the %1BOINC User Manual%2."
-msgstr ""
+msgstr "Wenn du zum ersten mal Boinc startest, wirst du gebeten ein Projekt auszuwählen. Für eine Anleitung schaue dir die %1BOINC Benutzer Anleitung%2 an."
 
 #: download.php:84
 msgid ""
@@ -300,7 +303,7 @@ msgstr "Grafikkarten-gestützte Berechnung (GPUs)"
 
 #: download.php:114
 msgid "Participate in BOINC"
-msgstr ""
+msgstr "Nehme an BOINC teil"
 
 #: download_util.inc:27
 msgid "Download BOINC + VirtualBox"
@@ -860,11 +863,10 @@ msgstr "Testen und Vergleichen Sie heuristische Methoden zur Trennung von parall
 msgid ""
 "BAM! lets you create and manage BOINC project accounts, set preferences, "
 "join or create teams, connect your computers to projects, and much more."
-msgstr ""
+msgstr "BAM! lässt dich BOINC Projekt Kontos erstellen und verwalten, Vorlieben einstellen, ein Team erstellen oder beitreten, deine Computer mit Projekten verbinden und vieles mehr."
 
 #: projects.inc:607
 msgid ""
 "Gridrepublic lets you connect your computer to multiple projects, set "
 "preferences, and view your credit history."
-msgstr ""
-
+msgstr "Mit Gridrepublic können Sie Ihren Computer mit mehreren Projekten verbinden, Einstellungen vornehmen und Ihre letzten Verdienste einsehen."

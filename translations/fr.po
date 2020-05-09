@@ -868,4 +868,3 @@ msgid ""
 "Gridrepublic lets you connect your computer to multiple projects, set "
 "preferences, and view your credit history."
 msgstr "Gridrepublic vous permet de connecter votre ordinateur à plusieurs projets, à définir des préférences et à visualiser votre historique de crédits."
-

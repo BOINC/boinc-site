@@ -6,59 +6,56 @@
 # FileID  : $Id$
 # 
 # Translators:
-# Christian Beer <christian.beer@posteo.de>, 2017
-# Eirik Birkeland <eirikbirkeland@gmail.com>, 2015
-# Rune Bjørge <runetbj@hotmail.com>, 2016,2019
 msgid ""
 msgstr ""
 "Project-Id-Version: BOINC\n"
 "Report-Msgid-Bugs-To: BOINC translation team <boinc_loc@ssl.berkeley.edu>\n"
 "POT-Creation-Date: 2019-02-09 22:34 PST\n"
-"PO-Revision-Date: 2019-03-05 11:07+0000\n"
-"Last-Translator: Rune Bjørge <runetbj@hotmail.com>\n"
-"Language-Team: Norwegian Bokmål (http://www.transifex.com/boinc/boinc/language/nb/)\n"
+"PO-Revision-Date: 2019-02-10 09:07+0000\n"
+"Last-Translator: Christian Beer <christian.beer@posteo.de>\n"
+"Language-Team: Norwegian (http://www.transifex.com/boinc/boinc/language/no/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nb\n"
+"Language: no\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: index.php:25
 msgid "Computing power"
-msgstr "Beregningskraft"
+msgstr ""
 
 #: index.php:33
 msgid "Top 100 volunteers"
-msgstr "Topp 100 frivillige"
+msgstr ""
 
 #: index.php:34
 msgid "Statistics"
-msgstr "Statistikk"
+msgstr ""
 
 #: index.php:63
 msgid "24-hour average:"
-msgstr "24 timers gjennomsnitt:"
+msgstr ""
 
 #: index.php:63
 msgid "PetaFLOPS."
-msgstr "PetaFLOPS."
+msgstr ""
 
 #: index.php:65
 msgid "Active:"
-msgstr "Aktiv:"
+msgstr ""
 
 #: index.php:65
 msgid "volunteers,"
-msgstr "frivillige,"
+msgstr ""
 
 #: index.php:65
 msgid "computers"
-msgstr "Datamaskiner"
+msgstr ""
 
 #: index.php:71
 msgid "News"
-msgstr "Nyheter           "
+msgstr ""
 
 #: index.php:76
 msgid "Database not available; please try again later."
@@ -88,7 +85,7 @@ msgstr ""
 
 #: index.php:111
 msgid "Choose science areas"
-msgstr "Velg forskningsområder"
+msgstr ""
 
 #: index.php:113
 msgid ""
@@ -103,7 +100,7 @@ msgstr ""
 
 #: index.php:128
 msgid "Choose projects"
-msgstr "Velg prosjekter"
+msgstr ""
 
 #: index.php:130
 msgid ""
@@ -113,11 +110,11 @@ msgstr ""
 
 #: index.php:133 download_util.inc:45
 msgid "Download BOINC"
-msgstr "Last ned BOINC"
+msgstr ""
 
 #: index.php:145
 msgid "Learn more"
-msgstr "Finn ut mer"
+msgstr ""
 
 #: index.php:147
 msgid "Science projects"
@@ -125,11 +122,11 @@ msgstr ""
 
 #: index.php:148
 msgid "User manual"
-msgstr "Brukermanual"
+msgstr ""
 
 #: index.php:149
 msgid "Add-ons"
-msgstr "Tillegg"
+msgstr ""
 
 #: index.php:150
 msgid "Web resources"
@@ -141,19 +138,19 @@ msgstr ""
 
 #: index.php:156
 msgid "Message boards"
-msgstr "Diskusjonsfora"
+msgstr ""
 
 #: index.php:157 download.php:91
 msgid "Help"
-msgstr "Hjelp"
+msgstr ""
 
 #: index.php:158
 msgid "Email lists"
-msgstr "Epostlister"
+msgstr ""
 
 #: index.php:159
 msgid "Report bugs"
-msgstr "Rapporter feil"
+msgstr ""
 
 #: index.php:163
 msgid "Other ways to help"
@@ -161,7 +158,7 @@ msgstr ""
 
 #: index.php:165
 msgid "Translate"
-msgstr "Oversett"
+msgstr ""
 
 #: index.php:166
 msgid "Test"
@@ -169,7 +166,7 @@ msgstr ""
 
 #: index.php:167
 msgid "Document"
-msgstr "Dokument"
+msgstr ""
 
 #: index.php:168
 msgid "Publicize"
@@ -185,11 +182,11 @@ msgstr ""
 
 #: index.php:197
 msgid "Technical Documentation"
-msgstr "Teknisk Dokumentasjon"
+msgstr ""
 
 #: index.php:205
 msgid "Software"
-msgstr "Programvare"
+msgstr ""
 
 #: index.php:208
 msgid ""
@@ -203,7 +200,7 @@ msgstr ""
 
 #: index.php:212
 msgid "Source code"
-msgstr "Kildekode"
+msgstr ""
 
 #: index.php:213
 msgid "Building BOINC"
@@ -229,11 +226,11 @@ msgstr ""
 
 #: index.php:224
 msgid "Tasks"
-msgstr "Oppgaver"
+msgstr ""
 
 #: index.php:244
 msgid "Contact"
-msgstr "Kontakt"
+msgstr ""
 
 #: index.php:245
 msgid "Papers"
@@ -241,7 +238,7 @@ msgstr ""
 
 #: index.php:246
 msgid "Events"
-msgstr "Hendelser"
+msgstr ""
 
 #: index.php:297
 msgid "Compute for Science"
@@ -252,19 +249,19 @@ msgid ""
 "BOINC is a program that lets you donate your idle computer time to science "
 "projects like SETI@home, Climateprediction.net, Rosetta@home, World "
 "Community Grid, and many others."
-msgstr "BOINC er et program som lar deg donere inaktiv datamaskintid til vitenskapelige prosjekter som SETI@home, Climateprediction.net, Rosetta@home, World Community Grid og mange flere."
+msgstr ""
 
 #: download.php:46
 msgid ""
 "After installing BOINC on your computer, you can connect it to as many of "
 "these projects as you like."
-msgstr "Etter å ha installert BOINC på din datamaskin, kan du knytte den opp til så mange av disse prosjektene du ønsker."
+msgstr ""
 
 #: download.php:50
 msgid ""
 "We recommend that you download BOINC from the Google Play Store or Amazon "
 "Appstore, not from here."
-msgstr "Vi anbefaler deg å laste ned BOINC fra Google Play Store eller Amazon Appstore, og ikke fra denne siden."
+msgstr ""
 
 #: download.php:82
 msgid ""
@@ -276,51 +273,51 @@ msgstr ""
 msgid ""
 "You may run this software on a computer only if you own the computer or have"
 " the permission of its owner."
-msgstr "Du kan kjøre denne programvaren på en datamaskin bare hvis du er eier av den eller har tillatelse fra dens eier."
+msgstr ""
 
 #: download.php:89
 msgid "System requirements"
-msgstr "Systemkrav"
+msgstr ""
 
 #: download.php:90
 msgid "Release notes"
-msgstr "Utgivelsesmerknader"
+msgstr ""
 
 #: download.php:92
 msgid "All versions"
-msgstr "Alle versjoner"
+msgstr ""
 
 #: download.php:93
 msgid "Version history"
-msgstr "Versjonslogg"
+msgstr ""
 
 #: download.php:94
 msgid "GPU computing"
-msgstr "GPU beregning"
+msgstr ""
 
 #: download.php:114
 msgid "Participate in BOINC"
-msgstr "Delta i BOINC"
+msgstr ""
 
 #: download_util.inc:27
 msgid "Download BOINC + VirtualBox"
-msgstr "Last ned BOINC + VirtualBox"
+msgstr ""
 
 #. "for %s" identifies the operating system, e.g. "for Windows"
 #: download_util.inc:31 download_util.inc:47
 #, php-format
 msgid "for %s"
-msgstr "for %s"
+msgstr ""
 
 #: download_util.inc:34 download_util.inc:50
 #, php-format
 msgid "BOINC %s"
-msgstr "BOINC %s"
+msgstr ""
 
 #: download_util.inc:36
 #, php-format
 msgid "VirtualBox %s"
-msgstr "VirtualBox %s"
+msgstr ""
 
 #: download_util.inc:93
 msgid ""
@@ -330,11 +327,11 @@ msgstr ""
 
 #: download_util.inc:95
 msgid "Learn more about VirtualBox."
-msgstr "Lær mer om VirtualBox."
+msgstr ""
 
 #: help.php:7
 msgid "Live help via Skype or email"
-msgstr "Live hjelp via Skype eller epost"
+msgstr ""
 
 #: help.php:11
 msgid ""
@@ -349,7 +346,7 @@ msgstr ""
 
 #: help.php:16
 msgid "by email"
-msgstr "via epost"
+msgstr ""
 
 #: help.php:18
 msgid ""
@@ -369,7 +366,7 @@ msgstr ""
 
 #: help.php:43
 msgid "Be a Help Volunteer"
-msgstr "Bli frivillig supportmedarbeider"
+msgstr ""
 
 #: help.php:46
 #, php-format
@@ -377,13 +374,13 @@ msgid ""
 "If you're an experienced BOINC user, we encourage you to %sbecome a Help "
 "Volunteer%s.  It's a great way to help the cause of scientific research and "
 "volunteer computing - and it's fun!"
-msgstr "Hvis du er en erfaren BOINC bruker, oppfordrer vi deg til å %sbli en supportmedarbeider%s.  Det er en fin måte å bidra til vitenskapelig forskning og frivillig databehandling - og det er morsomt!"
+msgstr ""
 
 #: help.php:52
 #, php-format
 msgid ""
 "If you're already a Help Volunteer: to edit your settings, %sclick here%s."
-msgstr "Hvis du allerede er en frivillig supportmedarbeider: For å endre dine innstillinger, %sklikk her%s."
+msgstr ""
 
 #: help_funcs.php:136
 msgid ""
@@ -397,7 +394,7 @@ msgstr ""
 
 #: projects.inc:41
 msgid "Distributed sensing"
-msgstr "Distribuert måling"
+msgstr ""
 
 #: projects.inc:47
 msgid "University of Southern California"
@@ -405,7 +402,7 @@ msgstr ""
 
 #: projects.inc:48
 msgid "Seismology"
-msgstr "Seismologi"
+msgstr ""
 
 #: projects.inc:49
 msgid ""
@@ -415,18 +412,18 @@ msgstr ""
 
 #: projects.inc:59
 msgid "BOINC Poland Foundation"
-msgstr "Den polske BOINC stiftelsen"
+msgstr ""
 
 #: projects.inc:60
 msgid "Environmental research"
-msgstr "Miljøforskning"
+msgstr ""
 
 #: projects.inc:61
 msgid ""
 "Radioactive@Home is creating a free and continuously updated map of "
 "radiation levels using sensors connected to volunteers' computers.  You must"
 " buy a sensor to participate."
-msgstr "Radioactive@Home lager et gratis, kontinuerlig oppdatert kart over radioaktivitet ved hjelp av sensorer som er koblet til datamaskinene til deltagerene. For å delta må du kjøpe en sensor."
+msgstr ""
 
 #: projects.inc:71
 msgid "Cognitive science and artificial intelligence"
@@ -434,7 +431,7 @@ msgstr ""
 
 #: projects.inc:78
 msgid "Cognitive Science"
-msgstr "Kognitiv vitenskap"
+msgstr ""
 
 #: projects.inc:79
 msgid ""
@@ -450,7 +447,7 @@ msgstr ""
 
 #: projects.inc:100
 msgid "Artificial intelligence"
-msgstr "Kunstig intelligens "
+msgstr ""
 
 #: projects.inc:101
 msgid ""
@@ -462,35 +459,35 @@ msgstr ""
 
 #: projects.inc:112
 msgid "Biology and Medicine"
-msgstr "Biologi og medisin "
+msgstr ""
 
 #: projects.inc:119
 msgid "Medical physiology"
-msgstr "Medisinsk fysiologi"
+msgstr ""
 
 #: projects.inc:120
 msgid ""
 "DENIS@Home does cardiac electrophysiological simulations, studying the "
 "electrical activity of the heart."
-msgstr "DENIS@Home utfører elektrofysiske simuleringer knyttet til studier rundt den elektriske aktiviteten til hjertet."
+msgstr ""
 
 #: projects.inc:131
 msgid "Molecular biology"
-msgstr "Molekylær biologi"
+msgstr ""
 
 #: projects.inc:132
 msgid ""
 "RNA World seeks to identify, analyze, structurally predict and design RNA "
 "molecules on the basis of established bioinformatics software."
-msgstr "RNA World søker etter å identifisere, analysere og strukturellt forutsi og designe RNA molekyler på grunnlag av eksisterende bioinformatikk programvare."
+msgstr ""
 
 #: projects.inc:142
 msgid "Barcelona Biomedical Research Park (PRBB)"
-msgstr "Barcelona Biomedical Research Park (PRBB)"
+msgstr ""
 
 #: projects.inc:143
 msgid "Molecular simulations of proteins"
-msgstr "Molekylær simulering av protiner"
+msgstr ""
 
 #: projects.inc:144
 msgid ""
@@ -502,11 +499,11 @@ msgstr ""
 
 #: projects.inc:154
 msgid "University of Washington"
-msgstr "University of Washington"
+msgstr ""
 
 #: projects.inc:155
 msgid "Biology"
-msgstr "Biologi"
+msgstr ""
 
 #: projects.inc:156
 msgid ""
@@ -524,11 +521,11 @@ msgstr ""
 
 #: projects.inc:171
 msgid "Oxford University"
-msgstr "Oxford University"
+msgstr ""
 
 #: projects.inc:172
 msgid "Climate study"
-msgstr "Klima studie"
+msgstr ""
 
 #: projects.inc:173
 msgid ""
@@ -544,11 +541,11 @@ msgstr ""
 
 #: projects.inc:182
 msgid "Physical Science"
-msgstr "Fysikk vitenskap"
+msgstr ""
 
 #: projects.inc:226 projects.inc:286
 msgid "Astrophysics"
-msgstr "Astrofysikk"
+msgstr ""
 
 #: projects.inc:227
 msgid ""
@@ -564,7 +561,7 @@ msgstr ""
 
 #: projects.inc:238 projects.inc:250 projects.inc:262
 msgid "Astronomy"
-msgstr "Astronomi"
+msgstr ""
 
 #: projects.inc:239
 msgid ""
@@ -582,22 +579,22 @@ msgstr ""
 
 #: projects.inc:254
 msgid "Do research in physics and astronomy"
-msgstr "Utfører forskning innen fysikk og astronomi"
+msgstr ""
 
 #: projects.inc:261
 msgid "Rensselaer Polytechnic Institute"
-msgstr "Rensselaer Polytechnic Institute"
+msgstr ""
 
 #: projects.inc:263
 msgid ""
 "The goal of Milkyway@Home is to create a highly accurate three dimensional "
 "model of the Milky Way galaxy using data gathered by the Sloan Digital Sky "
 "Survey."
-msgstr "Målsetting til Milkyway@Home er å lage en nøyaktig tredimensjonal modell av Melkeveien ved å bruke data innhentet av Sloan Digital Sky Survey."
+msgstr ""
 
 #: projects.inc:266
 msgid "Study the structure of the Milky Way galaxy"
-msgstr "Studerer oppbyggingen til galaksen Melkeveien"
+msgstr ""
 
 #: projects.inc:285
 msgid ""
@@ -615,15 +612,15 @@ msgstr ""
 
 #: projects.inc:290
 msgid "Help detect pulsars and gravitational waves"
-msgstr "Hjelp til med å finne pulser og gravitasjonsbølger"
+msgstr ""
 
 #: projects.inc:297
 msgid "CERN (European Organization for Nuclear Research)"
-msgstr "CERN (European Organization for Nuclear Research)"
+msgstr ""
 
 #: projects.inc:298
 msgid "Physics"
-msgstr "Fysikk"
+msgstr ""
 
 #: projects.inc:299
 msgid ""
@@ -636,15 +633,15 @@ msgstr ""
 
 #: projects.inc:302
 msgid "Improve the design of the Large Hadron Collider"
-msgstr "Forbedrer designet til Large Hadron Collider"
+msgstr ""
 
 #: projects.inc:309
 msgid "University of California, Berkeley"
-msgstr "University of California, Berkeley"
+msgstr ""
 
 #: projects.inc:310
 msgid "Astrophysics, astrobiology"
-msgstr "Astrofysikk, astrobiologi"
+msgstr ""
 
 #: projects.inc:311
 msgid ""
@@ -653,19 +650,19 @@ msgid ""
 "radio SETI, uses radio telescopes to listen for narrow-bandwidth radio "
 "signals from space. Such signals are not known to occur naturally, so a "
 "detection would provide evidence of extraterrestrial technology."
-msgstr "SETI (søk etter utenomjordisk intelligens) er et vitenskapelig område hvis målsetting er å detektere intelligent liv i verdensrommet. En instilling, kjent som radio SETI, bruker radioteleskop for å lytte etter smal båndbredde radiosignaler fra verdensrommet. Slike signaler er ikke kjent at oppstår naturlig, så detektering ville sørge for bevis for utenomjordisk teknologi."
+msgstr ""
 
 #: projects.inc:314
 msgid "Search for evidence of extra-terrestrial life"
-msgstr "Søker etter bevis på utenomjordisk liv"
+msgstr ""
 
 #: projects.inc:321
 msgid "Multiple applications"
-msgstr "Flere applikasjoner"
+msgstr ""
 
 #: projects.inc:328
 msgid "Molecular biology, Computer Science"
-msgstr "Molekylær biologi. Datavitenskap"
+msgstr ""
 
 #: projects.inc:329
 msgid ""
@@ -675,15 +672,15 @@ msgstr ""
 
 #: projects.inc:332
 msgid "Support science from the University of North Dakota"
-msgstr "Støtt forskningen til Universitetet i Nord Dakota"
+msgstr ""
 
 #: projects.inc:339
 msgid "Chinese Academy of Sciences"
-msgstr "Kinesiske Akademiet for Forskning"
+msgstr ""
 
 #: projects.inc:340
 msgid "Physics, biochemistry, and others"
-msgstr "Fysikk, biokjemi og andre"
+msgstr ""
 
 #: projects.inc:341
 msgid ""
@@ -695,29 +692,29 @@ msgstr ""
 
 #: projects.inc:344
 msgid "Help Chinese researchers"
-msgstr "Hjelp kinesiske forskere"
+msgstr ""
 
 #: projects.inc:352
 msgid "Mathematics, physics, evolution"
-msgstr "Matematikk, fysikk og evolusjon"
+msgstr ""
 
 #: projects.inc:353
 msgid ""
 "Yoyo@home is an adapter between BOINC and several existing volunteer "
 "computing projects: ECM, Muon, Evolution@home, and distributed.net"
-msgstr "Yoyo@home er en tilpassing mellom BOINC og flere eksisterende frivillige prosjekter: ECM, Muon, Evulotion@home, and Distributed.net"
+msgstr ""
 
 #: projects.inc:356
 msgid "Do research in math, physics, and evolution"
-msgstr "Utfører forskning innen matematikk, fysikk og evolusjon"
+msgstr ""
 
 #: projects.inc:363
 msgid "IBM Corporate Citizenship"
-msgstr "IBM Corporate Citizenship"
+msgstr ""
 
 #: projects.inc:364
 msgid "Medical, environmental and other humanitarian research"
-msgstr "Medisinsk, miljø og annen humanitær forskning"
+msgstr ""
 
 #: projects.inc:365
 msgid ""
@@ -729,11 +726,11 @@ msgstr ""
 
 #: projects.inc:368
 msgid "Do biomedical and environmental research"
-msgstr "Utfører biomedisinsk og miljøforskning"
+msgstr ""
 
 #: projects.inc:374
 msgid "Mathematics, computing, and games"
-msgstr "Matematikk, beregning og spill"
+msgstr ""
 
 #: projects.inc:385
 msgid "Do research in number theory"
@@ -742,7 +739,7 @@ msgstr ""
 #: projects.inc:393 projects.inc:405 projects.inc:417 projects.inc:465
 #: projects.inc:489 projects.inc:501
 msgid "Mathematics"
-msgstr "Matematikk"
+msgstr ""
 
 #: projects.inc:394
 msgid ""
@@ -756,11 +753,11 @@ msgstr ""
 
 #: projects.inc:397
 msgid "Do research in algebraic number theory"
-msgstr "Utfører forskning på algebra nummer teori"
+msgstr ""
 
 #: projects.inc:429
 msgid "Computer Science"
-msgstr "Datavitenskap"
+msgstr ""
 
 #: projects.inc:430
 msgid ""
@@ -775,25 +772,25 @@ msgstr ""
 
 #: projects.inc:441
 msgid "Cryptography and combinatorics"
-msgstr "Kryptografi og kombinasjoner"
+msgstr ""
 
 #: projects.inc:442 projects.inc:445
 msgid "Run applications from distributed.net"
-msgstr "Kjører applikasjoner fra distributed.net"
+msgstr ""
 
 #: projects.inc:453
 msgid "Cryptography"
-msgstr "Kryptografi"
+msgstr ""
 
 #: projects.inc:454
 msgid ""
 "Attempt to decode 3 original Enigma messages. The signals were intercepted "
 "in the North Atlantic in 1942 and are believed to be unbroken."
-msgstr "Forsøk på å dekryptere 3 originale enigma meldinger. Signalene ble fanget opp i Nordatlanteren i 1942, og meldingene tros å ikke være dekryptert før."
+msgstr ""
 
 #: projects.inc:457
 msgid "Decode WWII submarine messages"
-msgstr "Dekoder enigma meldinger fra 2.verdenskrig"
+msgstr ""
 
 #: projects.inc:466
 msgid "Study the Collatz Conjecture, an unsolved conjecture in mathematics"
@@ -805,11 +802,11 @@ msgstr ""
 
 #: projects.inc:476
 msgid "California State University Fullerton"
-msgstr "California State University Fullerton"
+msgstr ""
 
 #: projects.inc:477
 msgid "Factorization of large integers"
-msgstr "Faktorisering av store heltall"
+msgstr ""
 
 #: projects.inc:478
 msgid ""
@@ -823,21 +820,21 @@ msgstr ""
 
 #: projects.inc:481
 msgid "Study the factorization of large integers"
-msgstr "Studerer faktorisering av store heltall"
+msgstr ""
 
 #: projects.inc:490
 msgid ""
 "Primegrid has multiple projects searching for different forms of very large "
 "prime numbers, including searching for the largest known prime number."
-msgstr "Primegrid har forskjellige prosjekter som leter etter ulike typer enorme primtall, inkludert søk etter det største kjente primtallet"
+msgstr ""
 
 #: projects.inc:493
 msgid "Search for large prime numbers"
-msgstr "Søk etter store primtall"
+msgstr ""
 
 #: projects.inc:500
 msgid "Hochschule RheinMain University of Applied Sciences"
-msgstr "Hochschule RheinMain University of Applied Sciences"
+msgstr ""
 
 #: projects.inc:502
 msgid ""
@@ -847,7 +844,7 @@ msgstr ""
 
 #: projects.inc:505
 msgid "Study the properties of prime numbers"
-msgstr "Studerer egenskapene til primtall"
+msgstr ""
 
 #: projects.inc:526
 msgid ""
@@ -867,4 +864,3 @@ msgid ""
 "Gridrepublic lets you connect your computer to multiple projects, set "
 "preferences, and view your credit history."
 msgstr ""
-

@@ -6,9 +6,9 @@
 # FileID  : $Id$
 # 
 # Translators:
-# MS <manuelarodsilva@gmail.com>, 2016-2018
-# MS <manuelarodsilva@gmail.com>, 2016
-# MS <manuelarodsilva@gmail.com>, 2016
+# Manuela Silva <manuelarodsilva@gmail.com>, 2016-2018
+# Manuela Silva <manuelarodsilva@gmail.com>, 2016
+# Manuela Silva <manuelarodsilva@gmail.com>, 2016
 # Miguel Filipe Paulino de Sousa Veiga <Miguel.veig@gmail.com>, 2015-2017,2019
 # Octávio Filipe Gonçalves <octavio.filipe.pereira@gmail.com>, 2016
 msgid ""
@@ -869,4 +869,3 @@ msgid ""
 "Gridrepublic lets you connect your computer to multiple projects, set "
 "preferences, and view your credit history."
 msgstr "O Gridrepublic deixa-o conectar o seu computador a múltiplos projetos, definir preferências e visualizar o seu histórico de créditos."
-
