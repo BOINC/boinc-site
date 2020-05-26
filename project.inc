@@ -3,7 +3,7 @@
 // project.inc for the dev project, linked to from there.
 // project_banner() is used.
 
-define("PROJECT", "BOINC");
+define("PROJECT", "BOINC message boards");
 define("MASTER_URL", "http://boinc.berkeley.edu/");
 define("URL_BASE", "https://boinc.berkeley.edu/");
 define("SECURE_URL_BASE", "https://boinc.berkeley.edu/");

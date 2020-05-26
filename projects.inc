@@ -144,7 +144,7 @@ $biomed = array(
             tra("Molecular simulations of proteins"),
             tra("GPUGrid.net opens novel computational scenarios by the first full-atom molecular dynamics code (CellMD) specially optimized to run on NVIDIA GPUs. New biomedical applications suddenly become possible giving a new role to computational biology for biomedical research."),
             "gpugrid.png",
-            "",
+            "https://www.gpugrid.net/",
             "Help biomedical research",
             array(KW_BIOMED, KW_EUROPE, KW_SPAIN, KW_PRBB)
         ),
@@ -418,7 +418,7 @@ $math = array(
             tra("Mathematics"),
             tra("NumberFields@home searches for fields with special properties. The primary application of this research is in the realm of algebraic number theory. Number theorists can mine the data for interesting patterns to help them formulate conjectures about number fields. Ultimately, this research will lead to a deeper understanding of the profound properties of numbers, the basic building blocks of all mathematics."),
             "nf_banner_10.jpg",
-            "",
+            "http://numberfields.asu.edu/NumberFields/",
             tra("Do research in algebraic number theory"),
             array(KW_MATH_CS, KW_AMERICAS, KW_US, KW_ARIZONA_STATE)
         ),
