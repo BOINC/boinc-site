@@ -16,7 +16,7 @@
 # Mita Ichiro <kokochandaisiki@icloud.com>, 2020
 # gedyra <gedyra@gmail.com>, 2016
 # quartz, 2019
-# TOMA Mitsuru, 2020
+# 当間充, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: BOINC\n"

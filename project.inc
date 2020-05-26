@@ -12,7 +12,7 @@ define("IMAGE_URL", "user_profile/images/");
 define("PROFILE_PATH", "../user_profile/");
 define("PROFILE_URL", "user_profile/");
 define("LANGUAGE_FILE", "languages.txt");
-define("STYLESHEET", "dev_custom.css");
+//define("STYLESHEET", "dev_custom.css");
 define("COPYRIGHT_HOLDER", "UC Berkeley");
 define("SYS_ADMIN_EMAIL", "davea@ssl.berkeley.edu");
 define("POST_REPORT_EMAILS", "bernievine@gmail.com, elst93@gmail.com, les.baylisss@bigpond.com");
@@ -25,6 +25,7 @@ define('NO_STATS', true);
 define('NO_HOSTS', true);
 define('NO_GLOBAL_PREFS', true);
 define('POST_MAX_LINKS', 4);
+define('DARK_MODE', true);
 
 define('MODERATORS_CAN_BANISH', '1');
 
@@ -56,10 +57,11 @@ function project_banner($title, $prefix, $is_main) {
     global $client_languages;
     if ($is_main) {
         echo '
+            <p>&nbsp;</p>
             <div class="container-fluid">
             <div class="row">
             <div class="col-sm-3">
-            <img src="logo/www_logo.gif" alt="BOINC">
+            <img src="logo/boinc_logo.png" height=80 alt="BOINC">
             </div>
             <div class="col-sm-6" align=center>
             <span style="padding-left:0px; padding-right:30px; font-size:42px;">
@@ -71,6 +73,7 @@ function project_banner($title, $prefix, $is_main) {
         //echo ' <a href=language_select.php><img title="Choose language" height=30 src=images/language-icon.png></a> ';
         //echo ' <a href=site_search.php><img title="Site search" height=30 src=images/search.png></a> ';
         google_search_form("http://boinc.berkeley.edu");
+        echo "<p>";
         language_form($client_languages[0]);
         echo '
             </div>

@@ -89,7 +89,6 @@ function top() {
     panel(
         "",
         function () {
-            echo "<p>\n";
             echo tra("BOINC lets you help cutting-edge science research using your computer (Windows, Mac, Linux) or Android device.  BOINC downloads scientific computing jobs to your computer and runs them invisibly in the background.  It's easy and safe.");
             echo "</p><p>\n ";
             echo tra(
@@ -108,7 +107,8 @@ function top() {
 
             // style for join/download boxes
             //
-            $s = 'style="background-color:#036; a.link{color:white;}; color:white; border-style: solid; border-width:1.5px; border-radius: 6px; border-color:#c8c8c8"';
+            //$s = 'style="background-color:#036; a.link{color:white;}; color:white; border-style: solid; border-width:1.5px; border-radius: 6px; border-color:#c8c8c8"';
+            $s = 'style="a.link{color:white;}; color:white; border-radius: 6px; border-color:#c8c8c8"';
 
             // half-line spacer
             //
@@ -118,7 +118,7 @@ function top() {
                 </p><p>
                 <div class="container-fluid">
                 <div class="row">
-                <div class="col-sm-6"'.$s.'>
+                <div class="col-sm-6 bg-primary"'.$s.'>
                 <center>
                 '.$spacer.'
             ';
@@ -135,7 +135,7 @@ function top() {
                 '.$spacer.'
                 </div>
                 <div class="col-sm-1" ><p></p><center><font size=+1>or</font></center></div>
-                <div class="col-sm-5"'.$s.'>
+                <div class="col-sm-5 bg-primary"'.$s.'>
                 <center>
                 '.$spacer.'
             ';
@@ -145,7 +145,7 @@ function top() {
             echo tra('To contribute to specific projects, download BOINC and follow the directions.');
             echo '
                 </p><p>
-                <a class="btn btn-lg" style="background-color:ffd730; color:black" href="download.php">'.tra("Download BOINC").'</a>
+                <a class="btn btn-lg" style="background-color:#ffd730; color:black" href="download.php">'.tra("Download BOINC").'</a>
                 </center>
                 '.$spacer.'
                 </div>
@@ -281,19 +281,6 @@ header("Content-type: text/html; charset=utf-8");
 
 $rh_col_width = 390;
 
-echo '
-    <head>
-    <link rel="shortcut icon" href="logo/favicon.gif">
-    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-    <link href="https://plus.google.com/117150698502685192946" rel="publisher" />
-    <title>BOINC</title>
-    <meta name=description content="BOINC is an open-source software platform for computing using volunteered resources">
-    <meta name=keywords content="distributed scientific computing supercomputing grid SETI@home public computing volunteer computing ">
-    </head>
-    <body>
-    <div class="container-fluid">
-';
-
 function left() {
     echo '<div class="container-fluid">';
     show_science();
@@ -309,8 +296,17 @@ function right() {
     echo '</div>';
 }
 
-echo "<p>&nbsp;</p>\n";
-page_head(tra("Compute for Science"), null, true);
+page_head(tra("Compute for Science"), null, true, '',
+'
+    <link rel="shortcut icon" href="logo/favicon.gif">
+    <link href="https://plus.google.com/117150698502685192946" rel="publisher" />
+    <meta name=description content="BOINC is an open-source software platform for computing using volunteered resources">
+    <meta name=keywords content="distributed scientific computing supercomputing grid SETI@home public computing volunteer computing ">
+    <title>BOINC</title>
+',
+    true
+);
+echo "<p>";
 
 grid('top', 'left', 'right');
 

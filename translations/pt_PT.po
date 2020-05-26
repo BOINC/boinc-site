@@ -6,6 +6,7 @@
 # FileID  : $Id$
 # 
 # Translators:
+# Manuela Silva <manuelarodsilva@gmail.com>, 2020
 # Manuela Silva <manuelarodsilva@gmail.com>, 2016-2018
 # Manuela Silva <manuelarodsilva@gmail.com>, 2016
 # Manuela Silva <manuelarodsilva@gmail.com>, 2016
@@ -16,8 +17,8 @@ msgstr ""
 "Project-Id-Version: BOINC\n"
 "Report-Msgid-Bugs-To: BOINC translation team <boinc_loc@ssl.berkeley.edu>\n"
 "POT-Creation-Date: 2019-02-09 22:34 PST\n"
-"PO-Revision-Date: 2019-03-06 11:10+0000\n"
-"Last-Translator: Miguel Filipe Paulino de Sousa Veiga <Miguel.veig@gmail.com>\n"
+"PO-Revision-Date: 2020-05-04 11:54+0000\n"
+"Last-Translator: Manuela Silva <manuelarodsilva@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/boinc/boinc/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,7 +73,7 @@ msgid ""
 "(Windows, Mac, Linux) or Android device.  BOINC downloads scientific "
 "computing jobs to your computer and runs them invisibly in the background.  "
 "It's easy and safe."
-msgstr "O BOINC permite-lhe ajudar em problemas acutilantes da pesquisa científica, utilizando o seu computador (Windows, Mac, Linux) ou dispositivos Android. O BOINC transfere trabalhos de computação científica para o seu computador e executa-os em segundo plano.\nÉ facil e seguro."
+msgstr "O BOINC permite-lhe ajudar na pesquisa científica de ponta, utilizando o seu computador (Windows, Mac, Linux) ou dispositivos com Android. O BOINC transfere trabalhos de computação científica para o seu computador e executa-os em segundo plano."
 
 #: index.php:90
 msgid "About 30 science projects use BOINC; examples include %3, %4, and %5."

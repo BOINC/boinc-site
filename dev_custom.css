@@ -13,8 +13,8 @@ blockquote {
 }
 
 body , table , input , select {
-#font-family: "Trebuchet MS", Verdana, Arial, Sans Serif;
     font-family: "Helvetica", Verdana, Arial, Sans Serif;
+#font-family: "Trebuchet MS", Verdana, Arial, Sans Serif;
     font-size: 14px;
 }
 

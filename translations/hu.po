@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: BOINC\n"
 "Report-Msgid-Bugs-To: BOINC translation team <boinc_loc@ssl.berkeley.edu>\n"
 "POT-Creation-Date: 2019-02-09 22:34 PST\n"
-"PO-Revision-Date: 2020-04-07 11:33+0000\n"
+"PO-Revision-Date: 2020-05-04 16:45+0000\n"
 "Last-Translator: PB\n"
 "Language-Team: Hungarian (http://www.transifex.com/boinc/boinc/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +83,7 @@ msgstr "Körülbelül 30 tudományos projekt használja a BOINC-ot; például %3
 msgid ""
 "These projects investigate diseases, study global warming, discover pulsars,"
 " and do many other types of scientific research."
-msgstr ""
+msgstr "Ezek a projektek betegségeket vizsgálnak, a globális felmelegedést tanulmányozzák, pulzárokat kutatnak, és sok más hasonló tudomány kutatást végeznek."
 
 #: index.php:100
 msgid "You can participate in either of two ways:"
@@ -98,7 +98,7 @@ msgid ""
 "To contribute to science areas (biomedicine, physics, astronomy, and so on) "
 "use %1.  Your computer will do work for current and future projects in those"
 " areas."
-msgstr ""
+msgstr "Hogy segítsd a tudomány különböző területein (biomedicina, fizika, asztronómia, stb.) zajló kutatásokat, használd a következőt: %1. A számítógéped a jelenlegi és jövőbeli projektek számára fog számításokat végezni."
 
 #: index.php:119
 msgid "Join Science United"
@@ -112,7 +112,7 @@ msgstr "Válassz projektet"
 msgid ""
 "To contribute to specific projects, download BOINC and follow the "
 "directions."
-msgstr ""
+msgstr "Az adott projektben való részvételhez töltsd le a BOINC szoftvert és kövesd az utasításokat."
 
 #: index.php:133 download_util.inc:45
 msgid "Download BOINC"
@@ -344,7 +344,7 @@ msgid ""
 "BOINC Live Help lets you get one-on-one help from an experienced BOINC user "
 "who can answer questions about BOINC, help you install BOINC, and "
 "troubleshoot problems."
-msgstr ""
+msgstr "A BOINC élő segítség használatával személyre szabott segítséget kaphatsz egy tapasztalt BOINC felhasználótól, aki válaszol a kérdéseidre, segít telepíteni a szoftvert, és segít megoldani a felmerülő problémákat."
 
 #: help.php:14
 msgid "You can communicate with a helper"
