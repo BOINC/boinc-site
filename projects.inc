@@ -139,7 +139,7 @@ $biomed = array(
         project(
             PROJ_GPU_GRID,
             "GPUGrid.net",
-            "http://www.gpugrid.net/",
+            "https://www.gpugrid.net/",
             tra("Barcelona Biomedical Research Park (PRBB)"),
             tra("Molecular simulations of proteins"),
             tra("GPUGrid.net opens novel computational scenarios by the first full-atom molecular dynamics code (CellMD) specially optimized to run on NVIDIA GPUs. New biomedical applications suddenly become possible giving a new role to computational biology for biomedical research."),
