@@ -37,18 +37,7 @@ echo '<?xml version="1.0" encoding="ISO-8859-1" ?>
 <projects>
 ';
 
-$proj_list = array();
-
-foreach ($areas as $area) {
-    $area_name = $area[0];
-    $projects = $area[1];
-    foreach ($projects as $p) {
-        if (!$test && $p->id >= 1000) continue;
-            // test projects have temp IDs >= 1000
-        $p->general_area = $area_name;
-        $proj_list[] = $p;
-    }
-}
+$proj_list = get_project_list();
 
 foreach($proj_list as $p) {
     echo "    <project>

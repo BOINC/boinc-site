@@ -1,9 +1,12 @@
 <?php
 
+require_once("../inc/util.inc");
 require_once("projects.inc");
-require_once("docutil.php");
 require_once("get_platforms.inc");
-old_page_head("Choosing BOINC projects");
+
+$is_login_page = true;
+
+page_head("Choosing BOINC projects");
 
 echo "
 <script src=\"wz_tooltip.js\"></script>
@@ -77,7 +80,7 @@ function ordered_display($areas, $sort) {
         }
         $arg = "$img <font size=.8em><b>Goal:</b> $p->description <br> <b>Sponsor:</b> $p->home<br><b>Area:</b> $p->area";
         $arg = addslashes($arg);
-        $x = "<a href=$p->web_url onmouseover=\"Tip('$arg', WIDTH, 500, FONTSIZE, '12px', BGCOLOR, '#eeddcc')\" onmouseout=\"UnTip()\">$p->name</a>";
+        $x = "<a href=$p->web_url onmouseover=\"Tip('$arg', WIDTH, 600, FONTSIZE, '12px', BGCOLOR, '#eeddcc')\" onmouseout=\"UnTip()\">$p->name</a>";
         $home = $p->home;
         $category = $p->category;
         $area = $p->area;
@@ -114,5 +117,5 @@ and would like it to be included on this list,
 please <a href=trac/wiki/ProjectPeople>contact us</a>.
 
 ";
-old_page_tail();
+page_tail();
 ?>

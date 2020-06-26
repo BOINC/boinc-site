@@ -143,8 +143,18 @@ $w5816 = array(
 );
 
 $w716x64 = array(
-    "num"=>"7.16.5",
+    "num"=>"7.16.7",
     "status"=>"Recommended version",
+    "file"=>"boinc_7.16.7_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.16.7_windows_x86_64_vbox.exe",
+    "vbox_version"=>"6.0.14",
+    "date"=>"28 May 2020",
+    "type"=>"win_new",
+);
+
+$w716_5x64 = array(
+    "num"=>"7.16.5",
+    "status"=>"Older version",
     "file"=>"boinc_7.16.5_windows_x86_64.exe",
     "vbox_file"=>"boinc_7.16.5_windows_x86_64_vbox.exe",
     "vbox_version"=>"6.0.14",

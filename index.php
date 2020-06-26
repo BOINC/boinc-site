@@ -30,8 +30,8 @@ function show_participant() {
             show_totals();
             echo '
                 <p> </p>
-                <a class="btn btn-s btn-primary" href=chart_list.php>'.tra("Top 100 volunteers").'</a>
-                <a class="btn btn-s btn-primary" href=https://boinc.berkeley.edu/trac/wiki/WebResources#Creditstatistics>'.tra("Statistics").'</a>
+                <a class="btn btn-sm btn-primary" href=chart_list.php>'.tra("Top 100 volunteers").'</a>
+                <a class="btn btn-sm btn-primary" href=https://boinc.berkeley.edu/trac/wiki/WebResources#Creditstatistics>'.tra("Statistics").'</a>
                 <hr>
                 <p>
             ';
@@ -94,9 +94,9 @@ function top() {
             echo tra(
                 "About 30 science projects use BOINC; examples include %3, %4, and %5.",
                 '<a href="projects.php">', '</a>',
+                '<a href="https://boinc.bakerlab.org/rosetta/">Rosetta@home</a>',
                 '<a href="https://einsteinathome.org">Einstein@Home</a>',
-                '<a href="https://worldcommunitygrid.org">IBM World Community Grid</a>',
-                '<a href="https://setiathome.berkeley.edu">SETI@home</a>'
+                '<a href="https://worldcommunitygrid.org">IBM World Community Grid</a>'
             );
             echo " ";
             echo tra('These projects investigate diseases, study global warming, discover pulsars, and do many other types of scientific research.');
@@ -108,7 +108,7 @@ function top() {
             // style for join/download boxes
             //
             //$s = 'style="background-color:#036; a.link{color:white;}; color:white; border-style: solid; border-width:1.5px; border-radius: 6px; border-color:#c8c8c8"';
-            $s = 'style="a.link{color:white;}; color:white; border-radius: 6px; border-color:#c8c8c8"';
+            $s = ' style="a.link{color:white;}; color:white; border-radius: 6px; border-color:#c8c8c8"';
 
             // half-line spacer
             //
@@ -211,8 +211,8 @@ function show_science() {
             ";
             echo '
                 <center>
-                <a class="btn btn-s btn-primary" href="trac/wiki/BoincOverview">'.tra("Computing with BOINC").'</a>
-                <a class="btn btn-s btn-primary" href="trac/wiki/ProjectMain">'.tra("Technical Documentation").'</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/BoincOverview">'.tra("Computing with BOINC").'</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/ProjectMain">'.tra("Technical Documentation").'</a>
                 </center>
             ';
         }
@@ -227,28 +227,28 @@ function show_software() {
                 '.tra("It is distributed under the LGPLv3 open-source license.").'
                 <p></p>
                 <center>
-                <a class="btn btn-s btn-primary" href="trac/wiki/SourceCodeGit">'.tra("Source code").'</a>
-                <a class="btn btn-s btn-primary" href="trac/wiki/SoftwareBuilding">'.tra("Building BOINC").'</a>
-                <a class="btn btn-s btn-primary" href="trac/wiki/SoftwareAddon">APIs</a>
-                <a class="btn btn-s btn-primary" href="trac/wiki/SoftwareDevelopment">'.tra("Design documents").'</a>
-                <a class="btn btn-s btn-primary" href="trac/wiki/CodingStyle">'.tra("Coding style").'</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/SourceCodeGit">'.tra("Source code").'</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/SoftwareBuilding">'.tra("Building BOINC").'</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/SoftwareAddon">APIs</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/SoftwareDevelopment">'.tra("Design documents").'</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/CodingStyle">'.tra("Coding style").'</a>
                 </center>
                 <p></p>
                 '.tra("BOINC software development is community-based.  Everyone is welcome to participate.").'
                 <p></p>
                 <center>
-                <a class="btn btn-s btn-primary" href="https://github.com/BOINC/boinc">Github</a>
-                <a class="btn btn-s btn-primary" href="trac/wiki/BoincGovernanceWorkingGroups">'.tra("Organization").'</a>
-                <a class="btn btn-s btn-primary" href="trac/wiki/AdminTasks">'.tra("Tasks").'</a>
-                <a class="btn btn-s btn-primary" href="trac/wiki/BoincEvents">'.tra("Events").'</a>
+                <a class="btn btn-sm btn-primary" href="https://github.com/BOINC/boinc">Github</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/BoincGovernanceWorkingGroups">'.tra("Organization").'</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/AdminTasks">'.tra("Tasks").'</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/BoincEvents">'.tra("Events").'</a>
                 </center>
                 <p></p>
             ';
         }
     );
 }
-                // <a class="btn btn-s btn-primary" href="trac/wiki/DevProcess">'.tra("Development process").'</a>
-                // <a class="btn btn-s btn-primary" href="trac/wiki/DevProjects">'.tra("Development tasks").'</a>
+                // <a class="btn btn-sm btn-primary" href="trac/wiki/DevProcess">'.tra("Development process").'</a>
+                // <a class="btn btn-sm btn-primary" href="trac/wiki/DevProjects">'.tra("Development tasks").'</a>
 
 function show_boinc() {
     panel(
@@ -258,9 +258,9 @@ function show_boinc() {
                 The BOINC project is located at the University of California, Berkeley.  It has existed since 2002, with funding primarily from the National Science Foundation.
                 <p></p>
                 <center>
-                <a class="btn btn-s btn-primary" href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
-                <a class="btn btn-s btn-primary" href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
-                <a class="btn btn-s btn-primary" href="logo.php">'.tra("Graphics").'</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
+                <a class="btn btn-sm btn-primary" href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
+                <a class="btn btn-sm btn-primary" href="logo.php">'.tra("Graphics").'</a>
                 </center>
             ';
         }

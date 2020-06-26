@@ -7,10 +7,7 @@ require_once("versions.inc");
 require_once("download_util.inc");
 require_once("../inc/translation.inc");
 
-// If we use BOINC's page_head() we get a banner with login links etc.
-// We don't want that here; use the old one
-
-require_once("docutil.php");
+require_once("../inc/util.inc");
 
 $apps = array(
     array('classic.jpg', 180, 143),
@@ -106,26 +103,28 @@ function show_download($client_info, $pname) {
     ";
 }
 
-if (get_str2('xml')) {
+if (get_str('xml', true)) {
     $args = strstr($_SERVER['REQUEST_URI'], '?');
     Header("Location: download_all.php$args");
     exit();
 }
 
-$client_info = get_str2('user_agent');  // for debugging
+$client_info = get_str('user_agent', true);  // for debugging
 if (!$client_info) {
     $client_info = $_SERVER['HTTP_USER_AGENT'];
 }
 
 
-old_page_head(tra("Install BOINC"));
+$is_login_page = true;
 
-if (get_str2('all_platforms', true)) {
+page_head(tra("Install BOINC"));
+
+if (get_str('all_platforms', true)) {
     show_download($client_info, null);
 } else {
     show_download($client_info, client_info_to_platform($client_info));
 }
 
-old_page_tail(true);
+page_tail(true);
 
 ?>

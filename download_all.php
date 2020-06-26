@@ -29,10 +29,12 @@
 // platform=x       show only versions for platform x (win/mac/linux/solaris)
 
 require_once("../inc/util.inc");
-require_once("docutil.php");
+//require_once("docutil.php");
 
 $experimental = get_str("exp", true);
 require_once("versions.inc");
+
+$is_login_page = true;
 
 $xml = get_str("xml", true);
 $dev = get_str("dev", true);
@@ -164,10 +166,10 @@ function show_version($pname, $i, $v) {
     }
     $link .= "<a href=\"$url\"><b>Download BOINC</b></a> ($s MB)";
     echo "<tr>
-       <td class=rowlineleft>$num</td>
-        <td class=rowline>$status</td>
-        <td class=rowline>$link</td>
-        <td class=rowlineright>$date</td>
+        <td>$num</td>
+        <td>$status</td>
+        <td>$link</td>
+        <td>$date</td>
         </tr>
     ";
 }
@@ -181,7 +183,7 @@ function show_platform($short_name, $p, $dev) {
         $url = $p["url"];
         $long_name .= " <a href=$url><span class=description>details</span></a>";
     }
-    row1("<center>$long_name<br><small>$description</small></center>", 99, "info");
+    row1("<center>$long_name<br><small>$description</small></center>", 99, "bg-primary");
     foreach ($p["versions"] as $i=>$v) {
         if ($min_version && version_compare($v['num'], $min_version, "<")) continue;
         if ($max_version && version_compare($v['num'], $max_version, ">")) continue;
@@ -209,9 +211,9 @@ if ($pname && $version) {
     $va = $p["versions"];
     foreach ($va as $v) {
         if ($v['num'] == $version && $type_name==$v['type']) {
-            old_page_head("BOINC version $version for $long_name");
+            page_head("BOINC version $version for $long_name");
             show_detail($v);
-            old_page_tail();
+            page_tail();
             exit();
         }
     }
@@ -235,12 +237,12 @@ if ($xml) {
     if ($pname) {
         $p = $platforms[$pname];
         $name = $p['name'];
-        old_page_head("Download BOINC client software for $name");
+        page_head("Download BOINC client software for $name");
         start_table("table-striped");
         show_platform($pname, $p, $dev);
         end_table();
     } else {
-        old_page_head("Download BOINC client software");
+        page_head("Download BOINC client software");
         start_table("table-striped");
         foreach($platforms as $short_name=>$p) {
             show_platform($short_name, $p, $dev);
@@ -263,7 +265,7 @@ if ($xml) {
         restricted by platform and/or version number,
         or presented  in XML format</a>.
     ";
-    old_page_tail();
+    page_tail();
 }
 
 ?>

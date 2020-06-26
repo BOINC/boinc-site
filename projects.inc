@@ -387,9 +387,9 @@ $mixed = array(
             "https://boinc.tacc.utexas.edu/",
             "Texas Advanced Computing Center",
             "Multiple scientific areas",
-            "BOINC@TACC provides computing power to U.S. researchers in a multiplet scientific areas.",
+            "BOINC@TACC provides computing power to U.S. researchers in multiple scientific areas.",
             "",
-            "",
+            "http://boinc.tacc.utexas.edu/",
             "",
             array(KW_AMERICAS, KW_US)
         ),
@@ -437,7 +437,7 @@ $math = array(
         project(
             PROJ_ODLK1,
             "ODLK1",
-            "http://boinc.multi-pool.info/latinsquares/",
+            "https://boinc.multi-pool.info/latinsquares/",
             "Independent",
             tra("Mathematics"),
             "OLDK is building a database of canonical forms of diagonal Latin squares of the 10th order",
@@ -518,18 +518,18 @@ $math = array(
             tra("Search for large prime numbers"),
             array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE)
         ),
-        project(
-            PROJ_PRIMABOINCA,
-            "primaboinca",
-            "http://www.primaboinca.com/",
-            tra("Hochschule RheinMain University of Applied Sciences"),
-            tra("Mathematics"),
-            tra("Search for counterexamples to two conjectures related to the identification of prime numbers"),
-            "logo_primaboinca.gif",
-            "",
-            tra("Study the properties of prime numbers"),
-            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE, KW_GERMANY)
-        ),
+//        project(
+//            PROJ_PRIMABOINCA,
+//            "primaboinca",
+//            "http://www.primaboinca.com/",
+//            tra("Hochschule RheinMain University of Applied Sciences"),
+//            tra("Mathematics"),
+//            tra("Search for counterexamples to two conjectures related to the identification of prime numbers"),
+//            "logo_primaboinca.gif",
+//            "",
+//            tra("Study the properties of prime numbers"),
+//            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE, KW_GERMANY)
+//        ),
 //        project(
 //            PROJ_SZTAKI,
 //            "SZTAKI Desktop Grid",
@@ -602,6 +602,18 @@ $math = array(
             'Study Latin Squares',
             array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA)
         ),
+        project(
+            PROJ_MINECRAFT,
+            'Minecraft@Home',
+            'https://minecraftathome.com/minecrafthome/',
+            'Independent',
+            'Games',
+            'Minecraft@Home studies questions related to Minecraft, such as the properties of worlds that can be generated from different random seeds.',
+            'minecraft_at_home.png width=400',
+            '',
+            'Explore Minecraft',
+            array(KW_MATH_CS)
+        ),
     ),
 );
 
@@ -617,6 +629,21 @@ function lookup_project($url) {
         }
     }
     return null;
+}
+
+function get_project_list($test = false) {
+    global $areas;
+    foreach ($areas as $area) {
+        $area_name = $area[0];
+        $projects = $area[1];
+        foreach ($projects as $p) {
+            if (!$test && $p->id >= 1000) continue;
+                // test projects have temp IDs >= 1000
+            $p->general_area = $area_name;
+            $proj_list[] = $p;
+        }
+    }
+    return $proj_list;
 }
 
 function acct_mgr($id, $name, $url, $description, $logo) {
