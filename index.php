@@ -85,6 +85,48 @@ function show_news_items() {
     );
 }
 
+function show_links() {
+    panel(
+        null,
+        function() {
+    echo '
+        </p>
+        <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm-4">
+        <font size=+2>
+        '.tra("Learn").'
+        </font>
+        <br><a href="projects.php">'.tra("Science projects").'</a>
+        <br><a href="https://boinc.berkeley.edu/wiki/User_manual"><span class=nobr>'.tra("User manual").'</span></a> 
+        <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
+        <br><a btn-primary href=https://boinc.berkeley.edu/trac/wiki/WebResources><span class=nobr>'.tra("Web resources").'</span></a> 
+        <p>
+        </div><div class="col-sm-4">
+        <font size=+2>
+        '.tra("Communicate").'
+        </font>
+        <br><a href="forum_index.php">'.tra("Message boards").'</a>
+        <br><a href="https://boinc.berkeley.edu/wiki/BOINC_Help">'.tra("Help").'</a>
+        <br><a href="trac/wiki/EmailLists">'.tra("Email lists").'</a>
+        <br><a href="trac/wiki/ReportBugs">'.tra("Report bugs").'</a>
+        <p>
+        </div><div class="col-sm-4">
+        <font size=+2>
+        '.tra("Help").'
+        </font>
+        <br><a href="trac/wiki/TranslateIntro">'.tra("Translate").'</a>
+        <br><a href="trac/wiki/AlphaInstructions">'.tra("Test").'</a>
+        <br><a href="trac/wiki/WikiMeta">'.tra("Document").'</a>
+        <br><a href="https://boinc.berkeley.edu/wiki/Publicizing_BOINC">'.tra("Publicize").'</a>
+        </div>
+        </div>
+        </div>
+    ';
+        }
+    );
+}
+
 function top() {
     panel(
         "",
@@ -153,40 +195,6 @@ function top() {
                 </div>
             ';
             echo $spacer;
-            echo '
-                </p>
-                <div class="container-fluid">
-                <div class="row">
-                <div class="col-sm-4">
-                <font size=+2>
-                '.tra("Learn more").'
-                </font>
-                <br><a href="projects.php">'.tra("Science projects").'</a>
-                <br><a href="https://boinc.berkeley.edu/wiki/User_manual"><span class=nobr>'.tra("User manual").'</span></a> 
-                <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
-                <br><a btn-primary href=https://boinc.berkeley.edu/trac/wiki/WebResources><span class=nobr>'.tra("Web resources").'</span></a> 
-                <p>
-                </div><div class="col-sm-4">
-                <font size=+2>
-                '.tra("Communicate").'
-                </font>
-                <br><a href="forum_index.php">'.tra("Message boards").'</a>
-                <br><a href="https://boinc.berkeley.edu/wiki/BOINC_Help">'.tra("Help").'</a>
-                <br><a href="trac/wiki/EmailLists">'.tra("Email lists").'</a>
-                <br><a href="trac/wiki/ReportBugs">'.tra("Report bugs").'</a>
-                <p>
-                </div><div class="col-sm-4">
-                <font size=+2>
-                '.tra("Other ways to help").'
-                </font>
-                <br><a href="trac/wiki/TranslateIntro">'.tra("Translate").'</a>
-                <br><a href="trac/wiki/AlphaInstructions">'.tra("Test").'</a>
-                <br><a href="trac/wiki/WikiMeta">'.tra("Document").'</a>
-                <br><a href="https://boinc.berkeley.edu/wiki/Publicizing_BOINC">'.tra("Publicize").'</a>
-                </div>
-                </div>
-                </div>
-            ';
         },
         "panel-borderless"
     );
@@ -269,7 +277,7 @@ function show_boinc() {
 
 function show_nsf() {
     echo "
-        <img hspace=8 src=images/nsf.gif alt=\"NSF logo\">
+        <img hspace=8 width=120 src=images/NSF_4-Color_bitmap_Logo.png alt=\"NSF logo\">
         BOINC is supported by the
         <a href=\"https://nsf.gov\">National Science Foundation</a>
         through awards SCI-0221529, SCI-0438443, SCI-0506411,
@@ -283,6 +291,7 @@ $rh_col_width = 390;
 
 function left() {
     echo '<div class="container-fluid">';
+    show_links();
     show_science();
     show_software();
     show_boinc();
