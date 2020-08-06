@@ -49,6 +49,9 @@ define('PROJ_NANOHUB',          43);
 define('PROJ_TACC',             44);
 define('PROJ_GRCPOOL',         45);
 define('PROJ_MINECRAFT',       46);
+define('PROJ_MLC',             47);
+define('PROJ_IBERCIVIS',       48);
+define('PROJ_QUCHEM',          49);
 define('PROJ_SCIENCE_UNITED',  101);
 
 ?>

@@ -27,16 +27,17 @@ function project(
     return $x;
 }
 
-// 0: name
-// 1: web RPC URL
-// 2: home
-// 3: area
-// 4: description
-// 5: logo
-// 6: master URL (if different from web RPC URL)
+// 0: ID (from project_ids.inc)
+// 1: name
+// 2: web RPC URL
+// 3: home
+// 4: area
+// 5: description
+// 6: logo
+// 7: master URL (if different from web RPC URL)
 //      This should match their get_project_config.php
 //      maybe should automate this
-// 7: 1-sentence summary
+// 8: 1-sentence summary
 
 $sensing = array(
     tra("Distributed sensing"),
@@ -83,6 +84,18 @@ $cogsci = array(
             "Model the human brain",
             array(KW_AI, KW_AMERICAS, KW_US, KW_U_DAYTON)
         ),
+        project(
+            PROJ_MLC,
+            "MLC@Home",
+            "https://www.mlcathome.org/mlcathome/",
+            "University of Maryland, Baltimore County (UMBC)",
+            tra("Artificial Intelligence"),
+            tra("MLC@Home is dedicated to understanding and interpreting complex machine learning models, with an emphasis on neural networks."),
+            "mlcathome-banner.png",
+            "",
+            "Study machine learning",
+            array(KW_AI, KW_AMERICAS, KW_US)
+        ),
     ),
 );
 
@@ -112,6 +125,18 @@ $dormant_projects = array(
 $biomed = array(
     tra("Biology and Medicine"),
     array(
+        project(
+            PROJ_IBERCIVIS,
+            "Ibercivis BOINC",
+            "https://boinc.ibercivis.es/ibercivis/",
+            "Consejo Superior de Investigaciones Científica",
+            tra("Biomedicine"),
+            tra("Simulate the interaction of drugs used against Ebola, HIV, influenza or hepatitis B with the replication machinery of the SARS-CoV-2 virus. This will show if any of the molecules inhibits a key protein in the multiplication of the virus called 'RNA-dependent RNA polymerase'. If so, the drug would become an ideal candidate for testing in human clinical trials."),
+            "ibercivis.png",
+            "",
+            tra("Help the fight against SARS-CoV-2"),
+            array(KW_BIOMED, KW_DISEASE, KW_VIRUS, KW_EUROPE, KW_SPAIN)
+        ),
 //        project(
 //            PROJ_DENIS,
 //            "DENIS@Home",
@@ -146,7 +171,7 @@ $biomed = array(
             "gpugrid.png",
             "https://www.gpugrid.net/",
             "Help biomedical research",
-            array(KW_BIOMED, KW_EUROPE, KW_SPAIN, KW_PRBB)
+            array(KW_BIOMED, KW_DISEASE, KW_CANCER, KW_VIRUS, KW_EUROPE, KW_SPAIN, KW_PRBB)
         ),
         project(
             PROJ_ROSETTA,
@@ -158,7 +183,7 @@ $biomed = array(
             "rosetta_at_home_logo.jpg",
             "",
             "Study diseases such as COVID-19, HIV, malaria, cancer, and Alzheimer's",
-            array(KW_BIOMED, KW_DISEASE, KW_PROTEINS, KW_AMERICAS, KW_US, KW_UW)
+            array(KW_BIOMED, KW_DISEASE, KW_PROTEINS, KW_AMERICAS, KW_US, KW_UW, KW_VIRUS)
         ),
     ),
 );
@@ -182,6 +207,18 @@ $earth = array(
 $astro_phys_chem = array(
     tra("Physical Science"),
     array(
+        project(
+            PROJ_QUCHEM,
+            "QuChemPedIA@home",
+            "https://quchempedia.univ-angers.fr/athome/",
+            "Université Anger",
+            "Molecular Chemistry",
+            "This project will create an open platform to solve and store quantum molecular chemistry results, and will develop artificial intelligence and optimization methods in order to efficiently explore the highly combinatorial molecular space.",
+            "",
+            "",
+            "Explore molecular chemistry",
+            array(KW_CHEMISTRY, KW_EUROPE, KW_FRANCE)
+        ),
 //        project(
 //            PROJ_ACOUSTICS,
 //            "Acoustics@home",
@@ -345,18 +382,18 @@ $mixed = array(
             tra("Support science from the University of North Dakota"),
             array(KW_BIOMED, KW_MATH_CS, KW_AMERICAS, KW_US, KW_UND)
         ),
-        project(
-            PROJ_CAS,
-            "CAS@home",
-            "http://casathome.ihep.ac.cn/",
-            tra("Chinese Academy of Sciences"),
-            tra("Physics, biochemistry, and others"),
-            tra("CAS@home is hosted by the Computing Centre of the Institute of High Energy Physics (IHEP), Chinese Academy of Sciences, for Chinese scientists with projects studying protein structure, nanotechnology, cancer genomics, and high energy physics."),
-            "cas_at_home.jpg",
-            "",
-            tra("Help Chinese researchers"),
-            array(KW_PHYSICS, KW_BIOMED, KW_ASIA, KW_CHINA)
-        ),
+//        project(
+//            PROJ_CAS,
+//            "CAS@home",
+//            "http://casathome.ihep.ac.cn/",
+//            tra("Chinese Academy of Sciences"),
+//            tra("Physics, biochemistry, and others"),
+//            tra("CAS@home is hosted by the Computing Centre of the Institute of High Energy Physics (IHEP), Chinese Academy of Sciences, for Chinese scientists with projects studying protein structure, nanotechnology, cancer genomics, and high energy physics."),
+//            "cas_at_home.jpg",
+//            "",
+//            tra("Help Chinese researchers"),
+//            array(KW_PHYSICS, KW_BIOMED, KW_ASIA, KW_CHINA)
+//        ),
         project(
             PROJ_YOYO,
             "Yoyo@home",
@@ -379,7 +416,7 @@ $mixed = array(
             "wcg.jpg",
             "",
             tra("Do biomedical and environmental research"),
-            array(KW_BIOMED, KW_EARTH_SCI, KW_AMERICAS, KW_US)
+            array(KW_BIOMED, KW_DRUG_DISCOVERY, KW_CANCER, KW_VIRUS, KW_EARTH_SCI, KW_AMERICAS, KW_US)
         ),
         project(
             PROJ_TACC,
@@ -612,7 +649,7 @@ $math = array(
             'minecraft_at_home.png width=400',
             '',
             'Explore Minecraft',
-            array(KW_MATH_CS)
+            array(KW_MATH_CS, KW_GAMES)
         ),
     ),
 );
