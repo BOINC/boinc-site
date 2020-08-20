@@ -244,20 +244,38 @@ $w72x64 = array(
 
 ///// MAC STARTS HERE
 
-$m716 = array(
+$m716_6 = array(
     "num"=>"7.16.6",
     "status"=>"Recommended version",
     "file"=>"boinc_7.16.6_macOSX_x86_64.zip",
     "date"=>"3 April 2020",
     "type"=>"mac_advanced",
 );
-$m716c = array(
+
+$m716_6c = array(
     "num"=>"7.16.6",
     "status"=>"Recommended version (Unix command-line version)",
     "file"=>"boinc_7.16.6_x86_64-apple-darwin.zip",
     "date"=>"3 April 2020",
     "type"=>"bare_core",
+   ); 
+   
+$m716 = array(
+    "num"=>"7.16.9",
+    "status"=>"Development version",
+    "file"=>"boinc_7.16.9_macOSX_x86_64.zip",
+    "date"=>"18 Aug 2020",
+    "type"=>"mac_advanced",
 );
+
+$m716c = array(
+    "num"=>"7.16.9",
+    "status"=>"Development version (Unix command-line version)",
+    "file"=>"boinc_7.16.9_x86_64-apple-darwin.zip",
+    "date"=>"18 Aug 2020",
+    "type"=>"bare_core",
+);
+
 $m714 = array(
     "num"=>"7.14.4",
     "status"=>"Older version",
@@ -550,11 +568,13 @@ $windowsx64 = array(
 
 $mac = array(
     "name"=>"Mac OS X (64-bit Intel)",
-    "description"=>"Version 10.6.0+",
+    "description"=>"Version 10.7.0+",
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
           $m716,
           $m716c,
+          $m716_6,
+          $m716_6c,
           $m714,
           $m714c,
 //          $m76,

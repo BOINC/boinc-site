@@ -129,7 +129,7 @@ $biomed = array(
             PROJ_IBERCIVIS,
             "Ibercivis BOINC",
             "https://boinc.ibercivis.es/ibercivis/",
-            "Consejo Superior de Investigaciones Científica",
+            "Consejo Superior de Investigaciones Cientifica",
             tra("Biomedicine"),
             tra("Simulate the interaction of drugs used against Ebola, HIV, influenza or hepatitis B with the replication machinery of the SARS-CoV-2 virus. This will show if any of the molecules inhibits a key protein in the multiplication of the virus called 'RNA-dependent RNA polymerase'. If so, the drug would become an ideal candidate for testing in human clinical trials."),
             "ibercivis.png",
