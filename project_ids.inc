@@ -52,6 +52,7 @@ define('PROJ_MINECRAFT',       46);
 define('PROJ_MLC',             47);
 define('PROJ_IBERCIVIS',       48);
 define('PROJ_QUCHEM',          49);
+define('PROJ_ITHENA',          50);
 define('PROJ_SCIENCE_UNITED',  101);
 
 ?>

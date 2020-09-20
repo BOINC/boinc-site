@@ -436,6 +436,18 @@ $math = array(
     tra("Mathematics, computing, and games"),
     array(
         project(
+            PROJ_ITHENA,
+            "iThena",
+            "https://root.ithena.net/usr/",
+            "Independent",
+            "Computer science",
+            "The goal of the iThena project is to generate a dynamic topological model of the Internet, based on measurements from distributed devices.",
+            "",
+            "",
+            "Study the Internet",
+            array(KW_MATH_CS)
+        ),
+        project(
             PROJ_AMICABLE,
             "Amicable Numbers",
             "https://sech.me/boinc/Amicable/",
