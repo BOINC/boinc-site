@@ -19,26 +19,21 @@ require_once("../inc/news.inc");
 require_once("../inc/forum.inc");
 
 function show_participant() {
-    $i = rand(0, 99);
-    $j = $i+1;
-    panel(
-        tra("Computing power"),
-        function() use ($i) {
-            echo "
-                <center>
-            ";
-            show_totals();
-            echo '
-                <p> </p>
-                <a class="btn btn-sm btn-primary" href=chart_list.php>'.tra("Top 100 volunteers").'</a>
-                <a class="btn btn-sm btn-primary" href=https://boinc.berkeley.edu/trac/wiki/WebResources#Creditstatistics>'.tra("Statistics").'</a>
-                <hr>
-                <p>
-            ';
-            echo "</center>";
-            include("piecharts/$i.html");
-        }
-     );
+    $i = rand(0, 99)+1;
+    echo "
+        <br>
+        <font size=+1>Computing power:</font>
+        &nbsp; <a href=computing.php>View</a>
+
+    ";
+    return;
+    show_totals();
+    echo '
+        <p> </p>
+        <p>
+    ';
+    include("piecharts/$i.html");
+    echo '<p><a href=chart_list.php>'.tra("Top 100 volunteers").'</a>';
 }
 
 function show_totals() {
@@ -77,18 +72,15 @@ function show_news_items() {
         tra("News"),
         function() {
             if (!file_exists("stop_web")) {
-                show_news(0, 5);
+                show_news(0, 3);
             } else {
-                echo "<p>".tra("Database not available; please try again later.");
+                echo "<p>".tra("We're down for maintenance; please try later.");
             }
         }
     );
 }
 
 function show_links() {
-    panel(
-        null,
-        function() {
     echo '
         </p>
         <div class="container-fluid">
@@ -122,15 +114,36 @@ function show_links() {
         </div>
         </div>
         </div>
+
+        <hr>
+        <font size=+1>Scientists:</font> &nbsp; <a href=https://boinc.berkeley.edu/trac/wiki/BoincOverview>Compute with BOINC</a>
+            &middot; <a href=https://boinc.berkeley.edu/trac/wiki/ProjectMain>Documentation</a>
+        <p>
+        <font size=+1>Developers:</font> &nbsp; <a href=develop.php>Help maintain and develop BOINC</a>
     ';
-        }
-    );
 }
 
 function top() {
     panel(
         "",
         function () {
+
+            // style for join/download boxes
+            //
+            //$s = 'style="background-color:#036; a.link{color:white;}; color:white; border-style: solid; border-width:1.5px; border-radius: 6px; border-color:#c8c8c8"';
+            $s = ' style="a.link{color:white;}; color:white; border-radius: 6px; border-color:#c8c8c8"';
+
+            // half-line spacer
+            //
+            $spacer = '<br style="line-height: 10px" />';
+
+            echo '
+                <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 bg-primary"'.$s.'>
+                '.$spacer.'
+            ';
             echo tra("BOINC lets you help cutting-edge science research using your computer (Windows, Mac, Linux) or Android device.  BOINC downloads scientific computing jobs to your computer and runs them invisibly in the background.  It's easy and safe.");
             echo "</p><p>\n ";
             echo tra(
@@ -145,134 +158,41 @@ function top() {
             echo '
                 </p><p>
             ';
-            echo tra('You can participate in either of two ways:');
-
-            // style for join/download boxes
-            //
-            //$s = 'style="background-color:#036; a.link{color:white;}; color:white; border-style: solid; border-width:1.5px; border-radius: 6px; border-color:#c8c8c8"';
-            $s = ' style="a.link{color:white;}; color:white; border-radius: 6px; border-color:#c8c8c8"';
-
-            // half-line spacer
-            //
-            $spacer = '<br style="line-height: 10px" />';
-
-            echo '
-                </p><p>
-                <div class="container-fluid">
-                <div class="row">
-                <div class="col-sm-6 bg-primary"'.$s.'>
-                <center>
-                '.$spacer.'
-            ';
-            echo sprintf('<font size=+2>%s</font><p><p>',
-                tra('Choose science areas')
-            );
             echo tra('To contribute to science areas (biomedicine, physics, astronomy, and so on) use %1.  Your computer will do work for current and future projects in those areas.',
                 '<a href=https://scienceunited.org style="color:orange">Science United</a>'
             );
             echo '
                 </p><p>
+                <center>
                 <a class="btn btn-lg" style="background-color:#ffd730; color:black" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
                 </center>
                 '.$spacer.'
+                <p>Or
+                <a href=download.php>download BOINC</a>
+                and choose specific projects.
                 </div>
-                <div class="col-sm-1" ><p></p><center><font size=+1>or</font></center></div>
-                <div class="col-sm-5 bg-primary"'.$s.'>
-                <center>
-                '.$spacer.'
-            ';
-            echo sprintf('<font size=+2>%s</font><p><p>',
-                tra('Choose projects')
-            );
-            echo tra('To contribute to specific projects, download BOINC and follow the directions.');
-            echo '
-                </p><p>
-                <a class="btn btn-lg" style="background-color:#ffd730; color:black" href="download.php">'.tra("Download BOINC").'</a>
-                </center>
-                '.$spacer.'
-                </div>
+                <div class="col-sm-2"></div>
                 </div>
                 </div>
             ';
-            echo $spacer;
         },
         "panel-borderless"
     );
 }
 
-function show_science() {
-    panel(
-        tra("High-Throughput Computing with BOINC"),
-        function() {
-            echo "
-                <p>
-                BOINC is a platform for high-throughput computing
-                on a large scale (thousands or millions of computers).
-                It can be used for volunteer computing
-                (using consumer devices)
-                or grid computing (using organizational resources).
-                It supports virtualized, parallel, and GPU-based applications.
-                <p>
-                BOINC is distributed under the LGPL open source license.
-                It can be used for commercial purposes,
-                and applications need not be open source.
-            ";
-            echo '
-                <center>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/BoincOverview">'.tra("Computing with BOINC").'</a>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/ProjectMain">'.tra("Technical Documentation").'</a>
-                </center>
-            ';
-        }
-    );
-}
-function show_software() {
-    panel(
-        tra("Software"),
-        function() {
-            echo 
-                tra("BOINC includes client, server, and web components, and APIs for connecting other components.").'
-                '.tra("It is distributed under the LGPLv3 open-source license.").'
-                <p></p>
-                <center>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/SourceCodeGit">'.tra("Source code").'</a>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/SoftwareBuilding">'.tra("Building BOINC").'</a>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/SoftwareAddon">APIs</a>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/SoftwareDevelopment">'.tra("Design documents").'</a>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/CodingStyle">'.tra("Coding style").'</a>
-                </center>
-                <p></p>
-                '.tra("BOINC software development is community-based.  Everyone is welcome to participate.").'
-                <p></p>
-                <center>
-                <a class="btn btn-sm btn-primary" href="https://github.com/BOINC/boinc">Github</a>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/BoincGovernanceWorkingGroups">'.tra("Organization").'</a>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/AdminTasks">'.tra("Tasks").'</a>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/BoincEvents">'.tra("Events").'</a>
-                </center>
-                <p></p>
-            ';
-        }
-    );
-}
-                // <a class="btn btn-sm btn-primary" href="trac/wiki/DevProcess">'.tra("Development process").'</a>
-                // <a class="btn btn-sm btn-primary" href="trac/wiki/DevProjects">'.tra("Development tasks").'</a>
-
 function show_boinc() {
-    panel(
-        'The BOINC Project',
-        function() {
-            echo '
-                The BOINC project is located at the University of California, Berkeley.  It has existed since 2002, with funding primarily from the National Science Foundation.
-                <p></p>
-                <center>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
-                <a class="btn btn-sm btn-primary" href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
-                <a class="btn btn-sm btn-primary" href="logo.php">'.tra("Graphics").'</a>
-                </center>
-            ';
-        }
-    );
+    echo '
+        <hr>
+        <p>
+        The BOINC project is located at the
+        University of California, Berkeley.
+        <p>
+        <a href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
+        &middot;
+        <a href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
+        &middot;
+        <a logo.php">'.tra("Graphics").'</a>
+    ';
 }
 
 function show_nsf() {
@@ -290,13 +210,14 @@ header("Content-type: text/html; charset=utf-8");
 $rh_col_width = 390;
 
 function left() {
-    echo '<div class="container-fluid">';
-    show_links();
-    show_science();
-    show_software();
-    show_boinc();
-    show_participant();
-    echo '</div>';
+    panel(
+        null,
+        function() {
+            show_links();
+            show_participant();
+            show_boinc();
+        }
+    );
 }
 
 function right() {
@@ -319,7 +240,7 @@ echo "<p>";
 
 grid('top', 'left', 'right');
 
-    show_nsf();
+    //show_nsf();
     echo "<br>";
 page_tail(true, true);
 ?>

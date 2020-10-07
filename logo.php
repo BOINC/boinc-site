@@ -5,7 +5,7 @@ old_page_head("Logos and graphics");
 
 function art_list_head() {
     echo "
-        <table cellpadding=8 border=1>
+        <table border=1>
         <tr><th>Artist</th><th>Images (click for hi-res version)</th></tr>
     ";
 }
@@ -16,8 +16,8 @@ function art_list_show($logos) {
         $x0 = $logo[0];
         $x1 = $logo[1];
         echo "<tr>
-            <td>$x0</td>
-            <td>$x1</td>
+            <td spacing=8>$x0</td>
+            <td spacing=8>$x1</td>
             </tr>
         ";
     }
@@ -79,7 +79,7 @@ Monochrome/black:
 
 <p>
 
-<a name=wallpaper>
+<a name=wallpaper></a>
 Wallpaper:
 <p>
 ";
@@ -106,10 +106,17 @@ art_list_head();
 art_list_show($wallpaper);
 echo "
 </table>
-<h2>The old BOINC logo and related artwork</h2>
+
+<h2>The original BOINC logo</h2>
+<p>
+The name 'BOINC' refers to a particular sound.
+It was intended to convey humor and lightness.
+So I made a humorous logo:
+<p>
+<img height=200px src=old_logo/logo.png>
 <ul>
 <li>
-The old logo in its native form as <a href=old_logo/logo.doc>a Word document</a>.
+The logo in its native form as <a href=old_logo/logo.doc>a Word document</a>.
 The logo uses the Planet Benson font from
 <a href=http://www.larabiefonts.com>Larabie Fonts</a>.
 <li>
@@ -136,6 +143,13 @@ Wallpaper:
 </table>
 
 <h2>Logo proposals</h2>
+<p>
+At some point - 2008 or so? - I decided it was time for a new logo.
+Realizing my own limitations as a graphic designer,
+I asked the BOINC community for proposals.
+There were lots of good ones:
+
+<p>
 ";
 art_list_head();
 echo "
