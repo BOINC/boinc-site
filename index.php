@@ -116,11 +116,18 @@ function show_links() {
         </div>
 
         <hr>
-        <font size=+1>Scientists:</font> &nbsp; <a href=https://boinc.berkeley.edu/trac/wiki/BoincOverview>Compute with BOINC</a>
+    ';
+    echo sprintf('
+        <font size=+1>%s:</font> &nbsp; <a href=https://boinc.berkeley.edu/trac/wiki/BoincOverview>%s</a>
             &middot; <a href=https://boinc.berkeley.edu/trac/wiki/ProjectMain>Documentation</a>
         <p>
-        <font size=+1>Developers:</font> &nbsp; <a href=develop.php>Help maintain and develop BOINC</a>
-    ';
+        <font size=+1>%s:</font> &nbsp; <a href=develop.php>%s</a>
+        ',
+        tra("Scientists"),
+        tra("Compute with BOINC"),
+        tra("Developers"),
+        tra("Help maintain and develop BOINC")
+    );
 }
 
 function top() {
@@ -164,12 +171,18 @@ function top() {
             echo '
                 </p><p>
                 <center>
-                <a class="btn btn-lg" style="background-color:#ffd730; color:black" href="https://scienceunited.org/su_join.php"><font size=+2>'.tra("Join Science United").'</font></a>
+                <a class="btn btn-lg" style="background-color:#ffd730; color:black" href="https://scienceunited.org/su_join.php"><font size=+2>'
+                .tra("Join %1", "Science United")
+                .'</font></a>
                 </center>
                 '.$spacer.'
-                <p>Or
-                <a href=download.php>download BOINC</a>
-                and choose specific projects.
+                <p>
+            ';
+            echo tra("Or %1download BOINC%2 and choose specific projects.",
+                "<a href=download.php>",
+                "</a>"
+            );
+            echo '
                 </div>
                 <div class="col-sm-2"></div>
                 </div>
@@ -184,8 +197,9 @@ function show_boinc() {
     echo '
         <hr>
         <p>
-        The BOINC project is located at the
-        University of California, Berkeley.
+    ';
+    echo tra("The BOINC project is located at the University of California, Berkeley.");
+    echo '
         <p>
         <a href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
         &middot;

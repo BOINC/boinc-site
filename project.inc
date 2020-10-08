@@ -70,11 +70,11 @@ function project_banner($title, $prefix, $is_main) {
             </div>
             <div class="col-sm-3" align=right>
         ';
-        //echo ' <a href=language_select.php><img title="Choose language" height=30 src=images/language-icon.png></a> ';
         //echo ' <a href=site_search.php><img title="Site search" height=30 src=images/search.png></a> ';
-        google_search_form("http://boinc.berkeley.edu");
+        google_search_form("https://boinc.berkeley.edu");
         echo "<p>";
-        language_form($client_languages[0]);
+        //language_form($client_languages[0]);
+        echo '<p><a href=language_select.php>Language</a> ';
         echo '
             </div>
             </div>
