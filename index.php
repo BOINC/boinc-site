@@ -130,66 +130,47 @@ function show_links() {
     );
 }
 
-function top() {
-    panel(
-        "",
-        function () {
+function intro() {
+    echo "<ul><li>";
+    echo tra("BOINC lets you help cutting-edge science research using your computer.  The BOINC app, running on your computer, downloads scientific computing jobs and runs them invisibly in the background.  It's easy and safe.");
+    echo "</p><p>\n ";
+    echo "<li>";
+    echo tra("About 30 science projects use BOINC.");
+    echo " ";
+    echo tra('They investigate diseases, study climate change, discover pulsars, and do many other types of scientific research.');
+    echo '
+        </p><p>
+    ';
+    echo "<li>";
+    echo tra("The BOINC and Science United projects are located at the University of California, Berkeley and are supported by the National Science Foundation.");
+    echo "</ul><center>
+        <a href=https://berkeley.edu><img hspace=8 width=120 src=images/ucbseal.png  alt=\"UCB logo\"></a>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href=https://nsf.gov><img hspace=8 width=120 src=images/NSF_4-Color_bitmap_Logo.png alt=\"NSF logo\"></a>
+        </center>
+    ";
+}
 
-            // style for join/download boxes
-            //
-            //$s = 'style="background-color:#036; a.link{color:white;}; color:white; border-style: solid; border-width:1.5px; border-radius: 6px; border-color:#c8c8c8"';
-            $s = ' style="a.link{color:white;}; color:white; border-radius: 6px; border-color:#c8c8c8"';
+function call_to_action() {
+    $spacer = '<br style="line-height: 10px" />';
 
-            // half-line spacer
-            //
-            $spacer = '<br style="line-height: 10px" />';
-
-            echo '
-                <div class="container-fluid">
-                <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 bg-primary"'.$s.'>
-                '.$spacer.'
-            ';
-            echo tra("BOINC lets you help cutting-edge science research using your computer (Windows, Mac, Linux) or Android device.  BOINC downloads scientific computing jobs to your computer and runs them invisibly in the background.  It's easy and safe.");
-            echo "</p><p>\n ";
-            echo tra(
-                "About 30 science projects use BOINC; examples include %3, %4, and %5.",
-                '<a href="projects.php">', '</a>',
-                '<a href="https://boinc.bakerlab.org/rosetta/">Rosetta@home</a>',
-                '<a href="https://einsteinathome.org">Einstein@Home</a>',
-                '<a href="https://worldcommunitygrid.org">IBM World Community Grid</a>'
-            );
-            echo " ";
-            echo tra('These projects investigate diseases, study global warming, discover pulsars, and do many other types of scientific research.');
-            echo '
-                </p><p>
-            ';
-            echo tra('To contribute to science areas (biomedicine, physics, astronomy, and so on) use %1.  Your computer will do work for current and future projects in those areas.',
-                '<a href=https://scienceunited.org style="color:orange">Science United</a>'
-            );
-            echo '
-                </p><p>
-                <center>
-                <a class="btn btn-lg" style="background-color:#ffd730; color:black" href="https://scienceunited.org/su_join.php"><font size=+2>'
-                .tra("Join %1", "Science United")
-                .'</font></a>
-                </center>
-                '.$spacer.'
-                <p>
-            ';
-            echo tra("Or %1download BOINC%2 and choose specific projects.",
-                "<a href=download.php>",
-                "</a>"
-            );
-            echo '
-                </div>
-                <div class="col-sm-2"></div>
-                </div>
-                </div>
-            ';
-        },
-        "panel-borderless"
+    echo "<font size=+2>START COMPUTING!</font></p>";
+    echo tra('To contribute to science areas (biomedicine, physics, astronomy, and so on) use %1.  Your computer will help current and future projects in those areas.',
+        '<a href=https://scienceunited.org style="color:orange">Science United</a>'
+    );
+    echo '
+        </p><p>
+        <center>
+        <a class="btn btn-lg" style="background-color:#ffcc40; color:black" href="https://scienceunited.org/su_join.php"><font size=+2>'
+        .tra("Join %1", "Science United")
+        .'</font></a>
+        </center>
+        '.$spacer.'
+        <p>
+    ';
+    echo tra("Or %1download BOINC%2 and choose specific projects.",
+        "<a href=download.php>",
+        "</a>"
     );
 }
 
@@ -198,14 +179,13 @@ function show_boinc() {
         <hr>
         <p>
     ';
-    echo tra("The BOINC project is located at the University of California, Berkeley.");
     echo '
         <p>
         <a href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
         &middot;
         <a href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
         &middot;
-        <a logo.php">'.tra("Graphics").'</a>
+        <a href=logo.php>'.tra("Graphics").'</a>
     ';
 }
 
@@ -227,17 +207,31 @@ function left() {
     panel(
         null,
         function() {
+            intro();
+        },
+        "panel-primary",
+        "bg-primary"
+    );
+    panel(
+        null,
+        function() {
+            call_to_action();
+        },
+        "panel-primary",
+        "bg-primary"
+    );
+}
+
+function right() {
+    panel(
+        null,
+        function() {
             show_links();
             show_participant();
             show_boinc();
         }
     );
-}
-
-function right() {
-    echo '<div class="container-fluid">';
     show_news_items();
-    echo '</div>';
 }
 
 page_head(tra("Compute for Science"), null, true, '',
@@ -252,7 +246,7 @@ page_head(tra("Compute for Science"), null, true, '',
 );
 echo "<p>";
 
-grid('top', 'left', 'right');
+grid(null, 'left', 'right');
 
     //show_nsf();
     echo "<br>";

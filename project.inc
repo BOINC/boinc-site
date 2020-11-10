@@ -55,9 +55,11 @@ function navbar($prefix, $user, $fixed) {
 
 function project_banner($title, $prefix, $is_main) {
     global $client_languages;
+    $spacer = '<br style="line-height: 10px" />';
+
     if ($is_main) {
+        echo $spacer;
         echo '
-            <p>&nbsp;</p>
             <div class="container-fluid">
             <div class="row">
             <div class="col-sm-3">
@@ -80,6 +82,7 @@ function project_banner($title, $prefix, $is_main) {
             </div>
             </div>
         ';
+        echo $spacer;
     } else {
         navbar(secure_url_base(), get_logged_in_user(false), false);
         if ($title) {
