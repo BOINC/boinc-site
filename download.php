@@ -46,30 +46,34 @@ function show_download($client_info, $pname) {
     echo "\n";
     echo tra("After installing BOINC on your computer, you can connect it to as many of these projects as you like.");
     echo "\n<p>";
+if (0) {
     if ($pname == 'android') {
         echo "<b>"
             .tra("We recommend that you download BOINC from the Google Play Store or Amazon Appstore, not from here.")
             ." </b>
         ";
     }
+}
     if ($pname) {
         download_link($client_info, $pname, true);
     } else {
-        list_start();
-        list_heading_array(array(
+        start_table();
+        table_header(
             'Computer type',
             'BOINC version ',
             'Click to download'
-        ));
-        download_link($client_info, 'win');
+        );
         download_link($client_info, 'winx64');
+        download_link($client_info, 'win');
         download_link($client_info, 'mac');
+        download_link($client_info, 'mac_10_7');
+        download_link($client_info, 'mac32');
         download_link($client_info, 'macppc');
         download_link($client_info, 'linux');
         download_link($client_info, 'linuxx64');
         download_link($client_info, 'linuxcompat');
         download_link($client_info, 'android');
-        list_end();
+        end_table();
         echo "Linux users: BOINC is available as a package for many Linux distributions.  It is available for Linux/ARM as a package for Debian and Ubuntu for ARM, and Raspbian (for Raspberry Pi).";
     }
     if ($pname != 'android') {

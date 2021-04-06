@@ -1,8 +1,15 @@
 <?php
 
-// if you change anything here,
-// look at https://boinc.berkeley.edu/project_list.php in a browser to make sure
-// you didn't mess up the XML
+// To add a project:
+//
+// - make a new ID in project_ids.inc
+// - make new keywords if needed in boinc/html/inc/keywords.inc
+// - get logo image if there is one
+// - add project here
+// - look at https://boinc.berkeley.edu/project_list.php
+//      in a browser to make sure you didn't mess up the XML
+// - post news item if desired
+// - add to SU if desired: su/project_init.php
 
 require_once("../inc/util.inc");
 //require_once("../inc/translation.inc");
@@ -125,6 +132,18 @@ $dormant_projects = array(
 $biomed = array(
     tra("Biology and Medicine"),
     array(
+        project(
+            PROJ_SIDOCK,
+            "SIDock@home",
+            "https://www.sidock.si/sidock/",
+            "The COVID.SI project and the Karelian Research Center of the Russian Academy of Sciences",
+            tra("Biomedicine"),
+            tra("Study drugs to fight SARS-CoV-2"),
+            "sidock.png",
+            "",
+            tra("Study drugs to fight SARS-CoV-2"),
+            array(KW_BIOMED, KW_DISEASE, KW_VIRUS, KW_EUROPE, KW_RUSSIA)
+        ),
         project(
             PROJ_IBERCIVIS,
             "Ibercivis BOINC",
@@ -439,7 +458,8 @@ $math = array(
             PROJ_ITHENA,
             "iThena",
             "https://root.ithena.net/usr/",
-            "Independent",
+            //"<a href=https://cybercomplex.net/en/>Cyber-Complex Foundation</a>",
+            "Cyber-Complex Foundation",
             "Computer science",
             "The goal of the iThena project is to generate a dynamic topological model of the Internet, based on measurements from distributed devices.",
             "",

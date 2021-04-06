@@ -20,7 +20,6 @@ $header = <<<HDR
 msgid ""
 msgstr ""
 "Project-Id-Version: BOINC \$Id\$\\n"
-"Report-Msgid-Bugs-To: BOINC translation team <boinc_loc@ssl.berkeley.edu>\\n"
 "POT-Creation-Date: $date\\n"
 "Last-Translator: Generated automatically from source files\\n"
 "MIME-Version: 1.0\\n"
@@ -31,7 +30,7 @@ msgstr ""
 
 HDR;
 
-$files = "index.php download.php download_util.inc help.php help_funcs.php projects.inc";
+$files = "index.php download.php download_util.inc help.php help_funcs.inc help_lang.php projects.inc projects.php";
 
 $pipe = popen("xgettext --omit-header --add-comments -o - --keyword=tra -L PHP $files", "r");
 

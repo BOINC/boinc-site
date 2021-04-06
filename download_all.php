@@ -198,6 +198,7 @@ function show_platform_xml($short_name, $p, $dev) {
         // show only those builds that have been around for over three days.
         // Gives us time to address any showstoppers
         // found by the early adopters
+        //
         if (!$dev && ((time() - strtotime($v["date"])) <= 86400*3)) continue;
         show_version_xml($v, $p);
     }

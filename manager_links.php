@@ -25,7 +25,7 @@ if (isset($_GET['controlid'])) $controlid = $_GET['controlid'];
 
 if ($target == "notice") {
 	if ($controlid == 'download') {
-		header('Location: https://boinc.berkeley.edu/wiki/Release_Notes');
+		header('Location: https://boinc.berkeley.edu/download.php');
 	} else if ($controlid == 'statefile') {
 		header('Location: https://boinc.berkeley.edu/wiki/BOINC_Help');
 	} else if ($controlid == 'proxy_env') {

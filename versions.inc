@@ -254,6 +254,22 @@ $w72x64 = array(
 
 ///// MAC STARTS HERE
 
+$m716 = array(
+    "num"=>"7.16.14",
+    "status"=>"Recommended version",
+    "file"=>"boinc_7.16.14_macOSX_universal.zip",
+    "date"=>"30 Nov 2020",
+    "type"=>"mac_advanced",
+);
+
+$m716c = array(
+    "num"=>"7.16.14",
+    "status"=>"Recommended version (Unix command-line version)",
+    "file"=>"boinc_7.16.14_universal-apple-darwin.dmg",
+    "date"=>"30 Nov 2020",
+    "type"=>"bare_core",
+);
+
 $m716_6 = array(
     "num"=>"7.16.6",
     "status"=>"Older version",
@@ -270,7 +286,7 @@ $m716_6c = array(
     "type"=>"bare_core",
    ); 
    
-$m716 = array(
+$m716_11 = array(
     "num"=>"7.16.11",
     "status"=>"Recommended version",
     "file"=>"boinc_7.16.11_macOSX_x86_64.zip",
@@ -278,113 +294,17 @@ $m716 = array(
     "type"=>"mac_advanced",
 );
 
-$m716c = array(
+$m716_11c = array(
     "num"=>"7.16.11",
     "status"=>"Recommended version (Unix command-line version)",
     "file"=>"boinc_7.16.11_x86_64-apple-darwin.zip",
     "date"=>"30 Aug 2020",
     "type"=>"bare_core",
-);
-
-$m714 = array(
-    "num"=>"7.14.4",
-    "status"=>"Older version",
-    "file"=>"boinc_7.14.4_macOSX_x86_64.zip",
-    "date"=>"31 March 2020",
-    "type"=>"mac_advanced",
-);
-
-$m714c = array(
-    "num"=>"7.14.4",
-    "status"=>"Older version (Unix command-line version)",
-    "file"=>"boinc_7.14.4_x86_64-apple-darwin.zip",
-    "date"=>"31 March 2020",
-    "type"=>"bare_core",
-);
-
-$m714_2 = array(
-    "num"=>"7.14.2",
-    "status"=>"Older version",
-    "file"=>"boinc_7.14.2_macOSX_x86_64.zip",
-    "date"=>"11 October 2018",
-    "type"=>"mac_advanced",
-);
-
-$m712 = array(
-    "num"=>"7.12.0",
-    "status"=>"Older version",
-    "file"=>"boinc_7.12.0_macOSX_x86_64.zip",
-    "date"=>"29 Jun 2018",
-    "type"=>"mac_advanced",
-);
-
-$m710 = array(
-    "num"=>"7.10.3",
-    "status"=>"Older version",
-    "file"=>"boinc_7.10.3_macOSX_x86_64.zip",
-    "date"=>"8 Jun 2018",
-    "type"=>"mac_advanced",
-);
-
-$m78 = array(
-    "num"=>"7.8.6",
-    "status"=>"Older version",
-    "file"=>"boinc_7.8.6_macOSX_x86_64.zip",
-    "date"=>"14 Jan 2018",
-    "type"=>"mac_advanced",
-);
-
-$m714_2c = array(
-    "num"=>"7.14.2",
-    "status"=>"Older version (Unix command-line version)",
-    "file"=>"boinc_7.14.2_x86_64-apple-darwin.zip",
-    "date"=>"11 October 2018",
-    "type"=>"bare_core",
-);
-
-$m712c = array(
-    "num"=>"7.12.0",
-    "status"=>"Older version (Unix command-line version)",
-    "file"=>"boinc_7.12.0_x86_64-apple-darwin.zip",
-    "date"=>"29 Jun 2018",
-    "type"=>"bare_core",
-);
-
-$m710c = array(
-    "num"=>"7.10.3",
-    "status"=>"Older version (Unix command-line version)",
-    "file"=>"boinc_7.10.3_x86_64-apple-darwin.zip",
-    "date"=>"8 Jun 2018",
-    "type"=>"bare_core",
-);
-
-$m78c = array(
-    "num"=>"7.8.6",
-    "status"=>"Older version (Unix command-line version)",
-    "file"=>"boinc_7.8.6_x86_64-apple-darwin.zip",
-    "date"=>"14 Jan 2018",
-    "type"=>"bare_core",
-);
-
-$m76 = array(
-    "num"=>"7.6.34",
-    "status"=>"Older version (standard GUI)",
-    "file"=>"boinc_7.6.34_macOSX_x86_64.zip",
-    "date"=>"9 Apr 2017",
-    "type"=>"mac_advanced",
-);
-
-$m74 = array(
-	"num"=>"7.4.42",
-	"status"=>"Older version (standard GUI)",
-	"file"=>"boinc_7.4.42_macOSX_x86_64.zip",
-	"date"=>"12 Mar 2015",
-	"type"=>"mac_advanced",
-);
-
+   ); 
+   
 $m72 = array(
     "num"=>"7.2.42",
-    "status"=>"Recommended version (standard GUI)",
+    "status"=>"Recommended version",
     "file"=>"boinc_7.2.42_macOSX_i686.zip",
     "date"=>"28 Feb 2014",
     "type"=>"mac_advanced",
@@ -392,7 +312,7 @@ $m72 = array(
 
 $m612_ppc = array(
     "num"=>"6.12.35",
-    "status"=>"Recommended version (standard GUI)",
+    "status"=>"Recommended version",
     "file"=>"boinc_6.12.35_macOSX_universal.zip",
     "date"=>"11 Aug 2011",
     "type"=>"mac_advanced",
@@ -412,22 +332,6 @@ $mupdater = array(
     "file"=>"update_boinc_certificate.zip",
     "date"=>"28 April 2018",
     "type"=>"cert_updater",
-);
-
-$m76c = array(
-    "num"=>"7.6.34",
-    "status"=>"Older version (Unix command-line version)",
-    "file"=>"boinc_7.6.34_x86_64-apple-darwin.zip",
-    "date"=>"9 April 2017",
-    "type"=>"bare_core",
-);
-
-$m74c = array(
-	"num"=>"7.4.42",
-	"status"=>"Older version (Unix command-line version)",
-	"file"=>"boinc_7.4.42_x86_64-apple-darwin.zip",
-	"date"=>"12 Mar 2015",
-	"type"=>"bare_core",
 );
 
 $m72c = array(
@@ -518,11 +422,11 @@ $l70ubuntux64 = array(
     "type"=>"sea",
 );
 
-$a716dev = array(
-    "num"=>"7.16.3",
-    "status"=>"Development Version",
-    "file"=>"boinc_7.16.3.apk",
-    "date"=>"10 Oct 2019",
+$a716 = array(
+    "num"=>"7.16.16",
+    "status"=>"Recommended Version",
+    "file"=>"boinc_7.16.16.apk",
+    "date"=>"12 Feb 2021",
     "type"=>"apk",
 );
 
@@ -536,7 +440,7 @@ $a74dev = array(
 
 $a74 = array(
     "num"=>"7.4.53",
-    "status"=>"Recommended Version",
+    "status"=>"Older Version",
     "file"=>"boinc_7.4.53.apk",
     "date"=>"3 Jul 2016",
     "type"=>"apk",
@@ -576,20 +480,30 @@ $windowsx64 = array(
 );
 
 $mac = array(
-    "name"=>"Mac OS X (64-bit Intel)",
-    "description"=>"Version 10.7.0+",
+    "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
+    "description"=>"MacOS 10.9+",
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
           $m716,
           $m716c,
+    )
+);
+
+$mac_10_7 = array(
+    "name"=>"Apple Mac (64-bit Intel)",
+    "description"=>"MacOS 10.7 - 10.15",
+    "dbname" => "x86_64-apple-darwin",
+    "versions"=>array(
+          $m716_11,
+          $m716_11c,
           $m716_6,
           $m716_6c,
     )
 );
 
 $mac32 = array(
-    "name"=>"Mac OS X (32-bit or 64-bit Intel)",
-    "description"=>"Version 10.4.0+",
+    "name"=>"Apple Mac (32-bit or 64-bit Intel)",
+    "description"=>"MacOS 10.4.0+",
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
           $m72,
@@ -598,8 +512,8 @@ $mac32 = array(
 );
 
 $macppc = array(
-    "name"=>"Mac OS X (Power PC or 32-bit Intel)",
-    "description"=>"Version 10.4.0+",
+    "name"=>"Apple Mac (Power PC or 32-bit Intel)",
+    "description"=>"MacOS 10.4.0+",
     "dbname" => "powerpc-apple-darwin",
     "versions"=>array(
         $m612_ppc,
@@ -640,10 +554,13 @@ $linuxcompat = array(
 
 $android = array(
     "name"=>"Android",
-    "description"=>"Android version 4.1 and later for ARM, AArch64, MIPS, MIPS64, x86, and x86_64<br>We recommend that, rather than downloading BOINC from here,</br>you get it from the Google Play Store or the Amazon app store (for Kindle Fire)",
+    "description"=>"Android version 4.1 and later for ARM, AArch64, MIPS, MIPS64, x86, and x86_64
+    <br> Amazon Fire tablets: install from the Amazon Appstore.
+    <br> Available on <a href=https://f-droid.org/en/packages/edu.berkeley.boinc/>F-Droid</a>, a repository of open-source apps.
+    <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>array(
-        $a716dev,
+        $a716,
         $a74,
     )
 );
@@ -652,6 +569,7 @@ $platforms = array(
     "winx64"=>$windowsx64,
     "win"=>$windows,
     "mac"=>$mac,
+    "mac_10_7"=>$mac_10_7,
     "mac32"=>$mac32,
     "macppc"=>$macppc,
     "linuxx64"=>$linuxx64,
@@ -676,17 +594,6 @@ function latest_version($p) {
 }
 
 
-// note: rand() is inclusive
-//switch(rand(0,3)) {
-switch(0) {
-    case 0: $url_base = "https://boinc.berkeley.edu/dl/"; break;
-    //case 0: $url_base = "http://boincdl3.ssl.berkeley.edu/mirror/"; break;
-    //case 1: $url_base = "http://einstein.ligo.caltech.edu/download/boinc/dl/"; break;
-    //case 2: $url_base = "http://einstein.aei.mpg.de/download/boinc/dl/"; break;
-    //case 1: $url_base = "http://morel.mit.edu/download/boinc/dl/"; break;
-    //case 3: $url_base = "http://einstein-dl.phys.uwm.edu/download/boinc/dl/"; break;
-    //case 4: $url_base = "http://einstein.astro.gla.ac.uk/download/boinc/dl/"; break;
-    //case 4: $url_base = "http://albert.gravity.psu.edu/download/boinc/dl/"; break;
-}
+$url_base = "https://boinc.berkeley.edu/dl/";
 
 ?>

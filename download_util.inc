@@ -143,10 +143,33 @@ function client_info_to_platform($client_info) {
             return 'win';
         }
     } else if (strstr($client_info, 'Mac')) {
+        // e.g.: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) ...
         if (strstr($client_info, 'PPC Mac OS X')) {
             return 'macppc';
         } else {
-            return 'mac';
+            $v = strstr($client_info, "Mac OS X ");
+            if (!$v) {
+                return 'mac';
+            }
+            $v = substr($v, strlen("Mac OS X "));
+            $n = sscanf($v, "%d_%d", $maj, $min);
+            if ($n != 2) {
+                return "mac";
+            }
+            if ($maj > 10) {
+                return "mac";
+            }
+            if ($maj < 10) {
+                return null;
+            }
+            if ($min >= 9) {
+                return 'mac';
+            } else if ($min >= 7) {
+                return 'mac_10_7';
+            } else if ($min >= 4) {
+                return 'mac32';
+            }
+            return null;
         }
     } else if (strstr($client_info, 'Android')) {
         // Check for Android before Linux,

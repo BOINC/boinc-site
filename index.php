@@ -17,6 +17,8 @@ require_once("../inc/util.inc");
 require_once("../inc/language_names.inc");
 require_once("../inc/news.inc");
 require_once("../inc/forum.inc");
+require_once("../inc/rss.inc");
+require_once("../inc/project_news.inc");
 
 function show_participant() {
     $i = rand(0, 99)+1;
@@ -76,6 +78,18 @@ function show_news_items() {
             } else {
                 echo "<p>".tra("We're down for maintenance; please try later.");
             }
+        }
+    );
+}
+
+function show_project_news() {
+    $items = get_rss_feed_cached("https://api.vcnews.info/rss", 3600);
+    if (!$items) return;
+    panel(
+        tra("News from BOINC Projects"),
+        function() use ($items) {
+            show_rss_items($items, 3, 'rss_filter');
+            echo "<a href=project_news.php>... more</a>";
         }
     );
 }
@@ -154,7 +168,7 @@ function intro() {
 function call_to_action() {
     $spacer = '<br style="line-height: 10px" />';
 
-    echo "<font size=+2>START COMPUTING!</font></p>";
+    echo "<font size=+2>".tra("START COMPUTING!")."</font></p>";
     echo tra('To contribute to science areas (biomedicine, physics, astronomy, and so on) use %1.  Your computer will help current and future projects in those areas.',
         '<a href=https://scienceunited.org style="color:orange">Science United</a>'
     );
@@ -186,6 +200,8 @@ function show_boinc() {
         <a href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
         &middot;
         <a href=logo.php>'.tra("Graphics").'</a>
+        &middot;
+        <a href=https://twitter.com/BoincUc><img src=images/twitter.png height=28></a>
     ';
 }
 
@@ -220,6 +236,7 @@ function left() {
         "panel-primary",
         "bg-primary"
     );
+    show_project_news();
 }
 
 function right() {

@@ -346,6 +346,15 @@ function show_scenario() {
     if (file_exists("$d/cc_config.xml")) {
         $x .= "<br><a href=$d/cc_config.xml>cc_config.xml</a>\n";
     }
+    if (is_dir("$d/projects")) {
+        foreach (scandir("$d/projects") as $p) {
+            if ($p[0] == '.') continue;
+            $path = "$d/projects/$p/app_config.xml";
+            if (is_file($path)) {
+                $x .= "<br>projects/$p/<a href=$d/projects/$p/app_config.xml>app_config.xml</a>";
+            }
+        }
+    }
     row2("Input files", $x);
     end_table();
     show_button("sim_web.php?action=simulation_form&scen=$name",
