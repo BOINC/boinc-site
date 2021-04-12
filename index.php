@@ -195,13 +195,15 @@ function show_boinc() {
     ';
     echo '
         <p>
-        <a href="trac/wiki/ProjectPeople">'.tra('Contact').'</a>
+        <a href="contact.php">'.tra('Contact').'</a>
         &middot;
         <a href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
         &middot;
         <a href=logo.php>'.tra("Graphics").'</a>
         &middot;
         <a href=https://twitter.com/BoincUc><img src=images/twitter.png height=28></a>
+        &middot;
+        <a href=computing.php>Computing power</a>
     ';
 }
 
@@ -244,7 +246,7 @@ function right() {
         null,
         function() {
             show_links();
-            show_participant();
+            //show_participant();
             show_boinc();
         }
     );
