@@ -10,6 +10,8 @@
 //      in a browser to make sure you didn't mess up the XML
 // - post news item if desired
 // - add to SU if desired: su/project_init.php
+// - wget https://boinc.berkeley.edu/project_list.php and move to
+//      boinc/win_build/installerv2/redist/all_projects_list.xml
 
 require_once("../inc/util.inc");
 //require_once("../inc/translation.inc");
@@ -445,7 +447,7 @@ $mixed = array(
             "Multiple scientific areas",
             "BOINC@TACC provides computing power to U.S. researchers in multiple scientific areas.",
             "",
-            "http://boinc.tacc.utexas.edu/",
+            "https://boinc.tacc.utexas.edu/",
             "",
             array(KW_AMERICAS, KW_US)
         ),

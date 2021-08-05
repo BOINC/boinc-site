@@ -23,7 +23,7 @@ function platform_list($v) {
         $x .= $p[1];
         $x .= ", ";
     }
-    return $x;
+    return substr($x, 0, -2);
 }
 
 page_head(PROJECT);

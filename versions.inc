@@ -254,7 +254,23 @@ $w72x64 = array(
 
 ///// MAC STARTS HERE
 
-$m716 = array(
+$m716_18 = array(
+    "num"=>"7.16.18",
+    "status"=>"Development version",
+    "file"=>"boinc_7.16.18_macOSX_universal.zip",
+    "date"=>"6 Jul 2021",
+    "type"=>"mac_advanced",
+);
+
+$m716_18c = array(
+    "num"=>"7.16.18",
+    "status"=>"Development version (Unix command-line version)",
+    "file"=>"boinc_7.16.18_universal-apple-darwin.dmg",
+    "date"=>"6 Jul 2021",
+    "type"=>"bare_core",
+);
+
+$m716_14 = array(
     "num"=>"7.16.14",
     "status"=>"Recommended version",
     "file"=>"boinc_7.16.14_macOSX_universal.zip",
@@ -262,7 +278,7 @@ $m716 = array(
     "type"=>"mac_advanced",
 );
 
-$m716c = array(
+$m716_14c = array(
     "num"=>"7.16.14",
     "status"=>"Recommended version (Unix command-line version)",
     "file"=>"boinc_7.16.14_universal-apple-darwin.dmg",
@@ -422,9 +438,17 @@ $l70ubuntux64 = array(
     "type"=>"sea",
 );
 
+$a718 = array(
+    "num"=>"7.18.1",
+    "status"=>"Recommended Version",
+    "file"=>"boinc_7.18.0.apk",
+    "date"=>"5 August 2021",
+    "type"=>"apk",
+);
+
 $a716 = array(
     "num"=>"7.16.16",
-    "status"=>"Recommended Version",
+    "status"=>"Older Version",
     "file"=>"boinc_7.16.16.apk",
     "date"=>"12 Feb 2021",
     "type"=>"apk",
@@ -484,8 +508,10 @@ $mac = array(
     "description"=>"MacOS 10.9+",
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
-          $m716,
-          $m716c,
+          $m716_18,
+          $m716_18c,
+          $m716_14,
+          $m716_14c,
     )
 );
 
@@ -560,8 +586,8 @@ $android = array(
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>array(
-        $a716,
-        $a74,
+        $a718,
+        $a716
     )
 );
 

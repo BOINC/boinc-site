@@ -20,21 +20,21 @@ function show_item($y) {
     list_item(
         "Name<br><font size=-2>Click to download</font>",
         "<a href=\"$url\">".$y[1].'</a>');
-    if ($y[2]) {
+    if (isset($y[2])) {
         list_item("Version", $y[2]);
     }
-    if ($y[3]) {
+    if (isset($y[3])) {
         list_item("Summary", $y[3]);
     }
-    if ($y[4]) {
+    if (isset($y[4])) {
         list_item("Origin",
             '<a href='.$y[4].'>'.$y[4].'</a>'
         );
     }
-    if ($y[5]) {
+    if (isset($y[5])) {
         list_item("Platform", $y[5]);
     }
-    if ($y[6]) {
+    if (isset($y[6])) {
         list_item("Description", $y[6]);
     }
     list_item("Date", $d);

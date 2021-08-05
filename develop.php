@@ -32,13 +32,6 @@ client, GUI, server, account managers, statistics web sites,
 remote job submission systems, etc.
 These components communicate through
 <a href=https://boinc.berkeley.edu/trac/wiki/SoftwareAddon>a set of RPC interfaces</a>.
-<h3>The BOINC Community</h2>
-<p>
-The BOINC software development process is
-managed by an organization called
-<a href=https://boinc.berkeley.edu/trac/wiki/BoincGovernanceWorkingGroups>BOINC Community</a>,
-which decides, for example, the rules for committing changes
-to the BOINC repository.
 
 <h3>Events</h2>
 <p>
