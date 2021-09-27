@@ -81,18 +81,18 @@ $sensing = array(
 $cogsci = array(
     tra("Cognitive science and artificial intelligence"),
     array(
-        project(
-            PROJ_MINDMODELING,
-            "MindModeling@Home",
-            "https://mindmodeling.org/",
-            "University of Dayton and Wright State University",
-            tra("Cognitive Science"),
-            tra("MindModeling@Home uses computational cognitive process modeling to better understand the human mind, and specifically to study the mechanisms and processes that enable and moderate human performance and learning."),
-            "mmlogo.gif",
-            "",
-            "Model the human brain",
-            array(KW_AI, KW_AMERICAS, KW_US, KW_U_DAYTON)
-        ),
+//        project(
+//            PROJ_MINDMODELING,
+//            "MindModeling@Home",
+//            "https://mindmodeling.org/",
+//            "University of Dayton and Wright State University",
+//            tra("Cognitive Science"),
+//            tra("MindModeling@Home uses computational cognitive process modeling to better understand the human mind, and specifically to study the mechanisms and processes that enable and moderate human performance and learning."),
+//            "mmlogo.gif",
+//            "",
+//            "Model the human brain",
+//            array(KW_AI, KW_AMERICAS, KW_US, KW_U_DAYTON)
+//        ),
         project(
             PROJ_MLC,
             "MLC@Home",
@@ -146,18 +146,18 @@ $biomed = array(
             tra("Study drugs to fight SARS-CoV-2"),
             array(KW_BIOMED, KW_DISEASE, KW_VIRUS, KW_EUROPE, KW_RUSSIA)
         ),
-        project(
-            PROJ_IBERCIVIS,
-            "Ibercivis BOINC",
-            "https://boinc.ibercivis.es/ibercivis/",
-            "Consejo Superior de Investigaciones Cientifica",
-            tra("Biomedicine"),
-            tra("Simulate the interaction of drugs used against Ebola, HIV, influenza or hepatitis B with the replication machinery of the SARS-CoV-2 virus. This will show if any of the molecules inhibits a key protein in the multiplication of the virus called 'RNA-dependent RNA polymerase'. If so, the drug would become an ideal candidate for testing in human clinical trials."),
-            "ibercivis.png",
-            "",
-            tra("Help the fight against SARS-CoV-2"),
-            array(KW_BIOMED, KW_DISEASE, KW_VIRUS, KW_EUROPE, KW_SPAIN)
-        ),
+//        project(
+//            PROJ_IBERCIVIS,
+//            "Ibercivis BOINC",
+//            "https://boinc.ibercivis.es/ibercivis/",
+//            "Consejo Superior de Investigaciones Cientifica",
+//            tra("Biomedicine"),
+//            tra("Simulate the interaction of drugs used against Ebola, HIV, influenza or hepatitis B with the replication machinery of the SARS-CoV-2 virus. This will show if any of the molecules inhibits a key protein in the multiplication of the virus called 'RNA-dependent RNA polymerase'. If so, the drug would become an ideal candidate for testing in human clinical trials."),
+//            "ibercivis.png",
+//            "",
+//            tra("Help the fight against SARS-CoV-2"),
+//            array(KW_BIOMED, KW_DISEASE, KW_VIRUS, KW_EUROPE, KW_SPAIN)
+//        ),
 //        project(
 //            PROJ_DENIS,
 //            "DENIS@Home",
@@ -214,7 +214,7 @@ $earth = array(
         project(
             PROJ_CPDN,
             "Climateprediction.net",
-            "https://www.cpdn.org/",
+            "https://climateprediction.net/",
             tra("Oxford University"),
             tra("Climate study"),
             tra("Investigate the approximations that have to be made in state-of-the-art climate models. By running the model thousands of times we hope to find out how the model responds to slight tweaks to these approximations - slight enough to not make the approximations any less realistic. This will allow us to improve our understanding of how sensitive our models are to small changes and also to things like changes in carbon dioxide and the sulphur cycle. This will allow us to explore how climate may change in the next century under a wide range of different scenarios."),
@@ -391,18 +391,18 @@ $astro_phys_chem = array(
 $mixed = array(
     tra("Multiple applications"),
     array(
-        project(
-            PROJ_CSG,
-            "Citizen Science Grid",
-            "https://csgrid.org/csg/",
-            "University of North Dakota",
-            tra("Molecular biology, Computer Science"),
-            tra("The Citizen Science Grid is dedicated to supporting a wide range of research and educational projects using volunteer computing and citizen science."),
-            "",
-            "",
-            tra("Support science from the University of North Dakota"),
-            array(KW_BIOMED, KW_MATH_CS, KW_AMERICAS, KW_US, KW_UND)
-        ),
+//        project(
+//            PROJ_CSG,
+//            "Citizen Science Grid",
+//            "https://csgrid.org/csg/",
+//            "University of North Dakota",
+//            tra("Molecular biology, Computer Science"),
+//            tra("The Citizen Science Grid is dedicated to supporting a wide range of research and educational projects using volunteer computing and citizen science."),
+//            "",
+//            "",
+//            tra("Support science from the University of North Dakota"),
+//            array(KW_BIOMED, KW_MATH_CS, KW_AMERICAS, KW_US, KW_UND)
+//        ),
 //        project(
 //            PROJ_CAS,
 //            "CAS@home",
@@ -661,18 +661,18 @@ $math = array(
 //            "",
 //            array(KW_MATH_CS)
 //        ),
-        project(
-            PROJ_RAKESEARCH,
-            'RakeSearch',
-            'https://rake.boincfast.ru/rakesearch/',
-            'Karelian Research Center, Russian Academy of Sciences',
-            'Mathematics',
-            'The enormous size of the diagonal Latin squares space makes it unfeasible to enumerate all its objects straightforwardly in reasonable time. So, in order to discover the structure of this space, sophisticated search methods are needed. In RakeSearch project, we implement an application that picks up separate pairs of mutually orthogonal DLSs, which allows to reconstruct full graphs of their orthogonality.',
-            '',
-            '',
-            'Study Latin Squares',
-            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA)
-        ),
+//        project(
+//            PROJ_RAKESEARCH,
+//            'RakeSearch',
+//            'https://rake.boincfast.ru/rakesearch/',
+//            'Karelian Research Center, Russian Academy of Sciences',
+//            'Mathematics',
+//            'The enormous size of the diagonal Latin squares space makes it unfeasible to enumerate all its objects straightforwardly in reasonable time. So, in order to discover the structure of this space, sophisticated search methods are needed. In RakeSearch project, we implement an application that picks up separate pairs of mutually orthogonal DLSs, which allows to reconstruct full graphs of their orthogonality.',
+//            '',
+//            '',
+//            'Study Latin Squares',
+//            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA)
+//        ),
         project(
             PROJ_MINECRAFT,
             'Minecraft@Home',

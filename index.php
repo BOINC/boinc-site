@@ -193,18 +193,26 @@ function show_boinc() {
         <hr>
         <p>
     ';
-    echo '
+    echo sprintf('
         <p>
-        <a href="contact.php">'.tra('Contact').'</a>
+        <a href="contact.php">%s</a>
         &middot;
-        <a href="trac/wiki/BoincPapers">'.tra('Papers').'</a>
+        <a href="trac/wiki/BoincPapers">%s</a>
         &middot;
-        <a href=logo.php>'.tra("Graphics").'</a>
+        <a href=logo.php>%s</a>
         &middot;
         <a href=https://twitter.com/BoincUc><img src=images/twitter.png height=28></a>
         &middot;
-        <a href=computing.php>Computing power</a>
-    ';
+        <a href=computing.php>%s</a>
+        &middot;
+        <a href=cert_dev.php>%s</a>
+        ',
+        tra('Contact'),
+        tra('Papers'),
+        tra("Graphics"),
+        tra('Computing power'),
+        tra('Certificate')
+    );
 }
 
 function show_nsf() {

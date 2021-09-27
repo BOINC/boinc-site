@@ -254,25 +254,25 @@ $w72x64 = array(
 
 ///// MAC STARTS HERE
 
-$m716_18 = array(
-    "num"=>"7.16.18",
-    "status"=>"Development version",
-    "file"=>"boinc_7.16.18_macOSX_universal.zip",
-    "date"=>"6 Jul 2021",
+$m716_19 = array(
+    "num"=>"7.16.19",
+    "status"=>"Recommended version",
+    "file"=>"boinc_7.16.19_macOSX_universal.zip",
+    "date"=>"16 Sep 2021",
     "type"=>"mac_advanced",
 );
 
-$m716_18c = array(
-    "num"=>"7.16.18",
-    "status"=>"Development version (Unix command-line version)",
-    "file"=>"boinc_7.16.18_universal-apple-darwin.dmg",
-    "date"=>"6 Jul 2021",
+$m716_19c = array(
+    "num"=>"7.16.19",
+    "status"=>"Recommended version (Unix command-line version)",
+    "file"=>"boinc_7.16.19_universal-apple-darwin.dmg",
+    "date"=>"16 Sep 2021",
     "type"=>"bare_core",
 );
 
 $m716_14 = array(
     "num"=>"7.16.14",
-    "status"=>"Recommended version",
+    "status"=>"Older version",
     "file"=>"boinc_7.16.14_macOSX_universal.zip",
     "date"=>"30 Nov 2020",
     "type"=>"mac_advanced",
@@ -280,7 +280,7 @@ $m716_14 = array(
 
 $m716_14c = array(
     "num"=>"7.16.14",
-    "status"=>"Recommended version (Unix command-line version)",
+    "status"=>"Older version (Unix command-line version)",
     "file"=>"boinc_7.16.14_universal-apple-darwin.dmg",
     "date"=>"30 Nov 2020",
     "type"=>"bare_core",
@@ -441,7 +441,7 @@ $l70ubuntux64 = array(
 $a718 = array(
     "num"=>"7.18.1",
     "status"=>"Recommended Version",
-    "file"=>"boinc_7.18.0.apk",
+    "file"=>"boinc_7.18.1.apk",
     "date"=>"5 August 2021",
     "type"=>"apk",
 );
@@ -508,8 +508,8 @@ $mac = array(
     "description"=>"MacOS 10.9+",
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
-          $m716_18,
-          $m716_18c,
+          $m716_19,
+          $m716_19c,
           $m716_14,
           $m716_14c,
     )
