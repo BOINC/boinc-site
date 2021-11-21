@@ -430,7 +430,7 @@ $mixed = array(
         project(
             PROJ_WCG,
             "World Community Grid",
-            "http://www.worldcommunitygrid.org/",
+            "https://www.worldcommunitygrid.org/",
             tra("IBM Corporate Citizenship"),
             tra("Medical, environmental and other humanitarian research"),
             tra("To further critical non-profit research on some of humanity's most pressing problems by creating the world's largest volunteer computing grid.  Research includes HIV-AIDS, cancer, tropical and neglected diseases, solar energy, clean water and many more."),
@@ -661,18 +661,18 @@ $math = array(
 //            "",
 //            array(KW_MATH_CS)
 //        ),
-//        project(
-//            PROJ_RAKESEARCH,
-//            'RakeSearch',
-//            'https://rake.boincfast.ru/rakesearch/',
-//            'Karelian Research Center, Russian Academy of Sciences',
-//            'Mathematics',
-//            'The enormous size of the diagonal Latin squares space makes it unfeasible to enumerate all its objects straightforwardly in reasonable time. So, in order to discover the structure of this space, sophisticated search methods are needed. In RakeSearch project, we implement an application that picks up separate pairs of mutually orthogonal DLSs, which allows to reconstruct full graphs of their orthogonality.',
-//            '',
-//            '',
-//            'Study Latin Squares',
-//            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA)
-//        ),
+        project(
+            PROJ_RAKESEARCH,
+            'RakeSearch',
+            'https://rake.boincfast.ru/rakesearch/',
+            'Karelian Research Center, Russian Academy of Sciences',
+            'Mathematics',
+            'The enormous size of the diagonal Latin squares space makes it unfeasible to enumerate all its objects straightforwardly in reasonable time. So, in order to discover the structure of this space, sophisticated search methods are needed. In RakeSearch project, we implement an application that picks up separate pairs of mutually orthogonal DLSs, which allows to reconstruct full graphs of their orthogonality.',
+            '',
+            '',
+            'Study Latin Squares',
+            array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA)
+        ),
         project(
             PROJ_MINECRAFT,
             'Minecraft@Home',
@@ -738,7 +738,7 @@ $account_managers = array(
     acct_mgr(
         PROJ_GRIDREPUBLIC,
         "Gridrepublic",
-        "http://www.gridrepublic.org/",
+        "https://www.gridrepublic.org/",
         tra("Gridrepublic lets you connect your computer to multiple projects, set preferences, and view your credit history."),
         "logo_gridrepublic_vc.gif"
     ),

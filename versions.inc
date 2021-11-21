@@ -142,9 +142,19 @@ $w5816 = array(
     "type"=>"win_new",
 );
 
+$w716_20 = array(
+    "num"=>"7.16.20",
+    "status"=>"Recommended version",
+    "file"=>"boinc_7.16.20_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.16.20_windows_x86_64_vbox.exe",
+    "vbox_version"=>"6.1.12",
+    "date"=>"17 Oct 2021",
+    "type"=>"win_new",
+);
+
 $w716_11 = array(
     "num"=>"7.16.11",
-    "status"=>"Recommended version",
+    "status"=>"Older version",
     "file"=>"boinc_7.16.11_windows_x86_64.exe",
     "vbox_file"=>"boinc_7.16.11_windows_x86_64_vbox.exe",
     "vbox_version"=>"6.1.12",
@@ -498,8 +508,19 @@ $windowsx64 = array(
     "description"=>"Vista/7/8/8.1/10",
     "dbname" => "windows_x86_64",
     "versions"=> array(
-          $w716_11,
-          $w716x64,
+          $w716_20,
+    )
+);
+
+$mac_arm = array(
+    "name"=>"Apple Mac (Apple Silicon)",
+    "description"=>"MacOS 10.9+",
+    "dbname" => "arm64-apple-darwin",
+    "versions"=>array(
+          $m716_19,
+          $m716_19c,
+          $m716_14,
+          $m716_14c,
     )
 );
 
@@ -595,6 +616,7 @@ $platforms = array(
     "winx64"=>$windowsx64,
     "win"=>$windows,
     "mac"=>$mac,
+    "mac_arm"=>$mac_arm,
     "mac_10_7"=>$mac_10_7,
     "mac32"=>$mac32,
     "macppc"=>$macppc,

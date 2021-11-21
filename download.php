@@ -76,19 +76,20 @@ if (0) {
         end_table();
         echo "Linux users: BOINC is available as a package for many Linux distributions.  It is available for Linux/ARM as a package for Debian and Ubuntu for ARM, and Raspbian (for Raspberry Pi).";
     }
+    echo "<p><ul>";
     if ($pname != 'android') {
         echo "
-            <br><p>
+            <li>
             After downloading BOINC you must <b>install</b> it:
             typically this means double-clicking on the file icon
             when the download is finished.
         ";
     }
-    echo "<p>\n".tra("When you first run BOINC, you will be asked to choose a project. For instructions, see the %1BOINC User Manual%2.", "<a href=https://boinc.berkeley.edu/wiki/User_manual>", "</a>");
+    echo "<li>\n".tra("When you first run BOINC, you will be asked to choose a project. For instructions, see the %1BOINC User Manual%2.", "<a href=https://boinc.berkeley.edu/wiki/User_manual>", "</a>");
 
-    echo "<p>\n".tra("You may run this software on a computer only if you own the computer or have the permission of its owner.");
+    echo "<li>\n".tra("You may run this software on a computer only if you own the computer or have the permission of its owner.");
     echo "
-        <p>
+        </ul>
         <hr>
         <center>
         <a href=\"wiki/System_requirements\"><span class=nobr>".tra("System requirements")."</span></a>

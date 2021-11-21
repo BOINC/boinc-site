@@ -247,6 +247,7 @@ if ($xml) {
         page_head("Download BOINC client software");
         start_table("table-striped");
         foreach($platforms as $short_name=>$p) {
+            if ($short_name == 'mac_arm') continue;
             show_platform($short_name, $p, $dev);
         }
         end_table();
