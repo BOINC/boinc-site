@@ -26,8 +26,8 @@ define('NO_HOSTS', true);
 define('NO_GLOBAL_PREFS', true);
 define('POST_MAX_LINKS', 4);
 define('DARK_MODE', true);
-
 define('MODERATORS_CAN_BANISH', '1');
+define('VALIDATE_EMAIL_TO_POST', '1');
 
 function navbar($prefix, $user, $fixed) {
     $brand = '<p></p><center><a href="https://boinc.berkeley.edu"><img height="50" src="https://boinc.berkeley.edu/logo/boinc_logo.png"></a></center>';
