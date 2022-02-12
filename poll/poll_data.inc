@@ -214,7 +214,7 @@ $project_items = array(
             "help_google"=> tra("Google or other search engines"),
         ),
         "radio_name"=>false,
-        "other_name"=>help_other_text,
+        //"other_name"=>help_other_text,
     ),
 );
 

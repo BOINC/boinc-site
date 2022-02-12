@@ -1,7 +1,7 @@
 <?php
 
-require_once('../doc/docutil.php');
-require_once('../html/inc/translation.inc');
+require_once('docutil.php');
+require_once('../inc/translation.inc');
 
 $cachefile = "cache/poll_results_$language_in_use.html";
 
@@ -22,8 +22,10 @@ ob_implicit_flush(0);
 require_once('poll.inc');
 require_once('poll_data.inc');
 
-mysql_pconnect("localhost", "boincadm", null);
-mysql_select_db("poll");
+$db_conn = new mysqli("p:localhost", "boincadm", "w3Ratapat", "poll");
+
+//mysql_pconnect("localhost", "boincadm", null);
+//mysql_select_db("poll");
 
 $last_time = 0;
 
@@ -47,7 +49,12 @@ function parse_xml($resp, &$sums) {
     $lines = explode("\n", $xml);
     foreach ($lines as $line) {
         $matches = array();
-        $retval = ereg('<([^>]*)>([^<]*)', $line, $matches);
+        $retval = preg_match('/<([^>]*)>([^<]*)/', $line, $matches);
+        if (!array_key_exists(1, $matches)) {
+            //echo "line: $line\n";
+            //print_r($matches);
+            return;
+        }
         $tag = $matches[1];
         $val = $matches[2];
         if (strstr($tag, 'text')) {
@@ -59,7 +66,14 @@ function parse_xml($resp, &$sums) {
             }
         } else {
             if ($val) {
-                $sums[$tag][$val]++;
+                if (!array_key_exists($tag, $sums)) {
+                    $sums[$tag] = array();
+                }
+                if (!array_key_exists($val, $sums[$tag])) {
+                    $sums[$tag][$val] = 1;
+                } else {
+                    $sums[$tag][$val]++;
+                }
             }
         }
     }
@@ -175,8 +189,8 @@ function display_countries($sums) {
     list_item2("Nationality", $y);
 }
 $sums = array();
-$result = mysql_query("select * from response order by update_time");
-while ($resp = mysql_fetch_object($result)) {
+$result = $db_conn->query("select * from response order by update_time");
+while ($resp = $result->fetch_object()) {
     parse_xml($resp, $sums);
     if (0) {
         $x = parse_xml2($resp, $sums);
@@ -192,7 +206,7 @@ while ($resp = mysql_fetch_object($result)) {
 //exit;
 //print_r($sums);
 
-page_head(tra("Survey results"));
+old_page_head(tra("Survey results"));
 echo tra("These are the current results of the <a href=poll.php>BOINC user survey</a>.  This page is updated every hour.")."
 <p>
 ";
@@ -214,7 +228,7 @@ list_item2(
 );
 
 list_end();
-page_tail(true);
+old_page_tail(true);
 
 $f = fopen($cachefile, "w");
 fwrite($f, ob_get_contents());

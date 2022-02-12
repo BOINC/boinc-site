@@ -1,10 +1,10 @@
 <?php
 
-require_once("docutil.php");
-require_once("countries.inc");
-require_once("../html/inc/translation.inc");
-require_once("poll.inc");
-require_once("poll_data.inc");
+require_once("../inc/util.inc");
+require_once("../inc/countries.inc");
+require_once("../inc/translation.inc");
+require_once("../inc/poll.inc");
+require_once("../inc/poll_data.inc");
 
 page_head(tra("BOINC user survey"));
 
