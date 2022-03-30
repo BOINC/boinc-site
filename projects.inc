@@ -431,7 +431,7 @@ $mixed = array(
             PROJ_WCG,
             "World Community Grid",
             "https://www.worldcommunitygrid.org/",
-            tra("IBM Corporate Citizenship"),
+            tra("Krembil Research Institute"),
             tra("Medical, environmental and other humanitarian research"),
             tra("To further critical non-profit research on some of humanity's most pressing problems by creating the world's largest volunteer computing grid.  Research includes HIV-AIDS, cancer, tropical and neglected diseases, solar energy, clean water and many more."),
             "wcg.jpg",

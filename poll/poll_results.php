@@ -203,11 +203,9 @@ while ($resp = $result->fetch_object()) {
         mysql_query("delete from response where uid='$resp->uid'");
     }
 }
-//exit;
-//print_r($sums);
 
 old_page_head(tra("Survey results"));
-echo tra("These are the current results of the <a href=poll.php>BOINC user survey</a>.  This page is updated every hour.")."
+echo "The results of a survey of BOINC volunteers conducted in 2006:
 <p>
 ";
 list_start();

@@ -19,7 +19,7 @@
 require_once("../inc/util.inc");
 
 function main() {
-    page_head("Contact the BOINC Project");
+    page_head("Contact BOINC");
     echo "
         <p>
         For issues involving the BOINC software, please
@@ -29,8 +29,8 @@ function main() {
         For most other issues, please
         <a href=https://boinc.berkeley.edu/trac/wiki/EmailLists>post to the appropriate email list</a>.
         <p>
-        For issues that don't fall into any of these categories, email
-        <a href=http://boinc.berkeley.edu/anderson/>Dr. David P. Anderson</a>.
+        For anything else, email the director of BOINC,
+        <a href=http://boinc.berkeley.edu/anderson/>David P. Anderson</a>.
     ";
     page_tail();
 }

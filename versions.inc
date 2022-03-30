@@ -149,7 +149,7 @@ $w716_20 = array(
     "vbox_file"=>"boinc_7.16.20_windows_x86_64_vbox.exe",
     "vbox_version"=>"6.1.12",
     "date"=>"17 Oct 2021",
-    "type"=>"win_new",
+    "type"=>"win_new"
 );
 
 $w716_11 = array(
@@ -264,19 +264,19 @@ $w72x64 = array(
 
 ///// MAC STARTS HERE
 
-$m716_19 = array(
-    "num"=>"7.16.19",
+$m716_21 = array(
+    "num"=>"7.16.21",
     "status"=>"Recommended version",
-    "file"=>"boinc_7.16.19_macOSX_universal.zip",
-    "date"=>"16 Sep 2021",
+    "file"=>"boinc_7.16.21_macOSX_universal.zip",
+    "date"=>"23 Mar 2022",
     "type"=>"mac_advanced",
 );
 
-$m716_19c = array(
-    "num"=>"7.16.19",
+$m716_21c = array(
+    "num"=>"7.16.21",
     "status"=>"Recommended version (Unix command-line version)",
-    "file"=>"boinc_7.16.19_universal-apple-darwin.dmg",
-    "date"=>"16 Sep 2021",
+    "file"=>"boinc_7.16.21_universal-apple-darwin.dmg",
+    "date"=>"23 Mar 2022",
     "type"=>"bare_core",
 );
 
@@ -517,8 +517,8 @@ $mac_arm = array(
     "description"=>"MacOS 10.9+",
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
-          $m716_19,
-          $m716_19c,
+          $m716_21,
+          $m716_21c,
           $m716_14,
           $m716_14c,
     )
@@ -529,8 +529,8 @@ $mac = array(
     "description"=>"MacOS 10.9+",
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
-          $m716_19,
-          $m716_19c,
+          $m716_21,
+          $m716_21c,
           $m716_14,
           $m716_14c,
     )

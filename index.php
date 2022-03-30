@@ -129,9 +129,23 @@ function show_links() {
         </div>
         </div>
 
-        <hr>
     ';
     echo sprintf('
+        <p>
+        <a href=computing.php>%s</a>
+        &middot;
+        <a href=cert_dev.php>%s</a>
+        &middot;
+        <a href=https://twitter.com/BoincUc><img src=images/twitter.png height=28></a>
+        &middot;
+        <a href=poll_results.php>%s</a>
+        ',
+        tra('Computing power'),
+        tra('Certificate'),
+        tra('Poll')
+    );
+    echo sprintf('
+        <hr>
         <font size=+1>%s:</font> &nbsp; <a href=https://boinc.berkeley.edu/trac/wiki/BoincOverview>%s</a>
             &middot; <a href=https://boinc.berkeley.edu/trac/wiki/ProjectMain>Documentation</a>
         <p>
@@ -142,6 +156,25 @@ function show_links() {
         tra("Developers"),
         tra("Help maintain and develop BOINC")
     );
+    echo '
+        <p>
+    ';
+    echo sprintf('
+        <p>
+        <a href="contact.php">%s</a>
+        &middot;
+        <a href="trac/wiki/BoincPapers">%s</a>
+        &middot;
+        <a href=logo.php>%s</a>
+        &middot;
+        <a href=https://boinc.berkeley.edu/trac/wiki/BoincEvents>%s</a>
+        ',
+        tra('Contact'),
+        tra('Papers'),
+        tra("Graphics"),
+        tra("Events")
+    );
+
 }
 
 function intro() {
@@ -188,33 +221,6 @@ function call_to_action() {
     );
 }
 
-function show_boinc() {
-    echo '
-        <hr>
-        <p>
-    ';
-    echo sprintf('
-        <p>
-        <a href="contact.php">%s</a>
-        &middot;
-        <a href="trac/wiki/BoincPapers">%s</a>
-        &middot;
-        <a href=logo.php>%s</a>
-        &middot;
-        <a href=https://twitter.com/BoincUc><img src=images/twitter.png height=28></a>
-        &middot;
-        <a href=computing.php>%s</a>
-        &middot;
-        <a href=cert_dev.php>%s</a>
-        ',
-        tra('Contact'),
-        tra('Papers'),
-        tra("Graphics"),
-        tra('Computing power'),
-        tra('Certificate')
-    );
-}
-
 function show_nsf() {
     echo "
         <img hspace=8 width=120 src=images/NSF_4-Color_bitmap_Logo.png alt=\"NSF logo\">
@@ -254,8 +260,6 @@ function right() {
         null,
         function() {
             show_links();
-            //show_participant();
-            show_boinc();
         }
     );
     show_news_items();

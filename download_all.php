@@ -132,6 +132,12 @@ function show_version_xml($v, $p) {
             number_format(filesize($path)/1000000, 2)
         );
     }
+    if (array_key_exists('min_os_version', $v)) {
+        echo sprintf("    <min_os_version>%s</min_os_version>\n", $v['min_os_version']);
+    }
+    if (array_key_exists('max_os_version', $v)) {
+        echo sprintf("    <max_os_version>%s</max_os_version>\n", $v['max_os_version']);
+    }
     echo '</version>
 ';
 }
@@ -200,7 +206,7 @@ function show_platform_xml($short_name, $p, $dev) {
         // Gives us time to address any showstoppers
         // found by the early adopters
         //
-        if (!$dev && ((time() - strtotime($v["date"])) <= 86400*3)) continue;
+        //if (!$dev && ((time() - strtotime($v["date"])) <= 86400*3)) continue;
         show_version_xml($v, $p);
     }
 }
@@ -245,6 +251,13 @@ if ($xml) {
         end_table();
     } else {
         page_head("Download BOINC client software");
+        echo "
+            <p>
+            <font color=red>NOTE</font>: older versions may require
+            <a href=ca_bundle.php>updating the CA bundle file</a>
+            in order to communicate with some projects.
+            <p>
+        ";
         start_table("table-striped");
         foreach($platforms as $short_name=>$p) {
             if ($short_name == 'mac_arm') continue;
