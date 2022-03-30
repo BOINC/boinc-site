@@ -45,16 +45,39 @@ function linux_info() {
     ";
 }
 
-$w716 = array(
-    "num"=>"7.16.3",
-    "status"=>"Development version",
-    "file"=>"boinc_7.16.3_windows_intelx86.exe",
-    "vbox_file"=>"boinc_7.16.3_windows_intelx86_vbox.exe",
-    "vbox_version"=>"5.2.8",
-    "date"=>"29 September 2019",
-    "type"=>"win_new",
+// ------------   NEW VERSIONS GO BELOW -------------
+//
+// When you add versions:
+// 1) put them in the right place
+// 2) delete unused versions
+
+// List of platforms.
+// Each has a list of versions, then a structure in which "versions"
+// lists versions in reverse time order.
+// i.e. the first non-dev version is the current one
+
+// -------------- Windows 64-bit -------------------
+
+$w716_20 = array(
+    "num"=>"7.16.20",
+    "status"=>"Recommended version",
+    "file"=>"boinc_7.16.20_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.16.20_windows_x86_64_vbox.exe",
+    "vbox_version"=>"6.1.12",
+    "date"=>"17 Oct 2021",
+    "type"=>"win_new"
 );
 
+$windowsx64 = array(
+    "name"=>"Windows 64-bit",
+    "description"=>"Vista/7/8/8.1/10",
+    "dbname" => "windows_x86_64",
+    "versions"=> array(
+          $w716_20,
+    )
+);
+
+// -------------- Windows 32-bit -------------------
 
 $w714 = array(
     "num"=>"7.14.2",
@@ -63,66 +86,6 @@ $w714 = array(
     "vbox_file"=>"boinc_7.14.2_windows_intelx86_vbox.exe",
     "vbox_version"=>"5.2.8",
     "date"=>"11 October 2018",
-    "type"=>"win_new",
-);
-
-$w712 = array(
-    "num"=>"7.12.1",
-    "status"=>"Older version",
-    "file"=>"boinc_7.12.1_windows_intelx86.exe",
-    "vbox_file"=>"boinc_7.12.1_windows_intelx86_vbox.exe",
-    "vbox_version"=>"5.2.8",
-    "date"=>"12 July 2018",
-    "type"=>"win_new",
-);
-
-$w710 = array(
-    "num"=>"7.10.2",
-    "status"=>"Older version",
-    "file"=>"boinc_7.10.2_windows_intelx86.exe",
-    "vbox_file"=>"boinc_7.10.2_windows_intelx86_vbox.exe",
-    "vbox_version"=>"5.2.8",
-    "date"=>"3 May 2018",
-    "type"=>"win_new",
-);
-
-$w78 = array(
-    "num"=>"7.8.3",
-    "status"=>"Older version",
-    "file"=>"boinc_7.8.3_windows_intelx86.exe",
-    "vbox_file"=>"boinc_7.8.3_windows_intelx86_vbox.exe",
-    "vbox_version"=>"5.1.26",
-    "date"=>"3 Oct 2017",
-    "type"=>"win_new",
-);
-
-$w77 = array(
-    "num"=>"7.7.2",
-    "status"=>"Older version",
-    "file"=>"boinc_7.7.2_windows_intelx86.exe",
-    "vbox_file"=>"boinc_7.7.2_windows_intelx86_vbox.exe",
-    "vbox_version"=>"5.1.18",
-    "date"=>"25 Mar 2017",
-    "type"=>"win_new",
-);
-
-$w76 = array(
-    "num"=>"7.6.33",
-    "status"=>"Older version",
-    "file"=>"boinc_7.6.33_windows_intelx86.exe",
-    "vbox_file"=>"boinc_7.6.33_windows_intelx86_vbox.exe",
-    "vbox_version"=>"5.0.18",
-    "date"=>"5 Jun 2016",
-    "type"=>"win_new",
-);
-
-$w74 = array(
-    "num"=>"7.4.42",
-    "status"=>"Older version",
-    "file"=>"boinc_7.4.42_windows_intelx86.exe",
-    "vbox_file"=>"boinc_7.4.42_windows_intelx86_vbox.exe",
-    "vbox_version"=>"4.3.12",
-    "date"=>"10 Mar 2015",
     "type"=>"win_new",
 );
 
@@ -142,127 +105,34 @@ $w5816 = array(
     "type"=>"win_new",
 );
 
-$w716_20 = array(
-    "num"=>"7.16.20",
-    "status"=>"Recommended version",
-    "file"=>"boinc_7.16.20_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.16.20_windows_x86_64_vbox.exe",
-    "vbox_version"=>"6.1.12",
-    "date"=>"17 Oct 2021",
-    "type"=>"win_new"
+$windows = array(
+    "name"=>"Windows 32-bit",
+    "description"=>"XP/Vista/7/8/8.1/10",
+    "dbname" => "windows_intelx86",
+    "versions"=>array(
+          $w714,
+          $w66,
+          $w5816,
+    )
 );
 
-$w716_11 = array(
-    "num"=>"7.16.11",
-    "status"=>"Older version",
-    "file"=>"boinc_7.16.11_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.16.11_windows_x86_64_vbox.exe",
-    "vbox_version"=>"6.1.12",
-    "date"=>"2 Sept 2020",
-    "type"=>"win_new",
-);
+// --------------- ARM (not used) --------------------
 
-$w716x64 = array(
-    "num"=>"7.16.7",
-    "status"=>"Older version",
-    "file"=>"boinc_7.16.7_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.16.7_windows_x86_64_vbox.exe",
-    "vbox_version"=>"6.0.14",
-    "date"=>"28 May 2020",
-    "type"=>"win_new",
+if (0) {
+$mac_arm = array(
+    "name"=>"Apple Mac (Apple Silicon)",
+    "description"=>"MacOS 10.9+",
+    "dbname" => "arm64-apple-darwin",
+    "versions"=>array(
+          $m716_21,
+          $m716_21c,
+          $m716_14,
+          $m716_14c,
+    )
 );
+}
 
-$w716_5x64 = array(
-    "num"=>"7.16.5",
-    "status"=>"Older version",
-    "file"=>"boinc_7.16.5_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.16.5_windows_x86_64_vbox.exe",
-    "vbox_version"=>"6.0.14",
-    "date"=>"10 March 2020",
-    "type"=>"win_new",
-);
-
-$w714x64 = array(
-    "num"=>"7.14.2",
-    "status"=>"Older version",
-    "file"=>"boinc_7.14.2_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.14.2_windows_x86_64_vbox.exe",
-    "vbox_version"=>"5.2.8",
-    "date"=>"11 October 2018",
-    "type"=>"win_new",
-);
-
-$w712x64 = array(
-    "num"=>"7.12.1",
-    "status"=>"Older version",
-    "file"=>"boinc_7.12.1_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.12.1_windows_x86_64_vbox.exe",
-    "vbox_version"=>"5.2.8",
-    "date"=>"12 July 2018",
-    "type"=>"win_new",
-);
-
-$w710x64 = array(
-    "num"=>"7.10.2",
-    "status"=>"Older version",
-    "file"=>"boinc_7.10.2_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.10.2_windows_x86_64_vbox.exe",
-    "vbox_version"=>"5.2.8",
-    "date"=>"3 May 2018",
-    "type"=>"win_new",
-);
-
-$w78x64 = array(
-    "num"=>"7.8.3",
-    "status"=>"Older version",
-    "file"=>"boinc_7.8.3_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.8.3_windows_x86_64_vbox.exe",
-    "vbox_version"=>"5.1.26",
-    "date"=>"3 Oct 2017",
-    "type"=>"win_new",
-);
-
-$w77x64 = array(
-    "num"=>"7.7.2",
-    "status"=>"Development version",
-    "file"=>"boinc_7.7.2_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.7.2_windows_x86_64_vbox.exe",
-    "vbox_version"=>"5.1.18",
-    "date"=>"25 Mar 2017",
-    "type"=>"win_new",
-);
-
-$w76x64 = array(
-    "num"=>"7.6.33",
-    "status"=>"Older version",
-    "file"=>"boinc_7.6.33_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.6.33_windows_x86_64_vbox.exe",
-    "vbox_version"=>"5.0.18",
-    "date"=>"5 Jun 2016",
-    "type"=>"win_new",
-);
-
-$w74x64 = array(
-    "num"=>"7.4.42",
-    "status"=>"Older version",
-    "file"=>"boinc_7.4.42_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.4.42_windows_x86_64_vbox.exe",
-    "vbox_version"=>"4.3.12",
-    "date"=>"10 Mar 2015",
-    "type"=>"win_new",
-);
-
-$w72x64 = array(
-    "num"=>"7.2.42",
-    "status"=>"Older version",
-    "file"=>"boinc_7.2.42_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.2.42_windows_x86_64_vbox.exe",
-    "vbox_version"=>"4.2.16",
-    "date"=>"28 Feb 2014",
-    "type"=>"win_new",
-);
-
-///// MAC STARTS HERE
+// --------------- Mac Intel 64  or ARM --------------------
 
 $m716_21 = array(
     "num"=>"7.16.21",
@@ -270,6 +140,8 @@ $m716_21 = array(
     "file"=>"boinc_7.16.21_macOSX_universal.zip",
     "date"=>"23 Mar 2022",
     "type"=>"mac_advanced",
+    "min_os_version"=>"100900",
+    "max_os_version"=>"999999",
 );
 
 $m716_21c = array(
@@ -278,6 +150,8 @@ $m716_21c = array(
     "file"=>"boinc_7.16.21_universal-apple-darwin.dmg",
     "date"=>"23 Mar 2022",
     "type"=>"bare_core",
+    "min_os_version"=>"100900",
+    "max_os_version"=>"999999",
 );
 
 $m716_14 = array(
@@ -286,6 +160,8 @@ $m716_14 = array(
     "file"=>"boinc_7.16.14_macOSX_universal.zip",
     "date"=>"30 Nov 2020",
     "type"=>"mac_advanced",
+    "min_os_version"=>"100900",
+    "max_os_version"=>"999999",
 );
 
 $m716_14c = array(
@@ -294,30 +170,32 @@ $m716_14c = array(
     "file"=>"boinc_7.16.14_universal-apple-darwin.dmg",
     "date"=>"30 Nov 2020",
     "type"=>"bare_core",
+    "min_os_version"=>"100900",
+    "max_os_version"=>"999999",
 );
 
-$m716_6 = array(
-    "num"=>"7.16.6",
-    "status"=>"Older version",
-    "file"=>"boinc_7.16.6_macOSX_x86_64.zip",
-    "date"=>"3 April 2020",
-    "type"=>"mac_advanced",
+$mac = array(
+    "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
+    "description"=>"MacOS 10.9+",
+    "dbname" => "x86_64-apple-darwin",
+    "versions"=>array(
+          $m716_21,
+          $m716_21c,
+          $m716_14,
+          $m716_14c,
+    )
 );
 
-$m716_6c = array(
-    "num"=>"7.16.6",
-    "status"=>"Older version (Unix command-line version)",
-    "file"=>"boinc_7.16.6_x86_64-apple-darwin.zip",
-    "date"=>"3 April 2020",
-    "type"=>"bare_core",
-   ); 
-   
+// --------------- Mac Intel 64 --------------------
+
 $m716_11 = array(
     "num"=>"7.16.11",
     "status"=>"Recommended version",
     "file"=>"boinc_7.16.11_macOSX_x86_64.zip",
     "date"=>"30 Aug 2020",
     "type"=>"mac_advanced",
+    "min_os_version"=>"100700",
+    "max_os_version"=>"100899",
 );
 
 $m716_11c = array(
@@ -326,38 +204,52 @@ $m716_11c = array(
     "file"=>"boinc_7.16.11_x86_64-apple-darwin.zip",
     "date"=>"30 Aug 2020",
     "type"=>"bare_core",
-   ); 
+    "min_os_version"=>"100700",
+    "max_os_version"=>"100899",
+); 
    
+$m716_6 = array(
+    "num"=>"7.16.6",
+    "status"=>"Older version",
+    "file"=>"boinc_7.16.6_macOSX_x86_64.zip",
+    "date"=>"3 April 2020",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"100700",
+    "max_os_version"=>"100899",
+);
+
+$m716_6c = array(
+    "num"=>"7.16.6",
+    "status"=>"Older version (Unix command-line version)",
+    "file"=>"boinc_7.16.6_x86_64-apple-darwin.zip",
+    "date"=>"3 April 2020",
+    "type"=>"bare_core",
+    "min_os_version"=>"100700",
+    "max_os_version"=>"100899",
+); 
+   
+$mac_10_7 = array(
+    "name"=>"Apple Mac (64-bit Intel)",
+    "description"=>"MacOS 10.7 - 10.15",
+    "dbname" => "x86_64-apple-darwin",
+    "versions"=>array(
+          $m716_11,
+          $m716_11c,
+          $m716_6,
+          $m716_6c,
+    )
+);
+
+// --------------- Mac Intel 32/64 --------------------
+
 $m72 = array(
     "num"=>"7.2.42",
     "status"=>"Recommended version",
     "file"=>"boinc_7.2.42_macOSX_i686.zip",
     "date"=>"28 Feb 2014",
     "type"=>"mac_advanced",
-);
-
-$m612_ppc = array(
-    "num"=>"6.12.35",
-    "status"=>"Recommended version",
-    "file"=>"boinc_6.12.35_macOSX_universal.zip",
-    "date"=>"11 Aug 2011",
-    "type"=>"mac_advanced",
-);
-
-$m66 = array(
-    "num"=>"6.6.36",
-    "status"=>"Older version (standard GUI) (works on OS 10.3.9 - OS 10.5.8)",
-    "file"=>"boinc_6.6.36_macOSX_universal.zip",
-    "date"=>"10 June 2009",
-    "type"=>"mac_advanced",
-);
-
-$mupdater = array(
-    "num"=>"any",
-    "status"=>"Certificate updater for old versions of BOINC (works on OS 10.3.9 - OS 10.5.8)",
-    "file"=>"update_boinc_certificate.zip",
-    "date"=>"28 April 2018",
-    "type"=>"cert_updater",
+    "min_os_version"=>"100400",
+    "max_os_version"=>"100699",
 );
 
 $m72c = array(
@@ -366,6 +258,39 @@ $m72c = array(
     "file"=>"boinc_7.2.42_i686-apple-darwin.zip",
     "date"=>"28 Feb 2014",
     "type"=>"bare_core",
+    "min_os_version"=>"100400",
+    "max_os_version"=>"100699",
+);
+
+$mupdater = array(
+    "num"=>"any",
+    "status"=>"Certificate updater for old versions of BOINC before 7.9.1 only",
+    "file"=>"update_boinc_certificate.zip",
+    "date"=>"28 April 2018",
+    "type"=>"cert_updater",
+);
+
+$mac32 = array(
+    "name"=>"Apple Mac (32-bit or 64-bit Intel)",
+    "description"=>"MacOS 10.4.0+",
+    "dbname" => "x86_64-apple-darwin",
+    "versions"=>array(
+          $m72,
+          $m72c,
+          $mupdater,
+    )
+);
+
+// --------------- Mac PowerPC --------------------
+
+$m612_ppc = array(
+    "num"=>"6.12.35",
+    "status"=>"Recommended version",
+    "file"=>"boinc_6.12.35_macOSX_universal.zip",
+    "date"=>"11 Aug 2011",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"100400",
+    "max_os_version"=>"100699",
 );
 
 $m612c_ppc = array(
@@ -374,6 +299,18 @@ $m612c_ppc = array(
     "file"=>"boinc_6.12.35_universal-apple-darwin.zip",
     "date"=>"11 Aug 2011",
     "type"=>"bare_core",
+    "min_os_version"=>"100400",
+    "max_os_version"=>"100699",
+);
+
+$m66 = array(
+    "num"=>"6.6.36",
+    "status"=>"Older version (standard GUI) (works on OS 10.3.9 - OS 10.5.8)",
+    "file"=>"boinc_6.6.36_macOSX_universal.zip",
+    "date"=>"10 June 2009",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"100309",
+    "max_os_version"=>"100599",
 );
 
 $m66c = array(
@@ -382,39 +319,23 @@ $m66c = array(
     "file"=>"boinc_6.6.36_universal-apple-darwin.zip",
     "date"=>"10 June 2009",
     "type"=>"bare_core",
+    "min_os_version"=>"100309",
+    "max_os_version"=>"100599",
 );
 
-$l612 = array(
-    "num"=>"6.12.22",
-    "status"=>"Recommended version",
-    "file"=>"boinc_compat_6.12.22_i686-pc-linux-gnu.sh",
-    "date"=>"6 Apr 2011",
-    "type"=>"sea",
+$macppc = array(
+    "name"=>"Apple Mac (Power PC or 32-bit Intel)",
+    "description"=>"MacOS 10.4.0+",
+    "dbname" => "powerpc-apple-darwin",
+    "versions"=>array(
+        $m612_ppc,
+        $m612c_ppc,
+        $m66,
+        $m66c,
+    )
 );
 
-$l74ubuntudev = array(
-    "num"=>"7.4.22",
-    "status"=>"Recommended version",
-    "file"=>"boinc_7.4.22_i686-pc-linux-gnu.sh",
-    "date"=>"17 Sept 2014",
-    "type"=>"sea",
-);
-
-$l72ubuntu = array(
-    "num"=>"7.2.42",
-    "status"=>"Recommended version",
-    "file"=>"boinc_7.2.42_i686-pc-linux-gnu.sh",
-    "date"=>"28 Feb 2014",
-    "type"=>"sea",
-);
-
-$l70ubuntu = array(
-    "num"=>"7.0.65",
-    "status"=>"Older version",
-    "file"=>"boinc_7.0.65_i686-pc-linux-gnu.sh",
-    "date"=>"17 Apr 2013",
-    "type"=>"sea",
-);
+// --------------- Linux 64-bit --------------------
 
 $l716ubuntux64dev = array(
     "num"=>"7.16.6",
@@ -432,21 +353,55 @@ $l74ubuntux64dev = array(
     "type"=>"sea",
 );
 
-$l72ubuntux64 = array(
-    "num"=>"7.2.42",
+$linuxx64 = array(
+    "name"=>"Linux x64",
+    "description"=> linux_info(),
+    "dbname" => "x86_64-pc-linux-gnu",
+    "versions"=>array(
+          $l716ubuntux64dev,
+          $l74ubuntux64dev,
+    )
+);
+
+// --------------- Linux 32-bit --------------------
+
+$l74ubuntudev = array(
+    "num"=>"7.4.22",
     "status"=>"Recommended version",
-    "file"=>"boinc_7.2.42_x86_64-pc-linux-gnu.sh",
-    "date"=>"28 Feb 2014",
+    "file"=>"boinc_7.4.22_i686-pc-linux-gnu.sh",
+    "date"=>"17 Sept 2014",
     "type"=>"sea",
 );
 
-$l70ubuntux64 = array(
-    "num"=>"7.0.65",
-    "status"=>"Older version",
-    "file"=>"boinc_7.0.65_x86_64-pc-linux-gnu.sh",
-    "date"=>"17 Apr 2013",
+$linux = array(
+    "name"=>"Linux x86",
+    "description"=> linux_info(),
+    "dbname" => "i686-pc-linux-gnu",
+    "versions"=>array(
+          $l74ubuntudev,
+    )
+);
+
+// --------------- Older Linux --------------------
+
+$l612 = array(
+    "num"=>"6.12.22",
+    "status"=>"Recommended version",
+    "file"=>"boinc_compat_6.12.22_i686-pc-linux-gnu.sh",
+    "date"=>"6 Apr 2011",
     "type"=>"sea",
 );
+
+$linuxcompat = array(
+    "name"=>"Older Linux x86 and x64",
+    "description"=>"For older Linux versions, both x86 and x64; command-line interface only",
+    "dbname" => "i686-pc-linux-gnu",
+    "versions"=>array(
+        $l612,
+    )
+);
+
+// --------------- Android --------------------
 
 $a718 = array(
     "num"=>"7.18.1",
@@ -464,141 +419,6 @@ $a716 = array(
     "type"=>"apk",
 );
 
-$a74dev = array(
-    "num"=>"7.4.31",
-    "status"=>"Development Version",
-    "file"=>"boinc_7.4.31.apk",
-    "date"=>"26 Nov 2014",
-    "type"=>"apk",
-);
-
-$a74 = array(
-    "num"=>"7.4.53",
-    "status"=>"Older Version",
-    "file"=>"boinc_7.4.53.apk",
-    "date"=>"3 Jul 2016",
-    "type"=>"apk",
-);
-
-$a74dev = array(
-    "num"=>"7.4.43",
-    "status"=>"Development Version",
-    "file"=>"boinc_7.4.43.apk",
-    "date"=>"15 Apr 2016",
-    "type"=>"apk",
-);
-
-// platform descriptors.  For each one, "versions"
-// lists versions in reverse time order.
-// i.e. the first non-dev version is the current one
-
-$windows = array(
-    "name"=>"Windows 32-bit",
-    "description"=>"XP/Vista/7/8/8.1/10",
-    "dbname" => "windows_intelx86",
-    "versions"=>array(
-          $w714,
-          $w66,
-          $w5816,
-    )
-);
-
-$windowsx64 = array(
-    "name"=>"Windows 64-bit",
-    "description"=>"Vista/7/8/8.1/10",
-    "dbname" => "windows_x86_64",
-    "versions"=> array(
-          $w716_20,
-    )
-);
-
-$mac_arm = array(
-    "name"=>"Apple Mac (Apple Silicon)",
-    "description"=>"MacOS 10.9+",
-    "dbname" => "arm64-apple-darwin",
-    "versions"=>array(
-          $m716_21,
-          $m716_21c,
-          $m716_14,
-          $m716_14c,
-    )
-);
-
-$mac = array(
-    "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
-    "description"=>"MacOS 10.9+",
-    "dbname" => "x86_64-apple-darwin",
-    "versions"=>array(
-          $m716_21,
-          $m716_21c,
-          $m716_14,
-          $m716_14c,
-    )
-);
-
-$mac_10_7 = array(
-    "name"=>"Apple Mac (64-bit Intel)",
-    "description"=>"MacOS 10.7 - 10.15",
-    "dbname" => "x86_64-apple-darwin",
-    "versions"=>array(
-          $m716_11,
-          $m716_11c,
-          $m716_6,
-          $m716_6c,
-    )
-);
-
-$mac32 = array(
-    "name"=>"Apple Mac (32-bit or 64-bit Intel)",
-    "description"=>"MacOS 10.4.0+",
-    "dbname" => "x86_64-apple-darwin",
-    "versions"=>array(
-          $m72,
-          $m72c,
-    )
-);
-
-$macppc = array(
-    "name"=>"Apple Mac (Power PC or 32-bit Intel)",
-    "description"=>"MacOS 10.4.0+",
-    "dbname" => "powerpc-apple-darwin",
-    "versions"=>array(
-        $m612_ppc,
-        $m612c_ppc,
-        $mupdater,
-    )
-);
-
-$linux = array(
-    "name"=>"Linux x86",
-    "description"=> linux_info(),
-    "dbname" => "i686-pc-linux-gnu",
-    "versions"=>array(
-          $l74ubuntudev,
-          //$l72ubuntu,
-    )
-);
-
-$linuxx64 = array(
-    "name"=>"Linux x64",
-    "description"=> linux_info(),
-    "dbname" => "x86_64-pc-linux-gnu",
-    "versions"=>array(
-          $l716ubuntux64dev,
-          $l74ubuntux64dev,
-          //$l72ubuntux64,
-    )
-);
-
-$linuxcompat = array(
-    "name"=>"Older Linux x86 and x64",
-    "description"=>"For older Linux versions, both x86 and x64; command-line interface only",
-    "dbname" => "i686-pc-linux-gnu",
-    "versions"=>array(
-        $l612,
-    )
-);
-
 $android = array(
     "name"=>"Android",
     "description"=>"Android version 4.1 and later for ARM, AArch64, MIPS, MIPS64, x86, and x86_64
@@ -612,11 +432,13 @@ $android = array(
     )
 );
 
+// -------------- END OF PLATFORMS -------------------
+
 $platforms = array(
     "winx64"=>$windowsx64,
     "win"=>$windows,
     "mac"=>$mac,
-    "mac_arm"=>$mac_arm,
+//    "mac_arm"=>$mac_arm,
     "mac_10_7"=>$mac_10_7,
     "mac32"=>$mac32,
     "macppc"=>$macppc,
