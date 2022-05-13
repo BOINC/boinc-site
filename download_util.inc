@@ -110,6 +110,9 @@ function download_link(
         if (!$vbox_file || !$vbox_req) {
             button_link($url, $long_name, $size, $num, !$vbox_file);
         }
+        if ($pname == 'mac') {
+            echo "<br><br>This version of BOINC requires MacOS 10.9 or later.<br>For older versions of MacOS, go <a href=download_all.php>here</a>.";
+        }
         echo "</td></tr></table>\n";
         if ($pname == 'linux'||$pname == 'linuxx64') {
             echo "<p>", linux_info();

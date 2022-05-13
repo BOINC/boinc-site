@@ -42,7 +42,7 @@ function show_download($client_info, $pname) {
         <table cellpadding=10><tr><td valign=top>
         <p>
     ";
-    echo tra("BOINC is a program that lets you donate your idle computer time to science projects like SETI@home, Climateprediction.net, Rosetta@home, World Community Grid, and many others.");
+    echo tra("BOINC is a program that lets you donate your idle computer time to science projects like Climateprediction.net, Rosetta@home, GPUGrid, and many others.");
     echo "\n";
     echo tra("After installing BOINC on your computer, you can connect it to as many of these projects as you like.");
     echo "\n<p>";

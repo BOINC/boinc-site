@@ -23,7 +23,7 @@ function get_other_projects_cpid($cpid) {
             }
             ini_set('default_socket_timeout', $old_timeout);
             if (!$xml_object) {
-                return $user;
+                return null;
             }
         } else {
             $ch = curl_init($url);
@@ -39,7 +39,7 @@ function get_other_projects_cpid($cpid) {
             }
             curl_close($ch);
             if (!$xml_object) {
-                return $user;
+                return null;
             }
         }
 

@@ -697,6 +697,18 @@ $math = array(
             'Discover new mathematical formulas',
             array(KW_MATH_CS)
         ),
+        project(
+            PROJ_LODA,
+            'LODA',
+            'https://boinc.loda-lang.org/loda/',
+            'Independent',
+            'Mathematics',
+            'The goal of LODA is to find new formulas and more efficient algorithms for a range of integer sequences.',
+            '',
+            '',
+            'Mine mathematical programs',
+            array(KW_MATH_CS)
+        ),
     ),
 );
 

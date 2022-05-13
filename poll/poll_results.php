@@ -114,7 +114,10 @@ function other_link($sums, $other_name, $link_text, $ntotal) {
 function display_choice($sums, $choice, $ntotal) {
     global $run_boinc;
     $text = $choice['text'];
-    $rname = $choice['rname'];
+    $rname = null;
+    if (array_key_exists('rname', $choice)) {
+        $rname = $choice['rname'];
+    }
     $radio_name = $choice['radio_name'];
     if ($rname) {
         $n = $sums[$run_boinc][$rname];

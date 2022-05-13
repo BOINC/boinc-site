@@ -327,7 +327,7 @@ function get_platform_icons($url) {
 //$u = "http://lhcathome2.cern.ch/test4theory";
 //$u = "http://www.rnaworld.de/rnaworld/";
 //$u = "http://boinc.gorlaeus.net/";
-//$u = "https://mindmodeling.org/";
+//$u = "https://www.ramanujamachine.com/";
 //$x = get_platforms_cached($u);
 //print_r($x);
 //$x = get_platforms2($u);

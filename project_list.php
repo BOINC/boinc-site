@@ -50,7 +50,7 @@ foreach($proj_list as $p) {
         <description><![CDATA[$p->description]]></description>
         <home>$p->home</home>
 ";
-    $platforms = get_platforms_cached($p->web_url);
+    $platforms = get_platforms_cached($p->master_url);
     if ($platforms) {
         echo "    <platforms>\n";
         foreach ($platforms as $platform) {

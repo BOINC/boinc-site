@@ -116,23 +116,7 @@ $windows = array(
     )
 );
 
-// --------------- ARM (not used) --------------------
-
-if (0) {
-$mac_arm = array(
-    "name"=>"Apple Mac (Apple Silicon)",
-    "description"=>"MacOS 10.9+",
-    "dbname" => "arm64-apple-darwin",
-    "versions"=>array(
-          $m716_21,
-          $m716_21c,
-          $m716_14,
-          $m716_14c,
-    )
-);
-}
-
-// --------------- Mac Intel 64  or ARM --------------------
+// --------------- Mac Intel 64 or ARM --------------------
 
 $m716_21 = array(
     "num"=>"7.16.21",
@@ -174,10 +158,29 @@ $m716_14c = array(
     "max_os_version"=>"999999",
 );
 
+// Mac Universal builds contain code for both Intel 64 and 
+// Apple Silicon (ARM64) Macs, but the two architectures 
+// report different primary platforms so we need to include
+// these builds in both the $mac and $mac_arm arrays for
+// the client's New Version Check code to handle them properly.
+// See GitHub Issue #4551 for more details.
+
 $mac = array(
     "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
     "description"=>"MacOS 10.9+",
     "dbname" => "x86_64-apple-darwin",
+    "versions"=>array(
+          $m716_21,
+          $m716_21c,
+          $m716_14,
+          $m716_14c,
+    )
+);
+
+$mac_arm = array(
+    "name"=>"Apple Mac (Apple Silicon)",
+    "description"=>"MacOS 10.9+",
+    "dbname" => "arm64-apple-darwin",
     "versions"=>array(
           $m716_21,
           $m716_21c,
@@ -345,7 +348,7 @@ $l716ubuntux64dev = array(
     "type"=>"sea",
 );
 
-$l74ubuntux64dev = array(
+$l74ubuntux64 = array(
     "num"=>"7.4.22",
     "status"=>"Recommended version",
     "file"=>"boinc_7.4.22_x86_64-pc-linux-gnu.sh",
@@ -359,13 +362,13 @@ $linuxx64 = array(
     "dbname" => "x86_64-pc-linux-gnu",
     "versions"=>array(
           $l716ubuntux64dev,
-          $l74ubuntux64dev,
+          $l74ubuntux64,
     )
 );
 
 // --------------- Linux 32-bit --------------------
 
-$l74ubuntudev = array(
+$l74ubuntu = array(
     "num"=>"7.4.22",
     "status"=>"Recommended version",
     "file"=>"boinc_7.4.22_i686-pc-linux-gnu.sh",
@@ -378,7 +381,7 @@ $linux = array(
     "description"=> linux_info(),
     "dbname" => "i686-pc-linux-gnu",
     "versions"=>array(
-          $l74ubuntudev,
+          $l74ubuntu,
     )
 );
 
@@ -438,7 +441,7 @@ $platforms = array(
     "winx64"=>$windowsx64,
     "win"=>$windows,
     "mac"=>$mac,
-//    "mac_arm"=>$mac_arm,
+    "mac_arm"=>$mac_arm,
     "mac_10_7"=>$mac_10_7,
     "mac32"=>$mac32,
     "macppc"=>$macppc,
