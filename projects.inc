@@ -158,18 +158,18 @@ $biomed = array(
 //            tra("Help the fight against SARS-CoV-2"),
 //            array(KW_BIOMED, KW_DISEASE, KW_VIRUS, KW_EUROPE, KW_SPAIN)
 //        ),
-//        project(
-//            PROJ_DENIS,
-//            "DENIS@Home",
-//            "https://denis.usj.es/denisathome/",
-//            "San Jorge University, Zaragoza, Spain",
-//            tra("Medical physiology"),
-//            tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
-//            "",
-//            "http://denis.usj.es/denisathome/",
-//            "Study the physiology of the heart",
-//            array(KW_BIOMED, KW_EUROPE, KW_SPAIN)
-//        ),
+        project(
+            PROJ_DENIS,
+            "DENIS@Home",
+            "https://denis.usj.es/denisathome/",
+            "San Jorge University, Zaragoza, Spain",
+            tra("Medical physiology"),
+            tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
+            "",
+            "http://denis.usj.es/denisathome/",
+            "Study the physiology of the heart",
+            array(KW_BIOMED, KW_EUROPE, KW_SPAIN)
+        ),
         project(
             PROJ_RNA_WORLD,
             "RNA World",
@@ -232,7 +232,7 @@ $astro_phys_chem = array(
             PROJ_QUCHEM,
             "QuChemPedIA@home",
             "https://quchempedia.univ-angers.fr/athome/",
-            "Université Anger",
+            "Université d’Angers",
             "Molecular Chemistry",
             "This project will create an open platform to solve and store quantum molecular chemistry results, and will develop artificial intelligence and optimization methods in order to efficiently explore the highly combinatorial molecular space.",
             "",
@@ -439,18 +439,18 @@ $mixed = array(
             tra("Do biomedical and environmental research"),
             array(KW_BIOMED, KW_DRUG_DISCOVERY, KW_CANCER, KW_VIRUS, KW_EARTH_SCI, KW_AMERICAS, KW_US)
         ),
-        project(
-            PROJ_TACC,
-            "BOINC@TACC",
-            "https://boinc.tacc.utexas.edu/",
-            "Texas Advanced Computing Center",
-            "Multiple scientific areas",
-            "BOINC@TACC provides computing power to U.S. researchers in multiple scientific areas.",
-            "",
-            "https://boinc.tacc.utexas.edu/",
-            "",
-            array(KW_AMERICAS, KW_US)
-        ),
+//        project(
+//            PROJ_TACC,
+//            "BOINC@TACC",
+//            "https://boinc.tacc.utexas.edu/",
+//            "Texas Advanced Computing Center",
+//            "Multiple scientific areas",
+//            "BOINC@TACC provides computing power to U.S. researchers in multiple scientific areas.",
+//            "",
+//            "https://boinc.tacc.utexas.edu/",
+//            "",
+//            array(KW_AMERICAS, KW_US)
+//        ),
     ),
 );
 $math = array(

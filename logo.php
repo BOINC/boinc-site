@@ -32,14 +32,14 @@ Its arms represent the convergence of separated things
 (such as computers) into a unified whole.
 The colors are based on U.C. Berkeley's blue-and-gold colors.
 <p>
-The BOINC logo and its variants are in the public domain.
+The BOINC logo and its variants are copyright (C) University of California.
 If you use one of them in a web page,
-we ask that you link it to the BOINC web site
+you must link it to the BOINC web site
 (currently https://boinc.berkeley.edu)
 or display this URL near the image.
 <p>
-The volunteer-supplied images on this page are owned by
-their respectice creators; contact them for license info.
+The other volunteer-supplied images on this page are owned by
+their respective creators; contact them for license info.
 <ul>
 <li> <a href=logo/www_logo.gif>164x73 version (GIFF)</a>
 <li> <a href=logo/boinc_600.jpg>600x305 version (JPEG)</a>

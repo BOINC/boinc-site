@@ -253,10 +253,13 @@ if ($xml) {
         page_head("Download BOINC client software");
         echo "
             <p>
-            <font color=red>NOTE</font>: older versions may require
+            <font color=red>NOTE</font>: versions before 7.18 may require
             <a href=ca_bundle.php>updating the CA bundle file</a>
             in order to communicate with some projects.
             <p>
+            You can also
+            <a href=https://boinc.berkeley.edu/wiki/Github_download>
+            download executables from Github</a>.
         ";
         start_table("table-striped");
         foreach($platforms as $short_name=>$p) {
@@ -267,11 +270,7 @@ if ($xml) {
         echo "
             <h3>Other platforms</h3>
             If your computer is not of one of these types, you can
-            <ul>
-            <li> <a href=\"wiki/Anonymous_platform\">make your own client software</a> or
-            <li> <a href=\"trac/wiki/DownloadOther\">download executables from a third-party site</a>
-                (available for Solaris/Opteron, Linux/Opteron, Linux/PPC, HP-UX, and FreeBSD, and others).
-            </ul>
+            <a href=\"wiki/Anonymous_platform\">make your own client software</a>.
         ";
     }
     echo "

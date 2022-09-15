@@ -8,9 +8,10 @@
 $platforms_win = array(
     //array("winxp", "Windows XP", 1, "win"),
     //array("winvista_x64", "Windows Vista", 1, "win"),
-    array("win7_x64", "Windows 7", 5, "win"),
+    //array("win7_x64", "Windows 7", 5, "win"),
     //array("win8_x64", "Windows 8/8.1", 5, "win"),
     array("win10_x64", "Windows 10", 5, "win"),
+    array("win11_x64", "Windows 11", 5, "win"),
 );
 
 $platforms_mac = array(
@@ -28,6 +29,7 @@ $platforms_mac = array(
     array("mac1015", "Mac OS X 10.15", 3, "mac"),
     array("mac1100intel", "MacOS 11 Intel", 3, "mac"),
     array("mac1100arm64", "MacOS 11 Apple Silicon", 3, "mac"),
+    array("mac1200", "MacOS 12 (Intel and Apple Silicon)", 3, "mac"),
 );
 
 $platforms_linux = array(
@@ -690,6 +692,11 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
+    array("7.20.2", array($general, $clean), $platforms_win_mac),
+);
+$old_versions = array(
+    array("7.20.1", array($general, $clean), $platforms_win_mac),
+    array("7.20.0", array($general, $clean), $platforms_win_mac),
     array("7.16.18", array($general, $clean), $platforms_mac),
     array("7.18.0", array($general, $clean), $platforms_android),
     array("7.16.17", array($general, $clean), $platforms_mac),

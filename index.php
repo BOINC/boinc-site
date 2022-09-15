@@ -168,6 +168,8 @@ function show_links() {
         <a href=logo.php>%s</a>
         &middot;
         <a href=https://boinc.berkeley.edu/trac/wiki/BoincEvents>%s</a>
+        &middot;
+        <a href=https://continuum-hypothesis.com/boinc_history.php>History</a>
         ',
         tra('Contact'),
         tra('Papers'),

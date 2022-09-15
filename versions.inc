@@ -58,13 +58,13 @@ function linux_info() {
 
 // -------------- Windows 64-bit -------------------
 
-$w716_20 = array(
-    "num"=>"7.16.20",
+$w720_2 = array(
+    "num"=>"7.20.2",
     "status"=>"Recommended version",
-    "file"=>"boinc_7.16.20_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.16.20_windows_x86_64_vbox.exe",
-    "vbox_version"=>"6.1.12",
-    "date"=>"17 Oct 2021",
+    "file"=>"boinc_7.20.2_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.20.2_windows_x86_64_vbox.exe",
+    "vbox_version"=>"6.1.34",
+    "date"=>"19 July 2022",
     "type"=>"win_new"
 );
 
@@ -73,7 +73,7 @@ $windowsx64 = array(
     "description"=>"Vista/7/8/8.1/10",
     "dbname" => "windows_x86_64",
     "versions"=> array(
-          $w716_20,
+          $w720_2
     )
 );
 
@@ -118,9 +118,30 @@ $windows = array(
 
 // --------------- Mac Intel 64 or ARM --------------------
 
+$m720_2 = array(
+    "num"=>"7.20.2",
+    "status"=>"Recommended version",
+    "file"=>"boinc_7.20.2_macOSX_universal.zip",
+    "date"=>"19 Jul 2022",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"101000",
+    "max_os_version"=>"999999",
+);
+
+$m720_2c = array(
+    "num"=>"7.20.2",
+    "status"=>"Recommended version (Unix command-line version)",
+    "file"=>"boinc_7.20.2_universal-apple-darwin.dmg",
+    "date"=>"19 Jul 2022",
+    "type"=>"bare_core",
+    "min_os_version"=>"101000",
+    "max_os_version"=>"999999",
+);
+
+// DO not remove 7.16.21, which is latest version that can run on MacOS 10.9
 $m716_21 = array(
     "num"=>"7.16.21",
-    "status"=>"Recommended version",
+    "status"=>"Older version (MacOS 10.9+)",
     "file"=>"boinc_7.16.21_macOSX_universal.zip",
     "date"=>"23 Mar 2022",
     "type"=>"mac_advanced",
@@ -128,31 +149,12 @@ $m716_21 = array(
     "max_os_version"=>"999999",
 );
 
+// DO not remove 7.16.21, which is latest version that can run on MacOS 10.9
 $m716_21c = array(
     "num"=>"7.16.21",
-    "status"=>"Recommended version (Unix command-line version)",
+    "status"=>"Older version (Unix command-line version) (MacOS 10.9+)",
     "file"=>"boinc_7.16.21_universal-apple-darwin.dmg",
     "date"=>"23 Mar 2022",
-    "type"=>"bare_core",
-    "min_os_version"=>"100900",
-    "max_os_version"=>"999999",
-);
-
-$m716_14 = array(
-    "num"=>"7.16.14",
-    "status"=>"Older version",
-    "file"=>"boinc_7.16.14_macOSX_universal.zip",
-    "date"=>"30 Nov 2020",
-    "type"=>"mac_advanced",
-    "min_os_version"=>"100900",
-    "max_os_version"=>"999999",
-);
-
-$m716_14c = array(
-    "num"=>"7.16.14",
-    "status"=>"Older version (Unix command-line version)",
-    "file"=>"boinc_7.16.14_universal-apple-darwin.dmg",
-    "date"=>"30 Nov 2020",
     "type"=>"bare_core",
     "min_os_version"=>"100900",
     "max_os_version"=>"999999",
@@ -167,25 +169,25 @@ $m716_14c = array(
 
 $mac = array(
     "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
-    "description"=>"MacOS 10.9+",
+    "description"=>"MacOS 10.10+",
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
-          $m716_21,
-          $m716_21c,
-          $m716_14,
-          $m716_14c,
+        $m720_2,
+        $m720_2c, // Keep 7.16.21, which is latest version that can run on MacOS 10.9
+        $m716_21,
+        $m716_21c,
     )
 );
 
 $mac_arm = array(
     "name"=>"Apple Mac (Apple Silicon)",
-    "description"=>"MacOS 10.9+",
+    "description"=>"MacOS 10.10+",
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
-          $m716_21,
-          $m716_21c,
-          $m716_14,
-          $m716_14c,
+ 	$m720_2,
+	$m720_2c,
+ 	$m716_21,  // Keep 7.16.21, which is latest version that can run on MacOS 10.9
+        $m716_21c,
     )
 );
 

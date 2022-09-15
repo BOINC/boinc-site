@@ -5,6 +5,7 @@ require_once("../inc/cert.inc");
 function get_other_projects_cpid($cpid) {
     $url = "http://boinc.netsoft-online.com/get_user.php?cpid=".$cpid;
 
+    //echo "$url\n";
     // Check the cache for that URL
     //
     $cacheddata = get_cached_data(3600, $url);
@@ -18,6 +19,7 @@ function get_other_projects_cpid($cpid) {
             $old_timeout = ini_set('default_socket_timeout', $timeout);
             $xml_object = null;
             $f = @file_get_contents($url);
+            //echo $f;
             if ($f) {
                 $xml_object = @simplexml_load_string($f);
             }
@@ -88,6 +90,8 @@ function show_form() {
         <p><br>
         Name to show on certificate: <input name=name>
         <p>
+        Show only projects where you have at least <input name=min_credit> credits.
+        <p>
         <input type=submit>
         </form>
         <p>
@@ -106,8 +110,11 @@ function show_proj($p) {
     );
 }
 
-function show_cert($cpid, $name) {
+function show_cert($cpid, $name, $min_credit) {
     $projects = get_other_projects_cpid($cpid);
+    if (!$projects) {
+        die("No projects; check cross-project ID");
+    }
     $total_credit = 0;
     foreach ($projects as $p) {
         $total_credit += $p->total_credit;
@@ -143,7 +150,7 @@ function show_cert($cpid, $name) {
         <tr><th align=left>Project</th><th align=left>Cobblestones</th><th align=left>Joined</th></tr>
     ";
     foreach ($projects as $p) {
-        if ($p->total_credit<100) continue;
+        if ($p->total_credit<$min_credit) continue;
         show_proj($p);
     }
     echo "
@@ -187,7 +194,8 @@ function show_cert($cpid, $name) {
 $cpid = get_str("cpid", true);
 
 if ($cpid) {
-    show_cert($cpid, strip_tags(get_str('name')));
+    $min_credit = (double)get_str('min_credit');
+    show_cert($cpid, strip_tags(get_str('name')), $min_credit);
 } else {
     show_form();
 }
