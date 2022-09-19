@@ -6,10 +6,12 @@
 // - make new keywords if needed in boinc/html/inc/keywords.inc
 // - get logo image if there is one
 // - add project here
+// - post news item if desired
+//
+// If you add or change anything:
 // - look at https://boinc.berkeley.edu/project_list.php
 //      in a browser to make sure you didn't mess up the XML
-// - post news item if desired
-// - add to SU if desired: su/project_init.php
+// - update Science United: su/project_init.php
 // - wget https://boinc.berkeley.edu/project_list.php and move to
 //      boinc/win_build/installerv2/redist/all_projects_list.xml
 
@@ -166,14 +168,14 @@ $biomed = array(
             tra("Medical physiology"),
             tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
             "",
-            "http://denis.usj.es/denisathome/",
+            "https://denis.usj.es/denisathome/",
             "Study the physiology of the heart",
             array(KW_BIOMED, KW_EUROPE, KW_SPAIN)
         ),
         project(
             PROJ_RNA_WORLD,
             "RNA World",
-            "http://www.rnaworld.de/rnaworld/",
+            "https://www.rnaworld.de/rnaworld/",
             "Rechenkraft.net e.V.",
             tra("Molecular biology"),
             tra("RNA World seeks to identify, analyze, structurally predict and design RNA molecules on the basis of established bioinformatics software."),
@@ -292,7 +294,7 @@ $astro_phys_chem = array(
         project(
             PROJ_COSMOLOGY,
             "Cosmology@Home",
-            "http://www.cosmologyathome.org/",
+            "https://www.cosmologyathome.org/",
             tra("University of Illinois at Urbana-Champaign"),
             tra("Astronomy"),
             tra("The goal of Cosmology@Home is to search for the model that best describes our Universe and to find the range of models that agree with the available astronomical particle physics data."),
@@ -316,7 +318,7 @@ $astro_phys_chem = array(
         project(
             PROJ_MILKYWAY,
             "Milkyway@home",
-            "http://milkyway.cs.rpi.edu/milkyway/",
+            "https://milkyway.cs.rpi.edu/milkyway/",
             tra("Rensselaer Polytechnic Institute"),
             tra("Astronomy"),
             tra("The goal of Milkyway@Home is to create a highly accurate three dimensional model of the Milky Way galaxy using data gathered by the Sloan Digital Sky Survey."),
@@ -345,7 +347,7 @@ $astro_phys_chem = array(
             tra("Astrophysics"),
             tra("Einstein@Home uses your computer's idle time to search for weak astrophysical signals from spinning neutron stars (often called pulsars) using data from the LIGO gravitational-wave detectors, the Arecibo radio telescope, and the Fermi gamma-ray satellite."),
             "einstein.jpg",
-            "http://einstein.phys.uwm.edu/",
+            "https://einstein.phys.uwm.edu/",
             tra("Help detect pulsars and gravitational waves"),
             array(KW_ASTRONOMY, KW_GW, KW_PULSARS, KW_INTERNATIONAL, KW_AEI)
         ),
@@ -418,7 +420,7 @@ $mixed = array(
         project(
             PROJ_YOYO,
             "Yoyo@home",
-            "http://www.rechenkraft.net/yoyo/",
+            "https://www.rechenkraft.net/yoyo/",
             tra("Independent"),
             tra("Mathematics"),
             tra("Yoyo@home is an adapter between BOINC and several existing volunteer computing projects."),
@@ -489,7 +491,7 @@ $math = array(
             tra("Mathematics"),
             tra("NumberFields@home searches for fields with special properties. The primary application of this research is in the realm of algebraic number theory. Number theorists can mine the data for interesting patterns to help them formulate conjectures about number fields. Ultimately, this research will lead to a deeper understanding of the profound properties of numbers, the basic building blocks of all mathematics."),
             "nf_banner_10.jpg",
-            "http://numberfields.asu.edu/NumberFields/",
+            "https://numberfields.asu.edu/NumberFields/",
             tra("Do research in algebraic number theory"),
             array(KW_MATH_CS, KW_AMERICAS, KW_US, KW_ARIZONA_STATE)
         ),
@@ -532,7 +534,7 @@ $math = array(
         project(
             PROJ_MOO,
             "Moo! Wrapper",
-            "http://moowrap.net/",
+            "https://moowrap.net/",
             "Independent",
             tra("Cryptography and combinatorics"),
             tra("Run applications from distributed.net"),
@@ -580,7 +582,7 @@ $math = array(
         project(
             PROJ_PRIMEGRID,
             "PrimeGrid",
-            "http://www.primegrid.com/",
+            "https://www.primegrid.com/",
             tra("Independent"),
             tra("Mathematics"),
             tra("Primegrid has multiple projects searching for different forms of very large prime numbers, including searching for the largest known prime number."),
@@ -616,7 +618,7 @@ $math = array(
         project(
             PROJ_GERASIM,
             "Gerasim@Home",
-            "http://gerasim.boinc.ru/",
+            "https://gerasim.boinc.ru/",
             "Southwest State University (Russia)",
             "Computer engineering",
             tra("Testing and comparison of heuristic methods for getting separations of parallel algorithms working in the CAD system for designing logic control systems"),
@@ -628,7 +630,7 @@ $math = array(
         project(
             PROJ_SRBASE,
             "SRBase",
-            "http://srbase.my-firewall.org/sr5/",
+            "https://srbase.my-firewall.org/sr5/",
             "Independent",
             "Mathematics",
             "SRBase is a mathematical research project that uses Internet-connected computers trying to solve Sierpinski / Riesel Bases up to 1030.",
