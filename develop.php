@@ -8,7 +8,7 @@ echo "
 BOINC is open-source;
 it's is distributed under the LGPL open source license.
 The BOINC source code is stored in
-<a href=https://github.com/BOINC/boinc>a Github repository</a>.
+<a href=https://github.com/BOINC/boinc>a GitHub repository</a>.
 If you're not familiar with Git,
 <a href=https://boinc.berkeley.edu/trac/wiki/SourceCodeGit>read this</a>.
 <p>
@@ -17,7 +17,7 @@ Here are <a href=https://boinc.berkeley.edu/trac/wiki/SoftwareBuilding>instructi
 BOINC is maintained and developed partly
 by the UC Berkeley BOINC project,
 and partly by volunteers.
-If you're interested in participating, visit the Github repo.
+If you're interested in participating, visit the GitHub repo.
 Most communication takes place there.
 Also subscribe to the <a href=https://boinc.berkeley.edu/trac/wiki/EmailLists>boinc_dev</a> email list.
 <p>
