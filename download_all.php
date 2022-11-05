@@ -259,7 +259,7 @@ if ($xml) {
             <p>
             You can also
             <a href=https://boinc.berkeley.edu/wiki/Github_download>
-            download executables from Github</a>.
+            download executables from GitHub</a>.
         ";
         start_table("table-striped");
         foreach($platforms as $short_name=>$p) {

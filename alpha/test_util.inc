@@ -292,7 +292,7 @@ function show_test_groups($user, $v, $p) {
         "No<br>bugs<br>found",
         "Minor<br>bugs<br>found",
         "Major<br>bugs<br>found",
-        "Comments (include Github issue number if applicable)",
+        "Comments (include GitHub issue number if applicable)",
     ));
     $i = 0;
     foreach ($test_groups as $t) {
