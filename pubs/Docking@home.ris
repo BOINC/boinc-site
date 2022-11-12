@@ -371,7 +371,7 @@ EP  - 119a
 PB  - IEEE
 SN  - 978-0-7695-2312-5
 ST  - Homogeneous Redundancy
-UR  - http://ieeexplore.ieee.org/document/1419946/
+UR  - https://ieeexplore.ieee.org/document/1419946
 Y2  - 2022/11/11/14:50:02
 ER  - 
 
@@ -520,6 +520,7 @@ J2  - Am J Obstet Gynecol
 LA  - eng
 SN  - 0002-9378
 ST  - Rapid infusion of sodium bicarbonate and albumin into high-risk premature infants soon after birth
+UR  - https://www.sciencedirect.com/science/article/abs/pii/000293787690154X
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/2013
 KW  - Acidosis
 KW  - Albumins
