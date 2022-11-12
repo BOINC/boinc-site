@@ -1,0 +1,89 @@
+TY  - CONF
+TI  - Homogeneous Redundancy: a Technique to Ensure Integrity of Molecular Simulation Results Using Public Computing
+AU  - Taufer, M.
+AU  - Anderson, D.
+AU  - Cicotti, P.
+AU  - Brooks, C.L.
+T2  - 19th IEEE International Parallel and Distributed Processing Symposium
+C1  - Denver, CO, USA
+C3  - 19th IEEE International Parallel and Distributed Processing Symposium
+DA  - 2005///
+PY  - 2005
+DO  - 10.1109/IPDPS.2005.247
+DP  - DOI.org (Crossref)
+SP  - 119a
+EP  - 119a
+PB  - IEEE
+SN  - 978-0-7695-2312-5
+ST  - Homogeneous Redundancy
+UR  - http://ieeexplore.ieee.org/document/1419946/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - JOUR
+TI  - Predictor@Home: A "Protein Structure Prediction Supercomputer' Based on Global Computing
+AU  - Taufer, M.
+AU  - An, Chahm
+AU  - Kerstens, A.
+AU  - Brooks III, C.L.
+T2  - IEEE Transactions on Parallel and Distributed Systems
+AB  - Predicting the structure of a protein from its amino acid sequence is a complex process, the understanding of which could be used to gain new insight into the nature of protein functions or provide targets for structure-based design of drugs to treat new and existing diseases. While protein structures can be accurately modeled using computational methods based on all-atom physics-based force fields including implicit solvation, these methods require extensive sampling of native-like protein conformations for successful prediction and, consequently, they are often limited by inadequate computing power. To address this problem, we developed Predictor@Home, a "structure prediction supercomputer” powered by the Berkeley Open Infrastructure for Network Computing (BOINC) framework and based on the global computing paradigm (i.e., volunteered computing resources interconnected to the Internet and owned by the public). In this paper, we describe the protocol we employed for protein structure prediction and its integration into a global computing architecture based on public resources. We show how Predictor@Home significantly improved our ability to predict protein structures by increasing our sampling capacity by one to two orders of magnitude.
+DA  - 2006/08//
+PY  - 2006
+DO  - 10.1109/TPDS.2006.110
+DP  - IEEE Xplore
+VL  - 17
+IS  - 8
+SP  - 786
+EP  - 796
+SN  - 1558-2183
+ST  - Predictor@Home
+KW  - Amino acids
+KW  - Computational modeling
+KW  - Computer networks
+KW  - Diseases
+KW  - Drugs
+KW  - Global computing paradigm
+KW  - Home computing
+KW  - molecular dynamics.
+KW  - Monte Carlo simulations
+KW  - Physics computing
+KW  - protein conformational sampling
+KW  - Proteins
+KW  - public resources
+KW  - Sampling methods
+KW  - Supercomputers
+ER  - 
+
+TY  - CONF
+TI  - Metrics for effective resource management in global computing environments
+AU  - Taufer, M.
+AU  - Teller, P.J.
+AU  - Anderson, D.P.
+AU  - Brooks, C.L.
+T2  - First International Conference on e-Science and Grid Computing (e-Science'05)
+AB  - Global computing uses Internet-connected PCs volunteered by their owners. These PCs are diverse, volatile, and error-prone. Sophisticated scheduling methods commonly applied in grid computing may not be sufficiently scalable and flexible for global computing environments. This paper shows that it is possible to classify global computing hosts based on simple metrics such as availability and reliability, and that it is efficient to assign tasks to such hosts accordingly. The proposed classification of workers is applied to P@H, a global computing project for protein structure prediction
+C3  - First International Conference on e-Science and Grid Computing (e-Science'05)
+DA  - 2005/07//
+PY  - 2005
+DO  - 10.1109/E-SCIENCE.2005.58
+DP  - IEEE Xplore
+SP  - 8
+EP  - pp.-211
+L2  - https://ieeexplore.ieee.org/abstract/document/1572227
+KW  - Availability
+KW  - Biology computing
+KW  - Computational modeling
+KW  - Distributed computing
+KW  - Grid computing
+KW  - Internet
+KW  - Large-scale simulations
+KW  - molecular dynamics
+KW  - Monte Carlo simulations
+KW  - Personal communication networks
+KW  - Processor scheduling
+KW  - Proteins
+KW  - resource classification
+KW  - Resource management
+ER  - 
+
