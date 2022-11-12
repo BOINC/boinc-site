@@ -1,0 +1,247 @@
+TY  - JOUR
+TI  - Perfectly parallel cosmological simulations using spatial comoving Lagrangian acceleration
+AU  - Leclercq, F.
+AU  - Faure, B.
+AU  - Lavaux, G.
+AU  - Wandelt, B. D.
+AU  - Jaffe, A. H.
+AU  - Heavens, A. F.
+AU  - Percival, W. J.
+T2  - Astronomy & Astrophysics
+AB  - Context. Existing cosmological simulation methods lack a high degree of parallelism due to the long-range nature of the gravitational force, which limits the size of simulations that can be run at high resolution.Aims. To solve this problem, we propose a new, perfectly parallel approach to simulate cosmic structure formation, which is based on the spatial COmoving Lagrangian Acceleration (sCOLA) framework. Methods. Building upon a hybrid analytical and numerical description of particles’ trajectories, our algorithm allows for an efficient tiling of a cosmological volume, where the dynamics within each tile is computed independently. As a consequence, the degree of parallelism is equal to the number of tiles. We optimised the accuracy of sCOLA through the use of a buffer region around tiles and of appropriate Dirichlet boundary conditions around sCOLA boxes. Results. As a result, we show that cosmological simulations at the degree of accuracy required for the analysis of the next generation of surveys can be run in drastically reduced wall-clock times and with very low memory requirements. Conclusions. The perfect scalability of our algorithm unlocks profoundly new possibilities for computing larger cosmological simulations at high resolution, taking advantage of a variety of hardware architectures.
+DA  - 2020/07//
+PY  - 2020
+DO  - 10.1051/0004-6361/202037995
+DP  - DOI.org (Crossref)
+VL  - 639
+SP  - A91
+J2  - A&A
+SN  - 0004-6361, 1432-0746
+UR  - https://www.aanda.org/10.1051/0004-6361/202037995
+Y2  - 2022/11/11/14:47:26
+L1  - https://www.aanda.org/articles/aa/pdf/2020/07/aa37995-20.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Pico: Parameters for the Impatient Cosmologist
+AU  - Fendt, William A.
+AU  - Wandelt, Benjamin D.
+T2  - The Astrophysical Journal
+DA  - 2007/01//
+PY  - 2007
+DO  - 10.1086/508342
+DP  - DOI.org (Crossref)
+VL  - 654
+IS  - 1
+SP  - 2
+EP  - 11
+J2  - ApJ
+LA  - en
+SN  - 0004-637X, 1538-4357
+ST  - Pico
+UR  - https://iopscience.iop.org/article/10.1086/508342
+Y2  - 2022/11/11/14:47:26
+L1  - https://arxiv.org/pdf/astro-ph/0606709
+ER  - 
+
+TY  - JOUR
+TI  - Computing High Accuracy Power Spectra with Pico
+AU  - Fendt, William A.
+AU  - Wandelt, Benjamin D.
+AB  - This paper presents the second release of Pico (Parameters for the Impatient COsmologist). Pico is a general purpose machine learning code which we have applied to computing the CMB power spectra and the WMAP likelihood. For this release, we have made improvements to the algorithm as well as the data sets used to train Pico, leading to a significant improvement in accuracy. For the 9 parameter nonflat case presented here Pico can on average compute the TT, TE and EE spectra to better than 1% of cosmic standard deviation for nearly all $\ell$ values over a large region of parameter space. Performing a cosmological parameter analysis of current CMB and large scale structure data, we show that these power spectra give very accurate 1 and 2 dimensional parameter posteriors. We have extended Pico to allow computation of the tensor power spectrum and the matter transfer function. Pico runs about 1500 times faster than CAMB at the default accuracy and about 250,000 times faster at high accuracy. Training Pico can be done using massively parallel computing resources, including distributed computing projects such as Cosmology@Home. On the homepage for Pico, located at http://cosmos.astro.uiuc.edu/pico, we provide new sets of regression coefficients and make the training code available for public use.
+DA  - 2007///
+PY  - 2007
+DO  - 10.48550/ARXIV.0712.0194
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/0712.0194
+Y2  - 2022/11/11/14:47:26
+KW  - FOS: Physical sciences
+KW  - Astrophysics (astro-ph)
+ER  - 
+
+TY  - SLIDE
+TI  - DockerCon EU 2015: Finding a Theory of the Universe with Docker and V…
+A2  - Millea, Marius
+DA  - 2015/12//
+PY  - 2015
+ST  - DockerCon EU 2015
+UR  - https://www.slideshare.net/Docker/finding-a-theory-of-the-universe-with-docker-and-volunteer-computers-55743121
+Y2  - 2022/11/12/13:58:17
+ER  - 
+
+TY  - JOUR
+TI  - Planck intermediate results - LI. Features in the cosmic microwave background temperature power spectrum and shifts in cosmological parameters
+AU  - Aghanim, N.
+AU  - Akrami, Y.
+AU  - Ashdown, M.
+AU  - Aumont, J.
+AU  - Baccigalupi, C.
+AU  - Ballardini, M.
+AU  - Banday, A. J.
+AU  - Barreiro, R. B.
+AU  - Bartolo, N.
+AU  - Basak, S.
+AU  - Benabed, K.
+AU  - Bersanelli, M.
+AU  - Bielewicz, P.
+AU  - Bonaldi, A.
+AU  - Bonavera, L.
+AU  - Bond, J. R.
+AU  - Borrill, J.
+AU  - Bouchet, F. R.
+AU  - Burigana, C.
+AU  - Calabrese, E.
+AU  - Cardoso, J.-F.
+AU  - Challinor, A.
+AU  - Chiang, H. C.
+AU  - Colombo, L. P. L.
+AU  - Combet, C.
+AU  - Crill, B. P.
+AU  - Curto, A.
+AU  - Cuttaia, F.
+AU  - Bernardis, P. de
+AU  - Rosa, A. de
+AU  - Zotti, G. de
+AU  - Delabrouille, J.
+AU  - Valentino, E. Di
+AU  - Dickinson, C.
+AU  - Diego, J. M.
+AU  - Doré, O.
+AU  - Ducout, A.
+AU  - Dupac, X.
+AU  - Dusini, S.
+AU  - Efstathiou, G.
+AU  - Elsner, F.
+AU  - Enßlin, T. A.
+AU  - Eriksen, H. K.
+AU  - Fantaye, Y.
+AU  - Finelli, F.
+AU  - Forastieri, F.
+AU  - Frailis, M.
+AU  - Franceschi, E.
+AU  - Frolov, A.
+AU  - Galeotta, S.
+AU  - Galli, S.
+AU  - Ganga, K.
+AU  - Génova-Santos, R. T.
+AU  - Gerbino, M.
+AU  - González-Nuevo, J.
+AU  - Górski, K. M.
+AU  - Gratton, S.
+AU  - Gruppuso, A.
+AU  - Gudmundsson, J. E.
+AU  - Herranz, D.
+AU  - Hivon, E.
+AU  - Huang, Z.
+AU  - Jaffe, A. H.
+AU  - Jones, W. C.
+AU  - Keihänen, E.
+AU  - Keskitalo, R.
+AU  - Kiiveri, K.
+AU  - Kim, J.
+AU  - Kisner, T. S.
+AU  - Knox, L.
+AU  - Krachmalnicoff, N.
+AU  - Kunz, M.
+AU  - Kurki-Suonio, H.
+AU  - Lagache, G.
+AU  - Lamarre, J.-M.
+AU  - Lasenby, A.
+AU  - Lattanzi, M.
+AU  - Lawrence, C. R.
+AU  - Jeune, M. Le
+AU  - Levrier, F.
+AU  - Lewis, A.
+AU  - Liguori, M.
+AU  - Lilje, P. B.
+AU  - Lilley, M.
+AU  - Lindholm, V.
+AU  - López-Caniego, M.
+AU  - Lubin, P. M.
+AU  - Ma, Y.-Z.
+AU  - Macías-Pérez, J. F.
+AU  - Maggio, G.
+AU  - Maino, D.
+AU  - Mandolesi, N.
+AU  - Mangilli, A.
+AU  - Maris, M.
+AU  - Martin, P. G.
+AU  - Martínez-González, E.
+AU  - Matarrese, S.
+AU  - Mauri, N.
+AU  - McEwen, J. D.
+AU  - Meinhold, P. R.
+AU  - Mennella, A.
+AU  - Migliaccio, M.
+AU  - Millea, M.
+AU  - Miville-Deschênes, M.-A.
+AU  - Molinari, D.
+AU  - Moneti, A.
+AU  - Montier, L.
+AU  - Morgante, G.
+AU  - Moss, A.
+AU  - Narimani, A.
+AU  - Natoli, P.
+AU  - Oxborrow, C. A.
+AU  - Pagano, L.
+AU  - Paoletti, D.
+AU  - Partridge, B.
+AU  - Patanchon, G.
+AU  - Patrizii, L.
+AU  - Pettorino, V.
+AU  - Piacentini, F.
+AU  - Polastri, L.
+AU  - Polenta, G.
+AU  - Puget, J.-L.
+AU  - Rachen, J. P.
+AU  - Racine, B.
+AU  - Reinecke, M.
+AU  - Remazeilles, M.
+AU  - Renzi, A.
+AU  - Rocha, G.
+AU  - Rossetti, M.
+AU  - Roudier, G.
+AU  - Rubiño-Martín, J. A.
+AU  - Ruiz-Granados, B.
+AU  - Salvati, L.
+AU  - Sandri, M.
+AU  - Savelainen, M.
+AU  - Scott, D.
+AU  - Sirignano, C.
+AU  - Sirri, G.
+AU  - Stanco, L.
+AU  - Suur-Uski, A.-S.
+AU  - Tauber, J. A.
+AU  - Tavagnacco, D.
+AU  - Tenti, M.
+AU  - Toffolatti, L.
+AU  - Tomasi, M.
+AU  - Tristram, M.
+AU  - Trombetti, T.
+AU  - Valiviita, J.
+AU  - Tent, F. Van
+AU  - Vielva, P.
+AU  - Villa, F.
+AU  - Vittorio, N.
+AU  - Wandelt, B. D.
+AU  - Wehus, I. K.
+AU  - White, M.
+AU  - Zacchei, A.
+AU  - Zonca, A.
+T2  - Astronomy & Astrophysics
+AB  - The six parameters of the standard ΛCDM model have best-fit values derived from the <i>Planck<i/> temperature power spectrum that are shifted somewhat from the best-fit values derived from WMAP data. These shifts are driven by features in the <i>Planck<i/> temperature power spectrum at angular scales that had never before been measured to cosmic-variance level precision. We have investigated these shifts to determine whether they are within the range of expectation and to understand their origin in the data. Taking our parameter set to be the optical depth of the reionized intergalactic medium <i>τ<i/>, the baryon density <i>ω<i/><sub>b<sub/>, the matter density <i>ω<i/><sub>m<sub/>, the angular size of the sound horizon <i>θ<i/><sub>∗<sub/>, the spectral index of the primordial power spectrum, <i>n<i/><sub>s<sub/>, and <i>A<i/><sub>s<sub/>e<sup>− 2<i>τ<i/><sup/> (where <i>A<i/><sub>s<sub/> is the amplitude of the primordial power spectrum), we have examined the change in best-fit values between a WMAP-like large angular-scale data set (with multipole moment <i>ℓ<i/> < 800 in the <i>Planck<i/> temperature power spectrum) and an all angular-scale data set (<i>ℓ<i/> < 2500<i>Planck<i/> temperature power spectrum), each with a prior on <i>τ<i/> of 0.07 ± 0.02. We find that the shifts, in units of the 1<i>σ<i/> expected dispersion for each parameter, are { Δ<i>τ,<i/>Δ<i>A<i/><sub>s<sub/>e<sup>− 2<i>τ<i/><sup/>,Δ<i>n<i/><sub>s<sub/>,Δ<i>ω<i/><sub>m<sub/>,Δ<i>ω<i/><sub>b<sub/>,Δ<i>θ<i/><sub>∗<sub/> } = { −1.7,−2.2,1.2,−2.0,1.1,0.9 }, with a <i>χ<i/><sup>2<sup/> value of 8.0. We find that this <i>χ<i/><sup>2<sup/> value is exceeded in 15% of our simulated data sets, and that a parameter deviates by more than 2.2<i>σ<i/> in 9% of simulated data sets, meaning that the shifts are not unusually large. Comparing <i>ℓ<i/> < 800 instead to <i>ℓ<i/>> 800, or splitting at a different multipole, yields similar results. We examined the <i>ℓ<i/> < 800 model residuals in the <i>ℓ<i/>> 800 power spectrum data and find that the features there that drive these shifts are a set of oscillations across a broad range of angular scales. Although they partly appear similar to the effects of enhanced gravitational lensing, the shifts in ΛCDM parameters that arise in response to these features correspond to model spectrum changes that are predominantly due to non-lensing effects; the only exception is <i>τ<i/>, which, at fixed <i>A<i/><sub>s<sub/>e<sup>− 2<i>τ<i/><sup/>, affects the <i>ℓ<i/>> 800 temperature power spectrum solely through the associated change in <i>A<i/><sub>s<sub/> and the impact of that on the lensing potential power spectrum. We also ask, “what is it about the power spectrum at <i>ℓ<i/> < 800 that leads to somewhat different best-fit parameters than come from the full <i>ℓ<i/> range?” We find that if we discard the data at <i>ℓ<i/> < 30, where there is a roughly 2<i>σ<i/> downward fluctuation in power relative to the model that best fits the full <i>ℓ<i/> range, the <i>ℓ<i/> < 800 best-fit parameters shift significantly towards the <i>ℓ<i/> < 2500 best-fit parameters. In contrast, including <i>ℓ<i/> < 30, this previously noted “low-<i>ℓ<i/> deficit” drives <i>n<i/><sub>s<sub/> up and impacts parameters correlated with <i>n<i/><sub>s<sub/>, such as <i>ω<i/><sub>m<sub/> and <i>H<i/><sub>0<sub/>. As expected, the <i>ℓ<i/> < 30 data have a much greater impact on the <i>ℓ<i/> < 800 best fit than on the <i>ℓ<i/> < 2500 best fit. So although the shifts are not very significant, we find that they can be understood through the combined effects of an oscillatory-like set of high-<i>ℓ<i/> residuals and the deficit in low-<i>ℓ<i/> power, excursions consistent with sample variance that happen to map onto changes in cosmological parameters. Finally, we examine agreement between <i>Planck<i/><i>TT<i/> data and two other CMB data sets, namely the <i>Planck<i/> lensing reconstruction and the <i>TT<i/> power spectrum measured by the South Pole Telescope, again finding a lack of convincing evidence of any significant deviations in parameters, suggesting that current CMB data sets give an internally consistent picture of the ΛCDM model.
+DA  - 2017/11/01/
+PY  - 2017
+DO  - 10.1051/0004-6361/201629504
+DP  - www.aanda.org
+VL  - 607
+SP  - A95
+J2  - A&A
+LA  - en
+SN  - 0004-6361, 1432-0746
+UR  - https://www.aanda.org/articles/aa/abs/2017/11/aa29504-16/aa29504-16.html
+Y2  - 2022/11/12/14:16:20
+L1  - https://www.aanda.org/articles/aa/pdf/2017/11/aa29504-16.pdf
+L2  - https://www.aanda.org/articles/aa/full_html/2017/11/aa29504-16/aa29504-16.html
+ER  - 
+
