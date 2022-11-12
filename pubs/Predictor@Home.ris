@@ -16,7 +16,7 @@ EP  - 119a
 PB  - IEEE
 SN  - 978-0-7695-2312-5
 ST  - Homogeneous Redundancy
-UR  - http://ieeexplore.ieee.org/document/1419946/
+UR  - https://ieeexplore.ieee.org/document/1419946
 Y2  - 2022/11/11/14:50:02
 ER  - 
 
@@ -38,6 +38,7 @@ SP  - 786
 EP  - 796
 SN  - 1558-2183
 ST  - Predictor@Home
+UR  - https://ieeexplore.ieee.org/document/1652942
 KW  - Amino acids
 KW  - Computational modeling
 KW  - Computer networks
@@ -70,6 +71,7 @@ DO  - 10.1109/E-SCIENCE.2005.58
 DP  - IEEE Xplore
 SP  - 8
 EP  - pp.-211
+UR  - https://ieeexplore.ieee.org/abstract/document/1572227
 L2  - https://ieeexplore.ieee.org/abstract/document/1572227
 KW  - Availability
 KW  - Biology computing
@@ -86,4 +88,3 @@ KW  - Proteins
 KW  - resource classification
 KW  - Resource management
 ER  - 
-
