@@ -1,0 +1,87 @@
+TY  - JOUR
+TI  - High-performance Physics Simulations Using Multi-core CPUs and GPGPUs in a Volunteer Computing Context
+AU  - Karimi, Kamran
+AU  - Dickson, Neil
+AU  - Hamze, Firas
+T2  - The International Journal of High Performance Computing Applications
+AB  - This paper presents two conceptually simple methods for parallelizing a Parallel Tempering Monte Carlo simulation in a distributed volunteer computing context, where computers belonging to the general public are used. The first method uses conventional multi-threading. The second method uses CUDA, a graphics card computing system. Parallel Tempering is described, and challenges such as parallel random number generation and mapping of Monte Carlo chains to different threads are explained. While conventional multi-threading on central processing units is well-established, GPGPU programming techniques and technologies are still developing and present several challenges, such as the effective use of a relatively large number of threads. Having multiple chains in Parallel Tempering allows parallelization in a manner that is similar to the serial algorithm. Volunteer computing introduces important constraints to high performance computing, and we show that both versions of the application are able to adapt themselves to the varying and unpredictable computing resources of volunteers’ computers, while leaving the machines responsive enough to use. We present experiments to show the scalable performance of these two approaches, and indicate that the efficiency of the methods increases with bigger problem sizes.
+DA  - 2011/02//
+PY  - 2011
+DO  - 10.1177/1094342010372928
+DP  - DOI.org (Crossref)
+VL  - 25
+IS  - 1
+SP  - 61
+EP  - 69
+J2  - The International Journal of High Performance Computing Applications
+LA  - en
+SN  - 1094-3420, 1741-2846
+UR  - http://journals.sagepub.com/doi/10.1177/1094342010372928
+Y2  - 2022/11/11/14:41:36
+L1  - https://arxiv.org/pdf/1004.0023
+ER  - 
+
+TY  - JOUR
+TI  - Robust Parameter Selection for Parallel Tempering
+AU  - Hamze, Firas
+AU  - Dickson, Neil
+AU  - Karimi, Kamran
+AB  - This paper describes an algorithm for selecting parameter values (e.g. temperature values) at which to measure equilibrium properties with Parallel Tempering Monte Carlo simulation. Simple approaches to choosing parameter values can lead to poor equilibration of the simulation, especially for Ising spin systems that undergo $1^st$-order phase transitions. However, starting from an initial set of parameter values, the careful, iterative respacing of these values based on results with the previous set of values greatly improves equilibration. Example spin systems presented here appear in the context of Quantum Monte Carlo.
+DA  - 2010///
+PY  - 2010
+DO  - 10.48550/ARXIV.1004.2840
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1004.2840
+Y2  - 2022/11/11/14:41:37
+KW  - FOS: Physical sciences
+KW  - Computation (stat.CO)
+KW  - Computational Physics (physics.comp-ph)
+KW  - FOS: Computer and information sciences
+KW  - Other Condensed Matter (cond-mat.other)
+ER  - 
+
+TY  - JOUR
+TI  - Importance of Explicit Vectorization for CPU and GPU Software Performance
+AU  - Dickson, Neil G.
+AU  - Karimi, Kamran
+AU  - Hamze, Firas
+AB  - Much of the current focus in high-performance computing is on multi-threading, multi-computing, and graphics processing unit (GPU) computing. However, vectorization and non-parallel optimization techniques, which can often be employed additionally, are less frequently discussed. In this paper, we present an analysis of several optimizations done on both central processing unit (CPU) and GPU implementations of a particular computationally intensive Metropolis Monte Carlo algorithm. Explicit vectorization on the CPU and the equivalent, explicit memory coalescing, on the GPU are found to be critical to achieving good performance of this algorithm in both environments. The fully-optimized CPU version achieves a 9x to 12x speedup over the original CPU version, in addition to speedup from multi-threading. This is 2x faster than the fully-optimized GPU version.
+DA  - 2010///
+PY  - 2010
+DO  - 10.48550/ARXIV.1004.0024
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1004.0024
+Y2  - 2022/11/11/14:41:37
+KW  - FOS: Physical sciences
+KW  - Computational Physics (physics.comp-ph)
+KW  - FOS: Computer and information sciences
+KW  - Distributed, Parallel, and Cluster Computing (cs.DC)
+KW  - Performance (cs.PF)
+ER  - 
+
+TY  - JOUR
+TI  - Investigating the Performance of an Adiabatic Quantum Optimization Processor
+AU  - Karimi, Kamran
+AU  - Dickson, Neil G.
+AU  - Hamze, Firas
+AU  - Amin, M. H. S.
+AU  - Drew-Brook, Marshall
+AU  - Chudak, Fabian A.
+AU  - Bunyk, Paul I.
+AU  - Macready, William G.
+AU  - Rose, Geordie
+AB  - Adiabatic quantum optimization offers a new method for solving hard optimization problems. In this paper we calculate median adiabatic times (in seconds) determined by the minimum gap during the adiabatic quantum optimization for an NP-hard Ising spin glass instance class with up to 128 binary variables. Using parameters obtained from a realistic superconducting adiabatic quantum processor, we extract the minimum gap and matrix elements using high performance Quantum Monte Carlo simulations on a large-scale Internet-based computing platform. We compare the median adiabatic times with the median running times of two classical solvers and find that, for the considered problem sizes, the adiabatic times for the simulated processor architecture are about 4 and 6 orders of magnitude shorter than the two classical solvers' times. This shows that if the adiabatic time scale were to determine the computation time, adiabatic quantum optimization would be significantly superior to those classical solvers for median spin glass problems of at least up to 128 qubits. We also discuss important additional constraints that affect the performance of a realistic system.
+DA  - 2010///
+PY  - 2010
+DO  - 10.48550/ARXIV.1006.4147
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1006.4147
+Y2  - 2022/11/11/14:41:37
+KW  - FOS: Physical sciences
+KW  - FOS: Computer and information sciences
+KW  - Data Structures and Algorithms (cs.DS)
+KW  - Disordered Systems and Neural Networks (cond-mat.dis-nn)
+KW  - Quantum Physics (quant-ph)
+KW  - Statistical Mechanics (cond-mat.stat-mech)
+ER  - 
+
