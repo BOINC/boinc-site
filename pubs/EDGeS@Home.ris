@@ -1,0 +1,275 @@
+TY  - JOUR
+TI  - SpeQuloS: a QoS service for hybrid and elastic computing infrastructures
+AU  - Delamare, Simon
+AU  - Fedak, Gilles
+AU  - Kondo, Derrick
+AU  - Lodygensky, Oleg
+T2  - Cluster Computing
+DA  - 2014/03//
+PY  - 2014
+DO  - 10.1007/s10586-013-0283-6
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 1
+SP  - 79
+EP  - 100
+J2  - Cluster Comput
+LA  - en
+SN  - 1386-7857, 1573-7543
+ST  - SpeQuloS
+UR  - http://link.springer.com/10.1007/s10586-013-0283-6
+Y2  - 2022/11/12/20:13:39
+ER  - 
+
+TY  - JOUR
+TI  - Finite orbit width effect in ion collisional transport in TJ-II
+AU  - Velasco, J. L.
+AU  - Castejón, F.
+AU  - Tarancón, A.
+T2  - Physics of Plasmas
+DA  - 2009/05//
+PY  - 2009
+DO  - 10.1063/1.3126583
+DP  - DOI.org (Crossref)
+VL  - 16
+IS  - 5
+SP  - 052303
+J2  - Physics of Plasmas
+LA  - en
+SN  - 1070-664X, 1089-7674
+UR  - http://aip.scitation.org/doi/10.1063/1.3126583
+Y2  - 2022/11/12/20:13:39
+ER  - 
+
+TY  - JOUR
+TI  - Towards a volunteer cloud system
+AU  - Marosi, Attila
+AU  - Kovács, József
+AU  - Kacsuk, Peter
+T2  - Future Generation Computer Systems
+DA  - 2013/08//
+PY  - 2013
+DO  - 10.1016/j.future.2012.03.013
+DP  - DOI.org (Crossref)
+VL  - 29
+IS  - 6
+SP  - 1442
+EP  - 1451
+J2  - Future Generation Computer Systems
+LA  - en
+SN  - 0167739X
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167739X12000660
+Y2  - 2022/11/12/20:13:39
+ER  - 
+
+TY  - JOUR
+TI  - Efficient extension of gLite VOs with BOINC based desktop grids
+AU  - Visegrádi, Ádám
+AU  - Kovács, József
+AU  - Kacsuk, Peter
+T2  - Future Generation Computer Systems
+DA  - 2014/03//
+PY  - 2014
+DO  - 10.1016/j.future.2013.10.012
+DP  - DOI.org (Crossref)
+VL  - 32
+SP  - 13
+EP  - 23
+J2  - Future Generation Computer Systems
+LA  - en
+SN  - 0167739X
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167739X1300229X
+Y2  - 2022/11/12/20:13:39
+L1  - https://eprints.sztaki.hu/7225/1/efficient13visegradi.pdf
+ER  - 
+
+TY  - CONF
+TI  - EDGeS: A Bridge between Desktop Grids and Service Grids
+AU  - Fedak, Gilles
+AU  - He, Haiwu
+AU  - Lodygensky, Oleg
+AU  - Balaton, Zoltan
+AU  - Farkas, Zoltan
+AU  - Gombas, Gabor
+AU  - Kacsuk, Peter
+AU  - Lovas, Robert
+AU  - Marosi, Attila Csaba
+AU  - Kelley, Ian
+AU  - Taylor, Ian
+AU  - Terstyanszky, Gabor
+AU  - Kiss, Tamas
+AU  - Cardenas-Montes, Miguel
+AU  - Emmen, Ad
+AU  - Araujo, Filipe
+T2  - 2008 Third ChinaGrid Annual Conference (CHINAGRID)
+C1  - Dunhuang, Gansu, China
+C3  - The Third ChinaGrid Annual Conference (chinagrid 2008)
+DA  - 2008/08//
+PY  - 2008
+DO  - 10.1109/ChinaGrid.2008.44
+DP  - DOI.org (Crossref)
+SP  - 3
+EP  - 9
+PB  - IEEE
+SN  - 978-0-7695-3306-3
+ST  - EDGeS
+UR  - http://ieeexplore.ieee.org/document/4624461/
+Y2  - 2022/11/12/20:18:21
+L1  - https://westminsterresearch.westminster.ac.uk/download/5fc3002b67b72c2b788835d15d81483854fb664e03cfba17befb060d3fb59459/625987/Fedak_Lodygensky_Balaton_Farkas_Gombas_Kacsuk_Lovas_Marosi_2008_as_published.pdf
+ER  - 
+
+TY  - CHAP
+TI  - EDGeS Bridge Technologies to Interconnect Service and Desktop Grids
+AU  - Kacsuk, P.
+AU  - Farkas, Z.
+AU  - Balaton, Z.
+T2  - Remote Instrumentation Services on the e-Infrastructure
+A2  - Davoli, Franco
+A2  - Meyer, Norbert
+A2  - Pugliese, Roberto
+A2  - Zappatore, Sandro
+CY  - Boston, MA
+DA  - 2011///
+PY  - 2011
+DP  - DOI.org (Crossref)
+SP  - 61
+EP  - 71
+LA  - en
+PB  - Springer US
+SN  - 978-1-4419-5573-9 978-1-4419-5574-6
+UR  - http://link.springer.com/10.1007/978-1-4419-5574-6_5
+Y2  - 2022/11/12/20:21:50
+ER  - 
+
+TY  - JOUR
+TI  - Application repository and science gateway for running molecular docking and dynamics simulations
+AU  - Terstyanszky, Gabor
+AU  - Kiss, Tamas
+AU  - Kukla, Tamas
+AU  - Lichtenberger, Zsolt
+AU  - Winter, Stephen
+AU  - Greenwell, Pamela
+AU  - McEldowney, Sharron
+AU  - Heindl, Hans
+T2  - Studies in Health Technology and Informatics
+AB  - Molecular docking and dynamics studies are of considerable importance in a range of disciplines including molecular biology, drug design, environmental studies, psychology, etc. Using in silico tools to support or even to substitute wet laboratory work could help better focusing the laboratory experiments resulting not only in considerable saving of resources but also increasing the number of molecules and scenarios investigated. There are several software packages that support in silico modeling. However, these tools require lot of compute resources and special technical knowledge. As a result, many bio-scientists cannot use them. The paper describes a science gateway based solution which provides access to Distributed Computing Infrastructures such as clouds, desktop and service grids. This environment enables bio-scientists to execute simple molecular modeling scenarios or build more complex use-cases from existing building blocks while hiding the technical details of the infrastructure. Four scenarios have been defined and deconstructed in order to identify common building blocks supporting a large number of complex use-cases. A reference implementation for the first scenario regarding the impact on indicator species of pharmaceuticals released into water courses has been implemented on the EDGI infrastructure, demonstrating the feasibility of the approach.
+DA  - 2012///
+PY  - 2012
+DP  - PubMed
+VL  - 175
+SP  - 152
+EP  - 161
+J2  - Stud Health Technol Inform
+LA  - eng
+SN  - 0926-9630
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/22942006
+KW  - Biological Science Disciplines
+KW  - Computer Simulation
+KW  - Health Services Research
+KW  - Information Dissemination
+KW  - Information Storage and Retrieval
+KW  - Internet
+KW  - Models, Chemical
+KW  - Models, Molecular
+KW  - User-Computer Interface
+KW  - Workflow
+ER  - 
+
+TY  - THES
+TI  - Advanced QoS Prototype for the EDGI Infrastructure
+AU  - Delamare, Simon
+AU  - Fedak, Gilles
+AU  - Kondo, Derrick
+AU  - Lodygensky, Oleg
+AU  - Kacsuk, Péter
+AU  - Kovacs, Jozsef
+AU  - Araujo, Filipe
+AB  - This document provides the second deliverable of EDGI JRA2. It is produced by the INRIA team, the SZTAKI team, the LAL/IN2P3 team and the University of Coimbra team. This document aims at describing achievements and results of JRA2 tasks "Advanced QoS Scheduler and Oracle" and "Support In Science Gateway". Hybrid Distributed Computing Infrastructures (DCIs) allow users to combine Grids, Desktop Grids, Clouds, etc. to obtain for their users large computing capabilities. The EDGI infrastructure belongs to this kind of DCIs. The document presents the SpeQuloS framework to provide quality of service (QoS) for application executed on the EDGI infrastructure. It also introduces EDGI QoS portal, an user-friendly and integrated access to QoS features for users of EDGI infrastructure. In this document, we first introduce new results from JRA2.1 task, which collected and analyzed batch execution on Desktop Grid. Then, we present the advanced Cloud Scheduling and Oracle strategies designed inside the SpeQuloS framework (task JRA2.2). We demonstrate efficiency of these strategies using performance evaluation carried out with simulations. Next, we introduce Credit System architecture and QoS user portal as part of the JRA2 Support In Science Gateway (task JRA2.3). Finally, we conclude and provide references to JRA2 production.
+DA  - 2013/05/02/
+PY  - 2013
+DP  - hal.inria.fr
+LA  - en
+M3  - report
+PB  - INRIA
+UR  - https://hal.inria.fr/hal-00819907
+Y2  - 2022/11/12/20:27:11
+L1  - https://hal.inria.fr/hal-00819907/document
+L2  - https://hal.inria.fr/hal-00819907
+ER  - 
+
+TY  - JOUR
+TI  - Intermediate QoS Prototype for the EDGI Infrastructure
+AU  - Delamare, Simon
+AU  - Fedak, Gilles
+AU  - Kondo, Derrick
+AU  - Lodygensky, O.
+AU  - Kacsuk, Péter
+AU  - Kovács, József
+AU  - Araujo, Filipe
+AB  - This document provides the first deliverable of EDGI JRA2. It is produced by the INRIA team, the SZTAKI team, the LAL/IN2P3 team and the University of Coimbra team. This document aims at describing achievements and results of JRA2 tasks "Advanced QoS Scheduler and Oracle" and "Support In Science Gateway". Hybrid Distributed Computing Infrastructures (DCIs) allow users to combine Grids, Desktop Grids, Clouds, etc. to obtain for their users large computing capabilities. The EDGI infrastructure belongs to this kind of DCIs. The document presents the SpeQuloS framework to provide quality of service (QoS) for application executed on the EDGI infrastructure. It also introduces EDGI QoS portal, an user-friendly and integrated access to QoS features for users of EDGI infrastructure. In this document, we first introduce new results from JRA2.1 task, which collected and analyzed batch execution on Desktop Grid. Then, we present the advanced Cloud Scheduling and Oracle strategies designed inside the SpeQuloS framework (task JRA2.2). We demonstrate efficiency of these strategies using performance evaluation carried out with simulations. Next, we introduce Credit System architecture and QoS user portal as part of the JRA2 Support In Science Gateway (task JRA2.3). Finally, we conclude and provide references to JRA2 production.
+DA  - 2013/05/02/
+PY  - 2013
+DP  - ResearchGate
+UR  - https://www.researchgate.net/publication/278629554_Intermediate_QoS_Prototype_for_the_EDGI_Infrastructure
+L4  - https://www.researchgate.net/publication/278629554_Intermediate_QoS_Prototype_for_the_EDGI_Infrastructure/citation/download
+ER  - 
+
+TY  - JOUR
+TI  - ZIVIS: A City Computing Platform Based on Volunteer Computing
+AU  - Antolí, B.
+AU  - Castejón, Francisco
+AU  - Giner, A.
+AU  - Losilla, G.
+AU  - Reynolds Barredo, Jose Miguel
+AU  - Rivero, Alejandro
+AU  - Sangiao, S.
+AU  - Serrano, Fermín
+AU  - Tarancón, A.
+AU  - Valles, Ruben
+AU  - Velasco, Jose
+AB  - Volunteer computing has come up as a new form of distributed computing. Unlike other computing paradigms like Grids, which use to be based on complex architectures, volunteer computing has demonstrated a great ability to integrate dispersed, heterogeneous computing resources with ease. This article presents ZIVIS, a project which aims to deploy a city-wide computing platform in Zaragoza (Spain). ZIVIS is based on BOINC (Berkeley Open Infrastructure for Network Computing), a popular open source framework to deploy volunteer and desktop grid computing systems. A scientific code which simulates the trajectories of particles moving inside a stellarator fusion device, has been chosen as the pilot application of the project. In this paper we describe the approach followed to port the code to the BOINC framework as well as some novel techniques, based on standard Grid protocols, we have used to access the output data present in the BOINC server from a remote visualizer.
+DA  - 2007/01/01/
+PY  - 2007
+DP  - ResearchGate
+ST  - ZIVIS
+UR  - https://www.researchgate.net/publication/242126353_ZIVIS_A_City_Computing_Platform_Based_on_Volunteer_Computing
+L4  - https://www.researchgate.net/publication/242126353_ZIVIS_A_City_Computing_Platform_Based_on_Volunteer_Computing/citation/download
+ER  - 
+
+TY  - CHAP
+TI  - Desktop grid in the era of cloud computing
+AU  - Kacsuk, P.
+AU  - Farkas, Zoltan
+AU  - Kovács, József
+AU  - Visegradi, Adam
+AU  - Marosi, Attila
+AU  - Lovas, Robert
+AU  - Kecskemeti, Gabor
+AU  - Nemeth, Zsolt
+AU  - Gergely, M.
+AB  - BOINC desktop grids have been used for more than a decade for running grand challenge applications. In this chapter we show those technologies, and particularly virtualization and cloud solutions, that make BOINC desktop grids more generic and speed up the execution of existing grid-enabled parameter sweep applications without porting them to BOINC and eliminate the tail problem of volunteer BOINC systems. Furthermore, we show a technology by which institutional and public desktop grids can be created in a few minutes in clouds and used without any BOINC knowledge.
+DA  - 2015/01/01/
+PY  - 2015
+DP  - ResearchGate
+SP  - 187
+EP  - 206
+UR  - https://www.researchgate.net/publication/296885066_Desktop_grid_in_the_era_of_cloud_computing
+L4  - https://www.researchgate.net/publication/296885066_Desktop_grid_in_the_era_of_cloud_computing/citation/download
+ER  - 
+
+TY  - THES
+TI  - Contributions to Desktop Grid Computing
+AU  - Fedak, Gilles
+AB  - Since the mid 90’s, Desktop Grid Computing - i.e the idea of using a large number of remote PCs distributed on the Internet to execute large parallel applications - has proved to be an efficient paradigm to provide a large computational power at the fraction of the cost of a dedicated computing infrastructure. This document presents my contributions over the last decade to broaden the scope of Desktop Grid Computing. My research has followed three different directions. The first direction has established new methods to observe and characterize Desktop Grid resources and developed experimental platforms to test and validate our approach in conditions close to reality. The second line of research has focused on integrating Desk- top Grids in e-science Grid infrastructure (e.g. EGI), which requires to address many challenges such as security, scheduling, quality of service, and more. The third direction has investigated how to support large-scale data management and data intensive applica- tions on such infrastructures, including support for the new and emerging data-oriented programming models. This manuscript not only reports on the scientific achievements and the technologies developed to support our objectives, but also on the international collaborations and projects I have been involved in, as well as the scientific mentoring which motivates my candidature for the Habilitation `a Diriger les Recherches.
+DA  - 2015/05/28/
+PY  - 2015
+DP  - hal.inria.fr
+LA  - fr
+M3  - thesis
+PB  - Ecole Normale Supérieure de Lyon
+UR  - https://hal.inria.fr/tel-01158462
+Y2  - 2022/11/12/20:43:18
+L1  - https://hal.inria.fr/tel-01158462/document
+L2  - https://hal.inria.fr/tel-01158462v2
+ER  - 
+
