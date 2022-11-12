@@ -1,0 +1,15 @@
+TY  - JOUR
+TI  - abc triples
+AU  - Martin, Greg
+AU  - Miao, Winnie
+AB  - The abc conjecture, one of the most famous open problems in number theory, claims that three positive integers satisfying a+b=c cannot simultaneously have significant repetition among their prime factors; in particular, the product of the distinct primes dividing the three integers should never be much less than c. Triples of numbers satisfying a+b=c are called abc triples if the product of their distinct prime divisors is strictly less than c. We catalog what is known about abc triples, both numerical examples found through computation and infinite familes of examples established theoretically. In addition, we collect motivations and heuristics supporting the $abc$ conjecture, as well as some of its refinements and generalizations, and we describe the state-of-the-art progress towards establishing the conjecture.
+DA  - 2014///
+PY  - 2014
+DO  - 10.48550/ARXIV.1409.2974
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1409.2974
+Y2  - 2022/11/10/20:58:57
+KW  - FOS: Mathematics
+KW  - Number Theory (math.NT)
+ER  - 
+

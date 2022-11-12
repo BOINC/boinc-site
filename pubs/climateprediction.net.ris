@@ -1,0 +1,2270 @@
+TY  - JOUR
+TI  - Visualization For Public-Resource Climate Modeling
+AU  - Stainforth, D.A.
+AU  - Frame, D.
+AU  - Walton, J.P.R.B.
+T2  - Eurographics / IEEE VGTC Symposium on Visualization
+AB  - Climateprediction.net aims to harness the spare CPU cycles of a million individual users PCs to run a massive ensemble of climate simulations using an up-to-date, full-scale 3D atmosphere-ocean climate model. Although it has many similarities with other public-resource computing projects, it is distinguished by the complexity of its computational task, its system demands and the level of participant interaction, data volume and analysis procedures. For simulations running on individual PCs, there is a requirement for visualizations that are compelling and readily grasped, since most users will be interested in the output from the model, but will have a limited level of scientific experience. This paper describes the design and implementation of these visualizations.
+DA  - 2004///
+PY  - 2004
+DO  - 10.2312/VISSYM/VISSYM04/103-108
+DP  - DOI.org (Datacite)
+SP  - 6
+EP  - pages
+SN  - 1727-5296
+UR  - http://diglib.eg.org/handle/10.2312/VisSym.VisSym04.103-108
+Y2  - 2022/11/10/22:55:00
+ER  - 
+
+TY  - JOUR
+TI  - Constraints on Model Response to Greenhouse Gas Forcing and the Role of Subgrid-Scale Processes
+AU  - Sanderson, Benjamin M.
+AU  - Knutti, R.
+AU  - Aina, T.
+AU  - Christensen, C.
+AU  - Faull, N.
+AU  - Frame, D. J.
+AU  - Ingram, W. J.
+AU  - Piani, C.
+AU  - Stainforth, D. A.
+AU  - Stone, D. A.
+AU  - Allen, M. R.
+T2  - Journal of Climate
+AB  - Abstract
+            A climate model emulator is developed using neural network techniques and trained with the data from the multithousand-member climateprediction.net perturbed physics GCM ensemble. The method recreates nonlinear interactions between model parameters, allowing a simulation of a much larger ensemble that explores model parameter space more fully.
+            The emulated ensemble is used to search for models closest to observations over a wide range of equilibrium response to greenhouse gas forcing. The relative discrepancies of these models from observations could be used to provide a constraint on climate sensitivity. The use of annual mean or seasonal differences on top-of-atmosphere radiative fluxes as an observational error metric results in the most clearly defined minimum in error as a function of sensitivity, with consistent but less well-defined results when using the seasonal cycles of surface temperature or total precipitation.
+            The model parameter changes necessary to achieve different values of climate sensitivity while minimizing discrepancy from observation are also considered and compared with previous studies. This information is used to propose more efficient parameter sampling strategies for future ensembles.
+DA  - 2008/06/01/
+PY  - 2008
+DO  - 10.1175/2008JCLI1869.1
+DP  - DOI.org (Crossref)
+VL  - 21
+IS  - 11
+SP  - 2384
+EP  - 2400
+LA  - en
+SN  - 1520-0442, 0894-8755
+UR  - http://journals.ametsoc.org/doi/10.1175/2008JCLI1869.1
+Y2  - 2022/11/10/22:56:54
+ER  - 
+
+TY  - JOUR
+TI  - Attribution of Autumn/Winter 2000 flood risk in England to anthropogenic climate change: A catchment-based study
+AU  - Kay, A.L.
+AU  - Crooks, S.M.
+AU  - Pall, P.
+AU  - Stone, D.A.
+T2  - Journal of Hydrology
+DA  - 2011/08//
+PY  - 2011
+DO  - 10.1016/j.jhydrol.2011.06.006
+DP  - DOI.org (Crossref)
+VL  - 406
+IS  - 1-2
+SP  - 97
+EP  - 112
+J2  - Journal of Hydrology
+LA  - en
+SN  - 00221694
+ST  - Attribution of Autumn/Winter 2000 flood risk in England to anthropogenic climate change
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0022169411004033
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - Broad range of 2050 warming from an observationally constrained large climate model ensemble
+AU  - Rowlands, Daniel J.
+AU  - Frame, David J.
+AU  - Ackerley, Duncan
+AU  - Aina, Tolu
+AU  - Booth, Ben B. B.
+AU  - Christensen, Carl
+AU  - Collins, Matthew
+AU  - Faull, Nicholas
+AU  - Forest, Chris E.
+AU  - Grandey, Benjamin S.
+AU  - Gryspeerdt, Edward
+AU  - Highwood, Eleanor J.
+AU  - Ingram, William J.
+AU  - Knight, Sylvia
+AU  - Lopez, Ana
+AU  - Massey, Neil
+AU  - McNamara, Frances
+AU  - Meinshausen, Nicolai
+AU  - Piani, Claudio
+AU  - Rosier, Suzanne M.
+AU  - Sanderson, Benjamin M.
+AU  - Smith, Leonard A.
+AU  - Stone, Dáithí A.
+AU  - Thurston, Milo
+AU  - Yamazaki, Kuniko
+AU  - Hiro Yamazaki, Y.
+AU  - Allen, Myles R.
+T2  - Nature Geoscience
+DA  - 2012/04//
+PY  - 2012
+DO  - 10.1038/ngeo1430
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 4
+SP  - 256
+EP  - 260
+J2  - Nature Geosci
+LA  - en
+SN  - 1752-0894, 1752-0908
+UR  - http://www.nature.com/articles/ngeo1430
+Y2  - 2022/11/10/22:56:55
+L1  - https://ore.exeter.ac.uk/repository/bitstream/10871/9287/2/Broad%20range%20of%202050%20warming%20from%20an%20observationally%20constrained%20large%20climate%20model%20ensemble.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Trends in the potential spread of seasonal climate simulations over South Africa: TRENDS IN ENSEMBLE SPREADS OVER SOUTH AFRICA
+AU  - Lawal, Kamoru A.
+AU  - Stone, Dáithí A.
+AU  - Aina, Tolu
+AU  - Rye, Cameron
+AU  - Abiodun, Babatunde J.
+T2  - International Journal of Climatology
+DA  - 2015/07//
+PY  - 2015
+DO  - 10.1002/joc.4234
+DP  - DOI.org (Crossref)
+VL  - 35
+IS  - 9
+SP  - 2193
+EP  - 2209
+J2  - Int. J. Climatol
+LA  - en
+SN  - 08998418
+ST  - Trends in the potential spread of seasonal climate simulations over South Africa
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/joc.4234
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - Climate change, climate justice and the application of probabilistic event attribution to summer heat extremes in the California Central Valley
+AU  - Mera, Roberto
+AU  - Massey, Neil
+AU  - Rupp, David E.
+AU  - Mote, Philip
+AU  - Allen, Myles
+AU  - Frumhoff, Peter C.
+T2  - Climatic Change
+DA  - 2015/12//
+PY  - 2015
+DO  - 10.1007/s10584-015-1474-3
+DP  - DOI.org (Crossref)
+VL  - 133
+IS  - 3
+SP  - 427
+EP  - 438
+J2  - Climatic Change
+LA  - en
+SN  - 0165-0009, 1573-1480
+UR  - http://link.springer.com/10.1007/s10584-015-1474-3
+Y2  - 2022/11/10/22:56:56
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs10584-015-1474-3.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Quantifying the effects of perturbing the physics of an interactive sulfur scheme using an ensemble of GCMs on the climateprediction.net platform: SULFUR CYCLE UNCERTAINTY QUANTIFICATION
+AU  - Ackerley, Duncan
+AU  - Highwood, Eleanor J.
+AU  - Frame, David J.
+T2  - Journal of Geophysical Research: Atmospheres
+DA  - 2009/01/16/
+PY  - 2009
+DO  - 10.1029/2008JD010532
+DP  - DOI.org (Crossref)
+VL  - 114
+IS  - D1
+J2  - J. Geophys. Res.
+LA  - en
+SN  - 01480227
+ST  - Quantifying the effects of perturbing the physics of an interactive sulfur scheme using an ensemble of GCMs on the climateprediction.net platform
+UR  - http://doi.wiley.com/10.1029/2008JD010532
+Y2  - 2022/11/10/22:56:56
+ER  - 
+
+TY  - JOUR
+TI  - Assessing mid-latitude dynamics in extreme event attribution systems
+AU  - Mitchell, Daniel
+AU  - Davini, Paolo
+AU  - Harvey, Ben
+AU  - Massey, Neil
+AU  - Haustein, Karsten
+AU  - Woollings, Tim
+AU  - Jones, Richard
+AU  - Otto, Fredi
+AU  - Guillod, Benoit
+AU  - Sparrow, Sarah
+AU  - Wallom, David
+AU  - Allen, Myles
+T2  - Climate Dynamics
+DA  - 2017/06//
+PY  - 2017
+DO  - 10.1007/s00382-016-3308-z
+DP  - DOI.org (Crossref)
+VL  - 48
+IS  - 11-12
+SP  - 3889
+EP  - 3901
+J2  - Clim Dyn
+LA  - en
+SN  - 0930-7575, 1432-0894
+UR  - http://link.springer.com/10.1007/s00382-016-3308-z
+Y2  - 2022/11/10/22:56:56
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs00382-016-3308-z.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Anthropogenic influence on the changing likelihood of an exceptionally warm summer in Texas, 2011: Changing likelihood of warm summers.
+AU  - Rupp, David E.
+AU  - Li, Sihan
+AU  - Massey, Neil
+AU  - Sparrow, Sarah N.
+AU  - Mote, Philip W.
+AU  - Allen, Myles
+T2  - Geophysical Research Letters
+DA  - 2015/04/16/
+PY  - 2015
+DO  - 10.1002/2014GL062683
+DP  - DOI.org (Crossref)
+VL  - 42
+IS  - 7
+SP  - 2392
+EP  - 2400
+J2  - Geophys. Res. Lett.
+LA  - en
+SN  - 00948276
+ST  - Anthropogenic influence on the changing likelihood of an exceptionally warm summer in Texas, 2011
+UR  - http://doi.wiley.com/10.1002/2014GL062683
+Y2  - 2022/11/10/22:56:57
+ER  - 
+
+TY  - JOUR
+TI  - Increasing risks of multiple breadbasket failure under 1.5 and 2 °C global warming
+AU  - Gaupp, Franziska
+AU  - Hall, Jim
+AU  - Mitchell, Dann
+AU  - Dadson, Simon
+T2  - Agricultural Systems
+DA  - 2019/10//
+PY  - 2019
+DO  - 10.1016/j.agsy.2019.05.010
+DP  - DOI.org (Crossref)
+VL  - 175
+SP  - 34
+EP  - 45
+J2  - Agricultural Systems
+LA  - en
+SN  - 0308521X
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0308521X18307674
+Y2  - 2022/11/10/22:56:57
+L1  - https://pure.iiasa.ac.at/id/eprint/15923/1/AS_manuscript_revised_2nd.pdf
+ER  - 
+
+TY  - RPRT
+TI  - Larger spatial footprint of wintertime total precipitation extremes in a warmer climate
+AU  - Bevacqua, Emanuele
+AU  - Shepherd, Ted
+AU  - Watson, Peter A. G.
+AU  - Sparrow, Sarah
+AU  - Wallom, David C H
+AU  - Mitchell, Daniel M
+DA  - 2020/12/11/
+PY  - 2020
+DP  - DOI.org (Crossref)
+LA  - en
+M3  - preprint
+PB  - Climatology (Global Change)
+UR  - http://www.essoar.org/doi/10.1002/essoar.10505310.1
+Y2  - 2022/11/10/22:56:57
+L1  - https://ora.ox.ac.uk/objects/uuid:8232f50d-c64c-45ae-bbcf-f3cf6defb2a2/download_file?safe_filename=VoR_EBevacqua_GeophysResLett_Apr2021_48_8_2020GL091990.pdf&file_format=pdf&type_of_work=Journal+article
+ER  - 
+
+TY  - JOUR
+TI  - Anthropogenic climate change contribution to wildfire-prone weather conditions in the Cerrado and Arc of deforestation
+AU  - Li, Sihan
+AU  - Sparrow, Sarah N
+AU  - Otto, Friederike E L
+AU  - Rifai, Sami W
+AU  - Oliveras, Imma
+AU  - Krikken, Folmer
+AU  - Anderson, Liana O
+AU  - Malhi, Yadvinder
+AU  - Wallom, David
+T2  - Environmental Research Letters
+AB  - Abstract
+            2015 saw the strongest El Niño event in the historical record, resulting in extreme drought conditions in Brazil. As drought conditions may also lead to greater fire danger, this study uses the 2015 fire in Brazil as a case study to examine whether and to what extent human-induced climate change has contributed to the fire weather conditions in the Cerrado and the southern Amazonia transitional forests known as the Arc of deforestation. Our results show that anthropogenic climate change is indeed a driver of meteorological conditions conducive to strong fire weather in these two regions, measured by fire weather index (FWI), especially on shorter timescales of daily and weekly. The anthropogenic climate change signal of FWI on short timescales corresponds to a similar order of increase in the FWI sub-indices (initial spread index and fine fuel moisture code) that can rapidly change due to the influence of the instantaneous weather conditions. For both regions the changes in fire weather in response to anthropogenic climate change are dominated by the combination of temperature and relative humidity responses. High FWI is more likely to occur under El Niño conditions, less likely under La Niña conditions, although the impacts of El Niño vs La Niña conditions are not symmetric when compared with El Niño Southern Oscillation neutral states. To summarize, both human-induced climate change and the presence of El Niño increased the likelihood of occurrence for the strong fire weather condition in 2015. Our results suggest that local and regional adaptation measures, such as improved drought monitoring and warning systems, could help with effective planning of fire prevention, firefighting actions, and disaster preparedness.
+DA  - 2021/09/01/
+PY  - 2021
+DO  - 10.1088/1748-9326/ac1e3a
+DP  - DOI.org (Crossref)
+VL  - 16
+IS  - 9
+SP  - 094051
+J2  - Environ. Res. Lett.
+SN  - 1748-9326
+UR  - https://iopscience.iop.org/article/10.1088/1748-9326/ac1e3a
+Y2  - 2022/11/10/22:56:58
+L1  - https://iopscience.iop.org/article/10.1088/1748-9326/ac1e3a/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Quantifying Human Impact on the 2018 Summer Longest Heat Wave in South Korea
+AU  - Min, Seung-Ki
+AU  - Kim, Yeon-Hee
+AU  - Lee, Sang-Min
+AU  - Sparrow, Sarah
+AU  - Li, Sihan
+AU  - Lott, Fraser C.
+AU  - Stott, Peter A.
+T2  - Bulletin of the American Meteorological Society
+DA  - 2020/01//
+PY  - 2020
+DO  - 10.1175/BAMS-D-19-0151.1
+DP  - DOI.org (Crossref)
+VL  - 101
+IS  - 1
+SP  - S103
+EP  - S108
+SN  - 0003-0007, 1520-0477
+UR  - https://journals.ametsoc.org/view/journals/bams/101/1/bams-d-19-0151.1.xml
+Y2  - 2022/11/10/22:56:58
+L1  - https://journals.ametsoc.org/downloadpdf/journals/bams/101/1/bams-d-19-0151.1.pdf
+ER  - 
+
+TY  - RPRT
+TI  - A Multi-model Assessment of the Changing Risks of Extreme Rainfall Events in Bangladesh under 1.5 and 2.0 degrees&#8217; warmer worlds
+AU  - Rimi, Ruksana
+AU  - Haustein, Karsten
+AU  - Barbour, Emily
+AU  - Sparrow, Sarah
+AU  - Li, Sihan
+AU  - Wallom, David
+AU  - Allen, Myles
+AB  - &lt;p&gt;For public, scientists and policy-makers, it is important to know to what extent human-induced climate change played (or did not play) a role behind changing risks of extreme weather events. Probabilistic event attribution (PEA) can provide scientific information regarding this association and reveal whether and to what extent external drivers of climate change have influenced the probability of high-impact weather events. To date, most of the PEA-based studies have focused on extreme events of mid-latitudes and predominantly events that have occurred in the developed countries. Developing countries located at the tropical monsoon regions are underrepresented in this field of research, despite that fact that these countries are highly climate vulnerable, often experience extreme weather events that cause severe damages and have the least capacity to adapt.&amp;#160;&lt;/p&gt;&lt;p&gt;Bangladesh, a South Asian country with tropical monsoon climate, is a hotspot of climate change impacts as it is vulnerable to a combination of increasing challenges from record-breaking temperatures, extreme rainfall events, more intense river floods, tropical cyclones, and rising sea levels. The unique geographical location of this country particularly exposes it to high risks of flooding and landslides caused by heavy rainfall events. Observation based studies indicate that the frequency of high-intensity rainfall events may have already increased, with significant repercussions for agriculture, health, ecosystems and economic development.&lt;/p&gt;&lt;p&gt;Using high resolution regional climate model (RCM) simulations from weather@home, here we quantify the risks of extreme rainfall events in Bangladesh under pre-industrial, present-day and future climate scenarios of the Paris Agreement temperature targets of 1.5&amp;#176;C and 2&amp;#176;C warming. Additionally, we assess the risks under greenhouse gas (GHG)-only climate scenario where anthropogenic aerosols are reduced to pre-industrial levels. In order to test the robustness of the RCM results, available four atmosphere only global circulation model (AGCM) simulations from the Half a degree Additional warming, Prognosis and Projected Impacts (HAPPI) project are analysed. This enabled for the first time, a multi-model assessment of the changing risks of extreme rainfall events in Bangladesh considering anthropogenic climate change drivers.&lt;/p&gt;&lt;p&gt;Findings suggest that both a 1.5&amp;#176;C and 2.0&amp;#176;C warmer world is poised to experience increased seasonal mean and, to a lesser extent, increased extreme rainfall events. The risk of a 1 in 100 year rainfall event under current climate condition has already increased significantly compared with pre-industrial levels. Substantial reduction in the impacts resulting from 1.5&amp;#176;C compared with 2&amp;#176;C warming is reported in this study; however the difference is spatially and temporally variable across Bangladesh. This paper highlights that reduction in the anthropogenic aerosols play an important role in determining the overall future climate change impacts; by exacerbating the effects of GHG induced global warming and thereby increasing the rainfall intensity. The policy-makers therefore need to take stronger climate actions to avoid impacts of 2&amp;#176;C warmer world and consider future changes in the risks of extreme rainfall events in the face of changeable GHG and aerosol impacts.&lt;/p&gt;
+DA  - 2020/03/23/
+PY  - 2020
+DP  - DOI.org (Crossref)
+M3  - other
+PB  - display
+UR  - https://meetingorganizer.copernicus.org/EGU2020/EGU2020-14098.html
+Y2  - 2022/11/10/22:56:57
+L1  - https://ora.ox.ac.uk/objects/uuid:8c2722c3-1e81-4251-9535-01bedbbe67d5/download_file?safe_filename=RimietalVoR2020.pdf&file_format=pdf&type_of_work=Journal+article
+ER  - 
+
+TY  - JOUR
+TI  - The Impact of Human‐Induced Climate Change on Regional Drought in the Horn of Africa
+AU  - Marthews, T. R.
+AU  - Jones, R. G.
+AU  - Dadson, S. J.
+AU  - Otto, F. E. L.
+AU  - Mitchell, D.
+AU  - Guillod, B. P.
+AU  - Allen, M. R.
+T2  - Journal of Geophysical Research: Atmospheres
+DA  - 2019/04/27/
+PY  - 2019
+DO  - 10.1029/2018JD030085
+DP  - DOI.org (Crossref)
+VL  - 124
+IS  - 8
+SP  - 4549
+EP  - 4566
+J2  - J. Geophys. Res. Atmos.
+LA  - en
+SN  - 2169-897X, 2169-8996
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1029/2018JD030085
+Y2  - 2022/11/10/22:56:57
+L1  - https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018JD030085
+L1  - https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018JD030085
+ER  - 
+
+TY  - JOUR
+TI  - Forced summer stationary waves: the opposing effects of direct radiative forcing and sea surface warming
+AU  - Baker, Hugh S.
+AU  - Woollings, Tim
+AU  - Mbengue, Cheikh
+AU  - Allen, Myles R.
+AU  - O’Reilly, Christopher H.
+AU  - Shiogama, Hideo
+AU  - Sparrow, Sarah
+T2  - Climate Dynamics
+DA  - 2019/10//
+PY  - 2019
+DO  - 10.1007/s00382-019-04786-1
+DP  - DOI.org (Crossref)
+VL  - 53
+IS  - 7-8
+SP  - 4291
+EP  - 4309
+J2  - Clim Dyn
+LA  - en
+SN  - 0930-7575, 1432-0894
+ST  - Forced summer stationary waves
+UR  - http://link.springer.com/10.1007/s00382-019-04786-1
+Y2  - 2022/11/10/22:56:57
+L1  - https://link.springer.com/content/pdf/10.1007/s00382-019-04786-1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Attribution of extreme weather events in Africa: a preliminary exploration of the science and policy implications
+AU  - Otto, Friederike E. L.
+AU  - Boyd, Emily
+AU  - Jones, Richard G.
+AU  - Cornforth, Rosalind J.
+AU  - James, Rachel
+AU  - Parker, Hannah R.
+AU  - Allen, Myles R.
+T2  - Climatic Change
+DA  - 2015/10//
+PY  - 2015
+DO  - 10.1007/s10584-015-1432-0
+DP  - DOI.org (Crossref)
+VL  - 132
+IS  - 4
+SP  - 531
+EP  - 543
+J2  - Climatic Change
+LA  - en
+SN  - 0165-0009, 1573-1480
+ST  - Attribution of extreme weather events in Africa
+UR  - http://link.springer.com/10.1007/s10584-015-1432-0
+Y2  - 2022/11/10/22:56:56
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs10584-015-1432-0.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Extreme Rainfall in Early July 2014 in Northland, New Zealand—Was There an Anthropogenic Influence?
+AU  - Rosier, Suzanne
+AU  - Dean, Sam
+AU  - Stuart, Stephen
+AU  - Carey-Smith, Trevor
+AU  - Black, Mitchell T.
+AU  - Massey, Neil
+T2  - Bulletin of the American Meteorological Society
+DA  - 2015/12/01/
+PY  - 2015
+DO  - 10.1175/BAMS-D-15-00105.1
+DP  - DOI.org (Crossref)
+VL  - 96
+IS  - 12
+SP  - S136
+EP  - S140
+LA  - en
+SN  - 0003-0007, 1520-0477
+UR  - https://journals.ametsoc.org/doi/10.1175/BAMS-D-15-00105.1
+Y2  - 2022/11/10/22:56:56
+ER  - 
+
+TY  - JOUR
+TI  - Beyond climatological extremes - assessing how the odds of hydrometeorological extreme events in South-East Europe change in a warming climate
+AU  - Sippel, Sebastian
+AU  - Otto, F E. L.
+T2  - Climatic Change
+DA  - 2014/08//
+PY  - 2014
+DO  - 10.1007/s10584-014-1153-9
+DP  - DOI.org (Crossref)
+VL  - 125
+IS  - 3-4
+SP  - 381
+EP  - 398
+J2  - Climatic Change
+LA  - en
+SN  - 0165-0009, 1573-1480
+UR  - http://link.springer.com/10.1007/s10584-014-1153-9
+Y2  - 2022/11/10/22:56:56
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs10584-014-1153-9.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Anthropogenic greenhouse gas contribution to flood risk in England and Wales in autumn 2000
+AU  - Pall, Pardeep
+AU  - Aina, Tolu
+AU  - Stone, Dáithí A.
+AU  - Stott, Peter A.
+AU  - Nozawa, Toru
+AU  - Hilberts, Arno G. J.
+AU  - Lohmann, Dag
+AU  - Allen, Myles R.
+T2  - Nature
+DA  - 2011/02//
+PY  - 2011
+DO  - 10.1038/nature09762
+DP  - DOI.org (Crossref)
+VL  - 470
+IS  - 7334
+SP  - 382
+EP  - 385
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - http://www.nature.com/articles/nature09762
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - Probabilistic climate forecasts and inductive problems
+AU  - Frame, D.J
+AU  - Faull, N.E
+AU  - Joshi, M.M
+AU  - Allen, M.R
+T2  - Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences
+AB  - The development of ensemble-based ‘probabilistic’ climate forecasts is often seen as a promising avenue for climate scientists. Ensemble-based methods allow scientists to produce more informative, nuanced forecasts of climate variables by reflecting uncertainty from various sources, such as similarity to observation and model uncertainty. However, these developments present challenges as well as opportunities, particularly surrounding issues of experimental design and interpretation of forecast results. This paper discusses different approaches and attempts to set out what climate
+              prediction
+              .net and other large ensemble, complex model experiments might contribute to this research programme.
+DA  - 2007/08/15/
+PY  - 2007
+DO  - 10.1098/rsta.2007.2069
+DP  - DOI.org (Crossref)
+VL  - 365
+IS  - 1857
+SP  - 1971
+EP  - 1992
+J2  - Phil. Trans. R. Soc. A.
+LA  - en
+SN  - 1364-503X, 1471-2962
+UR  - https://royalsocietypublishing.org/doi/10.1098/rsta.2007.2069
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - The case for mandatory sequestration
+AU  - Allen, Myles R.
+AU  - Frame, David J.
+AU  - Mason, Charles F.
+T2  - Nature Geoscience
+DA  - 2009/12//
+PY  - 2009
+DO  - 10.1038/ngeo709
+DP  - DOI.org (Crossref)
+VL  - 2
+IS  - 12
+SP  - 813
+EP  - 814
+J2  - Nature Geosci
+LA  - en
+SN  - 1752-0894, 1752-0908
+UR  - http://www.nature.com/articles/ngeo709
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - Quantification of modelling uncertainties in a large ensemble of climate change simulations
+AU  - Murphy, James M.
+AU  - Sexton, David M. H.
+AU  - Barnett, David N.
+AU  - Jones, Gareth S.
+AU  - Webb, Mark J.
+AU  - Collins, Matthew
+AU  - Stainforth, David A.
+T2  - Nature
+DA  - 2004/08//
+PY  - 2004
+DO  - 10.1038/nature02771
+DP  - DOI.org (Crossref)
+VL  - 430
+IS  - 7001
+SP  - 768
+EP  - 772
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - http://www.nature.com/articles/nature02771
+Y2  - 2022/11/10/22:56:54
+ER  - 
+
+TY  - JOUR
+TI  - Large fluctuations in speed on Greenland's Jakobshavn Isbræ glacier
+AU  - Joughin, Ian
+AU  - Abdalati, Waleed
+AU  - Fahnestock, Mark
+T2  - Nature
+DA  - 2004/12//
+PY  - 2004
+DO  - 10.1038/nature03130
+DP  - DOI.org (Crossref)
+VL  - 432
+IS  - 7017
+SP  - 608
+EP  - 610
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - http://www.nature.com/articles/nature03130
+Y2  - 2022/11/10/22:56:54
+ER  - 
+
+TY  - JOUR
+TI  - Climate sensitivity constrained by temperature reconstructions over the past seven centuries
+AU  - Hegerl, Gabriele C.
+AU  - Crowley, Thomas J.
+AU  - Hyde, William T.
+AU  - Frame, David J.
+T2  - Nature
+DA  - 2006/04/20/
+PY  - 2006
+DO  - 10.1038/nature04679
+DP  - DOI.org (Crossref)
+VL  - 440
+IS  - 7087
+SP  - 1029
+EP  - 1032
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - https://www.nature.com/articles/nature04679
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - Equipped to deal with uncertainty in climate and impacts predictions: lessons from internal peer review
+AU  - Wesselink, Anna
+AU  - Challinor, Andrew Juan
+AU  - Watson, James
+AU  - Beven, Keith
+AU  - Allen, Icarus
+AU  - Hanlon, Helen
+AU  - Lopez, Ana
+AU  - Lorenz, Susanne
+AU  - Otto, Friederike
+AU  - Morse, Andy
+AU  - Rye, Cameron
+AU  - Saux-Picard, Stephane
+AU  - Stainforth, David
+AU  - Suckling, Emma
+T2  - Climatic Change
+DA  - 2015/09//
+PY  - 2015
+DO  - 10.1007/s10584-014-1213-1
+DP  - DOI.org (Crossref)
+VL  - 132
+IS  - 1
+SP  - 1
+EP  - 14
+J2  - Climatic Change
+LA  - en
+SN  - 0165-0009, 1573-1480
+ST  - Equipped to deal with uncertainty in climate and impacts predictions
+UR  - http://link.springer.com/10.1007/s10584-014-1213-1
+Y2  - 2022/11/10/22:56:55
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs10584-014-1213-1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Effectiveness of stratospheric solar-radiation management as a function of climate sensitivity
+AU  - Ricke, Katharine L.
+AU  - Rowlands, Daniel J.
+AU  - Ingram, William J.
+AU  - Keith, David W.
+AU  - Granger Morgan, M.
+T2  - Nature Climate Change
+DA  - 2012/02//
+PY  - 2012
+DO  - 10.1038/nclimate1328
+DP  - DOI.org (Crossref)
+VL  - 2
+IS  - 2
+SP  - 92
+EP  - 96
+J2  - Nature Clim Change
+LA  - en
+SN  - 1758-678X, 1758-6798
+UR  - http://www.nature.com/articles/nclimate1328
+Y2  - 2022/11/10/22:56:55
+L1  - https://dash.harvard.edu/bitstream/1/13406231/1/Katharine_EffectivenessStratospheric.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Attribution analysis of high precipitation events in summer in England and Wales over the last decade
+AU  - Otto, Friederike E. L.
+AU  - Rosier, Suzanne M.
+AU  - Allen, Myles R.
+AU  - Massey, Neil R.
+AU  - Rye, Cameron J.
+AU  - Quintana, Jara Imbers
+T2  - Climatic Change
+DA  - 2015/09//
+PY  - 2015
+DO  - 10.1007/s10584-014-1095-2
+DP  - DOI.org (Crossref)
+VL  - 132
+IS  - 1
+SP  - 77
+EP  - 91
+J2  - Climatic Change
+LA  - en
+SN  - 0165-0009, 1573-1480
+UR  - http://link.springer.com/10.1007/s10584-014-1095-2
+Y2  - 2022/11/10/22:56:56
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs10584-014-1095-2.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The weather@home regional climate modelling project for Australia and New Zealand
+AU  - Black, Mitchell T.
+AU  - Karoly, David J.
+AU  - Rosier, Suzanne M.
+AU  - Dean, Sam M.
+AU  - King, Andrew D.
+AU  - Massey, Neil R.
+AU  - Sparrow, Sarah N.
+AU  - Bowery, Andy
+AU  - Wallom, David
+AU  - Jones, Richard G.
+AU  - Otto, Friederike E. L.
+AU  - Allen, Myles R.
+T2  - Geoscientific Model Development
+AB  - Abstract. A new climate modelling project has been developed for regional climate simulation and the attribution of weather and climate extremes over Australia and New Zealand. The project, known as weather@home Australia–New Zealand, uses public volunteers' home computers to run a moderate-resolution global atmospheric model with a nested regional model over the Australasian region. By harnessing the aggregated computing power of home computers, weather@home is able to generate an unprecedented number of simulations of possible weather under various climate scenarios. This combination of large ensemble sizes with high spatial resolution allows extreme events to be examined with well-constrained estimates of sampling uncertainty. This paper provides an overview of the weather@home Australia–New Zealand project, including initial evaluation of the regional model performance. The model is seen to be capable of resolving many climate features that are important for the Australian and New Zealand regions, including the influence of El Niño–Southern Oscillation on driving natural climate variability. To date, 75 model simulations of the historical climate have been successfully integrated over the period 1985–2014 in a time-slice manner. In addition, multi-thousand member ensembles have also been generated for the years 2013, 2014 and 2015 under climate scenarios with and without the effect of human influences. All data generated by the project are freely available to the broader research community.
+DA  - 2016/09/15/
+PY  - 2016
+DO  - 10.5194/gmd-9-3161-2016
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 9
+SP  - 3161
+EP  - 3176
+J2  - Geosci. Model Dev.
+LA  - en
+SN  - 1991-9603
+UR  - https://gmd.copernicus.org/articles/9/3161/2016/
+Y2  - 2022/11/10/22:56:56
+L1  - https://www.geosci-model-dev.net/9/3161/2016/gmd-9-3161-2016.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Stakeholder perceptions of event attribution in the loss and damage debate
+AU  - Parker, Hannah R.
+AU  - Boyd, Emily
+AU  - Cornforth, Rosalind J.
+AU  - James, Rachel
+AU  - Otto, Friederike E. L.
+AU  - Allen, Myles R.
+T2  - Climate Policy
+DA  - 2017/05/19/
+PY  - 2017
+DO  - 10.1080/14693062.2015.1124750
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 4
+SP  - 533
+EP  - 550
+J2  - Climate Policy
+LA  - en
+SN  - 1469-3062, 1752-7457
+UR  - https://www.tandfonline.com/doi/full/10.1080/14693062.2015.1124750
+Y2  - 2022/11/10/22:56:56
+ER  - 
+
+TY  - JOUR
+TI  - Attributing the 2017 Bangladesh floods from meteorological and hydrological perspectives
+AU  - Philip, Sjoukje
+AU  - Sparrow, Sarah
+AU  - Kew, Sarah F.
+AU  - van der Wiel, Karin
+AU  - Wanders, Niko
+AU  - Singh, Roop
+AU  - Hassan, Ahmadul
+AU  - Mohammed, Khaled
+AU  - Javid, Hammad
+AU  - Haustein, Karsten
+AU  - Otto, Friederike E. L.
+AU  - Hirpa, Feyera
+AU  - Rimi, Ruksana H.
+AU  - Islam, A. K. M. Saiful
+AU  - Wallom, David C. H.
+AU  - van Oldenborgh, Geert Jan
+T2  - Hydrology and Earth System Sciences
+AB  - Abstract. In August 2017 Bangladesh faced one of its worst river flooding events in
+recent history. This paper presents, for the first time, an attribution of this
+precipitation-induced flooding to anthropogenic climate change from a
+combined meteorological and hydrological perspective. Experiments were
+conducted with three observational datasets and two climate models to
+estimate changes in the extreme 10-day precipitation event frequency over the
+Brahmaputra basin up to the present and, additionally, an outlook to 2 ∘C warming since pre-industrial times.
+The precipitation fields were then used as meteorological input for four
+different hydrological models to estimate the corresponding changes in river
+discharge, allowing for comparison between approaches and for the robustness
+of the attribution results to be assessed. In all three observational precipitation datasets the climate change trends
+for extreme precipitation similar to that observed in August 2017 are not
+significant, however in two out of three series, the sign of this
+insignificant trend is positive. One climate model ensemble shows a
+significant positive influence of anthropogenic climate change, whereas the
+other large ensemble model simulates a cancellation between the increase due
+to greenhouse gases (GHGs) and a decrease due to sulfate aerosols. Considering
+discharge rather than precipitation, the hydrological models show that
+attribution of the change in discharge towards higher values is somewhat less
+uncertain than in precipitation, but the 95 % confidence intervals still
+encompass no change in risk. Extending the analysis to the future, all models
+project an increase in probability of extreme events at 2 ∘C global
+heating since pre-industrial times, becoming more than 1.7 times more likely
+for high 10-day precipitation and being more likely by a factor of about 1.5 for
+discharge. Our best estimate on the trend in flooding events similar to the
+Brahmaputra event of August 2017 is derived by synthesizing the observational
+and model results: we find the change in risk to be greater than 1 and of
+a similar order of magnitude (between 1 and 2) for both the meteorological and
+hydrological approach. This study shows that, for precipitation-induced
+flooding events, investigating changes in precipitation is useful, either as
+an alternative when hydrological models are not available or as an
+additional measure to confirm qualitative conclusions. Besides this, it highlights
+the importance of using multiple models in attribution studies, particularly
+where the climate change signal is not strong relative to natural variability
+or is confounded by other factors such as aerosols.
+DA  - 2019/03/13/
+PY  - 2019
+DO  - 10.5194/hess-23-1409-2019
+DP  - DOI.org (Crossref)
+VL  - 23
+IS  - 3
+SP  - 1409
+EP  - 1429
+J2  - Hydrol. Earth Syst. Sci.
+LA  - en
+SN  - 1607-7938
+UR  - https://hess.copernicus.org/articles/23/1409/2019/
+Y2  - 2022/11/10/22:56:57
+L1  - https://hess.copernicus.org/articles/23/1409/2019/hess-23-1409-2019.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Increasing mitigation ambition to meet the Paris Agreement’s temperature goal avoids substantial heat-related mortality in U.S. cities
+AU  - Lo, Y. T. Eunice
+AU  - Mitchell, Daniel M.
+AU  - Gasparrini, Antonio
+AU  - Vicedo-Cabrera, Ana M.
+AU  - Ebi, Kristie L.
+AU  - Frumhoff, Peter C.
+AU  - Millar, Richard J.
+AU  - Roberts, William
+AU  - Sera, Francesco
+AU  - Sparrow, Sarah
+AU  - Uhe, Peter
+AU  - Williams, Gethin
+T2  - Science Advances
+AB  - Increasing climate commitments to meet the Paris Agreement goal avoids large numbers of heat-related deaths in U.S. cities.
+          , 
+            Current greenhouse gas mitigation ambition is consistent with ~3°C global mean warming above preindustrial levels. There is a clear need to strengthen mitigation ambition to stabilize the climate at the Paris Agreement goal of warming of less than 2°C. We specify the differences in city-level heat-related mortality between the 3°C trajectory and warming of 2° and 1.5°C. Focusing on 15 U.S. cities where reliable climate and health data are available, we show that ratcheting up mitigation ambition to achieve the 2°C threshold could avoid between 70 and 1980 annual heat-related deaths per city during extreme events (30-year return period). Achieving the 1.5°C threshold could avoid between 110 and 2720 annual heat-related deaths. Population changes and adaptation investments would alter these numbers. Our results provide compelling evidence for the heat-related health benefits of limiting global warming to 1.5°C in the United States.
+DA  - 2019/06/07/
+PY  - 2019
+DO  - 10.1126/sciadv.aau4373
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 6
+SP  - eaau4373
+J2  - Sci. Adv.
+LA  - en
+SN  - 2375-2548
+UR  - https://www.science.org/doi/10.1126/sciadv.aau4373
+Y2  - 2022/11/10/22:56:57
+L1  - https://europepmc.org/articles/pmc6551192?pdf=render
+ER  - 
+
+TY  - RPRT
+TI  - Multi-thousand member ensemble atmospheric simulations with global 60km resolution using climateprediction.net
+AU  - Watson, Peter
+AU  - Sparrow, Sarah
+AU  - Ingram, William
+AU  - Wilson, Simon
+AU  - Marie, Drouard
+AU  - Zappa, Giuseppe
+AU  - Jones, Richard
+AU  - Mitchell, Daniel
+AU  - Woollings, Tim
+AU  - Allen, Myles
+AB  - &lt;p&gt;Multi-thousand member climate model simulations are highly valuable for showing how extreme weather events will change as the climate changes, using a physically-based approach. However, until now, studies using such an approach have been limited to using models with a resolution much coarser than the most modern systems. We have developed a global atmospheric model with 5/6&amp;#176;x5/9&amp;#176; resolution (~60km in middle latitudes) that can be run in the climateprediction.net distributed computing system to produce such large datasets. This resolution is finer than that of many current global climate models and sufficient for good simulation of extratropical synoptic features such as storms. It will also allow many extratropical extreme weather events to be simulated without requiring regional downscaling. We will show that this model's simulation of extratropical weather is competitive with that in other current models. We will also present results from the first multi-thousand member ensembles produced at this resolution, showing the impact of 1.5&amp;#176;C and 2&amp;#176;C global warming on extreme winter rainfall and extratropical cyclones in Europe.&lt;/p&gt;
+DA  - 2020/03/23/
+PY  - 2020
+DP  - DOI.org (Crossref)
+M3  - other
+PB  - oral
+UR  - https://meetingorganizer.copernicus.org/EGU2020/EGU2020-10895.html
+Y2  - 2022/11/10/22:56:57
+L1  - https://ora.ox.ac.uk/objects/uuid:e9e5c109-e710-4217-95b9-ca1547bf1f65/download_file?safe_filename=WatsonetalVoR2020.pdf&file_format=pdf&type_of_work=Journal+article
+ER  - 
+
+TY  - JOUR
+TI  - Impacts of droughts on low flows and water quality near power stations
+AU  - Bussi, Gianbattista
+AU  - Whitehead, Paul G.
+T2  - Hydrological Sciences Journal
+DA  - 2020/04/25/
+PY  - 2020
+DO  - 10.1080/02626667.2020.1724295
+DP  - DOI.org (Crossref)
+VL  - 65
+IS  - 6
+SP  - 898
+EP  - 913
+J2  - Hydrological Sciences Journal
+LA  - en
+SN  - 0262-6667, 2150-3435
+UR  - https://www.tandfonline.com/doi/full/10.1080/02626667.2020.1724295
+Y2  - 2022/11/10/22:56:57
+ER  - 
+
+TY  - JOUR
+TI  - Effective Radiative Forcing in a GCM With Fixed Surface Temperatures
+AU  - Andrews, Timothy
+AU  - Smith, Christopher J.
+AU  - Myhre, Gunnar
+AU  - Forster, Piers M.
+AU  - Chadwick, Robin
+AU  - Ackerley, Duncan
+T2  - Journal of Geophysical Research: Atmospheres
+DA  - 2021/02/27/
+PY  - 2021
+DO  - 10.1029/2020JD033880
+DP  - DOI.org (Crossref)
+VL  - 126
+IS  - 4
+J2  - JGR Atmospheres
+LA  - en
+SN  - 2169-897X, 2169-8996
+UR  - https://onlinelibrary.wiley.com/doi/10.1029/2020JD033880
+Y2  - 2022/11/10/22:56:58
+L1  - https://eprints.whiterose.ac.uk/171015/7/2020JD033880.pdf
+ER  - 
+
+TY  - JOUR
+TI  - OpenIFS@home version 1: a citizen science project for ensemble weather and climate forecasting
+AU  - Sparrow, Sarah
+AU  - Bowery, Andrew
+AU  - Carver, Glenn D.
+AU  - Köhler, Marcus O.
+AU  - Ollinaho, Pirkka
+AU  - Pappenberger, Florian
+AU  - Wallom, David
+AU  - Weisheimer, Antje
+T2  - Geoscientific Model Development
+AB  - Abstract. Weather forecasts rely heavily on general circulation models of
+the atmosphere and other components of the Earth system. National
+meteorological and hydrological services and intergovernmental
+organizations, such as the European Centre for Medium-Range Weather
+Forecasts (ECMWF), provide routine operational forecasts on a range of
+spatio-temporal scales by running these models at high resolution on
+state-of-the-art high-performance computing systems. Such operational
+forecasts are very demanding in terms of computing resources. To facilitate
+the use of a weather forecast model for research and training purposes
+outside the operational environment, ECMWF provides a portable version of
+its numerical weather forecast model, OpenIFS, for use by universities and
+other research institutes on their own computing systems. In this paper, we describe a new project (OpenIFS@home) that combines
+OpenIFS with a citizen science approach to involve the general public in
+helping conduct scientific experiments. Volunteers from across the world can
+run OpenIFS@home on their computers at home, and the results of these
+simulations can be combined into large forecast ensembles. The
+infrastructure of such distributed computing experiments is based on our
+experience and expertise with the climateprediction.net (https://www.climateprediction.net/, last access: 1 June 2021) and
+weather@home systems. In order to validate this first use of OpenIFS in a volunteer computing
+framework, we present results from ensembles of forecast simulations of
+Tropical Cyclone Karl from September 2016 studied during the NAWDEX field
+campaign. This cyclone underwent extratropical transition and intensified in
+mid-latitudes to give rise to an intense jet streak near Scotland and heavy
+rainfall over Norway. For the validation we use a 2000-member
+ensemble of OpenIFS run on the OpenIFS@home volunteer framework and a
+smaller ensemble of the size of operational forecasts using ECMWF's forecast
+model in 2016 run on the ECMWF supercomputer with the same horizontal
+resolution as OpenIFS@home. We present ensemble statistics that illustrate
+the reliability and accuracy of the OpenIFS@home forecasts and
+discuss the use of large ensembles in the context of forecasting extreme
+events.
+DA  - 2021/06/09/
+PY  - 2021
+DO  - 10.5194/gmd-14-3473-2021
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 6
+SP  - 3473
+EP  - 3486
+J2  - Geosci. Model Dev.
+LA  - en
+SN  - 1991-9603
+ST  - OpenIFS@home version 1
+UR  - https://gmd.copernicus.org/articles/14/3473/2021/
+Y2  - 2022/11/10/22:56:58
+L1  - https://gmd.copernicus.org/articles/14/3473/2021/gmd-14-3473-2021.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Statistical Methods for Extreme Event Attribution in Climate Science
+AU  - Naveau, Philippe
+AU  - Hannart, Alexis
+AU  - Ribes, Aurélien
+T2  - Annual Review of Statistics and Its Application
+AB  - Changes in the Earth's climate have been increasingly observed. Assessing the likelihood that each of these changes has been caused by human influence is important for decision making on mitigation and adaptation policy. Because of their large societal and economic impacts, extreme events have garnered much media attention—have they become more frequent and more intense, and if so, why? To answer such questions, extreme event attribution (EEA) tries to estimate extreme event likelihoods under different scenarios. Over the past decade, statistical methods and experimental designs based on numerical models have been developed, tested, and applied. In this article, we review the basic probability schemes, inference techniques, and statistical hypotheses used in EEA. To implement EEA analysis, the climate community relies on the use of large ensembles of climate model runs. We discuss, from a statistical perspective, how extreme value theory could help to deal with the different modeling uncertainties. In terms of interpretation, we stress that causal counterfactual theory offers an elegant framework that clarifies the design of event attributions. Finally, we pinpoint some remaining statistical challenges, including the choice of the appropriate spatio-temporal scales to enhance attribution power, the modeling of concomitant extreme events in a multivariate context, and the coupling of multi-ensemble and observational uncertainties.
+DA  - 2020/03/09/
+PY  - 2020
+DO  - 10.1146/annurev-statistics-031219-041314
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 89
+EP  - 110
+J2  - Annu. Rev. Stat. Appl.
+LA  - en
+SN  - 2326-8298, 2326-831X
+UR  - https://www.annualreviews.org/doi/10.1146/annurev-statistics-031219-041314
+Y2  - 2022/11/10/22:56:58
+L1  - https://hal.archives-ouvertes.fr/hal-02408516/file/Naveau19-HAL.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Drivers behind the summer 2010 wave train leading to Russian heatwave and Pakistan flooding
+AU  - Di Capua, G.
+AU  - Sparrow, S.
+AU  - Kornhuber, K.
+AU  - Rousi, E.
+AU  - Osprey, S.
+AU  - Wallom, D.
+AU  - van den Hurk, B.
+AU  - Coumou, D.
+T2  - npj Climate and Atmospheric Science
+AB  - Abstract
+            Summer 2010 saw two simultaneous extremes linked by an atmospheric wave train: a record-breaking heatwave in Russia and severe floods in Pakistan. Here, we study this wave event using a large ensemble climate model experiment. First, we show that the circulation in 2010 reflected a recurrent wave train connecting the heatwave and flooding events. Second, we show that the occurrence of the wave train is favored by three drivers: (1) 2010 sea surface temperature anomalies increase the probability of this wave train by a factor 2-to-4 relative to the model’s climatology, (2) early-summer soil moisture deficit in Russia not only increases the probability of local heatwaves, but also enhances rainfall extremes over Pakistan by forcing an atmospheric wave response, and (3) high-latitude land warming favors wave-train occurrence and therefore rainfall and heat extremes. These findings highlight the complexity and synergistic interactions between different drivers, reconciling some seemingly contradictory results from previous studies.
+DA  - 2021/12//
+PY  - 2021
+DO  - 10.1038/s41612-021-00211-9
+DP  - DOI.org (Crossref)
+VL  - 4
+IS  - 1
+SP  - 55
+J2  - npj Clim Atmos Sci
+LA  - en
+SN  - 2397-3722
+UR  - https://www.nature.com/articles/s41612-021-00211-9
+Y2  - 2022/11/10/22:56:57
+L1  - https://www.nature.com/articles/s41612-021-00211-9.pdf
+ER  - 
+
+TY  - RPRT
+TI  - Impact of sub-seasonal atmosphere-ocean interactions on extreme event statistics
+AU  - Aengenheyster, Matthias
+AU  - Sparrow, Sarah
+AU  - Watson, Peter
+AU  - Wallom, David
+AU  - Zanna, Laure
+AU  - Allen, Myles
+AB  - &lt;p&gt;Modified frequencies and magnitudes of extreme events due to climate change can have large impacts on societies and are therefore a key area of current research. Large model ensembles are required to quantify and attribute changes to extreme events. Until now, the large ensembles used for such studies are commonly atmosphere-only models forced with time-varying sea surface temperatures (SST) and sea ice.&amp;#160;&lt;/p&gt;&lt;p&gt;This approach is very powerful but presents problems of internal physical consistency. In an SST-forced model, the ocean acts as having an infinite heat capacity whereas in the real-world SST emerges dynamically from the interaction of atmospheric and oceanic processes (Dong et al., 2020). This is particularly relevant for the North Atlantic where ocean processes, in particular meridional heat transport, are key drivers of air-sea coupling. A long-standing challenge, however, is the computational cost of spinning up fully coupled atmosphere-ocean models that hinders their application to large-ensemble, high-resolution simulations required to quantify changing hazard frequencies of low-probability events.&amp;#160;&amp;#160;&lt;/p&gt;&lt;p&gt;In this work we combine the HadAM4 (Webb et al., 2001) atmospheric model at N144 resolution with a Slab ocean (Hewitt &amp; Mitchell, 1997; Williams et al., 2003), which includes a simple sea ice model, to yield the atmosphere-Slab Ocean model HadSM4. The Slab Ocean is forced with diagnosed heat convergence (Q-Flux) and surface currents for sea ice advection (a useful model-development finding for this kind of experiment is that including sea ice velocity information from reanalyses in the surface current field yields a substantially improved spatial pattern of sea ice). We are therefore able to directly compare SST-forced atmosphere-only runs with Q-Flux-forced runs where SST is an emergent property of the model, specifically accounting for the passive response of SSTs in the North Atlantic. Using the distributed infrastructure of climateprediction.net (Guillod et al., 2017; Massey et al., 2015) we run large ensembles to compare extreme statistics and quantify the importance of fast ocean-atmosphere coupling for extreme event statistics.&lt;/p&gt;&lt;p&gt;We further use this large ensemble setup to investigate the dynamics that drive extreme events from the ocean through air-sea interaction to atmospheric processes. We address is whether and how the slope of a return-time plot (related to the scale parameter of a GEV distribution) is affected by atmosphere-ocean interactions, since this statistic plays a central role in determining relative-risk estimates in event attribution studies. We then investigate how a perturbation to the Q-Flux, representing a change in ocean heat transport, propagates through the system and alters the statistics of extreme events.&lt;/p&gt;&lt;p&gt;Dong et al., 2020, Climate Dynamics, 55(5&amp;#8211;6), 1225&amp;#8211;1245.&amp;#160;&lt;/p&gt;&lt;p&gt;Guillod et al., 2017, Geoscientific Model Development, 10(5), 1849&amp;#8211;1872.&amp;#160;&lt;/p&gt;&lt;p&gt;Hewitt &amp; Mitchell, 1997, Climate Dynamics, 13(11), 821&amp;#8211;834.&lt;/p&gt;&lt;p&gt;Massey et al., 2015, Quarterly Journal of the Royal Meteorological Society, 141(690), 1528&amp;#8211;1545.&amp;#160;&lt;/p&gt;&lt;p&gt;Webb et al., 2001, Climate Dynamics, 17(12), 905&amp;#8211;922.&amp;#160;&lt;/p&gt;&lt;p&gt;Williams et al., 2003, Climate Dynamics, 20(7&amp;#8211;8), 705&amp;#8211;721.&amp;#160;&lt;/p&gt;
+DA  - 2021/03/04/
+PY  - 2021
+DP  - DOI.org (Crossref)
+M3  - other
+PB  - pico
+UR  - https://meetingorganizer.copernicus.org/EGU21/EGU21-15649.html
+Y2  - 2022/11/10/22:56:57
+ER  - 
+
+TY  - CHAP
+TI  - Estimating the Human Influence on Tropical Cyclone Intensity as the Climate Changes
+AU  - Wehner, Michael F.
+AU  - Zarzycki, Colin
+AU  - Patricola, Christina
+T2  - Hurricane Risk
+A2  - Collins, Jennifer M.
+A2  - Walsh, Kevin
+CY  - Cham
+DA  - 2019///
+PY  - 2019
+DP  - DOI.org (Crossref)
+VL  - 1
+SP  - 235
+EP  - 260
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-02401-7 978-3-030-02402-4
+UR  - http://link.springer.com/10.1007/978-3-030-02402-4_12
+Y2  - 2022/11/10/22:56:57
+ER  - 
+
+TY  - JOUR
+TI  - Parametric Sensitivity of Vegetation Dynamics in the TRIFFID Model and the Associated Uncertainty in Projected Climate Change Impacts on Western U.S. Forests
+AU  - Hawkins, Linnia R.
+AU  - Rupp, David E.
+AU  - McNeall, Doug J.
+AU  - Li, Sihan
+AU  - Betts, Richard A.
+AU  - Mote, Philip W.
+AU  - Sparrow, Sarah N.
+AU  - Wallom, David C. H.
+T2  - Journal of Advances in Modeling Earth Systems
+DA  - 2019/08//
+PY  - 2019
+DO  - 10.1029/2018MS001577
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 8
+SP  - 2787
+EP  - 2813
+J2  - J. Adv. Model. Earth Syst.
+LA  - en
+SN  - 1942-2466, 1942-2466
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1029/2018MS001577
+Y2  - 2022/11/10/22:56:57
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018MS001577
+ER  - 
+
+TY  - JOUR
+TI  - The Linear Sensitivity of the North Atlantic Oscillation and Eddy-Driven Jet to SSTs
+AU  - Baker, Hugh S.
+AU  - Woollings, Tim
+AU  - Forest, Chris E.
+AU  - Allen, Myles R.
+T2  - Journal of Climate
+AB  - Abstract
+            The North Atlantic Oscillation (NAO) and eddy-driven jet contain a forced component arising from sea surface temperature (SST) variations. Due to large amounts of internal variability, it is not trivial to determine where and to what extent SSTs force the NAO and jet. A linear statistical–dynamic method is employed with a large climate ensemble to compute the sensitivities of the winter and summer NAO and jet speed and latitude to the SSTs. Key regions of sensitivity are identified in the Indian and Pacific basins, and the North Atlantic tripole. Using the sensitivity maps and a long observational SST dataset, skillful reconstructions of the NAO and jet time series are made. The ability to skillfully forecast both the winter and summer NAO using only SST anomalies is also demonstrated. The linear approach used here allows precise attribution of model forecast signals to SSTs in particular regions. Skill comes from the Atlantic and Pacific basins on short lead times, while the Indian Ocean SSTs may contribute to the longer-term NAO trend. However, despite the region of high sensitivity in the Indian Ocean, SSTs here do not provide significant skill on interannual time scales, which highlights the limitations of the imposed SST approach. Given the impact of the NAO and jet on Northern Hemisphere weather and climate, these results provide useful information that could be used for improved attribution and forecasting.
+DA  - 2019/10/01/
+PY  - 2019
+DO  - 10.1175/JCLI-D-19-0038.1
+DP  - DOI.org (Crossref)
+VL  - 32
+IS  - 19
+SP  - 6491
+EP  - 6511
+LA  - en
+SN  - 0894-8755, 1520-0442
+UR  - https://journals.ametsoc.org/doi/10.1175/JCLI-D-19-0038.1
+Y2  - 2022/11/10/22:56:57
+L1  - https://ora.ox.ac.uk/objects/uuid:ff5eb990-5684-43e8-b683-b4b64db9d80f/download_file?safe_filename=Baker%2Bet%2Bal%2BLinear%2Bsensitivity.pdf&file_format=application%2Fpdf&type_of_work=Journal+article
+ER  - 
+
+TY  - JOUR
+TI  - A large set of potential past, present and future hydro-meteorological time series for the UK
+AU  - Guillod, Benoit P.
+AU  - Jones, Richard G.
+AU  - Dadson, Simon J.
+AU  - Coxon, Gemma
+AU  - Bussi, Gianbattista
+AU  - Freer, James
+AU  - Kay, Alison L.
+AU  - Massey, Neil R.
+AU  - Sparrow, Sarah N.
+AU  - Wallom, David C. H.
+AU  - Allen, Myles R.
+AU  - Hall, Jim W.
+T2  - Hydrology and Earth System Sciences
+AB  - Abstract. Hydro-meteorological extremes such as drought and heavy precipitation can
+have large impacts on society and the economy. With potentially increasing
+risks associated with such events due to climate change, properly assessing
+the associated impacts and uncertainties is critical for adequate adaptation.
+However, the application of risk-based approaches often requires large sets
+of extreme events, which are not commonly available. Here, we present such a
+large set of hydro-meteorological time series for recent past and future
+conditions for the United Kingdom based on weather@home 2, a modelling
+framework consisting of a global climate model (GCM) driven by observed or
+projected sea surface temperature (SST) and sea ice which is downscaled to
+25 km over the European domain by a regional climate model (RCM). Sets of
+100 time series are generated for each of (i) a historical baseline
+(1900–2006), (ii) five near-future scenarios (2020–2049) and
+(iii) five far-future scenarios
+(2070–2099). The five scenarios in each future time slice all follow the
+Representative Concentration Pathway 8.5 (RCP8.5) and sample the range of sea
+surface temperature and sea ice changes from CMIP5 (Coupled Model Intercomparison Project Phase 5) models. Validation of the
+historical baseline highlights good performance for temperature and potential
+evaporation, but substantial seasonal biases in mean precipitation, which are
+corrected using a linear approach. For extremes in low precipitation over a
+long accumulation period (>3 months) and shorter-duration high
+precipitation (1–30 days), the time series generally represents past
+statistics well. Future projections show small precipitation increases in
+winter but large decreases in summer on average, leading to an overall
+drying, consistently with the most recent UK Climate Projections (UKCP09) but
+larger in magnitude than the latter. Both drought and high-precipitation
+events are projected to increase in frequency and intensity in most regions,
+highlighting the need for appropriate adaptation measures. Overall, the
+presented dataset is a useful tool for assessing the risk associated with
+drought and more generally with hydro-meteorological extremes in the UK.
+DA  - 2018/01/25/
+PY  - 2018
+DO  - 10.5194/hess-22-611-2018
+DP  - DOI.org (Crossref)
+VL  - 22
+IS  - 1
+SP  - 611
+EP  - 634
+J2  - Hydrol. Earth Syst. Sci.
+LA  - en
+SN  - 1607-7938
+UR  - https://hess.copernicus.org/articles/22/611/2018/
+Y2  - 2022/11/10/22:56:57
+L1  - https://www.hydrol-earth-syst-sci.net/22/611/2018/hess-22-611-2018.pdf
+ER  - 
+
+TY  - JOUR
+TI  - weather@home—development and validation of a very large ensemble modelling system for probabilistic event attribution
+AU  - Massey, N.
+AU  - Jones, R.
+AU  - Otto, F. E. L.
+AU  - Aina, T.
+AU  - Wilson, S.
+AU  - Murphy, J. M.
+AU  - Hassell, D.
+AU  - Yamazaki, Y. H.
+AU  - Allen, M. R.
+T2  - Quarterly Journal of the Royal Meteorological Society
+DA  - 2015/07//
+PY  - 2015
+DO  - 10.1002/qj.2455
+DP  - DOI.org (Crossref)
+VL  - 141
+IS  - 690
+SP  - 1528
+EP  - 1545
+J2  - Q.J.R. Meteorol. Soc.
+LA  - en
+SN  - 0035-9009, 1477-870X
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/qj.2455
+Y2  - 2022/11/10/22:56:55
+L1  - https://rmets.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qj.2455
+ER  - 
+
+TY  - JOUR
+TI  - Reconciling two approaches to attribution of the 2010 Russian heat wave: RUSSIAN HEAT WAVE 2010
+AU  - Otto, F. E. L.
+AU  - Massey, N.
+AU  - van Oldenborgh, G. J.
+AU  - Jones, R. G.
+AU  - Allen, M. R.
+T2  - Geophysical Research Letters
+DA  - 2012/02//
+PY  - 2012
+DO  - 10.1029/2011GL050422
+DP  - DOI.org (Crossref)
+VL  - 39
+IS  - 4
+SP  - n/a
+EP  - n/a
+J2  - Geophys. Res. Lett.
+LA  - en
+SN  - 00948276
+ST  - Reconciling two approaches to attribution of the 2010 Russian heat wave
+UR  - http://doi.wiley.com/10.1029/2011GL050422
+Y2  - 2022/11/10/22:56:55
+L1  - https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2011GL050422
+ER  - 
+
+TY  - CHAP
+TI  - Climateprediction.net: A Global Community for Research in Climate Physics
+AU  - Stainforth, David A.
+AU  - Allen, Myles R.
+AU  - Frame, David
+AU  - Kettleborough, Jamie
+AU  - Christensen, Carl
+AU  - Aina, Tolu
+AU  - Collins, Matthew
+T2  - Environmental Online Communication
+A2  - Scharl, Arno
+A3  - Wu, Xindong
+A3  - Jain, Lakhmi
+CY  - London
+DA  - 2004///
+PY  - 2004
+DP  - DOI.org (Crossref)
+SP  - 101
+EP  - 112
+PB  - Springer London
+SN  - 978-1-84996-913-0 978-1-4471-3798-6
+ST  - Climateprediction.net
+UR  - http://link.springer.com/10.1007/978-1-4471-3798-6_12
+Y2  - 2022/11/10/22:56:54
+ER  - 
+
+TY  - JOUR
+TI  - Testing the Clausius–Clapeyron constraint on changes in extreme precipitation under CO2 warming
+AU  - Pall, P.
+AU  - Allen, M. R.
+AU  - Stone, D. A.
+T2  - Climate Dynamics
+DA  - 2007/01/16/
+PY  - 2007
+DO  - 10.1007/s00382-006-0180-2
+DP  - DOI.org (Crossref)
+VL  - 28
+IS  - 4
+SP  - 351
+EP  - 363
+J2  - Clim Dyn
+LA  - en
+SN  - 0930-7575, 1432-0894
+UR  - http://link.springer.com/10.1007/s00382-006-0180-2
+Y2  - 2022/11/10/22:56:54
+ER  - 
+
+TY  - GEN
+TI  - Managing the Risks, Impacts and Uncertainties of drought and water Scarcity (MaRIUS) project: Large set of potential past and future climate time series for the UK from the weather@home2 model
+AU  - Guillod, Benoit P.
+AU  - Jones, Richard G.
+AU  - Kay, Alison L.
+AU  - Massey, Neil R.
+AU  - Sparrow, Sarah
+AU  - Wallom, David C. H.
+AU  - Wilson, Simon S.
+AB  - Large data sets created within the MaRIUS project (Managing the Risks, Impacts and Uncertainties of drought and water Scarcity). Three time periods are covered: historical baseline (BS: 1900-2006), near-future (NF: 2020-2049) and far-future (FF: 2070-2099), whereby the RCP8.5 is assumed for future time slices. The 30-year baseline to which future time slices should be compared to are years 2075-2004 of the historical baseline, since oceanic variability in future time slices is based on these years. One set of 100 time series is available for the historical baseline, while 5 sets of about 85-100 time series are available for each future time slice. The five sets sample climate model uncertainty by sampling a range of sea surface temperature warming patterns as follows: nf and ff use the median warming pattern of CMIP5 climate models. The four others sets are called nf-pYYz (near future) and ff-pYYz (far future) whereby 'YY' stands for the percentile of global mean SST warming (YY=10 or 90) and 'z' stands for the North Atlantic SST gradient (z=n for minimum, z=x for maximum). All natural forcings (e.g., volcanoes) in the future time slices are replications of years 1975-2004, while anthropogenic forcings (e.g., CO2 concentrations) follow the high-emission scenario RCP8.5. The time series were created from single-year simulations that have been stitched together while ensuring continuity in the slowly-evolving variability (see Guillod et al., Hydrol. Earth Syst. Sci., 2017 for details). Therefore, for each set (e.g., near_future_p10n), a 'stitching table' is provided alongside with data from individual yearly simulations, which contains the simulation ID ('umid') for each year and each individual time series (i.e., each column within the table list the umid for each year of the time series). Data are gridded NetCDF V3 files, provided on a rotated longitude-latitude grid at a 0.22 degree resolution (European CORDEX grid) over a domain encompassing the United Kingdom. A subset of variables are available at daily, 5-days, and monthly temporal resolutions, based on a calendar with 360 days a year (30 days per month). Included are only data from HadRM3P, the regional climate model within weather@home2. After unpacking yearly *tgz files for a given time slice and scenario (e.g., near_future_p10n) within a directory with the relevant name, the data are structured as follows: timeslice / year / umid / temporalResolution / WAH_umid_variable_temporalResolution_g2_year.nc where: - The temporal resolution ('temporalResolution') available depends on the variable, but it can be 'daily', 'monthly', or '5days' - 'timeslice' can be one of: 'baseline', 'near_future', 'near_future_p10n', 'near_future_p10x', 'near_future_p90n', 'near_future_p90x', 'far_future', 'far_future_p10n', 'far_future_p10x', 'far_future_p90n', 'far_future_p90x'. - 'year' is the year of the simulation and data. - 'umid' is the ID of the simulation, to be read from the stitching table. - 'variable' is the variable, following CMOR conventions (see also Table 3 in Guillod et al., Hydrol. Earth Syst. Sci., 2017). Further details about the data, including validation of the climate time series and analyses of some changes in the future projections, can be found in the PDF documentation as well as in Guillod et al., 2017b. A detailed validation of the model (weather@home2) can be found in Guillod et al., 2017a (see list of references below).
+DA  - 2017///
+PY  - 2017
+DP  - DOI.org (Datacite)
+LA  - en
+PB  - Centre for Environmental Data Analysis (CEDA)
+ST  - Managing the Risks, Impacts and Uncertainties of drought and water Scarcity (MaRIUS) project
+UR  - https://catalogue.ceda.ac.uk/uuid/0cea8d7aca57427fae92241348ae9b03
+Y2  - 2022/11/10/22:56:54
+KW  - Atmospheric sciences and Earth Observation Imagery
+ER  - 
+
+TY  - JOUR
+TI  - Heat capacity, time constant, and sensitivity of Earth's climate system
+AU  - Schwartz, Stephen E.
+T2  - Journal of Geophysical Research
+DA  - 2007/11/02/
+PY  - 2007
+DO  - 10.1029/2007JD008746
+DP  - DOI.org (Crossref)
+VL  - 112
+IS  - D24
+SP  - D24S05
+J2  - J. Geophys. Res.
+LA  - en
+SN  - 0148-0227
+UR  - http://doi.wiley.com/10.1029/2007JD008746
+Y2  - 2022/11/10/22:56:54
+ER  - 
+
+TY  - JOUR
+TI  - Ensembles and probabilities: a new era in the prediction of climate change
+AU  - Collins, Mat
+T2  - Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences
+AB  - Predictions of future climate are of central importance in determining actions to adapt to the impacts of climate change and in formulating targets to reduce emissions of greenhouse gases. In the absence of analogues of the future, physically based numerical climate models must be used to make predictions. New approaches are under development to deal with a number of sources of uncertainty that arise in the prediction process. This paper introduces some of the concepts and issues in these new approaches, which are discussed in more detail in the papers contained in this issue.
+DA  - 2007/08/15/
+PY  - 2007
+DO  - 10.1098/rsta.2007.2068
+DP  - DOI.org (Crossref)
+VL  - 365
+IS  - 1857
+SP  - 1957
+EP  - 1970
+J2  - Phil. Trans. R. Soc. A.
+LA  - en
+SN  - 1364-503X, 1471-2962
+ST  - Ensembles and probabilities
+UR  - https://royalsocietypublishing.org/doi/10.1098/rsta.2007.2068
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - The Detection and Attribution of Human Influence on Climate
+AU  - Stone, Dáithí A.
+AU  - Allen, Myles R.
+AU  - Stott, Peter A.
+AU  - Pall, Pardeep
+AU  - Min, Seung-Ki
+AU  - Nozawa, Toru
+AU  - Yukimoto, Seiji
+T2  - Annual Review of Environment and Resources
+AB  - This article describes the field of the detection and attribution of climate change and highlights recent progress, major issues, and future directions. The attribution of global temperature variations over the past century to a combination of anthropogenic and natural influences is now well established, with the anthropogenic factors dominating. Other aspects of the climate system, including regional quantities, are increasingly being found to also show a detectable signal of human influence. Of particular interest, though, is the attribution of changes in nonmeteorological quantities, such as hydrological and ecological measures, and of changes in the risk of extreme weather events to anthropogenic emissions. Methods are being developed for tackling these two problems but are still in the early stages. As the field gradually includes a service focus, the biggest challenges will become the integration of various approaches into an overall framework and the communication of the capabilities and limitations of that framework to the outside community.
+DA  - 2009/11/01/
+PY  - 2009
+DO  - 10.1146/annurev.environ.040308.101032
+DP  - DOI.org (Crossref)
+VL  - 34
+IS  - 1
+SP  - 1
+EP  - 16
+J2  - Annu. Rev. Environ. Resour.
+LA  - en
+SN  - 1543-5938, 1545-2050
+UR  - https://www.annualreviews.org/doi/10.1146/annurev.environ.040308.101032
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - The climate <i>prediction</i> .net BBC climate change experiment: design of the coupled model ensemble
+AU  - Frame, D.J
+AU  - Aina, T
+AU  - Christensen, C.M
+AU  - Faull, N.E
+AU  - Knight, S.H.E
+AU  - Piani, C
+AU  - Rosier, S.M
+AU  - Yamazaki, K
+AU  - Yamazaki, Y
+AU  - Allen, M.R
+T2  - Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences
+AB  - Perturbed physics experiments are among the most comprehensive ways to address uncertainty in climate change forecasts. In these experiments, parameters and parametrizations in atmosphere–ocean general circulation models are perturbed across ranges of uncertainty, and results are compared with observations. In this paper, we describe the largest perturbed physics climate experiment conducted to date, the British Broadcasting Corporation (BBC) climate change experiment, in which the physics of the atmosphere and ocean are changed, and run in conjunction with a forcing ensemble designed to represent uncertainty in past and future forcings, under the A1B Special Report on Emissions Scenarios (SRES) climate change scenario.
+DA  - 2009/03/13/
+PY  - 2009
+DO  - 10.1098/rsta.2008.0240
+DP  - DOI.org (Crossref)
+VL  - 367
+IS  - 1890
+SP  - 855
+EP  - 870
+J2  - Phil. Trans. R. Soc. A.
+LA  - en
+SN  - 1364-503X, 1471-2962
+ST  - The climate <i>prediction</i> .net BBC climate change experiment
+UR  - https://royalsocietypublishing.org/doi/10.1098/rsta.2008.0240
+Y2  - 2022/11/10/22:56:55
+L1  - https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.2008.0240
+ER  - 
+
+TY  - JOUR
+TI  - Uncertainty in predictions of the climate response to rising levels of greenhouse gases
+AU  - Stainforth, D. A.
+AU  - Aina, T.
+AU  - Christensen, C.
+AU  - Collins, M.
+AU  - Faull, N.
+AU  - Frame, D. J.
+AU  - Kettleborough, J. A.
+AU  - Knight, S.
+AU  - Martin, A.
+AU  - Murphy, J. M.
+AU  - Piani, C.
+AU  - Sexton, D.
+AU  - Smith, L. A.
+AU  - Spicer, R. A.
+AU  - Thorpe, A. J.
+AU  - Allen, M. R.
+T2  - Nature
+DA  - 2005/01//
+PY  - 2005
+DO  - 10.1038/nature03301
+DP  - DOI.org (Crossref)
+VL  - 433
+IS  - 7024
+SP  - 403
+EP  - 406
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - http://www.nature.com/articles/nature03301
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - Regional climate response to solar-radiation management
+AU  - Ricke, Katharine L.
+AU  - Morgan, M. Granger
+AU  - Allen, Myles R.
+T2  - Nature Geoscience
+DA  - 2010/08//
+PY  - 2010
+DO  - 10.1038/ngeo915
+DP  - DOI.org (Crossref)
+VL  - 3
+IS  - 8
+SP  - 537
+EP  - 541
+J2  - Nature Geosci
+LA  - en
+SN  - 1752-0894, 1752-0908
+UR  - http://www.nature.com/articles/ngeo915
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - Detecting change in UK extreme precipitation using results from the climateprediction.net BBC climate change experiment
+AU  - Fowler, Hayley J.
+AU  - Cooley, Daniel
+AU  - Sain, Stephan R.
+AU  - Thurston, Milo
+T2  - Extremes
+DA  - 2010/06//
+PY  - 2010
+DO  - 10.1007/s10687-010-0101-y
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 2
+SP  - 241
+EP  - 267
+J2  - Extremes
+LA  - en
+SN  - 1386-1999, 1572-915X
+UR  - https://link.springer.com/10.1007/s10687-010-0101-y
+Y2  - 2022/11/10/22:56:55
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs10687-010-0101-y.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Attribution of changes in precipitation patterns in African rainforests
+AU  - Otto, Friederike E. L.
+AU  - Jones, Richard G.
+AU  - Halladay, Kate
+AU  - Allen, Myles R.
+T2  - Philosophical Transactions of the Royal Society B: Biological Sciences
+AB  - Tropical rainforests in Africa are one of the most under-researched regions in the world, but research in the Amazonian rainforest suggests potential vulnerability to climate change. Using the large ensemble of Atmosphere-only general circulation model (AGCM) simulations within the weather@home project, statistics of precipitation in the dry season of the Congo Basin rainforest are analysed. By validating the model simulation against observations, we could identify a good model performance for the June, July, August (JJA) dry season, but this result does need to be taken with caution as observed data are of poor quality. Additional validation methods have been used to investigate the applicability of probabilistic event attribution analysis from large model ensembles to a tropical region, in this case the Congo Basin. These methods corroborate the confidence in the model, leading us to believe the attribution result to be robust. That is, that there are no significant changes in the risk of low precipitation extremes during this dry season (JJA) precipitation in the Congo Basin. Results for the December, January, February dry season are less clear. The study highlights that attribution analysis has the potential to provide valuable scientific evidence of recent or anticipated climatological changes, especially in regions with sparse observational data and unclear projections of future changes. However, the strong influence of sea surface temperature teleconnection patterns on tropical precipitation provides more challenges in the set up of attribution studies than midlatitude rainfall.
+DA  - 2013/09/05/
+PY  - 2013
+DO  - 10.1098/rstb.2012.0299
+DP  - DOI.org (Crossref)
+VL  - 368
+IS  - 1625
+SP  - 20120299
+J2  - Phil. Trans. R. Soc. B
+LA  - en
+SN  - 0962-8436, 1471-2970
+UR  - https://royalsocietypublishing.org/doi/10.1098/rstb.2012.0299
+Y2  - 2022/11/10/22:56:55
+L1  - https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2012.0299
+ER  - 
+
+TY  - JOUR
+TI  - Explaining Extreme Events of 2012 from a Climate Perspective
+AU  - Peterson, Thomas C.
+AU  - Hoerling, Martin P.
+AU  - Stott, Peter A.
+AU  - Herring, Stephanie C.
+T2  - Bulletin of the American Meteorological Society
+DA  - 2013/09//
+PY  - 2013
+DO  - 10.1175/BAMS-D-13-00085.1
+DP  - DOI.org (Crossref)
+VL  - 94
+IS  - 9
+SP  - S1
+EP  - S74
+J2  - Bull. Amer. Meteor. Soc.
+LA  - en
+SN  - 0003-0007, 1520-0477
+UR  - http://journals.ametsoc.org/doi/10.1175/BAMS-D-13-00085.1
+Y2  - 2022/11/10/22:56:55
+L1  - https://hal.archives-ouvertes.fr/hal-03224881/file/%5B15200477%20-%20Bulletin%20of%20the%20American%20Meteorological%20Society%5D%20Explaining%20Extreme%20Events%20of%202011%20from%20a%20Climate%20Perspective.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Explaining Extreme Events of 2011 from a Climate Perspective
+AU  - Peterson, Thomas C.
+AU  - Stott, Peter A.
+AU  - Herring, Stephanie
+T2  - Bulletin of the American Meteorological Society
+DA  - 2012/07//
+PY  - 2012
+DO  - 10.1175/BAMS-D-12-00021.1
+DP  - DOI.org (Crossref)
+VL  - 93
+IS  - 7
+SP  - 1041
+EP  - 1067
+J2  - Bull. Amer. Meteor. Soc.
+LA  - en
+SN  - 0003-0007, 1520-0477
+UR  - http://journals.ametsoc.org/doi/10.1175/BAMS-D-12-00021.1
+Y2  - 2022/11/10/22:56:55
+L1  - https://hal.archives-ouvertes.fr/hal-03224881/file/%5B15200477%20-%20Bulletin%20of%20the%20American%20Meteorological%20Society%5D%20Explaining%20Extreme%20Events%20of%202011%20from%20a%20Climate%20Perspective.pdf
+ER  - 
+
+TY  - JOUR
+TI  - From climate model ensembles to climate change impacts and adaptation: A case study of water resource management in the southwest of England: USE OF CLIMATE MODEL ENSEMBLES FOR ADAPTATION STUDIES
+AU  - Lopez, Ana
+AU  - Fung, Fai
+AU  - New, Mark
+AU  - Watts, Glenn
+AU  - Weston, Alan
+AU  - Wilby, Robert L.
+T2  - Water Resources Research
+DA  - 2009/08//
+PY  - 2009
+DO  - 10.1029/2008WR007499
+DP  - DOI.org (Crossref)
+VL  - 45
+IS  - 8
+J2  - Water Resour. Res.
+LA  - en
+SN  - 00431397
+ST  - From climate model ensembles to climate change impacts and adaptation
+UR  - http://doi.wiley.com/10.1029/2008WR007499
+Y2  - 2022/11/10/22:56:55
+L1  - https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2008WR007499
+ER  - 
+
+TY  - JOUR
+TI  - Causal Influence of Anthropogenic Forcings on the Argentinian Heat Wave of December 2013
+AU  - Hannart, A.
+AU  - Vera, C.
+AU  - Cerne, B.
+AU  - Otto, F. E. L.
+T2  - Bulletin of the American Meteorological Society
+DA  - 2015/12/01/
+PY  - 2015
+DO  - 10.1175/BAMS-D-15-00137.1
+DP  - DOI.org (Crossref)
+VL  - 96
+IS  - 12
+SP  - S41
+EP  - S45
+LA  - en
+SN  - 0003-0007, 1520-0477
+UR  - https://journals.ametsoc.org/doi/10.1175/BAMS-D-15-00137.1
+Y2  - 2022/11/10/22:56:55
+L1  - https://ri.conicet.gov.ar/bitstream/11336/17819/1/CONICET_Digital_Nro.21547.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Climate feedbacks determined using radiative kernels in a multi-thousand member ensemble of AOGCMs
+AU  - Sanderson, Benjamin M.
+AU  - Shell, Karen M.
+AU  - Ingram, William
+T2  - Climate Dynamics
+DA  - 2010/12//
+PY  - 2010
+DO  - 10.1007/s00382-009-0661-1
+DP  - DOI.org (Crossref)
+VL  - 35
+IS  - 7-8
+SP  - 1219
+EP  - 1236
+J2  - Clim Dyn
+LA  - en
+SN  - 0930-7575, 1432-0894
+UR  - https://link.springer.com/10.1007/s00382-009-0661-1
+Y2  - 2022/11/10/22:56:55
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs00382-009-0661-1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Towards constraining climate sensitivity by linear analysis of feedback patterns in thousands of perturbed-physics GCM simulations
+AU  - Sanderson, Benjamin M.
+AU  - Piani, C.
+AU  - Ingram, W. J.
+AU  - Stone, D. A.
+AU  - Allen, M. R.
+T2  - Climate Dynamics
+DA  - 2008/02//
+PY  - 2008
+DO  - 10.1007/s00382-007-0280-7
+DP  - DOI.org (Crossref)
+VL  - 30
+IS  - 2-3
+SP  - 175
+EP  - 190
+J2  - Clim Dyn
+LA  - en
+SN  - 0930-7575, 1432-0894
+UR  - http://link.springer.com/10.1007/s00382-007-0280-7
+Y2  - 2022/11/10/22:56:55
+ER  - 
+
+TY  - JOUR
+TI  - Evaluation of a Regional Climate Modeling Effort for the Western United States Using a Superensemble from Weather@home*
+AU  - Li, Sihan
+AU  - Mote, Philip W.
+AU  - Rupp, David E.
+AU  - Vickers, Dean
+AU  - Mera, Roberto
+AU  - Allen, Myles
+T2  - Journal of Climate
+AB  - Abstract
+            Simulations from a regional climate model (RCM) as part of a superensemble experiment were compared with observations of surface meteorological variables over the western United States. The RCM is the Hadley Centre Regional Climate Model, version 3, with improved physics parameterizations (HadRM3P) run at 25-km resolution and nested within the Hadley Centre Atmosphere Model, version 3 (HadAM3P). Overall, the means of seasonal temperature were well represented in the simulations; 95% of grid points were within 2.7°, 2.4°, and 3.6°C of observations in winter, spring, and summer, respectively. The model was too warm over most of the domain in summer except central California and southern Nevada. HadRM3P produced more extreme temperatures than observed. The overall magnitude and spatial pattern of precipitation were well characterized, though HadRM3P exaggerated the orographic enhancement along the coastal mountains, Cascade Range, and Sierra Nevada. HadRM3P produced warm/dry northwest, cool/wet southwest U.S. patterns associated with El Niño. However, there were notable differences, including the locations of the transition from warm (dry) to cool (wet) in the anomaly fields when compared with observations, though there was disagreement among observations. HadRM3P simulated the observed spatial pattern of mean annual temperature more faithfully than any of the RCM–GCM pairings in the North American Regional Climate Change Assessment Program (NARCCAP). Errors in mean annual precipitation from HadRM3P fell within the range of errors of the NARCCAP models. Last, this paper provided examples of the size of an ensemble required to detect changes at the local level and demonstrated the effect of parameter perturbation on regional precipitation.
+DA  - 2015/10/01/
+PY  - 2015
+DO  - 10.1175/JCLI-D-14-00808.1
+DP  - DOI.org (Crossref)
+VL  - 28
+IS  - 19
+SP  - 7470
+EP  - 7488
+LA  - en
+SN  - 0894-8755, 1520-0442
+UR  - http://journals.ametsoc.org/doi/10.1175/JCLI-D-14-00808.1
+Y2  - 2022/11/10/22:56:56
+ER  - 
+
+TY  - JOUR
+TI  - Attribution of extreme weather
+AU  - Otto, Friederike E. L.
+T2  - Nature Geoscience
+DA  - 2015/08//
+PY  - 2015
+DO  - 10.1038/ngeo2484
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 8
+SP  - 581
+EP  - 582
+J2  - Nature Geosci
+LA  - en
+SN  - 1752-0894, 1752-0908
+UR  - http://www.nature.com/articles/ngeo2484
+Y2  - 2022/11/10/22:56:56
+ER  - 
+
+TY  - JOUR
+TI  - Causal Counterfactual Theory for the Attribution of Weather and Climate-Related Events
+AU  - Hannart, A.
+AU  - Pearl, J.
+AU  - Otto, F. E. L.
+AU  - Naveau, P.
+AU  - Ghil, M.
+T2  - Bulletin of the American Meteorological Society
+AB  - Abstract
+            The emergence of clear semantics for causal claims and of a sound logic for causal reasoning is relatively recent, with the consolidation over the past decades of a coherent theoretical corpus of definitions, concepts, and methods of general applicability that is anchored into counterfactuals. The latter corpus has proved to be of high practical interest in numerous applied fields (e.g., epidemiology, economics, and social science). In spite of their rather consensual nature and proven efficacy, these definitions and methods are to a large extent not used in detection and attribution (D&A). This article gives a brief overview of the main concepts underpinning the causal theory and proposes some methodological extensions for the causal attribution of weather and climate-related events that are rooted into the latter. Implications for the formulation of causal claims and their uncertainty are finally discussed.
+DA  - 2016/01/01/
+PY  - 2016
+DO  - 10.1175/BAMS-D-14-00034.1
+DP  - DOI.org (Crossref)
+VL  - 97
+IS  - 1
+SP  - 99
+EP  - 110
+LA  - en
+SN  - 0003-0007, 1520-0477
+UR  - https://journals.ametsoc.org/doi/10.1175/BAMS-D-14-00034.1
+Y2  - 2022/11/10/22:56:56
+L1  - https://hal.archives-ouvertes.fr/hal-03214638/file/%5B15200477%20-%20Bulletin%20of%20the%20American%20Meteorological%20Society%5D%20Causal%20Counterfactual%20Theory%20for%20the%20Attribution%20of%20Weather%20and%20Climate-Related%20Events.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Stakeholder Perspectives on the Attribution of Extreme Weather Events: An Explorative Enquiry
+AU  - Sippel, Sebastian
+AU  - Walton, Peter
+AU  - Otto, Friederike E. L.
+T2  - Weather, Climate, and Society
+AB  - Abstract
+            Recent extreme weather events and their impacts on societies have highlighted the need for timely adaptation to the changing odds of their occurrence. Such measures require appropriate information about likely changes in event frequency and magnitude on relevant spatiotemporal scales. However, to support robust climate information for decision-making, an effective communication between scientists and stakeholders is crucial. In this context, weather event attribution studies are increasingly raising attention beyond academic circles, although the understanding of how to take it beyond academia is still evolving. This paper presents the results of a study that involved in-depth interviews with stakeholders from a range of sectors about potential applications and the general usefulness of event attribution studies. A case study of the hot and dry summer 2012 in southeast Europe is used as a concrete example, with a focus on the applicability of attribution results across sectors. An analysis of the interviews reveals an abundant interest among the interviewed stakeholders and highlights the need for information on the causes and odds of extreme events, in particular on regional scales. From this data key aspects of stakeholder engagement are emerging, which could productively feed back into how probabilistic event attribution studies are designed and communicated to ensure practical relevance and usefulness for the stakeholder community.
+DA  - 2015/07/01/
+PY  - 2015
+DO  - 10.1175/WCAS-D-14-00045.1
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 3
+SP  - 224
+EP  - 237
+LA  - en
+SN  - 1948-8327, 1948-8335
+ST  - Stakeholder Perspectives on the Attribution of Extreme Weather Events
+UR  - https://journals.ametsoc.org/doi/10.1175/WCAS-D-14-00045.1
+Y2  - 2022/11/10/22:56:56
+L1  - https://pure.mpg.de/pubman/item/item_2218807_4/component/file_2218805/BGC2321.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Superensemble Regional Climate Modeling for the Western United States
+AU  - Mote, Philip W.
+AU  - Allen, Myles R.
+AU  - Jones, Richard G.
+AU  - Li, Sihan
+AU  - Mera, Roberto
+AU  - Rupp, David E.
+AU  - Salahuddin, Ahmed
+AU  - Vickers, Dean
+T2  - Bulletin of the American Meteorological Society
+AB  - Abstract
+            Computing resources donated by volunteers have generated the first superensemble of regional climate model results, in which the Hadley Centre Regional Model, version 3P (HadRM3P), and Hadley Centre Atmosphere Model, version 3P (HadAM3P), were implemented for the western United States at 25-km resolution. Over 136,000 valid and complete 1-yr runs have been generated to date: about 126,000 for 1960–2009 using observed sea surface temperatures (SSTs) and 10,000 for 2030–49 using projected SSTs from a global model simulation. Ensemble members differ in initial conditions, model physics, and (potentially, for future runs) SSTs. This unprecedented confluence of high spatial resolution and large ensemble size allows high signal-to-noise ratio and more robust estimates of uncertainty. This paper describes the experiment, compares model output with observations, shows select results for climate change simulations, and gives examples of the strength of the large ensemble size.
+DA  - 2016/02/01/
+PY  - 2016
+DO  - 10.1175/BAMS-D-14-00090.1
+DP  - DOI.org (Crossref)
+VL  - 97
+IS  - 2
+SP  - 203
+EP  - 215
+LA  - en
+SN  - 0003-0007, 1520-0477
+UR  - https://journals.ametsoc.org/doi/10.1175/BAMS-D-14-00090.1
+Y2  - 2022/11/10/22:56:56
+ER  - 
+
+TY  - JOUR
+TI  - Combining large model ensembles with extreme value statistics to improve attribution statements of rare events
+AU  - Sippel, Sebastian
+AU  - Mitchell, Dann
+AU  - Black, Mitchell T.
+AU  - Dittus, Andrea J.
+AU  - Harrington, Luke
+AU  - Schaller, Nathalie
+AU  - Otto, Friederike E.L.
+T2  - Weather and Climate Extremes
+DA  - 2015/09//
+PY  - 2015
+DO  - 10.1016/j.wace.2015.06.004
+DP  - DOI.org (Crossref)
+VL  - 9
+SP  - 25
+EP  - 35
+J2  - Weather and Climate Extremes
+LA  - en
+SN  - 22120947
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S2212094715300050
+Y2  - 2022/11/10/22:56:56
+L1  - https://www.sciencedirect.com/science/article/pii/S2212094715300050/pdfft?md5=d5a867924fd041b693c23d6e40fa4d18&pid=1-s2.0-S2212094715300050-main.pdf&isDTMRedir=Y
+ER  - 
+
+TY  - JOUR
+TI  - Factors Other Than Climate Change, Main Drivers of 2014/15 Water Shortage in Southeast Brazil
+AU  - Otto, Friederike E. L.
+AU  - Haustein, Karsten
+AU  - Uhe, Peter
+AU  - Coelho, Caio A. S.
+AU  - Aravequia, Jose Antonio
+AU  - Almeida, Waldenio
+AU  - King, Andrew
+AU  - Coughlan de Perez, Erin
+AU  - Wada, Yoshihide
+AU  - Jan van Oldenborgh, Geert
+AU  - Haarsma, Rein
+AU  - van Aalst, Maarten
+AU  - Cullen, Heidi
+T2  - Bulletin of the American Meteorological Society
+DA  - 2015/12/01/
+PY  - 2015
+DO  - 10.1175/BAMS-D-15-00120.1
+DP  - DOI.org (Crossref)
+VL  - 96
+IS  - 12
+SP  - S35
+EP  - S40
+LA  - en
+SN  - 0003-0007, 1520-0477
+UR  - https://journals.ametsoc.org/doi/10.1175/BAMS-D-15-00120.1
+Y2  - 2022/11/10/22:56:56
+L1  - https://ora.ox.ac.uk/objects/uuid:ea08576a-19d9-40a5-91ba-afcaf87dfc5e/download_file?safe_filename=_15200477_-_Bulletin_of_the_American_Meteorological_Society__Factors_Other_Than_Climate_Change__Main_Drivers_of_2014_15_Water.pdf&file_format=pdf&type_of_work=Journal+article
+ER  - 
+
+TY  - JOUR
+TI  - A novel bias correction methodology for climate impact simulations
+AU  - Sippel, S.
+AU  - Otto, F. E. L.
+AU  - Forkel, M.
+AU  - Allen, M. R.
+AU  - Guillod, B. P.
+AU  - Heimann, M.
+AU  - Reichstein, M.
+AU  - Seneviratne, S. I.
+AU  - Thonicke, K.
+AU  - Mahecha, M. D.
+T2  - Earth System Dynamics
+AB  - Abstract. Understanding, quantifying and attributing the impacts of extreme weather and climate events in the terrestrial biosphere is crucial for societal adaptation in a changing climate. However, climate model simulations generated for this purpose typically exhibit biases in their output that hinder any straightforward assessment of impacts. To overcome this issue, various bias correction strategies are routinely used to alleviate climate model deficiencies, most of which have been criticized for physical inconsistency and the nonpreservation of the multivariate correlation structure. In this study, we introduce a novel, resampling-based bias correction scheme that fully preserves the physical consistency and multivariate correlation structure of the model output. This procedure strongly improves the representation of climatic extremes and variability in a large regional climate model ensemble (HadRM3P, climateprediction.net/weatherathome), which is illustrated for summer extremes in temperature and rainfall over Central Europe. Moreover, we simulate biosphere–atmosphere fluxes of carbon and water using a terrestrial ecosystem model (LPJmL) driven by the bias-corrected climate forcing. The resampling-based bias correction yields strongly improved statistical distributions of carbon and water fluxes, including the extremes. Our results thus highlight the importance of carefully considering statistical moments beyond the mean for climate impact simulations. In conclusion, the present study introduces an approach to alleviate climate model biases in a physically consistent way and demonstrates that this yields strongly improved simulations of climate extremes and associated impacts in the terrestrial biosphere. A wider uptake of our methodology by the climate and impact modelling community therefore seems desirable for accurately quantifying changes in past, current and future extremes.
+DA  - 2016/02/02/
+PY  - 2016
+DO  - 10.5194/esd-7-71-2016
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 71
+EP  - 88
+J2  - Earth Syst. Dynam.
+LA  - en
+SN  - 2190-4987
+UR  - https://esd.copernicus.org/articles/7/71/2016/
+Y2  - 2022/11/10/22:56:56
+L1  - https://www.earth-syst-dynam.net/7/71/2016/esd-7-71-2016.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Human influence on climate in the 2014 southern England winter floods and their impacts
+AU  - Schaller, Nathalie
+AU  - Kay, Alison L.
+AU  - Lamb, Rob
+AU  - Massey, Neil R.
+AU  - van Oldenborgh, Geert Jan
+AU  - Otto, Friederike E. L.
+AU  - Sparrow, Sarah N.
+AU  - Vautard, Robert
+AU  - Yiou, Pascal
+AU  - Ashpole, Ian
+AU  - Bowery, Andy
+AU  - Crooks, Susan M.
+AU  - Haustein, Karsten
+AU  - Huntingford, Chris
+AU  - Ingram, William J.
+AU  - Jones, Richard G.
+AU  - Legg, Tim
+AU  - Miller, Jonathan
+AU  - Skeggs, Jessica
+AU  - Wallom, David
+AU  - Weisheimer, Antje
+AU  - Wilson, Simon
+AU  - Stott, Peter A.
+AU  - Allen, Myles R.
+T2  - Nature Climate Change
+DA  - 2016/06//
+PY  - 2016
+DO  - 10.1038/nclimate2927
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 6
+SP  - 627
+EP  - 634
+J2  - Nature Clim Change
+LA  - en
+SN  - 1758-678X, 1758-6798
+UR  - http://www.nature.com/articles/nclimate2927
+Y2  - 2022/11/10/22:56:56
+L1  - https://nora.nerc.ac.uk/id/eprint/509886/13/N509886PP.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Biogeophysical Impacts of Land-Use Change on Climate Extremes in Low-Emission Scenarios: Results From HAPPI-Land
+AU  - Hirsch, Annette L.
+AU  - Guillod, Benoit P.
+AU  - Seneviratne, Sonia I.
+AU  - Beyerle, Urs
+AU  - Boysen, Lena R.
+AU  - Brovkin, Victor
+AU  - Davin, Edouard L.
+AU  - Doelman, Jonathan C.
+AU  - Kim, Hyungjun
+AU  - Mitchell, Daniel M.
+AU  - Nitta, Tomoko
+AU  - Shiogama, Hideo
+AU  - Sparrow, Sarah
+AU  - Stehfest, Elke
+AU  - van Vuuren, Detlef P.
+AU  - Wilson, Simon
+T2  - Earth's Future
+DA  - 2018/03//
+PY  - 2018
+DO  - 10.1002/2017EF000744
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 3
+SP  - 396
+EP  - 409
+J2  - Earth's Future
+LA  - en
+SN  - 23284277
+ST  - Biogeophysical Impacts of Land-Use Change on Climate Extremes in Low-Emission Scenarios
+UR  - http://doi.wiley.com/10.1002/2017EF000744
+Y2  - 2022/11/10/22:56:56
+L1  - https://europepmc.org/articles/pmc5993232?pdf=render
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2017EF000744
+ER  - 
+
+TY  - JOUR
+TI  - Ethical and normative implications of weather event attribution for policy discussions concerning loss and damage
+AU  - Thompson, Allen
+AU  - Otto, Friederike E. L.
+T2  - Climatic Change
+DA  - 2015/12//
+PY  - 2015
+DO  - 10.1007/s10584-015-1433-z
+DP  - DOI.org (Crossref)
+VL  - 133
+IS  - 3
+SP  - 439
+EP  - 451
+J2  - Climatic Change
+LA  - en
+SN  - 0165-0009, 1573-1480
+UR  - http://link.springer.com/10.1007/s10584-015-1433-z
+Y2  - 2022/11/10/22:56:56
+L1  - https://ora.ox.ac.uk/objects/uuid:418c0df3-61c8-4014-9aff-e09922f4dd81/download_file?safe_filename=Thompson_Otto_PEAforL%26D_v12_fo.pdf&file_format=application%2Fpdf&type_of_work=Journal+article
+ER  - 
+
+TY  - JOUR
+TI  - Real-time extreme weather event attribution with forecast seasonal SSTs
+AU  - Haustein, K
+AU  - Otto, F E L
+AU  - Uhe, P
+AU  - Schaller, N
+AU  - Allen, M R
+AU  - Hermanson, L
+AU  - Christidis, N
+AU  - McLean, P
+AU  - Cullen, H
+T2  - Environmental Research Letters
+DA  - 2016/06/01/
+PY  - 2016
+DO  - 10.1088/1748-9326/11/6/064006
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 6
+SP  - 064006
+J2  - Environ. Res. Lett.
+SN  - 1748-9326
+UR  - https://iopscience.iop.org/article/10.1088/1748-9326/11/6/064006
+Y2  - 2022/11/10/22:56:56
+L1  - https://ora.ox.ac.uk/objects/uuid:58ea4d26-196e-46b6-b987-9e5d253a69d5/download_file?safe_filename=Haustein_Real-time-extreme-weather-event-attribution-with-forecast-seasonal-SSTs_2016.pdf&file_format=application%2Fpdf&type_of_work=Journal+article
+L1  - https://iopscience.iop.org/article/10.1088/1748-9326/11/6/064006/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Reducing climate model biases by exploring parameter space with large ensembles of climate model simulations and statistical emulation
+AU  - Li, Sihan
+AU  - Rupp, David E.
+AU  - Hawkins, Linnia
+AU  - Mote, Philip W.
+AU  - McNeall, Doug
+AU  - Sparrow, Sarah N.
+AU  - Wallom, David C. H.
+AU  - Betts, Richard A.
+AU  - Wettstein, Justin J.
+T2  - Geoscientific Model Development
+AB  - Abstract. Understanding the unfolding challenges of climate change relies on climate models, many of which have large summer warm and dry biases over Northern Hemisphere continental midlatitudes. This work, with the example of the model used in the updated version of the weather@home distributed climate model framework, shows the potential for improving climate model simulations through a multiphased parameter refinement approach, particularly over the northwestern United States (NWUS). Each phase consists of (1) creating a perturbed parameter ensemble with the coupled global–regional atmospheric model, (2) building statistical emulators that estimate climate metrics as functions of parameter values, (3) and using the emulators to further refine the parameter space. The refinement process includes sensitivity analyses to identify the most influential parameters for various model output metrics; results are then used to cull parameters with little influence. Three phases of this iterative process are carried out before the results are considered to be satisfactory; that is, a handful of parameter sets are identified that meet acceptable bias reduction criteria. Results not only indicate that 74 % of the NWUS regional warm biases can be reduced by refining global atmospheric parameters that control convection and hydrometeor transport, as well as land surface parameters that affect plant photosynthesis, transpiration, and evaporation, but also suggest that this iterative approach to perturbed parameters has an important role to play in the evolution of physical parameterizations.
+DA  - 2019/07/17/
+PY  - 2019
+DO  - 10.5194/gmd-12-3017-2019
+DP  - DOI.org (Crossref)
+VL  - 12
+IS  - 7
+SP  - 3017
+EP  - 3043
+J2  - Geosci. Model Dev.
+LA  - en
+SN  - 1991-9603
+UR  - https://gmd.copernicus.org/articles/12/3017/2019/
+Y2  - 2022/11/10/22:56:56
+L1  - https://gmd.copernicus.org/articles/12/3017/2019/gmd-12-3017-2019.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Embracing uncertainty in climate change policy
+AU  - Otto, Friederike E. L.
+AU  - Frame, David J.
+AU  - Otto, Alexander
+AU  - Allen, Myles R.
+T2  - Nature Climate Change
+DA  - 2015/10//
+PY  - 2015
+DO  - 10.1038/nclimate2716
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 10
+SP  - 917
+EP  - 920
+J2  - Nature Clim Change
+LA  - en
+SN  - 1758-678X, 1758-6798
+UR  - http://www.nature.com/articles/nclimate2716
+Y2  - 2022/11/10/22:56:56
+ER  - 
+
+TY  - JOUR
+TI  - The art of attribution
+AU  - Otto, Friederike E. L.
+T2  - Nature Climate Change
+DA  - 2016/04//
+PY  - 2016
+DO  - 10.1038/nclimate2971
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 4
+SP  - 342
+EP  - 343
+J2  - Nature Clim Change
+LA  - en
+SN  - 1758-678X, 1758-6798
+UR  - http://www.nature.com/articles/nclimate2971
+Y2  - 2022/11/10/22:56:57
+ER  - 
+
+TY  - JOUR
+TI  - Anthropogenic Contribution to the 2017 Earliest Summer Onset in South Korea
+AU  - Min, Seung-Ki
+AU  - Kim, Yeon-Hee
+AU  - Park, In-Hong
+AU  - Lee, Donghyun
+AU  - Sparrow, Sarah
+AU  - Wallom, David
+AU  - Stone, Dáithí
+T2  - Bulletin of the American Meteorological Society
+DA  - 2019/01//
+PY  - 2019
+DO  - 10.1175/BAMS-D-18-0096.1
+DP  - DOI.org (Crossref)
+VL  - 100
+IS  - 1
+SP  - S73
+EP  - S77
+SN  - 0003-0007, 1520-0477
+UR  - https://journals.ametsoc.org/view/journals/bams/100/1/bams-d-18-0096.1.xml
+Y2  - 2022/11/10/22:56:57
+L1  - https://journals.ametsoc.org/downloadpdf/journals/bams/100/1/bams-d-18-0096.1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - weather@home 2: validation of an improved global–regional climate modelling system
+AU  - Guillod, Benoit P.
+AU  - Jones, Richard G.
+AU  - Bowery, Andy
+AU  - Haustein, Karsten
+AU  - Massey, Neil R.
+AU  - Mitchell, Daniel M.
+AU  - Otto, Friederike E. L.
+AU  - Sparrow, Sarah N.
+AU  - Uhe, Peter
+AU  - Wallom, David C. H.
+AU  - Wilson, Simon
+AU  - Allen, Myles R.
+T2  - Geoscientific Model Development
+AB  - Abstract. Extreme weather events can have large impacts on society and, in many regions, are expected to change in frequency and intensity with climate change. Owing to the relatively short observational record, climate models are useful tools as they allow for generation of a larger sample of extreme events, to attribute recent events to anthropogenic climate change, and to project changes in such events into the future. The modelling system known as weather@home, consisting of a global climate model (GCM) with a nested regional climate model (RCM) and driven by sea surface temperatures, allows one to generate a very large ensemble with the help of volunteer distributed computing. This is a key tool to understanding many aspects of extreme events. Here, a new version of the weather@home system (weather@home 2) with a higher-resolution RCM over Europe is documented and a broad validation of the climate is performed. The new model includes a more recent land-surface scheme in both GCM and RCM, where subgrid-scale land-surface heterogeneity is newly represented using tiles, and an increase in RCM resolution from 50 to 25 km. The GCM performs similarly to the previous version, with some improvements in the representation of mean climate. The European RCM temperature biases are overall reduced, in particular the warm bias over eastern Europe, but large biases remain. Precipitation is improved over the Alps in summer, with mixed changes in other regions and seasons. The model is shown to represent the main classes of regional extreme events reasonably well and shows a good sensitivity to its drivers. In particular, given the improvements in this version of the weather@home system, it is likely that more reliable statements can be made with regards to impact statements, especially at more localized scales.
+DA  - 2017/05/05/
+PY  - 2017
+DO  - 10.5194/gmd-10-1849-2017
+DP  - DOI.org (Crossref)
+VL  - 10
+IS  - 5
+SP  - 1849
+EP  - 1872
+J2  - Geosci. Model Dev.
+LA  - en
+SN  - 1991-9603
+ST  - weather@home 2
+UR  - https://gmd.copernicus.org/articles/10/1849/2017/
+Y2  - 2022/11/10/22:56:57
+L1  - https://www.geosci-model-dev.net/10/1849/2017/gmd-10-1849-2017.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Anthropogenic Influence on the 2018 Summer Warm Spell in Europe: The Impact of Different Spatio-Temporal Scales
+AU  - Leach, Nicholas J.
+AU  - Li, Sihan
+AU  - Sparrow, Sarah
+AU  - van Oldenborgh, Geert Jan
+AU  - Lott, Fraser C.
+AU  - Weisheimer, Antje
+AU  - Allen, Myles R.
+T2  - Bulletin of the American Meteorological Society
+DA  - 2020/01//
+PY  - 2020
+DO  - 10.1175/BAMS-D-19-0201.1
+DP  - DOI.org (Crossref)
+VL  - 101
+IS  - 1
+SP  - S41
+EP  - S46
+SN  - 0003-0007, 1520-0477
+ST  - Anthropogenic Influence on the 2018 Summer Warm Spell in Europe
+UR  - https://journals.ametsoc.org/view/journals/bams/101/1/bams-d-19-0201.1.xml
+Y2  - 2022/11/10/22:56:57
+L1  - https://journals.ametsoc.org/downloadpdf/journals/bams/101/1/bams-d-19-0201.1.pdf
+ER  - 
+
+TY  - CHAP
+TI  - The Impact of Climate Change on Human Eyes
+AU  - Iyyanki, Murali Krishna V.
+AU  - Jayanthi, Prisilla
+T2  - Urban Health Risk and Resilience in Asian Cities
+A2  - Singh, R.B.
+A2  - Srinagesh, Bathula
+A2  - Anand, Subhash
+CY  - Singapore
+DA  - 2020///
+PY  - 2020
+DP  - DOI.org (Crossref)
+SP  - 205
+EP  - 215
+LA  - en
+PB  - Springer Singapore
+SN  - 9789811512049 9789811512056
+UR  - http://link.springer.com/10.1007/978-981-15-1205-6_12
+Y2  - 2022/11/10/22:56:57
+ER  - 
+
+TY  - RPRT
+TI  - Wave-resonance fingerprint in the 2010 summer: a modelling experiment
+AU  - Di Capua, Giorgia
+AU  - Kornhuber, Kai
+AU  - Rousi, Eftychia
+AU  - Sparrow, Sarah
+AU  - Wallom, David
+AU  - Coumou, Dim
+AB  - &lt;p&gt;Summer 2010 was characterized by two contemporaneous extreme events: the Russian heat wave and the Pakistan flood. Several studies have shown a link between the two events, and Quasi-Resonant Amplification (QRA) has been suggested as an atmosphere-dynamic mechanism leading to the anomalous wavy circulation pattern which connected both extremes. Here, we aim at reproducing the 2010 circulation conditions in the Northern Hemisphere by obtaining a large ensemble of simulations from the Weather@home project within climateprediction.net (CPDN). We identify those ensemble members exhibiting a specific latitudinal temperature profile characterised by amplified high-latitude land warming (QRA - fingerprint) and investigate their surface temperature and upper level circulation properties. We show that when the QRA - fingerprint is present, the mid-latitude circulation bears similar characteristics to those observed in the 2010 summer: hot temperatures over European Russia and a wavy pattern in the upper-tropospheric meridional winds. As temperature profiles are projected to become increasingly similar to the QRA-fingerprint under future emission scenarios, these results provide further evidence that high latitude warming might favour persistent surface weather in the mid-latitudes.&lt;/p&gt;
+DA  - 2020/03/23/
+PY  - 2020
+DP  - DOI.org (Crossref)
+M3  - other
+PB  - pico
+ST  - Wave-resonance fingerprint in the 2010 summer
+UR  - https://meetingorganizer.copernicus.org/EGU2020/EGU2020-16003.html
+Y2  - 2022/11/10/22:56:57
+L1  - https://ora.ox.ac.uk/objects/uuid:7722fe44-0022-4c03-92ba-5c6e1b994b96/download_file?safe_filename=DiCapuaetalVoR2020.pdf&file_format=pdf&type_of_work=Journal+article
+ER  - 
+
+TY  - JOUR
+TI  - On the Co-Variability between Climate Indices and the Potential Spread of Seasonal Climate Simulations over South African Provinces
+AU  - Lawal, Kamoru A.
+AU  - Stone, Dáithí A.
+T2  - Atmospheric and Climate Sciences
+DA  - 2019///
+PY  - 2019
+DO  - 10.4236/acs.2019.93027
+DP  - DOI.org (Crossref)
+VL  - 09
+IS  - 03
+SP  - 381
+EP  - 397
+J2  - ACS
+SN  - 2160-0414, 2160-0422
+UR  - http://www.scirp.org/journal/doi.aspx?DOI=10.4236/acs.2019.93027
+Y2  - 2022/11/10/22:56:57
+L1  - https://www.scirp.org/journal/PaperDownload.aspx?paperID=93697
+ER  - 
+
+TY  - JOUR
+TI  - Cloud Computing for Climate Modelling: Evaluation, Challenges and Benefits
+AU  - Montes, Diego
+AU  - Añel, Juan A.
+AU  - Wallom, David C. H.
+AU  - Uhe, Peter
+AU  - Caderno, Pablo V.
+AU  - Pena, Tomás F.
+T2  - Computers
+AB  - Cloud computing is a mature technology that has already shown benefits for a wide range of academic research domains that, in turn, utilize a wide range of application design models. In this paper, we discuss the use of cloud computing as a tool to improve the range of resources available for climate science, presenting the evaluation of two different climate models. Each was customized in a different way to run in public cloud computing environments (hereafter cloud computing) provided by three different public vendors: Amazon, Google and Microsoft. The adaptations and procedures necessary to run the models in these environments are described. The computational performance and cost of each model within this new type of environment are discussed, and an assessment is given in qualitative terms. Finally, we discuss how cloud computing can be used for geoscientific modelling, including issues related to the allocation of resources by funding bodies. We also discuss problems related to computing security, reliability and scientific reproducibility.
+DA  - 2020/06/22/
+PY  - 2020
+DO  - 10.3390/computers9020052
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 2
+SP  - 52
+J2  - Computers
+LA  - en
+SN  - 2073-431X
+ST  - Cloud Computing for Climate Modelling
+UR  - https://www.mdpi.com/2073-431X/9/2/52
+Y2  - 2022/11/10/22:56:57
+L1  - https://www.mdpi.com/2073-431X/9/2/52/pdf
+ER  - 
+
+TY  - JOUR
+TI  - A pan-South-America assessment of avoided exposure to dangerous extreme precipitation by limiting to 1.5 °C warming
+AU  - Li, Sihan
+AU  - Otto, Friederike E L
+AU  - Harrington, Luke J
+AU  - Sparrow, Sarah N
+AU  - Wallom, David C H
+T2  - Environmental Research Letters
+AB  - Abstract
+            
+              This study investigates the future changes in dangerous extreme precipitation event in South America, using the multi-model ensemble simulations from the HAPPI experiments. The risks of dangerous extreme precipitation events occurrence, and changes in area and population exposure are quantified. Our results show that the likelihood of dangerous extreme precipitation increases in large parts of South America under future warming; changes in extreme precipitation are nonlinear with increasing global mean temperatures; and exposure plays a minor role compared to hazard. In all the models, limiting warming to 1.5
+              °
+              C as opposed to 2
+              °
+              C shows a general reduction in both area and population exposure to dangerous extreme precipitation throughout South America. The southeast region of South America exhibited the highest multi-model median percentage of avoided area exposure at 13.3%, while the southwest region shows the lowest percentage at 3.1%. Under all shared socioeconomic pathways, South America Monsoon region and southern South America region yielded the highest multi-model median percentage of avoided population exposure (>10%). The strong spatial heterogeneity in projected changes in all the models highlights the importance of considering location-specific information when designing adaptation measures and investing in disaster preparedness.
+DA  - 2020/05/01/
+PY  - 2020
+DO  - 10.1088/1748-9326/ab50a2
+DP  - DOI.org (Crossref)
+VL  - 15
+IS  - 5
+SP  - 054005
+J2  - Environ. Res. Lett.
+SN  - 1748-9326
+UR  - https://iopscience.iop.org/article/10.1088/1748-9326/ab50a2
+Y2  - 2022/11/10/22:56:57
+L1  - https://ora.ox.ac.uk/objects/uuid:b3da9855-acd6-4630-bf2f-16624cd054c0/download_file?safe_filename=Li_2020_Environ._Res._Lett._15_054005.pdf&file_format=pdf&type_of_work=Journal+article
+ER  - 
+
+TY  - JOUR
+TI  - Projection of future extreme precipitation: a robust assessment of downscaled daily precipitation
+AU  - Pham, Hoa X.
+AU  - Shamseldin, Asaad Y.
+AU  - Melville, Bruce W.
+T2  - Natural Hazards
+DA  - 2021/05//
+PY  - 2021
+DO  - 10.1007/s11069-021-04584-1
+DP  - DOI.org (Crossref)
+VL  - 107
+IS  - 1
+SP  - 311
+EP  - 329
+J2  - Nat Hazards
+LA  - en
+SN  - 0921-030X, 1573-0840
+ST  - Projection of future extreme precipitation
+UR  - https://link.springer.com/10.1007/s11069-021-04584-1
+Y2  - 2022/11/10/22:56:58
+ER  - 
+
