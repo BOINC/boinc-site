@@ -1,20 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta content="text/html; charset=ISO-8859-1"
- http-equiv="content-type">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
   <title>boinc and seti@home quick install guide</title>
+  <style>
+  strong { font-size:larger; margin:0 }
+</style>
 </head>
 <body>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>
 
-<big style="font-weight: bold;"><big>BOINC and SETI@home quick install
-guide for HPUX</big></big></big><br>
+<strong style="font-weight: bold;"><strong>BOINC and SETI@home quick install
+guide for HPUX</strong></strong></strong><br>
 <br>
 From Lars Bausch
 <br>
-<big><br>
-<big>0. Releases </big></big><br>
+<strong><br>
+<strong>0. Releases </strong></strong><br>
 <br>
 There are some different depots for specifiy (optimized) plattforms
 available :<br>
@@ -47,10 +49,10 @@ architecure and cpu version look at /usr/bin/sched.models.<br>
 <br>
 <br>
 <br>
-<big><big>1. Install the package</big></big><br>
+<strong><strong>1. Install the package</strong></strong><br>
 
 <br>
-<big>1.1 Install with swinstall</big><br>
+<strong>1.1 Install with swinstall</strong><br>
 <br>
 Unzip the depot package : <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gunzip
@@ -63,10 +65,10 @@ $PATH_TO_BOINC_DEPOT/seti-boinc_32.depot \*&nbsp; <br>
 <br>
 Source your /etc/profile with the new entries required for boinc and
 seti : <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . /etc/profi<big>le<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . /etc/profi<strong>le<br>
 <br>
 <br>
-1.2 Install not via swinstall</big><br>
+1.2 Install not via swinstall</strong><br>
 <br>
 If you don't wan't to intstall the binaries with swinstall. i<br>
 
@@ -99,7 +101,7 @@ seti : <br>
 <small><br>
 <br>
 </small><br>
-<big><big>2. add a group and a user</big> </big><br>
+<strong><strong>2. add a group and a user</strong> </strong><br>
 <br>
 Don't run the boinc client and seti app as root !<br>
 <br>
@@ -126,9 +128,9 @@ chown $USERNAME:$GROUPNAME $SETIDIRECTORY)<br>
 Feel free to change the directories, if you want... <br>
 <br>
 <br>
-<big><br>
+<strong><br>
 
-<big>3. Register your Account for seti@home</big></big><br>
+<strong>3. Register your Account for seti@home</strong></strong><br>
 <br>
 You can use the standard registration mechanism within the client : <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ./boinc_client
@@ -156,8 +158,8 @@ Edit line 3, and do not set any blanks before or after the key. <br>
 &lt;/account&gt;<br>
 <br>
 <br>
-<big><br>
-<big>4. Start client and seti app</big></big><br>
+<strong><br>
+<strong>4. Start client and seti app</strong></strong><br>
 <br>
 Login as your new user, and start the boinc_client : <br>
 <br>
@@ -211,8 +213,8 @@ patches. <br>
 Look at 6.2.<br>
 <br>
 <br>
-<big><big><br>
-5. Installation finished. </big></big><br>
+<strong><strong><br>
+5. Installation finished. </strong></strong><br>
 <br>
 If you have some problems, try a look in the forum of the setiathome
 website (<br>
@@ -224,9 +226,9 @@ me. <br>
 
 <br>
 <br>
-<big><big>6. Additional Configurations&nbsp;</big> </big><br>
+<strong><strong>6. Additional Configurations&nbsp;</strong> </strong><br>
 <br>
-<big>6.1 Multi processor systems </big><br>
+<strong>6.1 Multi processor systems </strong><br>
 <br>
 For muli processor systems, you need to setup the preferences on your
 account <br>
@@ -250,7 +252,7 @@ http://setiathome.berkeley.edu<br>
 You client will download some new work...<br>
 <br>
 <br>
-<big>6.2 Patches + OS Revisions</big><br>
+<strong>6.2 Patches + OS Revisions</strong><br>
 <br>
 You can dowload this patches and patchbundles at the HP IT Resource
 Centre (<br>
@@ -261,7 +263,7 @@ agreements.<br>
 <br>
 
 <br>
-<big>6.2.1 HPUX 11.0 </big><br>
+<strong>6.2.1 HPUX 11.0 </strong><br>
 <br>
 Minimum Patches : Quality Pack (QPK) September 2003 and General Relase
 Patches<br>
@@ -276,7 +278,7 @@ from June 2004, Required Patches June 2003<br>
 
 <br>
 <br>
-<big>6.2.2 HPUX 11.11 (11i Version 1)</big><br>
+<strong>6.2.2 HPUX 11.11 (11i Version 1)</strong><br>
 <br>
 Minimum Patches : Gold Pack (GPK) and HardwareEnablement (HWE) patches
 from <br>
@@ -300,23 +302,23 @@ please install this additional patches :<br>
 - PHKL_32204 (VM core(4) related changes)<br>
 <br>
 <br>
-<big>6.2.3 HPUX 11.23 (11i Version 2 at PARISC)</big><br>
+<strong>6.2.3 HPUX 11.23 (11i Version 2 at PARISC)</strong><br>
 <br>
 Minimum Patches : Required Patch Bundle September 2004<br>
 <br>
-<big><br>
-6.2.4 HPUX 11.2x (11i Version 1 and Version 2 at Itanium (IA64))</big><br>
+<strong><br>
+6.2.4 HPUX 11.2x (11i Version 1 and Version 2 at Itanium (IA64))</strong><br>
 
 <br>
 Minimum Patches : Required Patch Bundle September 2004<br>
 <br>
-<big><br>
-6.2.5 HPUX 10.20 </big><br>
+<strong><br>
+6.2.5 HPUX 10.20 </strong><br>
 <br>
 Not tested, but the binaries should run successfull.<br>
 <br>
 <br>
-<big>6.3 Kernel Parameters</big><br>
+<strong>6.3 Kernel Parameters</strong><br>
 <br>
 The binaries will run with the default HPUX Kernel parameters. But if
 you wan't<br>
@@ -345,7 +347,7 @@ workstation) <br>
 
 <br>
 <br>
-<big>6.4 Startup script </big><br>
+<strong>6.4 Startup script </strong><br>
 <br>
 In /sbin/init.d is a script for start boinc at boot and stop for
 shutdown. <br>
@@ -364,7 +366,7 @@ configure, please look into /etc/rc.config.d/boinc. <br>
 <br>
 <br>
 
-<big><big>7. Additional notes</big></big><br>
+<strong><strong>7. Additional notes</strong></strong><br>
 <br>
 This quick install guide is available as "readme" in the swpackage, and
 if you <br>
