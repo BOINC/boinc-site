@@ -109,17 +109,7 @@ AU  - van IJcken, Wilfred F. J.
 AU  - Wendt, Kerstin S.
 AU  - Grosveld, Frank G.
 T2  - Epigenetics & Chromatin
-AB  - Background
- The dynamic three-dimensional chromatin architecture of genomes and its co-evolutionary connection to its function—the storage, expression, and replication of genetic information—is still one of the central issues in biology. Here, we describe the much debated 3D architecture of the human and mouse genomes from the nucleosomal to the megabase pair level by a novel approach combining selective high-throughput high-resolution chromosomal interaction capture (T2C), polymer simulations, and scaling analysis of the 3D architecture and the DNA sequence.
-
-Results
-The genome is compacted into a chromatin quasi-fibre with ~5 ± 1 nucleosomes/11 nm, folded into stable ~30–100 kbp loops forming stable loop aggregates/rosettes connected by similar sized linkers. Minor but significant variations in the architecture are seen between cell types and functional states. The architecture and the DNA sequence show very similar fine-structured multi-scaling behaviour confirming their co-evolution and the above.
-
-Conclusions
-This architecture, its dynamics, and accessibility, balance stability and flexibility ensuring genome integrity and variation enabling gene expression/regulation by self-organization of (in)active units already in proximity. Our results agree with the heuristics of the field and allow “architectural sequencing” at a genome mechanics level to understand the inseparable systems genomic properties.
-
-Electronic supplementary material
-The online version of this article (doi:10.1186/s13072-016-0089-x) contains supplementary material, which is available to authorized users.
+AB  - Background: The dynamic three-dimensional chromatin architecture of genomes and its co-evolutionary connection to its function—the storage, expression, and replication of genetic information—is still one of the central issues in biology. Here, we describe the much debated 3D architecture of the human and mouse genomes from the nucleosomal to the megabase pair level by a novel approach combining selective high-throughput high-resolution chromosomal interaction capture (T2C), polymer simulations, and scaling analysis of the 3D architecture and the DNA sequence. Results The genome is compacted into a chromatin quasi-fibre with ~5 ± 1 nucleosomes/11 nm, folded into stable ~30–100 kbp loops forming stable loop aggregates/rosettes connected by similar sized linkers. Minor but significant variations in the architecture are seen between cell types and functional states. The architecture and the DNA sequence show very similar fine-structured multi-scaling behaviour confirming their co-evolution and the above. Conclusions: This architecture, its dynamics, and accessibility, balance stability and flexibility ensuring genome integrity and variation enabling gene expression/regulation by self-organization of (in)active units already in proximity. Our results agree with the heuristics of the field and allow “architectural sequencing” at a genome mechanics level to understand the inseparable systems genomic properties. Electronic supplementary material The online version of this article (doi:10.1186/s13072-016-0089-x) contains supplementary material, which is available to authorized users.
 DA  - 2016/12/24/
 PY  - 2016
 DO  - 10.1186/s13072-016-0089-x
@@ -133,4 +123,3 @@ Y2  - 2022/11/12/13:44:25
 L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192698/pdf/13072_2016_Article_89.pdf
 L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192698/
 ER  - 
-
