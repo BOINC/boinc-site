@@ -1,0 +1,74 @@
+TY  - CONF
+TI  - Volunteer Computing Approach for the Collaborative Simulation of Electrophysiological Models
+AU  - Castro, Joel
+AU  - Monasterio, Violeta
+AU  - Carro, Jesus
+T2  - 2016 IEEE 25th International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE)
+C1  - Paris, France
+C3  - 2016 IEEE 25th International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE)
+DA  - 2016/06//
+PY  - 2016
+DO  - 10.1109/WETICE.2016.34
+DP  - DOI.org (Crossref)
+SP  - 118
+EP  - 123
+PB  - IEEE
+SN  - 978-1-5090-1663-1
+UR  - http://ieeexplore.ieee.org/document/7536443/
+Y2  - 2022/11/11/14:48:16
+ER  - 
+
+TY  - JOUR
+TI  - DENIS: Solving cardiac electrophysiological simulations with volunteer computing
+AU  - Monasterio, Violeta
+AU  - Castro-Mur, Joel
+AU  - Carro, Jesús
+T2  - PLOS ONE
+A2  - Panfilov, Alexander V
+DA  - 2018/10/16/
+PY  - 2018
+DO  - 10.1371/journal.pone.0205568
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 10
+SP  - e0205568
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+ST  - DENIS
+UR  - https://dx.plos.org/10.1371/journal.pone.0205568
+Y2  - 2022/11/11/14:48:16
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0205568&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - A Methodology to Improve Human Ventricular Models for the Investigation of Cardiac Arrhythmias
+AU  - Carro, Jesús
+AU  - Rodríguez-Matas, José F
+AU  - Pueyo, Esther
+T2  - Biophysical Journal
+DA  - 2017/02//
+PY  - 2017
+DO  - 10.1016/j.bpj.2016.11.2183
+DP  - DOI.org (Crossref)
+VL  - 112
+IS  - 3
+SP  - 403a
+J2  - Biophysical Journal
+LA  - en
+SN  - 00063495
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0006349516332131
+Y2  - 2022/11/11/14:48:16
+L1  - https://www.cell.com/article/S0006349516332131/pdf
+ER  - 
+
+TY  - THES
+TI  - New Methodologies for the Development and Validation of Electrophysiological Models
+AU  - Carro, Jesús
+AB  - According to data from the World Health Organization (WHO), 17.7 million peo- ple were estimated to have died of cardiovascular diseases (CVDs) in 2015. This represents 31% of all global deaths, making CVDs the leading cause of death world- wide. The heart is a complex system that works due to the interaction of a large number of elements at diferent temporal and spatial scales. The main function of the heart is to pump blood throughout the body, with this mechanical action being triggered by electrical impulses. Issues arising in the electrical or mechanical actions of the heart at any of the involved temporal and spatial scales can lead to cardiac malfunctioning. Mathematical modeling and simulation of the heart’s electrical activity (so-called cardiac electrophysiology) combined with signal processing of bioelectrical signals provide an ideal framework to join the information from clinical and experimental studies with the understanding of the mechanisms underlying them. Due to the high number of factors involved in the development and validation of cardiac computational electrophysiological models and the intricate interrelationships between them, novel methodologies that help to control the design, update and validation of new models become of great advantage. These methodologies can target from the definition of ionic gating in the simulated cells to the propagation of the electrical impulse in multi-scale models. This thesis aims to improve the existing knowledge on heart’s electrophysiology by proposing novel techniques to develop and validate cardiac computational models while accounting for the interactions between model components and including simulations of a range of spatio-temporal scales.
+DA  - 2019/01/23/
+PY  - 2019
+DP  - ResearchGate
+L4  - https://www.researchgate.net/publication/331487397_New_Methodologies_for_the_Development_and_Validation_of_Electrophysiological_Models/citation/download
+ER  - 
+
