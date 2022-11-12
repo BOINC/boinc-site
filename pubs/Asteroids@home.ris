@@ -1,0 +1,334 @@
+TY  - JOUR
+TI  - Asteroids@home—A BOINC distributed computing project for asteroid shape reconstruction
+AU  - Ďurech, J.
+AU  - Hanuš, J.
+AU  - Vančo, R.
+T2  - Astronomy and Computing
+DA  - 2015/11//
+PY  - 2015
+DO  - 10.1016/j.ascom.2015.09.004
+DP  - DOI.org (Crossref)
+VL  - 13
+SP  - 80
+EP  - 84
+J2  - Astronomy and Computing
+LA  - en
+SN  - 22131337
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S221313371500092X
+Y2  - 2022/11/11/14:35:22
+L1  - https://arxiv.org/pdf/1511.08640
+ER  - 
+
+TY  - JOUR
+TI  - Asteroid models reconstructed from ATLAS photometry
+AU  - Durech, J.
+AU  - Tonry, J.
+AU  - Erasmus, N.
+AU  - Denneau, L.
+AU  - Heinze, A. N.
+AU  - Flewelling, H.
+AU  - Vanco, R.
+AB  - The Asteroid Terrestrial-impact Last Alert System (ATLAS) is an all-sky survey primarily aimed at detecting potentially hazardous near-Earth asteroids. Apart from the astrometry of asteroids, it also produces their photometric measurements that contain information about asteroid rotation and their shape. To increase the current number of asteroids with a known shape and spin state, we reconstructed asteroid models from ATLAS photometry that was available for approximately 180,000 asteroids observed between 2015 and 2018. We made use of the light-curve inversion method implemented in the Asteroid@home project to process ATLAS photometry for roughly 100,000 asteroids with more than a hundred individual brightness measurements. By scanning the period and pole parameter space, we selected those best-fit models that were, according to our setup, a unique solution for the inverse problem. We derived ~2750 unique models, 950 of them were already reconstructed from other data and published. The remaining 1800 models are new. About half of them are only partial models, with an unconstrained pole ecliptic longitude. Together with the shape and spin, we also determined for each modeled asteroid its color index from the cyan and orange filter used by the ATLAS survey. We also show the correlations between the color index, albedo, and slope of the phase-angle function. The current analysis is the first inversion of ATLAS asteroid photometry, and it is the first step in exploiting the huge scientific potential that ATLAS photometry has. ATLAS continues to observe, and in the future, this data, together with other independent photometric measurements, can be inverted to produce more refined asteroid models.
+DA  - 2020///
+PY  - 2020
+DO  - 10.48550/ARXIV.2010.01820
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/2010.01820
+Y2  - 2022/11/11/14:35:22
+KW  - Earth and Planetary Astrophysics (astro-ph.EP)
+KW  - FOS: Physical sciences
+ER  - 
+
+TY  - JOUR
+TI  - Asteroid models reconstructed from the Lowell Photometric Database and WISE data
+AU  - Durech, Josef
+AU  - Hanus, Josef
+AU  - Ali-Lagoa, Victor
+AB  - Information about the spin state of asteroids is important for our understanding of the dynamical processes affecting them. However, spin properties of asteroids are known for only a small fraction of the whole population. To enlarge the sample of asteroids with a known rotation state and basic shape properties, we combined sparse-in-time photometry from the Lowell Observatory Database with flux measurements from NASA's WISE satellite. We applied the light curve inversion method to the combined data. The thermal infrared data from WISE were treated as reflected light because the shapes of thermal and visual light curves are similar enough for our purposes. While sparse data cover a wide range of geometries over many years, WISE data typically cover an interval of tens of hours, which is comparable to the typical rotation period of asteroids. The search for best-fitting models was done in the framework of the Asteroids@home distributed computing project. By processing the data for almost 75,000 asteroids, we derived unique shape models for about 900 of them. Some of them were already available in the DAMIT database and served us as a consistency check of our approach. In total, we derived new models for 662 asteroids, which significantly increased the total number of asteroids for which their rotation state and shape are known. For another 789 asteroids, we were able to determine their sidereal rotation period and estimate the ecliptic latitude of the spin axis direction. We studied the distribution of spins in the asteroid population. We revealed a significant discrepancy between the number of prograde and retrograde rotators for asteroids smaller than about 10 km. Combining optical photometry with thermal infrared light curves is an efficient approach to obtaining new physical models of asteroids.
+DA  - 2018///
+PY  - 2018
+DO  - 10.48550/ARXIV.1807.02083
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1807.02083
+Y2  - 2022/11/11/14:35:22
+KW  - Earth and Planetary Astrophysics (astro-ph.EP)
+KW  - FOS: Physical sciences
+ER  - 
+
+TY  - JOUR
+TI  - Inversion of asteroid photometry from Gaia DR2 and the Lowell Observatory photometric database
+AU  - Durech, Josef
+AU  - Hanus, Josef
+AU  - Vanco, Radim
+AB  - Rotation properties (spin-axis direction and rotation period) and coarse shape models of asteroids can be reconstructed from their disk-integrated brightness when measured from various viewing geometries. These physical properties are essential for creating a global picture of structure and dynamical evolution of the main belt. The number of shape and spin models can be increased not only when new data are available, but also by combining independent data sets and inverting them together. Our aim was to derive new asteroid models by processing readily available photometry. We used asteroid photometry compiled in the Lowell Observatory photometry database with photometry from the Gaia Data Release 2. Both data sources are available for about 5400 asteroids. In the framework of the Asteroids@home distributed computing project, we applied the light curve inversion method to each asteroid to find its convex shape model and spin state that fits the observed photometry. Due to the limited number of Gaia DR2 data points and poor photometric accuracy of Lowell data, we were able to derive unique models for only ~1100 asteroids. Nevertheless, 762 of these are new models that significantly enlarge the current database of about 1600 asteroid models. Our results demonstrate the importance of a combined approach to inversion of asteroid photometry. While our models in general agree with those obtained by separate inversion of Lowell and Gaia data, the combined inversion is more robust, model parameters are more constrained, and unique models can be reconstructed in many cases when individual data sets alone are not sufficient.
+DA  - 2019///
+PY  - 2019
+DO  - 10.48550/ARXIV.1909.09395
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1909.09395
+Y2  - 2022/11/11/14:35:22
+KW  - Earth and Planetary Astrophysics (astro-ph.EP)
+KW  - FOS: Physical sciences
+ER  - 
+
+TY  - JOUR
+TI  - New and updated convex shape models of asteroids based on optical data from a large collaboration network
+AU  - Hanuš, J.
+AU  - Ďurech, J.
+AU  - Oszkiewicz, D. A.
+AU  - Behrend, R.
+AU  - Carry, B.
+AU  - Delbo, M.
+AU  - Adam, O.
+AU  - Afonina, V.
+AU  - Anquetin, R.
+AU  - Antonini, P.
+AU  - Arnold, L.
+AU  - Audejean, M.
+AU  - Aurard, P.
+AU  - Bachschmidt, M.
+AU  - Baduel, B.
+AU  - Barbotin, E.
+AU  - Barroy, P.
+AU  - Baudouin, P.
+AU  - Berard, L.
+AU  - Berger, N.
+AU  - Bernasconi, L.
+AU  - Bosch, J-G.
+AU  - Bouley, S.
+AU  - Bozhinova, I.
+AU  - Brinsfield, J.
+AU  - Brunetto, L.
+AU  - Canaud, G.
+AU  - Caron, J.
+AU  - Carrier, F.
+AU  - Casalnuovo, G.
+AU  - Casulli, S.
+AU  - Cerda, M.
+AU  - Chalamet, L.
+AU  - Charbonnel, S.
+AU  - Chinaglia, B.
+AU  - Cikota, A.
+AU  - Colas, F.
+AU  - Coliac, J.-F.
+AU  - Collet, A.
+AU  - Coloma, J.
+AU  - Conjat, M.
+AU  - Conseil, E.
+AU  - Costa, R.
+AU  - Crippa, R.
+AU  - Cristofanelli, M.
+AU  - Damerdji, Y.
+AU  - Debackère, A.
+AU  - Decock, A.
+AU  - Déhais, Q.
+AU  - Déléage, T.
+AU  - Delmelle, S.
+AU  - Demeautis, C.
+AU  - Dróżdż, M.
+AU  - Dubos, G.
+AU  - Dulcamara, T.
+AU  - Dumont, M.
+AU  - Durkee, R.
+AU  - Dymock, R.
+AU  - Escalante del Valle, A.
+AU  - Esseiva, N.
+AU  - Esseiva, R.
+AU  - Esteban, M.
+AU  - Fauchez, T.
+AU  - Fauerbach, M.
+AU  - Fauvaud, M.
+AU  - Fauvaud, S.
+AU  - Forné, E.
+AU  - Fournel, C.
+AU  - Fradet, D.
+AU  - Garlitz, J.
+AU  - Gerteis, O.
+AU  - Gillier, C.
+AU  - Gillon, M.
+AU  - Giraud, R.
+AU  - Godard, J.-P.
+AU  - Goncalves, R.
+AU  - Hamanowa, Hiroko
+AU  - Hamanowa, Hiromi
+AU  - Hay, K.
+AU  - Hellmich, S.
+AU  - Heterier, S.
+AU  - Higgins, D.
+AU  - Hirsch, R.
+AU  - Hodosan, G.
+AU  - Hren, M.
+AU  - Hygate, A.
+AU  - Innocent, N.
+AU  - Jacquinot, H.
+AU  - Jawahar, S.
+AU  - Jehin, E.
+AU  - Jerosimic, L.
+AU  - Klotz, A.
+AU  - Koff, W.
+AU  - Korlevic, P.
+AU  - Kosturkiewicz, E.
+AU  - Krafft, P.
+AU  - Krugly, Y.
+AU  - Kugel, F.
+AU  - Labrevoir, O.
+AU  - Lecacheux, J.
+AU  - Lehký, M.
+AU  - Leroy, A.
+AU  - Lesquerbault, B.
+AU  - Lopez-Gonzales, M. J.
+AU  - Lutz, M.
+AU  - Mallecot, B.
+AU  - Manfroid, J.
+AU  - Manzini, F.
+AU  - Marciniak, A.
+AU  - Martin, A.
+AU  - Modave, B.
+AU  - Montaigut, R.
+AU  - Montier, J.
+AU  - Morelle, E.
+AU  - Morton, B.
+AU  - Mottola, S.
+AU  - Naves, R.
+AU  - Nomen, J.
+AU  - Oey, J.
+AU  - Ogłoza, W.
+AU  - Paiella, M.
+AU  - Pallares, H.
+AU  - Peyrot, A.
+AU  - Pilcher, F.
+AU  - Pirenne, J.-F.
+AU  - Piron, P.
+AU  - Polińska, M.
+AU  - Polotto, M.
+AU  - Poncy, R.
+AU  - Previt, J. P.
+AU  - Reignier, F.
+AU  - Renauld, D.
+AU  - Ricci, D.
+AU  - Richard, F.
+AU  - Rinner, C.
+AU  - Risoldi, V.
+AU  - Robilliard, D.
+AU  - Romeuf, D.
+AU  - Rousseau, G.
+AU  - Roy, R.
+AU  - Ruthroff, J.
+AU  - Salom, P. A.
+AU  - Salvador, L.
+AU  - Sanchez, S.
+AU  - Santana-Ros, T.
+AU  - Scholz, A.
+AU  - Séné, G.
+AU  - Skiff, B.
+AU  - Sobkowiak, K.
+AU  - Sogorb, P.
+AU  - Soldán, F.
+AU  - Spiridakis, A.
+AU  - Splanska, E.
+AU  - Sposetti, S.
+AU  - Starkey, D.
+AU  - Stephens, R.
+AU  - Stiepen, A.
+AU  - Stoss, R.
+AU  - Strajnic, J.
+AU  - Teng, J.-P.
+AU  - Tumolo, G.
+AU  - Vagnozzi, A.
+AU  - Vanoutryve, B.
+AU  - Vugnon, J. M.
+AU  - Warner, B. D.
+AU  - Waucomont, M.
+AU  - Wertz, O.
+AU  - Winiarski, M.
+AU  - Wolf, M.
+T2  - Astronomy & Astrophysics
+DA  - 2016/02//
+PY  - 2016
+DO  - 10.1051/0004-6361/201527441
+DP  - DOI.org (Crossref)
+VL  - 586
+SP  - A108
+J2  - A&A
+SN  - 0004-6361, 1432-0746
+UR  - http://www.aanda.org/10.1051/0004-6361/201527441
+Y2  - 2022/11/11/14:35:22
+L1  - https://www.aanda.org/articles/aa/pdf/2016/02/aa27441-15.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Asteroid Models from Multiple Data Sources
+AU  - Durech, J.
+AU  - Carry, B.
+AU  - Delbo, M.
+AU  - Kaasalainen, M.
+AU  - Viikinkoski, M.
+AB  - In the past decade, hundreds of asteroid shape models have been derived using the lightcurve inversion method. At the same time, a new framework of 3-D shape modeling based on the combined analysis of widely different data sources such as optical lightcurves, disk-resolved images, stellar occultation timings, mid-infrared thermal radiometry, optical interferometry, and radar delay-Doppler data, has been developed. This multi-data approach allows the determination of most of the physical and surface properties of asteroids in a single, coherent inversion, with spectacular results. We review the main results of asteroid lightcurve inversion and also recent advances in multi-data modeling. We show that models based on remote sensing data were confirmed by spacecraft encounters with asteroids, and we discuss how the multiplication of highly detailed 3-D models will help to refine our general knowledge of the asteroid population. The physical and surface properties of asteroids, i.e., their spin, 3-D shape, density, thermal inertia, surface roughness, are among the least known of all asteroid properties. Apart for the albedo and diameter, we have access to the whole picture for only a few hundreds of asteroids. These quantities are nevertheless very important to understand as they affect the non-gravitational Yarkovsky effect responsible for meteorite delivery to Earth, or the bulk composition and internal structure of asteroids.
+DA  - 2015///
+PY  - 2015
+DO  - 10.48550/ARXIV.1502.04816
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1502.04816
+Y2  - 2022/11/11/14:35:22
+KW  - Earth and Planetary Astrophysics (astro-ph.EP)
+KW  - FOS: Physical sciences
+ER  - 
+
+TY  - JOUR
+TI  - Asteroid models from the Lowell Photometric Database
+AU  - Durech, J.
+AU  - Hanus, J.
+AU  - Oszkiewicz, D.
+AU  - Vanco, R.
+AB  - We use the lightcurve inversion method to derive new shape models and spin states of asteroids from the sparse-in-time photometry compiled in the Lowell Photometric Database. To speed up the time-consuming process of scanning the period parameter space through the use of convex shape models, we use the distributed computing project Asteroids@home, running on the Berkeley Open Infrastructure for Network Computing (BOINC) platform. This way, the period-search interval is divided into hundreds of smaller intervals. These intervals are scanned separately by different volunteers and then joined together. We also use an alternative, faster, approach when searching the best-fit period by using a model of triaxial ellipsoid. By this, we can independently confirm periods found with convex models and also find rotation periods for some of those asteroids for which the convex-model approach gives too many solutions. From the analysis of Lowell photometric data of the first 100,000 numbered asteroids, we derived 328 new models. This almost doubles the number of available models. We tested the reliability of our results by comparing models that were derived from purely Lowell data with those based on dense lightcurves, and we found that the rate of false-positive solutions is very low. We also present updated plots of the distribution of spin obliquities and pole ecliptic longitudes that confirm previous findings about a non-uniform distribution of spin axes. However, the models reconstructed from noisy sparse data are heavily biased towards more elongated bodies with high lightcurve amplitudes.
+DA  - 2016///
+PY  - 2016
+DO  - 10.48550/ARXIV.1601.02909
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1601.02909
+Y2  - 2022/11/11/14:35:22
+KW  - Earth and Planetary Astrophysics (astro-ph.EP)
+KW  - FOS: Physical sciences
+ER  - 
+
+TY  - JOUR
+TI  - New Asteroid Shape Models Derived from the Lowell Photometric Database
+AU  - Durech, Josef
+AU  - Hanus, J.
+AU  - Vanco, R.
+AU  - Oszkiewicz, D.
+AU  - Bowell, E.
+AB  - Asteroid shapes and spin states can be derived from their disk-integrated sparse-in-time photometry by the lightcurve inversion method. A huge amount of sparse photometry is provided by current all-sky surveys. However, the data from surveys suffer from large random and systematic errors. Oszkiewicz et al. (2011, JQSRT 112, 1919) partly removed the systematic trends in the photometry reported to the MPC and created the so-called 'Lowell photometric database'. The database consists of re-calibrated photometry for about 500,000 asteroids, with typically hundreds of brightness measurements per object. Bowell et al. (M&PS, submitted) used this database to analyze brightness variations with ecliptic longitude and estimated spin-axis longitudes for about 350,000 asteroids. In our work, we processed data for the first 10,000 numbered asteroids with the lightcurve inversion method (Kaasalainen et al., 2001, Icarus 153,37) using an enormous computational power of Asteroids@home (http://asteroidsathome.net) - a distributed computing project built on the BOINC platform. More than 10,000 users have joined the project and their computers were used for the time-consuming search for the sidereal rotation period in the sparse data. Although the photometric accuracy of the Lowell data is low 0.2 mag), we were able to find unique models for several hundred asteroids. We will present the first results based on the statistical analysis of the sample (distribution of spin vectors, for example) and we will also discuss the relevance of our approach to Gaia, LSST, ATLAS, and other future sources of asteroid photometry with sparse sampling.
+DA  - 2013/10/01/
+PY  - 2013
+DP  - NASA ADS
+VL  - 45
+SP  - 304.05
+UR  - https://ui.adsabs.harvard.edu/abs/2013DPS....4530405D
+Y2  - 2022/11/12/11:46:08
+ER  - 
+
+TY  - JOUR
+TI  - Distribution of spin-axes longitudes and shape elongations of main-belt asteroids
+AU  - Cibulková, H.
+AU  - Ďurech, J.
+AU  - Vokrouhlický, D.
+AU  - Kaasalainen, M.
+AU  - Oszkiewicz, D. A.
+T2  - Astronomy & Astrophysics
+AB  - <i>Context. <i/>Large all-sky surveys provide us with a lot of photometric data that are sparse in time (typically a few measurements per night) and can be potentially used for the determination of shapes and rotational states of asteroids. The method generally used to derive these parameters is the light curve inversion. However, for most asteroids their sparse data are not accurate enough to derive a unique model and the light curve inversion method is thus not very efficient.<i>Aims. <i/>To fully utilize photometry sparse in time, we developed a new simplified model and applied it on the data from the Lowell photometric database. Our aim was to derive spin axis orientations and shape elongations of asteroids and to find out if there are some differences in distributions of these parameters for selected subpopulations.<i>Methods. <i/>We modeled asteroids as geometrically scattering triaxial ellipsoids. Observed values of mean brightness and the dispersion of brightness were compared with computed values obtained from the parameters of the model, i.e., the ecliptical longitude <i>λ<i/> and latitude <i>β<i/> of the pole and the ratios <i>a<i/>/<i>b<i/>, <i>b<i/>/<i>c<i/> of axes of the ellipsoid. These parameters were optimized to get the best agreement with the observation.<i>Results. <i/>We found that the distribution of <i>λ<i/> for main-belt asteroids is not uniform and is dependent on the inclination of the orbit. Surprisingly, the nonuniformity of <i>λ<i/> distribution is larger for asteroids residing on low-inclination orbits. We also studied distributions of <i>a<i/>/<i>b<i/> for several groups of asteroids and found that small asteroids (<i>D<i/>< 25 km) are on average more elongated than large ones.
+DA  - 2016/12/01/
+PY  - 2016
+DO  - 10.1051/0004-6361/201629192
+DP  - www.aanda.org
+VL  - 596
+SP  - A57
+J2  - A&A
+LA  - en
+SN  - 0004-6361, 1432-0746
+UR  - https://www.aanda.org/articles/aa/abs/2016/12/aa29192-16/aa29192-16.html
+Y2  - 2022/11/12/11:51:09
+L1  - https://www.aanda.org/articles/aa/pdf/2016/12/aa29192-16.pdf
+L2  - https://www.aanda.org/articles/aa/full_html/2016/12/aa29192-16/aa29192-16.html
+ER  - 
+
