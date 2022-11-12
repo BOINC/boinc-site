@@ -95,18 +95,18 @@ $cogsci = array(
 //            "Model the human brain",
 //            array(KW_AI, KW_AMERICAS, KW_US, KW_U_DAYTON)
 //        ),
-        project(
-            PROJ_MLC,
-            "MLC@Home",
-            "https://www.mlcathome.org/mlcathome/",
-            "University of Maryland, Baltimore County (UMBC)",
-            tra("Artificial Intelligence"),
-            tra("MLC@Home is dedicated to understanding and interpreting complex machine learning models, with an emphasis on neural networks."),
-            "mlcathome-banner.png",
-            "",
-            "Study machine learning",
-            array(KW_AI, KW_AMERICAS, KW_US)
-        ),
+//        project(
+//            PROJ_MLC,
+//            "MLC@Home",
+//            "https://www.mlcathome.org/mlcathome/",
+//            "University of Maryland, Baltimore County (UMBC)",
+//            tra("Artificial Intelligence"),
+//            tra("MLC@Home is dedicated to understanding and interpreting complex machine learning models, with an emphasis on neural networks."),
+//            "mlcathome-banner.png",
+//            "",
+//            "Study machine learning",
+//            array(KW_AI, KW_AMERICAS, KW_US)
+//        ),
     ),
 );
 
