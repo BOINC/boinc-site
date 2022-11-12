@@ -1,0 +1,623 @@
+TY  - CONF
+TI  - SimBA: A Discrete Event Simulator for Performance Prediction of Volunteer Computing Projects
+AU  - Taufer, Michela
+AU  - Kerstens, Andre
+AU  - Estrada, Trilce
+AU  - Flores, David
+AU  - Teller, Patricia J.
+T2  - 21st International Workshop on Principles of Advanced and Distributed Simulation
+C1  - San Diego, CA, USA
+C3  - 21st International Workshop on Principles of Advanced and Distributed Simulation (PADS'07)
+DA  - 2007/06//
+PY  - 2007
+DO  - 10.1109/PADS.2007.27
+DP  - DOI.org (Crossref)
+SP  - 189
+EP  - 197
+PB  - IEEE
+SN  - 978-0-7695-2898-4
+ST  - SimBA
+UR  - http://ieeexplore.ieee.org/document/4262805/
+Y2  - 2022/11/11/14:50:01
+ER  - 
+
+TY  - JOUR
+TI  - Computational multiscale modeling in protein--ligand docking
+AU  - Taufer, M.
+AU  - Armen, R.
+AU  - Jianhan Chen
+AU  - Teller, P.
+AU  - Brooks, C.
+T2  - IEEE Engineering in Medicine and Biology Magazine
+DA  - 2009/03//
+PY  - 2009
+DO  - 10.1109/MEMB.2009.931789
+DP  - DOI.org (Crossref)
+VL  - 28
+IS  - 2
+SP  - 58
+EP  - 69
+J2  - IEEE Eng. Med. Biol. Mag.
+SN  - 0739-5175
+UR  - http://ieeexplore.ieee.org/document/4809862/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - CONF
+TI  - Modeling Job Lifespan Delays in Volunteer Computing Projects
+AU  - Estrada, Trilce
+AU  - Taufer, Michela
+AU  - Reed, Kevin
+T2  - 2009 9th IEEE/ACM International Symposium on Cluster Computing and the Grid
+C1  - Shanghai, China
+C3  - 2009 9th IEEE/ACM International Symposium on Cluster Computing and the Grid
+DA  - 2009///
+PY  - 2009
+DO  - 10.1109/CCGRID.2009.69
+DP  - DOI.org (Crossref)
+SP  - 331
+EP  - 338
+PB  - IEEE
+SN  - 978-1-4244-3935-5
+UR  - http://ieeexplore.ieee.org/document/5071889/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - CONF
+TI  - The Effectiveness of Threshold-Based Scheduling Policies in BOINC Projects
+AU  - Estrada, Trilce
+AU  - Flores, David A.
+AU  - Taufer, Michela
+AU  - Teller, Patricia J.
+AU  - Kerstens, Andre
+AU  - Anderson, David P.
+T2  - 2006 Second IEEE International Conference on e-Science and Grid Computing
+C1  - Amsterdam, The Netherlands
+C3  - 2006 Second IEEE International Conference on e-Science and Grid Computing (e-Science'06)
+DA  - 2006/12//
+PY  - 2006
+DO  - 10.1109/E-SCIENCE.2006.261172
+DP  - DOI.org (Crossref)
+SP  - 88
+EP  - 88
+PB  - IEEE
+SN  - 978-0-7695-2734-5
+UR  - http://ieeexplore.ieee.org/document/4031061/
+Y2  - 2022/11/11/14:50:02
+L1  - https://digitalcommons.utep.edu/cgi/viewcontent.cgi?article=1191&context=cs_techrep
+ER  - 
+
+TY  - JOUR
+TI  - Performance Prediction and Analysis of BOINC Projects: An Empirical Study with EmBOINC
+AU  - Estrada, Trilce
+AU  - Taufer, Michela
+AU  - Anderson, David P.
+T2  - Journal of Grid Computing
+DA  - 2009/12//
+PY  - 2009
+DO  - 10.1007/s10723-009-9126-3
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 4
+SP  - 537
+J2  - J Grid Computing
+LA  - en
+SN  - 1570-7873, 1572-9184
+ST  - Performance Prediction and Analysis of BOINC Projects
+UR  - http://link.springer.com/10.1007/s10723-009-9126-3
+Y2  - 2022/11/11/14:50:02
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs10723-009-9126-3.pdf
+ER  - 
+
+TY  - CONF
+TI  - Automatic selection of near-native protein-ligand conformations using a hierarchical clustering and volunteer computing
+AU  - Estrada, Trlce
+AU  - Armen, Roger
+AU  - Taufer, Michela
+T2  - the First ACM International Conference
+C1  - Niagara Falls, New York
+C3  - Proceedings of the First ACM International Conference on Bioinformatics and Computational Biology - BCB '10
+DA  - 2010///
+PY  - 2010
+DO  - 10.1145/1854776.1854807
+DP  - DOI.org (Crossref)
+SP  - 204
+LA  - en
+PB  - ACM Press
+SN  - 978-1-4503-0438-2
+UR  - http://portal.acm.org/citation.cfm?doid=1854776.1854807
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - CONF
+TI  - Reengineering High-throughput Molecular Datasets for Scalable Clustering Using MapReduce
+AU  - Estrada, Trilce
+AU  - Zhang, Boyu
+AU  - Taufer, Michela
+AU  - Cicotti, Pietro
+AU  - Armen, Roger
+T2  - 2012 IEEE 14th Int'l Conf. on High Performance Computing and Communication (HPCC) & 2012 IEEE 9th Int'l Conf. on Embedded Software and Systems (ICESS)
+C1  - Liverpool, United Kingdom
+C3  - 2012 IEEE 14th International Conference on High Performance Computing and Communication & 2012 IEEE 9th International Conference on Embedded Software and Systems
+DA  - 2012/06//
+PY  - 2012
+DO  - 10.1109/HPCC.2012.54
+DP  - DOI.org (Crossref)
+SP  - 351
+EP  - 359
+PB  - IEEE
+SN  - 978-1-4673-2164-8 978-0-7695-4749-7
+UR  - http://ieeexplore.ieee.org/document/6332193/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - CONF
+TI  - On Efficiently Capturing Scientific Properties in Distributed Big Data without Moving the Data: A Case Study in Distributed Structural Biology Using MapReduce
+AU  - Zhang, Boyu
+AU  - Estrada, Trilce
+AU  - Cicotti, Pietro
+AU  - Taufer, Michela
+T2  - 2013 IEEE 16th International Conference on Computational Science and Engineering (CSE)
+C1  - Sydney, Australia
+C3  - 2013 IEEE 16th International Conference on Computational Science and Engineering
+DA  - 2013/12//
+PY  - 2013
+DO  - 10.1109/CSE.2013.28
+DP  - DOI.org (Crossref)
+SP  - 117
+EP  - 124
+PB  - IEEE
+SN  - 978-0-7695-5096-1
+ST  - On Efficiently Capturing Scientific Properties in Distributed Big Data without Moving the Data
+UR  - http://ieeexplore.ieee.org/document/6755206/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - JOUR
+TI  - Evaluation of Several Two-Step Scoring Functions Based on Linear Interaction Energy, Effective Ligand Size, and Empirical Pair Potentials for Prediction of Protein–Ligand Binding Geometry and Free Energy
+AU  - Rahaman, Obaidur
+AU  - Estrada, Trilce P.
+AU  - Doren, Douglas J.
+AU  - Taufer, Michela
+AU  - Brooks, Charles L.
+AU  - Armen, Roger S.
+T2  - Journal of Chemical Information and Modeling
+DA  - 2011/09/26/
+PY  - 2011
+DO  - 10.1021/ci1003009
+DP  - DOI.org (Crossref)
+VL  - 51
+IS  - 9
+SP  - 2047
+EP  - 2065
+J2  - J. Chem. Inf. Model.
+LA  - en
+SN  - 1549-9596, 1549-960X
+UR  - https://pubs.acs.org/doi/10.1021/ci1003009
+Y2  - 2022/11/11/14:50:02
+L1  - https://europepmc.org/articles/pmc3183351?pdf=render
+ER  - 
+
+TY  - JOUR
+TI  - Study of a highly accurate and fast protein-ligand docking method based on molecular dynamics
+AU  - Taufer, M.
+AU  - Crowley, M.
+AU  - Price, D. J.
+AU  - Chien, A. A.
+AU  - Brooks, C. L.
+T2  - Concurrency and Computation: Practice and Experience
+DA  - 2005/12/10/
+PY  - 2005
+DO  - 10.1002/cpe.949
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 14
+SP  - 1627
+EP  - 1641
+J2  - Concurrency Computat.: Pract. Exper.
+LA  - en
+SN  - 1532-0626, 1532-0634
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/cpe.949
+Y2  - 2022/11/11/14:50:01
+ER  - 
+
+TY  - CONF
+TI  - Evaluation of IEEE 754 floating-point arithmetic compliance across a wide range of heterogeneous computers
+AU  - Lopez, Guillermo A.
+AU  - Taufer, Michela
+AU  - Teller, Patricia J.
+T2  - the 2007 conference
+C1  - Orlando, Florida
+C3  - Proceedings of the 2007 conference on Diversity in computing  - TAPIA '07
+DA  - 2007///
+PY  - 2007
+DO  - 10.1145/1347787.1347793
+DP  - DOI.org (Crossref)
+SP  - 1
+LA  - en
+PB  - ACM Press
+SN  - 978-1-59593-866-4
+UR  - http://portal.acm.org/citation.cfm?doid=1347787.1347793
+Y2  - 2022/11/11/14:50:01
+ER  - 
+
+TY  - CONF
+TI  - Providing Quality of Science in Volunteer Computing
+AU  - Estrada, Trilce
+AU  - Taufer, Michela
+T2  - Communication (HPCC)
+C1  - Banff, AB, Canada
+C3  - 2011 IEEE International Conference on High Performance Computing and Communications
+DA  - 2011/09//
+PY  - 2011
+DO  - 10.1109/HPCC.2011.19
+DP  - DOI.org (Crossref)
+SP  - 68
+EP  - 77
+PB  - IEEE
+SN  - 978-1-4577-1564-8
+UR  - http://ieeexplore.ieee.org/document/6062978/
+Y2  - 2022/11/11/14:50:01
+ER  - 
+
+TY  - CHAP
+TI  - Balancing Scientist Needs and Volunteer Preferences in Volunteer Computing Using Constraint Optimization
+AU  - Atlas, James
+AU  - Estrada, Trilce
+AU  - Decker, Keith
+AU  - Taufer, Michela
+T2  - Computational Science – ICCS 2009
+A2  - Allen, Gabrielle
+A2  - Nabrzyski, Jaroslaw
+A2  - Seidel, Edward
+A2  - van Albada, Geert Dick
+A2  - Dongarra, Jack
+A2  - Sloot, Peter M. A.
+CY  - Berlin, Heidelberg
+DA  - 2009///
+PY  - 2009
+DP  - DOI.org (Crossref)
+VL  - 5544
+SP  - 143
+EP  - 152
+LA  - en
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-01969-2 978-3-642-01970-8
+UR  - https://link.springer.com/10.1007/978-3-642-01970-8_15
+Y2  - 2022/11/11/14:50:01
+L1  - https://link.springer.com/content/pdf/10.1007/978-3-642-01970-8_15.pdf
+ER  - 
+
+TY  - CONF
+TI  - A distributed evolutionary method to design scheduling policies for volunteer computing
+AU  - Estrada, Trilce
+AU  - Fuentes, Olac
+AU  - Taufer, Michela
+T2  - the 2008 conference
+C1  - Ischia, Italy
+C3  - Proceedings of the 2008 conference on Computing frontiers  - CF '08
+DA  - 2008///
+PY  - 2008
+DO  - 10.1145/1366230.1366282
+DP  - DOI.org (Crossref)
+SP  - 313
+LA  - en
+PB  - ACM Press
+SN  - 978-1-60558-077-7
+UR  - http://portal.acm.org/citation.cfm?doid=1366230.1366282
+Y2  - 2022/11/11/14:50:01
+ER  - 
+
+TY  - CONF
+TI  - Benchmarking Gender Differences in Volunteer Computing Projects
+AU  - Estrada, Trilce
+AU  - Pusecker, Kathleen L.
+AU  - Torres, Manuel R.
+AU  - Cohoon, Joanne
+AU  - Taufer, Michela
+T2  - 2013 IEEE 9th International Conference on eScience (eScience)
+C1  - Beijing, China
+C3  - 2013 IEEE 9th International Conference on e-Science
+DA  - 2013/10//
+PY  - 2013
+DO  - 10.1109/eScience.2013.29
+DP  - DOI.org (Crossref)
+SP  - 342
+EP  - 349
+PB  - IEEE
+SN  - 978-0-7695-5083-1
+UR  - http://ieeexplore.ieee.org/document/6683926/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - JOUR
+TI  - A scalable and accurate method for classifying protein–ligand binding geometries using a MapReduce approach
+AU  - Estrada, T.
+AU  - Zhang, B.
+AU  - Cicotti, P.
+AU  - Armen, R.S.
+AU  - Taufer, M.
+T2  - Computers in Biology and Medicine
+DA  - 2012/07//
+PY  - 2012
+DO  - 10.1016/j.compbiomed.2012.05.001
+DP  - DOI.org (Crossref)
+VL  - 42
+IS  - 7
+SP  - 758
+EP  - 771
+J2  - Computers in Biology and Medicine
+LA  - en
+SN  - 00104825
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0010482512000807
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - CONF
+TI  - Homogeneous Redundancy: a Technique to Ensure Integrity of Molecular Simulation Results Using Public Computing
+AU  - Taufer, M.
+AU  - Anderson, D.
+AU  - Cicotti, P.
+AU  - Brooks, C.L.
+T2  - 19th IEEE International Parallel and Distributed Processing Symposium
+C1  - Denver, CO, USA
+C3  - 19th IEEE International Parallel and Distributed Processing Symposium
+DA  - 2005///
+PY  - 2005
+DO  - 10.1109/IPDPS.2005.247
+DP  - DOI.org (Crossref)
+SP  - 119a
+EP  - 119a
+PB  - IEEE
+SN  - 978-0-7695-2312-5
+ST  - Homogeneous Redundancy
+UR  - http://ieeexplore.ieee.org/document/1419946/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - CONF
+TI  - Moving Volunteer Computing towards Knowledge-Constructed, Dynamically-Adaptive Modeling and Scheduling
+AU  - Taufer, M.
+AU  - Kerstens, A.
+AU  - Estrada, T. P.
+AU  - Flores, D. A.
+AU  - Zamudio, R.
+AU  - Teller, P. J.
+AU  - Armen, R.
+AU  - Brooks, C. L.
+T2  - 2007 IEEE International Parallel and Distributed Processing Symposium
+C1  - Long Beach, CA, USA
+C3  - 2007 IEEE International Parallel and Distributed Processing Symposium
+DA  - 2007///
+PY  - 2007
+DO  - 10.1109/IPDPS.2007.370668
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 8
+PB  - IEEE
+SN  - 978-1-4244-0909-9
+UR  - http://ieeexplore.ieee.org/document/4228396/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - CONF
+TI  - EmBOINC: An emulator for performance analysis of BOINC projects
+AU  - Estrada, Trilce
+AU  - Taufer, Michela
+AU  - Reed, Kevin
+AU  - Anderson, David P.
+T2  - Distributed Processing (IPDPS)
+C1  - Rome, Italy
+C3  - 2009 IEEE International Symposium on Parallel & Distributed Processing
+DA  - 2009/05//
+PY  - 2009
+DO  - 10.1109/IPDPS.2009.5161135
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 8
+PB  - IEEE
+SN  - 978-1-4244-3751-1
+ST  - EmBOINC
+UR  - http://ieeexplore.ieee.org/document/5161135/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - CONF
+TI  - Study of a highly accurate and fast protein-ligand docking algorithm based on molecular dynamics
+AU  - Taufer, M.
+AU  - Crowley, M.
+AU  - Price, D.
+AU  - Chien, A.A.
+AU  - Brooks, C.L.
+T2  - 18th International Parallel and Distributed Processing Symposium, 2004.
+C1  - Santa Fe, NM, USA
+C3  - 18th International Parallel and Distributed Processing Symposium, 2004. Proceedings.
+DA  - 2004///
+PY  - 2004
+DO  - 10.1109/IPDPS.2004.1303203
+DP  - DOI.org (Crossref)
+SP  - 188
+EP  - 195
+PB  - IEEE
+SN  - 978-0-7695-2132-9
+UR  - http://ieeexplore.ieee.org/document/1303203/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
+TY  - JOUR
+TI  - A fast protein-ligand docking algorithm based on hydrogen bond matching and surface shape complementarity
+AU  - Luo, Wenjia
+AU  - Pei, Jianfeng
+AU  - Zhu, Yushan
+T2  - Journal of Molecular Modeling
+AB  - With the rapid development of structural determination of target proteins for human diseases, high throughout virtual screening based drug discovery is gaining popularity gradually. In this paper, a fast docking algorithm (H-DOCK) based on hydrogen bond matching and surface shape complementarity was developed. In H-DOCK, firstly a divide-and-conquer strategy based enumeration approach is applied to rank the intermolecular modes between protein and ligand by maximizing their hydrogen bonds matching, then each docked conformation of the ligand is calculated according to the matched hydrogen bonding geometry, finally a simple but effective scoring function reflecting mainly the van der Waals interaction is used to evaluate the docked conformations of the ligand. H-DOCK is tested for rigid ligand docking and flexible one, the latter is implemented by repeating rigid docking for multiple conformations of a small molecule and ranking all together. For rigid ligands, H-DOCK was tested on a set of 271 complexes where there is at least one intermolecular hydrogen bond, and H-DOCK achieved success rate (RMSD<2.0 Å) of 91.1%. For flexible ligands, H-DOCK was tested on another set of 93 complexes, where each case was a conformation ensemble containing native ligand conformation as well as 100 decoy ones generated by AutoDock [1], and the success rate reached 81.7%. The high success rate of H-DOCK indicates that the hydrogen bonding and steric hindrance can grasp the key interaction between protein and ligand. H-DOCK is quite efficient compared with the conventional docking algorithms, and it takes only about 0.14 seconds for a rigid ligand docking and about 8.25 seconds for a flexible one on average. According to the preliminary docking results, it implies that H-DOCK can be potentially used for large scale virtual screening as a pre-filter for a more accurate but less efficient docking algorithm.
+DA  - 2010/05/01/
+PY  - 2010
+DO  - 10.1007/s00894-009-0598-7
+DP  - Springer Link
+VL  - 16
+IS  - 5
+SP  - 903
+EP  - 913
+J2  - J Mol Model
+LA  - en
+SN  - 0948-5023
+UR  - https://doi.org/10.1007/s00894-009-0598-7
+Y2  - 2022/11/12/14:51:27
+KW  - Combinatorial optimization
+KW  - Docking
+KW  - Hydrogen bond matching
+KW  - Virtual screening
+ER  - 
+
+TY  - JOUR
+TI  - Bovine mannosidosis--a model lysosomal storage disease
+AU  - Jolly, R. D.
+AU  - Thompson, K. G.
+AU  - Winchester, B. G.
+T2  - Birth Defects Original Article Series
+DA  - 1975///
+PY  - 1975
+DP  - PubMed
+VL  - 11
+IS  - 6
+SP  - 273
+EP  - 278
+J2  - Birth Defects Orig Artic Ser
+LA  - eng
+SN  - 0547-6844
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/100
+KW  - Animals
+KW  - Blood
+KW  - Carbohydrate Metabolism, Inborn Errors
+KW  - Cattle
+KW  - Cattle Diseases
+KW  - Disease Models, Animal
+KW  - Heterozygote
+KW  - Hydrogen-Ion Concentration
+KW  - Lymphocytes
+KW  - Lysosomes
+KW  - Mannose
+KW  - Mannosidases
+ER  - 
+
+TY  - JOUR
+TI  - Rapid infusion of sodium bicarbonate and albumin into high-risk premature infants soon after birth: a controlled, prospective trial
+AU  - Bland, R. D.
+AU  - Clarke, T. L.
+AU  - Harden, L. B.
+T2  - American Journal of Obstetrics and Gynecology
+AB  - We conducted a controlled, prospective trial to evaluate the effectiveness of rapidly infusing sodium bicarbonate (NaHCO3) and salt-poor albumin into high-risk, premature infants in the first 2 hours of life. Fifty-three infants, randomized into one of four treatment groups, received 8 ml. per kilogram of a solution containing either (A) glucose in water, (B) salt-poor albumin, (C) NaHCO3, or (D) a combination of albumin and NaHCO3. After the initial infusion, the babies received no colloid or alkali solutions until 4 hours of age. We managed them supportively with warmth, appropriate oxygen administration, isotonic fluid infusion, and close monitoring. Among the infants who received alkali, 14 of 26 acquired the respiratory distress syndrome (RDS), 11 died, and four had intracranial hemorrhage. Among babies who received no alkali, RDS occurred in 11 of 27, 5 died, and none had intracranial hemorrhage. These results do not support the common practice of rapidly infusing NaHCO3 into high-risk, premature infants, and they suggest that the early management of such infants needs renewed critical evaluation.
+DA  - 1976/02/01/
+PY  - 1976
+DO  - 10.1016/0002-9378(76)90154-x
+DP  - PubMed
+VL  - 124
+IS  - 3
+SP  - 263
+EP  - 267
+J2  - Am J Obstet Gynecol
+LA  - eng
+SN  - 0002-9378
+ST  - Rapid infusion of sodium bicarbonate and albumin into high-risk premature infants soon after birth
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/2013
+KW  - Acidosis
+KW  - Albumins
+KW  - Bicarbonates
+KW  - Carbon Dioxide
+KW  - Cerebral Hemorrhage
+KW  - Female
+KW  - Hawaii
+KW  - Humans
+KW  - Hydrogen-Ion Concentration
+KW  - Infant, Newborn
+KW  - Infant, Premature, Diseases
+KW  - Infusions, Parenteral
+KW  - Male
+KW  - Prospective Studies
+KW  - Respiratory Distress Syndrome, Newborn
+KW  - Sodium
+KW  - Time Factors
+ER  - 
+
+TY  - JOUR
+TI  - Development of a special electrode for continuous subcutaneous pH measurement in the infant scalp
+AU  - Stamm, O.
+AU  - Latscha, U.
+AU  - Janecek, P.
+AU  - Campana, A.
+T2  - American Journal of Obstetrics and Gynecology
+AB  - Using a combined special glass electrode it is possible to monitor pH ratios and pH variation in the subcutaneous tissue of the infant scalp continuously. Tests on a normal sample of newborn babies immediately after birth showed a significant correlation between tissue pH and capillary blood pH, with the trend of pH variation being broadly similar in both measurement media.
+DA  - 1976/01/15/
+PY  - 1976
+DO  - 10.1016/s0002-9378(16)33297-5
+DP  - PubMed
+VL  - 124
+IS  - 2
+SP  - 193
+EP  - 195
+J2  - Am J Obstet Gynecol
+LA  - eng
+SN  - 0002-9378
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/2012
+KW  - Electrodes
+KW  - Fetal Blood
+KW  - Glass
+KW  - Humans
+KW  - Hydrogen-Ion Concentration
+KW  - Infant, Newborn
+KW  - Monitoring, Physiologic
+KW  - Scalp
+ER  - 
+
+TY  - ELEC
+TI  - Download citation of Providing Quality of Science in Volunteer Computing.
+T2  - ResearchGate
+AB  - ResearchGate is a network dedicated to science and research. Connect, collaborate and discover scientific publications, jobs and conferences. All for free.
+LA  - en
+UR  - https://www.researchgate.net/publication/221148954_Providing_Quality_of_Science_in_Volunteer_Computing
+Y2  - 2022/11/12/16:18:37
+L2  - https://www.researchgate.net/publication/221148954_Providing_Quality_of_Science_in_Volunteer_Computing/citation/download
+ER  - 
+
+TY  - SLIDE
+TI  - ExSciTecH: Expanding Volunteer Computing to Explore Science, Technology, and Health
+A2  - Michela Taufer
+DA  - 17:41:25 UTC
+PY  - 17:41:25 UTC
+ST  - ExSciTecH
+UR  - https://www.slideshare.net/taufermichela/exscitech-expanding-volunteer-computing-to-explore-science-technology-and-health
+Y2  - 2022/11/12/16:20:33
+ER  - 
+
+TY  - JOUR
+TI  - Enabling scalable and accurate clustering of distributed ligand geometries on supercomputers
+AU  - Zhang, Boyu
+AU  - Estrada, Trilce
+AU  - Cicotti, Pietro
+AU  - Balaji, Pavan
+AU  - Taufer, Michela
+T2  - Parallel Computing
+AB  - We present an efficient and accurate clustering method for the analysis of protein-ligand docking datasets on large distributed-memory systems. For each ligand conformation in the dataset, our clustering algorithm first extracts relevant geometrical properties and transforms the properties into a single metadata point in the N-dimensional (N-D) space. Then, it performs an N-D clustering on the metadata to search for predominant clusters. Our method avoids the need to move ligand conformations among nodes, because it extracts relevant data properties locally and concurrently. By doing so, we transform the analysis problem (e.g., clustering or classification) into a search for property aggregates. Our analysis shows that when using small computer systems of up to 64 nodes, the performance is not sensitive to data content and distribution. When using larger computer systems of up to 256 nodes the scalability of simulations with strong convergence toward specific geometries is less sensitive to overheads due to the shuffling of metadata information. We also demonstrate that our method of metadata extraction captures the geometrical properties of ligand conformations more effectively and clusters and predicts near-native ligand conformations more accurately than do traditional methods, including the hierarchical clustering and energy-based scoring methods.
+DA  - 2017/04/01/
+PY  - 2017
+DO  - 10.1016/j.parco.2017.02.005
+DP  - ScienceDirect
+VL  - 63
+SP  - 38
+EP  - 60
+J2  - Parallel Computing
+LA  - en
+SN  - 0167-8191
+UR  - https://www.sciencedirect.com/science/article/pii/S0167819117300261
+Y2  - 2022/11/12/16:24:30
+L1  - https://www.sciencedirect.com/science/article/am/pii/S0167819117300261
+L2  - https://www.sciencedirect.com/science/article/abs/pii/S0167819117300261
+KW  - Drug design
+KW  - In situ analytics
+KW  - Ligand conformations
+KW  - N-dimensional clustering
+KW  - Octree-based clustering
+KW  - Protein-ligand docking
+ER  - 
+
