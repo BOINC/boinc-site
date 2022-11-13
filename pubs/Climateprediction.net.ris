@@ -2045,36 +2045,6 @@ Y2  - 2022/11/10/22:56:58
 ER  - 
 
 TY  - JOUR
-TI  - Development of a special electrode for continuous subcutaneous pH measurement in the infant scalp
-AU  - Stamm, O.
-AU  - Latscha, U.
-AU  - Janecek, P.
-AU  - Campana, A.
-T2  - American Journal of Obstetrics and Gynecology
-AB  - Using a combined special glass electrode it is possible to monitor pH ratios and pH variation in the subcutaneous tissue of the infant scalp continuously. Tests on a normal sample of newborn babies immediately after birth showed a significant correlation between tissue pH and capillary blood pH, with the trend of pH variation being broadly similar in both measurement media.
-DA  - 1976/01/15/
-PY  - 1976
-DO  - 10.1016/s0002-9378(16)33297-5
-DP  - PubMed
-VL  - 124
-IS  - 2
-SP  - 193
-EP  - 195
-J2  - Am J Obstet Gynecol
-LA  - eng
-SN  - 0002-9378
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/2012
-KW  - Electrodes
-KW  - Fetal Blood
-KW  - Glass
-KW  - Humans
-KW  - Hydrogen-Ion Concentration
-KW  - Infant, Newborn
-KW  - Monitoring, Physiologic
-KW  - Scalp
-ER  - 
-
-TY  - JOUR
 TI  - Constraining climate forecasts: The role of prior assumptions
 AU  - Frame, D. J.
 AU  - Booth, B. B. B.
@@ -2329,6 +2299,7 @@ DA  - 2016/04/17/
 PY  - 2016
 DP  - ResearchGate
 ST  - Enabling BOINC in Cloud Services
+UR  - https://www.researchgate.net/publication/311646427_Enabling_BOINC_in_Cloud_Services_CPDN_as_Example
 L4  - https://www.researchgate.net/publication/311646427_Enabling_BOINC_in_Cloud_Services_CPDN_as_Example/citation/download
 ER  - 
 
@@ -2603,38 +2574,6 @@ KW  - radiative forcing
 ER  - 
 
 TY  - JOUR
-TI  - Precipitation of phase I antigen of Coxiella burnetii by sodium sulfite
-AU  - Wachter, R. F.
-AU  - Briggs, G. P.
-AU  - Pedersen, C. E.
-T2  - Acta Virologica
-DA  - 1975/11//
-PY  - 1975
-DP  - PubMed
-VL  - 19
-IS  - 6
-SP  - 500
-J2  - Acta Virol
-LA  - eng
-SN  - 0001-723X
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/2000
-KW  - Animals
-KW  - Antibodies, Bacterial
-KW  - Antibody Formation
-KW  - Antigens, Bacterial
-KW  - Bacterial Vaccines
-KW  - Chemical Precipitation
-KW  - Complement Fixation Tests
-KW  - Coxiella
-KW  - Edetic Acid
-KW  - Guinea Pigs
-KW  - Q Fever
-KW  - Solubility
-KW  - Sulfites
-KW  - Trichloroacetic Acid
-ER  - 
-
-TY  - JOUR
 TI  - Quantifying the uncertainty in forecasts of anthropogenic climate change
 AU  - Allen, Myles R.
 AU  - Stott, Peter A.
@@ -2673,6 +2612,7 @@ DA  - 2022/11/12/
 PY  - 2022
 DP  - ResearchGate
 ST  - Observational constraints on future climate
+UR  - https://www.researchgate.net/profile/David-Frame-3/publication/237587058_Observational_constraints_on_future_climate_distinguishing_robust_from_model-dependent_statements_of_uncertainty_in_climate_forecasting/links/0deec53b2183fe0e0c000000/Observational-constraints-on-future-climate-distinguishing-robust-from-model-dependent-statements-of-uncertainty-in-climate-forecasting.pdf
 L4  - https://www.researchgate.net/publication/237587058_Observational_constraints_on_future_climate_distinguishing_robust_from_model-dependent_statements_of_uncertainty_in_climate_forecasting/citation/download
 ER  - 
 
@@ -2735,6 +2675,7 @@ EP  - 892
 J2  - Nature
 LA  - eng
 SN  - 0028-0836
+UR  - https://www.nature.com/articles/421891a
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/12606972
 KW  - Compensation and Redress
 KW  - Greenhouse Effect
@@ -2935,41 +2876,6 @@ KW  - Ocean General Circulation Model
 ER  - 
 
 TY  - JOUR
-TI  - Action of propranolol on mitochondrial functions--effects on energized ion fluxes in the presence of valinomycin
-AU  - Järvisalo, J.
-AU  - Saris, N. E.
-T2  - Biochemical Pharmacology
-DA  - 1975/09/15/
-PY  - 1975
-DO  - 10.1016/0006-2952(75)90009-x
-DP  - PubMed
-VL  - 24
-IS  - 18
-SP  - 1701
-EP  - 1705
-J2  - Biochem Pharmacol
-LA  - eng
-SN  - 0006-2952
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/13
-KW  - Adenosine Triphosphatases
-KW  - Adenosine Triphosphate
-KW  - Animals
-KW  - Hydrogen-Ion Concentration
-KW  - In Vitro Techniques
-KW  - Mitochondria
-KW  - Mitochondria, Liver
-KW  - Mitochondrial Swelling
-KW  - Nigericin
-KW  - Oxidative Phosphorylation
-KW  - Oxygen Consumption
-KW  - Potassium
-KW  - Propranolol
-KW  - Rats
-KW  - Time Factors
-KW  - Valinomycin
-ER  - 
-
-TY  - JOUR
 TI  - Potential influences on the United Kingdom's floods of winter 2013/14
 AU  - Huntingford, Chris
 AU  - Marsh, Terry
@@ -3030,72 +2936,6 @@ LA  - en
 SN  - 0003-0007, 1520-0477
 UR  - https://journals.ametsoc.org/doi/10.1175/BAMS-D-16-0139.1
 Y2  - 2022/11/12/18:18:47
-ER  - 
-
-TY  - JOUR
-TI  - The reversible reduction of horse metmyoglobin by the iron(II) complex of trans-1,2-diaminocyclohexane-N,N,N,n-tetraacetate
-AU  - Cassatt, J. C.
-AU  - Marini, C. P.
-AU  - Bender, J. W.
-T2  - Biochemistry
-AB  - The reduction of metmyoglobin by the iron(II) complex of trans-1,2-diaminocyclohexane-N,N,N'N'-tetraacetate (FeCDTA2-) has been investigated. The equilibrium constant, measured spectrophotometrically, is 0.21 with a resulting reduction potential of 0.050 V for Mb0. The rate constant for the reduction is 28 M-1 sec-1 with a deltaH ++ of 13 kcal M-1 and deltaS ++ of -11 eu. Both CN- and OH- inhibit the reduction because of the relatively low reactivity of cyanometmyoglobin (Mb+CN-) and ionized metmyglobin (Mb+OH-). The rate constant for the reduction of Mb+CN- by FeCDTA2- is 4.0 X 10(-2) M-1 sec-1 and that for reduction of Mb+OH- is 4.8 M-1 sec-1. The nitric oxide complex of metmyoglobin is reduced with a rate constant of 10 M-1 sec-1. The kinetics of oxidation of oxymyoglobin by FeCDTA- were studied. The data are consistent with a mechanism where oxidation takes place entirely through the deoxy form. A rate constant of 1.45 X 10(2) M-1 sec-1 was calculated for the oxidation of deoxymyoglobin by FeCDTA-, in equilibrium constant and rate constant for reduction. The above data are discussed in terms of a simple outer-sphere reduction reaction.
-DA  - 1975/12/16/
-PY  - 1975
-DO  - 10.1021/bi00696a014
-DP  - PubMed
-VL  - 14
-IS  - 25
-SP  - 5470
-EP  - 5475
-J2  - Biochemistry
-LA  - eng
-SN  - 0006-2960
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/57
-KW  - Acetates
-KW  - Animals
-KW  - Chelating Agents
-KW  - Cyanides
-KW  - Cyclohexylamines
-KW  - Edetic Acid
-KW  - Ferrous Compounds
-KW  - Horses
-KW  - Hydrogen-Ion Concentration
-KW  - Iron
-KW  - Kinetics
-KW  - Myoglobin
-KW  - Nitric Oxide
-KW  - Oxidation-Reduction
-KW  - Oxygen
-KW  - Protein Binding
-ER  - 
-
-TY  - JOUR
-TI  - Antidepressant drugs affect dopamine uptake
-AU  - Halaris, A. E.
-AU  - Belendiuk, K. T.
-AU  - Freedman, D. X.
-T2  - Biochemical Pharmacology
-DA  - 1975/10/15/
-PY  - 1975
-DO  - 10.1016/0006-2952(75)90412-8
-DP  - PubMed
-VL  - 24
-IS  - 20
-SP  - 1896
-EP  - 1897
-J2  - Biochem Pharmacol
-LA  - eng
-SN  - 0006-2952
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/19
-KW  - Animals
-KW  - Antidepressive Agents
-KW  - Brain
-KW  - Central Nervous System Stimulants
-KW  - Depression, Chemical
-KW  - Dopamine
-KW  - In Vitro Techniques
-KW  - Male
-KW  - Rats
 ER  - 
 
 TY  - JOUR
@@ -3464,6 +3304,7 @@ SP  - 407
 LA  - en
 PB  - Cambridge University Press
 SN  - 978-0-521-86471-8
+UR  - https://www.cambridge.org/gb/academic/subjects/earth-and-environmental-science/climatology-and-climate-change/avoiding-dangerous-climate-change?format=HB&isbn=9780521864718
 L2  - https://books.google.ca/books?id=7Ui8fBmNlm4C
 KW  - Science / Earth Sciences / Meteorology & Climatology
 KW  - Technology & Engineering / Environmental / General
@@ -3571,66 +3412,6 @@ Y2  - 2022/11/12/19:12:51
 ER  - 
 
 TY  - JOUR
-TI  - [Relation between fluorescence and circular dichroism of the complex of the fluorescence probe 4-dimethylaminochalcone with serum albumin]
-AU  - Dobretsov, G. E.
-AU  - Kharitonenkov, I. G.
-AU  - Mishiev, V. E.
-AU  - Vladimirov, Iu A.
-T2  - Biofizika
-AB  - The fluorescence probe(4-dimethylaminochalcone; DMH) was noncovalently linked to human serum albumin (HSA). The variation of pH was due to serum albumin structural changes, which was determined in terms of DMH and HSA fluorescence and CD spectra. Considerable changes of fluorescence and CD spectra were observed at pH 8 and 10, where there is ionization of two more recently titrated tyrosin residues. It is assumed that these two tyrosine residues are in binding region and quench the fluorescence of DMH between pH 4 to 8. Quenching disappears if these residues are ionized (pH greater than 8) or if the protein undergoes the N -F transition (pH less than 4).
-DA  - 1975/08//Jul undefined
-PY  - 1975
-DP  - PubMed
-VL  - 20
-IS  - 4
-SP  - 581
-EP  - 585
-J2  - Biofizika
-LA  - rus
-SN  - 0006-3029
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/94
-KW  - Chalcone
-KW  - Circular Dichroism
-KW  - Humans
-KW  - Hydrogen-Ion Concentration
-KW  - Propiophenones
-KW  - Serum Albumin
-KW  - Spectrometry, Fluorescence
-ER  - 
-
-TY  - JOUR
-TI  - Radiochemical assay of glutathione S-epoxide transferase and its enhancement by phenobarbital in rat liver in vivo
-AU  - Marniemi, J.
-AU  - Parkki, M. G.
-T2  - Biochemical Pharmacology
-DA  - 1975/09/01/
-PY  - 1975
-DO  - 10.1016/0006-2952(75)90080-5
-DP  - PubMed
-VL  - 24
-IS  - 17
-SP  - 1569
-EP  - 1572
-J2  - Biochem Pharmacol
-LA  - eng
-SN  - 0006-2952
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/9
-KW  - Animals
-KW  - Carrier Proteins
-KW  - Epoxy Compounds
-KW  - Glutathione
-KW  - Glutathione Transferase
-KW  - Hydrogen-Ion Concentration
-KW  - Liver
-KW  - Male
-KW  - Methylcholanthrene
-KW  - Phenobarbital
-KW  - Rats
-KW  - Stimulation, Chemical
-KW  - Styrenes
-ER  - 
-
-TY  - JOUR
 TI  - Attributing drivers of the 2016 Kenyan drought: 2016 KENYAN DROUGHT
 AU  - Uhe, Peter
 AU  - Philip, Sjoukje
@@ -3733,58 +3514,5 @@ SN  - 1748-9326
 UR  - https://iopscience.iop.org/article/10.1088/1748-9326/11/11/114009
 Y2  - 2022/11/12/19:19:56
 L1  - https://iopscience.iop.org/article/10.1088/1748-9326/11/11/114009/pdf
-ER  - 
-
-TY  - JOUR
-TI  - Letter: Acid secretion by gastric mucous membrane
-AU  - Durbin, R. P.
-T2  - The American Journal of Physiology
-DA  - 1975/12//
-PY  - 1975
-DO  - 10.1152/ajplegacy.1975.229.6.1726
-DP  - PubMed
-VL  - 229
-IS  - 6
-SP  - 1726
-J2  - Am J Physiol
-LA  - eng
-SN  - 0002-9513
-ST  - Letter
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/2020
-KW  - Animals
-KW  - Gastric Juice
-KW  - Gastric Mucosa
-KW  - Hydrogen-Ion Concentration
-KW  - Methods
-ER  - 
-
-TY  - JOUR
-TI  - [Biochemical studies on camomile components/III. In vitro studies about the antipeptic activity of (--)-alpha-bisabolol (author's transl)]
-AU  - Isaac, O.
-AU  - Thiemer, K.
-T2  - Arzneimittel-Forschung
-AB  - (--)-alpha-Bisabolol has a primary antipeptic action depending on dosage, which is not caused by an alteration of the pH-value. The proteolytic activity of pepsin is reduced by 50 percent through addition of bisabolol in the ratio of 1/0.5. The antipeptic action of bisabolol only occurs in case of direct contact. In case of a previous contact with the substrate, the inhibiting effect is lost.
-DA  - 1975/09//
-PY  - 1975
-DP  - PubMed
-VL  - 25
-IS  - 9
-SP  - 1352
-EP  - 1354
-J2  - Arzneimittelforschung
-LA  - ger
-SN  - 0004-4172
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/21
-KW  - Dose-Response Relationship, Drug
-KW  - Hemoglobins
-KW  - Hydrogen-Ion Concentration
-KW  - In Vitro Techniques
-KW  - Methods
-KW  - Pepsin A
-KW  - Plants, Medicinal
-KW  - Sesquiterpenes
-KW  - Spectrophotometry, Ultraviolet
-KW  - Trichloroacetic Acid
-KW  - Tyrosine
 ER  - 
 
