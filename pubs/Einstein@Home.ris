@@ -1,0 +1,5322 @@
+TY  - JOUR
+TI  - Results From an Einstein@Home Search for Continuous Gravitational Waves From G347.3 at Low Frequencies in LIGO O2 Data
+AU  - Ming, J.
+AU  - Papa, M. A.
+AU  - Eggenstein, H.-B.
+AU  - Machenschalk, B.
+AU  - Steltner, B.
+AU  - Prix, R.
+AU  - Allen, B.
+AU  - Behnke, O.
+T2  - The Astrophysical Journal
+AB  - Abstract
+            
+              We present results of a search for periodic gravitational wave signals with frequencies between 20 and 400 Hz from the neutron star in the supernova remnant G347.3-0.5 using LIGO O2 public data. The search is deployed on the volunteer computing project Einstein@Home, with thousands of participants donating compute cycles to make this endeavour possible. We find no significant signal candidate and set the most constraining upper limits to date on the amplitude of gravitational wave signals from the target, corresponding to deformations below 10
+              −6
+              in a large part of the band. At the frequency of best strain sensitivity, near 166 Hz, we set 90% confidence upper limits on the gravitational wave intrinsic amplitude of
+              
+                
+                  
+                
+                
+                  
+                    
+                      h
+                    
+                    
+                      0
+                    
+                    
+                      90
+                      %
+                    
+                  
+                  ≈
+                  7.0
+                  ×
+                  
+                    
+                      10
+                    
+                    
+                      −
+                      26
+                    
+                  
+                
+                
+              
+              . Over most of the frequency range our upper limits are a factor of 20 smaller than the indirect age-based upper limit.
+DA  - 2022/01/01/
+PY  - 2022
+DO  - 10.3847/1538-4357/ac35cb
+DP  - DOI.org (Crossref)
+VL  - 925
+IS  - 1
+SP  - 8
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ac35cb
+Y2  - 2022/11/13/19:50:55
+L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ac35cb/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Study of 72 Pulsars Discovered in the PALFA Survey: Timing Analysis, Glitch Activity, Emission Variability, and a Pulsar in an Eccentric Binary
+AU  - Parent, E.
+AU  - Sewalls, H.
+AU  - Freire, P. C. C.
+AU  - Matheny, T.
+AU  - Lyne, A. G.
+AU  - Perera, B. B. P.
+AU  - Cardoso, F.
+AU  - McLaughlin, M. A.
+AU  - Allen, B.
+AU  - Brazier, A.
+AU  - Camilo, F.
+AU  - Chatterjee, S.
+AU  - Cordes, J. M.
+AU  - Crawford, F.
+AU  - Deneva, J. S.
+AU  - Dong, F. A.
+AU  - Ferdman, R. D.
+AU  - Fonseca, E.
+AU  - Hessels, J. W. T.
+AU  - Kaspi, V. M.
+AU  - Knispel, B.
+AU  - van Leeuwen, J.
+AU  - Lynch, R. S.
+AU  - Meyers, B. M.
+AU  - McKee, J. W.
+AU  - Mickaliger, M. B.
+AU  - Patel, C.
+AU  - Ransom, S. M.
+AU  - Rochon, A.
+AU  - Scholz, P.
+AU  - Stairs, I. H.
+AU  - Stappers, B. W.
+AU  - Tan, C. M.
+AU  - Zhu, W. W.
+T2  - The Astrophysical Journal
+AB  - Abstract
+            
+              We present new discoveries and results from long-term timing of 72 pulsars discovered in the Pulsar Arecibo
+              L
+              -band Feed Array (PALFA) survey, including precise determination of astrometric and spin parameters, and flux density and scatter broadening measurements at 1.4 GHz. Notable discoveries include two young pulsars (characteristic ages ∼30 kyr) with no apparent supernova remnant associations, three mode-changing, 12 nulling and two intermittent pulsars. We detected eight glitches in five pulsars. Among them is PSR J1939+2609, an apparently old pulsar (characteristic age ∼1 Gy), and PSR J1954+2529, which likely belongs to a newly emerging class of binary pulsars. The latter is the only pulsar among the 72 that is clearly not isolated: a nonrecycled neutron star with a 931 ms spin period in an eccentric (
+              e
+              = 0.114) wide (
+              P
+              
+                b
+              
+              = 82.7  days) orbit with a companion of undetermined nature having a minimum mass of ∼0.6
+              M
+              ⊙
+              . Since operations at Arecibo ceased in 2020 August, we give a final tally of PALFA sky coverage, and compare its 207 pulsar discoveries to the known population. On average, they are 50% more distant than other Galactic plane radio pulsars; PALFA millisecond pulsars (MSPs) have twice the dispersion measure per unit spin period than the known population of MSP in the plane. The four intermittent pulsars discovered by PALFA more than double the population of such objects, which should help to improve our understanding of pulsar magnetosphere physics. The statistics for these, rotating radio transients, and nulling pulsars suggest that there are many more of these objects in the Galaxy than was previously thought.
+DA  - 2022/01/01/
+PY  - 2022
+DO  - 10.3847/1538-4357/ac375d
+DP  - DOI.org (Crossref)
+VL  - 924
+IS  - 2
+SP  - 135
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+ST  - Study of 72 Pulsars Discovered in the PALFA Survey
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ac375d
+Y2  - 2022/11/13/19:50:55
+L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ac375d/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Einstein@Home All-sky Search for Continuous Gravitational Waves in LIGO O2 Public Data
+AU  - Steltner, B.
+AU  - Papa, M. A.
+AU  - Eggenstein, H.-B.
+AU  - Allen, B.
+AU  - Dergachev, V.
+AU  - Prix, R.
+AU  - Machenschalk, B.
+AU  - Walsh, S.
+AU  - Zhu, S. J.
+AU  - Behnke, O.
+AU  - Kwang, S.
+T2  - The Astrophysical Journal
+AB  - Abstract
+            
+              We conduct an all-sky search for continuous gravitational waves in the LIGO O2 data from the Hanford and Livingston detectors. We search for nearly monochromatic signals with frequency 20.0 Hz ≤ 
+              f
+               ≤ 585.15 Hz and spin-down
+              
+                
+                  
+                
+                
+              
+              Hz s
+              −1
+              . We deploy the search on the Einstein@Home volunteer-computing project and follow-up the waveforms associated with the most significant results with eight further search stages, reaching the best sensitivity ever achieved by an all-sky survey up to 500 Hz. Six of the inspected waveforms pass all the stages but they are all associated with hardware injections, which are fake signals simulated at the LIGO detector for validation purposes. We recover all these fake signals with consistent parameters. No other waveform survives, so we find no evidence of a continuous gravitational wave signal at the detectability level of our search. We constrain the
+              h
+              0
+              amplitude of continuous gravitational waves at the detector as a function of the signal frequency, in half-Hz bins. The most constraining upper limit at 163.0 Hz is
+              h
+              0
+               = 1.3 × 10
+              −25
+              , at the 90% confidence level. Our results exclude neutron stars rotating faster than 5 ms with equatorial ellipticities larger than 10
+              −7
+              closer than 100 pc. These are deformations that neutron star crusts could easily support, according to some models.
+DA  - 2021/03/01/
+PY  - 2021
+DO  - 10.3847/1538-4357/abc7c9
+DP  - DOI.org (Crossref)
+VL  - 909
+IS  - 1
+SP  - 79
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/abc7c9
+Y2  - 2022/11/13/19:50:55
+L1  - https://bib-pubdb1.desy.de/record/474240/files/Steltner_2021_ApJ_909_79.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Discovery of a Gamma-Ray Black Widow Pulsar by GPU-accelerated Einstein@Home
+AU  - Nieder, L.
+AU  - Clark, C. J.
+AU  - Kandel, D.
+AU  - Romani, R. W.
+AU  - Bassa, C. G.
+AU  - Allen, B.
+AU  - Ashok, A.
+AU  - Cognard, I.
+AU  - Fehrmann, H.
+AU  - Freire, P.
+AU  - Karuppusamy, R.
+AU  - Kramer, M.
+AU  - Li, D.
+AU  - Machenschalk, B.
+AU  - Pan, Z.
+AU  - Papa, M. A.
+AU  - Ransom, S. M.
+AU  - Ray, P. S.
+AU  - Roy, J.
+AU  - Wang, P.
+AU  - Wu, J.
+AU  - Aulbert, C.
+AU  - Barr, E. D.
+AU  - Beheshtipour, B.
+AU  - Behnke, O.
+AU  - Bhattacharyya, B.
+AU  - Breton, R. P.
+AU  - Camilo, F.
+AU  - Choquet, C.
+AU  - Dhillon, V. S.
+AU  - Ferrara, E. C.
+AU  - Guillemot, L.
+AU  - Hessels, J. W. T.
+AU  - Kerr, M.
+AU  - Kwang, S. A.
+AU  - Marsh, T. R.
+AU  - Mickaliger, M. B.
+AU  - Pleunis, Z.
+AU  - Pletsch, H. J.
+AU  - Roberts, M. S. E.
+AU  - Sanpa-arsa, S.
+AU  - Steltner, B.
+T2  - The Astrophysical Journal Letters
+AB  - Abstract
+            
+              We report the discovery of 1.97 ms period gamma-ray pulsations from the 75 minute orbital-period binary pulsar now named PSR J1653−0158. The associated Fermi Large Area Telescope gamma-ray source 4FGL J1653.6−0158 has long been expected to harbor a binary millisecond pulsar. Despite the pulsar-like gamma-ray spectrum and candidate optical/X-ray associations—whose periodic brightness modulations suggested an orbit—no radio pulsations had been found in many searches. The pulsar was discovered by directly searching the gamma-ray data using the GPU-accelerated Einstein@Home distributed volunteer computing system. The multidimensional parameter space was bounded by positional and orbital constraints obtained from the optical counterpart. More sensitive analyses of archival and new radio data using knowledge of the pulsar timing solution yield very stringent upper limits on radio emission. Any radio emission is thus either exceptionally weak, or eclipsed for a large fraction of the time. The pulsar has one of the three lowest inferred surface magnetic-field strengths of any known pulsar with
+              B
+              surf
+               ≈ 4 × 10
+              7
+              G. The resulting mass function, combined with models of the companion star’s optical light curve and spectra, suggests a pulsar mass ≳2
+              M
+              ⊙
+              . The companion is lightweight with mass ∼0.01
+              M
+              ⊙
+              , and the orbital period is the shortest known for any rotation-powered binary pulsar. This discovery demonstrates the Fermi Large Area Telescope's potential to discover extreme pulsars that would otherwise remain undetected.
+DA  - 2020/10/01/
+PY  - 2020
+DO  - 10.3847/2041-8213/abbc02
+DP  - DOI.org (Crossref)
+VL  - 902
+IS  - 2
+SP  - L46
+J2  - ApJL
+SN  - 2041-8205, 2041-8213
+UR  - https://iopscience.iop.org/article/10.3847/2041-8213/abbc02
+Y2  - 2022/11/13/19:50:55
+L1  - https://pure.uva.nl/ws/files/55393785/Discovery_of_a_Gamma_Ray_Black_Widow_Pulsar.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Search for Continuous Gravitational Waves from the Central Compact Objects in Supernova Remnants Cassiopeia A, Vela Jr., and G347.3–0.5
+AU  - Papa, M. A.
+AU  - Ming, J.
+AU  - Gotthelf, E. V.
+AU  - Allen, B.
+AU  - Prix, R.
+AU  - Dergachev, V.
+AU  - Eggenstein, H.-B.
+AU  - Singh, A.
+AU  - Zhu, S. J.
+T2  - The Astrophysical Journal
+DA  - 2020/06/29/
+PY  - 2020
+DO  - 10.3847/1538-4357/ab92a6
+DP  - DOI.org (Crossref)
+VL  - 897
+IS  - 1
+SP  - 22
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ab92a6
+Y2  - 2022/11/13/19:50:55
+L1  - https://arxiv.org/pdf/2005.06544
+ER  - 
+
+TY  - JOUR
+TI  - Exploiting Orbital Constraints from Optical Data to Detect Binary Gamma-Ray Pulsars
+AU  - Nieder, L.
+AU  - Allen, B.
+AU  - Clark, C. J.
+AU  - Pletsch, H. J.
+T2  - The Astrophysical Journal
+AB  - Abstract
+            It is difficult to discover pulsars via their gamma-ray emission because current instruments typically detect fewer than one photon per million rotations. This creates a significant computing challenge for isolated pulsars, where the typical parameter search space spans wide ranges in four dimensions. It is even more demanding when the pulsar is in a binary system, where the orbital motion introduces several additional unknown parameters. Building on earlier work by Pletsch & Clark, we present optimal methods for such searches. These can also incorporate external constraints on the parameter space to be searched, for example, from optical observations of a presumed binary companion. The solution has two parts. The first is the construction of optimal search grids in parameter space via a parameter space metric, for initial semicoherent searches and subsequent fully coherent follow-ups. The second is a method to demodulate and detect the periodic pulsations. These methods have different sensitivity properties than traditional radio searches for binary pulsars and might unveil new populations of pulsars.
+DA  - 2020/10/01/
+PY  - 2020
+DO  - 10.3847/1538-4357/abaf53
+DP  - DOI.org (Crossref)
+VL  - 901
+IS  - 2
+SP  - 156
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/abaf53
+Y2  - 2022/11/13/19:50:55
+L1  - https://www.repo.uni-hannover.de/bitstream/123456789/10697/1/Exploiting%20Orbital%20Constraints%20from%20Optical%20Data%20to%20Detect%20Binary%20Gamma-Ray%20Pulsars.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Optimizing the choice of analysis method for all-sky searches for continuous gravitational waves with Einstein@Home
+AU  - Walsh, Sinéad
+AU  - Wette, Karl
+AU  - Papa, Maria Alessandra
+AU  - Prix, Reinhard
+T2  - Physical Review D
+DA  - 2019/04/30/
+PY  - 2019
+DO  - 10.1103/PhysRevD.99.082004
+DP  - DOI.org (Crossref)
+VL  - 99
+IS  - 8
+SP  - 082004
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.99.082004
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/accepted/10.1103/PhysRevD.99.082004
+ER  - 
+
+TY  - JOUR
+TI  - Results from an Einstein@Home search for continuous gravitational waves from Cassiopeia A, Vela Jr., and G347.3
+AU  - Ming, J.
+AU  - Papa, M. A.
+AU  - Singh, A.
+AU  - Eggenstein, H.-B.
+AU  - Zhu, S. J.
+AU  - Dergachev, V.
+AU  - Hu, Y.
+AU  - Prix, R.
+AU  - Machenschalk, B.
+AU  - Beer, C.
+AU  - Behnke, O.
+AU  - Allen, B.
+T2  - Physical Review D
+DA  - 2019/07/29/
+PY  - 2019
+DO  - 10.1103/PhysRevD.100.024063
+DP  - DOI.org (Crossref)
+VL  - 100
+IS  - 2
+SP  - 024063
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.100.024063
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/accepted/10.1103/PhysRevD.100.024063
+ER  - 
+
+TY  - JOUR
+TI  - The Einstein@Home Gamma-ray Pulsar Survey. II. Source Selection, Spectral Analysis, and Multiwavelength Follow-up
+AU  - Wu, J.
+AU  - Clark, C. J.
+AU  - Pletsch, H. J.
+AU  - Guillemot, L.
+AU  - Johnson, T. J.
+AU  - Torne, P.
+AU  - Champion, D. J.
+AU  - Deneva, J.
+AU  - Ray, P. S.
+AU  - Salvetti, D.
+AU  - Kramer, M.
+AU  - Aulbert, C.
+AU  - Beer, C.
+AU  - Bhattacharyya, B.
+AU  - Bock, O.
+AU  - Camilo, F.
+AU  - Cognard, I.
+AU  - Cuéllar, A.
+AU  - Eggenstein, H. B.
+AU  - Fehrmann, H.
+AU  - Ferrara, E. C.
+AU  - Kerr, M.
+AU  - Machenschalk, B.
+AU  - Ransom, S. M.
+AU  - Sanpa-Arsa, S.
+AU  - Wood, K.
+T2  - The Astrophysical Journal
+DA  - 2018/02/15/
+PY  - 2018
+DO  - 10.3847/1538-4357/aaa411
+DP  - DOI.org (Crossref)
+VL  - 854
+IS  - 2
+SP  - 99
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/aaa411
+Y2  - 2022/11/13/19:50:55
+L1  - https://hal.archives-ouvertes.fr/hal-01714167/file/Wu_2018_ApJ_854_99.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Einstein@Home discovers a radio-quiet gamma-ray millisecond pulsar
+AU  - Clark, Colin J.
+AU  - Pletsch, Holger J.
+AU  - Wu, Jason
+AU  - Guillemot, Lucas
+AU  - Kerr, Matthew
+AU  - Johnson, Tyrel J.
+AU  - Camilo, Fernando
+AU  - Salvetti, David
+AU  - Allen, Bruce
+AU  - Anderson, David
+AU  - Aulbert, Carsten
+AU  - Beer, Christian
+AU  - Bock, Oliver
+AU  - Cuéllar, Andres
+AU  - Eggenstein, Heinz-Bernd
+AU  - Fehrmann, Henning
+AU  - Kramer, Michael
+AU  - Kwang, Shawn A.
+AU  - Machenschalk, Bernd
+AU  - Nieder, Lars
+AU  - Ackermann, Markus
+AU  - Ajello, Marco
+AU  - Baldini, Luca
+AU  - Ballet, Jean
+AU  - Barbiellini, Guido
+AU  - Bastieri, Denis
+AU  - Bellazzini, Ronaldo
+AU  - Bissaldi, Elisabetta
+AU  - Blandford, Roger D.
+AU  - Bloom, Elliott D.
+AU  - Bonino, Raffaella
+AU  - Bottacini, Eugenio
+AU  - Brandt, Terri J.
+AU  - Bregeon, Johan
+AU  - Bruel, Philippe
+AU  - Buehler, Rolf
+AU  - Burnett, Toby H.
+AU  - Buson, Sara
+AU  - Cameron, Rob A.
+AU  - Caputo, Regina
+AU  - Caraveo, Patrizia A.
+AU  - Cavazzuti, Elisabetta
+AU  - Cecchi, Claudia
+AU  - Charles, Eric
+AU  - Chekhtman, Alexandre
+AU  - Ciprini, Stefano
+AU  - Cominsky, Lynn R.
+AU  - Costantin, Denise
+AU  - Cutini, Sara
+AU  - D’Ammando, Filippo
+AU  - De Luca, Andrea
+AU  - Desiante, Rachele
+AU  - Di Venere, Leonardo
+AU  - Di Mauro, Mattia
+AU  - Di Lalla, Niccolò
+AU  - Digel, Seth W.
+AU  - Favuzzi, Cecilia
+AU  - Ferrara, Elizabeth C.
+AU  - Franckowiak, Anna
+AU  - Fukazawa, Yasushi
+AU  - Funk, Stefan
+AU  - Fusco, Piergiorgio
+AU  - Gargano, Fabio
+AU  - Gasparrini, Dario
+AU  - Giglietto, Nico
+AU  - Giordano, Francesco
+AU  - Giroletti, Marcello
+AU  - Gomez-Vargas, Germán A.
+AU  - Green, David
+AU  - Grenier, Isabelle A.
+AU  - Guiriec, Sylvain
+AU  - Harding, Alice K.
+AU  - Hewitt, John W.
+AU  - Horan, Deirdre
+AU  - Jóhannesson, Guðlaugur
+AU  - Kensei, Shiki
+AU  - Kuss, Michael
+AU  - La Mura, Giovanni
+AU  - Larsson, Stefan
+AU  - Latronico, Luca
+AU  - Li, Jian
+AU  - Longo, Francesco
+AU  - Loparco, Francesco
+AU  - Lovellette, Michael N.
+AU  - Lubrano, Pasquale
+AU  - Magill, Jeffrey D.
+AU  - Maldera, Simone
+AU  - Manfreda, Alberto
+AU  - Mazziotta, Mario N.
+AU  - McEnery, Julie E.
+AU  - Michelson, Peter F.
+AU  - Mirabal, Nestor
+AU  - Mitthumsiri, Warit
+AU  - Mizuno, Tsunefumi
+AU  - Monzani, Maria Elena
+AU  - Morselli, Aldo
+AU  - Moskalenko, Igor V.
+AU  - Nuss, Eric
+AU  - Ohsugi, Takashi
+AU  - Omodei, Nicola
+AU  - Orienti, Monica
+AU  - Orlando, Elena
+AU  - Palatiello, Michele
+AU  - Paliya, Vaidehi S.
+AU  - de Palma, Francesco
+AU  - Paneque, David
+AU  - Perkins, Jeremy S.
+AU  - Persic, Massimo
+AU  - Pesce-Rollins, Melissa
+AU  - Porter, Troy A.
+AU  - Principe, Giacomo
+AU  - Rainò, Silvia
+AU  - Rando, Riccardo
+AU  - Ray, Paul S.
+AU  - Razzano, Massimiliano
+AU  - Reimer, Anita
+AU  - Reimer, Olaf
+AU  - Romani, Roger W.
+AU  - Saz Parkinson, Pablo M.
+AU  - Sgrò, Carmelo
+AU  - Siskind, Eric J.
+AU  - Smith, David A.
+AU  - Spada, Francesca
+AU  - Spandre, Gloria
+AU  - Spinelli, Paolo
+AU  - Thayer, Jana B.
+AU  - Thompson, David J.
+AU  - Torres, Diego F.
+AU  - Troja, Eleonora
+AU  - Vianello, Giacomo
+AU  - Wood, Kent
+AU  - Wood, Matthew
+T2  - Science Advances
+AB  - A citizen science project discovers a new type of gamma-ray millisecond pulsar with no detectable radio pulsations.
+          , 
+            Millisecond pulsars (MSPs) are old neutron stars that spin hundreds of times per second and appear to pulsate as their emission beams cross our line of sight. To date, radio pulsations have been detected from all rotation-powered MSPs. In an attempt to discover radio-quiet gamma-ray MSPs, we used the aggregated power from the computers of tens of thousands of volunteers participating in the Einstein@Home distributed computing project to search for pulsations from unidentified gamma-ray sources in Fermi Large Area Telescope data. This survey discovered two isolated MSPs, one of which is the only known rotation-powered MSP to remain undetected in radio observations. These gamma-ray MSPs were discovered in completely blind searches without prior constraints from other observations, raising hopes for detecting MSPs from a predicted Galactic bulge population.
+DA  - 2018/02/02/
+PY  - 2018
+DO  - 10.1126/sciadv.aao7228
+DP  - DOI.org (Crossref)
+VL  - 4
+IS  - 2
+SP  - eaao7228
+J2  - Sci. Adv.
+LA  - en
+SN  - 2375-2548
+UR  - https://www.science.org/doi/10.1126/sciadv.aao7228
+Y2  - 2022/11/13/19:50:55
+L1  - https://europepmc.org/articles/pmc5829974?pdf=render
+ER  - 
+
+TY  - JOUR
+TI  - Optimally setting up directed searches for continuous gravitational waves in Advanced LIGO O1 data
+AU  - Ming, Jing
+AU  - Papa, Maria Alessandra
+AU  - Krishnan, Badri
+AU  - Prix, Reinhard
+AU  - Beer, Christian
+AU  - Zhu, Sylvia J.
+AU  - Eggenstein, Heinz-Bernd
+AU  - Bock, Oliver
+AU  - Machenschalk, Bernd
+T2  - Physical Review D
+DA  - 2018/01/31/
+PY  - 2018
+DO  - 10.1103/PhysRevD.97.024051
+DP  - DOI.org (Crossref)
+VL  - 97
+IS  - 2
+SP  - 024051
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.97.024051
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/accepted/10.1103/PhysRevD.97.024051
+ER  - 
+
+TY  - JOUR
+TI  - First low-frequency Einstein@Home all-sky search for continuous gravitational waves in Advanced LIGO data
+AU  - Abbott, B. P.
+AU  - Abbott, R.
+AU  - Abbott, T. D.
+AU  - Acernese, F.
+AU  - Ackley, K.
+AU  - Adams, C.
+AU  - Adams, T.
+AU  - Addesso, P.
+AU  - Adhikari, R. X.
+AU  - Adya, V. B.
+AU  - Affeldt, C.
+AU  - Afrough, M.
+AU  - Agarwal, B.
+AU  - Agatsuma, K.
+AU  - Aggarwal, N.
+AU  - Aguiar, O. D.
+AU  - Aiello, L.
+AU  - Ain, A.
+AU  - Allen, B.
+AU  - Allen, G.
+AU  - Allocca, A.
+AU  - Altin, P. A.
+AU  - Amato, A.
+AU  - Ananyeva, A.
+AU  - Anderson, S. B.
+AU  - Anderson, W. G.
+AU  - Antier, S.
+AU  - Appert, S.
+AU  - Arai, K.
+AU  - Araya, M. C.
+AU  - Areeda, J. S.
+AU  - Arnaud, N.
+AU  - Ascenzi, S.
+AU  - Ashton, G.
+AU  - Ast, M.
+AU  - Aston, S. M.
+AU  - Astone, P.
+AU  - Aufmuth, P.
+AU  - Aulbert, C.
+AU  - AultONeal, K.
+AU  - Avila-Alvarez, A.
+AU  - Babak, S.
+AU  - Bacon, P.
+AU  - Bader, M. K. M.
+AU  - Bae, S.
+AU  - Baker, P. T.
+AU  - Baldaccini, F.
+AU  - Ballardin, G.
+AU  - Ballmer, S. W.
+AU  - Banagiri, S.
+AU  - Barayoga, J. C.
+AU  - Barclay, S. E.
+AU  - Barish, B. C.
+AU  - Barker, D.
+AU  - Barone, F.
+AU  - Barr, B.
+AU  - Barsotti, L.
+AU  - Barsuglia, M.
+AU  - Barta, D.
+AU  - Bartlett, J.
+AU  - Bartos, I.
+AU  - Bassiri, R.
+AU  - Basti, A.
+AU  - Batch, J. C.
+AU  - Baune, C.
+AU  - Bawaj, M.
+AU  - Bazzan, M.
+AU  - Bécsy, B.
+AU  - Beer, C.
+AU  - Bejger, M.
+AU  - Belahcene, I.
+AU  - Bell, A. S.
+AU  - Berger, B. K.
+AU  - Bergmann, G.
+AU  - Berry, C. P. L.
+AU  - Bersanetti, D.
+AU  - Bertolini, A.
+AU  - Betzwieser, J.
+AU  - Bhagwat, S.
+AU  - Bhandare, R.
+AU  - Bilenko, I. A.
+AU  - Billingsley, G.
+AU  - Billman, C. R.
+AU  - Birch, J.
+AU  - Birney, R.
+AU  - Birnholtz, O.
+AU  - Biscans, S.
+AU  - Bisht, A.
+AU  - Bitossi, M.
+AU  - Biwer, C.
+AU  - Bizouard, M. A.
+AU  - Blackburn, J. K.
+AU  - Blackman, J.
+AU  - Blair, C. D.
+AU  - Blair, D. G.
+AU  - Blair, R. M.
+AU  - Bloemen, S.
+AU  - Bock, O.
+AU  - Bode, N.
+AU  - Boer, M.
+AU  - Bogaert, G.
+AU  - Bohe, A.
+AU  - Bondu, F.
+AU  - Bonnand, R.
+AU  - Boom, B. A.
+AU  - Bork, R.
+AU  - Boschi, V.
+AU  - Bose, S.
+AU  - Bouffanais, Y.
+AU  - Bozzi, A.
+AU  - Bradaschia, C.
+AU  - Brady, P. R.
+AU  - Braginsky, V. B.
+AU  - Branchesi, M.
+AU  - Brau, J. E.
+AU  - Briant, T.
+AU  - Brillet, A.
+AU  - Brinkmann, M.
+AU  - Brisson, V.
+AU  - Brockill, P.
+AU  - Broida, J. E.
+AU  - Brooks, A. F.
+AU  - Brown, D. A.
+AU  - Brown, D. D.
+AU  - Brown, N. M.
+AU  - Brunett, S.
+AU  - Buchanan, C. C.
+AU  - Buikema, A.
+AU  - Bulik, T.
+AU  - Bulten, H. J.
+AU  - Buonanno, A.
+AU  - Buskulic, D.
+AU  - Buy, C.
+AU  - Byer, R. L.
+AU  - Cabero, M.
+AU  - Cadonati, L.
+AU  - Cagnoli, G.
+AU  - Cahillane, C.
+AU  - Calderón Bustillo, J.
+AU  - Callister, T. A.
+AU  - Calloni, E.
+AU  - Camp, J. B.
+AU  - Canizares, P.
+AU  - Cannon, K. C.
+AU  - Cao, H.
+AU  - Cao, J.
+AU  - Capano, C. D.
+AU  - Capocasa, E.
+AU  - Carbognani, F.
+AU  - Caride, S.
+AU  - Carney, M. F.
+AU  - Casanueva Diaz, J.
+AU  - Casentini, C.
+AU  - Caudill, S.
+AU  - Cavaglià, M.
+AU  - Cavalier, F.
+AU  - Cavalieri, R.
+AU  - Cella, G.
+AU  - Cepeda, C. B.
+AU  - Cerboni Baiardi, L.
+AU  - Cerretani, G.
+AU  - Cesarini, E.
+AU  - Chamberlin, S. J.
+AU  - Chan, M.
+AU  - Chao, S.
+AU  - Charlton, P.
+AU  - Chassande-Mottin, E.
+AU  - Chatterjee, D.
+AU  - Cheeseboro, B. D.
+AU  - Chen, H. Y.
+AU  - Chen, Y.
+AU  - Cheng, H.-P.
+AU  - Chincarini, A.
+AU  - Chiummo, A.
+AU  - Chmiel, T.
+AU  - Cho, H. S.
+AU  - Cho, M.
+AU  - Chow, J. H.
+AU  - Christensen, N.
+AU  - Chu, Q.
+AU  - Chua, A. J. K.
+AU  - Chua, S.
+AU  - Chung, A. K. W.
+AU  - Chung, S.
+AU  - Ciani, G.
+AU  - Ciolfi, R.
+AU  - Cirelli, C. E.
+AU  - Cirone, A.
+AU  - Clara, F.
+AU  - Clark, J. A.
+AU  - Cleva, F.
+AU  - Cocchieri, C.
+AU  - Coccia, E.
+AU  - Cohadon, P.-F.
+AU  - Colla, A.
+AU  - Collette, C. G.
+AU  - Cominsky, L. R.
+AU  - Constancio, M.
+AU  - Conti, L.
+AU  - Cooper, S. J.
+AU  - Corban, P.
+AU  - Corbitt, T. R.
+AU  - Corley, K. R.
+AU  - Cornish, N.
+AU  - Corsi, A.
+AU  - Cortese, S.
+AU  - Costa, C. A.
+AU  - Coughlin, M. W.
+AU  - Coughlin, S. B.
+AU  - Coulon, J.-P.
+AU  - Countryman, S. T.
+AU  - Couvares, P.
+AU  - Covas, P. B.
+AU  - Cowan, E. E.
+AU  - Coward, D. M.
+AU  - Cowart, M. J.
+AU  - Coyne, D. C.
+AU  - Coyne, R.
+AU  - Creighton, J. D. E.
+AU  - Creighton, T. D.
+AU  - Cripe, J.
+AU  - Crowder, S. G.
+AU  - Cullen, T. J.
+AU  - Cumming, A.
+AU  - Cunningham, L.
+AU  - Cuoco, E.
+AU  - Dal Canton, T.
+AU  - Danilishin, S. L.
+AU  - D’Antonio, S.
+AU  - Danzmann, K.
+AU  - Dasgupta, A.
+AU  - Da Silva Costa, C. F.
+AU  - Dattilo, V.
+AU  - Dave, I.
+AU  - Davier, M.
+AU  - Davis, D.
+AU  - Daw, E. J.
+AU  - Day, B.
+AU  - De, S.
+AU  - DeBra, D.
+AU  - Deelman, E.
+AU  - Degallaix, J.
+AU  - De Laurentis, M.
+AU  - Deléglise, S.
+AU  - Del Pozzo, W.
+AU  - Denker, T.
+AU  - Dent, T.
+AU  - Dergachev, V.
+AU  - De Rosa, R.
+AU  - DeRosa, R. T.
+AU  - DeSalvo, R.
+AU  - Devenson, J.
+AU  - Devine, R. C.
+AU  - Dhurandhar, S.
+AU  - Díaz, M. C.
+AU  - Di Fiore, L.
+AU  - Di Giovanni, M.
+AU  - Di Girolamo, T.
+AU  - Di Lieto, A.
+AU  - Di Pace, S.
+AU  - Di Palma, I.
+AU  - Di Renzo, F.
+AU  - Doctor, Z.
+AU  - Dolique, V.
+AU  - Donovan, F.
+AU  - Dooley, K. L.
+AU  - Doravari, S.
+AU  - Dorrington, I.
+AU  - Douglas, R.
+AU  - Dovale Álvarez, M.
+AU  - Downes, T. P.
+AU  - Drago, M.
+AU  - Drever, R. W. P.
+AU  - Driggers, J. C.
+AU  - Du, Z.
+AU  - Ducrot, M.
+AU  - Duncan, J.
+AU  - Dwyer, S. E.
+AU  - Edo, T. B.
+AU  - Edwards, M. C.
+AU  - Effler, A.
+AU  - Eggenstein, H.-B.
+AU  - Ehrens, P.
+AU  - Eichholz, J.
+AU  - Eikenberry, S. S.
+AU  - Eisenstein, R. A.
+AU  - Essick, R. C.
+AU  - Etienne, Z. B.
+AU  - Etzel, T.
+AU  - Evans, M.
+AU  - Evans, T. M.
+AU  - Factourovich, M.
+AU  - Fafone, V.
+AU  - Fair, H.
+AU  - Fairhurst, S.
+AU  - Fan, X.
+AU  - Farinon, S.
+AU  - Farr, B.
+AU  - Farr, W. M.
+AU  - Fauchon-Jones, E. J.
+AU  - Favata, M.
+AU  - Fays, M.
+AU  - Fehrmann, H.
+AU  - Feicht, J.
+AU  - Fejer, M. M.
+AU  - Fernandez-Galiana, A.
+AU  - Ferrante, I.
+AU  - Ferreira, E. C.
+AU  - Ferrini, F.
+AU  - Fidecaro, F.
+AU  - Fiori, I.
+AU  - Fiorucci, D.
+AU  - Fisher, R. P.
+AU  - Flaminio, R.
+AU  - Fletcher, M.
+AU  - Fong, H.
+AU  - Forsyth, P. W. F.
+AU  - Forsyth, S. S.
+AU  - Fournier, J.-D.
+AU  - Frasca, S.
+AU  - Frasconi, F.
+AU  - Frei, Z.
+AU  - Freise, A.
+AU  - Frey, R.
+AU  - Frey, V.
+AU  - Fries, E. M.
+AU  - Fritschel, P.
+AU  - Frolov, V. V.
+AU  - Fulda, P.
+AU  - Fyffe, M.
+AU  - Gabbard, H.
+AU  - Gabel, M.
+AU  - Gadre, B. U.
+AU  - Gaebel, S. M.
+AU  - Gair, J. R.
+AU  - Gammaitoni, L.
+AU  - Ganija, M. R.
+AU  - Gaonkar, S. G.
+AU  - Garufi, F.
+AU  - Gaudio, S.
+AU  - Gaur, G.
+AU  - Gayathri, V.
+AU  - Gehrels, N.
+AU  - Gemme, G.
+AU  - Genin, E.
+AU  - Gennai, A.
+AU  - George, D.
+AU  - George, J.
+AU  - Gergely, L.
+AU  - Germain, V.
+AU  - Ghonge, S.
+AU  - Ghosh, Abhirup
+AU  - Ghosh, Archisman
+AU  - Ghosh, S.
+AU  - Giaime, J. A.
+AU  - Giardina, K. D.
+AU  - Giazotto, A.
+AU  - Gill, K.
+AU  - Glover, L.
+AU  - Goetz, E.
+AU  - Goetz, R.
+AU  - Gomes, S.
+AU  - González, G.
+AU  - Gonzalez Castro, J. M.
+AU  - Gopakumar, A.
+AU  - Gorodetsky, M. L.
+AU  - Gossan, S. E.
+AU  - Gosselin, M.
+AU  - Gouaty, R.
+AU  - Grado, A.
+AU  - Graef, C.
+AU  - Granata, M.
+AU  - Grant, A.
+AU  - Gras, S.
+AU  - Gray, C.
+AU  - Greco, G.
+AU  - Green, A. C.
+AU  - Groot, P.
+AU  - Grote, H.
+AU  - Grunewald, S.
+AU  - Gruning, P.
+AU  - Guidi, G. M.
+AU  - Guo, X.
+AU  - Gupta, A.
+AU  - Gupta, M. K.
+AU  - Gushwa, K. E.
+AU  - Gustafson, E. K.
+AU  - Gustafson, R.
+AU  - Hall, B. R.
+AU  - Hall, E. D.
+AU  - Hammond, G.
+AU  - Haney, M.
+AU  - Hanke, M. M.
+AU  - Hanks, J.
+AU  - Hanna, C.
+AU  - Hannuksela, O. A.
+AU  - Hanson, J.
+AU  - Hardwick, T.
+AU  - Harms, J.
+AU  - Harry, G. M.
+AU  - Harry, I. W.
+AU  - Hart, M. J.
+AU  - Haster, C.-J.
+AU  - Haughian, K.
+AU  - Healy, J.
+AU  - Heidmann, A.
+AU  - Heintze, M. C.
+AU  - Heitmann, H.
+AU  - Hello, P.
+AU  - Hemming, G.
+AU  - Hendry, M.
+AU  - Heng, I. S.
+AU  - Hennig, J.
+AU  - Henry, J.
+AU  - Heptonstall, A. W.
+AU  - Heurs, M.
+AU  - Hild, S.
+AU  - Hoak, D.
+AU  - Hofman, D.
+AU  - Holt, K.
+AU  - Holz, D. E.
+AU  - Hopkins, P.
+AU  - Horst, C.
+AU  - Hough, J.
+AU  - Houston, E. A.
+AU  - Howell, E. J.
+AU  - Hu, Y. M.
+AU  - Huerta, E. A.
+AU  - Huet, D.
+AU  - Hughey, B.
+AU  - Husa, S.
+AU  - Huttner, S. H.
+AU  - Huynh-Dinh, T.
+AU  - Indik, N.
+AU  - Ingram, D. R.
+AU  - Inta, R.
+AU  - Intini, G.
+AU  - Isa, H. N.
+AU  - Isac, J.-M.
+AU  - Isi, M.
+AU  - Iyer, B. R.
+AU  - Izumi, K.
+AU  - Jacqmin, T.
+AU  - Jani, K.
+AU  - Jaranowski, P.
+AU  - Jawahar, S.
+AU  - Jiménez-Forteza, F.
+AU  - Johnson, W. W.
+AU  - Jones, D. I.
+AU  - Jones, R.
+AU  - Jonker, R. J. G.
+AU  - Ju, L.
+AU  - Junker, J.
+AU  - Kalaghatgi, C. V.
+AU  - Kalogera, V.
+AU  - Kandhasamy, S.
+AU  - Kang, G.
+AU  - Kanner, J. B.
+AU  - Karki, S.
+AU  - Karvinen, K. S.
+AU  - Kasprzack, M.
+AU  - Katolik, M.
+AU  - Katsavounidis, E.
+AU  - Katzman, W.
+AU  - Kaufer, S.
+AU  - Kawabe, K.
+AU  - Kéfélian, F.
+AU  - Keitel, D.
+AU  - Kemball, A. J.
+AU  - Kennedy, R.
+AU  - Kent, C.
+AU  - Key, J. S.
+AU  - Khalili, F. Y.
+AU  - Khan, I.
+AU  - Khan, S.
+AU  - Khan, Z.
+AU  - Khazanov, E. A.
+AU  - Kijbunchoo, N.
+AU  - Kim, Chunglee
+AU  - Kim, J. C.
+AU  - Kim, W.
+AU  - Kim, W. S.
+AU  - Kim, Y.-M.
+AU  - Kimbrell, S. J.
+AU  - King, E. J.
+AU  - King, P. J.
+AU  - Kirchhoff, R.
+AU  - Kissel, J. S.
+AU  - Kleybolte, L.
+AU  - Klimenko, S.
+AU  - Koch, P.
+AU  - Koehlenbeck, S. M.
+AU  - Koley, S.
+AU  - Kondrashov, V.
+AU  - Kontos, A.
+AU  - Korobko, M.
+AU  - Korth, W. Z.
+AU  - Kowalska, I.
+AU  - Kozak, D. B.
+AU  - Krämer, C.
+AU  - Kringel, V.
+AU  - Krishnan, B.
+AU  - Królak, A.
+AU  - Kuehn, G.
+AU  - Kumar, P.
+AU  - Kumar, R.
+AU  - Kumar, S.
+AU  - Kuo, L.
+AU  - Kutynia, A.
+AU  - Kwang, S.
+AU  - Lackey, B. D.
+AU  - Lai, K. H.
+AU  - Landry, M.
+AU  - Lang, R. N.
+AU  - Lange, J.
+AU  - Lantz, B.
+AU  - Lanza, R. K.
+AU  - Lartaux-Vollard, A.
+AU  - Lasky, P. D.
+AU  - Laxen, M.
+AU  - Lazzarini, A.
+AU  - Lazzaro, C.
+AU  - Leaci, P.
+AU  - Leavey, S.
+AU  - Lee, C. H.
+AU  - Lee, H. K.
+AU  - Lee, H. M.
+AU  - Lee, H. W.
+AU  - Lee, K.
+AU  - Lehmann, J.
+AU  - Lenon, A.
+AU  - Leonardi, M.
+AU  - Leroy, N.
+AU  - Letendre, N.
+AU  - Levin, Y.
+AU  - Li, T. G. F.
+AU  - Libson, A.
+AU  - Littenberg, T. B.
+AU  - Liu, J.
+AU  - Lo, R. K. L.
+AU  - Lockerbie, N. A.
+AU  - London, L. T.
+AU  - Lord, J. E.
+AU  - Lorenzini, M.
+AU  - Loriette, V.
+AU  - Lormand, M.
+AU  - Losurdo, G.
+AU  - Lough, J. D.
+AU  - Lovelace, G.
+AU  - Lück, H.
+AU  - Lumaca, D.
+AU  - Lundgren, A. P.
+AU  - Lynch, R.
+AU  - Ma, Y.
+AU  - Macfoy, S.
+AU  - Machenschalk, B.
+AU  - MacInnis, M.
+AU  - Macleod, D. M.
+AU  - Magaña Hernandez, I.
+AU  - Magaña-Sandoval, F.
+AU  - Magaña Zertuche, L.
+AU  - Magee, R. M.
+AU  - Majorana, E.
+AU  - Maksimovic, I.
+AU  - Man, N.
+AU  - Mandic, V.
+AU  - Mangano, V.
+AU  - Mansell, G. L.
+AU  - Manske, M.
+AU  - Mantovani, M.
+AU  - Marchesoni, F.
+AU  - Marion, F.
+AU  - Márka, S.
+AU  - Márka, Z.
+AU  - Markakis, C.
+AU  - Markosyan, A. S.
+AU  - Maros, E.
+AU  - Martelli, F.
+AU  - Martellini, L.
+AU  - Martin, I. W.
+AU  - Martynov, D. V.
+AU  - Mason, K.
+AU  - Masserot, A.
+AU  - Massinger, T. J.
+AU  - Masso-Reid, M.
+AU  - Mastrogiovanni, S.
+AU  - Matas, A.
+AU  - Matichard, F.
+AU  - Matone, L.
+AU  - Mavalvala, N.
+AU  - Mayani, R.
+AU  - Mazumder, N.
+AU  - McCarthy, R.
+AU  - McClelland, D. E.
+AU  - McCormick, S.
+AU  - McCuller, L.
+AU  - McGuire, S. C.
+AU  - McIntyre, G.
+AU  - McIver, J.
+AU  - McManus, D. J.
+AU  - McRae, T.
+AU  - McWilliams, S. T.
+AU  - Meacher, D.
+AU  - Meadors, G. D.
+AU  - Meidam, J.
+AU  - Mejuto-Villa, E.
+AU  - Melatos, A.
+AU  - Mendell, G.
+AU  - Mercer, R. A.
+AU  - Merilh, E. L.
+AU  - Merzougui, M.
+AU  - Meshkov, S.
+AU  - Messenger, C.
+AU  - Messick, C.
+AU  - Metzdorff, R.
+AU  - Meyers, P. M.
+AU  - Mezzani, F.
+AU  - Miao, H.
+AU  - Michel, C.
+AU  - Middleton, H.
+AU  - Mikhailov, E. E.
+AU  - Milano, L.
+AU  - Miller, A. L.
+AU  - Miller, A.
+AU  - Miller, B. B.
+AU  - Miller, J.
+AU  - Millhouse, M.
+AU  - Minazzoli, O.
+AU  - Minenkov, Y.
+AU  - Ming, J.
+AU  - Mishra, C.
+AU  - Mitra, S.
+AU  - Mitrofanov, V. P.
+AU  - Mitselmakher, G.
+AU  - Mittleman, R.
+AU  - Moggi, A.
+AU  - Mohan, M.
+AU  - Mohapatra, S. R. P.
+AU  - Montani, M.
+AU  - Moore, B. C.
+AU  - Moore, C. J.
+AU  - Moraru, D.
+AU  - Moreno, G.
+AU  - Morriss, S. R.
+AU  - Mours, B.
+AU  - Mow-Lowry, C. M.
+AU  - Mueller, G.
+AU  - Muir, A. W.
+AU  - Mukherjee, Arunava
+AU  - Mukherjee, D.
+AU  - Mukherjee, S.
+AU  - Mukund, N.
+AU  - Mullavey, A.
+AU  - Munch, J.
+AU  - Muniz, E. A. M.
+AU  - Murray, P. G.
+AU  - Napier, K.
+AU  - Nardecchia, I.
+AU  - Naticchioni, L.
+AU  - Nayak, R. K.
+AU  - Nelemans, G.
+AU  - Nelson, T. J. N.
+AU  - Neri, M.
+AU  - Nery, M.
+AU  - Neunzert, A.
+AU  - Newport, J. M.
+AU  - Newton, G.
+AU  - Ng, K. K. Y.
+AU  - Nguyen, T. T.
+AU  - Nichols, D.
+AU  - Nielsen, A. B.
+AU  - Nissanke, S.
+AU  - Nitz, A.
+AU  - Noack, A.
+AU  - Nocera, F.
+AU  - Nolting, D.
+AU  - Normandin, M. E. N.
+AU  - Nuttall, L. K.
+AU  - Oberling, J.
+AU  - Ochsner, E.
+AU  - Oelker, E.
+AU  - Ogin, G. H.
+AU  - Oh, J. J.
+AU  - Oh, S. H.
+AU  - Ohme, F.
+AU  - Oliver, M.
+AU  - Oppermann, P.
+AU  - Oram, Richard J.
+AU  - O’Reilly, B.
+AU  - Ormiston, R.
+AU  - Ortega, L. F.
+AU  - O’Shaughnessy, R.
+AU  - Ottaway, D. J.
+AU  - Overmier, H.
+AU  - Owen, B. J.
+AU  - Pace, A. E.
+AU  - Page, J.
+AU  - Page, M. A.
+AU  - Pai, A.
+AU  - Pai, S. A.
+AU  - Palamos, J. R.
+AU  - Palashov, O.
+AU  - Palomba, C.
+AU  - Pal-Singh, A.
+AU  - Pan, H.
+AU  - Pang, B.
+AU  - Pang, P. T. H.
+AU  - Pankow, C.
+AU  - Pannarale, F.
+AU  - Pant, B. C.
+AU  - Paoletti, F.
+AU  - Paoli, A.
+AU  - Papa, M. A.
+AU  - Paris, H. R.
+AU  - Parker, W.
+AU  - Pascucci, D.
+AU  - Pasqualetti, A.
+AU  - Passaquieti, R.
+AU  - Passuello, D.
+AU  - Patricelli, B.
+AU  - Pearlstone, B. L.
+AU  - Pedraza, M.
+AU  - Pedurand, R.
+AU  - Pekowsky, L.
+AU  - Pele, A.
+AU  - Penn, S.
+AU  - Perez, C. J.
+AU  - Perreca, A.
+AU  - Perri, L. M.
+AU  - Pfeiffer, H. P.
+AU  - Phelps, M.
+AU  - Piccinni, O. J.
+AU  - Pichot, M.
+AU  - Piergiovanni, F.
+AU  - Pierro, V.
+AU  - Pillant, G.
+AU  - Pinard, L.
+AU  - Pinto, I. M.
+AU  - Pitkin, M.
+AU  - Poggiani, R.
+AU  - Popolizio, P.
+AU  - Porter, E. K.
+AU  - Post, A.
+AU  - Powell, J.
+AU  - Prasad, J.
+AU  - Pratt, J. W. W.
+AU  - Predoi, V.
+AU  - Prestegard, T.
+AU  - Prijatelj, M.
+AU  - Principe, M.
+AU  - Privitera, S.
+AU  - Prix, R.
+AU  - Prodi, G. A.
+AU  - Prokhorov, L. G.
+AU  - Puncken, O.
+AU  - Punturo, M.
+AU  - Puppo, P.
+AU  - Pürrer, M.
+AU  - Qi, H.
+AU  - Qin, J.
+AU  - Qiu, S.
+AU  - Quetschke, V.
+AU  - Quintero, E. A.
+AU  - Quitzow-James, R.
+AU  - Raab, F. J.
+AU  - Rabeling, D. S.
+AU  - Radkins, H.
+AU  - Raffai, P.
+AU  - Raja, S.
+AU  - Rajan, C.
+AU  - Rakhmanov, M.
+AU  - Ramirez, K. E.
+AU  - Rapagnani, P.
+AU  - Raymond, V.
+AU  - Razzano, M.
+AU  - Read, J.
+AU  - Regimbau, T.
+AU  - Rei, L.
+AU  - Reid, S.
+AU  - Reitze, D. H.
+AU  - Rew, H.
+AU  - Reyes, S. D.
+AU  - Ricci, F.
+AU  - Ricker, P. M.
+AU  - Rieger, S.
+AU  - Riles, K.
+AU  - Rizzo, M.
+AU  - Robertson, N. A.
+AU  - Robie, R.
+AU  - Robinet, F.
+AU  - Rocchi, A.
+AU  - Rolland, L.
+AU  - Rollins, J. G.
+AU  - Roma, V. J.
+AU  - Romano, R.
+AU  - Romel, C. L.
+AU  - Romie, J. H.
+AU  - Rosińska, D.
+AU  - Ross, M. P.
+AU  - Rowan, S.
+AU  - Rüdiger, A.
+AU  - Ruggi, P.
+AU  - Ryan, K.
+AU  - Rynge, M.
+AU  - Sachdev, S.
+AU  - Sadecki, T.
+AU  - Sadeghian, L.
+AU  - Sakellariadou, M.
+AU  - Salconi, L.
+AU  - Saleem, M.
+AU  - Salemi, F.
+AU  - Samajdar, A.
+AU  - Sammut, L.
+AU  - Sampson, L. M.
+AU  - Sanchez, E. J.
+AU  - Sandberg, V.
+AU  - Sandeen, B.
+AU  - Sanders, J. R.
+AU  - Sassolas, B.
+AU  - Sathyaprakash, B. S.
+AU  - Saulson, P. R.
+AU  - Sauter, O.
+AU  - Savage, R. L.
+AU  - Sawadsky, A.
+AU  - Schale, P.
+AU  - Scheuer, J.
+AU  - Schmidt, E.
+AU  - Schmidt, J.
+AU  - Schmidt, P.
+AU  - Schnabel, R.
+AU  - Schofield, R. M. S.
+AU  - Schönbeck, A.
+AU  - Schreiber, E.
+AU  - Schuette, D.
+AU  - Schulte, B. W.
+AU  - Schutz, B. F.
+AU  - Schwalbe, S. G.
+AU  - Scott, J.
+AU  - Scott, S. M.
+AU  - Seidel, E.
+AU  - Sellers, D.
+AU  - Sengupta, A. S.
+AU  - Sentenac, D.
+AU  - Sequino, V.
+AU  - Sergeev, A.
+AU  - Shaddock, D. A.
+AU  - Shaffer, T. J.
+AU  - Shah, A. A.
+AU  - Shahriar, M. S.
+AU  - Shao, L.
+AU  - Shapiro, B.
+AU  - Shawhan, P.
+AU  - Sheperd, A.
+AU  - Shoemaker, D. H.
+AU  - Shoemaker, D. M.
+AU  - Siellez, K.
+AU  - Siemens, X.
+AU  - Sieniawska, M.
+AU  - Sigg, D.
+AU  - Silva, A. D.
+AU  - Singer, A.
+AU  - Singer, L. P.
+AU  - Singh, A.
+AU  - Singh, R.
+AU  - Singhal, A.
+AU  - Sintes, A. M.
+AU  - Slagmolen, B. J. J.
+AU  - Smith, B.
+AU  - Smith, J. R.
+AU  - Smith, R. J. E.
+AU  - Son, E. J.
+AU  - Sonnenberg, J. A.
+AU  - Sorazu, B.
+AU  - Sorrentino, F.
+AU  - Souradeep, T.
+AU  - Spencer, A. P.
+AU  - Srivastava, A. K.
+AU  - Staley, A.
+AU  - Steinke, M.
+AU  - Steinlechner, J.
+AU  - Steinlechner, S.
+AU  - Steinmeyer, D.
+AU  - Stephens, B. C.
+AU  - Stone, R.
+AU  - Strain, K. A.
+AU  - Stratta, G.
+AU  - Strigin, S. E.
+AU  - Sturani, R.
+AU  - Stuver, A. L.
+AU  - Summerscales, T. Z.
+AU  - Sun, L.
+AU  - Sunil, S.
+AU  - Sutton, P. J.
+AU  - Swinkels, B. L.
+AU  - Szczepańczyk, M. J.
+AU  - Tacca, M.
+AU  - Talukder, D.
+AU  - Tanner, D. B.
+AU  - Tápai, M.
+AU  - Taracchini, A.
+AU  - Taylor, J. A.
+AU  - Taylor, R.
+AU  - Theeg, T.
+AU  - Thomas, E. G.
+AU  - Thomas, M.
+AU  - Thomas, P.
+AU  - Thorne, K. A.
+AU  - Thorne, K. S.
+AU  - Thrane, E.
+AU  - Tiwari, S.
+AU  - Tiwari, V.
+AU  - Tokmakov, K. V.
+AU  - Toland, K.
+AU  - Tonelli, M.
+AU  - Tornasi, Z.
+AU  - Torrie, C. I.
+AU  - Töyrä, D.
+AU  - Travasso, F.
+AU  - Traylor, G.
+AU  - Trifirò, D.
+AU  - Trinastic, J.
+AU  - Tringali, M. C.
+AU  - Trozzo, L.
+AU  - Tsang, K. W.
+AU  - Tse, M.
+AU  - Tso, R.
+AU  - Tuyenbayev, D.
+AU  - Ueno, K.
+AU  - Ugolini, D.
+AU  - Unnikrishnan, C. S.
+AU  - Urban, A. L.
+AU  - Usman, S. A.
+AU  - Vahi, K.
+AU  - Vahlbruch, H.
+AU  - Vajente, G.
+AU  - Valdes, G.
+AU  - Vallisneri, M.
+AU  - van Bakel, N.
+AU  - van Beuzekom, M.
+AU  - van den Brand, J. F. J.
+AU  - Van Den Broeck, C.
+AU  - Vander-Hyde, D. C.
+AU  - van der Schaaf, L.
+AU  - van Heijningen, J. V.
+AU  - van Veggel, A. A.
+AU  - Vardaro, M.
+AU  - Varma, V.
+AU  - Vass, S.
+AU  - Vasúth, M.
+AU  - Vecchio, A.
+AU  - Vedovato, G.
+AU  - Veitch, J.
+AU  - Veitch, P. J.
+AU  - Venkateswara, K.
+AU  - Venugopalan, G.
+AU  - Verkindt, D.
+AU  - Vetrano, F.
+AU  - Viceré, A.
+AU  - Viets, A. D.
+AU  - Vinciguerra, S.
+AU  - Vine, D. J.
+AU  - Vinet, J.-Y.
+AU  - Vitale, S.
+AU  - Vo, T.
+AU  - Vocca, H.
+AU  - Vorvick, C.
+AU  - Voss, D. V.
+AU  - Vousden, W. D.
+AU  - Vyatchanin, S. P.
+AU  - Wade, A. R.
+AU  - Wade, L. E.
+AU  - Wade, M.
+AU  - Walet, R.
+AU  - Walker, M.
+AU  - Wallace, L.
+AU  - Walsh, S.
+AU  - Wang, G.
+AU  - Wang, H.
+AU  - Wang, J. Z.
+AU  - Wang, M.
+AU  - Wang, Y.-F.
+AU  - Wang, Y.
+AU  - Ward, R. L.
+AU  - Warner, J.
+AU  - Was, M.
+AU  - Watchi, J.
+AU  - Weaver, B.
+AU  - Wei, L.-W.
+AU  - Weinert, M.
+AU  - Weinstein, A. J.
+AU  - Weiss, R.
+AU  - Wen, L.
+AU  - Wessel, E. K.
+AU  - Weßels, P.
+AU  - Westphal, T.
+AU  - Wette, K.
+AU  - Whelan, J. T.
+AU  - Whiting, B. F.
+AU  - Whittle, C.
+AU  - Williams, D.
+AU  - Williams, R. D.
+AU  - Williamson, A. R.
+AU  - Willis, J. L.
+AU  - Willke, B.
+AU  - Wimmer, M. H.
+AU  - Winkler, W.
+AU  - Wipf, C. C.
+AU  - Wittel, H.
+AU  - Woan, G.
+AU  - Woehler, J.
+AU  - Wofford, J.
+AU  - Wong, K. W. K.
+AU  - Worden, J.
+AU  - Wright, J. L.
+AU  - Wu, D. S.
+AU  - Wu, G.
+AU  - Yam, W.
+AU  - Yamamoto, H.
+AU  - Yancey, C. C.
+AU  - Yap, M. J.
+AU  - Yu, Hang
+AU  - Yu, Haocun
+AU  - Yvert, M.
+AU  - Zadrożny, A.
+AU  - Zanolin, M.
+AU  - Zelenova, T.
+AU  - Zendri, J.-P.
+AU  - Zevin, M.
+AU  - Zhang, L.
+AU  - Zhang, M.
+AU  - Zhang, T.
+AU  - Zhang, Y.-H.
+AU  - Zhao, C.
+AU  - Zhou, M.
+AU  - Zhou, Z.
+AU  - Zhu, S. J.
+AU  - Zhu, X. J.
+AU  - Zucker, M. E.
+AU  - Zweizig, J.
+AU  - Anderson, D. P.
+AU  - LIGO Scientific Collaboration and Virgo Collaboration
+T2  - Physical Review D
+DA  - 2017/12/08/
+PY  - 2017
+DO  - 10.1103/PhysRevD.96.122004
+DP  - DOI.org (Crossref)
+VL  - 96
+IS  - 12
+SP  - 122004
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.96.122004
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/pdf/10.1103/PhysRevD.96.122004
+ER  - 
+
+TY  - JOUR
+TI  - New veto for continuous gravitational wave searches
+AU  - Zhu, Sylvia J.
+AU  - Papa, Maria Alessandra
+AU  - Walsh, Sinéad
+T2  - Physical Review D
+DA  - 2017/12/08/
+PY  - 2017
+DO  - 10.1103/PhysRevD.96.124007
+DP  - DOI.org (Crossref)
+VL  - 96
+IS  - 12
+SP  - 124007
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.96.124007
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/accepted/10.1103/PhysRevD.96.124007
+ER  - 
+
+TY  - JOUR
+TI  - Adaptive clustering procedure for continuous gravitational wave searches
+AU  - Singh, Avneet
+AU  - Papa, Maria Alessandra
+AU  - Eggenstein, Heinz-Bernd
+AU  - Walsh, Sinéad
+T2  - Physical Review D
+DA  - 2017/10/16/
+PY  - 2017
+DO  - 10.1103/PhysRevD.96.082003
+DP  - DOI.org (Crossref)
+VL  - 96
+IS  - 8
+SP  - 082003
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.96.082003
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/accepted/10.1103/PhysRevD.96.082003
+ER  - 
+
+TY  - JOUR
+TI  - THE EINSTEIN@HOME GAMMA-RAY PULSAR SURVEY. I. SEARCH METHODS, SENSITIVITY, AND DISCOVERY OF NEW YOUNG GAMMA-RAY PULSARS
+AU  - Clark, C. J.
+AU  - Wu, J.
+AU  - Pletsch, H. J.
+AU  - Guillemot, L.
+AU  - Allen, B.
+AU  - Aulbert, C.
+AU  - Beer, C.
+AU  - Bock, O.
+AU  - Cuéllar, A.
+AU  - Eggenstein, H. B.
+AU  - Fehrmann, H.
+AU  - Kramer, M.
+AU  - Machenschalk, B.
+AU  - Nieder, L.
+T2  - The Astrophysical Journal
+DA  - 2017/01/05/
+PY  - 2017
+DO  - 10.3847/1538-4357/834/2/106
+DP  - DOI.org (Crossref)
+VL  - 834
+IS  - 2
+SP  - 106
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/834/2/106
+Y2  - 2022/11/13/19:50:55
+L1  - https://pure.manchester.ac.uk/ws/files/53601714/Clark_2017_ApJ_834_106.pdf
+ER  - 
+
+TY  - JOUR
+TI  - THE BRAKING INDEX OF A RADIO-QUIET GAMMA-RAY PULSAR
+AU  - Clark, C. J.
+AU  - Pletsch, H. J.
+AU  - Wu, J.
+AU  - Guillemot, L.
+AU  - Camilo, F.
+AU  - Johnson, T. J.
+AU  - Kerr, M.
+AU  - Allen, B.
+AU  - Aulbert, C.
+AU  - Beer, C.
+AU  - Bock, O.
+AU  - Cuéllar, A.
+AU  - Eggenstein, H. B.
+AU  - Fehrmann, H.
+AU  - Kramer, M.
+AU  - Machenschalk, B.
+AU  - Nieder, L.
+T2  - The Astrophysical Journal
+DA  - 2016/11/15/
+PY  - 2016
+DO  - 10.3847/2041-8205/832/1/L15
+DP  - DOI.org (Crossref)
+VL  - 832
+IS  - 1
+SP  - L15
+J2  - ApJ
+SN  - 2041-8213
+UR  - https://iopscience.iop.org/article/10.3847/2041-8205/832/1/L15
+Y2  - 2022/11/13/19:50:55
+L1  - https://arxiv.org/pdf/1611.01292
+ER  - 
+
+TY  - JOUR
+TI  - Hierarchical follow-up of subthreshold candidates of an all-sky Einstein@Home search for continuous gravitational waves on LIGO sixth science run data
+AU  - Papa, Maria Alessandra
+AU  - Eggenstein, Heinz-Bernd
+AU  - Walsh, Sinéad
+AU  - Di Palma, Irene
+AU  - Allen, Bruce
+AU  - Astone, Pia
+AU  - Bock, Oliver
+AU  - Creighton, Teviet D.
+AU  - Keitel, David
+AU  - Machenschalk, Bernd
+AU  - Prix, Reinhard
+AU  - Siemens, Xavier
+AU  - Singh, Avneet
+AU  - Zhu, Sylvia J.
+AU  - Schutz, Bernard F.
+T2  - Physical Review D
+DA  - 2016/12/28/
+PY  - 2016
+DO  - 10.1103/PhysRevD.94.122006
+DP  - DOI.org (Crossref)
+VL  - 94
+IS  - 12
+SP  - 122006
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.94.122006
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/pdf/10.1103/PhysRevD.94.122006
+ER  - 
+
+TY  - JOUR
+TI  - Einstein@Home search for continuous gravitational waves from Cassiopeia A
+AU  - Zhu, Sylvia J.
+AU  - Papa, Maria Alessandra
+AU  - Eggenstein, Heinz-Bernd
+AU  - Prix, Reinhard
+AU  - Wette, Karl
+AU  - Allen, Bruce
+AU  - Bock, Oliver
+AU  - Keitel, David
+AU  - Krishnan, Badri
+AU  - Machenschalk, Bernd
+AU  - Shaltev, Miroslav
+AU  - Siemens, Xavier
+T2  - Physical Review D
+DA  - 2016/10/28/
+PY  - 2016
+DO  - 10.1103/PhysRevD.94.082008
+DP  - DOI.org (Crossref)
+VL  - 94
+IS  - 8
+SP  - 082008
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.94.082008
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/pdf/10.1103/PhysRevD.94.082008
+ER  - 
+
+TY  - JOUR
+TI  - Results of an all-sky high-frequency Einstein@Home search for continuous gravitational waves in LIGO’s fifth science run
+AU  - Singh, Avneet
+AU  - Papa, Maria Alessandra
+AU  - Eggenstein, Heinz-Bernd
+AU  - Zhu, Sylvia
+AU  - Pletsch, Holger
+AU  - Allen, Bruce
+AU  - Bock, Oliver
+AU  - Maschenchalk, Bernd
+AU  - Prix, Reinhard
+AU  - Siemens, Xavier
+T2  - Physical Review D
+DA  - 2016/09/26/
+PY  - 2016
+DO  - 10.1103/PhysRevD.94.064061
+DP  - DOI.org (Crossref)
+VL  - 94
+IS  - 6
+SP  - 064061
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.94.064061
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/pdf/10.1103/PhysRevD.94.064061
+ER  - 
+
+TY  - JOUR
+TI  - Results of the deepest all-sky survey for continuous gravitational waves on LIGO S6 data running on the Einstein@Home volunteer distributed computing project
+AU  - Abbott, B. P.
+AU  - Abbott, R.
+AU  - Abbott, T. D.
+AU  - Abernathy, M. R.
+AU  - Acernese, F.
+AU  - Ackley, K.
+AU  - Adams, C.
+AU  - Adams, T.
+AU  - Addesso, P.
+AU  - Adhikari, R. X.
+AU  - Adya, V. B.
+AU  - Affeldt, C.
+AU  - Agathos, M.
+AU  - Agatsuma, K.
+AU  - Aggarwal, N.
+AU  - Aguiar, O. D.
+AU  - Aiello, L.
+AU  - Ain, A.
+AU  - Allen, B.
+AU  - Allocca, A.
+AU  - Altin, P. A.
+AU  - Anderson, S. B.
+AU  - Anderson, W. G.
+AU  - Arai, K.
+AU  - Araya, M. C.
+AU  - Arceneaux, C. C.
+AU  - Areeda, J. S.
+AU  - Arnaud, N.
+AU  - Arun, K. G.
+AU  - Ascenzi, S.
+AU  - Ashton, G.
+AU  - Ast, M.
+AU  - Aston, S. M.
+AU  - Astone, P.
+AU  - Aufmuth, P.
+AU  - Aulbert, C.
+AU  - Babak, S.
+AU  - Bacon, P.
+AU  - Bader, M. K. M.
+AU  - Baker, P. T.
+AU  - Baldaccini, F.
+AU  - Ballardin, G.
+AU  - Ballmer, S. W.
+AU  - Barayoga, J. C.
+AU  - Barclay, S. E.
+AU  - Barish, B. C.
+AU  - Barker, D.
+AU  - Barone, F.
+AU  - Barr, B.
+AU  - Barsotti, L.
+AU  - Barsuglia, M.
+AU  - Barta, D.
+AU  - Bartlett, J.
+AU  - Bartos, I.
+AU  - Bassiri, R.
+AU  - Basti, A.
+AU  - Batch, J. C.
+AU  - Baune, C.
+AU  - Bavigadda, V.
+AU  - Bazzan, M.
+AU  - Bejger, M.
+AU  - Bell, A. S.
+AU  - Berger, B. K.
+AU  - Bergmann, G.
+AU  - Berry, C. P. L.
+AU  - Bersanetti, D.
+AU  - Bertolini, A.
+AU  - Betzwieser, J.
+AU  - Bhagwat, S.
+AU  - Bhandare, R.
+AU  - Bilenko, I. A.
+AU  - Billingsley, G.
+AU  - Birch, J.
+AU  - Birney, R.
+AU  - Biscans, S.
+AU  - Bisht, A.
+AU  - Bitossi, M.
+AU  - Biwer, C.
+AU  - Bizouard, M. A.
+AU  - Blackburn, J. K.
+AU  - Blair, C. D.
+AU  - Blair, D. G.
+AU  - Blair, R. M.
+AU  - Bloemen, S.
+AU  - Bock, O.
+AU  - Boer, M.
+AU  - Bogaert, G.
+AU  - Bogan, C.
+AU  - Bohe, A.
+AU  - Bond, C.
+AU  - Bondu, F.
+AU  - Bonnand, R.
+AU  - Boom, B. A.
+AU  - Bork, R.
+AU  - Boschi, V.
+AU  - Bose, S.
+AU  - Bouffanais, Y.
+AU  - Bozzi, A.
+AU  - Bradaschia, C.
+AU  - Brady, P. R.
+AU  - Braginsky, V. B.
+AU  - Branchesi, M.
+AU  - Brau, J. E.
+AU  - Briant, T.
+AU  - Brillet, A.
+AU  - Brinkmann, M.
+AU  - Brisson, V.
+AU  - Brockill, P.
+AU  - Broida, J. E.
+AU  - Brooks, A. F.
+AU  - Brown, D. A.
+AU  - Brown, D. D.
+AU  - Brown, N. M.
+AU  - Brunett, S.
+AU  - Buchanan, C. C.
+AU  - Buikema, A.
+AU  - Bulik, T.
+AU  - Bulten, H. J.
+AU  - Buonanno, A.
+AU  - Buskulic, D.
+AU  - Buy, C.
+AU  - Byer, R. L.
+AU  - Cabero, M.
+AU  - Cadonati, L.
+AU  - Cagnoli, G.
+AU  - Cahillane, C.
+AU  - Calderón Bustillo, J.
+AU  - Callister, T.
+AU  - Calloni, E.
+AU  - Camp, J. B.
+AU  - Cannon, K. C.
+AU  - Cao, J.
+AU  - Capano, C. D.
+AU  - Capocasa, E.
+AU  - Carbognani, F.
+AU  - Caride, S.
+AU  - Casanueva Diaz, J.
+AU  - Casentini, C.
+AU  - Caudill, S.
+AU  - Cavaglià, M.
+AU  - Cavalier, F.
+AU  - Cavalieri, R.
+AU  - Cella, G.
+AU  - Cepeda, C. B.
+AU  - Cerboni Baiardi, L.
+AU  - Cerretani, G.
+AU  - Cesarini, E.
+AU  - Chamberlin, S. J.
+AU  - Chan, M.
+AU  - Chao, S.
+AU  - Charlton, P.
+AU  - Chassande-Mottin, E.
+AU  - Cheeseboro, B. D.
+AU  - Chen, H. Y.
+AU  - Chen, Y.
+AU  - Cheng, C.
+AU  - Chincarini, A.
+AU  - Chiummo, A.
+AU  - Cho, H. S.
+AU  - Cho, M.
+AU  - Chow, J. H.
+AU  - Christensen, N.
+AU  - Chu, Q.
+AU  - Chua, S.
+AU  - Chung, S.
+AU  - Ciani, G.
+AU  - Clara, F.
+AU  - Clark, J. A.
+AU  - Cleva, F.
+AU  - Coccia, E.
+AU  - Cohadon, P.-F.
+AU  - Colla, A.
+AU  - Collette, C. G.
+AU  - Cominsky, L.
+AU  - Constancio, M.
+AU  - Conte, A.
+AU  - Conti, L.
+AU  - Cook, D.
+AU  - Corbitt, T. R.
+AU  - Cornish, N.
+AU  - Corsi, A.
+AU  - Cortese, S.
+AU  - Costa, C. A.
+AU  - Coughlin, M. W.
+AU  - Coughlin, S. B.
+AU  - Coulon, J.-P.
+AU  - Countryman, S. T.
+AU  - Couvares, P.
+AU  - Cowan, E. E.
+AU  - Coward, D. M.
+AU  - Cowart, M. J.
+AU  - Coyne, D. C.
+AU  - Coyne, R.
+AU  - Craig, K.
+AU  - Creighton, J. D. E.
+AU  - Creighton, T. D.
+AU  - Cripe, J.
+AU  - Crowder, S. G.
+AU  - Cumming, A.
+AU  - Cunningham, L.
+AU  - Cuoco, E.
+AU  - Dal Canton, T.
+AU  - Danilishin, S. L.
+AU  - D’Antonio, S.
+AU  - Danzmann, K.
+AU  - Darman, N. S.
+AU  - Dasgupta, A.
+AU  - Da Silva Costa, C. F.
+AU  - Dattilo, V.
+AU  - Dave, I.
+AU  - Davier, M.
+AU  - Davies, G. S.
+AU  - Daw, E. J.
+AU  - Day, R.
+AU  - De, S.
+AU  - DeBra, D.
+AU  - Debreczeni, G.
+AU  - Degallaix, J.
+AU  - De Laurentis, M.
+AU  - Deléglise, S.
+AU  - Del Pozzo, W.
+AU  - Denker, T.
+AU  - Dent, T.
+AU  - Dergachev, V.
+AU  - De Rosa, R.
+AU  - DeRosa, R. T.
+AU  - DeSalvo, R.
+AU  - Devine, R. C.
+AU  - Dhurandhar, S.
+AU  - Díaz, M. C.
+AU  - Di Fiore, L.
+AU  - Di Giovanni, M.
+AU  - Di Girolamo, T.
+AU  - Di Lieto, A.
+AU  - Di Pace, S.
+AU  - Di Palma, I.
+AU  - Di Virgilio, A.
+AU  - Dolique, V.
+AU  - Donovan, F.
+AU  - Dooley, K. L.
+AU  - Doravari, S.
+AU  - Douglas, R.
+AU  - Downes, T. P.
+AU  - Drago, M.
+AU  - Drever, R. W. P.
+AU  - Driggers, J. C.
+AU  - Ducrot, M.
+AU  - Dwyer, S. E.
+AU  - Edo, T. B.
+AU  - Edwards, M. C.
+AU  - Effler, A.
+AU  - Eggenstein, H.-B.
+AU  - Ehrens, P.
+AU  - Eichholz, J.
+AU  - Eikenberry, S. S.
+AU  - Engels, W.
+AU  - Essick, R. C.
+AU  - Etzel, T.
+AU  - Evans, M.
+AU  - Evans, T. M.
+AU  - Everett, R.
+AU  - Factourovich, M.
+AU  - Fafone, V.
+AU  - Fair, H.
+AU  - Fairhurst, S.
+AU  - Fan, X.
+AU  - Fang, Q.
+AU  - Farinon, S.
+AU  - Farr, B.
+AU  - Farr, W. M.
+AU  - Favata, M.
+AU  - Fays, M.
+AU  - Fehrmann, H.
+AU  - Fejer, M. M.
+AU  - Fenyvesi, E.
+AU  - Ferrante, I.
+AU  - Ferreira, E. C.
+AU  - Ferrini, F.
+AU  - Fidecaro, F.
+AU  - Fiori, I.
+AU  - Fiorucci, D.
+AU  - Fisher, R. P.
+AU  - Flaminio, R.
+AU  - Fletcher, M.
+AU  - Fournier, J.-D.
+AU  - Frasca, S.
+AU  - Frasconi, F.
+AU  - Frei, Z.
+AU  - Freise, A.
+AU  - Frey, R.
+AU  - Frey, V.
+AU  - Fritschel, P.
+AU  - Frolov, V. V.
+AU  - Fulda, P.
+AU  - Fyffe, M.
+AU  - Gabbard, H. A. G.
+AU  - Gair, J. R.
+AU  - Gammaitoni, L.
+AU  - Gaonkar, S. G.
+AU  - Garufi, F.
+AU  - Gaur, G.
+AU  - Gehrels, N.
+AU  - Gemme, G.
+AU  - Geng, P.
+AU  - Genin, E.
+AU  - Gennai, A.
+AU  - George, J.
+AU  - Gergely, L.
+AU  - Germain, V.
+AU  - Ghosh, Abhirup
+AU  - Ghosh, Archisman
+AU  - Ghosh, S.
+AU  - Giaime, J. A.
+AU  - Giardina, K. D.
+AU  - Giazotto, A.
+AU  - Gill, K.
+AU  - Glaefke, A.
+AU  - Goetz, E.
+AU  - Goetz, R.
+AU  - Gondan, L.
+AU  - González, G.
+AU  - Gonzalez Castro, J. M.
+AU  - Gopakumar, A.
+AU  - Gordon, N. A.
+AU  - Gorodetsky, M. L.
+AU  - Gossan, S. E.
+AU  - Gosselin, M.
+AU  - Gouaty, R.
+AU  - Grado, A.
+AU  - Graef, C.
+AU  - Graff, P. B.
+AU  - Granata, M.
+AU  - Grant, A.
+AU  - Gras, S.
+AU  - Gray, C.
+AU  - Greco, G.
+AU  - Green, A. C.
+AU  - Groot, P.
+AU  - Grote, H.
+AU  - Grunewald, S.
+AU  - Guidi, G. M.
+AU  - Guo, X.
+AU  - Gupta, A.
+AU  - Gupta, M. K.
+AU  - Gushwa, K. E.
+AU  - Gustafson, E. K.
+AU  - Gustafson, R.
+AU  - Hacker, J. J.
+AU  - Hall, B. R.
+AU  - Hall, E. D.
+AU  - Hammond, G.
+AU  - Haney, M.
+AU  - Hanke, M. M.
+AU  - Hanks, J.
+AU  - Hanna, C.
+AU  - Hanson, J.
+AU  - Hardwick, T.
+AU  - Harms, J.
+AU  - Harry, G. M.
+AU  - Harry, I. W.
+AU  - Hart, M. J.
+AU  - Hartman, M. T.
+AU  - Haster, C.-J.
+AU  - Haughian, K.
+AU  - Heidmann, A.
+AU  - Heintze, M. C.
+AU  - Heitmann, H.
+AU  - Hello, P.
+AU  - Hemming, G.
+AU  - Hendry, M.
+AU  - Heng, I. S.
+AU  - Hennig, J.
+AU  - Henry, J.
+AU  - Heptonstall, A. W.
+AU  - Heurs, M.
+AU  - Hild, S.
+AU  - Hoak, D.
+AU  - Hofman, D.
+AU  - Holt, K.
+AU  - Holz, D. E.
+AU  - Hopkins, P.
+AU  - Hough, J.
+AU  - Houston, E. A.
+AU  - Howell, E. J.
+AU  - Hu, Y. M.
+AU  - Huang, S.
+AU  - Huerta, E. A.
+AU  - Huet, D.
+AU  - Hughey, B.
+AU  - Husa, S.
+AU  - Huttner, S. H.
+AU  - Huynh-Dinh, T.
+AU  - Indik, N.
+AU  - Ingram, D. R.
+AU  - Inta, R.
+AU  - Isa, H. N.
+AU  - Isac, J.-M.
+AU  - Isi, M.
+AU  - Isogai, T.
+AU  - Iyer, B. R.
+AU  - Izumi, K.
+AU  - Jacqmin, T.
+AU  - Jang, H.
+AU  - Jani, K.
+AU  - Jaranowski, P.
+AU  - Jawahar, S.
+AU  - Jian, L.
+AU  - Jiménez-Forteza, F.
+AU  - Johnson, W. W.
+AU  - Jones, D. I.
+AU  - Jones, R.
+AU  - Jonker, R. J. G.
+AU  - Ju, L.
+AU  - K, Haris
+AU  - Kalaghatgi, C. V.
+AU  - Kalogera, V.
+AU  - Kandhasamy, S.
+AU  - Kang, G.
+AU  - Kanner, J. B.
+AU  - Kapadia, S. J.
+AU  - Karki, S.
+AU  - Karvinen, K. S.
+AU  - Kasprzack, M.
+AU  - Katsavounidis, E.
+AU  - Katzman, W.
+AU  - Kaufer, S.
+AU  - Kaur, T.
+AU  - Kawabe, K.
+AU  - Kéfélian, F.
+AU  - Kehl, M. S.
+AU  - Keitel, D.
+AU  - Kelley, D. B.
+AU  - Kells, W.
+AU  - Kennedy, R.
+AU  - Key, J. S.
+AU  - Khalili, F. Y.
+AU  - Khan, I.
+AU  - Khan, S.
+AU  - Khan, Z.
+AU  - Khazanov, E. A.
+AU  - Kijbunchoo, N.
+AU  - Kim, Chi-Woong
+AU  - Kim, Chunglee
+AU  - Kim, J.
+AU  - Kim, K.
+AU  - Kim, N.
+AU  - Kim, W.
+AU  - Kim, Y.-M.
+AU  - Kimbrell, S. J.
+AU  - King, E. J.
+AU  - King, P. J.
+AU  - Kissel, J. S.
+AU  - Klein, B.
+AU  - Kleybolte, L.
+AU  - Klimenko, S.
+AU  - Koehlenbeck, S. M.
+AU  - Koley, S.
+AU  - Kondrashov, V.
+AU  - Kontos, A.
+AU  - Korobko, M.
+AU  - Korth, W. Z.
+AU  - Kowalska, I.
+AU  - Kozak, D. B.
+AU  - Kringel, V.
+AU  - Krishnan, B.
+AU  - Królak, A.
+AU  - Krueger, C.
+AU  - Kuehn, G.
+AU  - Kumar, P.
+AU  - Kumar, R.
+AU  - Kuo, L.
+AU  - Kutynia, A.
+AU  - Lackey, B. D.
+AU  - Landry, M.
+AU  - Lange, J.
+AU  - Lantz, B.
+AU  - Lasky, P. D.
+AU  - Laxen, M.
+AU  - Lazzaro, C.
+AU  - Leaci, P.
+AU  - Leavey, S.
+AU  - Lebigot, E. O.
+AU  - Lee, C. H.
+AU  - Lee, H. K.
+AU  - Lee, H. M.
+AU  - Lee, K.
+AU  - Lenon, A.
+AU  - Leonardi, M.
+AU  - Leong, J. R.
+AU  - Leroy, N.
+AU  - Letendre, N.
+AU  - Levin, Y.
+AU  - Lewis, J. B.
+AU  - Li, T. G. F.
+AU  - Libson, A.
+AU  - Littenberg, T. B.
+AU  - Lockerbie, N. A.
+AU  - Lombardi, A. L.
+AU  - London, L. T.
+AU  - Lord, J. E.
+AU  - Lorenzini, M.
+AU  - Loriette, V.
+AU  - Lormand, M.
+AU  - Losurdo, G.
+AU  - Lough, J. D.
+AU  - Lück, H.
+AU  - Lundgren, A. P.
+AU  - Lynch, R.
+AU  - Ma, Y.
+AU  - Machenschalk, B.
+AU  - MacInnis, M.
+AU  - Macleod, D. M.
+AU  - Magaña-Sandoval, F.
+AU  - Magaña Zertuche, L.
+AU  - Magee, R. M.
+AU  - Majorana, E.
+AU  - Maksimovic, I.
+AU  - Malvezzi, V.
+AU  - Man, N.
+AU  - Mandic, V.
+AU  - Mangano, V.
+AU  - Mansell, G. L.
+AU  - Manske, M.
+AU  - Mantovani, M.
+AU  - Marchesoni, F.
+AU  - Marion, F.
+AU  - Márka, S.
+AU  - Márka, Z.
+AU  - Markosyan, A. S.
+AU  - Maros, E.
+AU  - Martelli, F.
+AU  - Martellini, L.
+AU  - Martin, I. W.
+AU  - Martynov, D. V.
+AU  - Marx, J. N.
+AU  - Mason, K.
+AU  - Masserot, A.
+AU  - Massinger, T. J.
+AU  - Masso-Reid, M.
+AU  - Mastrogiovanni, S.
+AU  - Matichard, F.
+AU  - Matone, L.
+AU  - Mavalvala, N.
+AU  - Mazumder, N.
+AU  - McCarthy, R.
+AU  - McClelland, D. E.
+AU  - McCormick, S.
+AU  - McGuire, S. C.
+AU  - McIntyre, G.
+AU  - McIver, J.
+AU  - McManus, D. J.
+AU  - McRae, T.
+AU  - McWilliams, S. T.
+AU  - Meacher, D.
+AU  - Meadors, G. D.
+AU  - Meidam, J.
+AU  - Melatos, A.
+AU  - Mendell, G.
+AU  - Mercer, R. A.
+AU  - Merilh, E. L.
+AU  - Merzougui, M.
+AU  - Meshkov, S.
+AU  - Messenger, C.
+AU  - Messick, C.
+AU  - Metzdorff, R.
+AU  - Meyers, P. M.
+AU  - Mezzani, F.
+AU  - Miao, H.
+AU  - Michel, C.
+AU  - Middleton, H.
+AU  - Mikhailov, E. E.
+AU  - Milano, L.
+AU  - Miller, A. L.
+AU  - Miller, A.
+AU  - Miller, B. B.
+AU  - Miller, J.
+AU  - Millhouse, M.
+AU  - Minenkov, Y.
+AU  - Ming, J.
+AU  - Mirshekari, S.
+AU  - Mishra, C.
+AU  - Mitra, S.
+AU  - Mitrofanov, V. P.
+AU  - Mitselmakher, G.
+AU  - Mittleman, R.
+AU  - Moggi, A.
+AU  - Mohan, M.
+AU  - Mohapatra, S. R. P.
+AU  - Montani, M.
+AU  - Moore, B. C.
+AU  - Moore, C. J.
+AU  - Moraru, D.
+AU  - Moreno, G.
+AU  - Morriss, S. R.
+AU  - Mossavi, K.
+AU  - Mours, B.
+AU  - Mow-Lowry, C. M.
+AU  - Mueller, G.
+AU  - Muir, A. W.
+AU  - Mukherjee, Arunava
+AU  - Mukherjee, D.
+AU  - Mukherjee, S.
+AU  - Mukund, N.
+AU  - Mullavey, A.
+AU  - Munch, J.
+AU  - Murphy, D. J.
+AU  - Murray, P. G.
+AU  - Mytidis, A.
+AU  - Nardecchia, I.
+AU  - Naticchioni, L.
+AU  - Nayak, R. K.
+AU  - Nedkova, K.
+AU  - Nelemans, G.
+AU  - Nelson, T. J. N.
+AU  - Neri, M.
+AU  - Neunzert, A.
+AU  - Newton, G.
+AU  - Nguyen, T. T.
+AU  - Nielsen, A. B.
+AU  - Nissanke, S.
+AU  - Nitz, A.
+AU  - Nocera, F.
+AU  - Nolting, D.
+AU  - Normandin, M. E. N.
+AU  - Nuttall, L. K.
+AU  - Oberling, J.
+AU  - Ochsner, E.
+AU  - O’Dell, J.
+AU  - Oelker, E.
+AU  - Ogin, G. H.
+AU  - Oh, J. J.
+AU  - Oh, S. H.
+AU  - Ohme, F.
+AU  - Oliver, M.
+AU  - Oppermann, P.
+AU  - Oram, Richard J.
+AU  - O’Reilly, B.
+AU  - O’Shaughnessy, R.
+AU  - Ottaway, D. J.
+AU  - Overmier, H.
+AU  - Owen, B. J.
+AU  - Pai, A.
+AU  - Pai, S. A.
+AU  - Palamos, J. R.
+AU  - Palashov, O.
+AU  - Palomba, C.
+AU  - Pal-Singh, A.
+AU  - Pan, H.
+AU  - Pankow, C.
+AU  - Pannarale, F.
+AU  - Pant, B. C.
+AU  - Paoletti, F.
+AU  - Paoli, A.
+AU  - Papa, M. A.
+AU  - Paris, H. R.
+AU  - Parker, W.
+AU  - Pascucci, D.
+AU  - Pasqualetti, A.
+AU  - Passaquieti, R.
+AU  - Passuello, D.
+AU  - Patricelli, B.
+AU  - Patrick, Z.
+AU  - Pearlstone, B. L.
+AU  - Pedraza, M.
+AU  - Pedurand, R.
+AU  - Pekowsky, L.
+AU  - Pele, A.
+AU  - Penn, S.
+AU  - Perreca, A.
+AU  - Perri, L. M.
+AU  - Phelps, M.
+AU  - Piccinni, O. J.
+AU  - Pichot, M.
+AU  - Piergiovanni, F.
+AU  - Pierro, V.
+AU  - Pillant, G.
+AU  - Pinard, L.
+AU  - Pinto, I. M.
+AU  - Pitkin, M.
+AU  - Poe, M.
+AU  - Poggiani, R.
+AU  - Popolizio, P.
+AU  - Post, A.
+AU  - Powell, J.
+AU  - Prasad, J.
+AU  - Predoi, V.
+AU  - Prestegard, T.
+AU  - Price, L. R.
+AU  - Prijatelj, M.
+AU  - Principe, M.
+AU  - Privitera, S.
+AU  - Prix, R.
+AU  - Prodi, G. A.
+AU  - Prokhorov, L.
+AU  - Puncken, O.
+AU  - Punturo, M.
+AU  - Puppo, P.
+AU  - Pürrer, M.
+AU  - Qi, H.
+AU  - Qin, J.
+AU  - Qiu, S.
+AU  - Quetschke, V.
+AU  - Quintero, E. A.
+AU  - Quitzow-James, R.
+AU  - Raab, F. J.
+AU  - Rabeling, D. S.
+AU  - Radkins, H.
+AU  - Raffai, P.
+AU  - Raja, S.
+AU  - Rajan, C.
+AU  - Rakhmanov, M.
+AU  - Rapagnani, P.
+AU  - Raymond, V.
+AU  - Razzano, M.
+AU  - Re, V.
+AU  - Read, J.
+AU  - Reed, C. M.
+AU  - Regimbau, T.
+AU  - Rei, L.
+AU  - Reid, S.
+AU  - Reitze, D. H.
+AU  - Rew, H.
+AU  - Reyes, S. D.
+AU  - Ricci, F.
+AU  - Riles, K.
+AU  - Rizzo, M.
+AU  - Robertson, N. A.
+AU  - Robie, R.
+AU  - Robinet, F.
+AU  - Rocchi, A.
+AU  - Rolland, L.
+AU  - Rollins, J. G.
+AU  - Roma, V. J.
+AU  - Romano, R.
+AU  - Romanov, G.
+AU  - Romie, J. H.
+AU  - Rosińska, D.
+AU  - Rowan, S.
+AU  - Rüdiger, A.
+AU  - Ruggi, P.
+AU  - Ryan, K.
+AU  - Sachdev, S.
+AU  - Sadecki, T.
+AU  - Sadeghian, L.
+AU  - Sakellariadou, M.
+AU  - Salconi, L.
+AU  - Saleem, M.
+AU  - Salemi, F.
+AU  - Samajdar, A.
+AU  - Sammut, L.
+AU  - Sanchez, E. J.
+AU  - Sandberg, V.
+AU  - Sandeen, B.
+AU  - Sanders, J. R.
+AU  - Sassolas, B.
+AU  - Saulson, P. R.
+AU  - Sauter, O. E. S.
+AU  - Savage, R. L.
+AU  - Sawadsky, A.
+AU  - Schale, P.
+AU  - Schilling, R.
+AU  - Schmidt, J.
+AU  - Schmidt, P.
+AU  - Schnabel, R.
+AU  - Schofield, R. M. S.
+AU  - Schönbeck, A.
+AU  - Schreiber, E.
+AU  - Schuette, D.
+AU  - Schutz, B. F.
+AU  - Scott, J.
+AU  - Scott, S. M.
+AU  - Sellers, D.
+AU  - Sengupta, A. S.
+AU  - Sentenac, D.
+AU  - Sequino, V.
+AU  - Sergeev, A.
+AU  - Setyawati, Y.
+AU  - Shaddock, D. A.
+AU  - Shaffer, T.
+AU  - Shahriar, M. S.
+AU  - Shaltev, M.
+AU  - Shapiro, B.
+AU  - Shawhan, P.
+AU  - Sheperd, A.
+AU  - Shoemaker, D. H.
+AU  - Shoemaker, D. M.
+AU  - Siellez, K.
+AU  - Siemens, X.
+AU  - Sieniawska, M.
+AU  - Sigg, D.
+AU  - Silva, A. D.
+AU  - Singer, A.
+AU  - Singer, L. P.
+AU  - Singh, A.
+AU  - Singh, R.
+AU  - Singhal, A.
+AU  - Sintes, A. M.
+AU  - Slagmolen, B. J. J.
+AU  - Smith, J. R.
+AU  - Smith, N. D.
+AU  - Smith, R. J. E.
+AU  - Son, E. J.
+AU  - Sorazu, B.
+AU  - Sorrentino, F.
+AU  - Souradeep, T.
+AU  - Srivastava, A. K.
+AU  - Staley, A.
+AU  - Steinke, M.
+AU  - Steinlechner, J.
+AU  - Steinlechner, S.
+AU  - Steinmeyer, D.
+AU  - Stephens, B. C.
+AU  - Stone, R.
+AU  - Strain, K. A.
+AU  - Straniero, N.
+AU  - Stratta, G.
+AU  - Strauss, N. A.
+AU  - Strigin, S.
+AU  - Sturani, R.
+AU  - Stuver, A. L.
+AU  - Summerscales, T. Z.
+AU  - Sun, L.
+AU  - Sunil, S.
+AU  - Sutton, P. J.
+AU  - Swinkels, B. L.
+AU  - Szczepańczyk, M. J.
+AU  - Tacca, M.
+AU  - Talukder, D.
+AU  - Tanner, D. B.
+AU  - Tápai, M.
+AU  - Tarabrin, S. P.
+AU  - Taracchini, A.
+AU  - Taylor, R.
+AU  - Theeg, T.
+AU  - Thirugnanasambandam, M. P.
+AU  - Thomas, E. G.
+AU  - Thomas, M.
+AU  - Thomas, P.
+AU  - Thorne, K. A.
+AU  - Thrane, E.
+AU  - Tiwari, S.
+AU  - Tiwari, V.
+AU  - Tokmakov, K. V.
+AU  - Toland, K.
+AU  - Tomlinson, C.
+AU  - Tonelli, M.
+AU  - Tornasi, Z.
+AU  - Torres, C. V.
+AU  - Torrie, C. I.
+AU  - Töyrä, D.
+AU  - Travasso, F.
+AU  - Traylor, G.
+AU  - Trifirò, D.
+AU  - Tringali, M. C.
+AU  - Trozzo, L.
+AU  - Tse, M.
+AU  - Turconi, M.
+AU  - Tuyenbayev, D.
+AU  - Ugolini, D.
+AU  - Unnikrishnan, C. S.
+AU  - Urban, A. L.
+AU  - Usman, S. A.
+AU  - Vahlbruch, H.
+AU  - Vajente, G.
+AU  - Valdes, G.
+AU  - van Bakel, N.
+AU  - van Beuzekom, M.
+AU  - van den Brand, J. F. J.
+AU  - Van Den Broeck, C.
+AU  - Vander-Hyde, D. C.
+AU  - van der Schaaf, L.
+AU  - van Heijningen, J. V.
+AU  - van Veggel, A. A.
+AU  - Vardaro, M.
+AU  - Vass, S.
+AU  - Vasúth, M.
+AU  - Vaulin, R.
+AU  - Vecchio, A.
+AU  - Vedovato, G.
+AU  - Veitch, J.
+AU  - Veitch, P. J.
+AU  - Venkateswara, K.
+AU  - Verkindt, D.
+AU  - Vetrano, F.
+AU  - Viceré, A.
+AU  - Vinciguerra, S.
+AU  - Vine, D. J.
+AU  - Vinet, J.-Y.
+AU  - Vitale, S.
+AU  - Vo, T.
+AU  - Vocca, H.
+AU  - Vorvick, C.
+AU  - Voss, D. V.
+AU  - Vousden, W. D.
+AU  - Vyatchanin, S. P.
+AU  - Wade, A. R.
+AU  - Wade, L. E.
+AU  - Wade, M.
+AU  - Walker, M.
+AU  - Wallace, L.
+AU  - Walsh, S.
+AU  - Wang, G.
+AU  - Wang, H.
+AU  - Wang, M.
+AU  - Wang, X.
+AU  - Wang, Y.
+AU  - Ward, R. L.
+AU  - Warner, J.
+AU  - Was, M.
+AU  - Weaver, B.
+AU  - Wei, L.-W.
+AU  - Weinert, M.
+AU  - Weinstein, A. J.
+AU  - Weiss, R.
+AU  - Wen, L.
+AU  - Weßels, P.
+AU  - Westphal, T.
+AU  - Wette, K.
+AU  - Whelan, J. T.
+AU  - Whiting, B. F.
+AU  - Williams, R. D.
+AU  - Williamson, A. R.
+AU  - Willis, J. L.
+AU  - Willke, B.
+AU  - Wimmer, M. H.
+AU  - Winkler, W.
+AU  - Wipf, C. C.
+AU  - Wittel, H.
+AU  - Woan, G.
+AU  - Woehler, J.
+AU  - Worden, J.
+AU  - Wright, J. L.
+AU  - Wu, D. S.
+AU  - Wu, G.
+AU  - Yablon, J.
+AU  - Yam, W.
+AU  - Yamamoto, H.
+AU  - Yancey, C. C.
+AU  - Yu, H.
+AU  - Yvert, M.
+AU  - Zadrożny, A.
+AU  - Zangrando, L.
+AU  - Zanolin, M.
+AU  - Zendri, J.-P.
+AU  - Zevin, M.
+AU  - Zhang, L.
+AU  - Zhang, M.
+AU  - Zhang, Y.
+AU  - Zhao, C.
+AU  - Zhou, M.
+AU  - Zhou, Z.
+AU  - Zhu, S. J.
+AU  - Zhu, X.
+AU  - Zucker, M. E.
+AU  - Zuraw, S. E.
+AU  - Zweizig, J.
+AU  - LIGO Scientific Collaboration and Virgo Collaboration
+T2  - Physical Review D
+DA  - 2016/11/18/
+PY  - 2016
+DO  - 10.1103/PhysRevD.94.102002
+DP  - DOI.org (Crossref)
+VL  - 94
+IS  - 10
+SP  - 102002
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.94.102002
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/pdf/10.1103/PhysRevD.94.102002
+ER  - 
+
+TY  - JOUR
+TI  - PSR J1906+0722: AN ELUSIVE GAMMA-RAY PULSAR
+AU  - Clark, C. J.
+AU  - Pletsch, H. J.
+AU  - Wu, J.
+AU  - Guillemot, L.
+AU  - Ackermann, M.
+AU  - Allen, B.
+AU  - Angelis, A. de
+AU  - Aulbert, C.
+AU  - Baldini, L.
+AU  - Ballet, J.
+AU  - Barbiellini, G.
+AU  - Bastieri, D.
+AU  - Bellazzini, R.
+AU  - Bissaldi, E.
+AU  - Bock, O.
+AU  - Bonino, R.
+AU  - Bottacini, E.
+AU  - Brandt, T. J.
+AU  - Bregeon, J.
+AU  - Bruel, P.
+AU  - Buson, S.
+AU  - Caliandro, G. A.
+AU  - Cameron, R. A.
+AU  - Caragiulo, M.
+AU  - Caraveo, P. A.
+AU  - Cecchi, C.
+AU  - Champion, D. J.
+AU  - Charles, E.
+AU  - Chekhtman, A.
+AU  - Chiang, J.
+AU  - Chiaro, G.
+AU  - Ciprini, S.
+AU  - Claus, R.
+AU  - Cohen-Tanugi, J.
+AU  - Cuéllar, A.
+AU  - Cutini, S.
+AU  - D’Ammando, F.
+AU  - Desiante, R.
+AU  - Drell, P. S.
+AU  - Eggenstein, H. B.
+AU  - Favuzzi, C.
+AU  - Fehrmann, H.
+AU  - Ferrara, E. C.
+AU  - Focke, W. B.
+AU  - Franckowiak, A.
+AU  - Fusco, P.
+AU  - Gargano, F.
+AU  - Gasparrini, D.
+AU  - Giglietto, N.
+AU  - Giordano, F.
+AU  - Glanzman, T.
+AU  - Godfrey, G.
+AU  - Grenier, I. A.
+AU  - Grove, J. E.
+AU  - Guiriec, S.
+AU  - Harding, A. K.
+AU  - Hays, E.
+AU  - Hewitt, J. W.
+AU  - Hill, A. B.
+AU  - Horan, D.
+AU  - Hou, X.
+AU  - Jogler, T.
+AU  - Johnson, A. S.
+AU  - Jóhannesson, G.
+AU  - Kramer, M.
+AU  - Krauss, F.
+AU  - Kuss, M.
+AU  - Laffon, H.
+AU  - Larsson, S.
+AU  - Latronico, L.
+AU  - Li, J.
+AU  - Li, L.
+AU  - Longo, F.
+AU  - Loparco, F.
+AU  - Lovellette, M. N.
+AU  - Lubrano, P.
+AU  - Machenschalk, B.
+AU  - Manfreda, A.
+AU  - Marelli, M.
+AU  - Mayer, M.
+AU  - Mazziotta, M. N.
+AU  - Michelson, P. F.
+AU  - Mizuno, T.
+AU  - Monzani, M. E.
+AU  - Morselli, A.
+AU  - Moskalenko, I. V.
+AU  - Murgia, S.
+AU  - Nuss, E.
+AU  - Ohsugi, T.
+AU  - Orienti, M.
+AU  - Orlando, E.
+AU  - Palma, F. de
+AU  - Paneque, D.
+AU  - Pesce-Rollins, M.
+AU  - Piron, F.
+AU  - Pivato, G.
+AU  - Rainò, S.
+AU  - Rando, R.
+AU  - Razzano, M.
+AU  - Reimer, A.
+AU  - Parkinson, P. M. Saz
+AU  - Schaal, M.
+AU  - Schulz, A.
+AU  - Sgrò, C.
+AU  - Siskind, E. J.
+AU  - Spada, F.
+AU  - Spandre, G.
+AU  - Spinelli, P.
+AU  - Suson, D. J.
+AU  - Takahashi, H.
+AU  - Thayer, J. B.
+AU  - Tibaldo, L.
+AU  - Torne, P.
+AU  - Torres, D. F.
+AU  - Tosti, G.
+AU  - Troja, E.
+AU  - Vianello, G.
+AU  - Wood, K. S.
+AU  - Wood, M.
+AU  - Yassine, M.
+T2  - The Astrophysical Journal
+DA  - 2015/08/04/
+PY  - 2015
+DO  - 10.1088/2041-8205/809/1/L2
+DP  - DOI.org (Crossref)
+VL  - 809
+IS  - 1
+SP  - L2
+J2  - ApJ
+SN  - 2041-8213
+ST  - PSR J1906+0722
+UR  - https://iopscience.iop.org/article/10.1088/2041-8205/809/1/L2
+Y2  - 2022/11/13/19:50:55
+L1  - https://bib-pubdb1.desy.de/record/293263/files/AJL809.pdf
+ER  - 
+
+TY  - JOUR
+TI  - <i>Einstein@Home</i> DISCOVERY OF A PALFA MILLISECOND PULSAR IN AN ECCENTRIC BINARY ORBIT
+AU  - Knispel, B.
+AU  - Lyne, A. G.
+AU  - Stappers, B. W.
+AU  - Freire, P. C. C.
+AU  - Lazarus, P.
+AU  - Allen, B.
+AU  - Aulbert, C.
+AU  - Bock, O.
+AU  - Bogdanov, S.
+AU  - Brazier, A.
+AU  - Camilo, F.
+AU  - Cardoso, F.
+AU  - Chatterjee, S.
+AU  - Cordes, J. M.
+AU  - Crawford, F.
+AU  - Deneva, J. S.
+AU  - Eggenstein, H.-B.
+AU  - Fehrmann, H.
+AU  - Ferdman, R.
+AU  - Hessels, J. W. T.
+AU  - Jenet, F. A.
+AU  - Karako-Argaman, C.
+AU  - Kaspi, V. M.
+AU  - van Leeuwen, J.
+AU  - Lorimer, D. R.
+AU  - Lynch, R.
+AU  - Machenschalk, B.
+AU  - Madsen, E.
+AU  - McLaughlin, M. A.
+AU  - Patel, C.
+AU  - Ransom, S. M.
+AU  - Scholz, P.
+AU  - Siemens, X.
+AU  - Spitler, L. G.
+AU  - Stairs, I. H.
+AU  - Stovall, K.
+AU  - Swiggum, J. K.
+AU  - Venkataraman, A.
+AU  - Wharton, R. S.
+AU  - Zhu, W. W.
+T2  - The Astrophysical Journal
+DA  - 2015/06/12/
+PY  - 2015
+DO  - 10.1088/0004-637X/806/1/140
+DP  - DOI.org (Crossref)
+VL  - 806
+IS  - 1
+SP  - 140
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/806/1/140
+Y2  - 2022/11/13/19:50:55
+L1  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1136&context=pa_fac
+ER  - 
+
+TY  - JOUR
+TI  - Fully coherent follow-up of continuous gravitational-wave candidates: An application to Einstein@Home results
+AU  - Shaltev, M.
+AU  - Leaci, P.
+AU  - Papa, M. A.
+AU  - Prix, R.
+T2  - Physical Review D
+DA  - 2014/06/25/
+PY  - 2014
+DO  - 10.1103/PhysRevD.89.124030
+DP  - DOI.org (Crossref)
+VL  - 89
+IS  - 12
+SP  - 124030
+J2  - Phys. Rev. D
+LA  - en
+SN  - 1550-7998, 1550-2368
+ST  - Fully coherent follow-up of continuous gravitational-wave candidates
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.89.124030
+Y2  - 2022/11/13/19:50:55
+L1  - https://arxiv.org/pdf/1405.1922
+ER  - 
+
+TY  - JOUR
+TI  - EINSTEIN@HOME DISCOVERY OF FOUR YOUNG GAMMA-RAY PULSARS IN <i>FERMI</i> LAT DATA
+AU  - Pletsch, H. J.
+AU  - Guillemot, L.
+AU  - Allen, B.
+AU  - Anderson, D.
+AU  - Aulbert, C.
+AU  - Bock, O.
+AU  - Champion, D. J.
+AU  - Eggenstein, H. B.
+AU  - Fehrmann, H.
+AU  - Hammer, D.
+AU  - Karuppusamy, R.
+AU  - Keith, M.
+AU  - Kramer, M.
+AU  - Machenschalk, B.
+AU  - Ng, C.
+AU  - Papa, M. A.
+AU  - Ray, P. S.
+AU  - Siemens, X.
+T2  - The Astrophysical Journal
+DA  - 2013/11/26/
+PY  - 2013
+DO  - 10.1088/2041-8205/779/1/L11
+DP  - DOI.org (Crossref)
+VL  - 779
+IS  - 1
+SP  - L11
+J2  - ApJ
+SN  - 2041-8205, 2041-8213
+UR  - https://iopscience.iop.org/article/10.1088/2041-8205/779/1/L11
+Y2  - 2022/11/13/19:50:55
+L1  - https://arxiv.org/pdf/1311.6427
+ER  - 
+
+TY  - JOUR
+TI  - <i>EINSTEIN@HOME</i> DISCOVERY OF 24 PULSARS IN THE PARKES MULTI-BEAM PULSAR SURVEY
+AU  - Knispel, B.
+AU  - Eatough, R. P.
+AU  - Kim, H.
+AU  - Keane, E. F.
+AU  - Allen, B.
+AU  - Anderson, D.
+AU  - Aulbert, C.
+AU  - Bock, O.
+AU  - Crawford, F.
+AU  - Eggenstein, H.-B.
+AU  - Fehrmann, H.
+AU  - Hammer, D.
+AU  - Kramer, M.
+AU  - Lyne, A. G.
+AU  - Machenschalk, B.
+AU  - Miller, R. B.
+AU  - Papa, M. A.
+AU  - Rastawicki, D.
+AU  - Sarkissian, J.
+AU  - Siemens, X.
+AU  - Stappers, B. W.
+T2  - The Astrophysical Journal
+DA  - 2013/08/20/
+PY  - 2013
+DO  - 10.1088/0004-637X/774/2/93
+DP  - DOI.org (Crossref)
+VL  - 774
+IS  - 2
+SP  - 93
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/774/2/93
+Y2  - 2022/11/13/19:50:55
+L1  - https://arxiv.org/pdf/1302.0467
+ER  - 
+
+TY  - JOUR
+TI  - THE <i>EINSTEIN@HOME</i> SEARCH FOR RADIO PULSARS AND PSR J2007+2722 DISCOVERY
+AU  - Allen, B.
+AU  - Knispel, B.
+AU  - Cordes, J. M.
+AU  - Deneva, J. S.
+AU  - Hessels, J. W. T.
+AU  - Anderson, D.
+AU  - Aulbert, C.
+AU  - Bock, O.
+AU  - Brazier, A.
+AU  - Chatterjee, S.
+AU  - Demorest, P. B.
+AU  - Eggenstein, H. B.
+AU  - Fehrmann, H.
+AU  - Gotthelf, E. V.
+AU  - Hammer, D.
+AU  - Kaspi, V. M.
+AU  - Kramer, M.
+AU  - Lyne, A. G.
+AU  - Machenschalk, B.
+AU  - McLaughlin, M. A.
+AU  - Messenger, C.
+AU  - Pletsch, H. J.
+AU  - Ransom, S. M.
+AU  - Stairs, I. H.
+AU  - Stappers, B. W.
+AU  - Bhat, N. D. R.
+AU  - Bogdanov, S.
+AU  - Camilo, F.
+AU  - Champion, D. J.
+AU  - Crawford, F.
+AU  - Desvignes, G.
+AU  - Freire, P. C. C.
+AU  - Heald, G.
+AU  - Jenet, F. A.
+AU  - Lazarus, P.
+AU  - Lee, K. J.
+AU  - van Leeuwen, J.
+AU  - Lynch, R.
+AU  - Papa, M. A.
+AU  - Prix, R.
+AU  - Rosen, R.
+AU  - Scholz, P.
+AU  - Siemens, X.
+AU  - Stovall, K.
+AU  - Venkataraman, A.
+AU  - Zhu, W.
+T2  - The Astrophysical Journal
+DA  - 2013/07/29/
+PY  - 2013
+DO  - 10.1088/0004-637X/773/2/91
+DP  - DOI.org (Crossref)
+VL  - 773
+IS  - 2
+SP  - 91
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/773/2/91
+Y2  - 2022/11/13/19:50:55
+L1  - https://pure.uva.nl/ws/files/2071690/147756_The_Einstein_Home.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Einstein@Home all-sky search for periodic gravitational waves in LIGO S5 data
+AU  - Aasi, J.
+AU  - Abadie, J.
+AU  - Abbott, B. P.
+AU  - Abbott, R.
+AU  - Abbott, T. D.
+AU  - Abernathy, M.
+AU  - Accadia, T.
+AU  - Acernese, F.
+AU  - Adams, C.
+AU  - Adams, T.
+AU  - Addesso, P.
+AU  - Adhikari, R.
+AU  - Affeldt, C.
+AU  - Agathos, M.
+AU  - Agatsuma, K.
+AU  - Ajith, P.
+AU  - Allen, B.
+AU  - Allocca, A.
+AU  - Amador Ceron, E.
+AU  - Amariutei, D.
+AU  - Anderson, S. B.
+AU  - Anderson, W. G.
+AU  - Arai, K.
+AU  - Araya, M. C.
+AU  - Ast, S.
+AU  - Aston, S. M.
+AU  - Astone, P.
+AU  - Atkinson, D.
+AU  - Aufmuth, P.
+AU  - Aulbert, C.
+AU  - Aylott, B. E.
+AU  - Babak, S.
+AU  - Baker, P.
+AU  - Ballardin, G.
+AU  - Ballmer, S.
+AU  - Bao, Y.
+AU  - Barayoga, J. C. B.
+AU  - Barker, D.
+AU  - Barone, F.
+AU  - Barr, B.
+AU  - Barsotti, L.
+AU  - Barsuglia, M.
+AU  - Barton, M. A.
+AU  - Bartos, I.
+AU  - Bassiri, R.
+AU  - Bastarrika, M.
+AU  - Basti, A.
+AU  - Batch, J.
+AU  - Bauchrowitz, J.
+AU  - Bauer, Th. S.
+AU  - Bebronne, M.
+AU  - Beck, D.
+AU  - Behnke, B.
+AU  - Bejger, M.
+AU  - Beker, M. G.
+AU  - Bell, A. S.
+AU  - Bell, C.
+AU  - Belopolski, I.
+AU  - Benacquista, M.
+AU  - Berliner, J. M.
+AU  - Bertolini, A.
+AU  - Betzwieser, J.
+AU  - Beveridge, N.
+AU  - Beyersdorf, P. T.
+AU  - Bhadbade, T.
+AU  - Bilenko, I. A.
+AU  - Billingsley, G.
+AU  - Birch, J.
+AU  - Biswas, R.
+AU  - Bitossi, M.
+AU  - Bizouard, M. A.
+AU  - Black, E.
+AU  - Blackburn, J. K.
+AU  - Blackburn, L.
+AU  - Blair, D.
+AU  - Bland, B.
+AU  - Blom, M.
+AU  - Bock, O.
+AU  - Bodiya, T. P.
+AU  - Bogan, C.
+AU  - Bond, C.
+AU  - Bondarescu, R.
+AU  - Bondu, F.
+AU  - Bonelli, L.
+AU  - Bonnand, R.
+AU  - Bork, R.
+AU  - Born, M.
+AU  - Boschi, V.
+AU  - Bose, S.
+AU  - Bosi, L.
+AU  - Bouhou, B.
+AU  - Braccini, S.
+AU  - Bradaschia, C.
+AU  - Brady, P. R.
+AU  - Braginsky, V. B.
+AU  - Branchesi, M.
+AU  - Brau, J. E.
+AU  - Breyer, J.
+AU  - Briant, T.
+AU  - Bridges, D. O.
+AU  - Brillet, A.
+AU  - Brinkmann, M.
+AU  - Brisson, V.
+AU  - Britzger, M.
+AU  - Brooks, A. F.
+AU  - Brown, D. A.
+AU  - Bulik, T.
+AU  - Bulten, H. J.
+AU  - Buonanno, A.
+AU  - Burguet-Castell, J.
+AU  - Buskulic, D.
+AU  - Buy, C.
+AU  - Byer, R. L.
+AU  - Cadonati, L.
+AU  - Cagnoli, G.
+AU  - Cagnoli, G.
+AU  - Calloni, E.
+AU  - Camp, J. B.
+AU  - Campsie, P.
+AU  - Cannon, K.
+AU  - Canuel, B.
+AU  - Cao, J.
+AU  - Capano, C. D.
+AU  - Carbognani, F.
+AU  - Carbone, L.
+AU  - Caride, S.
+AU  - Caudill, S.
+AU  - Cavaglià, M.
+AU  - Cavalier, F.
+AU  - Cavalieri, R.
+AU  - Cella, G.
+AU  - Cepeda, C.
+AU  - Cesarini, E.
+AU  - Chalermsongsak, T.
+AU  - Charlton, P.
+AU  - Chassande-Mottin, E.
+AU  - Chen, W.
+AU  - Chen, X.
+AU  - Chen, Y.
+AU  - Chincarini, A.
+AU  - Chiummo, A.
+AU  - Cho, H. S.
+AU  - Chow, J.
+AU  - Christensen, N.
+AU  - Chua, S. S. Y.
+AU  - Chung, C. T. Y.
+AU  - Chung, S.
+AU  - Ciani, G.
+AU  - Clara, F.
+AU  - Clark, D. E.
+AU  - Clark, J. A.
+AU  - Clayton, J. H.
+AU  - Cleva, F.
+AU  - Coccia, E.
+AU  - Cohadon, P.-F.
+AU  - Colacino, C. N.
+AU  - Colla, A.
+AU  - Colombini, M.
+AU  - Conte, A.
+AU  - Conte, R.
+AU  - Cook, D.
+AU  - Corbitt, T. R.
+AU  - Cordier, M.
+AU  - Cornish, N.
+AU  - Corsi, A.
+AU  - Costa, C. A.
+AU  - Coughlin, M.
+AU  - Coulon, J.-P.
+AU  - Couvares, P.
+AU  - Coward, D. M.
+AU  - Cowart, M.
+AU  - Coyne, D. C.
+AU  - Creighton, J. D. E.
+AU  - Creighton, T. D.
+AU  - Cruise, A. M.
+AU  - Cumming, A.
+AU  - Cunningham, L.
+AU  - Cuoco, E.
+AU  - Cutler, R. M.
+AU  - Dahl, K.
+AU  - Damjanic, M.
+AU  - Danilishin, S. L.
+AU  - D’Antonio, S.
+AU  - Danzmann, K.
+AU  - Dattilo, V.
+AU  - Daudert, B.
+AU  - Daveloza, H.
+AU  - Davier, M.
+AU  - Daw, E. J.
+AU  - Day, R.
+AU  - Dayanga, T.
+AU  - De Rosa, R.
+AU  - DeBra, D.
+AU  - Debreczeni, G.
+AU  - Degallaix, J.
+AU  - Del Pozzo, W.
+AU  - Dent, T.
+AU  - Dergachev, V.
+AU  - DeRosa, R.
+AU  - Dhurandhar, S.
+AU  - Di Fiore, L.
+AU  - Di Lieto, A.
+AU  - Di Palma, I.
+AU  - Di Paolo Emilio, M.
+AU  - Di Virgilio, A.
+AU  - Díaz, M.
+AU  - Dietz, A.
+AU  - Dietz, A.
+AU  - Donovan, F.
+AU  - Dooley, K. L.
+AU  - Doravari, S.
+AU  - Dorsher, S.
+AU  - Drago, M.
+AU  - Drever, R. W. P.
+AU  - Driggers, J. C.
+AU  - Du, Z.
+AU  - Dumas, J.-C.
+AU  - Dwyer, S.
+AU  - Eberle, T.
+AU  - Edgar, M.
+AU  - Edwards, M.
+AU  - Effler, A.
+AU  - Ehrens, P.
+AU  - Endrőczi, G.
+AU  - Engel, R.
+AU  - Etzel, T.
+AU  - Evans, K.
+AU  - Evans, M.
+AU  - Evans, T.
+AU  - Factourovich, M.
+AU  - Fafone, V.
+AU  - Fairhurst, S.
+AU  - Farr, B. F.
+AU  - Favata, M.
+AU  - Fazi, D.
+AU  - Fehrmann, H.
+AU  - Feldbaum, D.
+AU  - Ferrante, I.
+AU  - Ferrini, F.
+AU  - Fidecaro, F.
+AU  - Finn, L. S.
+AU  - Fiori, I.
+AU  - Fisher, R. P.
+AU  - Flaminio, R.
+AU  - Foley, S.
+AU  - Forsi, E.
+AU  - Fotopoulos, N.
+AU  - Fournier, J.-D.
+AU  - Franc, J.
+AU  - Franco, S.
+AU  - Frasca, S.
+AU  - Frasconi, F.
+AU  - Frede, M.
+AU  - Frei, M. A.
+AU  - Frei, Z.
+AU  - Freise, A.
+AU  - Frey, R.
+AU  - Fricke, T. T.
+AU  - Friedrich, D.
+AU  - Fritschel, P.
+AU  - Frolov, V. V.
+AU  - Fujimoto, M.-K.
+AU  - Fulda, P. J.
+AU  - Fyffe, M.
+AU  - Gair, J.
+AU  - Galimberti, M.
+AU  - Gammaitoni, L.
+AU  - Garcia, J.
+AU  - Garufi, F.
+AU  - Gáspár, M. E.
+AU  - Gelencser, G.
+AU  - Gemme, G.
+AU  - Genin, E.
+AU  - Gennai, A.
+AU  - Gergely, L. Á.
+AU  - Ghosh, S.
+AU  - Giaime, J. A.
+AU  - Giampanis, S.
+AU  - Giardina, K. D.
+AU  - Giazotto, A.
+AU  - Gil-Casanova, S.
+AU  - Gill, C.
+AU  - Gleason, J.
+AU  - Goetz, E.
+AU  - González, G.
+AU  - Gorodetsky, M. L.
+AU  - Goßler, S.
+AU  - Gouaty, R.
+AU  - Graef, C.
+AU  - Graff, P. B.
+AU  - Granata, M.
+AU  - Grant, A.
+AU  - Gray, C.
+AU  - Greenhalgh, R. J. S.
+AU  - Gretarsson, A. M.
+AU  - Griffo, C.
+AU  - Grote, H.
+AU  - Grover, K.
+AU  - Grunewald, S.
+AU  - Guidi, G. M.
+AU  - Guido, C.
+AU  - Gupta, R.
+AU  - Gustafson, E. K.
+AU  - Gustafson, R.
+AU  - Hallam, J. M.
+AU  - Hammer, D.
+AU  - Hammond, G.
+AU  - Hanks, J.
+AU  - Hanna, C.
+AU  - Hanson, J.
+AU  - Harms, J.
+AU  - Harry, G. M.
+AU  - Harry, I. W.
+AU  - Harstad, E. D.
+AU  - Hartman, M. T.
+AU  - Haughian, K.
+AU  - Hayama, K.
+AU  - Hayau, J.-F.
+AU  - Heefner, J.
+AU  - Heidmann, A.
+AU  - Heitmann, H.
+AU  - Hello, P.
+AU  - Hendry, M. A.
+AU  - Heng, I. S.
+AU  - Heptonstall, A. W.
+AU  - Herrera, V.
+AU  - Heurs, M.
+AU  - Hewitson, M.
+AU  - Hild, S.
+AU  - Hoak, D.
+AU  - Hodge, K. A.
+AU  - Holt, K.
+AU  - Holtrop, M.
+AU  - Hong, T.
+AU  - Hooper, S.
+AU  - Hough, J.
+AU  - Howell, E. J.
+AU  - Hughey, B.
+AU  - Husa, S.
+AU  - Huttner, S. H.
+AU  - Huynh-Dinh, T.
+AU  - Ingram, D. R.
+AU  - Inta, R.
+AU  - Isogai, T.
+AU  - Ivanov, A.
+AU  - Izumi, K.
+AU  - Jacobson, M.
+AU  - James, E.
+AU  - Jang, Y. J.
+AU  - Jaranowski, P.
+AU  - Jesse, E.
+AU  - Johnson, W. W.
+AU  - Jones, D. I.
+AU  - Jones, R.
+AU  - Jonker, R. J. G.
+AU  - Ju, L.
+AU  - Kalmus, P.
+AU  - Kalogera, V.
+AU  - Kandhasamy, S.
+AU  - Kang, G.
+AU  - Kanner, J. B.
+AU  - Kasprzack, M.
+AU  - Kasturi, R.
+AU  - Katsavounidis, E.
+AU  - Katzman, W.
+AU  - Kaufer, H.
+AU  - Kaufman, K.
+AU  - Kawabe, K.
+AU  - Kawamura, S.
+AU  - Kawazoe, F.
+AU  - Keitel, D.
+AU  - Kelley, D.
+AU  - Kells, W.
+AU  - Keppel, D. G.
+AU  - Keresztes, Z.
+AU  - Khalaidovski, A.
+AU  - Khalili, F. Y.
+AU  - Khazanov, E. A.
+AU  - Kim, B. K.
+AU  - Kim, C.
+AU  - Kim, H.
+AU  - Kim, K.
+AU  - Kim, N.
+AU  - Kim, Y. M.
+AU  - King, P. J.
+AU  - Kinzel, D. L.
+AU  - Kissel, J. S.
+AU  - Klimenko, S.
+AU  - Kline, J.
+AU  - Kokeyama, K.
+AU  - Kondrashov, V.
+AU  - Koranda, S.
+AU  - Korth, W. Z.
+AU  - Kowalska, I.
+AU  - Kozak, D.
+AU  - Kringel, V.
+AU  - Krishnan, B.
+AU  - Królak, A.
+AU  - Kuehn, G.
+AU  - Kumar, P.
+AU  - Kumar, R.
+AU  - Kurdyumov, R.
+AU  - Kwee, P.
+AU  - Lam, P. K.
+AU  - Landry, M.
+AU  - Langley, A.
+AU  - Lantz, B.
+AU  - Lastzka, N.
+AU  - Lawrie, C.
+AU  - Lazzarini, A.
+AU  - Leaci, P.
+AU  - Lee, C. H.
+AU  - Lee, H. K.
+AU  - Lee, H. M.
+AU  - Leong, J. R.
+AU  - Leonor, I.
+AU  - Leroy, N.
+AU  - Letendre, N.
+AU  - Lhuillier, V.
+AU  - Li, J.
+AU  - Li, T. G. F.
+AU  - Lindquist, P. E.
+AU  - Litvine, V.
+AU  - Liu, Y.
+AU  - Liu, Z.
+AU  - Lockerbie, N. A.
+AU  - Lodhia, D.
+AU  - Logue, J.
+AU  - Lorenzini, M.
+AU  - Loriette, V.
+AU  - Lormand, M.
+AU  - Losurdo, G.
+AU  - Lough, J.
+AU  - Lubinski, M.
+AU  - Lück, H.
+AU  - Lundgren, A. P.
+AU  - Macarthur, J.
+AU  - Macdonald, E.
+AU  - Machenschalk, B.
+AU  - MacInnis, M.
+AU  - Macleod, D. M.
+AU  - Mageswaran, M.
+AU  - Mailand, K.
+AU  - Majorana, E.
+AU  - Maksimovic, I.
+AU  - Malvezzi, V.
+AU  - Man, N.
+AU  - Mandel, I.
+AU  - Mandic, V.
+AU  - Mantovani, M.
+AU  - Marchesoni, F.
+AU  - Marion, F.
+AU  - Márka, S.
+AU  - Márka, Z.
+AU  - Markosyan, A.
+AU  - Maros, E.
+AU  - Marque, J.
+AU  - Martelli, F.
+AU  - Martin, I. W.
+AU  - Martin, R. M.
+AU  - Marx, J. N.
+AU  - Mason, K.
+AU  - Masserot, A.
+AU  - Matichard, F.
+AU  - Matone, L.
+AU  - Matzner, R. A.
+AU  - Mavalvala, N.
+AU  - Mazzolo, G.
+AU  - McCarthy, R.
+AU  - McClelland, D. E.
+AU  - McGuire, S. C.
+AU  - McIntyre, G.
+AU  - McIver, J.
+AU  - Meadors, G. D.
+AU  - Mehmet, M.
+AU  - Meier, T.
+AU  - Melatos, A.
+AU  - Melissinos, A. C.
+AU  - Mendell, G.
+AU  - Menéndez, D. F.
+AU  - Mercer, R. A.
+AU  - Meshkov, S.
+AU  - Messenger, C.
+AU  - Meyer, M. S.
+AU  - Miao, H.
+AU  - Michel, C.
+AU  - Milano, L.
+AU  - Miller, J.
+AU  - Minenkov, Y.
+AU  - Mingarelli, C. M. F.
+AU  - Mitrofanov, V. P.
+AU  - Mitselmakher, G.
+AU  - Mittleman, R.
+AU  - Moe, B.
+AU  - Mohan, M.
+AU  - Mohapatra, S. R. P.
+AU  - Moraru, D.
+AU  - Moreno, G.
+AU  - Morgado, N.
+AU  - Morgia, A.
+AU  - Mori, T.
+AU  - Morriss, S. R.
+AU  - Mosca, S.
+AU  - Mossavi, K.
+AU  - Mours, B.
+AU  - Mow-Lowry, C. M.
+AU  - Mueller, C. L.
+AU  - Mueller, G.
+AU  - Mukherjee, S.
+AU  - Mullavey, A.
+AU  - Müller-Ebhardt, H.
+AU  - Munch, J.
+AU  - Murphy, D.
+AU  - Murray, P. G.
+AU  - Mytidis, A.
+AU  - Nash, T.
+AU  - Naticchioni, L.
+AU  - Necula, V.
+AU  - Nelson, J.
+AU  - Neri, I.
+AU  - Newton, G.
+AU  - Nguyen, T.
+AU  - Nishizawa, A.
+AU  - Nitz, A.
+AU  - Nocera, F.
+AU  - Nolting, D.
+AU  - Normandin, M. E.
+AU  - Nuttall, L.
+AU  - Ochsner, E.
+AU  - O’Dell, J.
+AU  - Oelker, E.
+AU  - Ogin, G. H.
+AU  - Oh, J. J.
+AU  - Oh, S. H.
+AU  - Oldenberg, R. G.
+AU  - O’Reilly, B.
+AU  - O’Shaughnessy, R.
+AU  - Osthelder, C.
+AU  - Ott, C. D.
+AU  - Ottaway, D. J.
+AU  - Ottens, R. S.
+AU  - Overmier, H.
+AU  - Owen, B. J.
+AU  - Page, A.
+AU  - Palladino, L.
+AU  - Palomba, C.
+AU  - Pan, Y.
+AU  - Paoletti, F.
+AU  - Paoletti, R.
+AU  - Papa, M. A.
+AU  - Parisi, M.
+AU  - Pasqualetti, A.
+AU  - Passaquieti, R.
+AU  - Passuello, D.
+AU  - Pedraza, M.
+AU  - Penn, S.
+AU  - Perreca, A.
+AU  - Persichetti, G.
+AU  - Phelps, M.
+AU  - Pichot, M.
+AU  - Pickenpack, M.
+AU  - Piergiovanni, F.
+AU  - Pierro, V.
+AU  - Pihlaja, M.
+AU  - Pinard, L.
+AU  - Pinto, I. M.
+AU  - Pitkin, M.
+AU  - Pletsch, H. J.
+AU  - Plissi, M. V.
+AU  - Poggiani, R.
+AU  - Pöld, J.
+AU  - Postiglione, F.
+AU  - Poux, C.
+AU  - Prato, M.
+AU  - Predoi, V.
+AU  - Prestegard, T.
+AU  - Price, L. R.
+AU  - Prijatelj, M.
+AU  - Principe, M.
+AU  - Privitera, S.
+AU  - Prix, R.
+AU  - Prodi, G. A.
+AU  - Prokhorov, L. G.
+AU  - Puncken, O.
+AU  - Punturo, M.
+AU  - Puppo, P.
+AU  - Quetschke, V.
+AU  - Quitzow-James, R.
+AU  - Raab, F. J.
+AU  - Rabeling, D. S.
+AU  - Rácz, I.
+AU  - Radkins, H.
+AU  - Raffai, P.
+AU  - Rakhmanov, M.
+AU  - Ramet, C.
+AU  - Rankins, B.
+AU  - Rapagnani, P.
+AU  - Raymond, V.
+AU  - Re, V.
+AU  - Reed, C. M.
+AU  - Reed, T.
+AU  - Regimbau, T.
+AU  - Reid, S.
+AU  - Reitze, D. H.
+AU  - Ricci, F.
+AU  - Riesen, R.
+AU  - Riles, K.
+AU  - Roberts, M.
+AU  - Robertson, N. A.
+AU  - Robinet, F.
+AU  - Robinson, C.
+AU  - Robinson, E. L.
+AU  - Rocchi, A.
+AU  - Roddy, S.
+AU  - Rodriguez, C.
+AU  - Rodruck, M.
+AU  - Rolland, L.
+AU  - Rollins, J. G.
+AU  - Romano, J. D.
+AU  - Romano, R.
+AU  - Romie, J. H.
+AU  - Rosińska, D.
+AU  - Röver, C.
+AU  - Rowan, S.
+AU  - Rüdiger, A.
+AU  - Ruggi, P.
+AU  - Ryan, K.
+AU  - Salemi, F.
+AU  - Sammut, L.
+AU  - Sandberg, V.
+AU  - Sankar, S.
+AU  - Sannibale, V.
+AU  - Santamaría, L.
+AU  - Santiago-Prieto, I.
+AU  - Santostasi, G.
+AU  - Saracco, E.
+AU  - Sathyaprakash, B. S.
+AU  - Saulson, P. R.
+AU  - Savage, R. L.
+AU  - Schilling, R.
+AU  - Schnabel, R.
+AU  - Schofield, R. M. S.
+AU  - Schulz, B.
+AU  - Schutz, B. F.
+AU  - Schwinberg, P.
+AU  - Scott, J.
+AU  - Scott, S. M.
+AU  - Seifert, F.
+AU  - Sellers, D.
+AU  - Sentenac, D.
+AU  - Sergeev, A.
+AU  - Shaddock, D. A.
+AU  - Shaltev, M.
+AU  - Shapiro, B.
+AU  - Shawhan, P.
+AU  - Shoemaker, D. H.
+AU  - Sidery, T. L.
+AU  - Siemens, X.
+AU  - Sigg, D.
+AU  - Simakov, D.
+AU  - Singer, A.
+AU  - Singer, L.
+AU  - Sintes, A. M.
+AU  - Skelton, G. R.
+AU  - Slagmolen, B. J. J.
+AU  - Slutsky, J.
+AU  - Smith, J. R.
+AU  - Smith, M. R.
+AU  - Smith, R. J. E.
+AU  - Smith-Lefebvre, N. D.
+AU  - Somiya, K.
+AU  - Sorazu, B.
+AU  - Speirits, F. C.
+AU  - Sperandio, L.
+AU  - Stefszky, M.
+AU  - Steinert, E.
+AU  - Steinlechner, J.
+AU  - Steinlechner, S.
+AU  - Steplewski, S.
+AU  - Stochino, A.
+AU  - Stone, R.
+AU  - Strain, K. A.
+AU  - Strigin, S. E.
+AU  - Stroeer, A. S.
+AU  - Sturani, R.
+AU  - Stuver, A. L.
+AU  - Summerscales, T. Z.
+AU  - Sung, M.
+AU  - Susmithan, S.
+AU  - Sutton, P. J.
+AU  - Swinkels, B.
+AU  - Szeifert, G.
+AU  - Tacca, M.
+AU  - Taffarello, L.
+AU  - Talukder, D.
+AU  - Tanner, D. B.
+AU  - Tarabrin, S. P.
+AU  - Taylor, R.
+AU  - ter Braack, A. P. M.
+AU  - Thomas, P.
+AU  - Thorne, K. A.
+AU  - Thorne, K. S.
+AU  - Thrane, E.
+AU  - Thüring, A.
+AU  - Titsler, C.
+AU  - Tokmakov, K. V.
+AU  - Tomlinson, C.
+AU  - Toncelli, A.
+AU  - Tonelli, M.
+AU  - Torre, O.
+AU  - Torres, C. V.
+AU  - Torrie, C. I.
+AU  - Tournefier, E.
+AU  - Travasso, F.
+AU  - Traylor, G.
+AU  - Tse, M.
+AU  - Ugolini, D.
+AU  - Vahlbruch, H.
+AU  - Vajente, G.
+AU  - van den Brand, J. F. J.
+AU  - Van Den Broeck, C.
+AU  - van der Putten, S.
+AU  - van Veggel, A. A.
+AU  - Vass, S.
+AU  - Vasuth, M.
+AU  - Vaulin, R.
+AU  - Vavoulidis, M.
+AU  - Vecchio, A.
+AU  - Vedovato, G.
+AU  - Veitch, J.
+AU  - Veitch, P. J.
+AU  - Venkateswara, K.
+AU  - Verkindt, D.
+AU  - Vetrano, F.
+AU  - Viceré, A.
+AU  - Villar, A. E.
+AU  - Vinet, J.-Y.
+AU  - Vitale, S.
+AU  - Vocca, H.
+AU  - Vorvick, C.
+AU  - Vyatchanin, S. P.
+AU  - Wade, A.
+AU  - Wade, L.
+AU  - Wade, M.
+AU  - Waldman, S. J.
+AU  - Wallace, L.
+AU  - Wan, Y.
+AU  - Wang, M.
+AU  - Wang, X.
+AU  - Wanner, A.
+AU  - Ward, R. L.
+AU  - Was, M.
+AU  - Weinert, M.
+AU  - Weinstein, A. J.
+AU  - Weiss, R.
+AU  - Welborn, T.
+AU  - Wen, L.
+AU  - Wessels, P.
+AU  - West, M.
+AU  - Westphal, T.
+AU  - Wette, K.
+AU  - Whelan, J. T.
+AU  - Whitcomb, S. E.
+AU  - White, D. J.
+AU  - Whiting, B. F.
+AU  - Wiesner, K.
+AU  - Wilkinson, C.
+AU  - Willems, P. A.
+AU  - Williams, L.
+AU  - Williams, R.
+AU  - Willke, B.
+AU  - Wimmer, M.
+AU  - Winkelmann, L.
+AU  - Winkler, W.
+AU  - Wipf, C. C.
+AU  - Wiseman, A. G.
+AU  - Wittel, H.
+AU  - Woan, G.
+AU  - Wooley, R.
+AU  - Worden, J.
+AU  - Yablon, J.
+AU  - Yakushin, I.
+AU  - Yamamoto, H.
+AU  - Yamamoto, K.
+AU  - Yancey, C. C.
+AU  - Yang, H.
+AU  - Yeaton-Massey, D.
+AU  - Yoshida, S.
+AU  - Yvert, M.
+AU  - Zadrożny, A.
+AU  - Zanolin, M.
+AU  - Zendri, J.-P.
+AU  - Zhang, F.
+AU  - Zhang, L.
+AU  - Zhao, C.
+AU  - Zotov, N.
+AU  - Zucker, M. E.
+AU  - Zweizig, J.
+AU  - Anderson, D. P.
+AU  - The LIGO Scientific Collaboration and the Virgo Collaboration
+T2  - Physical Review D
+DA  - 2013/02/13/
+PY  - 2013
+DO  - 10.1103/PhysRevD.87.042001
+DP  - DOI.org (Crossref)
+VL  - 87
+IS  - 4
+SP  - 042001
+J2  - Phys. Rev. D
+LA  - en
+SN  - 1550-7998, 1550-2368
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.87.042001
+Y2  - 2022/11/13/19:50:55
+L1  - https://link.aps.org/pdf/10.1103/PhysRevD.87.042001
+ER  - 
+
+TY  - JOUR
+TI  - ARECIBO PALFA SURVEY AND EINSTEIN@HOME: BINARY PULSAR DISCOVERY BY VOLUNTEER COMPUTING
+AU  - Knispel, B.
+AU  - Lazarus, P.
+AU  - Allen, B.
+AU  - Anderson, D.
+AU  - Aulbert, C.
+AU  - Bhat, N. D. R.
+AU  - Bock, O.
+AU  - Bogdanov, S.
+AU  - Brazier, A.
+AU  - Camilo, F.
+AU  - Chatterjee, S.
+AU  - Cordes, J. M.
+AU  - Crawford, F.
+AU  - Deneva, J. S.
+AU  - Desvignes, G.
+AU  - Fehrmann, H.
+AU  - Freire, P. C. C.
+AU  - Hammer, D.
+AU  - Hessels, J. W. T.
+AU  - Jenet, F. A.
+AU  - Kaspi, V. M.
+AU  - Kramer, M.
+AU  - van Leeuwen, J.
+AU  - Lorimer, D. R.
+AU  - Lyne, A. G.
+AU  - Machenschalk, B.
+AU  - McLaughlin, M. A.
+AU  - Messenger, C.
+AU  - Nice, D. J.
+AU  - Papa, M. A.
+AU  - Pletsch, H. J.
+AU  - Prix, R.
+AU  - Ransom, S. M.
+AU  - Siemens, X.
+AU  - Stairs, I. H.
+AU  - Stappers, B. W.
+AU  - Stovall, K.
+AU  - Venkataraman, A.
+T2  - The Astrophysical Journal
+DA  - 2011/05/01/
+PY  - 2011
+DO  - 10.1088/2041-8205/732/1/L1
+DP  - DOI.org (Crossref)
+VL  - 732
+IS  - 1
+SP  - L1
+J2  - ApJ
+SN  - 2041-8205, 2041-8213
+ST  - ARECIBO PALFA SURVEY AND EINSTEIN@HOME
+UR  - https://iopscience.iop.org/article/10.1088/2041-8205/732/1/L1
+Y2  - 2022/11/13/19:50:55
+L1  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1135&context=pa_fac
+ER  - 
+
+TY  - JOUR
+TI  - Einstein@Home search for periodic gravitational waves in LIGO S4 data
+AU  - Abbott, B.
+AU  - Abbott, R.
+AU  - Adhikari, R.
+AU  - Ajith, P.
+AU  - Allen, B.
+AU  - Allen, G.
+AU  - Amin, R.
+AU  - Anderson, D. P.
+AU  - Anderson, S. B.
+AU  - Anderson, W. G.
+AU  - Arain, M. A.
+AU  - Araya, M.
+AU  - Armandula, H.
+AU  - Armor, P.
+AU  - Aso, Y.
+AU  - Aston, S.
+AU  - Aufmuth, P.
+AU  - Aulbert, C.
+AU  - Babak, S.
+AU  - Ballmer, S.
+AU  - Bantilan, H.
+AU  - Barish, B. C.
+AU  - Barker, C.
+AU  - Barker, D.
+AU  - Barr, B.
+AU  - Barriga, P.
+AU  - Barton, M. A.
+AU  - Bastarrika, M.
+AU  - Bayer, K.
+AU  - Betzwieser, J.
+AU  - Beyersdorf, P. T.
+AU  - Bilenko, I. A.
+AU  - Billingsley, G.
+AU  - Biswas, R.
+AU  - Black, E.
+AU  - Blackburn, K.
+AU  - Blackburn, L.
+AU  - Blair, D.
+AU  - Bland, B.
+AU  - Bodiya, T. P.
+AU  - Bogue, L.
+AU  - Bork, R.
+AU  - Boschi, V.
+AU  - Bose, S.
+AU  - Brady, P. R.
+AU  - Braginsky, V. B.
+AU  - Brau, J. E.
+AU  - Brinkmann, M.
+AU  - Brooks, A.
+AU  - Brown, D. A.
+AU  - Brunet, G.
+AU  - Bullington, A.
+AU  - Buonanno, A.
+AU  - Burmeister, O.
+AU  - Byer, R. L.
+AU  - Cadonati, L.
+AU  - Cagnoli, G.
+AU  - Camp, J. B.
+AU  - Cannizzo, J.
+AU  - Cannon, K.
+AU  - Cao, J.
+AU  - Cardenas, L.
+AU  - Casebolt, T.
+AU  - Castaldi, G.
+AU  - Cepeda, C.
+AU  - Chalkley, E.
+AU  - Charlton, P.
+AU  - Chatterji, S.
+AU  - Chelkowski, S.
+AU  - Chen, Y.
+AU  - Christensen, N.
+AU  - Clark, D.
+AU  - Clark, J.
+AU  - Cokelaer, T.
+AU  - Conte, R.
+AU  - Cook, D.
+AU  - Corbitt, T.
+AU  - Coyne, D.
+AU  - Creighton, J. D. E.
+AU  - Creighton, T. D.
+AU  - Cumming, A.
+AU  - Cunningham, L.
+AU  - Cutler, R. M.
+AU  - Dalrymple, J.
+AU  - Danzmann, K.
+AU  - Davies, G.
+AU  - DeBra, D.
+AU  - Degallaix, J.
+AU  - Degree, M.
+AU  - Dergachev, V.
+AU  - Desai, S.
+AU  - DeSalvo, R.
+AU  - Dhurandhar, S.
+AU  - Díaz, M.
+AU  - Dickson, J.
+AU  - Dietz, A.
+AU  - Donovan, F.
+AU  - Dooley, K. L.
+AU  - Doomes, E. E.
+AU  - Drever, R. W. P.
+AU  - Duke, I.
+AU  - Dumas, J.-C.
+AU  - Dupuis, R. J.
+AU  - Dwyer, J. G.
+AU  - Echols, C.
+AU  - Effler, A.
+AU  - Ehrens, P.
+AU  - Ely, G.
+AU  - Espinoza, E.
+AU  - Etzel, T.
+AU  - Evans, T.
+AU  - Fairhurst, S.
+AU  - Fan, Y.
+AU  - Fazi, D.
+AU  - Fehrmann, H.
+AU  - Fejer, M. M.
+AU  - Finn, L. S.
+AU  - Flasch, K.
+AU  - Fotopoulos, N.
+AU  - Freise, A.
+AU  - Frey, R.
+AU  - Fricke, T.
+AU  - Fritschel, P.
+AU  - Frolov, V. V.
+AU  - Fyffe, M.
+AU  - Garofoli, J.
+AU  - Gholami, I.
+AU  - Giaime, J. A.
+AU  - Giampanis, S.
+AU  - Giardina, K. D.
+AU  - Goda, K.
+AU  - Goetz, E.
+AU  - Goggin, L.
+AU  - González, G.
+AU  - Gossler, S.
+AU  - Gouaty, R.
+AU  - Grant, A.
+AU  - Gras, S.
+AU  - Gray, C.
+AU  - Gray, M.
+AU  - Greenhalgh, R. J. S.
+AU  - Gretarsson, A. M.
+AU  - Grimaldi, F.
+AU  - Grosso, R.
+AU  - Grote, H.
+AU  - Grunewald, S.
+AU  - Guenther, M.
+AU  - Gustafson, E. K.
+AU  - Gustafson, R.
+AU  - Hage, B.
+AU  - Hallam, J. M.
+AU  - Hammer, D.
+AU  - Hanna, C.
+AU  - Hanson, J.
+AU  - Harms, J.
+AU  - Harry, G.
+AU  - Harstad, E.
+AU  - Hayama, K.
+AU  - Hayler, T.
+AU  - Heefner, J.
+AU  - Heng, I. S.
+AU  - Hennessy, M.
+AU  - Heptonstall, A.
+AU  - Hewitson, M.
+AU  - Hild, S.
+AU  - Hirose, E.
+AU  - Hoak, D.
+AU  - Hosken, D.
+AU  - Hough, J.
+AU  - Huttner, S. H.
+AU  - Ingram, D.
+AU  - Ito, M.
+AU  - Ivanov, A.
+AU  - Johnson, B.
+AU  - Johnson, W. W.
+AU  - Jones, D. I.
+AU  - Jones, G.
+AU  - Jones, R.
+AU  - Ju, L.
+AU  - Kalmus, P.
+AU  - Kalogera, V.
+AU  - Kamat, S.
+AU  - Kanner, J.
+AU  - Kasprzyk, D.
+AU  - Katsavounidis, E.
+AU  - Kawabe, K.
+AU  - Kawamura, S.
+AU  - Kawazoe, F.
+AU  - Kells, W.
+AU  - Keppel, D. G.
+AU  - Khalili, F. Ya.
+AU  - Khan, R.
+AU  - Khazanov, E.
+AU  - Kim, C.
+AU  - King, P.
+AU  - Kissel, J. S.
+AU  - Klimenko, S.
+AU  - Kokeyama, K.
+AU  - Kondrashov, V.
+AU  - Kopparapu, R. K.
+AU  - Kozak, D.
+AU  - Kozhevatov, I.
+AU  - Krishnan, B.
+AU  - Kwee, P.
+AU  - Lam, P. K.
+AU  - Landry, M.
+AU  - Lang, M. M.
+AU  - Lantz, B.
+AU  - Lazzarini, A.
+AU  - Lei, M.
+AU  - Leindecker, N.
+AU  - Leonhardt, V.
+AU  - Leonor, I.
+AU  - Libbrecht, K.
+AU  - Lin, H.
+AU  - Lindquist, P.
+AU  - Lockerbie, N. A.
+AU  - Lodhia, D.
+AU  - Lormand, M.
+AU  - Lu, P.
+AU  - Lubinski, M.
+AU  - Lucianetti, A.
+AU  - Lück, H.
+AU  - Machenschalk, B.
+AU  - MacInnis, M.
+AU  - Mageswaran, M.
+AU  - Mailand, K.
+AU  - Mandic, V.
+AU  - Márka, S.
+AU  - Márka, Z.
+AU  - Markosyan, A.
+AU  - Markowitz, J.
+AU  - Maros, E.
+AU  - Martin, I.
+AU  - Martin, R. M.
+AU  - Marx, J. N.
+AU  - Mason, K.
+AU  - Matichard, F.
+AU  - Matone, L.
+AU  - Matzner, R.
+AU  - Mavalvala, N.
+AU  - McCarthy, R.
+AU  - McClelland, D. E.
+AU  - McGuire, S. C.
+AU  - McHugh, M.
+AU  - McIntyre, G.
+AU  - McIvor, G.
+AU  - McKechan, D.
+AU  - McKenzie, K.
+AU  - Meier, T.
+AU  - Melissinos, A.
+AU  - Mendell, G.
+AU  - Mercer, R. A.
+AU  - Meshkov, S.
+AU  - Messenger, C. J.
+AU  - Meyers, D.
+AU  - Miller, J.
+AU  - Minelli, J.
+AU  - Mitra, S.
+AU  - Mitrofanov, V. P.
+AU  - Mitselmakher, G.
+AU  - Mittleman, R.
+AU  - Miyakawa, O.
+AU  - Moe, B.
+AU  - Mohanty, S.
+AU  - Moreno, G.
+AU  - Mossavi, K.
+AU  - MowLowry, C.
+AU  - Mueller, G.
+AU  - Mukherjee, S.
+AU  - Mukhopadhyay, H.
+AU  - Müller-Ebhardt, H.
+AU  - Munch, J.
+AU  - Murray, P.
+AU  - Myers, E.
+AU  - Myers, J.
+AU  - Nash, T.
+AU  - Nelson, J.
+AU  - Newton, G.
+AU  - Nishizawa, A.
+AU  - Numata, K.
+AU  - O’Dell, J.
+AU  - Ogin, G.
+AU  - O’Reilly, B.
+AU  - O’Shaughnessy, R.
+AU  - Ottaway, D. J.
+AU  - Ottens, R. S.
+AU  - Overmier, H.
+AU  - Owen, B. J.
+AU  - Pan, Y.
+AU  - Pankow, C.
+AU  - Papa, M. A.
+AU  - Parameshwaraiah, V.
+AU  - Patel, P.
+AU  - Pedraza, M.
+AU  - Penn, S.
+AU  - Perreca, A.
+AU  - Petrie, T.
+AU  - Pinto, I. M.
+AU  - Pitkin, M.
+AU  - Pletsch, H. J.
+AU  - Plissi, M. V.
+AU  - Postiglione, F.
+AU  - Principe, M.
+AU  - Prix, R.
+AU  - Quetschke, V.
+AU  - Raab, F.
+AU  - Rabeling, D. S.
+AU  - Radkins, H.
+AU  - Rainer, N.
+AU  - Rakhmanov, M.
+AU  - Ramsunder, M.
+AU  - Rehbein, H.
+AU  - Reid, S.
+AU  - Reitze, D. H.
+AU  - Riesen, R.
+AU  - Riles, K.
+AU  - Rivera, B.
+AU  - Robertson, N. A.
+AU  - Robinson, C.
+AU  - Robinson, E. L.
+AU  - Roddy, S.
+AU  - Rodriguez, A.
+AU  - Rogan, A. M.
+AU  - Rollins, J.
+AU  - Romano, J. D.
+AU  - Romie, J.
+AU  - Route, R.
+AU  - Rowan, S.
+AU  - Rüdiger, A.
+AU  - Ruet, L.
+AU  - Russell, P.
+AU  - Ryan, K.
+AU  - Sakata, S.
+AU  - Samidi, M.
+AU  - de la Jordana, L. Sancho
+AU  - Sandberg, V.
+AU  - Sannibale, V.
+AU  - Saraf, S.
+AU  - Sarin, P.
+AU  - Sathyaprakash, B. S.
+AU  - Sato, S.
+AU  - Saulson, P. R.
+AU  - Savage, R.
+AU  - Savov, P.
+AU  - Schediwy, S. W.
+AU  - Schilling, R.
+AU  - Schnabel, R.
+AU  - Schofield, R.
+AU  - Schutz, B. F.
+AU  - Schwinberg, P.
+AU  - Scott, S. M.
+AU  - Searle, A. C.
+AU  - Sears, B.
+AU  - Seifert, F.
+AU  - Sellers, D.
+AU  - Sengupta, A. S.
+AU  - Shawhan, P.
+AU  - Shoemaker, D. H.
+AU  - Sibley, A.
+AU  - Siemens, X.
+AU  - Sigg, D.
+AU  - Sinha, S.
+AU  - Sintes, A. M.
+AU  - Slagmolen, B. J. J.
+AU  - Slutsky, J.
+AU  - Smith, J. R.
+AU  - Smith, M. R.
+AU  - Smith, N. D.
+AU  - Somiya, K.
+AU  - Sorazu, B.
+AU  - Stein, L. C.
+AU  - Stochino, A.
+AU  - Stone, R.
+AU  - Strain, K. A.
+AU  - Strom, D. M.
+AU  - Stuver, A.
+AU  - Summerscales, T. Z.
+AU  - Sun, K.-X.
+AU  - Sung, M.
+AU  - Sutton, P. J.
+AU  - Takahashi, H.
+AU  - Tanner, D. B.
+AU  - Taylor, R.
+AU  - Taylor, R.
+AU  - Thacker, J.
+AU  - Thorne, K. A.
+AU  - Thorne, K. S.
+AU  - Thüring, A.
+AU  - Tokmakov, K. V.
+AU  - Torres, C.
+AU  - Torrie, C.
+AU  - Traylor, G.
+AU  - Trias, M.
+AU  - Tyler, W.
+AU  - Ugolini, D.
+AU  - Ulmen, J.
+AU  - Urbanek, K.
+AU  - Vahlbruch, H.
+AU  - Van Den Broeck, C.
+AU  - van der Sluys, M.
+AU  - Vass, S.
+AU  - Vaulin, R.
+AU  - Vecchio, A.
+AU  - Veitch, J.
+AU  - Veitch, P.
+AU  - Vigeland, S.
+AU  - Villar, A.
+AU  - Vorvick, C.
+AU  - Vyachanin, S. P.
+AU  - Waldman, S. J.
+AU  - Wallace, L.
+AU  - Ward, H.
+AU  - Ward, R.
+AU  - Weinert, M.
+AU  - Weinstein, A.
+AU  - Weiss, R.
+AU  - Wen, S.
+AU  - Wette, K.
+AU  - Whelan, J. T.
+AU  - Whitbeck, D. M.
+AU  - Whitcomb, S. E.
+AU  - Whiting, B. F.
+AU  - Wilkinson, C.
+AU  - Willems, P. A.
+AU  - Williams, H. R.
+AU  - Williams, L.
+AU  - Willke, B.
+AU  - Wilmut, I.
+AU  - Winkler, W.
+AU  - Wipf, C. C.
+AU  - Wiseman, A. G.
+AU  - Woan, G.
+AU  - Wooley, R.
+AU  - Worden, J.
+AU  - Wu, W.
+AU  - Yakushin, I.
+AU  - Yamamoto, H.
+AU  - Yan, Z.
+AU  - Yoshida, S.
+AU  - Zanolin, M.
+AU  - Zhang, J.
+AU  - Zhang, L.
+AU  - Zhao, C.
+AU  - Zotov, N.
+AU  - Zucker, M.
+AU  - Zweizig, J.
+T2  - Physical Review D
+DA  - 2009/01/20/
+PY  - 2009
+DO  - 10.1103/PhysRevD.79.022001
+DP  - DOI.org (Crossref)
+VL  - 79
+IS  - 2
+SP  - 022001
+J2  - Phys. Rev. D
+LA  - en
+SN  - 1550-7998, 1550-2368
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.79.022001
+Y2  - 2022/11/13/19:53:15
+L1  - https://link.aps.org/pdf/10.1103/PhysRevD.79.022001
+ER  - 
+
+TY  - JOUR
+TI  - Einstein@Home search for periodic gravitational waves in early S5 LIGO data
+AU  - Abbott, B. P.
+AU  - Abbott, R.
+AU  - Adhikari, R.
+AU  - Ajith, P.
+AU  - Allen, B.
+AU  - Allen, G.
+AU  - Amin, R. S.
+AU  - Anderson, S. B.
+AU  - Anderson, W. G.
+AU  - Arain, M. A.
+AU  - Araya, M.
+AU  - Armandula, H.
+AU  - Armor, P.
+AU  - Aso, Y.
+AU  - Aston, S.
+AU  - Aufmuth, P.
+AU  - Aulbert, C.
+AU  - Babak, S.
+AU  - Baker, P.
+AU  - Ballmer, S.
+AU  - Barker, C.
+AU  - Barker, D.
+AU  - Barr, B.
+AU  - Barriga, P.
+AU  - Barsotti, L.
+AU  - Barton, M. A.
+AU  - Bartos, I.
+AU  - Bassiri, R.
+AU  - Bastarrika, M.
+AU  - Behnke, B.
+AU  - Benacquista, M.
+AU  - Betzwieser, J.
+AU  - Beyersdorf, P. T.
+AU  - Bilenko, I. A.
+AU  - Billingsley, G.
+AU  - Biswas, R.
+AU  - Black, E.
+AU  - Blackburn, J. K.
+AU  - Blackburn, L.
+AU  - Blair, D.
+AU  - Bland, B.
+AU  - Bodiya, T. P.
+AU  - Bogue, L.
+AU  - Bork, R.
+AU  - Boschi, V.
+AU  - Bose, S.
+AU  - Brady, P. R.
+AU  - Braginsky, V. B.
+AU  - Brau, J. E.
+AU  - Bridges, D. O.
+AU  - Brinkmann, M.
+AU  - Brooks, A. F.
+AU  - Brown, D. A.
+AU  - Brummit, A.
+AU  - Brunet, G.
+AU  - Bullington, A.
+AU  - Buonanno, A.
+AU  - Burmeister, O.
+AU  - Byer, R. L.
+AU  - Cadonati, L.
+AU  - Camp, J. B.
+AU  - Cannizzo, J.
+AU  - Cannon, K. C.
+AU  - Cao, J.
+AU  - Cardenas, L.
+AU  - Caride, S.
+AU  - Castaldi, G.
+AU  - Caudill, S.
+AU  - Cavaglià, M.
+AU  - Cepeda, C.
+AU  - Chalermsongsak, T.
+AU  - Chalkley, E.
+AU  - Charlton, P.
+AU  - Chatterji, S.
+AU  - Chelkowski, S.
+AU  - Chen, Y.
+AU  - Christensen, N.
+AU  - Chung, C. T. Y.
+AU  - Clark, D.
+AU  - Clark, J.
+AU  - Clayton, J. H.
+AU  - Cokelaer, T.
+AU  - Colacino, C. N.
+AU  - Conte, R.
+AU  - Cook, D.
+AU  - Corbitt, T. R. C.
+AU  - Cornish, N.
+AU  - Coward, D.
+AU  - Coyne, D. C.
+AU  - Creighton, J. D. E.
+AU  - Creighton, T. D.
+AU  - Cruise, A. M.
+AU  - Culter, R. M.
+AU  - Cumming, A.
+AU  - Cunningham, L.
+AU  - Danilishin, S. L.
+AU  - Danzmann, K.
+AU  - Daudert, B.
+AU  - Davies, G.
+AU  - Daw, E. J.
+AU  - DeBra, D.
+AU  - Degallaix, J.
+AU  - Dergachev, V.
+AU  - Desai, S.
+AU  - DeSalvo, R.
+AU  - Dhurandhar, S.
+AU  - Díaz, M.
+AU  - Dietz, A.
+AU  - Donovan, F.
+AU  - Dooley, K. L.
+AU  - Doomes, E. E.
+AU  - Drever, R. W. P.
+AU  - Dueck, J.
+AU  - Duke, I.
+AU  - Dumas, J.-C.
+AU  - Dwyer, J. G.
+AU  - Echols, C.
+AU  - Edgar, M.
+AU  - Effler, A.
+AU  - Ehrens, P.
+AU  - Ely, G.
+AU  - Espinoza, E.
+AU  - Etzel, T.
+AU  - Evans, M.
+AU  - Evans, T.
+AU  - Fairhurst, S.
+AU  - Faltas, Y.
+AU  - Fan, Y.
+AU  - Fazi, D.
+AU  - Fehrmann, H.
+AU  - Finn, L. S.
+AU  - Flasch, K.
+AU  - Foley, S.
+AU  - Forrest, C.
+AU  - Fotopoulos, N.
+AU  - Franzen, A.
+AU  - Frede, M.
+AU  - Frei, M.
+AU  - Frei, Z.
+AU  - Freise, A.
+AU  - Frey, R.
+AU  - Fricke, T.
+AU  - Fritschel, P.
+AU  - Frolov, V. V.
+AU  - Fyffe, M.
+AU  - Galdi, V.
+AU  - Garofoli, J. A.
+AU  - Gholami, I.
+AU  - Giaime, J. A.
+AU  - Giampanis, S.
+AU  - Giardina, K. D.
+AU  - Goda, K.
+AU  - Goetz, E.
+AU  - Goggin, L. M.
+AU  - González, G.
+AU  - Gorodetsky, M. L.
+AU  - Goßler, S.
+AU  - Gouaty, R.
+AU  - Grant, A.
+AU  - Gras, S.
+AU  - Gray, C.
+AU  - Gray, M.
+AU  - Greenhalgh, R. J. S.
+AU  - Gretarsson, A. M.
+AU  - Grimaldi, F.
+AU  - Grosso, R.
+AU  - Grote, H.
+AU  - Grunewald, S.
+AU  - Guenther, M.
+AU  - Gustafson, E. K.
+AU  - Gustafson, R.
+AU  - Hage, B.
+AU  - Hallam, J. M.
+AU  - Hammer, D.
+AU  - Hammond, G. D.
+AU  - Hanna, C.
+AU  - Hanson, J.
+AU  - Harms, J.
+AU  - Harry, G. M.
+AU  - Harry, I. W.
+AU  - Harstad, E. D.
+AU  - Haughian, K.
+AU  - Hayama, K.
+AU  - Heefner, J.
+AU  - Heng, I. S.
+AU  - Heptonstall, A.
+AU  - Hewitson, M.
+AU  - Hild, S.
+AU  - Hirose, E.
+AU  - Hoak, D.
+AU  - Hodge, K. A.
+AU  - Holt, K.
+AU  - Hosken, D. J.
+AU  - Hough, J.
+AU  - Hoyland, D.
+AU  - Hughey, B.
+AU  - Huttner, S. H.
+AU  - Ingram, D. R.
+AU  - Isogai, T.
+AU  - Ito, M.
+AU  - Ivanov, A.
+AU  - Johnson, B.
+AU  - Johnson, W. W.
+AU  - Jones, D. I.
+AU  - Jones, G.
+AU  - Jones, R.
+AU  - Ju, L.
+AU  - Kalmus, P.
+AU  - Kalogera, V.
+AU  - Kandhasamy, S.
+AU  - Kanner, J.
+AU  - Kasprzyk, D.
+AU  - Katsavounidis, E.
+AU  - Kawabe, K.
+AU  - Kawamura, S.
+AU  - Kawazoe, F.
+AU  - Kells, W.
+AU  - Keppel, D. G.
+AU  - Khalaidovski, A.
+AU  - Khalili, F. Y.
+AU  - Khan, R.
+AU  - Khazanov, E.
+AU  - King, P.
+AU  - Kissel, J. S.
+AU  - Klimenko, S.
+AU  - Kokeyama, K.
+AU  - Kondrashov, V.
+AU  - Kopparapu, R.
+AU  - Koranda, S.
+AU  - Kozak, D.
+AU  - Krishnan, B.
+AU  - Kumar, R.
+AU  - Kwee, P.
+AU  - Lam, P. K.
+AU  - Landry, M.
+AU  - Lantz, B.
+AU  - Lazzarini, A.
+AU  - Lei, H.
+AU  - Lei, M.
+AU  - Leindecker, N.
+AU  - Leonor, I.
+AU  - Li, C.
+AU  - Lin, H.
+AU  - Lindquist, P. E.
+AU  - Littenberg, T. B.
+AU  - Lockerbie, N. A.
+AU  - Lodhia, D.
+AU  - Longo, M.
+AU  - Lormand, M.
+AU  - Lu, P.
+AU  - Lubinski, M.
+AU  - Lucianetti, A.
+AU  - Lück, H.
+AU  - Machenschalk, B.
+AU  - MacInnis, M.
+AU  - Mageswaran, M.
+AU  - Mailand, K.
+AU  - Mandel, I.
+AU  - Mandic, V.
+AU  - Márka, S.
+AU  - Márka, Z.
+AU  - Markosyan, A.
+AU  - Markowitz, J.
+AU  - Maros, E.
+AU  - Martin, I. W.
+AU  - Martin, R. M.
+AU  - Marx, J. N.
+AU  - Mason, K.
+AU  - Matichard, F.
+AU  - Matone, L.
+AU  - Matzner, R. A.
+AU  - Mavalvala, N.
+AU  - McCarthy, R.
+AU  - McClelland, D. E.
+AU  - McGuire, S. C.
+AU  - McHugh, M.
+AU  - McIntyre, G.
+AU  - McKechan, D. J. A.
+AU  - McKenzie, K.
+AU  - Mehmet, M.
+AU  - Melatos, A.
+AU  - Melissinos, A. C.
+AU  - Menéndez, D. F.
+AU  - Mendell, G.
+AU  - Mercer, R. A.
+AU  - Meshkov, S.
+AU  - Messenger, C.
+AU  - Meyer, M. S.
+AU  - Miller, J.
+AU  - Minelli, J.
+AU  - Mino, Y.
+AU  - Mitrofanov, V. P.
+AU  - Mitselmakher, G.
+AU  - Mittleman, R.
+AU  - Miyakawa, O.
+AU  - Moe, B.
+AU  - Mohanty, S. D.
+AU  - Mohapatra, S. R. P.
+AU  - Moreno, G.
+AU  - Morioka, T.
+AU  - Mors, K.
+AU  - Mossavi, K.
+AU  - MowLowry, C.
+AU  - Mueller, G.
+AU  - Müller-Ebhardt, H.
+AU  - Muhammad, D.
+AU  - Mukherjee, S.
+AU  - Mukhopadhyay, H.
+AU  - Mullavey, A.
+AU  - Munch, J.
+AU  - Murray, P. G.
+AU  - Myers, E.
+AU  - Myers, J.
+AU  - Nash, T.
+AU  - Nelson, J.
+AU  - Newton, G.
+AU  - Nishizawa, A.
+AU  - Numata, K.
+AU  - O’Dell, J.
+AU  - O’Reilly, B.
+AU  - O’Shaughnessy, R.
+AU  - Ochsner, E.
+AU  - Ogin, G. H.
+AU  - Ottaway, D. J.
+AU  - Ottens, R. S.
+AU  - Overmier, H.
+AU  - Owen, B. J.
+AU  - Pan, Y.
+AU  - Pankow, C.
+AU  - Papa, M. A.
+AU  - Parameshwaraiah, V.
+AU  - Patel, P.
+AU  - Pedraza, M.
+AU  - Penn, S.
+AU  - Perreca, A.
+AU  - Pierro, V.
+AU  - Pinto, I. M.
+AU  - Pitkin, M.
+AU  - Pletsch, H. J.
+AU  - Plissi, M. V.
+AU  - Postiglione, F.
+AU  - Principe, M.
+AU  - Prix, R.
+AU  - Prokhorov, L.
+AU  - Punken, O.
+AU  - Quetschke, V.
+AU  - Raab, F. J.
+AU  - Rabeling, D. S.
+AU  - Radkins, H.
+AU  - Raffai, P.
+AU  - Raics, Z.
+AU  - Rainer, N.
+AU  - Rakhmanov, M.
+AU  - Raymond, V.
+AU  - Reed, C. M.
+AU  - Reed, T.
+AU  - Rehbein, H.
+AU  - Reid, S.
+AU  - Reitze, D. H.
+AU  - Riesen, R.
+AU  - Riles, K.
+AU  - Rivera, B.
+AU  - Roberts, P.
+AU  - Robertson, N. A.
+AU  - Robinson, C.
+AU  - Robinson, E. L.
+AU  - Roddy, S.
+AU  - Röver, C.
+AU  - Rollins, J.
+AU  - Romano, J. D.
+AU  - Romie, J. H.
+AU  - Rowan, S.
+AU  - Rüdiger, A.
+AU  - Russell, P.
+AU  - Ryan, K.
+AU  - Sakata, S.
+AU  - Sancho de la Jordana, L.
+AU  - Sandberg, V.
+AU  - Sannibale, V.
+AU  - Santamaría, L.
+AU  - Saraf, S.
+AU  - Sarin, P.
+AU  - Sathyaprakash, B. S.
+AU  - Sato, S.
+AU  - Satterthwaite, M.
+AU  - Saulson, P. R.
+AU  - Savage, R.
+AU  - Savov, P.
+AU  - Scanlan, M.
+AU  - Schilling, R.
+AU  - Schnabel, R.
+AU  - Schofield, R.
+AU  - Schulz, B.
+AU  - Schutz, B. F.
+AU  - Schwinberg, P.
+AU  - Scott, J.
+AU  - Scott, S. M.
+AU  - Searle, A. C.
+AU  - Sears, B.
+AU  - Seifert, F.
+AU  - Sellers, D.
+AU  - Sengupta, A. S.
+AU  - Sergeev, A.
+AU  - Shapiro, B.
+AU  - Shawhan, P.
+AU  - Shoemaker, D. H.
+AU  - Sibley, A.
+AU  - Siemens, X.
+AU  - Sigg, D.
+AU  - Sinha, S.
+AU  - Sintes, A. M.
+AU  - Slagmolen, B. J. J.
+AU  - Slutsky, J.
+AU  - Smith, J. R.
+AU  - Smith, M. R.
+AU  - Smith, N. D.
+AU  - Somiya, K.
+AU  - Sorazu, B.
+AU  - Stein, A.
+AU  - Stein, L. C.
+AU  - Steplewski, S.
+AU  - Stochino, A.
+AU  - Stone, R.
+AU  - Strain, K. A.
+AU  - Strigin, S.
+AU  - Stroeer, A.
+AU  - Stuver, A. L.
+AU  - Summerscales, T. Z.
+AU  - Sun, K.-X.
+AU  - Sung, M.
+AU  - Sutton, P. J.
+AU  - Szokoly, G. P.
+AU  - Talukder, D.
+AU  - Tang, L.
+AU  - Tanner, D. B.
+AU  - Tarabrin, S. P.
+AU  - Taylor, J. R.
+AU  - Taylor, R.
+AU  - Thacker, J.
+AU  - Thorne, K. A.
+AU  - Thorne, K. S.
+AU  - Thüring, A.
+AU  - Tokmakov, K. V.
+AU  - Torres, C.
+AU  - Torrie, C.
+AU  - Traylor, G.
+AU  - Trias, M.
+AU  - Ugolini, D.
+AU  - Ulmen, J.
+AU  - Urbanek, K.
+AU  - Vahlbruch, H.
+AU  - Vallisneri, M.
+AU  - Van Den Broeck, C.
+AU  - van der Sluys, M. V.
+AU  - van Veggel, A. A.
+AU  - Vass, S.
+AU  - Vaulin, R.
+AU  - Vecchio, A.
+AU  - Veitch, J.
+AU  - Veitch, P.
+AU  - Veltkamp, C.
+AU  - Villar, A.
+AU  - Vorvick, C.
+AU  - Vyachanin, S. P.
+AU  - Waldman, S. J.
+AU  - Wallace, L.
+AU  - Ward, R. L.
+AU  - Weidner, A.
+AU  - Weinert, M.
+AU  - Weinstein, A. J.
+AU  - Weiss, R.
+AU  - Wen, L.
+AU  - Wen, S.
+AU  - Wette, K.
+AU  - Whelan, J. T.
+AU  - Whitcomb, S. E.
+AU  - Whiting, B. F.
+AU  - Wilkinson, C.
+AU  - Willems, P. A.
+AU  - Williams, H. R.
+AU  - Williams, L.
+AU  - Willke, B.
+AU  - Wilmut, I.
+AU  - Winkelmann, L.
+AU  - Winkler, W.
+AU  - Wipf, C. C.
+AU  - Wiseman, A. G.
+AU  - Woan, G.
+AU  - Wooley, R.
+AU  - Worden, J.
+AU  - Wu, W.
+AU  - Yakushin, I.
+AU  - Yamamoto, H.
+AU  - Yan, Z.
+AU  - Yoshida, S.
+AU  - Zanolin, M.
+AU  - Zhang, J.
+AU  - Zhang, L.
+AU  - Zhao, C.
+AU  - Zotov, N.
+AU  - Zucker, M. E.
+AU  - zur Mühlen, H.
+AU  - Zweizig, J.
+AU  - Anderson, D. P.
+T2  - Physical Review D
+DA  - 2009/08/11/
+PY  - 2009
+DO  - 10.1103/PhysRevD.80.042003
+DP  - DOI.org (Crossref)
+VL  - 80
+IS  - 4
+SP  - 042003
+J2  - Phys. Rev. D
+LA  - en
+SN  - 1550-7998, 1550-2368
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.80.042003
+Y2  - 2022/11/13/19:53:15
+L1  - https://link.aps.org/pdf/10.1103/PhysRevD.80.042003
+ER  - 
+
+TY  - JOUR
+TI  - TIMING OF 29 PULSARS DISCOVERED IN THE PALFA SURVEY
+AU  - Lyne, A. G.
+AU  - Stappers, B. W.
+AU  - Bogdanov, S.
+AU  - Ferdman, R. D.
+AU  - Freire, P. C. C.
+AU  - Kaspi, V. M.
+AU  - Knispel, B.
+AU  - Lynch, R.
+AU  - Allen, B.
+AU  - Brazier, A.
+AU  - Camilo, F.
+AU  - Cardoso, F.
+AU  - Chatterjee, S.
+AU  - Cordes, J. M.
+AU  - Crawford, F.
+AU  - Deneva, J. S.
+AU  - Hessels, J. W. T.
+AU  - Jenet, F. A.
+AU  - Lazarus, P.
+AU  - Leeuwen, J. van
+AU  - Lorimer, D. R.
+AU  - Madsen, E.
+AU  - McKee, J.
+AU  - McLaughlin, M. A.
+AU  - Parent, E.
+AU  - Patel, C.
+AU  - Ransom, S. M.
+AU  - Scholz, P.
+AU  - Seymour, A.
+AU  - Siemens, X.
+AU  - Spitler, L. G.
+AU  - Stairs, I. H.
+AU  - Stovall, K.
+AU  - Swiggum, J.
+AU  - Wharton, R. S.
+AU  - Zhu, W. W.
+AU  - Aulbert, C.
+AU  - Bock, O.
+AU  - Eggenstein, H.-B.
+AU  - Fehrmann, H.
+AU  - Machenschalk, B.
+T2  - The Astrophysical Journal
+DA  - 2017/01/09/
+PY  - 2017
+DO  - 10.3847/1538-4357/834/2/137
+DP  - DOI.org (Crossref)
+VL  - 834
+IS  - 2
+SP  - 137
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/834/2/137
+Y2  - 2022/11/13/19:53:16
+L1  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1150&context=pa_fac
+ER  - 
+
+TY  - JOUR
+TI  - EINSTEIN@HOME DISCOVERY OF A DOUBLE NEUTRON STAR BINARY IN THE PALFA SURVEY
+AU  - Lazarus, P.
+AU  - Freire, P. C. C.
+AU  - Allen, B.
+AU  - Aulbert, C.
+AU  - Bock, O.
+AU  - Bogdanov, S.
+AU  - Brazier, A.
+AU  - Camilo, F.
+AU  - Cardoso, F.
+AU  - Chatterjee, S.
+AU  - Cordes, J. M.
+AU  - Crawford, F.
+AU  - Deneva, J. S.
+AU  - Eggenstein, H.-B.
+AU  - Fehrmann, H.
+AU  - Ferdman, R.
+AU  - Hessels, J. W. T.
+AU  - Jenet, F. A.
+AU  - Karako-Argaman, C.
+AU  - Kaspi, V. M.
+AU  - Knispel, B.
+AU  - Lynch, R.
+AU  - Leeuwen, J. van
+AU  - Machenschalk, B.
+AU  - Madsen, E.
+AU  - McLaughlin, M. A.
+AU  - Patel, C.
+AU  - Ransom, S. M.
+AU  - Scholz, P.
+AU  - Seymour, A.
+AU  - Siemens, X.
+AU  - Spitler, L. G.
+AU  - Stairs, I. H.
+AU  - Stovall, K.
+AU  - Swiggum, J.
+AU  - Venkataraman, A.
+AU  - Zhu, W. W.
+T2  - The Astrophysical Journal
+DA  - 2016/11/04/
+PY  - 2016
+DO  - 10.3847/0004-637X/831/2/150
+DP  - DOI.org (Crossref)
+VL  - 831
+IS  - 2
+SP  - 150
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/0004-637X/831/2/150
+Y2  - 2022/11/13/19:53:16
+L1  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1138&context=pa_fac
+ER  - 
+
+TY  - JOUR
+TI  - Exploiting Large-Scale Correlations to Detect Continuous Gravitational Waves
+AU  - Pletsch, Holger J.
+AU  - Allen, Bruce
+T2  - Physical Review Letters
+DA  - 2009/10/27/
+PY  - 2009
+DO  - 10.1103/PhysRevLett.103.181102
+DP  - DOI.org (Crossref)
+VL  - 103
+IS  - 18
+SP  - 181102
+J2  - Phys. Rev. Lett.
+LA  - en
+SN  - 0031-9007, 1079-7114
+UR  - https://link.aps.org/doi/10.1103/PhysRevLett.103.181102
+Y2  - 2022/11/13/20:36:52
+L1  - https://arxiv.org/pdf/0906.0023
+ER  - 
+
+TY  - JOUR
+TI  - An Exploration of CUDA and CBEA for a Gravitational Wave Data- Analysis Application (Einstein@Home)
+AU  - Breitbart, Jens
+AU  - Khanna, Gaurav
+T2  - The Open Astronomy Journal
+DA  - 2009/06/13/
+PY  - 2009
+DO  - 10.2174/1874381101004010154
+DP  - DOI.org (Crossref)
+VL  - 4
+IS  - 1
+SP  - 154
+EP  - 161
+J2  - TOAAJ
+LA  - en
+SN  - 18743811
+UR  - http://benthamopen.com/ABSTRACT/TOAAJ-4-154
+Y2  - 2022/11/13/20:36:52
+L1  - https://benthamopen.com/contents/pdf/TOAAJ/TOAAJ-4-154.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Pulsar Discovery by Global Volunteer Computing
+AU  - Knispel, B.
+AU  - Allen, B.
+AU  - Cordes, J. M.
+AU  - Deneva, J. S.
+AU  - Anderson, D.
+AU  - Aulbert, C.
+AU  - Bhat, N. D. R.
+AU  - Bock, O.
+AU  - Bogdanov, S.
+AU  - Brazier, A.
+AU  - Camilo, F.
+AU  - Champion, D. J.
+AU  - Chatterjee, S.
+AU  - Crawford, F.
+AU  - Demorest, P. B.
+AU  - Fehrmann, H.
+AU  - Freire, P. C. C.
+AU  - Gonzalez, M. E.
+AU  - Hammer, D.
+AU  - Hessels, J. W. T.
+AU  - Jenet, F. A.
+AU  - Kasian, L.
+AU  - Kaspi, V. M.
+AU  - Kramer, M.
+AU  - Lazarus, P.
+AU  - van Leeuwen, J.
+AU  - Lorimer, D. R.
+AU  - Lyne, A. G.
+AU  - Machenschalk, B.
+AU  - McLaughlin, M. A.
+AU  - Messenger, C.
+AU  - Nice, D. J.
+AU  - Papa, M. A.
+AU  - Pletsch, H. J.
+AU  - Prix, R.
+AU  - Ransom, S. M.
+AU  - Siemens, X.
+AU  - Stairs, I. H.
+AU  - Stappers, B. W.
+AU  - Stovall, K.
+AU  - Venkataraman, A.
+T2  - Science
+AB  - Einstein@Home, a distributed computing project, discovered a rare, isolated pulsar with a low magnetic field.
+          , 
+            Einstein@Home aggregates the computer power of hundreds of thousands of volunteers from 192 countries to mine large data sets. It has now found a 40.8-hertz isolated pulsar in radio survey data from the Arecibo Observatory taken in February 2007. Additional timing observations indicate that this pulsar is likely a disrupted recycled pulsar. PSR J2007+2722’s pulse profile is remarkably wide with emission over almost the entire spin period; the pulsar likely has closely aligned magnetic and spin axes. The massive computing power provided by volunteers should enable many more such discoveries.
+DA  - 2010/09/10/
+PY  - 2010
+DO  - 10.1126/science.1195253
+DP  - DOI.org (Crossref)
+VL  - 329
+IS  - 5997
+SP  - 1305
+EP  - 1305
+J2  - Science
+LA  - en
+SN  - 0036-8075, 1095-9203
+UR  - https://www.science.org/doi/10.1126/science.1195253
+Y2  - 2022/11/13/20:36:52
+L1  - https://arxiv.org/pdf/1008.2172
+ER  - 
+
+TY  - JOUR
+TI  - An Einstein@home search for continuous gravitational waves from Cassiopeia A
+AU  - Zhu, Sylvia J.
+AU  - Papa, Maria Alessandra
+AU  - Eggenstein, Heinz-Bernd
+AU  - Prix, Reinhard
+AU  - Wette, Karl
+AU  - Allen, Bruce
+AU  - Bock, Oliver
+AU  - Keitel, David
+AU  - Krishnan, Badri
+AU  - Machenschalk, Bernd
+AU  - Shaltev, Miroslav
+AU  - Siemens, Xavier
+AB  - We report the results of a directed search for continuous gravitational-wave emission in a broad frequency range (between 50 and 1000 Hz) from the central compact object of the supernova remnant Cassiopeia A (Cas A). The data comes from the sixth science run of LIGO and the search is performed on the volunteer distributed computing network Einstein@Home. We find no significant signal candidate, and set the most constraining upper limits to date on the gravitational-wave emission from Cas A, which beat the indirect age-based upper limit across the entire search range. At around 170 Hz (the most sensitive frequency range), we set 90% confidence upper limits on the gravitational wave amplitude $h_0$ of $\sim\!\!~2.9\times 10^{-25}$, roughly twice as constraining as the upper limits from previous searches on Cas A. The upper limits can also be expressed as constraints on the ellipticity of Cas A; with a few reasonable assumptions, we show that at gravitational-wave frequencies greater than 300~Hz, we can exclude an ellipticity of $\gtrsim\!\!~10^{-5}$.
+DA  - 2016///
+PY  - 2016
+DO  - 10.48550/ARXIV.1608.07589
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1608.07589
+Y2  - 2022/11/13/20:36:52
+KW  - FOS: Physical sciences
+KW  - General Relativity and Quantum Cosmology (gr-qc)
+KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
+KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ER  - 
+
+TY  - JOUR
+TI  - A new veto for continuous gravitational wave searches
+AU  - Zhu, Sylvia J.
+AU  - Papa, Maria Alessandra
+AU  - Walsh, Sinéad
+AB  - We present a new veto procedure to distinguish between continuous gravitational wave (CW) signals and the detector artifacts that can mimic their behavior. The veto procedure exploits the fact that a long-lasting coherent disturbance is less likely than a real signal to exhibit a Doppler modulation of astrophysical origin. Therefore, in the presence of an outlier from a search, we perform a multi-step search around the frequency of the outlier with the Doppler modulation turned off (DM-off), and compare these results with the results from the original (DM-on) search. If the results from the DM-off search are more significant than those from the DM-on search, the outlier is most likely due to an artifact rather than a signal. We tune the veto procedure so that it has a very low false dismissal rate. With this veto, we are able to identify as coherent disturbances &gt;99.9% of the 6349 candidates from the recent all-sky low-frequency Einstein@Home search on the data from the Advanced LIGO O1 observing run [1]. We present the details of each identified disturbance in the Appendix.
+DA  - 2017///
+PY  - 2017
+DO  - 10.48550/ARXIV.1707.05268
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1707.05268
+Y2  - 2022/11/13/20:36:53
+KW  - FOS: Physical sciences
+KW  - General Relativity and Quantum Cosmology (gr-qc)
+KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ER  - 
+
+TY  - JOUR
+TI  - Einstein@Home Discovery of the Gamma-ray Millisecond Pulsar PSR J2039-5617 Confirms Its Predicted Redback Nature
+AU  - Clark, C. J.
+AU  - Nieder, L.
+AU  - Voisin, G.
+AU  - Allen, B.
+AU  - Aulbert, C.
+AU  - Behnke, O.
+AU  - Breton, R. P.
+AU  - Choquet, C.
+AU  - Corongiu, A.
+AU  - Dhillon, V. S.
+AU  - Eggenstein, H. B.
+AU  - Fehrmann, H.
+AU  - Guillemot, L.
+AU  - Harding, A. K.
+AU  - Kennedy, M. R.
+AU  - Machenschalk, B.
+AU  - Marsh, T. R.
+AU  - Sánchez, D. Mata
+AU  - Mignani, R. P.
+AU  - Stringer, J.
+AU  - Wadiasingh, Z.
+AU  - Wu, J.
+AB  - The Fermi Large Area Telescope gamma-ray source 3FGL J2039.6$-$5618 contains a periodic optical and X-ray source that was predicted to be a "redback" millisecond pulsar (MSP) binary system. However, the conclusive identification required the detection of pulsations from the putative MSP. To better constrain the orbital parameters for a directed search for gamma-ray pulsations, we obtained new optical light curves in 2017 and 2018, which revealed long-term variability from the companion star. The resulting orbital parameter constraints were used to perform a targeted gamma-ray pulsation search using the Einstein@Home distributed volunteer computing system. This search discovered pulsations with a period of 2.65 ms, confirming the source as a binary MSP now known as PSR J2039$-$5617. Optical light curve modelling is complicated, and likely biased, by asymmetric heating on the companion star and long-term variability, but we find an inclination $i &gt; 60°$, for a low pulsar mass between $1.1 M_{\odot} &lt; M_{\rm psr} &lt; 1.6 M_{\odot}$ and a companion mass of 0.15--0.22 $M_{\odot}$, confirming the redback classification. Timing the gamma-ray pulsations also revealed significant variability in the orbital period, which we find to be consistent with quadrupole moment variations in the companion star, suggestive of convective activity. We also find that the pulsed flux is modulated at the orbital period, potentially due to inverse Compton scattering between high-energy leptons in the pulsar wind and the companion star's optical photon field.
+DA  - 2020///
+PY  - 2020
+DO  - 10.48550/ARXIV.2007.14849
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/2007.14849
+Y2  - 2022/11/13/20:36:53
+KW  - FOS: Physical sciences
+KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
+ER  - 
+
