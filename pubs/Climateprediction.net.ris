@@ -2574,33 +2574,6 @@ KW  - radiative forcing
 ER  - 
 
 TY  - JOUR
-TI  - Quantifying the uncertainty in forecasts of anthropogenic climate change
-AU  - Allen, Myles R.
-AU  - Stott, Peter A.
-AU  - Mitchell, John F. B.
-AU  - Schnur, Reiner
-AU  - Delworth, Thomas L.
-T2  - Nature
-AB  - Forecasts of climate change are inevitably uncertain. It is therefore essential to quantify the risk of significant departures from the predicted response to a given emission scenario. Previous analyses of this risk have been based either on expert opinion1, perturbation analysis of simplified climate models2,3,4,5 or the comparison of predictions from general circulation models6. Recent observed changes that appear to be attributable to human influence7,8,9,10,11,12 provide a powerful constraint on the uncertainties in multi-decadal forecasts. Here we assess the range of warming rates over the coming 50 years that are consistent with the observed near-surface temperature record as well as with the overall patterns of response predicted by several general circulation models. We expect global mean temperatures in the decade 2036–46 to be 1–2.5 K warmer than in pre-industrial times under a ‘business as usual’ emission scenario. This range is relatively robust to errors in the models' climate sensitivity, rate of oceanic heat uptake or global response to sulphate aerosols as long as these errors are persistent over time. Substantial changes in the current balance of greenhouse warming and sulphate aerosol cooling would, however, increase the uncertainty. Unlike 50-year warming rates, the final equilibrium warming after the atmospheric composition stabilizes remains very uncertain, despite the evidence provided by the emerging signal.
-DA  - 2000/10//
-PY  - 2000
-DO  - 10.1038/35036559
-DP  - www.nature.com
-VL  - 407
-IS  - 6804
-SP  - 617
-EP  - 620
-LA  - en
-SN  - 1476-4687
-UR  - https://www.nature.com/articles/35036559
-Y2  - 2022/11/12/17:53:31
-L2  - https://www.nature.com/articles/35036559#citeas
-KW  - Humanities and Social Sciences
-KW  - multidisciplinary
-KW  - Science
-ER  - 
-
-TY  - JOUR
 TI  - Observational constraints on future climate: distinguishing robust from model-dependent statements of uncertainty in climate forecasting
 AU  - Allen, M.
 AU  - Booth, B.
@@ -2660,31 +2633,6 @@ KW  - multidisciplinary
 KW  - Science
 ER  - 
 
-TY  - JOUR
-TI  - Liability for climate change
-AU  - Allen, Myles
-T2  - Nature
-DA  - 2003/02/27/
-PY  - 2003
-DO  - 10.1038/421891a
-DP  - PubMed
-VL  - 421
-IS  - 6926
-SP  - 891
-EP  - 892
-J2  - Nature
-LA  - eng
-SN  - 0028-0836
-UR  - https://www.nature.com/articles/421891a
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/12606972
-KW  - Compensation and Redress
-KW  - Greenhouse Effect
-KW  - Humans
-KW  - Liability, Legal
-KW  - Risk
-KW  - Weather
-ER  - 
-
 TY  - CHAP
 TI  - Model error in weather and climate forecasting
 AU  - Allen, Myles
@@ -2707,54 +2655,6 @@ Y2  - 2022/11/12/18:06:21
 ER  - 
 
 TY  - JOUR
-TI  - Constraints on future changes in climate and the hydrologic cycle
-AU  - Allen, Myles R.
-AU  - Ingram, William J.
-T2  - Nature
-AB  - What can we say about changes in the hydrologic cycle on 50-year timescales when we cannot predict rainfall next week? Eventually, perhaps, a great deal: the overall climate response to increasing atmospheric concentrations of greenhouse gases may prove much simpler and more predictable than the chaos of short-term weather. Quantifying the diversity of possible responses is essential for any objective, probability-based climate forecast, and this task will require a new generation of climate modelling experiments, systematically exploring the range of model behaviour that is consistent with observations. It will be substantially harder to quantify the range of possible changes in the hydrologic cycle than in global-mean temperature, both because the observations are less complete and because the physical constraints are weaker.
-DA  - 2002/09//
-PY  - 2002
-DO  - 10.1038/nature01092
-DP  - www.nature.com
-VL  - 419
-IS  - 6903
-SP  - 224
-EP  - 232
-LA  - en
-SN  - 1476-4687
-UR  - https://www.nature.com/articles/nature01092
-Y2  - 2022/11/12/18:07:20
-L2  - https://www.nature.com/articles/nature01092#citeas
-KW  - Humanities and Social Sciences
-KW  - multidisciplinary
-KW  - Science
-ER  - 
-
-TY  - JOUR
-TI  - Do-it-yourself climate prediction
-AU  - Allen, Myles
-T2  - Nature
-AB  - Anyone with a home PC could join climate modellers in their attempt to forecast how the Earth's climate will evolve in the next century.
-DA  - 1999/10//
-PY  - 1999
-DO  - 10.1038/44266
-DP  - www.nature.com
-VL  - 401
-IS  - 6754
-SP  - 642
-EP  - 642
-LA  - en
-SN  - 1476-4687
-UR  - https://www.nature.com/articles/44266
-Y2  - 2022/11/12/18:07:56
-L1  - https://www.nature.com/articles/44266.pdf
-L2  - https://www.nature.com/articles/44266#citeas
-KW  - Humanities and Social Sciences
-KW  - multidisciplinary
-KW  - Science
-ER  - 
-
-TY  - JOUR
 TI  - Southern Australia’s Warmest October on Record: The Role of ENSO and Climate Change
 AU  - Black, Mitchell T.
 AU  - Karoly, David J.
@@ -2772,107 +2672,6 @@ SN  - 0003-0007, 1520-0477
 ST  - Southern Australia’s Warmest October on Record
 UR  - https://journals.ametsoc.org/doi/10.1175/BAMS-D-16-0124.1
 Y2  - 2022/11/12/18:09:17
-ER  - 
-
-TY  - JOUR
-TI  - How far ahead could we predict El Niño?
-AU  - Collins, Matthew
-AU  - Frame, David
-AU  - Sinha, Bablu
-AU  - Wilson, Chris
-T2  - Geophysical Research Letters
-AB  - The upper limit of the predictability of the El Niño Southern Oscillation (ENSO) is examined using ensembles of simulations of a coupled ocean-atmosphere global circulation model which has a relatively realistic ENSO cycle. By making small perturbations to the initial conditions and measuring the rate of divergence of nearby trajectories, it is found that given a perfect model and near perfect initial conditions, ENSO could be usefully predicted, on average, up to 8 months in advance (where “useful” is defined for a forecast with an anomaly correlation coefficient of greater than 0.6). This is at the low end of potential predictability estimates obtained using intermediate models. Some ensemble experiments do show potential predictability beyond 12 months, but in others small “errors” in the initial conditions can saturate in less than 6 months. The physical mechanisms which underlie the high and low predictable states are briefly examined with a view to predicting the reliability of ENSO forecasts.
-DA  - 2002///
-PY  - 2002
-DO  - 10.1029/2001GL013919
-DP  - Wiley Online Library
-VL  - 29
-IS  - 10
-SP  - 130
-EP  - 1-130-4
-LA  - en
-SN  - 1944-8007
-UR  - https://onlinelibrary.wiley.com/doi/abs/10.1029/2001GL013919
-Y2  - 2022/11/12/18:10:26
-L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2001GL013919
-L2  - https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2001GL013919
-ER  - 
-
-TY  - JOUR
-TI  - Climate predictability on interannual to decadal time scales: the initial value problem
-AU  - Collins, M.
-T2  - Climate Dynamics
-AB  - Any initial value forecast of climate will be subject to errors originating from poorly known initial conditions, model imperfections, and by "chaos" in the sense that, even if the initial conditions were perfectly known, infinitesimal errors can amplify and spoil the forecast at some lead time. Here the latter source of error is examined using a "perfect model" approach whereby small perturbations are made to a coupled atmosphere–ocean general circulation model and the spread of nearby model trajectories, on time and space scales appropriate to seasonal-decadal climate variability, is measured to assess the lead time at which the error saturates. The study therefore represents an estimate of the upper limit of the predictability of climate (appropriate to the initial value problem) given a perfect model and near perfect knowledge of the initial conditions. It is found that, on average, surface air temperature anomalies are potentially predictable on seasonal to interannual time scales in the tropical regions and are potentially predictable on decadal time scales over the ocean in the North Atlantic. For mid-latitude surface air temperature anomalies over land, model trajectories rapidly diverge and there is little sign of any potential predictability on time scales greater than a season or so. For mean sea level pressure anomalies, there is potential predictability on seasonal time scales in the tropics, and for some global scale annual-decadal anomalies, although not those associated with the North Atlantic Oscillation. For precipitation, the only potential for predictability is for seasonal time anomalies associated with the El-Niño Southern Oscillation. For the majority of the highly populated regions of the world, climate predictability on interannual to decadal time scales based in the initial value approach is likely to be severely limited by chaotic error growth. It is found however that there can be cases in which the potential predictability can be higher than average indicating that there is perhaps some utility in making initial value forecasts of climate in those regions which show low predictability on average.
-DA  - 2002/10/01/
-PY  - 2002
-DO  - 10.1007/s00382-002-0254-8
-DP  - Springer Link
-VL  - 19
-IS  - 8
-SP  - 671
-EP  - 692
-J2  - Climate Dynamics
-LA  - en
-SN  - 1432-0894
-ST  - Climate predictability on interannual to decadal time scales
-UR  - https://doi.org/10.1007/s00382-002-0254-8
-Y2  - 2022/11/12/18:11:23
-KW  - Lead Time
-KW  - Model Trajectory
-KW  - North Atlantic Oscillation
-KW  - Ocean General Circulation Model
-KW  - Potential Predictability
-ER  - 
-
-TY  - JOUR
-TI  - Assessing the Relative Roles of Initial and Boundary Conditions in Interannual to Decadal Climate Predictability
-AU  - Collins, Matthew
-AU  - Allen, Myles R.
-T2  - Journal of Climate
-AB  - Abstract The relative importance of initial conditions and boundary conditions in interannual to decadal climate predictability is addressed. A simple framework is developed in which (i) ensembles of climate model simulations with changing external forcing can be measured against climatology to get an estimate of the timescale on which changing boundary conditions can provide predictive skill, and (ii) the rate of spread of ensembles of simulations with small perturbations to the initial conditions can be measured against climatology to assess the timescale at which the information in the initial conditions is degraded by chaotic error growth. A preliminary test of the method on a limited number of climate model simulations is presented.
-DA  - 2002/11/01/
-PY  - 2002
-DO  - 10.1175/1520-0442(2002)015<3104:ATRROI>2.0.CO;2
-DP  - journals.ametsoc.org
-VL  - 15
-IS  - 21
-SP  - 3104
-EP  - 3109
-LA  - EN
-SN  - 0894-8755, 1520-0442
-UR  - https://journals.ametsoc.org/view/journals/clim/15/21/1520-0442_2002_015_3104_atrroi_2.0.co_2.xml
-Y2  - 2022/11/12/18:12:07
-L1  - https://journals.ametsoc.org/downloadpdf/journals/clim/15/21/1520-0442_2002_015_3104_atrroi_2.0.co_2.pdf
-L2  - https://journals.ametsoc.org/view/journals/clim/15/21/1520-0442_2002_015_3104_atrroi_2.0.co_2.xml
-ER  - 
-
-TY  - JOUR
-TI  - Constraining climate model properties using optimal fingerprint detection methods
-AU  - Forest, C. E.
-AU  - Allen, M. R.
-AU  - Sokolov, A. P.
-AU  - Stone, P. H.
-T2  - Climate Dynamics
-AB  - We present a method for constraining key properties of the climate system that are important for climate prediction (climate sensitivity and rate of heat penetration into the deep ocean) by comparing a model's response to known forcings over the twentieth century against climate observations for that period. We use the MIT 2D climate model in conjunction with results from the Hadley Centre's coupled atmosphere–ocean general circulation model (AOGCM) to determine these constraints. The MIT 2D model, which is a zonally averaged version of a 3D GCM, can accurately reproduce the global-mean transient response of coupled AOGCMs through appropriate choices of the climate sensitivity and the effective rate of diffusion of heat anomalies into the deep ocean. Vertical patterns of zonal mean temperature change through the troposphere and lower stratosphere also compare favorably with those generated by 3-D GCMs. We compare the height–latitude pattern of temperature changes as simulated by the MIT 2D model with observed changes, using optimal fingerprint detection statistics. Using a linear regression model as in Allen and Tett this approach yields an objective measure of model-observation goodness-of-fit (via the residual sum of squares weighted by differences expected due to internal variability). The MIT model permits one to systematically vary the model's climate sensitivity (by varying the strength of the cloud feedback) and rate of mixing of heat into the deep ocean and determine how the goodness-of-fit with observations depends on these factors. This provides an efficient framework for interpreting detection and attribution results in physical terms. With aerosol forcing set in the middle of the IPCC range, two sets of model parameters are rejected as being implausible when the model response is compared with observations. The first set corresponds to high climate sensitivity and slow heat uptake by the deep ocean. The second set corresponds to low sensitivities for all magnitudes of heat uptake. These results demonstrate that fingerprint patterns must be carefully chosen, if their detection is to reduce the uncertainty of physically important model parameters which affect projections of climate change.
-DA  - 2001/12/01/
-PY  - 2001
-DO  - 10.1007/s003820100175
-DP  - Springer Link
-VL  - 18
-IS  - 3
-SP  - 277
-EP  - 295
-J2  - Climate Dynamics
-LA  - en
-SN  - 1432-0894
-UR  - https://doi.org/10.1007/s003820100175
-Y2  - 2022/11/12/18:14:10
-L1  - https://dspace.mit.edu/bitstream/1721.1/3583/1/MITJPSPGC_Rpt62.pdf
-KW  - Climate Sensitivity
-KW  - Cloud Feedback
-KW  - Deep Ocean
-KW  - Heat Uptake
-KW  - Ocean General Circulation Model
 ER  - 
 
 TY  - JOUR
@@ -2960,32 +2759,6 @@ UR  - https://journals.ametsoc.org/view/journals/clim/19/17/jcli3865.1.xml
 Y2  - 2022/11/12/18:22:34
 L1  - https://journals.ametsoc.org/downloadpdf/journals/clim/19/17/jcli3865.1.pdf
 L2  - https://journals.ametsoc.org/view/journals/clim/19/17/jcli3865.1.xml
-ER  - 
-
-TY  - JOUR
-TI  - Constraints on radiative forcing and future climate change from observations and climate model ensembles
-AU  - Knutti, Reto
-AU  - Stocker, Thomas F.
-AU  - Joos, Fortunat
-AU  - Plattner, Gian-Kasper
-T2  - Nature
-AB  - The assessment of uncertainties in global warming projections is often based on expert judgement, because a number of key variables in climate change are poorly quantified. In particular, the sensitivity of climate to changing greenhouse-gas concentrations in the atmosphere and the radiative forcing effects by aerosols are not well constrained, leading to large uncertainties in global warming simulations1. Here we present a Monte Carlo approach to produce probabilistic climate projections, using a climate model of reduced complexity. The uncertainties in the input parameters and in the model itself are taken into account, and past observations of oceanic and atmospheric warming are used to constrain the range of realistic model responses. We obtain a probability density function for the present-day total radiative forcing, giving 1.4 to 2.4 W m-2 for the 5–95 per cent confidence range, narrowing the global-mean indirect aerosol effect to the range of 0 to –1.2 W m-2. Ensemble simulations for two illustrative emission scenarios suggest a 40 per cent probability that global-mean surface temperature increase will exceed the range predicted by the Intergovernmental Panel on Climate Change (IPCC), but only a 5 per cent probability that warming will fall below that range.
-DA  - 2002/04//
-PY  - 2002
-DO  - 10.1038/416719a
-DP  - www.nature.com
-VL  - 416
-IS  - 6882
-SP  - 719
-EP  - 723
-LA  - en
-SN  - 1476-4687
-UR  - https://www.nature.com/articles/416719a
-Y2  - 2022/11/12/18:23:26
-L2  - https://www.nature.com/articles/416719a#citeas
-KW  - Humanities and Social Sciences
-KW  - multidisciplinary
-KW  - Science
 ER  - 
 
 TY  - JOUR
@@ -3389,26 +3162,6 @@ L2  - https://www.nature.com/articles/nature03089#citeas
 KW  - Humanities and Social Sciences
 KW  - multidisciplinary
 KW  - Science
-ER  - 
-
-TY  - JOUR
-TI  - Origins and estimates of uncertainty in predictions of twenty-first century temperature rise
-AU  - Stott, Peter A.
-AU  - Kettleborough, J. A.
-T2  - Nature
-DA  - 2002/04/18/
-PY  - 2002
-DO  - 10.1038/416723a
-DP  - DOI.org (Crossref)
-VL  - 416
-IS  - 6882
-SP  - 723
-EP  - 726
-J2  - Nature
-LA  - en
-SN  - 0028-0836, 1476-4687
-UR  - http://www.nature.com/articles/416723a
-Y2  - 2022/11/12/19:12:51
 ER  - 
 
 TY  - JOUR
