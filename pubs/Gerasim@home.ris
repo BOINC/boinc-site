@@ -1,0 +1,186 @@
+TY  - CHAP
+TI  - Enumeration of Isotopy Classes of Diagonal Latin Squares of Small Order Using Volunteer Computing
+AU  - Vatutin, Eduard
+AU  - Belyshev, Alexey
+AU  - Kochemazov, Stepan
+AU  - Zaikin, Oleg
+AU  - Nikitina, Natalia
+T2  - Supercomputing
+A2  - Voevodin, Vladimir
+A2  - Sobolev, Sergey
+CY  - Cham
+DA  - 2019///
+PY  - 2019
+DP  - DOI.org (Crossref)
+VL  - 965
+SP  - 578
+EP  - 586
+PB  - Springer International Publishing
+SN  - 978-3-030-05806-7 978-3-030-05807-4
+UR  - http://link.springer.com/10.1007/978-3-030-05807-4_49
+Y2  - 2022/11/13/21:38:44
+ER  - 
+
+TY  - JOUR
+TI  - Using Volunteer Computing to Study Some Features of Diagonal Latin Squares
+AU  - Vatutin, Eduard
+AU  - Zaikin, Oleg
+AU  - Kochemazov, Stepan
+AU  - Valyaev, Sergey
+T2  - Open Engineering
+AB  - Abstract
+            In this research, the study concerns around several features of diagonal Latin squares (DLSs) of small order. Authors of the study suggest an algorithm for computing minimal and maximal numbers of transversals of DLSs. According to this algorithm, all DLSs of a particular order are generated, and for each square all its transversals and diagonal transversals are constructed. The algorithm was implemented and applied to DLSs of order at most 7 on a personal computer. The experiment for order 8 was performed in the volunteer computing project Gerasim@home. In addition, the problem of finding pairs of orthogonal DLSs of order 10 was considered and reduced to Boolean satisfiability problem. The obtained problem turned out to be very hard, therefore it was decomposed into a family of subproblems. In order to solve the problem, the volunteer computing project SAT@home was used. As a result, several dozen pairs of described kind were found.
+DA  - 2017/12/29/
+PY  - 2017
+DO  - 10.1515/eng-2017-0052
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 453
+EP  - 460
+SN  - 2391-5439
+UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0052/html
+Y2  - 2022/11/13/21:38:44
+L1  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0052/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Comparison of Decisions Quality of Heuristic Methods with Limited Depth-First Search Techniques in the Graph Shortest Path Problem
+AU  - Vatutin, Eduard
+T2  - Open Engineering
+AB  - Abstract
+            The article deals with the problem of analysis of effectiveness of the heuristic methods with limited depth-first search techniques of decision obtaining in the test problem of getting the shortest path in graph. The article briefly describes the group of methods based on the limit of branches number of the combinatorial search tree and limit of analyzed subtree depth used to solve the problem. The methodology of comparing experimental data for the estimation of the quality of solutions based on the performing of computational experiments with samples of graphs with pseudo-random structure and selected vertices and arcs number using the BOINC platform is considered. It also shows description of obtained experimental results which allow to identify the areas of the preferable usage of selected subset of heuristic methods depending on the size of the problem and power of constraints. It is shown that the considered pair of methods is ineffective in the selected problem and significantly inferior to the quality of solutions that are provided by ant colony optimization method and its modification with combinatorial returns.
+DA  - 2017/12/29/
+PY  - 2017
+DO  - 10.1515/eng-2017-0041
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 428
+EP  - 434
+SN  - 2391-5439
+UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0041/html
+Y2  - 2022/11/13/21:38:44
+L1  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0041/pdf
+ER  - 
+
+TY  - CHAP
+TI  - Enumerating the Orthogonal Diagonal Latin Squares of Small Order for Different Types of Orthogonality
+AU  - Vatutin, Eduard
+AU  - Belyshev, Alexey
+T2  - Supercomputing
+A2  - Voevodin, Vladimir
+A2  - Sobolev, Sergey
+CY  - Cham
+DA  - 2020///
+PY  - 2020
+DP  - DOI.org (Crossref)
+VL  - 1331
+SP  - 586
+EP  - 597
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-64615-8 978-3-030-64616-5
+UR  - https://link.springer.com/10.1007/978-3-030-64616-5_50
+Y2  - 2022/11/13/21:38:44
+ER  - 
+
+TY  - CHAP
+TI  - Searching for Orthogonal Latin Squares via Cells Mapping and BOINC-Based Cube-and-Conquer
+AU  - Vatutin, Eduard
+AU  - Zaikin, Oleg
+AU  - Manzyuk, Maxim
+AU  - Nikitina, Natalia
+T2  - Supercomputing
+A2  - Voevodin, Vladimir
+A2  - Sobolev, Sergey
+CY  - Cham
+DA  - 2021///
+PY  - 2021
+DP  - DOI.org (Crossref)
+VL  - 1510
+SP  - 498
+EP  - 512
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-92863-6 978-3-030-92864-3
+UR  - https://link.springer.com/10.1007/978-3-030-92864-3_38
+Y2  - 2022/11/13/21:38:44
+ER  - 
+
+TY  - JOUR
+TI  - On the Selection of Optimal Structure Organization of Logic Multicontrollers
+AU  - Vatutin, Eduard
+AU  - Titov, Vitaly
+AU  - Belyaev, Alexander
+T2  - MATEC Web of Conferences
+A2  - Yurchenko, A.V.
+A2  - Syryamkin, V.I.
+DA  - 2016///
+PY  - 2016
+DO  - 10.1051/matecconf/20167901084
+DP  - DOI.org (Crossref)
+VL  - 79
+SP  - 01084
+J2  - MATEC Web Conf.
+SN  - 2261-236X
+UR  - http://www.matec-conferences.org/10.1051/matecconf/20167901084
+Y2  - 2022/11/13/21:38:44
+L1  - https://www.matec-conferences.org/articles/matecconf/pdf/2016/42/matecconf_imet2016_01084.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Evaluation of Efficiency of Using Simple Transformations When Searching for Orthogonal Diagonal Latin Squares of Order 10
+AU  - Vatutin, Eduard
+AU  - Belyshev, Alexey
+AU  - Nikitina, Natalia
+AU  - Manzuk, Maxim
+T2  - High-Performance Computing Systems and Technologies in Scientific Research, Automation of Control and Production
+A2  - Jordan, Vladimir
+A2  - Filimonov, Nikolay
+A2  - Tarasov, Ilya
+A2  - Faerman, Vladimir
+CY  - Cham
+DA  - 2020///
+PY  - 2020
+DP  - DOI.org (Crossref)
+VL  - 1304
+SP  - 127
+EP  - 146
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-66894-5 978-3-030-66895-2
+UR  - http://link.springer.com/10.1007/978-3-030-66895-2_9
+Y2  - 2022/11/13/21:38:44
+ER  - 
+
+TY  - JOUR
+TI  - CENTRAL SYMMETRY PROPERTIES FOR DIAGONAL LATIN SQUARES
+AU  - Southwest State University
+AU  - Vatutin, Eduard
+AU  - Kochemazov, Stepan
+AU  - Matrosov Institute for System Dynamics and Control Theory SB RAS
+AU  - Zaikin, Oleq
+AU  - Matrosov Institute for System Dynamics and Control Theory SB RAS
+AU  - Manzuk, Maxim
+AU  - Internet-portal BOINC.ru
+AU  - Nikitina, Natalia
+AU  - Institute of Applied Mathematical Research
+AU  - Titov, Vitaly
+AU  - Karelian Research Center of the RAS
+T2  - Problems of Information Technology
+DA  - 2019/07/10/
+PY  - 2019
+DO  - 10.25045/jpit.v10.i2.01
+DP  - DOI.org (Crossref)
+VL  - 10
+IS  - 2
+SP  - 3
+EP  - 8
+J2  - JPIT
+SN  - 20774001, 23040157
+UR  - https://jpit.az/uploads/article/en/2019_2/CENTRAL_SYMMETRY_PROPERTIES_FOR_DIAGONAL_LATIN_SQUARES.pdf
+Y2  - 2022/11/13/21:38:44
+L1  - https://jpit.az/uploads/article/en/2019_2/CENTRAL_SYMMETRY_PROPERTIES_FOR_DIAGONAL_LATIN_SQUARES.pdf
+ER  - 
+
