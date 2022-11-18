@@ -1,0 +1,1248 @@
+TY  - JOUR
+TI  - Characterization of partially ordered states in the intrinsically disordered N-terminal domain of p53 using millisecond molecular dynamics simulations
+AU  - Herrera-Nieto, Pablo
+AU  - Pérez, Adrià
+AU  - De Fabritiis, Gianni
+T2  - Scientific Reports
+AB  - Abstract
+            
+              The exploration of intrinsically disordered proteins in isolation is a crucial step to understand their complex dynamical behavior. In particular, the emergence of partially ordered states has not been explored in depth. The experimental characterization of such partially ordered states remains elusive due to their transient nature. Molecular dynamics mitigates this limitation thanks to its capability to explore biologically relevant timescales while retaining atomistic resolution. Here, millisecond unbiased molecular dynamics simulations were performed in the exemplar N-terminal region of p53. In combination with state-of-the-art Markov state models, simulations revealed the existence of several partially ordered states accounting for
+              
+                
+                  $$\sim $$
+                  
+                    ∼
+                  
+                
+              
+              40% of the equilibrium population. Some of the most relevant states feature helical conformations similar to the bound structure of p53 to Mdm2, as well as novel
+              
+                
+                  $$\beta $$
+                  
+                    β
+                  
+                
+              
+              -sheet elements. This highlights the potential complexity underlying the energy surface of intrinsically disordered proteins.
+DA  - 2020/12//
+PY  - 2020
+DO  - 10.1038/s41598-020-69322-2
+DP  - DOI.org (Crossref)
+VL  - 10
+IS  - 1
+SP  - 12402
+J2  - Sci Rep
+LA  - en
+SN  - 2045-2322
+UR  - http://www.nature.com/articles/s41598-020-69322-2
+Y2  - 2022/11/18/22:29:31
+L1  - https://www.nature.com/articles/s41598-020-69322-2.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Computational and Experimental Characterization of NF023, A Candidate Anticancer Compound Inhibiting cIAP2/TRAF2 Assembly
+AU  - Cossu, Federica
+AU  - Sorrentino, Luca
+AU  - Fagnani, Elisa
+AU  - Zaffaroni, Mattia
+AU  - Milani, Mario
+AU  - Giorgino, Toni
+AU  - Mastrangelo, Eloise
+T2  - Journal of Chemical Information and Modeling
+DA  - 2020/10/26/
+PY  - 2020
+DO  - 10.1021/acs.jcim.0c00518
+DP  - DOI.org (Crossref)
+VL  - 60
+IS  - 10
+SP  - 5036
+EP  - 5044
+J2  - J. Chem. Inf. Model.
+LA  - en
+SN  - 1549-9596, 1549-960X
+UR  - https://pubs.acs.org/doi/10.1021/acs.jcim.0c00518
+Y2  - 2022/11/18/22:29:31
+L1  - https://arxiv.org/pdf/2103.10915
+ER  - 
+
+TY  - JOUR
+TI  - Dopamine D3 receptor antagonist reveals a cryptic pocket in aminergic GPCRs
+AU  - Ferruz, Noelia
+AU  - Doerr, Stefan
+AU  - Vanase-Frawley, Michelle A.
+AU  - Zou, Yaozhong
+AU  - Chen, Xiaomin
+AU  - Marr, Eric S.
+AU  - Nelson, Robin T.
+AU  - Kormos, Bethany L.
+AU  - Wager, Travis T.
+AU  - Hou, Xinjun
+AU  - Villalobos, Anabella
+AU  - Sciabola, Simone
+AU  - De Fabritiis, Gianni
+T2  - Scientific Reports
+DA  - 2018/12//
+PY  - 2018
+DO  - 10.1038/s41598-018-19345-7
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 1
+SP  - 897
+J2  - Sci Rep
+LA  - en
+SN  - 2045-2322
+UR  - http://www.nature.com/articles/s41598-018-19345-7
+Y2  - 2022/11/18/22:29:31
+L1  - https://www.nature.com/articles/s41598-018-19345-7.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The pathway of ligand entry from the membrane bilayer to a lipid G protein-coupled receptor
+AU  - Stanley, Nathaniel
+AU  - Pardo, Leonardo
+AU  - Fabritiis, Gianni De
+T2  - Scientific Reports
+DA  - 2016/09//
+PY  - 2016
+DO  - 10.1038/srep22639
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 1
+SP  - 22639
+J2  - Sci Rep
+LA  - en
+SN  - 2045-2322
+UR  - http://www.nature.com/articles/srep22639
+Y2  - 2022/11/18/22:29:31
+L1  - https://www.nature.com/articles/srep22639.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Visualizing the Induced Binding of SH2-Phosphopeptide
+AU  - Giorgino, T.
+AU  - Buch, I.
+AU  - De Fabritiis, G.
+T2  - Journal of Chemical Theory and Computation
+DA  - 2012/04/10/
+PY  - 2012
+DO  - 10.1021/ct300003f
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 4
+SP  - 1171
+EP  - 1175
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+UR  - https://pubs.acs.org/doi/10.1021/ct300003f
+Y2  - 2022/11/18/22:29:31
+ER  - 
+
+TY  - JOUR
+TI  - Rapid Conformational Fluctuations of Disordered HIV-1 Fusion Peptide in Solution
+AU  - Venken, Tom
+AU  - Voet, Arnout
+AU  - De Maeyer, Marc
+AU  - De Fabritiis, Gianni
+AU  - Sadiq, S. Kashif
+T2  - Journal of Chemical Theory and Computation
+DA  - 2013/07/09/
+PY  - 2013
+DO  - 10.1021/ct300856r
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 7
+SP  - 2870
+EP  - 2874
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+UR  - https://pubs.acs.org/doi/10.1021/ct300856r
+Y2  - 2022/11/18/22:29:55
+ER  - 
+
+TY  - JOUR
+TI  - Dynamic and Kinetic Elements of µ-Opioid Receptor Functional Selectivity
+AU  - Kapoor, Abhijeet
+AU  - Martinez-Rosell, Gerard
+AU  - Provasi, Davide
+AU  - de Fabritiis, Gianni
+AU  - Filizola, Marta
+T2  - Scientific Reports
+DA  - 2017/12//
+PY  - 2017
+DO  - 10.1038/s41598-017-11483-8
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 11255
+J2  - Sci Rep
+LA  - en
+SN  - 2045-2322
+UR  - http://www.nature.com/articles/s41598-017-11483-8
+Y2  - 2022/11/18/22:30:47
+L1  - https://www.nature.com/articles/s41598-017-11483-8.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Multibody cofactor and substrate molecular recognition in the myo-inositol monophosphatase enzyme
+AU  - Ferruz, Noelia
+AU  - Tresadern, Gary
+AU  - Pineda-Lucena, Antonio
+AU  - De Fabritiis, Gianni
+T2  - Scientific Reports
+DA  - 2016/07//
+PY  - 2016
+DO  - 10.1038/srep30275
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 1
+SP  - 30275
+J2  - Sci Rep
+LA  - en
+SN  - 2045-2322
+UR  - http://www.nature.com/articles/srep30275
+Y2  - 2022/11/18/22:30:47
+L1  - https://www.nature.com/articles/srep30275.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Small Molecule Modulation of Intrinsically Disordered Proteins Using Molecular Dynamics Simulations
+AU  - Herrera-Nieto, Pablo
+AU  - Pérez, Adrià
+AU  - De Fabritiis, Gianni
+T2  - Journal of Chemical Information and Modeling
+DA  - 2020/10/26/
+PY  - 2020
+DO  - 10.1021/acs.jcim.0c00381
+DP  - DOI.org (Crossref)
+VL  - 60
+IS  - 10
+SP  - 5003
+EP  - 5010
+J2  - J. Chem. Inf. Model.
+LA  - en
+SN  - 1549-9596, 1549-960X
+UR  - https://pubs.acs.org/doi/10.1021/acs.jcim.0c00381
+Y2  - 2022/11/18/22:31:00
+ER  - 
+
+TY  - JOUR
+TI  - GPCRmd uncovers the dynamics of the 3D-GPCRome
+AU  - Rodríguez-Espigares, Ismael
+AU  - Torrens-Fontanals, Mariona
+AU  - Tiemann, Johanna K. S.
+AU  - Aranda-García, David
+AU  - Ramírez-Anguita, Juan Manuel
+AU  - Stepniewski, Tomasz Maciej
+AU  - Worp, Nathalie
+AU  - Varela-Rial, Alejandro
+AU  - Morales-Pastor, Adrián
+AU  - Medel-Lacruz, Brian
+AU  - Pándy-Szekeres, Gáspár
+AU  - Mayol, Eduardo
+AU  - Giorgino, Toni
+AU  - Carlsson, Jens
+AU  - Deupi, Xavier
+AU  - Filipek, Slawomir
+AU  - Filizola, Marta
+AU  - Gómez-Tamayo, José Carlos
+AU  - Gonzalez, Angel
+AU  - Gutiérrez-de-Terán, Hugo
+AU  - Jiménez-Rosés, Mireia
+AU  - Jespers, Willem
+AU  - Kapla, Jon
+AU  - Khelashvili, George
+AU  - Kolb, Peter
+AU  - Latek, Dorota
+AU  - Marti-Solano, Maria
+AU  - Matricon, Pierre
+AU  - Matsoukas, Minos-Timotheos
+AU  - Miszta, Przemyslaw
+AU  - Olivella, Mireia
+AU  - Perez-Benito, Laura
+AU  - Provasi, Davide
+AU  - Ríos, Santiago
+AU  - R. Torrecillas, Iván
+AU  - Sallander, Jessica
+AU  - Sztyler, Agnieszka
+AU  - Vasile, Silvana
+AU  - Weinstein, Harel
+AU  - Zachariae, Ulrich
+AU  - Hildebrand, Peter W.
+AU  - De Fabritiis, Gianni
+AU  - Sanz, Ferran
+AU  - Gloriam, David E.
+AU  - Cordomi, Arnau
+AU  - Guixà-González, Ramon
+AU  - Selent, Jana
+T2  - Nature Methods
+DA  - 2020/08/02/
+PY  - 2020
+DO  - 10.1038/s41592-020-0884-y
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 8
+SP  - 777
+EP  - 787
+J2  - Nat Methods
+LA  - en
+SN  - 1548-7091, 1548-7105
+UR  - http://www.nature.com/articles/s41592-020-0884-y
+Y2  - 2022/11/18/22:31:00
+L1  - https://www.biorxiv.org/content/biorxiv/early/2019/12/17/839597.full.pdf
+ER  - 
+
+TY  - JOUR
+TI  - PlayMolecule CrypticScout: Predicting Protein Cryptic Sites Using Mixed-Solvent Molecular Simulations
+AU  - Martinez-Rosell, Gerard
+AU  - Lovera, Silvia
+AU  - Sands, Zara A.
+AU  - De Fabritiis, Gianni
+T2  - Journal of Chemical Information and Modeling
+DA  - 2020/04/27/
+PY  - 2020
+DO  - 10.1021/acs.jcim.9b01209
+DP  - DOI.org (Crossref)
+VL  - 60
+IS  - 4
+SP  - 2314
+EP  - 2324
+J2  - J. Chem. Inf. Model.
+LA  - en
+SN  - 1549-9596, 1549-960X
+ST  - PlayMolecule CrypticScout
+UR  - https://pubs.acs.org/doi/10.1021/acs.jcim.9b01209
+Y2  - 2022/11/18/22:31:00
+ER  - 
+
+TY  - JOUR
+TI  - Machine Learning of Coarse-Grained Molecular Dynamics Force Fields
+AU  - Wang, Jiang
+AU  - Olsson, Simon
+AU  - Wehmeyer, Christoph
+AU  - Pérez, Adrià
+AU  - Charron, Nicholas E.
+AU  - de Fabritiis, Gianni
+AU  - Noé, Frank
+AU  - Clementi, Cecilia
+T2  - ACS Central Science
+DA  - 2019/05/22/
+PY  - 2019
+DO  - 10.1021/acscentsci.8b00913
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 5
+SP  - 755
+EP  - 767
+J2  - ACS Cent. Sci.
+LA  - en
+SN  - 2374-7943, 2374-7951
+UR  - https://pubs.acs.org/doi/10.1021/acscentsci.8b00913
+Y2  - 2022/11/18/22:31:00
+L1  - https://europepmc.org/articles/pmc6535777?pdf=render
+ER  - 
+
+TY  - JOUR
+TI  - Molecular-Simulation-Driven Fragment Screening for the Discovery of New CXCL12 Inhibitors
+AU  - Martinez-Rosell, Gerard
+AU  - Harvey, Matt J.
+AU  - De Fabritiis, Gianni
+T2  - Journal of Chemical Information and Modeling
+DA  - 2018/03/26/
+PY  - 2018
+DO  - 10.1021/acs.jcim.7b00625
+DP  - DOI.org (Crossref)
+VL  - 58
+IS  - 3
+SP  - 683
+EP  - 691
+J2  - J. Chem. Inf. Model.
+LA  - en
+SN  - 1549-9596, 1549-960X
+UR  - https://pubs.acs.org/doi/10.1021/acs.jcim.7b00625
+Y2  - 2022/11/18/22:31:00
+ER  - 
+
+TY  - JOUR
+TI  - Complete protein–protein association kinetics in atomic detail revealed by molecular dynamics simulations and Markov modelling
+AU  - Plattner, Nuria
+AU  - Doerr, Stefan
+AU  - De Fabritiis, Gianni
+AU  - Noé, Frank
+T2  - Nature Chemistry
+DA  - 2017/10//
+PY  - 2017
+DO  - 10.1038/nchem.2785
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 10
+SP  - 1005
+EP  - 1011
+J2  - Nature Chem
+LA  - en
+SN  - 1755-4330, 1755-4349
+UR  - http://www.nature.com/articles/nchem.2785
+Y2  - 2022/11/18/22:31:00
+ER  - 
+
+TY  - JOUR
+TI  - High-Throughput Automated Preparation and Simulation of Membrane Proteins with HTMD
+AU  - Doerr, Stefan
+AU  - Giorgino, Toni
+AU  - Martínez-Rosell, Gerard
+AU  - Damas, João M.
+AU  - De Fabritiis, Gianni
+T2  - Journal of Chemical Theory and Computation
+DA  - 2017/09/12/
+PY  - 2017
+DO  - 10.1021/acs.jctc.7b00480
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 9
+SP  - 4003
+EP  - 4011
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+UR  - https://pubs.acs.org/doi/10.1021/acs.jctc.7b00480
+Y2  - 2022/11/18/22:31:00
+ER  - 
+
+TY  - JOUR
+TI  - Identification of slow molecular order parameters for Markov model construction
+AU  - Pérez-Hernández, Guillermo
+AU  - Paul, Fabian
+AU  - Giorgino, Toni
+AU  - De Fabritiis, Gianni
+AU  - Noé, Frank
+T2  - The Journal of Chemical Physics
+DA  - 2013/07/07/
+PY  - 2013
+DO  - 10.1063/1.4811489
+DP  - DOI.org (Crossref)
+VL  - 139
+IS  - 1
+SP  - 015102
+J2  - The Journal of Chemical Physics
+LA  - en
+SN  - 0021-9606, 1089-7690
+UR  - http://aip.scitation.org/doi/10.1063/1.4811489
+Y2  - 2022/11/18/22:31:00
+L1  - https://repositori.upf.edu/bitstream/10230/25314/1/Fabritiis_che_ide.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Kinetic characterization of the critical step in HIV-1 protease maturation
+AU  - Sadiq, S. Kashif
+AU  - Noé, Frank
+AU  - De Fabritiis, Gianni
+T2  - Proceedings of the National Academy of Sciences
+AB  - HIV maturation requires multiple cleavage of long polyprotein chains into functional proteins that include the viral protease itself. Initial cleavage by the protease dimer occurs from within these precursors, and yet only a single protease monomer is embedded in each polyprotein chain. Self-activation has been proposed to start from a partially dimerized protease formed from monomers of different chains binding its own N termini by self-association to the active site, but a complete structural understanding of this critical step in HIV maturation is missing. Here, we captured the critical self-association of immature HIV-1 protease to its extended amino-terminal recognition motif using large-scale molecular dynamics simulations, thus confirming the postulated intramolecular mechanism in atomic detail. We show that self-association to a catalytically viable state requires structural cooperativity of the flexible β-hairpin “flap” regions of the enzyme and that the major transition pathway is first via self-association in the semiopen/open enzyme states, followed by enzyme conformational transition into a catalytically viable closed state. Furthermore, partial N-terminal threading can play a role in self-association, whereas wide opening of the flaps in concert with self-association is not observed. We estimate the association rate constant (
+              k
+              on
+              ) to be on the order of ∼1 × 10
+              4
+              s
+              −1
+              , suggesting that N-terminal self-association is not the rate-limiting step in the process. The shown mechanism also provides an interesting example of molecular conformational transitions along the association pathway.
+DA  - 2012/12/11/
+PY  - 2012
+DO  - 10.1073/pnas.1210983109
+DP  - DOI.org (Crossref)
+VL  - 109
+IS  - 50
+SP  - 20449
+EP  - 20454
+J2  - Proc. Natl. Acad. Sci. U.S.A.
+LA  - en
+SN  - 0027-8424, 1091-6490
+UR  - https://pnas.org/doi/full/10.1073/pnas.1210983109
+Y2  - 2022/11/18/22:36:38
+L1  - https://europepmc.org/articles/pmc3528573?pdf=render
+ER  - 
+
+TY  - JOUR
+TI  - Thumbs Down for HIV: Domain Level Rearrangements Do Occur in the NNRTI-Bound HIV-1 Reverse Transcriptase
+AU  - Wright, David W.
+AU  - Sadiq, S. Kashif
+AU  - De Fabritiis, Gianni
+AU  - Coveney, Peter V.
+T2  - Journal of the American Chemical Society
+DA  - 2012/08/08/
+PY  - 2012
+DO  - 10.1021/ja301565k
+DP  - DOI.org (Crossref)
+VL  - 134
+IS  - 31
+SP  - 12885
+EP  - 12888
+J2  - J. Am. Chem. Soc.
+LA  - en
+SN  - 0002-7863, 1520-5126
+ST  - Thumbs Down for HIV
+UR  - https://pubs.acs.org/doi/10.1021/ja301565k
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - A novel hotspot of gelsolin instability triggers an alternative mechanism of amyloid aggregation
+AU  - Bollati, Michela
+AU  - Diomede, Luisa
+AU  - Giorgino, Toni
+AU  - Natale, Carmina
+AU  - Fagnani, Elisa
+AU  - Boniardi, Irene
+AU  - Barbiroli, Alberto
+AU  - Alemani, Rebecca
+AU  - Beeg, Marten
+AU  - Gobbi, Marco
+AU  - Fakin, Ana
+AU  - Mastrangelo, Eloise
+AU  - Milani, Mario
+AU  - Presciuttini, Gianluca
+AU  - Gabellieri, Edi
+AU  - Cioni, Patrizia
+AU  - de Rosa, Matteo
+T2  - Computational and Structural Biotechnology Journal
+DA  - 2021///
+PY  - 2021
+DO  - 10.1016/j.csbj.2021.11.025
+DP  - DOI.org (Crossref)
+VL  - 19
+SP  - 6355
+EP  - 6365
+J2  - Computational and Structural Biotechnology Journal
+LA  - en
+SN  - 20010370
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S2001037021004906
+Y2  - 2022/11/18/22:36:40
+L1  - https://www.sciencedirect.com/science/article/pii/S2001037021004906/pdfft?md5=ca14778843cdaced572489bca82ab90c&pid=1-s2.0-S2001037021004906-main.pdf&isDTMRedir=Y
+ER  - 
+
+TY  - CHAP
+TI  - Understanding Molecular Recognition by Kinetic Network Models Constructed from Molecular Dynamics Simulations
+AU  - Huang, Xuhui
+AU  - De Fabritiis, Gianni
+T2  - An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation
+A2  - Bowman, Gregory R.
+A2  - Pande, Vijay S.
+A2  - Noé, Frank
+CY  - Dordrecht
+DA  - 2014///
+PY  - 2014
+DP  - DOI.org (Crossref)
+VL  - 797
+SP  - 107
+EP  - 114
+PB  - Springer Netherlands
+SN  - 978-94-007-7605-0 978-94-007-7606-7
+UR  - http://link.springer.com/10.1007/978-94-007-7606-7_9
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - Reranking Docking Poses Using Molecular Simulations and Approximate Free Energy Methods
+AU  - Lauro, G.
+AU  - Ferruz, N.
+AU  - Fulle, S.
+AU  - Harvey, M. J.
+AU  - Finn, P. W.
+AU  - De Fabritiis, G.
+T2  - Journal of Chemical Information and Modeling
+DA  - 2014/08/25/
+PY  - 2014
+DO  - 10.1021/ci500309a
+DP  - DOI.org (Crossref)
+VL  - 54
+IS  - 8
+SP  - 2185
+EP  - 2189
+J2  - J. Chem. Inf. Model.
+LA  - en
+SN  - 1549-9596, 1549-960X
+UR  - https://pubs.acs.org/doi/10.1021/ci500309a
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - ACEMD: Accelerating Biomolecular Dynamics in the Microsecond Time Scale
+AU  - Harvey, M. J.
+AU  - Giupponi, G.
+AU  - Fabritiis, G. De
+T2  - Journal of Chemical Theory and Computation
+DA  - 2009/06/09/
+PY  - 2009
+DO  - 10.1021/ct9000685
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 6
+SP  - 1632
+EP  - 1639
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+ST  - ACEMD
+UR  - https://pubs.acs.org/doi/10.1021/ct9000685
+Y2  - 2022/11/18/22:36:38
+L1  - https://arxiv.org/pdf/0902.0827
+ER  - 
+
+TY  - JOUR
+TI  - Induced Effects of Sodium Ions on Dopaminergic G-Protein Coupled Receptors
+AU  - Selent, Jana
+AU  - Sanz, Ferran
+AU  - Pastor, Manuel
+AU  - De Fabritiis, Gianni
+T2  - PLoS Computational Biology
+A2  - Briggs, James M.
+DA  - 2010/08/12/
+PY  - 2010
+DO  - 10.1371/journal.pcbi.1000884
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 8
+SP  - e1000884
+J2  - PLoS Comput Biol
+LA  - en
+SN  - 1553-7358
+UR  - https://dx.plos.org/10.1371/journal.pcbi.1000884
+Y2  - 2022/11/18/22:36:38
+L1  - https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1000884&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - The impact of accelerator processors for high-throughput molecular modeling and simulation
+AU  - Giupponi, G.
+AU  - Harvey, M.J.
+AU  - De Fabritiis, G.
+T2  - Drug Discovery Today
+DA  - 2008/12//
+PY  - 2008
+DO  - 10.1016/j.drudis.2008.08.001
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 23-24
+SP  - 1052
+EP  - 1058
+J2  - Drug Discovery Today
+LA  - en
+SN  - 13596446
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S135964460800278X
+Y2  - 2022/11/18/22:36:38
+L1  - https://spiral.imperial.ac.uk/bitstream/10044/1/1382/1/ddt.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Kinetic Characterization of Fragment Binding in AmpC β-Lactamase by High-Throughput Molecular Simulations
+AU  - Bisignano, P.
+AU  - Doerr, S.
+AU  - Harvey, M. J.
+AU  - Favia, A. D.
+AU  - Cavalli, A.
+AU  - De Fabritiis, G.
+T2  - Journal of Chemical Information and Modeling
+DA  - 2014/02/24/
+PY  - 2014
+DO  - 10.1021/ci4006063
+DP  - DOI.org (Crossref)
+VL  - 54
+IS  - 2
+SP  - 362
+EP  - 366
+J2  - J. Chem. Inf. Model.
+LA  - en
+SN  - 1549-9596, 1549-960X
+UR  - https://pubs.acs.org/doi/10.1021/ci4006063
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - High-throughput molecular dynamics: the powerful new tool for drug discovery
+AU  - Harvey, Matthew J.
+AU  - De Fabritiis, Gianni
+T2  - Drug Discovery Today
+DA  - 2012/10//
+PY  - 2012
+DO  - 10.1016/j.drudis.2012.03.017
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 19-20
+SP  - 1059
+EP  - 1062
+J2  - Drug Discovery Today
+LA  - en
+SN  - 13596446
+ST  - High-throughput molecular dynamics
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S1359644612001213
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - A survey of computational molecular science using graphics processing units: Survey of computational molecular science on GPUs
+AU  - Harvey, M. J.
+AU  - De Fabritiis, Gianni
+T2  - Wiley Interdisciplinary Reviews: Computational Molecular Science
+DA  - 2012/09//
+PY  - 2012
+DO  - 10.1002/wcms.1101
+DP  - DOI.org (Crossref)
+VL  - 2
+IS  - 5
+SP  - 734
+EP  - 742
+J2  - WIREs Comput Mol Sci
+LA  - en
+SN  - 17590876
+ST  - A survey of computational molecular science using graphics processing units
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/wcms.1101
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - Distributed computing as a virtual supercomputer: Tools to run and manage large-scale BOINC simulations
+AU  - Giorgino, Toni
+AU  - Harvey, M.J.
+AU  - de Fabritiis, Gianni
+T2  - Computer Physics Communications
+DA  - 2010/08//
+PY  - 2010
+DO  - 10.1016/j.cpc.2010.04.007
+DP  - DOI.org (Crossref)
+VL  - 181
+IS  - 8
+SP  - 1402
+EP  - 1409
+J2  - Computer Physics Communications
+LA  - en
+SN  - 00104655
+ST  - Distributed computing as a virtual supercomputer
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0010465510001189
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - Complete reconstruction of an enzyme-inhibitor binding process by molecular dynamics simulations
+AU  - Buch, Ignasi
+AU  - Giorgino, Toni
+AU  - De Fabritiis, Gianni
+T2  - Proceedings of the National Academy of Sciences
+AB  - The understanding of protein–ligand binding is of critical importance for biomedical research, yet the process itself has been very difficult to study because of its intrinsically dynamic character. Here, we have been able to quantitatively reconstruct the complete binding process of the enzyme-inhibitor complex trypsin-benzamidine by performing 495 molecular dynamics simulations of free ligand binding of 100 ns each, 187 of which produced binding events with an rmsd less than 2 Å compared to the crystal structure. The binding paths obtained are able to capture the kinetic pathway of the inhibitor diffusing from solvent (S0) to the bound (S4) state passing through two metastable intermediate states S2 and S3. Rather than directly entering the binding pocket the inhibitor appears to roll on the surface of the protein in its transition between S3 and the final binding pocket, whereas the transition between S2 and the bound pose requires rediffusion to S3. An estimation of the standard free energy of binding gives Δ
+              G
+              ° = -5.2 ± 0.4 kcal/mol (cf. the experimental value -6.2 kcal/mol), and a two-states kinetic model
+              k
+              on
+               = (1.5 ± 0.2) × 10
+              8
+               M
+              -1
+               s
+              -1
+              and
+              k
+              off
+               = (9.5 ± 3.3) × 10
+              4
+               s
+              -1
+              for unbound to bound transitions. The ability to reconstruct by simple diffusion the binding pathway of an enzyme-inhibitor binding process demonstrates the predictive power of unconventional high-throughput molecular simulations. Moreover, the methodology is directly applicable to other molecular systems and thus of general interest in biomedical and pharmaceutical research.
+DA  - 2011/06/21/
+PY  - 2011
+DO  - 10.1073/pnas.1103547108
+DP  - DOI.org (Crossref)
+VL  - 108
+IS  - 25
+SP  - 10184
+EP  - 10189
+J2  - Proc. Natl. Acad. Sci. U.S.A.
+LA  - en
+SN  - 0027-8424, 1091-6490
+UR  - https://pnas.org/doi/full/10.1073/pnas.1103547108
+Y2  - 2022/11/18/22:36:40
+L1  - https://www.pnas.org/content/pnas/108/25/10184.full.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Simulations meet machine learning in structural biology
+AU  - Pérez, Adrià
+AU  - Martínez-Rosell, Gerard
+AU  - De Fabritiis, Gianni
+T2  - Current Opinion in Structural Biology
+DA  - 2018/04//
+PY  - 2018
+DO  - 10.1016/j.sbi.2018.02.004
+DP  - DOI.org (Crossref)
+VL  - 49
+SP  - 139
+EP  - 144
+J2  - Current Opinion in Structural Biology
+LA  - en
+SN  - 0959440X
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0959440X17301069
+Y2  - 2022/11/18/22:36:40
+L1  - https://repositori.upf.edu/bitstream/10230/37227/1/Perez_cosb_simu.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Statistical Analysis of Global Connectivity and Activity Distributions in Cellular Networks
+AU  - De Lomana, Adrián López García
+AU  - Beg, Qasim K.
+AU  - De Fabritiis, G.
+AU  - Villà-Freixa, Jordi
+T2  - Journal of Computational Biology
+DA  - 2010/07//
+PY  - 2010
+DO  - 10.1089/cmb.2008.0240
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 7
+SP  - 869
+EP  - 878
+J2  - Journal of Computational Biology
+LA  - en
+SN  - 1066-5277, 1557-8666
+UR  - http://www.liebertpub.com/doi/10.1089/cmb.2008.0240
+Y2  - 2022/11/18/22:36:39
+L1  - https://arxiv.org/pdf/1004.3138
+ER  - 
+
+TY  - JOUR
+TI  - Insights from Fragment Hit Binding Assays by Molecular Simulations
+AU  - Ferruz, Noelia
+AU  - Harvey, Matthew J.
+AU  - Mestres, Jordi
+AU  - De Fabritiis, Gianni
+T2  - Journal of Chemical Information and Modeling
+DA  - 2015/10/26/
+PY  - 2015
+DO  - 10.1021/acs.jcim.5b00453
+DP  - DOI.org (Crossref)
+VL  - 55
+IS  - 10
+SP  - 2200
+EP  - 2205
+J2  - J. Chem. Inf. Model.
+LA  - en
+SN  - 1549-9596, 1549-960X
+UR  - https://pubs.acs.org/doi/10.1021/acs.jcim.5b00453
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - Progress in studying intrinsically disordered proteins with atomistic simulations
+AU  - Stanley, Nathaniel
+AU  - Esteban-Martín, Santiago
+AU  - De Fabritiis, Gianni
+T2  - Progress in Biophysics and Molecular Biology
+DA  - 2015/10//
+PY  - 2015
+DO  - 10.1016/j.pbiomolbio.2015.03.003
+DP  - DOI.org (Crossref)
+VL  - 119
+IS  - 1
+SP  - 47
+EP  - 52
+J2  - Progress in Biophysics and Molecular Biology
+LA  - en
+SN  - 00796107
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0079610715000395
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - Membrane lipids are key modulators of the endocannabinoid-hydrolase FAAH
+AU  - Dainese, Enrico
+AU  - De Fabritiis, Gianni
+AU  - Sabatucci, Annalaura
+AU  - Oddi, Sergio
+AU  - Angelucci, Clotilde Beatrice
+AU  - Di Pancrazio, Chiara
+AU  - Giorgino, Toni
+AU  - Stanley, Nathaniel
+AU  - Del Carlo, Michele
+AU  - Cravatt, Benjamin F.
+AU  - Maccarrone, Mauro
+T2  - Biochemical Journal
+AB  - Lipid composition is expected to play an important role in modulating membrane enzyme activity, in particular if the substrates are themselves lipid molecules. A paradigmatic case is FAAH (fatty acid amide hydrolase), an enzyme critical in terminating endocannabinoid signalling and an important therapeutic target. In the present study, using a combined experimental and computational approach, we show that membrane lipids modulate the structure, subcellular localization and activity of FAAH. We report that the FAAH dimer is stabilized by the lipid bilayer and shows a higher membrane-binding affinity and enzymatic activity within membranes containing both cholesterol and the natural FAAH substrate AEA (anandamide). Additionally, co-localization of cholesterol, AEA and FAAH in mouse neuroblastoma cells suggests a mechanism through which cholesterol increases the substrate accessibility of FAAH.
+DA  - 2014/02/01/
+PY  - 2014
+DO  - 10.1042/BJ20130960
+DP  - DOI.org (Crossref)
+VL  - 457
+IS  - 3
+SP  - 463
+EP  - 472
+LA  - en
+SN  - 0264-6021, 1470-8728
+UR  - https://portlandpress.com/biochemj/article/457/3/463/46408/Membrane-lipids-are-key-modulators-of-the
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - Explicit solvent dynamics and energetics of HIV-1 protease flap opening and closing
+AU  - Sadiq, S. Kashif
+AU  - De Fabritiis, Gianni
+T2  - Proteins: Structure, Function, and Bioinformatics
+DA  - 2010/11/01/
+PY  - 2010
+DO  - 10.1002/prot.22806
+DP  - DOI.org (Crossref)
+VL  - 78
+IS  - 14
+SP  - 2873
+EP  - 2885
+J2  - Proteins
+LA  - en
+SN  - 08873585
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.22806
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - Optimized Potential of Mean Force Calculations for Standard Binding Free Energies
+AU  - Buch, Ignasi
+AU  - Sadiq, S. Kashif
+AU  - De Fabritiis, Gianni
+T2  - Journal of Chemical Theory and Computation
+DA  - 2011/06/14/
+PY  - 2011
+DO  - 10.1021/ct2000638
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 6
+SP  - 1765
+EP  - 1772
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+UR  - https://pubs.acs.org/doi/10.1021/ct2000638
+Y2  - 2022/11/18/22:36:38
+ER  - 
+
+TY  - JOUR
+TI  - Towards multi-scale modelling of complex liquids using hybrid particle—continuum schemes
+AU  - Delgado-Buscalioni, R
+AU  - Coveney, P V
+AU  - De Fabritiis, G
+T2  - Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science
+AB  - Owing to the interplay between molecular and mesoscopic processes, the modelling and simulation of complex liquids at nano- and micron-scales require a multi-scale approach. A hybrid technique is proposed to handle multi-scale phenomena, which retains the full molecular nature of the system where it is of interest while coarse-graining it elsewhere. The method couples molecular dynamics (MD) and fluctuating hydrodynamics (FH) based on the Landau theory. Mean flows involving transport of transversal (shear) and longitudinal momentum (sound) are coupled across the interface of both MD and FH domains. Hydrodynamic fluctuations of mass and momentum are transferred, preserving consistency with hydrodynamics and thermodynamics. Here the hybrid method is illustrated by studying the reflection of water sound waves against a lipid (dimyristoylphosphatidylcholine) monolayer.
+DA  - 2008/05/01/
+PY  - 2008
+DO  - 10.1243/09544062JMES746
+DP  - DOI.org (Crossref)
+VL  - 222
+IS  - 5
+SP  - 769
+EP  - 776
+J2  - Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science
+LA  - en
+SN  - 0954-4062, 2041-2983
+UR  - http://journals.sagepub.com/doi/10.1243/09544062JMES746
+Y2  - 2022/11/18/22:36:38
+ER  - 
+
+TY  - JOUR
+TI  - Drug Discovery and Molecular Dynamics: Methods, Applications and Perspective Beyond the Second Timescale
+AU  - Martínez-Rosell, Gerard
+AU  - Giorgino, Toni
+AU  - Harvey, Matt  J.
+AU  - de Fabritiis, Gianni
+T2  - Current Topics in Medicinal Chemistry
+DA  - 2017/08/08/
+PY  - 2017
+DO  - 10.2174/1568026617666170414142549
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 23
+J2  - CTMC
+LA  - en
+SN  - 15680266
+ST  - Drug Discovery and Molecular Dynamics
+UR  - http://www.eurekaselect.com/151617/article
+Y2  - 2022/11/18/22:36:38
+ER  - 
+
+TY  - JOUR
+TI  - On-the-Fly Learning and Sampling of Ligand Binding by High-Throughput Molecular Simulations
+AU  - Doerr, S.
+AU  - De Fabritiis, G.
+T2  - Journal of Chemical Theory and Computation
+DA  - 2014/05/13/
+PY  - 2014
+DO  - 10.1021/ct400919u
+DP  - DOI.org (Crossref)
+VL  - 10
+IS  - 5
+SP  - 2064
+EP  - 2069
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+UR  - https://pubs.acs.org/doi/10.1021/ct400919u
+Y2  - 2022/11/18/22:36:38
+ER  - 
+
+TY  - JOUR
+TI  - Dimensionality reduction methods for molecular simulations
+AU  - Doerr, Stefan
+AU  - Ariz-Extreme, Igor
+AU  - Harvey, Matthew J.
+AU  - De Fabritiis, Gianni
+AB  - Molecular simulations produce very high-dimensional data-sets with millions of data points. As analysis methods are often unable to cope with so many dimensions, it is common to use dimensionality reduction and clustering methods to reach a reduced representation of the data. Yet these methods often fail to capture the most important features necessary for the construction of a Markov model. Here we demonstrate the results of various dimensionality reduction methods on two simulation data-sets, one of protein folding and another of protein-ligand binding. The methods tested include a k-means clustering variant, a non-linear auto encoder, principal component analysis and tICA. The dimension-reduced data is then used to estimate the implied timescales of the slowest process by a Markov state model analysis to assess the quality of the projection. The projected dimensions learned from the data are visualized to demonstrate which conformations the various methods choose to represent the molecular process.
+DA  - 2017///
+PY  - 2017
+DO  - 10.48550/ARXIV.1710.10629
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1710.10629
+Y2  - 2022/11/18/22:36:38
+KW  - Biomolecules (q-bio.BM)
+KW  - FOS: Biological sciences
+KW  - FOS: Computer and information sciences
+KW  - Machine Learning (cs.LG)
+KW  - Machine Learning (stat.ML)
+ER  - 
+
+TY  - JOUR
+TI  - Insights from the energetics of water binding at the domain-ligand interface of the Src SH2 domain
+AU  - Fabritiis, Gianni De
+AU  - Geroult, Sebastien
+AU  - Coveney, Peter V.
+AU  - Waksman, Gabriel
+T2  - Proteins: Structure, Function, and Bioinformatics
+DA  - 2008/04/02/
+PY  - 2008
+DO  - 10.1002/prot.22027
+DP  - DOI.org (Crossref)
+VL  - 72
+IS  - 4
+SP  - 1290
+EP  - 1297
+J2  - Proteins
+LA  - en
+SN  - 08873585
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.22027
+Y2  - 2022/11/18/22:36:38
+ER  - 
+
+TY  - JOUR
+TI  - Performance of the Cell processor for biomolecular simulations
+AU  - De Fabritiis, G.
+T2  - Computer Physics Communications
+DA  - 2007/06//
+PY  - 2007
+DO  - 10.1016/j.cpc.2007.02.107
+DP  - DOI.org (Crossref)
+VL  - 176
+IS  - 11-12
+SP  - 660
+EP  - 664
+J2  - Computer Physics Communications
+LA  - en
+SN  - 00104655
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0010465507001981
+Y2  - 2022/11/18/22:36:38
+L1  - https://arxiv.org/pdf/physics/0611201
+ER  - 
+
+TY  - JOUR
+TI  - An Implementation of the Smooth Particle Mesh Ewald Method on GPU Hardware
+AU  - Harvey, M. J.
+AU  - De Fabritiis, G.
+T2  - Journal of Chemical Theory and Computation
+DA  - 2009/09/08/
+PY  - 2009
+DO  - 10.1021/ct900275y
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 9
+SP  - 2371
+EP  - 2377
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+UR  - https://pubs.acs.org/doi/10.1021/ct900275y
+Y2  - 2022/11/18/22:36:38
+ER  - 
+
+TY  - JOUR
+TI  - Accuracy of the lattice-Boltzmann method using the Cell processor
+AU  - Harvey, M. J.
+AU  - De Fabritiis, G.
+AU  - Giupponi, G.
+T2  - Physical Review E
+DA  - 2008/11/06/
+PY  - 2008
+DO  - 10.1103/PhysRevE.78.056702
+DP  - DOI.org (Crossref)
+VL  - 78
+IS  - 5
+SP  - 056702
+J2  - Phys. Rev. E
+LA  - en
+SN  - 1539-3755, 1550-2376
+UR  - https://link.aps.org/doi/10.1103/PhysRevE.78.056702
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - Integrative Biology — the challenges of developing a collaborative research environment for heart and cancer modelling
+AU  - Lloyd, Sharon
+AU  - Gavaghan, Dave
+AU  - Simpson, Andrew
+AU  - Mascord, Matthew
+AU  - Seneurine, Clint
+AU  - Williams, Geoff
+AU  - Pitt-Francis, Joe
+AU  - Boyd, David
+AU  - Mac Randal, Damian
+AU  - Sastry, Lakshmi
+AU  - Nagella, Srikanth
+AU  - Weeks, Katie
+AU  - Fowler, Ronald
+AU  - Hanlon, Daniel
+AU  - Handley, James
+AU  - de Fabritiis, Gianni
+T2  - Future Generation Computer Systems
+DA  - 2007/03//
+PY  - 2007
+DO  - 10.1016/j.future.2006.07.002
+DP  - DOI.org (Crossref)
+VL  - 23
+IS  - 3
+SP  - 457
+EP  - 465
+J2  - Future Generation Computer Systems
+LA  - en
+SN  - 0167739X
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167739X06001415
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - Membrane-Sensitive Conformational States of Helix 8 in the Metabotropic Glu2 Receptor, a Class C GPCR
+AU  - Bruno, Agostino
+AU  - Costantino, Gabriele
+AU  - de Fabritiis, Gianni
+AU  - Pastor, Manuel
+AU  - Selent, Jana
+T2  - PLoS ONE
+A2  - Koch, Karl-Wilhelm
+DA  - 2012/08/01/
+PY  - 2012
+DO  - 10.1371/journal.pone.0042023
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 8
+SP  - e42023
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+UR  - https://dx.plos.org/10.1371/journal.pone.0042023
+Y2  - 2022/11/18/22:36:39
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0042023&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - Amyloid-dependent triosephosphate isomerase nitrotyrosination induces glycation and tau fibrillation
+AU  - Guix, Francesc X.
+AU  - Ill-Raga, Gerard
+AU  - Bravo, Ramona
+AU  - Nakaya, Tadashi
+AU  - de Fabritiis, Gianni
+AU  - Coma, Mireia
+AU  - Miscione, Gian Pietro
+AU  - Villà-Freixa, Jordi
+AU  - Suzuki, Toshiharu
+AU  - Fernàndez-Busquets, Xavier
+AU  - Valverde, Miguel A.
+AU  - de Strooper, Bart
+AU  - Muñoz, Francisco J.
+T2  - Brain
+DA  - 2009/05//
+PY  - 2009
+DO  - 10.1093/brain/awp023
+DP  - DOI.org (Crossref)
+VL  - 132
+IS  - 5
+SP  - 1335
+EP  - 1345
+LA  - en
+SN  - 1460-2156, 0006-8950
+UR  - https://academic.oup.com/brain/article-lookup/doi/10.1093/brain/awp023
+Y2  - 2022/11/18/22:36:39
+L1  - https://academic.oup.com/brain/article-pdf/132/5/1335/13734740/awp023.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Energetics of K+ permeability through Gramicidin A by forward-reverse steered molecular dynamics
+AU  - De Fabritiis, G.
+AU  - Coveney, P. V.
+AU  - Villà-Freixa, J.
+T2  - Proteins: Structure, Function, and Bioinformatics
+DA  - 2008/04/15/
+PY  - 2008
+DO  - 10.1002/prot.22036
+DP  - DOI.org (Crossref)
+VL  - 73
+IS  - 1
+SP  - 185
+EP  - 194
+J2  - Proteins
+LA  - en
+SN  - 08873585
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.22036
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - TorchMD: A Deep Learning Framework for Molecular Simulations
+AU  - Doerr, Stefan
+AU  - Majewski, Maciej
+AU  - Pérez, Adrià
+AU  - Krämer, Andreas
+AU  - Clementi, Cecilia
+AU  - Noe, Frank
+AU  - Giorgino, Toni
+AU  - De Fabritiis, Gianni
+T2  - Journal of Chemical Theory and Computation
+DA  - 2021/04/13/
+PY  - 2021
+DO  - 10.1021/acs.jctc.0c01343
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 4
+SP  - 2355
+EP  - 2363
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+ST  - TorchMD
+UR  - https://pubs.acs.org/doi/10.1021/acs.jctc.0c01343
+Y2  - 2022/11/18/22:36:39
+L1  - https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.0c01343
+ER  - 
+
+TY  - JOUR
+TI  - HTMD: High-Throughput Molecular Dynamics for Molecular Discovery
+AU  - Doerr, S.
+AU  - Harvey, M. J.
+AU  - Noé, Frank
+AU  - De Fabritiis, G.
+T2  - Journal of Chemical Theory and Computation
+DA  - 2016/04/12/
+PY  - 2016
+DO  - 10.1021/acs.jctc.6b00049
+DP  - DOI.org (Crossref)
+VL  - 12
+IS  - 4
+SP  - 1845
+EP  - 1852
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+ST  - HTMD
+UR  - https://pubs.acs.org/doi/10.1021/acs.jctc.6b00049
+Y2  - 2022/11/18/22:36:39
+ER  - 
+
