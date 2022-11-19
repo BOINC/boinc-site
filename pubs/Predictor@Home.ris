@@ -1,3 +1,26 @@
+TY  - JOUR
+TI  - Study of a highly accurate and fast protein-ligand docking method based on molecular dynamics
+AU  - Taufer, M.
+AU  - Crowley, M.
+AU  - Price, D. J.
+AU  - Chien, A. A.
+AU  - Brooks, C. L.
+T2  - Concurrency and Computation: Practice and Experience
+DA  - 2005/12/10/
+PY  - 2005
+DO  - 10.1002/cpe.949
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 14
+SP  - 1627
+EP  - 1641
+J2  - Concurrency Computat.: Pract. Exper.
+LA  - en
+SN  - 1532-0626, 1532-0634
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/cpe.949
+Y2  - 2022/11/11/14:50:01
+ER  - 
+
 TY  - CONF
 TI  - Homogeneous Redundancy: a Technique to Ensure Integrity of Molecular Simulation Results Using Public Computing
 AU  - Taufer, M.
@@ -20,6 +43,28 @@ UR  - https://ieeexplore.ieee.org/document/1419946
 Y2  - 2022/11/11/14:50:02
 ER  - 
 
+TY  - CONF
+TI  - Study of a highly accurate and fast protein-ligand docking algorithm based on molecular dynamics
+AU  - Taufer, M.
+AU  - Crowley, M.
+AU  - Price, D.
+AU  - Chien, A.A.
+AU  - Brooks, C.L.
+T2  - 18th International Parallel and Distributed Processing Symposium, 2004.
+C1  - Santa Fe, NM, USA
+C3  - 18th International Parallel and Distributed Processing Symposium, 2004. Proceedings.
+DA  - 2004///
+PY  - 2004
+DO  - 10.1109/IPDPS.2004.1303203
+DP  - DOI.org (Crossref)
+SP  - 188
+EP  - 195
+PB  - IEEE
+SN  - 978-0-7695-2132-9
+UR  - http://ieeexplore.ieee.org/document/1303203/
+Y2  - 2022/11/11/14:50:02
+ER  - 
+
 TY  - JOUR
 TI  - Predictor@Home: A "Protein Structure Prediction Supercomputer' Based on Global Computing
 AU  - Taufer, M.
@@ -39,6 +84,7 @@ EP  - 796
 SN  - 1558-2183
 ST  - Predictor@Home
 UR  - https://ieeexplore.ieee.org/document/1652942
+KW  - Proteins
 KW  - Amino acids
 KW  - Computational modeling
 KW  - Computer networks
@@ -50,7 +96,6 @@ KW  - molecular dynamics.
 KW  - Monte Carlo simulations
 KW  - Physics computing
 KW  - protein conformational sampling
-KW  - Proteins
 KW  - public resources
 KW  - Sampling methods
 KW  - Supercomputers
@@ -73,18 +118,18 @@ SP  - 8
 EP  - pp.-211
 UR  - https://ieeexplore.ieee.org/abstract/document/1572227
 L2  - https://ieeexplore.ieee.org/abstract/document/1572227
+KW  - Proteins
+KW  - Internet
+KW  - Computational modeling
+KW  - Monte Carlo simulations
 KW  - Availability
 KW  - Biology computing
-KW  - Computational modeling
 KW  - Distributed computing
 KW  - Grid computing
-KW  - Internet
 KW  - Large-scale simulations
 KW  - molecular dynamics
-KW  - Monte Carlo simulations
 KW  - Personal communication networks
 KW  - Processor scheduling
-KW  - Proteins
 KW  - resource classification
 KW  - Resource management
 ER  - 
