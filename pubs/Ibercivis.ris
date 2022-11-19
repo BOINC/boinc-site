@@ -1,0 +1,372 @@
+TY  - JOUR
+TI  - Finite orbit width effect in ion collisional transport in TJ-II
+AU  - Velasco, J. L.
+AU  - Castejón, F.
+AU  - Tarancón, A.
+T2  - Physics of Plasmas
+DA  - 2009/05//
+PY  - 2009
+DO  - 10.1063/1.3126583
+DP  - DOI.org (Crossref)
+VL  - 16
+IS  - 5
+SP  - 052303
+J2  - Physics of Plasmas
+LA  - en
+SN  - 1070-664X, 1089-7674
+UR  - http://aip.scitation.org/doi/10.1063/1.3126583
+Y2  - 2022/11/12/20:13:39
+ER  - 
+
+TY  - JOUR
+TI  - Impact of 3D features on ion collisional transport in ITER
+AU  - Bustos, A.
+AU  - Castejón, F.
+AU  - Fernández, L.A.
+AU  - García, J.
+AU  - Martin-Mayor, V.
+AU  - Reynolds, J.M.
+AU  - Seki, R.
+AU  - Velasco, J.L.
+T2  - Nuclear Fusion
+DA  - 2010/12/01/
+PY  - 2010
+DO  - 10.1088/0029-5515/50/12/125007
+DP  - DOI.org (Crossref)
+VL  - 50
+IS  - 12
+SP  - 125007
+J2  - Nucl. Fusion
+SN  - 0029-5515, 1741-4326
+UR  - https://iopscience.iop.org/article/10.1088/0029-5515/50/12/125007
+Y2  - 2022/11/19/20:45:12
+ER  - 
+
+TY  - JOUR
+TI  - A Performance/Cost Evaluation for a GPU-Based Drug Discovery Application on Volunteer Computing
+AU  - Guerrero, Ginés D.
+AU  - Imbernón, Baldomero
+AU  - Pérez-Sánchez, Horacio
+AU  - Sanz, Francisco
+AU  - García, José M.
+AU  - Cecilia, José M.
+T2  - BioMed Research International
+AB  - Bioinformatics is an interdisciplinary research field that develops tools for the analysis of large biological databases, and, thus, the use of high performance computing (HPC) platforms is mandatory for the generation of useful biological knowledge. The latest generation of graphics processing units (GPUs) has democratized the use of HPC as they push desktop computers to cluster-level performance. Many applications within this field have been developed to leverage these powerful and low-cost architectures. However, these applications still need to scale to larger GPU-based systems to enable remarkable advances in the fields of healthcare, drug discovery, genome research, etc. The inclusion of GPUs in HPC systems exacerbates power and temperature issues, increasing the total cost of ownership (TCO). This paper explores the benefits of volunteer computing to scale bioinformatics applications as an alternative to own large GPU-based local infrastructures. We use as a benchmark a GPU-based drug discovery application called BINDSURF that their computational requirements go beyond a single desktop machine. Volunteer computing is presented as a cheap and valid HPC system for those bioinformatics applications that need to process huge amounts of data and where the response time is not a critical factor.
+DA  - 2014///
+PY  - 2014
+DO  - 10.1155/2014/474219
+DP  - DOI.org (Crossref)
+VL  - 2014
+SP  - 1
+EP  - 8
+J2  - BioMed Research International
+LA  - en
+SN  - 2314-6133, 2314-6141
+UR  - http://www.hindawi.com/journals/bmri/2014/474219/
+Y2  - 2022/11/19/20:45:12
+L1  - https://downloads.hindawi.com/journals/bmri/2014/474219.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Technical Note: An algorithm to calculate the tissue phantom ratio from depth dose in radiosurgery: Calculation of the tissue phantom ratio from depth dose
+AU  - Garcia, Luis Isaac Ramos
+AU  - Almansa, Julio F
+T2  - Medical Physics
+DA  - 2011/04/26/
+PY  - 2011
+DO  - 10.1118/1.3570575
+DP  - DOI.org (Crossref)
+VL  - 38
+IS  - 5
+SP  - 2359
+EP  - 2365
+J2  - Med. Phys.
+LA  - en
+SN  - 00942405
+ST  - Technical Note
+UR  - http://doi.wiley.com/10.1118/1.3570575
+Y2  - 2022/11/19/20:51:42
+ER  - 
+
+TY  - JOUR
+TI  - Water-Mediated Conformations of the Alanine Dipeptide as Revealed by Distributed Umbrella Sampling Simulations, Quantum Mechanics Based Calculations, and Experimental Data
+AU  - Cruz, Víctor
+AU  - Ramos, Javier
+AU  - Martínez-Salazar, Javier
+T2  - The Journal of Physical Chemistry B
+DA  - 2011/04/28/
+PY  - 2011
+DO  - 10.1021/jp2022727
+DP  - DOI.org (Crossref)
+VL  - 115
+IS  - 16
+SP  - 4880
+EP  - 4886
+J2  - J. Phys. Chem. B
+LA  - en
+SN  - 1520-6106, 1520-5207
+UR  - https://pubs.acs.org/doi/10.1021/jp2022727
+Y2  - 2022/11/19/20:51:42
+ER  - 
+
+TY  - JOUR
+TI  - Toward the Discovery of Functional Transthyretin Amyloid Inhibitors: Application of Virtual Screening Methods
+AU  - Simões, Carlos J. V.
+AU  - Mukherjee, Trishna
+AU  - Brito, Rui M. M.
+AU  - Jackson, Richard M.
+T2  - Journal of Chemical Information and Modeling
+DA  - 2010/10/25/
+PY  - 2010
+DO  - 10.1021/ci100250z
+DP  - DOI.org (Crossref)
+VL  - 50
+IS  - 10
+SP  - 1806
+EP  - 1820
+J2  - J. Chem. Inf. Model.
+LA  - en
+SN  - 1549-9596, 1549-960X
+ST  - Toward the Discovery of Functional Transthyretin Amyloid Inhibitors
+UR  - https://pubs.acs.org/doi/10.1021/ci100250z
+Y2  - 2022/11/19/20:51:42
+ER  - 
+
+TY  - JOUR
+TI  - Assessment of the Intrinsic Conformational Preferences of Dipeptide Amino Acids in Aqueous Solution by Combined Umbrella Sampling/MBAR Statistics. A Comparison with Experimental Results
+AU  - Cruz, Victor L.
+AU  - Ramos, Javier
+AU  - Martinez-Salazar, Javier
+T2  - The Journal of Physical Chemistry B
+DA  - 2012/01/12/
+PY  - 2012
+DO  - 10.1021/jp206757j
+DP  - DOI.org (Crossref)
+VL  - 116
+IS  - 1
+SP  - 469
+EP  - 475
+J2  - J. Phys. Chem. B
+LA  - en
+SN  - 1520-6106, 1520-5207
+UR  - https://pubs.acs.org/doi/10.1021/jp206757j
+Y2  - 2022/11/19/20:51:42
+ER  - 
+
+TY  - JOUR
+TI  - Heterogeneous networks do not promote cooperation when humans play a Prisoner’s Dilemma
+AU  - Gracia-Lázaro, Carlos
+AU  - Ferrer, Alfredo
+AU  - Ruiz, Gonzalo
+AU  - Tarancón, Alfonso
+AU  - Cuesta, José A.
+AU  - Sánchez, Angel
+AU  - Moreno, Yamir
+T2  - Proceedings of the National Academy of Sciences
+AB  - It is not fully understood why we cooperate with strangers on a daily basis. In an increasingly global world, where interaction networks and relationships between individuals are becoming more complex, different hypotheses have been put forward to explain the foundations of human cooperation on a large scale and to account for the true motivations that are behind this phenomenon. In this context, population structure has been suggested to foster cooperation in social dilemmas, but theoretical studies of this mechanism have yielded contradictory results so far; additionally, the issue lacks a proper experimental test in large systems. We have performed the largest experiments to date with humans playing a spatial Prisoner’s Dilemma on a lattice and a scale-free network (1,229 subjects). We observed that the level of cooperation reached in both networks is the same, comparable with the level of cooperation of smaller networks or unstructured populations. We have also found that subjects respond to the cooperation that they observe in a reciprocal manner, being more likely to cooperate if, in the previous round, many of their neighbors and themselves did so, which implies that humans do not consider neighbors’ payoffs when making their decisions in this dilemma but only their actions. Our results, which are in agreement with recent theoretical predictions based on this behavioral rule, suggest that population structure has little relevance as a cooperation promoter or inhibitor among humans.
+DA  - 2012/08/07/
+PY  - 2012
+DO  - 10.1073/pnas.1206681109
+DP  - DOI.org (Crossref)
+VL  - 109
+IS  - 32
+SP  - 12922
+EP  - 12926
+J2  - Proc. Natl. Acad. Sci. U.S.A.
+LA  - en
+SN  - 0027-8424, 1091-6490
+UR  - https://pnas.org/doi/full/10.1073/pnas.1206681109
+Y2  - 2022/11/19/20:51:42
+L1  - https://www.pnas.org/content/pnas/109/32/12922.full.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Conductance of a quantum dot in the Kondo regime connected to dirty wires
+AU  - Camjayi, Alberto
+AU  - Arrachea, Liliana
+T2  - Physical Review B
+DA  - 2012/12/26/
+PY  - 2012
+DO  - 10.1103/PhysRevB.86.235143
+DP  - DOI.org (Crossref)
+VL  - 86
+IS  - 23
+SP  - 235143
+J2  - Phys. Rev. B
+LA  - en
+SN  - 1098-0121, 1550-235X
+UR  - https://link.aps.org/doi/10.1103/PhysRevB.86.235143
+Y2  - 2022/11/19/20:56:57
+L1  - https://ri.conicet.gov.ar/bitstream/11336/56103/2/CONICET_Digital_Nro.73a3db63-5c4c-4f80-9338-18bcd5d4b65f_A.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Numerical test of the Cardy-Jacobsen conjecture in the site-diluted Potts model in three dimensions
+AU  - Fernandez, L. A.
+AU  - Gordillo-Guerrero, A.
+AU  - Martin-Mayor, V.
+AU  - Ruiz-Lorenzo, J. J.
+T2  - Physical Review B
+DA  - 2012/11/26/
+PY  - 2012
+DO  - 10.1103/PhysRevB.86.184428
+DP  - DOI.org (Crossref)
+VL  - 86
+IS  - 18
+SP  - 184428
+J2  - Phys. Rev. B
+LA  - en
+SN  - 1098-0121, 1550-235X
+UR  - https://link.aps.org/doi/10.1103/PhysRevB.86.184428
+Y2  - 2022/11/19/20:56:58
+L1  - https://arxiv.org/pdf/1205.0247
+ER  - 
+
+TY  - CONF
+TI  - Conductance statistics for the power-law banded random matrix model
+AU  - Martínez-Mendoza, A. J.
+AU  - Méndez-Bermúdez, J. A.
+AU  - Varga, Imre
+AU  - Martinez-Mares, Moises
+AU  - Moreno-Razo, Jose A.
+T2  - CONDENSED MATTER PHYSICS: IV Mexican Meeting on Experimental and Theoretical Physics: Symposium on Condensed Matter Physics
+C1  - Mexico City, (Mexico)
+DA  - 2010///
+PY  - 2010
+DO  - 10.1063/1.3536612
+DP  - DOI.org (Crossref)
+SP  - 41
+EP  - 48
+UR  - http://aip.scitation.org/doi/abs/10.1063/1.3536612
+Y2  - 2022/11/19/20:56:58
+ER  - 
+
+TY  - JOUR
+TI  - Predicting hydrophobic solvation by molecular simulation: 2. New united-atom model for alkanes, alkenes, and alkynes
+AU  - Jorge, Miguel
+T2  - Journal of Computational Chemistry
+DA  - 2017/03/05/
+PY  - 2017
+DO  - 10.1002/jcc.24689
+DP  - DOI.org (Crossref)
+VL  - 38
+IS  - 6
+SP  - 359
+EP  - 369
+J2  - J. Comput. Chem.
+LA  - en
+SN  - 01928651
+ST  - Predicting hydrophobic solvation by molecular simulation
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.24689
+Y2  - 2022/11/19/20:57:49
+L1  - https://strathprints.strath.ac.uk/59034/1/Jorge_etal_JCC2016_Predicting_hydrophobic_solvation_by_molecular_simulation_2.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Predicting hydrophobic solvation by molecular simulation: 1. Testing united-atom alkane models
+AU  - Jorge, Miguel
+AU  - Garrido, Nuno M.
+AU  - Simões, Carlos J. V.
+AU  - Silva, Cândida G.
+AU  - Brito, Rui M. M.
+T2  - Journal of Computational Chemistry
+DA  - 2017/03/05/
+PY  - 2017
+DO  - 10.1002/jcc.24690
+DP  - DOI.org (Crossref)
+VL  - 38
+IS  - 6
+SP  - 346
+EP  - 358
+J2  - J. Comput. Chem.
+LA  - en
+SN  - 01928651
+ST  - Predicting hydrophobic solvation by molecular simulation
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.24690
+Y2  - 2022/11/19/20:57:49
+L1  - https://strathprints.strath.ac.uk/59033/1/Jorge_etal_JCC2016_Predicting_hydrophobic_solvation_by_molecular_simulation_1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - SOCIENTIZE participatory experiments, dissemination and networking activities in perspective
+AU  - Silva, Cândida
+T2  - Human Computation
+AB  - Citizen science includes a wide range of activities in which citizens are involved in research projects, either by collecting or analyzing massive data sets, or by developing small-scale activities, such as grassroots groups taking part in local policy debates. In parallel, the concept of digital society is emerging and triggering a social and information revolution. Here, large scientific infrastructures and high performance communication technologies have resulted in e-science and allow addressing problems that were unsolvable until a few decades ago. Similarly, the millions of people around the world that are permanently interconnected can be considered as a citizen-based infrastructure (c-infrastructure) which can be used for distributed computing, collective talent or ubiquitous data gathering. As a result, we have a complex entity with intelligence and collective knowledge.Funded by the European Commission, SOCIENTIZE is a FP7 project, which aims to set the basis of citizen science in Europe for Horizon2020. For the last two years, SOCIENTIZE has been promoting Citizen Science in order to 1) raise awareness about the importance and impact of citizen science, 2) to foster interaction and coordination between all citizen-science actors, 3) to promote the capabilities of c-infrastructures among researchers and citizens for an enhanced science, 4) to coordinate and promote citizen science projects and finally (5) to collect and share the best practices and recommendations for the implementation of citizen science projects in Europe. To achieve these goals, SOCIENTIZE has developed and implemented several activities that are described in this paper.
+DA  - 2014/12/30/
+PY  - 2014
+DO  - 10.15346/hc.v1i2.4
+DP  - DOI.org (Crossref)
+VL  - 1
+IS  - 2
+J2  - HCj
+SN  - 2330-8001
+UR  - https://hcjournal.org/index.php/jhc/article/view/16
+Y2  - 2022/11/19/20:59:28
+ER  - 
+
+TY  - JOUR
+TI  - Cell Spotting: educational and motivational outcomes of cell biology citizen science project in the classroom
+AU  - Silva, Cândida
+AU  - Monteiro, Antonio Jose
+AU  - Manahl, Caroline
+AU  - Lostal, Eduardo
+AU  - Schäfer, Teresa
+AU  - Andrade, Nazareno
+AU  - Brasileiro, Francisco
+AU  - Mota, Paulo
+AU  - Serrano Sanz, Fermin
+AU  - Carrodeguas, Jose
+AU  - Brito, Rui
+T2  - Journal of Science Communication
+AB  - Success stories of citizen science projects widely demonstrate the value of this open science paradigm and encourage organizations to shift towards new ways of doing research. While benefits for researchers are clear, outcomes for individuals participating in these projects are not easy to assess. The wide spectrum of volunteers collaborating in citizen science projects greatly contributes to the difficulty in the evaluation of the projects' outcomes. Given the strong links between many citizen science projects and education, in this work we present an experience with hundreds of students (aged 15–18) of two different countries who participate in a project on cell biology research — Cell Spotting — as part of their regular classroom activities. Apart from introducing the project and resources involved, we aim to provide an overview of the benefits of integrating citizen science in the context of formal science education and of what teachers and students may obtain from it. In this case, besides helping students to consolidate and apply theoretical concepts included in the school curriculum, some other types of informal learning have also been observed such as the feeling of playing a key role, which contributed to an increase of students' motivation.
+DA  - 2016/01/21/
+PY  - 2016
+DO  - 10.22323/2.15010202
+DP  - DOI.org (Crossref)
+VL  - 15
+IS  - 01
+SP  - A02
+J2  - JCOM
+SN  - 1824-2049
+ST  - Cell Spotting
+UR  - https://jcom.sissa.it/archive/15/01/JCOM_1501_2016_A02
+Y2  - 2022/11/19/20:59:29
+L1  - https://jcom.sissa.it/archive/15/01/JCOM_1501_2016_A02.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Citizen Science Practices for Computational Social Science Research: The Conceptualization of Pop-Up Experiments
+AU  - Sagarra, Oleguer
+AU  - Gutiérrez-Roig, Mario
+AU  - Bonhoure, Isabelle
+AU  - Perelló, Josep
+T2  - Frontiers in Physics
+DA  - 2016/01/05/
+PY  - 2016
+DO  - 10.3389/fphy.2015.00093
+DP  - DOI.org (Crossref)
+VL  - 3
+J2  - Front. Phys.
+SN  - 2296-424X
+ST  - Citizen Science Practices for Computational Social Science Research
+UR  - http://journal.frontiersin.org/Article/10.3389/fphy.2015.00093/abstract
+Y2  - 2022/11/19/20:59:29
+L1  - https://www.frontiersin.org/articles/10.3389/fphy.2015.00093/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Finding Volunteers' Engagement Profiles in Human Computation for Citizen Science Projects
+AU  - Ponciano, Lesandro
+AU  - Brasileiro, Francisco
+AB  - Human computation is a computing approach that draws upon human cognitive abilities to solve computational tasks for which there are so far no satisfactory fully automated solutions even when using the most advanced computing technologies available. Human computation for citizen science projects consists in designing systems that allow large crowds of volunteers to contribute to scientific research by executing human computation tasks. Examples of successful projects are Galaxy Zoo and FoldIt. A key feature of this kind of project is its capacity to engage volunteers. An important requirement for the proposal and evaluation of new engagement strategies is having a clear understanding of the typical engagement of the volunteers; however, even though several projects of this kind have already been completed, little is known about this issue. In this paper, we investigate the engagement pattern of the volunteers in their interactions in human computation for citizen science projects, how they differ among themselves in terms of engagement, and how those volunteer engagement features should be taken into account for establishing the engagement encouragement strategies that should be brought into play in a given project. To this end, we define four quantitative engagement metrics to measure different aspects of volunteer engagement, and use data mining algorithms to identify the different volunteer profiles in terms of the engagement metrics. Our study is based on data collected from two projects: Galaxy Zoo and The Milky Way Project. The results show that the volunteers in such projects can be grouped into five distinct engagement profiles that we label as follows: hardworking, spasmodic, persistent, lasting, and moderate. The analysis of these profiles provides a deeper understanding of the nature of volunteers' engagement in human computation for citizen science projects
+DA  - 2015///
+PY  - 2015
+DO  - 10.48550/ARXIV.1501.02134
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1501.02134
+Y2  - 2022/11/19/20:59:29
+KW  - Computers and Society (cs.CY)
+KW  - FOS: Computer and information sciences
+KW  - Human-Computer Interaction (cs.HC)
+ER  - 
+
