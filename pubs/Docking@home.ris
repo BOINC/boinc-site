@@ -198,29 +198,6 @@ Y2  - 2022/11/11/14:50:02
 L1  - https://europepmc.org/articles/pmc3183351?pdf=render
 ER  - 
 
-TY  - JOUR
-TI  - Study of a highly accurate and fast protein-ligand docking method based on molecular dynamics
-AU  - Taufer, M.
-AU  - Crowley, M.
-AU  - Price, D. J.
-AU  - Chien, A. A.
-AU  - Brooks, C. L.
-T2  - Concurrency and Computation: Practice and Experience
-DA  - 2005/12/10/
-PY  - 2005
-DO  - 10.1002/cpe.949
-DP  - DOI.org (Crossref)
-VL  - 17
-IS  - 14
-SP  - 1627
-EP  - 1641
-J2  - Concurrency Computat.: Pract. Exper.
-LA  - en
-SN  - 1532-0626, 1532-0634
-UR  - https://onlinelibrary.wiley.com/doi/10.1002/cpe.949
-Y2  - 2022/11/11/14:50:01
-ER  - 
-
 TY  - CONF
 TI  - Evaluation of IEEE 754 floating-point arithmetic compliance across a wide range of heterogeneous computers
 AU  - Lopez, Guillermo A.
@@ -354,28 +331,6 @@ Y2  - 2022/11/11/14:50:02
 ER  - 
 
 TY  - CONF
-TI  - Homogeneous Redundancy: a Technique to Ensure Integrity of Molecular Simulation Results Using Public Computing
-AU  - Taufer, M.
-AU  - Anderson, D.
-AU  - Cicotti, P.
-AU  - Brooks, C.L.
-T2  - 19th IEEE International Parallel and Distributed Processing Symposium
-C1  - Denver, CO, USA
-C3  - 19th IEEE International Parallel and Distributed Processing Symposium
-DA  - 2005///
-PY  - 2005
-DO  - 10.1109/IPDPS.2005.247
-DP  - DOI.org (Crossref)
-SP  - 119a
-EP  - 119a
-PB  - IEEE
-SN  - 978-0-7695-2312-5
-ST  - Homogeneous Redundancy
-UR  - https://ieeexplore.ieee.org/document/1419946
-Y2  - 2022/11/11/14:50:02
-ER  - 
-
-TY  - CONF
 TI  - Moving Volunteer Computing towards Knowledge-Constructed, Dynamically-Adaptive Modeling and Scheduling
 AU  - Taufer, M.
 AU  - Kerstens, A.
@@ -419,28 +374,6 @@ PB  - IEEE
 SN  - 978-1-4244-3751-1
 ST  - EmBOINC
 UR  - http://ieeexplore.ieee.org/document/5161135/
-Y2  - 2022/11/11/14:50:02
-ER  - 
-
-TY  - CONF
-TI  - Study of a highly accurate and fast protein-ligand docking algorithm based on molecular dynamics
-AU  - Taufer, M.
-AU  - Crowley, M.
-AU  - Price, D.
-AU  - Chien, A.A.
-AU  - Brooks, C.L.
-T2  - 18th International Parallel and Distributed Processing Symposium, 2004.
-C1  - Santa Fe, NM, USA
-C3  - 18th International Parallel and Distributed Processing Symposium, 2004. Proceedings.
-DA  - 2004///
-PY  - 2004
-DO  - 10.1109/IPDPS.2004.1303203
-DP  - DOI.org (Crossref)
-SP  - 188
-EP  - 195
-PB  - IEEE
-SN  - 978-0-7695-2132-9
-UR  - http://ieeexplore.ieee.org/document/1303203/
 Y2  - 2022/11/11/14:50:02
 ER  - 
 
