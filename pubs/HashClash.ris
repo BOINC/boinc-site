@@ -10,3 +10,225 @@ UR  - https://www.win.tue.nl/hashclash/On%20Collisions%20for%20MD5%20-%20M.M.J.%
 L4  - https://www.researchgate.net/publication/241885493_On_Collisions_for_MD5
 ER  - 
 
+TY  - CHAP
+TI  - The First Collision for Full SHA-1
+AU  - Stevens, Marc
+AU  - Bursztein, Elie
+AU  - Karpman, Pierre
+AU  - Albertini, Ange
+AU  - Markov, Yarik
+T2  - Advances in Cryptology – CRYPTO 2017
+A2  - Katz, Jonathan
+A2  - Shacham, Hovav
+CY  - Cham
+DA  - 2017///
+PY  - 2017
+DP  - DOI.org (Crossref)
+VL  - 10401
+SP  - 570
+EP  - 596
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-319-63687-0 978-3-319-63688-7
+UR  - http://link.springer.com/10.1007/978-3-319-63688-7_19
+Y2  - 2022/11/19/19:39:51
+L1  - https://ir.cwi.nl/pub/26763/CRPT1111.pdf
+ER  - 
+
+TY  - CONF
+TI  - Freestart Collision for Full SHA-1
+AU  - Stevens, Marc
+AU  - Karpman, Pierre
+AU  - Peyrin, Thomas
+A2  - Fischlin, Marc
+A2  - Coron, Jean-Sébastien
+T3  - Lecture Notes in Computer Science
+AB  - This article presents an explicit freestart colliding pair for SHA-1, i.e. a collision for its internal compression function. This is the first practical break of the full SHA-1, reaching all 80 out of 80 steps. Only 10 days of computation on a 64-GPU cluster were necessary to perform this attack, for a runtime cost equivalent to approximately $$2^{57.5}$$257.5calls to the compression function of SHA-1 on GPU. This work builds on a continuous series of cryptanalytic advancements on SHA-1 since the theoretical collision attack breakthrough of 2005. In particular, we reuse the recent work on 76-step SHA-1 of Karpman et al. from CRYPTO 2015 that introduced an efficient framework to implement (freestart) collisions on GPUs; we extend it by incorporating more sophisticated accelerating techniques such as boomerangs. We also rely on the results of Stevens from EUROCRYPT 2013 to obtain optimal attack conditions; using these techniques required further refinements for this work.
+C1  - Berlin, Heidelberg
+C3  - Advances in Cryptology – EUROCRYPT 2016
+DA  - 2016///
+PY  - 2016
+DO  - 10.1007/978-3-662-49890-3_18
+DP  - Springer Link
+SP  - 459
+EP  - 483
+LA  - en
+PB  - Springer
+SN  - 978-3-662-49890-3
+L1  - https://link.springer.com/content/pdf/10.1007%2F978-3-662-49890-3_18.pdf
+KW  - Cryptanalysis
+KW  - Freestart collision
+KW  - GPU implementation
+KW  - Hash function
+KW  - SHA-1
+ER  - 
+
+TY  - CONF
+TI  - Practical Free-Start Collision Attacks on 76-step SHA-1
+AU  - Karpman, Pierre
+AU  - Peyrin, Thomas
+AU  - Stevens, Marc
+A2  - Gennaro, Rosario
+A2  - Robshaw, Matthew
+T3  - Advances in Cryptology - CRYPTO 2015 - 35th Annual Cryptology Conference
+AB  - In this paper we analyze the security of the compression function of SHA-1 against collision attacks, or equivalently free-start collisions on the hash function. While a lot of work has been dedicated to the analysis of SHA-1 in the past decade, this is the first time that free-start collisions have been considered for this function. We exploit the additional freedom provided by this model by using a new start-from-the-middle approach in combination with improvements on the cryptanalysis tools that have been developed for SHA-1 in the recent years. This results in particular in better differential paths than the ones used for hash function collisions so far. Overall, our attack requires about 2502502^{50} evaluations of the compression function in order to compute a one-block free-start collision for a 76-step reduced version, which is so far the highest number of steps reached for a collision on the SHA-1 compression function. We have developed an efficient GPU framework for the highly branching code typical of a cryptanalytic collision attack and used it in an optimized implementation of our attack on recent GTX-970 GPUs. We report that a single cheap US$350 GTX-970 is sufficient to find the collision in less than 5 days. This showcases how recent mainstream GPUs seem to be a good platform for expensive and even highly-branching cryptanalysis computations. Finally, our work should be taken as a reminder that cryptanalysis on SHA-1 continues to improve. This is yet another proof that the industry should quickly move away from using this function.
+C1  - Santa Barbara, United States
+C3  - 35th International Cryptology Conference - CRYPTO 2015
+DA  - 2015/08//
+PY  - 2015
+DO  - 10.1007/978-3-662-47989-6_30
+DP  - HAL Archives Ouvertes
+SP  - 623
+EP  - 642
+PB  - Springer
+UR  - https://hal.inria.fr/hal-01183066
+Y2  - 2022/11/19/19:43:48
+L1  - https://eprint.iacr.org/2015/530.pdf
+L2  - https://hal.archives-ouvertes.fr/hal-01183066
+KW  - Cryptanalysis
+KW  - Free-start collision
+KW  - GPU implementation
+KW  - Hash function
+KW  - SHA-1
+ER  - 
+
+TY  - THES
+TI  - Attacks on hash functions and applications
+AU  - Stevens, M. M. J.
+AB  - Cryptographic hash functions compute a small fixed-size hash value for any given message. A main application is in digital signatures which require that it must be hard to find collisions, i.e., two different messages that map to the same hash value. In this thesis we provide an analysis of the security of the cryptographic hash function standards MD5 and SHA-1 that have been broken since 2004 due to so called identical-prefix collision attacks. In particular, we present more efficient identical-prefix collision attacks on both MD5 and SHA-1 that improve upon the literature. Furthermore, we introduce a new more flexible attack on MD5 and SHA-1 called the chosen-prefix collision attack that allows significantly more control over the two colliding messages. Moreover, we have proven that our new attack on MD5 poses a realistic threat to the security of everyday applications with our construction of a rogue Certificat ion Authority (CA). Our rogue CA could have enabled the total subversion of secure communications with any website -- if we had not purposely crippled it. Our research has promoted the migration away from these weak hash functions towards more secure hash functions.
+DA  - 2012/06/19/
+PY  - 2012
+DP  - scholarlypublications.universiteitleiden.nl
+LA  - en
+PB  - Leiden University
+UR  - https://hdl.handle.net/1887/19093
+Y2  - 2022/11/19/19:47:28
+L1  - https://scholarlypublications.universiteitleiden.nl/access/item%3A2929015/view
+L2  - https://scholarlypublications.universiteitleiden.nl/handle/1887/19093
+ER  - 
+
+TY  - JOUR
+TI  - Single-block collision attack on MD5
+AU  - Stevens, Marc
+T2  - Cryptology ePrint Archive
+AB  - In 2010, Tao Xie and Dengguo Feng \cite{cryptoeprint:2010:643} constructed the first single-block collision for MD5 consisting of two 64-byte messages that have the same MD5 hash. Details of their attack, developed using what they call an evolutionary approach, has not been disclosed ``for security reasons''. Instead they have posted a challenge to the cryptology community to find a new different single-block collision attack for MD5. This paper answers that challenge by presenting a single-block collision attack based on other message differences together with an example colliding message pair. The attack is based on a new collision finding algorithm that exploits the low number of bitconditions in the first round. It uses a new way to choose message blocks that satisfy bitconditions up to step 22 and additionally uses three known tunnels to correct bitconditions up to step 25. The attack has an average runtime complexity equivalent to $2^{49.8}$ calls to MD5's compression function.
+DA  - 2012/01/01/
+PY  - 2012
+DP  - ir.cwi.nl
+VL  - 2012
+SP  - 1
+EP  - 11
+LA  - en
+UR  - https://ir.cwi.nl/pub/21033
+Y2  - 2022/11/19/19:52:08
+L2  - https://ir.cwi.nl/pub/21033
+ER  - 
+
+TY  - JOUR
+TI  - Chosen-prefix collisions for MD5 and applications
+AU  - Stevens, Marc
+AU  - Lenstra, Arjen K.
+AU  - Weger, Benne De
+T2  - International Journal of Applied Cryptography
+AB  - We present a novel, automated way to find differential paths for MD5. Its main application is in the construction of chosen-prefix collisions. We have shown how, at an approximate expected cost of 239 calls to the MD5 compression function, for any two chosen message prefixes P and P', suffixes S and S' can be constructed such that the concatenated values P║S and P'║S' collide under MD5. The practical attack potential of this construction of chosenprefix collisions is of greater concern than the MD5-collisions that were published before. This is illustrated by a pair of MD5-based X.509 certificates one of which was signed by a commercial Certification Authority (CA) as a legitimate website certificate, while the other one is a certificate for a rogue CA that is entirely under our control (cf. http://www.win.tue.nl/hashclash/rogue-ca/). Other examples, such as MD5-colliding executables, are presented as well. More details can be found on http://www.win.tue.nl/hashclash/ChosenPrefixCollisions/.
+DA  - 2012///
+PY  - 2012
+DO  - 10.1504/IJACT.2012.048084
+DP  - DOI.org (Crossref)
+VL  - 2
+IS  - 4
+SP  - 322
+J2  - IJACT
+LA  - en
+SN  - 1753-0563, 1753-0571
+UR  - http://www.inderscience.com/link.php?id=48084
+Y2  - 2022/11/19/19:53:27
+L1  - https://documents.epfl.ch/users/l/le/lenstra/public/papers/lat.pdf
+ER  - 
+
+TY  - CONF
+TI  - Chosen-Prefix Collisions for MD5 and Colliding X.509 Certificates for Different Identities
+AU  - Stevens, Marc
+AU  - Lenstra, Arjen
+AU  - de Weger, Benne
+A2  - Naor, Moni
+T3  - Lecture Notes in Computer Science
+AB  - We present a novel, automated way to find differential paths for MD5. As an application we have shown how, at an approximate expected cost of 250 calls to the MD5 compression function, for any two chosen message prefixes P and P′, suffixes S and S′ can be constructed such that the concatenated values P||S and P′||S′ collide under MD5. Although the practical attack potential of this construction of chosen-prefix collisions is limited, it is of greater concern than random collisions for MD5. To illustrate the practicality of our method, we constructed two MD5 based X.509 certificates with identical signatures but different public keys and different Distinguished Name fields, whereas our previous construction of colliding X.509 certificates required identical name fields. We speculate on other possibilities for abusing chosen-prefix collisions. More details than can be included here can be found on www.win.tue.nl/hashclash/ChosenPrefixCollisions/.
+C1  - Berlin, Heidelberg
+C3  - Advances in Cryptology - EUROCRYPT 2007
+DA  - 2007///
+PY  - 2007
+DO  - 10.1007/978-3-540-72540-4_1
+DP  - Springer Link
+SP  - 1
+EP  - 22
+LA  - en
+PB  - Springer
+SN  - 978-3-540-72540-4
+UR  - https://www.researchgate.net/publication/44795540_Chosen-Prefix_Collisions_for_MD5_and_Colliding_X509_Certificates_for_Different_Identities
+L1  - https://link.springer.com/content/pdf/10.1007%2F978-3-540-72540-4_1.pdf
+KW  - Boolean Function
+KW  - Collision Attack
+KW  - Cryptology ePrint Archive
+KW  - Hash Function
+KW  - Message Block
+ER  - 
+
+TY  - CONF
+TI  - Short Chosen-Prefix Collisions for MD5 and the Creation of a Rogue CA Certificate
+AU  - Stevens, Marc
+AU  - Sotirov, Alexander
+AU  - Appelbaum, Jacob
+AU  - Lenstra, Arjen
+AU  - Molnar, David
+AU  - Osvik, Dag Arne
+AU  - de Weger, Benne
+A2  - Halevi, Shai
+T3  - Lecture Notes in Computer Science
+AB  - We present a refined chosen-prefix collision construction for MD5 that allowed creation of a rogue Certification Authority (CA) certificate, based on a collision with a regular end-user website certificate provided by a commercial CA. Compared to the previous construction from Eurocrypt 2007, this paper describes a more flexible family of differential paths and a new variable birthdaying search space. Combined with a time-memory trade-off, these improvements lead to just three pairs of near-collision blocks to generate the collision, enabling construction of RSA moduli that are sufficiently short to be accepted by current CAs. The entire construction is fast enough to allow for adequate prediction of certificate serial number and validity period: it can be made to require about 249 MD5 compression function calls. Finally, we improve the complexity of identical-prefix collisions for MD5 to about 216 MD5 compression function calls and use it to derive a practical single-block chosen-prefix collision construction of which an example is given.
+C1  - Berlin, Heidelberg
+C3  - Advances in Cryptology - CRYPTO 2009
+DA  - 2009///
+PY  - 2009
+DO  - 10.1007/978-3-642-03356-8_4
+DP  - Springer Link
+SP  - 55
+EP  - 69
+LA  - en
+PB  - Springer
+SN  - 978-3-642-03356-8
+L1  - https://link.springer.com/content/pdf/10.1007%2F978-3-642-03356-8_4.pdf
+KW  - certificate
+KW  - collision attack
+KW  - MD5
+KW  - PlayStation 3
+ER  - 
+
+TY  - JOUR
+TI  - Fast Collision Attack on MD5
+AU  - Stevens, Marc
+AB  - In this paper, we present an improved attack algorithm to ﬁnd two-block collisions of the hash function MD5. The attack uses the same diﬀerential path of MD5 and the set of suﬃcient conditions that was presented by Wang et al. We present a new technique which allows us to deterministically fulﬁll restrictions to properly rotate the diﬀerentials in the ﬁrst round. We will present a new algorithm to ﬁnd the ﬁrst block and we will use an algorithm of Klima to ﬁnd the second block. To optimize the inner loop of these algorithms we will optimize the set of suﬃcient conditions. We also show that the initial value used for the attack has a large inﬂuence on the attack complexity. Therefore a recommendation is made for 2 conditions on the initial value of the attack to avoid very hard situations if one has some freedom in choosing this initial value. Our attack can be done in an average of about 1 minute (avg. complexity 232.3) on a 3Ghz Pentium4 for these random recommended initial values. For arbitrary random initial values the average is about 5 minutes (avg. complexity 234.1). With a reasonable probability a collision is found within mere seconds, allowing for instance an attack during the execution of a protocol.
+DA  - 2013///
+PY  - 2013
+DP  - Zotero
+SP  - 13
+LA  - en
+UR  - https://www.semanticscholar.org/paper/Fast-Collision-Attack-on-MD5-Xie-Liu/a9d4833698895915d34f2ac5509f1bf0887b4c5b
+L1  - https://www.win.tue.nl/hashclash/fastcoll.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Target Collisions for MD5 and Colliding X.509 Certiﬁcates for Diﬀerent Identities
+AU  - Stevens, Marc
+AU  - Lenstra, Arjen
+AU  - de Weger, Benne
+AB  - We have shown how, at a cost of about 252 calls to the MD5 compression function, for any two target messages m1 and m2, values b1 and b2 can be constructed such that the concatenated values m1 b1 and m2 b2 collide under MD5. Although the practical attack potential of this construction of target collisions is limited, it is of greater concern than random collisions for MD5. In this note we sketch our construction. To illustrate its practicality, we present two MD5 based X.509 certiﬁcates with identical signatures but diﬀerent public keys and diﬀerent Distinguished Name ﬁelds, whereas our previous construction of colliding X.509 certiﬁcates required identical name ﬁelds. We speculate on other possibilities for abusing target collisions.
+DA  - 2006/11/04/
+PY  - 2006
+DP  - Zotero
+SP  - 15
+LA  - en
+UR  - https://eprint.iacr.org/2006/360
+L1  - https://www.win.tue.nl/hashclash/TargetCollidingCertificates/TargetCollidingCertificatesAnnouncementv1.1.pdf
+ER  - 
+
