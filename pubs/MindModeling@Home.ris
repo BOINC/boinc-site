@@ -1,0 +1,125 @@
+TY  - CONF
+TI  - Simultaneous performance exploration and optimized search with volunteer computing
+AU  - Moore, L. Richard
+AU  - Kopala, Matthew
+AU  - Mielke, Thomas
+AU  - Krusmark, Michael
+AU  - Gluck, Kevin A.
+T2  - the 19th ACM International Symposium
+C1  - Chicago, Illinois
+C3  - Proceedings of the 19th ACM International Symposium on High Performance Distributed Computing - HPDC '10
+DA  - 2010///
+PY  - 2010
+DO  - 10.1145/1851476.1851518
+DP  - DOI.org (Crossref)
+SP  - 312
+LA  - en
+PB  - ACM Press
+SN  - 978-1-60558-942-8
+UR  - http://portal.acm.org/citation.cfm?doid=1851476.1851518
+Y2  - 2022/11/20/19:48:33
+ER  - 
+
+TY  - JOUR
+TI  - An interpolation approach for fitting computationally intensive models
+AU  - Richard Moore, L.
+AU  - Gunzelmann, Glenn
+T2  - Cognitive Systems Research
+DA  - 2014/09//
+PY  - 2014
+DO  - 10.1016/j.cogsys.2013.09.001
+DP  - DOI.org (Crossref)
+VL  - 29-30
+SP  - 53
+EP  - 65
+J2  - Cognitive Systems Research
+LA  - en
+SN  - 13890417
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S1389041713000508
+Y2  - 2022/11/20/19:48:33
+ER  - 
+
+TY  - JOUR
+TI  - Cognitive model exploration and optimization: a new challenge for computational science
+AU  - Moore, L. Richard
+T2  - Computational and Mathematical Organization Theory
+DA  - 2011/09//
+PY  - 2011
+DO  - 10.1007/s10588-011-9092-8
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 3
+SP  - 296
+EP  - 313
+J2  - Comput Math Organ Theory
+LA  - en
+SN  - 1381-298X, 1572-9346
+ST  - Cognitive model exploration and optimization
+UR  - http://link.springer.com/10.1007/s10588-011-9092-8
+Y2  - 2022/11/20/19:48:33
+ER  - 
+
+TY  - JOUR
+TI  - Faster than the speed of rejection: Object identification processes during visual search for multiple targets
+AU  - Godwin, Hayward J.
+AU  - Walenchok, Stephen C.
+AU  - Houpt, Joseph W.
+AU  - Hout, Michael C.
+AU  - Goldinger, Stephen D.
+T2  - Journal of Experimental Psychology: Human Perception and Performance
+AB  - When engaged in a visual search for two targets, participants are slower and less accurate in their responses, relative to their performance when searching for singular targets. Previous work on this “dual-target cost” has primarily focused on the breakdown of attentional guidance when looking for two items. Here, we investigated how object identification processes are affected by dual-target search. Our goal was to chart the speed at which distractors could be rejected, to assess whether dual-target search impairs object identification. To do so, we examined the capacity coefficient, which measures the speed at which decisions can be made, and provides a baseline of parallel performance against which to compare. We found that participants could search at or above this baseline, suggesting that dual-target search does not impair object identification abilities. We also found substantial differences in performance when participants were asked to search for simple versus complex images. Somewhat paradoxically, participants were able to reject complex images more rapidly than simple images. We suggest that this reflects the greater number of features that can be used to identify complex images, a finding that has important consequences for understanding object identification in visual search more generally. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+DA  - 2015///
+PY  - 2015
+DO  - 10.1037/xhp0000036
+DP  - APA PsycNet
+VL  - 41
+SP  - 1007
+EP  - 1020
+SN  - 1939-1277
+ST  - Faster than the speed of rejection
+L1  - https://europepmc.org/articles/pmc4516661?pdf=render
+L2  - https://psycnet.apa.org/doiLanding?doi=10.1037%2Fxhp0000036
+KW  - Cognitive Processing Speed
+KW  - Dual Task Performance
+KW  - Object Recognition
+KW  - Visual Search
+ER  - 
+
+TY  - RPRT
+TI  - Mindmodeling@Home. . . and Anywhere Else You Have Idle Processors
+AU  - Harris, Jack
+AU  - Gluck, Kevin A.
+AU  - Mielke, Thomas
+AU  - Moore, L. Richard
+AB  - As we, the ICCM community, continue to expand the scope of our cognitive modeling ambitions, we increasingly face computational requirements that are an impediment to progress. Computational complexity grows quickly with increases in the granularity of models, the fidelity of the models operating environment, and the time scales across which these models interact. Additional processing demands are encountered when studying the breadth of a cognitive models performance capabilities such as through observing the models sustained fitness while varying the environment or conducting sensitivity analyses of interactions between internal model parameters in a controlled experiments. Such computational demands are not unique to the cognitive modeling community. Other scientific fields bioinformatics, meteorology, physics, etc. have already pioneered a variety of platforms and methodologies for dealing with similarly computationally complex problems. We will achieve faster progress toward the broader scientific objectives of cognitive modeling and the specific goals of particular research projects if we pay attention to the lessons learned and capabilities developed in other computational sciences.
+DA  - 2009/07/01/
+PY  - 2009
+DP  - apps.dtic.mil
+LA  - en
+UR  - https://apps.dtic.mil/sti/citations/ADA518643
+Y2  - 2022/11/20/19:51:48
+L2  - https://apps.dtic.mil/sti/citations/ADA518643
+ER  - 
+
+TY  - JOUR
+TI  - Combinatorics meets processing power: Large-scale computational resources for BRIMS
+AU  - Gluck, Kevin
+AU  - Scheutz, Matthias
+AU  - Gunzelmann, Glenn
+AU  - Harris, Jack
+AU  - Kershner, Jeff
+T2  - 16th Conference on Behavior Representation in Modeling and Simulation 2007, BRIMS
+AB  - The sophistication of computational cognitive architectures has opened the door to model development across a range of human activity. However, a continuing challenge for model developers is validating the model both by exploring the range of a model's behavior and by optimizing mechanisms, knowledge, and parameters to best account for human cognition and performance. We have been developing an infrastructure to facilitate this process that takes advantage of high performance computing resources and technologies to allow for more ambitious model development and validation efforts. This work involves a combination of increased computational power and increased sophistication in running models using available resources. Examples of the promise of this work are presented, along with current areas of emphasis and future directions.
+DA  - 2007/01/01/
+PY  - 2007
+DP  - ResearchGate
+VL  - 1
+SP  - 73
+EP  - 83
+J2  - 16th Conference on Behavior Representation in Modeling and Simulation 2007, BRIMS
+ST  - Combinatorics meets processing power
+UR  - https://www.researchgate.net/publication/228355649_Combinatorics_meets_processing_power_Large-scale_computational_resources_for_BRIMS
+L1  - https://www.researchgate.net/profile/Matthias-Scheutz/publication/228355649_Combinatorics_meets_processing_power_Large-scale_computational_resources_for_BRIMS/links/02e7e51d5b83b0dfc7000000/Combinatorics-meets-processing-power-Large-scale-computational-resources-for-BRIMS.pdf
+L4  - https://www.researchgate.net/publication/228355649_Combinatorics_meets_processing_power_Large-scale_computational_resources_for_BRIMS
+ER  - 
+
