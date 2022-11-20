@@ -1,0 +1,680 @@
+TY  - CHAP
+TI  - Latest Results of the Sethi Survey at Arecibo
+AU  - Korpela, E. J.
+AU  - Demorest, P.
+AU  - Heien, E.
+AU  - Heiles, C.
+AU  - Werthimer, D.
+T2  - How does the Galaxy Work?
+A2  - Alfaro, Emilio J.
+A2  - Pérez, Enrique
+A2  - Franco, José
+CY  - Dordrecht
+DA  - 2005///
+PY  - 2005
+DP  - DOI.org (Crossref)
+VL  - 315
+SP  - 97
+EP  - 100
+LA  - en
+PB  - Kluwer Academic Publishers
+SN  - 978-1-4020-2619-5
+UR  - http://link.springer.com/10.1007/1-4020-2620-X_18
+Y2  - 2022/11/20/20:59:38
+ER  - 
+
+TY  - JOUR
+TI  - Session 19. Future SETI: Technologies, Techniques, and Strategies
+AU  - Korpela, Eric
+AU  - Howard, Andrew
+T2  - Astrobiology
+DA  - 2008/04//
+PY  - 2008
+DO  - 10.1089/ast.2008.1243
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 2
+SP  - 384
+EP  - 388
+J2  - Astrobiology
+LA  - en
+SN  - 1531-1074, 1557-8070
+ST  - Session 19. Future SETI
+UR  - http://www.liebertpub.com/doi/10.1089/ast.2008.1243
+Y2  - 2022/11/20/20:59:39
+ER  - 
+
+TY  - JOUR
+TI  - SETI@home: an experiment in public-resource computing
+AU  - Anderson, David P.
+AU  - Cobb, Jeff
+AU  - Korpela, Eric
+AU  - Lebofsky, Matt
+AU  - Werthimer, Dan
+T2  - Communications of the ACM
+AB  - Millions of computer owners worldwide contribute computer time to the search for extraterrestrial intelligence, performing the largest computation ever.
+DA  - 2002/11//
+PY  - 2002
+DO  - 10.1145/581571.581573
+DP  - DOI.org (Crossref)
+VL  - 45
+IS  - 11
+SP  - 56
+EP  - 61
+J2  - Commun. ACM
+LA  - en
+SN  - 0001-0782, 1557-7317
+ST  - SETI@home
+UR  - https://dl.acm.org/doi/10.1145/581571.581573
+Y2  - 2022/11/20/20:59:39
+ER  - 
+
+TY  - CONF
+TI  - Volunteer computing: a model of the factors determining contribution to community-based scientific research
+AU  - Nov, Oded
+AU  - Anderson, David
+AU  - Arazy, Ofer
+T2  - the 19th international conference
+C1  - Raleigh, North Carolina, USA
+C3  - Proceedings of the 19th international conference on World wide web - WWW '10
+DA  - 2010///
+PY  - 2010
+DO  - 10.1145/1772690.1772766
+DP  - DOI.org (Crossref)
+SP  - 741
+LA  - en
+PB  - ACM Press
+SN  - 978-1-60558-799-8
+ST  - Volunteer computing
+UR  - http://portal.acm.org/citation.cfm?doid=1772690.1772766
+Y2  - 2022/11/20/20:59:39
+ER  - 
+
+TY  - CONF
+TI  - The next phases of SETI@home
+AU  - Korpela, Eric J.
+AU  - Siemion, Andrew P. V.
+AU  - Werthimer, Dan
+AU  - Lebofsky, Matt
+AU  - Cobb, Jeff
+AU  - Croft, Steve
+AU  - Anderson, David
+T2  - SPIE Optical Engineering + Applications
+A2  - Hoover, Richard B.
+A2  - Levin, Gilbert V.
+A2  - Rozanov, Alexei Yu.
+A2  - Wickramasinghe, Nalin C.
+C1  - San Diego, California, United States
+DA  - 2015/09/11/
+PY  - 2015
+DO  - 10.1117/12.2188619
+DP  - DOI.org (Crossref)
+SP  - 96060B
+UR  - http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.2188619
+Y2  - 2022/11/20/20:59:40
+ER  - 
+
+TY  - CHAP
+TI  - Distributed Processing of SETI Data
+AU  - Korpela, Eric
+T2  - Searching for Extraterrestrial Intelligence
+C2  - Shuch, H. Paul
+CY  - Berlin, Heidelberg
+DA  - 2011///
+PY  - 2011
+DP  - DOI.org (Crossref)
+SP  - 183
+EP  - 199
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-13195-0 978-3-642-13196-7
+UR  - http://link.springer.com/10.1007/978-3-642-13196-7_11
+Y2  - 2022/11/20/20:59:38
+ER  - 
+
+TY  - JOUR
+TI  - SETI@home, BOINC, and Volunteer Distributed Computing
+AU  - Korpela, Eric J.
+T2  - Annual Review of Earth and Planetary Sciences
+AB  - Volunteer computing, also known as public-resource computing, is a form of distributed computing that relies on members of the public donating the processing power, Internet connection, and storage capabilities of their home computers. Projects that utilize this mode of distributed computation can potentially access millions of Internet-attached central processing units (CPUs) that provide PFLOPS (thousands of trillions of floating-point operations per second) of processing power. In addition, these projects can access the talents of the volunteers themselves. Projects span a wide variety of domains including astronomy, biochemistry, climatology, physics, and mathematics. This review provides an introduction to volunteer computing and some of the difficulties involved in its implementation. I describe the dominant infrastructure for volunteer computing in some depth and provide descriptions of a small number of projects as an illustration of the variety of projects that can be undertaken.
+DA  - 2012/05/30/
+PY  - 2012
+DO  - 10.1146/annurev-earth-040809-152348
+DP  - DOI.org (Crossref)
+VL  - 40
+IS  - 1
+SP  - 69
+EP  - 87
+J2  - Annu. Rev. Earth Planet. Sci.
+LA  - en
+SN  - 0084-6597, 1545-4495
+UR  - https://www.annualreviews.org/doi/10.1146/annurev-earth-040809-152348
+Y2  - 2022/11/20/20:59:39
+ER  - 
+
+TY  - JOUR
+TI  - Intermittent signals and planetary days in SETI
+AU  - Gray, Robert H.
+T2  - International Journal of Astrobiology
+AB  - Abstract
+            Interstellar signals might be intermittent for many reasons, such as targeted sequential transmissions, isotropic broadcasts that are not 'on' continuously or many other reasons. The time interval between such signals would be important, because searchers would need to observe for long enough to achieve an initial detection and possibly determine a period. This article suggests that: (1) the power requirements of interstellar transmissions could be reduced by orders of magnitude by strategies that would result in intermittent signals, (2) planetary rotation might constrain some transmissions to be intermittent and in some cases to have the period of the source planet, and (3) signals constrained by planetary rotation might often have a cadence in the range of 10–25 h, if the majority of planets in our Solar system are taken as a guide. Extended observations might be needed to detect intermittent signals and are rarely used in SETI but are feasible, and seem appropriate when observing large concentrations of stars or following up on good candidate signals.
+DA  - 2020/08//
+PY  - 2020
+DO  - 10.1017/S1473550420000038
+DP  - DOI.org (Crossref)
+VL  - 19
+IS  - 4
+SP  - 299
+EP  - 307
+J2  - International Journal of Astrobiology
+LA  - en
+SN  - 1473-5504, 1475-3006
+UR  - https://www.cambridge.org/core/product/identifier/S1473550420000038/type/journal_article
+Y2  - 2022/11/20/20:59:39
+L1  - https://arxiv.org/pdf/2109.06175
+ER  - 
+
+TY  - JOUR
+TI  - A 1.1-1.9 GHz SETI SURVEY OF THE <i>KEPLER</i> FIELD. I. A SEARCH FOR NARROW-BAND EMISSION FROM SELECT TARGETS
+AU  - Siemion, Andrew P. V.
+AU  - Demorest, Paul
+AU  - Korpela, Eric
+AU  - Maddalena, Ron J.
+AU  - Werthimer, Dan
+AU  - Cobb, Jeff
+AU  - Howard, Andrew W.
+AU  - Langston, Glen
+AU  - Lebofsky, Matt
+AU  - Marcy, Geoffrey W.
+AU  - Tarter, Jill
+T2  - The Astrophysical Journal
+DA  - 2013/03/28/
+PY  - 2013
+DO  - 10.1088/0004-637X/767/1/94
+DP  - DOI.org (Crossref)
+VL  - 767
+IS  - 1
+SP  - 94
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/767/1/94
+Y2  - 2022/11/20/20:59:39
+L1  - https://authors.library.caltech.edu/78615/1/Siemion_2013_ApJ_767_94.pdf
+ER  - 
+
+TY  - CONF
+TI  - Berkeley radio and optical SETI programs: SETI@home, SERENDIP, and SEVENDIP
+AU  - Werthimer, Dan
+AU  - Anderson, David
+AU  - Bowyer, C. Stuart
+AU  - Cobb, Jeff
+AU  - Heien, Eric
+AU  - Korpela, Eric J.
+AU  - Lampton, Michael L.
+AU  - Lebofsky, Matt
+AU  - Marcy, Geoff W.
+AU  - McGarry, Meghan
+AU  - Treffers, Dick
+T2  - Photonics West 2001 - LASE
+A2  - Kingsley, Stuart A.
+A2  - Bhathal, Ragbir
+C1  - San Jose, CA
+DA  - 2001/08/03/
+PY  - 2001
+DO  - 10.1117/12.435384
+DP  - DOI.org (Crossref)
+SP  - 104
+EP  - 109
+ST  - Berkeley radio and optical SETI programs
+UR  - http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=901650
+Y2  - 2022/11/20/20:59:39
+ER  - 
+
+TY  - JOUR
+TI  - SETIBURST: A Robotic, Commensal, Realtime Multi-science Backend for the Arecibo Telescope
+AU  - Chennamangalam, Jayanth
+AU  - MacMahon, David
+AU  - Cobb, Jeff
+AU  - Karastergiou, Aris
+AU  - Siemion, Andrew P. V.
+AU  - Rajwade, Kaustubh
+AU  - Armour, Wes
+AU  - Gajjar, Vishal
+AU  - Lorimer, Duncan R.
+AU  - McLaughlin, Maura A.
+AU  - Werthimer, Dan
+AU  - Williams, Christopher
+T2  - The Astrophysical Journal Supplement Series
+DA  - 2017/02/14/
+PY  - 2017
+DO  - 10.3847/1538-4365/228/2/21
+DP  - DOI.org (Crossref)
+VL  - 228
+IS  - 2
+SP  - 21
+J2  - ApJS
+SN  - 1538-4365
+ST  - SETIBURST
+UR  - https://iopscience.iop.org/article/10.3847/1538-4365/228/2/21
+Y2  - 2022/11/20/20:59:39
+L1  - https://researchrepository.wvu.edu/cgi/viewcontent.cgi?article=1669&context=faculty_publications
+ER  - 
+
+TY  - JOUR
+TI  - La tête dans les étoiles ?: Faire sens de l’engagement dans le projet de science participative SETI@home
+AU  - Tancoigne, Élise
+AU  - Baudry, Jérôme
+T2  - Réseaux
+DA  - 2019/05/24/
+PY  - 2019
+DO  - 10.3917/res.214.0109
+DP  - DOI.org (Crossref)
+VL  - n° 214-215
+IS  - 2
+SP  - 109
+EP  - 140
+SN  - 0751-7971
+ST  - La tête dans les étoiles ?
+UR  - https://www.cairn.info/revue-reseaux-2019-2-page-109.htm?ref=doi
+Y2  - 2022/11/20/20:59:39
+L1  - https://infoscience.epfl.ch/record/271026/files/Postprint%20%28EN%29%20Stars%20in%20their%20eyes%3F.pdf
+ER  - 
+
+TY  - JOUR
+TI  - SETI 2020: The Pause That Refreshes? [Microwave Surfing]
+AU  - Bansal, Rajeev
+T2  - IEEE Microwave Magazine
+DA  - 2020/08//
+PY  - 2020
+DO  - 10.1109/MMM.2020.2993482
+DP  - DOI.org (Crossref)
+VL  - 21
+IS  - 8
+SP  - 16
+EP  - 17
+J2  - IEEE Microwave
+SN  - 1527-3342, 1557-9581
+ST  - SETI 2020
+UR  - https://ieeexplore.ieee.org/document/9134705/
+Y2  - 2022/11/20/20:59:39
+ER  - 
+
+TY  - CONF
+TI  - Sabotage-tolerance mechanisms for volunteer computing systems
+AU  - Sarmenta, L.F.G.
+T2  - First IEEE/ACM International Symposium on Cluster Computing and the Grid
+C1  - Brisbane, Qld., Australia
+C3  - Proceedings First IEEE/ACM International Symposium on Cluster Computing and the Grid
+DA  - 2001///
+PY  - 2001
+DO  - 10.1109/CCGRID.2001.923211
+DP  - DOI.org (Crossref)
+SP  - 337
+EP  - 346
+PB  - IEEE Comput. Soc
+SN  - 978-0-7695-1010-1
+UR  - http://ieeexplore.ieee.org/document/923211/
+Y2  - 2022/11/20/20:59:38
+ER  - 
+
+TY  - CONF
+TI  - Searching for Extraterrestrial Intelligence with the Square Kilometre Array
+AU  - Siemion, Andrew
+AU  - Benford, James
+AU  - Cheng-Jin, Jin
+AU  - Chennamangalam, Jayanth
+AU  - Cordes, James M.
+AU  - Falcke, Heino
+AU  - Garrington, Simon T.
+AU  - Garrett, Michael
+AU  - Gurvits, Leonid
+AU  - Hoare, Melvin
+AU  - Korpela, Eric
+AU  - Lazio, Joseph
+AU  - Messerschmitt, David
+AU  - Morrison, Ian
+AU  - O'Brien, Tim
+AU  - Paragi, Zsolt
+AU  - Penny, Alan
+AU  - Spitler, Laura
+AU  - Tarter, Jill
+AU  - Werthimer, Dan
+T2  - Advancing Astrophysics with the Square Kilometre Array
+C1  - Giardini Naxos, Italy
+C3  - Proceedings of Advancing Astrophysics with the Square Kilometre Array — PoS(AASKA14)
+DA  - 2015/05/29/
+PY  - 2015
+DO  - 10.22323/1.215.0116
+DP  - DOI.org (Crossref)
+SP  - 116
+LA  - en
+PB  - Sissa Medialab
+UR  - https://pos.sissa.it/215/116
+Y2  - 2022/11/20/20:59:38
+L1  - https://pos.sissa.it/215/116/pdf
+ER  - 
+
+TY  - JOUR
+TI  - MODELING INDICATIONS OF TECHNOLOGY IN PLANETARY TRANSIT LIGHT CURVES—DARK-SIDE ILLUMINATION
+AU  - Korpela, Eric J.
+AU  - Sallmen, Shauna M.
+AU  - Greene, Diana Leystra
+T2  - The Astrophysical Journal
+DA  - 2015/08/19/
+PY  - 2015
+DO  - 10.1088/0004-637X/809/2/139
+DP  - DOI.org (Crossref)
+VL  - 809
+IS  - 2
+SP  - 139
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/809/2/139
+Y2  - 2022/11/20/20:59:38
+L1  - https://arxiv.org/pdf/1505.07399
+ER  - 
+
+TY  - JOUR
+TI  - Current and Nascent SETI Instruments
+AU  - Siemion, Andrew P. V.
+AU  - Cobb, Jeff
+AU  - Chen, Henry
+AU  - Cordes, Jim
+AU  - Filiba, Terry
+AU  - Foster, Griffin
+AU  - Fries, Adam
+AU  - Howard, Andrew
+AU  - von Korff, Josh
+AU  - Korpela, Eric
+AU  - Lebofsky, Matt
+AU  - McMahon, Peter L.
+AU  - Parsons, Aaron
+AU  - Spitler, Laura
+AU  - Wagner, Mark
+AU  - Werthimer, Dan
+AB  - Here we describe our ongoing efforts to develop high-performance and sensitive instrumentation for use in the search for extra-terrestrial intelligence (SETI). These efforts include our recently deployed Search for Extraterrestrial Emissions from Nearby Developed Intelligent Populations Spectrometer (SERENDIP V.v) and two instruments currently under development; the Heterogeneous Radio SETI Spectrometer (HRSS) for SETI observations in the radio spectrum and the Optical SETI Fast Photometer (OSFP) for SETI observations in the optical band. We will discuss the basic SERENDIP V.v instrument design and initial analysis methodology, along with instrument architectures and observation strategies for OSFP and HRSS. In addition, we will demonstrate how these instruments may be built using low-cost, modular components and programmed and operated by students using common languages, e.g. ANSI C.
+DA  - 2011///
+PY  - 2011
+DO  - 10.48550/ARXIV.1109.1136
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1109.1136
+Y2  - 2022/11/20/20:59:38
+KW  - FOS: Physical sciences
+KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ER  - 
+
+TY  - JOUR
+TI  - Status of the UC-Berkeley SETI Efforts
+AU  - Korpela, Eric J.
+AU  - Anderson, David P.
+AU  - Bankay, Robert
+AU  - Cobb, Jeff
+AU  - Howard, Andrew
+AU  - Lebofsky, Matt
+AU  - Siemion, Andrew P. V.
+AU  - von Korff, Joshua
+AU  - Werthimer, Dan
+AB  - We summarize radio and optical SETI programs based at the University of California, Berkeley. The SEVENDIP optical pulse search looks for ns time scale pulses at visible wavelengths using an automated 30 inch telescope. The ongoing SERENDIP V.v sky survey searches for radio signals at the 300 meter Arecibo Observatory. The currently installed configuration supports 128 million channels over a 200 MHz bandwidth with ~1.6 Hz spectral resolution. SETI@home uses the desktop computers of volunteers to analyze over 160 TB of data at taken at Arecibo looking for two types of continuous wave signals and two types of pulsed signals. A version to be released this summer adds autocorrelation analysis to look for complex wave forms that have been repeated (and overlayed) after a short delay. SETI@home will soon be processing data of Kepler exoplanet systems collected at the GBT. The Astropulse project is the first SETI search for $μ$s time scale dispersed pulses in the radio spectrum. We recently reobserved 114 sky locations where microsecond pulses were detected. This data is in process of being transferred to Berkeley for analysis.
+DA  - 2011///
+PY  - 2011
+DO  - 10.48550/ARXIV.1108.3134
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1108.3134
+Y2  - 2022/11/20/20:59:38
+KW  - Distributed, Parallel, and Cluster Computing (cs.DC)
+KW  - FOS: Computer and information sciences
+KW  - FOS: Physical sciences
+KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ER  - 
+
+TY  - JOUR
+TI  - SETHI@Berkeley- A Piggyback 21-cm Sky Survey at Arecibo
+AU  - Korpela, Eric J.
+AU  - Demorest, Paul
+AU  - Heien, Eric
+AU  - Heiles, Carl
+AU  - Werthimer, Dan
+AB  - SETI@home observes a 2.5 MHz bandwidth centered on 1420 MHz near the 21-cm line using a short line feed at Arecibo which provides a 6' beam. This feed sits on Carriage House 1. During normal astronomical observations with the new Gregorian dome the feed scans across the sky at twice the sidereal rate. We are using the SETI@home receiver to obtain about 4.4x10^6 HI spectra per year with integration time of 5 seconds per spectrum. We have accumulated 2.6 years of data covering most of the sky observable from Arecibo. This survey has much better angular resolution than previous single dish surveys and better sensitivity than existing or planned interferometric surveys.
+DA  - 2001///
+PY  - 2001
+DO  - 10.48550/ARXIV.ASTRO-PH/0112300
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/astro-ph/0112300
+Y2  - 2022/11/20/20:59:38
+KW  - Astrophysics (astro-ph)
+KW  - FOS: Physical sciences
+ER  - 
+
+TY  - JOUR
+TI  - Candidate Identification and Interference Removal in SETI@home
+AU  - Korpela, Eric J.
+AU  - Cobb, Jeff
+AU  - Lebofsky, Matt
+AU  - Siemion, Andrew
+AU  - von Korff, Joshua
+AU  - Bankay, Robert C.
+AU  - Werthimer, Dan
+AU  - Anderson, David
+AB  - SETI@home, a search for signals from extraterrestrial intelligence, has been recording data at the Arecibo radio telescope since 1999. These data are sent via the Internet to the personal computers of volunteers who have donated their computers' idle time toward this search. To date, SETI@home volunteers have detected more than 4.2 billion potential signals. While essentially all of these potential signals are due to random noise processes, radio frequency interference (RFI), or interference processes in the SETI@home instrumentation, it is possible that a true extraterrestrial transmission exists within this database. Herein we describe the process of interference removal being implemented in the SETI@home post-processing pipeline, as well as those methods being used to identify candidates worthy of further investigation.
+DA  - 2011///
+PY  - 2011
+DO  - 10.48550/ARXIV.1109.1595
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1109.1595
+Y2  - 2022/11/20/20:59:38
+KW  - FOS: Physical sciences
+KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ER  - 
+
+TY  - JOUR
+TI  - The radio search for technosignatures in the decade 2020-2030
+AU  - Margot, Jean-Luc
+AU  - Croft, Steve
+AU  - Lazio, T. Joseph W.
+AU  - Tarter, Jill
+AU  - Korpela, Eric J.
+AB  - Advancing the scientific frontier in the search for life in the universe requires support of searches for both biosignatures and technosignatures. A modest budgetary increment can expand the search for life in the universe from primitive to complex life and from the solar neighborhood to the entire Galaxy.
+DA  - 2019///
+PY  - 2019
+DO  - 10.48550/ARXIV.1903.05544
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1903.05544
+Y2  - 2022/11/20/20:59:38
+KW  - Earth and Planetary Astrophysics (astro-ph.EP)
+KW  - FOS: Physical sciences
+KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ER  - 
+
+TY  - JOUR
+TI  - The Breakthrough Listen Search for Intelligent Life: Public Data, Formats, Reduction and Archiving
+AU  - Lebofsky, Matthew
+AU  - Croft, Steve
+AU  - Siemion, Andrew P. V.
+AU  - Price, Danny C.
+AU  - Enriquez, J. Emilio
+AU  - Isaacson, Howard
+AU  - MacMahon, David H. E.
+AU  - Anderson, David
+AU  - Brzycki, Bryan
+AU  - Cobb, Jeff
+AU  - Czech, Daniel
+AU  - DeBoer, David
+AU  - DeMarines, Julia
+AU  - Drew, Jamie
+AU  - Foster, Griffin
+AU  - Gajjar, Vishal
+AU  - Gizani, Nectaria
+AU  - Hellbourg, Greg
+AU  - Korpela, Eric J.
+AU  - Lacki, Brian
+AU  - Sheikh, Sofia
+AU  - Werthimer, Dan
+AU  - Worden, Pete
+AU  - Yu, Alex
+AU  - Zhang, Yunfan Gerry
+AB  - Breakthrough Listen is the most comprehensive and sensitive search for extraterrestrial intelligence (SETI) to date, employing a collection of international observational facilities including both radio and optical telescopes. During the first three years of the Listen program, thousands of targets have been observed with the Green Bank Telescope (GBT), Parkes Telescope and Automated Planet Finder. At GBT and Parkes, observations have been performed ranging from 700 MHz to 26 GHz, with raw data volumes averaging over 1PB / day. A pseudo-real time software spectroscopy suite is used to produce multi-resolution spectrograms amounting to approximately 400 GB hr^-1 GHz^-1 beam^-1. For certain targets, raw baseband voltage data is also preserved. Observations with the Automated Planet Finder produce both 2-dimensional and 1-dimensional high resolution (R~10^5) echelle spectral data. Although the primary purpose of Listen data acquisition is for SETI, a range of secondary science has also been performed with these data, including studies of fast radio bursts. Other current and potential research topics include spectral line studies, searches for certain kinds of dark matter, probes of interstellar scattering, pulsar searches, radio transient searches and investigations of stellar activity. Listen data are also being used in the development of algorithms, including machine learning approaches to modulation scheme classification and outlier detection, that have wide applicability not just for astronomical research but for a broad range of science and engineering. In this paper, we describe the hardware and software pipeline used for collection, reduction, archival, and public dissemination of Listen data. We describe the data formats and tools, and present Breakthrough Listen Data Release 1.0 (BLDR 1.0), a defined set of publicly-available raw and reduced data totalling 1 PB.
+DA  - 2019///
+PY  - 2019
+DO  - 10.48550/ARXIV.1906.07391
+DP  - DOI.org (Datacite)
+ST  - The Breakthrough Listen Search for Intelligent Life
+UR  - https://arxiv.org/abs/1906.07391
+Y2  - 2022/11/20/20:59:38
+KW  - FOS: Physical sciences
+KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ER  - 
+
+TY  - JOUR
+TI  - INTERSTELLAR H i SHELLS IDENTIFIED IN THE SETHi SURVEY
+AU  - Sallmen, Shauna M.
+AU  - Korpela, Eric J.
+AU  - Bellehumeur, Brooke
+AU  - Tennyson, Elizabeth M.
+AU  - Grunwald, Kurt
+AU  - Lo, Cheuk Man
+T2  - The Astronomical Journal
+DA  - 2015/05/18/
+PY  - 2015
+DO  - 10.1088/0004-6256/149/6/189
+DP  - DOI.org (Crossref)
+VL  - 149
+IS  - 6
+SP  - 189
+J2  - AJ
+SN  - 1538-3881
+UR  - https://iopscience.iop.org/article/10.1088/0004-6256/149/6/189
+Y2  - 2022/11/20/20:59:38
+L1  - https://arxiv.org/pdf/1506.00960
+ER  - 
+
+TY  - JOUR
+TI  - Three Years of SETI@home: A Status Report
+AU  - Korpela, Eric J.
+AU  - Cobb, Jeff
+AU  - Fulton, Steve
+AU  - Lebofsky, Matt
+AU  - Heien, Eric
+AU  - Person, Eric
+AU  - Demorest, Paul
+AU  - Bankay, Robert
+AU  - Anderson, David
+AU  - Werthimer, Dan
+T2  - Symposium - International Astronomical Union
+AB  - The SETI@home project has recently completed its third year of active data analysis. Over 4 million volunteers have joined the search, providing a combined total of over 1 million CPU-years of processing power. SETI@home performs a sensitive search for extraterrestrial signals in a 2.5 MHz band centered on 1420 MHz. SETI@home searches a wide parameter space including 14 octaves of signal bandwidth and 15 octaves of pulse period with Doppler drift corrections from −50 Hz/s to +50 Hz/s. We will briefly describe the SETI@home project and the algorithms used in the SETI@home client. We will describe the post-processing methods we use to reject RFI and select candidate signals from the nearly 4 billion “hits” returned by SETI@home clients.
+DA  - 2004///
+PY  - 2004
+DO  - 10.1017/S0074180900193635
+DP  - DOI.org (Crossref)
+VL  - 213
+SP  - 419
+EP  - 422
+J2  - Symp. - Int. Astron. Union
+LA  - en
+SN  - 0074-1809
+ST  - Three Years of SETI@home
+UR  - https://www.cambridge.org/core/product/identifier/S0074180900193635/type/journal_article
+Y2  - 2022/11/20/20:59:39
+L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37096B9EEE6B49A6B0027450A9DC0343/S0074180900193635a.pdf/div-class-title-three-years-of-seti-home-a-status-report-div.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Discovering Statistical Models of Availability in Large Distributed Systems: An Empirical Study of SETI@home
+AU  - Javadi, Bahman
+AU  - Kondo, Derrick
+AU  - Vincent, Jean-Marc
+AU  - Anderson, David P.
+T2  - IEEE Transactions on Parallel and Distributed Systems
+DA  - 2011/11//
+PY  - 2011
+DO  - 10.1109/TPDS.2011.50
+DP  - DOI.org (Crossref)
+VL  - 22
+IS  - 11
+SP  - 1896
+EP  - 1903
+J2  - IEEE Trans. Parallel Distrib. Syst.
+SN  - 1045-9219
+ST  - Discovering Statistical Models of Availability in Large Distributed Systems
+UR  - http://ieeexplore.ieee.org/document/5703090/
+Y2  - 2022/11/20/20:59:39
+ER  - 
+
+TY  - CHAP
+TI  - Serendipitous Detection of Radio Pulses from Evaporating Black Holes, GRBs and Extragalactic Supernova Using SETI@home
+AU  - Demorest, Paul
+AU  - Golden, Aaron
+AU  - Korpela, Eric
+AU  - Werthimer, Dan
+AU  - Ekers, Ron
+T2  - Astronomy, Cosmology and Fundamental Physics
+A2  - Shaver, Peter A.
+A2  - DiLella, Luigi
+A2  - Giménez, Alvaro
+CY  - Berlin/Heidelberg
+DA  - 2003///
+PY  - 2003
+DP  - DOI.org (Crossref)
+SP  - 436
+EP  - 437
+LA  - en
+PB  - Springer-Verlag
+SN  - 978-3-540-40179-7
+UR  - http://link.springer.com/10.1007/10857580_44
+Y2  - 2022/11/20/20:59:39
+ER  - 
+
+TY  - JOUR
+TI  - The Ultimate Hacker: SETI Signals May Need to Be Decontaminated
+AU  - Carrigan, Richard A.
+T2  - Symposium - International Astronomical Union
+AB  - Biological contamination from space is a remote but recognized possibility. SETI signals might also contain harmful information. Some argue that a SETI signal could not contaminate a terrestrial computer because the idiosyncratic computer logic and code constitute an impenetrable firewall. Suggestions are given below on how to probe these arguments and decontaminate SETI signals.
+DA  - 2004///
+PY  - 2004
+DO  - 10.1017/S0074180900193829
+DP  - DOI.org (Crossref)
+VL  - 213
+SP  - 519
+EP  - 522
+J2  - Symp. - Int. Astron. Union
+LA  - en
+SN  - 0074-1809
+ST  - The Ultimate Hacker
+UR  - https://www.cambridge.org/core/product/identifier/S0074180900193829/type/journal_article
+Y2  - 2022/11/20/21:03:44
+L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B91CA298AD9419CEC24E17830FD728F0/S0074180900193829a.pdf/div-class-title-the-ultimate-hacker-seti-signals-may-need-to-be-decontaminated-div.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Searching for Extraterrestrial Intelligence with the Square Kilometre Array
+AU  - Siemion, Andrew P. V.
+AU  - Benford, James
+AU  - Cheng-Jin, Jin
+AU  - Chennamangalam, Jayanth
+AU  - Cordes, James
+AU  - DeBoer, David R.
+AU  - Falcke, Heino
+AU  - Garrett, Mike
+AU  - Garrington, Simon
+AU  - Gurvits, Leonid
+AU  - Hoare, Melvin
+AU  - Korpela, Eric J.
+AU  - Lazio, Joseph
+AU  - Messerschmitt, David
+AU  - Morrison, Ian S.
+AU  - O'Brien, Tim
+AU  - Paragi, Zsolt
+AU  - Penny, Alan
+AU  - Spitler, Laura
+AU  - Tarter, Jill
+AU  - Werthimer, Dan
+AB  - The vast collecting area of the Square Kilometre Array (SKA), harnessed by sensitive receivers, flexible digital electronics and increased computational capacity, could permit the most sensitive and exhaustive search for technologically-produced radio emission from advanced extraterrestrial intelligence (SETI) ever performed. For example, SKA1-MID will be capable of detecting a source roughly analogous to terrestrial high-power radars (e.g. air route surveillance or ballistic missile warning radars, EIRP (EIRP = equivalent isotropic radiated power, ~10^17 erg sec^-1) at 10 pc in less than 15 minutes, and with a modest four beam SETI observing system could, in one minute, search every star in the primary beam out to ~100 pc for radio emission comparable to that emitted by the Arecibo Planetary Radar (EIRP ~2 x 10^20 erg sec^-1). The flexibility of the signal detection systems used for SETI searches with the SKA will allow new algorithms to be employed that will provide sensitivity to a much wider variety of signal types than previously searched for. Here we discuss the astrobiological and astrophysical motivations for radio SETI and describe how the technical capabilities of the SKA will explore the radio SETI parameter space. We detail several conceivable SETI experimental programs on all components of SKA1, including commensal, primary-user, targeted and survey programs and project the enhancements to them possible with SKA2. We also discuss target selection criteria for these programs, and in the case of commensal observing, how the varied use cases of other primary observers can be used to full advantage for SETI.
+DA  - 2014///
+PY  - 2014
+DO  - 10.48550/ARXIV.1412.4867
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1412.4867
+Y2  - 2022/11/20/21:03:44
+KW  - Earth and Planetary Astrophysics (astro-ph.EP)
+KW  - FOS: Physical sciences
+KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ER  - 
+
