@@ -1,0 +1,102 @@
+TY  - JOUR
+TI  - Computational protein design: Software implementation, parameter optimization, and performance of a simple model
+AU  - Schmidt Am Busch, Marcel
+AU  - Lopes, Anne
+AU  - Mignon, David
+AU  - Simonson, Thomas
+T2  - Journal of Computational Chemistry
+DA  - 2008/05//
+PY  - 2008
+DO  - 10.1002/jcc.20870
+DP  - DOI.org (Crossref)
+VL  - 29
+IS  - 7
+SP  - 1092
+EP  - 1102
+J2  - J. Comput. Chem.
+LA  - en
+SN  - 01928651, 1096987X
+ST  - Computational protein design
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.20870
+Y2  - 2022/11/20/20:21:15
+ER  - 
+
+TY  - JOUR
+TI  - Testing the Coulomb/Accessible Surface Area solvent model for protein stability, ligand binding, and protein design
+AU  - am Busch, Marcel Schmidt
+AU  - Lopes, Anne
+AU  - Amara, Najette
+AU  - Bathelt, Christine
+AU  - Simonson, Thomas
+T2  - BMC Bioinformatics
+AB  - Abstract
+            
+              Background
+              Protein structure prediction and computational protein design require efficient yet sufficiently accurate descriptions of aqueous solvent. We continue to evaluate the performance of the Coulomb/Accessible Surface Area (CASA) implicit solvent model, in combination with the Charmm19 molecular mechanics force field. We test a set of model parameters optimized earlier, and we also carry out a new optimization in this work, using as a target a set of experimental stability changes for single point mutations of various proteins and peptides. The optimization procedure is general, and could be used with other force fields. The computation of stability changes requires a model for the unfolded state of the protein. In our approach, this state is represented by tripeptide structures of the sequence Ala-X-Ala for each amino acid type X. We followed an iterative optimization scheme which, at each cycle, optimizes the solvation parameters and a set of tripeptide structures for the unfolded state. This protocol uses a set of 140 experimental stability mutations and a large set of tripeptide conformations to find the best tripeptide structures and solvation parameters.
+            
+            
+              Results
+              Using the optimized parameters, we obtain a mean unsigned error of 2.28 kcal/mol for the stability mutations. The performance of the CASA model is assessed by two further applications: (i) calculation of protein-ligand binding affinities and (ii) computational protein design. For these two applications, the previous parameters and the ones optimized here give a similar performance. For ligand binding, we obtain reasonable agreement with a set of 55 experimental mutation data, with a mean unsigned error of 1.76 kcal/mol with the new parameters and 1.47 kcal/mol with the earlier ones. We show that the optimized CASA model is not inferior to the Generalized Born/Surface Area (GB/SA) model for the prediction of these binding affinities. Likewise, the new parameters perform well for the design of 8 SH3 domain proteins where an average of 32.8% sequence identity relative to the native sequences was achieved. Further, it was shown that the computed sequences have the character of naturally-occuring homologues of the native sequences.
+            
+            
+              Conclusion
+              Overall, the two CASA variants explored here perform very well for a wide variety of applications. Both variants provide an efficient solvent treatment for the computational engineering of ligands and proteins.
+DA  - 2008/12//
+PY  - 2008
+DO  - 10.1186/1471-2105-9-148
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 1
+SP  - 148
+J2  - BMC Bioinformatics
+LA  - en
+SN  - 1471-2105
+UR  - https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-148
+Y2  - 2022/11/20/20:21:15
+L1  - https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-9-148
+ER  - 
+
+TY  - JOUR
+TI  - Computational Protein Design: Validation and Possible Relevance as a Tool for Homology Searching and Fold Recognition
+AU  - Schmidt am Busch, Marcel
+AU  - Sedano, Audrey
+AU  - Simonson, Thomas
+T2  - PLoS ONE
+A2  - Mayer, Claudine
+DA  - 2010/05/05/
+PY  - 2010
+DO  - 10.1371/journal.pone.0010410
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 5
+SP  - e10410
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+ST  - Computational Protein Design
+UR  - https://dx.plos.org/10.1371/journal.pone.0010410
+Y2  - 2022/11/20/20:21:15
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0010410&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - Computational protein design as a tool for fold recognition
+AU  - Schmidt am Busch, Marcel
+AU  - Mignon, David
+AU  - Simonson, Thomas
+T2  - Proteins: Structure, Function, and Bioinformatics
+DA  - 2009/10//
+PY  - 2009
+DO  - 10.1002/prot.22426
+DP  - DOI.org (Crossref)
+VL  - 77
+IS  - 1
+SP  - 139
+EP  - 158
+J2  - Proteins
+LA  - en
+SN  - 08873585, 10970134
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.22426
+Y2  - 2022/11/20/20:21:15
+ER  - 
+
