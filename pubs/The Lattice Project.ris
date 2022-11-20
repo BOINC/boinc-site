@@ -1,0 +1,419 @@
+TY  - JOUR
+TI  - Subdividing Long-Running, Variable-Length Analyses Into Short, Fixed-Length BOINC Workunits
+AU  - Bazinet, Adam L.
+AU  - Cummings, Michael P.
+T2  - Journal of Grid Computing
+DA  - 2016/09//
+PY  - 2016
+DO  - 10.1007/s10723-015-9348-5
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 3
+SP  - 429
+EP  - 441
+J2  - J Grid Computing
+LA  - en
+SN  - 1570-7873, 1572-9184
+UR  - http://link.springer.com/10.1007/s10723-015-9348-5
+Y2  - 2022/11/20/14:18:32
+ER  - 
+
+TY  - JOUR
+TI  - Sources of Signal in 62 Protein-Coding Nuclear Genes for Higher-Level Phylogenetics of Arthropods
+AU  - Regier, Jerome C.
+AU  - Zwick, Andreas
+T2  - PLoS ONE
+A2  - Kolokotronis, Sergios-Orestis
+DA  - 2011/08/04/
+PY  - 2011
+DO  - 10.1371/journal.pone.0023408
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 8
+SP  - e23408
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+UR  - https://dx.plos.org/10.1371/journal.pone.0023408
+Y2  - 2022/11/20/14:18:32
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0023408&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - Validating the systematic position of Plationus Segers, Murugan & Dumont, 1993 (Rotifera: Brachionidae) using sequences of the large subunit of the nuclear ribosomal DNA and of cytochrome C oxidase
+AU  - Reyna-Fabián, Miriam E.
+AU  - Laclette, Juan Pedro
+AU  - Cummings, Michael P.
+AU  - García-Varela, Martín
+T2  - Hydrobiologia
+DA  - 2010/05//
+PY  - 2010
+DO  - 10.1007/s10750-010-0203-1
+DP  - DOI.org (Crossref)
+VL  - 644
+IS  - 1
+SP  - 361
+EP  - 370
+J2  - Hydrobiologia
+LA  - en
+SN  - 0018-8158, 1573-5117
+ST  - Validating the systematic position of Plationus Segers, Murugan & Dumont, 1993 (Rotifera
+UR  - http://link.springer.com/10.1007/s10750-010-0203-1
+Y2  - 2022/11/20/14:20:38
+ER  - 
+
+TY  - JOUR
+TI  - A Gateway for Phylogenetic Analysis Powered by Grid Computing Featuring GARLI 2.0
+AU  - Bazinet, Adam L.
+AU  - Zwickl, Derrick J.
+AU  - Cummings, Michael P.
+T2  - Systematic Biology
+DA  - 2014/09/01/
+PY  - 2014
+DO  - 10.1093/sysbio/syu031
+DP  - DOI.org (Crossref)
+VL  - 63
+IS  - 5
+SP  - 812
+EP  - 818
+LA  - en
+SN  - 1076-836X, 1063-5157
+UR  - https://academic.oup.com/sysbio/article/63/5/812/2847779
+Y2  - 2022/11/20/14:20:38
+L1  - https://academic.oup.com/sysbio/article-pdf/63/5/812/24585248/syu031.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Toward reconstructing the evolution of advanced moths and butterflies (Lepidoptera: Ditrysia): an initial molecular study
+AU  - Regier, Jerome C
+AU  - Zwick, Andreas
+AU  - Cummings, Michael P
+AU  - Kawahara, Akito Y
+AU  - Cho, Soowon
+AU  - Weller, Susan
+AU  - Roe, Amanda
+AU  - Baixeras, Joaquin
+AU  - Brown, John W
+AU  - Parr, Cynthia
+AU  - Davis, Donald R
+AU  - Epstein, Marc
+AU  - Hallwachs, Winifred
+AU  - Hausmann, Axel
+AU  - Janzen, Daniel H
+AU  - Kitching, Ian J
+AU  - Solis, M Alma
+AU  - Yen, Shen-Horn
+AU  - Bazinet, Adam L
+AU  - Mitter, Charles
+T2  - BMC Evolutionary Biology
+AB  - Abstract
+            
+              Background
+              In the mega-diverse insect order Lepidoptera (butterflies and moths; 165,000 described species), deeper relationships are little understood within the clade Ditrysia, to which 98% of the species belong. To begin addressing this problem, we tested the ability of five protein-coding nuclear genes (6.7 kb total), and character subsets therein, to resolve relationships among 123 species representing 27 (of 33) superfamilies and 55 (of 100) families of Ditrysia under maximum likelihood analysis.
+            
+            
+              Results
+              
+                Our trees show broad concordance with previous morphological hypotheses of ditrysian phylogeny, although most relationships among superfamilies are weakly supported. There are also notable surprises, such as a consistently closer relationship of Pyraloidea than of butterflies to most Macrolepidoptera. Monophyly is significantly rejected by one or more character sets for the putative clades Macrolepidoptera as currently defined (
+                P
+                < 0.05) and Macrolepidoptera excluding Noctuoidea and Bombycoidea sensu lato (
+                P
+                ≤ 0.005), and nearly so for the superfamily Drepanoidea as currently defined (
+                P
+                < 0.08). Superfamilies are typically recovered or nearly so, but usually without strong support. Relationships within superfamilies and families, however, are often robustly resolved. We provide some of the first strong molecular evidence on deeper splits within Pyraloidea, Tortricoidea, Geometroidea, Noctuoidea and others.
+              
+              Separate analyses of mostly synonymous versus non-synonymous character sets revealed notable differences (though not strong conflict), including a marked influence of compositional heterogeneity on apparent signal in the third codon position (nt3). As available model partitioning methods cannot correct for this variation, we assessed overall phylogeny resolution through separate examination of trees from each character set. Exploration of "tree space" with GARLI, using grid computing, showed that hundreds of searches are typically needed to find the best-feasible phylogeny estimate for these data.
+            
+            
+              Conclusion
+              Our results (a) corroborate the broad outlines of the current working phylogenetic hypothesis for Ditrysia, (b) demonstrate that some prominent features of that hypothesis, including the position of the butterflies, need revision, and (c) resolve the majority of family and subfamily relationships within superfamilies as thus far sampled. Much further gene and taxon sampling will be needed, however, to strongly resolve individual deeper nodes.
+DA  - 2009/12//
+PY  - 2009
+DO  - 10.1186/1471-2148-9-280
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 1
+SP  - 280
+J2  - BMC Evol Biol
+LA  - en
+SN  - 1471-2148
+ST  - Toward reconstructing the evolution of advanced moths and butterflies (Lepidoptera
+UR  - https://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-9-280
+Y2  - 2022/11/20/14:20:38
+L1  - https://bmcecolevol.biomedcentral.com/counter/pdf/10.1186/1471-2148-9-280
+ER  - 
+
+TY  - JOUR
+TI  - Can RNA-Seq Resolve the Rapid Radiation of Advanced Moths and Butterflies (Hexapoda: Lepidoptera: Apoditrysia)? An Exploratory Study
+AU  - Bazinet, Adam L.
+AU  - Cummings, Michael P.
+AU  - Mitter, Kim T.
+AU  - Mitter, Charles W.
+T2  - PLoS ONE
+A2  - López-Vaamonde, Carlos
+DA  - 2013/12/04/
+PY  - 2013
+DO  - 10.1371/journal.pone.0082615
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 12
+SP  - e82615
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+ST  - Can RNA-Seq Resolve the Rapid Radiation of Advanced Moths and Butterflies (Hexapoda
+UR  - https://dx.plos.org/10.1371/journal.pone.0082615
+Y2  - 2022/11/20/14:20:39
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0082615&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - The Power to Detect Recent Fragmentation Events Using Genetic Differentiation Methods
+AU  - Lloyd, Michael W.
+AU  - Campbell, Lesley
+AU  - Neel, Maile C.
+T2  - PLoS ONE
+A2  - Wang, Ting
+DA  - 2013/05/21/
+PY  - 2013
+DO  - 10.1371/journal.pone.0063981
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 5
+SP  - e63981
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+UR  - https://dx.plos.org/10.1371/journal.pone.0063981
+Y2  - 2022/11/20/14:20:39
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0063981&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - Grid Services Base Library: A high-level, procedural application programming interface for writing Globus-based Grid services
+AU  - Bazinet, Adam L.
+AU  - Myers, Daniel S.
+AU  - Fuetsch, John
+AU  - Cummings, Michael P.
+T2  - Future Generation Computer Systems
+DA  - 2007/03//
+PY  - 2007
+DO  - 10.1016/j.future.2006.07.009
+DP  - DOI.org (Crossref)
+VL  - 23
+IS  - 3
+SP  - 517
+EP  - 522
+J2  - Future Generation Computer Systems
+LA  - en
+SN  - 0167739X
+ST  - Grid Services Base Library
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167739X06001464
+Y2  - 2022/11/20/14:23:00
+ER  - 
+
+TY  - JOUR
+TI  - History of Click-Speaking Populations of Africa Inferred from mtDNA and Y Chromosome Genetic Variation
+AU  - Tishkoff, S. A.
+AU  - Gonder, M. K.
+AU  - Henn, B. M.
+AU  - Mortensen, H.
+AU  - Knight, A.
+AU  - Gignoux, C.
+AU  - Fernandopulle, N.
+AU  - Lema, G.
+AU  - Nyambo, T. B.
+AU  - Ramakrishnan, U.
+AU  - Reed, F. A.
+AU  - Mountain, J. L.
+T2  - Molecular Biology and Evolution
+DA  - 2007/07/21/
+PY  - 2007
+DO  - 10.1093/molbev/msm155
+DP  - DOI.org (Crossref)
+VL  - 24
+IS  - 10
+SP  - 2180
+EP  - 2195
+J2  - Molecular Biology and Evolution
+LA  - en
+SN  - 0737-4038, 1537-1719
+UR  - https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msm155
+Y2  - 2022/11/20/14:23:00
+L1  - https://academic.oup.com/mbe/article-pdf/24/10/2180/13637848/msm155.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Increased gene sampling yields robust support for higher-level clades within Bombycoidea (Lepidoptera)
+AU  - Zwick, Andreas
+AU  - Regier, Jerome C.
+AU  - Mitter, Charles
+AU  - Cummings, Michael P.
+T2  - Systematic Entomology
+DA  - 2011/01//
+PY  - 2011
+DO  - 10.1111/j.1365-3113.2010.00543.x
+DP  - DOI.org (Crossref)
+VL  - 36
+IS  - 1
+SP  - 31
+EP  - 43
+LA  - en
+SN  - 03076970
+UR  - https://onlinelibrary.wiley.com/doi/10.1111/j.1365-3113.2010.00543.x
+Y2  - 2022/11/20/14:23:00
+ER  - 
+
+TY  - CHAP
+TI  - Expanding the Reach of Grid Computing: Combining Globus- and BOINC-Based Systems
+AU  - Myers, Daniel S.
+AU  - Bazinet, Adam L.
+AU  - Cummings, Michael P.
+T2  - Grid Computing for Bioinformatics and Computational Biology
+A2  - Talbi, El-Ghazali
+A2  - Zomaya, Albert Y.
+CY  - Hoboken, NJ, USA
+DA  - 2007/12/03/
+PY  - 2007
+DP  - DOI.org (Crossref)
+SP  - 71
+EP  - 85
+LA  - en
+PB  - John Wiley & Sons, Inc.
+SN  - 978-0-470-19163-7 978-0-471-78409-8
+ST  - Expanding the Reach of Grid Computing
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/9780470191637.ch4
+Y2  - 2022/11/20/14:23:01
+ER  - 
+
+TY  - JOUR
+TI  - Can Deliberately Incomplete Gene Sample Augmentation Improve a Phylogeny Estimate for the Advanced Moths and Butterflies (Hexapoda: Lepidoptera)?
+AU  - Cho, Soowon
+AU  - Zwick, Andreas
+AU  - Regier, Jerome C.
+AU  - Mitter, Charles
+AU  - Cummings, Michael P.
+AU  - Yao, Jianxiu
+AU  - Du, Zaile
+AU  - Zhao, Hong
+AU  - Kawahara, Akito Y.
+AU  - Weller, Susan
+AU  - Davis, Donald R.
+AU  - Baixeras, Joaquin
+AU  - Brown, John W.
+AU  - Parr, Cynthia
+T2  - Systematic Biology
+DA  - 2011/12/01/
+PY  - 2011
+DO  - 10.1093/sysbio/syr079
+DP  - DOI.org (Crossref)
+VL  - 60
+IS  - 6
+SP  - 782
+EP  - 796
+LA  - en
+SN  - 1076-836X, 1063-5157
+ST  - Can Deliberately Incomplete Gene Sample Augmentation Improve a Phylogeny Estimate for the Advanced Moths and Butterflies (Hexapoda
+UR  - https://academic.oup.com/sysbio/article/60/6/782/1678055
+Y2  - 2022/11/20/14:23:00
+L1  - https://academic.oup.com/sysbio/article-pdf/60/6/782/24560483/syr079.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Phylogenetic patterns and conservation among North American members of the genus Agalinis (Orobanchaceae)
+AU  - Pettengill, James B
+AU  - Neel, Maile C
+T2  - BMC Evolutionary Biology
+DA  - 2008///
+PY  - 2008
+DO  - 10.1186/1471-2148-8-264
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 1
+SP  - 264
+J2  - BMC Evol Biol
+LA  - en
+SN  - 1471-2148
+UR  - http://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-8-264
+Y2  - 2022/11/20/14:23:00
+L1  - https://bmcecolevol.biomedcentral.com/counter/pdf/10.1186/1471-2148-8-264
+ER  - 
+
+TY  - JOUR
+TI  - Bio-STEER: A Semantic Web workflow tool for Grid computing in the life sciences
+AU  - Lee, Sung
+AU  - Wang, Taowei David
+AU  - Hashmi, Nada
+AU  - Cummings, Michael P.
+T2  - Future Generation Computer Systems
+DA  - 2007/03//
+PY  - 2007
+DO  - 10.1016/j.future.2006.07.011
+DP  - DOI.org (Crossref)
+VL  - 23
+IS  - 3
+SP  - 497
+EP  - 509
+J2  - Future Generation Computer Systems
+LA  - en
+SN  - 0167739X
+ST  - Bio-STEER
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167739X06001439
+Y2  - 2022/11/20/14:23:00
+ER  - 
+
+TY  - JOUR
+TI  - Increased gene sampling strengthens support for higher-level groups within leaf-mining moths and relatives (Lepidoptera: Gracillariidae)
+AU  - Kawahara, Akito Y
+AU  - Ohshima, Issei
+AU  - Kawakita, Atsushi
+AU  - Regier, Jerome C
+AU  - Mitter, Charles
+AU  - Cummings, Michael P
+AU  - Davis, Donald R
+AU  - Wagner, David L
+AU  - De Prins, Jurate
+AU  - Lopez-Vaamonde, Carlos
+T2  - BMC Evolutionary Biology
+DA  - 2011/12//
+PY  - 2011
+DO  - 10.1186/1471-2148-11-182
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 1
+SP  - 182
+J2  - BMC Evol Biol
+LA  - en
+SN  - 1471-2148
+ST  - Increased gene sampling strengthens support for higher-level groups within leaf-mining moths and relatives (Lepidoptera
+UR  - http://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-11-182
+Y2  - 2022/11/20/14:23:00
+L1  - https://bmcecolevol.biomedcentral.com/counter/pdf/10.1186/1471-2148-11-182
+ER  - 
+
+TY  - JOUR
+TI  - Arthropod relationships revealed by phylogenomic analysis of nuclear protein-coding sequences
+AU  - Regier, Jerome C.
+AU  - Shultz, Jeffrey W.
+AU  - Zwick, Andreas
+AU  - Hussey, April
+AU  - Ball, Bernard
+AU  - Wetzer, Regina
+AU  - Martin, Joel W.
+AU  - Cunningham, Clifford W.
+T2  - Nature
+DA  - 2010/02//
+PY  - 2010
+DO  - 10.1038/nature08742
+DP  - DOI.org (Crossref)
+VL  - 463
+IS  - 7284
+SP  - 1079
+EP  - 1083
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - http://www.nature.com/articles/nature08742
+Y2  - 2022/11/20/14:23:01
+ER  - 
+
