@@ -1,0 +1,16 @@
+TY  - JOUR
+TI  - MLDS: A Dataset for Weight-Space Analysis of Neural Networks
+AU  - Clemens, John
+AB  - Neural networks are powerful models that solve a variety of complex real-world problems. However, the stochastic nature of training and large number of parameters in a typical neural model makes them difficult to evaluate via inspection. Research shows this opacity can hide latent undesirable behavior, be it from poorly representative training data or via malicious intent to subvert the behavior of the network, and that this behavior is difficult to detect via traditional indirect evaluation criteria such as loss. Therefore, it is time to explore direct ways to evaluate a trained neural model via its structure and weights. In this paper we present MLDS, a new dataset consisting of thousands of trained neural networks with carefully controlled parameters and generated via a global volunteer-based distributed computing platform. This dataset enables new insights into both model-to-model and model-to-training-data relationships. We use this dataset to show clustering of models in weight-space with identical training data and meaningful divergence in weight-space with even a small change to the training data, suggesting that weight-space analysis is a viable and effective alternative to loss for evaluating neural networks.
+DA  - 2021///
+PY  - 2021
+DO  - 10.48550/ARXIV.2104.10555
+DP  - DOI.org (Datacite)
+ST  - MLDS
+UR  - https://arxiv.org/abs/2104.10555
+Y2  - 2022/11/20/20:04:32
+KW  - FOS: Computer and information sciences
+KW  - Machine Learning (cs.LG)
+KW  - Machine Learning (stat.ML)
+ER  - 
+
