@@ -1,0 +1,180 @@
+TY  - JOUR
+TI  - Algorithm for finding partitionings of hard variants of boolean satisfiability problem with application to inversion of some cryptographic functions
+AU  - Semenov, Alexander
+AU  - Zaikin, Oleg
+T2  - SpringerPlus
+DA  - 2016/12//
+PY  - 2016
+DO  - 10.1186/s40064-016-2187-4
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 1
+SP  - 554
+J2  - SpringerPlus
+LA  - en
+SN  - 2193-1801
+UR  - http://springerplus.springeropen.com/articles/10.1186/s40064-016-2187-4
+Y2  - 2022/11/20/20:44:39
+L1  - https://springerplus.springeropen.com/counter/pdf/10.1186/s40064-016-2187-4
+ER  - 
+
+TY  - JOUR
+TI  - On the Construction of Triples of Diagonal Latin Squares of Order 10
+AU  - Zaikin, Oleg
+AU  - Zhuravlev, Alexey
+AU  - Kochemazov, Stepan
+AU  - Vatutin, Eduard
+T2  - Electronic Notes in Discrete Mathematics
+DA  - 2016/10//
+PY  - 2016
+DO  - 10.1016/j.endm.2016.09.053
+DP  - DOI.org (Crossref)
+VL  - 54
+SP  - 307
+EP  - 312
+J2  - Electronic Notes in Discrete Mathematics
+LA  - en
+SN  - 15710653
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S1571065316301470
+Y2  - 2022/11/20/20:44:39
+ER  - 
+
+TY  - JOUR
+TI  - The search for systems of diagonal Latin squares using the SAT@home project
+AU  - Oleg, Zaikin
+AU  - Stepan, Kochemazov
+T2  - International Journal of Open Information Technologies
+AB  - In this paper we consider one approach to searching for systems of orthogonal diagonal Latin squares. It is based on the reduction of an original problem to the Boolean Satisfiability problem. We describe two different propositional encodings that we use. The first encoding is constructed for finding pairs of orthogonal diagonal Latin squares of order 10. Using this encoding we managed to find 17 previously unknown pairs of such squares using the volunteer computing project SAT@home. The second encoding is constructed for finding pseudotriples of orthogonal diagonal Latin squares of order 10. Using the pairs found with the help of SAT@home and the second encoding we successfully constructed several new pseudotriples of diagonal Latin squares of order 10.
+DA  - 2015///
+PY  - 2015
+DP  - cyberleninka.ru
+VL  - 3
+IS  - 11
+SP  - 4
+EP  - 9
+SN  - 2307-8162
+UR  - https://cyberleninka.ru/article/n/the-search-for-systems-of-diagonal-latin-squares-using-the-sat-home-project
+Y2  - 2022/11/20/20:47:54
+L1  - https://cyberleninka.ru/article/n/the-search-for-systems-of-diagonal-latin-squares-using-the-sat-home-project/pdf
+L2  - https://cyberleninka.ru/article/n/the-search-for-systems-of-diagonal-latin-squares-using-the-sat-home-project
+ER  - 
+
+TY  - JOUR
+TI  - Solving weakened cryptanalysis problems for the Bivium cipher in the volunteer computing project SAT@home
+AU  - Zaikin, Oleg
+AU  - Semenov, Alexander
+AU  - Otpuschennikov, Ilya
+T2  - International Journal of Open Information Technologies
+AB  - In this paper, a SAT-based cryptanalysis of the Bivium stream cipher is considered. For encoding the initial cryptanalysis problem into SAT a special program Transalg was used. For an obtained SAT instance we use Monte Carlo method to search for a partitioning with good time estimation. Several weakened cryptanalysis instances of the Bivium generator were successfully solved in the volunteer computing project SAT@home using corresponding partitionings found on a computing cluster
+DA  - 2015///
+PY  - 2015
+DP  - cyberleninka.ru
+VL  - 3
+IS  - 12
+SP  - 1
+EP  - 3
+SN  - 2307-8162
+UR  - https://cyberleninka.ru/article/n/solving-weakened-cryptanalysis-problems-for-the-bivium-cipher-in-the-volunteer-computing-project-sat-home
+Y2  - 2022/11/20/20:48:20
+L1  - https://cyberleninka.ru/article/n/solving-weakened-cryptanalysis-problems-for-the-bivium-cipher-in-the-volunteer-computing-project-sat-home/pdf
+L2  - https://cyberleninka.ru/article/n/solving-weakened-cryptanalysis-problems-for-the-bivium-cipher-in-the-volunteer-computing-project-sat-home
+ER  - 
+
+TY  - JOUR
+TI  - Estimations of cryptographic resistance of ciphers in the trivium family to sat-based cryptanalysis
+AU  - Institute for System Dynamics and Control Theory SB RAS
+AU  - Zaikin, O.S.
+AU  - Otpuschennikov, I. V.
+AU  - Institute for System Dynamics and Control Theory SB RAS
+AU  - Semenov, A. A.
+AU  - Institute for System Dynamics and Control Theory SB RAS
+T2  - Prikladnaya diskretnaya matematika. Prilozhenie
+DA  - 2016/12/01/
+PY  - 2016
+DO  - 10.17223/2226308X/9/19
+DP  - DOI.org (Crossref)
+IS  - 9
+SP  - 46
+EP  - 48
+J2  - Applied Discrete Mathematics. Supplement
+SN  - 2226308X
+UR  - http://journals.tsu.ru//pdm2/&journal_page=archive&id=1451&article_id=30028
+Y2  - 2022/11/20/20:50:35
+ER  - 
+
+TY  - CONF
+TI  - A Volunteer-Computing-Based Grid Architecture Incorporating Idle Resources of Computational Clusters
+AU  - Zaikin, Oleg
+AU  - Manzyuk, Maxim
+AU  - Kochemazov, Stepan
+AU  - Bychkov, Igor
+AU  - Semenov, Alexander
+A2  - Dimov, Ivan
+A2  - Faragó, István
+A2  - Vulkov, Lubin
+T3  - Lecture Notes in Computer Science
+AB  - In this paper, we suggest a new architecture of a computational grid that involves resources of BOINC-based volunteer computing projects and idle resources of computational clusters. We constructed a computational grid of the proposed kind, based on several computational clusters and the volunteer computing project SAT@home. This project, launched and maintained by us, is aimed at solving hard computational problems, which can be effectively reduced to Boolean satisfiability problem. In the constructed grid several new combinatorial designs based on diagonal Latin squares of order 10 were found, and also several weakened cryptanalysis problems for the Bivium cipher were solved.
+C1  - Cham
+C3  - Numerical Analysis and Its Applications
+DA  - 2017///
+PY  - 2017
+DO  - 10.1007/978-3-319-57099-0_89
+DP  - Springer Link
+SP  - 769
+EP  - 776
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-319-57099-0
+UR  - https://link.springer.com/chapter/10.1007/978-3-319-57099-0_89
+KW  - BOINC
+KW  - Grid
+KW  - SAT
+KW  - Volunteer computing
+ER  - 
+
+TY  - CONF
+TI  - SAT-Based Cryptanalysis: From Parallel Computing to Volunteer Computing
+AU  - Zaikin, Oleg
+A2  - Voevodin, Vladimir
+A2  - Sobolev, Sergey
+T3  - Communications in Computer and Information Science
+AB  - Volunteer computing is a powerful tool for solving hard problems by the divide-and-conquer approach. During the last decade, several hard cryptanalysis problems were solved in the volunteer computing project SAT@home. In this study, the preliminary stage of these experiments are described: how SAT-based cryptanalysis problems are chosen; how these problems are studied on a computing cluster using state-of-the-art multithreaded SAT solvers; how decompositions of the chosen SAT problems are constructed using a Monte Carlo method; how server and client software are prepared for the corresponding experiments in SAT@home. These issues are described in application to several stream ciphers, for which it is planned to launch experiments in SAT@home.
+C1  - Cham
+C3  - Supercomputing
+DA  - 2019///
+PY  - 2019
+DO  - 10.1007/978-3-030-36592-9_57
+DP  - Springer Link
+SP  - 701
+EP  - 712
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-36592-9
+ST  - SAT-Based Cryptanalysis
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-36592-9_57
+KW  - BOINC
+KW  - Cryptanalysis
+KW  - SAT
+KW  - Volunteer computing
+ER  - 
+
+TY  - CONF
+TI  - SAT-based search for systems of diagonal latin squares in volunteer computing project SAT@home
+AU  - Zaikin, Oleg
+AU  - Kochemazov, Stepan
+AU  - Semenov, Alexander
+T2  - 2016 39th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO)
+C1  - Opatija, Croatia
+C3  - 2016 39th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO)
+DA  - 2016/05//
+PY  - 2016
+DO  - 10.1109/MIPRO.2016.7522152
+DP  - DOI.org (Crossref)
+SP  - 277
+EP  - 281
+PB  - IEEE
+SN  - 978-953-233-086-1
+UR  - http://ieeexplore.ieee.org/document/7522152/
+Y2  - 2022/11/20/20:55:20
+ER  - 
+
