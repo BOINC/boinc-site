@@ -1,0 +1,740 @@
+TY  - JOUR
+TI  - CENSUS OF BLUE STARS IN SDSS DR8
+AU  - Scibelli, Samantha
+AU  - Newberg, Heidi Jo
+AU  - Carlin, Jeffrey L.
+AU  - Yanny, Brian
+T2  - The Astrophysical Journal Supplement Series
+DA  - 2014/12/02/
+PY  - 2014
+DO  - 10.1088/0067-0049/215/2/24
+DP  - DOI.org (Crossref)
+VL  - 215
+IS  - 2
+SP  - 24
+J2  - ApJS
+SN  - 1538-4365
+UR  - https://iopscience.iop.org/article/10.1088/0067-0049/215/2/24
+Y2  - 2022/11/20/16:38:55
+L1  - https://arxiv.org/pdf/1411.5744
+ER  - 
+
+TY  - JOUR
+TI  - Fitting the Density Substructure of the Stellar Halo with MilkyWay@home
+AU  - Weiss, Jake
+AU  - Newberg, Heidi Jo
+AU  - Newby, Matthew
+AU  - Desell, Travis
+T2  - The Astrophysical Journal Supplement Series
+DA  - 2018/09/27/
+PY  - 2018
+DO  - 10.3847/1538-4365/aadb92
+DP  - DOI.org (Crossref)
+VL  - 238
+IS  - 2
+SP  - 17
+J2  - ApJS
+SN  - 1538-4365
+UR  - https://iopscience.iop.org/article/10.3847/1538-4365/aadb92
+Y2  - 2022/11/20/16:38:55
+L1  - https://arxiv.org/pdf/1808.06659
+ER  - 
+
+TY  - JOUR
+TI  - Maximum Likelihood Fitting of Tidal Streams with Application to the Sagittarius Dwarf Tidal Tails
+AU  - Cole, Nathan
+AU  - Newberg, Heidi Jo
+AU  - Magdon‐Ismail, Malik
+AU  - Desell, Travis
+AU  - Dawsey, Kristopher
+AU  - Hayashi, Warren
+AU  - Liu, Xinyang Fred
+AU  - Purnell, Jonathan
+AU  - Szymanski, Boleslaw
+AU  - Varela, Carlos
+AU  - Willett, Benjamin
+AU  - Wisniewski, James
+T2  - The Astrophysical Journal
+DA  - 2008/08/20/
+PY  - 2008
+DO  - 10.1086/589681
+DP  - DOI.org (Crossref)
+VL  - 683
+IS  - 2
+SP  - 750
+EP  - 766
+J2  - Astrophysical Journal
+LA  - en
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.1086/589681
+Y2  - 2022/11/20/16:38:55
+L1  - https://arxiv.org/pdf/0805.2121
+ER  - 
+
+TY  - JOUR
+TI  - MilkyWay@home: Harnessing volunteer computers to constrain dark matter in the Milky Way
+AU  - Newberg, Heidi Jo
+AU  - Newby, Matthew
+AU  - Desell, Travis
+AU  - Magdon-Ismail, Malik
+AU  - Szymanski, Boleslaw
+AU  - Varela, Carlos
+T2  - Proceedings of the International Astronomical Union
+AB  - Abstract
+            
+              MilkyWay@home is a volunteer computing project that allows people from every country in the world to volunteer their otherwise idle processors to Milky Way research. Currently, more than 25,000 people (150,000 since November 9, 2007) contribute about half a PetaFLOPS of computing power to our project. We currently run two types of applications: one application fits the spatial density profile of tidal streams using statistical photometric parallax, and the other application finds the
+              N
+              -body simulation parameters that produce tidal streams that best match the measured density profile of known tidal streams. The stream fitting application is well developed and is producing published results. The Sagittarius dwarf leading tidal tail has been fit, and the algorithm is currently running on the trailing tidal tail and bifurcated pieces. We will soon have a self-consistent model for the density of the smooth component of the stellar halo and the largest tidal streams. The
+              N
+              -body application has been implemented for fitting dwarf galaxy progenitor properties only, and is in the testing stages. We use an Earth-Mover Distance method to measure goodness-of-fit for density of stars along the tidal stream. We will add additional spatial dimensions as well as kinematic measures in a piecemeal fashion, with the eventual goal of fitting the orbit and parameters of the Milky Way potential (and thus the density distribution of dark matter) using multiple tidal streams.
+DA  - 2013/05//
+PY  - 2013
+DO  - 10.1017/S1743921313006273
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - S298
+SP  - 98
+EP  - 104
+J2  - Proc. IAU
+LA  - en
+SN  - 1743-9213, 1743-9221
+ST  - MilkyWay@home
+UR  - https://www.cambridge.org/core/product/identifier/S1743921313006273/type/journal_article
+Y2  - 2022/11/20/16:38:55
+L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/74B469812BD27BE32BA7673B8ECCAD7E/S1743921313006273a.pdf/div-class-title-milkyway-home-harnessing-volunteer-computers-to-constrain-dark-matter-in-the-milky-way-div.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The Milky Way’s Shell Structure Reveals the Time of a Radial Collision
+AU  - Donlon, Thomas
+AU  - Newberg, Heidi Jo
+AU  - Sanderson, Robyn
+AU  - Widrow, Lawrence M.
+T2  - The Astrophysical Journal
+AB  - Abstract
+            
+              We identify shell structures in the Milky Way for the first time. We find two shells in the Virgo Overdensity region and two shells in the Hercules Aquila Cloud region using Sloan Digital Sky Survey, Gaia, and LAMOST data. These shell stars are a subset of the substructure previously identified as the Virgo Radial Merger (VRM). Timing arguments for these shells indicate that their progenitor dwarf galaxy passed through the Galactic center 2.7 ± 0.2 Gyr ago. Based on the time of collision, it is also possible that the VRM is related to the phenomenon that created phase-space spirals in the vertical motion of the disk and/or the Splash and could have caused a burst of star formation in the inner disk. We analyze phase mixing in a collection of radial merger
+              N
+              -body simulations and find that shell structure similar to that observed in Milky Way data disappears by 5 Gyr after collision with the Galactic center. The method used to calculate the merger time of the VRM was able to reliably recover the correct merger times for these simulations. Previous work supports the idea that the VRM and the Gaia Sausage/Gaia–Enceladus Merger are the same. However, the Gaia Sausage is widely believed to be 8–11 Gyr old. The disparate ages could be reconciled if the larger age is associated with an infall time when the progenitor crossed the virial radius; we do not constrain the time at which the progenitor became bound to the Milky Way. Alternatively, the Gaia Sausage could be younger than previously thought.
+DA  - 2020/10/01/
+PY  - 2020
+DO  - 10.3847/1538-4357/abb5f6
+DP  - DOI.org (Crossref)
+VL  - 902
+IS  - 2
+SP  - 119
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/abb5f6
+Y2  - 2022/11/20/16:38:55
+L1  - https://arxiv.org/pdf/2006.08764
+ER  - 
+
+TY  - JOUR
+TI  - A Tangle of Stellar Streams in the North Galactic Cap
+AU  - Weiss, Jake
+AU  - Newberg, Heidi Jo
+AU  - Desell, Travis
+T2  - The Astrophysical Journal
+DA  - 2018/10/22/
+PY  - 2018
+DO  - 10.3847/2041-8213/aae5fc
+DP  - DOI.org (Crossref)
+VL  - 867
+IS  - 1
+SP  - L1
+J2  - ApJ
+SN  - 2041-8213
+UR  - https://iopscience.iop.org/article/10.3847/2041-8213/aae5fc
+Y2  - 2022/11/20/16:38:55
+L1  - https://arxiv.org/pdf/1807.03754
+ER  - 
+
+TY  - CHAP
+TI  - Accelerating the MilkyWay@Home Volunteer Computing Project with GPUs
+AU  - Desell, Travis
+AU  - Waters, Anthony
+AU  - Magdon-Ismail, Malik
+AU  - Szymanski, Boleslaw K.
+AU  - Varela, Carlos A.
+AU  - Newby, Matthew
+AU  - Newberg, Heidi
+AU  - Przystawik, Andreas
+AU  - Anderson, David
+T2  - Parallel Processing and Applied Mathematics
+A2  - Wyrzykowski, Roman
+A2  - Dongarra, Jack
+A2  - Karczewski, Konrad
+A2  - Wasniewski, Jerzy
+A3  - Hutchison, David
+A3  - Kanade, Takeo
+A3  - Kittler, Josef
+A3  - Kleinberg, Jon M.
+A3  - Mattern, Friedemann
+A3  - Mitchell, John C.
+A3  - Naor, Moni
+A3  - Nierstrasz, Oscar
+A3  - Pandu Rangan, C.
+A3  - Steffen, Bernhard
+A3  - Sudan, Madhu
+A3  - Terzopoulos, Demetri
+A3  - Tygar, Doug
+A3  - Vardi, Moshe Y.
+A3  - Weikum, Gerhard
+CY  - Berlin, Heidelberg
+DA  - 2010///
+PY  - 2010
+DP  - DOI.org (Crossref)
+VL  - 6067
+SP  - 276
+EP  - 288
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-14389-2 978-3-642-14390-8
+UR  - http://link.springer.com/10.1007/978-3-642-14390-8_29
+Y2  - 2022/11/20/16:38:55
+ER  - 
+
+TY  - JOUR
+TI  - A SPATIAL CHARACTERIZATION OF THE SAGITTARIUS DWARF GALAXY TIDAL TAILS
+AU  - Newby, Matthew
+AU  - Cole, Nathan
+AU  - Newberg, Heidi Jo
+AU  - Desell, Travis
+AU  - Magdon-Ismail, Malik
+AU  - Szymanski, Boleslaw
+AU  - Varela, Carlos
+AU  - Willett, Benjamin
+AU  - Yanny, Brian
+T2  - The Astronomical Journal
+DA  - 2013/05/13/
+PY  - 2013
+DO  - 10.1088/0004-6256/145/6/163
+DP  - DOI.org (Crossref)
+VL  - 145
+IS  - 6
+SP  - 163
+J2  - AJ
+SN  - 0004-6256, 1538-3881
+UR  - https://iopscience.iop.org/article/10.1088/0004-6256/145/6/163
+Y2  - 2022/11/20/16:38:55
+L1  - https://arxiv.org/pdf/1304.1476
+ER  - 
+
+TY  - CHAP
+TI  - The Effects of Heterogeneity on Asynchronous Panmictic Genetic Search
+AU  - Szymanski, Boleslaw K.
+AU  - Desell, Travis
+AU  - Varela, Carlos
+T2  - Parallel Processing and Applied Mathematics
+A2  - Wyrzykowski, Roman
+A2  - Dongarra, Jack
+A2  - Karczewski, Konrad
+A2  - Wasniewski, Jerzy
+CY  - Berlin, Heidelberg
+DA  - 2008///
+PY  - 2008
+DP  - DOI.org (Crossref)
+VL  - 4967
+SP  - 457
+EP  - 468
+LA  - en
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-540-68105-2 978-3-540-68111-3
+UR  - http://link.springer.com/10.1007/978-3-540-68111-3_48
+Y2  - 2022/11/20/16:38:55
+L1  - https://wcl.cs.rpi.edu/papers/ppam07.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Exploration of Galactic Structures beyond the Sun toward the anti-center of the Milky Way
+AU  - Xu, Yan
+AU  - Newberg, Heidi
+T2  - Proceedings of the International Astronomical Union
+AB  - Abstract
+            
+              We map the stellar distribution on Hess diagram in the Anti-Center roughly in the boxes 130<
+              l
+              <230, −30<
+              b
+              <−10 and 10<
+              b
+              <30. There are ‘extra components’ associated with the anti-center structures of figure 1 of Newberg
+              et al
+              . (2002). The turnoff point of the structure in the North sky is at 16
+              
+                m
+              
+              .5 and the turnoff point in the South is at 17
+              
+                m
+              
+              .5. In our work, these structures can be found in all of the longitude in our box that can't be explained by standard thin or thick disk models. The distance of the North structure is about 2 kpc (we call it the North near structure) and the galactic height is about 0.7 kpc, the distance of the South structure is about 4 – 6 kpc (we call it the South middle structure). The Vgsr distribution of stars selected along the North near structure has a kinematic distribution similar to that of thick disk stars. But the metallicities of these stars are quite similar to the metallicity distribution of thin disk stars. We try to explain these structures with wave structure of the Galactic plane.
+DA  - 2013/05//
+PY  - 2013
+DO  - 10.1017/S1743921313007151
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - S298
+SP  - 450
+EP  - 450
+J2  - Proc. IAU
+LA  - en
+SN  - 1743-9213, 1743-9221
+UR  - https://www.cambridge.org/core/product/identifier/S1743921313007151/type/journal_article
+Y2  - 2022/11/20/16:38:55
+L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BA61A196BD2A6BCEAE0C98A4701C36AF/S1743921313007151a.pdf/div-class-title-exploration-of-galactic-structures-beyond-the-sun-toward-the-anti-center-of-the-milky-way-div.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Determining distances to stars statistically from photometry
+AU  - Newberg, Heidi Jo
+T2  - Proceedings of the International Astronomical Union
+AB  - Abstract
+            
+              In determining the distances to stars within the Milky Way galaxy, one often uses photometric or spectroscopic parallaxes. In these methods, the type of each individual star is determined, and the absolute magnitude of that star type is compared with the measured apparent magnitude to determine individual distances. In this paper, we define the term
+              statistical photometric parallax
+              , in which statistical knowledge of the absolute magnitudes of stellar populations is used to determine the underlying density distributions of those stars. This technique has been used to determine the density distribution of the Milky Way's stellar halo and its component tidal streams, using very large samples of stars from the Sloan Digital Sky Survey. Most recently, the volunteer computing platform
+              MilkyWay@home
+              has been used to find the best-fitting model parameters for the density of these halo stars.
+DA  - 2012/08//
+PY  - 2012
+DO  - 10.1017/S174392131202114X
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - S289
+SP  - 74
+EP  - 81
+J2  - Proc. IAU
+LA  - en
+SN  - 1743-9213, 1743-9221
+UR  - https://www.cambridge.org/core/product/identifier/S174392131202114X/type/journal_article
+Y2  - 2022/11/20/16:38:55
+L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/42DBDA6C64C1C3D95074148064BEFB89/S174392131202114Xa.pdf/div-class-title-determining-distances-to-stars-statistically-from-photometry-div.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Estimate of the Mass and Radial Profile of the Orphan–Chenab Stream's Dwarf-galaxy Progenitor Using MilkyWay@home
+AU  - Mendelsohn, Eric J.
+AU  - Newberg, Heidi Jo
+AU  - Shelton, Siddhartha
+AU  - Widrow, Lawrence M.
+AU  - Thompson, Jeffery M.
+AU  - Grillmair, Carl J.
+T2  - The Astrophysical Journal
+AB  - Abstract
+            
+              We fit the mass and radial profile of the Orphan–Chenab Stream’s (OCS) dwarf-galaxy progenitor by using turnoff stars in the Sloan Digital Sky Survey and the Dark Energy Camera to constrain
+              N
+              -body simulations of the OCS progenitor falling into the Milky Way on the 1.5 PetaFLOPS MilkyWay@home distributed supercomputer. We infer the internal structure of the OCS’s progenitor under the assumption that it was a spherically symmetric dwarf galaxy composed of a stellar system embedded in an extended dark matter halo. We optimize the evolution time, the baryonic and dark matter scale radii, and the baryonic and dark matter masses of the progenitor using a differential evolution algorithm. The likelihood score for each set of parameters is determined by comparing the simulated tidal stream to the angular distribution of OCS stars observed in the sky. We fit the total mass of the OCS’s progenitor to (2.0 ± 0.3) × 10
+              7
+              M
+              ⊙
+              with a mass-to-light ratio of
+              γ
+              = 73.5 ± 10.6 and (1.1 ± 0.2) × 10
+              6
+              M
+              ⊙
+              within 300 pc of its center. Within the progenitor’s half-light radius, we estimate a total mass of (4.0 ± 1.0) × 10
+              5
+              M
+              ⊙
+              . We also fit the current sky position of the progenitor’s remnant to be (
+              α
+              ,
+              δ
+              ) = ((166.0 ± 0.9)°, (−11.1 ± 2.5)°) and show that it is gravitationally unbound at the present time. The measured progenitor mass is on the low end of previous measurements and, if confirmed, lowers the mass range of ultrafaint dwarf galaxies. Our optimization assumes a fixed Milky Way potential, OCS orbit, and radial profile for the progenitor, ignoring the impact of the Large Magellanic Cloud.
+DA  - 2022/02/01/
+PY  - 2022
+DO  - 10.3847/1538-4357/ac498a
+DP  - DOI.org (Crossref)
+VL  - 926
+IS  - 2
+SP  - 106
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ac498a
+Y2  - 2022/11/20/16:38:55
+L1  - https://authors.library.caltech.edu/113488/1/Mendelsohn_2022_ApJ_926_106.pdf
+ER  - 
+
+TY  - JOUR
+TI  - A Robust Asynchronous Newton Method for Massive Scale Computing Systems
+AU  - Desell, Travis
+AU  - Magdon-Ismail, Malik
+AU  - Newberg, Heidi
+AU  - Newberg, Lee A.
+AU  - Szymanski, Boleslaw K.
+AU  - Varela, Carlos A.
+AB  - Volunteer computing grids offer super-computing levels of computing power at the relatively low cost of operating a server. In previous work, the authors have shown that it is possible to take traditionally iterative evolutionary algorithms and execute them on volunteer computing grids by performing them asynchronously. The asynchronous implementations dramatically increase scalability and decrease the time taken to converge to a solution. Iterative and asynchronous optimization algorithms implemented using MPI on clusters and supercomputers, and BOINC on volunteer computing grids have been packaged together in a framework for generic distributed optimization (FGDO). This paper presents a new extension to FGDO for an asynchronous Newton method (ANM) for local optimization. ANM is resilient to heterogeneous, faulty and unreliable computing nodes and is extremely scalable. Preliminary results show that it can converge to a local optimum significantly faster than conjugate gradient descent does.
+DA  - 2017///
+PY  - 2017
+DO  - 10.48550/ARXIV.1702.02204
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1702.02204
+Y2  - 2022/11/20/16:38:55
+KW  - Distributed, Parallel, and Cluster Computing (cs.DC)
+KW  - FOS: Computer and information sciences
+ER  - 
+
+TY  - JOUR
+TI  - An Algorithm for Reconstructing the Orphan Stream Progenitor with MilkyWay@home Volunteer Computing
+AU  - Shelton, Siddhartha
+AU  - Newberg, Heidi Jo
+AU  - Weiss, Jake
+AU  - Bauer, Jacob S.
+AU  - Arsenault, Matthew
+AU  - Widrow, Larry
+AU  - Rayment, Clayton
+AU  - Desell, Travis
+AU  - Judd, Roland
+AU  - Magdon-Ismail, Malik
+AU  - Mendelsohn, Eric
+AU  - Newby, Matthew
+AU  - Rice, Colin
+AU  - Szymanski, Boleslaw K.
+AU  - Thompson, Jeffery M.
+AU  - Varela, Carlos
+AU  - Willett, Benjamin
+AU  - Ulin, Steve
+AU  - Newberg, Lee
+AB  - We have developed a method for estimating the properties of the progenitor dwarf galaxy from the tidal stream of stars that were ripped from it as it fell into the Milky Way. In particular, we show that the mass and radial profile of a progenitor dwarf galaxy evolved along the orbit of the Orphan Stream, including the stellar and dark matter components, can be reconstructed from the distribution of stars in the tidal stream it produced. We use MilkyWay@home, a PetaFLOPS-scale distributed supercomputer, to optimize our dwarf galaxy parameters until we arrive at best-fit parameters. The algorithm fits the dark matter mass, dark matter radius, stellar mass, radial profile of stars, and orbital time. The parameters are recovered even though the dark matter component extends well past the half light radius of the dwarf galaxy progenitor, proving that we are able to extract information about the dark matter halos of dwarf galaxies from the tidal debris. Our simulations assumed that the Milky Way potential, dwarf galaxy orbit, and the form of the density model for the dwarf galaxy were known exactly; more work is required to evaluate the sources of systematic error in fitting real data. This method can be used to estimate the dark matter content in dwarf galaxies without the assumption of virial equilibrium that is required to estimate the mass using line-of-sight velocities. This demonstration is a first step towards building an infrastructure that will fit the Milky Way potential using multiple tidal streams.
+DA  - 2021///
+PY  - 2021
+DO  - 10.48550/ARXIV.2102.07257
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/2102.07257
+Y2  - 2022/11/20/16:38:55
+KW  - Astrophysics of Galaxies (astro-ph.GA)
+KW  - FOS: Physical sciences
+ER  - 
+
+TY  - CONF
+TI  - Evolving N-Body Simulations to Determine the Origin and Structure of the Milky Way Galaxy's Halo Using Volunteer Computing
+AU  - Desell, Travis
+AU  - Magdon-Ismail, Malik
+AU  - Szymanski, Boleslaw
+AU  - Varela, Carlos A.
+AU  - Willett, Benjamin A.
+AU  - Arsenault, Matthew
+AU  - Newberg, Heidi
+T2  - Distributed Processing, Workshops and Phd Forum (IPDPSW)
+C1  - Anchorage, AK, USA
+C3  - 2011 IEEE International Symposium on Parallel and Distributed Processing Workshops and Phd Forum
+DA  - 2011/05//
+PY  - 2011
+DO  - 10.1109/IPDPS.2011.346
+DP  - DOI.org (Crossref)
+SP  - 1888
+EP  - 1895
+PB  - IEEE
+SN  - 978-1-61284-425-1
+UR  - http://ieeexplore.ieee.org/document/6009061/
+Y2  - 2022/11/20/16:38:55
+L1  - https://wcl.cs.rpi.edu/papers/desell2011.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Evolutionary Algorithms on Volunteer Computing Platforms: The MilkyWay@Home Project
+AU  - Cole, Nate
+AU  - Desell, Travis
+AU  - Lombraña González, Daniel
+AU  - Fernández de Vega, Francisco
+AU  - Magdon-Ismail, Malik
+AU  - Newberg, Heidi
+AU  - Szymanski, Boleslaw
+AU  - Varela, Carlos
+T2  - Parallel and Distributed Computational Intelligence
+A2  - de Vega, Francisco Fernández
+A2  - Cantú-Paz, Erick
+A3  - Kacprzyk, Janusz
+CY  - Berlin, Heidelberg
+DA  - 2010///
+PY  - 2010
+DP  - DOI.org (Crossref)
+VL  - 269
+SP  - 63
+EP  - 90
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-10674-3 978-3-642-10675-0
+ST  - Evolutionary Algorithms on Volunteer Computing Platforms
+UR  - http://link.springer.com/10.1007/978-3-642-10675-0_4
+Y2  - 2022/11/20/16:38:56
+ER  - 
+
+TY  - CHAP
+TI  - Validating Evolutionary Algorithms on Volunteer Computing Grids
+AU  - Desell, Travis
+AU  - Magdon-Ismail, Malik
+AU  - Szymanski, Boleslaw
+AU  - Varela, Carlos A.
+AU  - Newberg, Heidi
+AU  - Anderson, David P.
+T2  - Distributed Applications and Interoperable Systems
+A2  - Eliassen, Frank
+A2  - Kapitza, Rüdiger
+CY  - Berlin, Heidelberg
+DA  - 2010///
+PY  - 2010
+DP  - DOI.org (Crossref)
+VL  - 6115
+SP  - 29
+EP  - 41
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-13644-3 978-3-642-13645-0
+UR  - http://link.springer.com/10.1007/978-3-642-13645-0_3
+Y2  - 2022/11/20/16:38:56
+L1  - https://link.springer.com/content/pdf/10.1007%2F978-3-642-13645-0_3.pdf
+L1  - https://www.cs.rpi.edu/%7Emagdon/talks/ValidatingEA_DAIS2010.pdf
+ER  - 
+
+TY  - CONF
+TI  - Distributed and Generic Maximum Likelihood Evaluation
+AU  - Desell, Travis
+AU  - Cole, Nathan
+AU  - Magdon-Ismail, Malik
+AU  - Newberg, Heidi
+AU  - Szymanski, Boleslaw
+AU  - Varela, Carlos
+T2  - Third IEEE International Conference on e-Science and Grid Computing (e-Science 2007)
+C1  - Bangalore, India
+C3  - Third IEEE International Conference on e-Science and Grid Computing (e-Science 2007)
+DA  - 2007///
+PY  - 2007
+DO  - 10.1109/E-SCIENCE.2007.30
+DP  - DOI.org (Crossref)
+SP  - 337
+EP  - 344
+PB  - IEEE
+SN  - 978-0-7695-3064-2
+UR  - http://ieeexplore.ieee.org/document/4426905/
+Y2  - 2022/11/20/16:38:56
+L1  - https://www.cs.rpi.edu/~szymansk/papers/escience2007.pdf
+ER  - 
+
+TY  - CONF
+TI  - An asynchronous hybrid genetic-simplex search for modeling the Milky Way galaxy using volunteer computing
+AU  - Desell, Travis
+AU  - Szymanski, Boleslaw
+AU  - Varela, Carlos
+T2  - the 10th annual conference
+C1  - Atlanta, GA, USA
+C3  - Proceedings of the 10th annual conference on Genetic and evolutionary computation - GECCO '08
+DA  - 2008///
+PY  - 2008
+DO  - 10.1145/1389095.1389273
+DP  - DOI.org (Crossref)
+SP  - 921
+LA  - en
+PB  - ACM Press
+SN  - 978-1-60558-130-9
+UR  - http://portal.acm.org/citation.cfm?doid=1389095.1389273
+Y2  - 2022/11/20/16:38:56
+ER  - 
+
+TY  - JOUR
+TI  - TESTING THE DARK MATTER CAUSTIC THEORY AGAINST OBSERVATIONS IN THE MILKY WAY
+AU  - Dumas, Julie
+AU  - Newberg, Heidi J.
+AU  - Niedzielski, Bethany
+AU  - Susser, Adam
+AU  - Thompson, Jeffery M.
+AU  - Weiss, Jake
+AU  - Lewis, Kim M.
+T2  - The Astrophysical Journal
+DA  - 2015/09/16/
+PY  - 2015
+DO  - 10.1088/0004-637X/811/1/36
+DP  - DOI.org (Crossref)
+VL  - 811
+IS  - 1
+SP  - 36
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/811/1/36
+Y2  - 2022/11/20/16:38:56
+L1  - https://arxiv.org/pdf/1508.04494
+ER  - 
+
+TY  - JOUR
+TI  - RINGS AND RADIAL WAVES IN THE DISK OF THE MILKY WAY
+AU  - Xu, Yan
+AU  - Newberg, Heidi Jo
+AU  - Carlin, Jeffrey L.
+AU  - Liu, Chao
+AU  - Deng, Licai
+AU  - Li, Jing
+AU  - Schönrich, Ralph
+AU  - Yanny, Brian
+T2  - The Astrophysical Journal
+DA  - 2015/03/11/
+PY  - 2015
+DO  - 10.1088/0004-637X/801/2/105
+DP  - DOI.org (Crossref)
+VL  - 801
+IS  - 2
+SP  - 105
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/801/2/105
+Y2  - 2022/11/20/16:38:56
+L1  - https://arxiv.org/pdf/1503.00257
+ER  - 
+
+TY  - CONF
+TI  - An analysis of massively distributed evolutionary algorithms
+AU  - Desell, Travis
+AU  - Anderson, David P.
+AU  - Magdon-Ismail, Malik
+AU  - New, Heidi
+AU  - Szymanski, Boleslaw K.
+AU  - Varela, Carlos A.
+T2  - 2010 IEEE Congress on Evolutionary Computation (CEC)
+C1  - Barcelona, Spain
+C3  - IEEE Congress on Evolutionary Computation
+DA  - 2010/07//
+PY  - 2010
+DO  - 10.1109/CEC.2010.5586073
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 8
+PB  - IEEE
+SN  - 978-1-4244-6909-3
+UR  - http://ieeexplore.ieee.org/document/5586073/
+Y2  - 2022/11/20/16:38:56
+ER  - 
+
+TY  - CONF
+TI  - Robust Asynchronous Optimization for Volunteer Computing Grids
+AU  - Desell, Travis
+AU  - Magdon-Ismail, Malik
+AU  - Szymanski, Boleslaw
+AU  - Varela, Carlos
+AU  - Newberg, Heidi
+AU  - Cole, Nathan
+T2  - 2009 5th IEEE International Conference on e-Science (e-Science)
+C1  - Oxford, United Kingdom
+C3  - 2009 Fifth IEEE International Conference on e-Science
+DA  - 2009/12//
+PY  - 2009
+DO  - 10.1109/e-Science.2009.44
+DP  - DOI.org (Crossref)
+SP  - 263
+EP  - 270
+PB  - IEEE
+SN  - 978-1-4244-5340-5 978-0-7695-3877-8
+UR  - http://ieeexplore.ieee.org/document/5380857/
+Y2  - 2022/11/20/16:38:56
+L1  - https://www.cs.rpi.edu/~magdon/ps/conference/AsyncOpteScience2009.pdf
+ER  - 
+
+TY  - CONF
+TI  - Asynchronous genetic search for scientific modeling on large-scale heterogeneous environments
+AU  - Desell, Travis
+AU  - Szymanski, Boleslaw
+AU  - Varela, Carlos
+T2  - Distributed Processing Symposium (IPDPS)
+C1  - Miami, FL, USA
+C3  - 2008 IEEE International Symposium on Parallel and Distributed Processing
+DA  - 2008/04//
+PY  - 2008
+DO  - 10.1109/IPDPS.2008.4536169
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 12
+PB  - IEEE
+SN  - 978-1-4244-1693-6
+UR  - http://ieeexplore.ieee.org/document/4536169/
+Y2  - 2022/11/20/16:38:56
+ER  - 
+
+TY  - JOUR
+TI  - Streams and the Milky Way dark matter halo
+AU  - Newberg, Heidi Jo
+AU  - Shelton, Siddhartha
+AU  - Mendelsohn, Eric
+AU  - Weiss, Jake
+AU  - Arsenault, Matthew
+AU  - Bauer, Jacob S.
+AU  - Desell, Travis
+AU  - Judd, Roland
+AU  - Magdon-Ismail, Malik
+AU  - Newberg, Lee A.
+AU  - Newby, Matthew
+AU  - Rayment, Clayton
+AU  - Rice, Colin
+AU  - Szymanski, Boleslaw K.
+AU  - Thompson, Jeffery M.
+AU  - Ulin, Steve
+AU  - Varela, Carlos
+AU  - Widrow, Lawrence M.
+AU  - Willett, Benjamin A.
+T2  - Proceedings of the International Astronomical Union
+AB  - Abstract
+            We describe an algorithm that can fit the properties of the dwarf galaxy progenitor of a tidal stream, given the properties of that stream. We show that under ideal conditions (the Milky Way potential, the orbit of the dwarf galaxy progenitor, and the functional form of the dwarf galaxy progenitor are known exactly), the density and angular width of stars along the stream can be used to constrain the mass and radial profile of both the stellar and dark matter components of the progenitor dwarf galaxy that was ripped apart to create the stream. Our provisional fit for the parameters of the dwarf galaxy progenitor of the Orphan Stream indicates that it is less massive and has fewer stars than previous works have indicated.
+DA  - 2019/06//
+PY  - 2019
+DO  - 10.1017/S174392131900855X
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - S353
+SP  - 75
+EP  - 82
+J2  - Proc. IAU
+LA  - en
+SN  - 1743-9213, 1743-9221
+UR  - https://www.cambridge.org/core/product/identifier/S174392131900855X/type/journal_article
+Y2  - 2022/11/20/16:40:04
+ER  - 
+
+TY  - JOUR
+TI  - A Trifurcated Sagittarius Stream in the South
+AU  - Donlon, T.
+AU  - Newberg, H.
+AU  - Weiss, J.
+AU  - Guffey, A.
+AU  - Thompson, J.
+AB  - We identify substructure in SDSS stripes 80-86 in the southern Galactic cap using statistical photometric parallax of blue main sequence turnoff stars. By optimizing a halo model over the data using MilkyWay@home, we recover structures consistent with the Sagittarius Stream trailing tail, the Bifurcated Stream, and the Cetus Polar Stream. Analysis of the fit shape of the Sagittarius Stream suggests the existence of a previously undiscovered branch of the Stream, which lies coincident on the sky but at different distances than the main branch of the Sagittarius trailing tail. We explore potential mechanisms of generating this new trifurcated branch. We measure the flattening parameter q of the smooth stellar halo to be 0.40±0.10, which is smaller (more oblate) than the measurements in the Galactic north.
+DA  - 2021/06/01/
+PY  - 2021
+DP  - NASA ADS
+VL  - 53
+SP  - 403.03
+UR  - https://ui.adsabs.harvard.edu/abs/2021DDA....5240303D
+Y2  - 2022/11/20/16:42:39
+ER  - 
+
+TY  - JOUR
+TI  - Estimate of the Mass and Radial Profile of the Orphan Stream's Dwarf Galaxy Progenitor Using MilkyWay@home
+AU  - Mendelsohn, E. J.
+AU  - Newberg, H. J.
+AU  - Shelton, S.
+AU  - Widrow, L.
+AU  - Thompson, J.
+AU  - Grillmair, C.
+AB  - We fit the mass and radial profile of the Orphan Stream's dwarf galaxy progenitor using turnoff stars the Sloan Digital Sky Survey (SDSS) and the Dark Energy Camera (DEC), using N-body simulations of the Orphan Stream progenitor falling into the Milky Way on the 1.5 PetaFLOPS MilkyWay@home distributed supercomputer. We optimize the evolution time, the baryonic scale radius, the dark matter radius, the baryonic mass, and the dark matter mass of the progenitor dwarf galaxy using a differential evolution algorithm. The likelihood score for each set of parameters is determined by comparing the resulting tidal stream to the stellar data we observe in the sky. Our optimizations fix the Milky Way potential, the Orphan Stream's orbit, and the form of the radial profile of the progenitor dwarf galaxy. Under these assumptions, we measure the Orphan Stream progenitor's baryonic Plummer scale radius to be 0.161 ± 0.001 kpc and its dark matter Plummer scale radius to be 0.578 ± 0.004 kpc. We also find the best fit total mass of the Orphan Stream's original progenitor to be (6.0 ± 0.1) × 106 M⊙ with a mass-to-light ratio of γ = 19.4 ± 0.4 and (7.7 ± 0.1) × 105 M⊙ within 300 pc of its center. Within the original progenitor's half-light radius, we calculate a total mass of (2.20 ± 0.04) × 105 M⊙. This is on the low end of previous measurements, and if confirmed lowers the mass range of ultrafaint dwarf galaxies. We also deduce the progenitor started undergoing tidal disruption ~3.6 Gyr ago. The systematic errors introduced by our assumptions will be explored in a future paper.
+DA  - 2021/06/01/
+PY  - 2021
+DP  - NASA ADS
+VL  - 53
+SP  - 403.01
+UR  - https://ui.adsabs.harvard.edu/abs/2021DDA....5240301M
+Y2  - 2022/11/20/16:43:27
+ER  - 
+
+TY  - JOUR
+TI  - N-Body Simulations with MilkyWay@home
+AU  - Mendelsohn, E. J.
+AU  - Newberg, H. J.
+AU  - Donlon, T.
+AU  - Thompson, J. M.
+AB  - MilkyWay@home is a distributed supercomputer that uses more than 32,000 volunteered computers (over 1.7 PetaFLOPS) to optimize parameter fits to data. This platform has been used to find and fit tidal streams in the Milky Way halo and to reconstruct the progenitor of the Orphan Stream. The code development for this system includes an N-body integrator that uses a Barnes-Hut tree algorithm and can be used outside of the distributed computing environment on one or multiple CPUs. This integrator allows the user to integrate a set of bodies through a variety of multi-component Milky Way potentials, or no external potential. We are developing capabilities to include a bar potential and the gravity of the Large Magellanic Cloud (LMC). The application will create the initial configuration of bodies for multi-component (spherically symmetric) dwarf galaxies, including combinations of both NFW and Plummer sphere density profiles. Alternatively, the initial configuration of bodies can be imported by hand. We include options for capturing timesteps, visualizing simulations, and can calculate a likelihood score indicating how closely a simulated tidal stream matches the observed positions of stream stars in the sky. We have developed the 'mwahpy' python package that allows easy access and analysis of N-body simulation results. All of the code is publicly available on GitHub. We are making this N-body code more accessible for general scientific use, and are seeking input from potential users.
+DA  - 2020/08/01/
+PY  - 2020
+DP  - NASA ADS
+VL  - 52
+SP  - 200.01
+UR  - https://ui.adsabs.harvard.edu/abs/2020DDA....5120001M
+Y2  - 2022/11/20/16:44:18
+ER  - 
+
