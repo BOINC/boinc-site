@@ -1,0 +1,57 @@
+TY  - CONF
+TI  - PrimeGrid: a Volunteer Computing Platform for Number Theory
+AU  - Bethune, Iain
+T2  - Annual International Conference on Computational Mathematics, Computational Geometry & Statistics
+C3  - 4th Annual International Conference on Computational Mathematics, Computational Geometry & Statistics (CMCGS 2015)
+DA  - 2015/01/26/
+PY  - 2015
+DO  - 10.5176/2251-1911_CMCGS15.43
+DP  - DOI.org (Crossref)
+PB  - Global Science and Technology Forum (GSTF)
+ST  - PrimeGrid
+UR  - https://www.dropbox.com/s/6lmn8c7ujnj1cng/CMCGS_2015_Proceedings_Paper_20.pdf?dl=0
+Y2  - 2022/11/20/20:16:37
+ER  - 
+
+TY  - CHAP
+TI  - Extending the Generalized Fermat Prime Number Search Beyond One Million Digits Using GPUs
+AU  - Bethune, Iain
+AU  - Goetz, Michael
+T2  - Parallel Processing and Applied Mathematics
+A2  - Wyrzykowski, Roman
+A2  - Dongarra, Jack
+A2  - Karczewski, Konrad
+A2  - Waśniewski, Jerzy
+CY  - Berlin, Heidelberg
+DA  - 2014///
+PY  - 2014
+DP  - DOI.org (Crossref)
+VL  - 8384
+SP  - 106
+EP  - 113
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-55223-6 978-3-642-55224-3
+UR  - http://link.springer.com/10.1007/978-3-642-55224-3_11
+Y2  - 2022/11/20/20:16:37
+ER  - 
+
+TY  - JOUR
+TI  - Genefer: Programs for Finding Large Probable Generalized Fermat Primes
+AU  - Bethune, Iain Arthur
+AU  - Gallot, Yves
+T2  - Journal of Open Research Software
+DA  - 2015/11/19/
+PY  - 2015
+DO  - 10.5334/jors.ca
+DP  - DOI.org (Crossref)
+VL  - 3
+IS  - 1
+SP  - 10
+J2  - JORS
+SN  - 2049-9647
+ST  - Genefer
+UR  - https://openresearchsoftware.metajnl.com/article/10.5334/jors.ca/
+Y2  - 2022/11/20/20:16:37
+L1  - https://openresearchsoftware.metajnl.com/articles/10.5334/jors.ca/galley/110/download/
+ER  - 
+
