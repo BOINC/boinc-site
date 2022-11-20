@@ -1,0 +1,670 @@
+TY  - JOUR
+TI  - Effects of changing mosquito host searching behaviour on the cost effectiveness of a mass distribution of long-lasting, insecticidal nets: a modelling study
+AU  - Briët, Olivier JT
+AU  - Chitnis, Nakul
+T2  - Malaria Journal
+DA  - 2013/12//
+PY  - 2013
+DO  - 10.1186/1475-2875-12-215
+DP  - DOI.org (Crossref)
+VL  - 12
+IS  - 1
+SP  - 215
+J2  - Malar J
+LA  - en
+SN  - 1475-2875
+ST  - Effects of changing mosquito host searching behaviour on the cost effectiveness of a mass distribution of long-lasting, insecticidal nets
+UR  - https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-12-215
+Y2  - 2022/11/20/15:44:49
+L1  - https://malariajournal.biomedcentral.com/counter/pdf/10.1186/1475-2875-12-215
+ER  - 
+
+TY  - JOUR
+TI  - Ensemble Modeling of the Likely Public Health Impact of a Pre-Erythrocytic Malaria Vaccine
+AU  - Smith, Thomas
+AU  - Ross, Amanda
+AU  - Maire, Nicolas
+AU  - Chitnis, Nakul
+AU  - Studer, Alain
+AU  - Hardy, Diggory
+AU  - Brooks, Alan
+AU  - Penny, Melissa
+AU  - Tanner, Marcel
+T2  - PLoS Medicine
+A2  - Krishna, Sanjeev
+DA  - 2012/01/17/
+PY  - 2012
+DO  - 10.1371/journal.pmed.1001157
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 1
+SP  - e1001157
+J2  - PLoS Med
+LA  - en
+SN  - 1549-1676
+UR  - https://dx.plos.org/10.1371/journal.pmed.1001157
+Y2  - 2022/11/20/15:44:49
+L1  - https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1001157&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - Simulation of the cost-effectiveness of malaria vaccines
+AU  - Tediosi, Fabrizio
+AU  - Maire, Nicolas
+AU  - Penny, Melissa
+AU  - Studer, Alain
+AU  - Smith, Thomas A
+T2  - Malaria Journal
+AB  - Abstract
+            
+              Background
+              A wide range of possible malaria vaccines is being considered and there is a need to identify which vaccines should be prioritized for clinical development. An important element of the information needed for this prioritization is a prediction of the cost-effectiveness of potential vaccines in the transmission settings in which they are likely to be deployed. This analysis needs to consider a range of delivery modalities to ensure that clinical development plans can be aligned with the most appropriate deployment strategies.
+            
+            
+              Methods
+              
+                The simulations are based on a previously published individual-based stochastic model for the natural history and epidemiology of
+                Plasmodium falciparum
+                malaria. Three different vaccine types: pre-erythrocytic vaccines (PEV), blood stage vaccines (BSV), mosquito-stage transmission-blocking vaccines (MSTBV), and combinations of these, are considered each delivered via a range of delivery modalities (Expanded Programme of Immunization – EPI-, EPI with booster, and mass vaccination combined with EPI). The cost-effectiveness ratios presented are calculated for four health outcomes, for assumed vaccine prices of US$ 2 or US$ 10 per dose, projected over a 10-year period.
+              
+            
+            
+              Results
+              The simulations suggest that PEV will be more cost-effective in low transmission settings, while BSV at higher transmission settings. Combinations of BSV and PEV are more efficient than PEV, especially in moderate to high transmission settings, while compared to BSV they are more cost-effective in moderate to low transmission settings. Combinations of MSTBV and PEV or PEV and BSV improve the effectiveness and the cost-effectiveness compared to PEV and BSV alone only when applied with EPI and mass vaccinations. Adding booster doses to the EPI is unlikely to be a cost-effective alternative to delivering vaccines via the EPI for any vaccine, while mass vaccination improves effectiveness, especially in low transmission settings, and is often a more efficient alternative to the EPI. However, the costs of increasing the coverage of mass vaccination over 50% often exceed the benefits.
+            
+            
+              Conclusion
+              The simulations indicate malaria vaccines might be efficient malaria control interventions, and that both transmission setting and vaccine delivery modality are important to their cost-effectiveness. Alternative vaccine delivery modalities to the EPI may be more efficient than the EPI. Mass vaccination is predicted to provide substantial health benefits at low additional costs, although achieving high coverage rates can lead to substantial incremental costs.
+DA  - 2009/12//
+PY  - 2009
+DO  - 10.1186/1475-2875-8-127
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 1
+SP  - 127
+J2  - Malar J
+LA  - en
+SN  - 1475-2875
+UR  - https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-8-127
+Y2  - 2022/11/20/15:44:50
+L1  - https://malariajournal.biomedcentral.com/counter/pdf/10.1186/1475-2875-8-127
+ER  - 
+
+TY  - JOUR
+TI  - Distribution of malaria exposure in endemic countries in Africa considering country levels of effective treatment
+AU  - Penny, Melissa A.
+AU  - Maire, Nicolas
+AU  - Bever, Caitlin A.
+AU  - Pemberton-Ross, Peter
+AU  - Briët, Olivier J. T.
+AU  - Smith, David L.
+AU  - Gething, Peter W.
+AU  - Smith, Thomas A.
+T2  - Malaria Journal
+DA  - 2015/12//
+PY  - 2015
+DO  - 10.1186/s12936-015-0864-3
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 1
+SP  - 384
+J2  - Malar J
+LA  - en
+SN  - 1475-2875
+UR  - https://malariajournal.biomedcentral.com/articles/10.1186/s12936-015-0864-3
+Y2  - 2022/11/20/15:44:50
+L1  - https://malariajournal.biomedcentral.com/counter/pdf/10.1186/s12936-015-0864-3
+ER  - 
+
+TY  - JOUR
+TI  - Intermittent preventive treatment for malaria in infants: a decision-support tool for sub-Saharan Africa
+AU  - Carneiro, Ilona
+AU  - Smith, Lucy
+AU  - Ross, Amanda
+AU  - Roca-Feltrer, Arantxa
+AU  - Greenwood, Brian
+AU  - Schellenberg, Joanna Armstrong
+AU  - Smith, Thomas
+AU  - Schellenberg, David
+T2  - Bulletin of the World Health Organization
+DA  - 2010/11/01/
+PY  - 2010
+DO  - 10.2471/BLT.09.072397
+DP  - DOI.org (Crossref)
+VL  - 88
+IS  - 11
+SP  - 807
+EP  - 814
+J2  - Bull. World Health Organ.
+LA  - en
+SN  - 0042-9686
+ST  - Intermittent preventive treatment for malaria in infants
+UR  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2971505/pdf/BLT.09.072397.pdf/
+Y2  - 2022/11/20/15:44:49
+L1  - https://doi.org/10.2471/blt.09.072397
+ER  - 
+
+TY  - JOUR
+TI  - Effects of pyrethroid resistance on the cost effectiveness of a mass distribution of long-lasting insecticidal nets: a modelling study
+AU  - Briët, Olivier JT
+AU  - Penny, Melissa A
+AU  - Hardy, Diggory
+AU  - Awolola, Taiwo S
+AU  - Van Bortel, Wim
+AU  - Corbel, Vincent
+AU  - Dabiré, Roch K
+AU  - Etang, Josiane
+AU  - Koudou, Benjamin G
+AU  - Tungu, Patrick K
+AU  - Chitnis, Nakul
+T2  - Malaria Journal
+DA  - 2013/12//
+PY  - 2013
+DO  - 10.1186/1475-2875-12-77
+DP  - DOI.org (Crossref)
+VL  - 12
+IS  - 1
+SP  - 77
+J2  - Malar J
+LA  - en
+SN  - 1475-2875
+ST  - Effects of pyrethroid resistance on the cost effectiveness of a mass distribution of long-lasting insecticidal nets
+UR  - https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-12-77
+Y2  - 2022/11/20/15:44:49
+L1  - https://malariajournal.biomedcentral.com/counter/pdf/10.1186/1475-2875-12-77
+ER  - 
+
+TY  - JOUR
+TI  - Modeling the public health impact of malaria vaccines for developers and policymakers
+AU  - Nunes, Julia K
+AU  - Cárdenas, Vicky
+AU  - Loucq, Christian
+AU  - Maire, Nicolas
+AU  - Smith, Thomas
+AU  - Shaffer, Craig
+AU  - Måseide, Kårstein
+AU  - Brooks, Alan
+T2  - BMC Infectious Diseases
+DA  - 2013/12//
+PY  - 2013
+DO  - 10.1186/1471-2334-13-295
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 1
+SP  - 295
+J2  - BMC Infect Dis
+LA  - en
+SN  - 1471-2334
+UR  - https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-13-295
+Y2  - 2022/11/20/15:44:49
+L1  - https://bmcinfectdis.biomedcentral.com/counter/pdf/10.1186/1471-2334-13-295
+ER  - 
+
+TY  - JOUR
+TI  - Interpreting malaria age-prevalence and incidence curves: a simulation study of the effects of different types of heterogeneity
+AU  - Ross, Amanda
+AU  - Smith, Thomas
+T2  - Malaria Journal
+DA  - 2010/12//
+PY  - 2010
+DO  - 10.1186/1475-2875-9-132
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 1
+SP  - 132
+J2  - Malar J
+LA  - en
+SN  - 1475-2875
+ST  - Interpreting malaria age-prevalence and incidence curves
+UR  - https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-9-132
+Y2  - 2022/11/20/15:44:50
+L1  - https://malariajournal.biomedcentral.com/counter/pdf/10.1186/1475-2875-9-132
+ER  - 
+
+TY  - JOUR
+TI  - Determinants of the Cost-Effectiveness of Intermittent Preventive Treatment for Malaria in Infants and Children
+AU  - Ross, Amanda
+AU  - Maire, Nicolas
+AU  - Sicuri, Elisa
+AU  - Smith, Thomas
+AU  - Conteh, Lesong
+T2  - PLoS ONE
+A2  - Braga, Erika Martins
+DA  - 2011/04/07/
+PY  - 2011
+DO  - 10.1371/journal.pone.0018391
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 4
+SP  - e18391
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+UR  - https://dx.plos.org/10.1371/journal.pone.0018391
+Y2  - 2022/11/20/15:44:49
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0018391&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - Defining the relationship between infection prevalence and clinical incidence of Plasmodium falciparum malaria
+AU  - Cameron, Ewan
+AU  - Battle, Katherine E.
+AU  - Bhatt, Samir
+AU  - Weiss, Daniel J.
+AU  - Bisanzio, Donal
+AU  - Mappin, Bonnie
+AU  - Dalrymple, Ursula
+AU  - Hay, Simon I.
+AU  - Smith, David L.
+AU  - Griffin, Jamie T.
+AU  - Wenger, Edward A.
+AU  - Eckhoff, Philip A.
+AU  - Smith, Thomas A.
+AU  - Penny, Melissa A.
+AU  - Gething, Peter W.
+T2  - Nature Communications
+DA  - 2015/11//
+PY  - 2015
+DO  - 10.1038/ncomms9170
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 1
+SP  - 8170
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - http://www.nature.com/articles/ncomms9170
+Y2  - 2022/11/20/15:44:49
+L1  - https://www.nature.com/articles/ncomms9170.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Modelling the Epidemiological Impact of Intermittent Preventive Treatment against Malaria in Infants
+AU  - Ross, Amanda
+AU  - Penny, Melissa
+AU  - Maire, Nicolas
+AU  - Studer, Alain
+AU  - Carneiro, Ilona
+AU  - Schellenberg, David
+AU  - Greenwood, Brian
+AU  - Tanner, Marcel
+AU  - Smith, Thomas
+T2  - PLoS ONE
+A2  - Hay, Simon I.
+DA  - 2008/07/16/
+PY  - 2008
+DO  - 10.1371/journal.pone.0002661
+DP  - DOI.org (Crossref)
+VL  - 3
+IS  - 7
+SP  - e2661
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+UR  - https://dx.plos.org/10.1371/journal.pone.0002661
+Y2  - 2022/11/20/15:44:49
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0002661&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - Repeated mass distributions and continuous distribution of long-lasting insecticidal nets: modelling sustainability of health benefits from mosquito nets, depending on case management
+AU  - Briët, Olivier JT
+AU  - Penny, Melissa A
+T2  - Malaria Journal
+DA  - 2013/12//
+PY  - 2013
+DO  - 10.1186/1475-2875-12-401
+DP  - DOI.org (Crossref)
+VL  - 12
+IS  - 1
+SP  - 401
+J2  - Malar J
+LA  - en
+SN  - 1475-2875
+ST  - Repeated mass distributions and continuous distribution of long-lasting insecticidal nets
+UR  - https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-12-401
+Y2  - 2022/11/20/15:44:49
+L1  - https://malariajournal.biomedcentral.com/counter/pdf/10.1186/1475-2875-12-401
+ER  - 
+
+TY  - JOUR
+TI  - Simulation of malaria epidemiology and control in the highlands of western Kenya
+AU  - Stuckey, Erin M
+AU  - Stevenson, Jennifer C
+AU  - Cooke, Mary K
+AU  - Owaga, Chrispin
+AU  - Marube, Elizabeth
+AU  - Oando, George
+AU  - Hardy, Diggory
+AU  - Drakeley, Chris
+AU  - Smith, Thomas A
+AU  - Cox, Jonathan
+AU  - Chitnis, Nakul
+T2  - Malaria Journal
+DA  - 2012/12//
+PY  - 2012
+DO  - 10.1186/1475-2875-11-357
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 1
+SP  - 357
+J2  - Malar J
+LA  - en
+SN  - 1475-2875
+UR  - https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-11-357
+Y2  - 2022/11/20/15:44:49
+L1  - https://malariajournal.biomedcentral.com/counter/pdf/10.1186/1475-2875-11-357
+ER  - 
+
+TY  - JOUR
+TI  - Importance of factors determining the effective lifetime of a mass, long-lasting, insecticidal net distribution: a sensitivity analysis
+AU  - Briët, Olivier JT
+AU  - Hardy, Diggory
+AU  - Smith, Thomas A
+T2  - Malaria Journal
+DA  - 2012/12//
+PY  - 2012
+DO  - 10.1186/1475-2875-11-20
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 1
+SP  - 20
+J2  - Malar J
+LA  - en
+SN  - 1475-2875
+ST  - Importance of factors determining the effective lifetime of a mass, long-lasting, insecticidal net distribution
+UR  - https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-11-20
+Y2  - 2022/11/20/15:44:49
+L1  - https://malariajournal.biomedcentral.com/counter/pdf/10.1186/1475-2875-11-20
+ER  - 
+
+TY  - JOUR
+TI  - Simulated Impact of RTS,S/AS01 Vaccination Programs in the Context of Changing Malaria Transmission
+AU  - Brooks, Alan
+AU  - Briët, Olivier J. T.
+AU  - Hardy, Diggory
+AU  - Steketee, Richard
+AU  - Smith, Thomas A.
+T2  - PLoS ONE
+A2  - von Seidlein, Lorenz
+DA  - 2012/03/06/
+PY  - 2012
+DO  - 10.1371/journal.pone.0032587
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 3
+SP  - e32587
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+UR  - https://dx.plos.org/10.1371/journal.pone.0032587
+Y2  - 2022/11/20/15:44:50
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0032587&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - What Should Vaccine Developers Ask? Simulation of the Effectiveness of Malaria Vaccines
+AU  - Penny, Melissa A.
+AU  - Maire, Nicolas
+AU  - Studer, Alain
+AU  - Schapira, Allan
+AU  - Smith, Thomas A.
+T2  - PLoS ONE
+A2  - Rodrigues, Mauricio Martins
+DA  - 2008/09/11/
+PY  - 2008
+DO  - 10.1371/journal.pone.0003193
+DP  - DOI.org (Crossref)
+VL  - 3
+IS  - 9
+SP  - e3193
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+ST  - What Should Vaccine Developers Ask?
+UR  - https://dx.plos.org/10.1371/journal.pone.0003193
+Y2  - 2022/11/20/15:44:50
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0003193&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - Motivations of cybervolunteers in an applied distributed computing environment: MalariaControl.net as an example
+AU  - Krebs, Viola
+T2  - First Monday
+AB  - Research laboratories and scientific modeling projects often lack computing power to run complex simulation models solely with in-house computing resources. One form of volunteer computing  uses an interface called the BOINC software platform that allows hundreds of thousands of volunteers worldwide to participate in projects such as SETI@home and MalariaControl.net, searching for extraterrestrial intelligence or contributing to research linked to malaria control. These volunteers are effectively acting as cybervolunteers, meaning volunteers who use in part or entirely a computer or the Internet for their volunteer activity. 
+We conducted a study on the motivations of MalariaControl.net and BOINC cybervolunteers. Are volunteers only donating CPU  power or are they making other contributions? Why do they participate in projects such as MalariaControl.net? The aim of this paper is to present results obtained, formulate useful conclusions from them and identify patters in the motivations of volunteers that may be useful to other distributed computing projects, in particular, and the understanding of cybervolunteerism, in general. 
+Volunteers living in 67 countries participated in our enquiry. We found that a majority of them indicated either solidarity and/or a cause as their main deciding factor for getting involved. This trend was stronger for MalariaControl.net than for general BOINC volunteers. Volunteers remained involved if they felt useful. The study clearly suggests that the recognition of cybervolunteers is important: volunteers invest their time in a project without financial compensation, but not for free. The paper also summarizes technical and communication suggestions made by volunteers with regards to MalariaControl.net and BOINC.
+DA  - 2010/01/31/
+PY  - 2010
+DO  - 10.5210/fm.v15i2.2783
+DP  - DOI.org (Crossref)
+J2  - FM
+SN  - 1396-0466
+ST  - Motivations of cybervolunteers in an applied distributed computing environment
+UR  - https://journals.uic.edu/ojs/index.php/fm/article/view/2783
+Y2  - 2022/11/20/15:46:07
+ER  - 
+
+TY  - JOUR
+TI  - Mapping malaria risk in West Africa using a Bayesian nonparametric non-stationary model
+AU  - Gosoniu, L.
+AU  - Vounatsou, P.
+AU  - Sogoba, N.
+AU  - Maire, N.
+AU  - Smith, T.
+T2  - Computational Statistics & Data Analysis
+DA  - 2009/07//
+PY  - 2009
+DO  - 10.1016/j.csda.2009.02.022
+DP  - DOI.org (Crossref)
+VL  - 53
+IS  - 9
+SP  - 3358
+EP  - 3371
+J2  - Computational Statistics & Data Analysis
+LA  - en
+SN  - 01679473
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167947309000462
+Y2  - 2022/11/20/15:46:07
+ER  - 
+
+TY  - JOUR
+TI  - The distribution of Plasmodium falciparum infection durations
+AU  - Bretscher, Michael T.
+AU  - Maire, Nicolas
+AU  - Chitnis, Nakul
+AU  - Felger, Ingrid
+AU  - Owusu-Agyei, Seth
+AU  - Smith, Tom
+T2  - Epidemics
+DA  - 2011/06//
+PY  - 2011
+DO  - 10.1016/j.epidem.2011.03.002
+DP  - DOI.org (Crossref)
+VL  - 3
+IS  - 2
+SP  - 109
+EP  - 118
+J2  - Epidemics
+LA  - en
+SN  - 17554365
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S175543651100020X
+Y2  - 2022/11/20/15:46:07
+L1  - https://www.sciencedirect.com/science/article/pii/S175543651100020X/pdfft?md5=d1c07a092bb503022d610414afb5d873&pid=1-s2.0-S175543651100020X-main.pdf&isDTMRedir=Y
+ER  - 
+
+TY  - JOUR
+TI  - Cost-Effectiveness of the Introduction of a Pre-Erythrocytic Malaria Vaccine into the Expanded Program on Immunization in Sub-Saharan Africa: Analysis of Uncertainties Using a Stochastic Individual-Based Simulation Model of Plasmodium falciparum Malaria
+AU  - Maire, Nicolas
+AU  - Shillcutt, Samuel D.
+AU  - Walker, Damian G.
+AU  - Tediosi, Fabrizio
+AU  - Smith, Thomas A.
+T2  - Value in Health
+DA  - 2011/12//
+PY  - 2011
+DO  - 10.1016/j.jval.2011.06.004
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 8
+SP  - 1028
+EP  - 1038
+J2  - Value in Health
+LA  - en
+SN  - 10983015
+ST  - Cost-Effectiveness of the Introduction of a Pre-Erythrocytic Malaria Vaccine into the Expanded Program on Immunization in Sub-Saharan Africa
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S1098301511015269
+Y2  - 2022/11/20/15:46:07
+L1  - https://www.valueinhealthjournal.com/article/S1098301511015269/pdf
+ER  - 
+
+TY  - JOUR
+TI  - The public health impact of malaria vaccine RTS,S in malaria endemic Africa: country-specific predictions using 18 month follow-up Phase III data and simulation models
+AU  - Penny, Melissa A
+AU  - Galactionova, Katya
+AU  - Tarantino, Michael
+AU  - Tanner, Marcel
+AU  - Smith, Thomas A
+T2  - BMC Medicine
+DA  - 2015/12//
+PY  - 2015
+DO  - 10.1186/s12916-015-0408-2
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 1
+SP  - 170
+J2  - BMC Med
+LA  - en
+SN  - 1741-7015
+ST  - The public health impact of malaria vaccine RTS,S in malaria endemic Africa
+UR  - http://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-015-0408-2
+Y2  - 2022/11/20/15:46:07
+L1  - https://bmcmedicine.biomedcentral.com/counter/pdf/10.1186/s12916-015-0408-2
+ER  - 
+
+TY  - JOUR
+TI  - Public health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models
+AU  - Penny, Melissa A
+AU  - Verity, Robert
+AU  - Bever, Caitlin A
+AU  - Sauboin, Christophe
+AU  - Galactionova, Katya
+AU  - Flasche, Stefan
+AU  - White, Michael T
+AU  - Wenger, Edward A
+AU  - Van de Velde, Nicolas
+AU  - Pemberton-Ross, Peter
+AU  - Griffin, Jamie T
+AU  - Smith, Thomas A
+AU  - Eckhoff, Philip A
+AU  - Muhib, Farzana
+AU  - Jit, Mark
+AU  - Ghani, Azra C
+T2  - The Lancet
+DA  - 2016/01//
+PY  - 2016
+DO  - 10.1016/S0140-6736(15)00725-4
+DP  - DOI.org (Crossref)
+VL  - 387
+IS  - 10016
+SP  - 367
+EP  - 375
+J2  - The Lancet
+LA  - en
+SN  - 01406736
+ST  - Public health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0140673615007254
+Y2  - 2022/11/20/15:46:07
+L1  - https://www.thelancet.com/article/S0140673615007254/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Uses of mosquito-stage transmission-blocking vaccines against Plasmodium falciparum
+AU  - Smith, Thomas A.
+AU  - Chitnis, Nakul
+AU  - Briët, Olivier J.T.
+AU  - Tanner, Marcel
+T2  - Trends in Parasitology
+DA  - 2011/05//
+PY  - 2011
+DO  - 10.1016/j.pt.2010.12.011
+DP  - DOI.org (Crossref)
+VL  - 27
+IS  - 5
+SP  - 190
+EP  - 196
+J2  - Trends in Parasitology
+LA  - en
+SN  - 14714922
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S147149221100002X
+Y2  - 2022/11/20/15:46:07
+ER  - 
+
+TY  - JOUR
+TI  - Modeling the Cost Effectiveness of Malaria Control Interventions in the Highlands of Western Kenya
+AU  - Stuckey, Erin M.
+AU  - Stevenson, Jennifer
+AU  - Galactionova, Katya
+AU  - Baidjoe, Amrish Y.
+AU  - Bousema, Teun
+AU  - Odongo, Wycliffe
+AU  - Kariuki, Simon
+AU  - Drakeley, Chris
+AU  - Smith, Thomas A.
+AU  - Cox, Jonathan
+AU  - Chitnis, Nakul
+T2  - PLoS ONE
+A2  - Snounou, Georges
+DA  - 2014/10/07/
+PY  - 2014
+DO  - 10.1371/journal.pone.0107700
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 10
+SP  - e107700
+J2  - PLoS ONE
+LA  - en
+SN  - 1932-6203
+UR  - https://dx.plos.org/10.1371/journal.pone.0107700
+Y2  - 2022/11/20/15:46:06
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0107700&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - Towards a comprehensive simulation model of malaria epidemiology and control
+AU  - Smith, T.
+AU  - Maire, N.
+AU  - Ross, A.
+AU  - Penny, M.
+AU  - Chitnis, N.
+AU  - Schapira, A.
+AU  - Studer, A.
+AU  - Genton, B.
+AU  - Lengeler, C.
+AU  - Tediosi, F.
+AU  - De Savigny, D.
+AU  - Tanner, M.
+T2  - Parasitology
+AB  - SUMMARY
+            
+              Planning of the control of
+              Plasmodium falciparum
+              malaria leads to a need for models of malaria epidemiology that provide realistic quantitative prediction of likely epidemiological outcomes of a wide range of control strategies. Predictions of the effects of control often ignore medium- and long-term dynamics. The complexities of the
+              Plasmodium
+              life-cycle, and of within-host dynamics, limit the applicability of conventional deterministic malaria models. We use individual-based stochastic simulations of malaria epidemiology to predict the impacts of interventions on infection, morbidity, mortality, health services use and costs. Individual infections are simulated by stochastic series of parasite densities, and naturally acquired immunity acts by reducing densities. Morbidity and mortality risks, and infectiousness to vectors, depend on parasite densities. The simulated infections are nested within simulations of individuals in human populations, and linked to models of interventions and health systems. We use numerous field datasets to optimise parameter estimates. By using a volunteer computing system we obtain the enormous computational power required for model fitting, sensitivity analysis, and exploration of many different intervention strategies. The project thus provides a general platform for comparing, fitting, and evaluating different model structures, and for quantitative prediction of effects of different interventions and integrated control programmes.
+DA  - 2008/11//
+PY  - 2008
+DO  - 10.1017/S0031182008000371
+DP  - DOI.org (Crossref)
+VL  - 135
+IS  - 13
+SP  - 1507
+EP  - 1516
+J2  - Parasitology
+LA  - en
+SN  - 0031-1820, 1469-8161
+UR  - https://www.cambridge.org/core/product/identifier/S0031182008000371/type/journal_article
+Y2  - 2022/11/20/15:53:12
+L1  - https://zenodo.org/record/997894/files/article.pdf
+ER  - 
+
