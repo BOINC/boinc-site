@@ -1,0 +1,289 @@
+TY  - JOUR
+TI  - Rapid Earthquake Characterization Using MEMS Accelerometers and Volunteer Hosts Following the M 7.2 Darfield, New Zealand, Earthquake
+AU  - Lawrence, J. F.
+AU  - Cochran, E. S.
+AU  - Chung, A.
+AU  - Kaiser, A.
+AU  - Christensen, C. M.
+AU  - Allen, R.
+AU  - Baker, J. W.
+AU  - Fry, B.
+AU  - Heaton, T.
+AU  - Kilb, D.
+AU  - Kohler, M. D.
+AU  - Taufer, M.
+T2  - Bulletin of the Seismological Society of America
+DA  - 2014/02/01/
+PY  - 2014
+DO  - 10.1785/0120120196
+DP  - DOI.org (Crossref)
+VL  - 104
+IS  - 1
+SP  - 184
+EP  - 192
+J2  - Bulletin of the Seismological Society of America
+LA  - en
+SN  - 0037-1106
+UR  - https://pubs.geoscienceworld.org/bssa/article/104/1/184-192/331754
+Y2  - 2022/11/20/20:37:27
+L1  - https://authors.library.caltech.edu/44180/1/184.full.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The Quake-Catcher Network Rapid Aftershock Mobilization Program Following the 2010 M 8.8 Maule, Chile Earthquake
+AU  - Chung, A. I.
+AU  - Neighbors, C.
+AU  - Belmonte, A.
+AU  - Miller, M.
+AU  - Sepulveda, H. H.
+AU  - Christensen, C.
+AU  - Jakka, R. S.
+AU  - Cochran, E. S.
+AU  - Lawrence, J. F.
+T2  - Seismological Research Letters
+DA  - 2011/07/01/
+PY  - 2011
+DO  - 10.1785/gssrl.82.4.526
+DP  - DOI.org (Crossref)
+VL  - 82
+IS  - 4
+SP  - 526
+EP  - 532
+J2  - Seismological Research Letters
+LA  - en
+SN  - 0895-0695
+UR  - https://pubs.geoscienceworld.org/srl/article/82/4/526-532/143840
+Y2  - 2022/11/20/20:37:27
+ER  - 
+
+TY  - JOUR
+TI  - Performance Evaluation of Low-Cost Seismic Sensors for Dense Earthquake Early Warning: 2018–2019 Field Testing in Southwest China
+AU  - Fu, Jihua
+AU  - Li, Zhitao
+AU  - Meng, Hao
+AU  - Wang, Jianjun
+AU  - Shan, Xinjian
+T2  - Sensors
+AB  - Earthquake Early Warning (EEW) was proved to be a potential means of disaster reduction. Unfortunately, the performance of the EEW system is largely determined by the density of EEW network. How to reduce the cost of sensors has become an urgent problem for building a dense EEW. A low-cost seismic sensor integrated with a Class C MEMS accelerometer was proposed in this paper. Based on minimal structure design, the sensor’s reliability was enhanced, while the costs were cut down as well. To fully reveal the performance, ten of the seismic sensors were installed and tested in Sichuan Province, southwest of China from May 2018 to February 2019. The seismic records obtained by the MNSMSs were compared with those by the traditional strong motion seismographs. The records obtained by the MNSMSs have good consistency with the data obtained by the Etnas. The MNSMSs can obtain clear seismic phases that are enough to trigger earthquake detections for EEW. By noise analysis, different channels of the same sensor and different sensors have good consistency. The tested dynamic range (over 87 dB) and useful resolution (over 14.5 bits) are completely in conformity with the designed parameters. Through real field testing, small earthquakes (M 3.1–3.6) can be detected by all three components E-W, N-S, and U-D within 50 km. In all, the low-cost seismic sensor proposed as a high-performance Class C MEMS sensor can meet the needs of dense EEW in terms of noise, dynamic range, useful resolution, reliability, and detecting capabilities.
+DA  - 2019/04/29/
+PY  - 2019
+DO  - 10.3390/s19091999
+DP  - DOI.org (Crossref)
+VL  - 19
+IS  - 9
+SP  - 1999
+J2  - Sensors
+LA  - en
+SN  - 1424-8220
+ST  - Performance Evaluation of Low-Cost Seismic Sensors for Dense Earthquake Early Warning
+UR  - https://www.mdpi.com/1424-8220/19/9/1999
+Y2  - 2022/11/20/20:37:27
+L1  - https://www.mdpi.com/1424-8220/19/9/1999/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Citizen Seismology in Taiwan: Development, Outreach, and Formative Assessment of Near-Real Time Earthquake Game Competition Activities
+AU  - Chen, Kate Huihsuan
+AU  - Liang, Wen-Tzong
+AU  - Lin, Chun-Hung
+AU  - Wu, Leon Yufeng
+T2  - Frontiers in Earth Science
+DA  - 2020/05/29/
+PY  - 2020
+DO  - 10.3389/feart.2020.00154
+DP  - DOI.org (Crossref)
+VL  - 8
+SP  - 154
+J2  - Front. Earth Sci.
+SN  - 2296-6463
+ST  - Citizen Seismology in Taiwan
+UR  - https://www.frontiersin.org/article/10.3389/feart.2020.00154/full
+Y2  - 2022/11/20/20:37:27
+L1  - https://www.frontiersin.org/articles/10.3389/feart.2020.00154/pdf
+ER  - 
+
+TY  - JOUR
+TI  - The Red Atrapa Sismos (Quake-Catcher Network in Mexico): Assessing Performance during Large and Damaging Earthquakes
+AU  - Dominguez, L. A.
+AU  - Yildirim, B.
+AU  - Husker, A. L.
+AU  - Cochran, E.
+AU  - Christensen, C.
+AU  - Cruz-Atienza, V. M.
+AU  - Lawrence, J. F.
+T2  - Seismological Research Letters
+DA  - 2015/05/01/
+PY  - 2015
+DO  - 10.1785/0220140171
+DP  - DOI.org (Crossref)
+VL  - 86
+IS  - 3
+SP  - 848
+EP  - 855
+J2  - Seismological Research Letters
+LA  - en
+SN  - 0895-0695, 1938-2057
+ST  - The Red Atrapa Sismos (Quake-Catcher Network in Mexico)
+UR  - https://pubs.geoscienceworld.org/srl/article/86/3/848-855/315678
+Y2  - 2022/11/20/20:37:27
+L1  - https://authors.library.caltech.edu/109181/1/848.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Strong-Motion Observations of the M 7.8 Gorkha, Nepal, Earthquake Sequence and Development of the N-SHAKE Strong-Motion Network
+AU  - Dixit, Amod Mani
+AU  - Ringler, Adam T.
+AU  - Sumy, Danielle F.
+AU  - Cochran, Elizabeth S.
+AU  - Hough, Susan E.
+AU  - Martin, Stacey S.
+AU  - Gibbons, Steven
+AU  - Luetgert, James H.
+AU  - Galetzka, John
+AU  - Shrestha, Surya Narayan
+AU  - Rajaure, Sudhir
+AU  - McNamara, Daniel E.
+T2  - Seismological Research Letters
+DA  - 2015/11//
+PY  - 2015
+DO  - 10.1785/0220150146
+DP  - DOI.org (Crossref)
+VL  - 86
+IS  - 6
+SP  - 1533
+EP  - 1539
+J2  - Seismological Research Letters
+LA  - en
+SN  - 0895-0695, 1938-2057
+UR  - https://pubs.geoscienceworld.org/srl/article/86/6/1533-1539/349127
+Y2  - 2022/11/20/20:37:27
+L1  - https://dr.ntu.edu.sg/bitstream/10356/104423/1/Dixit%20et%20al%20%5b2015%5d%20-%20Kathmandu%20strong%20motion.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Improved Rapid Magnitude Estimation for a Community‐Based, Low‐Cost MEMS Accelerometer Network
+AU  - Chung, Angela I.
+AU  - Cochran, Elizabeth S.
+AU  - Kaiser, Anna E.
+AU  - Christensen, Carl M.
+AU  - Yildirim, Battalgazi
+AU  - Lawrence, Jesse F.
+T2  - Bulletin of the Seismological Society of America
+DA  - 2015/06//
+PY  - 2015
+DO  - 10.1785/0120140232
+DP  - DOI.org (Crossref)
+VL  - 105
+IS  - 3
+SP  - 1314
+EP  - 1323
+J2  - Bulletin of the Seismological Society of America
+LA  - en
+SN  - 0037-1106, 1943-3573
+UR  - https://pubs.geoscienceworld.org/bssa/article/105/3/1314-1323/331819
+Y2  - 2022/11/20/20:37:27
+ER  - 
+
+TY  - JOUR
+TI  - On the powerful use of simulations in the Quake-Catcher Network to efficiently position low-cost earthquake sensors
+AU  - Benson, K.
+AU  - Schlachter, S.
+AU  - Estrada, T.
+AU  - Taufer, M.
+AU  - Lawrence, J.
+AU  - Cochran, E.
+T2  - Future Generation Computer Systems
+DA  - 2013/10//
+PY  - 2013
+DO  - 10.1016/j.future.2013.04.012
+DP  - DOI.org (Crossref)
+VL  - 29
+IS  - 8
+SP  - 2128
+EP  - 2142
+J2  - Future Generation Computer Systems
+LA  - en
+SN  - 0167739X
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167739X13000721
+Y2  - 2022/11/20/20:37:27
+ER  - 
+
+TY  - JOUR
+TI  - Investigation of the high-frequency attenuation parameter, κ (kappa), from aftershocks of the 2010 Mw 8.8 Maule, Chile earthquake
+AU  - Neighbors, C.
+AU  - Liao, E. J.
+AU  - Cochran, E. S.
+AU  - Funning, G. J.
+AU  - Chung, A. I.
+AU  - Lawrence, J. F.
+AU  - Christensen, C.
+AU  - Miller, M.
+AU  - Belmonte, A.
+AU  - Andrés Sepulveda, H. H.
+T2  - Geophysical Journal International
+DA  - 2015/01/01/
+PY  - 2015
+DO  - 10.1093/gji/ggu390
+DP  - DOI.org (Crossref)
+VL  - 200
+IS  - 1
+SP  - 200
+EP  - 215
+LA  - en
+SN  - 1365-246X, 0956-540X
+UR  - http://academic.oup.com/gji/article/200/1/200/748351/Investigation-of-the-highfrequency-attenuation
+Y2  - 2022/11/20/20:37:27
+L1  - https://escholarship.org/content/qt1m54w1df/qt1m54w1df.pdf?t=oniwbb
+ER  - 
+
+TY  - JOUR
+TI  - Citizen Earthquake Science in Taiwan: From Science to Hazard Mitigation
+AU  - Liang, Wen-Tzong
+AU  - Lee, Jian-Cheng
+AU  - Chen, Kate Huihsuan
+AU  - Hsiao, Nai-Chi
+AU  - Institute of Earth Sciences, Academia Sinica 128, Academia Road, Section 2, Nankang, Taipei 11529, Taiwan
+AU  - Department of Earth Sciences, National Taiwan Normal University, Taipei, Taiwan
+AU  - Seismological Center, Central Weather Bureau, Taipei, Taiwan
+T2  - Journal of Disaster Research
+AB  - Taiwan is located at the convergent plate boundary between the Eurasian and the Philippine Sea plates. As a result, intense earthquake activity and associated surface deformation are manifesting in this region. To implement and promote citizen earthquake science in Taiwan, we have developed several web-based platforms with multi-purpose themes, such as earthquake science information, popular science education, and crowdsourcing systems. First, with the rapid earthquake report issued from the Taiwan Central Weather Bureau (CWB), the available near real-time scientific results obtained from the Taiwanese seismology community are collected and published to a platform, the Taiwan Earthquake Science Information System (TESIS). The scientific information archived at TESIS includes CWB earthquake reports, focal mechanisms, shake maps, and finite source models (for strong earthquakes). All real-time results are integrated into a GIS system with background geospatial information, such as geological maps, traces of active faults, background seismicity, and inter-seismic GPS velocity fields. Second, by collaborating with Stanford University to maintain a regional Quake-Catcher Network (QCN) server in Taiwan, we have promoted citizen seismology in Asia by bringing earthquake information and scientific knowledge to the public. More than 200 school teachers have already installed the QCN sensors in Internet-enabled computers. Through two web-based educational platforms, users are able to access the guidelines and further interact with the recorded waveforms. Third, we also developed an earthquake damage reporting system – the Taiwan Scientific Earthquake Reporting (TSER) system – to encourage the citizen to collect field observation for significant earthquake-induced ground damages such as surface fault rupture, landslide, rock fall, liquefaction, and landslide-triggered dam or lake. The TSER system is constructed under the Ushahidi mapping platform, which has been widely used in crowdsourcing for the geospatial archiving of events. Trained high school teachers and public volunteers can send their ground damage observations, including photographs, through the TSER system. Most of these products and online systems are now being operated by the Taiwan Earthquake Research Center (TEC). With these newly developed platforms and materials, we aim to not only raise earthquake awareness and preparedness, but also encourage public participation in earthquake science in Taiwan.
+DA  - 2017/12/01/
+PY  - 2017
+DO  - 10.20965/jdr.2017.p1174
+DP  - DOI.org (Crossref)
+VL  - 12
+IS  - 6
+SP  - 1174
+EP  - 1181
+J2  - JDR
+LA  - en
+SN  - 1883-8030, 1881-2473
+ST  - Citizen Earthquake Science in Taiwan
+UR  - https://www.fujipress.jp/jdr/dr/dsstr001200061174
+Y2  - 2022/11/20/20:37:27
+L1  - https://pdfs.semanticscholar.org/c7f1/9f6cc6e81c0dd63200b8157602cc2efe6981.pdf
+ER  - 
+
+TY  - JOUR
+TI  - On the Reliability of Quake-Catcher Network Earthquake Detections
+AU  - Yildirim, B.
+AU  - Cochran, E. S.
+AU  - Chung, A.
+AU  - Christensen, C. M.
+AU  - Lawrence, J. F.
+T2  - Seismological Research Letters
+DA  - 2015/05/01/
+PY  - 2015
+DO  - 10.1785/0220140218
+DP  - DOI.org (Crossref)
+VL  - 86
+IS  - 3
+SP  - 856
+EP  - 869
+J2  - Seismological Research Letters
+LA  - en
+SN  - 0895-0695, 1938-2057
+UR  - https://pubs.geoscienceworld.org/srl/article/86/3/856-869/315684
+Y2  - 2022/11/20/20:37:27
+ER  - 
+
