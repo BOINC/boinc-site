@@ -678,3 +678,144 @@ KW  - FOS: Physical sciences
 KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
 ER  - 
 
+TY  - BOOK
+TI  - A new major SETI project based on project SERENDIP data and 100,000 personal computers
+AU  - Sullivan, Woodruff T., III
+AU  - Werthimer, Dan
+AU  - Bowyer, Stuart
+AU  - Cobb, Jeff
+AU  - Gedye, David
+AU  - Anderson, David
+AB  - We are now developing an innovative SETI project involving massively parallel computation on desktop computers scattered around the world. The public will be uniquely involved in a real scientific project. Individuals will download a screensaver program that will not only provide the usual attractive graphics when their computer is idle, but will also perform sophisticated analysis of SETI data using the host computer. The data are tapped off Project SERENDIP IV's receiver and SETI survey operating on the 305-m-diameter Arecibo radio telescope. We make a continuous tape-recording of a 2-MHz bandwidth signal centered on the 21-cm H I line. The data on these tapes are then preliminarily screened and parceled out by a server that supplies small chunks of data over the Internet to clients possessing the screen-saver software. After the client computer has automatically analyzed a complete chunk of data a report on the best candidate signals is sent back to the server, whereupon a new chunk of data is sent out. If 50,000-100,000 customers can be achieved, the computing power will be equivalent to a substantial fraction of atypical supercomputer, and the project will cover a volume of parameter space comparable to that of SERENDIP IV.
+DA  - 1997/01/01/
+PY  - 1997
+DP  - NASA ADS
+UR  - https://ui.adsabs.harvard.edu/abs/1997abos.conf..729S
+Y2  - 2022/11/20/21:10:18
+KW  - Computer Graphics
+KW  - Computer Programs
+KW  - Massively Parallel Processors
+KW  - Personal Computers
+KW  - Project Seti
+KW  - Radio Telescopes
+KW  - Space Sciences (General)
+KW  - Tape Recorders
+ER  - 
+
+TY  - JOUR
+TI  - SETI with Help from Five Million Volunteers: The Berkeley SETI Efforts
+AU  - Korpela, E. J.
+AU  - Anderson, D. P.
+AU  - Bankay, R.
+AU  - Cobb, J.
+AU  - Foster, G.
+AU  - Howard, A.
+AU  - Lebofsky, M.
+AU  - Marcy, G.
+AU  - Parsons, A.
+AU  - Siemion, A.
+AU  - von Korff, J.
+AU  - Werthimer, D.
+AU  - Douglas, K. A.
+AB  - We summarize radio and optical SETI programs based at the University of California, Berkeley. The ongoing SERENDIP V sky survey searches for radio signals at the 300 meter Arecibo Observatory. The currently installed configuration supports 128 million channels over a 200 MHz bandwidth with 1.6 Hz spectral resolution. Frequency stepping allows the spectrometer to cover the full 300 MHz band of the Arecibo L-band receivers. The final configuration will allow data from all 14 receivers in the Arecibo L-band Focal Array to be monitored simultaneously with over 1.8 billion simultaneous channels. SETI@home uses desktop computers volunteers to analyze over 100 TB of at taken at Arecibo. Over 5 million volunteers have run SETI@home during its 10 year history. The SETI@home sky survey is 10 times more sensitive than SERENDIP V but it covers only a 2.5 MHz band, centered on 1420 MHz. SETI@home searches a much wider parameter space, including 14 octaves of signal bandwidth and 15 octaves of pulse period with Doppler drift corrections from -100 Hz/s to +100 Hz/s. The ASTROPULSE project is the first SETI search for μs time scale pulses in the radio spectrum. Because short pulses are dispersed by the interstellar medium, and amount of dispersion is unknown, ASTROPULSE must search through 30,000 possible dispersions. Substantial computing power is required to conduct this search, so the project will use volunteers and their personal computers to carry out the computation (using distributed computing similar to SETI@home). The SEVENDIP optical pulse search looks for ns time scale pulses at visible wavelengths. It utilizes an automated 30 inch telescope, three ultra fast photo multiplier tubes and a coincidence detector. The target list includes F,G,K and M stars, globular cluster and galaxies.
+DA  - 2009/12/01/
+PY  - 2009
+DP  - NASA ADS
+VL  - 420
+SP  - 431
+ST  - SETI with Help from Five Million Volunteers
+UR  - https://ui.adsabs.harvard.edu/abs/2009ASPC..420..431K
+Y2  - 2022/11/20/21:16:30
+L1  - https://ui.adsabs.harvard.edu/link_gateway/2009ASPC..420..431K/ARTICLE
+ER  - 
+
+TY  - JOUR
+TI  - Advancing the Search for Extraterrestrial Intelligence
+AU  - Tarter, Jill
+AU  - Backus, Peter
+AU  - Blair, Samantha
+AU  - Cordes, Jim
+AU  - Harp, Gerald
+AU  - Henry, Richard
+AU  - Horowitz, Paul
+AU  - Howard, Andrew
+AU  - Kilsdonk, Tom
+AU  - Korpela, Eric
+AU  - Lasio, Joseph
+AU  - Levin, Steven
+DA  - 2009/01/01/
+PY  - 2009
+DP  - ResearchGate
+L1  - https://www.researchgate.net/profile/Eric-Korpela/publication/238541041_Advancing_the_Search_for_Extraterrestrial_Intelligence/links/00463529625a4446d9000000/Advancing-the-Search-for-Extraterrestrial-Intelligence.pdf
+L4  - https://www.researchgate.net/publication/238541041_Advancing_the_Search_for_Extraterrestrial_Intelligence
+ER  - 
+
+TY  - ELEC
+TI  - SETI @ HOME : Application of Grid Computing — A Survey | Semantic Scholar
+UR  - https://www.semanticscholar.org/paper/SETI-%40-HOME-%3A-Application-of-Grid-Computing-%E2%80%94-A-Kumar-Shanker/ea85fac6f42bbeab7fac18d2360f740832732240
+Y2  - 2022/11/20/21:20:19
+L2  - https://www.semanticscholar.org/paper/SETI-%40-HOME-%3A-Application-of-Grid-Computing-%E2%80%94-A-Kumar-Shanker/ea85fac6f42bbeab7fac18d2360f740832732240
+ER  - 
+
+TY  - JOUR
+TI  - The Allen Telescope Array Fly's Eye Survey for Fast Radio Transients
+AU  - Siemion, Andrew
+AU  - Bower, Geoffrey
+AU  - Foster, Griffin
+AU  - McMahon, Peter
+AU  - Wagner, Mark
+AU  - Werthimer, Dan
+AU  - Backer, Don
+AU  - Cordes, Jim
+AU  - Leeuwen, and
+T2  - The Astrophysical Journal
+AB  - The relatively unexplored fast radio transient parameter space is known to be home to a variety of interesting sources, including pulsars, pulsar giant pulses, and non-thermal emission from planetary magnetospheres. In addition, a variety of hypothesized but as-yet-unobserved phenomena such as primordial black hole evaporation and prompt emission associated with coalescing massive objects have been suggested. The 2007 announcement by Lorimer et al. of the detection of a bright (30 Jy) radio pulse that was inferred to be of extragalactic origin and the subsequent consternation have demonstrated both the need for wide-field surveys characterizing the fast-transient parameter space and the potential utility of bright radio pulses as probes of the interstellar medium and intergalactic medium. Here we present results from the 450 hr, 150 deg2 Fly's Eye survey for bright dispersed radio pulses at the Allen Telescope Array (ATA). The Fly's Eye Spectrometer produces 128 channel power spectra over a 209 MHz bandwidth, centered at 1430 MHz, on 44 independent signal paths originating with 30 independent ATA antennae. Data were dedispersed between 0 and 2000 pc cm–3 and searched for pulses with dispersion measures greater than 50 pc cm–3 between 625 μs and 5 s in duration. No pulses were detected in the survey, implying a limiting rate of less than 2 sky–1 hr–1 for 10 ms duration pulses having apparent energy densities greater than 440 kJy μs, or mean flux densities greater than 44 Jy. Here we present details of the instrument, experiment, and observations, including a discussion of our results in light of other single pulse searches.
+DA  - 2011/12/20/
+PY  - 2011
+DO  - 10.1088/0004-637X/744/2/109
+DP  - ResearchGate
+VL  - 744
+SP  - 109
+J2  - The Astrophysical Journal
+L1  - https://www.researchgate.net/profile/Andrew-Siemion/publication/230938255_The_Allen_Telescope_Array_Fly's_Eye_Survey_for_Fast_Radio_Transients/links/0deec5194cd4f17eba000000/The-Allen-Telescope-Array-Flys-Eye-Survey-for-Fast-Radio-Transients.pdf
+L4  - https://www.researchgate.net/publication/230938255_The_Allen_Telescope_Array_Fly%27s_Eye_Survey_for_Fast_Radio_Transients
+ER  - 
+
+TY  - JOUR
+TI  - First SETI Observations with China’s Five-hundred-meter Aperture Spherical Radio Telescope (FAST)
+AU  - Zhang, Zhi-Song
+AU  - Werthimer, Dan
+AU  - Zhang, Tong-Jie
+AU  - Cobb, Jeff
+AU  - Korpela, Eric
+AU  - Anderson, David
+AU  - Gajjar, Vishal
+AU  - Lee, Ryan
+AU  - Li, Shi-Yu
+AU  - Pei, Xin
+AU  - Zhang, Xin-Xin
+AU  - Huang, Shi-Jie
+AU  - Wang, Pei
+AU  - Zhu, Yan
+AU  - Duan, Ran
+AU  - Zhang, Hai-Yan
+AU  - Jin, Cheng-jin
+AU  - Zhu, Li-Chun
+AU  - Li, Di
+T2  - The Astrophysical Journal
+AB  - The Search for Extraterrestrial Intelligence (SETI) attempts to address the possibility of the presence of technological civilizations beyond the Earth. Beneﬁting from high sensitivity, large sky coverage, and an innovative feed cabin for China’s Five-hundred-meter Aperture Spherical radio Telescope (FAST), we performed SETI’s ﬁrst observations with FAST’s newly commissioned 19 beam receiver; we report preliminary results in this paper. Using the data stream produced by the SERENDIP VI real-time multibeam SETI spectrometer installed at FAST, as well as its off-line data processing pipelines, we identify and remove four kinds of radio frequency interference (RFI): zone, broadband, multibeam, and drifting, utilizing the Nebula SETI software pipeline combined with machine-learning algorithms. After RFI mitigation, the Nebula pipeline identiﬁes and ranks interesting narrowband candidate ET signals, scoring candidates by the number of times candidate signals have been seen at roughly the same sky position and same frequency, signal strength, proximity to a nearby star or object of interest, along with several other scoring criteria. We show four example candidate groups that demonstrate this RFI mitigation and candidate selection. This preliminary testing on FAST data helps to validate our SETI instrumentation techniques as well as our data processing pipeline.
+DA  - 2020/03/17/
+PY  - 2020
+DO  - 10.3847/1538-4357/ab7376
+DP  - DOI.org (Crossref)
+VL  - 891
+IS  - 2
+SP  - 174
+J2  - ApJ
+LA  - en
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ab7376
+Y2  - 2022/11/20/21:28:23
+L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ab7376/pdf
+ER  - 
+
