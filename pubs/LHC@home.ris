@@ -1,0 +1,773 @@
+TY  - JOUR
+TI  - Extended-Domain Tune-Scans for the HL-LHC Dynamic Aperture in Presence of Beam-Beam Effects
+AU  - Kaltchev, Dobrin
+AU  - Karastathis, Nikolaos
+AU  - Papaphilippou, Yannis
+AU  - Pellegrini, Dario
+T2  - Proceedings of the 9th Int. Particle Accelerator Conf.
+AB  - We report simulations of the HL-LHC dynamic aperture (DA) at collision energy in the presence of beam-beam effects (weak-strong approximation) aiming to determine its dependence on the working point in tune space. Both linear domains working points are explored, spanning over (0.028 – 0.33) in horizontal tune, and two-dimensional ones which focus on more promising sub-regions near the diagonal. The range of parameters, such as bunch intensity and emittance, are chosen to correspond to the more important HL-LHC scenarios. A comparison with the LHC as built is also made. Direct benefit from these studies is the possible identification of working points alternative to the nominal one (in terms of dynamic aperture). They also help to understand the dependence of DA on particular resonance lines present in the vicinity of the footprint. In this work, the necessary resources were provided by the LHC@home project, based on the BOINC-SixTrack platform for distributed Computing.
+DA  - 2018///
+PY  - 2018
+DO  - 10.18429/JACOW-IPAC2018-TUPAL064
+DP  - DOI.org (Datacite)
+VL  - IPAC2018
+SP  - 4
+EP  - pages, 3.498 MB
+LA  - en
+UR  - http://jacow.org/ipac2018/doi/JACoW-IPAC2018-TUPAL064.html
+Y2  - 2022/11/20/15:22:35
+KW  - 04 Hadron Accelerators
+KW  - A04 Circular Accelerators
+KW  - Accelerator Physics
+ER  - 
+
+TY  - JOUR
+TI  - SixTrack Project: Status, Runtime Environment, and New Developments
+AU  - De Maria, Riccardo
+AU  - Andersson, Joel
+AU  - Field, Laurence
+AU  - Giovannozzi, Massimo
+AU  - Hermes, Pascal
+AU  - Hoimyr, Nils
+AU  - Iadarola, Giovanni
+AU  - Kostoglou, Sofia
+AU  - Maclean, Ewen
+AU  - McIntosh, Eric
+AU  - Mereghetti, Alessio
+AU  - Molson, James
+AU  - Olsen, Veronica
+AU  - Pellegrini, Dario
+AU  - Persson, Tobias
+AU  - Schwinzerl, Martin
+AU  - Singh, Somesh
+AU  - Sjobak, Kyrre
+AU  - Zacharov, Igor
+T2  - Proceedings of the 13th Int. Computational Accelerator Physics Conf.
+AB  - SixTrack is a single-particle tracking code for high-energy circular accelerators routinely used at CERN for the Large Hadron Collider (LHC), its luminosity upgrade (HL-LHC), the Future Circular Collider (FCC), and the Super Proton Synchrotron (SPS) simulations. The code is based on a 6D symplectic tracking engine, which is optimised for long-term tracking simulations and delivers fully reproducible results on several platforms. It also includes multiple scattering engines for beam-matter interaction studies, as well as facilities to run integrated simulations with FLUKA and GEANT4. These features differentiate SixTrack from general-purpose, optics-design software like MAD-X. The code recently underwent a major restructuring to merge advanced features into a single branch, such as multiple ion species, interface with external codes, and high-performance input/output (XRootD, HDF5). This restructuring also removed a large number of build flags, instead enabling/disabling the functionality at run-time. In the process, the code was moved from Fortran 77 to Fortran 2018 standard, also allowing and achieving a better modularization. Physics models (beam-beam effects, RF-multipoles, current carrying wires, solenoid, and electron lenses) and methods (symplecticity check) have also been reviewed and refined to offer more accurate results. The SixDesk runtime environment allows the user to manage the large batches of simulations required for accurate predictions of the dynamic aperture. SixDesk supports CERN LSF and HTCondor batch systems, as well as the BOINC infrastructure in the framework of the LHC@Home volunteering computing project. SixTrackLib is a new library aimed at providing a portable and flexible tracking engine for single- and multi-particle problems using the models and formalism of SixTrack. The tracking routines are implemented in a parametrized C code that is specialised to run vectorized in CPUs and GPUs, by using SIMD intrinsics, OpenCL 1.2, and CUDA tech
+DA  - 2019///
+PY  - 2019
+DO  - 10.18429/JACOW-ICAP2018-TUPAF02
+DP  - DOI.org (Datacite)
+VL  - ICAP2018
+SP  - 7
+EP  - pages, 0.881 MB
+LA  - en
+ST  - SixTrack Project
+UR  - http://jacow.org/icap2018/doi/JACoW-ICAP2018-TUPAF02.html
+Y2  - 2022/11/20/15:22:35
+KW  - Accelerator Physics
+KW  - D-1 Beam Dynamics Simulations
+ER  - 
+
+TY  - JOUR
+TI  - New Features of the 2017 SixTrack Release
+AU  - Sjobak, Kyrre
+AU  - Barranco García, Javier
+AU  - De Maria, Riccardo
+AU  - Fitterer, Miriam
+AU  - Gupta, Vikas
+AU  - McIntosh, Eric
+AU  - Mereghetti, Alessio
+AU  - Molson, James
+T2  - Proceedings of the 8th Int. Particle Accelerator Conf.
+AB  - The SixTrack particle tracking code is routinely used to simulate particle trajectories in high energy circular machines like the LHC and FCC, and is deployed for massive simulation campaigns on CERN clusters and on the BOINC platform within the LHC@Home volunteering computing project. The 2017 release brings many upgrades that improve flexibility, performance, and accuracy. This paper describes the new modules for wire- and electron lenses (WIRE and ELEN), the expert interface for beam-beam element (BEAM/EXPERT), the extension of the number of simultaneously tracked particles, the new Frequency Map Analysis (FMA) postprocessing option, the generation of a single zip of selected output files (ZIPF) in order to extend the coverage of the studies in LHC@HOME (e.g. FMA and on-line aperture checks), coupling to external codes (DYNK-PIPE and BDEX), a new CMAKE based build- and test mechanism, and internal restructuring.
+DA  - 2017///
+PY  - 2017
+DO  - 10.18429/JACOW-IPAC2017-THPAB047
+DP  - DOI.org (Datacite)
+VL  - IPAC2017
+SP  - 4
+EP  - pages, 0.135 MB
+LA  - en
+UR  - http://jacow.org/ipac2017/doi/JACoW-IPAC2017-THPAB047.html
+Y2  - 2022/11/20/15:22:35
+KW  - 05 Beam Dynamics and Electromagnetic Fields
+KW  - Accelerator Physics
+ER  - 
+
+TY  - JOUR
+TI  - SixTrack V and runtime environment
+AU  - De Maria, R.
+AU  - Andersson, J.
+AU  - Berglyd Olsen, V. K.
+AU  - Field, L.
+AU  - Giovannozzi, M.
+AU  - Hermes, P. D.
+AU  - Høimyr, N.
+AU  - Kostoglou, S.
+AU  - Iadarola, G.
+AU  - Mcintosh, E.
+AU  - Mereghetti, A.
+AU  - Molson, J.
+AU  - Pellegrini, D.
+AU  - Persson, T.
+AU  - Schwinzerl, M.
+AU  - Maclean, E. H.
+AU  - Sjobak, K. N.
+AU  - Zacharov, I.
+AU  - Singh, S.
+T2  - International Journal of Modern Physics A
+AB  - SixTrack is a single-particle tracking code for high-energy circular accelerators routinely used at CERN for the Large Hadron Collider (LHC), its luminosity upgrade (HL-LHC), the Future Circular Collider (FCC) and the Super Proton Synchrotron (SPS) simulations. The code is based on a 6D symplectic tracking engine, which is optimized for long-term tracking simulations and delivers fully reproducible results on several platforms. It also includes multiple scattering engines for beam–matter interaction studies, as well as facilities to run the integrated simulations with external particle matter interaction codes. These features differentiate SixTrack from general-purpose, optics-design software. The code recently underwent a major restructuring to merge the advanced features into a single branch, such as multiple ion species, interface with external codes and high-performance input/output. This restructuring also removed a large number of compilation flags, instead enabling/disabling the functionality with runtime options. In the process, the code was moved from Fortran 77 to Fortran 2018 standard, also allowing and achieving a better modularization. Physics models (beam–beam effects, Radio-Frequency (RF) multipoles, current carrying wires, solenoid and electron lenses) and methods (symplecticity check) have also been reviewed and refined to offer more accurate results. The SixDesk runtime environment allows the user to manage the large batches of simulations required for accurate predictions of the dynamic aperture. SixDesk supports several cluster environments available at CERN as well as submitting jobs to the LHC@Home volunteering computing project, which enables volunteers contributing with their hardware to CERN simulation. SixTrackLib is a new library aimed at providing a portable and flexible tracking engine for single- and multi-particle problems using the models and formalism of SixTrack. The library is able to run in CPUs as well as graphical processing units (GPUs). This contribution presents the status of the code, summarizes the main existing features and provides details about the main development lines SixTrack, SixDesk and SixTrackLib.
+DA  - 2019/12/30/
+PY  - 2019
+DO  - 10.1142/S0217751X19420351
+DP  - DOI.org (Crossref)
+VL  - 34
+IS  - 36
+SP  - 1942035
+J2  - Int. J. Mod. Phys. A
+LA  - en
+SN  - 0217-751X, 1793-656X
+UR  - https://www.worldscientific.com/doi/abs/10.1142/S0217751X19420351
+Y2  - 2022/11/20/15:22:57
+ER  - 
+
+TY  - JOUR
+TI  - Extending CERN computing to volunteers - LHC@home consolidation and outlook
+AU  - Cameron, David
+AU  - Field, Laurence
+AU  - Giannakis, Nikolas
+AU  - Høimyr, Nils
+T2  - EPJ Web of Conferences
+A2  - Forti, A.
+A2  - Betev, L.
+A2  - Litmaath, M.
+A2  - Smirnova, O.
+A2  - Hristov, P.
+AB  - LHC@home has provided computing capacity for simulations under BOINC since 2005. Following the introduction of virtualisation with BOINC to run HEP Linux software in a virtual machine on volunteer desktops, initially started on test BOINC projects, like Test4Theory and ATLAS@home, all CERN applications distributed to volunteers have been consolidated under a single LHC@home BOINC project. As part of an effort to unite CERN’s batch, cloud, grid and volunteer computing efforts, the BOINC service has been integrated with the other compute services at CERN, notably HTCondor, in terms job submission and accounting. The paper will also address contributions to improve the BOINC software and community effort to evolve BOINC for a sustainable volunteer computing environment. Furthermore, we discuss future challenges to reduce the effort required by volunteers to run virtual machines for experiment simulations and improvements to BOINC to widen the appeal of volunteer computing.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1051/epjconf/201921403016
+DP  - DOI.org (Crossref)
+VL  - 214
+SP  - 03016
+J2  - EPJ Web Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/201921403016
+Y2  - 2022/11/20/15:22:57
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2019/19/epjconf_chep2018_03016.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The Open High Throughput Computing Content Delivery Network
+AU  - Dykstra, Dave
+AU  - Bockelman, Brian
+AU  - Blomer, Jakob
+AU  - Field, Laurence
+T2  - EPJ Web of Conferences
+A2  - Forti, A.
+A2  - Betev, L.
+A2  - Litmaath, M.
+A2  - Smirnova, O.
+A2  - Hristov, P.
+AB  - LHC experiments make extensive use of web proxy caches, especially for software distribution via the CernVM File System and for conditions data via the Frontier Distributed Database Caching system. Since many jobs read the same data, cache hit rates are high and hence most of the traffic flows efficiently over Local Area Networks. However, it is not always possible to have local web caches, particularly for opportunistic cases where
+experiments have little control over site services. The Open High Throughput Computing (HTC) Content Delivery Network (CDN), openhtc.io, aims to address this by using web proxy caches from a commercial CDN provider. Cloudflare provides a simple interface for registering DNS aliases of any web server and does reverse proxy web caching on those aliases. The openhtc.io domain is hosted on Cloudflare's free tier CDN which has no bandwidth limit and makes use of data centers throughout the world, so the average performance for clients is much improved compared to reading from CERN or a Tier 1. The load on WLCG servers is also significantly reduced. WLCG Web Proxy Auto Discovery is used to select local web caches when they are available and otherwise select openhtc.io caching. This paper describes the Open HTC CDN in detail and provides initial results from its use for LHC@Home and USCMS opportunistic computing.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1051/epjconf/201921404023
+DP  - DOI.org (Crossref)
+VL  - 214
+SP  - 04023
+J2  - EPJ Web Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/201921404023
+Y2  - 2022/11/20/15:22:57
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2019/19/epjconf_chep2018_04023.pdf
+ER  - 
+
+TY  - JOUR
+TI  - LHC@Home: a BOINC-based volunteer computing infrastructure for physics studies at CERN
+AU  - Barranco, Javier
+AU  - Cai, Yunhai
+AU  - Cameron, David
+AU  - Crouch, Matthew
+AU  - Maria, Riccardo De
+AU  - Field, Laurence
+AU  - Giovannozzi, Massimo
+AU  - Hermes, Pascal
+AU  - Høimyr, Nils
+AU  - Kaltchev, Dobrin
+AU  - Karastathis, Nikos
+AU  - Luzzi, Cinzia
+AU  - Maclean, Ewen
+AU  - McIntosh, Eric
+AU  - Mereghetti, Alessio
+AU  - Molson, James
+AU  - Nosochkov, Yuri
+AU  - Pieloni, Tatiana
+AU  - Reid, Ivan D.
+AU  - Rivkin, Lenny
+AU  - Segal, Ben
+AU  - Sjobak, Kyrre
+AU  - Skands, Peter
+AU  - Tambasco, Claudia
+AU  - Veken, Frederik Van der
+AU  - Zacharov, Igor
+T2  - Open Engineering
+AB  - Abstract
+            The LHC@Home BOINC project has provided computing capacity for numerical simulations to researchers at CERN since 2004, and has since 2011 been expanded with a wider range of applications. The traditional CERN accelerator physics simulation code SixTrack enjoys continuing volunteers support, and thanks to virtualisation a number of applications from the LHC experiment collaborations and particle theory groups have joined the consolidated LHC@Home BOINC project. This paper addresses the challenges related to traditional and virtualized applications in the BOINC environment, and how volunteer computing has been integrated into the overall computing strategy of the laboratory through the consolidated LHC@Home service. Thanks to the computing power provided by volunteers joining LHC@Home, numerous accelerator beam physics studies have been carried out, yielding an improved understanding of charged particle dynamics in the CERN Large Hadron Collider (LHC) and its future upgrades. The main results are highlighted in this paper.
+DA  - 2017/12/29/
+PY  - 2017
+DO  - 10.1515/eng-2017-0042
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 379
+EP  - 393
+SN  - 2391-5439
+ST  - LHC@Home
+UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0042/html
+Y2  - 2022/11/20/15:22:57
+L1  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0042/pdf
+ER  - 
+
+TY  - ELEC
+TI  - JACoW : SixTrack project: Status, runtime environment, and new developments
+AU  - De Maria, Riccardo
+AU  - Hoimyr, Nils
+AU  - Andersson, Joel
+AU  - Persson, Tobias
+AU  - Field, Laurence
+AU  - Zacharov, Igor
+AU  - Berglyd Olsen, Veronica
+AU  - McIntosh, Eric
+AU  - Molson, James
+AU  - Singh, Somesh
+AU  - Sjobak, Kyrre
+AU  - Giovannozzi, Massimo
+AU  - Mereghetti, Alessio
+AU  - Iadarola, Giovanni
+AU  - Maclean, Ewen
+AU  - Kostoglou, Sofia
+AU  - Hermes, Pascal
+AU  - Pellegrini, Dario
+AU  - Schwinzerl, Martin
+T2  - CERN Document Server
+AB  - JACoW
+DA  - 2019///
+PY  - 2019
+LA  - en
+ST  - JACoW
+UR  - https://cds.cern.ch/record/2697441
+Y2  - 2022/11/20/15:25:05
+L1  - https://cds.cern.ch/record/2697441/files/tupaf02.pdf
+L2  - https://cds.cern.ch/record/2697441?ln=en
+ER  - 
+
+TY  - RPRT
+TI  - Advances in ATLAS@Home towards a major ATLAS computing resource
+AU  - Cameron, David
+AU  - Bogdanchikov, Alexander
+AU  - Bianchi, Riccardo-Maria
+AU  - Wu, Wenjing
+AB  - The volunteer computing project ATLAS@Home has been providing a stable computing resource for the ATLAS experiment since 2013. It has recently undergone some significant developments and as a result has become one of the largest resources contributing to ATLAS computing, by expanding its scope beyond traditional volunteers and into exploitation of idle computing power in ATLAS data centres. Removing the need for virtualization on Linux and instead using container technology has made the entry barrier significantly lower for data centre participation and in this paper, we describe the implementation and results of this change. We also present other recent changes and improvements in the project. In early 2017 the ATLAS@Home project was merged into a combined LHC@Home platform, providing a unified gateway to all CERN-related volunteer computing projects. The ATLAS Event Service shifts data processing from file-level to event-level and we describe how ATLAS@Home was incorporated into this new paradigm. Finally, the steps taken to allow regular ATLAS grid sites to move completely to ATLAS@Home are shown.
+DA  - 2018/11/26/
+PY  - 2018
+DP  - cds.cern.ch
+SP  - 03011
+LA  - en
+PB  - ATL-COM-SOFT-2018-116
+SN  - ATL-SOFT-PROC-2018-032
+UR  - https://cds.cern.ch/record/2648905
+Y2  - 2022/11/20/15:26:07
+L1  - https://cds.cern.ch/record/2648905/files/ATL-SOFT-PROC-2018-032.pdf
+L2  - https://cds.cern.ch/record/2648905?ln=en
+ER  - 
+
+TY  - ELEC
+TI  - JACoW : Extended-Domain Tune-Scans for the HL-LHC Dynamic Aperture in Presence of Beam-Beam Effects
+AU  - Kaltchev, Dobrin
+AU  - Karastathis, Nikolaos
+AU  - Pellegrini, Dario
+AU  - McIntosh, E.
+AU  - Papaphilippou, Yannis
+T2  - CERN Document Server
+AB  - Simulations of the HL-LHC dynamic aperture (DA) at collision energy and in the presence of beam-beam effects (weak-strong approximation) have been performed to determine the dependence of DA on the working point in tune space. Both linear domains of working points are explored and two-dimensional ones which focus on more promising sub-regions near the diagonal. The range of parameters, such as bunch intensity and emittance correspond to important HL-LHC scenarios. In this work, the necessary resources were provided by the LHC@home project, based on the BOINC-SixTrack platform for distributed Computing.
+DA  - 2018///
+PY  - 2018
+LA  - en
+ST  - JACoW
+UR  - https://cds.cern.ch/record/2648698
+Y2  - 2022/11/20/15:26:33
+L1  - https://cds.cern.ch/record/2648698/files/tupal064.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Nonlinear correction schemes for the phase 1 LHC insertion region upgrade and dynamic aperture studies
+AU  - Tomás, R.
+AU  - Giovannozzi, M.
+AU  - de Maria, R.
+T2  - Physical Review Special Topics - Accelerators and Beams
+DA  - 2009/01/21/
+PY  - 2009
+DO  - 10.1103/PhysRevSTAB.12.011002
+DP  - DOI.org (Crossref)
+VL  - 12
+IS  - 1
+SP  - 011002
+J2  - Phys. Rev. ST Accel. Beams
+LA  - en
+SN  - 1098-4402
+UR  - https://link.aps.org/doi/10.1103/PhysRevSTAB.12.011002
+Y2  - 2022/11/20/15:33:38
+L1  - https://link.aps.org/pdf/10.1103/PhysRevSTAB.12.011002
+ER  - 
+
+TY  - JOUR
+TI  - ATLAS Grid Workflow Performance Optimization
+AU  - Elmsheuser, Johannes
+AU  - Di Girolamo, Alessandro
+AU  - Filipcic, Andrej
+AU  - Limosani, Antonio
+AU  - Schulz, Markus
+AU  - Smith, David
+AU  - Sciaba, Andrea
+AU  - Valassi, Andrea
+T2  - EPJ Web of Conferences
+A2  - Forti, A.
+A2  - Betev, L.
+A2  - Litmaath, M.
+A2  - Smirnova, O.
+A2  - Hristov, P.
+AB  - The CERN ATLAS experiment grid workflow system manages routinely 250 to 500 thousand concurrently running production and analysis jobs to process simulation and detector data. In total more than 370 PB of data is distributed over more than 150 sites in the WLCG. At this scale small improvements in the software and computing performance and workflows can lead tosignificant resource usage gains. ATLAS is reviewing together with CERN IT experts several typical simulation and data processing workloads for potential performance improvements in terms of memory and CPU usage, disk and network I/O. All ATLASproduction and analysis grid jobs are instrumented to collect many performance metrics for detailed statistical studies using modern data analytics tools like ElasticSearch and Kibana. This presentation will review and explain the performance gains of several ATLAS simulation and data processing workflows and present analytics studies of the ATLAS grid workflows.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1051/epjconf/201921403021
+DP  - DOI.org (Crossref)
+VL  - 214
+SP  - 03021
+J2  - EPJ Web Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/201921403021
+Y2  - 2022/11/20/15:33:38
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2019/19/epjconf_chep2018_03021.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Innovative method to measure the extent of the stable phase-space region of proton synchrotrons
+AU  - Maclean, E. H.
+AU  - Giovannozzi, M.
+AU  - Appleby, R. B.
+T2  - Physical Review Accelerators and Beams
+DA  - 2019/03/12/
+PY  - 2019
+DO  - 10.1103/PhysRevAccelBeams.22.034002
+DP  - DOI.org (Crossref)
+VL  - 22
+IS  - 3
+SP  - 034002
+J2  - Phys. Rev. Accel. Beams
+LA  - en
+SN  - 2469-9888
+UR  - https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.034002
+Y2  - 2022/11/20/15:33:38
+L1  - https://link.aps.org/pdf/10.1103/PhysRevAccelBeams.22.034002
+ER  - 
+
+TY  - JOUR
+TI  - CMS@home: Integrating the Volunteer Cloud and High-Throughput Computing
+AU  - Field, L.
+AU  - Spiga, D.
+AU  - Reid, I.
+AU  - Riahi, H.
+AU  - Cristella, L.
+T2  - Computing and Software for Big Science
+DA  - 2018/11//
+PY  - 2018
+DO  - 10.1007/s41781-018-0006-z
+DP  - DOI.org (Crossref)
+VL  - 2
+IS  - 1
+SP  - 2
+J2  - Comput Softw Big Sci
+LA  - en
+SN  - 2510-2036, 2510-2044
+ST  - CMS@home
+UR  - http://link.springer.com/10.1007/s41781-018-0006-z
+Y2  - 2022/11/20/15:33:38
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs41781-018-0006-z.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Backfilling the Grid with Containerized BOINC in the ATLAS computing
+AU  - Wu, Wenjing
+AU  - Cameron, David
+T2  - EPJ Web of Conferences
+A2  - Forti, A.
+A2  - Betev, L.
+A2  - Litmaath, M.
+A2  - Smirnova, O.
+A2  - Hristov, P.
+AB  - Virtualization is a commonly used solution for utilizing the opportunistic computing resources in the HEP field, as it provides a unified software and OS layer that the HEP computing tasks require over the heterogeneous opportunistic computing resources. However there is always performance penalty with virtualization, especially for short jobs which are always the case for volunteer computing tasks, the overhead of virtualization reduces the CPU efficiency of the jobs, hence it leads to low CPU efficiency of the jobs. With the wide usage of containers in HEP computing, we explore the possibility of adopting the container technology into the ATLAS BOINC project, hence we implemented a Native version in BOINC, which uses the Singularity container or direct usage of the Operating System of the host machines to replace VirtualBox. In this paper, we will discuss 1) the implementation and workflow of the Native version in the ATLAS BOINC; 2) the performance measurement of the Native version comparing to the previous virtualization version. 3) the limits and shortcomings of the Native version; 4) The practice and outcome of the Native version which includes using it in backfilling the ATLAS Grid Tier2 sites and other clusters, and to utilize the idle computers from the CERN computing centre.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1051/epjconf/201921407015
+DP  - DOI.org (Crossref)
+VL  - 214
+SP  - 07015
+J2  - EPJ Web Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/201921407015
+Y2  - 2022/11/20/15:33:38
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2019/19/epjconf_chep2018_07015.pdf
+ER  - 
+
+TY  - JOUR
+TI  - SixTrack Version 5: Status and New Developments
+AU  - De Maria, R.
+AU  - Andersson, J.
+AU  - Berglyd Olsen, V.K.
+AU  - Field, L.
+AU  - Giovannozzi, M.
+AU  - Hermes, P.D.
+AU  - Høimyr, N.
+AU  - Iadarola, G.
+AU  - Kostoglou, S.
+AU  - Maclean, E.H.
+AU  - McIntosh, E.
+AU  - Mereghetti, A.
+AU  - Molson, J.
+AU  - Pellegrini, D.
+AU  - Persson, T.
+AU  - Schwinzerl, M.
+AU  - Dalena, B.
+AU  - Pugnat, T.
+AU  - Zacharov, I.
+AU  - Sjobak, K.N.
+T2  - Journal of Physics: Conference Series
+AB  - Abstract
+            SixTrack Version 5 is a major SixTrack release that introduces new features, with improved integration of the existing ones, and extensive code restructuring. New features include dynamic-memory management, scattering-routine integration, a new initial-condition module, and reviewed post-processing methods. Existing features like on-line aperture checking and Fluka-coupling are now enabled by default. Extensive performance regression tests have been developed and deployed as part of the new-release generation. The new features of the tracking environment developed for the massive numerical simulations will be discussed as well.
+DA  - 2019/11/01/
+PY  - 2019
+DO  - 10.1088/1742-6596/1350/1/012129
+DP  - DOI.org (Crossref)
+VL  - 1350
+IS  - 1
+SP  - 012129
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+ST  - SixTrack Version 5
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/1350/1/012129
+Y2  - 2022/11/20/15:33:39
+L1  - https://www.duo.uio.no/bitstream/10852/77756/1/De_Maria_2019_J._Phys.__Conf._Ser._1350_012129.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Status and Roadmap of CernVM
+AU  - Berzano, D
+AU  - Blomer, J
+AU  - Buncic, P
+AU  - Charalampidis, I
+AU  - Ganis, G
+AU  - Meusel, R
+T2  - Journal of Physics: Conference Series
+DA  - 2015/12/23/
+PY  - 2015
+DO  - 10.1088/1742-6596/664/2/022018
+DP  - DOI.org (Crossref)
+VL  - 664
+IS  - 2
+SP  - 022018
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/664/2/022018
+Y2  - 2022/11/20/15:33:38
+L1  - https://iopscience.iop.org/article/10.1088/1742-6596/664/2/022018/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Towards a Production Volunteer Computing Infrastructure for HEP
+AU  - Høimyr, N
+AU  - Marquina, M
+AU  - Asp, T
+AU  - Jones, P
+AU  - Gonzalez, A
+AU  - Field, L
+T2  - Journal of Physics: Conference Series
+DA  - 2015/12/23/
+PY  - 2015
+DO  - 10.1088/1742-6596/664/2/022023
+DP  - DOI.org (Crossref)
+VL  - 664
+IS  - 2
+SP  - 022023
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/664/2/022023
+Y2  - 2022/11/20/15:33:38
+L1  - https://cds.cern.ch/record/2134532/files/1742-6596_664_2_022023.pdf
+ER  - 
+
+TY  - JOUR
+TI  - BOINC service for volunteer cloud computing
+AU  - Høimyr, N
+AU  - Blomer, J
+AU  - Buncic, P
+AU  - Giovannozzi, M
+AU  - Gonzalez, A
+AU  - Harutyunyan, A
+AU  - Jones, P L
+AU  - Karneyeu, A
+AU  - Marquina, M A
+AU  - Mcintosh, E
+AU  - Segal, B
+AU  - Skands, P
+AU  - Grey, F
+AU  - Lombraña González, D
+AU  - Zacharov, I
+T2  - Journal of Physics: Conference Series
+DA  - 2012/12/13/
+PY  - 2012
+DO  - 10.1088/1742-6596/396/3/032057
+DP  - DOI.org (Crossref)
+VL  - 396
+IS  - 3
+SP  - 032057
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/396/3/032057
+Y2  - 2022/11/20/15:33:38
+ER  - 
+
+TY  - JOUR
+TI  - ALICE Connex: A volunteer computing platform for the Time-Of-Flight calibration of the ALICE experiment. An opportunistic use of CPU cycles on Android devices
+AU  - Jenviriyakul, Patcharaporn
+AU  - Chalumporn, Gantaphon
+AU  - Achalakul, Tiranee
+AU  - Costa, Filippo
+AU  - Akkarajitsakul, Khajonpong
+T2  - Future Generation Computer Systems
+DA  - 2019/05//
+PY  - 2019
+DO  - 10.1016/j.future.2018.11.057
+DP  - DOI.org (Crossref)
+VL  - 94
+SP  - 510
+EP  - 523
+J2  - Future Generation Computer Systems
+LA  - en
+SN  - 0167739X
+ST  - ALICE Connex
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167739X1731141X
+Y2  - 2022/11/20/15:33:38
+ER  - 
+
+TY  - JOUR
+TI  - CernVM WebAPI - Controlling Virtual Machines from the Web
+AU  - Charalampidis, I.
+AU  - Berzano, D.
+AU  - Blomer, J.
+AU  - Buncic, P.
+AU  - Ganis, G.
+AU  - Meusel, R.
+AU  - Segal, B.
+T2  - Journal of Physics: Conference Series
+DA  - 2015/12/23/
+PY  - 2015
+DO  - 10.1088/1742-6596/664/2/022010
+DP  - DOI.org (Crossref)
+VL  - 664
+IS  - 2
+SP  - 022010
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/664/2/022010
+Y2  - 2022/11/20/15:33:38
+L1  - https://cds.cern.ch/record/2134526/files/1742-6596_664_2_022010.pdf
+ER  - 
+
+TY  - JOUR
+TI  - CMS@home: Enabling Volunteer Computing Usage for CMS
+AU  - Field, L
+AU  - Borras, H
+AU  - Spiga, D
+AU  - Riahi, H
+T2  - Journal of Physics: Conference Series
+DA  - 2015/12/23/
+PY  - 2015
+DO  - 10.1088/1742-6596/664/2/022017
+DP  - DOI.org (Crossref)
+VL  - 664
+IS  - 2
+SP  - 022017
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+ST  - CMS@home
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/664/2/022017
+Y2  - 2022/11/20/15:33:38
+L1  - https://cds.cern.ch/record/2134528/files/1742-6596_664_2_022017.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Dynamic federation of grid and cloud storage
+AU  - Furano, Fabrizio
+AU  - Keeble, Oliver
+AU  - Field, Laurence
+T2  - Physics of Particles and Nuclei Letters
+DA  - 2016/09//
+PY  - 2016
+DO  - 10.1134/S1547477116050186
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 5
+SP  - 629
+EP  - 633
+J2  - Phys. Part. Nuclei Lett.
+LA  - en
+SN  - 1547-4771, 1531-8567
+UR  - http://link.springer.com/10.1134/S1547477116050186
+Y2  - 2022/11/20/15:33:38
+ER  - 
+
+TY  - JOUR
+TI  - Evolution of the CMS Global Submission Infrastructure for the HL-LHC Era
+AU  - Pérez-Calero Yzquierdo, Antonio
+AU  - Acosta Flechas, Maria
+AU  - Davila Foyo, Diego
+AU  - Haleem, Saqib
+AU  - Hurtado Anampa, Kenyi
+AU  - Ivanov, Todor Trendafilov
+AU  - Khan, Farrukh Aftab
+AU  - Kizinevič, Edita
+AU  - Larson, Krista
+AU  - Letts, James
+AU  - Mascheroni, Marco
+AU  - Mason, David
+T2  - EPJ Web of Conferences
+A2  - Doglioni, C.
+A2  - Kim, D.
+A2  - Stewart, G.A.
+A2  - Silvestris, L.
+A2  - Jackson, P.
+A2  - Kamleh, W.
+AB  - Efforts in distributed computing of the CMS experiment at the LHC at CERN are now focusing on the functionality required to fulfill the projected needs for the HL-LHC era. Cloud and HPC resources are expected to be dominant relative to resources provided by traditional Grid sites, being also much more diverse and heterogeneous. Handling their special capabilities or limitations and maintaining global flexibility and efficiency, while also operating at scales much higher than the current capacity, are the major challenges being addressed by the CMS Submission Infrastructure team. These proceedings discuss the risks to the stability and scalability of the CMS HTCondor infrastructure extrapolated to such a scenario, thought to be derived mostly from its growing complexity, with multiple Negotiators and schedulers flocking work to multiple federated pools. New mechanisms for enhanced customization and control over resource allocation and usage, mandatory in this future scenario, are also described.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1051/epjconf/202024503016
+DP  - DOI.org (Crossref)
+VL  - 245
+SP  - 03016
+J2  - EPJ Web Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/202024503016
+Y2  - 2022/11/20/15:33:38
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2020/21/epjconf_chep2020_03016.pdf
+ER  - 
+
+TY  - JOUR
+TI  - MCPLOTS: a particle physics resource based on volunteer computing
+AU  - Karneyeu, A.
+AU  - Mijovic, L.
+AU  - Prestel, S.
+AU  - Skands, P. Z.
+T2  - The European Physical Journal C
+DA  - 2014/02//
+PY  - 2014
+DO  - 10.1140/epjc/s10052-014-2714-9
+DP  - DOI.org (Crossref)
+VL  - 74
+IS  - 2
+SP  - 2714
+J2  - Eur. Phys. J. C
+LA  - en
+SN  - 1434-6044, 1434-6052
+ST  - MCPLOTS
+UR  - http://link.springer.com/10.1140/epjc/s10052-014-2714-9
+Y2  - 2022/11/20/15:33:38
+L1  - https://link.springer.com/content/pdf/10.1140/epjc/s10052-014-2714-9.pdf
+ER  - 
+
+TY  - JOUR
+TI  - CernVM Co-Pilot: an Extensible Framework for Building Scalable Computing Infrastructures on the Cloud
+AU  - Harutyunyan, A
+AU  - Blomer, J
+AU  - Buncic, P
+AU  - Charalampidis, I
+AU  - Grey, F
+AU  - Karneyeu, A
+AU  - Larsen, D
+AU  - Lombraña González, D
+AU  - Lisec, J
+AU  - Segal, B
+AU  - Skands, P
+T2  - Journal of Physics: Conference Series
+DA  - 2012/12/13/
+PY  - 2012
+DO  - 10.1088/1742-6596/396/3/032054
+DP  - DOI.org (Crossref)
+VL  - 396
+IS  - 3
+SP  - 032054
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+ST  - CernVM Co-Pilot
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/396/3/032054
+Y2  - 2022/11/20/15:33:38
+ER  - 
+
+TY  - JOUR
+TI  - A world-wide databridge supported by a commercial cloud provider
+AU  - Cheung, Kwong Tat
+AU  - Field, Laurence
+AU  - Furano, Fabrizio
+T2  - Journal of Physics: Conference Series
+DA  - 2017/10//
+PY  - 2017
+DO  - 10.1088/1742-6596/898/6/062041
+DP  - DOI.org (Crossref)
+VL  - 898
+SP  - 062041
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/898/6/062041
+Y2  - 2022/11/20/15:33:38
+L1  - https://cds.cern.ch/record/2298629/files/pdf.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Improving the Performance of Volunteer Computing with Data Volunteers: A Case Study with the ATLAS@home Project
+AU  - Alonso-Monsalve, Saúl
+AU  - García-Carballeira, Félix
+AU  - Calderón, Alejandro
+T2  - Algorithms and Architectures for Parallel Processing
+A2  - Carretero, Jesus
+A2  - Garcia-Blas, Javier
+A2  - Ko, Ryan K.L.
+A2  - Mueller, Peter
+A2  - Nakano, Koji
+CY  - Cham
+DA  - 2016///
+PY  - 2016
+DP  - DOI.org (Crossref)
+VL  - 10048
+SP  - 178
+EP  - 191
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-319-49582-8 978-3-319-49583-5
+ST  - Improving the Performance of Volunteer Computing with Data Volunteers
+UR  - http://link.springer.com/10.1007/978-3-319-49583-5_13
+Y2  - 2022/11/20/15:33:38
+ER  - 
+
+TY  - JOUR
+TI  - Using ATLAS@Home to Exploit Extra CPU from Busy Grid Sites
+AU  - Wu, Wenjing
+AU  - Cameron, David
+AU  - Qing, Di
+T2  - Computing and Software for Big Science
+DA  - 2019/12//
+PY  - 2019
+DO  - 10.1007/s41781-019-0023-6
+DP  - DOI.org (Crossref)
+VL  - 3
+IS  - 1
+SP  - 8
+J2  - Comput Softw Big Sci
+LA  - en
+SN  - 2510-2036, 2510-2044
+UR  - http://link.springer.com/10.1007/s41781-019-0023-6
+Y2  - 2022/11/20/15:33:38
+L1  - https://link.springer.com/content/pdf/10.1007/s41781-019-0023-6.pdf
+ER  - 
+
