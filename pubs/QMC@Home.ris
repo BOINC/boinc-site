@@ -1,0 +1,157 @@
+TY  - JOUR
+TI  - The Lithium–Thiophene Riddle Revisited
+AU  - Korth, Martin
+AU  - Grimme, Stefan
+AU  - Towler, Mike D.
+T2  - The Journal of Physical Chemistry A
+DA  - 2011/10/27/
+PY  - 2011
+DO  - 10.1021/jp204132g
+DP  - DOI.org (Crossref)
+VL  - 115
+IS  - 42
+SP  - 11734
+EP  - 11739
+J2  - J. Phys. Chem. A
+LA  - en
+SN  - 1089-5639, 1520-5215
+UR  - https://pubs.acs.org/doi/10.1021/jp204132g
+Y2  - 2022/11/20/20:29:48
+ER  - 
+
+TY  - JOUR
+TI  - Toward the Exact Solution of the Electronic Schrödinger Equation for Noncovalent Molecular Interactions: Worldwide Distributed Quantum Monte Carlo Calculations
+AU  - Korth, Martin
+AU  - Lüchow, Arne
+AU  - Grimme, Stefan
+T2  - The Journal of Physical Chemistry A
+DA  - 2008/03/01/
+PY  - 2008
+DO  - 10.1021/jp077592t
+DP  - DOI.org (Crossref)
+VL  - 112
+IS  - 10
+SP  - 2104
+EP  - 2109
+J2  - J. Phys. Chem. A
+LA  - en
+SN  - 1089-5639, 1520-5215
+ST  - Toward the Exact Solution of the Electronic Schrödinger Equation for Noncovalent Molecular Interactions
+UR  - https://pubs.acs.org/doi/10.1021/jp077592t
+Y2  - 2022/11/20/20:29:48
+ER  - 
+
+TY  - JOUR
+TI  - ChemInform Abstract: Vanadium Oxide Compounds with Quantum Monte Carlo
+AU  - Bande, Annika
+AU  - Luechow, Arne
+T2  - ChemInform
+DA  - 2008/09/23/
+PY  - 2008
+DO  - 10.1002/chin.200839002
+DP  - DOI.org (Crossref)
+VL  - 39
+IS  - 39
+J2  - ChemInform
+LA  - en
+SN  - 09317597, 15222667
+ST  - ChemInform Abstract
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/chin.200839002
+Y2  - 2022/11/20/20:29:48
+ER  - 
+
+TY  - JOUR
+TI  - How to Compute Isomerization Energies of Organic Molecules with Quantum Chemical Methods
+AU  - Grimme, Stefan
+AU  - Steinmetz, Marc
+AU  - Korth, Martin
+T2  - The Journal of Organic Chemistry
+DA  - 2007/03/01/
+PY  - 2007
+DO  - 10.1021/jo062446p
+DP  - DOI.org (Crossref)
+VL  - 72
+IS  - 6
+SP  - 2118
+EP  - 2126
+J2  - J. Org. Chem.
+LA  - en
+SN  - 0022-3263, 1520-6904
+UR  - https://pubs.acs.org/doi/10.1021/jo062446p
+Y2  - 2022/11/20/20:29:48
+ER  - 
+
+TY  - JOUR
+TI  - Large-scale virtual high-throughput screening for the identification of new battery electrolyte solvents: computing infrastructure and collective properties
+AU  - Husch, Tamara
+AU  - Yilmazer, Nusret Duygu
+AU  - Balducci, Andrea
+AU  - Korth, Martin
+T2  - Physical Chemistry Chemical Physics
+AB  - A volunteer computing approach is presented for the purpose of screening a large number of molecular structures with respect to their suitability as new battery electrolyte solvents.
+          , 
+            
+              A volunteer computing approach is presented for the purpose of screening a large number of molecular structures with respect to their suitability as new battery electrolyte solvents. Collective properties like melting, boiling and flash points are evaluated using COSMOtherm and quantitative structure–property relationship (QSPR) based methods, while electronic structure theory methods are used for the computation of electrochemical stability window estimators. Two application examples are presented: first, the results of a previous large-scale screening test (
+              PCCP
+              , 2014,
+              16
+              , 7919) are re-evaluated with respect to the mentioned collective properties. As a second application example, all reasonable nitrile solvents up to 12 heavy atoms are generated and used to illustrate a suitable filter protocol for picking Pareto-optimal candidates.
+DA  - 2015///
+PY  - 2015
+DO  - 10.1039/C4CP04338C
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 5
+SP  - 3394
+EP  - 3401
+J2  - Phys. Chem. Chem. Phys.
+LA  - en
+SN  - 1463-9076, 1463-9084
+ST  - Large-scale virtual high-throughput screening for the identification of new battery electrolyte solvents
+UR  - http://xlink.rsc.org/?DOI=C4CP04338C
+Y2  - 2022/11/20/20:29:48
+L1  - https://pubs.rsc.org/en/content/articlepdf/2015/cp/c4cp04338c
+ER  - 
+
+TY  - JOUR
+TI  - Comparison of Molecular Mechanics, Semi-Empirical Quantum Mechanical, and Density Functional Theory Methods for Scoring Protein–Ligand Interactions
+AU  - Yilmazer, Nusret Duygu
+AU  - Korth, Martin
+T2  - The Journal of Physical Chemistry B
+DA  - 2013/07/11/
+PY  - 2013
+DO  - 10.1021/jp402719k
+DP  - DOI.org (Crossref)
+VL  - 117
+IS  - 27
+SP  - 8075
+EP  - 8084
+J2  - J. Phys. Chem. B
+LA  - en
+SN  - 1520-6106, 1520-5207
+UR  - https://pubs.acs.org/doi/10.1021/jp402719k
+Y2  - 2022/11/20/20:29:48
+ER  - 
+
+TY  - JOUR
+TI  - Developing adaptive QM/MM computer simulations for electrochemistry
+AU  - Dohm, Sebastian
+AU  - Spohr, Eckhard
+AU  - Korth, Martin
+T2  - Journal of Computational Chemistry
+DA  - 2017/01/05/
+PY  - 2017
+DO  - 10.1002/jcc.24513
+DP  - DOI.org (Crossref)
+VL  - 38
+IS  - 1
+SP  - 51
+EP  - 58
+J2  - J. Comput. Chem.
+LA  - en
+SN  - 01928651
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.24513
+Y2  - 2022/11/20/20:29:48
+L1  - https://d-nb.info/1140739468/04
+ER  - 
+
