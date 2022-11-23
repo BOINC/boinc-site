@@ -1,0 +1,178 @@
+TY  - JOUR
+TI  - A BOINC based, citizen-science project for pixel spectral energy distribution fitting of resolved galaxies in multi-wavelength surveys
+AU  - Vinsen, Kevin
+AU  - Thilker, David
+T2  - Astronomy and Computing
+DA  - 2013/11//
+PY  - 2013
+DO  - 10.1016/j.ascom.2013.10.001
+DP  - DOI.org (Crossref)
+VL  - 3-4
+SP  - 1
+EP  - 12
+J2  - Astronomy and Computing
+LA  - en
+SN  - 22131337
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S2213133713000280
+Y2  - 2022/11/23/21:19:43
+L1  - https://arxiv.org/pdf/1306.1618
+ER  - 
+
+TY  - JOUR
+TI  - The Pan-STARRS1 Surveys
+AU  - Chambers, K. C.
+AU  - Magnier, E. A.
+AU  - Metcalfe, N.
+AU  - Flewelling, H. A.
+AU  - Huber, M. E.
+AU  - Waters, C. Z.
+AU  - Denneau, L.
+AU  - Draper, P. W.
+AU  - Farrow, D.
+AU  - Finkbeiner, D. P.
+AU  - Holmberg, C.
+AU  - Koppenhoefer, J.
+AU  - Price, P. A.
+AU  - Rest, A.
+AU  - Saglia, R. P.
+AU  - Schlafly, E. F.
+AU  - Smartt, S. J.
+AU  - Sweeney, W.
+AU  - Wainscoat, R. J.
+AU  - Burgett, W. S.
+AU  - Chastel, S.
+AU  - Grav, T.
+AU  - Heasley, J. N.
+AU  - Hodapp, K. W.
+AU  - Jedicke, R.
+AU  - Kaiser, N.
+AU  - Kudritzki, R. -P.
+AU  - Luppino, G. A.
+AU  - Lupton, R. H.
+AU  - Monet, D. G.
+AU  - Morgan, J. S.
+AU  - Onaka, P. M.
+AU  - Shiao, B.
+AU  - Stubbs, C. W.
+AU  - Tonry, J. L.
+AU  - White, R.
+AU  - Bañados, E.
+AU  - Bell, E. F.
+AU  - Bender, R.
+AU  - Bernard, E. J.
+AU  - Boegner, M.
+AU  - Boffi, F.
+AU  - Botticella, M. T.
+AU  - Calamida, A.
+AU  - Casertano, S.
+AU  - Chen, W. -P.
+AU  - Chen, X.
+AU  - Cole, S.
+AU  - Deacon, N.
+AU  - Frenk, C.
+AU  - Fitzsimmons, A.
+AU  - Gezari, S.
+AU  - Gibbs, V.
+AU  - Goessl, C.
+AU  - Goggia, T.
+AU  - Gourgue, R.
+AU  - Goldman, B.
+AU  - Grant, P.
+AU  - Grebel, E. K.
+AU  - Hambly, N. C.
+AU  - Hasinger, G.
+AU  - Heavens, A. F.
+AU  - Heckman, T. M.
+AU  - Henderson, R.
+AU  - Henning, T.
+AU  - Holman, M.
+AU  - Hopp, U.
+AU  - Ip, W. -H.
+AU  - Isani, S.
+AU  - Jackson, M.
+AU  - Keyes, C. D.
+AU  - Koekemoer, A. M.
+AU  - Kotak, R.
+AU  - Le, D.
+AU  - Liska, D.
+AU  - Long, K. S.
+AU  - Lucey, J. R.
+AU  - Liu, M.
+AU  - Martin, N. F.
+AU  - Masci, G.
+AU  - McLean, B.
+AU  - Mindel, E.
+AU  - Misra, P.
+AU  - Morganson, E.
+AU  - Murphy, D. N. A.
+AU  - Obaika, A.
+AU  - Narayan, G.
+AU  - Nieto-Santisteban, M. A.
+AU  - Norberg, P.
+AU  - Peacock, J. A.
+AU  - Pier, E. A.
+AU  - Postman, M.
+AU  - Primak, N.
+AU  - Rae, C.
+AU  - Rai, A.
+AU  - Riess, A.
+AU  - Riffeser, A.
+AU  - Rix, H. W.
+AU  - Röser, S.
+AU  - Russel, R.
+AU  - Rutz, L.
+AU  - Schilbach, E.
+AU  - Schultz, A. S. B.
+AU  - Scolnic, D.
+AU  - Strolger, L.
+AU  - Szalay, A.
+AU  - Seitz, S.
+AU  - Small, E.
+AU  - Smith, K. W.
+AU  - Soderblom, D. R.
+AU  - Taylor, P.
+AU  - Thomson, R.
+AU  - Taylor, A. N.
+AU  - Thakar, A. R.
+AU  - Thiel, J.
+AU  - Thilker, D.
+AU  - Unger, D.
+AU  - Urata, Y.
+AU  - Valenti, J.
+AU  - Wagner, J.
+AU  - Walder, T.
+AU  - Walter, F.
+AU  - Watters, S. P.
+AU  - Werner, S.
+AU  - Wood-Vasey, W. M.
+AU  - Wyse, R.
+AB  - Pan-STARRS1 has carried out a set of distinct synoptic imaging sky surveys including the $3π$ Steradian Survey and the Medium Deep Survey in 5 bands ($grizy_{P1}$). The mean 5$σ$ point source limiting sensitivities in the stacked 3$π$ Steradian Survey in $grizy_{P1}$ are (23.3, 23.2, 23.1, 22.3, 21.4) respectively. The upper bound on the systematic uncertainty in the photometric calibration across the sky is 7-12 millimag depending on the bandpass. The systematic uncertainty of the astrometric calibration using the Gaia frame comes from a comparison of the results with Gaia: the standard deviation of the mean and median residuals ($ Δra, Δdec $) are (2.3, 1.7) milliarcsec, and (3.1, 4.8) milliarcsec respectively. The Pan-STARRS system and the design of the PS1 surveys are described and an overview of the resulting image and catalog data products and their basic characteristics are described together with a summary of important results. The images, reduced data products, and derived data products from the Pan-STARRS1 surveys are available to the community from the Mikulski Archive for Space Telescopes (MAST) at STScI.
+DA  - 2016///
+PY  - 2016
+DO  - 10.48550/ARXIV.1612.05560
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1612.05560
+Y2  - 2022/11/23/21:19:43
+KW  - Astrophysics of Galaxies (astro-ph.GA)
+KW  - Earth and Planetary Astrophysics (astro-ph.EP)
+KW  - FOS: Physical sciences
+KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+KW  - Solar and Stellar Astrophysics (astro-ph.SR)
+ER  - 
+
+TY  - JOUR
+TI  - Early science from the Pan-STARRS1 Optical Galaxy Survey (POGS): Maps of stellar mass and star formation rate surface density obtained from distributed-computing pixel-SED fitting
+AU  - Thilker, David A.
+AU  - Vinsen, K.
+AU  - Galaxy Properties Key Project, PS1
+AB  - To measure resolved galactic physical properties unbiased by the mask of recent star formation and dust features, we are conducting a citizen-scientist enabled nearby galaxy survey based on the unprecedented optical (g,r,i,z,y) imaging from Pan-STARRS1 (PS1). The PS1 Optical Galaxy Survey (POGS) covers 3π steradians (75% of the sky), about twice the footprint of SDSS. Whenever possible we also incorporate ancillary multi-wavelength image data from the ultraviolet (GALEX) and infrared (WISE, Spitzer) spectral regimes. For each cataloged nearby galaxy with a reliable redshift estimate of z < 0.05 - 0.1 (dependent on donated CPU power), publicly-distributed computing is being harnessed to enable pixel-by-pixel spectral energy distribution (SED) fitting, which in turn provides maps of key physical parameters such as the local stellar mass surface density, crude star formation history, and dust attenuation. With pixel SED fitting output we will then constrain parametric models of galaxy structure in a more meaningful way than ordinarily achieved. In particular, we will fit multi-component (e.g. bulge, bar, disk) galaxy models directly to the distribution of stellar mass rather than surface brightness in a single band, which is often locally biased. We will also compute non-parametric measures of morphology such as concentration, asymmetry using the POGS stellar mass and SFR surface density images. We anticipate studying how galactic substructures evolve by comparing our results with simulations and against more distant imaging surveys, some of which which will also be processed in the POGS pipeline. The reliance of our survey on citizen-scientist volunteers provides a world-wide opportunity for education. We developed an interactive interface which highlights the science being produced by each volunteer’s own CPU cycles. The POGS project has already proven popular amongst the public, attracting about 5000 volunteers with nearly 12,000 participating computers, and is growing rapidly.
+DA  - 2014/01/01/
+PY  - 2014
+DP  - NASA ADS
+VL  - 223
+SP  - 116.11
+ST  - Early science from the Pan-STARRS1 Optical Galaxy Survey (POGS)
+UR  - https://ui.adsabs.harvard.edu/abs/2014AAS...22311611T
+Y2  - 2022/11/23/21:22:44
+ER  - 
+
