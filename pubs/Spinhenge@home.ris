@@ -1,0 +1,56 @@
+TY  - JOUR
+TI  - Multiple nearest-neighbor exchange model for the frustrated magnetic molecules Mo72Fe30 and Mo72Cr30
+AU  - Schröder, Christian
+AU  - Prozorov, Ruslan
+AU  - Kögerler, Paul
+AU  - Vannette, Matthew D.
+AU  - Fang, Xikui
+AU  - Luban, Marshall
+AU  - Matsuo, Akira
+AU  - Kindo, Koichi
+AU  - Müller, Achim
+AU  - Todea, Ana Maria
+AB  - Our measurements of the differential susceptibility dM/dH of the frustrated magnetic molecules Mo72Fe30 and Mo72Cr30 reveal a pronounced dependence on magnetic field (H) and temperature (T) in the low H - low T regime, contrary to the predictions of existing models. Excellent agreement with experiment is achieved upon formulating a nearest-neighbor classical Heisenberg model where the 60 nearest-neighbor exchange interactions in each molecule, rather than being identical as has been assumed heretofore, are described by a two-parameter probability distribution of values of the exchange constant. We suggest that the probability distribution provides a convenient phenomenological platform for summarizing the combined effects of multiple microscopic mechanisms that disrupt the idealized picture of a Heisenberg model based on a single value of the nearest-neighbor exchange constant.
+DA  - 2008///
+PY  - 2008
+DO  - 10.48550/ARXIV.0801.2065
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/0801.2065
+Y2  - 2022/11/23/20:30:27
+KW  - Atomic and Molecular Clusters (physics.atm-clus)
+KW  - FOS: Physical sciences
+ER  - 
+
+TY  - JOUR
+TI  - QMC Goes BOINC: Using Public Resource Computing to Perform Quantum Monte Carlo Calculations
+AU  - Rainey, Cameron
+AU  - Engelhardt, Larry
+AU  - Schröder, Christian
+AU  - Hilbig, Thomas
+AB  - Theoretical modeling of magnetic molecules traditionally involves the diagonalization of quantum Hamiltonian matrices. However, as the complexity of these molecules increases, the matrices become so large that this process becomes unusable. An additional challenge to this modeling is that many repetitive calculations must be performed, further increasing the need for computing power. Both of these obstacles can be overcome by using a quantum Monte Carlo (QMC) method and a distributed computing project. We have recently implemented a QMC method within the Spinhenge@home project, which is a Public Resource Computing (PRC) project where private citizens allow part-time usage of their PCs for scientific computing. The use of PRC for scientific computing will be described in detail, as well as how you can contribute to the project. See, e.g., L. Engelhardt, et. al., Angew. Chem. Int. Ed. 47, 924 (2008). C. Schröoder, in Distributed & Grid Computing - Science Made Transparent for Everyone. Principles, Applications and Supporting Communities. (Weber, M.H.W., ed., 2008). Project URL: http://spin.fh-bielefeld.de
+DA  - 2008/10/01/
+PY  - 2008
+DP  - NASA ADS
+VL  - 75
+SP  - HA.055
+ST  - QMC Goes BOINC
+UR  - https://ui.adsabs.harvard.edu/abs/2008APS..SES.HA055R
+Y2  - 2022/11/23/20:30:59
+ER  - 
+
+TY  - JOUR
+TI  - How to use 100,000 PCs for studying magnetism
+AU  - Powell, George
+AU  - Engelhardt, Larry
+AU  - Hilbig, Thomas
+AU  - Schroder, Christian
+AB  - ``Public resource computing'' refers to the use of volunteered processing time on (otherwise idle) computer processors at remote locations. We have recently incorporated the use of public resource computing into quantum mechanical calculations that are relevant to the study of magnetic molecules. Specifically, these calculations make use of a ``quantum Monte Carlo'' method, allowing the simulation of systems that are much more complex than those that can be studied using more conventional techniques. In this talk, we will introduce the basic principles of both the calculation method and the use of public resource computing.
+DA  - 2009/11/01/
+PY  - 2009
+DP  - NASA ADS
+VL  - 76
+SP  - NA.010
+UR  - https://ui.adsabs.harvard.edu/abs/2009APS..SES.NA010P
+Y2  - 2022/11/23/20:31:36
+ER  - 
+
