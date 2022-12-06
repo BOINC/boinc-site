@@ -104,6 +104,7 @@ function show_links() {
         '.tra("Learn").'
         </font>
         <br><a href="projects.php">'.tra("Science projects").'</a>
+        <br><a href="pubs.php">'.tra("Science publications").'</a>
         <br><a href="https://boinc.berkeley.edu/wiki/User_manual"><span class=nobr>'.tra("User manual").'</span></a> 
         <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
         <br><a btn-primary href=https://boinc.berkeley.edu/trac/wiki/WebResources><span class=nobr>'.tra("Web resources").'</span></a> 

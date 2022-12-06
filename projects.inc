@@ -279,18 +279,18 @@ $astro_phys_chem = array(
 //            "Improve radio astronomy algorithms",
 //            array(KW_ASTRONOMY, KW_OCEANIA, KW_AUSTRALIA)
 //        ),
-//        project(
-//            PROJ_ASTEROIDS,
-//            "Asteroids@home",
-//            "http://asteroidsathome.net/boinc/",
-//            "Charles University in Prague",
-//            tra("Astrophysics"),
-//            tra("The aim of the project is to derive shapes and spin for a significant part of the asteroid population. As input data, we use any asteroid photometry that is available. The results are asteroid convex shape models with the direction of the spin axis and the rotation period."),
-//            "asteroids_logo.jpg",
-//            "",
-//            "Study the properties of asteroids",
-//            array(KW_ASTRONOMY, KW_EUROPE, KW_CZECH, KW_CHARLES_PRAGUE)
-//        ),
+        project(
+            PROJ_ASTEROIDS,
+            "Asteroids@home",
+            "http://asteroidsathome.net/boinc/",
+            "Charles University in Prague",
+            tra("Astrophysics"),
+            tra("The aim of the project is to derive shapes and spin for a significant part of the asteroid population. As input data, we use any asteroid photometry that is available. The results are asteroid convex shape models with the direction of the spin axis and the rotation period."),
+            "asteroids_logo.jpg",
+            "",
+            "Study the properties of asteroids",
+            array(KW_ASTRONOMY, KW_EUROPE, KW_CZECH, KW_CHARLES_PRAGUE)
+        ),
         project(
             PROJ_COSMOLOGY,
             "Cosmology@Home",

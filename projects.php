@@ -23,7 +23,7 @@ read its web site and think about:
 <li> Does the project clearly describe its goals?
     Are these goals important and beneficial?
 <li> Has the project published results in peer-reviewed
-journals or conferences?  See <a href=/wiki/Publications_by_BOINC_projects>
+journals or conferences?  See <a href=pubs.php>
 A list of scientific publications of BOINC projects</a>.
 <li> Do you trust the project to use proper security practices?
 <li> Who owns the results of the computation?

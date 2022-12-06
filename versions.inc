@@ -118,46 +118,68 @@ $windows = array(
 
 // --------------- Mac Intel 64 or ARM --------------------
 
+$m720_4 = array(
+    "num"=>"7.20.4",
+    "status"=>"Recommended version (MacOS 10.13+)",
+    "file"=>"boinc_7.20.4_macOSX_universal.zip",
+    "date"=>"12 Nov 2022",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+);
+
+$m720_4c = array(
+    "num"=>"7.20.4",
+    "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
+    "file"=>"boinc_7.20.4_universal-apple-darwin.dmg",
+    "date"=>"12 Nov 2022",
+    "type"=>"bare_core",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+);
+
+// Should we not remove 7.20.2, which is latest version that can run on MacOS 10.10 ??
 $m720_2 = array(
     "num"=>"7.20.2",
-    "status"=>"Recommended version",
+    "status"=>"Older version (MacOS 10.10 - MacOS 12.x)",
     "file"=>"boinc_7.20.2_macOSX_universal.zip",
     "date"=>"19 Jul 2022",
     "type"=>"mac_advanced",
     "min_os_version"=>"101000",
-    "max_os_version"=>"999999",
+    "max_os_version"=>"129999",
 );
 
+// Should we not remove 7.20.2, which is latest version that can run on MacOS 10.10 ??
 $m720_2c = array(
     "num"=>"7.20.2",
-    "status"=>"Recommended version (Unix command-line version)",
+    "status"=>"Older version (Unix command-line version) (MacOS 10.10 - MacOS 12.x)",
     "file"=>"boinc_7.20.2_universal-apple-darwin.dmg",
     "date"=>"19 Jul 2022",
     "type"=>"bare_core",
     "min_os_version"=>"101000",
-    "max_os_version"=>"999999",
+    "max_os_version"=>"129999",
 );
 
-// DO not remove 7.16.21, which is latest version that can run on MacOS 10.9
+// Do not remove 7.16.21, which is latest version that can run on MacOS 10.9
 $m716_21 = array(
     "num"=>"7.16.21",
-    "status"=>"Older version (MacOS 10.9+)",
+    "status"=>"Older version (MacOS 10.9 - MacOS 12.x)",
     "file"=>"boinc_7.16.21_macOSX_universal.zip",
     "date"=>"23 Mar 2022",
     "type"=>"mac_advanced",
     "min_os_version"=>"100900",
-    "max_os_version"=>"999999",
+    "max_os_version"=>"129999",
 );
 
-// DO not remove 7.16.21, which is latest version that can run on MacOS 10.9
+// Do not remove 7.16.21, which is latest version that can run on MacOS 10.9
 $m716_21c = array(
     "num"=>"7.16.21",
-    "status"=>"Older version (Unix command-line version) (MacOS 10.9+)",
+    "status"=>"Older version (Unix command-line version) (MacOS 10.9 - MacOS 12.x)",
     "file"=>"boinc_7.16.21_universal-apple-darwin.dmg",
     "date"=>"23 Mar 2022",
     "type"=>"bare_core",
     "min_os_version"=>"100900",
-    "max_os_version"=>"999999",
+    "max_os_version"=>"129999",
 );
 
 // Mac Universal builds contain code for both Intel 64 and 
@@ -172,6 +194,8 @@ $mac = array(
     "description"=>"MacOS 10.10+",
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
+        $m720_4,
+        $m720_4c, // SHould we keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12?
         $m720_2,
         $m720_2c, // Keep 7.16.21, which is latest version that can run on MacOS 10.9
         $m716_21,
@@ -184,9 +208,11 @@ $mac_arm = array(
     "description"=>"MacOS 10.10+",
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
- 	$m720_2,
-	$m720_2c,
- 	$m716_21,  // Keep 7.16.21, which is latest version that can run on MacOS 10.9
+        $m720_4,
+        $m720_4c, // SHould we keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12?
+        $m720_2,
+        $m720_2c,
+        $m716_21,  // Keep 7.16.21, which is latest version that can run on MacOS 10.9
         $m716_21c,
     )
 );
