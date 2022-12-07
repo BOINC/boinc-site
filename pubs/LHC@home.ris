@@ -4503,41 +4503,6 @@ Y2  - 2022/12/06/10:42:47
 L1  - https://link.springer.com/content/pdf/10.1140%2Fepjc%2Fs10052-016-4135-4.pdf
 ER  - 
 
-TY  - JOUR
-TI  - Action of propranolol on mitochondrial functions--effects on energized ion fluxes in the presence of valinomycin
-AU  - Järvisalo, J.
-AU  - Saris, N. E.
-T2  - Biochemical Pharmacology
-DA  - 1975/09/15/
-PY  - 1975
-DO  - 10.1016/0006-2952(75)90009-x
-DP  - PubMed
-VL  - 24
-IS  - 18
-SP  - 1701
-EP  - 1705
-J2  - Biochem Pharmacol
-LA  - eng
-SN  - 0006-2952
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/13
-KW  - Adenosine Triphosphatases
-KW  - Adenosine Triphosphate
-KW  - Animals
-KW  - Hydrogen-Ion Concentration
-KW  - In Vitro Techniques
-KW  - Mitochondria
-KW  - Mitochondria, Liver
-KW  - Mitochondrial Swelling
-KW  - Nigericin
-KW  - Oxidative Phosphorylation
-KW  - Oxygen Consumption
-KW  - Potassium
-KW  - Propranolol
-KW  - Rats
-KW  - Time Factors
-KW  - Valinomycin
-ER  - 
-
 TY  - GEN
 TI  - Revised QCD effects on the Z $\to b\bar{b}$ forward-backward asymmetry
 AU  - d'Enterria, David
@@ -4628,6 +4593,7 @@ LA  - en
 SN  - 1029-8479
 UR  - http://link.springer.com/10.1007/JHEP03(2015)148
 Y2  - 2022/12/06/13:12:29
+L1  - https://arxiv.org/pdf/1412.6259
 ER  - 
 
 TY  - JOUR
@@ -4653,6 +4619,7 @@ SN  - 01689002
 ST  - Future hadron colliders
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S0168900214008523
 Y2  - 2022/12/06/13:12:29
+L1  - https://www.sciencedirect.com/science/article/pii/S0168900214008523/pdfft?md5=abbb0911247fb84685c50062d4c88ee3&pid=1-s2.0-S0168900214008523-main.pdf&isDTMRedir=Y
 ER  - 
 
 TY  - JOUR
@@ -4680,6 +4647,7 @@ LA  - en
 SN  - 00104655
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S0010465515000442
 Y2  - 2022/12/06/13:12:29
+L1  - https://bib-pubdb1.desy.de/record/208575/files/1410.3012v1.pdf
 ER  - 
 
 TY  - JOUR
@@ -4701,6 +4669,7 @@ LA  - en
 SN  - 1434-6044, 1434-6052
 UR  - http://link.springer.com/10.1140/epjc/s10052-014-2831-5
 Y2  - 2022/12/06/13:12:29
+L1  - https://cds.cern.ch/record/1648140/files/scoap.pdf
 ER  - 
 
 TY  - JOUR
