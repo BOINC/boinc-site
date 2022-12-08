@@ -86,10 +86,10 @@ Y2  - 2022/11/19/19:43:48
 L1  - https://eprint.iacr.org/2015/530.pdf
 L2  - https://hal.archives-ouvertes.fr/hal-01183066
 KW  - Cryptanalysis
-KW  - Free-start collision
 KW  - GPU implementation
 KW  - Hash function
 KW  - SHA-1
+KW  - Free-start collision
 ER  - 
 
 TY  - THES
@@ -197,6 +197,7 @@ EP  - 69
 LA  - en
 PB  - Springer
 SN  - 978-3-642-03356-8
+UR  - https://link.springer.com/chapter/10.1007/978-3-642-03356-8_4
 L1  - https://link.springer.com/content/pdf/10.1007%2F978-3-642-03356-8_4.pdf
 KW  - certificate
 KW  - collision attack
