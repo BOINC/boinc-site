@@ -240,25 +240,6 @@ Y2  - 2022/11/10/22:56:57
 L1  - https://pure.iiasa.ac.at/id/eprint/15923/1/AS_manuscript_revised_2nd.pdf
 ER  - 
 
-TY  - RPRT
-TI  - Larger spatial footprint of wintertime total precipitation extremes in a warmer climate
-AU  - Bevacqua, Emanuele
-AU  - Shepherd, Ted
-AU  - Watson, Peter A. G.
-AU  - Sparrow, Sarah
-AU  - Wallom, David C H
-AU  - Mitchell, Daniel M
-DA  - 2020/12/11/
-PY  - 2020
-DP  - DOI.org (Crossref)
-LA  - en
-M3  - preprint
-PB  - Climatology (Global Change)
-UR  - http://www.essoar.org/doi/10.1002/essoar.10505310.1
-Y2  - 2022/11/10/22:56:57
-L1  - https://ora.ox.ac.uk/objects/uuid:8232f50d-c64c-45ae-bbcf-f3cf6defb2a2/download_file?safe_filename=VoR_EBevacqua_GeophysResLett_Apr2021_48_8_2020GL091990.pdf&file_format=pdf&type_of_work=Journal+article
-ER  - 
-
 TY  - JOUR
 TI  - Anthropogenic climate change contribution to wildfire-prone weather conditions in the Cerrado and Arc of deforestation
 AU  - Li, Sihan
@@ -354,6 +335,7 @@ LA  - en
 SN  - 2169-897X, 2169-8996
 UR  - https://onlinelibrary.wiley.com/doi/abs/10.1029/2018JD030085
 Y2  - 2022/11/10/22:56:57
+L1  - https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018JD030085
 L1  - https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018JD030085
 L1  - https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018JD030085
 ER  - 
@@ -2427,6 +2409,7 @@ SN  - 1748-9326
 ST  - Attributing human influence on the July 2017 Chinese heatwave
 UR  - https://dx.doi.org/10.1088/1748-9326/aae356
 Y2  - 2022/11/12/17:36:21
+L1  - https://www.pure.ed.ac.uk/ws/files/75446627/75446505._Published_AAM.pdf
 L1  - https://iopscience.iop.org/article/10.1088/1748-9326/aae356/pdf
 ER  - 
 
@@ -2454,6 +2437,7 @@ SN  - 1861-9533
 UR  - https://doi.org/10.1007/s00376-018-7258-8
 Y2  - 2022/11/12/17:37:25
 L1  - https://link.springer.com/content/pdf/10.1007%2Fs00376-018-7258-8.pdf
+L1  - https://www.pure.ed.ac.uk/ws/files/64322675/Freychet2018_Article_ImpactsOfAnthropogenicForcings.pdf
 KW  - anthropogenic impact
 KW  - climate risk
 KW  - ENSO
@@ -2809,42 +2793,6 @@ L2  - https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2008WR007499
 KW  - climate change
 KW  - probabilistic climate change predictions
 KW  - water resources management
-ER  - 
-
-TY  - JOUR
-TI  - Perspectives on the causes of exceptionally low 2015 snowpack in the western United States
-AU  - Mote, Philip W.
-AU  - Rupp, David E.
-AU  - Li, Sihan
-AU  - Sharp, Darrin J.
-AU  - Otto, Friederike
-AU  - Uhe, Peter F.
-AU  - Xiao, Mu
-AU  - Lettenmaier, Dennis P.
-AU  - Cullen, Heidi
-AU  - Allen, Myles R.
-T2  - Geophysical Research Letters
-AB  - Augmenting previous papers about the exceptional 2011–2015 California drought, we offer new perspectives on the “snow drought” that extended into Oregon in 2014 and Washington in 2015. Over 80% of measurement sites west of 115°W experienced record low snowpack in 2015, and we estimate a return period of 400–1000 years for California's snowpack under the questionable assumption of stationarity. Hydrologic modeling supports the conclusion that 2015 was the most severe on record by a wide margin. Using a crowd-sourced superensemble of regional climate model simulations, we show that both human influence and sea surface temperature (SST) anomalies contributed strongly to the risk of snow drought in Oregon and Washington: the contribution of SST anomalies was about twice that of human influence. By contrast, SSTs and humans appear to have played a smaller role in creating California's snow drought. In all three states, the anthropogenic effect on temperature exacerbated the snow drought.
-DA  - 2016///
-PY  - 2016
-DO  - 10.1002/2016GL069965
-DP  - Wiley Online Library
-VL  - 43
-IS  - 20
-SP  - 10,980
-EP  - 10,988
-LA  - en
-SN  - 1944-8007
-UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/2016GL069965
-Y2  - 2022/11/12/18:28:59
-L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016GL069965
-L2  - https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016GL069965
-KW  - regional climate model
-KW  - attribution
-KW  - drought
-KW  - snow drought
-KW  - superensemble
-KW  - weather@home
 ER  - 
 
 TY  - JOUR
@@ -3267,5 +3215,465 @@ SN  - 1748-9326
 UR  - https://iopscience.iop.org/article/10.1088/1748-9326/11/11/114009
 Y2  - 2022/11/12/19:19:56
 L1  - https://iopscience.iop.org/article/10.1088/1748-9326/11/11/114009/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Identifying local‐scale meteorological conditions favorable to large fires in Brazil
+AU  - Li, Sihan
+AU  - Rifai, Sami
+AU  - Anderson, Liana O.
+AU  - Sparrow, Sarah
+T2  - Climate Resilience and Sustainability
+DA  - 2022/02//
+PY  - 2022
+DO  - 10.1002/cli2.11
+DP  - DOI.org (Crossref)
+VL  - 1
+IS  - 1
+J2  - Climate Resilience
+LA  - en
+SN  - 2692-4587, 2692-4587
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/cli2.11
+Y2  - 2022/12/19/13:13:43
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cli2.11
+ER  - 
+
+TY  - JOUR
+TI  - Larger Spatial Footprint of Wintertime Total Precipitation Extremes in a Warmer Climate
+AU  - Bevacqua, Emanuele
+AU  - Shepherd, Theodore G.
+AU  - Watson, Peter A. G.
+AU  - Sparrow, Sarah
+AU  - Wallom, David
+AU  - Mitchell, Dann
+T2  - Geophysical Research Letters
+DA  - 2021/04/28/
+PY  - 2021
+DO  - 10.1029/2020GL091990
+DP  - DOI.org (Crossref)
+VL  - 48
+IS  - 8
+J2  - Geophysical Research Letters
+LA  - en
+SN  - 0094-8276, 1944-8007
+UR  - https://onlinelibrary.wiley.com/doi/10.1029/2020GL091990
+Y2  - 2022/12/19/13:13:43
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2020GL091990
+ER  - 
+
+TY  - JOUR
+TI  - Attribution of the Australian bushfire risk to anthropogenic climate change
+AU  - van Oldenborgh, Geert Jan
+AU  - Krikken, Folmer
+AU  - Lewis, Sophie
+AU  - Leach, Nicholas J.
+AU  - Lehner, Flavio
+AU  - Saunders, Kate R.
+AU  - van Weele, Michiel
+AU  - Haustein, Karsten
+AU  - Li, Sihan
+AU  - Wallom, David
+AU  - Sparrow, Sarah
+AU  - Arrighi, Julie
+AU  - Singh, Roop K.
+AU  - van Aalst, Maarten K.
+AU  - Philip, Sjoukje Y.
+AU  - Vautard, Robert
+AU  - Otto, Friederike E. L.
+T2  - Natural Hazards and Earth System Sciences
+AB  - Abstract. Disastrous bushfires during the last months of 2019 and January 2020 affected Australia, raising the question to what extent the risk of these fires was exacerbated by anthropogenic climate change. To answer the question for southeastern Australia, where fires were particularly severe, affecting people and ecosystems, we use a physically based index of fire weather, the Fire Weather Index; long-term observations of heat and drought; and 11 large ensembles of state-of-the-art climate models. We find large trends in the Fire Weather Index in the fifth-generation European Centre for Medium-Range Weather Forecasts (ECMWF) Atmospheric Reanalysis (ERA5) since 1979 and a smaller but significant increase by at least 30 % in the models. Therefore, we find that climate change has induced a higher weather-induced risk of such an extreme fire season. This trend is mainly driven by the increase of temperature extremes. In agreement with previous analyses we find that heat extremes have become more likely by at least a factor of 2 due to the long-term warming trend. However, current climate models overestimate variability and tend to underestimate the long-term trend in these extremes, so the true change in the likelihood of extreme heat could be larger, suggesting that the attribution of the increased fire weather risk is a conservative estimate. We do not find an attributable trend in either extreme annual drought or the driest month of the fire season, September–February. The observations, however, show a weak drying trend in the annual mean. For the 2019/20 season more than half of the July–December drought was driven by record excursions of the Indian Ocean Dipole and Southern Annular Mode, factors which are included in the analysis here. The study reveals the complexity of the 2019/20 bushfire event, with some but not all drivers showing an imprint of anthropogenic climate change. Finally, the study concludes with a qualitative review of various vulnerability and exposure factors that each play a role, along with the hazard in increasing or decreasing the overall impact of the bushfires.
+DA  - 2021/03/11/
+PY  - 2021
+DO  - 10.5194/nhess-21-941-2021
+DP  - DOI.org (Crossref)
+VL  - 21
+IS  - 3
+SP  - 941
+EP  - 960
+J2  - Nat. Hazards Earth Syst. Sci.
+LA  - en
+SN  - 1684-9981
+UR  - https://nhess.copernicus.org/articles/21/941/2021/
+Y2  - 2022/12/19/13:13:43
+L1  - https://nhess.copernicus.org/articles/21/941/2021/nhess-21-941-2021.pdf
+ER  - 
+
+TY  - JOUR
+TI  - A 1-Day Extreme Rainfall Event in Tasmania: Process Evaluation and Long Tail Attribution
+AU  - Tozer, Carly R.
+AU  - Risbey, James S.
+AU  - Grose, Michael
+AU  - Monselesan, Didier P.
+AU  - Squire, Dougal T.
+AU  - Black, Amanda S.
+AU  - Richardson, Doug
+AU  - Sparrow, Sarah N.
+AU  - Li, Sihan
+AU  - Wallom, David
+T2  - Bulletin of the American Meteorological Society
+DA  - 2020/01//
+PY  - 2020
+DO  - 10.1175/BAMS-D-19-0219.1
+DP  - DOI.org (Crossref)
+VL  - 101
+IS  - 1
+SP  - S123
+EP  - S128
+SN  - 0003-0007, 1520-0477
+ST  - A 1-Day Extreme Rainfall Event in Tasmania
+UR  - https://journals.ametsoc.org/view/journals/bams/101/1/bams-d-19-0219.1.xml
+Y2  - 2022/12/19/13:13:43
+L1  - https://journals.ametsoc.org/downloadpdf/journals/bams/101/1/bams-d-19-0219.1.pdf
+ER  - 
+
+TY  - RPRT
+TI  - Improving climate model accuracy by exploring parameter space with an O(10&lt;sup&gt;5&lt;/sup&gt;) member ensemble and emulator
+AU  - Li, Sihan
+AU  - Rupp, David E.
+AU  - Hawkins, Linnia
+AU  - Mote, Philip W.
+AU  - McNeall, Doug
+AU  - Sparrow, Sarah N.
+AU  - Wallom, David C. H.
+AU  - Betts, Richard A.
+AU  - Wettstein, Justin J.
+AB  - Abstract. Understanding the unfolding challenges of climate change relies on climate models, many of which have large summer warm and dry biases over Northern Hemisphere continental mid-latitudes. This work, using the example of the model used in the updated version of the weather@home distributed climate model framework, shows the potential for improving climate model simulations through a multi-phased parameter refinement approach, particularly over northwestern United States(NWUS). Each phase consists of 1) creating a perturbed physics ensemble with the coupled global – regional atmospheric model, 2) building statistical emulators that estimate climate metrics as functions of parameter values, 3) and using the emulators to further refine the parameter space. The refinement process includes sensitivity analyses to identify the most influential parameters for various model output metrics; results are then used to cull parameters with little influence. Three phases of this iterative process are carried out before the results are considered to be satisfactory; that is, a handful of parameter sets are identified that meet acceptable bias reduction criteria. Results not only indicate that 74 % of the NWUS regional warm biases can be reduced by refining global atmospheric parameters that control convection and hydrometeor transport, and land surface parameters that affect plant photosynthesis, transpiration and evaporation, but also suggest that this iterative approach to perturbed physics has an important role to play in the evolution of physical parameterizations.
+DA  - 2018/10/23/
+PY  - 2018
+DP  - DOI.org (Crossref)
+M3  - preprint
+PB  - Climate and Earth System Modeling
+UR  - https://gmd.copernicus.org/preprints/gmd-2018-198/gmd-2018-198.pdf
+Y2  - 2022/12/19/13:13:43
+L1  - https://gmd.copernicus.org/articles/12/3017/2019/gmd-12-3017-2019.pdf
+ER  - 
+
+TY  - JOUR
+TI  - On High Precipitation in Mozambique, Zimbabwe and Zambia in February 2018
+AU  - Fučkar, Neven Stjepan
+AU  - Otto, Friederike E.L.
+AU  - Lehner, Flavio
+AU  - Pinto, Izidine
+AU  - Sparrow, Sarah
+AU  - Li, Sihan
+AU  - Wallom, David
+T2  - Bulletin of the American Meteorological Society
+DA  - 2020/01//
+PY  - 2020
+DO  - 10.1175/BAMS-D-19-0162.1
+DP  - DOI.org (Crossref)
+VL  - 101
+IS  - 1
+SP  - S47
+EP  - S52
+SN  - 0003-0007, 1520-0477
+UR  - https://journals.ametsoc.org/view/journals/bams/101/1/bams-d-19-0162.1.xml
+Y2  - 2022/12/19/13:13:43
+L1  - https://ora.ox.ac.uk/objects/uuid:8baf7b35-401d-4278-867e-47cb58ab8106/files/rfq977t797
+ER  - 
+
+TY  - JOUR
+TI  - Anthropogenic Warming has Substantially Increased the Likelihood of July 2017–Like Heat Waves over Central Eastern China
+AU  - Chen, Yang
+AU  - Chen, Wei
+AU  - Su, Qin
+AU  - Luo, Feifei
+AU  - Sparrow, Sarah
+AU  - Wallom, David
+AU  - Tian, Fangxing
+AU  - Dong, Buwen
+AU  - Tett, Simon F. B.
+AU  - Lott, Fraser C.
+T2  - Bulletin of the American Meteorological Society
+DA  - 2019/01//
+PY  - 2019
+DO  - 10.1175/BAMS-D-18-0087.1
+DP  - DOI.org (Crossref)
+VL  - 100
+IS  - 1
+SP  - S91
+EP  - S95
+SN  - 0003-0007, 1520-0477
+UR  - https://journals.ametsoc.org/view/journals/bams/100/1/bams-d-18-0087.1.xml
+Y2  - 2022/12/19/13:13:43
+L1  - https://journals.ametsoc.org/downloadpdf/journals/bams/100/1/bams-d-18-0087.1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Contribution of Anthropogenic Climate Change to April–May 2017 Heavy Precipitation over the Uruguay River Basin
+AU  - de Abreu, Rafael C.
+AU  - Cunningham, Christopher
+AU  - Rudorff, Conrado M.
+AU  - Rudorff, Natalia
+AU  - Abatan, Abayomi A.
+AU  - Tett, Simon F. B.
+AU  - Dong, Buwen
+AU  - Lott, Fraser C.
+AU  - Sparrow, Sarah N.
+T2  - Bulletin of the American Meteorological Society
+DA  - 2019/01//
+PY  - 2019
+DO  - 10.1175/BAMS-D-18-0102.1
+DP  - DOI.org (Crossref)
+VL  - 100
+IS  - 1
+SP  - S37
+EP  - S41
+SN  - 0003-0007, 1520-0477
+UR  - https://journals.ametsoc.org/view/journals/bams/100/1/bams-d-18-0102.1.xml
+Y2  - 2022/12/19/13:13:43
+L1  - https://journals.ametsoc.org/downloadpdf/journals/bams/100/1/bams-d-18-0102.1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Assessing changes in risk of amplified planetary waves in a warming world
+AU  - Huntingford, Chris
+AU  - Mitchell, Dann
+AU  - Kornhuber, Kai
+AU  - Coumou, Dim
+AU  - Osprey, Scott
+AU  - Allen, Myles
+T2  - Atmospheric Science Letters
+DA  - 2019/08//
+PY  - 2019
+DO  - 10.1002/asl.929
+DP  - DOI.org (Crossref)
+VL  - 20
+IS  - 8
+J2  - Atmos Sci Lett
+LA  - en
+SN  - 1530-261X, 1530-261X
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/asl.929
+Y2  - 2022/12/19/13:13:43
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/asl.929
+ER  - 
+
+TY  - RPRT
+TI  - Attributing the 2017 Bangladesh floods from meteorological andhydrological perspectives
+AU  - Philip, Sjoukje
+AU  - Sparrow, Sarah
+AU  - Kew, Sarah F.
+AU  - van der Wiel, Karin
+AU  - Wanders, Niko
+AU  - Singh, Roop
+AU  - Hassan, Ahmadul
+AU  - Mohammed, Khaled
+AU  - Javid, Hammad
+AU  - Haustein, Karsten
+AU  - Otto, Friederike E.L.
+AU  - Hirpa, Feyera
+AU  - Rimi, Ruksana H.
+AU  - Islam, AKM Saiful
+AU  - Wallom, David C.H.
+AU  - van Oldenborgh, Geert Jan
+AB  - Abstract. In August 2017 Bangladesh faced one of its worst river flooding events in recent history. This paper presents for the first time an attribution of this precipitation-induced flooding from a combined meteorological and hydrological perspective. Experiments were conducted with three observational data sets and two climate models to estimate changes in extreme 10-day precipitation event frequency over the Brahmaputra basin. The precipitation fields were then used as meteorological input for four different hydrological models to estimate the corresponding changes in river discharge, allowing for comparison between approaches and for the robustness of the attribution results to be assessed.  In all three observational precipitation data sets the climate change trends for extreme precipitation similar to observed in August 2017 are not significant, however in two out of three series, the sign of this insignificant trend is positive. One climate model shows a significant positive influence of anthropogenic climate change, whereas the other simulates a cancellation between the increase due to greenhouse gases and a decrease due to sulphate aerosols. Considering discharge rather than precipitation, the hydrological models show that attribution of the change in discharge towards higher values is somewhat less uncertain than for precipitation, but the 95 % confidence interval still encompasses no change in risk. For the future, all models project an increase in probability of extreme events at 2 °C global heating since pre-industrial times, becoming more than 1.7 times more likely for high 10-day precipitation, and about a factor 1.5 more likely for discharge. Our best estimate on the trend in flooding events similar to the Brahmaputra event of August 2017 is derived by synthesizing the observational and model results: We find the change in risk to be greater than one and of similar order of magnitude (between 1 and 2) for both the meteorological and hydrological approach. This study shows that, for precipitation-induced flooding events, investigating changes in precipitation is useful, either as an alternative when hydrological models are not available, or as an additional measure to confirm qualitative conclusions. Besides, it highlights the importance of using multiple models in attribution studies, particularly where the climate change signal is not strong relative to natural variability or is confounded by other factors such as aerosols.
+DA  - 2018/07/23/
+PY  - 2018
+DP  - DOI.org (Crossref)
+M3  - preprint
+PB  - Hydrometeorology/Modelling approaches
+UR  - https://hess.copernicus.org/preprints/hess-2018-379/hess-2018-379.pdf
+Y2  - 2022/12/19/13:13:44
+L1  - https://hess.copernicus.org/articles/23/1409/2019/hess-23-1409-2019.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Flood event attribution and damage estimation using national-scale grid-based modelling: Winter 2013/2014 in Great Britain
+AU  - Kay, Alison L.
+AU  - Booth, Naomi
+AU  - Lamb, Rob
+AU  - Raven, Emma
+AU  - Schaller, Nathalie
+AU  - Sparrow, Sarah
+T2  - International Journal of Climatology
+DA  - 2018/11//
+PY  - 2018
+DO  - 10.1002/joc.5721
+DP  - DOI.org (Crossref)
+VL  - 38
+IS  - 14
+SP  - 5205
+EP  - 5219
+J2  - Int J Climatol
+LA  - en
+SN  - 08998418
+ST  - Flood event attribution and damage estimation using national-scale grid-based modelling
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/joc.5721
+Y2  - 2022/12/19/13:13:44
+L1  - https://nora.nerc.ac.uk/id/eprint/518512/1/N518512PP.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Higher CO2 concentrations increase extreme event risk in a 1.5 °C world
+AU  - Baker, Hugh S.
+AU  - Millar, Richard J.
+AU  - Karoly, David J.
+AU  - Beyerle, Urs
+AU  - Guillod, Benoit P.
+AU  - Mitchell, Dann
+AU  - Shiogama, Hideo
+AU  - Sparrow, Sarah
+AU  - Woollings, Tim
+AU  - Allen, Myles R.
+T2  - Nature Climate Change
+DA  - 2018/07//
+PY  - 2018
+DO  - 10.1038/s41558-018-0190-1
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 7
+SP  - 604
+EP  - 608
+J2  - Nature Clim Change
+LA  - en
+SN  - 1758-678X, 1758-6798
+UR  - http://www.nature.com/articles/s41558-018-0190-1
+Y2  - 2022/12/19/13:13:44
+L1  - https://research-information.bris.ac.uk/ws/files/157341611/Baker_et_al.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Anthropogenic influence on the drivers of the Western Cape drought 2015–2017
+AU  - Otto, Friederike E L
+AU  - Wolski, Piotr
+AU  - Lehner, Flavio
+AU  - Tebaldi, Claudia
+AU  - van Oldenborgh, Geert Jan
+AU  - Hogesteeger, Sanne
+AU  - Singh, Roop
+AU  - Holden, Petra
+AU  - Fučkar, Neven S
+AU  - Odoulami, Romaric C
+AU  - New, Mark
+T2  - Environmental Research Letters
+DA  - 2018/11/29/
+PY  - 2018
+DO  - 10.1088/1748-9326/aae9f9
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 12
+SP  - 124010
+J2  - Environ. Res. Lett.
+SN  - 1748-9326
+UR  - https://iopscience.iop.org/article/10.1088/1748-9326/aae9f9
+Y2  - 2022/12/19/13:13:44
+L1  - https://ora.ox.ac.uk/objects/uuid:3f34a59e-a3f7-4073-9ca0-7681fa54fb33/files/m94917ab79526011d425dee8675d16140
+ER  - 
+
+TY  - JOUR
+TI  - Finding Ocean States That Are Consistent with Observations from a Perturbed Physics Parameter Ensemble
+AU  - Sparrow, Sarah
+AU  - Millar, Richard J.
+AU  - Yamazaki, Kuniko
+AU  - Massey, Neil
+AU  - Povey, Adam C.
+AU  - Bowery, Andy
+AU  - Grainger, Roy G.
+AU  - Wallom, David
+AU  - Allen, Myles
+T2  - Journal of Climate
+AB  - A very large ensemble is used to identify subgrid-scale parameter settings for the HadCM3 model that are capable of best simulating the ocean state over the recent past (1980–2010). A simple particle filtering technique based upon the agreement of basin mean sea surface temperature (SST) and upper 700-m ocean heat content with EN3 observations is applied to an existing perturbed physics ensemble with initial conditions perturbations. A single set of subgrid-scale parameter values was identified from the wide range of initial parameter sets that gave the best agreement with ocean observations for the period studied. The parameter set, different from the standard model parameters, has a transient climate response of 1.68 K. The selected parameter set shows an improved agreement with EN3 decadal-mean SST patterns and the Atlantic meridional overturning circulation (AMOC) at 26°N as measured by the Rapid Climate Change (RAPID) array. Particle filtering techniques as demonstrated here could have a useful role in improving the starting point for traditional model-tuning exercises in coupled climate models.
+DA  - 2018/06//
+PY  - 2018
+DO  - 10.1175/JCLI-D-17-0514.1
+DP  - DOI.org (Crossref)
+VL  - 31
+IS  - 12
+SP  - 4639
+EP  - 4656
+J2  - J. Climate
+LA  - en
+SN  - 0894-8755, 1520-0442
+UR  - https://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0514.1
+Y2  - 2022/12/19/13:13:44
+L1  - https://ora.ox.ac.uk/objects/uuid:5962bfb5-eca7-47ed-9ecd-4ba72270ed78/files/md231e55f941e7f34ae83e3c69574f51f
+ER  - 
+
+TY  - JOUR
+TI  - Western US high June 2015 temperatures and their relation to global warming and soil moisture
+AU  - Philip, Sjoukje Y.
+AU  - Kew, Sarah F.
+AU  - Hauser, Mathias
+AU  - Guillod, Benoit P.
+AU  - Teuling, Adriaan J.
+AU  - Whan, Kirien
+AU  - Uhe, Peter
+AU  - Oldenborgh, Geert Jan van
+T2  - Climate Dynamics
+DA  - 2018/04//
+PY  - 2018
+DO  - 10.1007/s00382-017-3759-x
+DP  - DOI.org (Crossref)
+VL  - 50
+IS  - 7-8
+SP  - 2587
+EP  - 2601
+J2  - Clim Dyn
+LA  - en
+SN  - 0930-7575, 1432-0894
+UR  - http://link.springer.com/10.1007/s00382-017-3759-x
+Y2  - 2022/12/19/13:13:44
+L1  - https://ora.ox.ac.uk/objects/uuid:c08faac0-5197-4298-9c7b-94ac46f6294e/download_file?safe_filename=Western_US_temp_sm_revised.pdf&file_format=application%2Fpdf&type_of_work=Journal+article
+ER  - 
+
+TY  - JOUR
+TI  - Attributing human mortality during extreme heat waves to anthropogenic climate change
+AU  - Mitchell, Daniel
+AU  - Heaviside, Clare
+AU  - Vardoulakis, Sotiris
+AU  - Huntingford, Chris
+AU  - Masato, Giacomo
+AU  - P Guillod, Benoit
+AU  - Frumhoff, Peter
+AU  - Bowery, Andy
+AU  - Wallom, David
+AU  - Allen, Myles
+T2  - Environmental Research Letters
+DA  - 2016/07/01/
+PY  - 2016
+DO  - 10.1088/1748-9326/11/7/074006
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 7
+SP  - 074006
+J2  - Environ. Res. Lett.
+SN  - 1748-9326
+UR  - https://iopscience.iop.org/article/10.1088/1748-9326/11/7/074006
+Y2  - 2022/12/19/13:13:44
+L1  - https://research-information.bris.ac.uk/ws/files/105377616/Full_text_PDF_final_published_version_.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Perspectives on the causes of exceptionally low 2015 snowpack in the western United States
+AU  - Mote, Philip W.
+AU  - Rupp, David E.
+AU  - Li, Sihan
+AU  - Sharp, Darrin J.
+AU  - Otto, Friederike
+AU  - Uhe, Peter F.
+AU  - Xiao, Mu
+AU  - Lettenmaier, Dennis P.
+AU  - Cullen, Heidi
+AU  - Allen, Myles R.
+T2  - Geophysical Research Letters
+DA  - 2016/10/28/
+PY  - 2016
+DO  - 10.1002/2016GL069965
+DP  - DOI.org (Crossref)
+VL  - 43
+IS  - 20
+J2  - Geophys. Res. Lett.
+LA  - en
+SN  - 0094-8276, 1944-8007
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/2016GL069965
+Y2  - 2022/12/19/13:13:44
+L1  - https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016GL069965
+L2  - https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016GL069965
+KW  - attribution
+KW  - drought
+KW  - regional climate model
+KW  - snow drought
+KW  - superensemble
+KW  - weather@home
 ER  - 
 
