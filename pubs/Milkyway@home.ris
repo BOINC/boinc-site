@@ -1,25 +1,4 @@
 TY  - JOUR
-TI  - CENSUS OF BLUE STARS IN SDSS DR8
-AU  - Scibelli, Samantha
-AU  - Newberg, Heidi Jo
-AU  - Carlin, Jeffrey L.
-AU  - Yanny, Brian
-T2  - The Astrophysical Journal Supplement Series
-DA  - 2014/12/02/
-PY  - 2014
-DO  - 10.1088/0067-0049/215/2/24
-DP  - DOI.org (Crossref)
-VL  - 215
-IS  - 2
-SP  - 24
-J2  - ApJS
-SN  - 1538-4365
-UR  - https://iopscience.iop.org/article/10.1088/0067-0049/215/2/24
-Y2  - 2022/11/20/16:38:55
-L1  - https://arxiv.org/pdf/1411.5744
-ER  - 
-
-TY  - JOUR
 TI  - Fitting the Density Substructure of the Stellar Halo with MilkyWay@home
 AU  - Weiss, Jake
 AU  - Newberg, Heidi Jo
@@ -246,46 +225,6 @@ L1  - https://wcl.cs.rpi.edu/papers/ppam07.pdf
 ER  - 
 
 TY  - JOUR
-TI  - Exploration of Galactic Structures beyond the Sun toward the anti-center of the Milky Way
-AU  - Xu, Yan
-AU  - Newberg, Heidi
-T2  - Proceedings of the International Astronomical Union
-AB  - Abstract
-            
-              We map the stellar distribution on Hess diagram in the Anti-Center roughly in the boxes 130<
-              l
-              <230, −30<
-              b
-              <−10 and 10<
-              b
-              <30. There are ‘extra components’ associated with the anti-center structures of figure 1 of Newberg
-              et al
-              . (2002). The turnoff point of the structure in the North sky is at 16
-              
-                m
-              
-              .5 and the turnoff point in the South is at 17
-              
-                m
-              
-              .5. In our work, these structures can be found in all of the longitude in our box that can't be explained by standard thin or thick disk models. The distance of the North structure is about 2 kpc (we call it the North near structure) and the galactic height is about 0.7 kpc, the distance of the South structure is about 4 – 6 kpc (we call it the South middle structure). The Vgsr distribution of stars selected along the North near structure has a kinematic distribution similar to that of thick disk stars. But the metallicities of these stars are quite similar to the metallicity distribution of thin disk stars. We try to explain these structures with wave structure of the Galactic plane.
-DA  - 2013/05//
-PY  - 2013
-DO  - 10.1017/S1743921313007151
-DP  - DOI.org (Crossref)
-VL  - 9
-IS  - S298
-SP  - 450
-EP  - 450
-J2  - Proc. IAU
-LA  - en
-SN  - 1743-9213, 1743-9221
-UR  - https://www.cambridge.org/core/product/identifier/S1743921313007151/type/journal_article
-Y2  - 2022/11/20/16:38:55
-L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BA61A196BD2A6BCEAE0C98A4701C36AF/S1743921313007151a.pdf/div-class-title-exploration-of-galactic-structures-beyond-the-sun-toward-the-anti-center-of-the-milky-way-div.pdf
-ER  - 
-
-TY  - JOUR
 TI  - Determining distances to stars statistically from photometry
 AU  - Newberg, Heidi Jo
 T2  - Proceedings of the International Astronomical Union
@@ -373,8 +312,8 @@ DO  - 10.48550/ARXIV.1702.02204
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/1702.02204
 Y2  - 2022/11/20/16:38:55
-KW  - Distributed, Parallel, and Cluster Computing (cs.DC)
 KW  - FOS: Computer and information sciences
+KW  - Distributed, Parallel, and Cluster Computing (cs.DC)
 ER  - 
 
 TY  - JOUR
@@ -405,8 +344,8 @@ DO  - 10.48550/ARXIV.2102.07257
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/2102.07257
 Y2  - 2022/11/20/16:38:55
-KW  - Astrophysics of Galaxies (astro-ph.GA)
 KW  - FOS: Physical sciences
+KW  - Astrophysics of Galaxies (astro-ph.GA)
 ER  - 
 
 TY  - CONF
@@ -554,31 +493,6 @@ SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.1088/0004-637X/811/1/36
 Y2  - 2022/11/20/16:38:56
 L1  - https://arxiv.org/pdf/1508.04494
-ER  - 
-
-TY  - JOUR
-TI  - RINGS AND RADIAL WAVES IN THE DISK OF THE MILKY WAY
-AU  - Xu, Yan
-AU  - Newberg, Heidi Jo
-AU  - Carlin, Jeffrey L.
-AU  - Liu, Chao
-AU  - Deng, Licai
-AU  - Li, Jing
-AU  - Schönrich, Ralph
-AU  - Yanny, Brian
-T2  - The Astrophysical Journal
-DA  - 2015/03/11/
-PY  - 2015
-DO  - 10.1088/0004-637X/801/2/105
-DP  - DOI.org (Crossref)
-VL  - 801
-IS  - 2
-SP  - 105
-J2  - ApJ
-SN  - 1538-4357
-UR  - https://iopscience.iop.org/article/10.1088/0004-637X/801/2/105
-Y2  - 2022/11/20/16:38:56
-L1  - https://arxiv.org/pdf/1503.00257
 ER  - 
 
 TY  - CONF
