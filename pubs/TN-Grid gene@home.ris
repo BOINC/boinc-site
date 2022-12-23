@@ -1,0 +1,153 @@
+TY  - JOUR
+TI  - Vitis OneGenE: A Causality-Based Approach to Generate Gene Networks in Vitis vinifera Sheds Light on the Laccase and Dirigent Gene Families
+AU  - Pilati, Stefania
+AU  - Malacarne, Giulia
+AU  - Navarro-Payá, David
+AU  - Tomè, Gabriele
+AU  - Riscica, Laura
+AU  - Cavecchia, Valter
+AU  - Matus, José Tomás
+AU  - Moser, Claudio
+AU  - Blanzieri, Enrico
+T2  - Biomolecules
+AB  - The abundance of transcriptomic data and the development of causal inference methods have paved the way for gene network analyses in grapevine. Vitis OneGenE is a transcriptomic data mining tool that finds direct correlations between genes, thus producing association networks. As a proof of concept, the stilbene synthase gene regulatory network obtained with OneGenE has been compared with published co-expression analysis and experimental data, including cistrome data for MYB stilbenoid regulators. As a case study, the two secondary metabolism pathways of stilbenoids and lignin synthesis were explored. Several isoforms of laccase, peroxidase, and dirigent protein genes, putatively involved in the final oxidative oligomerization steps, were identified as specifically belonging to either one of these pathways. Manual curation of the predicted sequences exploiting the last available genome assembly, and the integration of phylogenetic and OneGenE analyses, identified a group of laccases exclusively present in grapevine and related to stilbenoids. Here we show how network analysis by OneGenE can accelerate knowledge discovery by suggesting new candidates for functional characterization and application in breeding programs.
+DA  - 2021/11/23/
+PY  - 2021
+DO  - 10.3390/biom11121744
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 12
+SP  - 1744
+J2  - Biomolecules
+LA  - en
+SN  - 2218-273X
+ST  - Vitis OneGenE
+UR  - https://www.mdpi.com/2218-273X/11/12/1744
+Y2  - 2022/12/23/21:30:29
+L1  - https://www.mdpi.com/2218-273X/11/12/1744/pdf?version=1638414957
+ER  - 
+
+TY  - CONF
+TI  - OneGenE: Regulatory Gene Network Expansion via Distributed Volunteer Computing on BOINC
+AU  - Asnicar, Francesco
+AU  - Masera, Luca
+AU  - Pistore, Davide
+AU  - Valentini, Samuel
+AU  - Cavecchia, Valter
+AU  - Blanzieri, Enrico
+T2  - 2019 27th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)
+C1  - Pavia, Italy
+C3  - 2019 27th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)
+DA  - 2019/02//
+PY  - 2019
+DO  - 10.1109/EMPDP.2019.8671629
+DP  - DOI.org (Crossref)
+SP  - 315
+EP  - 322
+PB  - IEEE
+SN  - 978-1-72811-644-0
+ST  - OneGenE
+UR  - https://ieeexplore.ieee.org/document/8671629/
+Y2  - 2022/12/23/21:30:29
+ER  - 
+
+TY  - JOUR
+TI  - A Computing System for Discovering Causal Relationships Among Human Genes to Improve Drug Repositioning
+AU  - Blanzieri, Enrico
+AU  - Tebaldi, Toma
+AU  - Cavecchia, Valter
+AU  - Asnicar, Francesco
+AU  - Masera, Luca
+AU  - Tome, Gabriele
+AU  - Nigro, Eleonora
+AU  - Colasurdo, Enrica
+AU  - Ciciani, Matteo
+AU  - Mazzoni, Chiara
+AU  - Pilati, Stefania
+T2  - IEEE Transactions on Emerging Topics in Computing
+DA  - 2021/10/01/
+PY  - 2021
+DO  - 10.1109/TETC.2020.3031024
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 4
+SP  - 1667
+EP  - 1682
+J2  - IEEE Trans. Emerg. Topics Comput.
+SN  - 2168-6750, 2376-4562
+UR  - https://ieeexplore.ieee.org/document/9224179/
+Y2  - 2022/12/23/21:30:29
+L1  - https://ieeexplore.ieee.org/ielx7/6245516/9635600/09224179.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Discovering Causal Relationships in Grapevine Expression Data to Expand Gene Networks. A Case Study: Four Networks Related to Climate Change
+AU  - Malacarne, Giulia
+AU  - Pilati, Stefania
+AU  - Valentini, Samuel
+AU  - Asnicar, Francesco
+AU  - Moretto, Marco
+AU  - Sonego, Paolo
+AU  - Masera, Luca
+AU  - Cavecchia, Valter
+AU  - Blanzieri, Enrico
+AU  - Moser, Claudio
+T2  - Frontiers in Plant Science
+DA  - 2018/09/21/
+PY  - 2018
+DO  - 10.3389/fpls.2018.01385
+DP  - DOI.org (Crossref)
+VL  - 9
+SP  - 1385
+J2  - Front. Plant Sci.
+SN  - 1664-462X
+ST  - Discovering Causal Relationships in Grapevine Expression Data to Expand Gene Networks. A Case Study
+UR  - https://www.frontiersin.org/article/10.3389/fpls.2018.01385/full
+Y2  - 2022/12/23/21:30:29
+L1  - https://www.frontiersin.org/articles/10.3389/fpls.2018.01385/pdf
+ER  - 
+
+TY  - JOUR
+TI  - NES <sup>2</sup> RA: Network expansion by stratified variable subsetting and ranking aggregation
+AU  - Asnicar, Francesco
+AU  - Masera, Luca
+AU  - Coller, Emanuela
+AU  - Gallo, Caterina
+AU  - Sella, Nadir
+AU  - Tolio, Thomas
+AU  - Morettin, Paolo
+AU  - Erculiani, Luca
+AU  - Galante, Francesca
+AU  - Semeniuta, Stanislau
+AU  - Malacarne, Giulia
+AU  - Engelen, Kristof
+AU  - Argentini, Andrea
+AU  - Cavecchia, Valter
+AU  - Moser, Claudio
+AU  - Blanzieri, Enrico
+T2  - The International Journal of High Performance Computing Applications
+AB  - Gene network expansion is a task of the foremost importance in computational biology. Gene network expansion aims at finding new genes to expand a given known gene network. To this end, we developed gene@home, a BOINC-based project that finds candidate genes that expand known local gene networks using NESRA. In this paper, we present NES
+              2
+              RA, a novel approach that extends and improves NESRA by modeling, using a probability vector, the confidence of the presence of the genes belonging to the local gene network. NES
+              2
+              RA adopts intensive variable-subsetting strategies, enabled by the computational power provided by gene@home volunteers. In particular, we use the skeleton procedure of the PC-algorithm to discover candidate causal relationships within each subset of variables. Finally, we use state-of-the-art aggregators to combine the results into a single ranked candidate genes list. The resulting ranking guides the discovery of unknown relations between genes and a priori known local gene networks. Our experimental results show that NES
+              2
+              RA outperforms the PC-algorithm and its order-independent PC-stable version, ARACNE, and our previous approach, NESRA. In this paper we extensively discuss the computational aspects of the NES
+              2
+              RA approach and we also present and validate expansions performed on the model plant Arabidopsis thaliana and the model bacteria Escherichia coli.
+DA  - 2018/05//
+PY  - 2018
+DO  - 10.1177/1094342016662508
+DP  - DOI.org (Crossref)
+VL  - 32
+IS  - 3
+SP  - 380
+EP  - 392
+J2  - The International Journal of High Performance Computing Applications
+LA  - en
+SN  - 1094-3420, 1741-2846
+ST  - NES <sup>2</sup> RA
+UR  - http://journals.sagepub.com/doi/10.1177/1094342016662508
+Y2  - 2022/12/23/21:32:06
+ER  - 
+
