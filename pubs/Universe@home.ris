@@ -1,0 +1,325 @@
+TY  - JOUR
+TI  - Predicting the self-lensing population in optical surveys
+AU  - Wiktorowicz, Grzegorz
+AU  - Middleton, Matthew
+AU  - Khan, Norman
+AU  - Ingram, Adam
+AU  - Gandhi, Poshak
+AU  - Dickinson, Hugh
+T2  - Monthly Notices of the Royal Astronomical Society
+AB  - ABSTRACT
+            The vast majority of binaries containing a compact object and a regular star spend most of their time in a quiescent state where no strong interactions occur between components. Detection of these binaries is extremely challenging and only few candidates have been detected through optical spectroscopy. Self-lensing represents a new means of detecting compact objects in binaries, where gravitational lensing of the light from the visible component by the compact object produces periodic optical flares. Here we show that current and planned large-area optical surveys can detect a significant number (∼100–10 000s) of these self-lensing binaries and provide insights into the properties of the compact lenses. We show that many of the predicted population of observable self-lensing binaries will be observed with multiple self-lensing flares; this both improves the chances of detection and also immediately distinguishes them from chance-alignment micro-lensing events. Through self-lensing we can investigate long – but previously hidden – stages of binary evolution and consequently provide new constraints on evolutionary models that impact the number and nature of double compact object mergers.
+DA  - 2021/08/17/
+PY  - 2021
+DO  - 10.1093/mnras/stab2135
+DP  - DOI.org (Crossref)
+VL  - 507
+IS  - 1
+SP  - 374
+EP  - 384
+LA  - en
+SN  - 0035-8711, 1365-2966
+UR  - https://academic.oup.com/mnras/article/507/1/374/6330465
+Y2  - 2022/12/23/21:36:22
+L1  - https://eprints.soton.ac.uk/451777/1/2104.12666.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Binary neutron star formation and the origin of GW170817
+AU  - Belczynski, K.
+AU  - Bulik, T.
+AU  - Olejak, A.
+AU  - Chruslinska, M.
+AU  - Singh, N.
+AU  - Pol, N.
+AU  - Zdunik, L.
+AU  - O'Shaughnessy, R.
+AU  - McLaughlin, M.
+AU  - Lorimer, D.
+AU  - Korobkin, O.
+AU  - Heuvel, E. P. J. van den
+AU  - Davies, M. B.
+AU  - Holz, D. E.
+AB  - The first neutron star-neutron star merger was detected in by LIGO/Virgo in a galaxy in which the majority of star formation was taking place a long time ago (11 Gyr). LIGO/Virgo estimated that local cosmic NS-NS merger rate is 110-3840 Gpc^-3 yr^-1. Only some extreme evolutionary models can generate NS-NS merger rates in old host galaxies consistent with the LIGO/Virgo estimate. However, we show that these models generate rates exceeding empirical Galactic NS-NS merger rates based on the large population of Milky Way NS-NS binaries. Typically, current evolutionary models produce NS-NS merger rates that are consistent with the Milky Way empirical rates. However, these models generate local cosmic NS-NS merger rate in old host galaxies that are below the LIGO/Virgo estimate. The reason behind this tension is the predicted delay time distribution between star formation and NS-NS mergers that favors short delays. Evolutionary models produce a generic steep power-law NS-NS delay time distribution. This limits NS-NS merger rates in old host galaxies. However, we show that such distribution is consistent with observations of Galactic NS-NS binaries; 50% of which show very long merger times (much longer than Hubble time). Once model distributions are convolved with continuous prolonged (10 Gyr) star formation in the Galactic disk, then 20-70% (depending on a model) of the predicted NS-NS population has very long current Galactic merger times. Although NS-NS binaries are formed predominantly with short delay times, many of short delay time systems merge and do not make it to the present, while long delay time systems survive and contribute to the current Galactic NS-NS population. This study highlights the tension between the current evolutionary predictions and the observation of the first NS-NS merger in an old host galaxy.
+DA  - 2018///
+PY  - 2018
+DO  - 10.48550/ARXIV.1812.10065
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1812.10065
+Y2  - 2022/12/23/21:36:22
+KW  - FOS: Physical sciences
+KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
+ER  - 
+
+TY  - JOUR
+TI  - The Observed versus Total Population of ULXs
+AU  - Wiktorowicz, Grzegorz
+AU  - Lasota, Jean-Pierre
+AU  - Middleton, Matthew
+AU  - Belczynski, Krzysztof
+T2  - The Astrophysical Journal
+DA  - 2019/04/16/
+PY  - 2019
+DO  - 10.3847/1538-4357/ab0f27
+DP  - DOI.org (Crossref)
+VL  - 875
+IS  - 1
+SP  - 53
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ab0f27
+Y2  - 2022/12/23/21:36:22
+L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ab0f27/pdf
+ER  - 
+
+TY  - JOUR
+TI  - The first gravitational-wave source from the isolated evolution of two 40-100 Msun stars
+AU  - Belczynski, Krzysztof
+AU  - Holz, Daniel E.
+AU  - Bulik, Tomasz
+AU  - O'Shaughnessy, Richard
+AB  - The merger of two massive 30 Msun black holes has been detected in gravitational waves (1,GW150914). This discovery validates recent predictions (2-4) that massive binary black holes would constitute the first detection. However, previous calculations have not sampled the relevant binary black hole progenitors---massive, low-metallicity binary stars---with sufficient accuracy and input physics to enable robust predictions to better than several orders of magnitude (5-10). Here we report a suite of high-precision numerical simulations of binary black hole formation via the evolution of isolated binary stars, providing a framework to interpret GW150914 and predict the properties of subsequent binary black hole gravitational-wave events. Our models imply that these events form in an environment where the metallicity is less than 10 percent of solar; have initial masses of 40-100 Msun; and interact through mass transfer and a common envelope phase. Their progenitors likely form either at 2 Gyr, or somewhat less likely, at 11 Gyr after the Big Bang. Most binary black holes form without supernova explosions, and their spins are nearly unchanged since birth, but do not have to be parallel. The classical field formation of binary black holes proposed in this study, with low natal kicks and restricted common envelope evolution, produces 40 times more binary black holes than dynamical formation channels involving globular clusters (11) and is comparable to the rate from homogeneous evolution channels (12-15). Our calculations predict detections of about 1,000 black hole mergers per year with total mass of 20-80 Msun once second generation ground-based gravitational wave observatories reach full sensitivity.
+DA  - 2016///
+PY  - 2016
+DO  - 10.48550/ARXIV.1602.04531
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1602.04531
+Y2  - 2022/12/23/21:36:22
+KW  - FOS: Physical sciences
+KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
+ER  - 
+
+TY  - JOUR
+TI  - NATURE OF THE EXTREME ULTRALUMINOUS X-RAY SOURCES
+AU  - Wiktorowicz, Grzegorz
+AU  - Sobolewska, Małgorzata
+AU  - Sa˛dowski, Aleksander
+AU  - Belczynski, Krzysztof
+T2  - The Astrophysical Journal
+DA  - 2015/08/25/
+PY  - 2015
+DO  - 10.1088/0004-637X/810/1/20
+DP  - DOI.org (Crossref)
+VL  - 810
+IS  - 1
+SP  - 20
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/810/1/20
+Y2  - 2022/12/23/21:36:22
+L1  - https://dspace.mit.edu/bitstream/1721.1/100049/1/Wiktorowicz-2015-NATURE%20OF%20THE%20EXTREM.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Strange Quark Stars in Binaries: Formation Rates, Mergers, and Explosive Phenomena
+AU  - Wiktorowicz, G.
+AU  - Drago, A.
+AU  - Pagliara, G.
+AU  - Popov, S. B.
+T2  - The Astrophysical Journal
+DA  - 2017/09/13/
+PY  - 2017
+DO  - 10.3847/1538-4357/aa8629
+DP  - DOI.org (Crossref)
+VL  - 846
+IS  - 2
+SP  - 163
+J2  - ApJ
+SN  - 1538-4357
+ST  - Strange Quark Stars in Binaries
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/aa8629
+Y2  - 2022/12/23/21:36:22
+L1  - https://arxiv.org/pdf/1707.01586
+ER  - 
+
+TY  - JOUR
+TI  - Populations of Stellar-mass Black Holes from Binary Systems
+AU  - Wiktorowicz, Grzegorz
+AU  - Wyrzykowski, Łukasz
+AU  - Chruslinska, Martyna
+AU  - Klencki, Jakub
+AU  - Rybicki, Krzysztof A.
+AU  - Belczynski, Krzysztof
+T2  - The Astrophysical Journal
+DA  - 2019/10/24/
+PY  - 2019
+DO  - 10.3847/1538-4357/ab45e6
+DP  - DOI.org (Crossref)
+VL  - 885
+IS  - 1
+SP  - 1
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ab45e6
+Y2  - 2022/12/23/21:36:22
+L1  - https://repository.ubn.ru.nl/bitstream/2066/209230/1/209230.pdf
+ER  - 
+
+TY  - JOUR
+TI  - GRAVITATIONAL ENCOUNTERS AND THE EVOLUTION OF GALACTIC NUCLEI. III. ANOMALOUS RELAXATION
+AU  - Merritt, David
+T2  - The Astrophysical Journal
+DA  - 2015/08/24/
+PY  - 2015
+DO  - 10.1088/0004-637X/810/1/2
+DP  - DOI.org (Crossref)
+VL  - 810
+IS  - 1
+SP  - 2
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/810/1/2
+Y2  - 2022/12/23/21:36:22
+L1  - https://arxiv.org/pdf/1509.01263
+ER  - 
+
+TY  - JOUR
+TI  - Noninteracting Black Hole Binaries with Gaia and LAMOST
+AU  - Wiktorowicz, Grzegorz
+AU  - Lu, Youjun
+AU  - Wyrzykowski, Łukasz
+AU  - Zhang, Haotong
+AU  - Liu, Jifeng
+AU  - Justham, Stephen
+AU  - Belczynski, Krzysztof
+T2  - The Astrophysical Journal
+AB  - Abstract
+            
+              Until recently, black holes (BHs) could be discovered only through accretion from other stars in X-ray binaries, or in merging double compact objects. Improvements in astrometric and spectroscopic measurements have made it possible to detect BHs also in noninteracting BH binaries (nBHBs) through a precise analysis of the companion’s motion. In this study, using an updated version of the
+              StarTrack
+              binary-star population modeling code and a detailed model of the Milky Way (MW) galaxy, we calculate the expected number of detections for Gaia and LAMOST surveys. We develop a formalism to convolve the binary population synthesis output with a realistic stellar density distribution, star formation history (SFH), and chemical evolution for the MW, which produces a probability distribution function of the predicted compact-binary population over the MW. This avoids the additional statistical uncertainty that is introduced by methods that Monte Carlo sample from binary population synthesis output to produce one potential specific realization of the MW compact-binary distribution, and our method is also comparatively fast to such Monte Carlo realizations. Specifically, we predict ∼41–340 nBHBs to be observed by Gaia, although the numbers may drop to ∼10–70 if the recent (≲100 Myr) star formation is low (∼1
+              M
+              ⊙
+               yr
+              −1
+              ). For LAMOST we predict ≲14 detectable nBHBs, which is lower partially because its field of view covers just ∼6% of the Galaxy.
+DA  - 2020/12/01/
+PY  - 2020
+DO  - 10.3847/1538-4357/abc699
+DP  - DOI.org (Crossref)
+VL  - 905
+IS  - 2
+SP  - 134
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/abc699
+Y2  - 2022/12/23/21:36:22
+L1  - https://iopscience.iop.org/article/10.3847/1538-4357/abc699/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Dynamical formation of black hole low-mass X-ray binaries in the field: an alternative to the common envelope
+AU  - Klencki, Jakub
+AU  - Wiktorowicz, Grzegorz
+AU  - Gładysz, Wojciech
+AU  - Belczynski, Krzysztof
+T2  - Monthly Notices of the Royal Astronomical Society
+DA  - 2017/08//
+PY  - 2017
+DO  - 10.1093/mnras/stx842
+DP  - DOI.org (Crossref)
+VL  - 469
+IS  - 3
+SP  - 3088
+EP  - 3101
+LA  - en
+SN  - 0035-8711, 1365-2966
+ST  - Dynamical formation of black hole low-mass X-ray binaries in the field
+UR  - https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stx842
+Y2  - 2022/12/23/21:36:22
+L1  - https://arxiv.org/pdf/1607.05186
+ER  - 
+
+TY  - JOUR
+TI  - The Origin of the Ultraluminous X-Ray Sources
+AU  - Wiktorowicz, Grzegorz
+AU  - Sobolewska, Małgorzata
+AU  - Lasota, Jean-Pierre
+AU  - Belczynski, Krzysztof
+T2  - The Astrophysical Journal
+DA  - 2017/08/25/
+PY  - 2017
+DO  - 10.3847/1538-4357/aa821d
+DP  - DOI.org (Crossref)
+VL  - 846
+IS  - 1
+SP  - 17
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/aa821d
+Y2  - 2022/12/23/21:36:22
+L1  - https://arxiv.org/pdf/1705.06155
+ER  - 
+
+TY  - JOUR
+TI  - The origin of the first neutron star – neutron star merger
+AU  - Belczynski, K.
+AU  - Askar, A.
+AU  - Arca-Sedda, M.
+AU  - Chruslinska, M.
+AU  - Donnari, M.
+AU  - Giersz, M.
+AU  - Benacquista, M.
+AU  - Spurzem, R.
+AU  - Jin, D.
+AU  - Wiktorowicz, G.
+AU  - Belloni, D.
+T2  - Astronomy & Astrophysics
+AB  - The first neutron star-neutron star (NS-NS) merger was discovered on August 17, 2017 through gravitational waves (GW170817) and followed with electromagnetic observations. This merger was detected in an old elliptical galaxy with no recent star formation. We perform a suite of numerical calculations to understand the formation mechanism of this merger. We probe three leading formation mechanisms of double compact objects: classical isolated binary star evolution, dynamical evolution in globular clusters, and nuclear cluster formation to test whether they are likely to produce NS-NS mergers in old host galaxies. Our simulations with optimistic assumptions show current NS-NS merger rates at the level of 10
+              −2
+              yr
+              −1
+              from binary stars, 5 × 10
+              −5
+              yr
+              −1
+              from globular clusters, and 10
+              −5
+              yr
+              −1
+              from nuclear clusters for all local elliptical galaxies (within 100 Mpc
+              3
+              ). These models are thus in tension with the detection of GW170817 with an observed rate of 1.5
+              −1.2
+              +3.2
+              yr
+              −1
+              (per 100 Mpc
+              3
+              ; LIGO/Virgo 90% credible limits). Our results imply that either the detection of GW170817 by LIGO/Virgo at their current sensitivity in an elliptical galaxy is a statistical coincidence; that physics in at least one of our three models is incomplete in the context of the evolution of stars that can form NS-NS mergers; or that another very efficient (unknown) formation channel with a long delay time between star formation and merger is at play.
+DA  - 2018/07//
+PY  - 2018
+DO  - 10.1051/0004-6361/201732428
+DP  - DOI.org (Crossref)
+VL  - 615
+SP  - A91
+J2  - A&A
+SN  - 0004-6361, 1432-0746
+UR  - https://www.aanda.org/10.1051/0004-6361/201732428
+Y2  - 2022/12/23/21:36:22
+L1  - https://www.aanda.org/articles/aa/pdf/2018/07/aa32428-17.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Wind-powered Ultraluminous X-ray Sources
+AU  - Wiktorowicz, Grzegorz
+AU  - Lasota, Jean-Pierre
+AU  - Belczynski, Krzysztof
+AU  - Lu, Youjun
+AU  - Liu, Jifeng
+AU  - Iłkiewicz, Krystian
+T2  - The Astrophysical Journal
+DA  - 2021/09/01/
+PY  - 2021
+DO  - 10.3847/1538-4357/ac0cf7
+DP  - DOI.org (Crossref)
+VL  - 918
+IS  - 2
+SP  - 60
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ac0cf7
+Y2  - 2022/12/23/21:36:22
+L1  - https://dro.dur.ac.uk/34177/1/34177.pdf
+ER  - 
+
