@@ -1,0 +1,36 @@
+TY  - JOUR
+TI  - All solutions of the Diophantine equation a^6+b^6=c^6+d^6+e^6+f^6+g^6 for a,b,c,d,e,f,g &lt; 250000 found with a distributed Boinc project
+AU  - Gerbicz, Robert
+AU  - Meyrignac, Jean-Charles
+AU  - Beckert, Uwe
+AB  - The above equation is also called as Euler(6,2,5) system. By computational aspect these systems are very interesting. And we can also apply these methods to other Diophantine equations. We give a brief history of these systems and how we searched for these big solutions on Boinc. Our two Boinc projects ran from April of 2010 to July of 2011.
+DA  - 2011///
+PY  - 2011
+DO  - 10.48550/ARXIV.1108.0462
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1108.0462
+Y2  - 2022/12/23/21:44:50
+KW  - FOS: Mathematics
+KW  - Number Theory (math.NT)
+ER  - 
+
+TY  - JOUR
+TI  - On the potential for extinction by Muller's Ratchet in Caenorhabditis elegans
+AU  - Loewe, Laurence
+AU  - Cutter, Asher D
+T2  - BMC Evolutionary Biology
+DA  - 2008///
+PY  - 2008
+DO  - 10.1186/1471-2148-8-125
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 1
+SP  - 125
+J2  - BMC Evol Biol
+LA  - en
+SN  - 1471-2148
+UR  - http://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-8-125
+Y2  - 2022/12/23/21:45:32
+L1  - https://bmcecolevol.biomedcentral.com/counter/pdf/10.1186/1471-2148-8-125
+ER  - 
+
