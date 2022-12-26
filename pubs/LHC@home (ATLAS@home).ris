@@ -1,0 +1,142 @@
+TY  - RPRT
+TI  - Advances in ATLAS@Home towards a major ATLAS computing resource
+AU  - Cameron, David
+AU  - Bogdanchikov, Alexander
+AU  - Bianchi, Riccardo-Maria
+AU  - Wu, Wenjing
+AB  - The volunteer computing project ATLAS@Home has been providing a stable computing resource for the ATLAS experiment since 2013. It has recently undergone some significant developments and as a result has become one of the largest resources contributing to ATLAS computing, by expanding its scope beyond traditional volunteers and into exploitation of idle computing power in ATLAS data centres. Removing the need for virtualization on Linux and instead using container technology has made the entry barrier significantly lower for data centre participation and in this paper, we describe the implementation and results of this change. We also present other recent changes and improvements in the project. In early 2017 the ATLAS@Home project was merged into a combined LHC@Home platform, providing a unified gateway to all CERN-related volunteer computing projects. The ATLAS Event Service shifts data processing from file-level to event-level and we describe how ATLAS@Home was incorporated into this new paradigm. Finally, the steps taken to allow regular ATLAS grid sites to move completely to ATLAS@Home are shown.
+DA  - 2018/11/26/
+PY  - 2018
+DP  - cds.cern.ch
+SP  - 03011
+LA  - en
+PB  - ATL-COM-SOFT-2018-116
+SN  - ATL-SOFT-PROC-2018-032
+UR  - https://cds.cern.ch/record/2648905
+Y2  - 2022/11/20/15:26:07
+L1  - https://cds.cern.ch/record/2648905/files/ATL-SOFT-PROC-2018-032.pdf
+L2  - https://cds.cern.ch/record/2648905?ln=en
+ER  - 
+
+TY  - JOUR
+TI  - ATLAS Grid Workflow Performance Optimization
+AU  - Elmsheuser, Johannes
+AU  - Di Girolamo, Alessandro
+AU  - Filipcic, Andrej
+AU  - Limosani, Antonio
+AU  - Schulz, Markus
+AU  - Smith, David
+AU  - Sciaba, Andrea
+AU  - Valassi, Andrea
+T2  - EPJ Web of Conferences
+A2  - Forti, A.
+A2  - Betev, L.
+A2  - Litmaath, M.
+A2  - Smirnova, O.
+A2  - Hristov, P.
+AB  - The CERN ATLAS experiment grid workflow system manages routinely 250 to 500 thousand concurrently running production and analysis jobs to process simulation and detector data. In total more than 370 PB of data is distributed over more than 150 sites in the WLCG. At this scale small improvements in the software and computing performance and workflows can lead tosignificant resource usage gains. ATLAS is reviewing together with CERN IT experts several typical simulation and data processing workloads for potential performance improvements in terms of memory and CPU usage, disk and network I/O. All ATLASproduction and analysis grid jobs are instrumented to collect many performance metrics for detailed statistical studies using modern data analytics tools like ElasticSearch and Kibana. This presentation will review and explain the performance gains of several ATLAS simulation and data processing workflows and present analytics studies of the ATLAS grid workflows.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1051/epjconf/201921403021
+DP  - DOI.org (Crossref)
+VL  - 214
+SP  - 03021
+J2  - EPJ Web Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/201921403021
+Y2  - 2022/11/20/15:33:38
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2019/19/epjconf_chep2018_03021.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Backfilling the Grid with Containerized BOINC in the ATLAS computing
+AU  - Wu, Wenjing
+AU  - Cameron, David
+T2  - EPJ Web of Conferences
+A2  - Forti, A.
+A2  - Betev, L.
+A2  - Litmaath, M.
+A2  - Smirnova, O.
+A2  - Hristov, P.
+AB  - Virtualization is a commonly used solution for utilizing the opportunistic computing resources in the HEP field, as it provides a unified software and OS layer that the HEP computing tasks require over the heterogeneous opportunistic computing resources. However there is always performance penalty with virtualization, especially for short jobs which are always the case for volunteer computing tasks, the overhead of virtualization reduces the CPU efficiency of the jobs, hence it leads to low CPU efficiency of the jobs. With the wide usage of containers in HEP computing, we explore the possibility of adopting the container technology into the ATLAS BOINC project, hence we implemented a Native version in BOINC, which uses the Singularity container or direct usage of the Operating System of the host machines to replace VirtualBox. In this paper, we will discuss 1) the implementation and workflow of the Native version in the ATLAS BOINC; 2) the performance measurement of the Native version comparing to the previous virtualization version. 3) the limits and shortcomings of the Native version; 4) The practice and outcome of the Native version which includes using it in backfilling the ATLAS Grid Tier2 sites and other clusters, and to utilize the idle computers from the CERN computing centre.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1051/epjconf/201921407015
+DP  - DOI.org (Crossref)
+VL  - 214
+SP  - 07015
+J2  - EPJ Web Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/201921407015
+Y2  - 2022/11/20/15:33:38
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2019/19/epjconf_chep2018_07015.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Dynamic federation of grid and cloud storage
+AU  - Furano, Fabrizio
+AU  - Keeble, Oliver
+AU  - Field, Laurence
+T2  - Physics of Particles and Nuclei Letters
+DA  - 2016/09//
+PY  - 2016
+DO  - 10.1134/S1547477116050186
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 5
+SP  - 629
+EP  - 633
+J2  - Phys. Part. Nuclei Lett.
+LA  - en
+SN  - 1547-4771, 1531-8567
+UR  - http://link.springer.com/10.1134/S1547477116050186
+Y2  - 2022/11/20/15:33:38
+ER  - 
+
+TY  - CHAP
+TI  - Improving the Performance of Volunteer Computing with Data Volunteers: A Case Study with the ATLAS@home Project
+AU  - Alonso-Monsalve, Saúl
+AU  - García-Carballeira, Félix
+AU  - Calderón, Alejandro
+T2  - Algorithms and Architectures for Parallel Processing
+A2  - Carretero, Jesus
+A2  - Garcia-Blas, Javier
+A2  - Ko, Ryan K.L.
+A2  - Mueller, Peter
+A2  - Nakano, Koji
+CY  - Cham
+DA  - 2016///
+PY  - 2016
+DP  - DOI.org (Crossref)
+VL  - 10048
+SP  - 178
+EP  - 191
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-319-49582-8 978-3-319-49583-5
+ST  - Improving the Performance of Volunteer Computing with Data Volunteers
+UR  - http://link.springer.com/10.1007/978-3-319-49583-5_13
+Y2  - 2022/11/20/15:33:38
+ER  - 
+
+TY  - JOUR
+TI  - Using ATLAS@Home to Exploit Extra CPU from Busy Grid Sites
+AU  - Wu, Wenjing
+AU  - Cameron, David
+AU  - Qing, Di
+T2  - Computing and Software for Big Science
+DA  - 2019/12//
+PY  - 2019
+DO  - 10.1007/s41781-019-0023-6
+DP  - DOI.org (Crossref)
+VL  - 3
+IS  - 1
+SP  - 8
+J2  - Comput Softw Big Sci
+LA  - en
+SN  - 2510-2036, 2510-2044
+UR  - http://link.springer.com/10.1007/s41781-019-0023-6
+Y2  - 2022/11/20/15:33:38
+L1  - https://link.springer.com/content/pdf/10.1007/s41781-019-0023-6.pdf
+ER  - 
+
