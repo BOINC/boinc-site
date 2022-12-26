@@ -1,0 +1,150 @@
+TY  - JOUR
+TI  - The Open High Throughput Computing Content Delivery Network
+AU  - Dykstra, Dave
+AU  - Bockelman, Brian
+AU  - Blomer, Jakob
+AU  - Field, Laurence
+T2  - EPJ Web of Conferences
+A2  - Forti, A.
+A2  - Betev, L.
+A2  - Litmaath, M.
+A2  - Smirnova, O.
+A2  - Hristov, P.
+AB  - LHC experiments make extensive use of web proxy caches, especially for software distribution via the CernVM File System and for conditions data via the Frontier Distributed Database Caching system. Since many jobs read the same data, cache hit rates are high and hence most of the traffic flows efficiently over Local Area Networks. However, it is not always possible to have local web caches, particularly for opportunistic cases where
+experiments have little control over site services. The Open High Throughput Computing (HTC) Content Delivery Network (CDN), openhtc.io, aims to address this by using web proxy caches from a commercial CDN provider. Cloudflare provides a simple interface for registering DNS aliases of any web server and does reverse proxy web caching on those aliases. The openhtc.io domain is hosted on Cloudflare's free tier CDN which has no bandwidth limit and makes use of data centers throughout the world, so the average performance for clients is much improved compared to reading from CERN or a Tier 1. The load on WLCG servers is also significantly reduced. WLCG Web Proxy Auto Discovery is used to select local web caches when they are available and otherwise select openhtc.io caching. This paper describes the Open HTC CDN in detail and provides initial results from its use for LHC@Home and USCMS opportunistic computing.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1051/epjconf/201921404023
+DP  - DOI.org (Crossref)
+VL  - 214
+SP  - 04023
+J2  - EPJ Web Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/201921404023
+Y2  - 2022/11/20/15:22:57
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2019/19/epjconf_chep2018_04023.pdf
+ER  - 
+
+TY  - JOUR
+TI  - CMS@home: Integrating the Volunteer Cloud and High-Throughput Computing
+AU  - Field, L.
+AU  - Spiga, D.
+AU  - Reid, I.
+AU  - Riahi, H.
+AU  - Cristella, L.
+T2  - Computing and Software for Big Science
+DA  - 2018/11//
+PY  - 2018
+DO  - 10.1007/s41781-018-0006-z
+DP  - DOI.org (Crossref)
+VL  - 2
+IS  - 1
+SP  - 2
+J2  - Comput Softw Big Sci
+LA  - en
+SN  - 2510-2036, 2510-2044
+ST  - CMS@home
+UR  - http://link.springer.com/10.1007/s41781-018-0006-z
+Y2  - 2022/11/20/15:33:38
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs41781-018-0006-z.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Status and Roadmap of CernVM
+AU  - Berzano, D
+AU  - Blomer, J
+AU  - Buncic, P
+AU  - Charalampidis, I
+AU  - Ganis, G
+AU  - Meusel, R
+T2  - Journal of Physics: Conference Series
+DA  - 2015/12/23/
+PY  - 2015
+DO  - 10.1088/1742-6596/664/2/022018
+DP  - DOI.org (Crossref)
+VL  - 664
+IS  - 2
+SP  - 022018
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/664/2/022018
+Y2  - 2022/11/20/15:33:38
+L1  - https://iopscience.iop.org/article/10.1088/1742-6596/664/2/022018/pdf
+ER  - 
+
+TY  - JOUR
+TI  - CMS@home: Enabling Volunteer Computing Usage for CMS
+AU  - Field, L
+AU  - Borras, H
+AU  - Spiga, D
+AU  - Riahi, H
+T2  - Journal of Physics: Conference Series
+DA  - 2015/12/23/
+PY  - 2015
+DO  - 10.1088/1742-6596/664/2/022017
+DP  - DOI.org (Crossref)
+VL  - 664
+IS  - 2
+SP  - 022017
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+ST  - CMS@home
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/664/2/022017
+Y2  - 2022/11/20/15:33:38
+L1  - https://cds.cern.ch/record/2134528/files/1742-6596_664_2_022017.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Evolution of the CMS Global Submission Infrastructure for the HL-LHC Era
+AU  - Pérez-Calero Yzquierdo, Antonio
+AU  - Acosta Flechas, Maria
+AU  - Davila Foyo, Diego
+AU  - Haleem, Saqib
+AU  - Hurtado Anampa, Kenyi
+AU  - Ivanov, Todor Trendafilov
+AU  - Khan, Farrukh Aftab
+AU  - Kizinevič, Edita
+AU  - Larson, Krista
+AU  - Letts, James
+AU  - Mascheroni, Marco
+AU  - Mason, David
+T2  - EPJ Web of Conferences
+A2  - Doglioni, C.
+A2  - Kim, D.
+A2  - Stewart, G.A.
+A2  - Silvestris, L.
+A2  - Jackson, P.
+A2  - Kamleh, W.
+AB  - Efforts in distributed computing of the CMS experiment at the LHC at CERN are now focusing on the functionality required to fulfill the projected needs for the HL-LHC era. Cloud and HPC resources are expected to be dominant relative to resources provided by traditional Grid sites, being also much more diverse and heterogeneous. Handling their special capabilities or limitations and maintaining global flexibility and efficiency, while also operating at scales much higher than the current capacity, are the major challenges being addressed by the CMS Submission Infrastructure team. These proceedings discuss the risks to the stability and scalability of the CMS HTCondor infrastructure extrapolated to such a scenario, thought to be derived mostly from its growing complexity, with multiple Negotiators and schedulers flocking work to multiple federated pools. New mechanisms for enhanced customization and control over resource allocation and usage, mandatory in this future scenario, are also described.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1051/epjconf/202024503016
+DP  - DOI.org (Crossref)
+VL  - 245
+SP  - 03016
+J2  - EPJ Web Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/202024503016
+Y2  - 2022/11/20/15:33:38
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2020/21/epjconf_chep2020_03016.pdf
+ER  - 
+
+TY  - JOUR
+TI  - A world-wide databridge supported by a commercial cloud provider
+AU  - Cheung, Kwong Tat
+AU  - Field, Laurence
+AU  - Furano, Fabrizio
+T2  - Journal of Physics: Conference Series
+DA  - 2017/10//
+PY  - 2017
+DO  - 10.1088/1742-6596/898/6/062041
+DP  - DOI.org (Crossref)
+VL  - 898
+SP  - 062041
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/898/6/062041
+Y2  - 2022/11/20/15:33:38
+L1  - https://cds.cern.ch/record/2298629/files/pdf.pdf
+ER  - 
+
