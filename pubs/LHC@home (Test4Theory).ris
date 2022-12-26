@@ -1,0 +1,4309 @@
+TY  - JOUR
+TI  - Towards a Production Volunteer Computing Infrastructure for HEP
+AU  - Høimyr, N
+AU  - Marquina, M
+AU  - Asp, T
+AU  - Jones, P
+AU  - Gonzalez, A
+AU  - Field, L
+T2  - Journal of Physics: Conference Series
+DA  - 2015/12/23/
+PY  - 2015
+DO  - 10.1088/1742-6596/664/2/022023
+DP  - DOI.org (Crossref)
+VL  - 664
+IS  - 2
+SP  - 022023
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/664/2/022023
+Y2  - 2022/11/20/15:33:38
+L1  - https://cds.cern.ch/record/2134532/files/1742-6596_664_2_022023.pdf
+ER  - 
+
+TY  - JOUR
+TI  - CernVM WebAPI - Controlling Virtual Machines from the Web
+AU  - Charalampidis, I.
+AU  - Berzano, D.
+AU  - Blomer, J.
+AU  - Buncic, P.
+AU  - Ganis, G.
+AU  - Meusel, R.
+AU  - Segal, B.
+T2  - Journal of Physics: Conference Series
+DA  - 2015/12/23/
+PY  - 2015
+DO  - 10.1088/1742-6596/664/2/022010
+DP  - DOI.org (Crossref)
+VL  - 664
+IS  - 2
+SP  - 022010
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/664/2/022010
+Y2  - 2022/11/20/15:33:38
+L1  - https://cds.cern.ch/record/2134526/files/1742-6596_664_2_022010.pdf
+ER  - 
+
+TY  - JOUR
+TI  - MCPLOTS: a particle physics resource based on volunteer computing
+AU  - Karneyeu, A.
+AU  - Mijovic, L.
+AU  - Prestel, S.
+AU  - Skands, P. Z.
+T2  - The European Physical Journal C
+DA  - 2014/02//
+PY  - 2014
+DO  - 10.1140/epjc/s10052-014-2714-9
+DP  - DOI.org (Crossref)
+VL  - 74
+IS  - 2
+SP  - 2714
+J2  - Eur. Phys. J. C
+LA  - en
+SN  - 1434-6044, 1434-6052
+ST  - MCPLOTS
+UR  - http://link.springer.com/10.1140/epjc/s10052-014-2714-9
+Y2  - 2022/11/20/15:33:38
+L1  - https://link.springer.com/content/pdf/10.1140/epjc/s10052-014-2714-9.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Studying QCD modeling of uncertainties in particle spectra from dark-matter annihilation into jets
+AU  - Jueid, Adil
+T2  - Journal of Physics: Conference Series
+AB  - Abstract
+            
+              Motivated by various excesses observed by the Fermi-LAT and AMS collaborations, we perform a detailed analysis of QCD uncertainties on particle spectra from dark-matter annihilation (or decay) into jets. When annihilated to SM particles, the final-state annihilation products undergo various complicated processes such as QED and QCD bremsstrahlung, hadronisation, and hadron decays. These processes contain some intrinsic uncertainties which are usually difficult to model and which are neglected in physical analyses. First, we perform several re-tunings of the fragmentation function parameters. Then, we estimate two kinds of uncertainties: (
+              i
+              ) perturbative from QCD showers and (
+              ii
+              ) non-perturbative from hadronisation function. The results are tabulated for a wide range of dark matter masses,
+              
+                m
+                χ
+              
+              ∈ [5,10
+              5
+              ] GeV, and annihilation channels. They can be found on Zenodo: https://doi.org/10.5281/zenodo.3764809.
+DA  - 2021/12/01/
+PY  - 2021
+DO  - 10.1088/1742-6596/2156/1/012057
+DP  - DOI.org (Crossref)
+VL  - 2156
+IS  - 1
+SP  - 012057
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/2156/1/012057
+Y2  - 2022/12/25/14:59:49
+L1  - https://iopscience.iop.org/article/10.1088/1742-6596/2156/1/012057/pdf
+ER  - 
+
+TY  - CONF
+TI  - Particle spectra from dark matter annihilation: physics modelling and QCD uncertainties
+AU  - Jueid, Adil
+AU  - Amoroso, Simone
+AU  - Caron, Sascha
+AU  - Skands, Peter
+AU  - Ruiz de austri, Roberto
+T2  - Tools for High Energy Physics and Cosmology
+C1  - Institut de Physique des 2 Infinis (IP2I), Lyon, France
+C3  - Proceedings of Tools for High Energy Physics and Cosmology — PoS(TOOLS2020)
+DA  - 2021/05/10/
+PY  - 2021
+DO  - 10.22323/1.392.0028
+DP  - DOI.org (Crossref)
+SP  - 028
+LA  - en
+PB  - Sissa Medialab
+ST  - Particle spectra from dark matter annihilation
+UR  - https://pos.sissa.it/392/028
+Y2  - 2022/12/25/14:59:49
+L1  - https://pos.sissa.it/392/028/pdf
+ER  - 
+
+TY  - JOUR
+TI  - String fragmentation with a time-dependent tension
+AU  - Hunt-Smith, Nicholas
+AU  - Skands, Peter
+T2  - The European Physical Journal C
+AB  - Abstract
+            
+              Motivated by recent theoretical arguments that expanding strings can be regarded as having a temperature that is inversely proportional to the proper time,
+              
+                
+                  $$\tau $$
+                  
+                    τ
+                  
+                
+              
+              , we investigate the consequences of adding a term
+              
+                
+                  $$\propto 1/\tau $$
+                  
+                    
+                      ∝
+                      1
+                      /
+                      τ
+                    
+                  
+                
+              
+              to the string tension in the Lund string-hadronization model. The lattice value for the tension,
+              
+                
+                  $$\kappa _0 \sim 0.18\,{\mathrm {GeV}}^2\sim 0.9\,{\mathrm {GeV}}/{\mathrm {fm}}$$
+                  
+                    
+                      
+                        κ
+                        0
+                      
+                      ∼
+                      0.18
+                      
+                      
+                        
+                          GeV
+                        
+                        2
+                      
+                      ∼
+                      0.9
+                      
+                      GeV
+                      /
+                      fm
+                    
+                  
+                
+              
+              , is then interpreted as the late-time/equilibrium limit. A generic prediction of this type of model is that early string breaks should be associated with higher strangeness (and baryon) fractions and higher fragmentation
+              
+                
+                  $$\langle p_\perp \rangle $$
+                  
+                    
+                      ⟨
+                      
+                        p
+                        ⊥
+                      
+                      ⟩
+                    
+                  
+                
+              
+              values. It should be possible to use archival
+              ee
+              data sets to provide model-independent constraints on this type of scenario, and we propose a few simple key measurements to do so.
+DA  - 2020/11//
+PY  - 2020
+DO  - 10.1140/epjc/s10052-020-08654-9
+DP  - DOI.org (Crossref)
+VL  - 80
+IS  - 11
+SP  - 1073
+J2  - Eur. Phys. J. C
+LA  - en
+SN  - 1434-6044, 1434-6052
+UR  - http://link.springer.com/10.1140/epjc/s10052-020-08654-9
+Y2  - 2022/12/25/14:59:49
+L1  - https://link.springer.com/content/pdf/10.1140/epjc/s10052-020-08654-9.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Confronting experimental data with heavy-ion models: Rivet for heavy ions
+AU  - Bierlich, Christian
+AU  - Buckley, Andy
+AU  - Christensen, Christian Holm
+AU  - Christiansen, Peter Harald Lindenov
+AU  - Duncan, Cody B.
+AU  - Grosse-Oetringhaus, Jan Fiete
+AU  - Karczmarczyk, Przemyslaw
+AU  - Kirchgaeßer, Patrick
+AU  - Klein, Jochen
+AU  - Lönnblad, Leif
+AU  - Preghenella, Roberto
+AU  - Rasmussen, Christine O.
+AU  - Stefaniak, Maria
+AU  - Vislavicius, Vytautas
+T2  - The European Physical Journal C
+AB  - Abstract
+            
+              The
+              Rivet
+               library is an important toolkit in particle physics, and serves as a repository for analysis data and code. It allows for comparisons between data and theoretical calculations of the final state of collision events. This paper outlines several recent additions and improvements to the framework to include support for analysis of heavy ion collision simulated data. The paper also presents examples of these recent developments and their applicability in implementing concrete physics analyses.
+DA  - 2020/05//
+PY  - 2020
+DO  - 10.1140/epjc/s10052-020-8033-4
+DP  - DOI.org (Crossref)
+VL  - 80
+IS  - 5
+SP  - 485
+J2  - Eur. Phys. J. C
+LA  - en
+SN  - 1434-6044, 1434-6052
+ST  - Confronting experimental data with heavy-ion models
+UR  - https://link.springer.com/10.1140/epjc/s10052-020-8033-4
+Y2  - 2022/12/25/14:59:49
+L1  - https://link.springer.com/content/pdf/10.1140/epjc/s10052-020-8033-4.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Fragmentation of two repelling Lund strings
+AU  - Duncan, Cody B
+AU  - Skands, Peter
+T2  - SciPost Physics
+AB  - Motivated by recent discoveries of flow-like effects in pp
+collisions, and noting that multiple string systems can form and
+hadronize simultaneously in such collisions, we develop a simple model
+for the repulsive interaction between two Lund strings with a positive
+(colour-oriented) overlap in rapidity. The model is formulated in
+momentum space and is based on a postulate of a constant net transverse
+momentum being acquired per unit of overlap along a common rapidity
+direction. To conserve energy, the strings shrink in the longitudinal
+direction, essentially converting a portion of the string invariant mass
+              
+                
+                  m^2
+                  
+                    
+                      m
+                      2
+                    
+                  
+                
+              
+              into
+              
+                
+                  p_\perp^2
+                  
+                    
+                      p
+                      ⊥
+                      2
+                    
+                  
+                
+              
+              for constant
+              
+                
+                  m_\perp^2 = m^2 + p_\perp^2
+                  
+                    
+                      
+                        m
+                        ⊥
+                        2
+                      
+                      =
+                      
+                        m
+                        2
+                      
+                      +
+                      
+                        p
+                        ⊥
+                        2
+                      
+                    
+                  
+                
+              
+              for each string. The reduction in string invariant mass implies a
+reduced overall multiplicity of produced hadrons; the increase in
+              
+                
+                  p_\perp^2
+                  
+                    
+                      p
+                      ⊥
+                      2
+                    
+                  
+                
+              
+              is local and only affects hadrons in the overlapping region. Starting
+from the simplest case of two symmetric and parallel strings with
+massless endpoints, we generalize to progressively more complicated
+configurations. We present an implementation of this model in the Pythia
+event generator and use it to illustrate the effects on hadron
+              
+                
+                  p_\perp
+                  
+                    
+                      p
+                      ⊥
+                    
+                  
+                
+              
+              distributions and dihadron azimuthal correlations, contrasting it with
+the current version of the “shoving” model implemented in the same
+generator.
+DA  - 2020/05/19/
+PY  - 2020
+DO  - 10.21468/SciPostPhys.8.5.080
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 5
+SP  - 080
+J2  - SciPost Phys.
+SN  - 2542-4653
+UR  - https://scipost.org/10.21468/SciPostPhys.8.5.080
+Y2  - 2022/12/25/14:59:49
+L1  - https://scipost.org/10.21468/SciPostPhys.8.5.080/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Extending CERN computing to volunteers - LHC@home consolidation and outlook
+AU  - Cameron, David
+AU  - Field, Laurence
+AU  - Giannakis, Nikolas
+AU  - Høimyr, Nils
+T2  - EPJ Web of Conferences
+A2  - Forti, A.
+A2  - Betev, L.
+A2  - Litmaath, M.
+A2  - Smirnova, O.
+A2  - Hristov, P.
+AB  - LHC@home has provided computing capacity for simulations under BOINC since 2005. Following the introduction of virtualisation with BOINC to run HEP Linux software in a virtual machine on volunteer desktops, initially started on test BOINC projects, like Test4Theory and ATLAS@home, all CERN applications distributed to volunteers have been consolidated under a single LHC@home BOINC project. As part of an effort to unite CERN’s batch, cloud, grid and volunteer computing efforts, the BOINC service has been integrated with the other compute services at CERN, notably HTCondor, in terms job submission and accounting. The paper will also address contributions to improve the BOINC software and community effort to evolve BOINC for a sustainable volunteer computing environment. Furthermore, we discuss future challenges to reduce the effort required by volunteers to run virtual machines for experiment simulations and improvements to BOINC to widen the appeal of volunteer computing.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1051/epjconf/201921403016
+DP  - DOI.org (Crossref)
+VL  - 214
+SP  - 03016
+J2  - EPJ Web Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/201921403016
+Y2  - 2022/12/25/14:59:49
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2019/19/epjconf_chep2018_03016.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Phenomenology of Soft QCD: The Role of Minimum-Bias Measurements
+AU  - Grosse-Oetringhaus, Jan Fiete
+T2  - Advanced Series on Directions in High Energy Physics
+C2  - Bartalini, Paolo
+C2  - Gaunt, Jonathan Richard
+DA  - 2018/12//
+PY  - 2018
+DP  - DOI.org (Crossref)
+VL  - 29
+SP  - 267
+EP  - 279
+LA  - en
+PB  - WORLD SCIENTIFIC
+SN  - 978-981-322-775-0 978-981-322-776-7
+ST  - Phenomenology of Soft QCD
+UR  - https://www.worldscientific.com/doi/abs/10.1142/9789813227767_0012
+Y2  - 2022/12/25/14:59:49
+L1  - https://arxiv.org/pdf/1812.07280
+ER  - 
+
+TY  - JOUR
+TI  - FCC Physics Opportunities: Future Circular Collider Conceptual Design Report Volume 1
+AU  - The FCC Collaboration
+AU  - Abada, A.
+AU  - Abbrescia, M.
+AU  - AbdusSalam, S. S.
+AU  - Abdyukhanov, I.
+AU  - Fernandez, J. Abelleira
+AU  - Abramov, A.
+AU  - Aburaia, M.
+AU  - Acar, A. O.
+AU  - Adzic, P. R.
+AU  - Agrawal, P.
+AU  - Aguilar-Saavedra, J. A.
+AU  - Aguilera-Verdugo, J. J.
+AU  - Aiba, M.
+AU  - Aichinger, I.
+AU  - Aielli, G.
+AU  - Akay, A.
+AU  - Akhundov, A.
+AU  - Aksakal, H.
+AU  - Albacete, J. L.
+AU  - Albergo, S.
+AU  - Alekou, A.
+AU  - Aleksa, M.
+AU  - Aleksan, R.
+AU  - Fernandez, R. M. Alemany
+AU  - Alexahin, Y.
+AU  - Alía, R. G.
+AU  - Alioli, S.
+AU  - Tehrani, N. Alipour
+AU  - Allanach, B. C.
+AU  - Allport, P. P.
+AU  - Altınlı, M.
+AU  - Altmannshofer, W.
+AU  - Ambrosio, G.
+AU  - Amorim, D.
+AU  - Amstutz, O.
+AU  - Anderlini, L.
+AU  - Andreazza, A.
+AU  - Andreini, M.
+AU  - Andriatis, A.
+AU  - Andris, C.
+AU  - Andronic, A.
+AU  - Angelucci, M.
+AU  - Antinori, F.
+AU  - Antipov, S. A.
+AU  - Antonelli, M.
+AU  - Antonello, M.
+AU  - Antonioli, P.
+AU  - Antusch, S.
+AU  - Anulli, F.
+AU  - Apolinário, L.
+AU  - Apollinari, G.
+AU  - Apollonio, A.
+AU  - Appelö, D.
+AU  - Appleby, R. B.
+AU  - Apyan, Ara.
+AU  - Apyan, Arm.
+AU  - Arbey, A.
+AU  - Arbuzov, A.
+AU  - Arduini, G.
+AU  - Arı, V.
+AU  - Arias, S.
+AU  - Armesto, N.
+AU  - Arnaldi, R.
+AU  - Arsenyev, S. A.
+AU  - Arzeo, M.
+AU  - Asai, S.
+AU  - Aslanides, E.
+AU  - Aßmann, R. W.
+AU  - Astapovych, D.
+AU  - Atanasov, M.
+AU  - Atieh, S.
+AU  - Attié, D.
+AU  - Auchmann, B.
+AU  - Audurier, A.
+AU  - Aull, S.
+AU  - Aumon, S.
+AU  - Aune, S.
+AU  - Avino, F.
+AU  - Avrillaud, G.
+AU  - Aydın, G.
+AU  - Azatov, A.
+AU  - Azuelos, G.
+AU  - Azzi, P.
+AU  - Azzolini, O.
+AU  - Azzurri, P.
+AU  - Bacchetta, N.
+AU  - Bacchiocchi, E.
+AU  - Bachacou, H.
+AU  - Baek, Y. W.
+AU  - Baglin, V.
+AU  - Bai, Y.
+AU  - Baird, S.
+AU  - Baker, M. J.
+AU  - Baldwin, M. J.
+AU  - Ball, A. H.
+AU  - Ballarino, A.
+AU  - Banerjee, S.
+AU  - Barber, D. P.
+AU  - Barducci, D.
+AU  - Barjhoux, P.
+AU  - Barna, D.
+AU  - Barnaföldi, G. G.
+AU  - Barnes, M. J.
+AU  - Barr, A.
+AU  - García, J. Barranco
+AU  - da Costa, J. Barreiro Guimarães
+AU  - Bartmann, W.
+AU  - Baryshevsky, V.
+AU  - Barzi, E.
+AU  - Bass, S. A.
+AU  - Bastianin, A.
+AU  - Baudouy, B.
+AU  - Bauer, F.
+AU  - Bauer, M.
+AU  - Baumgartner, T.
+AU  - Bautista-Guzmán, I.
+AU  - Bayındır, C.
+AU  - Beaudette, F.
+AU  - Bedeschi, F.
+AU  - Béguin, M.
+AU  - Bellafont, I.
+AU  - Bellagamba, L.
+AU  - Bellegarde, N.
+AU  - Belli, E.
+AU  - Bellingeri, E.
+AU  - Bellini, F.
+AU  - Bellomo, G.
+AU  - Belomestnykh, S.
+AU  - Bencivenni, G.
+AU  - Benedikt, M.
+AU  - Bernardi, G.
+AU  - Bernardi, J.
+AU  - Bernet, C.
+AU  - Bernhardt, J. M.
+AU  - Bernini, C.
+AU  - Berriaud, C.
+AU  - Bertarelli, A.
+AU  - Bertolucci, S.
+AU  - Besana, M. I.
+AU  - Besançon, M.
+AU  - Beznosov, O.
+AU  - Bhat, P.
+AU  - Bhat, C.
+AU  - Biagini, M. E.
+AU  - Biarrotte, J.-L.
+AU  - Chevalier, A. Bibet
+AU  - Bielert, E. R.
+AU  - Biglietti, M.
+AU  - Bilei, G. M.
+AU  - Bilki, B.
+AU  - Biscari, C.
+AU  - Bishara, F.
+AU  - Blanco-García, O. R.
+AU  - Blánquez, F. R.
+AU  - Blekman, F.
+AU  - Blondel, A.
+AU  - Blümlein, J.
+AU  - Boccali, T.
+AU  - Boels, R.
+AU  - Bogacz, S. A.
+AU  - Bogomyagkov, A.
+AU  - Boine-Frankenheim, O.
+AU  - Boland, M. J.
+AU  - Bologna, S.
+AU  - Bolukbasi, O.
+AU  - Bomben, M.
+AU  - Bondarenko, S.
+AU  - Bonvini, M.
+AU  - Boos, E.
+AU  - Bordini, B.
+AU  - Bordry, F.
+AU  - Borghello, G.
+AU  - Borgonovi, L.
+AU  - Borowka, S.
+AU  - Bortoletto, D.
+AU  - Boscherini, D.
+AU  - Boscolo, M.
+AU  - Boselli, S.
+AU  - Bosley, R. R.
+AU  - Bossu, F.
+AU  - Botta, C.
+AU  - Bottura, L.
+AU  - Boughezal, R.
+AU  - Boutin, D.
+AU  - Bovone, G.
+AU  - Jelisavc̆ić, I. Božović
+AU  - Bozbey, A.
+AU  - Bozzi, C.
+AU  - Bozzini, D.
+AU  - Braccini, V.
+AU  - Braibant-Giacomelli, S.
+AU  - Bramante, J.
+AU  - Braun-Munzinger, P.
+AU  - Briffa, J. A.
+AU  - Britzger, D.
+AU  - Brodsky, S. J.
+AU  - Brooke, J. J.
+AU  - Bruce, R.
+AU  - De Renstrom, P. Brückman
+AU  - Bruna, E.
+AU  - Brüning, O.
+AU  - Brunner, O.
+AU  - Brunner, K.
+AU  - Bruzzone, P.
+AU  - Buffat, X.
+AU  - Bulyak, E.
+AU  - Burkart, F.
+AU  - Burkhardt, H.
+AU  - Burnet, J.-P.
+AU  - Butin, F.
+AU  - Buttazzo, D.
+AU  - Butterworth, A.
+AU  - Caccia, M.
+AU  - Cai, Y.
+AU  - Caiffi, B.
+AU  - Cairo, V.
+AU  - Cakir, O.
+AU  - Calaga, R.
+AU  - Calatroni, S.
+AU  - Calderini, G.
+AU  - Calderola, G.
+AU  - Caliskan, A.
+AU  - Calvet, D.
+AU  - Calviani, M.
+AU  - Camalich, J. M.
+AU  - Camarri, P.
+AU  - Campanelli, M.
+AU  - Camporesi, T.
+AU  - Canbay, A. C.
+AU  - Canepa, A.
+AU  - Cantergiani, E.
+AU  - Cantore-Cavalli, D.
+AU  - Capeans, M.
+AU  - Cardarelli, R.
+AU  - Cardella, U.
+AU  - Cardini, A.
+AU  - Calame, C. M. Carloni
+AU  - Carra, F.
+AU  - Carra, S.
+AU  - Carvalho, A.
+AU  - Casalbuoni, S.
+AU  - Casas, J.
+AU  - Cascella, M.
+AU  - Castelnovo, P.
+AU  - Castorina, G.
+AU  - Catalano, G.
+AU  - Cavasinni, V.
+AU  - Cazzato, E.
+AU  - Cennini, E.
+AU  - Cerri, A.
+AU  - Cerutti, F.
+AU  - Cervantes, J.
+AU  - Chaikovska, I.
+AU  - Chakrabortty, J.
+AU  - Chala, M.
+AU  - Chamizo-Llatas, M.
+AU  - Chanal, H.
+AU  - Chanal, D.
+AU  - Chance, S.
+AU  - Chancé, A.
+AU  - Charitos, P.
+AU  - Charles, J.
+AU  - Charles, T. K.
+AU  - Chattopadhyay, S.
+AU  - Chehab, R.
+AU  - Chekanov, S. V.
+AU  - Chen, N.
+AU  - Chernoded, A.
+AU  - Chetvertkova, V.
+AU  - Chevalier, L.
+AU  - Chiarelli, G.
+AU  - Chiarello, G.
+AU  - Chiesa, M.
+AU  - Chiggiato, P.
+AU  - Childers, J. T.
+AU  - Chmielińska, A.
+AU  - Cholakian, A.
+AU  - Chomaz, P.
+AU  - Chorowski, M.
+AU  - Chou, W.
+AU  - Chrzaszcz, M.
+AU  - Chyhyrynets, E.
+AU  - Cibinetto, G.
+AU  - Ciftci, A. K.
+AU  - Ciftci, R.
+AU  - Cimino, R.
+AU  - Ciuchini, M.
+AU  - Clark, P. J.
+AU  - Coadou, Y.
+AU  - Cobal, M.
+AU  - Coccaro, A.
+AU  - Cogan, J.
+AU  - Cogneras, E.
+AU  - Collamati, F.
+AU  - Colldelram, C.
+AU  - Collier, P.
+AU  - Collot, J.
+AU  - Contino, R.
+AU  - Conventi, F.
+AU  - Cook, C. T. A.
+AU  - Cooley, L.
+AU  - Corcella, G.
+AU  - Cornell, A. S.
+AU  - Corral, G. H.
+AU  - Correia-Rodrigues, H.
+AU  - Costanza, F.
+AU  - Pinto, P. Costa
+AU  - Couderc, F.
+AU  - Coupard, J.
+AU  - Craig, N.
+AU  - Garrido, I. Crespo
+AU  - Crivellin, A.
+AU  - Croteau, J. F.
+AU  - Crouch, M.
+AU  - Alaniz, E. Cruz
+AU  - Curé, B.
+AU  - Curti, J.
+AU  - Curtin, D.
+AU  - Czech, M.
+AU  - Dachauer, C.
+AU  - D’Agnolo, R. T.
+AU  - Daibo, M.
+AU  - Dainese, A.
+AU  - Dalena, B.
+AU  - Daljevec, A.
+AU  - Dallapiazza, W.
+AU  - Schwartzentruber, L. D’Aloia
+AU  - Dam, M.
+AU  - D’Ambrosio, G.
+AU  - Das, S. P.
+AU  - DasBakshi, S.
+AU  - da Silva, W.
+AU  - da Silveira, G. G.
+AU  - D’Auria, V.
+AU  - D’Auria, S.
+AU  - David, A.
+AU  - Davidek, T.
+AU  - Deandrea, A.
+AU  - de Blas, J.
+AU  - Debono, C. J.
+AU  - De Curtis, S.
+AU  - De Filippis, N.
+AU  - de Florian, D.
+AU  - Deghaye, S.
+AU  - de Jong, S. J.
+AU  - Bo, C. Del
+AU  - Duca, V. Del
+AU  - Delikaris, D.
+AU  - Deliot, F.
+AU  - Dell’Acqua, A.
+AU  - Rose, L. Delle
+AU  - Delmastro, M.
+AU  - De Lucia, E.
+AU  - Demarteau, M.
+AU  - Denegri, D.
+AU  - Deniau, L.
+AU  - Denisov, D.
+AU  - Denizli, H.
+AU  - Denner, A.
+AU  - d’Enterria, D.
+AU  - de Rijk, G.
+AU  - De Roeck, A.
+AU  - Derue, F.
+AU  - Deschamps, O.
+AU  - Descotes-Genon, S.
+AU  - Dev, P. S. B.
+AU  - de Vivie de Régie, J. B.
+AU  - Dewanjee, R. K.
+AU  - Ciaccio, A. Di
+AU  - Cicco, A. Di
+AU  - Dillon, B. M.
+AU  - Micco, B. Di
+AU  - Nezza, P. Di
+AU  - Vita, S. Di
+AU  - Doblhammer, A.
+AU  - Dominjon, A.
+AU  - D’Onofrio, M.
+AU  - Dordei, F.
+AU  - Drago, A.
+AU  - Draper, P.
+AU  - Drasal, Z.
+AU  - Drewes, M.
+AU  - Duarte, L.
+AU  - Dubovyk, I.
+AU  - Duda, P.
+AU  - Dudarev, A.
+AU  - Dudko, L.
+AU  - Duellmann, D.
+AU  - Dünser, M.
+AU  - Pree, T. du
+AU  - Durante, M.
+AU  - Yildiz, H. Duran
+AU  - Dutta, S.
+AU  - Duval, F.
+AU  - Duval, J. M.
+AU  - Dydyshka, Ya.
+AU  - Dziewit, B.
+AU  - Eisenhardt, S.
+AU  - Eisterer, M.
+AU  - Ekelof, T.
+AU  - Khechen, D. El
+AU  - Ellis, S. A.
+AU  - Ellis, J.
+AU  - Ellison, J. A.
+AU  - Elsener, K.
+AU  - Elsing, M.
+AU  - Enari, Y.
+AU  - Englert, C.
+AU  - Eriksson, H.
+AU  - Eskola, K. J.
+AU  - Esposito, L. S.
+AU  - Etisken, O.
+AU  - Etzion, E.
+AU  - Fabbricatore, P.
+AU  - Falkowski, A.
+AU  - Falou, A.
+AU  - Faltova, J.
+AU  - Fan, J.
+AU  - Fanò, L.
+AU  - Farilla, A.
+AU  - Farinelli, R.
+AU  - Farinon, S.
+AU  - Faroughy, D. A.
+AU  - Fartoukh, S. D.
+AU  - Faus-Golfe, A.
+AU  - Fawcett, W. J.
+AU  - Felici, G.
+AU  - Felsberger, L.
+AU  - Ferdeghini, C.
+AU  - Navarro, A. M. Fernandez
+AU  - Fernández-Téllez, A.
+AU  - Troitino, J. Ferradas
+AU  - Ferrara, G.
+AU  - Ferrari, R.
+AU  - Ferreira, L.
+AU  - da Silva, P. Ferreira
+AU  - Ferrera, G.
+AU  - Ferro, F.
+AU  - Fiascaris, M.
+AU  - Fiorendi, S.
+AU  - Fiorio, C.
+AU  - Fischer, O.
+AU  - Fischer, E.
+AU  - Flieger, W.
+AU  - Florio, M.
+AU  - Fonnesu, D.
+AU  - Fontanesi, E.
+AU  - Foppiani, N.
+AU  - Foraz, K.
+AU  - Forkel-Wirth, D.
+AU  - Forte, S.
+AU  - Fouaidy, M.
+AU  - Fournier, D.
+AU  - Fowler, T.
+AU  - Fox, J.
+AU  - Francavilla, P.
+AU  - Franceschini, R.
+AU  - Franchino, S.
+AU  - Franco, E.
+AU  - Freitas, A.
+AU  - Fuks, B.
+AU  - Furukawa, K.
+AU  - Furuseth, S. V.
+AU  - Gabrielli, E.
+AU  - Gaddi, A.
+AU  - Galanti, M.
+AU  - Gallo, E.
+AU  - Ganjour, S.
+AU  - Gao, Jia.
+AU  - Gao, Jie.
+AU  - Diaz, V. Garcia
+AU  - Pérez, M. García
+AU  - Tabarés, L. García
+AU  - Garion, C.
+AU  - Garzelli, M. V.
+AU  - Garzia, I.
+AU  - Gascon-Shotkin, S. M.
+AU  - Gaudio, G.
+AU  - Gay, P.
+AU  - Ge, S.-F.
+AU  - Gehrmann, T.
+AU  - Genest, M. H.
+AU  - Gerard, R.
+AU  - Gerigk, F.
+AU  - Gerwig, H.
+AU  - Giacomelli, P.
+AU  - Giagu, S.
+AU  - Gianfelice-Wendt, E.
+AU  - Gianotti, F.
+AU  - Giffoni, F.
+AU  - Gilardoni, S. S.
+AU  - Costa, M. Gil
+AU  - Giovannetti, M.
+AU  - Giovannozzi, M.
+AU  - Giubellino, P.
+AU  - Giudice, G. F.
+AU  - Giunta, A.
+AU  - Gladilin, L. K.
+AU  - Glukhov, S.
+AU  - Gluza, J.
+AU  - Gobbi, G.
+AU  - Goddard, B.
+AU  - Goertz, F.
+AU  - Golling, T.
+AU  - Gonçalves, D.
+AU  - Goncalves, V. P.
+AU  - Gonçalo, R.
+AU  - Gomez, L. A. Gonzalez
+AU  - Zadeh, S. Gorgi
+AU  - Gorine, G.
+AU  - Gorini, E.
+AU  - Gourlay, S. A.
+AU  - Gouskos, L.
+AU  - Grancagnolo, F.
+AU  - Grassellino, A.
+AU  - Grau, A.
+AU  - Graverini, E.
+AU  - Gray, H. M.
+AU  - Greco, Ma.
+AU  - Greco, Mi.
+AU  - Grenard, J.-L.
+AU  - Grimm, O.
+AU  - Grojean, C.
+AU  - Gromov, V. A.
+AU  - Grosse-Oetringhaus, J. F.
+AU  - Grudiev, A.
+AU  - Grzanka, K.
+AU  - Gu, J.
+AU  - Guadagnoli, D.
+AU  - Guidi, V.
+AU  - Guiducci, S.
+AU  - Canton, G. Guillermo
+AU  - Günaydin, Y. O.
+AU  - Gupta, R.
+AU  - Gupta, R. S.
+AU  - Gutierrez, J.
+AU  - Gutleber, J.
+AU  - Guyot, C.
+AU  - Guzey, V.
+AU  - Gwenlan, C.
+AU  - Haberstroh, Ch.
+AU  - Hacışahinoğlu, B.
+AU  - Haerer, B.
+AU  - Hahn, K.
+AU  - Hahn, T.
+AU  - Hammad, A.
+AU  - Han, C.
+AU  - Hance, M.
+AU  - Hannah, A.
+AU  - Harris, P. C.
+AU  - Hati, C.
+AU  - Haug, S.
+AU  - Hauptman, J.
+AU  - Haurylavets, V.
+AU  - He, H-J.
+AU  - Hegglin, A.
+AU  - Hegner, B.
+AU  - Heinemann, K.
+AU  - Heinemeyer, S.
+AU  - Helsens, C.
+AU  - Henriques, Ana.
+AU  - Henriques, And.
+AU  - Hernandez, P.
+AU  - Hernández-Pinto, R. J.
+AU  - Hernandez-Sanchez, J.
+AU  - Herzig, T.
+AU  - Hiekkanen, I.
+AU  - Hillert, W.
+AU  - Hoehn, T.
+AU  - Hofer, M.
+AU  - Höfle, W.
+AU  - Holdener, F.
+AU  - Holleis, S.
+AU  - Holzer, B.
+AU  - Hong, D. K.
+AU  - Honorato, C. G.
+AU  - Hopkins, S. C.
+AU  - Hrdinka, J.
+AU  - Hug, F.
+AU  - Humann, B.
+AU  - Humer, H.
+AU  - Hurth, T.
+AU  - Hutton, A.
+AU  - Iacobucci, G.
+AU  - Ibarrola, N.
+AU  - Iconomidou-Fayard, L.
+AU  - Ilyina-Brunner, K.
+AU  - Incandela, J.
+AU  - Infantino, A.
+AU  - Ippolito, V.
+AU  - Ishino, M.
+AU  - Islam, R.
+AU  - Ita, H.
+AU  - Ivanovs, A.
+AU  - Iwamoto, S.
+AU  - Iyer, A.
+AU  - Bermudez, S. Izquierdo
+AU  - Jadach, S.
+AU  - Jamin, D. O.
+AU  - Janot, P.
+AU  - Jarry, P.
+AU  - Jeff, A.
+AU  - Jenny, P.
+AU  - Jensen, E.
+AU  - Jensen, M.
+AU  - Jiang, X.
+AU  - Jiménez, J. M.
+AU  - Jones, M. A.
+AU  - Jones, O. R.
+AU  - Jowett, J. M.
+AU  - Jung, S.
+AU  - Kaabi, W.
+AU  - Kado, M.
+AU  - Kahle, K.
+AU  - Kalinovskaya, L.
+AU  - Kalinowski, J.
+AU  - Kamenik, J. F.
+AU  - Kannike, K.
+AU  - Kara, S. O.
+AU  - Karadeniz, H.
+AU  - Karaventzas, V.
+AU  - Karpov, I.
+AU  - Kartal, S.
+AU  - Karyukhin, A.
+AU  - Kashikhin, V.
+AU  - Behr, J. Katharina
+AU  - Kaya, U.
+AU  - Keintzel, J.
+AU  - Keinz, P. A.
+AU  - Keppel, K.
+AU  - Kersevan, R.
+AU  - Kershaw, K.
+AU  - Khanpour, H.
+AU  - Khatibi, S.
+AU  - Yanehsari, M. Khatiri
+AU  - Khoze, V. V.
+AU  - Kieseler, J.
+AU  - Kilic, A.
+AU  - Kilpinen, A.
+AU  - Kim, Y.-K.
+AU  - Kim, D. W.
+AU  - Klein, U.
+AU  - Klein, M.
+AU  - Kling, F.
+AU  - Klinkenberg, N.
+AU  - Klöppel, S.
+AU  - Klute, M.
+AU  - Klyukhin, V. I.
+AU  - Knecht, M.
+AU  - Kniehl, B.
+AU  - Kocak, F.
+AU  - Koeberl, C.
+AU  - Kolano, A. M.
+AU  - Kollegger, A.
+AU  - Kołodziej, K.
+AU  - Kolomiets, A. A.
+AU  - Komppula, J.
+AU  - Koop, I.
+AU  - Koppenburg, P.
+AU  - Koratzinos, M.
+AU  - Kordiaczyńska, M.
+AU  - Korjik, M.
+AU  - Kortner, O.
+AU  - Kostka, P.
+AU  - Kotlarski, W.
+AU  - Kotnig, C.
+AU  - Köttig, T.
+AU  - Kotwal, A. V.
+AU  - Kovalenko, A. D.
+AU  - Kowalski, S.
+AU  - Kozaczuk, J.
+AU  - Kozlov, G. A.
+AU  - Kozub, S. S.
+AU  - Krainer, A. M.
+AU  - Kramer, T.
+AU  - Krämer, M.
+AU  - Krammer, M.
+AU  - Krasnov, A. A.
+AU  - Krauss, F.
+AU  - Kravalis, K.
+AU  - Kretzschmar, L.
+AU  - Kriske, R. M.
+AU  - Kritscher, H.
+AU  - Krkotic, P.
+AU  - Kroha, H.
+AU  - Kucharczyk, M.
+AU  - Kuday, S.
+AU  - Kuendig, A.
+AU  - Kuhlmann, G.
+AU  - Kulesza, A.
+AU  - Kumar, Mi.
+AU  - Kumar, Mu.
+AU  - Kusina, A.
+AU  - Kuttimalai, S.
+AU  - Kuze, M.
+AU  - Kwon, T.
+AU  - Lackner, F.
+AU  - Lackner, M.
+AU  - La Francesca, E.
+AU  - Laine, M.
+AU  - Lamanna, G.
+AU  - La Mendola, S.
+AU  - Lançon, E.
+AU  - Landsberg, G.
+AU  - Langacker, P.
+AU  - Lange, C.
+AU  - Langner, A.
+AU  - Lankford, A. J.
+AU  - Lansberg, J. P.
+AU  - Lari, T.
+AU  - Laycock, P. J.
+AU  - Lebrun, P.
+AU  - Lechner, A.
+AU  - Lee, K.
+AU  - Lee, S.
+AU  - Lee, R.
+AU  - Lefevre, T.
+AU  - Guen, P. Le
+AU  - Lehtinen, T.
+AU  - Leith, S. B.
+AU  - Lenzi, P.
+AU  - Leogrande, E.
+AU  - Leonidopoulos, C.
+AU  - Leon-Monzon, I.
+AU  - Lerner, G.
+AU  - Leroy, O.
+AU  - Lesiak, T.
+AU  - Lévai, P.
+AU  - Leveratto, A.
+AU  - Levichev, E.
+AU  - Li, G.
+AU  - Li, S.
+AU  - Li, R.
+AU  - Liberati, D.
+AU  - Liepe, M.
+AU  - Lissauer, D. A.
+AU  - Liu, Z.
+AU  - Lobko, A.
+AU  - Locci, E.
+AU  - Agaliotis, E. Logothetis
+AU  - Lombardo, M. P.
+AU  - Long, A. J.
+AU  - Lorin, C.
+AU  - Losito, R.
+AU  - Louzguiti, A.
+AU  - Low, I.
+AU  - Lucchesi, D.
+AU  - Lucchini, M. T.
+AU  - Luciani, A.
+AU  - Lueckhof, M.
+AU  - Lunt, A. J. G.
+AU  - Luzum, M.
+AU  - Lyubimtsev, D. A.
+AU  - Maggiora, M.
+AU  - Magnin, N.
+AU  - Mahmoud, M. A.
+AU  - Mahmoudi, F.
+AU  - Maitre, J.
+AU  - Makarenko, V.
+AU  - Malagoli, A.
+AU  - Malclés, J.
+AU  - Malgeri, L.
+AU  - Mallon, P. J.
+AU  - Maltoni, F.
+AU  - Malvezzi, S.
+AU  - Malyshev, O. B.
+AU  - Mancinelli, G.
+AU  - Mandrik, P.
+AU  - Manfrinetti, P.
+AU  - Mangano, M.
+AU  - Manil, P.
+AU  - Mannelli, M.
+AU  - Marchiori, G.
+AU  - Marhauser, F.
+AU  - Mariani, V.
+AU  - Marinozzi, V.
+AU  - Mariotto, S.
+AU  - Marquard, P.
+AU  - Marquet, C.
+AU  - Marriott-Dodington, T.
+AU  - Martin, R.
+AU  - Martin, O.
+AU  - Camalich, J. Martin
+AU  - Martinez, T.
+AU  - Bruzual, H. Martinez
+AU  - Martínez-Hernández, M. I.
+AU  - Martins, D. E.
+AU  - Marzani, S.
+AU  - Marzocca, D.
+AU  - Marzola, L.
+AU  - Masciocchi, S.
+AU  - Masina, I.
+AU  - Massimiliano, A.
+AU  - Massironi, A.
+AU  - Masubuchi, T.
+AU  - Matveev, V. A.
+AU  - Mazzoni, M. A.
+AU  - McCullough, M.
+AU  - McIntosh, P. A.
+AU  - Meade, P.
+AU  - Medina, L.
+AU  - Meier, A.
+AU  - Meignan, J.
+AU  - Mele, B.
+AU  - Saraiva, J. G. Mendes
+AU  - Menez, F.
+AU  - Mentink, M.
+AU  - Meoni, E.
+AU  - Meridiani, P.
+AU  - Merk, M.
+AU  - Mermod, P.
+AU  - Mertens, V.
+AU  - Mether, L.
+AU  - Métral, E.
+AU  - Migliorati, M.
+AU  - Milanese, A.
+AU  - Milardi, C.
+AU  - Milhano, G.
+AU  - Militsyn, B. L.
+AU  - Millet, F.
+AU  - Minashvili, I.
+AU  - Minervini, J. V.
+AU  - Miralles, L. S.
+AU  - Mirarchi, D.
+AU  - Mishima, S.
+AU  - Missiaen, D. P.
+AU  - Mitselmakher, G.
+AU  - Mitsuhashi, T.
+AU  - Mnich, J.
+AU  - Najafabadi, M. Mohammadi
+AU  - Mohapatra, R. N.
+AU  - Mokhov, N.
+AU  - Molson, J. G.
+AU  - Monge, R.
+AU  - Montag, C.
+AU  - Montagna, G.
+AU  - Monteil, S.
+AU  - Montenero, G.
+AU  - Montesinos, E.
+AU  - Moortgat, F.
+AU  - Morange, N.
+AU  - Morello, G.
+AU  - Llácer, M. Moreno
+AU  - Moretti, M.
+AU  - Moretti, S.
+AU  - Morley, A. K.
+AU  - Moros, A.
+AU  - Morozov, I.
+AU  - Morretta, V.
+AU  - Morrone, M.
+AU  - Mostacci, A.
+AU  - Muanza, S.
+AU  - Muchnoi, N.
+AU  - Mühlegger, M.
+AU  - Mulder, M.
+AU  - Mulders, M.
+AU  - Müller, B.
+AU  - Müller, F.
+AU  - Müller, A.-S.
+AU  - Munilla, J.
+AU  - Murray, M. J.
+AU  - Muttoni, Y.
+AU  - Myers, S.
+AU  - Mylona, M.
+AU  - Nachtman, J.
+AU  - Nakamoto, T.
+AU  - Nardecchia, M.
+AU  - Nardini, G.
+AU  - Nason, P.
+AU  - Nergiz, Z.
+AU  - Nesterenko, A. V.
+AU  - Nettsträter, A.
+AU  - Neubüser, C.
+AU  - Neundorf, J.
+AU  - Niccoli, F.
+AU  - Nicrosini, O.
+AU  - Nie, Y.
+AU  - Niedermayer, U.
+AU  - Niedziela, J.
+AU  - Niemi, A.
+AU  - Nikitin, S. A.
+AU  - Nisati, A.
+AU  - No, J. M.
+AU  - Nonis, M.
+AU  - Nosochkov, Y.
+AU  - Novák, M.
+AU  - Novokhatski, A.
+AU  - O’Callaghan, J. M.
+AU  - Ochando, C.
+AU  - Ogur, S.
+AU  - Ohmi, K.
+AU  - Oide, K.
+AU  - Okorokov, V. A.
+AU  - Okumura, Y.
+AU  - Oleari, C.
+AU  - Olness, F. I.
+AU  - Onel, Y.
+AU  - Ortino, M.
+AU  - Osborne, J.
+AU  - Osland, P.
+AU  - Otto, T.
+AU  - Oyulmaz, K. Y.
+AU  - Ozansoy, A.
+AU  - Özcan, V.
+AU  - Özdemir, K.
+AU  - Pagliarone, C. E.
+AU  - da Silva, H. F. Pais
+AU  - Palmieri, E.
+AU  - Palumbo, L.
+AU  - Pampaloni, A.
+AU  - Pan, R.-Q.
+AU  - Panareo, M.
+AU  - Panella, O.
+AU  - Panico, G.
+AU  - Panizzo, G.
+AU  - Pankov, A. A.
+AU  - Pantsyrny, V.
+AU  - Papadopoulos, C. G.
+AU  - Papaefstathiou, A.
+AU  - Papaphilippou, Y.
+AU  - Parker, M. A.
+AU  - Parma, V.
+AU  - Pasquali, M.
+AU  - Patra, S. K.
+AU  - Patterson, R.
+AU  - Paukkunen, H.
+AU  - Pauss, F.
+AU  - Peggs, S.
+AU  - Penttinen, J.-P.
+AU  - Peón, G.
+AU  - Perepelkin, E. E.
+AU  - Perez, E.
+AU  - Perez, J. C.
+AU  - Perez, G.
+AU  - Pérez, F.
+AU  - Codina, E. Perez
+AU  - Morales, J. Perez
+AU  - Perfilov, M.
+AU  - Pernegger, H.
+AU  - Peruzzi, M.
+AU  - Pes, C.
+AU  - Peters, K.
+AU  - Petracca, S.
+AU  - Petriello, F.
+AU  - Pezzotti, L.
+AU  - Pfeiffer, S.
+AU  - Piccinini, F.
+AU  - Pieloni, T.
+AU  - Pierini, M.
+AU  - Pikhartova, H.
+AU  - Pikurs, G.
+AU  - Pilicer, E.
+AU  - Piminov, P.
+AU  - Pira, C.
+AU  - Pittau, R.
+AU  - Płaczek, W.
+AU  - Plagge, M.
+AU  - Plehn, T.
+AU  - Pleier, M.-A.
+AU  - Płoskoń, M.
+AU  - Podeur, M.
+AU  - Podlech, H.
+AU  - Podzorny, T.
+AU  - Poggioli, L.
+AU  - Poiron, A.
+AU  - Polesello, G.
+AU  - Lener, M. Poli
+AU  - Polini, A.
+AU  - Polinski, J.
+AU  - Polozov, S. M.
+AU  - Ponce, L.
+AU  - Pont, M.
+AU  - Pontecorvo, L.
+AU  - Portaluri, T.
+AU  - Potamianos, K.
+AU  - Prasse, C.
+AU  - Prausa, M.
+AU  - Preinerstorfer, A.
+AU  - Premat, E.
+AU  - Price, T.
+AU  - Primavera, M.
+AU  - Prino, F.
+AU  - Prioli, M.
+AU  - Proudfoot, J.
+AU  - Provino, A.
+AU  - Pugnat, T.
+AU  - Pukhaeva, N.
+AU  - Puławski, S.
+AU  - Pulikowski, D.
+AU  - Punzi, G.
+AU  - Putti, M.
+AU  - Pyarelal, A.
+AU  - Quack, H.
+AU  - Quispe, M.
+AU  - Racioppi, A.
+AU  - Rafique, H.
+AU  - Raginel, V.
+AU  - Raidal, M.
+AU  - Ramírez-Uribe, N. S.
+AU  - Ramsey-Musolf, M. J.
+AU  - Rata, R.
+AU  - Ratoff, P.
+AU  - Ravotti, F.
+AU  - Teles, P. Rebello
+AU  - Reboud, M.
+AU  - Redaelli, S.
+AU  - Renner, E.
+AU  - Rentería-Olivo, A. E.
+AU  - Rescigno, M.
+AU  - Reuter, J.
+AU  - Ribon, A.
+AU  - Ricci, A. M.
+AU  - Riegler, W.
+AU  - Riemann, S.
+AU  - Riemann, B.
+AU  - Riemann, T.
+AU  - Rifflet, J. M.
+AU  - Rimmer, R. A.
+AU  - Rinaldesi, R.
+AU  - Rinolfi, L.
+AU  - Rubiras, O. Rios
+AU  - Risselada, T.
+AU  - Rivetti, A.
+AU  - Rivkin, L.
+AU  - Rizzo, T.
+AU  - Robens, T.
+AU  - Robert, F.
+AU  - Robson, A. J.
+AU  - Rochepault, E.
+AU  - Roda, C.
+AU  - Rodrigo, G.
+AU  - Rodríguez-Cahuantzi, M.
+AU  - Rogan, C.
+AU  - Roig, M.
+AU  - Rojas-Torres, S.
+AU  - Rojo, J.
+AU  - Rolandi, G.
+AU  - Rolando, G.
+AU  - Roloff, P.
+AU  - Romanenko, A.
+AU  - Romanov, A.
+AU  - Roncarolo, F.
+AU  - Sanchez, A. Rosado
+AU  - Rosaz, G.
+AU  - Rossi, L.
+AU  - Rossi, A.
+AU  - Rossmanith, R.
+AU  - Rousset, B.
+AU  - Royon, C.
+AU  - Ruan, X.
+AU  - Ruehl, I.
+AU  - Ruhlmann-Kleider, V.
+AU  - Ruiz, R.
+AU  - Rumyantsev, L.
+AU  - Ruprecht, R.
+AU  - Ryazanov, A. I.
+AU  - Saba, A.
+AU  - Sadykov, R.
+AU  - de Jauregui, D. Saez
+AU  - Sahin, M.
+AU  - Sailer, B.
+AU  - Saito, M.
+AU  - Sala, F.
+AU  - Salam, G. P.
+AU  - Salfeld-Nebgen, J.
+AU  - Salgado, C. A.
+AU  - Salini, S.
+AU  - Sallese, J. M.
+AU  - Salmi, T.
+AU  - Salzburger, A.
+AU  - Sampayo, O. A.
+AU  - Sanfilippo, S.
+AU  - Santiago, J.
+AU  - Santopinto, E.
+AU  - Santoro, R.
+AU  - Ull, A. Sanz
+AU  - Sarasola, X.
+AU  - Sarpün, I. H.
+AU  - Sauvain, M.
+AU  - Savelyeva, S.
+AU  - Sawada, R.
+AU  - Sborlini, G. F. R.
+AU  - Schaffer, A.
+AU  - Schaumann, M.
+AU  - Schenk, M.
+AU  - Scheuerlein, C.
+AU  - Schienbein, I.
+AU  - Schlenga, K.
+AU  - Schmickler, H.
+AU  - Schmidt, R.
+AU  - Schoerling, D.
+AU  - Schoning, A.
+AU  - Schörner-Sadenius, T.
+AU  - Schott, M.
+AU  - Schulte, D.
+AU  - Schwaller, P.
+AU  - Schwanenberger, C.
+AU  - Schwemling, P.
+AU  - Schwerg, N.
+AU  - Scibile, L.
+AU  - Sciuto, A.
+AU  - Scomparin, E.
+AU  - Sebastiani, C.
+AU  - Seeber, B.
+AU  - Segreti, M.
+AU  - Selva, P.
+AU  - Selvaggi, M.
+AU  - Senatore, C.
+AU  - Senol, A.
+AU  - Serin, L.
+AU  - Serluca, M.
+AU  - Serra, N.
+AU  - Seryi, A.
+AU  - Sestini, L.
+AU  - Sfyrla, A.
+AU  - Shaposhnikov, M.
+AU  - Shaposhnikova, E.
+AU  - Sharkov, B. Yu.
+AU  - Shatilov, D.
+AU  - Shelton, J.
+AU  - Shiltsev, V.
+AU  - Shipsey, I. P.
+AU  - Shirkov, G. D.
+AU  - Shivaji, A.
+AU  - Shwartz, D.
+AU  - Sian, T.
+AU  - Sidorov, S.
+AU  - Siemko, A.
+AU  - Silvestrini, L.
+AU  - Simand, N.
+AU  - Simon, F.
+AU  - Singh, B. K.
+AU  - Siódmok, A.
+AU  - Sirois, Y.
+AU  - Sirtori, E.
+AU  - Sirvinskaite, R.
+AU  - Sitar, B.
+AU  - Sjöstrand, T.
+AU  - Skands, P.
+AU  - Skordis, E.
+AU  - Skovpen, K.
+AU  - Skrzypek, M.
+AU  - Slade, E.
+AU  - Slavich, P.
+AU  - Slovak, R.
+AU  - Smaluk, V.
+AU  - Smirnov, V.
+AU  - Snoeys, W.
+AU  - Soffi, L.
+AU  - Sollander, P.
+AU  - Solovyanov, O.
+AU  - Soltveit, H. K.
+AU  - Song, H.
+AU  - Sopicki, P.
+AU  - Sorbi, M.
+AU  - Spallino, L.
+AU  - Spannowsky, M.
+AU  - Spataro, B.
+AU  - Sphicas, P.
+AU  - Spiesberger, H.
+AU  - Spiller, P.
+AU  - Spira, M.
+AU  - Srivastava, T.
+AU  - Stachel, J.
+AU  - Stakia, A.
+AU  - Stanyard, J. L.
+AU  - Starchenko, E.
+AU  - Starikov, A. Yu.
+AU  - Staśto, A. M.
+AU  - Statera, M.
+AU  - Steerenberg, R.
+AU  - Steggemann, J.
+AU  - Stenvall, A.
+AU  - Stivanello, F.
+AU  - Stöckinger, D.
+AU  - Stoel, L. S.
+AU  - Stöger-Pollach, M.
+AU  - Strauss, B.
+AU  - Stuart, M.
+AU  - Stupakov, G.
+AU  - Su, S.
+AU  - Sublet, A.
+AU  - Sugita, K.
+AU  - Sulak, L.
+AU  - Sullivan, M. K.
+AU  - Sultansoy, S.
+AU  - Sumida, T.
+AU  - Suzuki, K.
+AU  - Sylva, G.
+AU  - Syphers, M. J.
+AU  - Sznajder, A.
+AU  - Taborelli, M.
+AU  - Tahir, N. A.
+AU  - Hod, E. Tal
+AU  - Takeuchi, M.
+AU  - Tambasco, C.
+AU  - Tanaka, J.
+AU  - Tang, K.
+AU  - Tapan, I.
+AU  - Taroni, S.
+AU  - Tartarelli, G. F.
+AU  - Tassielli, G.
+AU  - Tavian, L.
+AU  - Taylor, T. M.
+AU  - Taylor, G. N.
+AU  - Teixeira, A. M.
+AU  - Tejeda-Muñoz, G.
+AU  - Telnov, V. I.
+AU  - Tenchini, R.
+AU  - Kate, H. H. J. ten
+AU  - Terashi, K.
+AU  - Tesi, A.
+AU  - Testa, M.
+AU  - Tetrel, C.
+AU  - Teytelman, D.
+AU  - Thaler, J.
+AU  - Thamm, A.
+AU  - Thomas, S.
+AU  - Tiirakari, M. T.
+AU  - Tikhomirov, V.
+AU  - Tikhonov, D.
+AU  - Timko, H.
+AU  - Tisserand, V.
+AU  - Tkachenko, L. M.
+AU  - Tkaczuk, J.
+AU  - Tock, J. Ph.
+AU  - Todd, B.
+AU  - Todesco, E.
+AU  - Garcia, R. Tomás
+AU  - Tommasini, D.
+AU  - Tonelli, G.
+AU  - Toral, F.
+AU  - Torims, T.
+AU  - Torre, R.
+AU  - Townsend, Z.
+AU  - Trant, R.
+AU  - Treille, D.
+AU  - Trentadue, L.
+AU  - Tricoli, A.
+AU  - Tricomi, A.
+AU  - Trischuk, W.
+AU  - Tropin, I. S.
+AU  - Tuchming, B.
+AU  - Tudora, A. A.
+AU  - Turbiarz, B.
+AU  - Cakir, I. Turk
+AU  - Turri, M.
+AU  - Tydecks, T.
+AU  - Usovitsch, J.
+AU  - Uythoven, J.
+AU  - Vaglio, R.
+AU  - Valassi, A.
+AU  - Valchkova, F.
+AU  - Garcia, M. A. Valdivia
+AU  - Valente, P.
+AU  - Valente, R. U.
+AU  - Valente-Feliciano, A.-M.
+AU  - Valentino, G.
+AU  - Silva, L. Vale
+AU  - Valet, J. M.
+AU  - Valizadeh, R.
+AU  - Valle, J. W. F.
+AU  - Vallecorsa, S.
+AU  - Vallone, G.
+AU  - Leeuwen, M. van
+AU  - Rienen, U. H. van
+AU  - Riesen-Haupt, L. van
+AU  - Varasteh, M.
+AU  - Vecchi, L.
+AU  - Vedrine, P.
+AU  - Velev, G.
+AU  - Veness, R.
+AU  - Ventura, A.
+AU  - Delsolaro, W. Venturini
+AU  - Verducci, M.
+AU  - Verhaaren, C. B.
+AU  - Vernieri, C.
+AU  - Verweij, A. P.
+AU  - Verwilligen, O.
+AU  - Viazlo, O.
+AU  - Vicini, A.
+AU  - Viehhauser, G.
+AU  - Vignaroli, N.
+AU  - Vignolo, M.
+AU  - Vitrano, A.
+AU  - Vivarelli, I.
+AU  - Vlachos, S.
+AU  - Vogel, M.
+AU  - Vogt, D. M.
+AU  - Völkl, V.
+AU  - Volkov, P.
+AU  - Volpini, G.
+AU  - Ahnen, J. von
+AU  - Vorotnikov, G.
+AU  - Voutsinas, G. G.
+AU  - Vysotsky, V.
+AU  - Wagner, U.
+AU  - Wallny, R.
+AU  - Wang, L.-T.
+AU  - Wang, R.
+AU  - Wang, K.
+AU  - Ward, B. F. L.
+AU  - Watson, T. P.
+AU  - Watson, N. K.
+AU  - Wa̧s, Z.
+AU  - Weiland, C.
+AU  - Weinzierl, S.
+AU  - Welsch, C. P.
+AU  - Wenninger, J.
+AU  - Widorski, M.
+AU  - Wiedemann, U. A.
+AU  - Wienands, H.-U.
+AU  - Wilkinson, G.
+AU  - Williams, P. H.
+AU  - Winter, A.
+AU  - Wohlfahrt, A.
+AU  - Wojtoń, T.
+AU  - Wollmann, D.
+AU  - Womersley, J.
+AU  - Woog, D.
+AU  - Wu, X.
+AU  - Wulzer, A.
+AU  - Yanehsari, M. K.
+AU  - Yang, G.
+AU  - Yang, H. J.
+AU  - Yao, W.-M.
+AU  - Yazgan, E.
+AU  - Yermolchik, V.
+AU  - Yilmaz, Ay.
+AU  - Yilmaz, Al.
+AU  - Yoo, H.-D.
+AU  - Yost, S. A.
+AU  - You, T.
+AU  - Young, C.
+AU  - Yu, T.-T.
+AU  - Yu, F.
+AU  - Zaborowska, A.
+AU  - Zadeh, S. G.
+AU  - Zahnd, M.
+AU  - Zanetti, M.
+AU  - Zanotto, L.
+AU  - Zawiejski, L.
+AU  - Zeiler, P.
+AU  - Zerlauth, M.
+AU  - Zernov, S. M.
+AU  - Porta, G. Zevi Dell
+AU  - Zhang, Z.
+AU  - Zhang, Y.
+AU  - Zhang, C.
+AU  - Zhang, H.
+AU  - Zhao, Z.
+AU  - Zhong, Y.-M.
+AU  - Zhou, J.
+AU  - Zhou, D.
+AU  - Zhuang, P.
+AU  - Zick, G.
+AU  - Zimmermann, F.
+AU  - Zinn-Justin, J.
+AU  - Zivkovic, L.
+AU  - Zlobin, A. V.
+AU  - Zobov, M.
+AU  - Zupan, J.
+AU  - Zurita, J.
+T2  - The European Physical Journal C
+DA  - 2019/06//
+PY  - 2019
+DO  - 10.1140/epjc/s10052-019-6904-3
+DP  - DOI.org (Crossref)
+VL  - 79
+IS  - 6
+SP  - 474
+J2  - Eur. Phys. J. C
+LA  - en
+SN  - 1434-6044, 1434-6052
+ST  - FCC Physics Opportunities
+UR  - http://link.springer.com/10.1140/epjc/s10052-019-6904-3
+Y2  - 2022/12/25/14:59:49
+L1  - https://link.springer.com/content/pdf/10.1140/epjc/s10052-019-6904-3.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Charged jet cross section and fragmentation in proton-proton collisions at s = 7 TeV
+AU  - Acharya, S.
+AU  - Adamová, D.
+AU  - Adler, A.
+AU  - Adolfsson, J.
+AU  - Aggarwal, M. M.
+AU  - Aglieri Rinella, G.
+AU  - Agnello, M.
+AU  - Agrawal, N.
+AU  - Ahammed, Z.
+AU  - Ahn, S. U.
+AU  - Aiola, S.
+AU  - Akindinov, A.
+AU  - Al-Turany, M.
+AU  - Alam, S. N.
+AU  - Albuquerque, D. S. D.
+AU  - Aleksandrov, D.
+AU  - Alessandro, B.
+AU  - Alfaro Molina, R.
+AU  - Ali, Y.
+AU  - Alici, A.
+AU  - Alkin, A.
+AU  - Alme, J.
+AU  - Alt, T.
+AU  - Altenkamper, L.
+AU  - Altsybeev, I.
+AU  - Anaam, M. N.
+AU  - Andrei, C.
+AU  - Andreou, D.
+AU  - Andrews, H. A.
+AU  - Andronic, A.
+AU  - Angeletti, M.
+AU  - Anguelov, V.
+AU  - Anson, C.
+AU  - Antičić, T.
+AU  - Antinori, F.
+AU  - Antonioli, P.
+AU  - Anwar, R.
+AU  - Apadula, N.
+AU  - Aphecetche, L.
+AU  - Appelshäuser, H.
+AU  - Arcelli, S.
+AU  - Arnaldi, R.
+AU  - Arnold, O. W.
+AU  - Arsene, I. C.
+AU  - Arslandok, M.
+AU  - Augustinus, A.
+AU  - Averbeck, R.
+AU  - Azmi, M. D.
+AU  - Badalà, A.
+AU  - Baek, Y. W.
+AU  - Bagnasco, S.
+AU  - Bailhache, R.
+AU  - Bala, R.
+AU  - Baldisseri, A.
+AU  - Ball, M.
+AU  - Baral, R. C.
+AU  - Barbano, A. M.
+AU  - Barbera, R.
+AU  - Barile, F.
+AU  - Barioglio, L.
+AU  - Barnaföldi, G. G.
+AU  - Barnby, L. S.
+AU  - Barret, V.
+AU  - Bartalini, P.
+AU  - Barth, K.
+AU  - Bartsch, E.
+AU  - Bastid, N.
+AU  - Basu, S.
+AU  - Batigne, G.
+AU  - Batyunya, B.
+AU  - Batzing, P. C.
+AU  - Bazo Alba, J. L.
+AU  - Bearden, I. G.
+AU  - Beck, H.
+AU  - Bedda, C.
+AU  - Behera, N. K.
+AU  - Belikov, I.
+AU  - Bellini, F.
+AU  - Bello Martinez, H.
+AU  - Bellwied, R.
+AU  - Beltran, L. G. E.
+AU  - Belyaev, V.
+AU  - Bencedi, G.
+AU  - Beole, S.
+AU  - Bercuci, A.
+AU  - Berdnikov, Y.
+AU  - Berenyi, D.
+AU  - Bertens, R. A.
+AU  - Berzano, D.
+AU  - Betev, L.
+AU  - Bhaduri, P. P.
+AU  - Bhasin, A.
+AU  - Bhat, I. R.
+AU  - Bhatt, H.
+AU  - Bhattacharjee, B.
+AU  - Bhom, J.
+AU  - Bianchi, A.
+AU  - Bianchi, L.
+AU  - Bianchi, N.
+AU  - Bielčík, J.
+AU  - Bielčíková, J.
+AU  - Bilandzic, A.
+AU  - Biro, G.
+AU  - Biswas, R.
+AU  - Biswas, S.
+AU  - Blair, J. T.
+AU  - Blau, D.
+AU  - Blume, C.
+AU  - Boca, G.
+AU  - Bock, F.
+AU  - Bogdanov, A.
+AU  - Boldizsár, L.
+AU  - Bombara, M.
+AU  - Bonomi, G.
+AU  - Bonora, M.
+AU  - Borel, H.
+AU  - Borissov, A.
+AU  - Borri, M.
+AU  - Botta, E.
+AU  - Bourjau, C.
+AU  - Bratrud, L.
+AU  - Braun-Munzinger, P.
+AU  - Bregant, M.
+AU  - Broker, T. A.
+AU  - Broz, M.
+AU  - Brucken, E. J.
+AU  - Bruna, E.
+AU  - Bruno, G. E.
+AU  - Budnikov, D.
+AU  - Buesching, H.
+AU  - Bufalino, S.
+AU  - Buhler, P.
+AU  - Buncic, P.
+AU  - Busch, O.
+AU  - Buthelezi, Z.
+AU  - Butt, J. B.
+AU  - Buxton, J. T.
+AU  - Cabala, J.
+AU  - Caffarri, D.
+AU  - Caines, H.
+AU  - Caliva, A.
+AU  - Calvo Villar, E.
+AU  - Camacho, R. S.
+AU  - Camerini, P.
+AU  - Capon, A. A.
+AU  - Carena, W.
+AU  - Carnesecchi, F.
+AU  - Castillo Castellanos, J.
+AU  - Castro, A. J.
+AU  - Casula, E. A. R.
+AU  - Ceballos Sanchez, C.
+AU  - Chandra, S.
+AU  - Chang, B.
+AU  - Chang, W.
+AU  - Chapeland, S.
+AU  - Chartier, M.
+AU  - Chattopadhyay, S.
+AU  - Chattopadhyay, S.
+AU  - Chauvin, A.
+AU  - Cheshkov, C.
+AU  - Cheynis, B.
+AU  - Chibante Barroso, V.
+AU  - Chinellato, D. D.
+AU  - Cho, S.
+AU  - Chochula, P.
+AU  - Chowdhury, T.
+AU  - Christakoglou, P.
+AU  - Christensen, C. H.
+AU  - Christiansen, P.
+AU  - Chujo, T.
+AU  - Chung, S. U.
+AU  - Cicalo, C.
+AU  - Cifarelli, L.
+AU  - Cindolo, F.
+AU  - Cleymans, J.
+AU  - Colamaria, F.
+AU  - Colella, D.
+AU  - Collu, A.
+AU  - Colocci, M.
+AU  - Concas, M.
+AU  - Conesa Balbastre, G.
+AU  - Conesa del Valle, Z.
+AU  - Contreras, J. G.
+AU  - Cormier, T. M.
+AU  - Corrales Morales, Y.
+AU  - Cortese, P.
+AU  - Cosentino, M. R.
+AU  - Costa, F.
+AU  - Costanza, S.
+AU  - Crkovská, J.
+AU  - Crochet, P.
+AU  - Cuautle, E.
+AU  - Cunqueiro, L.
+AU  - Dahms, T.
+AU  - Dainese, A.
+AU  - Damas, F. P. A.
+AU  - Dani, S.
+AU  - Danisch, M. C.
+AU  - Danu, A.
+AU  - Das, D.
+AU  - Das, I.
+AU  - Das, S.
+AU  - Dash, A.
+AU  - Dash, S.
+AU  - De, S.
+AU  - De Caro, A.
+AU  - de Cataldo, G.
+AU  - de Conti, C.
+AU  - de Cuveland, J.
+AU  - De Falco, A.
+AU  - De Gruttola, D.
+AU  - De Marco, N.
+AU  - De Pasquale, S.
+AU  - De Souza, R. D.
+AU  - Degenhardt, H. F.
+AU  - Deisting, A.
+AU  - Deloff, A.
+AU  - Delsanto, S.
+AU  - Deplano, C.
+AU  - Dhankher, P.
+AU  - Di Bari, D.
+AU  - Di Mauro, A.
+AU  - Di Ruzza, B.
+AU  - Diaz, R. A.
+AU  - Dietel, T.
+AU  - Dillenseger, P.
+AU  - Ding, Y.
+AU  - Divià, R.
+AU  - Djuvsland, Ø.
+AU  - Dobrin, A.
+AU  - Domenicis Gimenez, D.
+AU  - Dönigus, B.
+AU  - Dordic, O.
+AU  - Doremalen, L. V. R.
+AU  - Dubey, A. K.
+AU  - Dubla, A.
+AU  - Ducroux, L.
+AU  - Dudi, S.
+AU  - Duggal, A. K.
+AU  - Dukhishyam, M.
+AU  - Dupieux, P.
+AU  - Ehlers, R. J.
+AU  - Elia, D.
+AU  - Endress, E.
+AU  - Engel, H.
+AU  - Epple, E.
+AU  - Erazmus, B.
+AU  - Erhardt, F.
+AU  - Ersdal, M. R.
+AU  - Espagnon, B.
+AU  - Eulisse, G.
+AU  - Eum, J.
+AU  - Evans, D.
+AU  - Evdokimov, S.
+AU  - Fabbietti, L.
+AU  - Faggin, M.
+AU  - Faivre, J.
+AU  - Fantoni, A.
+AU  - Fasel, M.
+AU  - Feldkamp, L.
+AU  - Feliciello, A.
+AU  - Feofilov, G.
+AU  - Fernández Téllez, A.
+AU  - Ferretti, A.
+AU  - Festanti, A.
+AU  - Feuillard, V. J. G.
+AU  - Figiel, J.
+AU  - Figueredo, M. A. S.
+AU  - Filchagin, S.
+AU  - Finogeev, D.
+AU  - Fionda, F. M.
+AU  - Fiorenza, G.
+AU  - Flor, F.
+AU  - Floris, M.
+AU  - Foertsch, S.
+AU  - Foka, P.
+AU  - Fokin, S.
+AU  - Fragiacomo, E.
+AU  - Francescon, A.
+AU  - Francisco, A.
+AU  - Frankenfeld, U.
+AU  - Fronze, G. G.
+AU  - Fuchs, U.
+AU  - Furget, C.
+AU  - Furs, A.
+AU  - Fusco Girard, M.
+AU  - Gaardhøje, J. J.
+AU  - Gagliardi, M.
+AU  - Gago, A. M.
+AU  - Gajdosova, K.
+AU  - Gallio, M.
+AU  - Galvan, C. D.
+AU  - Ganoti, P.
+AU  - Garabatos, C.
+AU  - Garcia-Solis, E.
+AU  - Garg, K.
+AU  - Gargiulo, C.
+AU  - Gasik, P.
+AU  - Gauger, E. F.
+AU  - Gay Ducati, M. B.
+AU  - Germain, M.
+AU  - Ghosh, J.
+AU  - Ghosh, P.
+AU  - Ghosh, S. K.
+AU  - Gianotti, P.
+AU  - Giubellino, P.
+AU  - Giubilato, P.
+AU  - Glässel, P.
+AU  - Goméz Coral, D. M.
+AU  - Gomez Ramirez, A.
+AU  - Gonzalez, V.
+AU  - González-Zamora, P.
+AU  - Gorbunov, S.
+AU  - Görlich, L.
+AU  - Gotovac, S.
+AU  - Grabski, V.
+AU  - Graczykowski, L. K.
+AU  - Graham, K. L.
+AU  - Greiner, L.
+AU  - Grelli, A.
+AU  - Grigoras, C.
+AU  - Grigoriev, V.
+AU  - Grigoryan, A.
+AU  - Grigoryan, S.
+AU  - Gronefeld, J. M.
+AU  - Grosa, F.
+AU  - Grosse-Oetringhaus, J. F.
+AU  - Grosso, R.
+AU  - Guernane, R.
+AU  - Guerzoni, B.
+AU  - Guittiere, M.
+AU  - Gulbrandsen, K.
+AU  - Gunji, T.
+AU  - Gupta, A.
+AU  - Gupta, R.
+AU  - Guzman, I. B.
+AU  - Haake, R.
+AU  - Habib, M. K.
+AU  - Hadjidakis, C.
+AU  - Hamagaki, H.
+AU  - Hamar, G.
+AU  - Hamid, M.
+AU  - Hamon, J. C.
+AU  - Hannigan, R.
+AU  - Haque, M. R.
+AU  - Harlenderova, A.
+AU  - Harris, J. W.
+AU  - Harton, A.
+AU  - Hassan, H.
+AU  - Hatzifotiadou, D.
+AU  - Hayashi, S.
+AU  - Heckel, S. T.
+AU  - Hellbär, E.
+AU  - Helstrup, H.
+AU  - Herghelegiu, A.
+AU  - Hernandez, E. G.
+AU  - Herrera Corral, G.
+AU  - Herrmann, F.
+AU  - Hetland, K. F.
+AU  - Hilden, T. E.
+AU  - Hillemanns, H.
+AU  - Hills, C.
+AU  - Hippolyte, B.
+AU  - Hohlweger, B.
+AU  - Horak, D.
+AU  - Hornung, S.
+AU  - Hosokawa, R.
+AU  - Hota, J.
+AU  - Hristov, P.
+AU  - Huang, C.
+AU  - Hughes, C.
+AU  - Huhn, P.
+AU  - Humanic, T. J.
+AU  - Hushnud, H.
+AU  - Hussain, N.
+AU  - Hussain, T.
+AU  - Hutter, D.
+AU  - Hwang, D. S.
+AU  - Iddon, J. P.
+AU  - Iga Buitron, S. A.
+AU  - Ilkaev, R.
+AU  - Inaba, M.
+AU  - Ippolitov, M.
+AU  - Islam, M. S.
+AU  - Ivanov, M.
+AU  - Ivanov, V.
+AU  - Izucheev, V.
+AU  - Jacak, B.
+AU  - Jacazio, N.
+AU  - Jacobs, P. M.
+AU  - Jadhav, M. B.
+AU  - Jadlovska, S.
+AU  - Jadlovsky, J.
+AU  - Jaelani, S.
+AU  - Jahnke, C.
+AU  - Jakubowska, M. J.
+AU  - Janik, M. A.
+AU  - Jena, C.
+AU  - Jercic, M.
+AU  - Jevons, O.
+AU  - Jimenez Bustamante, R. T.
+AU  - Jin, M.
+AU  - Jones, P. G.
+AU  - Jusko, A.
+AU  - Kalinak, P.
+AU  - Kalweit, A.
+AU  - Kang, J. H.
+AU  - Kaplin, V.
+AU  - Kar, S.
+AU  - Karasu Uysal, A.
+AU  - Karavichev, O.
+AU  - Karavicheva, T.
+AU  - Karczmarczyk, P.
+AU  - Karpechev, E.
+AU  - Kebschull, U.
+AU  - Keidel, R.
+AU  - Keijdener, D. L. D.
+AU  - Keil, M.
+AU  - Ketzer, B.
+AU  - Khabanova, Z.
+AU  - Khan, A. M.
+AU  - Khan, S.
+AU  - Khan, S. A.
+AU  - Khanzadeev, A.
+AU  - Kharlov, Y.
+AU  - Khatun, A.
+AU  - Khuntia, A.
+AU  - Kielbowicz, M. M.
+AU  - Kileng, B.
+AU  - Kim, B.
+AU  - Kim, D.
+AU  - Kim, D. J.
+AU  - Kim, E. J.
+AU  - Kim, H.
+AU  - Kim, J. S.
+AU  - Kim, J.
+AU  - Kim, M.
+AU  - Kim, S.
+AU  - Kim, T.
+AU  - Kim, T.
+AU  - Kindra, K.
+AU  - Kirsch, S.
+AU  - Kisel, I.
+AU  - Kiselev, S.
+AU  - Kisiel, A.
+AU  - Klay, J. L.
+AU  - Klein, C.
+AU  - Klein, J.
+AU  - Klein-Bösing, C.
+AU  - Klewin, S.
+AU  - Kluge, A.
+AU  - Knichel, M. L.
+AU  - Knospe, A. G.
+AU  - Kobdaj, C.
+AU  - Kofarago, M.
+AU  - Köhler, M. K.
+AU  - Kollegger, T.
+AU  - Kondratyeva, N.
+AU  - Kondratyuk, E.
+AU  - Konevskikh, A.
+AU  - Konopka, P. J.
+AU  - Konyushikhin, M.
+AU  - Koska, L.
+AU  - Kovalenko, O.
+AU  - Kovalenko, V.
+AU  - Kowalski, M.
+AU  - Králik, I.
+AU  - Kravčáková, A.
+AU  - Kreis, L.
+AU  - Krivda, M.
+AU  - Krizek, F.
+AU  - Krüger, M.
+AU  - Kryshen, E.
+AU  - Krzewicki, M.
+AU  - Kubera, A. M.
+AU  - Kučera, V.
+AU  - Kuhn, C.
+AU  - Kuijer, P. G.
+AU  - Kumar, J.
+AU  - Kumar, L.
+AU  - Kumar, S.
+AU  - Kundu, S.
+AU  - Kurashvili, P.
+AU  - Kurepin, A.
+AU  - Kurepin, A. B.
+AU  - Kushpil, S.
+AU  - Kvapil, J.
+AU  - Kweon, M. J.
+AU  - Kwon, Y.
+AU  - La Pointe, S. L.
+AU  - La Rocca, P.
+AU  - Lai, Y. S.
+AU  - Lakomov, I.
+AU  - Langoy, R.
+AU  - Lapidus, K.
+AU  - Lardeux, A.
+AU  - Larionov, P.
+AU  - Laudi, E.
+AU  - Lavicka, R.
+AU  - Lea, R.
+AU  - Leardini, L.
+AU  - Lee, S.
+AU  - Lehas, F.
+AU  - Lehner, S.
+AU  - Lehrbach, J.
+AU  - Lemmon, R. C.
+AU  - León Monzón, I.
+AU  - Lévai, P.
+AU  - Li, X.
+AU  - Li, X. L.
+AU  - Lien, J.
+AU  - Lietava, R.
+AU  - Lim, B.
+AU  - Lindal, S.
+AU  - Lindenstruth, V.
+AU  - Lindsay, S. W.
+AU  - Lippmann, C.
+AU  - Lisa, M. A.
+AU  - Litichevskyi, V.
+AU  - Liu, A.
+AU  - Ljunggren, H. M.
+AU  - Llope, W. J.
+AU  - Lodato, D. F.
+AU  - Loginov, V.
+AU  - Loizides, C.
+AU  - Loncar, P.
+AU  - Lopez, X.
+AU  - López Torres, E.
+AU  - Luettig, P.
+AU  - Luhder, J. R.
+AU  - Lunardon, M.
+AU  - Luparello, G.
+AU  - Lupi, M.
+AU  - Maevskaya, A.
+AU  - Mager, M.
+AU  - Mahmood, S. M.
+AU  - Maire, A.
+AU  - Majka, R. D.
+AU  - Malaev, M.
+AU  - Malik, Q. W.
+AU  - Malinina, L.
+AU  - Mal’Kevich, D.
+AU  - Malzacher, P.
+AU  - Mamonov, A.
+AU  - Manko, V.
+AU  - Manso, F.
+AU  - Manzari, V.
+AU  - Mao, Y.
+AU  - Marchisone, M.
+AU  - Mareš, J.
+AU  - Margagliotti, G. V.
+AU  - Margotti, A.
+AU  - Margutti, J.
+AU  - Marín, A.
+AU  - Markert, C.
+AU  - Marquard, M.
+AU  - Martin, N. A.
+AU  - Martinengo, P.
+AU  - Martinez, J. L.
+AU  - Martínez, M. I.
+AU  - Martínez García, G.
+AU  - Martinez Pedreira, M.
+AU  - Masciocchi, S.
+AU  - Masera, M.
+AU  - Masoni, A.
+AU  - Massacrier, L.
+AU  - Masson, E.
+AU  - Mastroserio, A.
+AU  - Mathis, A. M.
+AU  - Matuoka, P. F. T.
+AU  - Matyja, A.
+AU  - Mayer, C.
+AU  - Mazzilli, M.
+AU  - Mazzoni, M. A.
+AU  - Meddi, F.
+AU  - Melikyan, Y.
+AU  - Menchaca-Rocha, A.
+AU  - Meninno, E.
+AU  - Mercado Pérez, J.
+AU  - Meres, M.
+AU  - Mhlanga, S.
+AU  - Miake, Y.
+AU  - Micheletti, L.
+AU  - Mieskolainen, M. M.
+AU  - Mihaylov, D. L.
+AU  - Mikhaylov, K.
+AU  - Mischke, A.
+AU  - Mishra, A. N.
+AU  - Miśkowiec, D.
+AU  - Mitra, J.
+AU  - Mitu, C. M.
+AU  - Mohammadi, N.
+AU  - Mohanty, A. P.
+AU  - Mohanty, B.
+AU  - Khan, M. Mohisin
+AU  - Moreira De Godoy, D. A.
+AU  - Moreno, L. A. P.
+AU  - Moretto, S.
+AU  - Morreale, A.
+AU  - Morsch, A.
+AU  - Mrnjavac, T.
+AU  - Muccifora, V.
+AU  - Mudnic, E.
+AU  - Mühlheim, D.
+AU  - Muhuri, S.
+AU  - Mukherjee, M.
+AU  - Mulligan, J. D.
+AU  - Munhoz, M. G.
+AU  - Münning, K.
+AU  - Munoz, M. I. A.
+AU  - Munzer, R. H.
+AU  - Murakami, H.
+AU  - Murray, S.
+AU  - Musa, L.
+AU  - Musinsky, J.
+AU  - Myers, C. J.
+AU  - Myrcha, J. W.
+AU  - Naik, B.
+AU  - Nair, R.
+AU  - Nandi, B. K.
+AU  - Nania, R.
+AU  - Nappi, E.
+AU  - Narayan, A.
+AU  - Naru, M. U.
+AU  - Nassirpour, A. F.
+AU  - Natal da Luz, H.
+AU  - Nattrass, C.
+AU  - Navarro, S. R.
+AU  - Nayak, K.
+AU  - Nayak, R.
+AU  - Nayak, T. K.
+AU  - Nazarenko, S.
+AU  - Negrao De Oliveira, R. A.
+AU  - Nellen, L.
+AU  - Nesbo, S. V.
+AU  - Neskovic, G.
+AU  - Ng, F.
+AU  - Nicassio, M.
+AU  - Niedziela, J.
+AU  - Nielsen, B. S.
+AU  - Nikolaev, S.
+AU  - Nikulin, S.
+AU  - Nikulin, V.
+AU  - Noferini, F.
+AU  - Nomokonov, P.
+AU  - Nooren, G.
+AU  - Noris, J. C. C.
+AU  - Norman, J.
+AU  - Nyanin, A.
+AU  - Nystrand, J.
+AU  - Oh, H.
+AU  - Ohlson, A.
+AU  - Oleniacz, J.
+AU  - Oliveira Da Silva, A. C.
+AU  - Oliver, M. H.
+AU  - Onderwaater, J.
+AU  - Oppedisano, C.
+AU  - Orava, R.
+AU  - Oravec, M.
+AU  - Ortiz Velasquez, A.
+AU  - Oskarsson, A.
+AU  - Otwinowski, J.
+AU  - Oyama, K.
+AU  - Pachmayer, Y.
+AU  - Pacik, V.
+AU  - Pagano, D.
+AU  - Paić, G.
+AU  - Palni, P.
+AU  - Pan, J.
+AU  - Pandey, A. K.
+AU  - Panebianco, S.
+AU  - Papikyan, V.
+AU  - Pareek, P.
+AU  - Park, J.
+AU  - Parkkila, J. E.
+AU  - Parmar, S.
+AU  - Passfeld, A.
+AU  - Pathak, S. P.
+AU  - Patra, R. N.
+AU  - Paul, B.
+AU  - Pei, H.
+AU  - Peitzmann, T.
+AU  - Peng, X.
+AU  - Pereira, L. G.
+AU  - Pereira Da Costa, H.
+AU  - Peresunko, D.
+AU  - Perez Lezama, E.
+AU  - Peskov, V.
+AU  - Pestov, Y.
+AU  - Petráček, V.
+AU  - Petrovici, M.
+AU  - Petta, C.
+AU  - Pezzi, R. P.
+AU  - Piano, S.
+AU  - Pikna, M.
+AU  - Pillot, P.
+AU  - Pimentel, L. O. D. L.
+AU  - Pinazza, O.
+AU  - Pinsky, L.
+AU  - Pisano, S.
+AU  - Piyarathna, D. B.
+AU  - Płoskoń, M.
+AU  - Planinic, M.
+AU  - Pliquett, F.
+AU  - Pluta, J.
+AU  - Pochybova, S.
+AU  - Podesta-Lerma, P. L. M.
+AU  - Poghosyan, M. G.
+AU  - Polichtchouk, B.
+AU  - Poljak, N.
+AU  - Poonsawat, W.
+AU  - Pop, A.
+AU  - Poppenborg, H.
+AU  - Porteboeuf-Houssais, S.
+AU  - Pozdniakov, V.
+AU  - Prasad, S. K.
+AU  - Preghenella, R.
+AU  - Prino, F.
+AU  - Pruneau, C. A.
+AU  - Pshenichnov, I.
+AU  - Puccio, M.
+AU  - Punin, V.
+AU  - Putschke, J.
+AU  - Raha, S.
+AU  - Rajput, S.
+AU  - Rak, J.
+AU  - Rakotozafindrabe, A.
+AU  - Ramello, L.
+AU  - Rami, F.
+AU  - Raniwala, R.
+AU  - Raniwala, S.
+AU  - Räsänen, S. S.
+AU  - Rascanu, B. T.
+AU  - Rath, R.
+AU  - Ratza, V.
+AU  - Ravasenga, I.
+AU  - Read, K. F.
+AU  - Redlich, K.
+AU  - Rehman, A.
+AU  - Reichelt, P.
+AU  - Reidt, F.
+AU  - Ren, X.
+AU  - Renfordt, R.
+AU  - Reshetin, A.
+AU  - Revol, J.-P.
+AU  - Reygers, K.
+AU  - Riabov, V.
+AU  - Richert, T.
+AU  - Richter, M.
+AU  - Riedler, P.
+AU  - Riegler, W.
+AU  - Riggi, F.
+AU  - Ristea, C.
+AU  - Rode, S. P.
+AU  - Rodríguez Cahuantzi, M.
+AU  - Røed, K.
+AU  - Rogalev, R.
+AU  - Rogochaya, E.
+AU  - Rohr, D.
+AU  - Röhrich, D.
+AU  - Rokita, P. S.
+AU  - Ronchetti, F.
+AU  - Rosas, E. D.
+AU  - Roslon, K.
+AU  - Rosnet, P.
+AU  - Rossi, A.
+AU  - Rotondi, A.
+AU  - Roukoutakis, F.
+AU  - Roy, C.
+AU  - Roy, P.
+AU  - Rueda, O. V.
+AU  - Rui, R.
+AU  - Rumyantsev, B.
+AU  - Rustamov, A.
+AU  - Ryabinkin, E.
+AU  - Ryabov, Y.
+AU  - Rybicki, A.
+AU  - Saarinen, S.
+AU  - Sadhu, S.
+AU  - Sadovsky, S.
+AU  - Šafařík, K.
+AU  - Saha, S. K.
+AU  - Sahoo, B.
+AU  - Sahoo, P.
+AU  - Sahoo, R.
+AU  - Sahoo, S.
+AU  - Sahu, P. K.
+AU  - Saini, J.
+AU  - Sakai, S.
+AU  - Saleh, M. A.
+AU  - Sambyal, S.
+AU  - Samsonov, V.
+AU  - Sandoval, A.
+AU  - Sarkar, A.
+AU  - Sarkar, D.
+AU  - Sarkar, N.
+AU  - Sarma, P.
+AU  - Sas, M. H. P.
+AU  - Scapparone, E.
+AU  - Scarlassara, F.
+AU  - Schaefer, B.
+AU  - Scheid, H. S.
+AU  - Schiaua, C.
+AU  - Schicker, R.
+AU  - Schmidt, C.
+AU  - Schmidt, H. R.
+AU  - Schmidt, M. O.
+AU  - Schmidt, M.
+AU  - Schmidt, N. V.
+AU  - Schukraft, J.
+AU  - Schutz, Y.
+AU  - Schwarz, K.
+AU  - Schweda, K.
+AU  - Scioli, G.
+AU  - Scomparin, E.
+AU  - Šefčík, M.
+AU  - Seger, J. E.
+AU  - Sekiguchi, Y.
+AU  - Sekihata, D.
+AU  - Selyuzhenkov, I.
+AU  - Senyukov, S.
+AU  - Serradilla, E.
+AU  - Sett, P.
+AU  - Sevcenco, A.
+AU  - Shabanov, A.
+AU  - Shabetai, A.
+AU  - Shahoyan, R.
+AU  - Shaikh, W.
+AU  - Shangaraev, A.
+AU  - Sharma, A.
+AU  - Sharma, A.
+AU  - Sharma, M.
+AU  - Sharma, N.
+AU  - Sheikh, A. I.
+AU  - Shigaki, K.
+AU  - Shimomura, M.
+AU  - Shirinkin, S.
+AU  - Shou, Q.
+AU  - Shtejer, K.
+AU  - Sibiriak, Y.
+AU  - Siddhanta, S.
+AU  - Sielewicz, K. M.
+AU  - Siemiarczuk, T.
+AU  - Silvermyr, D.
+AU  - Simatovic, G.
+AU  - Simonetti, G.
+AU  - Singaraju, R.
+AU  - Singh, R.
+AU  - Singh, R.
+AU  - Singhal, V.
+AU  - Sinha, T.
+AU  - Sitar, B.
+AU  - Sitta, M.
+AU  - Skaali, T. B.
+AU  - Slupecki, M.
+AU  - Smirnov, N.
+AU  - Snellings, R. J. M.
+AU  - Snellman, T. W.
+AU  - Sochan, J.
+AU  - Soncco, C.
+AU  - Song, J.
+AU  - Songmoolnak, A.
+AU  - Soramel, F.
+AU  - Sorensen, S.
+AU  - Sozzi, F.
+AU  - Sputowska, I.
+AU  - Stachel, J.
+AU  - Stan, I.
+AU  - Stankus, P.
+AU  - Stenlund, E.
+AU  - Stocco, D.
+AU  - Storetvedt, M. M.
+AU  - Strmen, P.
+AU  - Suaide, A. A. P.
+AU  - Sugitate, T.
+AU  - Suire, C.
+AU  - Suleymanov, M.
+AU  - Suljic, M.
+AU  - Sultanov, R.
+AU  - Šumbera, M.
+AU  - Sumowidagdo, S.
+AU  - Suzuki, K.
+AU  - Swain, S.
+AU  - Szabo, A.
+AU  - Szarka, I.
+AU  - Tabassam, U.
+AU  - Takahashi, J.
+AU  - Tambave, G. J.
+AU  - Tanaka, N.
+AU  - Tarhini, M.
+AU  - Tarzila, M. G.
+AU  - Tauro, A.
+AU  - Tejeda Muñoz, G.
+AU  - Telesca, A.
+AU  - Terrevoli, C.
+AU  - Teyssier, B.
+AU  - Thakur, D.
+AU  - Thakur, S.
+AU  - Thomas, D.
+AU  - Thoresen, F.
+AU  - Tieulent, R.
+AU  - Tikhonov, A.
+AU  - Timmins, A. R.
+AU  - Toia, A.
+AU  - Topilskaya, N.
+AU  - Toppi, M.
+AU  - Torales-Acosta, F.
+AU  - Torres, S. R.
+AU  - Tripathy, S.
+AU  - Trogolo, S.
+AU  - Trombetta, G.
+AU  - Tropp, L.
+AU  - Trubnikov, V.
+AU  - Trzaska, W. H.
+AU  - Trzcinski, T. P.
+AU  - Trzeciak, B. A.
+AU  - Tsuji, T.
+AU  - Tumkin, A.
+AU  - Turrisi, R.
+AU  - Tveter, T. S.
+AU  - Ullaland, K.
+AU  - Umaka, E. N.
+AU  - Uras, A.
+AU  - Usai, G. L.
+AU  - Utrobicic, A.
+AU  - Vala, M.
+AU  - Valle, N.
+AU  - Van Hoorne, J. W.
+AU  - van Leeuwen, M.
+AU  - Vande Vyvre, P.
+AU  - Varga, D.
+AU  - Vargas, A.
+AU  - Vargyas, M.
+AU  - Varma, R.
+AU  - Vasileiou, M.
+AU  - Vasiliev, A.
+AU  - Vauthier, A.
+AU  - Vázquez Doce, O.
+AU  - Vechernin, V.
+AU  - Veen, A. M.
+AU  - Vercellin, E.
+AU  - Vergara Limón, S.
+AU  - Vermunt, L.
+AU  - Vernet, R.
+AU  - Vértesi, R.
+AU  - Vickovic, L.
+AU  - Viinikainen, J.
+AU  - Vilakazi, Z.
+AU  - Villalobos Baillie, O.
+AU  - Villatoro Tello, A.
+AU  - Vinogradov, A.
+AU  - Virgili, T.
+AU  - Vislavicius, V.
+AU  - Vodopyanov, A.
+AU  - Völkl, M. A.
+AU  - Voloshin, K.
+AU  - Voloshin, S. A.
+AU  - Volpe, G.
+AU  - von Haller, B.
+AU  - Vorobyev, I.
+AU  - Voscek, D.
+AU  - Vranic, D.
+AU  - Vrláková, J.
+AU  - Wagner, B.
+AU  - Wang, H.
+AU  - Wang, M.
+AU  - Watanabe, Y.
+AU  - Weber, M.
+AU  - Weber, S. G.
+AU  - Wegrzynek, A.
+AU  - Weiser, D. F.
+AU  - Wenzel, S. C.
+AU  - Wessels, J. P.
+AU  - Westerhoff, U.
+AU  - Whitehead, A. M.
+AU  - Wiechula, J.
+AU  - Wikne, J.
+AU  - Wilk, G.
+AU  - Wilkinson, J.
+AU  - Willems, G. A.
+AU  - Williams, M. C. S.
+AU  - Willsher, E.
+AU  - Windelband, B.
+AU  - Witt, W. E.
+AU  - Xu, R.
+AU  - Yalcin, S.
+AU  - Yamakawa, K.
+AU  - Yano, S.
+AU  - Yin, Z.
+AU  - Yokoyama, H.
+AU  - Yoo, I.-K.
+AU  - Yoon, J. H.
+AU  - Yurchenko, V.
+AU  - Zaccolo, V.
+AU  - Zaman, A.
+AU  - Zampolli, C.
+AU  - Zanoli, H. J. C.
+AU  - Zardoshti, N.
+AU  - Zarochentsev, A.
+AU  - Závada, P.
+AU  - Zaviyalov, N.
+AU  - Zbroszczyk, H.
+AU  - Zhalov, M.
+AU  - Zhang, X.
+AU  - Zhang, Y.
+AU  - Zhang, Z.
+AU  - Zhao, C.
+AU  - Zherebchevskii, V.
+AU  - Zhigareva, N.
+AU  - Zhou, D.
+AU  - Zhou, Y.
+AU  - Zhou, Z.
+AU  - Zhu, H.
+AU  - Zhu, J.
+AU  - Zhu, Y.
+AU  - Zichichi, A.
+AU  - Zimmermann, M. B.
+AU  - Zinovjev, G.
+AU  - Zmeskal, J.
+AU  - Zou, S.
+AU  - A Large Ion Collider Experiment Collaboration
+T2  - Physical Review D
+DA  - 2019/01/31/
+PY  - 2019
+DO  - 10.1103/PhysRevD.99.012016
+DP  - DOI.org (Crossref)
+VL  - 99
+IS  - 1
+SP  - 012016
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.99.012016
+Y2  - 2022/12/25/14:59:49
+L1  - https://link.aps.org/pdf/10.1103/PhysRevD.99.012016
+ER  - 
+
+TY  - JOUR
+TI  - Review of Particle Physics
+AU  - Tanabashi, M.
+AU  - Hagiwara, K.
+AU  - Hikasa, K.
+AU  - Nakamura, K.
+AU  - Sumino, Y.
+AU  - Takahashi, F.
+AU  - Tanaka, J.
+AU  - Agashe, K.
+AU  - Aielli, G.
+AU  - Amsler, C.
+AU  - Antonelli, M.
+AU  - Asner, D. M.
+AU  - Baer, H.
+AU  - Banerjee, Sw.
+AU  - Barnett, R. M.
+AU  - Basaglia, T.
+AU  - Bauer, C. W.
+AU  - Beatty, J. J.
+AU  - Belousov, V. I.
+AU  - Beringer, J.
+AU  - Bethke, S.
+AU  - Bettini, A.
+AU  - Bichsel, H.
+AU  - Biebel, O.
+AU  - Black, K. M.
+AU  - Blucher, E.
+AU  - Buchmuller, O.
+AU  - Burkert, V.
+AU  - Bychkov, M. A.
+AU  - Cahn, R. N.
+AU  - Carena, M.
+AU  - Ceccucci, A.
+AU  - Cerri, A.
+AU  - Chakraborty, D.
+AU  - Chen, M.-C.
+AU  - Chivukula, R. S.
+AU  - Cowan, G.
+AU  - Dahl, O.
+AU  - D’Ambrosio, G.
+AU  - Damour, T.
+AU  - de Florian, D.
+AU  - de Gouvêa, A.
+AU  - DeGrand, T.
+AU  - de Jong, P.
+AU  - Dissertori, G.
+AU  - Dobrescu, B. A.
+AU  - D’Onofrio, M.
+AU  - Doser, M.
+AU  - Drees, M.
+AU  - Dreiner, H. K.
+AU  - Dwyer, D. A.
+AU  - Eerola, P.
+AU  - Eidelman, S.
+AU  - Ellis, J.
+AU  - Erler, J.
+AU  - Ezhela, V. V.
+AU  - Fetscher, W.
+AU  - Fields, B. D.
+AU  - Firestone, R.
+AU  - Foster, B.
+AU  - Freitas, A.
+AU  - Gallagher, H.
+AU  - Garren, L.
+AU  - Gerber, H.-J.
+AU  - Gerbier, G.
+AU  - Gershon, T.
+AU  - Gershtein, Y.
+AU  - Gherghetta, T.
+AU  - Godizov, A. A.
+AU  - Goodman, M.
+AU  - Grab, C.
+AU  - Gritsan, A. V.
+AU  - Grojean, C.
+AU  - Groom, D. E.
+AU  - Grünewald, M.
+AU  - Gurtu, A.
+AU  - Gutsche, T.
+AU  - Haber, H. E.
+AU  - Hanhart, C.
+AU  - Hashimoto, S.
+AU  - Hayato, Y.
+AU  - Hayes, K. G.
+AU  - Hebecker, A.
+AU  - Heinemeyer, S.
+AU  - Heltsley, B.
+AU  - Hernández-Rey, J. J.
+AU  - Hisano, J.
+AU  - Höcker, A.
+AU  - Holder, J.
+AU  - Holtkamp, A.
+AU  - Hyodo, T.
+AU  - Irwin, K. D.
+AU  - Johnson, K. F.
+AU  - Kado, M.
+AU  - Karliner, M.
+AU  - Katz, U. F.
+AU  - Klein, S. R.
+AU  - Klempt, E.
+AU  - Kowalewski, R. V.
+AU  - Krauss, F.
+AU  - Kreps, M.
+AU  - Krusche, B.
+AU  - Kuyanov, Yu. V.
+AU  - Kwon, Y.
+AU  - Lahav, O.
+AU  - Laiho, J.
+AU  - Lesgourgues, J.
+AU  - Liddle, A.
+AU  - Ligeti, Z.
+AU  - Lin, C.-J.
+AU  - Lippmann, C.
+AU  - Liss, T. M.
+AU  - Littenberg, L.
+AU  - Lugovsky, K. S.
+AU  - Lugovsky, S. B.
+AU  - Lusiani, A.
+AU  - Makida, Y.
+AU  - Maltoni, F.
+AU  - Mannel, T.
+AU  - Manohar, A. V.
+AU  - Marciano, W. J.
+AU  - Martin, A. D.
+AU  - Masoni, A.
+AU  - Matthews, J.
+AU  - Meißner, U.-G.
+AU  - Milstead, D.
+AU  - Mitchell, R. E.
+AU  - Mönig, K.
+AU  - Molaro, P.
+AU  - Moortgat, F.
+AU  - Moskovic, M.
+AU  - Murayama, H.
+AU  - Narain, M.
+AU  - Nason, P.
+AU  - Navas, S.
+AU  - Neubert, M.
+AU  - Nevski, P.
+AU  - Nir, Y.
+AU  - Olive, K. A.
+AU  - Pagan Griso, S.
+AU  - Parsons, J.
+AU  - Patrignani, C.
+AU  - Peacock, J. A.
+AU  - Pennington, M.
+AU  - Petcov, S. T.
+AU  - Petrov, V. A.
+AU  - Pianori, E.
+AU  - Piepke, A.
+AU  - Pomarol, A.
+AU  - Quadt, A.
+AU  - Rademacker, J.
+AU  - Raffelt, G.
+AU  - Ratcliff, B. N.
+AU  - Richardson, P.
+AU  - Ringwald, A.
+AU  - Roesler, S.
+AU  - Rolli, S.
+AU  - Romaniouk, A.
+AU  - Rosenberg, L. J.
+AU  - Rosner, J. L.
+AU  - Rybka, G.
+AU  - Ryutin, R. A.
+AU  - Sachrajda, C. T.
+AU  - Sakai, Y.
+AU  - Salam, G. P.
+AU  - Sarkar, S.
+AU  - Sauli, F.
+AU  - Schneider, O.
+AU  - Scholberg, K.
+AU  - Schwartz, A. J.
+AU  - Scott, D.
+AU  - Sharma, V.
+AU  - Sharpe, S. R.
+AU  - Shutt, T.
+AU  - Silari, M.
+AU  - Sjöstrand, T.
+AU  - Skands, P.
+AU  - Skwarnicki, T.
+AU  - Smith, J. G.
+AU  - Smoot, G. F.
+AU  - Spanier, S.
+AU  - Spieler, H.
+AU  - Spiering, C.
+AU  - Stahl, A.
+AU  - Stone, S. L.
+AU  - Sumiyoshi, T.
+AU  - Syphers, M. J.
+AU  - Terashi, K.
+AU  - Terning, J.
+AU  - Thoma, U.
+AU  - Thorne, R. S.
+AU  - Tiator, L.
+AU  - Titov, M.
+AU  - Tkachenko, N. P.
+AU  - Törnqvist, N. A.
+AU  - Tovey, D. R.
+AU  - Valencia, G.
+AU  - Van de Water, R.
+AU  - Varelas, N.
+AU  - Venanzoni, G.
+AU  - Verde, L.
+AU  - Vincter, M. G.
+AU  - Vogel, P.
+AU  - Vogt, A.
+AU  - Wakely, S. P.
+AU  - Walkowiak, W.
+AU  - Walter, C. W.
+AU  - Wands, D.
+AU  - Ward, D. R.
+AU  - Wascko, M. O.
+AU  - Weiglein, G.
+AU  - Weinberg, D. H.
+AU  - Weinberg, E. J.
+AU  - White, M.
+AU  - Wiencke, L. R.
+AU  - Willocq, S.
+AU  - Wohl, C. G.
+AU  - Womersley, J.
+AU  - Woody, C. L.
+AU  - Workman, R. L.
+AU  - Yao, W.-M.
+AU  - Zeller, G. P.
+AU  - Zenin, O. V.
+AU  - Zhu, R.-Y.
+AU  - Zhu, S.-L.
+AU  - Zimmermann, F.
+AU  - Zyla, P. A.
+AU  - Anderson, J.
+AU  - Fuller, L.
+AU  - Lugovsky, V. S.
+AU  - Schaffner, P.
+AU  - Particle Data Group
+T2  - Physical Review D
+DA  - 2018/08/17/
+PY  - 2018
+DO  - 10.1103/PhysRevD.98.030001
+DP  - DOI.org (Crossref)
+VL  - 98
+IS  - 3
+SP  - 030001
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.98.030001
+Y2  - 2022/12/25/14:59:49
+L1  - https://link.aps.org/pdf/10.1103/PhysRevD.98.030001
+ER  - 
+
+TY  - JOUR
+TI  - Longitudinal double-spin asymmetries for π 0 s in the forward direction for 510 GeV polarized p p collisions
+AU  - Adam, J.
+AU  - Adamczyk, L.
+AU  - Adams, J. R.
+AU  - Adkins, J. K.
+AU  - Agakishiev, G.
+AU  - Aggarwal, M. M.
+AU  - Ahammed, Z.
+AU  - Ajitanand, N. N.
+AU  - Alekseev, I.
+AU  - Anderson, D. M.
+AU  - Aoyama, R.
+AU  - Aparin, A.
+AU  - Arkhipkin, D.
+AU  - Aschenauer, E. C.
+AU  - Ashraf, M. U.
+AU  - Atetalla, F.
+AU  - Attri, A.
+AU  - Averichev, G. S.
+AU  - Bai, X.
+AU  - Bairathi, V.
+AU  - Barish, K.
+AU  - Bassill, A. J.
+AU  - Behera, A.
+AU  - Bellwied, R.
+AU  - Bhasin, A.
+AU  - Bhati, A. K.
+AU  - Bielcik, J.
+AU  - Bielcikova, J.
+AU  - Bland, L. C.
+AU  - Bordyuzhin, I. G.
+AU  - Brandenburg, J. D.
+AU  - Brandin, A. V.
+AU  - Brown, D.
+AU  - Bryslawskyj, J.
+AU  - Bunzarov, I.
+AU  - Butterworth, J.
+AU  - Caines, H.
+AU  - Calderón de la Barca Sánchez, M.
+AU  - Campbell, J. M.
+AU  - Cebra, D.
+AU  - Chakaberia, I.
+AU  - Chaloupka, P.
+AU  - Chang, F-H.
+AU  - Chang, Z.
+AU  - Chankova-Bunzarova, N.
+AU  - Chatterjee, A.
+AU  - Chattopadhyay, S.
+AU  - Chen, J. H.
+AU  - Chen, X.
+AU  - Chen, X.
+AU  - Cheng, J.
+AU  - Cherney, M.
+AU  - Christie, W.
+AU  - Contin, G.
+AU  - Crawford, H. J.
+AU  - Das, S.
+AU  - Dedovich, T. G.
+AU  - Deppner, I. M.
+AU  - Derevschikov, A. A.
+AU  - Didenko, L.
+AU  - Dilks, C.
+AU  - Dong, X.
+AU  - Drachenberg, J. L.
+AU  - Dunlop, J. C.
+AU  - Efimov, L. G.
+AU  - Elsey, N.
+AU  - Engelage, J.
+AU  - Eppley, G.
+AU  - Esha, R.
+AU  - Esumi, S.
+AU  - Evdokimov, O.
+AU  - Ewigleben, J.
+AU  - Eyser, O.
+AU  - Fatemi, R.
+AU  - Fazio, S.
+AU  - Federic, P.
+AU  - Federicova, P.
+AU  - Fedorisin, J.
+AU  - Filip, P.
+AU  - Finch, E.
+AU  - Fisyak, Y.
+AU  - Flores, C. E.
+AU  - Fulek, L.
+AU  - Gagliardi, C. A.
+AU  - Galatyuk, T.
+AU  - Geurts, F.
+AU  - Gibson, A.
+AU  - Grosnick, D.
+AU  - Gunarathne, D. S.
+AU  - Guo, Y.
+AU  - Gupta, A.
+AU  - Guryn, W.
+AU  - Hamad, A. I.
+AU  - Hamed, A.
+AU  - Harlenderova, A.
+AU  - Harris, J. W.
+AU  - He, L.
+AU  - Heppelmann, S.
+AU  - Heppelmann, S.
+AU  - Herrmann, N.
+AU  - Hirsch, A.
+AU  - Holub, L.
+AU  - Horvat, S.
+AU  - Huang, X.
+AU  - Huang, B.
+AU  - Huang, S. L.
+AU  - Huang, H. Z.
+AU  - Huang, T.
+AU  - Humanic, T. J.
+AU  - Huo, P.
+AU  - Igo, G.
+AU  - Jacobs, W. W.
+AU  - Jentsch, A.
+AU  - Jia, J.
+AU  - Jiang, K.
+AU  - Jowzaee, S.
+AU  - Judd, E. G.
+AU  - Kabana, S.
+AU  - Kalinkin, D.
+AU  - Kang, K.
+AU  - Kapukchyan, D.
+AU  - Kauder, K.
+AU  - Ke, H. W.
+AU  - Keane, D.
+AU  - Kechechyan, A.
+AU  - Kikoła, D. P.
+AU  - Kim, C.
+AU  - Kinghorn, T. A.
+AU  - Kisel, I.
+AU  - Kisiel, A.
+AU  - Kochenda, L.
+AU  - Kosarzewski, L. K.
+AU  - Kraishan, A. F.
+AU  - Kramarik, L.
+AU  - Krauth, L.
+AU  - Kravtsov, P.
+AU  - Krueger, K.
+AU  - Kulathunga, N.
+AU  - Kumar, S.
+AU  - Kumar, L.
+AU  - Kvapil, J.
+AU  - Kwasizur, J. H.
+AU  - Lacey, R.
+AU  - Landgraf, J. M.
+AU  - Lauret, J.
+AU  - Lebedev, A.
+AU  - Lednicky, R.
+AU  - Lee, J. H.
+AU  - Li, X.
+AU  - Li, C.
+AU  - Li, W.
+AU  - Li, Y.
+AU  - Liang, Y.
+AU  - Lidrych, J.
+AU  - Lin, T.
+AU  - Lipiec, A.
+AU  - Lisa, M. A.
+AU  - Liu, F.
+AU  - Liu, P.
+AU  - Liu, H.
+AU  - Liu, Y.
+AU  - Ljubicic, T.
+AU  - Llope, W. J.
+AU  - Lomnitz, M.
+AU  - Longacre, R. S.
+AU  - Luo, X.
+AU  - Luo, S.
+AU  - Ma, G. L.
+AU  - Ma, Y. G.
+AU  - Ma, L.
+AU  - Ma, R.
+AU  - Magdy, N.
+AU  - Majka, R.
+AU  - Mallick, D.
+AU  - Margetis, S.
+AU  - Markert, C.
+AU  - Matis, H. S.
+AU  - Matonoha, O.
+AU  - Mayes, D.
+AU  - Mazer, J. A.
+AU  - Meehan, K.
+AU  - Mei, J. C.
+AU  - Minaev, N. G.
+AU  - Mioduszewski, S.
+AU  - Mishra, D.
+AU  - Mohanty, B.
+AU  - Mondal, M. M.
+AU  - Mooney, I.
+AU  - Morozov, D. A.
+AU  - Nasim, Md.
+AU  - Negrete, J. D.
+AU  - Nelson, J. M.
+AU  - Nemes, D. B.
+AU  - Nie, M.
+AU  - Nigmatkulov, G.
+AU  - Niida, T.
+AU  - Nogach, L. V.
+AU  - Nonaka, T.
+AU  - Nurushev, S. B.
+AU  - Odyniec, G.
+AU  - Ogawa, A.
+AU  - Oh, K.
+AU  - Oh, S.
+AU  - Okorokov, V. A.
+AU  - Olvitt, D.
+AU  - Page, B. S.
+AU  - Pak, R.
+AU  - Panebratsev, Y.
+AU  - Pawlik, B.
+AU  - Pei, H.
+AU  - Perkins, C.
+AU  - Pluta, J.
+AU  - Porter, J.
+AU  - Posik, M.
+AU  - Pruthi, N. K.
+AU  - Przybycien, M.
+AU  - Putschke, J.
+AU  - Quintero, A.
+AU  - Radhakrishnan, S. K.
+AU  - Ramachandran, S.
+AU  - Ray, R. L.
+AU  - Reed, R.
+AU  - Ritter, H. G.
+AU  - Roberts, J. B.
+AU  - Rogachevskiy, O. V.
+AU  - Romero, J. L.
+AU  - Ruan, L.
+AU  - Rusnak, J.
+AU  - Rusnakova, O.
+AU  - Sahoo, N. R.
+AU  - Sahu, P. K.
+AU  - Salur, S.
+AU  - Sandweiss, J.
+AU  - Schambach, J.
+AU  - Schmah, A. M.
+AU  - Schmidke, W. B.
+AU  - Schmitz, N.
+AU  - Schweid, B. R.
+AU  - Seck, F.
+AU  - Seger, J.
+AU  - Sergeeva, M.
+AU  - Seto, R.
+AU  - Seyboth, P.
+AU  - Shah, N.
+AU  - Shahaliev, E.
+AU  - Shanmuganathan, P. V.
+AU  - Shao, M.
+AU  - Shen, W. Q.
+AU  - Shen, F.
+AU  - Shi, S. S.
+AU  - Shou, Q. Y.
+AU  - Sichtermann, E. P.
+AU  - Siejka, S.
+AU  - Sikora, R.
+AU  - Simko, M.
+AU  - Singha, S.
+AU  - Smirnov, N.
+AU  - Smirnov, D.
+AU  - Solyst, W.
+AU  - Sorensen, P.
+AU  - Spinka, H. M.
+AU  - Srivastava, B.
+AU  - Stanislaus, T. D. S.
+AU  - Stewart, D. J.
+AU  - Strikhanov, M.
+AU  - Stringfellow, B.
+AU  - Suaide, A. A. P.
+AU  - Sugiura, T.
+AU  - Sumbera, M.
+AU  - Summa, B.
+AU  - Sun, Y.
+AU  - Sun, X.
+AU  - Sun, X. M.
+AU  - Surrow, B.
+AU  - Svirida, D. N.
+AU  - Szymanski, P.
+AU  - Tang, Z.
+AU  - Tang, A. H.
+AU  - Taranenko, A.
+AU  - Tarnowsky, T.
+AU  - Thomas, J. H.
+AU  - Timmins, A. R.
+AU  - Tlusty, D.
+AU  - Todoroki, T.
+AU  - Tokarev, M.
+AU  - Tomkiel, C. A.
+AU  - Trentalange, S.
+AU  - Tribble, R. E.
+AU  - Tribedy, P.
+AU  - Tripathy, S. K.
+AU  - Tsai, O. D.
+AU  - Tu, B.
+AU  - Ullrich, T.
+AU  - Underwood, D. G.
+AU  - Upsal, I.
+AU  - Van Buren, G.
+AU  - Vanek, J.
+AU  - Vasiliev, A. N.
+AU  - Vassiliev, I.
+AU  - Videbæk, F.
+AU  - Vokal, S.
+AU  - Voloshin, S. A.
+AU  - Vossen, A.
+AU  - Wang, G.
+AU  - Wang, Y.
+AU  - Wang, F.
+AU  - Wang, Y.
+AU  - Webb, J. C.
+AU  - Wen, L.
+AU  - Westfall, G. D.
+AU  - Wieman, H.
+AU  - Wissink, S. W.
+AU  - Witt, R.
+AU  - Wu, Y.
+AU  - Xiao, Z. G.
+AU  - Xie, G.
+AU  - Xie, W.
+AU  - Xu, Q. H.
+AU  - Xu, Z.
+AU  - Xu, J.
+AU  - Xu, Y. F.
+AU  - Xu, N.
+AU  - Yang, S.
+AU  - Yang, C.
+AU  - Yang, Q.
+AU  - Yang, Y.
+AU  - Ye, Z.
+AU  - Ye, Z.
+AU  - Yi, L.
+AU  - Yip, K.
+AU  - Yoo, I.-K.
+AU  - Yu, N.
+AU  - Zbroszczyk, H.
+AU  - Zha, W.
+AU  - Zhang, Z.
+AU  - Zhang, L.
+AU  - Zhang, Y.
+AU  - Zhang, X. P.
+AU  - Zhang, J.
+AU  - Zhang, S.
+AU  - Zhang, S.
+AU  - Zhang, J.
+AU  - Zhao, J.
+AU  - Zhong, C.
+AU  - Zhou, C.
+AU  - Zhou, L.
+AU  - Zhu, Z.
+AU  - Zhu, X.
+AU  - Zyzak, M.
+AU  - STAR Collaboration
+T2  - Physical Review D
+DA  - 2018/08/27/
+PY  - 2018
+DO  - 10.1103/PhysRevD.98.032013
+DP  - DOI.org (Crossref)
+VL  - 98
+IS  - 3
+SP  - 032013
+J2  - Phys. Rev. D
+LA  - en
+SN  - 2470-0010, 2470-0029
+UR  - https://link.aps.org/doi/10.1103/PhysRevD.98.032013
+Y2  - 2022/12/25/14:59:49
+L1  - https://journals.aps.org/prd/pdf/10.1103/PhysRevD.98.032013
+ER  - 
+
+TY  - JOUR
+TI  - Pileup mitigation at the LHC: A theorist’s view
+AU  - Soyez, Grégory
+T2  - Physics Reports
+DA  - 2019/04//
+PY  - 2019
+DO  - 10.1016/j.physrep.2019.01.007
+DP  - DOI.org (Crossref)
+VL  - 803
+SP  - 1
+EP  - 158
+J2  - Physics Reports
+LA  - en
+SN  - 03701573
+ST  - Pileup mitigation at the LHC
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0370157319300456
+Y2  - 2022/12/25/14:59:49
+L1  - https://www.sciencedirect.com/science/article/am/pii/S0370157319300456
+ER  - 
+
+TY  - BOOK
+TI  - Multiple Parton Interactions at the LHC
+AU  - Bartalini, Paolo
+AU  - Gaunt, Jonathan Richard
+T2  - Advanced Series on Directions in High Energy Physics
+DA  - 2018/12//
+PY  - 2018
+DP  - DOI.org (Crossref)
+VL  - 29
+LA  - en
+PB  - WORLD SCIENTIFIC
+SN  - 978-981-322-775-0 978-981-322-776-7
+UR  - https://www.worldscientific.com/worldscibooks/10.1142/10646
+Y2  - 2022/12/25/14:59:49
+ER  - 
+
+TY  - JOUR
+TI  - Fragmentation uncertainties in hadronic observables for top-quark mass measurements
+AU  - Corcella, Gennaro
+AU  - Franceschini, Roberto
+AU  - Kim, Doojin
+T2  - Nuclear Physics B
+DA  - 2018/04//
+PY  - 2018
+DO  - 10.1016/j.nuclphysb.2018.02.012
+DP  - DOI.org (Crossref)
+VL  - 929
+SP  - 485
+EP  - 526
+J2  - Nuclear Physics B
+LA  - en
+SN  - 05503213
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0550321318300579
+Y2  - 2022/12/25/14:59:49
+L1  - https://www.sciencedirect.com/science/article/pii/S0550321318300579/pdfft?md5=eeba964d8990eb96030c610b5d0c77c6&pid=1-s2.0-S0550321318300579-main.pdf&isDTMRedir=Y
+ER  - 
+
+TY  - CHAP
+TI  - The Development of MPI Modeling in Pythia
+AU  - Sjöstrand, Torbjörn
+T2  - Advanced Series on Directions in High Energy Physics
+C2  - Bartalini, Paolo
+C2  - Gaunt, Jonathan Richard
+DA  - 2018/12//
+PY  - 2018
+DP  - DOI.org (Crossref)
+VL  - 29
+SP  - 191
+EP  - 225
+LA  - en
+PB  - WORLD SCIENTIFIC
+SN  - 978-981-322-775-0 978-981-322-776-7
+UR  - https://www.worldscientific.com/doi/abs/10.1142/9789813227767_0010
+Y2  - 2022/12/25/14:59:49
+ER  - 
+
+TY  - JOUR
+TI  - Systematics of quark/gluon tagging
+AU  - Gras, Philippe
+AU  - Höche, Stefan
+AU  - Kar, Deepak
+AU  - Larkoski, Andrew
+AU  - Lönnblad, Leif
+AU  - Plätzer, Simon
+AU  - Siódmok, Andrzej
+AU  - Skands, Peter
+AU  - Soyez, Gregory
+AU  - Thaler, Jesse
+T2  - Journal of High Energy Physics
+DA  - 2017/07//
+PY  - 2017
+DO  - 10.1007/JHEP07(2017)091
+DP  - DOI.org (Crossref)
+VL  - 2017
+IS  - 7
+SP  - 91
+J2  - J. High Energ. Phys.
+LA  - en
+SN  - 1029-8479
+UR  - http://link.springer.com/10.1007/JHEP07(2017)091
+Y2  - 2022/12/25/14:59:49
+L1  - https://link.springer.com/content/pdf/10.1007%2FJHEP07%282017%29091.pdf
+ER  - 
+
+TY  - JOUR
+TI  - LHC@Home: a BOINC-based volunteer computing infrastructure for physics studies at CERN
+AU  - Barranco, Javier
+AU  - Cai, Yunhai
+AU  - Cameron, David
+AU  - Crouch, Matthew
+AU  - Maria, Riccardo De
+AU  - Field, Laurence
+AU  - Giovannozzi, Massimo
+AU  - Hermes, Pascal
+AU  - Høimyr, Nils
+AU  - Kaltchev, Dobrin
+AU  - Karastathis, Nikos
+AU  - Luzzi, Cinzia
+AU  - Maclean, Ewen
+AU  - McIntosh, Eric
+AU  - Mereghetti, Alessio
+AU  - Molson, James
+AU  - Nosochkov, Yuri
+AU  - Pieloni, Tatiana
+AU  - Reid, Ivan D.
+AU  - Rivkin, Lenny
+AU  - Segal, Ben
+AU  - Sjobak, Kyrre
+AU  - Skands, Peter
+AU  - Tambasco, Claudia
+AU  - Veken, Frederik Van der
+AU  - Zacharov, Igor
+T2  - Open Engineering
+AB  - Abstract
+            The LHC@Home BOINC project has provided computing capacity for numerical simulations to researchers at CERN since 2004, and has since 2011 been expanded with a wider range of applications. The traditional CERN accelerator physics simulation code SixTrack enjoys continuing volunteers support, and thanks to virtualisation a number of applications from the LHC experiment collaborations and particle theory groups have joined the consolidated LHC@Home BOINC project. This paper addresses the challenges related to traditional and virtualized applications in the BOINC environment, and how volunteer computing has been integrated into the overall computing strategy of the laboratory through the consolidated LHC@Home service. Thanks to the computing power provided by volunteers joining LHC@Home, numerous accelerator beam physics studies have been carried out, yielding an improved understanding of charged particle dynamics in the CERN Large Hadron Collider (LHC) and its future upgrades. The main results are highlighted in this paper.
+DA  - 2017/12/29/
+PY  - 2017
+DO  - 10.1515/eng-2017-0042
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 379
+EP  - 393
+SN  - 2391-5439
+ST  - LHC@Home
+UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0042/html
+Y2  - 2022/12/25/14:59:49
+L1  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0042/pdf
+ER  - 
+
+TY  - CONF
+TI  - QCD studies at FCC-ee
+AU  - Skands, Peter
+AU  - d’Enterria, David
+T2  - 38th International Conference on High Energy Physics
+C1  - Chicago, USA
+C3  - Proceedings of 38th International Conference on High Energy Physics — PoS(ICHEP2016)
+DA  - 2017/02/06/
+PY  - 2017
+DO  - 10.22323/1.282.1156
+DP  - DOI.org (Crossref)
+SP  - 1156
+LA  - en
+PB  - Sissa Medialab
+UR  - https://pos.sissa.it/282/1156
+Y2  - 2022/12/25/14:59:49
+L1  - https://pos.sissa.it/282/1156/pdf
+ER  - 
+
+TY  - JOUR
+TI  - LHC forward physics
+AU  - Akiba, K
+AU  - Akbiyik, M
+AU  - Albrow, M
+AU  - Arneodo, M
+AU  - Avati, V
+AU  - Baechler, J
+AU  - Baillie, O Villalobos
+AU  - Bartalini, P
+AU  - Bartels, J
+AU  - Baur, S
+AU  - Baus, C
+AU  - Beaumont, W
+AU  - Behrens, U
+AU  - Berge, D
+AU  - Berretti, M
+AU  - Bossini, E
+AU  - Boussarie, R
+AU  - Brodsky, S
+AU  - Broz, M
+AU  - Bruschi, M
+AU  - Bussey, P
+AU  - Byczynski, W
+AU  - Noris, J C Cabanillas
+AU  - Villar, E Calvo
+AU  - Campbell, A
+AU  - Caporale, F
+AU  - Carvalho, W
+AU  - Chachamis, G
+AU  - Chapon, E
+AU  - Cheshkov, C
+AU  - Chwastowski, J
+AU  - Ciesielski, R
+AU  - Chinellato, D
+AU  - Cisek, A
+AU  - Coco, V
+AU  - Collins, P
+AU  - Contreras, J G
+AU  - Cox, B
+AU  - Damiao, D de Jesus
+AU  - Davis, P
+AU  - Deile, M
+AU  - D’Enterria, D
+AU  - Druzhkin, D
+AU  - Ducloué, B
+AU  - Dumps, R
+AU  - Dzhelyadin, R
+AU  - Dziurdzia, P
+AU  - Eliachevitch, M
+AU  - Fassnacht, P
+AU  - Ferro, F
+AU  - Fichet, S
+AU  - Figueiredo, D
+AU  - Field, B
+AU  - Finogeev, D
+AU  - Fiore, R
+AU  - Forshaw, J
+AU  - Medina, A Gago
+AU  - Gallinaro, M
+AU  - Granik, A
+AU  - Gersdorff, G von
+AU  - Giani, S
+AU  - Golec-Biernat, K
+AU  - Goncalves, V P
+AU  - Göttlicher, P
+AU  - Goulianos, K
+AU  - Grosslord, J-Y
+AU  - Harland-Lang, L A
+AU  - Haevermaet, H Van
+AU  - Hentschinski, M
+AU  - Engel, R
+AU  - Corral, G Herrera
+AU  - Hollar, J
+AU  - Huertas, L
+AU  - Johnson, D
+AU  - Katkov, I
+AU  - Kepka, O
+AU  - Khakzad, M
+AU  - Kheyn, L
+AU  - Khachatryan, V
+AU  - Khoze, V A
+AU  - Klein, S
+AU  - Klundert, M van
+AU  - Krauss, F
+AU  - Kurepin, A
+AU  - Kurepin, N
+AU  - Kutak, K
+AU  - Kuznetsova, E
+AU  - Latino, G
+AU  - Lebiedowicz, P
+AU  - Lenzi, B
+AU  - Lewandowska, E
+AU  - Liu, S
+AU  - Luszczak, A
+AU  - Luszczak, M
+AU  - Madrigal, J D
+AU  - Mangano, M
+AU  - Marcone, Z
+AU  - Marquet, C
+AU  - Martin, A D
+AU  - Martin, T
+AU  - Hernandez, M I Martinez
+AU  - Martins, C
+AU  - Mayer, C
+AU  - Nulty, R Mc
+AU  - Mechelen, P Van
+AU  - Macula, R
+AU  - Costa, E Melo da
+AU  - Mertzimekis, T
+AU  - Mesropian, C
+AU  - Mieskolainen, M
+AU  - Minafra, N
+AU  - Monzon, I L
+AU  - Mundim, L
+AU  - Murdaca, B
+AU  - Murray, M
+AU  - Niewiadowski, H
+AU  - Nystrand, J
+AU  - Oliveira, E G de
+AU  - Orava, R
+AU  - Ostapchenko, S
+AU  - Osterberg, K
+AU  - Panagiotou, A
+AU  - Papa, A
+AU  - Pasechnik, R
+AU  - Peitzmann, T
+AU  - Moreno, L A Perez
+AU  - Pierog, T
+AU  - Pinfold, J
+AU  - Poghosyan, M
+AU  - Pol, M E
+AU  - Prado, W
+AU  - Popov, V
+AU  - Rangel, M
+AU  - Reshetin, A
+AU  - Revol, J-P
+AU  - Rijssenbeek, M
+AU  - Rodriguez, M
+AU  - Roland, B
+AU  - Royon, C
+AU  - Ruspa, M
+AU  - Ryskin, M
+AU  - Vera, A Sabio
+AU  - Safronov, G
+AU  - Sako, T
+AU  - Schindler, H
+AU  - Salek, D
+AU  - Safarik, K
+AU  - Saimpert, M
+AU  - Santoro, A
+AU  - Schicker, R
+AU  - Seger, J
+AU  - Sen, S
+AU  - Shabanov, A
+AU  - Schafer, W
+AU  - Silveira, G Gil Da
+AU  - Skands, P
+AU  - Soluk, R
+AU  - Spilbeeck, A van
+AU  - Staszewski, R
+AU  - Stevenson, S
+AU  - Stirling, W J
+AU  - Strikman, M
+AU  - Szczurek, A
+AU  - Szymanowski, L
+AU  - Takaki, J D Tapia
+AU  - Tasevsky, M
+AU  - Taesoo, K
+AU  - Thomas, C
+AU  - Torres, S R
+AU  - Tricomi, A
+AU  - Trzebinski, M
+AU  - Tsybychev, D
+AU  - Turini, N
+AU  - Ulrich, R
+AU  - Usenko, E
+AU  - Varela, J
+AU  - Vetere, M Lo
+AU  - Tello, A Villatoro
+AU  - Pereira, A Vilela
+AU  - Volyanskyy, D
+AU  - Wallon, S
+AU  - Wilkinson, G
+AU  - Wöhrmann, H
+AU  - Zapp, K C
+AU  - Zoccarato, Y
+T2  - Journal of Physics G: Nuclear and Particle Physics
+DA  - 2016/11/01/
+PY  - 2016
+DO  - 10.1088/0954-3899/43/11/110201
+DP  - DOI.org (Crossref)
+VL  - 43
+IS  - 11
+SP  - 110201
+J2  - J. Phys. G: Nucl. Part. Phys.
+SN  - 0954-3899, 1361-6471
+UR  - https://iopscience.iop.org/article/10.1088/0954-3899/43/11/110201
+Y2  - 2022/12/25/14:59:49
+L1  - https://iopscience.iop.org/article/10.1088/0954-3899/43/11/110201/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Chapter 1: Standard Model Processes
+AU  - Mangano Et Al., M. L.
+T2  - CERN Yellow Reports: Monographs
+AB  - This chapter documents the production rates and typical distributions for a number of benchmark Standard Model processes, and discusses new dynamical phenomena arising at the highest energies available at this collider. We discuss the intrinsic physics interest in the measurement of these Standard Model processes, as well as their role as backgrounds for New Physics searches.
+DA  - 2017/06/22/
+PY  - 2017
+DO  - 10.23731/CYRM-2017-003.1
+DP  - DOI.org (Datacite)
+VL  - Vol. 3
+SP  - 1
+EP  - Pages
+LA  - en
+ST  - Chapter 1
+UR  - https://e-publishing.cern.ch/index.php/CYRM/article/view/512
+Y2  - 2022/12/25/14:59:49
+ER  - 
+
+TY  - JOUR
+TI  - Probing collective effects in hadronisation with the extremes of the underlying event
+AU  - Martin, T.
+AU  - Skands, P.
+AU  - Farrington, S.
+T2  - The European Physical Journal C
+DA  - 2016/05//
+PY  - 2016
+DO  - 10.1140/epjc/s10052-016-4135-4
+DP  - DOI.org (Crossref)
+VL  - 76
+IS  - 5
+SP  - 299
+J2  - Eur. Phys. J. C
+LA  - en
+SN  - 1434-6044, 1434-6052
+UR  - http://link.springer.com/10.1140/epjc/s10052-016-4135-4
+Y2  - 2022/12/25/14:59:49
+L1  - https://link.springer.com/content/pdf/10.1140%2Fepjc%2Fs10052-016-4135-4.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Exotic decays of heavy B quarks
+AU  - Fox, Patrick J.
+AU  - Tucker-Smith, David
+T2  - Journal of High Energy Physics
+DA  - 2016/01//
+PY  - 2016
+DO  - 10.1007/JHEP01(2016)038
+DP  - DOI.org (Crossref)
+VL  - 2016
+IS  - 1
+SP  - 38
+J2  - J. High Energ. Phys.
+LA  - en
+SN  - 1029-8479
+UR  - http://link.springer.com/10.1007/JHEP01(2016)038
+Y2  - 2022/12/25/14:59:49
+L1  - https://link.springer.com/content/pdf/10.1007%2FJHEP01%282016%29038.pdf
+ER  - 
+
+TY  - BOOK
+TI  - Precise measurement of the top-quark mass at the CMS experiment using the ideogram method
+AU  - Seidel, Markus
+AB  - The mass of the top quark is measured using a sample of ttbar candidate events with one electron or muon and at least four jets in the final state, collected by CMS in proton-proton collisions at sqrt{s}=8 TeV at the LHC. The candidate events are selected from data corresponding to an integrated luminosity of 19.7 fb^-1. For each event the top-quark mass is reconstructed from a kinematic fit of the decay products to a ttbar hypothesis. In order to minimize the uncertainties from jet energy corrections, the top-quark mass is determined simultaneously with a jet energy scale factor (JSF), constrained by the known mass of the W boson decaying to quark-antiquark pairs. A joint likelihood fit taking into account multiple interpretations per event -- the ideogram method -- is used. From the simultaneous fit, a top-quark mass of 172.15 +/- 0.19 (stat.+JSF) +/- 0.61 (syst.) GeV is obtained. Using an additional constraint from the determination of the jet energy scale in photon/Z+jet events yields m_t = 172.38 +/- 0.16 (stat.+JSF) +/- 0.49 (syst.) GeV. The results are discussed in the context of different event generator implementations. Possible kinematic biases are studied by performing the measurement in different regions of the phase space.
+DA  - 2015///
+PY  - 2015
+DP  - DOI.org (Datacite)
+VL  - Diss.
+LA  - en
+PB  - Deutsches Elektronen-Synchrotron, DESY, Hamburg
+UR  - http://bib-pubdb1.desy.de/record/222219
+Y2  - 2022/12/25/15:10:25
+ER  - 
+
+TY  - JOUR
+TI  - String formation beyond leading colour
+AU  - Christiansen, Jesper R.
+AU  - Skands, Peter Z.
+T2  - Journal of High Energy Physics
+DA  - 2015/08//
+PY  - 2015
+DO  - 10.1007/JHEP08(2015)003
+DP  - DOI.org (Crossref)
+VL  - 2015
+IS  - 8
+SP  - 3
+J2  - J. High Energ. Phys.
+LA  - en
+SN  - 1029-8479
+UR  - http://link.springer.com/10.1007/JHEP08(2015)003
+Y2  - 2022/12/25/15:10:25
+L1  - https://link.springer.com/content/pdf/10.1007%2FJHEP08%282015%29003.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Collective flow in high-multiplicity proton-proton collisions
+AU  - Kalaydzhyan, Tigran
+AU  - Shuryak, Edward
+T2  - Physical Review C
+DA  - 2015/05/27/
+PY  - 2015
+DO  - 10.1103/PhysRevC.91.054913
+DP  - DOI.org (Crossref)
+VL  - 91
+IS  - 5
+SP  - 054913
+J2  - Phys. Rev. C
+LA  - en
+SN  - 0556-2813, 1089-490X
+UR  - https://link.aps.org/doi/10.1103/PhysRevC.91.054913
+Y2  - 2022/12/25/15:10:25
+L1  - https://link.aps.org/accepted/10.1103/PhysRevC.91.054913
+ER  - 
+
+TY  - JOUR
+TI  - Effects of overlapping strings in pp collisions
+AU  - Bierlich, Christian
+AU  - Gustafson, Gösta
+AU  - Lönnblad, Leif
+AU  - Tarasov, Andrey
+T2  - Journal of High Energy Physics
+DA  - 2015/03//
+PY  - 2015
+DO  - 10.1007/JHEP03(2015)148
+DP  - DOI.org (Crossref)
+VL  - 2015
+IS  - 3
+SP  - 148
+J2  - J. High Energ. Phys.
+LA  - en
+SN  - 1029-8479
+UR  - http://link.springer.com/10.1007/JHEP03(2015)148
+Y2  - 2022/12/25/15:10:25
+L1  - https://link.springer.com/content/pdf/10.1007%2FJHEP03%282015%29148.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Future hadron colliders: From physics perspectives to technology R&D
+AU  - Barletta, William
+AU  - Battaglia, Marco
+AU  - Klute, Markus
+AU  - Mangano, Michelangelo
+AU  - Prestemon, Soren
+AU  - Rossi, Lucio
+AU  - Skands, Peter
+T2  - Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment
+DA  - 2014/11//
+PY  - 2014
+DO  - 10.1016/j.nima.2014.07.010
+DP  - DOI.org (Crossref)
+VL  - 764
+SP  - 352
+EP  - 368
+J2  - Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment
+LA  - en
+SN  - 01689002
+ST  - Future hadron colliders
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0168900214008523
+Y2  - 2022/12/25/15:10:25
+L1  - https://www.sciencedirect.com/science/article/pii/S0168900214008523/pdfft?md5=abbb0911247fb84685c50062d4c88ee3&pid=1-s2.0-S0168900214008523-main.pdf&isDTMRedir=Y
+ER  - 
+
+TY  - JOUR
+TI  - An introduction to PYTHIA 8.2
+AU  - Sjöstrand, Torbjörn
+AU  - Ask, Stefan
+AU  - Christiansen, Jesper R.
+AU  - Corke, Richard
+AU  - Desai, Nishita
+AU  - Ilten, Philip
+AU  - Mrenna, Stephen
+AU  - Prestel, Stefan
+AU  - Rasmussen, Christine O.
+AU  - Skands, Peter Z.
+T2  - Computer Physics Communications
+DA  - 2015/06//
+PY  - 2015
+DO  - 10.1016/j.cpc.2015.01.024
+DP  - DOI.org (Crossref)
+VL  - 191
+SP  - 159
+EP  - 177
+J2  - Computer Physics Communications
+LA  - en
+SN  - 00104655
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0010465515000442
+Y2  - 2022/12/25/15:10:25
+L1  - https://bib-pubdb1.desy.de/record/208575/files/1410.3012v1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - SoftKiller, a particle-level pileup removal method
+AU  - Cacciari, Matteo
+AU  - Salam, Gavin P.
+AU  - Soyez, Gregory
+T2  - The European Physical Journal C
+DA  - 2015/02//
+PY  - 2015
+DO  - 10.1140/epjc/s10052-015-3267-2
+DP  - DOI.org (Crossref)
+VL  - 75
+IS  - 2
+SP  - 59
+J2  - Eur. Phys. J. C
+LA  - en
+SN  - 1434-6044, 1434-6052
+UR  - http://link.springer.com/10.1140/epjc/s10052-015-3267-2
+Y2  - 2022/12/25/15:10:25
+L1  - https://link.springer.com/content/pdf/10.1140%2Fepjc%2Fs10052-015-3267-2.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Tuning PYTHIA 8.1: the Monash 2013 tune
+AU  - Skands, P.
+AU  - Carrazza, S.
+AU  - Rojo, J.
+T2  - The European Physical Journal C
+DA  - 2014/08//
+PY  - 2014
+DO  - 10.1140/epjc/s10052-014-3024-y
+DP  - DOI.org (Crossref)
+VL  - 74
+IS  - 8
+SP  - 3024
+J2  - Eur. Phys. J. C
+LA  - en
+SN  - 1434-6044, 1434-6052
+ST  - Tuning PYTHIA 8.1
+UR  - http://link.springer.com/10.1140/epjc/s10052-014-3024-y
+Y2  - 2022/12/25/15:10:25
+L1  - https://link.springer.com/content/pdf/10.1140/epjc/s10052-014-3024-y.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Revisiting radiation patterns in $$e^+e^-$$ e + e - collisions
+AU  - Fischer, N.
+AU  - Gieseke, S.
+AU  - Plätzer, S.
+AU  - Skands, P.
+T2  - The European Physical Journal C
+DA  - 2014/04//
+PY  - 2014
+DO  - 10.1140/epjc/s10052-014-2831-5
+DP  - DOI.org (Crossref)
+VL  - 74
+IS  - 4
+SP  - 2831
+J2  - Eur. Phys. J. C
+LA  - en
+SN  - 1434-6044, 1434-6052
+UR  - http://link.springer.com/10.1140/epjc/s10052-014-2831-5
+Y2  - 2022/12/25/15:10:25
+L1  - https://link.springer.com/content/pdf/10.1140%2Fepjc%2Fs10052-014-2831-5.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Antenna showers with one-loop matrix elements
+AU  - Hartgring, L.
+AU  - Laenen, E.
+AU  - Skands, P.
+T2  - Journal of High Energy Physics
+AB  - A
+              bstract
+            
+            
+              We consider the probability for a colour-singlet
+              
+                $ q\overline{q} $
+              
+              pair to emit a gluon, in strongly and smoothly ordered antenna showers. We expand to second order in
+              α
+              s
+              and compare to the second-order QCD matrix elements for
+              Z
+              → 3 jets, neglecting terms suppressed by
+              
+                $ {1 \left/ {{N_C^2}} \right.} $
+              
+              . We give a prescription that corrects the shower to the matrix-element result at this order for both soft and hard emissions, thereby explicitly reducing its dependence on evolution- and renormalization-scale choices. We confirm that the choice of
+              p
+              ⊥
+              for both of these scales absorbs all logarithms through
+              
+                $ \mathcal{O}\left( {\alpha_s^2} \right) $
+              
+              , and contrast this with various alternatives. We include these corrections in the vincia shower generator and study the impact on LEP event-shape and fragmentation observables. An uncertainty estimate is provided for each event, in the form of a vector of alternative weights.
+DA  - 2013/10//
+PY  - 2013
+DO  - 10.1007/JHEP10(2013)127
+DP  - DOI.org (Crossref)
+VL  - 2013
+IS  - 10
+SP  - 127
+J2  - J. High Energ. Phys.
+LA  - en
+SN  - 1029-8479
+UR  - https://link.springer.com/10.1007/JHEP10(2013)127
+Y2  - 2022/12/25/15:10:25
+L1  - https://link.springer.com/content/pdf/10.1007%2FJHEP10%282013%29127.pdf
+ER  - 
+
+TY  - JOUR
+TI  - QCD Monte-Carlo model tunes for the LHC
+AU  - Katzy, Judith M.
+T2  - Progress in Particle and Nuclear Physics
+DA  - 2013/11//
+PY  - 2013
+DO  - 10.1016/j.ppnp.2013.08.002
+DP  - DOI.org (Crossref)
+VL  - 73
+SP  - 141
+EP  - 187
+J2  - Progress in Particle and Nuclear Physics
+LA  - en
+SN  - 01466410
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0146641013000768
+Y2  - 2022/12/25/15:10:25
+ER  - 
+
+TY  - THES
+TI  - Particle Identification in Jets and High-Multiplicity pp Events with the ALICE TPC
+AU  - Heß, Benjamin Andreas
+A3  - Universitätsbibliothek Tübingen
+A3  - Universitätsbibliothek Tübingen
+AB  - In Kollisionsexperimenten beinhalten die Spektren identifizierter Teilchen wichtige Informationen über die zugrundeliegenden physikalischen Prozesse. Das ALICE Experiment bietet leistungsstarke Möglichkeiten zur Teilchenidentifikation (PID), die am Large Hadron Collider (LHC) einzigartig sind. In dieser Arbeit wird eine Methode zur statistischen PID entwickelt, die auf dem spezifischen Energieverlust dE/dx in der Spurendriftkammer (TPC) von ALICE beruht: der TPC Multi-Template Fit (MTF). Der MTF ermöglicht die Messung der Spektren von identifizierten, geladenen Teilchen über einen weiten Impulsbereich, welcher sich von ca. 150 MeV/c bis oberhalb von 20 GeV/c erstreckt. Die Teilchenidentifikation in der TPC benötigt eine detaillierte Modellierung des TPC-dE/dx-Ansprechverhaltens für Impulse oberhalb von 2-3 GeV/c. Es wird ein Framework entwickelt, welches sowohl die Bestimmung der Modellierungsparameter, als auch die Auswertung der PID-Informationen von geladenen Teilchen ermöglicht. Der MTF wird zur Messung der Transversalimpulsspektren (pT) geladener Pionen, Kaonen und Protonen im zentralen Rapiditätsbereich (|eta| &lt; 0.9) in pp- Kollisionen mit sqrt(s) = 7TeV verwendet. Es wird untersucht wie sich diese Spektren und die entsprechenden K/pi- und p/pi-Verhältnisse als Funktion der Multiplizität des Events verhalten. Motiviert wird diese Studie durch die kürzliche Beobachtung, dass pp-Kollisionen mit hoher Multiplizität verblüffende Ähnlichkeiten mit p–Pb- und Pb–Pb-Kollisionen aufweisen. Beispielsweise wurden langreichweitige Korrelationen in allen drei Systemen beobachtet und die K/pi- und p/pi-Verhältnisse in p–Pb- und Pb–Pb-Kollisionen zeigten ein ähnliches Verhalten mit sich ändernder Multiplizität. Es wird beobachtet, dass sich die letzteren Verhältnisse in pp-Kollisionen in einer sehr ähnlichenWeise als Funktion der Multiplizität verhalten wie in größeren Systemen. In Pb–Pb-Kollisionen kann eine hydrodynamische Beschreibung diese Effekte erklären und ist gerechtfertigt, wohingegen eine Anwendung auf kleinere Systeme fragwürdig erscheint. Die neuen Ergebnisse können dabei helfen zwischen der Vielzahl an Modellen zu unterscheiden, die zur Erklärung der Beobachtungen vorgeschlagen wurden. Diese „weichen“ Phänomene sind nur ein Aspekt der Physik an Teilchenbeschleunigern. Ein anderer sind „harte“ Sonden wie etwa Jets. Jets sind Objekte, die sowohl für experimentelle Messungen, als auch für theoretische Berechnungen definiert sind. Sie ermöglichen daher einen direkten Vergleich dieser. Die Berechnung hadronischer Produktionswirkungsquerschnitte geht üblicherweise mit der Verwendung von Fragmentationsfunktionen (FFs) einher, die experimentell bestimmt werden müssen und derzeit große systematische Unsicherheiten aufweisen. Der MTF wird daher auch dazu verwendet, um die Zusammensetzung geladener Jets aus geladenen Hadronen in pp-Kollisionen zu messen. Die Spektren werden sowohl als Funktion des Transversalimpulses der Bestandteile, pT^{track}, als auch als Funktion des reduzierten Impulses z^{charged} := pT^{track} / pT^{jet,charged} bestimmt. Anhand der K/pi- und p/pi-Verhältnisse zeigt sich eine erhöhte Strangeness-Produktion mit zunehmendem zcharged und eine Unterdrückung führender Baryonen (z^{charged} -&gt; 1). Die Resultate können dazu verwendet werden, um die FFs weiter einzuschränken und um zwischen theoretischen Modellen zu unterscheiden. Ein Vergleich mit verschiedenen PYTHIA Perugia Tunes ergibt, dass alle untersuchten Tunes annäherungsweise die beobachteten Trends beschreiben. Jedoch bietet keines der Tunes eine perfekte Beschreibung der Daten.
+DA  - 2015///
+PY  - 2015
+DP  - DOI.org (Datacite)
+LA  - en
+PB  - Universitätsbibliothek Tübingen
+UR  - https://publikationen.uni-tuebingen.de/xmlui/handle/10900/65459
+Y2  - 2022/12/25/15:10:25
+KW  - 500
+KW  - 530
+KW  - A Large Ion Collider Experiment
+KW  - ALICE
+KW  - collectivity
+KW  - Jet
+KW  - Kollektivität
+KW  - likelihood fit
+KW  - MC
+KW  - Monte Carlo
+KW  - Multipliciy
+KW  - Particle Identification
+KW  - PID
+KW  - QGP
+KW  - Quantenchromodynamik , CERN , Speicherring , LHC , Proton , Blei , Hochenergiephysik , Kernphysik , Schwerionenphysik , Gluon , Hadron , Multiplizität , Zeitprojektionskammer , Template
+KW  - Quark
+KW  - Quark-Gluon Plasma
+KW  - Teilchenidentifikation
+ER  - 
+
+TY  - BOOK
+TI  - Proceedings of the Sixth International Workshop on Multiple Partonic Interactions at the Large Hadron Collider
+AU  - Astalos, R.
+AU  - others
+DA  - 2015/06//
+PY  - 2015
+DP  - INSPIRE
+UR  - https://inspirehep.net/literature/1377199
+L1  - https://arxiv.org/pdf/1506.05829
+KW  - ATLAS
+KW  - CMS
+KW  - diffraction
+KW  - heavy ion: scattering
+KW  - p p: scattering
+KW  - parton: distribution function
+KW  - parton: multiple scattering
+KW  - quantum chromodynamics: factorization
+KW  - quantum chromodynamics: small-x
+KW  - transverse momentum dependence
+ER  - 
+
+TY  - CONF
+TI  - Outlook on MPI and MC models
+AU  - Grebenyuk, A.
+AU  - Kar, D.
+AU  - Siodmok, A.
+C3  - 6th International Workshop on Multiple Partonic Interactions at the LHC
+DA  - 2015///
+PY  - 2015
+DP  - INSPIRE
+SP  - 10
+EP  - 14
+UR  - https://inspirehep.net/literature/1616245
+L1  - https://inspirehep.net/files/59a3b16755db41547979a98607b725aa
+KW  - Monte Carlo
+KW  - CERN LHC Coll
+KW  - multiple
+KW  - parton: interaction
+ER  - 
+
+TY  - CONF
+TI  - Colour reconnection and its effects on precise measurements at the LHC
+AU  - Sjöstrand, Torbjörn
+DA  - 2013/10//
+PY  - 2013
+DP  - INSPIRE
+UR  - https://inspirehep.net/literature/1262718
+L1  - https://arxiv.org/pdf/1310.8073
+KW  - CERN LHC Coll
+KW  - color
+ER  - 
+
+TY  - CONF
+TI  - Working Group Report: Hadron Colliders
+AU  - Barletta, William
+AU  - Battaglia, Marco
+AU  - Klute, Markus
+AU  - Mangano, Michelangelo
+AU  - Prestemon, Soren
+AU  - Rossi, Lucio
+AU  - Skands, Peter
+C3  - Community Summer Study 2013: Snowmass on the Mississippi
+DA  - 2013/10//
+PY  - 2013
+DP  - INSPIRE
+ST  - Working Group Report
+UR  - https://inspirehep.net/literature/1256386
+L1  - https://arxiv.org/pdf/1310.0290
+KW  - CERN LHC Coll
+KW  - accelerator: technology
+KW  - activity report
+KW  - cavity
+KW  - Higgs particle: particle source
+KW  - luminosity: upgrade
+KW  - magnet: design
+KW  - magnet: superconductivity
+KW  - standard model
+ER  - 
+
+TY  - JOUR
+TI  - Revised QCD effects on the Z $\to b\bar{b}$ forward-backward asymmetry
+AU  - d'Enterria, David
+AU  - Yan, Cynthia
+AB  - The forward-backward (FB) asymmetry of $b$ quarks in $e^+e^-$ collisions at the Z pole measured at LEP, $A_{FB}^{0,b} = 0.0992\pm0.0016$, remains today the electroweak precision observable with the largest disagreement (2.4$\sigma$) with respect to the Standard Model prediction, $(A_{FB}^{0,b})_{_{\rm th}} = 0.1030 \pm 0.0002$. Beyond the dominant statistical uncertainties, QCD effects, such as $b$-quark showering and hadronization, are the leading sources of $A_{FB}^{0,b}$ systematic uncertainty, and have not been revised in the last twenty years. We reassess the QCD uncertainties of the eight original $A_{FB}^{0,b}$ LEP measurements, using modern parton shower PYTHIA-8 and PYTHIA-8 + VINCIA simulations with nine different implementations of soft and collinear radiation as well as of parton fragmentation. Our analysis, combined with NNLO massive $b$-quark corrections independently computed recently, indicates total propagated QCD uncertainties of $\sim$0.7% and $\sim$0.3% for the lepton-charge and jet-charge analyses, respectively, that are about a factor of two smaller than those of the original LEP results. Accounting for such updated QCD effects leads to a new $A_{FB}^{0,b} = 0.0996\pm0.0016$ average, with a data-theory tension slightly reduced from 2.4$\sigma$ to 2.1$\sigma$. Confirmation or resolution of this long-term discrepancy requires a new high-luminosity $e^+e^-$ collider collecting orders-of-magnitude more data at the Z pole to significantly reduce the $A_{FB}^{0,b}$ statistical uncertainties.
+DA  - 2020/11/02/
+PY  - 2020
+DP  - inspirehep.net
+LA  - en
+UR  - https://inspirehep.net/literature/1827497
+Y2  - 2022/12/25/15:58:06
+L2  - https://inspirehep.net/literature/1827497
+ER  - 
+
+TY  - CONF
+TI  - Parton Showers since LEP
+AU  - Richardson, Peter
+C3  - Parton radiation and fragmentation from LHC to FCC-ee
+DA  - 2017///
+PY  - 2017
+DP  - INSPIRE
+SP  - 113
+EP  - 118
+UR  - https://inspirehep.net/literature/1513003
+L1  - https://inspirehep.net/files/d2e0d64a6761baca652c171063214f0a
+KW  - color: coherence
+KW  - higher-order: 1
+KW  - higher-order: 2
+KW  - jet: production
+KW  - model: cluster
+KW  - multiplicity
+KW  - numerical calculations: Monte Carlo
+KW  - parton: showers
+KW  - quantum chromodynamics
+KW  - string: hadronization
+ER  - 
+
+TY  - JOUR
+TI  - Soft-QCD and UE spectra in pp collisions at very high CM energies (a Snowmass white paper)
+AU  - Skands, Peter Z.
+DA  - 2013/08//
+PY  - 2013
+DP  - INSPIRE
+UR  - https://inspirehep.net/literature/1247688
+L1  - https://arxiv.org/pdf/1308.2813
+KW  - p p: scattering
+KW  - numerical calculations: Monte Carlo
+KW  - energy dependence
+KW  - p p: colliding beams
+KW  - quantum chromodynamics: perturbation theory
+KW  - track data analysis
+KW  - underlying event
+ER  - 
+
