@@ -1,0 +1,51 @@
+TY  - JOUR
+TI  - XaNSoNS: GPU-accelerated simulator of diffraction patterns of nanoparticles
+AU  - Neverov, V. S.
+T2  - SoftwareX
+AB  - XaNSoNS is an open source software with GPU support, which simulates X-ray and neutron 1D (or 2D) diffraction patterns and pair-distribution functions (PDF) for amorphous or crystalline nanoparticles (up to ∼107 atoms) of heterogeneous structural content. Among the multiple parameters of the structure the user may specify atomic displacements, site occupancies, molecular displacements and molecular rotations. The software uses general equations nonspecific to crystalline structures to calculate the scattering intensity. It supports four major standards of parallel computing: MPI, OpenMP, Nvidia CUDA and OpenCL, enabling it to run on various architectures, from CPU-based HPCs to consumer-level GPUs.
+DA  - 2017/01/01/
+PY  - 2017
+DO  - 10.1016/j.softx.2017.01.004
+DP  - ScienceDirect
+VL  - 6
+SP  - 63
+EP  - 68
+J2  - SoftwareX
+LA  - en
+SN  - 2352-7110
+ST  - XaNSoNS
+UR  - https://www.sciencedirect.com/science/article/pii/S2352711017300043
+Y2  - 2022/12/26/19:21:34
+L1  - https://www.sciencedirect.com/science/article/pii/S2352711017300043/pdfft?md5=6092923ae3817df1f6ad7e993ba9de68&pid=1-s2.0-S2352711017300043-main.pdf&isDTMRedir=Y
+L2  - https://www.sciencedirect.com/science/article/pii/S2352711017300043
+KW  - GPU
+KW  - Simulation
+KW  - X-ray and neutron diffraction
+ER  - 
+
+TY  - JOUR
+TI  - “XANSONS for COD”: a new small BOINC project in crystallography
+AU  - Neverov, Vladislav S.
+AU  - Khrapov, Nikolay P.
+T2  - Open Engineering
+AB  - “XANSONS for COD” (http://xansons4cod.com) is a new BOINC project aimed at creating the open-access database of simulated x-ray and neutron powder diffraction patterns for nanocrystalline phase of materials from the collection of the Crystallography Open Database (COD). The project uses original open-source software XaNSoNS to simulate diffraction patterns on CPU and GPU. This paper describes the scientific problem this project solves, the project’s internal structure, its operation principles and organization of the final database.
+DA  - 2018/01/01/
+PY  - 2018
+DO  - 10.1515/eng-2018-0014
+DP  - www.degruyter.com
+VL  - 8
+IS  - 1
+SP  - 102
+EP  - 108
+LA  - en
+SN  - 2391-5439
+ST  - “XANSONS for COD”
+UR  - https://www.degruyter.com/document/doi/10.1515/eng-2018-0014/html?lang=en
+Y2  - 2022/12/26/19:22:20
+L1  - https://www.degruyter.com/document/doi/10.1515/eng-2018-0014/pdf
+KW  - BOINC
+KW  - GPGPU
+KW  - volunteer computing
+KW  - x-ray and neutron diffraction
+ER  - 
+
