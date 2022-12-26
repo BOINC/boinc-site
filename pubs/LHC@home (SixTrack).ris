@@ -1,0 +1,295 @@
+TY  - JOUR
+TI  - Extended-Domain Tune-Scans for the HL-LHC Dynamic Aperture in Presence of Beam-Beam Effects
+AU  - Kaltchev, Dobrin
+AU  - Karastathis, Nikolaos
+AU  - Papaphilippou, Yannis
+AU  - Pellegrini, Dario
+T2  - Proceedings of the 9th Int. Particle Accelerator Conf.
+AB  - We report simulations of the HL-LHC dynamic aperture (DA) at collision energy in the presence of beam-beam effects (weak-strong approximation) aiming to determine its dependence on the working point in tune space. Both linear domains working points are explored, spanning over (0.028 – 0.33) in horizontal tune, and two-dimensional ones which focus on more promising sub-regions near the diagonal. The range of parameters, such as bunch intensity and emittance, are chosen to correspond to the more important HL-LHC scenarios. A comparison with the LHC as built is also made. Direct benefit from these studies is the possible identification of working points alternative to the nominal one (in terms of dynamic aperture). They also help to understand the dependence of DA on particular resonance lines present in the vicinity of the footprint. In this work, the necessary resources were provided by the LHC@home project, based on the BOINC-SixTrack platform for distributed Computing.
+DA  - 2018///
+PY  - 2018
+DO  - 10.18429/JACOW-IPAC2018-TUPAL064
+DP  - DOI.org (Datacite)
+VL  - IPAC2018
+SP  - 4
+EP  - pages, 3.498 MB
+LA  - en
+UR  - http://jacow.org/ipac2018/doi/JACoW-IPAC2018-TUPAL064.html
+Y2  - 2022/11/20/15:22:35
+KW  - 04 Hadron Accelerators
+KW  - A04 Circular Accelerators
+KW  - Accelerator Physics
+ER  - 
+
+TY  - JOUR
+TI  - SixTrack Project: Status, Runtime Environment, and New Developments
+AU  - De Maria, Riccardo
+AU  - Andersson, Joel
+AU  - Field, Laurence
+AU  - Giovannozzi, Massimo
+AU  - Hermes, Pascal
+AU  - Hoimyr, Nils
+AU  - Iadarola, Giovanni
+AU  - Kostoglou, Sofia
+AU  - Maclean, Ewen
+AU  - McIntosh, Eric
+AU  - Mereghetti, Alessio
+AU  - Molson, James
+AU  - Olsen, Veronica
+AU  - Pellegrini, Dario
+AU  - Persson, Tobias
+AU  - Schwinzerl, Martin
+AU  - Singh, Somesh
+AU  - Sjobak, Kyrre
+AU  - Zacharov, Igor
+T2  - Proceedings of the 13th Int. Computational Accelerator Physics Conf.
+AB  - SixTrack is a single-particle tracking code for high-energy circular accelerators routinely used at CERN for the Large Hadron Collider (LHC), its luminosity upgrade (HL-LHC), the Future Circular Collider (FCC), and the Super Proton Synchrotron (SPS) simulations. The code is based on a 6D symplectic tracking engine, which is optimised for long-term tracking simulations and delivers fully reproducible results on several platforms. It also includes multiple scattering engines for beam-matter interaction studies, as well as facilities to run integrated simulations with FLUKA and GEANT4. These features differentiate SixTrack from general-purpose, optics-design software like MAD-X. The code recently underwent a major restructuring to merge advanced features into a single branch, such as multiple ion species, interface with external codes, and high-performance input/output (XRootD, HDF5). This restructuring also removed a large number of build flags, instead enabling/disabling the functionality at run-time. In the process, the code was moved from Fortran 77 to Fortran 2018 standard, also allowing and achieving a better modularization. Physics models (beam-beam effects, RF-multipoles, current carrying wires, solenoid, and electron lenses) and methods (symplecticity check) have also been reviewed and refined to offer more accurate results. The SixDesk runtime environment allows the user to manage the large batches of simulations required for accurate predictions of the dynamic aperture. SixDesk supports CERN LSF and HTCondor batch systems, as well as the BOINC infrastructure in the framework of the LHC@Home volunteering computing project. SixTrackLib is a new library aimed at providing a portable and flexible tracking engine for single- and multi-particle problems using the models and formalism of SixTrack. The tracking routines are implemented in a parametrized C code that is specialised to run vectorized in CPUs and GPUs, by using SIMD intrinsics, OpenCL 1.2, and CUDA tech
+DA  - 2019///
+PY  - 2019
+DO  - 10.18429/JACOW-ICAP2018-TUPAF02
+DP  - DOI.org (Datacite)
+VL  - ICAP2018
+SP  - 7
+EP  - pages, 0.881 MB
+LA  - en
+ST  - SixTrack Project
+UR  - http://jacow.org/icap2018/doi/JACoW-ICAP2018-TUPAF02.html
+Y2  - 2022/11/20/15:22:35
+KW  - Accelerator Physics
+KW  - D-1 Beam Dynamics Simulations
+ER  - 
+
+TY  - JOUR
+TI  - New Features of the 2017 SixTrack Release
+AU  - Sjobak, Kyrre
+AU  - Barranco García, Javier
+AU  - De Maria, Riccardo
+AU  - Fitterer, Miriam
+AU  - Gupta, Vikas
+AU  - McIntosh, Eric
+AU  - Mereghetti, Alessio
+AU  - Molson, James
+T2  - Proceedings of the 8th Int. Particle Accelerator Conf.
+AB  - The SixTrack particle tracking code is routinely used to simulate particle trajectories in high energy circular machines like the LHC and FCC, and is deployed for massive simulation campaigns on CERN clusters and on the BOINC platform within the LHC@Home volunteering computing project. The 2017 release brings many upgrades that improve flexibility, performance, and accuracy. This paper describes the new modules for wire- and electron lenses (WIRE and ELEN), the expert interface for beam-beam element (BEAM/EXPERT), the extension of the number of simultaneously tracked particles, the new Frequency Map Analysis (FMA) postprocessing option, the generation of a single zip of selected output files (ZIPF) in order to extend the coverage of the studies in LHC@HOME (e.g. FMA and on-line aperture checks), coupling to external codes (DYNK-PIPE and BDEX), a new CMAKE based build- and test mechanism, and internal restructuring.
+DA  - 2017///
+PY  - 2017
+DO  - 10.18429/JACOW-IPAC2017-THPAB047
+DP  - DOI.org (Datacite)
+VL  - IPAC2017
+SP  - 4
+EP  - pages, 0.135 MB
+LA  - en
+UR  - http://jacow.org/ipac2017/doi/JACoW-IPAC2017-THPAB047.html
+Y2  - 2022/11/20/15:22:35
+KW  - Accelerator Physics
+KW  - 05 Beam Dynamics and Electromagnetic Fields
+ER  - 
+
+TY  - JOUR
+TI  - SixTrack V and runtime environment
+AU  - De Maria, R.
+AU  - Andersson, J.
+AU  - Berglyd Olsen, V. K.
+AU  - Field, L.
+AU  - Giovannozzi, M.
+AU  - Hermes, P. D.
+AU  - Høimyr, N.
+AU  - Kostoglou, S.
+AU  - Iadarola, G.
+AU  - Mcintosh, E.
+AU  - Mereghetti, A.
+AU  - Molson, J.
+AU  - Pellegrini, D.
+AU  - Persson, T.
+AU  - Schwinzerl, M.
+AU  - Maclean, E. H.
+AU  - Sjobak, K. N.
+AU  - Zacharov, I.
+AU  - Singh, S.
+T2  - International Journal of Modern Physics A
+AB  - SixTrack is a single-particle tracking code for high-energy circular accelerators routinely used at CERN for the Large Hadron Collider (LHC), its luminosity upgrade (HL-LHC), the Future Circular Collider (FCC) and the Super Proton Synchrotron (SPS) simulations. The code is based on a 6D symplectic tracking engine, which is optimized for long-term tracking simulations and delivers fully reproducible results on several platforms. It also includes multiple scattering engines for beam–matter interaction studies, as well as facilities to run the integrated simulations with external particle matter interaction codes. These features differentiate SixTrack from general-purpose, optics-design software. The code recently underwent a major restructuring to merge the advanced features into a single branch, such as multiple ion species, interface with external codes and high-performance input/output. This restructuring also removed a large number of compilation flags, instead enabling/disabling the functionality with runtime options. In the process, the code was moved from Fortran 77 to Fortran 2018 standard, also allowing and achieving a better modularization. Physics models (beam–beam effects, Radio-Frequency (RF) multipoles, current carrying wires, solenoid and electron lenses) and methods (symplecticity check) have also been reviewed and refined to offer more accurate results. The SixDesk runtime environment allows the user to manage the large batches of simulations required for accurate predictions of the dynamic aperture. SixDesk supports several cluster environments available at CERN as well as submitting jobs to the LHC@Home volunteering computing project, which enables volunteers contributing with their hardware to CERN simulation. SixTrackLib is a new library aimed at providing a portable and flexible tracking engine for single- and multi-particle problems using the models and formalism of SixTrack. The library is able to run in CPUs as well as graphical processing units (GPUs). This contribution presents the status of the code, summarizes the main existing features and provides details about the main development lines SixTrack, SixDesk and SixTrackLib.
+DA  - 2019/12/30/
+PY  - 2019
+DO  - 10.1142/S0217751X19420351
+DP  - DOI.org (Crossref)
+VL  - 34
+IS  - 36
+SP  - 1942035
+J2  - Int. J. Mod. Phys. A
+LA  - en
+SN  - 0217-751X, 1793-656X
+UR  - https://www.worldscientific.com/doi/abs/10.1142/S0217751X19420351
+Y2  - 2022/11/20/15:22:57
+ER  - 
+
+TY  - ELEC
+TI  - JACoW : SixTrack project: Status, runtime environment, and new developments
+AU  - De Maria, Riccardo
+AU  - Hoimyr, Nils
+AU  - Andersson, Joel
+AU  - Persson, Tobias
+AU  - Field, Laurence
+AU  - Zacharov, Igor
+AU  - Berglyd Olsen, Veronica
+AU  - McIntosh, Eric
+AU  - Molson, James
+AU  - Singh, Somesh
+AU  - Sjobak, Kyrre
+AU  - Giovannozzi, Massimo
+AU  - Mereghetti, Alessio
+AU  - Iadarola, Giovanni
+AU  - Maclean, Ewen
+AU  - Kostoglou, Sofia
+AU  - Hermes, Pascal
+AU  - Pellegrini, Dario
+AU  - Schwinzerl, Martin
+T2  - CERN Document Server
+AB  - JACoW
+DA  - 2019///
+PY  - 2019
+LA  - en
+ST  - JACoW
+UR  - https://cds.cern.ch/record/2697441
+Y2  - 2022/11/20/15:25:05
+L1  - https://cds.cern.ch/record/2697441/files/tupaf02.pdf
+L2  - https://cds.cern.ch/record/2697441?ln=en
+ER  - 
+
+TY  - ELEC
+TI  - JACoW : Extended-Domain Tune-Scans for the HL-LHC Dynamic Aperture in Presence of Beam-Beam Effects
+AU  - Kaltchev, Dobrin
+AU  - Karastathis, Nikolaos
+AU  - Pellegrini, Dario
+AU  - McIntosh, E.
+AU  - Papaphilippou, Yannis
+T2  - CERN Document Server
+AB  - Simulations of the HL-LHC dynamic aperture (DA) at collision energy and in the presence of beam-beam effects (weak-strong approximation) have been performed to determine the dependence of DA on the working point in tune space. Both linear domains of working points are explored and two-dimensional ones which focus on more promising sub-regions near the diagonal. The range of parameters, such as bunch intensity and emittance correspond to important HL-LHC scenarios. In this work, the necessary resources were provided by the LHC@home project, based on the BOINC-SixTrack platform for distributed Computing.
+DA  - 2018///
+PY  - 2018
+LA  - en
+ST  - JACoW
+UR  - https://cds.cern.ch/record/2648698
+Y2  - 2022/11/20/15:26:33
+L1  - https://cds.cern.ch/record/2648698/files/tupal064.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Innovative method to measure the extent of the stable phase-space region of proton synchrotrons
+AU  - Maclean, E. H.
+AU  - Giovannozzi, M.
+AU  - Appleby, R. B.
+T2  - Physical Review Accelerators and Beams
+DA  - 2019/03/12/
+PY  - 2019
+DO  - 10.1103/PhysRevAccelBeams.22.034002
+DP  - DOI.org (Crossref)
+VL  - 22
+IS  - 3
+SP  - 034002
+J2  - Phys. Rev. Accel. Beams
+LA  - en
+SN  - 2469-9888
+UR  - https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.034002
+Y2  - 2022/11/20/15:33:38
+L1  - https://link.aps.org/pdf/10.1103/PhysRevAccelBeams.22.034002
+ER  - 
+
+TY  - JOUR
+TI  - SixTrack Version 5: Status and New Developments
+AU  - De Maria, R.
+AU  - Andersson, J.
+AU  - Berglyd Olsen, V.K.
+AU  - Field, L.
+AU  - Giovannozzi, M.
+AU  - Hermes, P.D.
+AU  - Høimyr, N.
+AU  - Iadarola, G.
+AU  - Kostoglou, S.
+AU  - Maclean, E.H.
+AU  - McIntosh, E.
+AU  - Mereghetti, A.
+AU  - Molson, J.
+AU  - Pellegrini, D.
+AU  - Persson, T.
+AU  - Schwinzerl, M.
+AU  - Dalena, B.
+AU  - Pugnat, T.
+AU  - Zacharov, I.
+AU  - Sjobak, K.N.
+T2  - Journal of Physics: Conference Series
+AB  - Abstract
+            SixTrack Version 5 is a major SixTrack release that introduces new features, with improved integration of the existing ones, and extensive code restructuring. New features include dynamic-memory management, scattering-routine integration, a new initial-condition module, and reviewed post-processing methods. Existing features like on-line aperture checking and Fluka-coupling are now enabled by default. Extensive performance regression tests have been developed and deployed as part of the new-release generation. The new features of the tracking environment developed for the massive numerical simulations will be discussed as well.
+DA  - 2019/11/01/
+PY  - 2019
+DO  - 10.1088/1742-6596/1350/1/012129
+DP  - DOI.org (Crossref)
+VL  - 1350
+IS  - 1
+SP  - 012129
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+ST  - SixTrack Version 5
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/1350/1/012129
+Y2  - 2022/11/20/15:33:39
+L1  - https://www.duo.uio.no/bitstream/10852/77756/1/De_Maria_2019_J._Phys.__Conf._Ser._1350_012129.pdf
+ER  - 
+
+TY  - JOUR
+TI  - BOINC service for volunteer cloud computing
+AU  - Høimyr, N
+AU  - Blomer, J
+AU  - Buncic, P
+AU  - Giovannozzi, M
+AU  - Gonzalez, A
+AU  - Harutyunyan, A
+AU  - Jones, P L
+AU  - Karneyeu, A
+AU  - Marquina, M A
+AU  - Mcintosh, E
+AU  - Segal, B
+AU  - Skands, P
+AU  - Grey, F
+AU  - Lombraña González, D
+AU  - Zacharov, I
+T2  - Journal of Physics: Conference Series
+DA  - 2012/12/13/
+PY  - 2012
+DO  - 10.1088/1742-6596/396/3/032057
+DP  - DOI.org (Crossref)
+VL  - 396
+IS  - 3
+SP  - 032057
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/396/3/032057
+Y2  - 2022/11/20/15:33:38
+ER  - 
+
+TY  - JOUR
+TI  - CernVM Co-Pilot: an Extensible Framework for Building Scalable Computing Infrastructures on the Cloud
+AU  - Harutyunyan, A
+AU  - Blomer, J
+AU  - Buncic, P
+AU  - Charalampidis, I
+AU  - Grey, F
+AU  - Karneyeu, A
+AU  - Larsen, D
+AU  - Lombraña González, D
+AU  - Lisec, J
+AU  - Segal, B
+AU  - Skands, P
+T2  - Journal of Physics: Conference Series
+DA  - 2012/12/13/
+PY  - 2012
+DO  - 10.1088/1742-6596/396/3/032054
+DP  - DOI.org (Crossref)
+VL  - 396
+IS  - 3
+SP  - 032054
+J2  - J. Phys.: Conf. Ser.
+SN  - 1742-6588, 1742-6596
+ST  - CernVM Co-Pilot
+UR  - https://iopscience.iop.org/article/10.1088/1742-6596/396/3/032054
+Y2  - 2022/11/20/15:33:38
+ER  - 
+
