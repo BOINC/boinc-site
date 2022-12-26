@@ -1,0 +1,75 @@
+TY  - JOUR
+TI  - Scalable estimator of the diversity for de novo molecular generation resulting in a more robust QM dataset (OD9) and a more efficient molecular optimization
+AU  - Leguy, Jules
+AU  - Glavatskikh, Marta
+AU  - Cauchy, Thomas
+AU  - Da Mota, Benoit
+T2  - Journal of Cheminformatics
+AB  - Abstract
+            Chemical diversity is one of the key term when dealing with machine learning and molecular generation. This is particularly true for quantum chemical datasets. The composition of which should be done meticulously since the calculation is highly time demanding. Previously we have seen that the most known quantum chemical dataset QM9 lacks chemical diversity. As a consequence, ML models trained on QM9 showed generalizability shortcomings. In this paper we would like to present (i) a fast and generic method to evaluate chemical diversity, (ii) a new quantum chemical dataset of 435k molecules, OD9, that includes QM9 and new molecules generated with a diversity objective, (iii) an analysis of the diversity impact on unconstrained and goal-directed molecular generation on the example of QED optimization. Our innovative approach makes it possible to individually estimate the impact of a solution to the diversity of a set, allowing for effective incremental evaluation. In the first application, we will see how the diversity constraint allows us to generate more than a million of molecules that would efficiently complete the reference datasets. The compounds were calculated with DFT thanks to a collaborative effort through the QuChemPedIA@home BOINC project. With regard to goal-directed molecular generation, getting a high QED score is not complicated, but adding a little diversity can cut the number of calls to the evaluation function by a factor of ten
+DA  - 2021/12//
+PY  - 2021
+DO  - 10.1186/s13321-021-00554-8
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 1
+SP  - 76
+J2  - J Cheminform
+LA  - en
+SN  - 1758-2946
+UR  - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00554-8
+Y2  - 2022/12/26/19:07:55
+L1  - https://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-021-00554-8
+ER  - 
+
+TY  - JOUR
+TI  - EvoMol: a flexible and interpretable evolutionary algorithm for unbiased de novo molecular generation
+AU  - Leguy, Jules
+AU  - Cauchy, Thomas
+AU  - Glavatskikh, Marta
+AU  - Duval, Béatrice
+AU  - Da Mota, Benoit
+T2  - Journal of Cheminformatics
+AB  - Abstract
+            The objective of this work is to design a molecular generator capable of exploring known as well as unfamiliar areas of the chemical space. Our method must be flexible to adapt to very different problems. Therefore, it has to be able to work with or without the influence of prior data and knowledge. Moreover, regardless of the success, it should be as interpretable as possible to allow for diagnosis and improvement. We propose here a new open source generation method using an evolutionary algorithm to sequentially build molecular graphs. It is independent of starting data and can generate totally unseen compounds. To be able to search a large part of the chemical space, we define an original set of 7 generic mutations close to the atomic level. Our method achieves excellent performances and even records on the QED, penalised logP, SAscore, CLscore as well as the set of goal-directed functions defined in GuacaMol. To demonstrate its flexibility, we tackle a very different objective issued from the organic molecular materials domain. We show that EvoMol can generate sets of optimised molecules having high energy HOMO or low energy LUMO, starting only from methane. We can also set constraints on a synthesizability score and structural features. Finally, the interpretability of EvoMol allows for the visualisation of its exploration process as a chemically relevant tree.
+DA  - 2020/12//
+PY  - 2020
+DO  - 10.1186/s13321-020-00458-z
+DP  - DOI.org (Crossref)
+VL  - 12
+IS  - 1
+SP  - 55
+J2  - J Cheminform
+LA  - en
+SN  - 1758-2946
+ST  - EvoMol
+UR  - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00458-z
+Y2  - 2022/12/26/19:08:05
+L1  - https://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-020-00458-z
+ER  - 
+
+TY  - JOUR
+TI  - Dataset’s chemical diversity limits the generalizability of machine learning predictions
+AU  - Glavatskikh, Marta
+AU  - Leguy, Jules
+AU  - Hunault, Gilles
+AU  - Cauchy, Thomas
+AU  - Da Mota, Benoit
+T2  - Journal of Cheminformatics
+AB  - Abstract
+            The QM9 dataset has become the golden standard for Machine Learning (ML) predictions of various chemical properties. QM9 is based on the GDB, which is a combinatorial exploration of the chemical space. ML molecular predictions have been recently published with an accuracy on par with Density Functional Theory calculations. Such ML models need to be tested and generalized on real data. PC9, a new QM9 equivalent dataset (only H, C, N, O and F and up to 9 “heavy” atoms) of the PubChemQC project is presented in this article. A statistical study of bonding distances and chemical functions shows that this new dataset encompasses more chemical diversity. Kernel Ridge Regression, Elastic Net and the Neural Network model provided by SchNet have been used on both datasets. The overall accuracy in energy prediction is higher for the QM9 subset. However, a model trained on PC9 shows a stronger ability to predict energies of the other dataset.
+DA  - 2019/12//
+PY  - 2019
+DO  - 10.1186/s13321-019-0391-2
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 1
+SP  - 69
+J2  - J Cheminform
+LA  - en
+SN  - 1758-2946
+UR  - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-019-0391-2
+Y2  - 2022/12/26/19:08:16
+L1  - https://jcheminf.biomedcentral.com/track/pdf/10.1186/s13321-019-0391-2.pdf
+ER  - 
+
