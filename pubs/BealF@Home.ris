@@ -1,0 +1,15 @@
+TY  - THES
+TI  - Testowanie przypuszczenia Beal’a z wykorzystaniem superkomputerów oraz platformy do obliczeń rozproszonych BOINC
+AU  - Świerczewski, Łukasz
+AB  - Praca prezentuje aspekt możliwości testowania przypuszczenia Beal'a (ang. Beal conjecture) z wykorzystaniem zasobów superkomputerowych oraz platformy 
+BOINC (ang. Berkeley Open Infrastructure for Network Computing). Opracowano algorytm poszukujący kontrprzykładu analizowanego problemu matematycznego oraz jego implementację w języku ANSI C. Wykonano testy na takich platformach sprzętowych jak m. in. węzły obliczeniowe superkomputerów IBM BlueGene/P, IBM BlueGene/Q oraz IBM Power 775. Na końcu stworzono projekt rozproszony BealF@Home w oparciu o BOINC (dostępny pod adresem (http://bealf.pl). Zwieńczeniem prac było uruchomienie obliczeń zarówno na superkomputerze ICM, UW „Hydra”, jak i komputerach wolontariuszy.
+DA  - 2015///
+PY  - 2015
+DP  - depot.ceon.pl
+LA  - pl
+M3  - masterThesis
+UR  - https://depot.ceon.pl/handle/123456789/13350
+Y2  - 2022/12/28/13:03:41
+L1  - https://depot.ceon.pl/bitstream/123456789/13350/1/praca_magisterska_Swierczewski_Lukasz.pdf
+ER  - 
+
