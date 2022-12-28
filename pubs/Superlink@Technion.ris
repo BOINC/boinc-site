@@ -1,0 +1,98 @@
+TY  - CONF
+TI  - GridBot: execution of bags of tasks in multiple grids
+AU  - Silberstein, Mark
+AU  - Sharov, Artyom
+AU  - Geiger, Dan
+AU  - Schuster, Assaf
+T2  - the Conference
+C1  - Portland, Oregon
+C3  - Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis - SC '09
+DA  - 2009///
+PY  - 2009
+DO  - 10.1145/1654059.1654071
+DP  - DOI.org (Crossref)
+SP  - 1
+LA  - en
+PB  - ACM Press
+SN  - 978-1-60558-744-8
+ST  - GridBot
+UR  - http://dl.acm.org/citation.cfm?doid=1654059.1654071
+Y2  - 2022/12/28/18:31:27
+ER  - 
+
+TY  - CONF
+TI  - Building an Online Computing Service over Volunteer Grid Resources
+AU  - Silberstein, Mark
+T2  - 2011 IEEE International Symposium on Parallel and Distributed Processing Workshops and Phd Forum
+AB  - Volunteer computing grids have traditionally been used for massively parallel workloads, such as processing data from large scientific experiments. We argue that the domain of volunteer grids can be extended well beyond this specific niche, by enhancing them with built-in mechanisms for integration with with standard clusters, grids and clouds, to compensate for unexpected fluctuations in resource availability and quality of service. The resulting capabilities for on-demand dynamic expansion of the resource pool, together with sophisticated scheduling mechanisms will turn volunteer grids into a powerful execution platform for on-line interactive computing services. We will show our experience with the GridBoT system, which implements these ideas. GridBoT is part of a production high performance online service for genetic linkage analysis, called Super link-online. The system enables anyone with the Internet access to submit genetic data, and easily and quickly analyze it as if using a supercomputer. The analyses are automatically parallelized and executed via GridBoT on over 45,000 non-dedicated machines from the Superlink@Technion volunteer grid, as well as on 9 other grids and clouds, including the Amazon EC2. Since 2009 the system has served more than 300 geneticists from leading research institutions worldwide, and executed over 6500 different real analysis runs, with about 10 million tasks consumed over 420 CPU years.
+C3  - 2011 IEEE International Symposium on Parallel and Distributed Processing Workshops and Phd Forum
+DA  - 2011/05//
+PY  - 2011
+DO  - 10.1109/IPDPS.2011.352
+DP  - IEEE Xplore
+SP  - 1909
+EP  - 1917
+UR  - https://ieeexplore.ieee.org/document/6009064
+L2  - https://ieeexplore.ieee.org/document/6009064?reload=true&arnumber=6009064
+KW  - Communities
+KW  - Computers
+KW  - Dynamic scheduling
+KW  - Reliability
+KW  - Resource management
+KW  - Servers
+KW  - Throughput
+ER  - 
+
+TY  - CONF
+TI  - Building an Online Domain-Specific Computing Service over Non-dedicated Grid and Cloud Resources: The Superlink-Online Experience
+AU  - Silberstein, Mark
+T2  - 2011 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing
+AB  - Linkage analysis is a statistical method used by geneticists in everyday practice for mapping disease-susceptibility genes in the study of complex diseases. An essential first step in the study of genetic diseases, linkage computations may require years of CPU time. The recent DNA sampling revolution enabled unprecedented sampling density, but made the analysis even more computationally demanding. In this paper we describe a high performance online service for genetic linkage analysis, called Super link-online. The system enables anyone with Internet access to submit genetic data and analyze it as easily and quickly as if using a supercomputer. The analyses are automatically parallelized and executed on tens of thousands distributed CPUs in multiple clouds and grids. The first version of the system, which employed up to 3,000 CPUs in UW Madison and Technion Condor pools, has been successfully used since 2006 by hundreds of geneticists worldwide, with over 40 citations in the genetics literature. Here we describe the second version, which substantially improves the scalability and performance of first: it uses over 45,000 non-dedicated hosts, in 10different grids and clouds, including EC2 and the Superlink@Technion community grid. Improved system performance is obtained through a virtual grid hierarchy with dynamic load balancing and multi-grid overlay via the Grid Bot system, parallel pruning of short tasks for overhead minimization, and cost-efficient use of cloud resources in reliability-critical execution periods. These enhancements enabled execution of many previously infeasible analyses, which can now be completed within a few hours. The new version of the system, in production since 2009, has completed over 6500 different runs of over 10 million tasks, with total consumption of 420 CPU years.
+C3  - 2011 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing
+DA  - 2011/05//
+PY  - 2011
+DO  - 10.1109/CCGrid.2011.46
+DP  - IEEE Xplore
+SP  - 174
+EP  - 183
+ST  - Building an Online Domain-Specific Computing Service over Non-dedicated Grid and Cloud Resources
+UR  - https://ieeexplore.ieee.org/document/5948608
+KW  - Approximation algorithms
+KW  - Cloud computing
+KW  - Communities
+KW  - Couplings
+KW  - Diseases
+KW  - Genetics
+KW  - Grid
+KW  - online computing services
+KW  - Runtime
+KW  - Servers
+KW  - Volunteer grids
+ER  - 
+
+TY  - CHAP
+TI  - A Distributed System for Genetic Linkage Analysis
+AU  - Silberstein, Mark
+AU  - Geiger, Dan
+AU  - Schuster, Assaf
+T2  - Distributed, High-Performance and Grid Computing in Computational Biology
+A2  - Dubitzky, Werner
+A2  - Schuster, Assaf
+A2  - Sloot, Peter M. A.
+A2  - Schroeder, Michael
+A2  - Romberg, Mathilde
+CY  - Berlin, Heidelberg
+DA  - 2007///
+PY  - 2007
+DP  - DOI.org (Crossref)
+VL  - 4360
+SP  - 110
+EP  - 123
+LA  - en
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-540-69841-8
+UR  - http://link.springer.com/10.1007/978-3-540-69968-2_9
+Y2  - 2022/12/28/18:38:44
+L1  - https://www.cs.technion.ac.il/~dang/conf_papers/SilbersteinGS06.pdf
+ER  - 
+
