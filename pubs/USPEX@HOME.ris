@@ -1,0 +1,52 @@
+TY  - JOUR
+TI  - Volunteer computing for computational materials design
+AU  - Khrapov, N.
+AU  - Roizen, V.
+AU  - Posypkin, M.
+AU  - Samtsevich, A.
+AU  - Oganov, A. R.
+T2  - Lobachevskii Journal of Mathematics
+DA  - 2017/09//
+PY  - 2017
+DO  - 10.1134/S1995080217050195
+DP  - DOI.org (Crossref)
+VL  - 38
+IS  - 5
+SP  - 926
+EP  - 930
+J2  - Lobachevskii J Math
+LA  - en
+SN  - 1995-0802, 1818-9962
+UR  - http://link.springer.com/10.1134/S1995080217050195
+Y2  - 2022/12/28/18:46:48
+ER  - 
+
+TY  - JOUR
+TI  - Using virtualization to protect the proprietary material science applications in volunteer computing
+AU  - Khrapov, Nikolay P.
+AU  - Rozen, Valery V.
+AU  - Samtsevich, Artem I.
+AU  - Posypkin, Mikhail A.
+AU  - Sukhomlin, Vladimir A.
+AU  - Oganov, Artem R.
+T2  - Open Engineering
+AB  - USPEX is a world-leading software for computational material design. In essence, USPEX splits simulation into a large number of workunits that can be processed independently. This scheme ideally fits the desktop grid architecture. Workunit processing is done by a simulation package aimed at energy minimization. Many of such packages are proprietary and should be protected from unauthorized access when running on a volunteer PC. In this paper we present an original approach based on virtualization. In a nutshell, the proprietary code and input files are stored in an encrypted folder and run inside a virtual machine image that is also password protected. The paper describes this approach in detail and discusses its application in USPEX@home volunteer project.
+DA  - 2018/04/01/
+PY  - 2018
+DO  - 10.1515/eng-2018-0009
+DP  - NASA ADS
+VL  - 8
+SP  - 9
+SN  - 2391-5439
+UR  - https://ui.adsabs.harvard.edu/abs/2018OEng....8....9K
+Y2  - 2022/12/28/18:48:26
+L1  - https://www.degruyter.com/document/doi/10.1515/eng-2018-0009/pdf
+KW  - BOINC
+KW  - computational materials design
+KW  - optimization
+KW  - structure prediction
+KW  - USPEX
+KW  - VASP
+KW  - virtualization
+ER  - 
+
