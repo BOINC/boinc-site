@@ -1,0 +1,16 @@
+TY  - JOUR
+TI  - New Lower Bounds for van der Waerden Numbers Using Distributed Computing
+AU  - Monroe, Daniel
+AB  - This paper provides new lower bounds for van der Waerden numbers using Rabung's method, which colors based on the discrete logarithm modulo some prime. Through a distributed computing project with 500 volunteers over one year, we checked all primes up to 950 million, compared to 27 million in previous work. We point to evidence that the van der Waerden number for $r$ colors and progression length $k$ is roughly $r^k$.
+DA  - 2016///
+PY  - 2016
+DO  - 10.48550/ARXIV.1603.03301
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/1603.03301
+Y2  - 2022/12/28/22:47:19
+KW  - Combinatorics (math.CO)
+KW  - Distributed, Parallel, and Cluster Computing (cs.DC)
+KW  - FOS: Computer and information sciences
+KW  - FOS: Mathematics
+ER  - 
+
