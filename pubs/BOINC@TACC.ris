@@ -1,0 +1,57 @@
+TY  - CONF
+TI  - Greyfish: An Out-of-the-Box, Reusable, Portable Cloud Storage Service
+AU  - Redondo, Carlos
+AU  - Arora, Ritu
+T2  - PEARC '19: Practice and Experience in Advanced Research Computing
+C1  - Chicago IL USA
+C3  - Proceedings of the Practice and Experience in Advanced Research Computing on Rise of the Machines (learning)
+DA  - 2019/07/28/
+PY  - 2019
+DO  - 10.1145/3332186.3333055
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 6
+LA  - en
+PB  - ACM
+SN  - 978-1-4503-7227-5
+ST  - Greyfish
+UR  - https://dl.acm.org/doi/10.1145/3332186.3333055
+Y2  - 2022/12/28/22:52:46
+ER  - 
+
+TY  - CHAP
+TI  - Scalable Software Infrastructure for Integrating Supercomputing with Volunteer Computing and Cloud Computing
+AU  - Arora, Ritu
+AU  - Redondo, Carlos
+AU  - Joshua, Gerald
+T2  - Software Challenges to Exascale Computing
+A2  - Majumdar, Amit
+A2  - Arora, Ritu
+CY  - Singapore
+DA  - 2019///
+PY  - 2019
+DP  - DOI.org (Crossref)
+VL  - 964
+SP  - 105
+EP  - 119
+LA  - en
+PB  - Springer Singapore
+SN  - 9789811377280 9789811377297
+UR  - http://link.springer.com/10.1007/978-981-13-7729-7_8
+Y2  - 2022/12/28/22:53:35
+ER  - 
+
+TY  - JOUR
+TI  - VAST: Integrating Volunteer Computing into Existing Cyberinfrastructure
+AU  - Wilson, Lucas A
+AU  - Anderson, David P
+DA  - 2017///
+PY  - 2017
+DO  - 10.13140/RG.2.2.28139.64805
+DP  - DOI.org (Datacite)
+LA  - en
+ST  - VAST
+UR  - http://rgdoi.net/10.13140/RG.2.2.28139.64805
+Y2  - 2022/12/28/22:55:06
+ER  - 
+
