@@ -1,0 +1,261 @@
+TY  - JOUR
+TI  - Resilient parallel computing on volunteer PC grids
+AU  - Subhlok, Jaspal
+AU  - Nguyen, Hien
+AU  - Gabriel, Edgar
+AU  - Rahman, Mohammad Tanvir
+T2  - Concurrency and Computation: Practice and Experience
+DA  - 2018/09/25/
+PY  - 2018
+DO  - 10.1002/cpe.4478
+DP  - DOI.org (Crossref)
+VL  - 30
+IS  - 18
+J2  - Concurrency Computat Pract Exper
+LA  - en
+SN  - 1532-0626, 1532-0634
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/cpe.4478
+Y2  - 2022/12/28/21:46:21
+ER  - 
+
+TY  - CONF
+TI  - Checkpointing to Minimize Completion Time for Inter-Dependent Parallel Processes on Volunteer Grids
+AU  - Rahman, Mohammad Tanvir
+AU  - Nguyen, Hien
+AU  - Subhlok, Jaspal
+AU  - Pandurangan, Gopal
+T2  - 2016 16th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid)
+AB  - Volunteer computing is being used successfully for large scale scientific computations. This research is in the context of Volpex, a programming framework that supports communicating parallel processes in a volunteer environment. Redundancy and checkpointing are combined to ensure consistent forward progress with Volpex in this unique execution environment characterized by heterogeneous failure prone nodes and interdependent replicated processes. An important parameter for optimizing performance with Volpex is the frequency of checkpointing. The paper presents a mathematical model to minimize the completion time for inter-dependent parallel processes running in a volunteer environment by finding a suitable checkpoint interval. Validation is performed with a sample real world application running on a pool of distributed volunteer nodes. The results indicate that the performance with our predicted checkpoint interval is fairly close to the best performance obtained empirically by varying the checkpoint interval.
+C3  - 2016 16th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid)
+DA  - 2016/05//
+PY  - 2016
+DO  - 10.1109/CCGrid.2016.78
+DP  - IEEE Xplore
+SP  - 331
+EP  - 335
+UR  - https://ieeexplore.ieee.org/document/7515706
+L2  - https://ieeexplore.ieee.org/document/7515706
+KW  - checkpointing
+KW  - Checkpointing
+KW  - Computational modeling
+KW  - Computer applications
+KW  - Distributed processing
+KW  - Exponential distribution
+KW  - Fault tolerant execution
+KW  - Mathematical model
+KW  - PC grids
+KW  - Servers
+KW  - volunteer computing
+ER  - 
+
+TY  - CONF
+TI  - Efficient Message Logging to Support Process Replicas in a Volunteer Computing Environment
+AU  - Islam, Md Tarikul
+AU  - Nguyen, Hien
+AU  - Subhlok, Jaspal
+AU  - Gabriel, Edgar
+T2  - 2015 IEEE International Parallel and Distributed Processing Symposium Workshop
+AB  - The context of this research is Volpex, a communication framework based on Put/Get calls to an abstract global space that can seamlessly handle multiple active replicas of communicating processes. Volpex is designed for a heterogeneous and unreliable execution environment where parallel applications need replication as well as check pointing to make continuous progress. Since different instances of the same process can execute in the same logical state at different clock times, communicated data objects must be logged to ensure consistent execution of process replicas. Logging to support redundancy can be the source of a significant overhead in execution time and storage and can limit scalability. In this paper we develop, implement, and evaluate Log on Read and Log on Write logging schemes to support redundant communication. Log on Read schemes log a copy of the data object returned to every Get (or Read) request. On the other hand, Log on Write schemes log the old data object only when a Put request is overwriting a data object. This reduces redundant copying, but identifying the correct data object to return to a Get request is complex. A Virtual Time Stamp (VTS) that captures global execution state is logged along with the data object to make this possible. We develop an optimized Log on Read scheme that minimizes redundancy and an optimized Log on Write scheme that reduces the VTS size and overhead. Experimental results show that the optimizations are effective in terms of storage and time overhead and an optimized Log on Read scheme presents the best tradeoffs for most scenarios.
+C3  - 2015 IEEE International Parallel and Distributed Processing Symposium Workshop
+DA  - 2015/05//
+PY  - 2015
+DO  - 10.1109/IPDPSW.2015.91
+DP  - IEEE Xplore
+SP  - 46
+EP  - 56
+UR  - https://ieeexplore.ieee.org/document/7284289
+L1  - https://uh-ir.tdl.org/uh-ir/bitstream/handle/10657/528/ISLAM-THESIS-2013.pdf%3Bjsessionid%3DC025890B36E921890AC4A743C44FB088?sequence%3D1
+L2  - https://ieeexplore.ieee.org/document/7284289
+KW  - Benchmark testing
+KW  - Computer applications
+KW  - Distributed processing
+KW  - Fault tolerance
+KW  - Object recognition
+KW  - Optimization
+KW  - Servers
+ER  - 
+
+TY  - CONF
+TI  - An Execution Environment for Robust Parallel Computing on Volunteer PC Grids
+AU  - Nguyen, Hien
+AU  - Pedamallu, Eshwar
+AU  - Subhlok, Jaspal
+AU  - Gabriel, Edgar
+AU  - Wang, Qian
+AU  - Cheung, Margaret S.
+AU  - Anderson, David
+T2  - 2012 41st International Conference on Parallel Processing (ICPP)
+C1  - Pittsburgh, PA, USA
+C3  - 2012 41st International Conference on Parallel Processing
+DA  - 2012/09//
+PY  - 2012
+DO  - 10.1109/ICPP.2012.18
+DP  - DOI.org (Crossref)
+SP  - 158
+EP  - 167
+PB  - IEEE
+SN  - 978-1-4673-2508-0 978-0-7695-4796-1
+UR  - http://ieeexplore.ieee.org/document/6337577/
+Y2  - 2022/12/28/21:50:56
+L1  - https://www2.cs.uh.edu/~jaspal/papers/12icpp.pdf
+ER  - 
+
+TY  - CONF
+TI  - A Robust Communication Framework for Parallel Execution on Volunteer PC Grids
+AU  - Rohit, Eshwar
+AU  - Nguyen, Hien
+AU  - Kanna, Nagarajan
+AU  - Subhlok, Jaspal
+AU  - Gabriel, Edgar
+AU  - Wang, Qian
+AU  - Cheung, Margaret S.
+AU  - Anderson, David
+T2  - 2011 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing
+AB  - Volunteer PC grids represent massive computation capacity at a low cost, but are challenging to employ for parallel computing because of variable and unpredictable performance and availability. A communicating parallel program must employ explicit redundancy, or implicit redundancy with uncoordinated checkpoint-restart to make continuous forward progress in such an unreliable environment. A communication model based on one-sided Put/Get calls to an abstract global shared space is a good match as processes can execute their communication operations independently and asynchronously. However, no existing system is designed for redundant communicating processes. The key problem is that a single logical operation that impacts the global program state may be executed by different instances of the same process at different times leading to semantic inconsistency. This paper presents the design, execution model, implementation, and usage of \em Volpex, a communication layer for robust execution on volunteer PC grids. The research leads to a practical way to employ idle PCs for latency tolerant parallel computing applications.
+C3  - 2011 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing
+DA  - 2011/05//
+PY  - 2011
+DO  - 10.1109/CCGrid.2011.72
+DP  - IEEE Xplore
+SP  - 134
+EP  - 143
+UR  - https://ieeexplore.ieee.org/document/5948604
+L1  - https://www2.cs.uh.edu/%7Ejaspal/papers/11ccgrid.pdf
+L2  - https://ieeexplore.ieee.org/document/5948604
+KW  - Computational modeling
+KW  - Desktop Grids
+KW  - Fault Tolerance
+KW  - Fault tolerant systems
+KW  - Libraries
+KW  - Parallel execution
+KW  - Programming
+KW  - Redundancy
+KW  - Redundant Computation
+KW  - Servers
+KW  - Volunteer Computing
+ER  - 
+
+TY  - CHAP
+TI  - Communication Target Selection for Replicated MPI Processes
+AU  - Anand, Rakhi
+AU  - Gabriel, Edgar
+AU  - Subhlok, Jaspal
+T2  - Recent Advances in the Message Passing Interface
+A2  - Keller, Rainer
+A2  - Gabriel, Edgar
+A2  - Resch, Michael
+A2  - Dongarra, Jack
+A3  - Hutchison, David
+A3  - Kanade, Takeo
+A3  - Kittler, Josef
+A3  - Kleinberg, Jon M.
+A3  - Mattern, Friedemann
+A3  - Mitchell, John C.
+A3  - Naor, Moni
+A3  - Nierstrasz, Oscar
+A3  - Pandu Rangan, C.
+A3  - Steffen, Bernhard
+A3  - Sudan, Madhu
+A3  - Terzopoulos, Demetri
+A3  - Tygar, Doug
+A3  - Vardi, Moshe Y.
+A3  - Weikum, Gerhard
+CY  - Berlin, Heidelberg
+DA  - 2010///
+PY  - 2010
+DP  - DOI.org (Crossref)
+VL  - 6305
+SP  - 198
+EP  - 207
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-15645-8 978-3-642-15646-5
+UR  - http://link.springer.com/10.1007/978-3-642-15646-5_21
+Y2  - 2022/12/28/21:54:48
+ER  - 
+
+TY  - CONF
+TI  - A High-Level Interpreted MPI Library for Parallel Computing in Volunteer Environments
+AU  - LeBlanc, Troy P.
+AU  - Subhlok, Jaspal
+AU  - Gabriel, Edgar
+T2  - 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing
+C1  - Melbourne, Australia
+C3  - 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing
+DA  - 2010///
+PY  - 2010
+DO  - 10.1109/CCGRID.2010.85
+DP  - DOI.org (Crossref)
+SP  - 673
+EP  - 678
+PB  - IEEE
+SN  - 978-1-4244-6987-1
+UR  - http://ieeexplore.ieee.org/document/5493405/
+Y2  - 2022/12/28/21:57:49
+L1  - https://www2.cs.uh.edu/%7Ejaspal/papers/10ccgrid.pdf
+ER  - 
+
+TY  - CHAP
+TI  - A Communication Framework for Fault-Tolerant Parallel Execution
+AU  - Kanna, Nagarajan
+AU  - Subhlok, Jaspal
+AU  - Gabriel, Edgar
+AU  - Rohit, Eshwar
+AU  - Anderson, David
+T2  - Languages and Compilers for Parallel Computing
+A2  - Gao, Guang R.
+A2  - Pollock, Lori L.
+A2  - Cavazos, John
+A2  - Li, Xiaoming
+A3  - Hutchison, David
+A3  - Kanade, Takeo
+A3  - Kittler, Josef
+A3  - Kleinberg, Jon M.
+A3  - Mattern, Friedemann
+A3  - Mitchell, John C.
+A3  - Naor, Moni
+A3  - Nierstrasz, Oscar
+A3  - Pandu Rangan, C.
+A3  - Steffen, Bernhard
+A3  - Sudan, Madhu
+A3  - Terzopoulos, Demetri
+A3  - Tygar, Doug
+A3  - Vardi, Moshe Y.
+A3  - Weikum, Gerhard
+CY  - Berlin, Heidelberg
+DA  - 2010///
+PY  - 2010
+DP  - DOI.org (Crossref)
+VL  - 5898
+SP  - 1
+EP  - 15
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-13373-2 978-3-642-13374-9
+UR  - http://link.springer.com/10.1007/978-3-642-13374-9_1
+Y2  - 2022/12/28/22:01:38
+L1  - https://www2.cs.uh.edu/~jaspal/papers/09lcpc.pdf
+ER  - 
+
+TY  - CHAP
+TI  - VolpexMPI: An MPI Library for Execution of Parallel Applications on Volatile Nodes
+AU  - LeBlanc, Troy
+AU  - Anand, Rakhi
+AU  - Gabriel, Edgar
+AU  - Subhlok, Jaspal
+T2  - Recent Advances in Parallel Virtual Machine and Message Passing Interface
+A2  - Ropo, Matti
+A2  - Westerholm, Jan
+A2  - Dongarra, Jack
+CY  - Berlin, Heidelberg
+DA  - 2009///
+PY  - 2009
+DP  - DOI.org (Crossref)
+VL  - 5759
+SP  - 124
+EP  - 133
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-03769-6 978-3-642-03770-2
+ST  - VolpexMPI
+UR  - http://link.springer.com/10.1007/978-3-642-03770-2_19
+Y2  - 2022/12/28/22:03:18
+ER  - 
+
