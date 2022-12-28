@@ -1,0 +1,42 @@
+TY  - JOUR
+TI  - A Volunteer Computing Project for Solving Geoacoustic Inversion Problems
+AU  - Zaikin, Oleg
+AU  - Petrov, Pavel
+AU  - Posypkin, Mikhail
+AU  - Bulavintsev, Vadim
+AU  - Kurochkin, Ilya
+T2  - Open Engineering
+AB  - A volunteer computing project aimed at solving computationally hard inverse problems in underwater acoustics is described. This project was used to study the possibilities of the sound speed profile reconstruction in a shallow-water waveguide using a dispersion-based geoacoustic inversion scheme. The computational capabilities provided by the project allowed us to investigate the accuracy of the inversion for different mesh sizes of the sound speed profile discretization grid. This problem suits well for volunteer computing because it can be easily decomposed into independent simpler subproblems.
+DA  - 2017/12/29/
+PY  - 2017
+DO  - 10.1515/eng-2017-0040
+DP  - ResearchGate
+VL  - 7
+J2  - Open Engineering
+UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0040/html
+Y2  - 2022/12/28/11:39:30
+L1  - https://www.researchgate.net/publication/322141503_A_Volunteer_Computing_Project_for_Solving_Geoacoustic_Inversion_Problems/fulltext/5a478cf5458515f6b055e58d/A-Volunteer-Computing-Project-for-Solving-Geoacoustic-Inversion-Problems.pdf
+L4  - https://www.researchgate.net/publication/322141503_A_Volunteer_Computing_Project_for_Solving_Geoacoustic_Inversion_Problems
+ER  - 
+
+TY  - JOUR
+TI  - Application of iterative hill climbing to the sound speed profile inversion in underwater acoustics
+AU  - Zaikin, O.
+AU  - Petrov, P.
+T2  - IOP Conference Series: Materials Science and Engineering
+AB  - An application of the iterative hill climbing algorithm to the solution of inverse problems of underwater acoustics is discussed. Modal dispersion data extracted from a recording of a pulse acoustical signal is used as the input for the geoacoustic inversion procedure. The mismatch of the dispersion curves extracted from experimental data and computed from a given set of waveguide parameters is minimized over the parameters space. The solution of two test inversion problems is considered. It is shown that the iterative launches of the hill climbing algorithm allow to locate either the global minimum or a local minimum which is reasonably close to the former. In the latter case a reasonable estimate of the waveguide parameters is obtained.
+DA  - 2017/02//
+PY  - 2017
+DO  - 10.1088/1757-899X/173/1/012022
+DP  - Institute of Physics
+VL  - 173
+IS  - 1
+SP  - 012022
+J2  - IOP Conf. Ser.: Mater. Sci. Eng.
+LA  - en
+SN  - 1757-899X
+UR  - https://dx.doi.org/10.1088/1757-899X/173/1/012022
+Y2  - 2022/12/28/11:38:30
+L1  - https://iopscience.iop.org/article/10.1088/1757-899X/173/1/012022/pdf
+ER  - 
+
