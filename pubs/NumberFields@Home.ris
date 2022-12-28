@@ -1,0 +1,38 @@
+TY  - JOUR
+TI  - Computing septic number fields
+AU  - Driver, Eric D.
+AU  - Jones, John W.
+T2  - Journal of Number Theory
+DA  - 2019/09//
+PY  - 2019
+DO  - 10.1016/j.jnt.2019.02.022
+DP  - DOI.org (Crossref)
+VL  - 202
+SP  - 426
+EP  - 429
+J2  - Journal of Number Theory
+LA  - en
+SN  - 0022314X
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0022314X19300988
+Y2  - 2022/12/28/22:34:27
+ER  - 
+
+TY  - JOUR
+TI  - A targeted Martinet search
+AU  - Driver, Eric D.
+AU  - Jones, John W.
+T2  - Mathematics of Computation
+AB  - Constructing number fields with prescribed ramification is an important problem in computational number theory. In this paper, we consider the problem of computing all imprimitive number fields of a given degree which are unramified outside of a given finite set of primes S by combining the techniques of targeted Hunter searches with Martinet's relative version of Hunter's theorem. We then carry out this algorithm to generate complete tables of imprimitive number fields for degrees 4 through 10 and certain sets S of small primes.
+DA  - 2009/06/01/
+PY  - 2009
+DO  - 10.1090/S0025-5718-08-02178-9
+DP  - NASA ADS
+VL  - 78
+SP  - 1109
+EP  - 1117
+SN  - 0025-5718
+UR  - https://ui.adsabs.harvard.edu/abs/2009MaCom..78.1109D
+Y2  - 2022/12/28/22:36:38
+L1  - https://www.ams.org/mcom/2009-78-266/S0025-5718-08-02178-9/S0025-5718-08-02178-9.pdf
+ER  - 
+
