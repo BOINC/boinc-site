@@ -1,0 +1,204 @@
+TY  - JOUR
+TI  - A diarylamine derived from anthranilic acid inhibits ZIKV replication
+AU  - Silva, Suely
+AU  - Shimizu, Jacqueline Farinha
+AU  - Oliveira, Débora Moraes de
+AU  - Assis, Leticia Ribeiro de
+AU  - Bittar, Cintia
+AU  - Mottin, Melina
+AU  - Sousa, Bruna Katiele de Paula
+AU  - Mesquita, Nathalya Cristina de Moraes Roso
+AU  - Regasini, Luis Octávio
+AU  - Rahal, Paula
+AU  - Oliva, Glaucius
+AU  - Perryman, Alexander Luke
+AU  - Ekins, Sean
+AU  - Andrade, Carolina Horta
+AU  - Goulart, Luiz Ricardo
+AU  - Sabino-Silva, Robinson
+AU  - Merits, Andres
+AU  - Harris, Mark
+AU  - Jardim, Ana Carolina Gomes
+T2  - Scientific Reports
+AB  - Zika virus (ZIKV) is a mosquito-transmitted Flavivirus, originally identified in Uganda in 1947 and recently associated with a large outbreak in South America. Despite extensive efforts there are currently no approved antiviral compounds for treatment of ZIKV infection. Here we describe the antiviral activity of diarylamines derived from anthranilic acid (FAMs) against ZIKV. A synthetic FAM (E3) demonstrated anti-ZIKV potential by reducing viral replication up to 86%. We analyzed the possible mechanisms of action of FAM E3 by evaluating the intercalation of this compound into the viral dsRNA and its interaction with the RNA polymerase of bacteriophage SP6. However, FAM E3 did not act by these mechanisms. In silico results predicted that FAM E3 might bind to the ZIKV NS3 helicase suggesting that this protein could be one possible target of this compound. To test this, the thermal stability and the ATPase activity of the ZIKV NS3 helicase domain (NS3Hel) were investigated in vitro and we demonstrated that FAM E3 could indeed bind to and stabilize NS3Hel.
+DA  - 2019/11/27/
+PY  - 2019
+DO  - 10.1038/s41598-019-54169-z
+DP  - www.nature.com
+VL  - 9
+IS  - 1
+SP  - 17703
+J2  - Sci Rep
+LA  - en
+SN  - 2045-2322
+UR  - https://www.nature.com/articles/s41598-019-54169-z
+Y2  - 2022/12/28/23:18:39
+L1  - https://www.nature.com/articles/s41598-019-54169-z.pdf
+KW  - Drug screening
+KW  - Virology
+ER  - 
+
+TY  - JOUR
+TI  - Computational drug discovery for the Zika virus
+AU  - Mottin, Melina
+AU  - Borba, Joyce Villa Verde Bastos
+AU  - Melo-Filho, Cleber Camilo
+AU  - Neves, Bruno Junior
+AU  - Muratov, Eugene
+AU  - Torres, Pedro Henrique Monteiro
+AU  - Braga, Rodolpho Campos
+AU  - Perryman, Alexander
+AU  - Ekins, Sean
+AU  - Andrade, Carolina Horta
+T2  - Brazilian Journal of Pharmaceutical Sciences
+DA  - 2018/11/08/
+PY  - 2018
+DO  - 10.1590/s2175-97902018000001002
+DP  - DOI.org (Crossref)
+VL  - 54
+IS  - spe
+J2  - Braz. J. Pharm. Sci.
+SN  - 2175-9790
+UR  - http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1984-82502018000700401&lng=en&tlng=en
+Y2  - 2022/12/28/23:19:43
+L1  - https://www.scielo.br/pdf/bjps/v54nspe/2175-9790-bjps-54-spe-e01002.pdf
+ER  - 
+
+TY  - JOUR
+TI  - High Throughput and Computational Repurposing for Neglected Diseases
+AU  - Hernandez, Helen W.
+AU  - Soeung, Melinda
+AU  - Zorn, Kimberley M.
+AU  - Ashoura, Norah
+AU  - Mottin, Melina
+AU  - Andrade, Carolina Horta
+AU  - Caffrey, Conor R.
+AU  - de Siqueira-Neto, Jair Lage
+AU  - Ekins, Sean
+T2  - Pharmaceutical Research
+DA  - 2019/02//
+PY  - 2019
+DO  - 10.1007/s11095-018-2558-3
+DP  - DOI.org (Crossref)
+VL  - 36
+IS  - 2
+SP  - 27
+J2  - Pharm Res
+LA  - en
+SN  - 0724-8741, 1573-904X
+UR  - http://link.springer.com/10.1007/s11095-018-2558-3
+Y2  - 2022/12/29/14:26:56
+L1  - https://link.springer.com/content/pdf/10.1007/s11095-018-2558-3.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The A–Z of Zika drug discovery
+AU  - Mottin, Melina
+AU  - Borba, Joyce V.V.B.
+AU  - Braga, Rodolpho C.
+AU  - Torres, Pedro H.M.
+AU  - Martini, Matheus C.
+AU  - Proenca-Modena, Jose Luiz
+AU  - Judice, Carla C.
+AU  - Costa, Fabio T.M.
+AU  - Ekins, Sean
+AU  - Perryman, Alexander L.
+AU  - Horta Andrade, Carolina
+T2  - Drug Discovery Today
+DA  - 2018/11//
+PY  - 2018
+DO  - 10.1016/j.drudis.2018.06.014
+DP  - DOI.org (Crossref)
+VL  - 23
+IS  - 11
+SP  - 1833
+EP  - 1847
+J2  - Drug Discovery Today
+LA  - en
+SN  - 13596446
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S1359644618300412
+Y2  - 2022/12/29/15:11:03
+L1  - https://www.sciencedirect.com/science/article/pii/S1359644618300412/pdfft?md5=470a661685896ede2bd1ac9a879b762f&pid=1-s2.0-S1359644618300412-main.pdf&isDTMRedir=Y
+ER  - 
+
+TY  - JOUR
+TI  - Molecular dynamics simulations of Zika virus NS3 helicase: Insights into RNA binding site activity
+AU  - Mottin, Melina
+AU  - Braga, Rodolpho C.
+AU  - da Silva, Roosevelt A.
+AU  - Silva, Joao H. Martins da
+AU  - Perryman, Alexander L.
+AU  - Ekins, Sean
+AU  - Andrade, Carolina Horta
+T2  - Biochemical and Biophysical Research Communications
+DA  - 2017/10//
+PY  - 2017
+DO  - 10.1016/j.bbrc.2017.03.070
+DP  - DOI.org (Crossref)
+VL  - 492
+IS  - 4
+SP  - 643
+EP  - 651
+J2  - Biochemical and Biophysical Research Communications
+LA  - en
+SN  - 0006291X
+ST  - Molecular dynamics simulations of Zika virus NS3 helicase
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0006291X1730534X
+Y2  - 2022/12/29/15:12:36
+ER  - 
+
+TY  - JOUR
+TI  - OpenZika: An IBM World Community Grid Project to Accelerate Zika Virus Drug Discovery
+AU  - Ekins, Sean
+AU  - Perryman, Alexander L.
+AU  - Horta Andrade, Carolina
+T2  - PLOS Neglected Tropical Diseases
+A2  - Diemert, David Joseph
+DA  - 2016/10/20/
+PY  - 2016
+DO  - 10.1371/journal.pntd.0005023
+DP  - DOI.org (Crossref)
+VL  - 10
+IS  - 10
+SP  - e0005023
+J2  - PLoS Negl Trop Dis
+LA  - en
+SN  - 1935-2735
+ST  - OpenZika
+UR  - https://dx.plos.org/10.1371/journal.pntd.0005023
+Y2  - 2022/12/29/15:14:24
+L1  - https://journals.plos.org/plosntds/article/file?id=10.1371/journal.pntd.0005023&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - Illustrating and homology modeling the proteins of the Zika virus
+AU  - Ekins, Sean
+AU  - Liebler, John
+AU  - Neves, Bruno J.
+AU  - Lewis, Warren G.
+AU  - Coffee, Megan
+AU  - Bienstock, Rachelle
+AU  - Southan, Christopher
+AU  - Andrade, Carolina H.
+T2  - F1000Research
+AB  - The Zika virus (ZIKV) is a flavivirus of the family
+              Flaviviridae
+              , which is similar to dengue virus, yellow fever and West Nile virus. Recent outbreaks in South America, Latin America, the Caribbean and in particular Brazil have led to concern for the spread of the disease and potential to cause Guillain-Barré syndrome and microcephaly. Although ZIKV has been known of for over 60 years there is very little in the way of knowledge of the virus with few publications and no crystal structures. No antivirals have been tested against it either
+              in vitro
+              or
+              in vivo
+              . ZIKV therefore epitomizes a neglected disease. Several suggested steps have been proposed which could be taken to initiate ZIKV antiviral drug discovery using both high throughput screens as well as structure-based design based on homology models for the key proteins. We now describe preliminary homology models created for NS5, FtsJ, NS4B, NS4A, HELICc, DEXDc, peptidase S7, NS2B, NS2A, NS1, E stem, glycoprotein M, propeptide, capsid and glycoprotein E using SWISS-MODEL. Eleven out of 15 models pass our model quality criteria for their further use. While a ZIKV glycoprotein E homology model was initially described in the immature conformation as a trimer, we now describe the mature dimer conformer which allowed the construction of an illustration of the complete virion. By comparing illustrations of ZIKV based on this new homology model and the dengue virus crystal structure we propose potential differences that could be exploited for antiviral and vaccine design. The prediction of sites for glycosylation on this protein may also be useful in this regard. While we await a cryo-EM structure of ZIKV and eventual crystal structures of the individual proteins, these homology models provide the community with a starting point for structure-based design of drugs and vaccines as well as a for computational virtual screening.
+DA  - 2016/09/01/
+PY  - 2016
+DO  - 10.12688/f1000research.8213.2
+DP  - DOI.org (Crossref)
+VL  - 5
+SP  - 275
+J2  - F1000Res
+LA  - en
+SN  - 2046-1402
+UR  - https://f1000research.com/articles/5-275/v2
+Y2  - 2022/12/29/15:18:11
+L1  - https://f1000research.com/articles/5-275/v2/pdf
+ER  - 
+
