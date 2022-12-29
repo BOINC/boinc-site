@@ -1,0 +1,237 @@
+TY  - JOUR
+TI  - Decrypting protein surfaces by combining evolution, geometry, and molecular docking
+AU  - Dequeker, Chloé
+AU  - Laine, Elodie
+AU  - Carbone, Alessandra
+T2  - Proteins: Structure, Function, and Bioinformatics
+AB  - The growing body of experimental and computational data describing how proteins interact with each other has emphasized the multiplicity of protein interactions and the complexity underlying protein surface usage and deformability. In this work, we propose new concepts and methods toward deciphering such complexity. We introduce the notion of interacting region to account for the multiple usage of a protein's surface residues by several partners and for the variability of protein interfaces coming from molecular flexibility. We predict interacting patches by crossing evolutionary, physicochemical and geometrical properties of the protein surface with information coming from complete cross-docking (CC-D) simulations. We show that our predictions match well interacting regions and that the different sources of information are complementary. We further propose an indicator of whether a protein has a few or many partners. Our prediction strategies are implemented in the dynJET2 algorithm and assessed on a new dataset of 262 protein on which we performed CC-D. The code and the data are available at: http://www.lcqb.upmc.fr/dynJET2/.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1002/prot.25757
+DP  - Wiley Online Library
+VL  - 87
+IS  - 11
+SP  - 952
+EP  - 965
+LA  - en
+SN  - 1097-0134
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25757
+Y2  - 2022/12/29/20:34:14
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/prot.25757
+L2  - https://onlinelibrary.wiley.com/doi/full/10.1002/prot.25757
+KW  - binding site
+KW  - complete cross-docking
+KW  - evolutionary conservation
+KW  - interface prediction
+KW  - protein-protein interaction
+ER  - 
+
+TY  - JOUR
+TI  - Hidden partners: Using cross-docking calculations to predict binding sites for proteins with multiple interactions
+AU  - Lagarde, Nathalie
+AU  - Carbone, Alessandra
+AU  - Sacquin-Mora, Sophie
+T2  - Proteins: Structure, Function, and Bioinformatics
+AB  - Protein-protein interactions control a large range of biological processes and their identification is essential to understand the underlying biological mechanisms. To complement experimental approaches, in silico methods are available to investigate protein-protein interactions. Cross-docking methods, in particular, can be used to predict protein binding sites. However, proteins can interact with numerous partners and can present multiple binding sites on their surface, which may alter the binding site prediction quality. We evaluate the binding site predictions obtained using complete cross-docking simulations of 358 proteins with 2 different scoring schemes accounting for multiple binding sites. Despite overall good binding site prediction performances, 68 cases were still associated with very low prediction quality, presenting individual area under the specificity-sensitivity ROC curve (AUC) values below the random AUC threshold of 0.5, since cross-docking calculations can lead to the identification of alternate protein binding sites (that are different from the reference experimental sites). For the large majority of these proteins, we show that the predicted alternate binding sites correspond to interaction sites with hidden partners, that is, partners not included in the original cross-docking dataset. Among those new partners, we find proteins, but also nucleic acid molecules. Finally, for proteins with multiple binding sites on their surface, we investigated the structural determinants associated with the binding sites the most targeted by the docking partners.
+DA  - 2018///
+PY  - 2018
+DO  - 10.1002/prot.25506
+DP  - Wiley Online Library
+VL  - 86
+IS  - 7
+SP  - 723
+EP  - 737
+LA  - en
+SN  - 1097-0134
+ST  - Hidden partners
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25506
+Y2  - 2022/12/29/20:34:58
+L1  - https://www.biorxiv.org/content/biorxiv/early/2018/03/21/244913.full.pdf
+L2  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25506
+KW  - alternate partners
+KW  - binding site predictions
+KW  - docking
+KW  - multiple binding sites
+KW  - protein-protein interfaces
+ER  - 
+
+TY  - JOUR
+TI  - Protein social behavior makes a stronger signal for partner identification than surface geometry
+AU  - Laine, Elodie
+AU  - Carbone, Alessandra
+T2  - Proteins: Structure, Function, and Bioinformatics
+AB  - Cells are interactive living systems where proteins movements, interactions and regulation are substantially free from centralized management. How protein physico-chemical and geometrical properties determine who interact with whom remains far from fully understood. We show that characterizing how a protein behaves with many potential interactors in a complete cross-docking study leads to a sharp identification of its cellular/true/native partner(s). We define a sociability index, or S-index, reflecting whether a protein likes or not to pair with other proteins. Formally, we propose a suitable normalization function that accounts for protein sociability and we combine it with a simple interface-based (ranking) score to discriminate partners from non-interactors. We show that sociability is an important factor and that the normalization permits to reach a much higher discriminative power than shape complementarity docking scores. The social effect is also observed with more sophisticated docking algorithms. Docking conformations are evaluated using experimental binding sites. These latter approximate in the best possible way binding sites predictions, which have reached high accuracy in recent years. This makes our analysis helpful for a global understanding of partner identification and for suggesting discriminating strategies. These results contradict previous findings claiming the partner identification problem being solvable solely with geometrical docking. Proteins 2016; 85:137–154. © 2016 Wiley Periodicals, Inc.
+DA  - 2017///
+PY  - 2017
+DO  - 10.1002/prot.25206
+DP  - Wiley Online Library
+VL  - 85
+IS  - 1
+SP  - 137
+EP  - 154
+LA  - en
+SN  - 1097-0134
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25206
+Y2  - 2022/12/29/20:35:49
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/prot.25206
+KW  - binding site
+KW  - complete cross-docking
+KW  - geometrical docking
+KW  - interface prediction
+KW  - partner identification
+KW  - protein–protein interaction
+ER  - 
+
+TY  - JOUR
+TI  - Great interactions: How binding incorrect partners can teach us about protein recognition and function
+AU  - Vamparys, Lydie
+AU  - Laurent, Benoist
+AU  - Carbone, Alessandra
+AU  - Sacquin-Mora, Sophie
+T2  - Proteins: Structure, Function, and Bioinformatics
+AB  - Protein–protein interactions play a key part in most biological processes and understanding their mechanism is a fundamental problem leading to numerous practical applications. The prediction of protein binding sites in particular is of paramount importance since proteins now represent a major class of therapeutic targets. Amongst others methods, docking simulations between two proteins known to interact can be a useful tool for the prediction of likely binding patches on a protein surface. From the analysis of the protein interfaces generated by a massive cross-docking experiment using the 168 proteins of the Docking Benchmark 2.0, where all possible protein pairs, and not only experimental ones, have been docked together, we show that it is also possible to predict a protein's binding residues without having any prior knowledge regarding its potential interaction partners. Evaluating the performance of cross-docking predictions using the area under the specificity-sensitivity ROC curve (AUC) leads to an AUC value of 0.77 for the complete benchmark (compared to the 0.5 AUC value obtained for random predictions). Furthermore, a new clustering analysis performed on the binding patches that are scattered on the protein surface show that their distribution and growth will depend on the protein's functional group. Finally, in several cases, the binding-site predictions resulting from the cross-docking simulations will lead to the identification of an alternate interface, which corresponds to the interaction with a biomolecular partner that is not included in the original benchmark. Proteins 2016; 84:1408–1421. © 2016 The Authors Proteins: Structure, Function, and Bioinformatics Published by Wiley Periodicals, Inc.
+DA  - 2016///
+PY  - 2016
+DO  - 10.1002/prot.25086
+DP  - Wiley Online Library
+VL  - 84
+IS  - 10
+SP  - 1408
+EP  - 1421
+LA  - en
+SN  - 1097-0134
+ST  - Great interactions
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25086
+Y2  - 2022/12/29/20:36:37
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/prot.25086
+L2  - https://onlinelibrary.wiley.com/doi/full/10.1002/prot.25086
+KW  - binding sites prediction
+KW  - coarse grain models
+KW  - docking
+KW  - protein–protein interaction
+KW  - protein–protein interfaces
+ER  - 
+
+TY  - JOUR
+TI  - Protein-Protein Interactions in a Crowded Environment: An Analysis via Cross-Docking Simulations and Evolutionary Information
+AU  - Lopes, Anne
+AU  - Sacquin-Mora, Sophie
+AU  - Dimitrova, Viktoriya
+AU  - Laine, Elodie
+AU  - Ponty, Yann
+AU  - Carbone, Alessandra
+T2  - PLOS Computational Biology
+AB  - Large-scale analyses of protein-protein interactions based on coarse-grain molecular docking simulations and binding site predictions resulting from evolutionary sequence analysis, are possible and realizable on hundreds of proteins with variate structures and interfaces. We demonstrated this on the 168 proteins of the Mintseris Benchmark 2.0. On the one hand, we evaluated the quality of the interaction signal and the contribution of docking information compared to evolutionary information showing that the combination of the two improves partner identification. On the other hand, since protein interactions usually occur in crowded environments with several competing partners, we realized a thorough analysis of the interactions of proteins with true partners but also with non-partners to evaluate whether proteins in the environment, competing with the true partner, affect its identification. We found three populations of proteins: strongly competing, never competing, and interacting with different levels of strength. Populations and levels of strength are numerically characterized and provide a signature for the behavior of a protein in the crowded environment. We showed that partner identification, to some extent, does not depend on the competing partners present in the environment, that certain biochemical classes of proteins are intrinsically easier to analyze than others, and that small proteins are not more promiscuous than large ones. Our approach brings to light that the knowledge of the binding site can be used to reduce the high computational cost of docking simulations with no consequence in the quality of the results, demonstrating the possibility to apply coarse-grain docking to datasets made of thousands of proteins. Comparison with all available large-scale analyses aimed to partner predictions is realized. We release the complete decoys set issued by coarse-grain docking simulations of both true and false interacting partners, and their evolutionary sequence analysis leading to binding site predictions. Download site: http://www.lgm.upmc.fr/CCDMintseris/
+DA  - 2013/12/05/
+PY  - 2013
+DO  - 10.1371/journal.pcbi.1003369
+DP  - PLoS Journals
+VL  - 9
+IS  - 12
+SP  - e1003369
+J2  - PLOS Computational Biology
+LA  - en
+SN  - 1553-7358
+ST  - Protein-Protein Interactions in a Crowded Environment
+UR  - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003369
+Y2  - 2022/12/29/20:37:08
+L1  - https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003369&type=printable
+KW  - Binding analysis
+KW  - Biochemical simulations
+KW  - Forecasting
+KW  - Molecular evolution
+KW  - Protein interactions
+KW  - Protein structure
+KW  - Protein structure databases
+KW  - Protein structure prediction
+ER  - 
+
+TY  - JOUR
+TI  - From Dedicated Grid to Volunteer Grid: Large Scale Execution of a Bioinformatics Application
+AU  - Bertis, Viktors
+AU  - Bolze, Raphaël
+AU  - Desprez, Frédéric
+AU  - Reed, Kevin
+T2  - Journal of Grid Computing
+AB  - Large volunteer desktop platforms are now available for several kind of applications. More and more scientists consider this type of computing power as an alternative to the classical platforms such as dedicated clusters aggregated into Grids. This paper presents the work we did to run the first phase of the Help Cure Muscular Dystrophy project to run on World Community Grid. The project was launched on December 19, 2006, and took 26 weeks to complete. During this time frame, 123 GB of results were produced by volunteers who share their idle CPU time to compute a cross docking experiment over 168 proteins. We present performance evaluation of the overall execution and compare the World Community Grid volunteer Grid with a dedicated one.
+DA  - 2009/08/29/
+PY  - 2009
+DO  - 10.1007/s10723-009-9130-7
+DP  - Springer Link
+VL  - 7
+IS  - 4
+SP  - 463
+J2  - J Grid Computing
+LA  - en
+SN  - 1572-9184
+ST  - From Dedicated Grid to Volunteer Grid
+UR  - https://doi.org/10.1007/s10723-009-9130-7
+Y2  - 2022/12/29/20:38:36
+KW  - Desktop computing
+KW  - Docking application
+KW  - Grid performance evaluation
+KW  - Grids comparison
+KW  - World Community Grid
+ER  - 
+
+TY  - JOUR
+TI  - Joint Evolutionary Trees: A Large-Scale Method To Predict Protein Interfaces Based on Sequence Sampling
+AU  - Engelen, Stefan
+AU  - Trojan, Ladislas A.
+AU  - Sacquin-Mora, Sophie
+AU  - Lavery, Richard
+AU  - Carbone, Alessandra
+T2  - PLOS Computational Biology
+AB  - The Joint Evolutionary Trees (JET) method detects protein interfaces, the core residues involved in the folding process, and residues susceptible to site-directed mutagenesis and relevant to molecular recognition. The approach, based on the Evolutionary Trace (ET) method, introduces a novel way to treat evolutionary information. Families of homologous sequences are analyzed through a Gibbs-like sampling of distance trees to reduce effects of erroneous multiple alignment and impacts of weakly homologous sequences on distance tree construction. The sampling method makes sequence analysis more sensitive to functional and structural importance of individual residues by avoiding effects of the overrepresentation of highly homologous sequences and improves computational efficiency. A carefully designed clustering method is parametrized on the target structure to detect and extend patches on protein surfaces into predicted interaction sites. Clustering takes into account residues' physical-chemical properties as well as conservation. Large-scale application of JET requires the system to be adjustable for different datasets and to guarantee predictions even if the signal is low. Flexibility was achieved by a careful treatment of the number of retrieved sequences, the amino acid distance between sequences, and the selective thresholds for cluster identification. An iterative version of JET (iJET) that guarantees finding the most likely interface residues is proposed as the appropriate tool for large-scale predictions. Tests are carried out on the Huang database of 62 heterodimer, homodimer, and transient complexes and on 265 interfaces belonging to signal transduction proteins, enzymes, inhibitors, antibodies, antigens, and others. A specific set of proteins chosen for their special functional and structural properties illustrate JET behavior on a large variety of interactions covering proteins, ligands, DNA, and RNA. JET is compared at a large scale to ET and to Consurf, Rate4Site, siteFiNDER|3D, and SCORECONS on specific structures. A significant improvement in performance and computational efficiency is shown.
+DA  - 2009/01/23/
+PY  - 2009
+DO  - 10.1371/journal.pcbi.1000267
+DP  - PLoS Journals
+VL  - 5
+IS  - 1
+SP  - e1000267
+J2  - PLOS Computational Biology
+LA  - en
+SN  - 1553-7358
+ST  - Joint Evolutionary Trees
+UR  - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000267
+Y2  - 2022/12/29/20:39:25
+L1  - https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1000267&type=printable
+KW  - Enzyme inhibitors
+KW  - Multiple alignment calculation
+KW  - Protein interactions
+KW  - Protein structure
+KW  - Protein structure prediction
+KW  - RNA structure
+KW  - Sequence alignment
+KW  - Trees
+ER  - 
+
+TY  - JOUR
+TI  - Identification of Protein Interaction Partners and Protein–Protein Interaction Sites
+AU  - Sacquin-Mora, Sophie
+AU  - Carbone, Alessandra
+AU  - Lavery, Richard
+T2  - Journal of Molecular Biology
+AB  - Rigid-body docking has become quite successful in predicting the correct conformations of binary protein complexes, at least when the constituent proteins do not undergo large conformational changes upon binding. However, determining whether two given proteins interact is a more difficult problem. Successful docking procedures often give equally good scores for proteins that do not interact experimentally. This is the case for the multiple minimization approach we use here. An analysis of the results where all proteins within a set are docked with all other proteins (complete cross-docking) shows that the predictions can be greatly improved if the location of the correct binding interface on each protein is known, since the experimental complexes are much more likely to bring these two interfaces into contact, at the same time as yielding good interaction energy scores. While various methods exist for identifying binding interfaces, it is shown that simply studying the interaction of all potential protein pairs within a data set can itself help to identify the correct interfaces.
+DA  - 2008/10/24/
+PY  - 2008
+DO  - 10.1016/j.jmb.2008.08.002
+DP  - ScienceDirect
+VL  - 382
+IS  - 5
+SP  - 1276
+EP  - 1289
+J2  - Journal of Molecular Biology
+LA  - en
+SN  - 0022-2836
+UR  - https://www.sciencedirect.com/science/article/pii/S002228360800973X
+Y2  - 2022/12/29/20:40:01
+L2  - https://www.sciencedirect.com/science/article/abs/pii/S002228360800973X
+KW  - binding interface
+KW  - binding site
+KW  - coarse-grained model
+KW  - docking simulations
+KW  - protein–protein interactions
+ER  - 
+
