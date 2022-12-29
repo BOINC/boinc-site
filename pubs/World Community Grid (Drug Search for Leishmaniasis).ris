@@ -1,0 +1,50 @@
+TY  - JOUR
+TI  - Drug search for leishmaniasis: a virtual screening approach by grid computing
+AU  - Ochoa, Rodrigo
+AU  - Watowich, Stanley J.
+AU  - Flórez, Andrés
+AU  - Mesa, Carol V.
+AU  - Robledo, Sara M.
+AU  - Muskus, Carlos
+T2  - Journal of Computer-Aided Molecular Design
+AB  - The trypanosomatid protozoa Leishmania is endemic in ~100 countries, with infections causing ~2 million new cases of leishmaniasis annually. Disease symptoms can include severe skin and mucosal ulcers, fever, anemia, splenomegaly, and death. Unfortunately, therapeutics approved to treat leishmaniasis are associated with potentially severe side effects, including death. Furthermore, drug-resistant Leishmania parasites have developed in most endemic countries. To address an urgent need for new, safe and inexpensive anti-leishmanial drugs, we utilized the IBM World Community Grid to complete computer-based drug discovery screens (Drug Search for Leishmaniasis) using unique leishmanial proteins and a database of 600,000 drug-like small molecules. Protein structures from different Leishmania species were selected for molecular dynamics (MD) simulations, and a series of conformational “snapshots” were chosen from each MD trajectory to simulate the protein’s flexibility. A Relaxed Complex Scheme methodology was used to screen ~2000 MD conformations against the small molecule database, producing >1 billion protein-ligand structures. For each protein target, a binding spectrum was calculated to identify compounds predicted to bind with highest average affinity to all protein conformations. Significantly, four different Leishmania protein targets were predicted to strongly bind small molecules, with the strongest binding interactions predicted to occur for dihydroorotate dehydrogenase (LmDHODH; PDB:3MJY). A number of predicted tight-binding LmDHODH inhibitors were tested in vitro and potent selective inhibitors of Leishmania panamensis were identified. These promising small molecules are suitable for further development using iterative structure-based optimization and in vitro/in vivo validation assays.
+DA  - 2016/07/01/
+PY  - 2016
+DO  - 10.1007/s10822-016-9921-4
+DP  - Springer Link
+VL  - 30
+IS  - 7
+SP  - 541
+EP  - 552
+J2  - J Comput Aided Mol Des
+LA  - en
+SN  - 1573-4951
+ST  - Drug search for leishmaniasis
+UR  - https://doi.org/10.1007/s10822-016-9921-4
+Y2  - 2022/12/29/19:33:53
+KW  - Drug discovery
+KW  - Grid computing
+KW  - Leishmania
+KW  - Relaxed Complex Scheme
+ER  - 
+
+TY  - BOOK
+TI  - Current Advances in Computational Strategies for Drug Discovery in Leishmaniasis
+AU  - Flórez, Andrés F.
+AU  - Watowich, Stanley
+AU  - Muskus, Carlos
+AU  - Flórez, Andrés F.
+AU  - Watowich, Stanley
+AU  - Muskus, Carlos
+AB  - Open access peer-reviewed chapter
+DA  - 2012/03/16/
+PY  - 2012
+DP  - www.intechopen.com
+LA  - en
+PB  - IntechOpen
+SN  - 978-953-51-0274-8
+UR  - https://www.intechopen.com/state.item.id
+Y2  - 2022/12/29/19:34:23
+L1  - https://www.intechopen.com/citation-pdf-url/32500
+ER  - 
+
