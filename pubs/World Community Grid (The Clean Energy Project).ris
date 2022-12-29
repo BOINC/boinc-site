@@ -1,0 +1,173 @@
+TY  - JOUR
+TI  - What Is High-Throughput Virtual Screening? A Perspective from Organic Materials Discovery
+AU  - Pyzer-Knapp, Edward O.
+AU  - Suh, Changwon
+AU  - Gómez-Bombarelli, Rafael
+AU  - Aguilera-Iparraguirre, Jorge
+AU  - Aspuru-Guzik, Alán
+T2  - Annual Review of Materials Research
+AB  - A philosophy for defining what constitutes a virtual high-throughput screen is discussed, and the choices that influence decisions at each stage of the computational funnel are investigated, including an in-depth discussion of the generation of molecular libraries. Additionally, we provide advice on the storing, analysis, and visualization of data on the basis of extensive experience in our research group.
+DA  - 2015///
+PY  - 2015
+DO  - 10.1146/annurev-matsci-070214-020823
+DP  - Annual Reviews
+VL  - 45
+IS  - 1
+SP  - 195
+EP  - 216
+ST  - What Is High-Throughput Virtual Screening?
+UR  - https://doi.org/10.1146/annurev-matsci-070214-020823
+Y2  - 2022/12/29/22:04:38
+L1  - https://dash.harvard.edu/bitstream/1/25977966/1/What_is_high_throughput_virtual_screening_with_images-2.pdf
+KW  - big data
+KW  - computational materials design
+ER  - 
+
+TY  - JOUR
+TI  - Learning from the Harvard Clean Energy Project: The Use of Neural Networks to Accelerate Materials Discovery
+AU  - Pyzer-Knapp, Edward O.
+AU  - Li, Kewei
+AU  - Aspuru-Guzik, Alan
+T2  - Advanced Functional Materials
+AB  - Here, the employment of multilayer perceptrons, a type of artificial neural network, is proposed as part of a computational funneling procedure for high-throughput organic materials design. Through the use of state of the art algorithms and a large amount of data extracted from the Harvard Clean Energy Project, it is demonstrated that these methods allow a great reduction in the fraction of the screening library that is actually calculated. Neural networks can reproduce the results of quantum-chemical calculations with a large level of accuracy. The proposed approach allows to carry out large-scale molecular screening projects with less computational time. This, in turn, allows for the exploration of increasingly large and diverse libraries.
+DA  - 2015///
+PY  - 2015
+DO  - 10.1002/adfm.201501919
+DP  - Wiley Online Library
+VL  - 25
+IS  - 41
+SP  - 6495
+EP  - 6502
+LA  - en
+SN  - 1616-3028
+ST  - Learning from the Harvard Clean Energy Project
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201501919
+Y2  - 2022/12/29/22:04:59
+L2  - https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201501919
+KW  - big data
+KW  - machine learning
+KW  - materials genomes
+KW  - neural networks
+KW  - organic materials screening
+KW  - organic photovoltaics
+ER  - 
+
+TY  - JOUR
+TI  - Lead candidates for high-performance organic photovoltaics from high-throughput quantum chemistry – the Harvard Clean Energy Project
+AU  - Hachmann, Johannes
+AU  - Olivares-Amaya, Roberto
+AU  - Jinich, Adrian
+AU  - Appleton, Anthony L.
+AU  - Blood-Forsythe, Martin A.
+AU  - Seress, László R.
+AU  - Román-Salgado, Carolina
+AU  - Trepte, Kai
+AU  - Atahan-Evrenk, Sule
+AU  - Er, Süleyman
+AU  - Shrestha, Supriya
+AU  - Mondal, Rajib
+AU  - Sokolov, Anatoliy
+AU  - Bao, Zhenan
+AU  - Aspuru-Guzik, Alán
+T2  - Energy Environ. Sci.
+DA  - 2014///
+PY  - 2014
+DO  - 10.1039/C3EE42756K
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 2
+SP  - 698
+EP  - 704
+J2  - Energy Environ. Sci.
+LA  - en
+SN  - 1754-5692, 1754-5706
+UR  - http://xlink.rsc.org/?DOI=C3EE42756K
+Y2  - 2022/12/29/22:06:24
+L1  - https://dash.harvard.edu/bitstream/1/13478847/1/leadcand.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Accelerated computational discovery of high-performance materials for organic photovoltaics by means of cheminformatics
+AU  - Olivares-Amaya, Roberto
+AU  - Amador-Bedolla, Carlos
+AU  - Hachmann, Johannes
+AU  - Atahan-Evrenk, Sule
+AU  - Sánchez-Carrera, Roel S.
+AU  - Vogt, Leslie
+AU  - Aspuru-Guzik, Alán
+T2  - Energy & Environmental Science
+DA  - 2011///
+PY  - 2011
+DO  - 10.1039/c1ee02056k
+DP  - DOI.org (Crossref)
+VL  - 4
+IS  - 12
+SP  - 4849
+J2  - Energy Environ. Sci.
+LA  - en
+SN  - 1754-5692, 1754-5706
+UR  - http://xlink.rsc.org/?DOI=c1ee02056k
+Y2  - 2022/12/29/22:07:06
+L1  - https://dash.harvard.edu/bitstream/1/8519265/1/Accel_comp_disc_high-perf_mat.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The Harvard Clean Energy Project: Large-Scale Computational Screening and Design of Organic Photovoltaics on the World Community Grid
+AU  - Hachmann, Johannes
+AU  - Olivares-Amaya, Roberto
+AU  - Atahan-Evrenk, Sule
+AU  - Amador-Bedolla, Carlos
+AU  - Sánchez-Carrera, Roel S.
+AU  - Gold-Parker, Aryeh
+AU  - Vogt, Leslie
+AU  - Brockway, Anna M.
+AU  - Aspuru-Guzik, Alán
+T2  - The Journal of Physical Chemistry Letters
+AB  - This Perspective introduces the Harvard Clean Energy Project (CEP), a theory-driven search for the next generation of organic solar cell materials. We give a broad overview of its setup and infrastructure, present first results, and outline upcoming developments. CEP has established an automated, high-throughput, in silico framework to study potential candidate structures for organic photovoltaics. The current project phase is concerned with the characterization of millions of molecular motifs using first-principles quantum chemistry. The scale of this study requires a correspondingly large computational resource, which is provided by distributed volunteer computing on IBM’s World Community Grid. The results are compiled and analyzed in a reference database and will be made available for public use. In addition to finding specific candidates with certain properties, it is the goal of CEP to illuminate and understand the structure–property relations in the domain of organic electronics. Such insights can open the door to a rational and systematic design of future high-performance materials. The computational work in CEP is tightly embedded in a collaboration with experimentalists, who provide valuable input and feedback to the project.
+DA  - 2011/09/01/
+PY  - 2011
+DO  - 10.1021/jz200866s
+DP  - ACS Publications
+VL  - 2
+IS  - 17
+SP  - 2241
+EP  - 2251
+J2  - J. Phys. Chem. Lett.
+ST  - The Harvard Clean Energy Project
+UR  - https://doi.org/10.1021/jz200866s
+Y2  - 2022/12/29/22:08:05
+L1  - https://dash.harvard.edu/bitstream/1/8364968/1/Harvard_Clean_Energy_Project.pdf
+ER  - 
+
+TY  - JOUR
+TI  - From computational discovery to experimental characterization of a high hole mobility organic crystal
+AU  - Sokolov, Anatoliy N.
+AU  - Atahan-Evrenk, Sule
+AU  - Mondal, Rajib
+AU  - Akkerman, Hylke B.
+AU  - Sánchez-Carrera, Roel S.
+AU  - Granados-Focil, Sergio
+AU  - Schrier, Joshua
+AU  - Mannsfeld, Stefan C. B.
+AU  - Zoombelt, Arjan P.
+AU  - Bao, Zhenan
+AU  - Aspuru-Guzik, Alán
+T2  - Nature Communications
+AB  - For organic semiconductors to find ubiquitous electronics applications, the development of new materials with high mobility and air stability is critical. Despite the versatility of carbon, exploratory chemical synthesis in the vast chemical space can be hindered by synthetic and characterization difficulties. Here we show that in silico screening of novel derivatives of the dinaphtho[2,3-b:2′,3′-f]thieno[3,2-b]thiophene semiconductor with high hole mobility and air stability can lead to the discovery of a new high-performance semiconductor. On the basis of estimates from the Marcus theory of charge transfer rates, we identified a novel compound expected to demonstrate a theoretic twofold improvement in mobility over the parent molecule. Synthetic and electrical characterization of the compound is reported with single-crystal field-effect transistors, showing a remarkable saturation and linear mobility of 12.3 and 16 cm2 V−1 s−1, respectively. This is one of the very few organic semiconductors with mobility greater than 10 cm2 V−1 s−1 reported to date.
+DA  - 2011/08/16/
+PY  - 2011
+DO  - 10.1038/ncomms1451
+DP  - www.nature.com
+VL  - 2
+IS  - 1
+SP  - 437
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/ncomms1451
+Y2  - 2022/12/29/22:08:36
+L1  - https://www.nature.com/articles/ncomms1451.pdf
+KW  - Combinatorial chemistry
+KW  - Semiconductors
+ER  - 
+
