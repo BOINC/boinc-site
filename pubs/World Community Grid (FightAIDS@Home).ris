@@ -1,0 +1,293 @@
+TY  - JOUR
+TI  - The AutoDock suite at 30
+AU  - Goodsell, David S.
+AU  - Sanner, Michel F.
+AU  - Olson, Arthur J.
+AU  - Forli, Stefano
+T2  - Protein Science: A Publication of the Protein Society
+AB  - The AutoDock suite provides a comprehensive toolset for computational ligand docking and drug design and development. The suite builds on 30 years of methods development, including empirical free energy force fields, docking engines, methods for site prediction, and interactive tools for visualization and analysis. Specialized tools are available for challenging systems, including covalent inhibitors, peptides, compounds with macrocycles, systems where ordered hydration plays a key role, and systems with substantial receptor flexibility. All methods in the AutoDock suite are freely available for use and reuse, which has engendered the continued growth of a diverse community of primary users and third-party developers.
+DA  - 2021/01//
+PY  - 2021
+DO  - 10.1002/pro.3934
+DP  - PubMed
+VL  - 30
+IS  - 1
+SP  - 31
+EP  - 43
+J2  - Protein Sci
+LA  - eng
+SN  - 1469-896X
+L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7737764/pdf/PRO-30-31.pdf
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/32808340
+KW  - active site prediction
+KW  - AutoDock
+KW  - computational docking
+KW  - computer-aided drug design
+KW  - Drug Design
+KW  - force field
+KW  - Molecular Docking Simulation
+KW  - peptide-docking
+KW  - Peptides
+KW  - Proteins
+KW  - Software
+ER  - 
+
+TY  - JOUR
+TI  - Novel Intersubunit Interaction Critical for HIV-1 Core Assembly Defines a Potentially Targetable Inhibitor Binding Pocket
+AU  - Craveur, Pierrick
+AU  - Gres, Anna T.
+AU  - Kirby, Karen A.
+AU  - Liu, Dandan
+AU  - Hammond, John A.
+AU  - Deng, Yisong
+AU  - Forli, Stefano
+AU  - Goodsell, David S.
+AU  - Williamson, James R.
+AU  - Sarafianos, Stefan G.
+AU  - Olson, Arthur J.
+T2  - mBio
+A2  - Smithgall, Thomas E.
+AB  - Precise assembly and disassembly of the HIV-1 capsid core are key to the success of viral replication. The forces that govern capsid core formation and dissociation involve intricate interactions between pentamers and hexamers formed by HIV-1 CA. We identified one particular interaction between E28 of one CA and K30′ of the adjacent CA that appears more frequently in pentamers than in hexamers and that is important for capsid assembly. Targeting the corresponding site could lead to the development of antivirals which disrupt this interaction and affect capsid assembly.
+          , 
+            ABSTRACT
+            
+              HIV-1 capsid protein (CA) plays critical roles in both early and late stages of the viral replication cycle. Mutagenesis and structural experiments have revealed that capsid core stability significantly affects uncoating and initiation of reverse transcription in host cells. This has led to efforts in developing antivirals targeting CA and its assembly, although none of the currently identified compounds are used in the clinic for treatment of HIV infection. A specific interaction that is primarily present in pentameric interfaces in the HIV-1 capsid core was identified and is reported to be important for CA assembly. This is shown by multidisciplinary characterization of CA site-directed mutants using biochemical analysis of virus-like particle formation, transmission electron microscopy of
+              in vitro
+              assembly, crystallographic studies, and molecular dynamic simulations. The data are consistent with a model where a hydrogen bond between CA residues E28 and K30′ from neighboring N-terminal domains (CA
+              NTD
+              s) is important for CA pentamer interactions during core assembly. This pentamer-preferred interaction forms part of an
+              N
+              -terminal
+              d
+              omain
+              i
+              nterface (NDI) pocket that is amenable to antiviral targeting.
+            
+            
+              IMPORTANCE
+              Precise assembly and disassembly of the HIV-1 capsid core are key to the success of viral replication. The forces that govern capsid core formation and dissociation involve intricate interactions between pentamers and hexamers formed by HIV-1 CA. We identified one particular interaction between E28 of one CA and K30′ of the adjacent CA that appears more frequently in pentamers than in hexamers and that is important for capsid assembly. Targeting the corresponding site could lead to the development of antivirals which disrupt this interaction and affect capsid assembly.
+DA  - 2019/04/30/
+PY  - 2019
+DO  - 10.1128/mBio.02858-18
+DP  - DOI.org (Crossref)
+VL  - 10
+IS  - 2
+SP  - e02858
+EP  - 18
+J2  - mBio
+LA  - en
+SN  - 2161-2129, 2150-7511
+UR  - https://journals.asm.org/doi/10.1128/mBio.02858-18
+Y2  - 2022/12/29/19:39:41
+L1  - https://europepmc.org/articles/pmc6414707?pdf=render
+ER  - 
+
+TY  - JOUR
+TI  - Massive-Scale Binding Free Energy Simulations of HIV Integrase Complexes Using Asynchronous Replica Exchange Framework Implemented on the IBM WCG Distributed Network
+AU  - Xia, Junchao
+AU  - Flynn, William
+AU  - Gallicchio, Emilio
+AU  - Uplinger, Keith
+AU  - Armstrong, Jonathan D.
+AU  - Forli, Stefano
+AU  - Olson, Arthur J.
+AU  - Levy, Ronald M.
+T2  - Journal of Chemical Information and Modeling
+AB  - To perform massive-scale replica exchange molecular dynamics (REMD) simulations for calculating binding free energies of protein–ligand complexes, we implemented the asynchronous replica exchange (AsyncRE) framework of the binding energy distribution analysis method (BEDAM) in implicit solvent on the IBM World Community Grid (WCG) and optimized the simulation parameters to reduce the overhead and improve the prediction power of the WCG AsyncRE simulations. We also performed the first massive-scale binding free energy calculations using the WCG distributed computing grid and 301 ligands from the SAMPL4 challenge for large-scale binding free energy predictions of HIV-1 integrase complexes. In total there are ∼10000 simulated complexes, ∼1 million replicas, and ∼2000 μs of aggregated MD simulations. Running AsyncRE MD simulations on the WCG requires accepting a trade-off between the number of replicas that can be run (breadth) and the number of full RE cycles that can be completed per replica (depth). As compared with synchronous Replica Exchange (SyncRE) running on tightly coupled clusters like XSEDE, on the WCG many more replicas can be launched simultaneously on heterogeneous distributed hardware, but each full RE cycle requires more overhead. We compared the WCG results with that from AutoDock and more advanced RE simulations including the use of flattening potentials to accelerate sampling of selected degrees of freedom of ligands and/or receptors related to slow dynamics due to high energy barriers. We propose a suitable strategy of RE simulations to refine high throughput docking results which can be matched to corresponding computing resources: from HPC clusters, to small or medium-size distributed campus grids, and finally to massive-scale computing networks including millions of CPUs like the resources available on the WCG.
+DA  - 2019/04/22/
+PY  - 2019
+DO  - 10.1021/acs.jcim.8b00817
+DP  - ACS Publications
+VL  - 59
+IS  - 4
+SP  - 1382
+EP  - 1397
+J2  - J. Chem. Inf. Model.
+SN  - 1549-9596
+UR  - https://doi.org/10.1021/acs.jcim.8b00817
+Y2  - 2022/12/29/19:40:18
+L1  - https://europepmc.org/articles/pmc6496938?pdf=render
+L2  - https://pubs.acs.org/doi/full/10.1021/acs.jcim.8b00817
+ER  - 
+
+TY  - JOUR
+TI  - Virtual screening with AutoDock Vina and the common pharmacophore engine of a low diversity library of fragments and hits against the three allosteric sites of HIV integrase: participation in the SAMPL4 protein–ligand binding challenge
+AU  - Perryman, Alexander L.
+AU  - Santiago, Daniel N.
+AU  - Forli, Stefano
+AU  - Santos-Martins, Diogo
+AU  - Olson, Arthur J.
+T2  - Journal of Computer-Aided Molecular Design
+DA  - 2014/04//
+PY  - 2014
+DO  - 10.1007/s10822-014-9709-3
+DP  - DOI.org (Crossref)
+VL  - 28
+IS  - 4
+SP  - 429
+EP  - 441
+J2  - J Comput Aided Mol Des
+LA  - en
+SN  - 0920-654X, 1573-4951
+ST  - Virtual screening with AutoDock Vina and the common pharmacophore engine of a low diversity library of fragments and hits against the three allosteric sites of HIV integrase
+UR  - http://link.springer.com/10.1007/s10822-014-9709-3
+Y2  - 2022/12/29/19:41:10
+L1  - https://europepmc.org/articles/pmc4053500?pdf=render
+ER  - 
+
+TY  - JOUR
+TI  - Virtual Screening with AutoDock: Theory and Practice
+AU  - Cosconati, Sandro
+AU  - Forli, Stefano
+AU  - Perryman, Alex L.
+AU  - Harris, Rodney
+AU  - Goodsell, David S.
+AU  - Olson, Arthur J.
+T2  - Expert Opinion on Drug Discovery
+AB  - IMPORTANCE TO THE FIELD: Virtual screening is a computer-based technique for identifying promising compounds to bind to a target molecule of known structure. Given the rapidly increasing number of protein and nucleic acid structures, virtual screening continues to grow as an effective method for the discovery of new inhibitors and drug molecules. AREAS COVERED IN THIS REVIEW: We describe virtual screening methods that are available in the AutoDock suite of programs, and several of our successes in using AutoDock virtual screening in pharmaceutical lead discovery. WHAT THE READER WILL GAIN: A general overview of the challenges of virtual screening is presented, along with the tools available in the AutoDock suite of programs for addressing these challenges. TAKE HOME MESSAGE: Virtual screening is an effective tool for the discovery of compounds for use as leads in drug discovery, and the free, open source program AutoDock is an effective tool for virtual screening.
+DA  - 2010/06/01/
+PY  - 2010
+DO  - 10.1517/17460441.2010.484460
+DP  - PubMed
+VL  - 5
+IS  - 6
+SP  - 597
+EP  - 607
+J2  - Expert Opin Drug Discov
+LA  - eng
+SN  - 1746-045X
+ST  - Virtual Screening with AutoDock
+L1  - https://europepmc.org/articles/pmc3083070?pdf=render
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/21532931
+ER  - 
+
+TY  - JOUR
+TI  - A dynamic model of HIV integrase inhibition and drug resistance
+AU  - Perryman, Alex L.
+AU  - Forli, Stefano
+AU  - Morris, Garrett M.
+AU  - Burt, Catherine
+AU  - Cheng, Yuhui
+AU  - Palmer, Michael J.
+AU  - Whitby, Kevin
+AU  - McCammon, J. Andrew
+AU  - Phillips, Chris
+AU  - Olson, Arthur J.
+T2  - Journal of Molecular Biology
+AB  - Human immunodeficiency virus type 1 (HIV-1) integrase is one of three virally encoded enzymes essential for replication and, therefore, a rational choice as a drug target for the treatment of HIV-1-infected individuals. In 2007, raltegravir became the first integrase inhibitor approved for use in the treatment of HIV-infected patients, more than a decade since the approval of the first protease inhibitor (saquinavir, Hoffman La-Roche, 1995) and two decades since the approval of the first reverse transcriptase inhibitor (retrovir, GlaxoSmithKline, 1987). The slow progress toward a clinically effective HIV-1 integrase inhibitor can at least in part be attributed to a poor structural understanding of this key viral protein. Here we describe the development of a restrained molecular dynamics protocol that produces a more accurate model of the active site of this drug target. This model provides an advance on previously described models as it ensures that the catalytic DDE motif makes correct, monodentate interactions with the two active-site magnesium ions. Dynamic restraints applied to this coordination state create models with the correct solvation sphere for the metal ion complex and highlight the coordination sites available for metal-binding ligands. Application of appropriate dynamic flexibility to the core domain allowed the inclusion of multiple conformational states in subsequent docking studies. These models have allowed us to (1) explore the effects of key drug resistance mutations on the dynamic flexibility and conformational preferences of HIV integrase and to (2) study raltegravir binding in the context of these dynamic models of both wild type and the G140S/Q148H drug-resistant enzyme.
+DA  - 2010/03/26/
+PY  - 2010
+DO  - 10.1016/j.jmb.2010.01.033
+DP  - PubMed
+VL  - 397
+IS  - 2
+SP  - 600
+EP  - 615
+J2  - J Mol Biol
+LA  - eng
+SN  - 1089-8638
+L1  - https://europepmc.org/articles/pmc2846753?pdf=render
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/20096702
+KW  - Anti-HIV Agents
+KW  - Catalytic Domain
+KW  - Drug Resistance, Viral
+KW  - HIV Integrase
+KW  - HIV-1
+KW  - Humans
+KW  - Models, Biological
+KW  - Models, Molecular
+KW  - Molecular Dynamics Simulation
+KW  - Protein Binding
+KW  - Protein Conformation
+KW  - Pyrrolidinones
+KW  - Raltegravir Potassium
+ER  - 
+
+TY  - JOUR
+TI  - Fragment-Based Screen against HIV Protease
+AU  - Perryman, Alexander L.
+AU  - Zhang, Qing
+AU  - Soutter, Holly H.
+AU  - Rosenfeld, Robin
+AU  - McRee, Duncan E.
+AU  - Olson, Arthur J.
+AU  - Elder, John E.
+AU  - David Stout, C.
+T2  - Chemical Biology & Drug Design
+AB  - We have employed a fragment-based screen against wild-type (NL4-3) HIV protease (PR) using the Active Sight fragment library and X-ray crystallography. The experiments reveal two new binding sites for small molecules. PR was co-crystallized with fragments, or crystals were soaked in fragment solutions, using five crystal forms, and 378 data sets were collected to 2.3–1.3 Å resolution. Fragment binding induces a distinct conformation and specific crystal form of TL-3 inhibited PR during co-crystallization. One fragment, 2-methylcyclohexanol, binds in the ‘exo site’ adjacent to the Gly 16 Gly 17 Gln 18 loop where the amide of Gly 17 is a specific hydrogen bond donor, and hydrophobic contacts occur with the side chains of Lys 14 and Leu 63 . Another fragment, indole-6-carboxylic acid, binds on the ‘outside/top of the flap’ via hydrophobic contacts with Trp 42 , Pro 44 , Met 46 , and Lys 55 , a hydrogen bond with Val 56 , and a salt-bridge with Arg 57 . 2-acetyl-benzothiophene also binds at this site. This study is the first fragment-based crystallographic screen against HIV PR, and the first time that fragments were screened against an inhibitor-bound drug target to search for compounds that both bind to novel sites and stabilize the inhibited conformation of the target.
+DA  - 2010///
+PY  - 2010
+DO  - 10.1111/j.1747-0285.2009.00943.x
+DP  - Wiley Online Library
+VL  - 75
+IS  - 3
+SP  - 257
+EP  - 268
+LA  - en
+SN  - 1747-0285
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1747-0285.2009.00943.x
+Y2  - 2022/12/29/19:43:51
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1747-0285.2009.00943.x
+L2  - https://onlinelibrary.wiley.com/doi/full/10.1111/j.1747-0285.2009.00943.x
+KW  - allosteric inhibitor
+KW  - crystal structure
+KW  - fragment screen
+KW  - HIV protease
+KW  - multidrug resistance
+ER  - 
+
+TY  - JOUR
+TI  - AutoDock4 and AutoDockTools4: Automated docking with selective receptor flexibility
+AU  - Morris, Garrett M.
+AU  - Huey, Ruth
+AU  - Lindstrom, William
+AU  - Sanner, Michel F.
+AU  - Belew, Richard K.
+AU  - Goodsell, David S.
+AU  - Olson, Arthur J.
+T2  - Journal of Computational Chemistry
+AB  - We describe the testing and release of AutoDock4 and the accompanying graphical user interface AutoDockTools. AutoDock4 incorporates limited flexibility in the receptor. Several tests are reported here, including a redocking experiment with 188 diverse ligand-protein complexes and a cross-docking experiment using flexible sidechains in 87 HIV protease complexes. We also report its utility in analysis of covalently bound ligands, using both a grid-based docking method and a modification of the flexible sidechain technique.
+DA  - 2009/12//
+PY  - 2009
+DO  - 10.1002/jcc.21256
+DP  - PubMed
+VL  - 30
+IS  - 16
+SP  - 2785
+EP  - 2791
+J2  - J Comput Chem
+LA  - eng
+SN  - 1096-987X
+ST  - AutoDock4 and AutoDockTools4
+L1  - https://europepmc.org/articles/pmc2760638?pdf=render
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/19399780
+KW  - Ligands
+KW  - Models, Molecular
+KW  - Protein Binding
+KW  - Proteins
+KW  - Software
+ER  - 
+
+TY  - JOUR
+TI  - Analysis of HIV Wild-Type and Mutant Structures via in Silico Docking against Diverse Ligand Libraries
+AU  - Chang, Max W.
+AU  - Lindstrom, William
+AU  - Olson, Arthur J.
+AU  - Belew, Richard K.
+T2  - Journal of Chemical Information and Modeling
+AB  - The FightAIDS@Home distributed computing project uses AutoDock for an initial virtual screen of HIV protease structures against a broad range of 1771 ligands including both known protease inhibitors and a diverse library of other ligands. The volume of results allows novel large-scale analyses of binding energy “profiles” for HIV structures. Beyond identifying potential lead compounds, these characterizations provide methods for choosing representative wild-type and mutant protein structures from the larger set. From the binding energy profiles of the PDB structures, a principal component analysis based analysis identifies seven “spanning” proteases. A complementary analysis finds that the wild-type protease structure 2BPZ best captures the central tendency of the protease set. Using a comparison of known protease inhibitors against the diverse ligand set yields an AutoDock binding energy “significance” threshold of −7.0 kcal/mol between significant, strongly binding ligands and other weak/nonspecific binding energies. This threshold captures nearly 98% of known inhibitor interactions while rejecting more than 95% of suspected noninhibitor interactions. These methods should be of general use in virtual screening projects and will be used to improve further FightAIDS@Home experiments.
+DA  - 2007/05/01/
+PY  - 2007
+DO  - 10.1021/ci700044s
+DP  - ACS Publications
+VL  - 47
+IS  - 3
+SP  - 1258
+EP  - 1262
+J2  - J. Chem. Inf. Model.
+SN  - 1549-9596
+UR  - https://doi.org/10.1021/ci700044s
+Y2  - 2022/12/29/19:44:59
+L1  - https://pubs.acs.org/doi/pdf/10.1021/ci700044s
+ER  - 
+
