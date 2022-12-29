@@ -1,0 +1,64 @@
+TY  - JOUR
+TI  - Effects of novel small compounds targeting TrkB on neuronal cell survival and depression-like behavior
+AU  - Fukuda, Mayu
+AU  - Takatori, Atsushi
+AU  - Nakamura, Yohko
+AU  - Suganami, Akiko
+AU  - Hoshino, Tyuji
+AU  - Tamura, Yutaka
+AU  - Nakagawara, Akira
+T2  - Neurochemistry International
+AB  - Brain-derived neurotrophic factor (BDNF) and its high affinity receptor tyrosine kinase receptor B (TrkB) are involved in neuronal survival, maintenance, differentiation and synaptic plasticity. Deficiency of BDNF was reported to be associated with psychological disorders such as depression. Hence we examined proliferative effect of 11 candidate TrkB agonistic compounds in TrkB-expressing SH-SY5Y cells, via a hypothesis that some candidate compounds identified in our previous in silico screening for a small molecule targeting the BDNF binding domain of TrkB should activate TrkB signaling. In the present study, two promising compounds, 48 and 56, were identified and subsequently assessed for their ability to induce TrkB phosphorylation in vitro and in vivo. Likewise those seen in BDNF, the compounds mediated TrkB phosphorylation was blocked by the Trk inhibitor, K252a. Since BDNF-TrkB signaling deficiency is associated with the pathogenesis of depression and reactivation of this signaling by antidepressants is a cause of the pathogenic state recovery, the compounds were subjected to the assessment for forced swim test, which is a mouse model of depression. We found that compound 48 significantly reduced mouse immobility time compared with the control vehicle injection, suggesting the confirmation of hypothetical antidepressant-like efficacy of 48 compound in vivo. Thus, our present study demonstrated that compound 48, selected through in silico screening, is a novel activator of TrkB signaling and a potential antidepressant molecule.
+DA  - 2016/07/01/
+PY  - 2016
+DO  - 10.1016/j.neuint.2016.04.017
+DP  - ScienceDirect
+VL  - 97
+SP  - 42
+EP  - 48
+J2  - Neurochemistry International
+LA  - en
+SN  - 0197-0186
+UR  - https://www.sciencedirect.com/science/article/pii/S0197018616300869
+Y2  - 2022/12/29/20:53:59
+L2  - https://www.sciencedirect.com/science/article/abs/pii/S0197018616300869
+KW  - Anti-depressant
+KW  - BDNF
+KW  - Forced swim test
+KW  - TrkB
+ER  - 
+
+TY  - JOUR
+TI  - Identification of novel candidate compounds targeting TrkB to induce apoptosis in neuroblastoma
+AU  - Nakamura, Yohko
+AU  - Suganami, Akiko
+AU  - Fukuda, Mayu
+AU  - Hasan, Md. Kamrul
+AU  - Yokochi, Tomoki
+AU  - Takatori, Atsushi
+AU  - Satoh, Shunpei
+AU  - Hoshino, Tyuji
+AU  - Tamura, Yutaka
+AU  - Nakagawara, Akira
+T2  - Cancer Medicine
+AB  - Neuroblastoma (NB) is one of the most frequent solid tumors in children and its prognosis is still poor. The neurotrophin receptor TrkB and its ligand brain-derived neurotrophic factor (BDNF) are expressed at high levels in high-risk NBs and are involved in defining the poor prognosis of the patients. However, the TrkB targeting therapy has never been realized in the clinic. We performed an in silico screening procedure utilizing an AutoDock/grid computing technology in order to identify novel small chemical compounds targeting the BDNF-binding domain of TrkB. For the first screening, a library of three million synthetic compounds was screened in silico and was ranked according to the Docking energy. The top-ranked 37 compounds were further functionally screened for cytotoxicity by using NB cell lines. We have finally identified seven compounds that kill NB cells with the IC50 values of 0.07–4.6 μmol/L. The terminal deoxynucleotidyl transferase dUTP nick end labeling (TUNEL) assay showed that these molecules induce apoptosis accompanied by p53 activation in NB cell lines. The candidate compounds and BDNF demonstrated an antagonistic effect on cell growth, invasion, and colony formation, possibly suggesting competition at the BDNF-binding site of TrkB. The candidate compounds had tumor-suppressive activity in xenograft and in vivo toxicity tests (oral and intravenous administrations) using mice, and did not show any abnormal signs. Using in silico Docking screening we have found new candidate TrkB inhibitors against high-risk NBs, which could lead to new anti-cancer drugs.
+DA  - 2014///
+PY  - 2014
+DO  - 10.1002/cam4.175
+DP  - Wiley Online Library
+VL  - 3
+IS  - 1
+SP  - 25
+EP  - 35
+LA  - en
+SN  - 2045-7634
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/cam4.175
+Y2  - 2022/12/29/20:54:48
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cam4.175
+KW  - BDNF
+KW  - drug discovery
+KW  - in silico simulations
+KW  - neuroblastoma
+KW  - TrkB
+ER  - 
+
