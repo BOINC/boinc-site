@@ -1,0 +1,162 @@
+TY  - JOUR
+TI  - On the potential for extinction by Muller's Ratchet in Caenorhabditis elegans
+AU  - Loewe, Laurence
+AU  - Cutter, Asher D
+T2  - BMC Evolutionary Biology
+DA  - 2008///
+PY  - 2008
+DO  - 10.1186/1471-2148-8-125
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 1
+SP  - 125
+J2  - BMC Evol Biol
+LA  - en
+SN  - 1471-2148
+UR  - http://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-8-125
+Y2  - 2022/12/23/21:45:32
+L1  - https://bmcecolevol.biomedcentral.com/counter/pdf/10.1186/1471-2148-8-125
+ER  - 
+
+TY  - JOUR
+TI  - A stochastic model for a single click of Muller's ratchet
+AU  - Waxman, D.
+AU  - Loewe, L.
+T2  - Journal of Theoretical Biology
+DA  - 2010/06//
+PY  - 2010
+DO  - 10.1016/j.jtbi.2010.03.014
+DP  - DOI.org (Crossref)
+VL  - 264
+IS  - 4
+SP  - 1120
+EP  - 1132
+J2  - Journal of Theoretical Biology
+LA  - en
+SN  - 00225193
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0022519310001372
+Y2  - 2022/12/29/11:35:36
+L1  - https://hal.archives-ouvertes.fr/hal-00594146/file/PEER_stage2_10.1016%252Fj.jtbi.2010.03.014.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Quantifying the threat of extinction from Muller's ratchet in the diploid Amazon molly (Poecilia formosa)
+AU  - Loewe, Laurence
+AU  - Lamatsch, Dunja K
+T2  - BMC Evolutionary Biology
+DA  - 2008///
+PY  - 2008
+DO  - 10.1186/1471-2148-8-88
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 1
+SP  - 88
+J2  - BMC Evol Biol
+LA  - en
+SN  - 1471-2148
+UR  - http://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-8-88
+Y2  - 2022/12/29/11:42:24
+L1  - https://bmcecolevol.biomedcentral.com/counter/pdf/10.1186/1471-2148-8-88
+ER  - 
+
+TY  - JOUR
+TI  - Evolution@home: observations on participant choice, work unit variation and low-effort global computing
+AU  - Loewe, Laurence
+T2  - Software: Practice and Experience
+DA  - 2007/10//
+PY  - 2007
+DO  - 10.1002/spe.806
+DP  - DOI.org (Crossref)
+VL  - 37
+IS  - 12
+SP  - 1289
+EP  - 1318
+J2  - Softw: Pract. Exper.
+LA  - en
+SN  - 00380644, 1097024X
+ST  - Evolution@home
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/spe.806
+Y2  - 2022/12/29/11:47:02
+ER  - 
+
+TY  - JOUR
+TI  - Quantifying the genomic decay paradox due to Muller's ratchet in human mitochondrial DNA
+AU  - Loewe, Laurence
+T2  - Genetical Research
+AB  - The observation of high mitochondrial mutation rates in human pedigrees has led to the question of how such an asexual genetic system can survive the accumulation of slightly deleterious mutations caused by Muller's ratchet. I define a null model to quantify in unprecedented detail the threat from extinction caused by Muller's ratchet. This model is general enough to explore the biological significance of Muller's ratchet in various species where its operation has been suspected. For increased precision over a wide range of parameter space I employ individual-based simulations run by evolution@home, the first global computing system for evolutionary biology. After compiling realistic values for the key parameters in human mitochondrial DNA (mtDNA) I find that a surprisingly large range of biologically realistic parameter combinations would lead to the extinction of the human line over a period of 20 million years – if accepted wisdom about mtDNA and Muller's ratchet is correct. The resulting genomic decay paradox complements a similar threat from extinction due to mutation accumulation in nuclear DNA and suggests evaluation of unconventional explanations for long-term persistence. A substantial list of potential solutions is given, including compensatory back mutations, mutation rate heterogeneity and occasional recombination in mtDNA. Future work will have to explore which of these actually solves the paradox. Nonetheless, the results presented here provide yet another reason to minimize anthropogenic increase of mutation rates.
+DA  - 2006/04//
+PY  - 2006
+DO  - 10.1017/S0016672306008123
+DP  - DOI.org (Crossref)
+VL  - 87
+IS  - 2
+SP  - 133
+EP  - 159
+J2  - Genet. Res.
+LA  - en
+SN  - 0016-6723, 1469-5073
+UR  - https://www.cambridge.org/core/product/identifier/S0016672306008123/type/journal_article
+Y2  - 2022/12/29/11:47:56
+L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/662CC1D28C0B5F2DC3D09B14F0E59829/S0016672306008123a.pdf/div-class-title-quantifying-the-genomic-decay-paradox-due-to-muller-s-ratchet-in-human-mitochondrial-dna-div.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Evolution@home: Global computing quantifies evolution due to Muller's ratchet
+AU  - Loewe, Laurence
+T2  - BMC Bioinformatics
+DA  - 2005/12//
+PY  - 2005
+DO  - 10.1186/1471-2105-6-S3-P18
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - S3
+SP  - P18,
+EP  - 1471-2105-6-S3-P18
+J2  - BMC Bioinformatics
+LA  - en
+SN  - 1471-2105
+ST  - Evolution@home
+UR  - https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-6-S3-P18
+Y2  - 2022/12/29/11:50:56
+L1  - https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-6-S3-P18
+ER  - 
+
+TY  - CONF
+TI  - evolution@home: Experiences with Work Units That Span More than 7 Orders of Magnitude in Computational Complexity
+AU  - Loewe, L.
+T2  - 2nd IEEE/ACM International Symposium on Cluster Computing and the Grid (CCGRID'02)
+C1  - Berlin, Germany
+C3  - 2nd IEEE/ACM International Symposium on Cluster Computing and the Grid (CCGRID'02)
+DA  - 2002///
+PY  - 2002
+DO  - 10.1109/CCGRID.2002.1017176
+DP  - DOI.org (Crossref)
+SP  - 425
+EP  - 425
+PB  - IEEE
+SN  - 978-0-7695-1582-3
+ST  - evolution@home
+UR  - http://ieeexplore.ieee.org/document/1540500/
+Y2  - 2022/12/29/11:51:33
+ER  - 
+
+TY  - JOUR
+TI  - Global computing for bioinformatics
+AU  - Loewe, L.
+T2  - Briefings in Bioinformatics
+DA  - 2002/01/01/
+PY  - 2002
+DO  - 10.1093/bib/3.4.377
+DP  - DOI.org (Crossref)
+VL  - 3
+IS  - 4
+SP  - 377
+EP  - 388
+J2  - Briefings in Bioinformatics
+LA  - en
+SN  - 1467-5463, 1477-4054
+UR  - https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/3.4.377
+Y2  - 2022/12/29/11:52:33
+L1  - https://academic.oup.com/bib/article-pdf/3/4/377/493010/377.pdf
+ER  - 
+
