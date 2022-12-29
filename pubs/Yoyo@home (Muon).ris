@@ -1,0 +1,15 @@
+TY  - THES
+TI  - Muon capture schemes for the neutrino factory
+AU  - Brooks, S.
+AB  - The proposed neutrino factory, a facility for precision measurements of neutrino oscillations, requires directional neutrino beams to reach the required sensitivities. Among the few sources of such beams is the decay of muons travelling at relativistic speeds, therefore an intense source of muons and subsequent rapid acceleration must be designed so they can reach the required energy before decaying. This thesis considers several stages in this process: pions are produced from a proton beam hitting a target and pion yield optima are determined as a function of target design parameters and the proton energy. Issues related to producing the original proton beam are also discussed. The pions decay to a beam of muons, confined by a channel of solenoids and other components known as the muon front end. A design for this is found that meets the requirement of 10^21 muons per operational year [1]. The computer code MARS15 [2] is used to simulate the target, with benchmarks against GEANT4 [3] and initial results from the HARP experiment [4]. The author's code Muon1 [5] is used for muon tracking, with its techniques also explained in the thesis. To find the highest-yielding arrangement of magnets and accelerating components from the target onwards, Muon1 incorporates an optimisation feature where almost all parameters of the beamline can be varied. This produces a high-dimensionality search space where the best muon yield is sought using a genetic algorithm. As each individual evaluation of a design is itself a time-consuming simulation with tens of thousands of particles, the code has been deployed as a distributed computing project that is able to perform millions of simulations per optimisation. [1] "GROUP REPORT: Physics at a Neutrino Factory", C. Albright et al. (Eds. S. Geer and H. Schellman), Report to the Fermilab Directorate, FERMILAB-FN-692, hep-ex/0008064 (2000). [2] "The MARS Code System" version 15.07, by N.V. Mokhov, available from http://www-ap.fnal.gov/MARS/ [3] "GEANT4 - a simulation toolkit", S. Agostinelli et al., Nuclear Instruments and Methods A 506, pp.250-303 (2003), available from http://geant4.web.cern.ch/geant4/ [4] "Status and prospects of the HARP experiment", M. Ellis, J. Phys. G 29, pp.1613-1620 (2003). [5] Muon1 Distributed Particle Accelerator Design project website, http://stephenbrooks.org/muon1
+DA  - 2010///
+PY  - 2010
+DP  - ora.ouls.ox.ac.uk
+LA  - English
+M3  - http://purl.org/dc/dcmitype/Text
+PB  - University of Oxford
+UR  - https://ora.ouls.ox.ac.uk/objects/uuid:7b724028-e4ef-4248-9d42-505e571c9e19
+Y2  - 2022/12/29/12:01:32
+L1  - https://ora.ox.ac.uk/objects/uuid:7b724028-e4ef-4248-9d42-505e571c9e19/files/m5eb75e9404537c6817cab216dd70209d
+ER  - 
+
