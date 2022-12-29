@@ -1,0 +1,113 @@
+TY  - JOUR
+TI  - High-throughput protein crystallization on the World Community Grid and the GPU
+AU  - Kotseruba, Yulia
+AU  - Cumbaa, Christian A.
+AU  - Jurisica, Igor
+T2  - Journal of Physics: Conference Series
+AB  - We have developed CPU and GPU versions of an automated image analysis and classification system for protein crystallization trial images from the Hauptman Woodward Institute's High-Throughput Screening lab. The analysis step computes 12,375 numerical features per image. Using these features, we have trained a classifier that distinguishes 11 different crystallization outcomes, recognizing 80% of all crystals, 94% of clear drops, 94% of precipitates. The computing requirements for this analysis system are large. The complete HWI archive of 120 million images is being processed by the donated CPU cycles on World Community Grid, with a GPU phase launching in early 2012. The main computational burden of the analysis is the measure of textural (GLCM) features within the image at multiple neighbourhoods, distances, and at multiple greyscale intensity resolutions. CPU runtime averages 4,092 seconds (single threaded) on an Intel Xeon, but only 65 seconds on an NVIDIA Tesla C2050. We report on the process of adapting the C++ code to OpenCL, optimized for multiple platforms.
+DA  - 2012/02//
+PY  - 2012
+DO  - 10.1088/1742-6596/341/1/012027
+DP  - Institute of Physics
+VL  - 341
+IS  - 1
+SP  - 012027
+J2  - J. Phys.: Conf. Ser.
+LA  - en
+SN  - 1742-6596
+UR  - https://dx.doi.org/10.1088/1742-6596/341/1/012027
+Y2  - 2022/12/29/20:27:35
+L1  - https://iopscience.iop.org/article/10.1088/1742-6596/341/1/012027/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Protein crystallization analysis on the World Community Grid
+AU  - Cumbaa, Christian A.
+AU  - Jurisica, Igor
+T2  - Journal of Structural and Functional Genomics
+AB  - We have developed an image-analysis and classification system for automatically scoring images from high-throughput protein crystallization trials. Image analysis for this system is performed by the Help Conquer Cancer (HCC) project on the World Community Grid. HCC calculates 12,375 distinct image features on microbatch-under-oil images from the Hauptman-Woodward Medical Research Institute’s High-Throughput Screening Laboratory. Using HCC-computed image features and a massive training set of 165,351 hand-scored images, we have trained multiple Random Forest classifiers that accurately recognize multiple crystallization outcomes, including crystals, clear drops, precipitate, and others. The system successfully recognizes 80% of crystal-bearing images, 89% of precipitate images, and 98% of clear drops.
+DA  - 2010///
+PY  - 2010
+DO  - 10.1007/s10969-009-9076-9
+DP  - PubMed Central
+VL  - 11
+IS  - 1
+SP  - 61
+EP  - 69
+J2  - J Struct Funct Genomics
+SN  - 1345-711X
+UR  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2857471/
+Y2  - 2022/12/29/20:28:45
+L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2857471/pdf/10969_2009_Article_9076.pdf
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2857471/
+ER  - 
+
+TY  - JOUR
+TI  - Establishing a training set through the visual analysis of crystallization trials. Part II: crystal examples
+AU  - Snell, Edward H.
+AU  - Lauricella, Angela M.
+AU  - Potter, Stephen A.
+AU  - Luft, Joseph R.
+AU  - Gulde, Stacey M.
+AU  - Collins, Robert J.
+AU  - Franks, Geoff
+AU  - Malkowski, Michael G.
+AU  - Cumbaa, Christian
+AU  - Jurisica, Igor
+AU  - DeTitta, George T.
+T2  - Acta Crystallographica Section D: Biological Crystallography
+AB  - As part of a training set for automated image analysis, crystallization screening experiments for 269 different macromolecules were visually analyzed and a set of crystal images extracted. Outcomes and trends are analyzed., In the automated image analysis of crystallization experiments, representative examples of outcomes can be obtained rapidly. However, while the outcomes appear to be diverse, the number of crystalline outcomes can be small. To complement a training set from the visual observation of 147 456 crystallization outcomes, a set of crystal images was produced from 106 and 163 macromolecules under study for the North East Structural Genomics Consortium (NESG) and Structural Genomics of Pathogenic Protozoa (SGPP) groups, respectively. These crystal images have been combined with the initial training set. A description of the crystal-enriched data set and a preliminary analysis of outcomes from the data are described.
+DA  - 2008/11/01/
+PY  - 2008
+DO  - 10.1107/S0907444908028059
+DP  - PubMed Central
+VL  - 64
+IS  - Pt 11
+SP  - 1131
+EP  - 1137
+J2  - Acta Crystallogr D Biol Crystallogr
+SN  - 0907-4449
+ST  - Establishing a training set through the visual analysis of crystallization trials. Part II
+UR  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2631118/
+Y2  - 2022/12/29/20:29:18
+L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2631118/pdf/d-64-01131.pdf
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2631118/
+ER  - 
+
+TY  - JOUR
+TI  - Establishing a training set through the visual analysis of crystallization trials. Part I: ∼150 000 images
+AU  - Snell, Edward H.
+AU  - Luft, Joseph R.
+AU  - Potter, Stephen A.
+AU  - Lauricella, Angela M.
+AU  - Gulde, Stacey M.
+AU  - Malkowski, Michael G.
+AU  - Koszelak-Rosenblum, Mary
+AU  - Said, Meriem I.
+AU  - Smith, Jennifer L.
+AU  - Veatch, Christina K.
+AU  - Collins, Robert J.
+AU  - Franks, Geoff
+AU  - Thayer, Max
+AU  - Cumbaa, Christian
+AU  - Jurisica, Igor
+AU  - DeTitta, George T.
+T2  - Acta Crystallographica Section D: Biological Crystallography
+AB  - As part of a training set for automated image analysis, ∼150 000 images of crystallization experiments from 96 diverse macromolecules have been visually classified within seven categories. Outcomes and trends are analyzed., Structural crystallography aims to provide a three-dimensional representation of macromolecules. Many parts of the multistep process to produce the three-dimensional structural model have been automated, especially through various structural genomics projects. A key step is the production of crystals for diffraction. The target macromolecule is combined with a large and chemically diverse set of cocktails with some leading ideally, but infrequently, to crystallization. A variety of outcomes will be observed during these screening experiments that typically require human interpretation for classification. Human interpretation is neither scalable nor objective, highlighting the need to develop an automatic computer-based image classification. As a first step towards automated image classification, 147 456 images representing crystallization experiments from 96 different macromolecular samples were manually classified. Each image was classified by three experts into seven predefined categories or their combinations. The resulting data where all three observers are in agreement provides one component of a truth set for the development and rigorous testing of automated image-classification systems and provides information about the chemical cocktails used for crystallization. In this paper, the details of this study are presented.
+DA  - 2008/11/01/
+PY  - 2008
+DO  - 10.1107/S0907444908028047
+DP  - PubMed Central
+VL  - 64
+IS  - Pt 11
+SP  - 1123
+EP  - 1130
+J2  - Acta Crystallogr D Biol Crystallogr
+SN  - 0907-4449
+ST  - Establishing a training set through the visual analysis of crystallization trials. Part I
+UR  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2631114/
+Y2  - 2022/12/29/20:29:51
+L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2631114/pdf/d-64-01123.pdf
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2631114/
+ER  - 
+
