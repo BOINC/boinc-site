@@ -1,0 +1,28 @@
+TY  - JOUR
+TI  - A Virtual Screen Discovers Novel, Fragment-Sized Inhibitors of Mycobacterium tuberculosis InhA
+AU  - Perryman, Alexander L.
+AU  - Yu, Weixuan
+AU  - Wang, Xin
+AU  - Ekins, Sean
+AU  - Forli, Stefano
+AU  - Li, Shao-Gang
+AU  - Freundlich, Joel S.
+AU  - Tonge, Peter J.
+AU  - Olson, Arthur J.
+T2  - Journal of Chemical Information and Modeling
+AB  - Isoniazid (INH) is usually administered to treat latent Mycobacterium tuberculosis (Mtb) infections and is used in combination therapy to treat active tuberculosis (TB). Unfortunately, resistance to this drug is hampering its clinical effectiveness. INH is a prodrug that must be activated by Mtb catalase-peroxidase (KatG) before it can inhibit InhA (Mtb enoyl-acyl-carrier-protein reductase). Isoniazid-resistant cases of TB found in clinical settings usually involve mutations in or deletion of katG, which abrogate INH activation. Compounds that inhibit InhA without requiring prior activation by KatG would not be affected by this resistance mechanism and hence would display continued potency against these drug-resistant isolates of Mtb. Virtual screening experiments versus InhA in the GO Fight Against Malaria (GO FAM) project were designed to discover new scaffolds that display base-stacking interactions with the NAD cofactor. GO FAM experiments included targets from other pathogens, including Mtb, when they had structural similarity to a malaria target. Eight of the 16 soluble compounds identified by docking against InhA plus visual inspection were modest inhibitors and did not require prior activation by KatG. The best two inhibitors discovered are both fragment-sized compounds and displayed Ki values of 54 and 59 μM, respectively. Importantly, the novel inhibitors discovered have low structural similarity to known InhA inhibitors and thus help expand the number of chemotypes on which future medicinal chemistry efforts can be focused. These new fragment hits could eventually help advance the fight against INH-resistant Mtb strains, which pose a significant global health threat.
+DA  - 2015/03/23/
+PY  - 2015
+DO  - 10.1021/ci500672v
+DP  - ACS Publications
+VL  - 55
+IS  - 3
+SP  - 645
+EP  - 659
+J2  - J. Chem. Inf. Model.
+SN  - 1549-9596
+UR  - https://doi.org/10.1021/ci500672v
+Y2  - 2022/12/29/19:12:17
+L1  - https://europepmc.org/articles/pmc4386068?pdf=render
+ER  - 
+
