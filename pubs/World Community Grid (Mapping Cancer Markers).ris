@@ -1,0 +1,162 @@
+TY  - CHAP
+TI  - Visualization of Biomedical Networks
+AU  - Hauschild, Anne-Christin
+AU  - Pastrello, Chiara
+AU  - Rossos, Andrea E.M.
+AU  - Jurisica, Igor
+T2  - Encyclopedia of Bioinformatics and Computational Biology
+DA  - 2019///
+PY  - 2019
+DP  - DOI.org (Crossref)
+SP  - 1016
+EP  - 1035
+LA  - en
+PB  - Elsevier
+SN  - 978-0-12-811432-2
+UR  - https://linkinghub.elsevier.com/retrieve/pii/B9780128096338204305
+Y2  - 2022/12/29/16:22:58
+ER  - 
+
+TY  - JOUR
+TI  - The ablation of the matricellular protein EMILIN2 causes defective vascularization due to impaired EGFR-dependent IL-8 production affecting tumor growth
+AU  - Paulitti, Alice
+AU  - Andreuzzi, Eva
+AU  - Bizzotto, Dario
+AU  - Pellicani, Rosanna
+AU  - Tarticchio, Giulia
+AU  - Marastoni, Stefano
+AU  - Pastrello, Chiara
+AU  - Jurisica, Igor
+AU  - Ligresti, Giovanni
+AU  - Bucciotti, Francesco
+AU  - Doliana, Roberto
+AU  - Colladel, Roberta
+AU  - Braghetta, Paola
+AU  - Poletto, Evelina
+AU  - Di Silvestre, Alessia
+AU  - Bressan, Giorgio
+AU  - Colombatti, Alfonso
+AU  - Bonaldo, Paolo
+AU  - Mongiat, Maurizio
+T2  - Oncogene
+AB  - EMILIN2 is an extracellular matrix constituent playing an important role in angiogenesis; however, the underlying mechanism is unknown. Here we show that EMILIN2 promotes angiogenesis by directly binding epidermal growth factor receptor (EGFR), which enhances interleukin-8 (IL-8) production. In turn, IL-8 stimulates the proliferation and migration of vascular endothelial cells. Emilin2 null mice were generated and exhibited delayed retinal vascular development, which was rescued by the administration of the IL-8 murine ortholog MIP-2. Next, we assessed tumor growth and tumor-associated angiogenesis in these mice. Tumor cell growth in Emilin2 null mice was impaired as well as the expression of MIP-2. The vascular density of the tumors developed in Emilin2 null mice was prejudiced and vessels perfusion, as well as response to chemotherapy, decreased. Accordingly, human tumors expressing high levels of EMILIN2 were more responsive to chemotherapy. These results point at EMILIN2 as a key microenvironmental cue affecting vessel formation and unveil the possibility to develop new prognostic tools to predict chemotherapy efficacy.
+DA  - 2018/06//
+PY  - 2018
+DO  - 10.1038/s41388-017-0107-x
+DP  - www.nature.com
+VL  - 37
+IS  - 25
+SP  - 3399
+EP  - 3414
+LA  - en
+SN  - 1476-5594
+UR  - https://www.nature.com/articles/s41388-017-0107-x
+Y2  - 2022/12/29/16:24:11
+KW  - Cancer microenvironment
+KW  - Tumour angiogenesis
+ER  - 
+
+TY  - CONF
+TI  - SDREGION: Fast Spotting of Changing Communities in Biological Networks
+AU  - Wong, Serene W.H.
+AU  - Pastrello, Chiara
+AU  - Kotlyar, Max
+AU  - Faloutsos, Christos
+AU  - Jurisica, Igor
+T2  - KDD '18: The 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
+C1  - London United Kingdom
+C3  - Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining
+DA  - 2018/07/19/
+PY  - 2018
+DO  - 10.1145/3219819.3219854
+DP  - DOI.org (Crossref)
+SP  - 867
+EP  - 875
+LA  - en
+PB  - ACM
+SN  - 978-1-4503-5552-0
+ST  - SDREGION
+UR  - https://dl.acm.org/doi/10.1145/3219819.3219854
+Y2  - 2022/12/29/18:06:30
+L1  - https://dl.acm.org/doi/pdf/10.1145/3219819.3219854
+ER  - 
+
+TY  - JOUR
+TI  - Network Motif Families for Lung Cancer Diagnostics: A World Community Grid Approach
+AU  - Anne-Christin Hauschild
+AU  - Cumbaa, Christian A
+AU  - Tsay, Mike
+AU  - Jurisica, Igor
+DA  - 2017///
+PY  - 2017
+DO  - 10.13140/RG.2.2.34687.51363
+DP  - DOI.org (Datacite)
+ST  - Network Motif Families for Lung Cancer Diagnostics
+UR  - http://rgdoi.net/10.13140/RG.2.2.34687.51363
+Y2  - 2022/12/29/18:08:27
+ER  - 
+
+TY  - JOUR
+TI  - Prioritizing Therapeutics for Lung Cancer: An Integrative Meta-analysis of Cancer Gene Signatures and Chemogenomic Data
+AU  - Fortney, Kristen
+AU  - Griesman, Joshua
+AU  - Kotlyar, Max
+AU  - Pastrello, Chiara
+AU  - Angeli, Marc
+AU  - Sound-Tsao, Ming
+AU  - Jurisica, Igor
+T2  - PLOS Computational Biology
+A2  - Tucker-Kellogg, Greg
+DA  - 2015/03/18/
+PY  - 2015
+DO  - 10.1371/journal.pcbi.1004068
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 3
+SP  - e1004068
+J2  - PLoS Comput Biol
+LA  - en
+SN  - 1553-7358
+ST  - Prioritizing Therapeutics for Lung Cancer
+UR  - https://dx.plos.org/10.1371/journal.pcbi.1004068
+Y2  - 2022/12/29/18:11:53
+L1  - https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004068&type=printable
+ER  - 
+
+TY  - JOUR
+TI  - In silico prediction of physical protein interactions and characterization of interactome orphans
+AU  - Kotlyar, Max
+AU  - Pastrello, Chiara
+AU  - Pivetta, Flavia
+AU  - Lo Sardo, Alessandra
+AU  - Cumbaa, Christian
+AU  - Li, Han
+AU  - Naranian, Taline
+AU  - Niu, Yun
+AU  - Ding, Zhiyong
+AU  - Vafaee, Fatemeh
+AU  - Broackes-Carter, Fiona
+AU  - Petschnigg, Julia
+AU  - Mills, Gordon B.
+AU  - Jurisicova, Andrea
+AU  - Stagljar, Igor
+AU  - Maestro, Roberta
+AU  - Jurisica, Igor
+T2  - Nature Methods
+AB  - This paper presents FpClass, a prediction method for physical protein-protein interactions. The method is benchmarked against experimental data and is used to predict, among others, partners of interactome 'orphans'.
+DA  - 2015/01//
+PY  - 2015
+DO  - 10.1038/nmeth.3178
+DP  - www.nature.com
+VL  - 12
+IS  - 1
+SP  - 79
+EP  - 84
+J2  - Nat Methods
+LA  - en
+SN  - 1548-7105
+UR  - https://www.nature.com/articles/nmeth.3178
+Y2  - 2022/12/29/18:58:58
+KW  - Proteome informatics
+ER  - 
+
