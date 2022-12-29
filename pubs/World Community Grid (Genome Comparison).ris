@@ -1,0 +1,74 @@
+TY  - CHAP
+TI  - Design and Implementation of ProteinWorldDB
+AU  - Lifschitz, Sérgio
+AU  - Viana, Carlos Juliano M.
+AU  - Tristão, Cristian
+AU  - Catanho, Marcos
+AU  - Degrave, Wim M.
+AU  - de Miranda, Antonio Basílio
+AU  - Bezerra, Márcia
+AU  - Otto, Thomas D.
+T2  - Advances in Bioinformatics and Computational Biology
+A2  - de Souto, Marcilio C.
+A2  - Kann, Maricel G.
+A3  - Hutchison, David
+A3  - Kanade, Takeo
+A3  - Kittler, Josef
+A3  - Kleinberg, Jon M.
+A3  - Mattern, Friedemann
+A3  - Mitchell, John C.
+A3  - Naor, Moni
+A3  - Nierstrasz, Oscar
+A3  - Pandu Rangan, C.
+A3  - Steffen, Bernhard
+A3  - Sudan, Madhu
+A3  - Terzopoulos, Demetri
+A3  - Tygar, Doug
+A3  - Vardi, Moshe Y.
+A3  - Weikum, Gerhard
+CY  - Berlin, Heidelberg
+DA  - 2012///
+PY  - 2012
+DP  - DOI.org (Crossref)
+VL  - 7409
+SP  - 144
+EP  - 155
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-31926-6 978-3-642-31927-3
+UR  - http://link.springer.com/10.1007/978-3-642-31927-3_13
+Y2  - 2022/12/29/19:49:16
+ER  - 
+
+TY  - JOUR
+TI  - ProteinWorldDB: querying radical pairwise alignments among protein sets from complete genomes
+AU  - Otto, Thomas Dan
+AU  - Catanho, Marcos
+AU  - Tristão, Cristian
+AU  - Bezerra, Márcia
+AU  - Fernandes, Renan Mathias
+AU  - Elias, Guilherme Steinberger
+AU  - Scaglia, Alexandre Capeletto
+AU  - Bovermann, Bill
+AU  - Berstis, Viktors
+AU  - Lifschitz, Sergio
+AU  - de Miranda, Antonio Basílio
+AU  - Degrave, Wim
+T2  - Bioinformatics
+AB  - Motivation: Many analyses in modern biological research are based on comparisons between biological sequences, resulting in functional, evolutionary and structural inferences. When large numbers of sequences are compared, heuristics are often used resulting in a certain lack of accuracy. In order to improve and validate results of such comparisons, we have performed radical all-against-all comparisons of 4 million protein sequences belonging to the RefSeq database, using an implementation of the Smith–Waterman algorithm. This extremely intensive computational approach was made possible with the help of World Community Grid™, through the Genome Comparison Project. The resulting database, ProteinWorldDB, which contains coordinates of pairwise protein alignments and their respective scores, is now made available. Users can download, compare and analyze the results, filtered by genomes, protein functions or clusters. ProteinWorldDB is integrated with annotations derived from Swiss-Prot, Pfam, KEGG, NCBI Taxonomy database and gene ontology. The database is a unique and valuable asset, representing a major effort to create a reliable and consistent dataset of cross-comparisons of the whole protein content encoded in hundreds of completely sequenced genomes using a rigorous dynamic programming approach.Availability: The database can be accessed through http://proteinworlddb.orgContact:otto@fiocruz.br
+DA  - 2010/03/01/
+PY  - 2010
+DO  - 10.1093/bioinformatics/btq011
+DP  - Silverchair
+VL  - 26
+IS  - 5
+SP  - 705
+EP  - 707
+J2  - Bioinformatics
+SN  - 1367-4803
+ST  - ProteinWorldDB
+UR  - https://doi.org/10.1093/bioinformatics/btq011
+Y2  - 2022/12/29/19:49:55
+L1  - https://academic.oup.com/bioinformatics/article-pdf/26/5/705/562180/btq011.pdf
+L2  - https://academic.oup.com/bioinformatics/article/26/5/705/212677
+ER  - 
+
