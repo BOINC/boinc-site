@@ -1,0 +1,66 @@
+TY  - JOUR
+TI  - Identification of a novel inhibitor of dengue virus protease through use of a virtual screening drug discovery Web portal
+AU  - Viswanathan, Usha
+AU  - Tomlinson, Suzanne M.
+AU  - Fonner, John M.
+AU  - Mock, Stephen A.
+AU  - Watowich, Stanley J.
+T2  - Journal of Chemical Information and Modeling
+AB  - We report the discovery of a novel small-molecule inhibitor of the dengue virus (DENV) protease (NS2B-NS3pro) using a newly constructed Web-based portal (DrugDiscovery@TACC) for structure-based virtual screening. Our drug discovery portal, an extension of virtual screening studies performed using IBM's World Community Grid, facilitated access to supercomputer resources managed by the Texas Advanced Computing Center (TACC) and enabled druglike commercially available small-molecule libraries to be rapidly screened against several high-resolution DENV NS2B-NS3pro crystallographic structures. Detailed analysis of virtual screening docking scores and hydrogen-bonding interactions between each docked ligand and the NS2B-NS3pro Ser135 side chain were used to select molecules for experimental validation. Compounds were ordered from established chemical companies, and compounds with established aqueous solubility were tested for their ability to inhibit DENV NS2B-NS3pro cleavage of a model substrate in kinetic studies. As a proof-of-concept, we validated a small-molecule dihydronaphthalenone hit as a single-digit-micromolar mixed noncompetitive inhibitor of the DENV protease. Since the dihydronaphthalenone was predicted to interact with NS2B-NS3pro residues that are largely conserved between DENV and the related West Nile virus (WNV), we tested this inhibitor against WNV NS2B-NS3pro and observed a similar mixed noncompetitive inhibition mechanism. However, the inhibition constants were ∼10-fold larger against the WNV protease relative to the DENV protease. This novel validated lead had no chemical features or pharmacophores associated with adverse toxicity, carcinogenicity, or mutagenicity risks and thus is attractive for additional characterization and optimization.
+DA  - 2014/10/27/
+PY  - 2014
+DO  - 10.1021/ci500531r
+DP  - PubMed
+VL  - 54
+IS  - 10
+SP  - 2816
+EP  - 2825
+J2  - J Chem Inf Model
+LA  - eng
+SN  - 1549-960X
+UR  - https://pubmed.ncbi.nlm.nih.gov/25263519/
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/25263519
+KW  - Amino Acid Sequence
+KW  - Antiviral Agents
+KW  - Binding Sites
+KW  - Crystallography, X-Ray
+KW  - Dengue Virus
+KW  - Enzyme Inhibitors
+KW  - Escherichia coli
+KW  - Gene Expression
+KW  - High-Throughput Screening Assays
+KW  - Hydrogen Bonding
+KW  - Ligands
+KW  - Molecular Docking Simulation
+KW  - Molecular Dynamics Simulation
+KW  - Molecular Sequence Data
+KW  - Naphthalenes
+KW  - Protein Binding
+KW  - Recombinant Proteins
+KW  - Sequence Homology, Nucleic Acid
+KW  - Serine Endopeptidases
+KW  - Species Specificity
+KW  - Thermodynamics
+KW  - User-Computer Interface
+KW  - Viral Nonstructural Proteins
+KW  - West Nile virus
+ER  - 
+
+TY  - JOUR
+TI  - New Approaches to Structure-Based Discovery of Dengue Protease Inhibitors
+AU  - Tomlinson, S. M.
+AU  - Malmstrom, R. D.
+AU  - Watowich, S. J.
+T2  - Infectious Disorders - Drug Targets
+AB  - Dengue virus (DENV), a member of the family Flaviviridae, presents a tremendous threat to global health since an estimated 2.5 billion people worldwide are at risk for epidemic transmission. DENV infections are primarily restricted to sub-tropical and tropical regions; however, there is concern that the virus will spread into new regions including the United States [1]. There are no approved antiviral drugs or vaccines to combat dengue infection, although DENV vaccines have entered Phase 3 clinical trials. Drug discovery and development efforts against DENV and other viral pathogens must overcome specificity, efficacy, safety, and resistance challenges before the shortage of licensed drugs to treat viral infections can be relieved. Current drug discovery methods are largely inefficient and thus relatively ineffective at tackling the growing threat to public health presented by emerging and remerging viral pathogens. This review discusses current and newly implemented structure-based computational efforts to discover antivirals that target the DENV NS3 protease, although it is clear that these computational tools can be applied to most disease targets.
+DO  - 10.2174/1871526510909030327
+DP  - www.eurekaselect.com
+VL  - 9
+IS  - 3
+SP  - 327
+EP  - 343
+LA  - en
+UR  - https://www.eurekaselect.com/article/29502
+Y2  - 2022/12/29/19:26:45
+ER  - 
+
