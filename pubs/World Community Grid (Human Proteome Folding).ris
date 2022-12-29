@@ -1,0 +1,300 @@
+TY  - JOUR
+TI  - The mRNA-Bound Proteome and Its Global Occupancy Profile on Protein-Coding Transcripts
+AU  - Baltz, Alexander G.
+AU  - Munschauer, Mathias
+AU  - Schwanhäusser, Björn
+AU  - Vasile, Alexandra
+AU  - Murakawa, Yasuhiro
+AU  - Schueler, Markus
+AU  - Youngs, Noah
+AU  - Penfold-Brown, Duncan
+AU  - Drew, Kevin
+AU  - Milek, Miha
+AU  - Wyler, Emanuel
+AU  - Bonneau, Richard
+AU  - Selbach, Matthias
+AU  - Dieterich, Christoph
+AU  - Landthaler, Markus
+T2  - Molecular Cell
+DA  - 2012/06//
+PY  - 2012
+DO  - 10.1016/j.molcel.2012.05.021
+DP  - DOI.org (Crossref)
+VL  - 46
+IS  - 5
+SP  - 674
+EP  - 690
+J2  - Molecular Cell
+LA  - en
+SN  - 10972765
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S1097276512004376
+Y2  - 2022/12/29/20:59:46
+L1  - https://www.cell.com/article/S1097276512004376/pdf
+ER  - 
+
+TY  - JOUR
+TI  - The Plant Proteome Folding Project: Structure and Positive Selection in Plant Protein Families
+AU  - Pentony, M. M.
+AU  - Winters, P.
+AU  - Penfold-Brown, D.
+AU  - Drew, K.
+AU  - Narechania, A.
+AU  - DeSalle, R.
+AU  - Bonneau, R.
+AU  - Purugganan, M. D.
+T2  - Genome Biology and Evolution
+AB  - Despite its importance, relatively little is known about the relationship between the structure, function, and evolution of proteins, particularly in land plant species. We have developed a database with predicted protein domains for five plant proteomes (http://pfp.bio.nyu.edu) and used both protein structural fold recognition and de novo Rosetta-based protein structure prediction to predict protein structure for Arabidopsis and rice proteins. Based on sequence similarity, we have identified ∼15,000 orthologous/paralogous protein family clusters among these species and used codon-based models to predict positive selection in protein evolution within 175 of these sequence clusters. Our results show that codons that display positive selection appear to be less frequent in helical and strand regions and are overrepresented in amino acid residues that are associated with a change in protein secondary structure. Like in other organisms, disordered protein regions also appear to have more selected sites. Structural information provides new functional insights into specific plant proteins and allows us to map positively selected amino acid sites onto protein structures and view these sites in a structural and functional context.
+DA  - 2012/01/01/
+PY  - 2012
+DO  - 10.1093/gbe/evs015
+DP  - Silverchair
+VL  - 4
+IS  - 3
+SP  - 360
+EP  - 371
+J2  - Genome Biology and Evolution
+SN  - 1759-6653
+ST  - The Plant Proteome Folding Project
+UR  - https://doi.org/10.1093/gbe/evs015
+Y2  - 2022/12/29/21:00:39
+L1  - https://academic.oup.com/gbe/article-pdf/4/3/360/17917229/evs015.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The Proteome Folding Project: Proteome-scale prediction of structure and function
+AU  - Drew, Kevin
+AU  - Winters, Patrick
+AU  - Butterfoss, Glenn L.
+AU  - Berstis, Viktors
+AU  - Uplinger, Keith
+AU  - Armstrong, Jonathan
+AU  - Riffle, Michael
+AU  - Schweighofer, Erik
+AU  - Bovermann, Bill
+AU  - Goodlett, David R.
+AU  - Davis, Trisha N.
+AU  - Shasha, Dennis
+AU  - Malmström, Lars
+AU  - Bonneau, Richard
+T2  - Genome Research
+AB  - The incompleteness of proteome structure and function annotation is a critical problem for biologists and, in particular, severely limits interpretation of high-throughput and next-generation experiments. We have developed a proteome annotation pipeline based on structure prediction, where function and structure annotations are generated using an integration of sequence comparison, fold recognition, and grid-computing-enabled de novo structure prediction. We predict protein domain boundaries and three-dimensional (3D) structures for protein domains from 94 genomes (including human,
+              Arabidopsis
+              , rice, mouse, fly, yeast,
+              Escherichia coli
+              , and worm). De novo structure predictions were distributed on a grid of more than 1.5 million CPUs worldwide (World Community Grid). We generated significant numbers of new confident fold annotations (9% of domains that are otherwise unannotated in these genomes). We demonstrate that predicted structures can be combined with annotations from the Gene Ontology database to predict new and more specific molecular functions.
+DA  - 2011/11//
+PY  - 2011
+DO  - 10.1101/gr.121475.111
+DP  - DOI.org (Crossref)
+VL  - 21
+IS  - 11
+SP  - 1981
+EP  - 1994
+J2  - Genome Res.
+LA  - en
+SN  - 1088-9051
+ST  - The Proteome Folding Project
+UR  - http://genome.cshlp.org/lookup/doi/10.1101/gr.121475.111
+Y2  - 2022/12/29/21:02:23
+L1  - https://genome.cshlp.org/content/21/11/1981.full.pdf
+ER  - 
+
+TY  - JOUR
+TI  - A Protein Domain-Based Interactome Network for C. elegans Early Embryogenesis
+AU  - Boxem, Mike
+AU  - Maliga, Zoltan
+AU  - Klitgord, Niels
+AU  - Li, Na
+AU  - Lemmens, Irma
+AU  - Mana, Miyeko
+AU  - de Lichtervelde, Lorenzo
+AU  - Mul, Joram D.
+AU  - van de Peut, Diederik
+AU  - Devos, Maxime
+AU  - Simonis, Nicolas
+AU  - Yildirim, Muhammed A.
+AU  - Cokol, Murat
+AU  - Kao, Huey-Ling
+AU  - de Smet, Anne-Sophie
+AU  - Wang, Haidong
+AU  - Schlaitz, Anne-Lore
+AU  - Hao, Tong
+AU  - Milstein, Stuart
+AU  - Fan, Changyu
+AU  - Tipsword, Mike
+AU  - Drew, Kevin
+AU  - Galli, Matilde
+AU  - Rhrissorrakrai, Kahn
+AU  - Drechsel, David
+AU  - Koller, Daphne
+AU  - Roth, Frederick P.
+AU  - Iakoucheva, Lilia M.
+AU  - Dunker, A. Keith
+AU  - Bonneau, Richard
+AU  - Gunsalus, Kristin C.
+AU  - Hill, David E.
+AU  - Piano, Fabio
+AU  - Tavernier, Jan
+AU  - van den Heuvel, Sander
+AU  - Hyman, Anthony A.
+AU  - Vidal, Marc
+T2  - Cell
+AB  - Many protein-protein interactions are mediated through independently folding modular domains. Proteome-wide efforts to model protein-protein interaction or “interactome” networks have largely ignored this modular organization of proteins. We developed an experimental strategy to efficiently identify interaction domains and generated a domain-based interactome network for proteins involved in C. elegans early-embryonic cell divisions. Minimal interacting regions were identified for over 200 proteins, providing important information on their domain organization. Furthermore, our approach increased the sensitivity of the two-hybrid system, resulting in a more complete interactome network. This interactome modeling strategy revealed insights into C. elegans centrosome function and is applicable to other biological processes in this and other organisms.
+DA  - 2008/08/08/
+PY  - 2008
+DO  - 10.1016/j.cell.2008.07.009
+DP  - ScienceDirect
+VL  - 134
+IS  - 3
+SP  - 534
+EP  - 545
+J2  - Cell
+LA  - en
+SN  - 0092-8674
+UR  - https://www.sciencedirect.com/science/article/pii/S0092867408008866
+Y2  - 2022/12/29/21:03:26
+L1  - https://www.sciencedirect.com/science/article/pii/S0092867408008866/pdfft?md5=98cf25dce1b6ab6d2582190fa21020fe&pid=1-s2.0-S0092867408008866-mainext.pdf&isDTMRedir=Y
+KW  - PROTEINS
+ER  - 
+
+TY  - JOUR
+TI  - A Predictive Model for Transcriptional Control of Physiology in a Free Living Cell
+AU  - Bonneau, Richard
+AU  - Facciotti, Marc T.
+AU  - Reiss, David J.
+AU  - Schmid, Amy K.
+AU  - Pan, Min
+AU  - Kaur, Amardeep
+AU  - Thorsson, Vesteinn
+AU  - Shannon, Paul
+AU  - Johnson, Michael H.
+AU  - Bare, J. Christopher
+AU  - Longabaugh, William
+AU  - Vuthoori, Madhavi
+AU  - Whitehead, Kenia
+AU  - Madar, Aviv
+AU  - Suzuki, Lena
+AU  - Mori, Tetsuya
+AU  - Chang, Dong-Eun
+AU  - DiRuggiero, Jocelyne
+AU  - Johnson, Carl H.
+AU  - Hood, Leroy
+AU  - Baliga, Nitin S.
+T2  - Cell
+DA  - 2007/12/28/
+PY  - 2007
+DO  - 10.1016/j.cell.2007.10.053
+DP  - www.cell.com
+VL  - 131
+IS  - 7
+SP  - 1354
+EP  - 1365
+J2  - Cell
+LA  - English
+SN  - 0092-8674, 1097-4172
+UR  - https://www.cell.com/cell/abstract/S0092-8674(07)01416-X
+Y2  - 2022/12/29/21:03:57
+L1  - http://www.cell.com/article/S009286740701416X/pdf
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/18160043
+KW  - DNA
+KW  - MICROBIO
+KW  - SYSBIO
+ER  - 
+
+TY  - JOUR
+TI  - Superfamily assignments for the yeast proteome through integration of structure prediction with the gene ontology
+AU  - Malmström, Lars
+AU  - Riffle, Michael
+AU  - Strauss, Charlie E. M.
+AU  - Chivian, Dylan
+AU  - Davis, Trisha N.
+AU  - Bonneau, Richard
+AU  - Baker, David
+T2  - PLoS biology
+AB  - Saccharomyces cerevisiae is one of the best-studied model organisms, yet the three-dimensional structure and molecular function of many yeast proteins remain unknown. Yeast proteins were parsed into 14,934 domains, and those lacking sequence similarity to proteins of known structure were folded using the Rosetta de novo structure prediction method on the World Community Grid. This structural data was integrated with process, component, and function annotations from the Saccharomyces Genome Database to assign yeast protein domains to SCOP superfamilies using a simple Bayesian approach. We have predicted the structure of 3,338 putative domains and assigned SCOP superfamily annotations to 581 of them. We have also assigned structural annotations to 7,094 predicted domains based on fold recognition and homology modeling methods. The domain predictions and structural information are available in an online database at http://rd.plos.org/10.1371_journal.pbio.0050076_01.
+DA  - 2007/04//
+PY  - 2007
+DO  - 10.1371/journal.pbio.0050076
+DP  - PubMed
+VL  - 5
+IS  - 4
+SP  - e76
+J2  - PLoS Biol
+LA  - eng
+SN  - 1545-7885
+UR  - https://pubmed.ncbi.nlm.nih.gov/17373854/
+L1  - https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.0050076&type=printable
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/17373854
+KW  - Bayes Theorem
+KW  - Genes, Fungal
+KW  - Protein Conformation
+KW  - Proteome
+KW  - Saccharomyces cerevisiae
+KW  - Saccharomyces cerevisiae Proteins
+ER  - 
+
+TY  - JOUR
+TI  - A conserved surface on Toll-like receptor 5 recognizes bacterial flagellin
+AU  - Andersen-Nissen, Erica
+AU  - Smith, Kelly D.
+AU  - Bonneau, Richard
+AU  - Strong, Roland K.
+AU  - Aderem, Alan
+T2  - Journal of Experimental Medicine
+AB  - The molecular basis for Toll-like receptor (TLR) recognition of microbial ligands is unknown. We demonstrate that mouse and human TLR5 discriminate between different flagellins, and we use this difference to map the flagellin recognition site on TLR5 to 228 amino acids of the extracellular domain. Through molecular modeling of the TLR5 ectodomain, we identify two conserved surface-exposed regions. Mutagenesis studies demonstrate that naturally occurring amino acid variation in TLR5 residue 268 is responsible for human and mouse discrimination between flagellin molecules. Mutations within one conserved surface identify residues D295 and D367 as important for flagellin recognition. These studies localize flagellin recognition to a conserved surface on the modeled TLR5 structure, providing detailed analysis of the interaction of a TLR with its ligand. These findings suggest that ligand binding at the β sheets results in TLR activation and provide a new framework for understanding TLR–agonist interactions.
+DA  - 2007/02/05/
+PY  - 2007
+DO  - 10.1084/jem.20061400
+DP  - Silverchair
+VL  - 204
+IS  - 2
+SP  - 393
+EP  - 403
+J2  - Journal of Experimental Medicine
+SN  - 0022-1007
+UR  - https://doi.org/10.1084/jem.20061400
+Y2  - 2022/12/29/21:05:42
+L1  - https://rupress.org/jem/article-pdf/204/2/393/1160073/jem_20061400.pdf
+ER  - 
+
+TY  - JOUR
+TI  - BioNetBuilder: automatic integration of biological networks
+AU  - Avila-Campillo, Iliana
+AU  - Drew, Kevin
+AU  - Lin, John
+AU  - Reiss, David J.
+AU  - Bonneau, Richard
+T2  - Bioinformatics
+AB  - BioNetBuilder is an open-source client-server Cytoscape plugin that offers a user-friendly interface to create biological networks integrated from several databases. Users can create networks for ∼1500 organisms, including common model organisms and human. Currently supported databases include: DIP, BIND, Prolinks, KEGG, HPRD, The BioGrid and GO, among others. The BioNetBuilder plugin client is available as a Java Webstart, providing a platform-independent network interface to these public databases.Availability:Contact:iliana_avila-campillo@merck.com
+DA  - 2007/02/01/
+PY  - 2007
+DO  - 10.1093/bioinformatics/btl604
+DP  - Silverchair
+VL  - 23
+IS  - 3
+SP  - 392
+EP  - 393
+J2  - Bioinformatics
+SN  - 1367-4803
+ST  - BioNetBuilder
+UR  - https://doi.org/10.1093/bioinformatics/btl604
+Y2  - 2022/12/29/21:06:06
+L1  - https://academic.oup.com/bioinformatics/article-pdf/23/3/392/646248/btl604.pdf
+L2  - https://academic.oup.com/bioinformatics/article/23/3/392/236134?maxtoshow=&HITS=&hits=&RESULTFORMAT=1&andorexacttitle=and&fulltext=ingenuity+pathways+analysis&andorexactfulltext=and&searchid=1&FIRSTINDEX=20&sortspec=relevance&fdate=//&resourcetype=HW
+ER  - 
+
+TY  - BOOK
+TI  - Genome-wide structural and functional protein characterization by ab initio protein structure prediction
+AU  - Malmström, Lars
+T2  - Report / Department of Electrical Measurements. Lund Institute of Technology
+CY  - Lund
+DA  - 2005///
+PY  - 2005
+DP  - K10plus ISBN
+LA  - eng
+M1  - 2005,4
+PB  - Dept. of Electrical Measurements, Lund Inst. of Technology, Lund Univ
+SN  - 978-91-628-6689-1
+UR  - http://lars.malmstroem.net/lars.malmstroem.thesis.no_articles.pdf
+ER  - 
+
