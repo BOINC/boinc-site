@@ -1,38 +1,4 @@
 TY  - JOUR
-TI  - The AutoDock suite at 30
-AU  - Goodsell, David S.
-AU  - Sanner, Michel F.
-AU  - Olson, Arthur J.
-AU  - Forli, Stefano
-T2  - Protein Science: A Publication of the Protein Society
-AB  - The AutoDock suite provides a comprehensive toolset for computational ligand docking and drug design and development. The suite builds on 30 years of methods development, including empirical free energy force fields, docking engines, methods for site prediction, and interactive tools for visualization and analysis. Specialized tools are available for challenging systems, including covalent inhibitors, peptides, compounds with macrocycles, systems where ordered hydration plays a key role, and systems with substantial receptor flexibility. All methods in the AutoDock suite are freely available for use and reuse, which has engendered the continued growth of a diverse community of primary users and third-party developers.
-DA  - 2021/01//
-PY  - 2021
-DO  - 10.1002/pro.3934
-DP  - PubMed
-VL  - 30
-IS  - 1
-SP  - 31
-EP  - 43
-J2  - Protein Sci
-LA  - eng
-SN  - 1469-896X
-L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7737764/pdf/PRO-30-31.pdf
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/32808340
-KW  - active site prediction
-KW  - AutoDock
-KW  - computational docking
-KW  - computer-aided drug design
-KW  - Drug Design
-KW  - force field
-KW  - Molecular Docking Simulation
-KW  - peptide-docking
-KW  - Peptides
-KW  - Proteins
-KW  - Software
-ER  - 
-
-TY  - JOUR
 TI  - Novel Intersubunit Interaction Critical for HIV-1 Core Assembly Defines a Potentially Targetable Inhibitor Binding Pocket
 AU  - Craveur, Pierrick
 AU  - Gres, Anna T.
@@ -48,24 +14,10 @@ AU  - Olson, Arthur J.
 T2  - mBio
 A2  - Smithgall, Thomas E.
 AB  - Precise assembly and disassembly of the HIV-1 capsid core are key to the success of viral replication. The forces that govern capsid core formation and dissociation involve intricate interactions between pentamers and hexamers formed by HIV-1 CA. We identified one particular interaction between E28 of one CA and K30′ of the adjacent CA that appears more frequently in pentamers than in hexamers and that is important for capsid assembly. Targeting the corresponding site could lead to the development of antivirals which disrupt this interaction and affect capsid assembly.
-          , 
-            ABSTRACT
-            
-              HIV-1 capsid protein (CA) plays critical roles in both early and late stages of the viral replication cycle. Mutagenesis and structural experiments have revealed that capsid core stability significantly affects uncoating and initiation of reverse transcription in host cells. This has led to efforts in developing antivirals targeting CA and its assembly, although none of the currently identified compounds are used in the clinic for treatment of HIV infection. A specific interaction that is primarily present in pentameric interfaces in the HIV-1 capsid core was identified and is reported to be important for CA assembly. This is shown by multidisciplinary characterization of CA site-directed mutants using biochemical analysis of virus-like particle formation, transmission electron microscopy of
-              in vitro
-              assembly, crystallographic studies, and molecular dynamic simulations. The data are consistent with a model where a hydrogen bond between CA residues E28 and K30′ from neighboring N-terminal domains (CA
-              NTD
-              s) is important for CA pentamer interactions during core assembly. This pentamer-preferred interaction forms part of an
-              N
-              -terminal
-              d
-              omain
-              i
-              nterface (NDI) pocket that is amenable to antiviral targeting.
-            
-            
-              IMPORTANCE
-              Precise assembly and disassembly of the HIV-1 capsid core are key to the success of viral replication. The forces that govern capsid core formation and dissociation involve intricate interactions between pentamers and hexamers formed by HIV-1 CA. We identified one particular interaction between E28 of one CA and K30′ of the adjacent CA that appears more frequently in pentamers than in hexamers and that is important for capsid assembly. Targeting the corresponding site could lead to the development of antivirals which disrupt this interaction and affect capsid assembly.
+ABSTRACT
+HIV-1 capsid protein (CA) plays critical roles in both early and late stages of the viral replication cycle. Mutagenesis and structural experiments have revealed that capsid core stability significantly affects uncoating and initiation of reverse transcription in host cells. This has led to efforts in developing antivirals targeting CA and its assembly, although none of the currently identified compounds are used in the clinic for treatment of HIV infection. A specific interaction that is primarily present in pentameric interfaces in the HIV-1 capsid core was identified and is reported to be important for CA assembly. This is shown by multidisciplinary characterization of CA site-directed mutants using biochemical analysis of virus-like particle formation, transmission electron microscopy of in vitro assembly, crystallographic studies, and molecular dynamic simulations. The data are consistent with a model where a hydrogen bond between CA residues E28 and K30′ from neighboring N-terminal domains (CA NTDs) is important for CA pentamer interactions during core assembly. This pentamer-preferred interaction forms part of an N -terminal domain interface (NDI) pocket that is amenable to antiviral targeting.
+IMPORTANCE
+Precise assembly and disassembly of the HIV-1 capsid core are key to the success of viral replication. The forces that govern capsid core formation and dissociation involve intricate interactions between pentamers and hexamers formed by HIV-1 CA. We identified one particular interaction between E28 of one CA and K30′ of the adjacent CA that appears more frequently in pentamers than in hexamers and that is important for capsid assembly. Targeting the corresponding site could lead to the development of antivirals which disrupt this interaction and affect capsid assembly.
 DA  - 2019/04/30/
 PY  - 2019
 DO  - 10.1128/mBio.02858-18
@@ -136,74 +88,6 @@ L1  - https://europepmc.org/articles/pmc4053500?pdf=render
 ER  - 
 
 TY  - JOUR
-TI  - Virtual Screening with AutoDock: Theory and Practice
-AU  - Cosconati, Sandro
-AU  - Forli, Stefano
-AU  - Perryman, Alex L.
-AU  - Harris, Rodney
-AU  - Goodsell, David S.
-AU  - Olson, Arthur J.
-T2  - Expert Opinion on Drug Discovery
-AB  - IMPORTANCE TO THE FIELD: Virtual screening is a computer-based technique for identifying promising compounds to bind to a target molecule of known structure. Given the rapidly increasing number of protein and nucleic acid structures, virtual screening continues to grow as an effective method for the discovery of new inhibitors and drug molecules. AREAS COVERED IN THIS REVIEW: We describe virtual screening methods that are available in the AutoDock suite of programs, and several of our successes in using AutoDock virtual screening in pharmaceutical lead discovery. WHAT THE READER WILL GAIN: A general overview of the challenges of virtual screening is presented, along with the tools available in the AutoDock suite of programs for addressing these challenges. TAKE HOME MESSAGE: Virtual screening is an effective tool for the discovery of compounds for use as leads in drug discovery, and the free, open source program AutoDock is an effective tool for virtual screening.
-DA  - 2010/06/01/
-PY  - 2010
-DO  - 10.1517/17460441.2010.484460
-DP  - PubMed
-VL  - 5
-IS  - 6
-SP  - 597
-EP  - 607
-J2  - Expert Opin Drug Discov
-LA  - eng
-SN  - 1746-045X
-ST  - Virtual Screening with AutoDock
-L1  - https://europepmc.org/articles/pmc3083070?pdf=render
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/21532931
-ER  - 
-
-TY  - JOUR
-TI  - A dynamic model of HIV integrase inhibition and drug resistance
-AU  - Perryman, Alex L.
-AU  - Forli, Stefano
-AU  - Morris, Garrett M.
-AU  - Burt, Catherine
-AU  - Cheng, Yuhui
-AU  - Palmer, Michael J.
-AU  - Whitby, Kevin
-AU  - McCammon, J. Andrew
-AU  - Phillips, Chris
-AU  - Olson, Arthur J.
-T2  - Journal of Molecular Biology
-AB  - Human immunodeficiency virus type 1 (HIV-1) integrase is one of three virally encoded enzymes essential for replication and, therefore, a rational choice as a drug target for the treatment of HIV-1-infected individuals. In 2007, raltegravir became the first integrase inhibitor approved for use in the treatment of HIV-infected patients, more than a decade since the approval of the first protease inhibitor (saquinavir, Hoffman La-Roche, 1995) and two decades since the approval of the first reverse transcriptase inhibitor (retrovir, GlaxoSmithKline, 1987). The slow progress toward a clinically effective HIV-1 integrase inhibitor can at least in part be attributed to a poor structural understanding of this key viral protein. Here we describe the development of a restrained molecular dynamics protocol that produces a more accurate model of the active site of this drug target. This model provides an advance on previously described models as it ensures that the catalytic DDE motif makes correct, monodentate interactions with the two active-site magnesium ions. Dynamic restraints applied to this coordination state create models with the correct solvation sphere for the metal ion complex and highlight the coordination sites available for metal-binding ligands. Application of appropriate dynamic flexibility to the core domain allowed the inclusion of multiple conformational states in subsequent docking studies. These models have allowed us to (1) explore the effects of key drug resistance mutations on the dynamic flexibility and conformational preferences of HIV integrase and to (2) study raltegravir binding in the context of these dynamic models of both wild type and the G140S/Q148H drug-resistant enzyme.
-DA  - 2010/03/26/
-PY  - 2010
-DO  - 10.1016/j.jmb.2010.01.033
-DP  - PubMed
-VL  - 397
-IS  - 2
-SP  - 600
-EP  - 615
-J2  - J Mol Biol
-LA  - eng
-SN  - 1089-8638
-L1  - https://europepmc.org/articles/pmc2846753?pdf=render
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/20096702
-KW  - Anti-HIV Agents
-KW  - Catalytic Domain
-KW  - Drug Resistance, Viral
-KW  - HIV Integrase
-KW  - HIV-1
-KW  - Humans
-KW  - Models, Biological
-KW  - Models, Molecular
-KW  - Molecular Dynamics Simulation
-KW  - Protein Binding
-KW  - Protein Conformation
-KW  - Pyrrolidinones
-KW  - Raltegravir Potassium
-ER  - 
-
-TY  - JOUR
 TI  - Fragment-Based Screen against HIV Protease
 AU  - Perryman, Alexander L.
 AU  - Zhang, Qing
@@ -237,38 +121,6 @@ KW  - multidrug resistance
 ER  - 
 
 TY  - JOUR
-TI  - AutoDock4 and AutoDockTools4: Automated docking with selective receptor flexibility
-AU  - Morris, Garrett M.
-AU  - Huey, Ruth
-AU  - Lindstrom, William
-AU  - Sanner, Michel F.
-AU  - Belew, Richard K.
-AU  - Goodsell, David S.
-AU  - Olson, Arthur J.
-T2  - Journal of Computational Chemistry
-AB  - We describe the testing and release of AutoDock4 and the accompanying graphical user interface AutoDockTools. AutoDock4 incorporates limited flexibility in the receptor. Several tests are reported here, including a redocking experiment with 188 diverse ligand-protein complexes and a cross-docking experiment using flexible sidechains in 87 HIV protease complexes. We also report its utility in analysis of covalently bound ligands, using both a grid-based docking method and a modification of the flexible sidechain technique.
-DA  - 2009/12//
-PY  - 2009
-DO  - 10.1002/jcc.21256
-DP  - PubMed
-VL  - 30
-IS  - 16
-SP  - 2785
-EP  - 2791
-J2  - J Comput Chem
-LA  - eng
-SN  - 1096-987X
-ST  - AutoDock4 and AutoDockTools4
-L1  - https://europepmc.org/articles/pmc2760638?pdf=render
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/19399780
-KW  - Ligands
-KW  - Models, Molecular
-KW  - Protein Binding
-KW  - Proteins
-KW  - Software
-ER  - 
-
-TY  - JOUR
 TI  - Analysis of HIV Wild-Type and Mutant Structures via in Silico Docking against Diverse Ligand Libraries
 AU  - Chang, Max W.
 AU  - Lindstrom, William
@@ -289,5 +141,111 @@ SN  - 1549-9596
 UR  - https://doi.org/10.1021/ci700044s
 Y2  - 2022/12/29/19:44:59
 L1  - https://pubs.acs.org/doi/pdf/10.1021/ci700044s
+ER  - 
+
+TY  - JOUR
+TI  - A Dynamic Model of HIV Integrase Inhibition and Drug Resistance
+AU  - Perryman, Alex L.
+AU  - Forli, Stefano
+AU  - Morris, Garrett M.
+AU  - Burt, Catherine
+AU  - Cheng, Yuhui
+AU  - Palmer, Michael J.
+AU  - Whitby, Kevin
+AU  - McCammon, J. Andrew
+AU  - Phillips, Chris
+AU  - Olson, Arthur J.
+T2  - Journal of Molecular Biology
+DA  - 2010/03//
+PY  - 2010
+DO  - 10.1016/j.jmb.2010.01.033
+DP  - DOI.org (Crossref)
+VL  - 397
+IS  - 2
+SP  - 600
+EP  - 615
+J2  - Journal of Molecular Biology
+LA  - en
+SN  - 00222836
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0022283610000793
+Y2  - 2022/12/30/10:05:24
+L1  - https://europepmc.org/articles/pmc2846753?pdf=render
+ER  - 
+
+TY  - JOUR
+TI  - AutoDock4 and AutoDockTools4: Automated docking with selective receptor flexibility
+AU  - Morris, Garrett M.
+AU  - Huey, Ruth
+AU  - Lindstrom, William
+AU  - Sanner, Michel F.
+AU  - Belew, Richard K.
+AU  - Goodsell, David S.
+AU  - Olson, Arthur J.
+T2  - Journal of Computational Chemistry
+DA  - 2009/12//
+PY  - 2009
+DO  - 10.1002/jcc.21256
+DP  - DOI.org (Crossref)
+VL  - 30
+IS  - 16
+SP  - 2785
+EP  - 2791
+J2  - J. Comput. Chem.
+LA  - en
+SN  - 01928651, 1096987X
+ST  - AutoDock4 and AutoDockTools4
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.21256
+Y2  - 2022/12/30/10:06:21
+L1  - https://europepmc.org/articles/pmc2760638?pdf=render
+ER  - 
+
+TY  - JOUR
+TI  - The <span style="font-variant:small-caps;">AutoDock</span> suite at 30
+AU  - Goodsell, David S.
+AU  - Sanner, Michel F.
+AU  - Olson, Arthur J.
+AU  - Forli, Stefano
+T2  - Protein Science
+DA  - 2021/01//
+PY  - 2021
+DO  - 10.1002/pro.3934
+DP  - DOI.org (Crossref)
+VL  - 30
+IS  - 1
+SP  - 31
+EP  - 43
+J2  - Protein Science
+LA  - en
+SN  - 0961-8368, 1469-896X
+ST  - The <span style="font-variant
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/pro.3934
+Y2  - 2022/12/30/10:07:07
+L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7737764/pdf/PRO-30-31.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Virtual Screening with AutoDock: Theory and Practice
+AU  - Cosconati, Sandro
+AU  - Forli, Stefano
+AU  - Perryman, Alex L
+AU  - Harris, Rodney
+AU  - Goodsell, David S
+AU  - Olson, Arthur J
+T2  - Expert Opinion on Drug Discovery
+DA  - 2010/06/01/
+PY  - 2010
+DO  - 10.1517/17460441.2010.484460
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 6
+SP  - 597
+EP  - 607
+J2  - Expert Opinion on Drug Discovery
+LA  - en
+SN  - 1746-0441, 1746-045X
+ST  - Virtual screening with AutoDock
+UR  - http://www.tandfonline.com/doi/full/10.1517/17460441.2010.484460
+Y2  - 2022/12/30/10:21:17
+L1  - https://europepmc.org/articles/pmc3083070?pdf=render
 ER  - 
 
