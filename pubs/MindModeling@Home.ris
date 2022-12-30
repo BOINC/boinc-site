@@ -59,32 +59,6 @@ UR  - http://link.springer.com/10.1007/s10588-011-9092-8
 Y2  - 2022/11/20/19:48:33
 ER  - 
 
-TY  - JOUR
-TI  - Faster than the speed of rejection: Object identification processes during visual search for multiple targets
-AU  - Godwin, Hayward J.
-AU  - Walenchok, Stephen C.
-AU  - Houpt, Joseph W.
-AU  - Hout, Michael C.
-AU  - Goldinger, Stephen D.
-T2  - Journal of Experimental Psychology: Human Perception and Performance
-AB  - When engaged in a visual search for two targets, participants are slower and less accurate in their responses, relative to their performance when searching for singular targets. Previous work on this “dual-target cost” has primarily focused on the breakdown of attentional guidance when looking for two items. Here, we investigated how object identification processes are affected by dual-target search. Our goal was to chart the speed at which distractors could be rejected, to assess whether dual-target search impairs object identification. To do so, we examined the capacity coefficient, which measures the speed at which decisions can be made, and provides a baseline of parallel performance against which to compare. We found that participants could search at or above this baseline, suggesting that dual-target search does not impair object identification abilities. We also found substantial differences in performance when participants were asked to search for simple versus complex images. Somewhat paradoxically, participants were able to reject complex images more rapidly than simple images. We suggest that this reflects the greater number of features that can be used to identify complex images, a finding that has important consequences for understanding object identification in visual search more generally. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
-DA  - 2015///
-PY  - 2015
-DO  - 10.1037/xhp0000036
-DP  - APA PsycNet
-VL  - 41
-SP  - 1007
-EP  - 1020
-SN  - 1939-1277
-ST  - Faster than the speed of rejection
-L1  - https://europepmc.org/articles/pmc4516661?pdf=render
-L2  - https://psycnet.apa.org/doiLanding?doi=10.1037%2Fxhp0000036
-KW  - Cognitive Processing Speed
-KW  - Dual Task Performance
-KW  - Object Recognition
-KW  - Visual Search
-ER  - 
-
 TY  - RPRT
 TI  - Mindmodeling@Home. . . and Anywhere Else You Have Idle Processors
 AU  - Harris, Jack
@@ -121,5 +95,30 @@ ST  - Combinatorics meets processing power
 UR  - https://www.researchgate.net/publication/228355649_Combinatorics_meets_processing_power_Large-scale_computational_resources_for_BRIMS
 L1  - https://www.researchgate.net/profile/Matthias-Scheutz/publication/228355649_Combinatorics_meets_processing_power_Large-scale_computational_resources_for_BRIMS/links/02e7e51d5b83b0dfc7000000/Combinatorics-meets-processing-power-Large-scale-computational-resources-for-BRIMS.pdf
 L4  - https://www.researchgate.net/publication/228355649_Combinatorics_meets_processing_power_Large-scale_computational_resources_for_BRIMS
+ER  - 
+
+TY  - JOUR
+TI  - Faster than the speed of rejection: Object identification processes during visual search for multiple targets.
+AU  - Godwin, Hayward J.
+AU  - Walenchok, Stephen C.
+AU  - Houpt, Joseph W.
+AU  - Hout, Michael C.
+AU  - Goldinger, Stephen D.
+T2  - Journal of Experimental Psychology: Human Perception and Performance
+DA  - 2015/08//
+PY  - 2015
+DO  - 10.1037/xhp0000036
+DP  - DOI.org (Crossref)
+VL  - 41
+IS  - 4
+SP  - 1007
+EP  - 1020
+J2  - Journal of Experimental Psychology: Human Perception and Performance
+LA  - en
+SN  - 1939-1277, 0096-1523
+ST  - Faster than the speed of rejection
+UR  - http://doi.apa.org/getdoi.cfm?doi=10.1037/xhp0000036
+Y2  - 2022/12/30/09:58:28
+L1  - https://europepmc.org/articles/pmc4516661?pdf=render
 ER  - 
 
