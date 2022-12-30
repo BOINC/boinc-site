@@ -1,44 +1,4 @@
 TY  - JOUR
-TI  - ImageMiner: a software system for comparative analysis of tissue microarrays using content-based image retrieval, high-performance computing, and grid technology
-AU  - Foran, David J.
-AU  - Yang, Lin
-AU  - Chen, Wenjin
-AU  - Hu, Jun
-AU  - Goodell, Lauri A.
-AU  - Reiss, Michael
-AU  - Wang, Fusheng
-AU  - Kurc, Tahsin
-AU  - Pan, Tony
-AU  - Sharma, Ashish
-AU  - Saltz, Joel H.
-T2  - Journal of the American Medical Informatics Association: JAMIA
-AB  - OBJECTIVE AND DESIGN: The design and implementation of ImageMiner, a software platform for performing comparative analysis of expression patterns in imaged microscopy specimens such as tissue microarrays (TMAs), is described. ImageMiner is a federated system of services that provides a reliable set of analytical and data management capabilities for investigative research applications in pathology. It provides a library of image processing methods, including automated registration, segmentation, feature extraction, and classification, all of which have been tailored, in these studies, to support TMA analysis. The system is designed to leverage high-performance computing machines so that investigators can rapidly analyze large ensembles of imaged TMA specimens. To support deployment in collaborative, multi-institutional projects, ImageMiner features grid-enabled, service-based components so that multiple instances of ImageMiner can be accessed remotely and federated.
-RESULTS: The experimental evaluation shows that: (1) ImageMiner is able to support reliable detection and feature extraction of tumor regions within imaged tissues; (2) images and analysis results managed in ImageMiner can be searched for and retrieved on the basis of image-based features, classification information, and any correlated clinical data, including any metadata that have been generated to describe the specified tissue and TMA; and (3) the system is able to reduce computation time of analyses by exploiting computing clusters, which facilitates analysis of larger sets of tissue samples.
-DA  - 2011///
-PY  - 2011
-DO  - 10.1136/amiajnl-2011-000170
-DP  - PubMed
-VL  - 18
-IS  - 4
-SP  - 403
-EP  - 415
-J2  - J Am Med Inform Assoc
-LA  - eng
-SN  - 1527-974X
-ST  - ImageMiner
-L1  - https://europepmc.org/articles/pmc3128405?pdf=render
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/21606133
-KW  - Data Mining
-KW  - Database Management Systems
-KW  - Humans
-KW  - Image Processing, Computer-Assisted
-KW  - Information Dissemination
-KW  - Software Design
-KW  - Tissue Array Analysis
-KW  - United States
-ER  - 
-
-TY  - JOUR
 TI  - Grid-Enabled, High-performance Microscopy Image Analysis
 AU  - Wang, Fusheng
 AB  - Grid-Enabled, High-performance Microscopy Image Analysis
@@ -74,45 +34,6 @@ SN  - 1089-7771
 UR  - http://ieeexplore.ieee.org/document/4814676/
 Y2  - 2022/12/29/20:48:30
 L1  - https://europepmc.org/articles/pmc3683401?pdf=render
-ER  - 
-
-TY  - JOUR
-TI  - PathMiner: a Web-based tool for computer-assisted diagnostics in pathology
-AU  - Yang, Lin
-AU  - Tuzel, Oncel
-AU  - Chen, Wenjin
-AU  - Meer, Peter
-AU  - Salaru, Gratian
-AU  - Goodell, Lauri A.
-AU  - Foran, David J.
-T2  - IEEE transactions on information technology in biomedicine: a publication of the IEEE Engineering in Medicine and Biology Society
-AB  - Large-scale, multisite collaboration has become indispensable for a wide range of research and clinical activities that rely on the capacity of individuals to dynamically acquire, share, and assess images and correlated data. In this paper, we report the development of a Web-based system, PathMiner , for interactive telemedicine, intelligent archiving, and automated decision support in pathology. The PathMiner system supports network-based submission of queries and can automatically locate and retrieve digitized pathology specimens along with correlated molecular studies of cases from "ground-truth" databases that exhibit spectral and spatial profiles consistent with a given query image. The statistically most probable diagnosis is provided to the individual who is seeking decision support. To test the system under real-case scenarios, a pipeline infrastructure was developed and a network-based test laboratory was established at strategic sites at the University of Medicine and Dentistry of New Jersey-Robert Wood Johnson Medical School, Robert Wood Johnson University Hospital, the University of Pennsylvania School of Medicine, Hospital of the University of Pennsylvania, The Cancer Institute of New Jersey, and Rutgers University. The average five-class classification accuracy of the system was 93.18% based on a tenfold cross validation on a close dataset containing 3691 imaged specimens. We also conducted prospective performance studies with the PathMiner system in real applications in which the specimens exhibited large variations in staining characters compared with the training data. The average five-class classification accuracy in this open-set experiment was 87.22%. We also provide the comparative results with the previous literature and the PathMiner system shows superior performance.
-DA  - 2009/05//
-PY  - 2009
-DO  - 10.1109/TITB.2008.2008801
-DP  - PubMed
-VL  - 13
-IS  - 3
-SP  - 291
-EP  - 299
-J2  - IEEE Trans Inf Technol Biomed
-LA  - eng
-SN  - 1558-0032
-ST  - PathMiner
-L1  - https://europepmc.org/articles/pmc3683402?pdf=render
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/19171530
-KW  - Algorithms
-KW  - Artificial Intelligence
-KW  - Blood Cells
-KW  - Computer Communication Networks
-KW  - Diagnosis, Computer-Assisted
-KW  - Humans
-KW  - Image Interpretation, Computer-Assisted
-KW  - Information Storage and Retrieval
-KW  - Internet
-KW  - Models, Statistical
-KW  - Reproducibility of Results
-KW  - User-Computer Interface
 ER  - 
 
 TY  - JOUR
@@ -153,5 +74,62 @@ KW  - deoxyglucose
 KW  - glycolysis
 KW  - metabolism
 KW  - prostate cancer
+ER  - 
+
+TY  - JOUR
+TI  - ImageMiner: a software system for comparative analysis of tissue microarrays using content-based image retrieval, high-performance computing, and grid technology
+AU  - Foran, David J
+AU  - Yang, Lin
+AU  - Chen, Wenjin
+AU  - Hu, Jun
+AU  - Goodell, Lauri A
+AU  - Reiss, Michael
+AU  - Wang, Fusheng
+AU  - Kurc, Tahsin
+AU  - Pan, Tony
+AU  - Sharma, Ashish
+AU  - Saltz, Joel H
+T2  - Journal of the American Medical Informatics Association
+DA  - 2011/07//
+PY  - 2011
+DO  - 10.1136/amiajnl-2011-000170
+DP  - DOI.org (Crossref)
+VL  - 18
+IS  - 4
+SP  - 403
+EP  - 415
+J2  - J Am Med Inform Assoc
+LA  - en
+SN  - 1067-5027, 1527-974X
+ST  - ImageMiner
+UR  - https://academic.oup.com/jamia/article-lookup/doi/10.1136/amiajnl-2011-000170
+Y2  - 2022/12/30/10:26:04
+L1  - https://europepmc.org/articles/pmc3128405?pdf=render
+ER  - 
+
+TY  - JOUR
+TI  - PathMiner: A Web-Based Tool for Computer-Assisted Diagnostics in Pathology
+AU  - Lin Yang
+AU  - Tuzel, O.
+AU  - Wenjin Chen
+AU  - Meer, P.
+AU  - Salaru, G.
+AU  - Goodell, L.A.
+AU  - Foran, D.J.
+T2  - IEEE Transactions on Information Technology in Biomedicine
+DA  - 2009/05//
+PY  - 2009
+DO  - 10.1109/TITB.2008.2008801
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 3
+SP  - 291
+EP  - 299
+J2  - IEEE Trans. Inform. Technol. Biomed.
+SN  - 1089-7771
+ST  - PathMiner
+UR  - http://ieeexplore.ieee.org/document/4757270/
+Y2  - 2022/12/30/10:26:52
+L1  - https://europepmc.org/articles/pmc3683402?pdf=render
 ER  - 
 
