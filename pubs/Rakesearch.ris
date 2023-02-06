@@ -1,41 +1,139 @@
-TY  - CHAP
+TY  - CONF
+TI  - Searching for Orthogonal Latin Squares via Cells Mapping and BOINC-Based Cube-and-Conquer
+AU  - Vatutin, Eduard
+AU  - Zaikin, Oleg
+AU  - Manzyuk, Maxim
+AU  - Nikitina, Natalia
+A2  - Voevodin, Vladimir
+A2  - Sobolev, Sergey
+T3  - Communications in Computer and Information Science
+AB  - This study focuses on searching for pairs of orthogonal diagonal Latin squares of order 10. Consider a cells mapping in accordance to which one diagonal Latin square is mapped to another one. Given a certain cells mapping schema, the problem is to find a pair of orthogonal diagonal Latin squares of order 10 such that they match the schema (or to prove that such a pair does not exist). The problem is reduced to the Boolean satisfiability problem (SAT). Three mapping schemes are considered, and for each of them a SAT instance is constructed. If a satisfying assignment is found for an instance, the corresponding pair of orthogonal Latin squares can be easily extracted from it. The Cube-and-Conquer approach is used to solve the instances. The cubing phase is performed on a sequential look-ahead SAT solver, while on the conquer phase an experiment in a BOINC-based volunteer computing project is launched. In the experiment, for two out of three schemes orthogonal pairs are found.
+C1  - Cham
+C3  - Supercomputing
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-92864-3_38
+DP  - Springer Link
+SP  - 498
+EP  - 512
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-92864-3
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-92864-3_38
+KW  - BOINC
+KW  - Cube-and-Conquer
+KW  - Latin square
+KW  - MOLS
+KW  - SAT
+KW  - Volunteer computing
+ER  - 
+
+TY  - CONF
+TI  - Enumerating the Orthogonal Diagonal Latin Squares of Small Order for Different Types of Orthogonality
+AU  - Vatutin, Eduard
+AU  - Belyshev, Alexey
+A2  - Voevodin, Vladimir
+A2  - Sobolev, Sergey
+T3  - Communications in Computer and Information Science
+AB  - The article describes computational experiments aimed to enumerating the number of orthogonal diagonal Latin squares for general and special types of orthogonality. General type of orthogonality can be verified using Euler-Parker method, corresponding the number of main classes of orthogonal diagonal Latin squares, the number of normalized orthogonal diagonal Latin squares and total number of orthogonal diagonal Latin squares of general type form previously unknown numerical series A330391, A305570 and A305571 (calculated up to order 8) has been added to OEIS. Self-orthogonal (SODLS), doubly self-orthogonal (DSODLS) and extended self-orthogonal diagonal Latin squares (ESODLS) form the set of special types of orthogonality. For each of these types corresponding numerical series was calculated and published in OEIS with numbers A329685, A287761, A287762 (SODLS, up to order 10), A333366, A333367, A333671 (DSODLS, up to order 10) and A309210, A309598, A309599 (ESODLS, up to order 8). Values for orders 1–8 were obtained by analyzing the complete lists of canonical forms of the main classes of orthogonal DLSs obtained by the authors by exhaustive search. Values for order 9 were derived from the SODLS list of order 9 provided by Harry White. Values for order 10 were obtained by analyzing the list of SOLS of order 10, available online (van Vuuren et al.). The values obtained confirm the similar values for SODLS and DSODLS obtained previously by Francis Gaspalou and partially published by Harry White. For some of the obtained numerical values previously unknown mathematical relations are empirically established.
+C1  - Cham
+C3  - Supercomputing
+DA  - 2020///
+PY  - 2020
+DO  - 10.1007/978-3-030-64616-5_50
+DP  - Springer Link
+SP  - 586
+EP  - 597
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-64616-5
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-64616-5_50
+KW  - BOINC
+KW  - Combinatorics
+KW  - Desktop grid
+KW  - Doubly self-orthogonal diagonal Latin squares
+KW  - Gerasim@Home
+KW  - Integer sequences
+KW  - OEIS
+KW  - Orthogonal diagonal Latin squares
+KW  - Self-orthogonal diagonal Latin squares
+KW  - Volunteer computing
+ER  - 
+
+TY  - CONF
+TI  - Replication of “Tail” Computations in a Desktop Grid Project
+AU  - Ivashko, Evgeny
+AU  - Nikitina, Natalia
+A2  - Voevodin, Vladimir
+A2  - Sobolev, Sergey
+T3  - Communications in Computer and Information Science
+AB  - The paper addresses the problem of accelerating the “tail” stage of a computational experiment in a Desktop Grid. We provide the mathematical model of a “tail” stage, describe the setting of simulation experiments and provide their results. Task replication in “tail” phase proves to be efficient in decreasing the duration of “tail” by orders of magnitude.
+C1  - Cham
+C3  - Supercomputing
+DA  - 2020///
+PY  - 2020
+DO  - 10.1007/978-3-030-64616-5_52
+DP  - Springer Link
+SP  - 611
+EP  - 621
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-64616-5
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-64616-5_52
+KW  - BOINC
+KW  - Desktop Grid
+KW  - Replication
+KW  - Volunteer computing
+ER  - 
+
+TY  - CONF
 TI  - Start-up and the Results of the Volunteer Computing Project RakeSearch
 AU  - Manzyuk, Maxim
 AU  - Nikitina, Natalia
 AU  - Vatutin, Eduard
-T2  - Supercomputing
 A2  - Voevodin, Vladimir
 A2  - Sobolev, Sergey
-CY  - Cham
+T3  - Communications in Computer and Information Science
+AB  - In this paper we describe the experience of setting up a computational infrastructure based on BOINC middleware and running a volunteer computing project on its basis. The project is aimed at characterizing the space of diagonal Latin squares of order 9 in the form of an ensemble of orthogonality graphs, previously not addressed. We implement the search for row-permutational squares orthogonal to an initial one, which allows to reconstruct the full graphs. We provide the developed application to search for orthogonal pairs of the squares and describe the obtained results. The results prove the efficiency of volunteer computing in unveiling the structure of the space of diagonal Latin squares.
+C1  - Cham
+C3  - Supercomputing
 DA  - 2019///
 PY  - 2019
-DP  - DOI.org (Crossref)
-VL  - 1129
+DO  - 10.1007/978-3-030-36592-9_59
+DP  - Springer Link
 SP  - 725
 EP  - 734
 LA  - en
 PB  - Springer International Publishing
-SN  - 978-3-030-36591-2 978-3-030-36592-9
+SN  - 978-3-030-36592-9
 UR  - http://link.springer.com/10.1007/978-3-030-36592-9_59
-Y2  - 2022/12/28/22:42:17
+KW  - BOINC
+KW  - Desktop Grid
+KW  - Orthogonal diagonal Latin squares
+KW  - Orthogonality graph
+KW  - Volunteer computing
 ER  - 
 
-TY  - CHAP
+TY  - CONF
 TI  - On Sharing Workload in Desktop Grids
 AU  - Chernov, Ilya
-T2  - Supercomputing
 A2  - Voevodin, Vladimir
 A2  - Sobolev, Sergey
-CY  - Cham
+T3  - Communications in Computer and Information Science
+AB  - We consider two optimization problems of trade-off between risk of not getting an answer (due to failures or errors) and precision or accuracy in Desktop Grid computing. Quite simple models are general enough to be applicable for optimizing real systems. We support the made assumptions by statistics collected in a Desktop Grid computing project.
+C1  - Cham
+C3  - Supercomputing
 DA  - 2019///
 PY  - 2019
-DP  - DOI.org (Crossref)
-VL  - 965
+DO  - 10.1007/978-3-030-05807-4_51
+DP  - Springer Link
 SP  - 599
 EP  - 608
+LA  - en
 PB  - Springer International Publishing
-SN  - 978-3-030-05806-7 978-3-030-05807-4
-UR  - http://link.springer.com/10.1007/978-3-030-05807-4_51
-Y2  - 2022/12/28/22:43:39
+SN  - 978-3-030-05807-4
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-05807-4_51
+KW  - Desktop Grid
+KW  - Distributed computing
+KW  - Optimal work share
 ER  - 
-
