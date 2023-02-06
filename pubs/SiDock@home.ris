@@ -1,0 +1,162 @@
+TY  - CONF
+TI  - Optimization of the Workflow in a BOINC-Based Desktop Grid for Virtual Drug Screening
+AU  - Nikitina, Natalia
+AU  - Ivashko, Evgeny
+A2  - Voevodin, Vladimir
+A2  - Sobolev, Sergey
+A2  - Yakobovskiy, Mikhail
+A2  - Shagaliev, Rashit
+T3  - Lecture Notes in Computer Science
+AB  - This paper presents an analysis of a BOINC-based volunteer computing project SiDock@home. The project implements virtual drug screening. We analyse the employed workflow describing the processes of task generation, results creation, validation and assimilation. Basing on this analysis, we propose an optimized workflow aimed at minimization of computing intensity and scaling up the granularity of the results.
+C1  - Cham
+C3  - Supercomputing
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-22941-1_50
+DP  - Springer Link
+SP  - 686
+EP  - 698
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-031-22941-1
+UR  - https://link.springer.com/chapter/10.1007/978-3-031-22941-1_50
+KW  - BOINC
+KW  - Desktop grid
+KW  - Distributed computing
+KW  - Molecular docking
+KW  - Task scheduling
+KW  - Virtual screening
+KW  - Volunteer computing
+ER  - 
+
+TY  - CONF
+TI  - Bioinformatic and MD Analysis of N501Y SARS-CoV-2 (UK) Variant
+AU  - Jukić, Marko
+AU  - Kralj, Sebastjan
+AU  - Nikitina, Natalia
+AU  - Bren, Urban
+A2  - Byrski, Aleksander
+A2  - Czachórski, Tadeusz
+A2  - Gelenbe, Erol
+A2  - Grochla, Krzysztof
+A2  - Murayama, Yuko
+T3  - IFIP Advances in Information and Communication Technology
+AB  - COVID-19 is a disease caused by severe acute respiratory syndrome coronavirus 2 or SARS-CoV-2 pathogen. Although a number of new vaccines are available to combat this threat, a high prevalence of novel mutant viral variants is observed in all world regions affected by this infection. Among viral proteomes, the highly glycosylated spike protein (Sprot) of SARS-CoV-2 has received the most attention due to its interaction with the host receptor ACE2. To understand the mechanisms of viral variant infectivity and the interaction of the RBD of Sprot with the host ACE2, we performed a large-scale mutagenesis study of the RBD-ACE2 interface by performing 1780 point mutations in silico and identifying the ambiguous stabilisation of the interface by the most common point mutations described in the literature. Furthermore, we pinpointed the N501Y mutation at the RBD of Sprot as profoundly affecting complex formation and confirmed greater stability of the N501Y mutant compared to wild-type (WT) viral S protein by molecular dynamics experiments. These findings could be important for the study and design of upcoming vaccines, PPI inhibitor molecules, and therapeutic antibodies or antibody mimics.
+C1  - Cham
+C3  - Computer Science Protecting Human Society Against Epidemics
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-86582-5_1
+DP  - Springer Link
+SP  - 1
+EP  - 13
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-86582-5
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-86582-5_1
+KW  - COVID-19
+KW  - Drug design
+KW  - Point mutation
+KW  - Protein-protein interactions
+KW  - SARS-CoV-2
+KW  - SARS-CoV-2 variants
+ER  - 
+
+TY  - CONF
+TI  - Volunteer Computing Project SiDock@home for Virtual Drug Screening Against SARS-CoV-2
+AU  - Nikitina, Natalia
+AU  - Manzyuk, Maxim
+AU  - Podlipnik, Črtomir
+AU  - Jukić, Marko
+A2  - Byrski, Aleksander
+A2  - Czachórski, Tadeusz
+A2  - Gelenbe, Erol
+A2  - Grochla, Krzysztof
+A2  - Murayama, Yuko
+T3  - IFIP Advances in Information and Communication Technology
+AB  - In this paper, we describe a volunteer computing project SiDock@home aimed at high-throughput virtual screening of a specially developed library of small compounds against a set of targets playing important roles in the life-cycle of the virus. The originality of the screening library and the molecular docking software allows us to obtain new knowledge about chemical space in relation to SARS-CoV-2. At the same time, the existing volunteer computing community provides us with a large computational power. Having risen to a size of a modern supercomputer in several months, SiDock@home becomes an independent general drug discovery project, with its first mission targeting SARS-CoV-2.
+C1  - Cham
+C3  - Computer Science Protecting Human Society Against Epidemics
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-86582-5_3
+DP  - Springer Link
+SP  - 23
+EP  - 34
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-86582-5
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-86582-5_3
+KW  - BOINC
+KW  - Desktop grid
+KW  - Distributed computing
+KW  - Molecular docking
+KW  - SARS-CoV-2
+KW  - Virtual screening
+KW  - Volunteer computing
+ER  - 
+
+TY  - CONF
+TI  - Performance Estimation of a BOINC-Based Desktop Grid for Large-Scale Molecular Docking
+AU  - Nikitina, Natalia
+AU  - Manzyuk, Maxim
+AU  - Podlipnik, Črtomir
+AU  - Jukić, Marko
+A2  - Malyshkin, Victor
+T3  - Lecture Notes in Computer Science
+AB  - This paper addresses the performance evaluation of a heterogeneous distributed computing environment (Desktop Grid) for large-scale medicinal chemistry experiments in silico. Dynamic change of the set of computational nodes, their heterogeneity and unreliability impose difficulties on task scheduling and algorithm scaling. We analyze the performance, provide efficiency metrics, statistics and analysis of the volunteer computing project SiDock@home.
+C1  - Cham
+C3  - Parallel Computing Technologies
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-86359-3_26
+DP  - Springer Link
+SP  - 348
+EP  - 356
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-86359-3
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-86359-3_26
+KW  - BOINC
+KW  - Desktop Grid
+KW  - Distributed computing
+KW  - Molecular docking
+KW  - Task scheduling
+KW  - Virtual screening
+KW  - Volunteer computing
+ER  - 
+
+TY  - CONF
+TI  - Toward Crowdsourced Drug Discovery: Start-Up of the Volunteer Computing Project SiDock@home
+AU  - Nikitina, Natalia
+AU  - Manzyuk, Maxim
+AU  - Jukić, Marko
+AU  - Podlipnik, Črtomir
+AU  - Kurochkin, Ilya
+AU  - Albertian, Alexander
+A2  - Voevodin, Vladimir
+A2  - Sobolev, Sergey
+T3  - Communications in Computer and Information Science
+AB  - In this paper, we describe the experience of setting up a computational infrastructure based on BOINC middleware and running a volunteer computing project on its basis. We characterize the first series of computational experiments and review the project’s development in its first six months. The gathered experience shows that BOINC-based Desktop Grids allow to efficiently aid drug discovery at its early stages.
+C1  - Cham
+C3  - Supercomputing
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-92864-3_39
+DP  - Springer Link
+SP  - 513
+EP  - 524
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-92864-3
+ST  - Toward Crowdsourced Drug Discovery
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-92864-3_39
+KW  - BOINC
+KW  - Desktop Grid
+KW  - Distributed computing
+KW  - Molecular docking
+KW  - SARS-CoV-2
+KW  - Virtual drug screening
+KW  - Volunteer computing
+ER  - 
+
