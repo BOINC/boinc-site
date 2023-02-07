@@ -151,3 +151,82 @@ UR  - http://journals.sagepub.com/doi/10.1177/1094342016662508
 Y2  - 2022/12/23/21:32:06
 ER  - 
 
+TY  - CONF
+TI  - Discovering Candidates for Gene Network Expansion by Distributed Volunteer Computing
+AU  - Asnicar, Francesco
+AU  - Erculiani, Luca
+AU  - Galante, Francesca
+AU  - Gallo, Caterina
+AU  - Masera, Luca
+AU  - Morettin, Paolo
+AU  - Sella, Nadir
+AU  - Semeniuta, Stanislau
+AU  - Tolio, Thomas
+AU  - Malacarne, Giulia
+AU  - Engelen, Kristof
+AU  - Argentini, Andrea
+AU  - Cavecchia, Valter
+AU  - Moser, Claudio
+AU  - Blanzieri, Enrico
+T2  - 2015 IEEE Trustcom/BigDataSE/ISPA
+C1  - Helsinki, Finland
+C3  - 2015 IEEE Trustcom/BigDataSE/ISPA
+DA  - 2015/08//
+PY  - 2015
+DO  - 10.1109/Trustcom.2015.640
+DP  - DOI.org (Crossref)
+SP  - 248
+EP  - 253
+PB  - IEEE
+SN  - 978-1-4673-7952-6
+UR  - http://ieeexplore.ieee.org/document/7345656/
+Y2  - 2023/02/07/12:20:28
+ER  - 
+
+TY  - JOUR
+TI  - Discovering candidates for gene network expansion by variable subsetting and ranking aggregation
+AU  - Erculiani, Luca
+AU  - Galante, Francesca
+AU  - Gallo, Caterina
+AU  - Asnicar, Francesco
+AU  - Masera, Luca
+AU  - Morettin, Paolo
+AU  - Sella, Nadir
+AU  - Tolio, Thomas
+AU  - Malacarne, Giulia
+AU  - Engelen, Kristof
+AU  - Argentini, Andrea
+AU  - Cavecchia, Valter
+AU  - Moser, Claudio
+AU  - Blanzieri, Enrico
+DA  - 2015///
+PY  - 2015
+DO  - 10.7490/F1000RESEARCH.1110311.1
+DP  - DOI.org (Datacite)
+UR  - http://f1000research.com/posters/4-562
+Y2  - 2023/02/07/12:21:51
+ER  - 
+
+TY  - CONF
+TI  - TN-Grid and gene@home project: volunteer computing for bioinformatics
+AU  - Asnicar, F.
+AU  - Sella, Nadir
+AU  - Masera, L.
+AU  - Morettin, Paolo
+AU  - Tolio, T.
+AU  - Semeniuta, Stanislau
+AU  - Moser, C.
+AU  - Blanzieri, E.
+AU  - Cavecchia, Valter
+T2  - International Conference on High Performance Computing
+AB  - The ability to reconstruct and find genes that belong or are connected to a gene regulatory network is of essential importance in biology, in order to understand how the biological processes of an organism work. The main limitation in performing gene network expansion is related to the huge amount of computations needed to discover new candidate genes. Given these premises we decided to adopt the BOINC platform that allows us to use the very powerful computational resources of the volunteers. We set up a BOINC server in which we developed a specific work generator that implements our gene network expansion algorithm. Furthermore, we developed an ad hoc version of the PC algorithm (PC++) able to run in the BOINC environment, on the client computers. We present and discuss some statistics and preliminary scientific results of the gene@home BOINC project, the first one hosted by the TN-Grid infrastructure.
+DA  - 2015///
+PY  - 2015
+DP  - Semantic Scholar
+ST  - TN-Grid and gene@home project
+UR  - https://www.semanticscholar.org/paper/TN-Grid-and-gene%40home-project%3A-volunteer-computing-Asnicar-Sella/e9fa0174faa804a3d9673a73530e0e8f66633916
+Y2  - 2023/02/07/12:50:06
+L1  - http://ceur-ws.org/Vol-1502/paper1.pdf
+L2  - https://www.semanticscholar.org/paper/TN-Grid-and-gene%40home-project%3A-volunteer-computing-Asnicar-Sella/e9fa0174faa804a3d9673a73530e0e8f66633916
+ER  - 
+
