@@ -1,6 +1,7 @@
 <?php
-require_once("docutil.php");
-old_page_head("Sandbox design");
+require_once("../inc/util.inc");
+
+page_head("Sandbox design");
 
 echo "
 This document describes the permissions structure for 

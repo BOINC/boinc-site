@@ -190,7 +190,7 @@ function show_platform($short_name, $p, $dev) {
         $url = $p["url"];
         $long_name .= " <a href=$url><span class=description>details</span></a>";
     }
-    row1("<center>$long_name<br><small>$description</small></center>", 99, "bg-primary");
+    row1("<center><font size=+2>$long_name</font><br><small>$description</small></center>", 99, "bg-primary");
     foreach ($p["versions"] as $i=>$v) {
         if ($min_version && version_compare($v['num'], $min_version, "<")) continue;
         if ($max_version && version_compare($v['num'], $max_version, ">")) continue;

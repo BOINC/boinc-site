@@ -453,6 +453,18 @@ $mixed = array(
 //            "",
 //            array(KW_AMERICAS, KW_US)
 //        ),
+        project(
+            PROJ_CENTRAL,
+            "BOINC Central",
+            "https://boinc.berkeley.edu/central/",
+            "University of California, Berkeley",
+            "Multiple science areas",
+            "BOINC Central provides computing power to scientists from multiple institutions",
+            "",
+            "",
+            "Support scientists from multiple institutions",
+            array(KW_AMERICAS, KW_US, KW_BIOMED)
+        ),
     ),
 );
 $math = array(

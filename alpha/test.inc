@@ -22,14 +22,15 @@ $platforms_mac = array(
     //array("mac1008", "Mac OS X 10.8", 1, "mac"),
     //array("mac1009", "Mac OS X 10.9", 1, "mac"),
     //array("mac1010", "Mac OS X 10.10", 1, "mac"),
-    array("mac1011", "Mac OS X 10.11", 1, "mac"),
-    array("mac1012", "Mac OS X 10.12", 1, "mac"),
+    //array("mac1011", "Mac OS X 10.11", 1, "mac"),
+    //array("mac1012", "Mac OS X 10.12", 1, "mac"),
     array("mac1013", "Mac OS X 10.13", 2, "mac"),
     array("mac1014", "Mac OS X 10.14", 2, "mac"),
     array("mac1015", "Mac OS X 10.15", 3, "mac"),
     array("mac1100intel", "MacOS 11 Intel", 3, "mac"),
     array("mac1100arm64", "MacOS 11 Apple Silicon", 3, "mac"),
     array("mac1200", "MacOS 12 (Intel and Apple Silicon)", 3, "mac"),
+    array("mac1300", "MacOS 13 (Intel and Apple Silicon)", 3, "mac"),
 );
 
 $platforms_linux = array(

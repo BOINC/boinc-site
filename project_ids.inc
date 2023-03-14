@@ -56,6 +56,7 @@ define('PROJ_ITHENA',          50);
 define('PROJ_SIDOCK',          51);
 define('PROJ_RAMANUJAN',        52);
 define('PROJ_LODA',             53);
+define('PROJ_CENTRAL',         54);
 define('PROJ_SCIENCE_UNITED',  101);
 
 ?>

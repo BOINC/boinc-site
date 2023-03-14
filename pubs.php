@@ -167,28 +167,31 @@ function year_cmp($x, $y) {
 }
 
 function show_proj($p) {
-    foreach ($p as $proj=>$pubs) {
-        echo "<a href=#$proj>$proj</a> | ";
-    }
-
-    
+    echo "\n<table><tr><td valign=top>\n";
+    text_start();
     foreach ($p as $proj=>$pubs) {
         echo "<a name=$proj></a>";
         echo "<h3>$proj</h3>\n";
         echo "<ol>";
         usort($pubs, 'year_cmp');
         foreach ($pubs as $pub) {
-            echo "<li>";
+            echo "\n<li>";
             show_pub($pub);
         }
         echo "</ol>";
     }
+    text_end();
+    echo "\n</td><td width=10%></td><td valign=top>\n";
+    foreach ($p as $proj=>$pubs) {
+        echo "<li><a href=#$proj>$proj</a>\n";
+    }
+    echo "\n</td></tr></table>\n";
+
 }
 
 function main($years) {
     $p = read_pubs();
     page_head("Publications by BOINC Projects");
-    text_start();
     echo "
         <p>
         Our intent is to list papers containing
@@ -196,19 +199,20 @@ function main($years) {
         from BOINC-based computing.
         Please report any issues
         <a href=https://github.com/BOINC/boinc-site>here</a>.
-        Thanks to Alex Pliskun for maintain this list.
+        Thanks to Alex Piskun for maintaining this list.
         <hr>
         <p>
     ";
     echo "<font size=+2>Group by ";
     if ($years) {
+    text_start();
         echo"<a href=pubs.php>project</a> &middot; year</font><p>";
         show_years($p);
+    text_end();
     } else {
         echo "project &middot; <a href=pubs.php?years=1>year</a></font><p>";
         show_proj($p);
     }
-    text_end();
     page_tail();
 }
 

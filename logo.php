@@ -1,7 +1,7 @@
 <?php
-require_once("docutil.php");
+require_once("../inc/util.inc");
 
-old_page_head("Logos and graphics");
+page_head("Logos and graphics");
 
 function art_list_head() {
     echo "
@@ -23,23 +23,23 @@ function art_list_show($logos) {
     }
 }
 
+text_start();
 echo "
 
 <h2>The BOINC logo</h2>
 
-The BOINC logo and associated icons were designed by Michal Krakowiak.
-Its arms represent the convergence of separated things
-(such as computers) into a unified whole.
-The colors are based on U.C. Berkeley's blue-and-gold colors.
 <p>
+<img src=logo/boinc_600.jpg width=360>
+<p>
+<p>
+<font size=+1>
 The BOINC logo and its variants are copyright (C) University of California.
-If you use one of them in a web page,
+If you use one of these images in a web page or other medium,
 you must link it to the BOINC web site
-(currently https://boinc.berkeley.edu)
-or display this URL near the image.
+(currently <u>https://boinc.berkeley.edu</u>)
+or display that URL next to the image.
+</font>
 <p>
-The other volunteer-supplied images on this page are owned by
-their respective creators; contact them for license info.
 <ul>
 <li> <a href=logo/www_logo.gif>164x73 version (GIFF)</a>
 <li> <a href=logo/boinc_600.jpg>600x305 version (JPEG)</a>
@@ -78,7 +78,15 @@ Monochrome/black:
 <img src=logo/boinc_watermark.png>
 
 <p>
+The BOINC logo and associated icons were designed by Michal Krakowiak.
+Its arms represent the convergence of separated things
+(such as computers) into a unified whole.
+The colors are based on U.C. Berkeley's blue-and-gold colors.
+<p>
 
+The other volunteer-supplied images on this page are owned by
+their respective creators; contact them for license info.
+<p>
 <a name=wallpaper></a>
 Wallpaper:
 <p>
@@ -314,5 +322,6 @@ The Latin text means 'Berkeley open and shared resources'.
 
 ";
 
-old_page_tail();
+text_end();
+page_tail();
 ?>
