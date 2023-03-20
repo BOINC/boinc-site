@@ -39,7 +39,7 @@ function linux_info() {
     return "Tested on the current Ubuntu distribution; may work on others.
     <br>These versions may not be current.
     We recommend that instead you
-    <a href=https://boinc.berkeley.edu/wiki/Installing_BOINC#Linux>
+    <a href=https://boinc.berkeley.edu/wiki/Installing_on_Linux>
     install BOINC using a package manager, run it using Docker,
     or use a bootable ISO image</a>.
     ";

@@ -42,19 +42,17 @@ function show_download($client_info, $pname) {
         <table cellpadding=10><tr><td valign=top>
         <p>
     ";
+    text_start();
     echo tra("BOINC is a program that lets you donate your idle computer time to science projects like Climateprediction.net, Rosetta@home, GPUGrid, and many others.");
     echo "\n";
     echo tra("After installing BOINC on your computer, you can connect it to as many of these projects as you like.");
     echo "\n<p>";
-if (0) {
-    if ($pname == 'android') {
-        echo "<b>"
-            .tra("We recommend that you download BOINC from the Google Play Store or Amazon Appstore, not from here.")
-            ." </b>
+    if ($pname == 'linux') {
+        echo "<p>
+            <a href=https://boinc.berkeley.edu/wiki/Installing_on_Linux>View installation instructions for Linux</a>.
         ";
-    }
-}
-    if ($pname) {
+
+    } else if ($pname) {
         download_link($client_info, $pname, true);
     } else {
         start_table();
@@ -69,15 +67,17 @@ if (0) {
         download_link($client_info, 'mac_10_7');
         download_link($client_info, 'mac32');
         download_link($client_info, 'macppc');
-        download_link($client_info, 'linux');
-        download_link($client_info, 'linuxx64');
-        download_link($client_info, 'linuxcompat');
+        //download_link($client_info, 'linux');
+        //download_link($client_info, 'linuxx64');
+        //download_link($client_info, 'linuxcompat');
         download_link($client_info, 'android');
         end_table();
-        echo "Linux users: BOINC is available as a package for many Linux distributions.  It is available for Linux/ARM as a package for Debian and Ubuntu for ARM, and Raspbian (for Raspberry Pi).";
+        echo "Linux users: <a href=https://boinc.berkeley.edu/wiki/Installing_on_Linux>see Installation options</a>.";
     }
     echo "<p><ul>";
-    if ($pname != 'android') {
+    switch ($pname) {
+    case 'win':
+    case 'mac':
         echo "
             <li>
             After downloading BOINC you must <b>install</b> it:
@@ -98,6 +98,9 @@ if (0) {
         &middot; <a href=download_all.php><span class=nobr>".tra("All versions")."</span></a>
         &middot; <a href=http://boinc.berkeley.edu/wiki/GPU_computing>".tra("GPU computing")."</a>
         </center>
+    ";
+    text_end();
+    echo "
         </td>
         <td valign=top>
     ";
@@ -123,7 +126,6 @@ if (!$client_info) {
 $is_login_page = true;
 
 page_head(tra("Install BOINC"));
-
 if (get_str('all_platforms', true)) {
     show_download($client_info, null);
 } else {
