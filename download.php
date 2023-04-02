@@ -46,11 +46,12 @@ function show_download($client_info, $pname) {
     echo tra("BOINC is a program that lets you donate your idle computer time to science projects like Climateprediction.net, Rosetta@home, GPUGrid, and many others.");
     echo "\n";
     echo tra("After installing BOINC on your computer, you can connect it to as many of these projects as you like.");
-    echo "\n<p>";
-    if ($pname == 'linux') {
-        echo "<p>
-            <a href=https://boinc.berkeley.edu/wiki/Installing_on_Linux>View installation instructions for Linux</a>.
-        ";
+    echo "\n<p><p>";
+    if (strstr($pname, 'linux')) {
+        show_button(
+            'https://boinc.berkeley.edu/wiki/Installing_on_Linux',
+            'View installation instructions for Linux'
+        );
 
     } else if ($pname) {
         download_link($client_info, $pname, true);
