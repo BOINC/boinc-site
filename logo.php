@@ -38,6 +38,11 @@ If you use one of these images in a web page or other medium,
 you must link it to the BOINC web site
 (currently <u>https://boinc.berkeley.edu</u>)
 or display that URL next to the image.
+<p>
+You can use the BOINC logo on merchandise such as T-shirts, coffee mugs etc.,
+provided that either a) this merchandise is not sold for profit,
+or b) its sale profits only an existing business that sells such merchandise
+(such as customink.com).
 </font>
 <p>
 <ul>

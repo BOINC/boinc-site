@@ -1,0 +1,465 @@
+To dump trac pages:
+trac-admin <path to proj> wiki dump <dir>
+---------------
+Unused:
+Tutorial/BOINCApplicationDevelopmentLifecycle
+Tutorial/DeployingVMApplications
+UpdateVersions
+WhyUseBoinc
+RpcAuth
+AdminDepLibs
+AdminDepLibsCurl
+AdminDepLibsOpenSSL
+AdminDepLibsSqlite
+AdminDepLibsZlib
+Definition_of_Done_for_Feature_Branches
+Expectations_of_Code_Review
+GitMigration
+ProjectPapers
+UsingSvn
+------------------------
+creating and operating projects, including "why use BOINC?" stuff
+computing_with_boinc
+    BoincOverview
+        DesktopGrid
+        VolunteerComputing
+    BoincIntro
+    ProjectsApps
+    QuickStart
+        CloudServer
+    CreateProjectCookbook
+    OtherProjectDocs
+    ProjectMain
+        AccountControl
+        AdaptiveReplication
+        AndroidBuildApp
+        AppCoprocessor
+        AppDebug
+        AppDebugAndroid
+        AppDebugWin
+        AppDev
+        AppFiltering
+        AppIntro
+        AppLibraries
+        AppMultiThread
+        AppPlan
+        AppPlanSpec
+        AppVersion
+        AppVersionNew
+        AssignedWork
+        AssimilateIntro
+        BackendPrograms
+        BackendUtilities
+        BadgeDoc
+        BasicApi
+        BasicConcepts
+        BetaTest
+        BlackList
+        BoincDocker (need to split up)
+        BoincFiles
+        BoincPlatforms
+        BoincSecurity
+        CancelJobs
+        CertSig
+        ClientOpaque
+        CodeSigning
+        CompileApp
+        CompileAppLinux
+        CompileAppWin
+        CondorBoinc
+        CreditOptions
+        CudaApps
+        DbDump
+        DbIds
+        DbPurge
+        DeleteFile
+        ExampleApps
+        FileCompression
+        FileDeleter
+        FileSandbox
+        FortranApps
+        GPUApp
+        GdprCompliance
+            UserOptInConsent
+        GraphicsApi
+        GraphicsApps
+        GraphicsHtml
+        GridIntegration
+        GuiUrls
+        HTMLGfx
+        HomogeneousAppVersion
+        HomogeneousRedundancy
+        HtmlOps
+        IntermediateUpload
+        JavaApps
+        JobIn
+            JobEst
+        JobIntro
+        JobKeywords
+        JobPinning
+        JobReplication
+        JobSched
+        JobStage
+        JobStatus
+        JobSubmission
+        JobTemplates
+        KeySetup
+        LammpsRemote
+        LdapSupport
+        LocalityScheduling
+        LogRotate
+        MakeProject
+        MasterUrl
+        MediaWiki
+        MpiApps
+        MultiHost
+        MultiSize
+        MultiUser
+        MultiUserPriority
+        MysqlConfig
+        NetworkApps
+        NonCpuIntensive
+        OpenclApps
+        OpenclCpu
+        OptionsApi
+        PayPalDonations
+        PerAppCredit
+        PhysicalFileManagement
+        PlanClassFunc
+        ProfileScreen
+        ProjectConfigFile
+        ProjectDaemons
+        ProjectLaunch
+        ProjectNews
+        ProjectNotices
+        ProjectOptions
+        ProjectSecurity
+        ProjectSkin
+        ProjectSpecificPrefs
+        ProjectTasks
+        ProofOfOwnership
+        ProtectionFromSpam
+        PyMw
+            VmServer
+                VirtualMachines
+        PythonApps
+        RemoteInputFiles
+        RemoteJob
+        RemoteJobs
+        RemoteLogs
+        RemoteOutputFiles
+        RemoteOverview
+        SecureHttp
+        SecurityIssues
+        ServerComponents
+        ServerDebug
+        ServerDirs
+        ServerIntro
+            DirHierarchy
+        ServerStatus
+        ServerUpdates
+        SimpleAttach
+        SingleJob
+        StartTool
+        StatusApi
+        StripChart
+        StyleSheets
+        TeamImport
+        TermsOfUse
+        ToolUpgrade
+        TranslateProject
+        TreeThreader
+        TrickleApi
+        TrickleMessages
+        ValidationIntro
+            CreditAlt
+        ValidationSimple
+        ValidationSummary
+        VboxApps
+        VirtualCampusSupercomputerCenter
+        VolunteerDataArchival
+        VolunteerRecruit
+        VolunteerStorage
+            GetFile
+            GetFileList
+            SendFile
+        WatchDog
+        WebCache
+        WebConfig
+        WebForum
+        WebSubmit
+        WordPressInt
+        WorkDistribution
+        WorkGeneration
+        WrapperApp
+        XaddTool
+------------------------
+Web APIs; remote components
+SoftwareAddon
+    GuiRpc
+        GuiRpcProtocol
+    CreditStats
+        XmlStats
+    AccountManagement
+    StatsXml
+    WebRpc
+    PrefsOverride
+    RemoteJobs
+    CrossProjectUserId
+    DesignKeywords
+    DownloadInfo
+------------------------
+Instructions for BOINC project staff: building BOINC software, packaging etc.
+AdminAlphaTest
+AdminApprovedProjects
+AdminInstallerMac
+AdminInstallerUnix
+AdminInstallerWin
+AdminLocalize
+AdminReleaseAndroid
+AdminReleaseManagement
+AdminRoles
+AdminTasks
+    VmCompatibility
+AdminWrappers
+AndroidBuildClient
+AndroidBuildStatus
+BerkeleyTasks
+BuildClientProcedure
+BuildMacApp
+BuildSystem
+CompileClient
+CompileWithWxWidgets
+MacBacktrace
+MacBuild
+MacDeveloper
+PrepareLinuxBuildMachine
+RpmSpec
+SoftwareBuilding
+    PythonMysql
+SoftwarePrereqsUnix
+Translate/Coordination
+TranslateIntro
+TranslateProject
+TranslationSystem
+UnixClientPackage
+UnixProjectPackage
+------------------
+Instructions for alpha testers
+AlphaInstructions
+------------------
+Design documents, implemented and proposed (for BOINC developers)
+AndroidBoinc
+AndroidBoincImpl
+AndroidBoincTesting
+AndroidBoincTodo
+AndroidGuiDiscuss
+BackendLogic
+BackendState
+ClientAppConfig
+ClientDataModel
+ClientFiles
+ClientFsm
+ClientLogic
+ClientSched
+ClientSchedOctTen
+ClientSchedOld
+ClientSchedVersionFour
+ClientSetupLogicWin
+ClientSetupLogicWinFileLayout
+ClientSetupLogicWinSix
+ClientSetupLogicWinSixCleanup
+ClientSetupWinSix
+CommIntro
+CreditGeneralized
+CreditNew
+CreditNotes
+CreditProposal
+DataBase
+DataFlow
+DiagnosticsApi
+EmailChangeNotification
+FileUpload
+GpuSched
+GpuSync
+GpuWorkFetch
+HostId
+HostMeasurement
+LocalityNew
+LogExtension
+LowLatency
+ManagerImpl
+MemoryManagement
+Notifications
+OpenId
+OptionsApi
+PasswordHash
+PersFileXfer
+PhpDb
+PowerManagement
+Prefs2
+PrefsImpl
+PrefsPresets
+PrefsRemodel
+PrefsUnification
+ProjectSelect
+ProofOfOwnership
+Proposal/ProjectSimpleAccountCreation
+Reduce_usage_of_authenticator
+Reduce_usage_of_authenticator_implementation
+ResearchProjects
+RightToErasure
+RpcPolicy
+RuntimeEstimation
+SandboxUser
+ScreensaverEnhancements
+ScreensaverLogic
+SimpleAttach
+SingleJobImpl
+SuperHost
+TeamDiscussion
+TrickleImpl
+UploadStatistics
+WinMulticore
+WindowsIssues
+WorkDistribution
+WorkFetchMaxConcurrent
+XmlFormat
+XmlNotes
+------------------
+Software development process (for BOINC developers)
+boinc-software-development
+    DevProcess
+        CodingStyle
+        DebugClientWin
+    Development_Workflow
+    SoftwareDevelopment (actually design docs)
+        JobSizeMatching
+        ProjectDefaults
+        PythonAppDev
+        PythonFramework
+        PythonMw
+        SchedMatch
+        ServerSecurity
+        ValidationLowLevel
+        VmApps
+            VirtualBox
+        RpcProtocol
+    DevProjects
+        JobPrioritization
+        PortalFeatures
+    DevQualityAssurance
+    SoftwareTesting
+        ServerTestInstructions
+    SourceCodeGit
+    SourceCodeGit/Windows
+    SourceCodeGit/WindowsKeygen
+omit:
+DevMethodologies
+DevProjects/New
+SourceCodeGit/WorkFlow
+SourceCodeGit/Commands
+------------------
+for volunteers and/or public (move to mediawiki)
+BashCommandCompletion
+BoincPapers
+BoincPr
+ClientSim
+ContributePage
+CoreClient
+Error/Aborting task: exceeded disk limit
+Error/Can't delete previous state file
+Error/Giving up on upload
+Error/Scheduler request failed
+ErrorReference
+PrefsReference
+PrefsReference/Time
+ReportBugs
+SkinExamples
+StolenComputers
+TroubleshootClient
+TroubleshootClient/New
+WebResources
+test/RunningBoinc
+------------------
+Deprecated but of historical interest
+AutoFlops
+AutoUpdate
+BOINConPhones
+BadgesOld
+BoincGovernanceWorkingGroups
+BoincLite
+BoincPmcPage
+CompoundApps
+CpuSched
+DiskManagement
+DownloadOther
+DrupalConversion
+DrupalIntegration
+EmBoinc
+GSoC_13
+GraphicsApiOld
+InstallDrupal
+MacDeveloperProjects
+ManagerMenus
+OrgGrid
+ProjectPlan
+ProxyServer
+RecentChanges
+ReleaseNotes
+SolarisClient
+SolrIntegration
+SourceCodeSvn
+UserJobs
+VersionHistory
+VersionPathSorter
+WebTemplateProposal
+------------------
+Community, workshops
+BoincEvents
+BoincContributersCall
+BoincProjectsCall
+ConferenceList
+EastCoast08
+EmailLists
+HarzPics
+PMC_Minutes
+PMC_Minutes_2017_12_15
+PMC_Minutes_2018_01_10
+Process_proposals
+ProjectGovernance
+ProjectPeople
+ProjectSponsors
+WorkShop07
+WorkShop07/BoincGrid
+WorkShop07/BoincSched
+WorkShop07/InterpretedApps
+WorkShop07/PubBoincOne
+WorkShop07/PubBoincTwo
+WorkShop07/SecurityGroup
+WorkShop07/SimplifyApp
+WorkShop07/Summary
+WorkShop07/VirtualMachines
+WorkShop07/WebCode
+WorkShop08
+WorkShop08/WorkshopProceedings
+WorkShop09
+WorkShop09/BatchSched
+WorkShop09/InterprocComm
+WorkShop09/ScientistUsability
+WorkShop09/UserIssues
+WorkShop09/VmApps
+WorkShop10
+WorkShop10/VmApps
+WorkShop10/VolunteerIssues
+WorkShop11
+WorkShop11/HackFest
+WorkShop11/HackFest/Android
+WorkShop11/MultiUser
+WorkShop12
+WorkShop12/WorkshopSummary
+WorkShop13
+WorkShop13/HackfestNotes
+WorkShop14
+WorkShop18
+WorkShop19
