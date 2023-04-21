@@ -25,7 +25,7 @@ test results in the last 30 days.
 help in improving the reliability of BOINC software.</b>
 <p>
 If you're interested in volunteering as an Alpha tester,
-go <a href=http://boinc.berkeley.edu/trac/wiki/AlphaInstructions>here</a>.
+go <a href=https://github.com/BOINC/boinc/wiki/AlphaInstructions>here</a>.
 ";
 $t = time() - 30*86400;
 

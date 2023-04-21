@@ -88,17 +88,15 @@ The preferred way to report test results is through the
 <a href=test_form.php>web-based interface</a>.
 
 <p>
-You can optionally also submit bug reports to the
-<a href=http://boinc.berkeley.edu/trac/wiki/WikiStart>BOINC bug database</a>.
-You may also send email to the relevant area owner, as listed
-<a href=http://boinc.berkeley.edu/trac/wiki/DevProcess>here</a>.
+You can optionally also submit bug reports at the
+<a href=https://github.com/BOINC/boinc/>BOINC Github repo</a>.
 
 <p>
 If you're not sure whether something is a bug,
 post to the boinc_alpha@ssl.berkeley.edu email list.
 <p>
 Read about
-<a href=http://boinc.berkeley.edu/trac/wiki/ReportBugs>Reporting Hard Bugs</a>.
+<a href=https://github.com/BOINC/boinc/wiki/ReportBugs>Reporting Hard Bugs</a>.
 
 
 <h3>Resources</h3>

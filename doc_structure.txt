@@ -1,24 +1,38 @@
-To dump trac pages:
-trac-admin <path to proj> wiki dump <dir>
----------------
-Unused:
+Unused (can be deleted):
+
 Tutorial/BOINCApplicationDevelopmentLifecycle
 Tutorial/DeployingVMApplications
 UpdateVersions
 WhyUseBoinc
 RpcAuth
-AdminDepLibs
-AdminDepLibsCurl
-AdminDepLibsOpenSSL
-AdminDepLibsSqlite
-AdminDepLibsZlib
 Definition_of_Done_for_Feature_Branches
 Expectations_of_Code_Review
 GitMigration
 ProjectPapers
 UsingSvn
+BashCommandCompletion (copied to user manual)
+StolenComputers
+ContributePage
+test/RunningBoinc
+AndroidBuildStatus
+MacBuild
+CompileClient (3 platforms; outdated)
+CompileWithWxWidgets (build client on Win; way outdated)
+SoftwareBuilding
+-----------------------
+Convert to mediawiki and move to user doc:
+
+Error/Aborting task: exceeded disk limit
+Error/Can't delete previous state file
+Error/Giving up on upload
+Error/Scheduler request failed
+ErrorReference
+SkinExamples
+TroubleshootClient
+TroubleshootClient/New
 ------------------------
 creating and operating projects, including "why use BOINC?" stuff
+
 computing_with_boinc
     BoincOverview
         DesktopGrid
@@ -59,6 +73,7 @@ computing_with_boinc
         BoincFiles
         BoincPlatforms
         BoincSecurity
+        BuildMacApp
         CancelJobs
         CertSig
         ClientOpaque
@@ -69,6 +84,7 @@ computing_with_boinc
         CondorBoinc
         CreditOptions
         CudaApps
+        DataFlow
         DbDump
         DbIds
         DbPurge
@@ -156,6 +172,10 @@ computing_with_boinc
         ServerDirs
         ServerIntro
             DirHierarchy
+            SourceCodeGit
+            SoftwarePrereqsUnix
+                PythonMysql
+            BuildSystem
         ServerStatus
         ServerUpdates
         SimpleAttach
@@ -195,6 +215,7 @@ computing_with_boinc
         XaddTool
 ------------------------
 Web APIs; remote components
+
 SoftwareAddon
     GuiRpc
         GuiRpcProtocol
@@ -210,144 +231,129 @@ SoftwareAddon
     DownloadInfo
 ------------------------
 Instructions for BOINC project staff: building BOINC software, packaging etc.
-AdminAlphaTest
-AdminApprovedProjects
-AdminInstallerMac
-AdminInstallerUnix
-AdminInstallerWin
-AdminLocalize
-AdminReleaseAndroid
-AdminReleaseManagement
-AdminRoles
+
 AdminTasks
+    AdminAlphaTest
+    AdminDepLibs
+        AdminDepLibsCurl
+        AdminDepLibsOpenSSL
+        AdminDepLibsSqlite
+        AdminDepLibsZlib
+    AdminReleaseManagement
+        AdminInstallerMac
+        AdminInstallerUnix
+            PrepareLinuxBuildMachine
+            BuildSystem
+            UnixClientPackage
+            RpmSpec
+        AdminInstallerWin
+        AdminReleaseAndroid
+        AndroidBuildClient
+    AdminWrappers
+    AdminLocalize
+        TranslationSystem
+    BerkeleyTasks
+        AdminApprovedProjects
+    BuildClientProcedure (outdated)
     VmCompatibility
-AdminWrappers
-AndroidBuildClient
-AndroidBuildStatus
-BerkeleyTasks
-BuildClientProcedure
-BuildMacApp
-BuildSystem
-CompileClient
-CompileWithWxWidgets
-MacBacktrace
-MacBuild
-MacDeveloper
-PrepareLinuxBuildMachine
-RpmSpec
-SoftwareBuilding
-    PythonMysql
-SoftwarePrereqsUnix
-Translate/Coordination
-TranslateIntro
-TranslateProject
-TranslationSystem
-UnixClientPackage
-UnixProjectPackage
-------------------
-Instructions for alpha testers
-AlphaInstructions
-------------------
-Design documents, implemented and proposed (for BOINC developers)
-AndroidBoinc
-AndroidBoincImpl
-AndroidBoincTesting
-AndroidBoincTodo
-AndroidGuiDiscuss
-BackendLogic
-BackendState
-ClientAppConfig
-ClientDataModel
-ClientFiles
-ClientFsm
-ClientLogic
-ClientSched
-ClientSchedOctTen
-ClientSchedOld
-ClientSchedVersionFour
-ClientSetupLogicWin
-ClientSetupLogicWinFileLayout
-ClientSetupLogicWinSix
-ClientSetupLogicWinSixCleanup
-ClientSetupWinSix
-CommIntro
-CreditGeneralized
-CreditNew
-CreditNotes
-CreditProposal
-DataBase
-DataFlow
-DiagnosticsApi
-EmailChangeNotification
-FileUpload
-GpuSched
-GpuSync
-GpuWorkFetch
-HostId
-HostMeasurement
-LocalityNew
-LogExtension
-LowLatency
-ManagerImpl
-MemoryManagement
-Notifications
-OpenId
-OptionsApi
-PasswordHash
-PersFileXfer
-PhpDb
-PowerManagement
-Prefs2
-PrefsImpl
-PrefsPresets
-PrefsRemodel
-PrefsUnification
-ProjectSelect
-ProofOfOwnership
-Proposal/ProjectSimpleAccountCreation
-Reduce_usage_of_authenticator
-Reduce_usage_of_authenticator_implementation
-ResearchProjects
-RightToErasure
-RpcPolicy
-RuntimeEstimation
-SandboxUser
-ScreensaverEnhancements
-ScreensaverLogic
-SimpleAttach
-SingleJobImpl
-SuperHost
-TeamDiscussion
-TrickleImpl
-UploadStatistics
-WinMulticore
-WindowsIssues
-WorkDistribution
-WorkFetchMaxConcurrent
-XmlFormat
-XmlNotes
+    VmServer
+    UnixProjectPackage
 ------------------
 Software development process (for BOINC developers)
+
 boinc-software-development
     DevProcess
         CodingStyle
         DebugClientWin
     Development_Workflow
     SoftwareDevelopment (actually design docs)
+        AndroidBoinc
+        AndroidBoincImpl
+        AndroidBoincTesting
+        AndroidBoincTodo
+        AndroidGuiDiscuss
+        BackendLogic
+        BackendState
+        ClientAppConfig
+        ClientDataModel
+        ClientFiles
+        ClientFsm
+        ClientLogic
+        ClientSched
+        ClientSchedOctTen
+        ClientSchedOld
+        ClientSetupLogicWin
+        ClientSetupLogicWinSix
+        ClientSetupLogicWinFileLayout
+        ClientSetupLogicWinSixCleanup
+        ClientSetupWinSix
+        CommIntro
+        CreditGeneralized
+        CreditNew
+        CreditNotes
+        CreditProposal
+        DataBase
+        DiagnosticsApi
+        EmailChangeNotification
+        FileUpload
+        GpuSched
+        GpuSync
+        GpuWorkFetch
+        HostId
+        HostMeasurement
         JobSizeMatching
-        ProjectDefaults
+        LocalityNew
+        LogExtension
+        LowLatency
+        ManagerImpl
+        MemoryManagement
+        Notifications
+        OpenId
+        PasswordHash
+        PersFileXfer
+        PhpDb
+        Prefs2
+        PrefsImpl
+        PrefsPresets
+        PrefsRemodel
+        PrefsUnification
+        ProjectSelect
+        Proposal/ProjectSimpleAccountCreation
         PythonAppDev
         PythonFramework
         PythonMw
+        Reduce_usage_of_authenticator
+        Reduce_usage_of_authenticator_implementation
+        RightToErasure
+        RpcPolicy
+        RpcProtocol
+        RuntimeEstimation
+        SandboxUser
         SchedMatch
+        ScreensaverEnhancements
+        ScreensaverLogic
         ServerSecurity
+        SimpleAttach
+        SingleJobImpl
+        SuperHost
+        TeamDiscussion
+        TrickleImpl
+        UploadStatistics
         ValidationLowLevel
         VmApps
             VirtualBox
-        RpcProtocol
+        WinMulticore
+        WindowsIssues
+        WorkFetchMaxConcurrent
+        XmlFormat
+        XmlNotes
+
+        ProjectDefaults?
     DevProjects
         JobPrioritization
         PortalFeatures
+    MacDeveloper
+    MacBacktrace
     DevQualityAssurance
     SoftwareTesting
         ServerTestInstructions
@@ -361,28 +367,65 @@ SourceCodeGit/WorkFlow
 SourceCodeGit/Commands
 ------------------
 for volunteers and/or public (move to mediawiki)
-BashCommandCompletion
-BoincPapers
-BoincPr
-ClientSim
-ContributePage
-CoreClient
-Error/Aborting task: exceeded disk limit
-Error/Can't delete previous state file
-Error/Giving up on upload
-Error/Scheduler request failed
-ErrorReference
-PrefsReference
-PrefsReference/Time
-ReportBugs
-SkinExamples
-StolenComputers
-TroubleshootClient
-TroubleshootClient/New
-WebResources
-test/RunningBoinc
+
+Volunteer
+    BoincPr
+    ReportBugs
+        ClientSim
+    WebResources
+    TranslateIntro
+    AlphaInstructions
+------------------
+Community, workshops
+
+boinc-community
+    ProjectPeople
+    BoincEvents
+        WorkShop07
+        WorkShop07/BoincGrid
+        WorkShop07/BoincSched
+        WorkShop07/InterpretedApps
+        WorkShop07/PubBoincOne
+        WorkShop07/PubBoincTwo
+        WorkShop07/SecurityGroup
+        WorkShop07/SimplifyApp
+        WorkShop07/Summary
+        WorkShop07/VirtualMachines
+        WorkShop07/WebCode
+        WorkShop08
+        WorkShop08/WorkshopProceedings
+        WorkShop09
+        WorkShop09/BatchSched
+        WorkShop09/InterprocComm
+        WorkShop09/ScientistUsability
+        WorkShop09/UserIssues
+        WorkShop09/VmApps
+        WorkShop10
+        WorkShop10/VmApps
+        WorkShop10/VolunteerIssues
+        WorkShop11
+        WorkShop11/HackFest
+        WorkShop11/HackFest/Android
+        WorkShop11/MultiUser
+        WorkShop12
+        WorkShop12/WorkshopSummary
+        WorkShop13
+        WorkShop13/HackfestNotes
+        WorkShop14
+        WorkShop18
+        WorkShop19
+        EastCoast08
+        HarzPics
+    BoincContributersCall
+    BoincProjectsCall
+    EmailLists
+    ConferenceList
+    BoincPapers
+    ResearchProjects
 ------------------
 Deprecated but of historical interest
+
+AdminRoles
 AutoFlops
 AutoUpdate
 BOINConPhones
@@ -391,6 +434,7 @@ BoincGovernanceWorkingGroups
 BoincLite
 BoincPmcPage
 CompoundApps
+ClientSchedVersionFour
 CpuSched
 DiskManagement
 DownloadOther
@@ -414,52 +458,13 @@ UserJobs
 VersionHistory
 VersionPathSorter
 WebTemplateProposal
-------------------
-Community, workshops
-BoincEvents
-BoincContributersCall
-BoincProjectsCall
-ConferenceList
-EastCoast08
-EmailLists
-HarzPics
 PMC_Minutes
 PMC_Minutes_2017_12_15
 PMC_Minutes_2018_01_10
 Process_proposals
 ProjectGovernance
-ProjectPeople
 ProjectSponsors
-WorkShop07
-WorkShop07/BoincGrid
-WorkShop07/BoincSched
-WorkShop07/InterpretedApps
-WorkShop07/PubBoincOne
-WorkShop07/PubBoincTwo
-WorkShop07/SecurityGroup
-WorkShop07/SimplifyApp
-WorkShop07/Summary
-WorkShop07/VirtualMachines
-WorkShop07/WebCode
-WorkShop08
-WorkShop08/WorkshopProceedings
-WorkShop09
-WorkShop09/BatchSched
-WorkShop09/InterprocComm
-WorkShop09/ScientistUsability
-WorkShop09/UserIssues
-WorkShop09/VmApps
-WorkShop10
-WorkShop10/VmApps
-WorkShop10/VolunteerIssues
-WorkShop11
-WorkShop11/HackFest
-WorkShop11/HackFest/Android
-WorkShop11/MultiUser
-WorkShop12
-WorkShop12/WorkshopSummary
-WorkShop13
-WorkShop13/HackfestNotes
-WorkShop14
-WorkShop18
-WorkShop19
+CoreClient
+PrefsReference
+PrefsReference/Time
+Translate/Coordination

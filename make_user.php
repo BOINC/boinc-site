@@ -43,7 +43,7 @@ echo "
 Thanks for helping!
 I created a BOINC Alpha Test account for you with password 'foobar'.
 Testing instructions are here:
-https://boinc.berkeley.edu/trac/wiki/AlphaInstructions
+https://github.com/BOINC/boinc/wiki/AlphaInstructions
 In particular, please join the boinc_alpha email list.
 
 -- David

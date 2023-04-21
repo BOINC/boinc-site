@@ -38,7 +38,7 @@ row2("Version being tested", $cv[0]);
 row2("Testing is", "$pd% complete");
 end_table();
 echo "
-    <h3> <a href=https://boinc.berkeley.edu/trac/wiki/ServerTestInstructions>Instructions</a></h3>
+    <h3> <a href=https://github.com/BOINC/boinc/wiki/ServerTestInstructions>Instructions</a></h3>
     <dd> How to be a server tester</dd>
     <h3> <a href=test_matrix.php?server=1>Test cases</a></h3>
     <dd> The set of test procedures</dd>

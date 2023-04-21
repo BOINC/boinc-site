@@ -47,7 +47,7 @@ row2("Platforms", platform_list($cv));
 row2("Testing is", "$pd% complete");
 end_table();
 echo "
-    <h3> <a href=https://boinc.berkeley.edu/trac/wiki/AlphaInstructions>Instructions</a></h3>
+    <h3> <a href=https://github.com/BOINC/boinc/wiki/AlphaInstructions>Instructions</a></h3>
     <dd> How to be an alpha tester</dd>
     <h3> <a href=test_matrix.php>Test cases</a></h3>
     <dd> The set of test procedures</dd>
@@ -58,7 +58,7 @@ echo "
     <h3> <a href=top_testers.php>Top testers</a></h3>
     <dd> See who's reported test results in the last 30 days</dd>
     <hr>
-    <h3> <a href=https://boinc.berkeley.edu/trac/wiki/ReportBugs>Report bugs</a></h3>
+    <h3> <a href=https://github.com/BOINC/boinc/wiki/ReportBugs>Report bugs</a></h3>
     <dd> Help resolve bugs in the test or release version </dd>
     <h3> <a href=https://boinc.berkeley.edu/dev/sim_web.php>The BOINC Client Emulator</a></h3>
     <dd> A tool for studying and reporting scheduling issues </dd>

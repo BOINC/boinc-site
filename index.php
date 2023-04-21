@@ -3,12 +3,12 @@
 if (isset($_SERVER) && array_key_exists('SERVER_NAME', $_SERVER)) {
     $host = $_SERVER["SERVER_NAME"];
     if ($host == "bossa.berkeley.edu") {
-        Header("Location: https://boinc.berkeley.edu/trac/wiki/BossaIntro");
+        Header("Location: https://github.com/davidpanderson/bossa/wiki");
         exit();
 
     }
     if ($host == "bolt.berkeley.edu") {
-        Header("Location: https://boinc.berkeley.edu/trac/wiki/BoltIntro");
+        Header("Location: https://github.com/davidpanderson/bolt/wiki");
         exit();
     }
 }
@@ -107,7 +107,7 @@ function show_links() {
         <br><a href="pubs.php">'.tra("Science publications").'</a>
         <br><a href="https://boinc.berkeley.edu/wiki/User_manual"><span class=nobr>'.tra("User manual").'</span></a> 
         <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
-        <br><a btn-primary href=https://boinc.berkeley.edu/trac/wiki/WebResources><span class=nobr>'.tra("Web resources").'</span></a> 
+        <br><a btn-primary href=https://github.com/BOINC/boinc/wiki/WebResources><span class=nobr>'.tra("Web resources").'</span></a> 
         <p>
         </div><div class="col-sm-4">
         <font size=+2>
@@ -115,17 +115,16 @@ function show_links() {
         </font>
         <br><a href="forum_index.php">'.tra("Message boards").'</a>
         <br><a href="https://boinc.berkeley.edu/wiki/BOINC_Help">'.tra("Help").'</a>
-        <br><a href="trac/wiki/EmailLists">'.tra("Email lists").'</a>
-        <br><a href="trac/wiki/ReportBugs">'.tra("Report bugs").'</a>
+        <br><a href="https://github.com/BOINC/boinc/wiki/EmailLists">'.tra("Email lists").'</a>
+        <br><a href="https://github.com/BOINC/boinc/wiki/ReportBugs">'.tra("Report bugs").'</a>
         <p>
         </div><div class="col-sm-4">
         <font size=+2>
         '.tra("Help").'
         </font>
-        <br><a href="trac/wiki/TranslateIntro">'.tra("Translate").'</a>
-        <br><a href="trac/wiki/AlphaInstructions">'.tra("Test").'</a>
-        <br><a href="trac/wiki/WikiMeta">'.tra("Document").'</a>
-        <br><a href="https://boinc.berkeley.edu/wiki/Publicizing_BOINC">'.tra("Publicize").'</a>
+        <br><a href="https://github.com/BOINC/boinc/wiki/TranslateIntro">'.tra("Translate").'</a>
+        <br><a href="https://github.com/BOINC/boinc/wiki/AlphaInstructions">'.tra("Test").'</a>
+        <br><a href="https://github.com/BOINC/boinc/wiki/BoincPr">'.tra("Publicize").'</a>
         </div>
         </div>
         </div>
@@ -147,15 +146,15 @@ function show_links() {
     );
     echo sprintf('
         <hr>
-        <font size=+1>%s:</font> &nbsp; <a href=https://boinc.berkeley.edu/trac/wiki/BoincOverview>%s</a>
-            &middot; <a href=https://boinc.berkeley.edu/trac/wiki/ProjectMain>Documentation</a>
+        <font size=+1>%s:</font> &nbsp;
+            <a href=https://github.com/BOINC/boinc/wiki/Computing-with-boinc>%s</a>
         <p>
-        <font size=+1>%s:</font> &nbsp; <a href=develop.php>%s</a>
+        <font size=+1>%s:</font> &nbsp; <a href=https://github.com/BOINC/boinc/wiki/>%s</a>
         ',
         tra("Scientists"),
         tra("Compute with BOINC"),
-        tra("Developers"),
-        tra("Help maintain and develop BOINC")
+        tra("Programmers"),
+        tra("BOINC Github repo")
     );
     echo '
         <p>
@@ -164,11 +163,11 @@ function show_links() {
         <p>
         <a href="contact.php">%s</a>
         &middot;
-        <a href="trac/wiki/BoincPapers">%s</a>
+        <a href="https://github.com/BOINC/boinc/wiki/BoincPapers">%s</a>
         &middot;
         <a href=logo.php>%s</a>
         &middot;
-        <a href=https://boinc.berkeley.edu/trac/wiki/BoincEvents>%s</a>
+        <a href=https://github.com/BOINC/boinc/wiki/BOINCEvents>%s</a>
         &middot;
         <a href=https://continuum-hypothesis.com/boinc_history.php>History</a>
         ',
