@@ -5320,3 +5320,23 @@ KW  - FOS: Physical sciences
 KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
 ER  - 
 
+TY  - JOUR
+TI  - Deep Einstein@Home all-sky search for continuous gravitational waves in LIGO O3 public data
+AU  - Steltner, B.
+AU  - Papa, M. A.
+AU  - Eggenstein, H. -B.
+AU  - Prix, R.
+AU  - Bensch, M.
+AU  - Machenschalk, B.
+AB  - We present the results of an all-sky search for continuous gravitational waves in the public LIGO O3 data. The search covers signal frequencies $20$ Hz $\leq f \leq 800$ Hz and a spin-down range down to $-2.6\times 10^{-9}$ Hz s$^{-1}$, and it is the most sensitive all-sky search to date in this frequency/spin-down region. The search was performed on GPUs provided in equal parts by the volunteers of the Einstein@Home computing project and by the ATLAS cluster. After a hierarchical follow-up in seven stages 12 candidates remain. Nine can be ascribed to continuous-wave fake signals present in the LIGO data for validation purposes, which we recover with very high accuracy. The remaining three, upon further inspection, do not display properties consistent with those of the target signals. Based on our results we set upper limits on the gravitational wave amplitude $h_0$, and translate these in upper limits on the neutron star ellipticity and on the r-mode amplitude. The most stringent upper limits are at $203$ Hz with $h_0=8.1 \times 10^{-26}$, at the 90% confidence level. Our results exclude neutron stars rotating faster than $5$ ms with ellipticities greater than $5\times 10^{-8} \left[{d\over{100~\textrm{pc}}}\right]$ within a distance $d$ from Earth and $r$-mode amplitudes $α\geq 10^{-5} \left[{d\over{100~\textrm{pc}}}\right]$ for neutron stars spinning faster than $150$ Hz.
+DA  - 2023///
+PY  - 2023
+DO  - 10.48550/ARXIV.2303.04109
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/2303.04109
+Y2  - 2023/04/21/00:56:12
+KW  - FOS: Physical sciences
+KW  - General Relativity and Quantum Cosmology (gr-qc)
+KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
+ER  - 
+
