@@ -723,6 +723,18 @@ $math = array(
             'Mine mathematical programs',
             array(KW_MATH_CS)
         ),
+        project(
+            PROJ_YAFU,
+            'YAFU',
+            'https://yafu.myfirewall.org/yafu/',
+            tra("Independent"),
+            tra("Mathematics"),
+            tra("YAFU's goal is to factor numbers of up to 149 digits which are needed to bring Aliquot Sequences to a size of at least 140."),
+            "",
+            "",
+            tra("Do research in math"),
+            array(KW_MATH_CS, KW_EUROPE, KW_GERMANY)
+        ),
     ),
 );
 

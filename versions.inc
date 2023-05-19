@@ -49,7 +49,8 @@ function linux_info() {
 //
 // When you add versions:
 // 1) put them in the right place
-// 2) delete unused versions
+// 2) status is either "Development version" or "Recommended version"
+// 3) delete unused versions
 
 // List of platforms.
 // Each has a list of versions, then a structure in which "versions"
@@ -57,6 +58,16 @@ function linux_info() {
 // i.e. the first non-dev version is the current one
 
 // -------------- Windows 64-bit -------------------
+
+$w722_1 = array(
+    "num"=>"7.22.1",
+    "status"=>"Development version",
+    "file"=>"boinc_7.22.1_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.22.1_windows_x86_64_vbox.exe",
+    "vbox_version"=>"6.1.34",
+    "date"=>"8 May 2023",
+    "type"=>"win_new"
+);
 
 $w720_2 = array(
     "num"=>"7.20.2",
@@ -73,6 +84,7 @@ $windowsx64 = array(
     "description"=>"Vista/7/8/8.1/10",
     "dbname" => "windows_x86_64",
     "versions"=> array(
+          $w722_1,
           $w720_2
     )
 );
@@ -118,27 +130,49 @@ $windows = array(
 
 // --------------- Mac Intel 64 or ARM --------------------
 
-$m720_4 = array(
-    "num"=>"7.20.4",
-    "status"=>"Recommended version (MacOS 10.13+)",
-    "file"=>"boinc_7.20.4_macOSX_universal.zip",
-    "date"=>"12 Nov 2022",
+$m722_1 = array(
+    "num"=>"7.22.1",
+    "status"=>"Development version (MacOS 10.13+)",
+    "file"=>"boinc_7.22.1_macOSX_universal.zip",
+    "date"=>"9 May 2023",
     "type"=>"mac_advanced",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
 );
 
-$m720_4c = array(
-    "num"=>"7.20.4",
-    "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_7.20.4_universal-apple-darwin.dmg",
-    "date"=>"12 Nov 2022",
+$m722_1c = array(
+    "num"=>"7.22.1",
+    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
+    "file"=>"boinc_7.22.1_universal-apple-darwin.dmg",
+    "date"=>"9 May 2023",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
 );
 
-// Should we not remove 7.20.2, which is latest version that can run on MacOS 10.10 ??
+// When promoting $m722_1 to recommended, change $m720_7 to older version
+$m720_7 = array(
+    "num"=>"7.20.7",
+    "status"=>"Recommended version (MacOS 10.13+)",
+    "file"=>"boinc_7.20.7_macOSX_universal.zip",
+    "date"=>"1 May 2023",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+);
+
+// When promoting $m722_1c to recommended, change $m720_7c to older version
+$m720_7c = array(
+    "num"=>"7.20.7",
+    "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
+    "file"=>"boinc_7.20.7_universal-apple-darwin.dmg",
+    "date"=>"1 May 2023",
+    "type"=>"bare_core",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+);
+
+// Do not remove 7.20.2, which is latest version that can run on MacOS 10.10
 $m720_2 = array(
     "num"=>"7.20.2",
     "status"=>"Older version (MacOS 10.10 - MacOS 12.x)",
@@ -149,7 +183,7 @@ $m720_2 = array(
     "max_os_version"=>"129999",
 );
 
-// Should we not remove 7.20.2, which is latest version that can run on MacOS 10.10 ??
+// Do not remove 7.20.2, which is latest version that can run on MacOS 10.10
 $m720_2c = array(
     "num"=>"7.20.2",
     "status"=>"Older version (Unix command-line version) (MacOS 10.10 - MacOS 12.x)",
@@ -194,11 +228,13 @@ $mac = array(
     "description"=>"MacOS 10.10+",
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
-        $m720_4,
-        $m720_4c, // SHould we keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12?
-        $m720_2,
-        $m720_2c, // Keep 7.16.21, which is latest version that can run on MacOS 10.9
-        $m716_21,
+        $m722_1,
+        $m722_1c,
+        $m720_7,  // When promoting $m722_1 to recommended, change $m720_7 to older version
+        $m720_7c, // When promoting $m722_1c to recommended, change $m720_7c to older version
+        $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
+        $m720_2c,
+        $m716_21, // Keep 7.16.21, which is latest version that can run on MacOS 10.9
         $m716_21c,
     )
 );
@@ -208,9 +244,11 @@ $mac_arm = array(
     "description"=>"MacOS 10.10+",
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
-        $m720_4,
-        $m720_4c, // SHould we keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12?
-        $m720_2,
+        $m722_1,
+        $m722_1c,
+        $m720_7,  // When promoting $m722_1 to recommended, change $m720_7 to older version
+        $m720_7c, // When promoting $m722_1c to recommended, change $m720_7c to older version
+        $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21,  // Keep 7.16.21, which is latest version that can run on MacOS 10.9
         $m716_21c,
@@ -434,6 +472,14 @@ $linuxcompat = array(
 
 // --------------- Android --------------------
 
+$a722 = array(
+    "num"=>"7.22.1",
+    "status"=>"Development Version",
+    "file"=>"boinc_7.22.1.apk",
+    "date"=>"8 May 2023",
+    "type"=>"apk",
+);
+
 $a718 = array(
     "num"=>"7.18.1",
     "status"=>"Recommended Version",
@@ -458,6 +504,7 @@ $android = array(
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>array(
+        $a722,
         $a718,
         $a716
     )

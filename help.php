@@ -8,6 +8,12 @@ old_page_head(tra("Live help via Skype or email"));
 
 echo "
 <p>
+<i>
+April 2023: The Skype APIs that this relies on no longer work.
+Microsoft seems to be letting Skype die.
+So Live Help is no longer available.
+</i>
+<p>
 ".tra("BOINC Live Help lets you get one-on-one help from an experienced BOINC user who can answer questions about BOINC, help you install BOINC, and troubleshoot problems.")."
 </ul>
 <p>

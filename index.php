@@ -210,7 +210,9 @@ function call_to_action() {
     echo '
         </p><p>
         <center>
-        <a class="btn btn-lg" style="background-color:#ffcc40; color:black" href="https://scienceunited.org/su_join.php"><font size=+2>'
+        <a class="btn btn-med"
+        style= "background-color:#ffcc40; color:black; text-shadow: 2px 2px gray; text-decoration:none"
+        href="https://scienceunited.org/su_join.php"><font size=+2.5>'
         .tra("Join %1", "Science United")
         .'</font></a>
         </center>
