@@ -59,13 +59,13 @@ function linux_info() {
 
 // -------------- Windows 64-bit -------------------
 
-$w722_1 = array(
-    "num"=>"7.22.1",
+$w722_2 = array(
+    "num"=>"7.22.2",
     "status"=>"Development version",
-    "file"=>"boinc_7.22.1_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.22.1_windows_x86_64_vbox.exe",
+    "file"=>"boinc_7.22.2_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.22.2_windows_x86_64_vbox.exe",
     "vbox_version"=>"6.1.34",
-    "date"=>"8 May 2023",
+    "date"=>"22 May 2023",
     "type"=>"win_new"
 );
 
@@ -81,10 +81,10 @@ $w720_2 = array(
 
 $windowsx64 = array(
     "name"=>"Windows 64-bit",
-    "description"=>"Vista/7/8/8.1/10",
+    "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
     "versions"=> array(
-          $w722_1,
+          $w722_2,
           $w720_2
     )
 );
@@ -130,27 +130,27 @@ $windows = array(
 
 // --------------- Mac Intel 64 or ARM --------------------
 
-$m722_1 = array(
-    "num"=>"7.22.1",
+$m722_2 = array(
+    "num"=>"7.22.2",
     "status"=>"Development version (MacOS 10.13+)",
-    "file"=>"boinc_7.22.1_macOSX_universal.zip",
-    "date"=>"9 May 2023",
+    "file"=>"boinc_7.22.2_macOSX_universal.zip",
+    "date"=>"22 May 2023",
     "type"=>"mac_advanced",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
 );
 
-$m722_1c = array(
-    "num"=>"7.22.1",
+$m722_2c = array(
+    "num"=>"7.22.2",
     "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_7.22.1_universal-apple-darwin.dmg",
-    "date"=>"9 May 2023",
+    "file"=>"boinc_7.22.2_universal-apple-darwin.dmg",
+    "date"=>"22 May 2023",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
 );
 
-// When promoting $m722_1 to recommended, change $m720_7 to older version
+// When promoting $m722_2 to recommended, change $m720_7 to older version
 $m720_7 = array(
     "num"=>"7.20.7",
     "status"=>"Recommended version (MacOS 10.13+)",
@@ -161,7 +161,7 @@ $m720_7 = array(
     "max_os_version"=>"999999",
 );
 
-// When promoting $m722_1c to recommended, change $m720_7c to older version
+// When promoting $m722_2c to recommended, change $m720_7c to older version
 $m720_7c = array(
     "num"=>"7.20.7",
     "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
@@ -228,10 +228,10 @@ $mac = array(
     "description"=>"MacOS 10.10+",
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
-        $m722_1,
-        $m722_1c,
-        $m720_7,  // When promoting $m722_1 to recommended, change $m720_7 to older version
-        $m720_7c, // When promoting $m722_1c to recommended, change $m720_7c to older version
+        $m722_2,
+        $m722_2c,
+        $m720_7,  // When promoting $m722_2 to recommended, change $m720_7 to older version
+        $m720_7c, // When promoting $m722_2c to recommended, change $m720_7c to older version
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21, // Keep 7.16.21, which is latest version that can run on MacOS 10.9
@@ -244,10 +244,10 @@ $mac_arm = array(
     "description"=>"MacOS 10.10+",
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
-        $m722_1,
-        $m722_1c,
-        $m720_7,  // When promoting $m722_1 to recommended, change $m720_7 to older version
-        $m720_7c, // When promoting $m722_1c to recommended, change $m720_7c to older version
+        $m722_2,
+        $m722_2c,
+        $m720_7,  // When promoting $m722_2 to recommended, change $m720_7 to older version
+        $m720_7c, // When promoting $m722_2c to recommended, change $m720_7c to older version
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21,  // Keep 7.16.21, which is latest version that can run on MacOS 10.9
@@ -475,8 +475,8 @@ $linuxcompat = array(
 $a722 = array(
     "num"=>"7.22.1",
     "status"=>"Development Version",
-    "file"=>"boinc_7.22.1.apk",
-    "date"=>"8 May 2023",
+    "file"=>"boinc_7.22.2.apk",
+    "date"=>"22 May 2023",
     "type"=>"apk",
 );
 
@@ -498,7 +498,7 @@ $a716 = array(
 
 $android = array(
     "name"=>"Android",
-    "description"=>"Android version 4.1 and later for ARM, AArch64, MIPS, MIPS64, x86, and x86_64
+    "description"=>"Android version 4.1 and later for ARM, AArch64, x86, and x86_64
     <br> Amazon Fire tablets: install from the Amazon Appstore.
     <br> Available on <a href=https://f-droid.org/en/packages/edu.berkeley.boinc/>F-Droid</a>, a repository of open-source apps.
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",

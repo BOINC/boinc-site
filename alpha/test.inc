@@ -54,6 +54,8 @@ $platforms_mac_linux = array_merge($platforms_mac, $platforms_linux);
 
 $platforms_win_mac_linux = array_merge($platforms_win, $platforms_mac, $platforms_linux);
 
+$platforms_win_mac_android = array_merge($platforms_win, $platforms_mac, $platforms_android);
+
 // 0: short name
 // 1: long name
 // 2: target #reports
@@ -339,7 +341,7 @@ $screensaver = array("screensaver", "Screensaver tests", 5, null,
      <li> Test power-saver modes, e.g. 'turn off monitor after N minutes'.
      <li> Test password-after-resume options.
      <li> Test screensaver properties 'Preview' function.
-     <li> (Windows only?) Test  multi-user install -
+     <li> (Windows only?) Test multi-user install -
         switch to different user and run screensaver.
      </ul>
     "
@@ -683,6 +685,8 @@ $all_test_groups_minus_android = array(
     $preference,
 );
 
+// use this if screensaver has changed
+//
 $screensaver_tests = array(
     $general,
     $clean,
@@ -693,7 +697,7 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
-    array("7.22.1", array($general, $clean), $platforms_win_mac),
+    array("7.22.2", $screensaver_tests, $platforms_win_mac_android),
 );
 $old_versions = array(
     array("7.20.2", array($general, $clean), $platforms_win_mac),

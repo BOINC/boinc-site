@@ -1,6 +1,16 @@
 <?php
 
-// upload files to dl/
+// upload Linux installers
+// filename is of the form repo-alpha-jammy.tar.gz
+// action: in dl/linux/alpha/jammy/:
+// - create jammy/ if needed
+// - delete directory contents
+// - move the file there
+// - tar -xf file
+// request must include auth cookie
+//
+// e.g.:
+// curl -F 'upload_file=@/path/to/file' https://boinc.berkeley.edu/upload.php --cookie "auth=xxx"
 
 require_once("../inc/util.inc");
 
@@ -23,20 +33,53 @@ function form() {
 
 function action() {
     $f = $_FILES['upload_file'];
-    $tmp_name = $f['tmp_name'];
     $orig_name = $f['name'];
-    if (!$orig_name) error_page('no file');
-    if (!is_uploaded_file($tmp_name)) error_page('not uploaded file');
-    $path = "dl/$orig_name";
-    if (file_exists($path)) error_page('file exists');
-    if (!move_uploaded_file($tmp_name, $path)) error_page("can't move file");
-    page_head("File uploaded");
-    page_tail();
+    $tmp_name = $f['tmp_name'];
+    if (!$orig_name) die('no file');
+    if (!is_uploaded_file($tmp_name)) die('not uploaded file');
+
+    $x = explode('.', $orig_name);
+    if (count($x)!=3 || $x[1]!='tar' || $x[2]!= 'gz') {
+        die('bad file type');
+    }
+    $y = explode('-', $x[0]);
+    if (count($y)!=3 || $y[0]!='repo') die('bad file name');
+    if ($y[1]!='alpha' && $y[1]!='stable') die('bad file name');
+
+    $dir = sprintf('dl/linux/%s/%s', $y[1], $y[2]);
+
+    if (preg_match('/\s/', $dir)) die('filename has space');
+
+    @mkdir($dir);
+
+    // don't screw this up or you'll delete everything
+
+    $cmd = "rm $dir/*";
+    echo "cleanup command: $cmd\n";
+    system($cmd);
+
+    $path = "$dir/$orig_name";
+    if (!move_uploaded_file($tmp_name, $path)) die("can't move file");
+
+    $cmd = "cd $dir; tar -xf $orig_name";
+    echo "tar command: $cmd\n";
+    system($cmd);
+
+    echo "Installer uploaded to $dir.\n";
+}
+
+if (0) {
+    echo "POST: "; print_r($_POST);
+    echo "<br>";
+    echo "COOKIE: "; print_r($_COOKIE);
+    echo "<br>";
+    echo "FILES: "; print_r($_FILES);
+    echo "<br>";
 }
 
 $user = get_logged_in_user();
 check_login($user);
-if (post_str('submit', true)) {
+if (count($_FILES)>0) {
     action();
 } else {
     form();
