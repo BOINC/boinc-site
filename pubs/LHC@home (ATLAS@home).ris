@@ -19,6 +19,27 @@ L2  - https://cds.cern.ch/record/2648905?ln=en
 ER  - 
 
 TY  - JOUR
+TI  - Nonlinear correction schemes for the phase 1 LHC insertion region upgrade and dynamic aperture studies
+AU  - Tomás, R.
+AU  - Giovannozzi, M.
+AU  - de Maria, R.
+T2  - Physical Review Special Topics - Accelerators and Beams
+DA  - 2009/01/21/
+PY  - 2009
+DO  - 10.1103/PhysRevSTAB.12.011002
+DP  - DOI.org (Crossref)
+VL  - 12
+IS  - 1
+SP  - 011002
+J2  - Phys. Rev. ST Accel. Beams
+LA  - en
+SN  - 1098-4402
+UR  - https://link.aps.org/doi/10.1103/PhysRevSTAB.12.011002
+Y2  - 2022/11/20/15:33:38
+L1  - https://link.aps.org/pdf/10.1103/PhysRevSTAB.12.011002
+ER  - 
+
+TY  - JOUR
 TI  - ATLAS Grid Workflow Performance Optimization
 AU  - Elmsheuser, Johannes
 AU  - Di Girolamo, Alessandro

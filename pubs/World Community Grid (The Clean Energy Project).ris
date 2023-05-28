@@ -19,8 +19,8 @@ ST  - What Is High-Throughput Virtual Screening?
 UR  - https://doi.org/10.1146/annurev-matsci-070214-020823
 Y2  - 2022/12/29/22:04:38
 L1  - https://dash.harvard.edu/bitstream/1/25977966/1/What_is_high_throughput_virtual_screening_with_images-2.pdf
-KW  - big data
 KW  - computational materials design
+KW  - big data
 ER  - 
 
 TY  - JOUR
@@ -44,8 +44,8 @@ ST  - Learning from the Harvard Clean Energy Project
 UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201501919
 Y2  - 2022/12/29/22:04:59
 L2  - https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201501919
-KW  - big data
 KW  - machine learning
+KW  - big data
 KW  - materials genomes
 KW  - neural networks
 KW  - organic materials screening
@@ -169,5 +169,28 @@ Y2  - 2022/12/29/22:08:36
 L1  - https://www.nature.com/articles/ncomms1451.pdf
 KW  - Combinatorial chemistry
 KW  - Semiconductors
+ER  - 
+
+TY  - JOUR
+TI  - Design Principles and Top Non-Fullerene Acceptor Candidates for Organic Photovoltaics
+AU  - Lopez, Steven A.
+AU  - Sanchez-Lengeling, Benjamin
+AU  - De Goes Soares, Julio
+AU  - Aspuru-Guzik, Alán
+T2  - Joule
+DA  - 2017/12//
+PY  - 2017
+DO  - 10.1016/j.joule.2017.10.006
+DP  - DOI.org (Crossref)
+VL  - 1
+IS  - 4
+SP  - 857
+EP  - 870
+J2  - Joule
+LA  - en
+SN  - 25424351
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S2542435117301307
+Y2  - 2023/05/28/12:30:09
+L1  - https://www.cell.com/article/S2542435117301307/pdf
 ER  - 
 

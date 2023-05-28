@@ -249,3 +249,91 @@ Y2  - 2022/12/30/10:21:17
 L1  - https://europepmc.org/articles/pmc3083070?pdf=render
 ER  - 
 
+TY  - CHAP
+TI  - Computational Challenges of Structure-Based Approaches Applied to HIV
+AU  - Forli, Stefano
+AU  - Olson, Arthur J.
+T2  - The Future of HIV-1 Therapeutics
+A2  - Torbett, Bruce E.
+A2  - Goodsell, David S.
+A2  - Richman, Douglas D.
+CY  - Cham
+DA  - 2015///
+PY  - 2015
+DP  - DOI.org (Crossref)
+VL  - 389
+SP  - 31
+EP  - 51
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-319-18517-0 978-3-319-18518-7
+UR  - https://link.springer.com/10.1007/82_2015_432
+Y2  - 2023/05/28/14:42:17
+ER  - 
+
+TY  - JOUR
+TI  - Large-scale asynchronous and distributed multidimensional replica exchange molecular simulations and efficiency analysis
+AU  - Xia, Junchao
+AU  - Flynn, William F.
+AU  - Gallicchio, Emilio
+AU  - Zhang, Bin W.
+AU  - He, Peng
+AU  - Tan, Zhiqiang
+AU  - Levy, Ronald M.
+T2  - Journal of Computational Chemistry
+AB  - We describe methods to perform replica exchange molecular dynamics (REMD) simulations asynchronously (ASyncRE). The methods are designed to facilitate large scale REMD simulations on grid computing networks consisting of heterogeneous and distributed computing environments as well as on homogeneous high-performance clusters. We have implemented these methods on NSF (National Science Foundation) XSEDE (Extreme Science and Engineering Discovery Environment) clusters and BOINC (Berkeley Open Infrastructure for Network Computing) distributed computing networks at Temple University and Brooklyn College at CUNY (the City University of New York). They are also being implemented on the IBM World Community Grid. To illustrate the methods, we have performed extensive (more than 60 ms in aggregate) simulations for the beta-cyclodextrin-heptanoate host-guest system in the context of one- and two-dimensional ASyncRE, and we used the results to estimate absolute binding free energies using the binding energy distribution analysis method. We propose ways to improve the efficiency of REMD simulations: these include increasing the number of exchanges attempted after a specified molecular dynamics (MD) period up to the fast exchange limit and/or adjusting the MD period to allow sufficient internal relaxation within each thermodynamic state. Although ASyncRE simulations generally require long MD periods (>picoseconds) per replica exchange cycle to minimize the overhead imposed by heterogeneous computing networks, we found that it is possible to reach an efficiency similar to conventional synchronous REMD, by optimizing the combination of the MD period and the number of exchanges attempted per cycle. © 2015 Wiley Periodicals, Inc.
+DA  - 2015///
+PY  - 2015
+DO  - 10.1002/jcc.23996
+DP  - Wiley Online Library
+VL  - 36
+IS  - 23
+SP  - 1772
+EP  - 1785
+LA  - en
+SN  - 1096-987X
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.23996
+Y2  - 2023/05/28/14:44:43
+L1  - https://europepmc.org/articles/pmc4512903?pdf=render
+L2  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.23996
+KW  - asynchronous replica exchange
+KW  - binding energy distribution analysis method
+KW  - distributed computing network
+KW  - efficiency analysis
+KW  - host–guest system
+KW  - molecular dynamics
+ER  - 
+
+TY  - JOUR
+TI  - Asynchronous replica exchange software for grid and heterogeneous computing
+AU  - Gallicchio, Emilio
+AU  - Xia, Junchao
+AU  - Flynn, William F.
+AU  - Zhang, Baofeng
+AU  - Samlalsingh, Sade
+AU  - Mentes, Ahmet
+AU  - Levy, Ronald M.
+T2  - Computer Physics Communications
+AB  - Parallel replica exchange sampling is an extended ensemble technique often used to accelerate the exploration of the conformational ensemble of atomistic molecular simulations of chemical systems. Inter-process communication and coordination requirements have historically discouraged the deployment of replica exchange on distributed and heterogeneous resources. Here we describe the architecture of a software (named ASyncRE) for performing asynchronous replica exchange molecular simulations on volunteered computing grids and heterogeneous high performance clusters. The asynchronous replica exchange algorithm on which the software is based avoids centralized synchronization steps and the need for direct communication between remote processes. It allows molecular dynamics threads to progress at different rates and enables parameter exchanges among arbitrary sets of replicas independently from other replicas. ASyncRE is written in Python following a modular design conducive to extensions to various replica exchange schemes and molecular dynamics engines. Applications of the software for the modeling of association equilibria of supramolecular and macromolecular complexes on BOINC campus computational grids and on the CPU/MIC heterogeneous hardware of the XSEDE Stampede supercomputer are illustrated. They show the ability of ASyncRE to utilize large grids of desktop computers running the Windows, MacOS, and/or Linux operating systems as well as collections of high performance heterogeneous hardware devices.
+DA  - 2015/11/01/
+PY  - 2015
+DO  - 10.1016/j.cpc.2015.06.010
+DP  - ScienceDirect
+VL  - 196
+SP  - 236
+EP  - 246
+J2  - Computer Physics Communications
+LA  - en
+SN  - 0010-4655
+UR  - https://www.sciencedirect.com/science/article/pii/S0010465515002556
+Y2  - 2023/05/28/14:45:49
+L1  - https://europepmc.org/articles/pmc4834714?pdf=render
+L2  - https://www.sciencedirect.com/science/article/abs/pii/S0010465515002556?via%3Dihub
+KW  - BOINC
+KW  - Distributed computing
+KW  - Grid computing
+KW  - Peptide dimerization
+KW  - Protein–ligand binding
+KW  - Replica exchange molecular dynamics
+ER  - 
+

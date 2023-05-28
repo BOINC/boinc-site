@@ -486,41 +486,6 @@ UR  - https://pubs.acs.org/doi/10.1021/ja301565k
 Y2  - 2022/11/18/22:36:39
 ER  - 
 
-TY  - JOUR
-TI  - A novel hotspot of gelsolin instability triggers an alternative mechanism of amyloid aggregation
-AU  - Bollati, Michela
-AU  - Diomede, Luisa
-AU  - Giorgino, Toni
-AU  - Natale, Carmina
-AU  - Fagnani, Elisa
-AU  - Boniardi, Irene
-AU  - Barbiroli, Alberto
-AU  - Alemani, Rebecca
-AU  - Beeg, Marten
-AU  - Gobbi, Marco
-AU  - Fakin, Ana
-AU  - Mastrangelo, Eloise
-AU  - Milani, Mario
-AU  - Presciuttini, Gianluca
-AU  - Gabellieri, Edi
-AU  - Cioni, Patrizia
-AU  - de Rosa, Matteo
-T2  - Computational and Structural Biotechnology Journal
-DA  - 2021///
-PY  - 2021
-DO  - 10.1016/j.csbj.2021.11.025
-DP  - DOI.org (Crossref)
-VL  - 19
-SP  - 6355
-EP  - 6365
-J2  - Computational and Structural Biotechnology Journal
-LA  - en
-SN  - 20010370
-UR  - https://linkinghub.elsevier.com/retrieve/pii/S2001037021004906
-Y2  - 2022/11/18/22:36:40
-L1  - https://www.sciencedirect.com/science/article/pii/S2001037021004906/pdfft?md5=ca14778843cdaced572489bca82ab90c&pid=1-s2.0-S2001037021004906-main.pdf&isDTMRedir=Y
-ER  - 
-
 TY  - CHAP
 TI  - Understanding Molecular Recognition by Kinetic Network Models Constructed from Molecular Dynamics Simulations
 AU  - Huang, Xuhui
@@ -996,9 +961,9 @@ DO  - 10.48550/ARXIV.1710.10629
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/1710.10629
 Y2  - 2022/11/18/22:36:38
+KW  - FOS: Computer and information sciences
 KW  - Biomolecules (q-bio.BM)
 KW  - FOS: Biological sciences
-KW  - FOS: Computer and information sciences
 KW  - Machine Learning (cs.LG)
 KW  - Machine Learning (stat.ML)
 ER  - 
@@ -1244,5 +1209,108 @@ SN  - 1549-9618, 1549-9626
 ST  - HTMD
 UR  - https://pubs.acs.org/doi/10.1021/acs.jctc.6b00049
 Y2  - 2022/11/18/22:36:39
+ER  - 
+
+TY  - JOUR
+TI  - A High-Throughput Steered Molecular Dynamics Study on the Free Energy Profile of Ion Permeation through Gramicidin A
+AU  - Giorgino, Toni
+AU  - De Fabritiis, Gianni
+T2  - Journal of Chemical Theory and Computation
+DA  - 2011/06/14/
+PY  - 2011
+DO  - 10.1021/ct100707s
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 6
+SP  - 1943
+EP  - 1950
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+UR  - https://pubs.acs.org/doi/10.1021/ct100707s
+Y2  - 2023/05/28/11:52:11
+ER  - 
+
+TY  - JOUR
+TI  - High-Throughput All-Atom Molecular Dynamics Simulations Using Distributed Computing
+AU  - Buch, I.
+AU  - Harvey, M. J.
+AU  - Giorgino, T.
+AU  - Anderson, D. P.
+AU  - De Fabritiis, G.
+T2  - Journal of Chemical Information and Modeling
+DA  - 2010/03/22/
+PY  - 2010
+DO  - 10.1021/ci900455r
+DP  - DOI.org (Crossref)
+VL  - 50
+IS  - 3
+SP  - 397
+EP  - 403
+J2  - J. Chem. Inf. Model.
+LA  - en
+SN  - 1549-9596, 1549-960X
+UR  - https://pubs.acs.org/doi/10.1021/ci900455r
+Y2  - 2023/05/28/11:55:58
+ER  - 
+
+TY  - JOUR
+TI  - A novel hotspot of gelsolin instability triggers an alternative mechanism of amyloid aggregation
+AU  - Bollati, Michela
+AU  - Diomede, Luisa
+AU  - Giorgino, Toni
+AU  - Natale, Carmina
+AU  - Fagnani, Elisa
+AU  - Boniardi, Irene
+AU  - Barbiroli, Alberto
+AU  - Alemani, Rebecca
+AU  - Beeg, Marten
+AU  - Gobbi, Marco
+AU  - Fakin, Ana
+AU  - Mastrangelo, Eloise
+AU  - Milani, Mario
+AU  - Presciuttini, Gianluca
+AU  - Gabellieri, Edi
+AU  - Cioni, Patrizia
+AU  - De Rosa, Matteo
+T2  - Computational and Structural Biotechnology Journal
+DA  - 2021///
+PY  - 2021
+DO  - 10.1016/j.csbj.2021.11.025
+DP  - DOI.org (Crossref)
+VL  - 19
+SP  - 6355
+EP  - 6365
+J2  - Computational and Structural Biotechnology Journal
+LA  - en
+SN  - 20010370
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S2001037021004906
+Y2  - 2023/05/28/12:03:30
+L1  - https://www.sciencedirect.com/science/article/pii/S2001037021004906/pdfft?md5=ca14778843cdaced572489bca82ab90c&pid=1-s2.0-S2001037021004906-main.pdf&isDTMRedir=Y
+ER  - 
+
+TY  - JOUR
+TI  - Kinetic modulation of a disordered protein domain by phosphorylation
+AU  - Stanley, Nathaniel
+AU  - Esteban-Martín, Santiago
+AU  - De Fabritiis, Gianni
+T2  - Nature Communications
+AB  - Phosphorylation is a major post-translational mechanism of regulation that frequently targets disordered protein domains, but it remains unclear how phosphorylation modulates disordered states of proteins. Here we determine the kinetics and energetics of a disordered protein domain the kinase-inducible domain (KID) of the transcription factor CREB and that of its phosphorylated form pKID, using high-throughput molecular dynamic simulations. We identify the presence of a metastable, partially ordered state with a 60-fold slowdown in conformational kinetics that arises due to phosphorylation, kinetically stabilizing residues known to participate in an early binding intermediate. We show that this effect is only partially reconstituted by mutation to glutamate, indicating that the phosphate is uniquely required for the long-lived state to arise. This mechanism of kinetic modulation could be important for regulation beyond conformational equilibrium shifts.
+DA  - 2014/10/28/
+PY  - 2014
+DO  - 10.1038/ncomms6272
+DP  - www.nature.com
+VL  - 5
+IS  - 1
+SP  - 5272
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/ncomms6272
+Y2  - 2023/05/28/12:56:22
+L1  - https://www.nature.com/articles/ncomms6272.pdf
+KW  - Biochemistry
+KW  - Kinetics
+KW  - Phosphorylation
 ER  - 
 
