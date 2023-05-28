@@ -543,42 +543,6 @@ L1  - https://bmcmedicine.biomedcentral.com/counter/pdf/10.1186/s12916-015-0408-
 ER  - 
 
 TY  - JOUR
-TI  - Public health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models
-AU  - Penny, Melissa A
-AU  - Verity, Robert
-AU  - Bever, Caitlin A
-AU  - Sauboin, Christophe
-AU  - Galactionova, Katya
-AU  - Flasche, Stefan
-AU  - White, Michael T
-AU  - Wenger, Edward A
-AU  - Van de Velde, Nicolas
-AU  - Pemberton-Ross, Peter
-AU  - Griffin, Jamie T
-AU  - Smith, Thomas A
-AU  - Eckhoff, Philip A
-AU  - Muhib, Farzana
-AU  - Jit, Mark
-AU  - Ghani, Azra C
-T2  - The Lancet
-DA  - 2016/01//
-PY  - 2016
-DO  - 10.1016/S0140-6736(15)00725-4
-DP  - DOI.org (Crossref)
-VL  - 387
-IS  - 10016
-SP  - 367
-EP  - 375
-J2  - The Lancet
-LA  - en
-SN  - 01406736
-ST  - Public health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine
-UR  - https://linkinghub.elsevier.com/retrieve/pii/S0140673615007254
-Y2  - 2022/11/20/15:46:07
-L1  - https://www.thelancet.com/article/S0140673615007254/pdf
-ER  - 
-
-TY  - JOUR
 TI  - Uses of mosquito-stage transmission-blocking vaccines against Plasmodium falciparum
 AU  - Smith, Thomas A.
 AU  - Chitnis, Nakul
@@ -666,5 +630,73 @@ SN  - 0031-1820, 1469-8161
 UR  - https://www.cambridge.org/core/product/identifier/S0031182008000371/type/journal_article
 Y2  - 2022/11/20/15:53:12
 L1  - https://zenodo.org/record/997894/files/article.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Can we depend on case management to prevent re-establishment of P. falciparum malaria, after local interruption of transmission?
+AU  - Crowell, Valerie
+AU  - Hardy, Diggory
+AU  - Briët, Olivier
+AU  - Chitnis, Nakul
+AU  - Maire, Nicolas
+AU  - Smith, Thomas
+T2  - Epidemics
+AB  - Recent declines in malaria burden in many parts of the world have prompted consideration of how interruption of Plasmodium falciparum transmission could be maintained, if achieved, and notably whether large-scale vector control could be replaced with surveillance. This information is essential for elimination feasibility assessments and planning. The risk of re-establishment of transmission depends mainly on vectorial capacity (receptivity), likely to rebound once vector control is removed, the rate of importation of infections (vulnerability), the capacity to detect and treat infections and the level of immunity in infected individuals. Timely detection and removal of new infections is likely to be critical to prevent re-establishment of transmission. We assess, through mathematical modeling and simulation, which levels of case detection and treatment (case management) are required to prevent re-establishment of transmission of P. falciparum after local interruption of transmission has been achieved, in settings with varying receptivity and vulnerability. We find that, even at rather low levels of receptivity, case management alone cannot reliably prevent re-establishment of P. falciparum malaria transmission in the face of medium to high importation rates. Thus, if vector control is to be discontinued, preventing the importations by controlling transmission in source areas will generally be necessary for preventing reintroduction in such settings, and cannot be substituted by very high levels of case management coverage.
+DA  - 2012/03/01/
+PY  - 2012
+DO  - 10.1016/j.epidem.2011.10.003
+DP  - ScienceDirect
+VL  - 4
+IS  - 1
+SP  - 1
+EP  - 8
+J2  - Epidemics
+LA  - en
+SN  - 1755-4365
+UR  - https://www.sciencedirect.com/science/article/pii/S1755436511000442
+Y2  - 2023/05/28/15:09:00
+L1  - https://www.sciencedirect.com/science/article/pii/S1755436511000442/pdfft?md5=62768bc27a1dd276398674aee65c1515&pid=1-s2.0-S1755436511000442-main.pdf&isDTMRedir=Y
+L2  - https://www.sciencedirect.com/science/article/pii/S1755436511000442?via%3Dihub
+KW  - Elimination
+KW  - Receptivity
+KW  - Treatment
+KW  - Vulnerability
+ER  - 
+
+TY  - JOUR
+TI  - Public health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models
+AU  - Penny, Melissa A.
+AU  - Verity, Robert
+AU  - Bever, Caitlin A.
+AU  - Sauboin, Christophe
+AU  - Galactionova, Katya
+AU  - Flasche, Stefan
+AU  - White, Michael T.
+AU  - Wenger, Edward A.
+AU  - Velde, Nicolas Van de
+AU  - Pemberton-Ross, Peter
+AU  - Griffin, Jamie T.
+AU  - Smith, Thomas A.
+AU  - Eckhoff, Philip A.
+AU  - Muhib, Farzana
+AU  - Jit, Mark
+AU  - Ghani, Azra C.
+T2  - The Lancet
+DA  - 2016/01/23/
+PY  - 2016
+DO  - 10.1016/S0140-6736(15)00725-4
+DP  - www.thelancet.com
+VL  - 387
+IS  - 10016
+SP  - 367
+EP  - 375
+J2  - The Lancet
+LA  - English
+SN  - 0140-6736, 1474-547X
+ST  - Public health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine
+UR  - https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)00725-4/fulltext
+Y2  - 2023/05/28/15:11:13
+L1  - http://www.thelancet.com/article/S0140673615007254/pdf
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/26549466
 ER  - 
 
