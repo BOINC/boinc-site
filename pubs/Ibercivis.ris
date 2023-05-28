@@ -365,8 +365,27 @@ DO  - 10.48550/ARXIV.1501.02134
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/1501.02134
 Y2  - 2022/11/19/20:59:29
-KW  - Computers and Society (cs.CY)
 KW  - FOS: Computer and information sciences
+KW  - Computers and Society (cs.CY)
 KW  - Human-Computer Interaction (cs.HC)
+ER  - 
+
+TY  - GEN
+TI  - Tenofovir and remdesivir ensemble docking with the SARS-CoV-2 polymerase and template-nascent RNA
+AU  - Martínez de Salazar, Pablo
+AU  - Ramos, Javier
+AU  - Cruz, Victor L.
+AU  - Polo, Rosa
+AU  - del Amo, Julia
+AU  - Martínez-Salazar, Javier
+AB  - Repositioning of remdesivir and tenofovir against COVID-19 has shown only partial evidence of improving clinical outcomes, in clinical trials and observational studies respectively. The rationale behind this inconsistent efficacy remains unknown. Here, we developed an ensemble docking approach for the active triphosphate forms of both antivirals with the SARS-CoV-2 polymerase and the RNA chain complex, under the hypothesis that clinical observation could rely on the specificities of the drug-target interaction. Our model framework allowed accurate reconstruction of the remdesivir ensemble, which presented the strongest binding affinity and pose stability close to the natural counterpart dATP. We further observed a set of features of the tenofovir complex that suggests functional yet suboptimal interaction, likely resulting in limited viral inhibition in the absence of high intracellular concentration at target tissues. Our findings provide rationale for the mixed effectiveness of tenofovir-based compounds against SARS-CoV-2 and underscore the relevance of the intracellular availability of the nucleotide analogues relative to viral tropism.
+DA  - 2020/09/28/
+PY  - 2020
+DO  - 10.22541/au.160133726.63184055
+DP  - digital.csic.es
+LA  - eng
+UR  - https://digital.csic.es/handle/10261/220537
+Y2  - 2023/05/28/15:00:29
+L1  - https://digital.csic.es/bitstream/10261/220537/1/483674.pdf
 ER  - 
 
