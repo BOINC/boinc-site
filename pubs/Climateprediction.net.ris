@@ -1166,7 +1166,7 @@ UR  - http://link.springer.com/10.1007/s00382-006-0180-2
 Y2  - 2022/11/10/22:56:54
 ER  - 
 
-TY  - GEN
+TY  - DATA
 TI  - Managing the Risks, Impacts and Uncertainties of drought and water Scarcity (MaRIUS) project: Large set of potential past and future climate time series for the UK from the weather@home2 model
 AU  - Guillod, Benoit P.
 AU  - Jones, Richard G.
@@ -1175,9 +1175,15 @@ AU  - Massey, Neil R.
 AU  - Sparrow, Sarah
 AU  - Wallom, David C. H.
 AU  - Wilson, Simon S.
+A4  - Centre For Environmental Data Analysis (CEDA)
+A4  - Centre For Environmental Data Analysis (CEDA)
+A4  - Centre For Environmental Data Analysis (CEDA)
+A4  - Centre For Environmental Data Analysis (CEDA)
+A4  - Centre For Environmental Data Analysis (CEDA)
 AB  - Large data sets created within the MaRIUS project (Managing the Risks, Impacts and Uncertainties of drought and water Scarcity). Three time periods are covered: historical baseline (BS: 1900-2006), near-future (NF: 2020-2049) and far-future (FF: 2070-2099), whereby the RCP8.5 is assumed for future time slices. The 30-year baseline to which future time slices should be compared to are years 2075-2004 of the historical baseline, since oceanic variability in future time slices is based on these years. One set of 100 time series is available for the historical baseline, while 5 sets of about 85-100 time series are available for each future time slice. The five sets sample climate model uncertainty by sampling a range of sea surface temperature warming patterns as follows: nf and ff use the median warming pattern of CMIP5 climate models. The four others sets are called nf-pYYz (near future) and ff-pYYz (far future) whereby 'YY' stands for the percentile of global mean SST warming (YY=10 or 90) and 'z' stands for the North Atlantic SST gradient (z=n for minimum, z=x for maximum). All natural forcings (e.g., volcanoes) in the future time slices are replications of years 1975-2004, while anthropogenic forcings (e.g., CO2 concentrations) follow the high-emission scenario RCP8.5. The time series were created from single-year simulations that have been stitched together while ensuring continuity in the slowly-evolving variability (see Guillod et al., Hydrol. Earth Syst. Sci., 2017 for details). Therefore, for each set (e.g., near_future_p10n), a 'stitching table' is provided alongside with data from individual yearly simulations, which contains the simulation ID ('umid') for each year and each individual time series (i.e., each column within the table list the umid for each year of the time series). Data are gridded NetCDF V3 files, provided on a rotated longitude-latitude grid at a 0.22 degree resolution (European CORDEX grid) over a domain encompassing the United Kingdom. A subset of variables are available at daily, 5-days, and monthly temporal resolutions, based on a calendar with 360 days a year (30 days per month). Included are only data from HadRM3P, the regional climate model within weather@home2. After unpacking yearly *tgz files for a given time slice and scenario (e.g., near_future_p10n) within a directory with the relevant name, the data are structured as follows: timeslice / year / umid / temporalResolution / WAH_umid_variable_temporalResolution_g2_year.nc where: - The temporal resolution ('temporalResolution') available depends on the variable, but it can be 'daily', 'monthly', or '5days' - 'timeslice' can be one of: 'baseline', 'near_future', 'near_future_p10n', 'near_future_p10x', 'near_future_p90n', 'near_future_p90x', 'far_future', 'far_future_p10n', 'far_future_p10x', 'far_future_p90n', 'far_future_p90x'. - 'year' is the year of the simulation and data. - 'umid' is the ID of the simulation, to be read from the stitching table. - 'variable' is the variable, following CMOR conventions (see also Table 3 in Guillod et al., Hydrol. Earth Syst. Sci., 2017). Further details about the data, including validation of the climate time series and analyses of some changes in the future projections, can be found in the PDF documentation as well as in Guillod et al., 2017b. A detailed validation of the model (weather@home2) can be found in Guillod et al., 2017a (see list of references below).
 DA  - 2017///
 PY  - 2017
+DO  - 10.5285/0CEA8D7ACA57427FAE92241348AE9B03
 DP  - DOI.org (Datacite)
 LA  - en
 PB  - Centre for Environmental Data Analysis (CEDA)
@@ -3669,11 +3675,37 @@ UR  - https://onlinelibrary.wiley.com/doi/10.1002/2016GL069965
 Y2  - 2022/12/19/13:13:44
 L1  - https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016GL069965
 L2  - https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016GL069965
+KW  - regional climate model
 KW  - attribution
 KW  - drought
-KW  - regional climate model
 KW  - snow drought
 KW  - superensemble
 KW  - weather@home
+ER  - 
+
+TY  - JOUR
+TI  - Enabling BOINC in infrastructure as a service cloud system
+AU  - Montes, Diego
+AU  - Añel, Juan A.
+AU  - Pena, Tomás F.
+AU  - Uhe, Peter
+AU  - Wallom, David C. H.
+T2  - Geoscientific Model Development
+AB  - Volunteer or crowd computing is becoming increasingly popular for solving complex research problems from an increasingly diverse range of areas. The majority of these have been built using the Berkeley Open Infrastructure for Network Computing (BOINC) platform, which provides a range of different services to manage all computation aspects of a project. The BOINC system is ideal in those cases where not only does the research community involved need low-cost access to massive computing resources but also where there is a significant public interest in the research being done.
+
+We discuss the way in which cloud services can help BOINC-based projects to deliver results in a fast, on demand manner. This is difficult to achieve using volunteers, and at the same time, using scalable cloud resources for short on demand projects can optimize the use of the available resources. We show how this design can be used as an efficient distributed computing platform within the cloud, and outline new approaches that could open up new possibilities in this field, using Climateprediction.net (http://www.climateprediction.net/) as a case study.
+DA  - 2017/02/21/
+PY  - 2017
+DO  - 10.5194/gmd-10-811-2017
+DP  - Copernicus Online Journals
+VL  - 10
+IS  - 2
+SP  - 811
+EP  - 826
+LA  - English
+SN  - 1991-959X
+UR  - https://gmd.copernicus.org/articles/10/811/2017/
+Y2  - 2023/05/28/15:26:35
+L1  - https://gmd.copernicus.org/articles/10/811/2017/gmd-10-811-2017.pdf
 ER  - 
 
