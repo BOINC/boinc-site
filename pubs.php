@@ -205,10 +205,10 @@ function main($years) {
     ";
     echo "<font size=+2>Group by ";
     if ($years) {
-    text_start();
+        text_start();
         echo"<a href=pubs.php>project</a> &middot; year</font><p>";
         show_years($p);
-    text_end();
+        text_end();
     } else {
         echo "project &middot; <a href=pubs.php?years=1>year</a></font><p>";
         show_proj($p);

@@ -57,6 +57,7 @@ function project_banner($title, $prefix, $is_main) {
     global $client_languages;
     $spacer = '<br style="line-height: 10px" />';
 
+    echo "<font size=+1>";
     if ($is_main) {
         echo $spacer;
         echo '

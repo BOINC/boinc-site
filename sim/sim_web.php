@@ -59,7 +59,8 @@ function nsims($scen) {
 }
 
 function show_scenario_summary($f) {
-    $desc = file_get_contents("scenarios/$f/description");
+    $desc = @file_get_contents("scenarios/$f/description");
+    if (!$desc) return;
     $userid = (int)file_get_contents("scenarios/$f/userid");
     $user = BoincUser::lookup_id($userid);
     $date = date_str(filemtime("scenarios/$f"));

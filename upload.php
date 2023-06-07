@@ -18,8 +18,9 @@ function check_login($user) {
     $ids = parse_config(get_config(), '<upload_ids>');
     $ids = explode(' ', $ids);
     if (!in_array($user->id, $ids)) {
-        error_page('not authorized');
+        return false;
     }
+    return true;
 }
 
 function form() {
@@ -77,8 +78,10 @@ if (0) {
     echo "<br>";
 }
 
-$user = get_logged_in_user();
-check_login($user);
+$user = get_logged_in_user(false);
+if (!$user || !check_login($user)) {
+    echo "Not authorized\n"; exit;
+}
 if (count($_FILES)>0) {
     action();
 } else {
