@@ -68,7 +68,6 @@ If you don't want to get emails about BOINC Alpha test, go here:
 $opt_out_url
 EOT;
     $mail->Body     = $message;
-    //$mail->AltBody  = $message;
     $mail->AddAddress("$user->email_addr", "$user->name");
 
     $mail->Send();
@@ -105,7 +104,6 @@ function do_user($user) {
 db_init();
 
 $r = _mysql_query("select * from user where send_email<>0");
-//$r = _mysql_query("select * from user where id=1");
 while ($user = _mysql_fetch_object($r)) {
     do_user($user);
 }

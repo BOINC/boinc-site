@@ -283,7 +283,7 @@ echo "<p>";
 
 grid(null, 'left', 'right');
 
-    //show_nsf();
+    
     echo "<br>";
 page_tail(true, true);
 ?>

@@ -37,9 +37,7 @@ foreach ($all_test_groups as $t) {
         $retval = _mysql_query($query);
         echo "<br>$t[1]: updating existing report\n";
     } else {
-        //echo "inserting";
         $query = "insert into $report_table (userid, version, platform, test_group, status, comment, product_name) values ($user->id, '$version', '$platform', '$t[0]', $status, '$comment', '$product_name')";
-
         $retval = _mysql_query($query);
     }
     if (!$retval) {

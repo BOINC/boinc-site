@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 
-// generate .po template for the BOINC web site.
+// generate a .po template for the BOINC web site.
 //
 // NOTE: after running this, move LANG_NAME_NATIVE and LANG_NAME_INTERNATIONAL
 // to the top, and set their strings to "English"

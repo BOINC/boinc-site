@@ -34,7 +34,7 @@ Administrivia:
 
     Set the version number:
         see clien/win/win_config.h to find last version#
-        (or look on web site)
+        (or look on website)
 
         % ./set-version <verno>
         (this revises client/win/win_config.h, makefile.in's)
@@ -48,7 +48,7 @@ Administrivia:
 
 Build
  Windows:
-    NOTE: currently we are distributing the debug version of the core client.
+    NOTE: Currently we are distributing the debug version of the core client.
     This is reflected in:
         - where you copy dbghelp.dll to
         - the "File Groups" tab of Installshield (link type)

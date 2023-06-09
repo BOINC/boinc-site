@@ -48,7 +48,7 @@ into '~/Library/Application Support/BOINC Data/'
 <p>
 Now when you run BOINC Menubar and select 'Manage Projects...' from the
 status menu,
-you should find a list of the projects in which you are currently participating.
+you should find a list of the project;s in which you are currently participating.
 
 <h1>Managing Projects</h1>
 <h3>Adding Projects</h3>

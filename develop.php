@@ -6,7 +6,7 @@ echo "
 <h3>Overview</h2>
 <p>
 BOINC is open-source;
-it's is distributed under the LGPL open source license.
+it is distributed under the LGPL open source license.
 The BOINC source code is stored in
 <a href=https://github.com/BOINC/boinc>a GitHub repository</a>.
 If you're not familiar with Git,
@@ -28,7 +28,7 @@ such as release management, managing the translation system, and so on.
 <h3>APIs</h2>
 <p>
 BOINC is an 'open system' with lots of interacting pieces:
-client, GUI, server, account managers, statistics web sites,
+client, GUI, server, account managers, statistics websites,
 remote job submission systems, etc.
 These components communicate through
 <a href=https://boinc.berkeley.edu/trac/wiki/SoftwareAddon>a set of RPC interfaces</a>.

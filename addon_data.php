@@ -55,7 +55,7 @@ array(
     'Windows',
     'SETIspirit presents a complete overview about the BOINC workunits, e. g. the number of workunits available/completed as well as the overall workunit status (downloading, ready to run, running, wu progress, uploading, ready to report). SETIspirit shows the user and host credits and the most recent project server states (download and upload server, scheduler service). The statistic module shows the calculated workunits in week-, month- or year charts.
 
-    The SETIspirit sky map shows the position where the workunit is recorded and much more details (report deadline, recorded on/at, wu type, slot, cpu time, time left) as well as the current results of the workunit analysis (spikes, gaussians, pulses and triplets found). The sky map shows all known 88 constellations with constellations shapes and deep sky photographies. The database (db) offers some interesting facts about the constellations.',
+    The SETIspirit sky map shows the position where the workunit is recorded and much more details (report deadline, recorded on/at, wu type, slot, cpu time, time left) as well as the current results of the workunit analysis (spikes, gaussians, pulses and triplets found). The sky map shows all known 88 constellations with constellation shapes and deep sky photographies. The database (db) offers some interesting facts about the constellations.',
     1371112500
 ),
 array(
@@ -150,7 +150,7 @@ array(
 array('BoincLogX_Setup_v1.51.exe',
     'BoincLogX',
     '1.51',
-    'BoincLogX creates detailed logfiles for all BOINC projects.',
+    'BoincLogX creates detailed log files for all BOINC projects.',
     'http://www.bjoernhenke.de',
     '',
     'BoincLogX makes it possible to log and show information about your processed WUs. In addition to a general log file which supports all BOINC projects, it will create project specific log files with detailed information about the WUs and results of some projects like SETI@home, Einstein@Home and AstroPulse. Additionally, it can backup the most important files for later analyses. BoincLogX can monitor an unlimited number of BOINC clients in a windows or SAMBA network. It will show basic state information like current progress, cache status or time left for all BOINC projects and project specific state information (like Spikes, Gaussians, Pulses or Triplets for SETI@home-WUs) for some projects. The overall view makes it possible to get an overview of all WUs which are currently in the caches of the monitored clients. You can see the time left for all projects and all clients and you\'ll be able to see the estimated finish time for all of your WUs regarding the current resource share and the clients activity fraction.',
@@ -191,7 +191,7 @@ array('SETI_at_BOINCWatch_1.10.15.exe',
     'A SETI@Home/BOINC client watcher! User statistics powered by BOINCStats',
     'http://www.setiboincwatch.org/',
     '',
-    'Logging finished results which you can review in details later, builtin; starmap whish shows the position of the current WU and all the logged results; user, team and country statistics powered by BOINCStats and many more features included...',
+    'Logging finished results which you can review in details later, builtin; starmap which shows the position of the current WU and all the logged results; user, team and country statistics powered by BOINCStats and many more features included...',
     1115657242
 ),
 array('SETIatBOINCWatch(.NET2.0).exe',
@@ -200,7 +200,7 @@ array('SETIatBOINCWatch(.NET2.0).exe',
     'A SETI@Home/BOINC client watcher! User statistics powered by BOINCStats. But now built with the .NET environment.',
     'http://www.setiboincwatch.org/',
     '2000/XP family/2003 Server family',
-    'Logging finished results which you can review in details later, builtin; starmap whish shows the position of the current WU and all the logged results; user, team and country statistics powered by BOINCStats and many more features included...',
+    'Logging finished results which you can review in details later, builtin; starmap which shows the position of the current WU and all the logged results; user, team and country statistics powered by BOINCStats and many more features included...',
     1145198333
 ),
 array('SETIatBOINCWatch(.NET).exe',
@@ -209,7 +209,7 @@ array('SETIatBOINCWatch(.NET).exe',
     'A SETI@Home/BOINC client watcher! User statistics powered by BOINCStats. But now built with the .NET environment.',
     'http://www.setiboincwatch.org/',
     '2000/XP family/2003 Server family',
-    'Logging finished results which you can review in details later, builtin; starmap whish shows the position of the current WU and all the logged results; user, team and country statistics powered by BOINCStats and many more features included...',
+    'Logging finished results which you can review in details later, builtin; starmap which shows the position of the current WU and all the logged results; user, team and country statistics powered by BOINCStats and many more features included...',
     1145198264
 ),
 array('SetiMapView_Setup_v6.54.exe',
@@ -423,7 +423,7 @@ array('cpulimit-1.1.tar.gz',
     'Limits the CPU usage (good for laptops)',
     'http://cpulimit.sourceforge.net/',
     '',
-    'cpulimit is a simple program that attempts to limit the CPU usage of a process (expressed in percentage, not in cpu time). This is useful to control batch jobs, when you don\'t want they eat too much cpu. It does not act on the nice value or other priority stuff, but on the real cpu usage. Besides it is able to adapt itself to the overall system load, dynamically and quickly.
+    'cpulimit is a simple program that attempts to limit the CPU usage of a process (expressed in percentage, not in cpu time). This is useful to control batch jobs, when you don\'t want them to eat too much cpu. It does not act on the nice value or other priority stuff, but on the real cpu usage. Besides, it is able to adapt itself to the overall system load, dynamically and quickly.
     <p>
     Extract the source and compile:
     <pre>
@@ -602,7 +602,7 @@ array('sahuserstats.xpi',
     that displays your stats for SAH',
     'http://sahuserstats.mozdev.org/index.html',
     'FireFox v1.5 or earlier',
-    'An externsion for Firefox (may work under Mozilla) that will display your stats for SAH',
+    'An extension for Firefox (may work under Mozilla) that will display your stats for SAH',
     1138110002
 ),
 array('BOINC_User_Statistics_Widget.widget',
@@ -634,7 +634,7 @@ array('http://dl.onext.de/pub/boinc_lcs/boinc_lcs_latest.tar.gz',
     'Shows the current state and other information from an unlimited number of BOINC clients connected to the Internet.',
     'http://www.onenext.de/',
     'Apache, PHP',
-    'Boinc LCS is a free PHP based script, that allows you to monitor the current state (and other information) from each of your connected BOINC clients. It runs on a simple webserver and is platform independent. Boinc LCS is released under the GNU/GPL license. You can modify and redistribute or just use it!',
+    'Boinc LCS is a free PHP based script that allows you to monitor the current state (and other information) from each of your connected BOINC clients. It runs on a simple web server and is platform independent. Boinc LCS is released under the GNU/GPL license. You can modify and redistribute or just use it!',
     '1301891920'
 ),
 array('b-sig.zip',
@@ -652,7 +652,7 @@ array('boincphpgui-2.3.tar.gz',
     'Monitor and control Boinc from a web browser',
     'http://www.dennett.org/Projects/',
     'PHP5',
-    'A PHP based web application that allows you to monitor and control your boinc installations from as web browser.  It has functionality similar to Boinc Mgr.
+    'A PHP based web application that allows you to monitor and control your boinc installations from a web browser.  It has functionality similar to Boinc Mgr.
     Installation instructions included',
     1154384372
 

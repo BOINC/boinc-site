@@ -7,7 +7,7 @@
 //   advanced = advanced GUI help requests
 //   simple = simple GUI help requests
 //
-// $version is the verson number of the BOINC Manager requesting help.
+// $version is the version number of the BOINC Manager requesting help.
 //   Only valid for BOINC Manager 5.9.3 or better
 //
 // $controlid is the control identifier for the control that captured

@@ -194,7 +194,7 @@ Dialog ("project_unavailable"):
 
 	OK [button]
 
-Go to Projects tab.
+Go to the Projects tab.
 user is done.
 
 5) If no connection failure or no reply
@@ -210,7 +210,7 @@ Dialog ("invalid_key"):
 
 	The account key xxx is invalid.
 	Account keys are 32 characters, each of which is a-f or 0-9.
-	Please reenter the key.
+	Please re enter the key.
 
 	OK [button]
 

@@ -84,7 +84,7 @@ function show_scenarios() {
         The BOINC Client Emulator (BCE)
         <b>emulates</b> a BOINC client attached to one or more projects.
         It predicts, in a few seconds,
-        what the latest BOINC client will do over a period of day or months.
+        what the latest BOINC client will do over a period of days or months.
         By reporting problem situations to BOINC developers,
         you can help us fix bugs and improve performance.
         <h3>Scenarios</h3>
@@ -128,7 +128,7 @@ function show_scenarios() {
         </ul>
         The outputs of a simulation include
         <ul>
-        <li> A 'time line' showing CPU and GPU usage.
+        <li> A 'timeline' showing CPU and GPU usage.
         <li> The client's message log
         <li> graphs of scheduling-related data (REC).
         <li> A summary of several <b>figures of merit</b>, including

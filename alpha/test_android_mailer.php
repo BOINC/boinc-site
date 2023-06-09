@@ -60,7 +60,7 @@ http://boinc.berkeley.edu/alpha/test_matrix.php\n
 \n
 Specifically we need to test attaching to each project in the project list and attaching to Ralph@home (Rosetta@home's test project).  You can manually attach to the test project using http://ralph.bakerlab.org/ for the project URL.\n
 \n
-We would also like to cover the cases where people use two or more email addresses with valid and invalid passwords across multiple projects and properly handling attaching to World Community Grid in combination with other BOINC projects.\n
+We would also like to cover the cases where people use two or more email addresses with valid and invalid passwords across multiple projects and properly handle attaching to World Community Grid in combination with other BOINC projects.\n
 \n
 Be the first to brag to your friends about using your device for science by using our new social media features.  After attaching to a project or account manager you can share with your favorite social media network.\n
 \n
@@ -81,11 +81,8 @@ BOINC Development team\n
 		$mail->Body     = $html;
 		$mail->AltBody  = $message;
 		$mail->AddAddress("$email_addr", "$email_addr");
-		//$mail->AddAddress("rwalton@ssl.berkeley.edu", "Rom Walton");
-
 		$mail->Send();
 		$mail->ClearAllRecipients();
-
     }
     fclose($f);
 }

@@ -160,7 +160,7 @@ by add such a line to the crontab:
 
 So the file "machine_load" will quickly fill with lines such as the above.
 Now you may ask yourself - why two columns representing time in two different
-formats? Well sometime you just want to look at the data file itself, in which
+formats? Well sometimes you just want to look at the data file itself, in which
 case the human-readable first column is quite handy to have around, but when
 making linear time plots, having time in epoch seconds is much faster to
 manipulate. So generally, we like to have at least the two time fields first,
@@ -265,7 +265,7 @@ CGI version of stripchart:
 3. Edit stripchart.cgi GLOBAL/DEFAULT VARS to point to proper paths, including
    the files "querylist" and "datafiles" in the aforementioned "lib" directory.
 4. Edit the "lib/datafiles" file to contain entries for all your data files.
-   You can find an example datafiles in the samples directory. Follow the
+   You can find an example datafile in the samples directory. Follow the
    instructions in the comment lines, adding your entries below the header.
 
 That should be it, I think. Now go to the URL wherever your stripchart.cgi

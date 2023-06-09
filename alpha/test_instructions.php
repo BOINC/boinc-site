@@ -63,7 +63,7 @@ you can select which project(s) to attach to:
 <ul>
 <li> The BOINC Alpha project (this one) has tasks
 with large input and output files (4.5 MB each)
-and that use about 1 minute of CPU time.
+and that uses about 1 minute of CPU time.
 This is useful for testing file upload/download,
 and for testing things that happen on task completion.
 <b>You don't need to attach to this project to be an Alpha Tester.

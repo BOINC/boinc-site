@@ -49,7 +49,7 @@ There are various ways that hackers can try to get
 undeserved credit:
 <ul>
 <li> Claim that their CPUs and GPUs are faster than they really are.
-<li> Claim that jobs took longer then they really did.
+<li> Claim that jobs took longer than they really did.
 <li> Not do jobs at all, but upload false output files
     and claim that they did the job.
 </ul>
@@ -116,13 +116,13 @@ Project servers export credit information daily as XML files.
 Hosts and users are identified by "cross-project IDs",
 making it possible to find the totals across all projects
 for a given host or user.
-This is used by credit statistics web sites
+This is used by credit statistics websites
 such as BOINCstats and BOINC Combined Statistics.
 These sites store historical data.
 
 <p>
 Some BOINC projects have their own ways of granting credit;
-e.g., to grant a fixed amount of credit per job.
+e.g., to granted a fixed amount of credit per job.
 These may be less cheat-resistant than the standard BOINC mechanism,
 and they may grant more credit
 (some projects deliberately grant inflated credit to attract volunteers).

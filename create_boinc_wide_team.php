@@ -59,7 +59,7 @@ and an account with email address '$email_addr'
 and password 'foobar'.
 You can log in here:
 https://boinc.berkeley.edu/teams/home.php
-Let me know if any problems.
+Let me know if there are any problems.
 -- David
 ";
 ?>

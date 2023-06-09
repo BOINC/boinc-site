@@ -258,7 +258,7 @@ to simplify maintenance and administration.
 is accessible only by user and group <b>boinc_master</b>.
 In other words, only BOINC Manager, BOINC Client and authorized 
 users can read or modify it, restricting access to those BOINC RPC functions 
-which modify BOINC's operation.  
+which modifies BOINC's operation.  
 <li>On Macintosh computers, the actual directory structures
 of the BOINC Manager application bundle and the screensaver bundle are 
 more complex than implied by the box <i>BOINC executables</i> in the 

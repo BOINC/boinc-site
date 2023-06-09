@@ -33,7 +33,7 @@ function show_form() {
 
     <p>
     <b>
-    The following control how long the simulation runs.
+    The following controls how long the simulation runs.
     Duration may not exceed TimeStep*10000.
     </b>
     <br>Time step: <input name=delta value=60>
