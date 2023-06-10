@@ -153,7 +153,7 @@ echo "
 <a name=stats></a>
 <h3>Credit statistics</h3>
 <p>
-The following web sites show statistics for one or more BOINC projects.
+The following websites show statistics for one or more BOINC projects.
 These sites use XML-format data exported by BOINC projects,
 as described
 <a href=trac/wiki/CreditStats>here</a>.
@@ -205,7 +205,7 @@ echo "
 echo "
 </ul>
 <a name=sites></a>
-<h3>Other BOINC-related web sites</h3>
+<h3>Other BOINC-related websites</h3>
 ";
 list_start();
 echo "
@@ -354,7 +354,7 @@ language("Slovak", array(
 language("Spanish", array(
     site("http://www.titanesdc.com/", "Foros TitanesDC"),
     site("http://www.seti.cl/", "BOINC SETI Chile"),
-    site("http://www.easyboinc.org/", "Computación Distribuida"),
+    site("http://www.easyboinc.org/", "Computaciï¿½n Distribuida"
     site("http://foro.noticias3d.com/vbulletin/showthread.php?t=192297", "Noticias3D"),
     //site("http://elmajo.blogspot.com", "Computación Distribuida"),
     //site("http://efren-canarias.blogcindario.com/", "El Pais De La Computacion"),
@@ -376,7 +376,7 @@ language("Ukrainian", array(
 echo "
 </table>
 <p>
-If you'd like to add a web site to this list, please
+If you'd like to add a website to this list, please
 <a href=mailto:davea@ssl.berkeley.edu>contact us</a>.
 
 <a name=video>

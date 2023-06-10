@@ -98,9 +98,6 @@ function email_contact($vol) {
 
 $send_email = get_str('send_email', true);
 $rate = get_str('rate', true);
-//session_set_cookie_params(86400*365);
-//@session_start();
-//$uid = @session_id();
 $uid = false;
 
 if ($send_email) {

@@ -20,7 +20,7 @@
 // along with BOINC.  If not, see <http://www.gnu.org/licenses/>.
 
 
-// go through project list, see if still alive and master URL is corret
+// go through project list, see if still alive and master URL is correct
 
 require_once("projects.inc");
 

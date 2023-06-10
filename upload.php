@@ -36,34 +36,50 @@ function action() {
     $f = $_FILES['upload_file'];
     $orig_name = $f['name'];
     $tmp_name = $f['tmp_name'];
-    if (!$orig_name) die('no file');
-    if (!is_uploaded_file($tmp_name)) die('not uploaded file');
+    if (!$orig_name) {
+        http_response_code(400);
+        die('no file');
+    }
+    if (!is_uploaded_file($tmp_name)) {
+        http_response_code(400);
+        die('not uploaded file');
+    }
 
     $x = explode('.', $orig_name);
     if (count($x)!=3 || $x[1]!='tar' || $x[2]!= 'gz') {
+        http_response_code(400);
         die('bad file type');
     }
     $y = explode('-', $x[0]);
-    if (count($y)!=3 || $y[0]!='repo') die('bad file name');
-    if ($y[1]!='alpha' && $y[1]!='stable') die('bad file name');
+    if (count($y)!=3 || $y[0]!='repo') {
+        http_response_code(400);
+        die('bad file name');
+    }
+    if ($y[1]!='alpha' && $y[1]!='stable') {
+        http_response_code(400);
+        die('bad file name');
+    }
 
     $dir = sprintf('dl/linux/%s/%s', $y[1], $y[2]);
 
-    if (preg_match('/\s/', $dir)) die('filename has space');
-
-    @mkdir($dir);
+    if (preg_match('/\s/', $dir)) {
+        http_response_code(400);
+        die('filename has space');
+    }
 
     // don't screw this up or you'll delete everything
 
-    $cmd = "rm $dir/*";
-    echo "cleanup command: $cmd\n";
+    $cmd = "rm -r $dir";
+    //echo "cleanup command: $cmd\n";
     system($cmd);
+
+    mkdir($dir);
 
     $path = "$dir/$orig_name";
     if (!move_uploaded_file($tmp_name, $path)) die("can't move file");
 
     $cmd = "cd $dir; tar -xf $orig_name";
-    echo "tar command: $cmd\n";
+    //echo "tar command: $cmd\n";
     system($cmd);
 
     echo "Installer uploaded to $dir.\n";
@@ -80,7 +96,8 @@ if (0) {
 
 $user = get_logged_in_user(false);
 if (!$user || !check_login($user)) {
-    echo "Not authorized\n"; exit;
+    http_response_code(401);
+    die('Not authorized');
 }
 if (count($_FILES)>0) {
     action();

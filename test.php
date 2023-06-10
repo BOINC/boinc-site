@@ -104,7 +104,7 @@ output is as expected).
   <tr><td><code>test_pers.py</code></td>
     <td> tests the persistent file transfers for
       download and upload.  It interrupts them in the middle and makes sure
-      that the filesize never decreases along interrupted transfers.</tr>
+      that the file size never decreases along interrupted transfers.</tr>
   <tr><td><code>test_masterurl_failure.py</code></td>
     <td> tests the exponential backoff
       mechanism on the client in case of master URL failures.  This test is
