@@ -126,7 +126,7 @@ function show_cert($cpid, $name, $min_credit) {
     $credit = credit_string($total_credit, false);
 
     echo "
-        <table width=1200 height=800 border=$border cellpadding=20>
+        <table id=\"certificate\" width=1200 height=800 border=$border cellpadding=20>
         <tr><td>
         <center>
         <table width=1000 border=0>
