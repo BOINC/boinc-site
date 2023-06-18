@@ -323,3 +323,22 @@ Y2  - 2022/12/23/21:36:22
 L1  - https://dro.dur.ac.uk/34177/1/34177.pdf
 ER  - 
 
+TY  - GEN
+TI  - Symmetry breaking in merging binary black holes from young massive clusters and isolated binaries
+AU  - Banerjee, Sambaran
+AU  - Olejak, Aleksandra
+AU  - Belczynski, Krzysztof
+AB  - Properties of the to-date-observed binary black hole (BBH) merger events suggest a preference towards spin-orbit aligned mergers. Naturally, this has caused widespread interest and speculations regrading implications on various merger formation channels. Here we show that (i) not only the BBH-merger population from isolated binaries, but also (ii) BBH population formed in young massive clusters (YMC) would possess an asymmetry in favour of aligned mergers, in the distribution of the events' effective spin parameter ($\chi_{\rm eff}$). In our analysis, we utilize BBH-merger outcomes from state-of-the-art N-body evolutionary models of YMCs and isolated binary population synthesis. We incorporate, for the first time in such an analysis, misalignments due to both natal kicks and dynamical encounters. The YMC $\chi_{\rm eff}$ distribution has a mean (an anti-aligned merger fraction) of $\langle\chi_{\rm eff}\rangle\leq0.04$ ($f_X-\approx40\%$), which is smaller (larger) than but consistent with the observed asymmetry of $\langle\chi_{\rm eff}\rangle\approx0.06$ ($f_X-\approx28\%$) as obtained from the population analysis by the LIGO-Virgo-KAGRA collaboration. In contrast, isolated binaries alone tend to produce a much stronger asymmetry; for the tested physical models, $\langle\chi_{\rm eff}\rangle\approx0.25$ and $f_X-\lesssim7\%$. Although the YMC $\chi_{\rm eff}$ distribution is more similar to the observed counterpart, none of the channels correctly reproduce the observed distribution. Our results suggest that further extensive model explorations for both isolated-binary and dynamical channels as well as better observational constraints are necessary to understand the physics of 'the symmetry breaking' of the BBH-merger population.
+DA  - 2023/06/13/
+PY  - 2023
+DP  - arXiv.org
+PB  - arXiv
+UR  - http://arxiv.org/abs/2302.10851
+Y2  - 2023/06/18/15:23:49
+L1  - https://arxiv.org/pdf/2302.10851.pdf
+L2  - https://arxiv.org/abs/2302.10851
+KW  - Astrophysics - Astrophysics of Galaxies
+KW  - Astrophysics - High Energy Astrophysical Phenomena
+KW  - Astrophysics - Solar and Stellar Astrophysics
+ER  - 
+
