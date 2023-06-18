@@ -73,3 +73,31 @@ Y2  - 2022/12/26/19:08:16
 L1  - https://jcheminf.biomedcentral.com/track/pdf/10.1186/s13321-019-0391-2.pdf
 ER  - 
 
+TY  - JOUR
+TI  - Definition and exploration of realistic chemical spaces using the connectivity and cyclic features of ChEMBL and ZINC
+AU  - Cauchy, Thomas
+AU  - Leguy, Jules
+AU  - Da Mota, Benoit
+T2  - Digital Discovery
+AB  - For the generation of realistic molecules, we introduce and stress the importance of a new filter based on cyclic features, in addition to connectivity feature filtering (based on ECFP4).
+          , 
+            
+              Discovering an efficient new molecule can have a huge impact on the chemical research field. For several problems, the current knowledge is too scarce to train robust deep learning models. An exploratory approach can be a solution. However, when we consider several types of atoms, a phenomenal amount of combinations are possible even for small molecules. Many of these combinations contain very exotic associations. In addition to connectivity feature filtering (based on ECFP4), we introduce and stress the importance of a new filter based on cyclic features. In this article, we show that whitelists including all connectivity and cyclic features of either ChEMBL or ChEMBL and ZINC allow for the definition of large realistic chemical spaces. An enumeration dataset, Evo10, has been built with more than 600 000 molecules having 10 or fewer heavy atoms (C, N, O, F, and S). Starting only from a methane molecule, we were able to navigate through the chemical space of those realistic molecules and rediscover all molecules passing these same filters from the reference datasets which are here ChEMBL, ZINC, QM9, PC9, GDB11, and GDBChEMBL. Unlike previously published scores, SAscores and CLscores, which are based on similarity averages on the most common chemical environments, the method proposed here excludes any molecule with an ECFP and cyclic feature that is absent from the lists. The visualisation of the proposed top solutions, that pass all the filters, for the optimisation of the QED or HOMO and LUMO energies, convinces us of the relevance of this approach for the systematic
+              de novo
+              generation of realistic solutions.
+DA  - 2023///
+PY  - 2023
+DO  - 10.1039/D2DD00092J
+DP  - DOI.org (Crossref)
+VL  - 2
+IS  - 3
+SP  - 736
+EP  - 747
+J2  - Digital Discovery
+LA  - en
+SN  - 2635-098X
+UR  - http://xlink.rsc.org/?DOI=D2DD00092J
+Y2  - 2023/06/18/15:06:16
+L1  - https://pubs.rsc.org/en/content/articlepdf/2023/dd/d2dd00092j
+ER  - 
+
