@@ -5340,3 +5340,25 @@ KW  - General Relativity and Quantum Cosmology (gr-qc)
 KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
 ER  - 
 
+TY  - JOUR
+TI  - Large-Scale surveys for continuous gravitational waves: from data preparation to multi-stage hierarchical follow-ups
+AU  - Steltner, Benjamin
+AB  - Das Gravitationswellenereignis GW150914 war der erste direkte Nachweis von Gravitationswellen rund 100 Jahre nach deren Vorhersage durch Albert Einstein. Die Entdeckung war ein Durchbruch und eröffnete einen weiteren Kanal zur Beobachtung des Universums. Seitdem wurden über 90 weitere verschmelzende kompakte Objekte entdeckt, die meisten binäre schwarze Löcher unterschiedlicher Masse, aber auch zweimal verschmelzende Schwarze Löcher mit Neutronensternen und zwei Verschmelzungen von binären Neutronensternen. Ein weiterer Durchbruch war die Beobachtung der ersten Verschmelzung zweier Neutronensterne, GW170817, die mit einer Reihe von elektromagnetischen Beobachtungen einherging, darunter ein Gammastrahlenausbruch 1.7s nach der Verschmelzung. Bei der Verschmelzung kompakter Objekte handelt es sich um kataklysmische Ereignisse, bei denen innerhalb von ~Sekunden mehrere Sonnenmassen in Form von Gravitationswellen ausgestoßen werden. Ihr Nachweis erfordert jedoch hochentwickelte Messgeräte: Laserinterferometer im Kilometermaßstab. Eine weitere, noch nicht nachgewiesene Form der Gravitationsstrahlung sind kontinuierliche Gravitationswellen, die z.B., aber nicht nur, von schnell rotierenden Neutronensternen ausgehen, die relativ zu ihrer Rotationsachse nicht achsensymmetrisch sind. Die Amplitude der kontinuierlichen Gravitationswellen auf der Erde ist um Größenordnungen schwächer als die der verschmelzenden kompakten Objekte, wird aber im Fall des nicht achsensymmetrischen Neutronensterns so lange abgestrahlt, wie der Neutronenstern rotiert und die Deformation aufrechterhält, was Monate bis Jahre sein können. Die Gravitationswelle wird meist mit der doppelten Rotationsfrequenz ausgestrahlt, wobei eine Frequenzentwicklung (Spin-down) aufgrund der von Gravitationswellen ausgesandten Energie, sowie anderer Bremsmechanismen möglich ist. Diese nahezu monochromatische, kontinuierliche Welle wird von einem Beobachter auf der Erde Doppler-moduliert durch die Erdumlaufbahn und die Erddrehung empfangen. Obwohl die Wellenform scheinbar einfach ist, ist das Problem des Nachweises von Signalen aus unbekannten Quellen eine große Herausforderung. Die in dieser Arbeit beschriebene Suche nach unbekannten Neutronensternen in unserer Galaxie über den kompletten Himmel verwendete über mehrere Monate hinweg das Volunteer-Computing-Projekt Einstein@Home und den ATLAS-Supercomputer und benötigte insgesamt Zehntausende von Jahren an Rechenzeit. In dieser Arbeit beschreibe ich das vollständige Datenanalyseverfahren einschließlich der Datenvorbereitung, der Optimierung der Suchparameter und der Nachbearbeitung der Suchergebnisse, dessen Entwurf und Implementierung das Kernstück meiner Doktorarbeit darstellt. Außerdem stelle ich eine Reihe von Beobachtungsergebnissen vor, welche die praktische Anwendung der von mir entwickelten Methoden demonstrieren.
+DA  - 2023///
+PY  - 2023
+DO  - 10.15488/13266
+DP  - DOI.org (Datacite)
+LA  - en
+ST  - Large-Scale surveys for continuous gravitational waves
+UR  - https://www.repo.uni-hannover.de/handle/123456789/13375
+Y2  - 2023/06/18/15:17:32
+KW  - continuous gravitational waves
+KW  - data analysis
+KW  - Datenanalyse
+KW  - Dewey Decimal Classification::500 | Naturwissenschaften::520 | Astronomie, Kartographie
+KW  - Dewey Decimal Classification::500 | Naturwissenschaften::530 | Physik
+KW  - kontinuierliche Gravitationswellen
+KW  - neutron stars
+KW  - Neutronensterne
+ER  - 
+
