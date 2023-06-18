@@ -108,40 +108,6 @@ L1  - https://europepmc.org/articles/pmc3164876?pdf=render
 ER  - 
 
 TY  - JOUR
-TI  - A De Novo Protein Binding Pair By Computational Design and Directed Evolution
-AU  - Karanicolas, John
-AU  - Corn, Jacob E.
-AU  - Chen, Irwin
-AU  - Joachimiak, Lukasz A.
-AU  - Dym, Orly
-AU  - Peck, Sun H.
-AU  - Albeck, Shira
-AU  - Unger, Tamar
-AU  - Hu, Wenxin
-AU  - Liu, Gaohua
-AU  - Delbecq, Scott
-AU  - T. Montelione, Gaetano
-AU  - P. Spiegel, Clint
-AU  - Liu, David R.
-AU  - Baker, David
-T2  - Molecular Cell
-DA  - 2011/04//
-PY  - 2011
-DO  - 10.1016/j.molcel.2011.03.010
-DP  - DOI.org (Crossref)
-VL  - 42
-IS  - 2
-SP  - 250
-EP  - 260
-J2  - Molecular Cell
-LA  - en
-SN  - 10972765
-UR  - https://linkinghub.elsevier.com/retrieve/pii/S1097276511002085
-Y2  - 2022/11/11/17:57:07
-L1  - https://www.cell.com/article/S1097276511002085/pdf
-ER  - 
-
-TY  - JOUR
 TI  - Computational Design of an Enzyme Catalyst for a Stereoselective Bimolecular Diels-Alder Reaction
 AU  - Siegel, Justin B.
 AU  - Zanghellini, Alexandre
@@ -297,10 +263,10 @@ SN  - 0925-2738, 1573-5001
 UR  - https://link.springer.com/10.1007/s10858-008-9288-5
 Y2  - 2022/11/11/18:01:06
 L1  - https://europepmc.org/articles/pmc2683404?pdf=render
+KW  - Protein structure prediction
 KW  - CS-Rosetta
 KW  - NMR chemical shift
 KW  - Paramagnetic protein
-KW  - Protein structure prediction
 KW  - Solid-state NMR structure determination
 ER  - 
 
@@ -375,13 +341,13 @@ UR  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2720451/
 Y2  - 2022/11/11/18:02:58
 L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2720451/pdf/pcbi.1000484.pdf
 L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2720451/
-KW  - Allosteric regulation
-KW  - Biochemical simulations
 KW  - Crystal structure
-KW  - Monte Carlo method
 KW  - Protein structure
 KW  - Protein structure comparison
 KW  - Protein structure prediction
+KW  - Allosteric regulation
+KW  - Biochemical simulations
+KW  - Monte Carlo method
 KW  - Structural proteins
 ER  - 
 
@@ -542,13 +508,13 @@ LA  - eng
 SN  - 1097-0134
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.21636
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/17894356
+KW  - Protein Conformation
+KW  - Models, Molecular
+KW  - Thermodynamics
 KW  - Algorithms
 KW  - Computational Biology
-KW  - Models, Molecular
-KW  - Protein Conformation
 KW  - Proteins
 KW  - Software
-KW  - Thermodynamics
 ER  - 
 
 TY  - JOUR
@@ -593,9 +559,9 @@ SN  - 0027-8424
 UR  - https://www.pnas.org/doi/pdf/10.1073/pnas.0509355103
 L1  - https://www.pnas.org/content/103/14/5361.full.pdf
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16567638
+KW  - Proteins
 KW  - Models, Theoretical
 KW  - Protein Folding
-KW  - Proteins
 ER  - 
 
 TY  - JOUR
@@ -642,20 +608,20 @@ LA  - eng
 SN  - 1097-0134
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.20729
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16187354
+KW  - Protein Conformation
+KW  - Models, Molecular
 KW  - Algorithms
 KW  - Computational Biology
-KW  - Computer Simulation
-KW  - Databases, Protein
-KW  - Models, Molecular
+KW  - Software
 KW  - Models, Theoretical
-KW  - Protein Conformation
 KW  - Protein Folding
 KW  - Protein Structure, Secondary
 KW  - Protein Structure, Tertiary
-KW  - Proteomics
-KW  - Reproducibility of Results
+KW  - Computer Simulation
 KW  - Sequence Alignment
-KW  - Software
+KW  - Databases, Protein
+KW  - Reproducibility of Results
+KW  - Proteomics
 ER  - 
 
 TY  - JOUR
@@ -680,23 +646,23 @@ LA  - eng
 SN  - 1097-0134
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.20733
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16187358
+KW  - Protein Conformation
+KW  - Models, Molecular
 KW  - Algorithms
 KW  - Computational Biology
-KW  - Computer Simulation
-KW  - Computers
-KW  - Data Interpretation, Statistical
-KW  - Databases, Protein
-KW  - Dimerization
-KW  - Models, Molecular
-KW  - Monte Carlo Method
-KW  - Protein Conformation
+KW  - Software
 KW  - Protein Folding
+KW  - Monte Carlo Method
 KW  - Protein Structure, Secondary
 KW  - Protein Structure, Tertiary
-KW  - Proteomics
-KW  - Reproducibility of Results
+KW  - Computer Simulation
+KW  - Computers
 KW  - Sequence Alignment
-KW  - Software
+KW  - Databases, Protein
+KW  - Reproducibility of Results
+KW  - Proteomics
+KW  - Data Interpretation, Statistical
+KW  - Dimerization
 ER  - 
 
 TY  - JOUR
@@ -726,12 +692,12 @@ UR  - https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1283467&blobtype=p
 L1  - https://europepmc.org/articles/pmc1283467?pdf=render
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.0508259102
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16251269
-KW  - Antigens, Bacterial
-KW  - Bacterial Toxins
-KW  - Dimerization
 KW  - Disulfides
 KW  - Models, Molecular
+KW  - Antigens, Bacterial
 KW  - Protein Structure, Secondary
+KW  - Dimerization
+KW  - Bacterial Toxins
 KW  - Static Electricity
 ER  - 
 
@@ -756,13 +722,13 @@ SN  - 1097-0134
 UR  - https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1479309&blobtype=pdf
 L1  - https://europepmc.org/articles/pmc1479309?pdf=render
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16372357
+KW  - Protein Binding
+KW  - Models, Molecular
+KW  - Solubility
+KW  - Models, Theoretical
+KW  - Protein Structure, Secondary
 KW  - Enzymes
 KW  - Membrane Proteins
-KW  - Models, Molecular
-KW  - Models, Theoretical
-KW  - Protein Binding
-KW  - Protein Structure, Secondary
-KW  - Solubility
 KW  - Solutions
 KW  - Succinate Dehydrogenase
 KW  - Water
@@ -789,13 +755,13 @@ SN  - 0027-8424
 UR  - https://www.pnas.org/doi/pdf/10.1073/pnas.0602350103
 L1  - https://www.pnas.org/content/103/19/7292.full.pdf
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16648251
+KW  - Models, Molecular
+KW  - Protein Structure, Tertiary
+KW  - Structural Homology, Protein
 KW  - Cell Membrane
 KW  - Ion Channel Gating
 KW  - Kv1.2 Potassium Channel
-KW  - Models, Molecular
 KW  - Protein Structure, Quaternary
-KW  - Protein Structure, Tertiary
-KW  - Structural Homology, Protein
 ER  - 
 
 TY  - JOUR
@@ -820,12 +786,12 @@ SN  - 0961-8368
 UR  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1110/ps.062270707
 L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1110/ps.062270707
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/17189483
-KW  - Computational Biology
-KW  - Computer Simulation
 KW  - Models, Molecular
+KW  - Computational Biology
+KW  - Proteins
 KW  - Protein Structure, Secondary
 KW  - Protein Structure, Tertiary
-KW  - Proteins
+KW  - Computer Simulation
 ER  - 
 
 TY  - JOUR
@@ -852,9 +818,9 @@ SN  - 1545-7885
 UR  - https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.0050076&type=printable
 L1  - https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.0050076&type=printable
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/17373854
+KW  - Protein Conformation
 KW  - Bayes Theorem
 KW  - Genes, Fungal
-KW  - Protein Conformation
 KW  - Proteome
 KW  - Saccharomyces cerevisiae
 KW  - Saccharomyces cerevisiae Proteins
@@ -969,9 +935,9 @@ Y2  - 2022/11/11/21:28:39
 L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6521699/pdf/nihms-1512885.pdf
 L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6521699/
 L2  - https://www.nature.com/articles/s41586-018-0830-7#citeas
+KW  - Protein design
 KW  - Cancer immunotherapy
 KW  - Interleukins
-KW  - Protein design
 ER  - 
 
 TY  - JOUR
@@ -1074,9 +1040,9 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1110/ps.041222905
 Y2  - 2022/11/11/21:43:19
 L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1110/ps.041222905
 L2  - https://onlinelibrary.wiley.com/doi/full/10.1110/ps.041222905
+KW  - protein–protein docking
 KW  - PDB
 KW  - Protein Data Bank
-KW  - protein–protein docking
 KW  - RMSD
 KW  - root-mean-square deviation.
 KW  - rotamer minimization
@@ -1105,11 +1071,11 @@ ST  - Progress in protein–protein docking
 UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.20556
 Y2  - 2022/11/11/21:47:17
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/prot.20556
+KW  - Monte Carlo minimization
+KW  - rotamer minimization
 KW  - energy function
 KW  - free energy landscape
 KW  - high-resolution docking
-KW  - Monte Carlo minimization
-KW  - rotamer minimization
 ER  - 
 
 TY  - JOUR
@@ -1284,12 +1250,12 @@ SN  - 1097-0134
 UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.20555
 Y2  - 2022/11/11/22:45:06
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/prot.20555
+KW  - protein–protein docking
+KW  - protein structure prediction
+KW  - Rosetta
 KW  - biomolecular modeling
 KW  - CAPRI
 KW  - homology or comparative modeling
-KW  - protein structure prediction
-KW  - protein–protein docking
-KW  - Rosetta
 KW  - RosettaDock
 ER  - 
 
@@ -1321,11 +1287,11 @@ SN  - 1097-0134
 UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.21675
 Y2  - 2022/11/11/22:53:19
 L2  - https://onlinelibrary.wiley.com/doi/full/10.1002/prot.21675
+KW  - proteins
 KW  - ab initio domain prediction
 KW  - domain boundaries
 KW  - domain overlap
 KW  - evaluation
-KW  - proteins
 KW  - template-based domain prediction
 ER  - 
 
@@ -1353,10 +1319,10 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.24974
 Y2  - 2022/11/11/22:56:09
 L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/prot.24974
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/prot.24974
+KW  - protein structure prediction
 KW  - ab initio prediction
 KW  - coevolution
 KW  - contact prediction
-KW  - protein structure prediction
 KW  - rosetta
 ER  - 
 
@@ -1393,43 +1359,6 @@ KW  - 4e10 Epitope
 KW  - Melinda Gate Foundation
 KW  - Protein Scaffold
 KW  - Steric Clash
-ER  - 
-
-TY  - JOUR
-TI  - A Computationally Designed Inhibitor of an Epstein-Barr Viral Bcl-2 Protein Induces Apoptosis in Infected Cells
-AU  - Procko, Erik
-AU  - Berguig, Geoffrey Y.
-AU  - Shen, Betty W.
-AU  - Song, Yifan
-AU  - Frayo, Shani
-AU  - Convertine, Anthony J.
-AU  - Margineantu, Daciana
-AU  - Booth, Garrett
-AU  - Correia, Bruno E.
-AU  - Cheng, Yuanhua
-AU  - Schief, William R.
-AU  - Hockenbery, David M.
-AU  - Press, Oliver W.
-AU  - Stoddard, Barry L.
-AU  - Stayton, Patrick S.
-AU  - Baker, David
-T2  - Cell
-DA  - 2014/06/19/
-PY  - 2014
-DO  - 10.1016/j.cell.2014.04.034
-DP  - www.cell.com
-VL  - 157
-IS  - 7
-SP  - 1644
-EP  - 1656
-J2  - Cell
-LA  - English
-SN  - 0092-8674, 1097-4172
-UR  - https://www.cell.com/cell/abstract/S0092-8674(14)00613-8
-Y2  - 2022/11/12/21:39:10
-L1  - http://www.cell.com/article/S0092867414006138/pdf
-L2  - http://www.ncbi.nlm.nih.gov/pubmed/24949974
-L2  - https://www.cell.com/cell/fulltext/S0092-8674(14)00613-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867414006138%3Fshowall%3Dtrue
 ER  - 
 
 TY  - JOUR
@@ -1539,35 +1468,6 @@ UR  - https://www.sciencedirect.com/science/article/pii/S0022283607014805
 ER  - 
 
 TY  - JOUR
-TI  - A Novel Semi-biosynthetic Route for Artemisinin Production Using Engineered Substrate-Promiscuous P450BM3
-AU  - Dietrich, Jeffrey A.
-AU  - Yoshikuni, Yasuo
-AU  - Fisher, Karl J.
-AU  - Woolard, Frank X.
-AU  - Ockey, Denise
-AU  - McPhee, Derek J.
-AU  - Renninger, Neil S.
-AU  - Chang, Michelle C. Y.
-AU  - Baker, David
-AU  - Keasling, Jay D.
-T2  - ACS Chemical Biology
-AB  - Production of fine chemicals from heterologous pathways in microbial hosts is frequently hindered by insufficient knowledge of the native metabolic pathway and its cognate enzymes; often the pathway is unresolved, and the enzymes lack detailed characterization. An alternative paradigm to using native pathways is de novo pathway design using well-characterized, substrate-promiscuous enzymes. We demonstrate this concept using P450BM3 from Bacillus megaterium. Using a computer model, we illustrate how key P450BM3 active site mutations enable binding of the non-native substrate amorphadiene. Incorporating these mutations into P450BM3 enabled the selective oxidation of amorphadiene artemisinic-11S,12-epoxide, at titers of 250 mg L−1 in E. coli. We also demonstrate high-yielding, selective transformations to dihydroartemisinic acid, the immediate precursor to the high-value antimalarial drug artemisinin.
-DA  - 2009/04/17/
-PY  - 2009
-DO  - 10.1021/cb900006h
-DP  - ACS Publications
-VL  - 4
-IS  - 4
-SP  - 261
-EP  - 267
-J2  - ACS Chem. Biol.
-SN  - 1554-8929
-UR  - https://doi.org/10.1021/cb900006h
-Y2  - 2022/11/13/15:33:12
-L1  - https://escholarship.org/content/qt1g7036nj/qt1g7036nj.pdf?t=lnrl2t
-ER  - 
-
-TY  - JOUR
 TI  - A Vast Repertoire of Dscam Binding Specificities Arises from Modular Interactions of Variable Ig Domains
 AU  - Wojtowicz, Woj M.
 AU  - Wu, Wei
@@ -1618,9 +1518,9 @@ UR  - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.002
 Y2  - 2022/11/13/15:36:08
 L1  - https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.0020146&type=printable
 L2  - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020146
+KW  - Protein structure
 KW  - Hepatitis B
 KW  - Protein domains
-KW  - Protein structure
 KW  - Protein structure comparison
 KW  - Protein structure determination
 KW  - Sequence alignment
@@ -1761,8 +1661,8 @@ UR  - https://www.nature.com/articles/nature13404
 Y2  - 2022/11/13/15:41:02
 L1  - https://europepmc.org/articles/pmc4137318?pdf=render
 L2  - https://www.nature.com/articles/nature13404#citeas
-KW  - Molecular self-assembly
 KW  - Protein design
+KW  - Molecular self-assembly
 ER  - 
 
 TY  - JOUR
@@ -1893,10 +1793,10 @@ UR  - https://www.sciencedirect.com/science/article/pii/S0022283610012088
 Y2  - 2022/11/13/15:48:59
 L1  - https://europepmc.org/articles/pmc3046547?pdf=render
 L2  - https://www.sciencedirect.com/science/article/abs/pii/S0022283610012088?via%3Dihub
+KW  - structure prediction
+KW  - Rosetta
 KW  - alternative conformations
 KW  - protein mobility
-KW  - Rosetta
-KW  - structure prediction
 KW  - validation
 ER  - 
 
@@ -1990,10 +1890,10 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25387
 Y2  - 2022/11/13/16:00:45
 L1  - https://europepmc.org/articles/pmc6019630?pdf=render
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/prot.25387
+KW  - structure prediction
+KW  - Rosetta
 KW  - CASP12
 KW  - protein interfaces
-KW  - Rosetta
-KW  - structure prediction
 KW  - symmetric assemblies
 ER  - 
 
@@ -2078,9 +1978,9 @@ SN  - 1552-4469
 UR  - https://www.nature.com/articles/nchembio.1554
 Y2  - 2022/11/13/16:03:46
 L2  - https://www.nature.com/articles/nchembio.1554#citeas
+KW  - Protein design
 KW  - Bioanalytical chemistry
 KW  - Optical spectroscopy
-KW  - Protein design
 KW  - Screening
 ER  - 
 
@@ -2181,13 +2081,13 @@ UR  - https://www.nature.com/articles/nmeth0909-625
 Y2  - 2022/11/13/16:05:48
 L1  - https://europepmc.org/articles/pmc2841015?pdf=render
 L2  - https://www.nature.com/articles/nmeth0909-625#citeas
-KW  - Bioinformatics
+KW  - Proteomics
 KW  - Biological Microscopy
-KW  - Biological Techniques
-KW  - Biomedical Engineering/Biotechnology
 KW  - general
 KW  - Life Sciences
-KW  - Proteomics
+KW  - Bioinformatics
+KW  - Biological Techniques
+KW  - Biomedical Engineering/Biotechnology
 ER  - 
 
 TY  - JOUR
@@ -2348,11 +2248,11 @@ SN  - 0022-2836
 UR  - https://www.sciencedirect.com/science/article/pii/S0022283606006048
 Y2  - 2022/11/13/16:19:48
 L2  - https://www.sciencedirect.com/science/article/abs/pii/S0022283606006048?via%3Dihub
+KW  - protein–protein interactions
 KW  - computational design
 KW  - DNAse
 KW  - hydrogen bond network
 KW  - immunity protein
-KW  - protein–protein interactions
 ER  - 
 
 TY  - JOUR
@@ -2508,12 +2408,12 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.3974
 Y2  - 2022/11/13/16:25:18
 L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.3974
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/pro.3974
-KW  - chelation
 KW  - computational design
+KW  - protein folding
+KW  - chelation
 KW  - de novo design
 KW  - non-canonical amino acids
 KW  - peptides
-KW  - protein folding
 KW  - racemic crystallography
 KW  - symmetry
 ER  - 
@@ -2657,9 +2557,9 @@ UR  - https://www.nature.com/articles/nchembio.777
 Y2  - 2022/11/13/16:30:16
 L1  - https://europepmc.org/articles/pmc3957331?pdf=render
 L2  - https://www.nature.com/articles/nchembio.777?message-global=remove&page=2#citeas
+KW  - Protein design
 KW  - Computational chemistry
 KW  - Enzyme mechanisms
-KW  - Protein design
 ER  - 
 
 TY  - JOUR
@@ -2731,13 +2631,13 @@ UR  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000982
 Y2  - 2022/11/13/16:32:30
 L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0000982&type=printable
 L2  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000982
+KW  - Protein structure
+KW  - Protein structure comparison
+KW  - Sequence alignment
+KW  - Protein structure prediction
 KW  - Lysine
 KW  - Multiple alignment calculation
 KW  - Protein kinases
-KW  - Protein structure
-KW  - Protein structure comparison
-KW  - Protein structure prediction
-KW  - Sequence alignment
 KW  - Tyrosine kinases
 ER  - 
 
@@ -2766,8 +2666,8 @@ UR  - https://www.nature.com/articles/nsmb.2938
 Y2  - 2022/11/13/16:35:57
 L1  - https://europepmc.org/articles/pmc4318719?pdf=render
 L2  - https://www.nature.com/articles/nsmb.2938#citeas
-KW  - Molecular modelling
 KW  - Proteins
+KW  - Molecular modelling
 KW  - X-ray crystallography
 ER  - 
 
@@ -2793,10 +2693,10 @@ UR  - https://www.nature.com/articles/s41586-019-1361-6
 Y2  - 2022/11/13/16:36:18
 L1  - https://europepmc.org/articles/pmc6948101?pdf=render
 L2  - https://www.nature.com/articles/s41586-019-1361-6#citeas
+KW  - Molecular self-assembly
+KW  - Molecular modelling
 KW  - Atomic force microscopy
 KW  - Biomaterials – proteins
-KW  - Molecular modelling
-KW  - Molecular self-assembly
 ER  - 
 
 TY  - JOUR
@@ -2895,8 +2795,8 @@ UR  - https://www.nature.com/articles/s41586-018-0509-0
 Y2  - 2022/11/13/17:05:35
 L1  - https://europepmc.org/articles/pmc6275156?pdf=render
 L2  - https://www.nature.com/articles/s41586-018-0509-0#citeas
-KW  - Protein design
 KW  - Proteins
+KW  - Protein design
 ER  - 
 
 TY  - JOUR
@@ -2960,8 +2860,8 @@ UR  - https://www.nature.com/articles/s41594-018-0141-6
 Y2  - 2022/11/13/17:06:30
 L1  - https://europepmc.org/articles/pmc6219906?pdf=render
 L2  - https://www.nature.com/articles/s41594-018-0141-6#citeas
-KW  - Protein folding
 KW  - Proteins
+KW  - Protein folding
 KW  - Solution-state NMR
 ER  - 
 
@@ -2998,8 +2898,8 @@ UR  - https://www.nature.com/articles/s41586-021-03258-z
 Y2  - 2022/11/13/17:06:56
 L1  - https://www.nature.com/articles/s41586-021-03258-z.pdf
 L2  - https://www.nature.com/articles/s41586-021-03258-z#citeas
-KW  - Biosensors
 KW  - Protein design
+KW  - Biosensors
 KW  - Synthetic biology
 ER  - 
 
@@ -3103,8 +3003,8 @@ UR  - https://www.nature.com/articles/nature18010
 Y2  - 2022/11/13/18:37:03
 L1  - https://europepmc.org/articles/pmc4945409?pdf=render
 L2  - https://www.nature.com/articles/nature18010#citeas
-KW  - Biomaterials
 KW  - Protein design
+KW  - Biomaterials
 ER  - 
 
 TY  - JOUR
@@ -3145,10 +3045,10 @@ UR  - https://www.nature.com/articles/s41467-021-22276-z
 Y2  - 2022/11/13/18:44:13
 L1  - https://www.nature.com/articles/s41467-021-22276-z.pdf
 L2  - https://www.nature.com/articles/s41467-021-22276-z#citeas
-KW  - Biomaterials – proteins
-KW  - Molecular self-assembly
-KW  - Protein design
 KW  - Proteins
+KW  - Protein design
+KW  - Molecular self-assembly
+KW  - Biomaterials – proteins
 ER  - 
 
 TY  - JOUR
@@ -3260,11 +3160,11 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.23069
 Y2  - 2022/11/13/18:47:18
 L1  - https://europepmc.org/articles/pmc3760475?pdf=render
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.23069
+KW  - protein structure prediction
 KW  - conformational space search
 KW  - energy landscape
 KW  - optimization
 KW  - parallel computing
-KW  - protein structure prediction
 KW  - sampling
 ER  - 
 
@@ -3361,13 +3261,13 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.462
 Y2  - 2022/11/13/18:53:12
 L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.462
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/pro.462
+KW  - molecular dynamics
 KW  - acid-base catalysis
 KW  - cluster model
 KW  - design refinement
 KW  - enzyme active site
 KW  - enzyme design
 KW  - Kemp elimination
-KW  - molecular dynamics
 KW  - proton transfer
 KW  - QM/MM
 ER  - 
@@ -3397,10 +3297,10 @@ SN  - 0022-2836
 UR  - https://www.sciencedirect.com/science/article/pii/S0022283608003860
 Y2  - 2022/11/13/18:56:31
 L2  - https://www.sciencedirect.com/science/article/abs/pii/S0022283608003860?via%3Dihub
+KW  - protein–protein interactions
 KW  - alanine scanning
 KW  - crystallography
 KW  - double-mutant cycles
-KW  - protein–protein interactions
 KW  - specificity
 ER  - 
 
@@ -3487,11 +3387,11 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.22677
 Y2  - 2022/11/13/18:57:33
 L1  - https://europepmc.org/articles/pmc2854516?pdf=render
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/prot.22677
+KW  - rosetta
 KW  - ab initio
 KW  - feature selection
 KW  - folding
 KW  - machine learning
-KW  - rosetta
 ER  - 
 
 TY  - JOUR
@@ -3543,8 +3443,8 @@ SN  - 1570-0267
 UR  - https://doi.org/10.1007/s10969-010-9095-6
 Y2  - 2022/11/13/18:58:39
 L1  - https://link.springer.com/content/pdf/10.1007%2Fs10969-010-9095-6.pdf
-KW  - Cold shock protein
 KW  - CS-Rosetta
+KW  - Cold shock protein
 KW  - cSPP expression system
 KW  - Protein perdeuteration
 KW  - Rapid NMR structure determination
@@ -3729,10 +3629,10 @@ UR  - https://www.sciencedirect.com/science/article/pii/S0022283606016391
 Y2  - 2022/11/13/19:00:40
 L1  - https://www.sciencedirect.com/science/article/pii/S0022283606016391/pdfft?md5=a8845e8bc8bd707c5276c909f9825cd1&pid=1-s2.0-S0022283606016391-main.pdf&isDTMRedir=Y
 L2  - https://www.sciencedirect.com/science/article/pii/S0022283606016391?via%3Dihub
+KW  - Rosetta
 KW  - Computational protein design
 KW  - High-resolution protein structure
 KW  - Procarboxypeptidase A2
-KW  - Rosetta
 KW  - Thermodynamic stabilization
 ER  - 
 
@@ -3801,10 +3701,10 @@ SN  - 1097-0134
 UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.21133
 Y2  - 2022/11/13/19:04:39
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/prot.21133
-KW  - beta-sheet
-KW  - fragment assembly
 KW  - protein structure prediction
 KW  - Rosetta
+KW  - beta-sheet
+KW  - fragment assembly
 ER  - 
 
 TY  - JOUR
@@ -3832,10 +3732,10 @@ UR  - https://www.nature.com/articles/nmeth.2648
 Y2  - 2022/11/13/19:05:26
 L1  - https://europepmc.org/articles/pmc4116791?pdf=render
 L2  - https://www.nature.com/articles/nmeth.2648#citeas
-KW  - Protein analysis
-KW  - Protein structure predictions
 KW  - Proteins
 KW  - X-ray crystallography
+KW  - Protein structure predictions
+KW  - Protein analysis
 ER  - 
 
 TY  - JOUR
@@ -3871,8 +3771,8 @@ UR  - https://www.nature.com/articles/nature09964
 Y2  - 2022/11/13/19:06:35
 L1  - https://europepmc.org/articles/pmc3365536?pdf=render
 L2  - https://www.nature.com/articles/nature09964#citeas
-KW  - Molecular modelling
 KW  - Structure determination
+KW  - Molecular modelling
 ER  - 
 
 TY  - JOUR
@@ -3950,10 +3850,10 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.22570
 Y2  - 2022/11/13/19:08:23
 L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/prot.22570
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/prot.22570
-KW  - conformational space annealing
-KW  - high-resolution refinement
-KW  - Modeller
 KW  - Rosetta
+KW  - high-resolution refinement
+KW  - conformational space annealing
+KW  - Modeller
 KW  - template-based modeling
 KW  - undertaker
 KW  - YASARA
@@ -4049,10 +3949,10 @@ SN  - 2050-084X
 UR  - https://doi.org/10.7554/eLife.09248
 Y2  - 2022/11/13/19:11:55
 L1  - https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvMDkyNDgvZWxpZmUtMDkyNDgtdjIucGRmP2Nhbm9uaWNhbFVyaT1odHRwczovL2VsaWZlc2NpZW5jZXMub3JnL2FydGljbGVzLzA5MjQ4/elife-09248-v2.pdf?_hash=b5OMNnHWcgylAwVTf%2BmuqOxp8gvkcJZJ3PF2nwTGrmM%3D
+KW  - structure prediction
 KW  - co-evolution
 KW  - protein family
 KW  - protein fold
-KW  - structure prediction
 ER  - 
 
 TY  - JOUR
@@ -5558,5 +5458,108 @@ SN  - 0036-8075, 1095-9203
 UR  - https://www.sciencemag.org/lookup/doi/10.1126/science.aaa2424
 Y2  - 2022/11/13/19:25:16
 L1  - https://europepmc.org/articles/pmc4581533?pdf=render
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of modular peptide-binding proteins by superhelical matching
+AU  - Wu, Kejia
+AU  - Bai, Hua
+AU  - Chang, Ya-Ting
+AU  - Redler, Rachel
+AU  - McNally, Kerrie E.
+AU  - Sheffler, William
+AU  - Brunette, T. J.
+AU  - Hicks, Derrick R.
+AU  - Morgan, Tomos E.
+AU  - Stevens, Tim J.
+AU  - Broerman, Adam
+AU  - Goreshnik, Inna
+AU  - DeWitt, Michelle
+AU  - Chow, Cameron M.
+AU  - Shen, Yihang
+AU  - Stewart, Lance
+AU  - Derivery, Emmanuel
+AU  - Silva, Daniel Adriano
+AU  - Bhabha, Gira
+AU  - Ekiert, Damian C.
+AU  - Baker, David
+T2  - Nature
+AB  - General approaches for designing sequence-specific peptide-binding proteins would have wide utility in proteomics and synthetic biology. However, designing peptide-binding proteins is challenging, as most peptides do not have defined structures in isolation, and hydrogen bonds must be made to the buried polar groups in the peptide backbone1–3. Here, inspired by natural and re-engineered protein–peptide systems4–11, we set out to design proteins made out of repeating units that bind peptides with repeating sequences, with a one-to-one correspondence between the repeat units of the protein and those of the peptide. We use geometric hashing to identify protein backbones and peptide-docking arrangements that are compatible with bidentate hydrogen bonds between the side chains of the protein and the peptide backbone12. The remainder of the protein sequence is then optimized for folding and peptide binding. We design repeat proteins to bind to six different tripeptide-repeat sequences in polyproline II conformations. The proteins are hyperstable and bind to four to six tandem repeats of their tripeptide targets with nanomolar to picomolar affinities in vitro and in living cells. Crystal structures reveal repeating interactions between protein and peptide interactions as designed, including ladders of hydrogen bonds from protein side chains to peptide backbones. By redesigning the binding interfaces of individual repeat units, specificity can be achieved for non-repeating peptide sequences and for disordered regions of native proteins.
+DA  - 2023/04//
+PY  - 2023
+DO  - 10.1038/s41586-023-05909-9
+DP  - www.nature.com
+VL  - 616
+IS  - 7957
+SP  - 581
+EP  - 589
+LA  - en
+SN  - 1476-4687
+UR  - https://www.nature.com/articles/s41586-023-05909-9
+Y2  - 2023/06/18/12:29:31
+L1  - https://www.nature.com/articles/s41586-023-05909-9.pdf
+KW  - Proteins
+KW  - Protein design
+ER  - 
+
+TY  - RPRT
+TI  - Cyclic peptide structure prediction and design using AlphaFold
+AU  - Rettie, Stephen A.
+AU  - Campbell, Katelyn V.
+AU  - Bera, Asim K.
+AU  - Kang, Alex
+AU  - Kozlov, Simon
+AU  - De La Cruz, Joshmyn
+AU  - Adebomi, Victor
+AU  - Zhou, Guangfeng
+AU  - DiMaio, Frank
+AU  - Ovchinnikov, Sergey
+AU  - Bhardwaj, Gaurav
+AB  - ABSTRACT
+          
+            Deep learning networks offer considerable opportunities for accurate structure prediction and design of biomolecules. While cyclic peptides have gained significant traction as a therapeutic modality, developing deep learning methods for designing such peptides has been slow, mostly due to the small number of available structures for molecules in this size range. Here, we report approaches to modify the AlphaFold network for accurate structure prediction and design of cyclic peptides. Our results show this approach can accurately predict the structures of native cyclic peptides from a single sequence, with 36 out of 49 cases predicted with high confidence (pLDDT > 0.85) matching the native structure with root mean squared deviation (RMSD) less than 1.5 Å. Further extending our approach, we describe computational methods for designing sequences of peptide backbones generated by other backbone sampling methods and for
+            de novo
+            design of new macrocyclic peptides. We extensively sampled the structural diversity of cyclic peptides between 7–13 amino acids, and identified around 10,000 unique design candidates predicted to fold into the designed structures with high confidence. X-ray crystal structures for seven sequences with diverse sizes and structures designed by our approach match very closely with the design models (root mean squared deviation < 1.0 Å), highlighting the atomic level accuracy in our approach. The computational methods and scaffolds developed here provide the basis for custom-designing peptides for targeted therapeutic applications.
+DA  - 2023/02/26/
+PY  - 2023
+DP  - DOI.org (Crossref)
+LA  - en
+M3  - preprint
+PB  - Biochemistry
+UR  - http://biorxiv.org/lookup/doi/10.1101/2023.02.25.529956
+Y2  - 2023/06/18/13:43:56
+L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9980166/pdf/nihpp-2023.02.25.529956v1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of small beta barrel proteins
+AU  - Kim, David E.
+AU  - Jensen, Davin R.
+AU  - Feldman, David
+AU  - Tischer, Doug
+AU  - Saleem, Ayesha
+AU  - Chow, Cameron M.
+AU  - Li, Xinting
+AU  - Carter, Lauren
+AU  - Milles, Lukas
+AU  - Nguyen, Hannah
+AU  - Kang, Alex
+AU  - Bera, Asim K.
+AU  - Peterson, Francis C.
+AU  - Volkman, Brian F.
+AU  - Ovchinnikov, Sergey
+AU  - Baker, David
+T2  - Proceedings of the National Academy of Sciences
+AB  - Small beta barrel proteins are attractive targets for computational design because of their considerable functional diversity despite their very small size (<70 amino acids). However, there are considerable challenges to designing such structures, and there has been little success thus far. Because of the small size, the hydrophobic core stabilizing the fold is necessarily very small, and the conformational strain of barrel closure can oppose folding; also intermolecular aggregation through free beta strand edges can compete with proper monomer folding. Here, we explore the de novo design of small beta barrel topologies using both Rosetta energy–based methods and deep learning approaches to design four small beta barrel folds: Src homology 3 (SH3) and oligonucleotide/oligosaccharide-binding (OB) topologies found in nature and five and six up-and-down-stranded barrels rarely if ever seen in nature. Both approaches yielded successful designs with high thermal stability and experimentally determined structures with less than 2.4 Å rmsd from the designed models. Using deep learning for backbone generation and Rosetta for sequence design yielded higher design success rates and increased structural diversity than Rosetta alone. The ability to design a large and structurally diverse set of small beta barrel proteins greatly increases the protein shape space available for designing binders to protein targets of interest.
+DA  - 2023/03/14/
+PY  - 2023
+DO  - 10.1073/pnas.2207974120
+DP  - pnas.org (Atypon)
+VL  - 120
+IS  - 11
+SP  - e2207974120
+UR  - https://www.pnas.org/doi/10.1073/pnas.2207974120
+Y2  - 2023/06/18/13:45:28
+L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2207974120
 ER  - 
 
