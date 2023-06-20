@@ -5563,3 +5563,61 @@ Y2  - 2023/06/18/13:45:28
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2207974120
 ER  - 
 
+TY  - RPRT
+TI  - <i>De novo</i> design of highly selective miniprotein inhibitors of integrins αvβ6 and αvβ8
+AU  - Roy, Anindya
+AU  - Shi, Lei
+AU  - Chang, Ashley
+AU  - Dong, Xianchi
+AU  - Fernandez, Andres
+AU  - Kraft, John C.
+AU  - Li, Jing
+AU  - Le, Viet Q.
+AU  - Winegar, Rebecca Viazzo
+AU  - Cherf, Gerald Maxwell
+AU  - Slocum, Dean
+AU  - Poulson, P. Daniel
+AU  - Casper, Garrett E.
+AU  - Vallecillo-Zúniga, Mary L.
+AU  - Valdoz, Jonard Corpuz
+AU  - Miranda, Marcos C.
+AU  - Bai, Hua
+AU  - Kipnis, Yakov
+AU  - Olshefsky, Audrey
+AU  - Priya, Tanu
+AU  - Carter, Lauren
+AU  - Ravichandran, Rashmi
+AU  - Chow, Cameron M.
+AU  - Johnson, Max R.
+AU  - Cheng, Suna
+AU  - Smith, McKaela
+AU  - Overed-Sayer, Catherine
+AU  - Finch, Donna K.
+AU  - Lowe, David
+AU  - Bera, Asim K.
+AU  - Matute-Bello, Gustavo
+AU  - Birkland, Timothy P
+AU  - DiMaio, Frank
+AU  - Raghu, Ganesh
+AU  - Cochran, Jennifer R.
+AU  - Stewart, Lance J.
+AU  - Campbell, Melody G.
+AU  - Van Ry, Pam M.
+AU  - Springer, Timothy
+AU  - Baker, David
+AB  - Abstract
+          
+            The RGD (Arg-Gly-Asp)-binding integrins αvβ6 and αvβ8 are clinically validated cancer and fibrosis targets of considerable therapeutic importance. Compounds that can discriminate between the two closely related integrin proteins and other RGD integrins, stabilize specific conformational states, and have sufficient stability enabling tissue restricted administration could have considerable therapeutic utility. Existing small molecules and antibody inhibitors do not have all of these properties, and hence there is a need for new approaches. Here we describe a method for computationally designing hyperstable RGD-containing miniproteins that are highly selective for a single RGD integrin heterodimer and conformational state, and use this strategy to design inhibitors of αvβ6 and αvβ8 with high selectivity. The αvβ6 and αvβ8 inhibitors have picomolar affinities for their targets, and >1000-fold selectivity over other RGD integrins. CryoEM structures are within 0.6-0.7Å root-mean-square deviation (RMSD) to the computational design models; the designed αvβ6 inhibitor and native ligand stabilize the open conformation in contrast to the therapeutic anti-αvβ6 antibody BG00011 that stabilizes the bent-closed conformation and caused on-target toxicity in patients with lung fibrosis, and the αvβ8 inhibitor maintains the constitutively fixed extended-closed αvβ8 conformation. In a mouse model of bleomycin-induced lung fibrosis, the αvβ6 inhibitor potently reduced fibrotic burden and improved overall lung mechanics when delivered via oropharyngeal administration mimicking inhalation, demonstrating the therapeutic potential of
+            de novo
+            designed integrin binding proteins with high selectivity.
+DA  - 2023/06/12/
+PY  - 2023
+DP  - DOI.org (Crossref)
+LA  - en
+M3  - preprint
+PB  - Biochemistry
+UR  - http://biorxiv.org/lookup/doi/10.1101/2023.06.12.544624
+Y2  - 2023/06/20/11:45:04
+L1  - https://www.biorxiv.org/content/biorxiv/early/2023/06/12/2023.06.12.544624.full.pdf
+ER  - 
+
