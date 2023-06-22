@@ -193,6 +193,7 @@ function show_cert($cpid, $name, $min_credit) {
 
 function export_to_img() {
   echo '
+  <script src="html2canvas.min.js"></script>
   <script type="text/javascript">
     const $btn = document.querySelector("#export");
     const $toExport = document.querySelector("#certificate");
