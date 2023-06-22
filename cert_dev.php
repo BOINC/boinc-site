@@ -126,7 +126,7 @@ function show_cert($cpid, $name, $min_credit) {
     $credit = credit_string($total_credit, false);
 
     echo "
-        <table width=1200 height=800 border=$border cellpadding=20>
+        <table id=\"certificate\" width=1200 height=800 border=$border cellpadding=20>
         <tr><td>
         <center>
         <table width=1000 border=0>
@@ -191,11 +191,37 @@ function show_cert($cpid, $name, $min_credit) {
     ";
 }
 
+function export_to_img() {
+  echo '
+  <script type="text/javascript">
+    const $btn = document.querySelector("#export");
+    const $toExport = document.querySelector("#certificate");
+    const $myCanvas = document.querySelector("#canvasDiv");
+
+    $btn.addEventListener("click", () => {
+      html2canvas($toExport)
+        .then(canvas => {
+          var dataURL = canvas.toDataURL("image/png");
+          downloadImage(dataURL, "boinc-computation-certificate.");
+        });
+    });
+
+    function downloadImage(data, filename = "untitled.png") {
+      var a = document.createElement("a");
+      a.href = data;
+      a.download = filename;
+      a.click();
+    }
+  </script>';
+}
+
 $cpid = get_str("cpid", true);
 
 if ($cpid) {
     $min_credit = (double)get_str('min_credit');
     show_cert($cpid, strip_tags(get_str('name')), $min_credit);
+    echo '<button id="export" style="margin-top: 5px;">Download Certificate</button>';
+    export_to_img();
 } else {
     show_form();
 }
