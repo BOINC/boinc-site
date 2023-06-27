@@ -230,18 +230,18 @@ $earth = array(
 $astro_phys_chem = array(
     tra("Physical Science"),
     array(
-        project(
-            PROJ_QUCHEM,
-            "QuChemPedIA@home",
-            "https://quchempedia.univ-angers.fr/athome/",
-            "Université d’Angers",
-            "Molecular Chemistry",
-            "This project will create an open platform to solve and store quantum molecular chemistry results, and will develop artificial intelligence and optimization methods in order to efficiently explore the highly combinatorial molecular space.",
-            "",
-            "",
-            "Explore molecular chemistry",
-            array(KW_CHEMISTRY, KW_EUROPE, KW_FRANCE)
-        ),
+//        project(
+//            PROJ_QUCHEM,
+//            "QuChemPedIA@home",
+//            "https://quchempedia.univ-angers.fr/athome/",
+//            "Université d’Angers",
+//            "Molecular Chemistry",
+//            "This project will create an open platform to solve and store quantum molecular chemistry results, and will develop artificial intelligence and optimization methods in order to efficiently explore the highly combinatorial molecular space.",
+//            "",
+//            "",
+//            "Explore molecular chemistry",
+//            array(KW_CHEMISTRY, KW_EUROPE, KW_FRANCE)
+//        ),
 //        project(
 //            PROJ_ACOUSTICS,
 //            "Acoustics@home",
@@ -375,18 +375,18 @@ $astro_phys_chem = array(
 //            tra("Search for evidence of extra-terrestrial life"),
 //            array(KW_ASTRONOMY, KW_SETI, KW_AMERICAS, KW_US, KW_UCB)
 //        ),
-        project(
-            PROJ_NANOHUB,
-            "nanoHUB@Home",
-            "https://boinc.nanohub.org/nanoHUB_at_home/",
-            "Purdue University",
-            "Nanoscience",
-            "nanoHUB@Home provides computing power to users of the nanoHUB portal for nanoscience.",
-            "",
-            "",
-            "",
-            array(KW_AMERICAS, KW_US, KW_NANOSCIENCE)
-        ),
+//        project(
+//            PROJ_NANOHUB,
+//            "nanoHUB@Home",
+//            "https://boinc.nanohub.org/nanoHUB_at_home/",
+//            "Purdue University",
+//            "Nanoscience",
+//            "nanoHUB@Home provides computing power to users of the nanoHUB portal for nanoscience.",
+//            "",
+//            "",
+//            "",
+//            array(KW_AMERICAS, KW_US, KW_NANOSCIENCE)
+//        ),
     ),
 );
 
@@ -567,18 +567,18 @@ $math = array(
 //            tra("Decode WWII submarine messages"),
 //            array(KW_MATH_CS, KW_EUROPE)
 //        ),
-        project(
-            PROJ_COLLATZ,
-            "Collatz Conjecture",
-            "https://boinc.thesonntags.com/collatz/",
-            tra("Independent"),
-            tra("Mathematics"),
-            tra("Study the Collatz Conjecture, an unsolved conjecture in mathematics"),
-            "",
-            "",
-            tra("Study the Collatz Conjecture"),
-            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE)
-        ),
+//        project(
+//            PROJ_COLLATZ,
+//            "Collatz Conjecture",
+//            "https://boinc.thesonntags.com/collatz/",
+//            tra("Independent"),
+//            tra("Mathematics"),
+//            tra("Study the Collatz Conjecture, an unsolved conjecture in mathematics"),
+//            "",
+//            "",
+//            tra("Study the Collatz Conjecture"),
+//            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE)
+//        ),
         project(
             PROJ_NFS,
             "NFS@home",
@@ -687,18 +687,18 @@ $math = array(
             'Study Latin Squares',
             array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA)
         ),
-        project(
-            PROJ_MINECRAFT,
-            'Minecraft@Home',
-            'https://minecraftathome.com/minecrafthome/',
-            'Independent',
-            'Games',
-            'Minecraft@Home studies questions related to Minecraft, such as the properties of worlds that can be generated from different random seeds.',
-            'minecraft_at_home.png width=400',
-            '',
-            'Explore Minecraft',
-            array(KW_MATH_CS, KW_GAMES)
-        ),
+//        project(
+//            PROJ_MINECRAFT,
+//            'Minecraft@Home',
+//            'https://minecraftathome.com/minecrafthome/',
+//            'Independent',
+//            'Games',
+//            'Minecraft@Home studies questions related to Minecraft, such as the properties of worlds that can be generated from different random seeds.',
+//            'minecraft_at_home.png width=400',
+//            '',
+//            'Explore Minecraft',
+//            array(KW_MATH_CS, KW_GAMES)
+//        ),
         project(
             PROJ_RAMANUJAN,
             'Ramanujan Machine',

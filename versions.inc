@@ -1,57 +1,19 @@
 <?php
 
-function type_text($type) {
-    global $xml;
-    if ($xml) {
-        switch($type) {
-        case "win_old":
-            return "Single-mode Windows installer";
-        case "win_new":
-            return "Windows installer";
-        case "bare_core":
-            return "Command-line client (no GUI)";
-        case "sea":
-            return "Self-extracting archive";
-        case "mac_advanced":
-            return "Standard GUI";
-        case "apk":
-            return "Android Installer";
-        }
-    } else {
-        switch($type) {
-        case "win_old":
-            return "<a href=client_windows.php>Single-mode Windows installer</a>";
-        case "win_new":
-            return "<a href=win_install.php>Windows installer</a>";
-        case "bare_core":
-            return "<a href=bare_core.php>Command-line client (no GUI)</a>";
-        case "sea":
-            return "<a href=sea.php>Self-extracting archive</a>";
-        case "mac_advanced":
-            return "<a href=mac_advanced.php>Standard GUI</a>";
-        case "apk":
-            return "TBD";
-        }
-    }
-}
-
-function linux_info() {
-    return "Tested on the current Ubuntu distribution; may work on others.
-    <br>These versions may not be current.
-    We recommend that instead you
-    <a href=https://boinc.berkeley.edu/wiki/Installing_on_Linux>
-    install BOINC using a package manager, run it using Docker,
-    or use a bootable ISO image</a>.
-    ";
-}
-
-// ------------   NEW VERSIONS GO BELOW -------------
+// Versions of the BOINC client.
+// This determines what gets shown on the download page,
+// and when the client shows a "new version available" notice.
 //
-// When you add versions:
-// 1) put them in the right place
-// 2) status is either "Development version" or "Recommended version"
+// When you add a version:
+// - put it in the right place
+// - status is either "Development version" or "Recommended version"
 //      (or "Older version" if needed)
-// 3) delete unused versions
+// - delete unused versions
+// - if changing a recommended version:
+//      - email boinc_projects, telling them to run html/ops/get_versions.php
+//          if they use auto-attach
+//          (see https://github.com/BOINC/boinc/wiki/SimpleAttach>
+//      - run get_versions.php in Science United and BOINC Central
 
 // List of platforms.
 // Each has a list of versions, then a structure in which "versions"
@@ -496,7 +458,52 @@ function latest_version($p) {
     }
 }
 
+function type_text($type) {
+    global $xml;
+    if ($xml) {
+        switch($type) {
+        case "win_old":
+            return "Single-mode Windows installer";
+        case "win_new":
+            return "Windows installer";
+        case "bare_core":
+            return "Command-line client (no GUI)";
+        case "sea":
+            return "Self-extracting archive";
+        case "mac_advanced":
+            return "Standard GUI";
+        case "apk":
+            return "Android Installer";
+        }
+    } else {
+        switch($type) {
+        case "win_old":
+            return "<a href=client_windows.php>Single-mode Windows installer</a>";
+        case "win_new":
+            return "<a href=win_install.php>Windows installer</a>";
+        case "bare_core":
+            return "<a href=bare_core.php>Command-line client (no GUI)</a>";
+        case "sea":
+            return "<a href=sea.php>Self-extracting archive</a>";
+        case "mac_advanced":
+            return "<a href=mac_advanced.php>Standard GUI</a>";
+        case "apk":
+            return "TBD";
+        }
+    }
+}
 
+function linux_info() {
+    return "Tested on the current Ubuntu distribution; may work on others.
+    <br>These versions may not be current.
+    We recommend that instead you
+    <a href=https://boinc.berkeley.edu/wiki/Installing_on_Linux>
+    install BOINC using a package manager, run it using Docker,
+    or use a bootable ISO image</a>.
+    ";
+}
+
+// do not delete!
 $url_base = "https://boinc.berkeley.edu/dl/";
 
 ?>

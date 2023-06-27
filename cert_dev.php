@@ -191,38 +191,12 @@ function show_cert($cpid, $name, $min_credit) {
     ";
 }
 
-function export_to_img() {
-  echo '
-  <script src="html2canvas.min.js"></script>
-  <script type="text/javascript">
-    const $btn = document.querySelector("#export");
-    const $toExport = document.querySelector("#certificate");
-    const $myCanvas = document.querySelector("#canvasDiv");
-
-    $btn.addEventListener("click", () => {
-      html2canvas($toExport)
-        .then(canvas => {
-          var dataURL = canvas.toDataURL("image/png");
-          downloadImage(dataURL, "boinc-computation-certificate.");
-        });
-    });
-
-    function downloadImage(data, filename = "untitled.png") {
-      var a = document.createElement("a");
-      a.href = data;
-      a.download = filename;
-      a.click();
-    }
-  </script>';
-}
-
 $cpid = get_str("cpid", true);
 
 if ($cpid) {
     $min_credit = (double)get_str('min_credit');
     show_cert($cpid, strip_tags(get_str('name')), $min_credit);
-    echo '<button id="export" style="margin-top: 5px;">Download Certificate</button>';
-    export_to_img();
+    show_download_button();
 } else {
     show_form();
 }
