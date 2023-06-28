@@ -184,3 +184,27 @@ Y2  - 2022/11/13/21:38:44
 L1  - https://jpit.az/uploads/article/en/2019_2/CENTRAL_SYMMETRY_PROPERTIES_FOR_DIAGONAL_LATIN_SQUARES.pdf
 ER  - 
 
+TY  - JOUR
+TI  - USE OF X-BASED DIAGONAL FILLINGS AND ESODLS CMS SCHEMES FOR ENUMERATION OF MAIN CLASSES OF DIAGONAL LATIN SQUARES
+AU  - Southwest Technical University
+AU  - Vatutin, Eduard
+AU  - Belyshev, Alexey
+AU  - Internet portal BOINC.ru
+AU  - Nikitina, Natalia
+AU  - Manzuk, Maxum
+AU  - Karelian Research Centre of Russian Academy of Sciences
+AU  - Internet portal BOINC.ru
+T2  - Telecommunications
+AB  - The concept of X-based diagonal fillings in diagonal Latin squares (DLS) is introduced, their enumeration is carried out them, isomorphism classes are constructed, and the interconnection of these problems with problems based on card decks is shown. On their basis, a method for generating strongly normalized canonical forms of the DLS using a limited set of ESODLS CMS schemes is proposed. It makes possible to reduce the necessary computational costs by 3-4 orders of magnitude compared to a software implementation based on a Brute Force based enumeration of the DLS. Using the developed software implementations and the Gerasim@ Home volunteer distributed computing project on the BOINC platform, the number of main classes of DLS of order 9 has been calculated. This number was previously unknown and amounted to 3 292 326 155 394.
+DA  - 2023///
+PY  - 2023
+DO  - 10.31044/1684-2588-2023-0-1-2-16
+DP  - DOI.org (Crossref)
+SP  - 2
+EP  - 16
+J2  - Telecommunications
+SN  - 16842588
+UR  - http://www.nait.ru/journals/number.php?p_number_id=3440
+Y2  - 2023/06/28/11:33:55
+ER  - 
+
