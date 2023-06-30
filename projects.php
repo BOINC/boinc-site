@@ -114,7 +114,7 @@ echo "
 <p>
 If you run a BOINC-based project
 and would like it to be included on this list,
-please <a href=trac/wiki/ProjectPeople>contact us</a>.
+please <a href=https://github.com/BOINC/boinc/wiki/ProjectPeople>contact us</a>.
 
 ";
 page_tail();
