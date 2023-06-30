@@ -276,7 +276,7 @@ if ($xml) {
     echo "
         <hr size=1>
         The information on this page can be
-        <a href=\"trac/wiki/DownloadInfo\">
+        <a href=\"https://github.com/BOINC/boinc/wiki/DownloadInfo\">
         restricted by platform and/or version number,
         or presented  in XML format</a>.
     ";

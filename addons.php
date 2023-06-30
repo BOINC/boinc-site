@@ -25,9 +25,9 @@ Instructions for installing and running BOINC are
 <a href=https://boinc.berkeley.edu/wiki/User_manual>here</a>.
 <li>
 To submit software for inclusion in this list,
-please email <a href=https://boinc.berkeley.edu/trac/wiki/ProjectPeople>David Anderson</a>.
+please email <a href=https://github.com/BOINC/boinc/wiki/ProjectPeople>David Anderson</a>.
 BOINC provides several
-<a href=https://boinc.berkeley.edu/trac/wiki/SoftwareAddon>APIs for
+<a href=https://github.com/BOINC/boinc/wiki/SoftwareAddon>APIs for
 developing add-on software</a>.
 </ul>
 ";

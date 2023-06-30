@@ -118,7 +118,7 @@ function old_page_tail($translatable=false, $is_main=false) {
         echo 
             sprintf(
                 tra("This page is %stranslatable%s."),
-                "<a href=\"trac/wiki/TranslateIntro\">",
+                "<a href=\"https://github.com/BOINC/boinc/wiki/TranslateIntro\">",
                 "</a>"
             ),
             "<br>

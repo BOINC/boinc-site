@@ -23,11 +23,11 @@ function main() {
     echo "
         <p>
         For issues involving the BOINC software, please
-        <a href=https://boinc.berkeley.edu/dev/forum_index.php>visit the BOINC message boards</a> or
+        <a href=https://boinc.berkeley.edu/forum_index.php>visit the BOINC message boards</a> or
         <a href=https://boinc.berkeley.edu/wiki/BOINC_Help>get online help</a>.
         <p>
         For most other issues, please
-        <a href=https://boinc.berkeley.edu/trac/wiki/EmailLists>post to the appropriate email list</a>.
+        <a href=https://github.com/BOINC/boinc/wiki/EmailLists>post to the appropriate email list</a>.
         <p>
         For anything else, email the director of BOINC,
         <a href=http://boinc.berkeley.edu/anderson/>David P. Anderson</a>.

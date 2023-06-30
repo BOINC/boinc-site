@@ -1,3 +1,3 @@
 <?php
-Header("Location: https://boinc.berkeley.edu/trac/wiki/EmailLists");
+Header("Location: https://github.com/BOINC/boinc/wiki/EmailLists");
 ?>
