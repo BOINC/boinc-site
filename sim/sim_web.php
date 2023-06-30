@@ -108,7 +108,7 @@ function show_scenarios() {
         (e.g. hosts with a large number of CPUs,
         hosts attached to a large number of projects,
         projects with very short or long jobs, and so on).
-        See <a href=http://boinc.berkeley.edu/trac/wiki/ClientSim>The
+        See <a href=https://github.com/BOINC/boinc/wiki/ClientSim>The
         BCE documentation</a> for details.
     ";
     echo '
