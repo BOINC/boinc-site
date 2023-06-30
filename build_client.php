@@ -7,7 +7,7 @@ It may not be necessary to build the core client;
 you can get executables for many platforms at
 <a href=http://boinc.berkeley.edu>http://boinc.berkeley.edu</a>.
 <p>
-See the <a href=http://boinc.berkeley.edu/trac/wiki/SoftwarePrereqsUnix>Software Prerequisites</a>.
+See the <a href=https://github.com/BOINC/boinc/wiki/SoftwarePrereqsUnix>Software Prerequisites</a>.
 
 <h3>Unix, Mac OS/X</h3>
 <p>
