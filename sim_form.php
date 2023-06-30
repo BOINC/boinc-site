@@ -136,7 +136,7 @@ if ($_POST['submit']) {
     echo "
         This is a web interface to the BOINC client simulator.
         Fill in the following form to specify the
-        <a href=trac/wiki/ClientSim>parameters of your simulation</a>.
+        <a href=https://github.com/BOINC/boinc/wiki/ClientSim>parameters of your simulation</a>.
         The results will be shown in your browser.
         <p>
     ";
