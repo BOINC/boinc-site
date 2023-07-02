@@ -197,6 +197,18 @@ if ($cpid) {
     $min_credit = (double)get_str('min_credit');
     show_cert($cpid, strip_tags(get_str('name')), $min_credit);
     show_download_button();
+
+    echo '<br>';
+    $current_url = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+    $cert_url = urlencode($current_url);
+    // Share on Facebook
+    $fb_url = 'https://www.facebook.com/sharer/sharer.php?u='.$cert_url;
+    echo '<a href="'.$fb_url.' target="_blank">Share on Facebook</a>';
+    echo '<br>';
+    // Share on Twitter
+    $twitter_text = urlencode("Check out my computation certificate from BOINC!");
+    $tw_url = 'https://twitter.com/intent/tweet?url='.$cert_url.'&text='.$twitter_text;
+    echo '<a href="'.$tw_url.'" target="_blank">Share on Twitter</a>';
 } else {
     show_form();
 }
