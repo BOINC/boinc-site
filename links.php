@@ -1,6 +1,6 @@
 <?php
 
-echo "Deprecated: see <a href=https://boinc.berkeley.edu/trac/wiki/WebResources>https://boinc.berkeley.edu/trac/wiki/WebResources</a>";
+echo "Deprecated: see https://github.com/BOINC/boinc/wiki/WebResources";
 exit;
 require_once("docutil.php");
 
@@ -354,7 +354,7 @@ language("Slovak", array(
 language("Spanish", array(
     site("http://www.titanesdc.com/", "Foros TitanesDC"),
     site("http://www.seti.cl/", "BOINC SETI Chile"),
-    site("http://www.easyboinc.org/", "Computaciï¿½n Distribuida"
+    site("http://www.easyboinc.org/", "Computaciï¿½n Distribuida"),
     site("http://foro.noticias3d.com/vbulletin/showthread.php?t=192297", "Noticias3D"),
     //site("http://elmajo.blogspot.com", "Computación Distribuida"),
     //site("http://efren-canarias.blogcindario.com/", "El Pais De La Computacion"),

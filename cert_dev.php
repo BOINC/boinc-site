@@ -197,6 +197,7 @@ if ($cpid) {
     $min_credit = (double)get_str('min_credit');
     show_cert($cpid, strip_tags(get_str('name')), $min_credit);
     show_download_button();
+    show_share_buttons();
 } else {
     show_form();
 }
