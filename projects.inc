@@ -292,18 +292,6 @@ $astro_phys_chem = array(
             array(KW_ASTRONOMY, KW_EUROPE, KW_CZECH, KW_CHARLES_PRAGUE)
         ),
         project(
-            PROJ_COSMOLOGY,
-            "Cosmology@Home",
-            "http://www.cosmologyathome.org/",
-            tra("University of Illinois at Urbana-Champaign"),
-            tra("Astronomy"),
-            tra("The goal of Cosmology@Home is to search for the model that best describes our Universe and to find the range of models that agree with the available astronomical particle physics data."),
-            "cosmo.jpg",
-            "",
-            "Study the evolution of the Universe",
-            array(KW_ASTRONOMY, KW_COSMOLOGY, KW_AMERICAS, KW_US, KW_U_ILLINOIS)
-        ),
-        project(
             PROJ_UNIVERSE,
             "Universe@Home",
             "https://universeathome.pl/universe/",
