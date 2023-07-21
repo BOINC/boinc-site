@@ -1,0 +1,36 @@
+TY  - JOUR
+TI  - Sequence-structure-function relationships in the microbial protein universe
+AU  - Koehler Leman, Julia
+AU  - Szczerbiak, Pawel
+AU  - Renfrew, P. Douglas
+AU  - Gligorijevic, Vladimir
+AU  - Berenberg, Daniel
+AU  - Vatanen, Tommi
+AU  - Taylor, Bryn C.
+AU  - Chandler, Chris
+AU  - Janssen, Stefan
+AU  - Pataki, Andras
+AU  - Carriero, Nick
+AU  - Fisk, Ian
+AU  - Xavier, Ramnik J.
+AU  - Knight, Rob
+AU  - Bonneau, Richard
+AU  - Kosciolek, Tomasz
+T2  - Nature Communications
+AB  - Abstract
+            For the past half-century, structural biologists relied on the notion that similar protein sequences give rise to similar structures and functions. While this assumption has driven research to explore certain parts of the protein universe, it disregards spaces that don’t rely on this assumption. Here we explore areas of the protein universe where similar protein functions can be achieved by different sequences and different structures. We predict ~200,000 structures for diverse protein sequences from 1,003 representative genomes across the microbial tree of life and annotate them functionally on a per-residue basis. Structure prediction is accomplished using the World Community Grid, a large-scale citizen science initiative. The resulting database of structural models is complementary to the AlphaFold database, with regards to domains of life as well as sequence diversity and sequence length. We identify 148 novel folds and describe examples where we map specific functions to structural motifs. We also show that the structural space is continuous and largely saturated, highlighting the need for a shift in focus across all branches of biology, from obtaining structures to putting them into context and from sequence-based to sequence-structure-function based meta-omics analyses.
+DA  - 2023/04/26/
+PY  - 2023
+DO  - 10.1038/s41467-023-37896-w
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 1
+SP  - 2351
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/s41467-023-37896-w
+Y2  - 2023/07/21/09:52:59
+L1  - https://www.nature.com/articles/s41467-023-37896-w.pdf
+ER  - 
+
