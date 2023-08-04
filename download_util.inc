@@ -111,7 +111,7 @@ function download_link(
             button_link($url, $long_name, $size, $num, !$vbox_file);
         }
         if ($pname == 'mac') {
-            echo "<br><br>This version of BOINC requires MacOS 10.9 or later.<br>For older versions of MacOS, go <a href=download_all.php>here</a>.";
+            echo "<br><br>This version of BOINC requires MacOS 10.13 or later.<br>For older versions of MacOS, go <a href=download_all.php>here</a>.";
         }
         echo "</td></tr></table>\n";
         if ($pname == 'linux'||$pname == 'linuxx64') {
@@ -165,10 +165,13 @@ function client_info_to_platform($client_info) {
             if ($maj < 10) {
                 return null;
             }
-            if ($min >= 9) {
+            // major version 10
+            if ($min >= 13) {
                 return 'mac';
-            } else if ($min >= 7) {
-                return 'mac_10_7';
+            } else if ($min >= 10) {
+                return 'mac_10_10_plus';
+            } else if ($min >= 9) {
+                return 'mac_10_9_plus';
             } else if ($min >= 4) {
                 return 'mac32';
             }

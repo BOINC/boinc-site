@@ -228,6 +228,16 @@ if ($pname && $version) {
     error_page( "version not found\n");
 }
 
+// some platforms are special cases for download.php;
+// don't show them in download_all
+//
+function skip_platform($short_name) {
+    if ($short_name == 'mac_arm') return true;
+    if ($short_name == 'mac_10_10_plus') return true;
+    if ($short_name == 'mac_10_9_plus') return true;
+    return false;
+}
+
 if ($xml) {
     header('Content-type: text/xml');
     echo "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>
@@ -235,6 +245,7 @@ if ($xml) {
 ";
     if (FALSE === strpos($client_info, '6.8.')) {
         foreach($platforms as $short_name=>$p) {
+            if (skip_platform($short_name)) continue;
             show_platform_xml($short_name, $p, $dev);
         }
     }
@@ -263,7 +274,7 @@ if ($xml) {
         ";
         start_table("table-striped");
         foreach($platforms as $short_name=>$p) {
-            if ($short_name == 'mac_arm') continue;
+            if (skip_platform($short_name)) continue;
             show_platform($short_name, $p, $dev);
         }
         end_table();

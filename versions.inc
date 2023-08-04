@@ -155,7 +155,7 @@ $m716_21c = array(
 
 $mac = array(
     "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
-    "description"=>"MacOS 10.10+",
+    "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
         $m722_2,
@@ -167,9 +167,10 @@ $mac = array(
     )
 );
 
+// mac_arm is not currently used
 $mac_arm = array(
     "name"=>"Apple Mac (Apple Silicon)",
-    "description"=>"MacOS 10.10+",
+    "description"=>null,
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
         $m722_2,
@@ -180,6 +181,18 @@ $mac_arm = array(
         $m716_21c,
     )
 );
+
+// The following are for download.php (not download_all.php)
+// for old OS versions
+$mac_10_10_plus = [
+    "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
+    "versions"=> [$m720_2]
+];
+
+$mac_10_9_plus = [
+    "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
+    "versions"=> [$m716_21]
+];
 
 // --------------- Mac Intel 64 --------------------
 
@@ -434,6 +447,8 @@ $platforms = array(
     "win"=>$windows,
     "mac"=>$mac,
     "mac_arm"=>$mac_arm,
+    "mac_10_10_plus"=>$mac_10_10_plus,
+    "mac_10_9_plus"=>$mac_10_9_plus,
     "mac_10_7"=>$mac_10_7,
     "mac32"=>$mac32,
     "macppc"=>$macppc,
@@ -449,10 +464,14 @@ function is_dev($v) {
 
 function latest_version($p) {
     $dev = false;
+    // skip development versions
+    //
     foreach ($p['versions'] as $i=>$v) {
         if (!$dev && is_dev($v)) continue;
         return $v;
     }
+    // if there are only dev versions, return first one
+    //
     foreach ($p['versions'] as $i=>$v) {
         return $v;
     }
