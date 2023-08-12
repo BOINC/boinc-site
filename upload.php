@@ -55,7 +55,7 @@ function action() {
         http_response_code(400);
         die('bad file name');
     }
-    if ($y[1]!='alpha' && $y[1]!='stable') {
+    if (!in_array($y[1], ['alpha', 'stable', 'nightly'])) {
         http_response_code(400);
         die('bad file name');
     }

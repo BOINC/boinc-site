@@ -22,6 +22,15 @@
 
 // -------------- Windows 64-bit -------------------
 
+$w724_1 = array(
+    "num"=>"7.24.1",
+    "status"=>"Development version",
+    "file"=>"boinc_7.24.1_windows_x86_64.exe",
+    "vbox_file"=>"boinc_7.24.1_windows_x86_64_vbox.exe",
+    "vbox_version"=>"7.0.6",
+    "date"=>"12 Aug 2023",
+    "type"=>"win_new"
+);
 $w722_2 = array(
     "num"=>"7.22.2",
     "status"=>"Recommended version",
@@ -37,6 +46,7 @@ $windowsx64 = array(
     "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
     "versions"=> array(
+          $w724_1,
           $w722_2
     )
 );
@@ -81,6 +91,26 @@ $windows = array(
 );
 
 // --------------- Mac Intel 64 or ARM --------------------
+
+$m724_1 = array(
+    "num"=>"7.24.1",
+    "status"=>"Development version (MacOS 10.13+)",
+    "file"=>"boinc_7.24.1_macOSX_universal.zip",
+    "date"=>"12 Aug 2023",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+);
+
+$m724_1c = array(
+    "num"=>"7.24.1",
+    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
+    "file"=>"boinc_7.24.1_universal-apple-darwin.dmg",
+    "date"=>"12 Aug 2023",
+    "type"=>"bare_core",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+);
 
 $m722_2 = array(
     "num"=>"7.22.2",
@@ -158,6 +188,8 @@ $mac = array(
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
+        $m724_1,
+        $m724_1c,
         $m722_2,
         $m722_2c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
@@ -167,12 +199,14 @@ $mac = array(
     )
 );
 
-// mac_arm is not currently used
+// mac_arm is not currently used (but see comment above)
 $mac_arm = array(
     "name"=>"Apple Mac (Apple Silicon)",
     "description"=>null,
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
+        $m724_1,
+        $m724_1c,
         $m722_2,
         $m722_2c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
@@ -411,6 +445,13 @@ $linuxcompat = array(
 
 // --------------- Android --------------------
 
+$a724_1 = array(
+    "num"=>"7.24.1",
+    "status"=>"Development Version",
+    "file"=>"boinc_7.24.1.apk",
+    "date"=>"12 Aug 2023",
+    "type"=>"apk",
+);
 $a722 = array(
     "num"=>"7.22.2",
     "status"=>"Recommended Version",
@@ -435,6 +476,7 @@ $android = array(
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>array(
+        $a724_1,
         $a722,
         $a716
     )
