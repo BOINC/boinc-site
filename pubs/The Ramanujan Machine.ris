@@ -1,0 +1,25 @@
+TY  - JOUR
+TI  - Algorithm-assisted discovery of an intrinsic order among mathematical constants
+AU  - Elimelech, Rotem
+AU  - David, Ofir
+AU  - Mengual, Carlos De la Cruz
+AU  - Kalisch, Rotem
+AU  - Berndt, Wolfgang
+AU  - Shalyt, Michael
+AU  - Silberstein, Mark
+AU  - Hadad, Yaron
+AU  - Kaminer, Ido
+AB  - In recent decades, a growing number of discoveries in fields of mathematics have been assisted by computer algorithms, primarily for exploring large parameter spaces that humans would take too long to investigate. As computers and algorithms become more powerful, an intriguing possibility arises - the interplay between human intuition and computer algorithms can lead to discoveries of novel mathematical concepts that would otherwise remain elusive. To realize this perspective, we have developed a massively parallel computer algorithm that discovers an unprecedented number of continued fraction formulas for fundamental mathematical constants. The sheer number of formulas discovered by the algorithm unveils a novel mathematical structure that we call the conservative matrix field. Such matrix fields (1) unify thousands of existing formulas, (2) generate infinitely many new formulas, and most importantly, (3) lead to unexpected relations between different mathematical constants, including multiple integer values of the Riemann zeta function. Conservative matrix fields also enable new mathematical proofs of irrationality. In particular, we can use them to generalize the celebrated proof by Apéry for the irrationality of $ζ(3)$. Utilizing thousands of personal computers worldwide, our computer-supported research strategy demonstrates the power of experimental mathematics, highlighting the prospects of large-scale computational approaches to tackle longstanding open problems and discover unexpected connections across diverse fields of science.
+DA  - 2023///
+PY  - 2023
+DO  - 10.48550/ARXIV.2308.11829
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/2308.11829
+Y2  - 2023/08/31/10:13:44
+KW  - FOS: Mathematics
+KW  - Number Theory (math.NT)
+KW  - FOS: Computer and information sciences
+KW  - Distributed, Parallel, and Cluster Computing (cs.DC)
+KW  - Artificial Intelligence (cs.AI)
+ER  - 
+
