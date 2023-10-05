@@ -38,10 +38,6 @@ function show_pictures() {
 }
 
 function show_download($client_info, $pname) {
-    echo "
-        <table cellpadding=10><tr><td valign=top>
-        <p>
-    ";
     text_start();
     echo tra("BOINC is a program that lets you donate your idle computer time to science projects like Climateprediction.net, Rosetta@home, GPUGrid, and many others.");
     echo "\n";
@@ -98,18 +94,11 @@ function show_download($client_info, $pname) {
         &middot; <a href=\"wiki/BOINC_Help\"><span class=nobr>".tra("Help")."</span></a>
         &middot; <a href=download_all.php><span class=nobr>".tra("All versions")."</span></a>
         &middot; <a href=http://boinc.berkeley.edu/wiki/GPU_computing>".tra("GPU computing")."</a>
-        </center>
-    ";
-    text_end();
-    echo "
-        </td>
-        <td valign=top>
+        <p>
     ";
     show_pictures();
-    echo "
-        </td>
-        </tr></table>
-    ";
+    echo "</center>";
+    text_end();
 }
 
 if (get_str('xml', true)) {

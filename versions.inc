@@ -24,20 +24,11 @@
 
 $w724_1 = array(
     "num"=>"7.24.1",
-    "status"=>"Development version",
+    "status"=>"Recommended version",
     "file"=>"boinc_7.24.1_windows_x86_64.exe",
     "vbox_file"=>"boinc_7.24.1_windows_x86_64_vbox.exe",
     "vbox_version"=>"7.0.6",
     "date"=>"12 Aug 2023",
-    "type"=>"win_new"
-);
-$w722_2 = array(
-    "num"=>"7.22.2",
-    "status"=>"Recommended version",
-    "file"=>"boinc_7.22.2_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.22.2_windows_x86_64_vbox.exe",
-    "vbox_version"=>"6.1.34",
-    "date"=>"22 May 2023",
     "type"=>"win_new"
 );
 
@@ -46,8 +37,7 @@ $windowsx64 = array(
     "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
     "versions"=> array(
-          $w724_1,
-          $w722_2
+          $w724_1
     )
 );
 
@@ -94,7 +84,7 @@ $windows = array(
 
 $m724_1 = array(
     "num"=>"7.24.1",
-    "status"=>"Development version (MacOS 10.13+)",
+    "status"=>"Recommended version (MacOS 10.13+)",
     "file"=>"boinc_7.24.1_macOSX_universal.zip",
     "date"=>"12 Aug 2023",
     "type"=>"mac_advanced",
@@ -104,29 +94,9 @@ $m724_1 = array(
 
 $m724_1c = array(
     "num"=>"7.24.1",
-    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
+    "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
     "file"=>"boinc_7.24.1_universal-apple-darwin.dmg",
     "date"=>"12 Aug 2023",
-    "type"=>"bare_core",
-    "min_os_version"=>"101300",
-    "max_os_version"=>"999999",
-);
-
-$m722_2 = array(
-    "num"=>"7.22.2",
-    "status"=>"Recommended version (MacOS 10.13+)",
-    "file"=>"boinc_7.22.2_macOSX_universal.zip",
-    "date"=>"22 May 2023",
-    "type"=>"mac_advanced",
-    "min_os_version"=>"101300",
-    "max_os_version"=>"999999",
-);
-
-$m722_2c = array(
-    "num"=>"7.22.2",
-    "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_7.22.2_universal-apple-darwin.dmg",
-    "date"=>"22 May 2023",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
@@ -190,8 +160,6 @@ $mac = array(
     "versions"=>array(
         $m724_1,
         $m724_1c,
-        $m722_2,
-        $m722_2c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21, // Keep 7.16.21, which is latest version that can run on MacOS 10.9
@@ -207,8 +175,6 @@ $mac_arm = array(
     "versions"=>array(
         $m724_1,
         $m724_1c,
-        $m722_2,
-        $m722_2c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21,  // Keep 7.16.21, which is latest version that can run on MacOS 10.9
@@ -447,16 +413,9 @@ $linuxcompat = array(
 
 $a724_1 = array(
     "num"=>"7.24.1",
-    "status"=>"Development Version",
+    "status"=>"Recommended Version",
     "file"=>"boinc_7.24.1.apk",
     "date"=>"12 Aug 2023",
-    "type"=>"apk",
-);
-$a722 = array(
-    "num"=>"7.22.2",
-    "status"=>"Recommended Version",
-    "file"=>"boinc_7.22.2.apk",
-    "date"=>"22 May 2023",
     "type"=>"apk",
 );
 
@@ -477,7 +436,6 @@ $android = array(
     "dbname" => "arm-android-linux-gnu",
     "versions"=>array(
         $a724_1,
-        $a722,
         $a716
     )
 );
