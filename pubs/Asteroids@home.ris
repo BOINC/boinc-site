@@ -332,3 +332,24 @@ L1  - https://www.aanda.org/articles/aa/pdf/2016/12/aa29192-16.pdf
 L2  - https://www.aanda.org/articles/aa/full_html/2016/12/aa29192-16/aa29192-16.html
 ER  - 
 
+TY  - JOUR
+TI  - Rotation Periods of Asteroids Determined With Bootstrap Convex Inversion From ATLAS Photometry
+AU  - Ďurech, Josef
+AU  - Vávra, Michael
+AU  - Vančo, Radim
+AU  - Erasmus, Nicolas
+T2  - Frontiers in Astronomy and Space Sciences
+AB  - The rotation period is one of the fundamental physical characteristics of asteroids. It can be determined from photometric measurements by standard methods of time-series period analysis or by creating a physical model of an asteroid with the rotation period being one of the fitted parameters. We used the latter approach to determine the sidereal rotation period for more than 5000 asteroids, out of which about 1600 are those for which their period was not known. We processed photometric measurements of about 100,000 asteroids from the ATLAS survey with the light curve inversion technique in the Asteroids@home project to search for the best-fit rotation period. This was repeated 25 times with randomly resampled—bootstrapped—data. For thousands of asteroids, their best-fit period was the same for most of the bootstrapped data sets; thus, their rotation period was determined with a high degree of reliability.
+DA  - 2022/02/22/
+PY  - 2022
+DO  - 10.3389/fspas.2022.809771
+DP  - DOI.org (Crossref)
+VL  - 9
+SP  - 809771
+J2  - Front. Astron. Space Sci.
+SN  - 2296-987X
+UR  - https://www.frontiersin.org/articles/10.3389/fspas.2022.809771/full
+Y2  - 2023/10/15/19:02:02
+L1  - https://www.frontiersin.org/articles/10.3389/fspas.2022.809771/pdf
+ER  - 
+
