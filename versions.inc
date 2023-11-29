@@ -82,21 +82,21 @@ $windows = array(
 
 // --------------- Mac Intel 64 or ARM --------------------
 
-$m724_1 = array(
-    "num"=>"7.24.1",
+$m724_2 = array(
+    "num"=>"7.24.2",
     "status"=>"Recommended version (MacOS 10.13+)",
-    "file"=>"boinc_7.24.1_macOSX_universal.zip",
-    "date"=>"12 Aug 2023",
+    "file"=>"boinc_7.24.2_macOSX_universal.zip",
+    "date"=>"29 Oct 2023",
     "type"=>"mac_advanced",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
 );
 
-$m724_1c = array(
-    "num"=>"7.24.1",
+$m724_2c = array(
+    "num"=>"7.24.2",
     "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_7.24.1_universal-apple-darwin.dmg",
-    "date"=>"12 Aug 2023",
+    "file"=>"boinc_7.24.2_universal-apple-darwin.dmg",
+    "date"=>"29 Oct 2023",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
@@ -158,8 +158,8 @@ $mac = array(
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
-        $m724_1,
-        $m724_1c,
+        $m724_2,
+        $m724_2c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21, // Keep 7.16.21, which is latest version that can run on MacOS 10.9
@@ -173,8 +173,8 @@ $mac_arm = array(
     "description"=>null,
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
-        $m724_1,
-        $m724_1c,
+        $m724_2,
+        $m724_2c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21,  // Keep 7.16.21, which is latest version that can run on MacOS 10.9
