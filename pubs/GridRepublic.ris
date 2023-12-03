@@ -1,0 +1,35 @@
+TY  - RPRT
+TI  - Finding <i>Candida auris</i> in public metagenomic repositories
+AU  - Mario-Vasquez, Jorge E.
+AU  - Bagal, Ujwal R.
+AU  - Lowe, Elijah
+AU  - Morgulis, Aleksandr
+AU  - Phan, John
+AU  - Sexton, D. Joseph
+AU  - Shiryev, Sergey
+AU  - Slatkevičius, Rytis
+AU  - Welsh, Rory
+AU  - Litvintseva, Anastasia P.
+AU  - Blumberg, Matthew
+AU  - Agarwala, Richa
+AU  - Chow, Nancy A.
+AB  - Abstract
+          
+            Candida auris
+            is a newly emerged multidrug-resistant fungus capable of causing invasive infections with high mortality. Despite intense efforts to understand how this pathogen rapidly emerged and spread worldwide, its environmental reservoirs are poorly understood. Here, we present a collaborative effort between the U.S. Centers for Disease Control and Prevention, the National Center for Biotechnology Information, and GridRepublic (a volunteer computing platform) to identify
+            C. auris
+            sequences in publicly available metagenomic datasets. We developed the MetaNISH pipeline that uses SRPRISM to align sequences to a set of reference genomes and computes a score for each reference genome. We used MetaNISH to scan ∼300,000 SRA metagenomic runs from 2010 onwards and identified five datasets containing
+            C. auris
+            reads. Finally, GridRepublic has implemented a prospective
+            C. auris
+            molecular monitoring system using MetaNISH and volunteer computing.
+DA  - 2023/09/01/
+PY  - 2023
+DP  - DOI.org (Crossref)
+LA  - en
+M3  - preprint
+PB  - Bioinformatics
+UR  - http://biorxiv.org/lookup/doi/10.1101/2023.08.30.555569
+Y2  - 2023/12/03/18:04:11
+ER  - 
+
