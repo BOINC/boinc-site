@@ -1,0 +1,23 @@
+TY  - JOUR
+TI  - On a question of Mordell
+AU  - Booker, Andrew R.
+AU  - Sutherland, Andrew V.
+T2  - Proceedings of the National Academy of Sciences
+AB  - We make several improvements to methods for finding integer solutions to $x^3+y^3+z^3=k$ for small values of $k$. We implemented these improvements on Charity Engine's global compute grid of 500,000 volunteer PCs and found new representations for several values of $k$, including $k=3$ and $k=42$. This completes the search begun by Miller and Woollett in 1954 and resolves a challenge posed by Mordell in 1953.
+DA  - 2021/03/16/
+PY  - 2021
+DO  - 10.1073/pnas.2022377118
+DP  - arXiv.org
+VL  - 118
+IS  - 11
+SP  - e2022377118
+J2  - Proc. Natl. Acad. Sci. U.S.A.
+SN  - 0027-8424, 1091-6490
+UR  - http://arxiv.org/abs/2007.01209
+Y2  - 2023/12/04/12:35:19
+L1  - https://arxiv.org/pdf/2007.01209.pdf
+L2  - https://arxiv.org/abs/2007.01209
+KW  - 11Y50 (Primary) 11D25 (Secondary)
+KW  - Mathematics - Number Theory
+ER  - 
+
