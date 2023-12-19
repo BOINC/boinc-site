@@ -21,3 +21,25 @@ KW  - 11Y50 (Primary) 11D25 (Secondary)
 KW  - Mathematics - Number Theory
 ER  - 
 
+TY  - JOUR
+TI  - Conway's Game of Life is Omniperiodic
+AU  - Brown, Nico
+AU  - Cheng, Carson
+AU  - Jacobi, Tanner
+AU  - Karpovich, Maia
+AU  - Merzenich, Matthias
+AU  - Raucci, David
+AU  - Riley, Mitchell
+AB  - In the theory of cellular automata, an oscillator is a pattern that repeats itself after a fixed number of generations; that number is called its period. A cellular automaton is called omniperiodic if there exist oscillators of all periods. At the turn of the millennium, only twelve oscillator periods remained to be found in Conway's Game of Life. The search has finally ended, with the discovery of oscillators having the final two periods, 19 and 41, proving that Life is omniperiodic. Besides filling in the missing periods, we give a detailed history of the omniperiodicity problem and the strategies used to solve it, summarising the work of a large number of people in the decades since the creation of Life.
+DA  - 2023///
+PY  - 2023
+DO  - 10.48550/ARXIV.2312.02799
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/2312.02799
+Y2  - 2023/12/19/01:39:29
+KW  - FOS: Mathematics
+KW  - FOS: Physical sciences
+KW  - Combinatorics (math.CO)
+KW  - Cellular Automata and Lattice Gases (nlin.CG)
+ER  - 
+
