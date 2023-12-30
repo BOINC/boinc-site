@@ -3,9 +3,6 @@
 
 // generate .po template for the BOINC web site.
 //
-// NOTE: after running this, move LANG_NAME_NATIVE and LANG_NAME_INTERNATIONAL
-// to the top, and set their strings to "English"
-// (should automate this)
 
 $date = strftime('%Y-%m-%d %H:%M %Z');
 
@@ -26,6 +23,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\\n"
 "Content-Transfer-Encoding: 8bit\\n"
 "X-Poedit-SourceCharset: utf-8\\n"
+
+msgid "LANG_NAME_NATIVE"
+msgstr "English"
+
+msgid "LANG_NAME_INTERNATIONAL"
+msgstr "English"
 
 
 HDR;

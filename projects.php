@@ -6,35 +6,35 @@ require_once("get_platforms.inc");
 
 $is_login_page = true;
 
-page_head("Choosing BOINC projects");
+page_head(tra("Choosing BOINC projects"));
 
-echo "
+echo sprintf("
 <script src=\"wz_tooltip.js\"></script>
 <p>
-BOINC is used by many volunteer computing <b>projects</b>.
-Some are based at universities and research labs,
-others are run by private groups or individuals.
-You can participate in any number of these projects.
+%s
 <p>
-In deciding whether to participate in a project,
-read its web site and think about:
-
+%s:
 <ul>
-<li> Does the project clearly describe its goals?
-    Are these goals important and beneficial?
-<li> Has the project published results in peer-reviewed
-journals or conferences?  See <a href=pubs.php>
-A list of scientific publications of BOINC projects</a>.
-<li> Do you trust the project to use proper security practices?
-<li> Who owns the results of the computation?
-  Will they be freely available?
-  Will they belong to a company?
+<li> %s
+<li> %s
+<li> %s
+<li> %s
 </ul>
 <p>
 
-The following projects are known to us at BOINC,
-and we believe that their descriptions are accurate.
-";
+%s
+",
+tra("BOINC is used by many projects.  You can participate in any number of these projects."),
+tra('To decide whether to participate in a project, read its web site and consider'),
+tra('Does the project clearly describe its goals?  Are these goals important and beneficial?'),
+tra('Has the project published results in peer-reviewed journals or conferences?  See %1 a list of publications of BOINC projects %2.',
+'<a href=pubs.php>',
+'</a>'
+),
+tra('Do you trust the project to use proper security practices?'),
+tra('Who owns the results of the computation?  Will they be freely available?  Will they belong to a company?'),
+tra('The following projects are known to us at BOINC, and we believe their descriptions are accurate.')
+);
 
 function comp_name($p1, $p2) {
     return strcasecmp($p1->name, $p2->name);
@@ -61,13 +61,31 @@ function ordered_display($areas, $sort) {
     }
     usort($projects, $sort=="area"?'comp_area':'comp_name');
     start_table("table-striped");
-    row_heading_array(array(
-        (($sort=="area")?"<a title='Sort by name' href=projects.php>Name</a>":"Name")
-            ."<br><small>Mouse over for details; click to visit web site</small>",
-        ($sort!="area")?"<a title='Sort by category' href=projects.php?sort=area>Category</a>":"Category",
-        "Area",
-        "Sponsor",
-        "Supported platforms"
+    if ($sort=="area") {
+        $name_title = sprintf(
+            "<a title='%s' href=projects.php>%s</a>",
+            tra('Sort by name'),
+            tra('Name')
+        );
+        $cat_title = tra("Category");
+    } else {
+        $name_title = "Name";
+        $cat_title = sprintf(
+            "<a title='%s' href=projects.php?sort=area>%s</a>",
+            tra('Sort by category'),
+            tra('Category')
+        );
+    }
+    row_heading_array(
+        array(
+            sprintf("%s <br><small>%s</small>",
+                $name_title,
+                tra('Mouse over for details; click to visit web site')
+            ),
+            $cat_title,
+            tra("Area"),
+            tra("Sponsor"),
+            tra("Supported platforms")
         ),
         null,
         'bg-default'
@@ -78,7 +96,12 @@ function ordered_display($areas, $sort) {
         if ($p->logo) {
             $img= "<img align=right vspace=4 hspace=4 src=images/$p->logo>";
         }
-        $arg = "$img <font size=.8em><b>Goal:</b> $p->description <br> <b>Sponsor:</b> $p->home<br><b>Area:</b> $p->area";
+        $arg = sprintf(
+            "$img <font size=.8em><b>%s:</b> $p->description <br> <b>%s:</b> $p->home<br><b>%s:</b> $p->area",
+            tra("Goal"),
+            tra("Sponsor"),
+            tra("Area")
+        );
         $arg = addslashes($arg);
         $x = "<a href=$p->web_url onmouseover=\"Tip('$arg', WIDTH, 600, FONTSIZE, '12px', BGCOLOR, '#eeddcc')\" onmouseout=\"UnTip()\">$p->name</a>";
         $home = $p->home;
@@ -93,7 +116,11 @@ function ordered_display($areas, $sort) {
             $p = tra("Unknown");
         } else {
             $pd = get_platforms_string($master_url, false);
-            $p .= "<br><a href=projects.php onmouseover=\"Tip('Supported platforms:<br>$pd', WIDTH, 240, FONTSIZE, '12px', BGCOLOR, '#eeddcc')\" onmouseout=\"UnTip()\"><small>Details</small></a>";
+            $p .= sprintf(
+                "<br><a href=projects.php onmouseover=\"Tip('%s:<br>$pd', WIDTH, 240, FONTSIZE, '12px', BGCOLOR, '#eeddcc')\" onmouseout=\"UnTip()\"><small>%s</small></a>",
+                tra('Supported platforms'),
+                tra('Details')
+            );
         }
         echo "<tr class=row$n>
             <td valign=top>$x</td>

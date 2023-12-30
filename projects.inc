@@ -14,6 +14,10 @@
 // - update Science United: su/project_init.php
 // - wget https://boinc.berkeley.edu/project_list.php and move to
 //      boinc/win_build/installerv2/redist/all_projects_list.xml
+//      (deprecated - this is automated now)
+//
+// Use tra() where relevant, and update the BOINC Web site .pot file
+// (boinc-site/build_po.php)
 
 require_once("../inc/util.inc");
 //require_once("../inc/translation.inc");
@@ -74,7 +78,7 @@ $sensing = array(
             tra("Radioactive@Home is creating a free and continuously updated map of radiation levels using sensors connected to volunteers' computers.  You must buy a sensor to participate."),
             "radioactive.jpg",
             "",
-            "Monitor radiation levels",
+            tra("Monitor radiation levels"),
             array(KW_ENV_RESEARCH, KW_EUROPE, KW_POLAND)
         ),
     ),
@@ -107,31 +111,20 @@ $cogsci = array(
 //            "Study machine learning",
 //            array(KW_AI, KW_AMERICAS, KW_US)
 //        ),
+//        project(
+//            0,
+//            "FreeHAL",
+//            "http://www.freehal.net/freehal_at_home/",
+//            tra("Independent"),
+//            tra("Artificial intelligence"),
+//            tra("Parse and convert semantic nets for use in FreeHAL, an artificial intelligence that uses semantic networks, stemmers, part of speech databases, and part of speech taggers in order to imitate human behavior in conversations."),
+//            "",
+//            "",
+//            "Create an artificial intelligence",
+//            array()
+//        ),
     ),
 );
-
-// put projects here if
-// - you don't want to show them in project list, but
-// - you might want to show them in the future.
-// That way their strings will still appear in the translation file
-//
-$dormant_projects = array(
-    array(
-        project(
-            0,
-            "FreeHAL",
-            "http://www.freehal.net/freehal_at_home/",
-            tra("Independent"),
-            tra("Artificial intelligence"),
-            tra("Parse and convert semantic nets for use in FreeHAL, an artificial intelligence that uses semantic networks, stemmers, part of speech databases, and part of speech taggers in order to imitate human behavior in conversations."),
-            "",
-            "",
-            "Create an artificial intelligence",
-            array()
-        ),
-    ),
-);
-
 
 $biomed = array(
     tra("Biology and Medicine"),
@@ -169,7 +162,7 @@ $biomed = array(
             tra("DENIS@Home does cardiac electrophysiological simulations, studying the electrical activity of the heart."),
             "",
             "https://denis.usj.es/denisathome/",
-            "Study the physiology of the heart",
+            tra("Study the physiology of the heart"),
             array(KW_BIOMED, KW_EUROPE, KW_SPAIN)
         ),
         project(
@@ -181,31 +174,31 @@ $biomed = array(
             tra("RNA World seeks to identify, analyze, structurally predict and design RNA molecules on the basis of established bioinformatics software."),
             "rna4.png",
             "",
-            "Study and design RNA molecules",
+            tra("Study and design RNA molecules"),
             array(KW_BIOMED, KW_GENETICS, KW_EUROPE, KW_GERMANY)
         ),
         project(
             PROJ_GPU_GRID,
             "GPUGrid.net",
             "https://www.gpugrid.net/",
-            tra("Barcelona Biomedical Research Park (PRBB)"),
+            "Barcelona Biomedical Research Park (PRBB)",
             tra("Molecular simulations of proteins"),
             tra("GPUGrid.net opens novel computational scenarios by the first full-atom molecular dynamics code (CellMD) specially optimized to run on NVIDIA GPUs. New biomedical applications suddenly become possible giving a new role to computational biology for biomedical research."),
             "gpugrid.png",
             "https://www.gpugrid.net/",
-            "Help biomedical research",
+            tra("Help biomedical research"),
             array(KW_BIOMED, KW_DISEASE, KW_CANCER, KW_VIRUS, KW_EUROPE, KW_SPAIN, KW_PRBB)
         ),
         project(
             PROJ_ROSETTA,
             "Rosetta@home",
             "https://boinc.bakerlab.org/rosetta/",
-            tra("University of Washington"),
+            "University of Washington",
             tra("Biology"),
             tra("Determine the 3-dimensional shapes of proteins in research that may ultimately lead to finding cures for some major human diseases. By running Rosetta@home you will help us speed up and extend our research in ways we couldn't possibly attempt without your help. You will also be helping our efforts at designing new proteins to fight diseases such as COVID-19, HIV, malaria, cancer, and Alzheimer's"),
             "rosetta_at_home_logo.jpg",
             "",
-            "Study diseases such as COVID-19, HIV, malaria, cancer, and Alzheimer's",
+            tra("Study diseases such as COVID-19, HIV, malaria, cancer, and Alzheimer's"),
             array(KW_BIOMED, KW_DISEASE, KW_PROTEINS, KW_AMERICAS, KW_US, KW_UW, KW_VIRUS)
         ),
     ),
@@ -217,12 +210,12 @@ $earth = array(
             PROJ_CPDN,
             "Climateprediction.net",
             "https://climateprediction.net/",
-            tra("Oxford University"),
+            "Oxford University",
             tra("Climate study"),
             tra("Investigate the approximations that have to be made in state-of-the-art climate models. By running the model thousands of times we hope to find out how the model responds to slight tweaks to these approximations - slight enough to not make the approximations any less realistic. This will allow us to improve our understanding of how sensitive our models are to small changes and also to things like changes in carbon dioxide and the sulphur cycle. This will allow us to explore how climate may change in the next century under a wide range of different scenarios."),
             "cpn_logo_world_1.jpg",
             "https://climateprediction.net/",
-            "Study long-term climate change",
+            tra("Study long-term climate change"),
             array(KW_EARTH_SCI, KW_CLIMATE, KW_EUROPE, KW_UK, KW_OXFORD)
         ),
     ),
@@ -288,7 +281,7 @@ $astro_phys_chem = array(
             tra("The aim of the project is to derive shapes and spin for a significant part of the asteroid population. As input data, we use any asteroid photometry that is available. The results are asteroid convex shape models with the direction of the spin axis and the rotation period."),
             "asteroids_logo.jpg",
             "",
-            "Study the properties of asteroids",
+            tra("Study the properties of asteroids"),
             array(KW_ASTRONOMY, KW_EUROPE, KW_CZECH, KW_CHARLES_PRAGUE)
         ),
 //        project(
@@ -319,7 +312,7 @@ $astro_phys_chem = array(
             PROJ_MILKYWAY,
             "Milkyway@home",
             "https://milkyway.cs.rpi.edu/milkyway/",
-            tra("Rensselaer Polytechnic Institute"),
+            "Rensselaer Polytechnic Institute",
             tra("Astronomy"),
             tra("The goal of Milkyway@Home is to create a highly accurate three dimensional model of the Milky Way galaxy using data gathered by the Sloan Digital Sky Survey."),
             "mw.png",
@@ -343,7 +336,7 @@ $astro_phys_chem = array(
             PROJ_EINSTEIN,
             "Einstein@home",
             "https://einsteinathome.org/",
-            tra("University of Wisconsin - Milwaukee (USA), Max Planck Institute for Gravitational Physics - Hanover (Germany)"),
+            "University of Wisconsin - Milwaukee (USA), Max Planck Institute for Gravitational Physics - Hanover (Germany)",
             tra("Astrophysics"),
             tra("Einstein@Home uses your computer's idle time to search for weak astrophysical signals from spinning neutron stars (often called pulsars) using data from the LIGO gravitational-wave detectors, the Arecibo radio telescope, and the Fermi gamma-ray satellite."),
             "einstein.jpg",
@@ -433,7 +426,7 @@ $mixed = array(
             PROJ_WCG,
             "World Community Grid",
             "https://www.worldcommunitygrid.org/",
-            tra("Krembil Research Institute"),
+            "Krembil Research Institute",
             tra("Medical, environmental and other humanitarian research"),
             tra("To further critical non-profit research on some of humanity's most pressing problems by creating the world's largest volunteer computing grid.  Research includes HIV-AIDS, cancer, tropical and neglected diseases, solar energy, clean water and many more."),
             "wcg.jpg",
@@ -458,11 +451,11 @@ $mixed = array(
             "BOINC Central",
             "https://boinc.berkeley.edu/central/",
             "University of California, Berkeley",
-            "Multiple science areas",
-            "BOINC Central provides computing power to scientists from multiple institutions",
+            tra("Multiple science areas"),
+            tra("BOINC Central provides computing power to scientists from multiple institutions"),
             "",
             "",
-            "Support scientists from multiple institutions",
+            tra("Support scientists from multiple institutions"),
             array(KW_AMERICAS, KW_US, KW_BIOMED)
         ),
     ),
@@ -474,22 +467,21 @@ $math = array(
             PROJ_ITHENA,
             "iThena",
             "https://root.ithena.net/usr/",
-            //"<a href=https://cybercomplex.net/en/>Cyber-Complex Foundation</a>",
             "Cyber-Complex Foundation",
-            "Computer science",
-            "The goal of the iThena project is to generate a dynamic topological model of the Internet, based on measurements from distributed devices.",
+            tra("Computer science"),
+            tra("The goal of the iThena project is to generate a dynamic topological model of the Internet, based on measurements from distributed devices."),
             "",
             "",
-            "Study the Internet",
+            tra("Study the Internet"),
             array(KW_MATH_CS)
         ),
         project(
             PROJ_AMICABLE,
             "Amicable Numbers",
             "https://sech.me/boinc/Amicable/",
-            "Independent",
-            "Mathematics",
-            "'Amicable numbers' are pairs where the sum of the proper divisors of each is equal to the other number. The goal of this project is to collect all amicable numbers up to a very large limit.",
+            tra("Independent"),
+            tra("Mathematics"),
+            tra("'Amicable numbers' are pairs where the sum of the proper divisors of each is equal to the other number. The goal of this project is to collect all amicable numbers up to a very large limit."),
             "",
             "",
             tra("Do research in number theory"),
@@ -511,24 +503,24 @@ $math = array(
             PROJ_ODLK,
             "ODLK",
             "https://boinc.progger.info/odlk/",
-            "Independent",
+            tra("Independent"),
             tra("Mathematics"),
-            "OLDK is building a database of canonical forms of diagonal Latin squares of the 10th order",
+            tra("OLDK is building a database of canonical forms of diagonal Latin squares of the 10th order"),
             "",
             "",
-            "Discover Latin Squares",
+            tra("Discover Latin Squares"),
             array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA, KW_RAS)
         ),
         project(
             PROJ_ODLK1,
             "ODLK1",
             "https://boinc.multi-pool.info/latinsquares/",
-            "Independent",
+            tra("Independent"),
             tra("Mathematics"),
             "OLDK is building a database of canonical forms of diagonal Latin squares of the 10th order",
             "",
             "",
-            "Discover Latin Squares",
+            tra("Discover Latin Squares"),
             array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA, KW_RAS)
         ),
 //        project(
@@ -547,7 +539,7 @@ $math = array(
             PROJ_MOO,
             "Moo! Wrapper",
             "https://moowrap.net/",
-            "Independent",
+            tra("Independent"),
             tra("Cryptography and combinatorics"),
             tra("Run applications from distributed.net"),
             "",
@@ -583,7 +575,7 @@ $math = array(
             PROJ_NFS,
             "NFS@home",
             "https://escatter11.fullerton.edu/nfs/",
-            tra("California State University Fullerton"),
+            "California State University Fullerton",
             tra("Factorization of large integers"),
             tra("NFS@Home is a research project that uses Internet-connected computers to do the lattice sieving step in the Number Field Sieve factorization of large integers. As a young school student, you gained your first experience at breaking an integer into prime factors, such as 15 = 3 * 5 or 35 = 5 * 7. NFS@Home is a continuation of that experience, only with integers that are hundreds of digits long."),
             "NFS_Logo.jpg",
@@ -632,7 +624,7 @@ $math = array(
             "Gerasim@Home",
             "https://gerasim.boinc.ru/",
             "Southwest State University (Russia)",
-            "Computer engineering",
+            tra("Computer engineering"),
             tra("Testing and comparison of heuristic methods for getting separations of parallel algorithms working in the CAD system for designing logic control systems"),
             "gerasim.gif",
             "",
@@ -643,9 +635,9 @@ $math = array(
             PROJ_SRBASE,
             "SRBase",
             "https://srbase.my-firewall.org/sr5/",
-            "Independent",
-            "Mathematics",
-            "SRBase is a mathematical research project that uses Internet-connected computers trying to solve Sierpinski / Riesel Bases up to 1030.",
+            tra("Independent"),
+            tra("Mathematics"),
+            tra("SRBase is a mathematical research project that uses Internet-connected computers trying to solve Sierpinski / Riesel Bases up to 1030."),
             "",
             "",
             "",
@@ -680,11 +672,11 @@ $math = array(
             'RakeSearch',
             'https://rake.boincfast.ru/rakesearch/',
             'Karelian Research Center, Russian Academy of Sciences',
-            'Mathematics',
-            'The enormous size of the diagonal Latin squares space makes it unfeasible to enumerate all its objects straightforwardly in reasonable time. So, in order to discover the structure of this space, sophisticated search methods are needed. In RakeSearch project, we implement an application that picks up separate pairs of mutually orthogonal DLSs, which allows to reconstruct full graphs of their orthogonality.',
+            tra('Mathematics'),
+            tra('The enormous size of the diagonal Latin squares space makes it unfeasible to enumerate all its objects straightforwardly in reasonable time. So, in order to discover the structure of this space, sophisticated search methods are needed. In RakeSearch project, we implement an application that picks up separate pairs of mutually orthogonal DLSs, which allows to reconstruct full graphs of their orthogonality.'),
             '',
             '',
-            'Study Latin Squares',
+            tra('Study Latin Squares'),
             array(KW_MATH_CS, KW_EUROPE, KW_RUSSIA)
         ),
 //        project(
@@ -703,24 +695,24 @@ $math = array(
             PROJ_RAMANUJAN,
             'Ramanujan Machine',
             'https://www.ramanujanmachine.com/',
-            'Independent',
-            'Mathematics',
-            'The Ramanujan Machine uses your computer power to search for new mathematical formulas.',
+            tra('Independent'),
+            tra('Mathematics'),
+            tra('The Ramanujan Machine uses your computer power to search for new mathematical formulas.'),
             '',
             'https://rnma.xyz/boinc/',
-            'Discover new mathematical formulas',
+            tra('Discover new mathematical formulas'),
             array(KW_MATH_CS)
         ),
         project(
             PROJ_LODA,
             'LODA',
             'https://boinc.loda-lang.org/loda/',
-            'Independent',
-            'Mathematics',
-            'The goal of LODA is to find new formulas and more efficient algorithms for a range of integer sequences.',
+            tra('Independent'),
+            tra('Mathematics'),
+            tra('The goal of LODA is to find new formulas and more efficient algorithms for a range of integer sequences.'),
             '',
             '',
-            'Mine mathematical programs',
+            tra('Mine mathematical programs'),
             array(KW_MATH_CS)
         ),
         project(
@@ -796,14 +788,14 @@ $account_managers = array(
         PROJ_SCIENCE_UNITED,
         "Science United",
         "https://scienceunited.org/",
-        "Science United is a simple and friendly interface to BOINC.  You sign up for science areas instead of projects.",
+        tra("Science United is a simple and friendly interface to BOINC.  You sign up for science areas instead of projects."),
         ""
     ),
     acct_mgr(
         PROJ_GRCPOOL,
         "GRCPool",
         "https://grcpool.com",
-        "GRCPool.com is a cryptocurrency mining pool which rewards work performed using BOINC.",
+        tra("GRCPool.com is a cryptocurrency mining pool which rewards work performed using BOINC."),
         ""
     ),
 );

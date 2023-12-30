@@ -1,5 +1,13 @@
 <?php
 
+// BOINC web site home page.
+// to maintain translations: if you change anything here:
+// - in dev/html, run ops/build_po.php
+// - upload the resulting en.po to app.transifex.com/boinc/boinc/web/
+//   as BOINC-Web.pot
+// - later, download all translations as zip;
+//   install in ~/boinc-site/translations
+
 if (isset($_SERVER) && array_key_exists('SERVER_NAME', $_SERVER)) {
     $host = $_SERVER["SERVER_NAME"];
     if ($host == "bossa.berkeley.edu") {
