@@ -22,6 +22,16 @@
 
 // -------------- Windows 64-bit -------------------
 
+$w80 = array(
+    "num"=>"8.0.0",
+    "status"=>"Development version",
+    "file"=>"boinc_8.0.0_windows_x86_64.exe",
+    "vbox_file"=>"boinc_8.0.0_windows_x86_64_vbox.exe",
+    "vbox_version"=>"7.0.6",
+    "date"=>"20 Mar 2023",
+    "type"=>"win_new"
+);
+
 $w724_1 = array(
     "num"=>"7.24.1",
     "status"=>"Recommended version",
@@ -37,7 +47,8 @@ $windowsx64 = array(
     "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
     "versions"=> array(
-          $w724_1
+        $w80,
+        $w724_1
     )
 );
 
@@ -81,6 +92,26 @@ $windows = array(
 );
 
 // --------------- Mac Intel 64 or ARM --------------------
+
+$m80_0 = array(
+    "num"=>"8.0.0",
+    "status"=>"Development version (MacOS 10.13+)",
+    "file"=>"boinc_8.0.0_macOSX_universal.zip",
+    "date"=>"19 Mar 2024",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+);
+
+$m80_0c = array(
+    "num"=>"8.0.0",
+    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
+    "file"=>"boinc_8.0.0_universal-apple-darwin.dmg",
+    "date"=>"19 Mar 2024",
+    "type"=>"bare_core",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+);
 
 $m724_3 = array(
     "num"=>"7.24.3",
@@ -158,6 +189,8 @@ $mac = array(
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
+        $m80_0,
+        $m80_0c,
         $m724_3,
         $m724_3c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
@@ -173,6 +206,8 @@ $mac_arm = array(
     "description"=>null,
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
+        $m80_0,
+        $m80_0c,
         $m724_3,
         $m724_3c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
@@ -411,6 +446,14 @@ $linuxcompat = array(
 
 // --------------- Android --------------------
 
+$a80 = array(
+    "num"=>"8.0.0",
+    "status"=>"Development version",
+    "file"=>"boinc_8.0.0.apk",
+    "date"=>"20 Mar 2024",
+    "type"=>"apk",
+);
+
 $a724_1 = array(
     "num"=>"7.24.1",
     "status"=>"Recommended Version",
@@ -435,6 +478,7 @@ $android = array(
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>array(
+        $a80,
         $a724_1,
         $a716
     )

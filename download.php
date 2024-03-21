@@ -90,7 +90,7 @@ function show_download($client_info, $pname) {
         <hr>
         <center>
         <a href=\"wiki/System_requirements\"><span class=nobr>".tra("System requirements")."</span></a>
-        &middot; <a href=\"wiki/Release_Notes\"><span class=nobr>".tra("Release notes")."</span></a>
+        &middot; <a href=https://github.com/BOINC/boinc/wiki/Client-release-notes><span class=nobr>".tra("Release notes")."</span></a>
         &middot; <a href=\"wiki/BOINC_Help\"><span class=nobr>".tra("Help")."</span></a>
         &middot; <a href=download_all.php><span class=nobr>".tra("All versions")."</span></a>
         &middot; <a href=http://boinc.berkeley.edu/wiki/GPU_computing>".tra("GPU computing")."</a>

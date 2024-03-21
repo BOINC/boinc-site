@@ -104,11 +104,11 @@ function project_banner_old($title) {
 function project_footer($show_return, $show_date, $prefix) {
     $y = date("Y ");
     echo "
-        <hr><p class=\"text-muted\">
+        <hr><p class=\"text-muted\"><small>
         Copyright &copy; $y University of California.
-        Permission is granted to copy, distribute and/or modify this document
+        <br>Permission is granted to copy, distribute and/or modify this document
         under the terms of the GNU Free Documentation License,
-        Version 1.2 or any later version published by the Free Software Foundation.</p>
+        Version 1.2 or any later version published by the Free Software Foundation.</small></p>
     ";
 }
 
