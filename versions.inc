@@ -396,13 +396,23 @@ $l74ubuntux64 = array(
     "type"=>"sea",
 );
 
+$linux_80 = array(
+    "num"=>"8.0.0",
+    "status"=>"Development version",
+    'file'=>'',
+    "date"=>"28 Mar 2024",
+    "type"=>'linux_pkg'
+);
+
 $linuxx64 = array(
     "name"=>"Linux x64",
-    "description"=> linux_info(),
+    //"description"=> linux_info(),
+    "description"=> 'Packages are available for several distros',
     "dbname" => "x86_64-pc-linux-gnu",
     "versions"=>array(
-          $l716ubuntux64dev,
-          $l74ubuntux64,
+        $linux_80,
+        //$l716ubuntux64dev,
+        //$l74ubuntux64,
     )
 );
 
@@ -537,6 +547,8 @@ function type_text($type) {
             return "Standard GUI";
         case "apk":
             return "Android Installer";
+        case "linux_pkg":
+            return 'Linux package';
         }
     } else {
         switch($type) {
@@ -557,12 +569,7 @@ function type_text($type) {
 }
 
 function linux_info() {
-    return "Tested on the current Ubuntu distribution; may work on others.
-    <br>These versions may not be current.
-    We recommend that instead you
-    <a href=https://boinc.berkeley.edu/wiki/Installing_on_Linux>
-    install BOINC using a package manager, run it using Docker,
-    or use a bootable ISO image</a>.
+    return "Tested on Ubuntu; may work on others.
     ";
 }
 

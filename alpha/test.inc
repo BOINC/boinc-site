@@ -34,8 +34,8 @@ $platforms_mac = array(
 );
 
 $platforms_linux = array(
-    //array("linuxgraphical", "Linux x86 graphical", 5, "linux"),
-    array("linuxgraphical_x64", "Linux x64 graphical", 5, "linux"),
+    array("linux_desktop_x64", "Linux x64 desktop", 5, "linux"),
+    array("linux_headless_x64", "Linux x64 headless", 5, "linux"),
 );
 
 $platforms_android = array(

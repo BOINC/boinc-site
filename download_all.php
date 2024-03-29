@@ -103,9 +103,6 @@ function show_version_xml($v, $p) {
     <description>%s</description>
     <date>%s</date>
     <version_num>%s</version_num>
-    <url>%s</url>
-    <filename>%s</filename>
-    <size_mb>%s</size_mb>
     <installer>%s</installer>
 ',
         $p["name"],
@@ -113,11 +110,19 @@ function show_version_xml($v, $p) {
         $v["status"],
         $v["date"],
         $v["num"],
-        version_url($v['file']),
-        $v["file"],
-        number_format(filesize($path)/1000000, 2),
         type_text($v["type"])
     );
+    if ($v['file']) {
+        echo sprintf(
+'    <url>%s</url>
+    <filename>%s</filename>
+    <size_mb>%s</size_mb>
+',
+            version_url($v['file']),
+            $v["file"],
+            number_format(filesize($path)/1000000, 2)
+        );
+    }
     if (array_key_exists('vbox_file', $v)) {
         $path = "dl/".$v["vbox_file"];
         echo sprintf(
@@ -162,15 +167,19 @@ function show_version($pname, $i, $v) {
     $url = version_url($v['file']);
 
     $link = "";
-    if (array_key_exists('vbox_file', $v)) {
-        $vbox_file = $v['vbox_file'];
-        $vbox_version = $v['vbox_version'];
-        $vbox_url = version_url($vbox_file);
-        $vbox_path = "dl/$vbox_file";
-        $vbox_size = number_format(filesize($vbox_path)/1000000, 2);
-        $link = "<a href=\"$vbox_url\"><b>Download BOINC + VirtualBox $vbox_version</b></a> ($vbox_size MB)<br>";
+    if ($v['type'] == 'linux_pkg') {
+        $link = '<a href=linux_install.php><b>Installation instructions</b></a>';
+    } else {
+        if (array_key_exists('vbox_file', $v)) {
+            $vbox_file = $v['vbox_file'];
+            $vbox_version = $v['vbox_version'];
+            $vbox_url = version_url($vbox_file);
+            $vbox_path = "dl/$vbox_file";
+            $vbox_size = number_format(filesize($vbox_path)/1000000, 2);
+            $link = "<a href=\"$vbox_url\"><b>Download BOINC + VirtualBox $vbox_version</b></a> ($vbox_size MB)<br>";
+        }
+        $link .= "<a href=\"$url\"><b>Download BOINC</b></a> ($s MB)";
     }
-    $link .= "<a href=\"$url\"><b>Download BOINC</b></a> ($s MB)";
     echo "<tr>
         <td>$num</td>
         <td>$status</td>

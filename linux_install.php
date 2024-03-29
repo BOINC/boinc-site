@@ -95,17 +95,97 @@ sudo zypper install boinc-client boinc-manager',
         On such systems, the BOINC client can be
         controlled either using <a href=https://boinc.berkeley.edu/wiki/Boinccmd_tool>boinccmd</a>,
         or using a <a href=https://boinc.berkeley.edu/wiki/Controlling_BOINC_remotely>remote GUI</a>.
+        <p>
+        Details on the installer are <a href=https://github.com/BOINC/boinc/wiki/Linux-installer>here</a>.
     ";
+
+    // GPU instructions
+    switch ($os->type) {
+    case 'Debian':
+    case 'Ubuntu':
+        echo '<h3>GPU computing</h3>';
+        echo '<p>If the system has an NVIDIA GPU,
+            you can enable CUDA apps using
+            <pre>sudo apt-get install nvidia-cuda-toolkit</pre>
+        ';
+        echo '<p>If the system has an NVIDIA, AMD, or Intel GPU,
+            you can enable OpenCL apps using
+            <pre>sudo apt-get install ocl-icd-libopencl1 opencl-icd</pre>
+        ';
+        echo "Note: do these before installing BOINC,
+            so that BOINC will detect the GPU when it starts
+        ";
+        break;
+    case 'Fedora':
+        echo '<h3>GPU computing</h3>';
+        echo '<p>If the system has an NVIDIA GPU,
+            you can enable CUDA apps using
+            <pre>sudo yum install xorg-x11-drv-nvidia-libs</pre>
+        ';
+        echo "Note: do these before installing BOINC,
+            so that BOINC will detect the GPU when it starts
+        ";
+        break;
+    }
+
+    // attach instructions
+
+    echo '<h3>Configuration</h3>
+        <p>
+        You must tell BOINC which science projects to compute for.
+        The recommended way is to use Science United,
+        where you choose science areas rather than individual projects.
+        <ul>
+        <li> <a href=https://scienceunited.org>Create an account</a>
+            on Science United.
+        <li> <a href=https://scienceunited.org/su_help.php>Attach this computer</a> to the Science United account.
+        </ul>
+        <p>
+        You can configure BOINC to limit its
+        computing, memory usage, and disk usage.
+        Do this using the BOINC Manager
+        (Options / Computing Preferences)
+        or the Computing Preferences form
+        on the Science United website.
+    ';
+        
+    // uninstall instructions
+    echo '<h3>Uninstall</h3>
+        <p>
+        To remove BOINC:
+    ';
+    switch ($os->type) {
+    case 'Debian':
+    case 'Ubuntu':
+        echo '<pre>sudo apt remove boinc-client boinc-manager</pre>';
+        break;
+    case 'Fedora':
+        echo '<pre>sudo yum remove boinc-client boinc-manager</pre>';
+        break;
+    case 'openSUSE':
+        echo '<pre>sudo zypper remove boinc-client boinc-manager</pre>';
+        break;
+    }
 }
 
 function main() {
     $os_num = get_int('os_num', true);
-    $build = get_str('os_build', true);
-    page_head('Linux installation instructions');
+    $build = get_str('build', true);
+    page_head('Installing BOINC on Linux');
+    echo "<p>
+        The recommended way to install BOINC on a Linux system 
+        is as a package.
+        Get instructions using this form:
+    ";
     form_start('linux_install.php');
     form_select('Operating system', 'os_num', os_options(), $os_num);
-    form_select('BOINC build', 'build', build_options(), $build);
-    form_submit('OK');
+    form_select(
+        'BOINC build<br><font size=-1>Stable: recommended version
+            <br>Alpha: version under test
+            <br>Nightly: very latest version</font>',
+        'build', build_options(), $build
+    );
+    form_submit('Get instructions');
     form_end();
 
     if ($os_num) {
