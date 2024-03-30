@@ -75,9 +75,12 @@ sudo apt install boinc-client boinc-manager',
         echo sprintf(
 'sudo dnf install dnf-plugins-core
 sudo dnf config-manager --add-repo https://boinc.berkeley.edu/dl/linux/%s/%s
-sudo dnf config-manager --set-enabled boinc-%s-%s
+sudo dnf config-manager --set-enabled boinc.berkeley.edu_dl_linux_%s_%s
+sudo rpm --import https://boinc.berkeley.edu/dl/linux/%s/%s/boinc.gpg
 sudo yum install boinc-client boinc-manager',
-            $build, $os->code, $build, $os->code
+            $build, $os->code,
+            $build, $os->code,
+            $build, $os->code
         );
         echo '</pre>';
         break;
