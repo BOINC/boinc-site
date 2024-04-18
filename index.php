@@ -90,13 +90,18 @@ function show_news_items() {
     );
 }
 
+// get project news items, show newest 3 and link to the rest
+// This uses https://vcnews.info,
+// which runs on AWS and was created by Kevin Reed.
+// This may not be there forever.
+//
 function show_project_news() {
     $items = get_rss_feed_cached("https://api.vcnews.info/rss", 3600);
     if (!$items) return;
     panel(
         tra("News from BOINC Projects"),
         function() use ($items) {
-            show_rss_items($items, 3, 'rss_filter');
+            show_rss_items($items, 3, 'rss_filter', 200);
             echo "<a href=project_news.php>... more</a>";
         }
     );

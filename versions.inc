@@ -14,6 +14,7 @@
 //          if they use auto-attach
 //          (see https://github.com/BOINC/boinc/wiki/SimpleAttach>
 //      - run get_versions.php in Science United and BOINC Central
+//      - post news item on BOINC and Science Unite
 
 // List of platforms.
 // Each has a list of versions, then a structure in which "versions"
@@ -202,7 +203,7 @@ $mac = array(
 
 // mac_arm is not currently used (but see comment above)
 $mac_arm = array(
-    "name"=>"Apple Mac (Apple Silicon)",
+    "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
     "description"=>null,
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(

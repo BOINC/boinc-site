@@ -208,10 +208,14 @@ function show_platform($short_name, $p, $dev) {
     }
 }
 
+// $short_name is e.g. 'winx64'
+// $p is a structure with list of versions (see versions.inc)
+// if $dev, show development versions as well as release
+//
 function show_platform_xml($short_name, $p, $dev) {
     foreach ($p["versions"] as $i=>$v) {
         if (!$dev && is_dev($v)) continue;
-        // show only those builds that have been around for over three days.
+        // show only those versions that have existed for over three days.
         // Gives us time to address any showstoppers
         // found by the early adopters
         //
@@ -240,8 +244,13 @@ if ($pname && $version) {
 // some platforms are special cases for download.php;
 // don't show them in download_all
 //
-function skip_platform($short_name) {
+function skip_platform_web($short_name) {
     if ($short_name == 'mac_arm') return true;
+    if ($short_name == 'mac_10_10_plus') return true;
+    if ($short_name == 'mac_10_9_plus') return true;
+    return false;
+}
+function skip_platform_xml($short_name) {
     if ($short_name == 'mac_10_10_plus') return true;
     if ($short_name == 'mac_10_9_plus') return true;
     return false;
@@ -254,7 +263,7 @@ if ($xml) {
 ";
     if (FALSE === strpos($client_info, '6.8.')) {
         foreach($platforms as $short_name=>$p) {
-            if (skip_platform($short_name)) continue;
+            if (skip_platform_xml($short_name)) continue;
             show_platform_xml($short_name, $p, $dev);
         }
     }
@@ -283,7 +292,7 @@ if ($xml) {
         ";
         start_table("table-striped");
         foreach($platforms as $short_name=>$p) {
-            if (skip_platform($short_name)) continue;
+            if (skip_platform_web($short_name)) continue;
             show_platform($short_name, $p, $dev);
         }
         end_table();

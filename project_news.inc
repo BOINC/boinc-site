@@ -16,6 +16,9 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with BOINC.  If not, see <http://www.gnu.org/licenses/>.
 
+// filter project news items;
+// don't show test projects or items with too many links
+
 function rss_filter($item) {
     if (strstr($item->link, "boinc.berkeley.edu")) return true;
     if (strstr($item->link, "boinc.network")) return true;
