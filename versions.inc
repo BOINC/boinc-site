@@ -114,21 +114,21 @@ $m80_0c = array(
     "max_os_version"=>"999999",
 );
 
-$m724_3 = array(
-    "num"=>"7.24.3",
+$m724_4 = array(
+    "num"=>"7.24.4",
     "status"=>"Recommended version (MacOS 10.13+)",
-    "file"=>"boinc_7.24.3_macOSX_universal.zip",
-    "date"=>"30 Jan 2024",
+    "file"=>"boinc_7.24.4_macOSX_universal.zip",
+    "date"=>"3 May 2024",
     "type"=>"mac_advanced",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
 );
 
-$m724_3c = array(
-    "num"=>"7.24.3",
+$m724_4c = array(
+    "num"=>"7.24.4",
     "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_7.24.3_universal-apple-darwin.dmg",
-    "date"=>"30 Jan 2024",
+    "file"=>"boinc_7.24.4_universal-apple-darwin.dmg",
+    "date"=>"3 May 2024",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
@@ -192,8 +192,8 @@ $mac = array(
     "versions"=>array(
         $m80_0,
         $m80_0c,
-        $m724_3,
-        $m724_3c,
+        $m724_4,
+        $m724_4c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21, // Keep 7.16.21, which is latest version that can run on MacOS 10.9
@@ -209,8 +209,8 @@ $mac_arm = array(
     "versions"=>array(
         $m80_0,
         $m80_0c,
-        $m724_3,
-        $m724_3c,
+        $m724_4,
+        $m724_4c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21,  // Keep 7.16.21, which is latest version that can run on MacOS 10.9
