@@ -1,0 +1,23 @@
+TY  - JOUR
+TI  - Crystal search – feasibility study of a real-time deep learning process for crystallization well images
+AU  - Thielmann, Yvonne
+AU  - Luft, Thorsten
+AU  - Zint, Norbert
+AU  - Koepke, Juergen
+T2  - Acta Crystallographica Section A Foundations and Advances
+AB  - To avoid the time-consuming and often monotonous task of manual inspection of crystallization plates, a Python-based program to automatically detect crystals in crystallization wells employing deep learning techniques was developed. The program uses manually scored crystallization trials deposited in a database of an in-house crystallization robot as a training set. Since the success rate of such a system is able to catch up with manual inspection by trained persons, it will become an important tool for crystallographers working on biological samples. Four network architectures were compared and the SqueezeNet architecture performed best. In detecting crystals AlexNet accomplished a better result, but with a lower threshold the mean value for crystal detection was improved for SqueezeNet. Two assumptions were made about the imaging rate. With these two extremes it was found that an image processing rate of at least two times, but up to 58 times in the worst case, would be needed to reach the maximum imaging rate according to the deep learning network architecture employed for real-time classification. To avoid high workloads for the control computer of the CrystalMation system, the computing is distributed over several workstations, participating voluntarily, by the grid programming system from the Berkeley Open Infrastructure for Network Computing (BOINC). The outcome of the program is redistributed into the database as automatic real-time scores (ARTscore). These are immediately visible as colored frames around each crystallization well image of the inspection program. In addition, regions of droplets with the highest scoring probability found by the system are also available as images.
+DA  - 2023/07/01/
+PY  - 2023
+DO  - 10.1107/S2053273323001948
+DP  - DOI.org (Crossref)
+VL  - 79
+IS  - 4
+SP  - 331
+EP  - 338
+J2  - Acta Crystallogr A Found Adv
+SN  - 2053-2733
+UR  - https://scripts.iucr.org/cgi-bin/paper?S2053273323001948
+Y2  - 2024/05/05/15:38:41
+L1  - https://journals.iucr.org/a/issues/2023/04/00/ik5007/ik5007.pdf
+ER  - 
+
