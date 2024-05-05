@@ -652,3 +652,47 @@ UR  - https://ui.adsabs.harvard.edu/abs/2020DDA....5120001M
 Y2  - 2022/11/20/16:44:18
 ER  - 
 
+TY  - THES
+TI  - Constraining Dwarf Galaxy Properties Using Tidal Streams
+AU  - Shelton, Siddhartha
+AB  - We have developed a method for estimating the properties of the progenitor dwarf galaxy from the tidal stream of stars that were ripped from it as it fell into the Milky Way. In particular, we show that the mass and radial profile of the progenitor dwarf galaxy of the Orphan Stream, including the stellar and dark matter components, can be reconstructed from the distribution of stars in the tidal tail it produced. This method can be used to estimate the dark matter content in dwarf galaxies without the assumption of virial equilibrium that is required to estimate the mass using line-of-sight velocities. We use N-body simulations to create a two component dwarf galaxy, initially in virial equilibrium, and place it in orbit around a published static model of the Milky Way Galaxy. The distribution of stars in the resulting tidal debris stream is compared to the actual distribution of stars along the Orphan Stream, using a comparison metric specifically designed for this problem. For purposes of testing the algorithm, we simulate the "actual" distribution of stars along the Orphan Stream using reasonable dwarf galaxy parameters and a different random seed, so that we know whether our algorithm is able to reconstruct the dwarf galaxy given only observable information about the resulting tidal stream. The algorithm fits the dark matter mass, dark matter radius, stellar mass, radial profile of stars, and orbital time. Our simulations assumed that the Milky Way potential, dwarf galaxy orbit, and the form of the density model for the dwarf galaxy are known exactly. We use MilkyWay home, a 0.8 PetaFLOPS distributed supercomputer, to optimize our dwarf galaxy parameters until we arrive at a best-fit to the Orphan Stream data. We show that we have been able to recover the parameters used in the creation of a simulated tidal debris stream for both the baryonic and dark matter components. This is accomplished even when the dark matter component extends well past the half light radius of the dwarf galaxy progenitor, proving that we are able to extract information about the dark matter halos of dwarf galaxies.
+DA  - 2018/01/01/
+PY  - 2018
+DP  - NASA ADS
+UR  - https://ui.adsabs.harvard.edu/abs/2018PhDT.......235S
+Y2  - 2024/05/05/14:41:24
+KW  - Astronomy
+KW  - Astrophysics
+KW  - Computational physics
+ER  - 
+
+TY  - THES
+TI  - The Stellar Density of the Major Substructure in the Milky Way Halo
+AU  - Weiss, Jake.
+AB  - We develop, test, and apply a statistical photometric parallax method using main sequence
+turn off (MSTO) stars in the Sloan Digital Sky Survey (SDSS). We show using simulated
+data that if our density model is similar to the actual density distribution of our data, we
+can reliably determine the density model parameters of at least three major substructures
+in the Milky Way halo, and a smooth background component, using the computational
+resources available on MilkyWay@home (a twenty parameter fit). As a test for the new
+model, we fit the stellar density in SDSS stripe 19. After confirming that the model is
+working as intended on both simulated and observed SDSS stripe 19 data, we moved on
+to fitting stripes 10 through 23 in the SDSS north Galactic cap. We found an oblate halo
+with an average flattening of 0.58. Seven streams were found in these fourteen stripes. The
+Sgr dwarf leading tidal tail detected in 8 stripes, with properties that are consistent with
+previous fits to the streams. The trailing tidal tail and the “bifurcated” stream were found
+at the previously identified distances. The Parallel Stream was traced across the sky at a
+distance of 15 kpc, and roughly tracks an orbit that was fit by previous authors to the Virgo
+Stellar Stream. A new stream, the Perpendicular Stream, was found at a distance of 15 kpc
+in the region of Virgo, but roughly perpendicular in orientation on the sky to the Parallel
+Stream. A stream possibly including the globular cluster NGC 5466 was also found at a
+distance between 5 and 15 kpc from the Sun.
+CY  - Troy, New York
+DA  - 2018/08//
+PY  - 2018
+DP  - 978-0-438-51598-7
+SP  - 111
+PB  - Rensselaer Polytechnic Institute
+UR  - https://www.proquest.com/docview/2125438843/2C9008B81B5749EEPQ/1?sourcetype=Dissertations%20&%20Theses
+ER  - 
+
