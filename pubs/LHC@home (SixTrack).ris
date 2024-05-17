@@ -328,3 +328,19 @@ SP  - 4
 UR  - https://cds.cern.ch/search?f=reportnumber&p=CERN-LHC-PROJECT-REPORT-927
 ER  - 
 
+TY  - CONF
+TI  - Massive Tracking on Heterogeneous Platforms
+AU  - E. McIntosh,
+AU  - F. Schmidt
+AU  - F. d. Dinechin
+T2  - 9th International Computational Accelerator Physics Conference, 2006
+AB  - The LHC@home project uses public resource computing to simulate circulating protons in the future Large
+Hadron Collider (LHC). As the motion of the simulated
+particles may become chaotic, checking the integrity of the
+computation distributed over a heterogeneous network requires totally identical floating–point behaviour, regardless
+of the type of computers used. This paper reviews the problems encountered and the practical solutions.
+DA  - 2006///
+PY  - 2006
+UR  - https://accelconf.web.cern.ch/ICAP06/PAPERS/MOM1MP01.PDF
+ER  - 
+
