@@ -263,10 +263,10 @@ SN  - 0925-2738, 1573-5001
 UR  - https://link.springer.com/10.1007/s10858-008-9288-5
 Y2  - 2022/11/11/18:01:06
 L1  - https://europepmc.org/articles/pmc2683404?pdf=render
-KW  - Protein structure prediction
 KW  - CS-Rosetta
 KW  - NMR chemical shift
 KW  - Paramagnetic protein
+KW  - Protein structure prediction
 KW  - Solid-state NMR structure determination
 ER  - 
 
@@ -341,13 +341,13 @@ UR  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2720451/
 Y2  - 2022/11/11/18:02:58
 L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2720451/pdf/pcbi.1000484.pdf
 L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2720451/
-KW  - Crystal structure
-KW  - Protein structure
-KW  - Protein structure comparison
 KW  - Protein structure prediction
 KW  - Allosteric regulation
 KW  - Biochemical simulations
+KW  - Crystal structure
 KW  - Monte Carlo method
+KW  - Protein structure
+KW  - Protein structure comparison
 KW  - Structural proteins
 ER  - 
 
@@ -508,13 +508,13 @@ LA  - eng
 SN  - 1097-0134
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.21636
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/17894356
-KW  - Protein Conformation
-KW  - Models, Molecular
-KW  - Thermodynamics
 KW  - Algorithms
 KW  - Computational Biology
+KW  - Models, Molecular
+KW  - Protein Conformation
 KW  - Proteins
 KW  - Software
+KW  - Thermodynamics
 ER  - 
 
 TY  - JOUR
@@ -608,20 +608,20 @@ LA  - eng
 SN  - 1097-0134
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.20729
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16187354
-KW  - Protein Conformation
-KW  - Models, Molecular
 KW  - Algorithms
 KW  - Computational Biology
+KW  - Models, Molecular
+KW  - Protein Conformation
 KW  - Software
 KW  - Models, Theoretical
 KW  - Protein Folding
+KW  - Computer Simulation
+KW  - Databases, Protein
 KW  - Protein Structure, Secondary
 KW  - Protein Structure, Tertiary
-KW  - Computer Simulation
-KW  - Sequence Alignment
-KW  - Databases, Protein
-KW  - Reproducibility of Results
 KW  - Proteomics
+KW  - Reproducibility of Results
+KW  - Sequence Alignment
 ER  - 
 
 TY  - JOUR
@@ -646,23 +646,23 @@ LA  - eng
 SN  - 1097-0134
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.20733
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16187358
-KW  - Protein Conformation
-KW  - Models, Molecular
 KW  - Algorithms
 KW  - Computational Biology
+KW  - Models, Molecular
+KW  - Protein Conformation
 KW  - Software
 KW  - Protein Folding
-KW  - Monte Carlo Method
+KW  - Computer Simulation
+KW  - Databases, Protein
 KW  - Protein Structure, Secondary
 KW  - Protein Structure, Tertiary
-KW  - Computer Simulation
-KW  - Computers
-KW  - Sequence Alignment
-KW  - Databases, Protein
-KW  - Reproducibility of Results
 KW  - Proteomics
+KW  - Reproducibility of Results
+KW  - Sequence Alignment
+KW  - Computers
 KW  - Data Interpretation, Statistical
 KW  - Dimerization
+KW  - Monte Carlo Method
 ER  - 
 
 TY  - JOUR
@@ -692,12 +692,12 @@ UR  - https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1283467&blobtype=p
 L1  - https://europepmc.org/articles/pmc1283467?pdf=render
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.0508259102
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16251269
-KW  - Disulfides
 KW  - Models, Molecular
-KW  - Antigens, Bacterial
 KW  - Protein Structure, Secondary
 KW  - Dimerization
+KW  - Antigens, Bacterial
 KW  - Bacterial Toxins
+KW  - Disulfides
 KW  - Static Electricity
 ER  - 
 
@@ -722,13 +722,13 @@ SN  - 1097-0134
 UR  - https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1479309&blobtype=pdf
 L1  - https://europepmc.org/articles/pmc1479309?pdf=render
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16372357
-KW  - Protein Binding
 KW  - Models, Molecular
-KW  - Solubility
 KW  - Models, Theoretical
 KW  - Protein Structure, Secondary
 KW  - Enzymes
 KW  - Membrane Proteins
+KW  - Protein Binding
+KW  - Solubility
 KW  - Solutions
 KW  - Succinate Dehydrogenase
 KW  - Water
@@ -757,11 +757,11 @@ L1  - https://www.pnas.org/content/103/19/7292.full.pdf
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/16648251
 KW  - Models, Molecular
 KW  - Protein Structure, Tertiary
-KW  - Structural Homology, Protein
 KW  - Cell Membrane
 KW  - Ion Channel Gating
 KW  - Kv1.2 Potassium Channel
 KW  - Protein Structure, Quaternary
+KW  - Structural Homology, Protein
 ER  - 
 
 TY  - JOUR
@@ -786,12 +786,12 @@ SN  - 0961-8368
 UR  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1110/ps.062270707
 L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1110/ps.062270707
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/17189483
-KW  - Models, Molecular
 KW  - Computational Biology
+KW  - Models, Molecular
 KW  - Proteins
+KW  - Computer Simulation
 KW  - Protein Structure, Secondary
 KW  - Protein Structure, Tertiary
-KW  - Computer Simulation
 ER  - 
 
 TY  - JOUR
@@ -935,9 +935,9 @@ Y2  - 2022/11/11/21:28:39
 L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6521699/pdf/nihms-1512885.pdf
 L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6521699/
 L2  - https://www.nature.com/articles/s41586-018-0830-7#citeas
-KW  - Protein design
 KW  - Cancer immunotherapy
 KW  - Interleukins
+KW  - Protein design
 ER  - 
 
 TY  - JOUR
@@ -1100,14 +1100,14 @@ UR  - https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0040
 Y2  - 2022/11/11/21:50:51
 L1  - https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.0040148&type=printable
 L2  - https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0040148
+KW  - Crystal structure
+KW  - Protein structure
 KW  - Antibodies
 KW  - Cell binding
-KW  - Crystal structure
 KW  - Crystals
 KW  - Disulfide bonds
 KW  - Histidine
 KW  - Molecular replacement
-KW  - Protein structure
 ER  - 
 
 TY  - JOUR
@@ -1251,11 +1251,11 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.20555
 Y2  - 2022/11/11/22:45:06
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/prot.20555
 KW  - protein–protein docking
-KW  - protein structure prediction
-KW  - Rosetta
 KW  - biomolecular modeling
 KW  - CAPRI
 KW  - homology or comparative modeling
+KW  - protein structure prediction
+KW  - Rosetta
 KW  - RosettaDock
 ER  - 
 
@@ -1287,11 +1287,11 @@ SN  - 1097-0134
 UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.21675
 Y2  - 2022/11/11/22:53:19
 L2  - https://onlinelibrary.wiley.com/doi/full/10.1002/prot.21675
-KW  - proteins
 KW  - ab initio domain prediction
 KW  - domain boundaries
 KW  - domain overlap
 KW  - evaluation
+KW  - proteins
 KW  - template-based domain prediction
 ER  - 
 
@@ -1519,9 +1519,9 @@ Y2  - 2022/11/13/15:36:08
 L1  - https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.0020146&type=printable
 L2  - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020146
 KW  - Protein structure
+KW  - Protein structure comparison
 KW  - Hepatitis B
 KW  - Protein domains
-KW  - Protein structure comparison
 KW  - Protein structure determination
 KW  - Sequence alignment
 KW  - Viral packaging
@@ -1631,8 +1631,8 @@ UR  - https://www.nature.com/articles/nature19791
 Y2  - 2022/11/13/15:40:17
 L1  - https://europepmc.org/articles/pmc5161715?pdf=render
 L2  - https://www.nature.com/articles/nature19791#citeas
-KW  - Peptides
 KW  - Protein design
+KW  - Peptides
 ER  - 
 
 TY  - JOUR
@@ -1942,10 +1942,10 @@ UR  - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.100
 Y2  - 2022/11/13/16:03:07
 L1  - https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1007507&type=printable
 L2  - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007507
+KW  - Protein structure prediction
 KW  - Computer and information sciences
 KW  - Computer engineering
 KW  - Computer software
-KW  - Protein structure prediction
 KW  - Scientists
 KW  - Software development
 KW  - Software engineering
@@ -2082,12 +2082,12 @@ Y2  - 2022/11/13/16:05:48
 L1  - https://europepmc.org/articles/pmc2841015?pdf=render
 L2  - https://www.nature.com/articles/nmeth0909-625#citeas
 KW  - Proteomics
-KW  - Biological Microscopy
-KW  - general
-KW  - Life Sciences
 KW  - Bioinformatics
+KW  - Biological Microscopy
 KW  - Biological Techniques
 KW  - Biomedical Engineering/Biotechnology
+KW  - general
+KW  - Life Sciences
 ER  - 
 
 TY  - JOUR
@@ -2248,11 +2248,11 @@ SN  - 0022-2836
 UR  - https://www.sciencedirect.com/science/article/pii/S0022283606006048
 Y2  - 2022/11/13/16:19:48
 L2  - https://www.sciencedirect.com/science/article/abs/pii/S0022283606006048?via%3Dihub
-KW  - protein–protein interactions
 KW  - computational design
 KW  - DNAse
 KW  - hydrogen bond network
 KW  - immunity protein
+KW  - protein–protein interactions
 ER  - 
 
 TY  - JOUR
@@ -2409,11 +2409,11 @@ Y2  - 2022/11/13/16:25:18
 L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.3974
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/pro.3974
 KW  - computational design
-KW  - protein folding
 KW  - chelation
 KW  - de novo design
 KW  - non-canonical amino acids
 KW  - peptides
+KW  - protein folding
 KW  - racemic crystallography
 KW  - symmetry
 ER  - 
@@ -2631,10 +2631,10 @@ UR  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000982
 Y2  - 2022/11/13/16:32:30
 L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0000982&type=printable
 L2  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000982
+KW  - Protein structure prediction
 KW  - Protein structure
 KW  - Protein structure comparison
 KW  - Sequence alignment
-KW  - Protein structure prediction
 KW  - Lysine
 KW  - Multiple alignment calculation
 KW  - Protein kinases
@@ -2967,7 +2967,7 @@ SP  - 705
 EP  - 709
 UR  - https://www.science.org/doi/abs/10.1126/science.aau3775
 Y2  - 2022/11/13/18:34:55
-L1  - https://digital.lib.washington.edu:443/researchworks/bitstream/1773/43928/1/Shen_washington_0250E_19923.pdf
+L1  - https://digital.lib.washington.edu/researchworks/bitstream/1773/43928/1/Shen_washington_0250E_19923.pdf
 ER  - 
 
 TY  - JOUR
@@ -3851,8 +3851,8 @@ Y2  - 2022/11/13/19:08:23
 L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/prot.22570
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/prot.22570
 KW  - Rosetta
-KW  - high-resolution refinement
 KW  - conformational space annealing
+KW  - high-resolution refinement
 KW  - Modeller
 KW  - template-based modeling
 KW  - undertaker
@@ -5619,5 +5619,18 @@ PB  - Biochemistry
 UR  - http://biorxiv.org/lookup/doi/10.1101/2023.06.12.544624
 Y2  - 2023/06/20/11:45:04
 L1  - https://www.biorxiv.org/content/biorxiv/early/2023/06/12/2023.06.12.544624.full.pdf
+ER  - 
+
+TY  - RPRT
+TI  - Reporting@Home: Delivering Dynamic Graphical Feedback to Participants and Researchers in Community Computing Projects
+AU  - Ozer, Stuart
+AU  - Kim, David
+AU  - Baker, David
+AB  - A new generation of computationally intensive scientific research projects relies on volunteers from around the world contributing idle computer time to calculate mathematical models. Many of these projects utilize a common architecture to manage the scheduling and distribution of calculations and collection of results from participants. User engagement is critical to the success of these projects, and feedback to participants illustrating their role in the project’s progress is known to increase interest and strengthen the community. This article describes how one project – University of Washington’s Rosetta@Home, which predicts and designs the folded conformations of proteins and protein complexes – created a web-based, on-demand reporting system that graphically illustrates a user or team’s contributions to the project. The reporting service is also useful to the project scientists in assessing the utility of alternative models and computational techniques. The system relies on a comprehensive database platform that includes tools for data integration, data management, querying and web-based reporting. The reporting components integrate seamlessly with the rest of the project’s data and web infrastructure, and the report pages have proven to be popular among both participants and lab members.
+DA  - 2007/02//
+PY  - 2007
+SP  - 7
+SN  - MSR-TR-2007-17
+UR  - https://www.microsoft.com/en-us/research/publication/reportinghome-delivering-dynamic-graphical-feedback-to-participants-and-researchers-in-community-computing-projects/
 ER  - 
 
