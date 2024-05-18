@@ -315,19 +315,6 @@ Y2  - 2023/05/20/16:32:05
 L1  - https://jacow.org/ipac2021/papers/wepab024.pdf
 ER  - 
 
-TY  - JOUR
-TI  - Large Scale Beam-beam Simulations for the CERN LHC using Distributed Computing
-AU  - Herr, Werner
-AU  - Kaltchev, D
-AU  - McIntosh, E
-AU  - Schmidt, F
-AB  - We report on a large scale simulation of beam-beam effects for the CERN Large Hadron Collider (LHC). The stability of particles which experience head-on and long-range beam-beam effects was investigated for different optical configurations and machine imperfections. To cover the interesting parameter space required computing resources not available at CERN. The necessary resources were available in the LHC@home project, based on the BOINC platform. At present, this project makes more than 60000 hosts available for distributed computing. We shall discuss our experience using this system during a simulation campaign of more than six months and describe the tools and procedures necessary to ensure consistent results. The results from this extended study are presented and future plans are discussed.
-DA  - 2006/07/13/
-PY  - 2006
-SP  - 4
-UR  - https://cds.cern.ch/search?f=reportnumber&p=CERN-LHC-PROJECT-REPORT-927
-ER  - 
-
 TY  - CONF
 TI  - Massive Tracking on Heterogeneous Platforms
 AU  - E. McIntosh,
@@ -342,5 +329,19 @@ of the type of computers used. This paper reviews the problems encountered and t
 DA  - 2006///
 PY  - 2006
 UR  - https://accelconf.web.cern.ch/ICAP06/PAPERS/MOM1MP01.PDF
+ER  - 
+
+TY  - CONF
+TI  - Large Scale Beam-beam Simulations for the CERN LHC using Distributed Computing
+AU  - Herr, Werner
+AU  - Kaltchev, D
+AU  - McIntosh, E
+AU  - Schmidt, F
+T2  - 10th European Particle Accelerator Conference
+AB  - We report on a large scale simulation of beam-beam effects for the CERN Large Hadron Collider (LHC). The stability of particles which experience head-on and long-range beam-beam effects was investigated for different optical configurations and machine imperfections. To cover the interesting parameter space required computing resources not available at CERN. The necessary resources were available in the LHC@home project, based on the BOINC platform. At present, this project makes more than 60000 hosts available for distributed computing. We shall discuss our experience using this system during a simulation campaign of more than six months and describe the tools and procedures necessary to ensure consistent results. The results from this extended study are presented and future plans are discussed.
+C1  - Edinburgh, UK
+DA  - 2006/07/13/
+PY  - 2006
+UR  - https://cds.cern.ch/search?f=reportnumber&p=CERN-LHC-PROJECT-REPORT-927
 ER  - 
 
