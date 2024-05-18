@@ -3732,3 +3732,43 @@ Y2  - 2023/06/18/14:02:02
 L1  - https://www.researchsquare.com/article/rs-2401990/latest.pdf
 ER  - 
 
+TY  - CONF
+TI  - The Challenge of Volunteer Computing with Lengthy Climate Model Simulations
+AU  - Christensen, C.
+AU  - Aina, T.
+AU  - Stainforth, D.
+T2  - First International Conference on e-Science and Grid Computing (e-Science'05)
+C1  - Pittsburg, PA, USA
+C3  - First International Conference on e-Science and Grid Computing (e-Science'05)
+DA  - 2005///
+PY  - 2005
+DO  - 10.1109/E-SCIENCE.2005.76
+DP  - DOI.org (Crossref)
+SP  - 8
+EP  - 15
+PB  - IEEE
+SN  - 978-0-7695-2448-1
+UR  - http://ieeexplore.ieee.org/document/1572203/
+Y2  - 2024/05/18/15:14:57
+ER  - 
+
+TY  - JOUR
+TI  - Do-it-yourself climate prediction
+AU  - Allen, Myles
+T2  - Nature
+DA  - 1999/10//
+PY  - 1999
+DO  - 10.1038/44266
+DP  - DOI.org (Crossref)
+VL  - 401
+IS  - 6754
+SP  - 642
+EP  - 642
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - https://www.nature.com/articles/44266
+Y2  - 2024/05/18/15:24:29
+L1  - https://www.nature.com/articles/44266.pdf
+ER  - 
+
