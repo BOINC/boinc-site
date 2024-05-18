@@ -1,0 +1,12 @@
+TY  - CONF
+TI  - Distributed Data Analytics using RapidMiner and BOINC
+AU  - Nico Schlitter
+AU  - Joerg Laessig
+T2  - RapidMiner Community Meeting and Conference, RCOMM 2013
+AB  - RapidMiner is an open source environment for machine learning and data analytics. It is intensively used for academic purposes at universities as well as for industrial or commercial applications. The BOINC framework also attracted attention as it provides the ability to easily setup a distributed computing environment. This article addresses the joint usage of RapidMiner and BOINC. We describe the integration of both tools and present some of the research accomplishments of the distributedDataMining.org project.
+C1  - Porto, Portugal
+DA  - 2013/08//
+PY  - 2013
+UR  - https://www.researchgate.net/publication/259461196_Distributed_Data_Analytics_using_RapidMiner_and_BOINC
+ER  - 
+
