@@ -1,0 +1,16 @@
+TY  - GEN
+TI  - Large Scale Evolution of Convolutional Neural Networks Using Volunteer Computing
+AU  - Desell, Travis
+AB  - This work presents a new algorithm called evolutionary exploration of augmenting convolutional topologies (EXACT), which is capable of evolving the structure of convolutional neural networks (CNNs). EXACT is in part modeled after the neuroevolution of augmenting topologies (NEAT) algorithm, with notable exceptions to allow it to scale to large scale distributed computing environments and evolve networks with convolutional filters. In addition to multithreaded and MPI versions, EXACT has been implemented as part of a BOINC volunteer computing project, allowing large scale evolution. During a period of two months, over 4,500 volunteered computers on the Citizen Science Grid trained over 120,000 CNNs and evolved networks reaching 98.32% test data accuracy on the MNIST handwritten digits dataset. These results are even stronger as the backpropagation strategy used to train the CNNs was fairly rudimentary (ReLU units, L2 regularization and Nesterov momentum) and these were initial test runs done without refinement of the backpropagation hyperparameters. Further, the EXACT evolutionary strategy is independent of the method used to train the CNNs, so they could be further improved by advanced techniques like elastic distortions, pretraining and dropout. The evolved networks are also quite interesting, showing "organic" structures and significant differences from standard human designed architectures.
+DA  - 2017/03/15/
+PY  - 2017
+DO  - 10.48550/arXiv.1703.05422
+DP  - arXiv.org
+PB  - arXiv
+UR  - http://arxiv.org/abs/1703.05422
+Y2  - 2024/05/18/13:06:03
+L1  - https://arxiv.org/pdf/1703.05422.pdf
+L2  - https://arxiv.org/abs/1703.05422
+KW  - Computer Science - Neural and Evolutionary Computing
+ER  - 
+
