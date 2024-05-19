@@ -5634,3 +5634,62 @@ SN  - MSR-TR-2007-17
 UR  - https://www.microsoft.com/en-us/research/publication/reportinghome-delivering-dynamic-graphical-feedback-to-participants-and-researchers-in-community-computing-projects/
 ER  - 
 
+TY  - JOUR
+TI  - Protein interaction networks revealed by proteome coevolution
+AU  - Cong, Qian
+AU  - Anishchenko, Ivan
+AU  - Ovchinnikov, Sergey
+AU  - Baker, David
+T2  - Science
+AB  - Predicting protein pairs
+            
+              Biological function is driven by interaction between proteins. High-throughput experimental techniques have provided large datasets of protein interactions in several organisms; however, much combinatorial space remains uncharted. Cong
+              et al.
+              predict protein interfaces by identifying coevolving residues in aligned protein sequences (see the Perspective by Vajda and Emili). In comparison with gold-standard and negative control sets, they show that the accuracy is higher than for proteome-wide two-hybrid and mass spectrometry screens. The approach predicts 1618 protein interactions in
+              Escherichia coli
+              , 682 of which were unanticipated, and 911 interacting pairs in
+              Mycobacterium tuberculosis
+              , most of which had not been previously described. With an expected false-positive rate of between 10 and 20%, the predicted interactions and networks provide an excellent starting point for further study.
+            
+            
+              Science
+              , this issue p.
+              185
+              ; see also p.
+              120
+            
+          , 
+            
+              A computational approach reveals hundreds of protein-protein interactions in
+              Escherichia coli
+              and
+              Mycobacterium tuberculosis
+              .
+            
+          , 
+            
+              Residue-residue coevolution has been observed across a number of protein-protein interfaces, but the extent of residue coevolution between protein families on the whole-proteome scale has not been systematically studied. We investigate coevolution between 5.4 million pairs of proteins in
+              Escherichia coli
+              and between 3.9 millions pairs in
+              Mycobacterium tuberculosis
+              . We find strong coevolution for binary complexes involved in metabolism and weaker coevolution for larger complexes playing roles in genetic information processing. We take advantage of this coevolution, in combination with structure modeling, to predict protein-protein interactions (PPIs) with an accuracy that benchmark studies suggest is considerably higher than that of proteome-wide two-hybrid and mass spectrometry screens. We identify hundreds of previously uncharacterized PPIs in
+              E. coli
+              and
+              M. tuberculosis
+              that both add components to known protein complexes and networks and establish the existence of new ones.
+DA  - 2019/07/12/
+PY  - 2019
+DO  - 10.1126/science.aaw6718
+DP  - DOI.org (Crossref)
+VL  - 365
+IS  - 6449
+SP  - 185
+EP  - 189
+J2  - Science
+LA  - en
+SN  - 0036-8075, 1095-9203
+UR  - https://www.science.org/doi/10.1126/science.aaw6718
+Y2  - 2024/05/19/20:55:31
+L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6948103/pdf/nihms-1054383.pdf
+ER  - 
+
