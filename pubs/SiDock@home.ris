@@ -180,28 +180,3 @@ UR  - http://link.springer.com/10.1007/978-3-319-62932-2_46
 Y2  - 2024/05/19/13:28:16
 ER  - 
 
-TY  - JOUR
-TI  - Prioritisation of Compounds for 3CLpro Inhibitor Development on SARS-CoV-2 Variants
-AU  - Jukič, Marko
-AU  - Škrlj, Blaž
-AU  - Tomšič, Gašper
-AU  - Pleško, Sebastian
-AU  - Podlipnik, Črtomir
-AU  - Bren, Urban
-T2  - Molecules
-AB  - COVID-19 represents a new potentially life-threatening illness caused by severe acute respiratory syndrome coronavirus 2 or SARS-CoV-2 pathogen. In 2021, new variants of the virus with multiple key mutations have emerged, such as B.1.1.7, B.1.351, P.1 and B.1.617, and are threatening to render available vaccines or potential drugs ineffective. In this regard, we highlight 3CLpro, the main viral protease, as a valuable therapeutic target that possesses no mutations in the described pandemically relevant variants. 3CLpro could therefore provide trans-variant effectiveness that is supported by structural studies and possesses readily available biological evaluation experiments. With this in mind, we performed a high throughput virtual screening experiment using CmDock and the “In-Stock” chemical library to prepare prioritisation lists of compounds for further studies. We coupled the virtual screening experiment to a machine learning-supported classification and activity regression study to bring maximal enrichment and available structural data on known 3CLpro inhibitors to the prepared focused libraries. All virtual screening hits are classified according to 3CLpro inhibitor, viral cysteine protease or remaining chemical space based on the calculated set of 208 chemical descriptors. Last but not least, we analysed if the current set of 3CLpro inhibitors could be used in activity prediction and observed that the field of 3CLpro inhibitors is drastically under-represented compared to the chemical space of viral cysteine protease inhibitors. We postulate that this methodology of 3CLpro inhibitor library preparation and compound prioritisation far surpass the selection of compounds from available commercial “corona focused libraries”.
-DA  - 2021/05/18/
-PY  - 2021
-DO  - 10.3390/molecules26103003
-DP  - DOI.org (Crossref)
-VL  - 26
-IS  - 10
-SP  - 3003
-J2  - Molecules
-LA  - en
-SN  - 1420-3049
-UR  - https://www.mdpi.com/1420-3049/26/10/3003
-Y2  - 2024/05/19/13:32:46
-L1  - https://www.mdpi.com/1420-3049/26/10/3003/pdf?version=1621411909
-ER  - 
-
