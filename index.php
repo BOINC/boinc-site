@@ -118,7 +118,7 @@ function show_links() {
         </font>
         <br><a href="projects.php">'.tra("Science projects").'</a>
         <br><a href="pubs.php">'.tra("Science publications").'</a>
-        <br><a href="https://boinc.berkeley.edu/wiki/User_manual"><span class=nobr>'.tra("User manual").'</span></a> 
+        <br><a href="https://github.com/BOINC/boinc/wiki/User_manual"><span class=nobr>'.ltra("User manual").'</span></a> 
         <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
         <br><a btn-primary href=https://github.com/BOINC/boinc/wiki/WebResources><span class=nobr>'.tra("Web resources").'</span></a> 
         <p>
@@ -159,21 +159,31 @@ function show_links() {
     );
     echo sprintf('
         <hr>
-        <font size=+1>%s:</font> &nbsp;
-            <a href=https://github.com/BOINC/boinc/wiki/Computing-with-boinc>%s</a>
+        <font size=+2>%s:</font> <br>
+            <ul>
+            <li><a href=https://github.com/BOINC/boinc/wiki/Computing-with-boinc>%s</a>
+            <br>
+            <li>
+            <a href=https://boinc.berkeley.edu/central/>
+            Run Autodock Vina jobs with BOINC Central and Raccoon2</a>
+            </ul>
         <p>
-        <font size=+1>%s:</font> &nbsp; <a href=https://github.com/BOINC/boinc/wiki/>%s</a>
+        <font size=+2>%s:</font> <br>
+        <ul>
+        <li>
+        <a href=https://github.com/BOINC/boinc/wiki/>
+        Visit the BOINC github repo </a>
+        </ul>
         ',
         tra("Scientists"),
-        tra("Compute with BOINC"),
-        tra("Programmers"),
-        tra("BOINC Github repo")
+        tra("Create a BOINC project"),
+        tra("Programmers")
     );
     echo '
         <p>
     ';
     echo sprintf('
-        <p>
+        <hr>
         <a href="contact.php">%s</a>
         &middot;
         <a href="https://github.com/BOINC/boinc/wiki/BoincPapers">%s</a>
@@ -214,10 +224,10 @@ function intro() {
 }
 
 function call_to_action() {
-    $spacer = '<br style="line-height: 10px" />';
+    $spacer = '<br style="margin-bottom: 10px" />';
 
     echo "<font size=+2>".tra("START COMPUTING!")."</font></p>";
-    echo tra('To contribute to science areas (biomedicine, physics, astronomy, and so on) use %1.  Your computer will help current and future projects in those areas.',
+    echo tra('To contribute to science areas (biomedicine, physics, astronomy, and so on) use %1.  Your computer will help current and future projects in the areas you choose.',
         '<a href=https://scienceunited.org style="color:orange">Science United</a>'
     );
     echo '

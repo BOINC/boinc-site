@@ -45,8 +45,8 @@ function show_download($client_info, $pname) {
     echo "\n<p><p>";
     if (strstr($pname, 'linux')) {
         show_button(
-            'https://boinc.berkeley.edu/wiki/Installing_on_Linux',
-            'View installation instructions for Linux'
+            'https://boinc.berkeley.edu/linux_install.php',
+            'Instructions for Linux'
         );
 
     } else if ($pname) {

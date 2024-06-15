@@ -24,18 +24,18 @@
 // -------------- Windows 64-bit -------------------
 
 $w80 = array(
-    "num"=>"8.0.0",
-    "status"=>"Development version",
-    "file"=>"boinc_8.0.0_windows_x86_64.exe",
-    "vbox_file"=>"boinc_8.0.0_windows_x86_64_vbox.exe",
+    "num"=>"8.0.2",
+    "status"=>"Recommended version",
+    "file"=>"boinc_8.0.2_windows_x86_64.exe",
+    "vbox_file"=>"boinc_8.0.2_windows_x86_64_vbox.exe",
     "vbox_version"=>"7.0.6",
-    "date"=>"20 Mar 2023",
+    "date"=>"30 May 2024",
     "type"=>"win_new"
 );
 
 $w724_1 = array(
     "num"=>"7.24.1",
-    "status"=>"Recommended version",
+    "status"=>"Older version",
     "file"=>"boinc_7.24.1_windows_x86_64.exe",
     "vbox_file"=>"boinc_7.24.1_windows_x86_64_vbox.exe",
     "vbox_version"=>"7.0.6",
@@ -94,41 +94,21 @@ $windows = array(
 
 // --------------- Mac Intel 64 or ARM --------------------
 
-$m80_0 = array(
-    "num"=>"8.0.0",
-    "status"=>"Development version (MacOS 10.13+)",
-    "file"=>"boinc_8.0.0_macOSX_universal.zip",
-    "date"=>"19 Mar 2024",
-    "type"=>"mac_advanced",
-    "min_os_version"=>"101300",
-    "max_os_version"=>"999999",
-);
-
-$m80_0c = array(
-    "num"=>"8.0.0",
-    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_8.0.0_universal-apple-darwin.dmg",
-    "date"=>"19 Mar 2024",
-    "type"=>"bare_core",
-    "min_os_version"=>"101300",
-    "max_os_version"=>"999999",
-);
-
-$m724_4 = array(
-    "num"=>"7.24.4",
+$m80_2 = array(
+    "num"=>"8.0.2",
     "status"=>"Recommended version (MacOS 10.13+)",
-    "file"=>"boinc_7.24.4_macOSX_universal.zip",
-    "date"=>"3 May 2024",
+    "file"=>"boinc_8.0.2_macOSX_universal.zip",
+    "date"=>"30 May 2024",
     "type"=>"mac_advanced",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
 );
 
-$m724_4c = array(
-    "num"=>"7.24.4",
+$m80_2c = array(
+    "num"=>"8.0.2",
     "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_7.24.4_universal-apple-darwin.dmg",
-    "date"=>"3 May 2024",
+    "file"=>"boinc_8.0.2_universal-apple-darwin.dmg",
+    "date"=>"30 May 2024",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
@@ -190,10 +170,8 @@ $mac = array(
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
-        $m80_0,
-        $m80_0c,
-        $m724_4,
-        $m724_4c,
+        $m80_2,
+        $m80_2c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21, // Keep 7.16.21, which is latest version that can run on MacOS 10.9
@@ -207,10 +185,8 @@ $mac_arm = array(
     "description"=>null,
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
-        $m80_0,
-        $m80_0c,
-        $m724_4,
-        $m724_4c,
+        $m80_2,
+        $m80_2c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21,  // Keep 7.16.21, which is latest version that can run on MacOS 10.9
@@ -391,17 +367,17 @@ $l716ubuntux64dev = array(
 
 $l74ubuntux64 = array(
     "num"=>"7.4.22",
-    "status"=>"Recommended version",
+    "status"=>"Older version",
     "file"=>"boinc_7.4.22_x86_64-pc-linux-gnu.sh",
     "date"=>"17 Sept 2014",
     "type"=>"sea",
 );
 
 $linux_80 = array(
-    "num"=>"8.0.0",
-    "status"=>"Development version",
+    "num"=>"8.0.2",
+    "status"=>"Recommended version",
     'file'=>'',
-    "date"=>"28 Mar 2024",
+    "date"=>"30 May 2024",
     "type"=>'linux_pkg'
 );
 
@@ -458,16 +434,16 @@ $linuxcompat = array(
 // --------------- Android --------------------
 
 $a80 = array(
-    "num"=>"8.0.0",
-    "status"=>"Development version",
-    "file"=>"boinc_8.0.0.apk",
-    "date"=>"20 Mar 2024",
+    "num"=>"8.0.2",
+    "status"=>"Recommended version",
+    "file"=>"boinc_8.0.2.apk",
+    "date"=>"30 May 2024",
     "type"=>"apk",
 );
 
 $a724_1 = array(
     "num"=>"7.24.1",
-    "status"=>"Recommended Version",
+    "status"=>"Older Version",
     "file"=>"boinc_7.24.1.apk",
     "date"=>"12 Aug 2023",
     "type"=>"apk",

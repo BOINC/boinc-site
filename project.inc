@@ -55,7 +55,7 @@ function navbar($prefix, $user, $fixed) {
 
 function project_banner($title, $prefix, $is_main) {
     global $client_languages;
-    $spacer = '<br style="line-height: 10px" />';
+    $spacer = '<br style="margin-bottom: 10px" />';
 
     echo "<font size=+1>";
     if ($is_main) {

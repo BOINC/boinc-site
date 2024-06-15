@@ -777,13 +777,15 @@ $account_managers = array(
         tra("BAM! lets you create and manage BOINC project accounts, set preferences, join or create teams, connect your computers to projects, and much more."),
         "BAM.png"
     ),
-    acct_mgr(
-        PROJ_GRIDREPUBLIC,
-        "Gridrepublic",
-        "https://www.gridrepublic.org/",
-        tra("Gridrepublic lets you connect your computer to multiple projects, set preferences, and view your credit history."),
-        "logo_gridrepublic_vc.gif"
-    ),
+// GR lists non-existent projects like Predictor@home, Spinhenge, SZTAKI etc.
+// and non-projects like Alpha test
+//    acct_mgr(
+//        PROJ_GRIDREPUBLIC,
+//        "Gridrepublic",
+//        "https://www.gridrepublic.org/",
+//        tra("Gridrepublic lets you connect your computer to multiple projects, set preferences, and view your credit history."),
+//        "logo_gridrepublic_vc.gif"
+//    ),
     acct_mgr(
         PROJ_SCIENCE_UNITED,
         "Science United",
