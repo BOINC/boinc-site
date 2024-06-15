@@ -118,7 +118,7 @@ function show_links() {
         </font>
         <br><a href="projects.php">'.tra("Science projects").'</a>
         <br><a href="pubs.php">'.tra("Science publications").'</a>
-        <br><a href="https://github.com/BOINC/boinc/wiki/User_manual"><span class=nobr>'.ltra("User manual").'</span></a> 
+        <br><a href="https://github.com/BOINC/boinc/wiki/User_manual"><span class=nobr>'.tra("User manual").'</span></a> 
         <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
         <br><a btn-primary href=https://github.com/BOINC/boinc/wiki/WebResources><span class=nobr>'.tra("Web resources").'</span></a> 
         <p>
