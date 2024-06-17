@@ -4,7 +4,7 @@
 
 require_once('../inc/util.inc');
 
-$versions = ['stable'=>null, 'alpha'=>'8.0.2', 'nightly'=>'8.1.0'];
+$versions = ['stable'=>'8.0.2', 'alpha'=>'8.0.2', 'nightly'=>'8.1.0'];
 
 function get_oss() {
     $n = 1;
@@ -21,6 +21,7 @@ function get_oss() {
     $oss[$n++] = os('Fedora', '40', 'fc40', 'May 2025', '2.39');
     $oss[$n++] = os('openSUSE', '15.4', 'suse15_4', 'December 2023', '2.31');
     $oss[$n++] = os('openSUSE', '15.5', 'suse15_5', 'December 2024', '2.37');
+    $oss[$n++] = os('openSUSE', '15.6', 'suse15_6', 'December 2025', '2.37');
     return $oss;
 }
 
@@ -46,6 +47,7 @@ function os_options() {
 function build_options() {
     global $versions;
     $x = [];
+    $x[] = ['stable', sprintf('Stable (version %s)', $versions['stable'])];
     $x[] = ['alpha', sprintf('Alpha (version %s)', $versions['alpha'])];
     $x[] = ['nightly', sprintf('Nightly (BOINC version %s)', $versions['nightly'])];
     return $x;
@@ -177,6 +179,7 @@ function main() {
     $os_num = get_int('os_num', true);
     $build = get_str('build', true);
     page_head('Installing BOINC on Linux');
+    text_start(800);
     echo "<p>
         The recommended way to install BOINC on a Linux system 
         is as a package.
@@ -185,7 +188,8 @@ function main() {
     form_start('linux_install.php');
     form_select('Operating system', 'os_num', os_options(), $os_num);
     form_select(
-        'BOINC build<br><font size=-1>Stable: recommended version
+        'BOINC build<br><font size=-1>
+            Stable: recommended version
             <br>Alpha: version under test
             <br>Nightly: very latest version</font>',
         'build', build_options(), $build
@@ -196,6 +200,7 @@ function main() {
     if ($os_num) {
         action();
     }
+    text_end();
     page_tail();
 }
 
