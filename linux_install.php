@@ -4,7 +4,7 @@
 
 require_once('../inc/util.inc');
 
-$versions = ['stable'=>'8.0.2', 'alpha'=>'8.0.2', 'nightly'=>'8.1.0'];
+$versions = ['stable'=>'8.0.2', 'alpha'=>'8.0.3', 'nightly'=>'8.1.0'];
 
 function get_oss() {
     $n = 1;
@@ -21,7 +21,7 @@ function get_oss() {
     $oss[$n++] = os('Fedora', '40', 'fc40', 'May 2025', '2.39');
     $oss[$n++] = os('openSUSE', '15.4', 'suse15_4', 'December 2023', '2.31');
     $oss[$n++] = os('openSUSE', '15.5', 'suse15_5', 'December 2024', '2.37');
-    $oss[$n++] = os('openSUSE', '15.6', 'suse15_6', 'December 2025', '2.37');
+    //$oss[$n++] = os('openSUSE', '15.6', 'suse15_6', 'December 2025', '2.37');
     return $oss;
 }
 
