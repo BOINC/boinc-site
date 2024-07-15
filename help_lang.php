@@ -124,7 +124,7 @@ function show_vols($vols) {
 
 if ($lang) {
     if (!is_spoken_language($lang)) {
-        boinc_error_page("Not a recognized language");
+        error_page("Not a recognized language");
     }
     page_head(tra("Live help in %1", $lang));
 } else {

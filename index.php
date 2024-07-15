@@ -233,19 +233,23 @@ function call_to_action() {
     echo '
         </p><p>
         <center>
-        <a class="btn btn-med"
-        style= "background-color:#ffcc40; color:black; text-shadow: 2px 2px gray; text-decoration:none"
-        href="https://scienceunited.org/su_join.php"><font size=+2.5>'
-        .tra("Join %1", "Science United")
-        .'</font></a>
-        </center>
-        '.$spacer.'
-        <p>
     ';
-    echo tra("Or %1download BOINC%2 and choose specific projects.",
-        "<a href=download.php>",
-        "</a>"
+    echo sprintf('<a class="btn btn-success" style= "background-color:seagreen; color:white; font-size:24px; text-decoration:none" href="%s">%s</a>',
+        'https://scienceunited.org/su_join.php',
+        tra("Join %1", "Science United")
     );
+    echo "</center></p>";
+    echo tra("Or %1download BOINC%2 and choose specific projects.",
+        '',''
+    );
+    echo ' ';
+    echo tra("This will let you participate in competitions and systems like Gridcoin.");
+    echo '<p><center>';
+    echo sprintf('<a class="btn btn-info" style= "background-color:steelblue; color:white; font-size:20px; text-decoration:none" href="%s">%s</a>',
+        'download.php',
+        tra("Download BOINC")
+    );
+    echo '</center>';
 }
 
 function show_nsf() {
