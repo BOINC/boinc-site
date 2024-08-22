@@ -1,16 +1,27 @@
 <?php
 
-// upload Linux installers
-// filename is of the form repo-alpha-jammy.tar.gz
-// action: in dl/linux/alpha/jammy/:
+// upload Linux installers or symstore dir
+// filename is of the form
+//      repo-alpha-jammy.tar.gz
+// or
+//      symstore.tar.gz
+//
+// installer action: in dl/linux/alpha/jammy/:
 // - create jammy/ if needed
 // - delete directory contents
 // - move the file there
 // - tar -xf file
-// request must include auth cookie
+// symstore action:
+//  - remove symstore.bak
+//  - rename symstore to symstore.bak
+//  - save file (in html/user)
+//  - tar -xf file
 //
+// You can access this via a web interface:
+// https://boinc.berkeley.edu/upload.php
+// or using curl; request must include auth cookie
 // e.g.:
-// curl -F 'upload_file=@/path/to/file' https://boinc.berkeley.edu/upload.php --cookie "auth=xxx"
+// curl -F 'upload_file=/path/to/file' https://boinc.berkeley.edu/upload.php --cookie "auth=xxx"
 
 require_once("../inc/util.inc");
 
@@ -24,11 +35,12 @@ function check_login($user) {
 }
 
 function form() {
-    page_head('Upload installer file');
+    page_head('Upload file');
     form_start('upload.php', 'POST', 'ENCTYPE="multipart/form-data"');
     form_general('File to upload:', '<input name=upload_file type=file>');
     form_submit('Upload', 'name=submit value=on');
     form_end();
+    show_button("upload.php?action=zip", "Create symstore.tar.gz");
     page_tail();
 }
 
@@ -51,10 +63,33 @@ function action() {
         die('bad file type');
     }
     $y = explode('-', $x[0]);
-    if (count($y)!=3 || $y[0]!='repo') {
+    if (count($y)==3 && $y[0]=='repo') {
+        upload_installer($y, $orig_name, $tmp_name);
+    } else if ($orig_name == 'symstore.tar.gz') {
+        upload_symstore($tmp_name);
+    } else {
         http_response_code(400);
         die('bad file name');
     }
+}
+
+function upload_symstore($tmp_name) {
+    $dir = '/home/boincadm/boinc-site';
+    system("rm -r $dir/symstore.bak");
+    system("mv $dir/symstore $dir/symstore.bak", $retval);
+    if ($retval) {
+        die("mv failed\n");
+    }
+    if (!move_uploaded_file($tmp_name, "$dir/symstore.tar.gz")) {
+        die("can't move file");
+    }
+    $cmd = "cd $dir; tar -xf symstore.tar.gz";
+    //echo "tar command: $cmd\n";
+    system($cmd);
+    echo "new symstore uploaded\n";
+}
+
+function upload_installer($y, $orig_name, $tmp_name) {
     if (!in_array($y[1], ['alpha', 'stable', 'nightly'])) {
         http_response_code(400);
         die('bad file name');
@@ -99,10 +134,19 @@ if (!$user || !check_login($user)) {
     http_response_code(401);
     die('Not authorized');
 }
-if (count($_FILES)>0) {
-    action();
+$action = get_str('action', true);
+if ($action == 'zip') {
+    $cmd = 'cd /home/boincadm/boinc-site; tar -czvf symstore.tar.gz symstore';
+    system($cmd, $retval);
+    if ($retval) {
+        die("tar failed: $retval\n");
+    }
+    echo "Created symstore.tar.gz\n";
 } else {
-    form();
+    if (count($_FILES)>0) {
+        action();
+    } else {
+        form();
+    }
 }
-
 ?>

@@ -4,7 +4,7 @@
 
 require_once('../inc/util.inc');
 
-$versions = ['stable'=>'8.0.2', 'alpha'=>'8.0.3', 'nightly'=>'8.1.0'];
+$versions = ['stable'=>'8.0.2', 'alpha'=>'8.0.4', 'nightly'=>'8.1.0'];
 
 function get_oss() {
     $n = 1;

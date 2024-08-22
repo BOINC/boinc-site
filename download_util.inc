@@ -23,7 +23,7 @@ function button_link_vbox(
     $vbox_url, $long_name, $vbox_size, $boinc_version, $vbox_version
 ) {
     echo sprintf('
-        <a href="%s" class="btn btn-success"><font size=+1><u>%s</u></font>
+        <a href="%s" class="btn" style="background-color:seagreen; color:white"><font size=+1><u>%s</u></font>
         <br>%s (%.2f MB)
         <br><small>(BOINC %s, VirtualBox %s)</small></a>
         ',
@@ -43,12 +43,13 @@ function button_link_vbox(
 
 function button_link($url, $long_name, $size, $boinc_version, $green) {
     echo sprintf('
-        <a href="%s" class="btn %s"><font size=+1><u>%s</u></font>
+        <a href="%s" class="btn" %s><font size=+1><u>%s</u></font>
         <br>%s (%.2f MB)
         <br><small>(BOINC %s)</small></a>
         ',
         $url,
-        $green?"btn-success":"btn-info",
+        $green?'style="background-color:seagreen; color:white"'
+            :'style="background-color:steelblue; color:white"',
         tra("Download BOINC"),
         tra("for %1", $long_name),
         $size,

@@ -16,8 +16,8 @@ define("LANGUAGE_FILE", "languages.txt");
 define("COPYRIGHT_HOLDER", "UC Berkeley");
 define("SYS_ADMIN_EMAIL", "davea@ssl.berkeley.edu");
 define("POST_REPORT_EMAILS", "bernievine@gmail.com, elst93@gmail.com, les.baylisss@bigpond.com");
-define('DISABLE_TEAMS', 1);
-define('COUNTRY_FLAGS', 1);
+define('DISABLE_TEAMS', true);
+define('COUNTRY_FLAGS', true);
 define("SHORTCUT_ICON", "img/f2.gif");
 define('RECORD_USER_IP', true);
 define('NO_COMPUTING', true);
@@ -26,8 +26,10 @@ define('NO_HOSTS', true);
 define('NO_GLOBAL_PREFS', true);
 define('POST_MAX_LINKS', 4);
 define('DARK_MODE', true);
-define('MODERATORS_CAN_BANISH', '1');
-define('VALIDATE_EMAIL_TO_POST', '1');
+define('MODERATORS_CAN_BANISH', true);
+define('VALIDATE_EMAIL_TO_POST', true);
+define('USE_STOPFORUMSPAM', true);
+define('FORUM_QA_MERGED_MODE', true);
 
 function navbar($prefix, $user, $fixed) {
     $brand = '<p></p><center><a href="https://boinc.berkeley.edu"><img height="50" src="https://boinc.berkeley.edu/logo/boinc_logo.png"></a></center>';
@@ -185,4 +187,24 @@ function project_forum_post_info($forum) {
 function auth_ops() {
     auth_ops_userid(array(138));
 }
+
+function project_forum_index_intro() {
+    echo "
+    <p>
+        <ul>
+        <li> These messages boards are for discussion of BOINC,
+        not projects (such as Einstein@home, World Community Grid, and so on).
+        To discuss a project, please use its message boards.
+        <li> To post messages, you must
+        <a href=signup.php>create an account</a>.
+        <li>
+        These message boards are frequented by volunteers.
+        It's likely (but not guaranteed) that they'll be able
+        to respond to your questions or suggestions.
+        <li>
+        See <a href=http://boinc.berkeley.edu/wiki/BOINC_Help>other ways of getting help</a>.
+        </ul>
+    ";
+}
+
 ?>
