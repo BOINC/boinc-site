@@ -107,33 +107,21 @@ sudo zypper install boinc-client boinc-manager',
     ";
 
     // GPU instructions
-    switch ($os->type) {
-    case 'Debian':
-    case 'Ubuntu':
-        echo '<h3>GPU computing</h3>';
-        echo '<p>If the system has an NVIDIA GPU,
-            you can enable CUDA apps using
-            <pre>sudo apt-get install nvidia-cuda-toolkit</pre>
-        ';
-        echo '<p>If the system has an NVIDIA, AMD, or Intel GPU,
-            you can enable OpenCL apps using
-            <pre>sudo apt-get install ocl-icd-libopencl1 opencl-icd</pre>
-        ';
-        echo "Note: do these before installing BOINC,
-            so that BOINC will detect the GPU when it starts
-        ";
-        break;
-    case 'Fedora':
-        echo '<h3>GPU computing</h3>';
-        echo '<p>If the system has an NVIDIA GPU,
-            you can enable CUDA apps using
-            <pre>sudo yum install xorg-x11-drv-nvidia-libs</pre>
-        ';
-        echo "Note: do these before installing BOINC,
-            so that BOINC will detect the GPU when it starts
-        ";
-        break;
-    }
+    echo '<h3>GPU computing</h3>';
+    echo '<p>
+        If the system has a GPU, it may be usable by
+        BOINC projects that have GPU-enabled apps.
+        On some systems you may need to install
+        GPU drivers that support this.
+        <p>
+        Check the BOINC client\'s output on startup.
+        It should detect your GPU (NVIDIA, AMD, or Intel) using OpenCL,
+        and NVIDIA GPUs should also be detected using CUDA.
+        If not, check whether updated drivers are available
+        for your GPU type and Linux distro.
+        In general, vendor-supplied drivers may be
+        preferable to open-source drivers.
+    ';
 
     // attach instructions
 
