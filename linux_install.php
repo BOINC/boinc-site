@@ -69,6 +69,7 @@ function action() {
         echo sprintf(
 'sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 40254C9B29853EA6
 sudo apt-add-repository deb https://boinc.berkeley.edu/dl/linux/%s/%s %s main
+sudo apt update
 sudo apt install boinc-client boinc-manager',
             $build, $os->code, $os->code
         );
@@ -143,7 +144,7 @@ sudo zypper install boinc-client boinc-manager',
         or the Computing Preferences form
         on the Science United website.
     ';
-        
+
     // uninstall instructions
     echo '<h3>Uninstall</h3>
         <p>
@@ -169,7 +170,7 @@ function main() {
     page_head('Installing BOINC on Linux');
     text_start(800);
     echo "<p>
-        The recommended way to install BOINC on a Linux system 
+        The recommended way to install BOINC on a Linux system
         is as a package.
         Get instructions using this form:
     ";

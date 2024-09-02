@@ -33,7 +33,7 @@ data_dir=PATH
 </pre>
 This tells them where the data directory is.
 If you install BOINC using a package manager, this is set up automatically.
-<li> They look in <code>/var/lib/boinc-client</code>.
+<li> They look in <code>/var/lib/boinc</code>.
 </ol>
 
 If none of these locates <code>gui_rpc_auth.cfg</code>
