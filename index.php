@@ -118,7 +118,7 @@ function show_links() {
         </font>
         <br><a href="projects.php">'.tra("Science projects").'</a>
         <br><a href="pubs.php">'.tra("Science publications").'</a>
-        <br><a href="https://github.com/BOINC/boinc/wiki/User_manual"><span class=nobr>'.tra("User manual").'</span></a> 
+        <br><a href="https://github.com/BOINC/boinc/wiki/User-manual"><span class=nobr>'.tra("User manual").'</span></a> 
         <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
         <br><a btn-primary href=https://github.com/BOINC/boinc/wiki/WebResources><span class=nobr>'.tra("Web resources").'</span></a> 
         <p>
@@ -129,7 +129,7 @@ function show_links() {
         <br><a href="forum_index.php">'.tra("Message boards").'</a>
         <br><a href="https://boinc.berkeley.edu/wiki/BOINC_Help">'.tra("Help").'</a>
         <br><a href="https://github.com/BOINC/boinc/wiki/EmailLists">'.tra("Email lists").'</a>
-        <br><a href="https://github.com/BOINC/boinc/wiki/ReportBugs">'.tra("Report bugs").'</a>
+        <br><a href="https://github.com/BOINC/boinc/wiki/Reporting-client-Bugs">'.tra("Report bugs").'</a>
         <p>
         </div><div class="col-sm-4">
         <font size=+2>
@@ -161,7 +161,7 @@ function show_links() {
         <hr>
         <font size=+2>%s:</font> <br>
             <ul>
-            <li><a href=https://github.com/BOINC/boinc/wiki/Computing-with-boinc>%s</a>
+            <li><a href=https://github.com/BOINC/boinc/wiki/Computing-with-boinc>%s</a> and <a href=https://github.com/BOINC/boinc/wiki/Maintain-your-boinc-project>%s</a> %s.
             <br>
             <li>
             <a href=https://boinc.berkeley.edu/central/>
@@ -176,7 +176,9 @@ function show_links() {
         </ul>
         ',
         tra("Scientists"),
-        tra("Create a BOINC project"),
+        tra("Create"),
+        tra("maintain"),
+        tra("a BOINC project"),
         tra("Programmers")
     );
     echo '
@@ -234,7 +236,7 @@ function call_to_action() {
         </p><p>
         <center>
     ';
-    echo sprintf('<a class="btn btn-success" style= "background-color:seagreen; color:white; font-size:24px; text-decoration:none" href="%s">%s</a>',
+    echo sprintf('<a class="btn " style= "background-color:mediumseagreen; color:white; font-size:24px; text-decoration:none" href="%s">%s</a>',
         'https://scienceunited.org/su_join.php',
         tra("Join %1", "Science United")
     );
@@ -245,7 +247,7 @@ function call_to_action() {
     echo ' ';
     echo tra("This will let you participate in competitions and systems like Gridcoin.");
     echo '<p><center>';
-    echo sprintf('<a class="btn btn-info" style= "background-color:steelblue; color:white; font-size:20px; text-decoration:none" href="%s">%s</a>',
+    echo sprintf('<a class="btn " style= "background-color:dodgerblue; color:white; font-size:20px; text-decoration:none" href="%s">%s</a>',
         'download.php',
         tra("Download BOINC")
     );
