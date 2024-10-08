@@ -56,6 +56,11 @@ function skype_script() {
 }
 
 function skype_call_button($vol) {
+    show_button("skype:$vol->skypeid?chat", "Skype with $vol->name", null, 'btn-lg btn-info');
+    return;
+
+    // the following doesn't seem to work anymore (10/2024)
+
     if ($vol->text_ok && $vol->voice_ok) {
         $x = "dropdown";
     } else if ($vol->voice_ok) {

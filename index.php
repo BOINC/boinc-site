@@ -192,7 +192,7 @@ function show_links() {
         &middot;
         <a href=logo.php>%s</a>
         &middot;
-        <a href=https://github.com/BOINC/boinc/wiki/BOINCEvents>%s</a>
+        <a href=https://github.com/BOINC/boinc/wiki/BOINC-events>%s</a>
         &middot;
         <a href=https://continuum-hypothesis.com/boinc_history.php>History</a>
         ',

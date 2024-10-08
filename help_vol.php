@@ -111,9 +111,9 @@ if ($send_email) {
     if (!$msg) {
         error_page("You must supply a message");
     }
-    $body = "The following message was sent by a BOINC Help user.\n";
     $email_addr = $_GET['email_addr'];
-    if (!is_valid_email_addr($email_addr)) {
+    $body = "The following message was sent by a BOINC Help user with email address $email_addr.\n";
+    if (!is_valid_email_syntax($email_addr)) {
         error_page("You must specify a valid email address");
     }
     $reply = "\r\nreply-to: $email_addr";
@@ -193,12 +193,16 @@ if (false) {
     }
 }
     if ($vol->voice_ok || $vol->text_ok) {
-        echo "<h2>Contact $vol->name by Skype</h2>\n";
+        echo "<p>";
+        //echo "<h2>Contact $vol->name by Skype</h2>\n";
         skype_call_button($vol);
+        echo "<p>... or contact $vol->name by email:<p>";
+    } else {
+        echo "Contact $vol->name by email:<p>";
     }
-    echo "<p> <h2>Contact $vol->name by email</h2>\n";
     email_contact($vol);
     echo "</td></tr></table><p>\n";
+    echo "<hr>";
     echo "<table class=box cellpadding=8 width=100%><tr><td>";
     $rating = null;
     if ($uid) {
