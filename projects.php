@@ -115,9 +115,9 @@ function ordered_display($areas, $sort) {
         if (!$p) {
             $p = tra("Unknown");
         } else {
-            $pd = get_platforms_string($master_url, false);
             $p .= sprintf(
-                "<br><a href=projects.php onmouseover=\"Tip('%s:<br>$pd', WIDTH, 240, FONTSIZE, '12px', BGCOLOR, '#eeddcc')\" onmouseout=\"UnTip()\"><small>%s</small></a>",
+                "<br><a href=projects.php onmouseover=\"Tip('%s:<br>%s', WIDTH, 240, FONTSIZE, '12px', BGCOLOR, '#eeddcc')\" onmouseout=\"UnTip()\"><small>%s</small></a>",
+                get_platforms_string($master_url, false),
                 tra('Supported platforms'),
                 tra('Details')
             );

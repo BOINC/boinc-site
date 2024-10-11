@@ -3,8 +3,14 @@
 ini_set('display_errors', 'stdout');
 error_reporting(E_ALL);
 
-// The platforms for a given project are stored in a file platforms/URL
+// The platforms for a given project are stored in a JSON file platforms/URL.
+// It's a list of 'extended platform names': strings of the form
+// <platform>
+// or
+// <platform>[<planclass>]
 
+// convert extended platform name to human-readable string
+//
 function friendly_name($p) {
     $x = explode('[', $p);
     $pc = "";
@@ -45,14 +51,19 @@ function friendly_name($p) {
         else if (strstr($pc, 'ati')) $q .= " (AMD/ATI GPU)";
         else if (strstr($pc, 'amd')) $q .= " (AMD/ATI GPU)";
         else if (strstr($pc, 'intel_gpu')) $q .= " (Intel GPU)";
-        else if (strstr($pc, 'mt')) $q .= " (multicore)";
-        else if (strstr($pc, 'vbox32')) $q .= " (VirtualBox 32-bit)";
+        else if (strstr($pc, 'apple_gpu')) $q .= " (Apple GPU)";
+
+        if (strstr($pc, 'mt')) $q .= " (multicore)";
+
+        if (strstr($pc, 'vbox32')) $q .= " (VirtualBox 32-bit)";
         else if (strstr($pc, 'vbox64')) $q .= " (VirtualBox 64-bit)";
+        else if (strstr($pc, 'docker')) $q .= " (Docker)";
     }
     return $q;
 }
 
-// return an array of bools for the supported platforms
+// return an array of bools for the supported platforms,
+// GPU types, and virtualization types
 //
 function get_platform_icon_flags($l) {
     $x = new StdClass;
@@ -65,7 +76,9 @@ function get_platform_icon_flags($l) {
     $x->nvidia_gpu = false;
     $x->amd_gpu = false;
     $x->intel_gpu = false;
+    $x->apple_gpu = false;
     $x->vbox = false;
+    $x->docker = false;
     foreach ($l as $p) {
         $y = explode('[', $p);
         $pc = "";
@@ -74,20 +87,24 @@ function get_platform_icon_flags($l) {
             $pc = substr($y[1], 0, -1);
         }
         if (strstr($p, "windows")) $x->windows = true;
-        if (strstr($p, "darwin")) $x->mac = true;
-        if (strstr($p, "linux")) $x->linux = true;
-        if (strstr($p, "android")) $x->android = true;
-        if (strstr($p, "freebsd")) $x->freebsd = true;
-        if (strstr($p, "arm-unknown-linux-gnueabihf")) $x->rasp_pi = true;
-        if (strstr($p, "armv5")) $x->rasp_pi = true;
-        if (strstr($p, "aarch64")) $x->rasp_pi = true;
-        if (strstr($p, "armv6")) $x->rasp_pi = true;
+        else if (strstr($p, "darwin")) $x->mac = true;
+        else if (strstr($p, "linux")) $x->linux = true;
+        else if (strstr($p, "android")) $x->android = true;
+        else if (strstr($p, "freebsd")) $x->freebsd = true;
+        else if (strstr($p, "arm-unknown-linux-gnueabihf")) $x->rasp_pi = true;
+        else if (strstr($p, "armv5")) $x->rasp_pi = true;
+        else if (strstr($p, "aarch64")) $x->rasp_pi = true;
+        else if (strstr($p, "armv6")) $x->rasp_pi = true;
+
         if (strstr($pc, "ati")) $x->amd_gpu = true;
-        if (strstr($pc, "amd")) $x->amd_gpu = true;
-        if (strstr($pc, "cuda")) $x->nvidia_gpu = true;
-        if (strstr($pc, "nvidia")) $x->nvidia_gpu = true;
-        if (strstr($pc, "intel_gpu")) $x->intel_gpu = true;
+        else if (strstr($pc, "amd")) $x->amd_gpu = true;
+        else if (strstr($pc, "cuda")) $x->nvidia_gpu = true;
+        else if (strstr($pc, "nvidia")) $x->nvidia_gpu = true;
+        else if (strstr($pc, "intel_gpu")) $x->intel_gpu = true;
+        else if (strstr($pc, "apple_gpu")) $x->apple_gpu = true;
+
         if (strstr($pc, "vbox")) $x->vbox = true;
+        else if (strstr($pc, "docker")) $x->docker = true;
     }
     return $x;
 }
@@ -123,8 +140,14 @@ function platform_icons($f) {
     if ($f->intel_gpu) {
         $x .= "<img hspace=$hs height=$ht src=images/intel_gpu.jpg title=\"Supports Intel GPUs\">";
     }
+    if ($f->apple_gpu) {
+        $x .= "<img hspace=$hs height=$ht src=images/metal_logo.png title=\"Supports Apple GPUs\">";
+    }
     if ($f->vbox) {
         $x .= "<img hspace=$hs height=$ht src=images/vbox.jpg title=\"Supports VirtualBox\">";
+    }
+    if ($f->docker) {
+        $x .= "<img hspace=$hs height=$ht src=images/docker_logo.png title=\"Supports Docker\">";
     }
     return $x;
 }
