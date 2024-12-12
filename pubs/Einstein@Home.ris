@@ -5547,3 +5547,30 @@ SN  - 0004-637X
 UR  - https://dx.doi.org/10.3847/1538-4357/acee67
 ER  - 
 
+TY  - JOUR
+TI  - Deep Einstein@Home Search for Continuous Gravitational Waves from the Central Compact Objects in the Supernova Remnants Vela Jr. and G347.3-0.5 Using LIGO Public Data
+AU  - Ming, J.
+AU  - Papa, M. A.
+AU  - Eggenstein, H.-B.
+AU  - Beheshtipour, B.
+AU  - Machenschalk, B.
+AU  - Prix, R.
+AU  - Allen, B.
+AU  - Bensch, M.
+T2  - The Astrophysical Journal
+AB  - We perform a search for continuous nearly monochromatic gravitational waves from the central compact objects associated with the supernova remnants Vela Jr. and G347.3. Over 1018 different waveforms are considered, covering signal frequencies between 20 and 1300 Hz (20 and 400 Hz) for G347.3-0.5 (Vela Jr.) and a very broad range of frequency derivatives. The data set used for this first search is from the second observing run of LIGO (O2). Thousands of volunteers donating compute cycles through the computing project Einstein@Home have made this endeavor possible. Following the Einstein@Home search, we perform multistage follow-ups of over 5 million waveforms. The threshold for selecting candidates from the Einstein@Home search is such that, after the multistage follow-up, we do not expect any surviving candidate due to noise. The very last stage uses a different data set, namely, the LIGO O3 data. We find no significant signal candidate for either targets. Based on this null result, for G347.3-0.5, we set the most constraining upper limits to date on the amplitude of gravitational-wave signals, corresponding to deformations below 10−6 in a large part of the search band. At the frequency of best strain sensitivity, near 161 Hz, we set 90% confidence upper limits on the gravitational-wave intrinsic amplitude of . Over most of the frequency range, our upper limits are a factor of 10 smaller than the indirect age-based upper limit. For Vela Jr., near 163 Hz, we set . Over most of the frequency range, our upper limits are a factor of 15 smaller than the indirect age-based upper limit. The Vela Jr. upper limits presented here are slightly less constraining than the most recent upper limits of R. Abbott et al., but they apply to a broader set of signals.
+DA  - 2024/12//
+PY  - 2024
+DO  - 10.3847/1538-4357/ad8b9e
+DP  - Institute of Physics
+VL  - 977
+IS  - 2
+SP  - 154
+J2  - ApJ
+LA  - en
+SN  - 0004-637X
+UR  - https://dx.doi.org/10.3847/1538-4357/ad8b9e
+Y2  - 2024/12/12/00:10:11
+L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ad8b9e/pdf
+ER  - 
+
