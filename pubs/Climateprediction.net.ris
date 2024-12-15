@@ -3752,3 +3752,284 @@ UR  - http://ieeexplore.ieee.org/document/1572203/
 Y2  - 2024/05/18/15:14:57
 ER  - 
 
+TY  - JOUR
+TI  - Response of winter climate and extreme weather to projected Arctic sea-ice loss in very large-ensemble climate model simulations
+AU  - Ye, Kunhui
+AU  - Woollings, Tim
+AU  - Sparrow, Sarah N.
+AU  - Watson, Peter A. G.
+AU  - Screen, James A.
+T2  - npj Climate and Atmospheric Science
+AB  - Abstract
+            Very large (~2000 members) initial-condition ensemble simulations have been performed to advance understanding of mean climate and extreme weather responses to projected Arctic sea-ice loss under 2 °C global warming above preindustrial levels. These simulations better sample internal atmospheric variability and extremes for each model compared to those from the Polar Amplification Model Intercomparison Project (PAMIP). The mean climate response is mostly consistent with that from the PAMIP multi-model ensemble, including tropospheric warming, reduced midlatitude westerlies and storm track activity, an equatorward shift of the eddy-driven jet and increased mid-to-high latitude blocking. Two resolutions of the same model exhibit significant differences in the stratospheric circulation response; however, these differences only weakly modulate the tropospheric response. The response of temperature and precipitation extremes largely follows the seasonal-mean response. Sub-sampling confirms that large ensembles (e.g. ≥400) are needed to robustly estimate the seasonal-mean large-scale circulation response, and very large ensembles (e.g. ≥1000) for regional climate and extremes.
+DA  - 2024/01/17/
+PY  - 2024
+DO  - 10.1038/s41612-023-00562-5
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 20
+J2  - npj Clim Atmos Sci
+LA  - en
+SN  - 2397-3722
+UR  - https://www.nature.com/articles/s41612-023-00562-5
+Y2  - 2024/12/15/21:47:16
+L1  - https://www.nature.com/articles/s41612-023-00562-5.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Assessing the impact of climate change on the cost of production of green ammonia from offshore wind
+AU  - Hatton, Luke
+AU  - Bañares-Alcántara, René
+AU  - Sparrow, Sarah
+AU  - Lott, Fraser
+AU  - Salmon, Nicholas
+T2  - International Journal of Hydrogen Energy
+DA  - 2024/01//
+PY  - 2024
+DO  - 10.1016/j.ijhydene.2023.10.117
+DP  - DOI.org (Crossref)
+VL  - 49
+SP  - 635
+EP  - 643
+J2  - International Journal of Hydrogen Energy
+LA  - en
+SN  - 03603199
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0360319923051832
+Y2  - 2024/12/15/21:48:54
+L1  - https://ora.ox.ac.uk/objects/uuid:4c99941a-ab68-4617-9009-ad498f866d54/files/sc821gm73x
+ER  - 
+
+TY  - JOUR
+TI  - Change in cooling degree days with global mean temperature rise increasing from 1.5 °C to 2.0 °C
+AU  - Miranda, Nicole D.
+AU  - Lizana, Jesus
+AU  - Sparrow, Sarah N.
+AU  - Zachau-Walker, Miriam
+AU  - Watson, Peter A. G.
+AU  - Wallom, David C. H.
+AU  - Khosla, Radhika
+AU  - McCulloch, Malcolm
+T2  - Nature Sustainability
+AB  - Abstract
+            Limiting global mean temperature rise to 1.5 °C is increasingly out of reach. Here we show the impact on global cooling demand in moving from 1.5 °C to 2.0 °C of global warming. African countries have the highest increase in cooling requirements. Switzerland, the United Kingdom and Norway (traditionally unprepared for heat) will suffer the largest relative cooling demand surges. Immediate and unprecedented adaptation interventions are required worldwide to be prepared for a hotter world.
+DA  - 2023/07/13/
+PY  - 2023
+DO  - 10.1038/s41893-023-01155-z
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 11
+SP  - 1326
+EP  - 1330
+J2  - Nat Sustain
+LA  - en
+SN  - 2398-9629
+UR  - https://www.nature.com/articles/s41893-023-01155-z
+Y2  - 2024/12/15/21:52:26
+L1  - https://www.nature.com/articles/s41893-023-01155-z.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Physically based equation representing the forcing-driven precipitation in climate models
+AU  - Lee, Donghyun
+AU  - Sparrow, Sarah N
+AU  - Min, Seung-Ki
+AU  - Yeh, Sang-Wook
+AU  - Allen, Myles R
+T2  - Environmental Research Letters
+AB  - Abstract
+            This study aims to improve our understanding of the response of precipitation to forcings by proposing a physically-based equation that resolves simulated precipitation based on the atmospheric energy budget. The equation considers the balance between latent heat release by precipitation and the sum of the slow response by tropospheric temperature changes and the fast response by abrupt radiative forcing (RF) changes. The equation is tuned with three parameters for each climate model and then adequately reproduces time-varying precipitation. By decomposing the equation, we highlight the slow response as the largest contributor to forcing-driven responses and uncertainty sizes in simulations. The second largest one to uncertainty is the fast-RF response from aerosols or greenhouse gases (GHG), depending on the low or highest Coupled Model Intercomparison Projection 6 future scenarios. The likely range of precipitation change at specific warming levels under GHG removal (GGR) and solar radiation management (SRM) mitigation plans is evaluated by a simple model optimizing the relationship between temperature and decomposed contributions from multi-simulations under three scenarios. The results indicate that GGR has more severe effects from aerosols than GHG for a 1.5 K warming, resulting in 0.91%–1.62% increases in precipitation. In contrast, SRM pathways project much drier conditions than GGR results due to the tropospheric cooling and remaining anthropogenic radiative heating. Overall, the proposed physically-based equation, the decomposition analysis, and our simple model provide valuable insights into the uncertainties under different forcings and mitigation pathways, highlighting the importance of slow and fast responses to human-induced forcings in shaping future precipitation changes.
+DA  - 2023/09/01/
+PY  - 2023
+DO  - 10.1088/1748-9326/acf50f
+DP  - DOI.org (Crossref)
+VL  - 18
+IS  - 9
+SP  - 094063
+J2  - Environ. Res. Lett.
+SN  - 1748-9326
+UR  - https://iopscience.iop.org/article/10.1088/1748-9326/acf50f
+Y2  - 2024/12/15/21:53:47
+ER  - 
+
+TY  - JOUR
+TI  - Using Deep Learning for an Analysis of Atmospheric Rivers in a High‐Resolution Large Ensemble Climate Data Set
+AU  - Higgins, Timothy B.
+AU  - Subramanian, Aneesh C.
+AU  - Graubner, Andre
+AU  - Kapp‐Schwoerer, Lukas
+AU  - Watson, Peter A. G.
+AU  - Sparrow, Sarah
+AU  - Kashinath, Karthik
+AU  - Kim, Sol
+AU  - Delle Monache, Luca
+AU  - Chapman, Will
+T2  - Journal of Advances in Modeling Earth Systems
+AB  - Abstract
+            There is currently large uncertainty over the impacts of climate change on precipitation trends over the US west coast. Atmospheric rivers (ARs) are a significant source of US west coast precipitation and trends in ARs can provide insight into future precipitation trends. There are already a variety of different methods used to identify ARs, but many are used in contexts that are often difficult to apply to large climate datasets due to their computational cost and requirement of integrated vapor transport as an input variable, which can be expensive to compute in climate models at high temporal frequencies. Using deep learning (DL) to track ARs is a unique approach that can alleviate some of the computational challenges that exist in more traditional methods. However, some questions still remain regarding its flexibility and robustness. This research investigates the consistency of a DL methodology of tracking ARs with more established algorithms to demonstrate its high‐level performance for future studies.
+          , 
+            Plain Language Summary
+            Atmospheric rivers (ARs) are long corridors of water vapor in the lower atmosphere that are associated with a large amount of precipitation on the US west coast. They are important to investigate in future climate change scenarios. To further understand them in climate change scenarios, they must be tracked in large datasets. We demonstrate the efficiency, effectiveness, and flexibility of a machine learning tracking method by comparing it to more established existing tracking methods. This method applies particularly well to large climate datasets and can be useful for future studies.
+          , 
+            Key Points
+            
+              
+                
+                  CG‐Climate is an effective and efficient way to track atmospheric rivers in large datasets
+                
+                
+                  CG‐Climate is flexible with varying spatial resolutions and domains
+                
+                
+                  Human hand labels are effective in identifying atmospheric river events in the correct location, but have a spatial area bias
+DA  - 2023/04//
+PY  - 2023
+DO  - 10.1029/2022MS003495
+DP  - DOI.org (Crossref)
+VL  - 15
+IS  - 4
+SP  - e2022MS003495
+J2  - J Adv Model Earth Syst
+LA  - en
+SN  - 1942-2466, 1942-2466
+UR  - https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022MS003495
+Y2  - 2024/12/15/21:56:05
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2022MS003495
+ER  - 
+
+TY  - JOUR
+TI  - Risks of seasonal extreme rainfall events in Bangladesh under 1.5 and 2.0 °C warmer worlds – how anthropogenic aerosols change the story
+AU  - Rimi, Ruksana H.
+AU  - Haustein, Karsten
+AU  - Barbour, Emily J.
+AU  - Sparrow, Sarah N.
+AU  - Li, Sihan
+AU  - Wallom, David C. H.
+AU  - Allen, Myles R.
+T2  - Hydrology and Earth System Sciences
+AB  - Abstract. Anthropogenic climate change is likely to increase the risk
+(probability of occurrence of a hazard) of extreme weather events in the
+future. Previous studies have robustly shown how and where climate change
+has already changed the risks of weather extremes. However, developing
+countries have been somewhat underrepresented in these studies, despite high
+vulnerability and limited capacities to adapt. How additional global warming
+would affect the future risks of extreme rainfall events in Bangladesh needs
+to be addressed to limit adverse impacts. Our study focuses on understanding
+and quantifying the relative risks of extreme rainfall events in Bangladesh
+under the Paris Agreement temperature goals of 1.5 and
+2.0 ∘C warming above pre-industrial levels. In particular, we
+investigate the influence of anthropogenic aerosols on these risks given
+their likely future reduction and resulting amplification of global warming.
+Using large ensemble regional climate model simulations from weather@home
+under different forcing scenarios, we compare the risks of rainfall events
+under pre-industrial (natural; NAT), current (actual; ACT), 1.5 and 2.0 ∘C warmer, and greenhouse gas (GHG)-only (with
+pre-industrial levels of anthropogenic aerosols) conditions. Both GHGs and
+anthropogenic aerosols have an impact on seasonal mean rainfall over this
+region. In general, higher global mean temperature levels lead to higher
+rainfall and higher aerosol concentrations to lower rainfall, however the
+relative importance of the two factors varies between the regions. For
+extreme rainfall events, we find that the risk of a 1 in 100 year rainfall
+episode has already increased significantly compared with pre- industrial
+levels across parts of Bangladesh, with additional increases likely for 1.5
+and 2.0 ∘C warming. Climate change impacts on the probabilities of
+extreme rainfall episodes are found during both pre-monsoon and monsoon
+seasons. Results show that reduction in anthropogenic aerosols will
+exacerbate the effects of GHG-induced warming and thereby increasing the
+rainfall intensity, which has otherwise attenuated the impacts. We highlight
+that the net aerosol effect varies from region to region within Bangladesh,
+which leads to different outcomes of aerosol reduction on extreme rainfall
+statistics and must therefore be considered in future risk assessments.
+While there is a substantial reduction in risk at 1.5 ∘C warming
+when compared to 2 ∘C warming, the difference is spatially and
+temporally variable too, specifically with respect to seasonal extreme
+rainfall events.
+DA  - 2022/11/15/
+PY  - 2022
+DO  - 10.5194/hess-26-5737-2022
+DP  - DOI.org (Crossref)
+VL  - 26
+IS  - 22
+SP  - 5737
+EP  - 5756
+J2  - Hydrol. Earth Syst. Sci.
+LA  - en
+SN  - 1607-7938
+UR  - https://hess.copernicus.org/articles/26/5737/2022/
+Y2  - 2024/12/15/21:58:10
+L1  - https://hess.copernicus.org/articles/26/5737/2022/hess-26-5737-2022.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Trends in Europe storm surge extremes match the rate of sea-level rise
+AU  - Calafat, Francisco M.
+AU  - Wahl, Thomas
+AU  - Tadesse, Michael Getachew
+AU  - Sparrow, Sarah N.
+T2  - Nature
+DA  - 2022/03/31/
+PY  - 2022
+DO  - 10.1038/s41586-022-04426-5
+DP  - DOI.org (Crossref)
+VL  - 603
+IS  - 7903
+SP  - 841
+EP  - 845
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - https://www.nature.com/articles/s41586-022-04426-5
+Y2  - 2024/12/15/21:59:00
+ER  - 
+
+TY  - JOUR
+TI  - Generating samples of extreme winters to support climate adaptation
+AU  - Leach, Nicholas J.
+AU  - Watson, Peter A.G.
+AU  - Sparrow, Sarah N.
+AU  - Wallom, David C.H.
+AU  - Sexton, David M.H.
+T2  - Weather and Climate Extremes
+DA  - 2022/06//
+PY  - 2022
+DO  - 10.1016/j.wace.2022.100419
+DP  - DOI.org (Crossref)
+VL  - 36
+SP  - 100419
+J2  - Weather and Climate Extremes
+LA  - en
+SN  - 22120947
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S2212094722000111
+Y2  - 2024/12/15/21:59:40
+L1  - https://research-information.bris.ac.uk/files/332412256/Full_text_PDF_final_published_version_.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Understanding Climate Risk in Future Energy Systems: An Energy–Climate Data Hackathon
+AU  - Fallon, James C.
+AU  - Bloomfield, Hannah C.
+AU  - Brayshaw, David J.
+AU  - Sparrow, Sarah N.
+AU  - Wallom, David C. H.
+AU  - Woollings, Tim
+AU  - Brown, Kate
+AU  - Dawkins, Laura
+AU  - Palin, Erika
+AU  - Houben, Nikolaus
+AU  - Huppmann, Daniel
+AU  - Schyska, Bruno U.
+T2  - Bulletin of the American Meteorological Society
+DA  - 2022/05//
+PY  - 2022
+DO  - 10.1175/BAMS-D-21-0305.1
+DP  - DOI.org (Crossref)
+VL  - 103
+IS  - 5
+SP  - E1321
+EP  - E1329
+SN  - 0003-0007, 1520-0477
+ST  - Understanding Climate Risk in Future Energy Systems
+UR  - https://journals.ametsoc.org/view/journals/bams/103/5/BAMS-D-21-0305.1.xml
+Y2  - 2024/12/15/22:00:28
+L1  - https://journals.ametsoc.org/downloadpdf/journals/bams/103/5/BAMS-D-21-0305.1.pdf
+ER  - 
+
