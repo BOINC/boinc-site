@@ -168,7 +168,7 @@ function show_version($pname, $i, $v) {
 
     $link = "";
     if ($v['type'] == 'linux_pkg') {
-        $link = '<a href=linux_install.php><b>Installation instructions</b></a>';
+        $link = '<a href=linux_install.php><b>Package installation instructions</b></a>';
     } else {
         if (array_key_exists('vbox_file', $v)) {
             $vbox_file = $v['vbox_file'];

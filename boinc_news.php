@@ -1243,7 +1243,7 @@ array("May 25, 2006",
     the connection interval.
     This will be available in the next release (5.6) of the client software.
     Projects that are interested in using this mechanism should
-    <a href=contact.php>contact us</a>."
+    <a href=https://github.com/BOINC/boinc/wiki/Contact-BOINC>contact us</a>."
 ),
 array("May 17, 2006",
     "The costs of electricity, both monetary and environmental, are high.

@@ -85,7 +85,8 @@ function ordered_display($areas, $sort) {
             $cat_title,
             tra("Area"),
             tra("Sponsor"),
-            tra("Supported platforms")
+            tra("Supported platforms").'<br><small>More details at
+                <a href=https://wuprop.boinc-af.org/results/ram.py>WuProp@home</a></small>'
         ),
         null,
         'bg-default'
@@ -117,8 +118,8 @@ function ordered_display($areas, $sort) {
         } else {
             $p .= sprintf(
                 "<br><a href=projects.php onmouseover=\"Tip('%s:<br>%s', WIDTH, 240, FONTSIZE, '12px', BGCOLOR, '#eeddcc')\" onmouseout=\"UnTip()\"><small>%s</small></a>",
-                get_platforms_string($master_url, false),
                 tra('Supported platforms'),
+                get_platforms_string($master_url, false),
                 tra('Details')
             );
         }
@@ -141,7 +142,7 @@ echo "
 <p>
 If you run a BOINC-based project
 and would like it to be included on this list,
-please <a href=https://github.com/BOINC/boinc/wiki/ProjectPeople>contact us</a>.
+please <a href=https://github.com/BOINC/boinc/wiki/Contact-BOINC>contact us</a>.
 
 ";
 page_tail();

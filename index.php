@@ -127,9 +127,10 @@ function show_links() {
         '.tra("Communicate").'
         </font>
         <br><a href="forum_index.php">'.tra("Message boards").'</a>
-        <br><a href="https://boinc.berkeley.edu/wiki/BOINC_Help">'.tra("Help").'</a>
+        <br><a href="https://github.com/BOINC/boinc/wiki/BOINC-Help">'.tra("Help").'</a>
         <br><a href="https://github.com/BOINC/boinc/wiki/EmailLists">'.tra("Email lists").'</a>
         <br><a href="https://github.com/BOINC/boinc/wiki/Reporting-client-Bugs">'.tra("Report bugs").'</a>
+        <br><a href=https://www.reddit.com/r/BOINC/ title="BOINC on Reddit"><img src=images/reddit.png height=28></a>
         <p>
         </div><div class="col-sm-4">
         <font size=+2>
@@ -148,8 +149,6 @@ function show_links() {
         <a href=computing.php>%s</a>
         &middot;
         <a href=cert_dev.php>%s</a>
-        &middot;
-        <a href=https://twitter.com/BoincUc><img src=images/twitter.png height=28></a>
         &middot;
         <a href=poll_results.php>%s</a>
         ',
@@ -186,7 +185,7 @@ function show_links() {
     ';
     echo sprintf('
         <hr>
-        <a href="contact.php">%s</a>
+        <a href=https://github.com/BOINC/boinc/wiki/Contact-BOINC>%s</a>
         &middot;
         <a href="https://github.com/BOINC/boinc/wiki/BoincPapers">%s</a>
         &middot;

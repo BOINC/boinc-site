@@ -286,6 +286,7 @@ function make_friendly_string($l, $comma) {
         $fn[] = $p;
     }
     $fn = array_unique($fn);
+    natcasesort($fn);
     $x = "";
     $first = true;
     foreach($fn as $p) {

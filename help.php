@@ -1,18 +1,13 @@
 <?php
-require_once("docutil.php");
 require_once("../inc/spoken_languages.inc");
 require_once("../inc/help_db.inc");
 require_once("../inc/translation.inc");
+require_once("../inc/util.inc");
 
-old_page_head(tra("Live help via Skype or email"));
-
+page_head(tra("Live help via Skype or email"));
+text_start();
 echo "
 <p>
-<i>
-April 2023: The Skype APIs that this relies on no longer work.
-Microsoft seems to be letting Skype die.
-So Live Help is no longer available.
-</i>
 <p>
 ".tra("BOINC Live Help lets you get one-on-one help from an experienced BOINC user who can answer questions about BOINC, help you install BOINC, and troubleshoot problems.")."
 </ul>
@@ -60,5 +55,6 @@ echo "
     "</a>"
 )."
 ";
-old_page_tail();
+text_end();
+page_tail();
 ?>

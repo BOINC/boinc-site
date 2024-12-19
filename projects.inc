@@ -296,18 +296,18 @@ $astro_phys_chem = array(
 //            "Study the evolution of the Universe",
 //            array(KW_ASTRONOMY, KW_COSMOLOGY, KW_AMERICAS, KW_US, KW_U_ILLINOIS)
 //        ),
-        project(
-            PROJ_UNIVERSE,
-            "Universe@Home",
-            "https://universeathome.pl/universe/",
-            "University of Warsaw",
-            tra("Astronomy"),
-            tra("Universe@Home aims to create the first database of the simulated stellar content of the Universe, from the earliest stars to the most exotic black hole binaries."),
-            "universe_at_home.png",
-            "",
-            tra("Do research in physics and astronomy"),
-            array(KW_ASTRONOMY, KW_EUROPE, KW_POLAND, KW_U_WARSAW)
-        ),
+//        project(
+//            PROJ_UNIVERSE,
+//            "Universe@Home",
+//            "https://universeathome.pl/universe/",
+//            "University of Warsaw",
+//            tra("Astronomy"),
+//            tra("Universe@Home aims to create the first database of the simulated stellar content of the Universe, from the earliest stars to the most exotic black hole binaries."),
+//            "universe_at_home.png",
+//            "",
+//            tra("Do research in physics and astronomy"),
+//            array(KW_ASTRONOMY, KW_EUROPE, KW_POLAND, KW_U_WARSAW)
+//        ),
         project(
             PROJ_MILKYWAY,
             "Milkyway@home",
