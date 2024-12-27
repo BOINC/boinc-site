@@ -3949,6 +3949,7 @@ SN  - 2050-084X
 UR  - https://doi.org/10.7554/eLife.09248
 Y2  - 2022/11/13/19:11:55
 L1  - https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvMDkyNDgvZWxpZmUtMDkyNDgtdjIucGRmP2Nhbm9uaWNhbFVyaT1odHRwczovL2VsaWZlc2NpZW5jZXMub3JnL2FydGljbGVzLzA5MjQ4/elife-09248-v2.pdf?_hash=b5OMNnHWcgylAwVTf%2BmuqOxp8gvkcJZJ3PF2nwTGrmM%3D
+L1  - https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvMDkyNDgvZWxpZmUtMDkyNDgtdjIucGRmP2Nhbm9uaWNhbFVyaT1odHRwczovL2VsaWZlc2NpZW5jZXMub3JnL2FydGljbGVzLzA5MjQ4/elife-09248-v2.pdf?_hash=b5OMNnHWcgylAwVTf%2BmuqOxp8gvkcJZJ3PF2nwTGrmM%3D
 KW  - structure prediction
 KW  - co-evolution
 KW  - protein family
@@ -5460,48 +5461,6 @@ Y2  - 2022/11/13/19:25:16
 L1  - https://europepmc.org/articles/pmc4581533?pdf=render
 ER  - 
 
-TY  - JOUR
-TI  - De novo design of modular peptide-binding proteins by superhelical matching
-AU  - Wu, Kejia
-AU  - Bai, Hua
-AU  - Chang, Ya-Ting
-AU  - Redler, Rachel
-AU  - McNally, Kerrie E.
-AU  - Sheffler, William
-AU  - Brunette, T. J.
-AU  - Hicks, Derrick R.
-AU  - Morgan, Tomos E.
-AU  - Stevens, Tim J.
-AU  - Broerman, Adam
-AU  - Goreshnik, Inna
-AU  - DeWitt, Michelle
-AU  - Chow, Cameron M.
-AU  - Shen, Yihang
-AU  - Stewart, Lance
-AU  - Derivery, Emmanuel
-AU  - Silva, Daniel Adriano
-AU  - Bhabha, Gira
-AU  - Ekiert, Damian C.
-AU  - Baker, David
-T2  - Nature
-AB  - General approaches for designing sequence-specific peptide-binding proteins would have wide utility in proteomics and synthetic biology. However, designing peptide-binding proteins is challenging, as most peptides do not have defined structures in isolation, and hydrogen bonds must be made to the buried polar groups in the peptide backbone1–3. Here, inspired by natural and re-engineered protein–peptide systems4–11, we set out to design proteins made out of repeating units that bind peptides with repeating sequences, with a one-to-one correspondence between the repeat units of the protein and those of the peptide. We use geometric hashing to identify protein backbones and peptide-docking arrangements that are compatible with bidentate hydrogen bonds between the side chains of the protein and the peptide backbone12. The remainder of the protein sequence is then optimized for folding and peptide binding. We design repeat proteins to bind to six different tripeptide-repeat sequences in polyproline II conformations. The proteins are hyperstable and bind to four to six tandem repeats of their tripeptide targets with nanomolar to picomolar affinities in vitro and in living cells. Crystal structures reveal repeating interactions between protein and peptide interactions as designed, including ladders of hydrogen bonds from protein side chains to peptide backbones. By redesigning the binding interfaces of individual repeat units, specificity can be achieved for non-repeating peptide sequences and for disordered regions of native proteins.
-DA  - 2023/04//
-PY  - 2023
-DO  - 10.1038/s41586-023-05909-9
-DP  - www.nature.com
-VL  - 616
-IS  - 7957
-SP  - 581
-EP  - 589
-LA  - en
-SN  - 1476-4687
-UR  - https://www.nature.com/articles/s41586-023-05909-9
-Y2  - 2023/06/18/12:29:31
-L1  - https://www.nature.com/articles/s41586-023-05909-9.pdf
-KW  - Proteins
-KW  - Protein design
-ER  - 
-
 TY  - RPRT
 TI  - Cyclic peptide structure prediction and design using AlphaFold
 AU  - Rettie, Stephen A.
@@ -5529,96 +5488,6 @@ PB  - Biochemistry
 UR  - http://biorxiv.org/lookup/doi/10.1101/2023.02.25.529956
 Y2  - 2023/06/18/13:43:56
 L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9980166/pdf/nihpp-2023.02.25.529956v1.pdf
-ER  - 
-
-TY  - JOUR
-TI  - De novo design of small beta barrel proteins
-AU  - Kim, David E.
-AU  - Jensen, Davin R.
-AU  - Feldman, David
-AU  - Tischer, Doug
-AU  - Saleem, Ayesha
-AU  - Chow, Cameron M.
-AU  - Li, Xinting
-AU  - Carter, Lauren
-AU  - Milles, Lukas
-AU  - Nguyen, Hannah
-AU  - Kang, Alex
-AU  - Bera, Asim K.
-AU  - Peterson, Francis C.
-AU  - Volkman, Brian F.
-AU  - Ovchinnikov, Sergey
-AU  - Baker, David
-T2  - Proceedings of the National Academy of Sciences
-AB  - Small beta barrel proteins are attractive targets for computational design because of their considerable functional diversity despite their very small size (<70 amino acids). However, there are considerable challenges to designing such structures, and there has been little success thus far. Because of the small size, the hydrophobic core stabilizing the fold is necessarily very small, and the conformational strain of barrel closure can oppose folding; also intermolecular aggregation through free beta strand edges can compete with proper monomer folding. Here, we explore the de novo design of small beta barrel topologies using both Rosetta energy–based methods and deep learning approaches to design four small beta barrel folds: Src homology 3 (SH3) and oligonucleotide/oligosaccharide-binding (OB) topologies found in nature and five and six up-and-down-stranded barrels rarely if ever seen in nature. Both approaches yielded successful designs with high thermal stability and experimentally determined structures with less than 2.4 Å rmsd from the designed models. Using deep learning for backbone generation and Rosetta for sequence design yielded higher design success rates and increased structural diversity than Rosetta alone. The ability to design a large and structurally diverse set of small beta barrel proteins greatly increases the protein shape space available for designing binders to protein targets of interest.
-DA  - 2023/03/14/
-PY  - 2023
-DO  - 10.1073/pnas.2207974120
-DP  - pnas.org (Atypon)
-VL  - 120
-IS  - 11
-SP  - e2207974120
-UR  - https://www.pnas.org/doi/10.1073/pnas.2207974120
-Y2  - 2023/06/18/13:45:28
-L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2207974120
-ER  - 
-
-TY  - RPRT
-TI  - <i>De novo</i> design of highly selective miniprotein inhibitors of integrins αvβ6 and αvβ8
-AU  - Roy, Anindya
-AU  - Shi, Lei
-AU  - Chang, Ashley
-AU  - Dong, Xianchi
-AU  - Fernandez, Andres
-AU  - Kraft, John C.
-AU  - Li, Jing
-AU  - Le, Viet Q.
-AU  - Winegar, Rebecca Viazzo
-AU  - Cherf, Gerald Maxwell
-AU  - Slocum, Dean
-AU  - Poulson, P. Daniel
-AU  - Casper, Garrett E.
-AU  - Vallecillo-Zúniga, Mary L.
-AU  - Valdoz, Jonard Corpuz
-AU  - Miranda, Marcos C.
-AU  - Bai, Hua
-AU  - Kipnis, Yakov
-AU  - Olshefsky, Audrey
-AU  - Priya, Tanu
-AU  - Carter, Lauren
-AU  - Ravichandran, Rashmi
-AU  - Chow, Cameron M.
-AU  - Johnson, Max R.
-AU  - Cheng, Suna
-AU  - Smith, McKaela
-AU  - Overed-Sayer, Catherine
-AU  - Finch, Donna K.
-AU  - Lowe, David
-AU  - Bera, Asim K.
-AU  - Matute-Bello, Gustavo
-AU  - Birkland, Timothy P
-AU  - DiMaio, Frank
-AU  - Raghu, Ganesh
-AU  - Cochran, Jennifer R.
-AU  - Stewart, Lance J.
-AU  - Campbell, Melody G.
-AU  - Van Ry, Pam M.
-AU  - Springer, Timothy
-AU  - Baker, David
-AB  - Abstract
-          
-            The RGD (Arg-Gly-Asp)-binding integrins αvβ6 and αvβ8 are clinically validated cancer and fibrosis targets of considerable therapeutic importance. Compounds that can discriminate between the two closely related integrin proteins and other RGD integrins, stabilize specific conformational states, and have sufficient stability enabling tissue restricted administration could have considerable therapeutic utility. Existing small molecules and antibody inhibitors do not have all of these properties, and hence there is a need for new approaches. Here we describe a method for computationally designing hyperstable RGD-containing miniproteins that are highly selective for a single RGD integrin heterodimer and conformational state, and use this strategy to design inhibitors of αvβ6 and αvβ8 with high selectivity. The αvβ6 and αvβ8 inhibitors have picomolar affinities for their targets, and >1000-fold selectivity over other RGD integrins. CryoEM structures are within 0.6-0.7Å root-mean-square deviation (RMSD) to the computational design models; the designed αvβ6 inhibitor and native ligand stabilize the open conformation in contrast to the therapeutic anti-αvβ6 antibody BG00011 that stabilizes the bent-closed conformation and caused on-target toxicity in patients with lung fibrosis, and the αvβ8 inhibitor maintains the constitutively fixed extended-closed αvβ8 conformation. In a mouse model of bleomycin-induced lung fibrosis, the αvβ6 inhibitor potently reduced fibrotic burden and improved overall lung mechanics when delivered via oropharyngeal administration mimicking inhalation, demonstrating the therapeutic potential of
-            de novo
-            designed integrin binding proteins with high selectivity.
-DA  - 2023/06/12/
-PY  - 2023
-DP  - DOI.org (Crossref)
-LA  - en
-M3  - preprint
-PB  - Biochemistry
-UR  - http://biorxiv.org/lookup/doi/10.1101/2023.06.12.544624
-Y2  - 2023/06/20/11:45:04
-L1  - https://www.biorxiv.org/content/biorxiv/early/2023/06/12/2023.06.12.544624.full.pdf
 ER  - 
 
 TY  - RPRT
@@ -5691,5 +5560,2169 @@ SN  - 0036-8075, 1095-9203
 UR  - https://www.science.org/doi/10.1126/science.aaw6718
 Y2  - 2024/05/19/20:55:31
 L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6948103/pdf/nihms-1054383.pdf
+ER  - 
+
+TY  - JOUR
+TI  - An artificial intelligence accelerated virtual screening platform for drug discovery
+AU  - Zhou, Guangfeng
+AU  - Rusnac, Domnita-Valeria
+AU  - Park, Hahnbeom
+AU  - Canzani, Daniele
+AU  - Nguyen, Hai Minh
+AU  - Stewart, Lance
+AU  - Bush, Matthew F.
+AU  - Nguyen, Phuong Tran
+AU  - Wulff, Heike
+AU  - Yarov-Yarovoy, Vladimir
+AU  - Zheng, Ning
+AU  - DiMaio, Frank
+T2  - Nature Communications
+AB  - Abstract
+            
+              Structure-based virtual screening is a key tool in early drug discovery, with growing interest in the screening of multi-billion chemical compound libraries. However, the success of virtual screening crucially depends on the accuracy of the binding pose and binding affinity predicted by computational docking. Here we develop a highly accurate structure-based virtual screen method, RosettaVS, for predicting docking poses and binding affinities. Our approach outperforms other state-of-the-art methods on a wide range of benchmarks, partially due to our ability to model receptor flexibility. We incorporate this into a new open-source artificial intelligence accelerated virtual screening platform for drug discovery. Using this platform, we screen multi-billion compound libraries against two unrelated targets, a ubiquitin ligase target KLHDC2 and the human voltage-gated sodium channel Na
+              V
+              1.7. For both targets, we discover hit compounds, including seven hits (14% hit rate) to KLHDC2 and four hits (44% hit rate) to Na
+              V
+              1.7, all with single digit micromolar binding affinities. Screening in both cases is completed in less than seven days. Finally, a high resolution X-ray crystallographic structure validates the predicted docking pose for the KLHDC2 ligand complex, demonstrating the effectiveness of our method in lead discovery.
+DA  - 2024/09/05/
+PY  - 2024
+DO  - 10.1038/s41467-024-52061-7
+DP  - DOI.org (Crossref)
+VL  - 15
+IS  - 1
+SP  - 7761
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/s41467-024-52061-7
+Y2  - 2024/12/22/21:23:17
+ER  - 
+
+TY  - JOUR
+TI  - Hierarchical design of pseudosymmetric protein nanocages
+AU  - Dowling, Quinton M.
+AU  - Park, Young-Jun
+AU  - Fries, Chelsea N.
+AU  - Gerstenmaier, Neil C.
+AU  - Ols, Sebastian
+AU  - Yang, Erin C.
+AU  - Wargacki, Adam J.
+AU  - Dosey, Annie
+AU  - Hsia, Yang
+AU  - Ravichandran, Rashmi
+AU  - Walkey, Carl D.
+AU  - Burrell, Anika L.
+AU  - Veesler, David
+AU  - Baker, David
+AU  - King, Neil P.
+T2  - Nature
+AB  - Abstract
+            
+              Discrete protein assemblies ranging from hundreds of kilodaltons to hundreds of megadaltons in size are a ubiquitous feature of biological systems and perform highly specialized functions
+              1,2
+              . Despite remarkable recent progress in accurately designing new self-assembling proteins, the size and complexity of these assemblies has been limited by a reliance on strict symmetry
+              3
+              . Here, inspired by the pseudosymmetry observed in bacterial microcompartments and viral capsids, we developed a hierarchical computational method for designing large pseudosymmetric self-assembling protein nanomaterials. We computationally designed pseudosymmetric heterooligomeric components and used them to create discrete, cage-like protein assemblies with icosahedral symmetry containing 240, 540 and 960 subunits. At 49, 71 and 96 nm diameter, these nanocages are the largest bounded computationally designed protein assemblies generated to date. More broadly, by moving beyond strict symmetry, our work substantially broadens the variety of self-assembling protein architectures that are accessible through design.
+DA  - 2024/12/18/
+PY  - 2024
+DO  - 10.1038/s41586-024-08360-6
+DP  - DOI.org (Crossref)
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - https://www.nature.com/articles/s41586-024-08360-6
+Y2  - 2024/12/26/13:53:08
+ER  - 
+
+TY  - JOUR
+TI  - Design of pseudosymmetric protein hetero-oligomers
+AU  - Kibler, Ryan D.
+AU  - Lee, Sangmin
+AU  - Kennedy, Madison A.
+AU  - Wicky, Basile I. M.
+AU  - Lai, Stella M.
+AU  - Kostelic, Marius M.
+AU  - Carr, Ann
+AU  - Li, Xinting
+AU  - Chow, Cameron M.
+AU  - Nguyen, Tina K.
+AU  - Carter, Lauren
+AU  - Wysocki, Vicki H.
+AU  - Stoddard, Barry L.
+AU  - Baker, David
+T2  - Nature Communications
+DA  - 2024/12/18/
+PY  - 2024
+DO  - 10.1038/s41467-024-54913-8
+DP  - DOI.org (Crossref)
+VL  - 15
+IS  - 1
+SP  - 10684
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/s41467-024-54913-8
+Y2  - 2024/12/26/14:01:54
+ER  - 
+
+TY  - JOUR
+TI  - Designed endocytosis-inducing proteins degrade targets and amplify signals
+AU  - Huang, Buwei
+AU  - Abedi, Mohamad
+AU  - Ahn, Green
+AU  - Coventry, Brian
+AU  - Sappington, Isaac
+AU  - Tang, Cong
+AU  - Wang, Rong
+AU  - Schlichthaerle, Thomas
+AU  - Zhang, Jason Z.
+AU  - Wang, Yujia
+AU  - Goreshnik, Inna
+AU  - Chiu, Ching Wen
+AU  - Chazin-Gray, Adam
+AU  - Chan, Sidney
+AU  - Gerben, Stacey
+AU  - Murray, Analisa
+AU  - Wang, Shunzhi
+AU  - O’Neill, Jason
+AU  - Yi, Li
+AU  - Yeh, Ronald
+AU  - Misquith, Ayesha
+AU  - Wolf, Anitra
+AU  - Tomasovic, Luke M.
+AU  - Piraner, Dan I.
+AU  - Duran Gonzalez, Maria J.
+AU  - Bennett, Nathaniel R.
+AU  - Venkatesh, Preetham
+AU  - Ahlrichs, Maggie
+AU  - Dobbins, Craig
+AU  - Yang, Wei
+AU  - Wang, Xinru
+AU  - Sahtoe, Danny D.
+AU  - Vafeados, Dionne
+AU  - Mout, Rubul
+AU  - Shivaei, Shirin
+AU  - Cao, Longxing
+AU  - Carter, Lauren
+AU  - Stewart, Lance
+AU  - Spangler, Jamie B.
+AU  - Roybal, Kole T.
+AU  - Greisen, Per Jr
+AU  - Li, Xiaochun
+AU  - Bernardes, Gonçalo J. L.
+AU  - Bertozzi, Carolyn R.
+AU  - Baker, David
+T2  - Nature
+DA  - 2024/09/25/
+PY  - 2024
+DO  - 10.1038/s41586-024-07948-2
+DP  - DOI.org (Crossref)
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - https://www.nature.com/articles/s41586-024-07948-2
+Y2  - 2024/12/26/14:15:57
+L1  - https://www.nature.com/articles/s41586-024-07948-2.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Multistate and functional protein design using RoseTTAFold sequence space diffusion
+AU  - Lisanza, Sidney Lyayuga
+AU  - Gershon, Jacob Merle
+AU  - Tipps, Samuel W. K.
+AU  - Sims, Jeremiah Nelson
+AU  - Arnoldt, Lucas
+AU  - Hendel, Samuel J.
+AU  - Simma, Miriam K.
+AU  - Liu, Ge
+AU  - Yase, Muna
+AU  - Wu, Hongwei
+AU  - Tharp, Claire D.
+AU  - Li, Xinting
+AU  - Kang, Alex
+AU  - Brackenbrough, Evans
+AU  - Bera, Asim K.
+AU  - Gerben, Stacey
+AU  - Wittmann, Bruce J.
+AU  - McShan, Andrew C.
+AU  - Baker, David
+T2  - Nature Biotechnology
+DA  - 2024/09/25/
+PY  - 2024
+DO  - 10.1038/s41587-024-02395-w
+DP  - DOI.org (Crossref)
+J2  - Nat Biotechnol
+LA  - en
+SN  - 1087-0156, 1546-1696
+UR  - https://www.nature.com/articles/s41587-024-02395-w
+Y2  - 2024/12/26/14:23:50
+L1  - https://www.nature.com/articles/s41587-024-02395-w.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Protein interactions in human pathogens revealed through deep learning
+AU  - Humphreys, Ian R.
+AU  - Zhang, Jing
+AU  - Baek, Minkyung
+AU  - Wang, Yaxi
+AU  - Krishnakumar, Aditya
+AU  - Pei, Jimin
+AU  - Anishchenko, Ivan
+AU  - Tower, Catherine A.
+AU  - Jackson, Blake A.
+AU  - Warrier, Thulasi
+AU  - Hung, Deborah T.
+AU  - Peterson, S. Brook
+AU  - Mougous, Joseph D.
+AU  - Cong, Qian
+AU  - Baker, David
+T2  - Nature Microbiology
+DA  - 2024/09/18/
+PY  - 2024
+DO  - 10.1038/s41564-024-01791-x
+DP  - DOI.org (Crossref)
+VL  - 9
+IS  - 10
+SP  - 2642
+EP  - 2652
+J2  - Nat Microbiol
+LA  - en
+SN  - 2058-5276
+UR  - https://www.nature.com/articles/s41564-024-01791-x
+Y2  - 2024/12/26/14:42:44
+L1  - https://www.nature.com/articles/s41564-024-01791-x.pdf
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of miniprotein antagonists of cytokine storm inducers
+AU  - Huang, Buwei
+AU  - Coventry, Brian
+AU  - Borowska, Marta T.
+AU  - Arhontoulis, Dimitrios C.
+AU  - Exposit, Marc
+AU  - Abedi, Mohamad
+AU  - Jude, Kevin M.
+AU  - Halabiya, Samer F.
+AU  - Allen, Aza
+AU  - Cordray, Cami
+AU  - Goreshnik, Inna
+AU  - Ahlrichs, Maggie
+AU  - Chan, Sidney
+AU  - Tunggal, Hillary
+AU  - DeWitt, Michelle
+AU  - Hyams, Nathaniel
+AU  - Carter, Lauren
+AU  - Stewart, Lance
+AU  - Fuller, Deborah H.
+AU  - Mei, Ying
+AU  - Garcia, K. Christopher
+AU  - Baker, David
+T2  - Nature Communications
+DA  - 2024/08/16/
+PY  - 2024
+DO  - 10.1038/s41467-024-50919-4
+DP  - DOI.org (Crossref)
+VL  - 15
+IS  - 1
+SP  - 7064
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/s41467-024-50919-4
+Y2  - 2024/12/26/14:49:04
+L1  - https://www.nature.com/articles/s41467-024-50919-4.pdf
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of allosterically switchable protein assemblies
+AU  - Pillai, Arvind
+AU  - Idris, Abbas
+AU  - Philomin, Annika
+AU  - Weidle, Connor
+AU  - Skotheim, Rebecca
+AU  - Leung, Philip J. Y.
+AU  - Broerman, Adam
+AU  - Demakis, Cullen
+AU  - Borst, Andrew J.
+AU  - Praetorius, Florian
+AU  - Baker, David
+T2  - Nature
+DA  - 2024/08/22/
+PY  - 2024
+DO  - 10.1038/s41586-024-07813-2
+DP  - DOI.org (Crossref)
+VL  - 632
+IS  - 8026
+SP  - 911
+EP  - 920
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - https://www.nature.com/articles/s41586-024-07813-2
+Y2  - 2024/12/26/14:51:00
+L1  - https://www.nature.com/articles/s41586-024-07813-2.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Preclinical proof of principle for orally delivered Th17 antagonist miniproteins
+AU  - Berger, Stephanie
+AU  - Seeger, Franziska
+AU  - Yu, Ta-Yi
+AU  - Aydin, Merve
+AU  - Yang, Huilin
+AU  - Rosenblum, Daniel
+AU  - Guenin-Macé, Laure
+AU  - Glassman, Caleb
+AU  - Arguinchona, Lauren
+AU  - Sniezek, Catherine
+AU  - Blackstone, Alyssa
+AU  - Carter, Lauren
+AU  - Ravichandran, Rashmi
+AU  - Ahlrichs, Maggie
+AU  - Murphy, Michael
+AU  - Pultz, Ingrid Swanson
+AU  - Kang, Alex
+AU  - Bera, Asim K.
+AU  - Stewart, Lance
+AU  - Garcia, K. Christopher
+AU  - Naik, Shruti
+AU  - Spangler, Jamie B.
+AU  - Beigel, Florian
+AU  - Siebeck, Matthias
+AU  - Gropp, Roswitha
+AU  - Baker, David
+T2  - Cell
+DA  - 2024/08/08/
+PY  - 2024
+DO  - 10.1016/j.cell.2024.05.052
+VL  - 187
+IS  - 16
+SP  - 4305
+EP  - 4317.e18
+SN  - 0092-8674
+UR  - https://doi.org/10.1016/j.cell.2024.05.052
+Y2  - 2024/12/26/
+ER  - 
+
+TY  - JOUR
+TI  - Modulation of FGF pathway signaling and vascular differentiation using designed oligomeric assemblies
+AU  - Edman, Natasha I.
+AU  - Phal, Ashish
+AU  - Redler, Rachel L.
+AU  - Schlichthaerle, Thomas
+AU  - Srivatsan, Sanjay R.
+AU  - Ehnes, Devon Duron
+AU  - Etemadi, Ali
+AU  - An, Seong J.
+AU  - Favor, Andrew
+AU  - Li, Zhe
+AU  - Praetorius, Florian
+AU  - Gordon, Max
+AU  - Vincent, Thomas
+AU  - Marchiano, Silvia
+AU  - Blakely, Leslie
+AU  - Lin, Chuwei
+AU  - Yang, Wei
+AU  - Coventry, Brian
+AU  - Hicks, Derrick R.
+AU  - Cao, Longxing
+AU  - Bethel, Neville
+AU  - Heine, Piper
+AU  - Murray, Analisa
+AU  - Gerben, Stacey
+AU  - Carter, Lauren
+AU  - Miranda, Marcos
+AU  - Negahdari, Babak
+AU  - Lee, Sangwon
+AU  - Trapnell, Cole
+AU  - Zheng, Ying
+AU  - Murry, Charles E.
+AU  - Schweppe, Devin K.
+AU  - Freedman, Benjamin S.
+AU  - Stewart, Lance
+AU  - Ekiert, Damian C.
+AU  - Schlessinger, Joseph
+AU  - Shendure, Jay
+AU  - Bhabha, Gira
+AU  - Ruohola-Baker, Hannele
+AU  - Baker, David
+T2  - Cell
+AB  - Summary
+Many growth factors and cytokines signal by binding to the extracellular domains of their receptors and driving association and transphosphorylation of the receptor intracellular tyrosine kinase domains, initiating downstream signaling cascades. To enable systematic exploration of how receptor valency and geometry affect signaling outcomes, we designed cyclic homo-oligomers with up to 8 subunits using repeat protein building blocks that can be modularly extended. By incorporating a de novo-designed fibroblast growth factor receptor (FGFR)-binding module into these scaffolds, we generated a series of synthetic signaling ligands that exhibit potent valency- and geometry-dependent Ca2+ release and mitogen-activated protein kinase (MAPK) pathway activation. The high specificity of the designed agonists reveals distinct roles for two FGFR splice variants in driving arterial endothelium and perivascular cell fates during early vascular development. Our designed modular assemblies should be broadly useful for unraveling the complexities of signaling in key developmental transitions and for developing future therapeutic applications.
+DA  - 2024/07/11/
+PY  - 2024
+DO  - 10.1016/j.cell.2024.05.025
+VL  - 187
+IS  - 14
+SP  - 3726
+EP  - 3740.e43
+J2  - Cell
+SN  - 0092-8674
+UR  - https://www.sciencedirect.com/science/article/pii/S0092867424005348
+KW  - binder design
+KW  - cryo-EM
+KW  - endothelial cell differentiation
+KW  - FGF signaling
+KW  - iPSCs
+KW  - oligomeric scaffolds
+KW  - protein design
+KW  - vascular development
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of buttressed loops for sculpting protein functions
+AU  - Jiang, Hanlun
+AU  - Jude, Kevin M.
+AU  - Wu, Kejia
+AU  - Fallas, Jorge
+AU  - Ueda, George
+AU  - Brunette, T. J.
+AU  - Hicks, Derrick R.
+AU  - Pyles, Harley
+AU  - Yang, Aerin
+AU  - Carter, Lauren
+AU  - Lamb, Mila
+AU  - Li, Xinting
+AU  - Levine, Paul M.
+AU  - Stewart, Lance
+AU  - Garcia, K. Christopher
+AU  - Baker, David
+T2  - Nature Chemical Biology
+AB  - Abstract
+            In natural proteins, structured loops have central roles in molecular recognition, signal transduction and enzyme catalysis. However, because of the intrinsic flexibility and irregularity of loop regions, organizing multiple structured loops at protein functional sites has been very difficult to achieve by de novo protein design. Here we describe a solution to this problem that designs tandem repeat proteins with structured loops (9–14 residues) buttressed by extensive hydrogen bonding interactions. Experimental characterization shows that the designs are monodisperse, highly soluble, folded and thermally stable. Crystal structures are in close agreement with the design models, with the loops structured and buttressed as designed. We demonstrate the functionality afforded by loop buttressing by designing and characterizing binders for extended peptides in which the loops form one side of an extended binding pocket. The ability to design multiple structured loops should contribute generally to efforts to design new protein functions.
+DA  - 2024/08//
+PY  - 2024
+DO  - 10.1038/s41589-024-01632-2
+DP  - DOI.org (Crossref)
+VL  - 20
+IS  - 8
+SP  - 974
+EP  - 980
+J2  - Nat Chem Biol
+LA  - en
+SN  - 1552-4450, 1552-4469
+UR  - https://www.nature.com/articles/s41589-024-01632-2
+Y2  - 2024/12/26/15:03:51
+L1  - https://www.nature.com/articles/s41589-024-01632-2.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Computational design of non-porous pH-responsive antibody nanoparticles
+AU  - Yang, Erin C.
+AU  - Divine, Robby
+AU  - Miranda, Marcos C.
+AU  - Borst, Andrew J.
+AU  - Sheffler, Will
+AU  - Zhang, Jason Z.
+AU  - Decarreau, Justin
+AU  - Saragovi, Amijai
+AU  - Abedi, Mohamad
+AU  - Goldbach, Nicolas
+AU  - Ahlrichs, Maggie
+AU  - Dobbins, Craig
+AU  - Hand, Alexis
+AU  - Cheng, Suna
+AU  - Lamb, Mila
+AU  - Levine, Paul M.
+AU  - Chan, Sidney
+AU  - Skotheim, Rebecca
+AU  - Fallas, Jorge
+AU  - Ueda, George
+AU  - Lubner, Joshua
+AU  - Somiya, Masaharu
+AU  - Khmelinskaia, Alena
+AU  - King, Neil P.
+AU  - Baker, David
+T2  - Nature Structural & Molecular Biology
+AB  - Abstract
+            Programming protein nanomaterials to respond to changes in environmental conditions is a current challenge for protein design and is important for targeted delivery of biologics. Here we describe the design of octahedral non-porous nanoparticles with a targeting antibody on the two-fold symmetry axis, a designed trimer programmed to disassemble below a tunable pH transition point on the three-fold axis, and a designed tetramer on the four-fold symmetry axis. Designed non-covalent interfaces guide cooperative nanoparticle assembly from independently purified components, and a cryo-EM density map closely matches the computational design model. The designed nanoparticles can package protein and nucleic acid payloads, are endocytosed following antibody-mediated targeting of cell surface receptors, and undergo tunable pH-dependent disassembly at pH values ranging between 5.9 and 6.7. The ability to incorporate almost any antibody into a non-porous pH-dependent nanoparticle opens up new routes to antibody-directed targeted delivery.
+DA  - 2024/09//
+PY  - 2024
+DO  - 10.1038/s41594-024-01288-5
+DP  - DOI.org (Crossref)
+VL  - 31
+IS  - 9
+SP  - 1404
+EP  - 1412
+J2  - Nat Struct Mol Biol
+LA  - en
+SN  - 1545-9993, 1545-9985
+UR  - https://www.nature.com/articles/s41594-024-01288-5
+Y2  - 2024/12/26/15:05:37
+L1  - https://www.nature.com/articles/s41594-024-01288-5.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Computational Design of Cyclic Peptide Inhibitors of a Bacterial Membrane Lipoprotein Peptidase
+AU  - Craven, Timothy W.
+AU  - Nolan, Mark D.
+AU  - Bailey, Jonathan
+AU  - Olatunji, Samir
+AU  - Bann, Samantha J.
+AU  - Bowen, Katherine
+AU  - Ostrovitsa, Nikita
+AU  - Da Costa, Thaina M.
+AU  - Ballantine, Ross D.
+AU  - Weichert, Dietmar
+AU  - Levine, Paul M.
+AU  - Stewart, Lance J.
+AU  - Bhardwaj, Gaurav
+AU  - Geoghegan, Joan A.
+AU  - Cochrane, Stephen A.
+AU  - Scanlan, Eoin M.
+AU  - Caffrey, Martin
+AU  - Baker, David
+T2  - ACS Chemical Biology
+DA  - 2024/05/17/
+PY  - 2024
+DO  - 10.1021/acschembio.4c00076
+VL  - 19
+IS  - 5
+SP  - 1125
+EP  - 1130
+J2  - ACS Chem. Biol.
+SN  - 1554-8929
+UR  - https://doi.org/10.1021/acschembio.4c00076
+ER  - 
+
+TY  - JOUR
+TI  - Expansive discovery of chemically diverse structured macrocyclic oligoamides
+AU  - Salveson, Patrick J.
+AU  - Moyer, Adam P.
+AU  - Said, Meerit Y.
+AU  - Gӧkçe, Gizem
+AU  - Li, Xinting
+AU  - Kang, Alex
+AU  - Nguyen, Hannah
+AU  - Bera, Asim K.
+AU  - Levine, Paul M.
+AU  - Bhardwaj, Gaurav
+AU  - Baker, David
+T2  - Science
+AB  - Small macrocycles with four or fewer amino acids are among the most potent natural products known, but there is currently no way to systematically generate such compounds. We describe a computational method for identifying ordered macrocycles composed of alpha, beta, gamma, and 17 other amino acid backbone chemistries, which we used to predict 14.9 million closed cycles composed of >42,000 monomer combinations. We chemically synthesized 18 macrocycles predicted to adopt single low-energy states and determined their x-ray or nuclear magnetic resonance structures; 15 of these were very close to the design models. We illustrate the therapeutic potential of these macrocycle designs by developing selective inhibitors of three protein targets of current interest. By opening up a vast space of readily synthesizable drug-like macrocycles, our results should considerably enhance structure-based drug design.
+          , 
+            Editor’s summary
+            
+              Small cyclic peptides, or macrocycles, are a common structural class for natural products because their constrained flexibility facilitates binding to other biological molecules. Salveson
+              et al
+              . used a deep neural network to generate energy surfaces and extract low-energy conformations for macrocycles built from a combination of 130 amino acids across 22 different backbone chemistries. They used this data to identify nearly 15 million combinations that lead to closed macrocycles and characterized the predictions experimentally. Using motif scaffolding based on peptide fragments, the authors generated macrocyclic binders to two enzymes. They also developed a protein-protein interaction inhibitor by virtual screening of the predicted macrocycles. —Michael A. Funk
+DA  - 2024/04/26/
+PY  - 2024
+DO  - 10.1126/science.adk1687
+DP  - DOI.org (Crossref)
+VL  - 384
+IS  - 6694
+SP  - 420
+EP  - 428
+J2  - Science
+LA  - en
+SN  - 0036-8075, 1095-9203
+UR  - https://www.science.org/doi/10.1126/science.adk1687
+Y2  - 2024/12/26/15:33:14
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of pH-responsive self-assembling helical protein filaments
+AU  - Shen, Hao
+AU  - Lynch, Eric M.
+AU  - Akkineni, Susrut
+AU  - Watson, Joseph L.
+AU  - Decarreau, Justin
+AU  - Bethel, Neville P.
+AU  - Benna, Issa
+AU  - Sheffler, William
+AU  - Farrell, Daniel
+AU  - DiMaio, Frank
+AU  - Derivery, Emmanuel
+AU  - De Yoreo, James J.
+AU  - Kollman, Justin
+AU  - Baker, David
+T2  - Nature Nanotechnology
+AB  - Abstract
+            Biological evolution has led to precise and dynamic nanostructures that reconfigure in response to pH and other environmental conditions. However, designing micrometre-scale protein nanostructures that are environmentally responsive remains a challenge. Here we describe the de novo design of pH-responsive protein filaments built from subunits containing six or nine buried histidine residues that assemble into micrometre-scale, well-ordered fibres at neutral pH. The cryogenic electron microscopy structure of an optimized design is nearly identical to the computational design model for both the subunit internal geometry and the subunit packing into the fibre. Electron, fluorescent and atomic force microscopy characterization reveal a sharp and reversible transition from assembled to disassembled fibres over 0.3 pH units, and rapid fibre disassembly in less than 1 s following a drop in pH. The midpoint of the transition can be tuned by modulating buried histidine-containing hydrogen bond networks. Computational protein design thus provides a route to creating unbound nanomaterials that rapidly respond to small pH changes.
+DA  - 2024/07//
+PY  - 2024
+DO  - 10.1038/s41565-024-01641-1
+DP  - DOI.org (Crossref)
+VL  - 19
+IS  - 7
+SP  - 1016
+EP  - 1021
+J2  - Nat. Nanotechnol.
+LA  - en
+SN  - 1748-3387, 1748-3395
+UR  - https://www.nature.com/articles/s41565-024-01641-1
+Y2  - 2024/12/26/15:34:43
+L1  - https://www.nature.com/articles/s41565-024-01641-1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Protein Ensemble Generation Through Variational Autoencoder Latent Space Sampling
+AU  - Mansoor, Sanaa
+AU  - Baek, Minkyung
+AU  - Park, Hahnbeom
+AU  - Lee, Gyu Rie
+AU  - Baker, David
+T2  - Journal of Chemical Theory and Computation
+DA  - 2024/04/09/
+PY  - 2024
+DO  - 10.1021/acs.jctc.3c01057
+DP  - DOI.org (Crossref)
+VL  - 20
+IS  - 7
+SP  - 2689
+EP  - 2695
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+UR  - https://pubs.acs.org/doi/10.1021/acs.jctc.3c01057
+Y2  - 2024/12/26/15:42:01
+L1  - https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.3c01057
+ER  - 
+
+TY  - JOUR
+TI  - Design of amyloidogenic peptide traps
+AU  - Sahtoe, Danny D.
+AU  - Andrzejewska, Ewa A.
+AU  - Han, Hannah L.
+AU  - Rennella, Enrico
+AU  - Schneider, Matthias M.
+AU  - Meisl, Georg
+AU  - Ahlrichs, Maggie
+AU  - Decarreau, Justin
+AU  - Nguyen, Hannah
+AU  - Kang, Alex
+AU  - Levine, Paul
+AU  - Lamb, Mila
+AU  - Li, Xinting
+AU  - Bera, Asim K.
+AU  - Kay, Lewis E.
+AU  - Knowles, Tuomas P. J.
+AU  - Baker, David
+T2  - Nature Chemical Biology
+AB  - Abstract
+            
+              Segments of proteins with high β-strand propensity can self-associate to form amyloid fibrils implicated in many diseases. We describe a general approach to bind such segments in β-strand and β-hairpin conformations using de novo designed scaffolds that contain deep peptide-binding clefts. The designs bind their cognate peptides in vitro with nanomolar affinities. The crystal structure of a designed protein−peptide complex is close to the design model, and NMR characterization reveals how the peptide-binding cleft is protected in the apo state. We use the approach to design binders to the amyloid-forming proteins transthyretin, tau, serum amyloid A1 and amyloid β
+              1−42
+              (Aβ42). The Aβ binders block the assembly of Aβ fibrils as effectively as the most potent of the clinically tested antibodies to date and protect cells from toxic Aβ42 species.
+DA  - 2024/08//
+PY  - 2024
+DO  - 10.1038/s41589-024-01578-5
+DP  - DOI.org (Crossref)
+VL  - 20
+IS  - 8
+SP  - 981
+EP  - 990
+J2  - Nat Chem Biol
+LA  - en
+SN  - 1552-4450, 1552-4469
+UR  - https://www.nature.com/articles/s41589-024-01578-5
+Y2  - 2024/12/26/15:44:14
+L1  - https://www.nature.com/articles/s41589-024-01578-5.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Blueprinting extendable nanomaterials with standardized protein blocks
+AU  - Huddy, Timothy F.
+AU  - Hsia, Yang
+AU  - Kibler, Ryan D.
+AU  - Xu, Jinwei
+AU  - Bethel, Neville
+AU  - Nagarajan, Deepesh
+AU  - Redler, Rachel
+AU  - Leung, Philip J. Y.
+AU  - Weidle, Connor
+AU  - Courbet, Alexis
+AU  - Yang, Erin C.
+AU  - Bera, Asim K.
+AU  - Coudray, Nicolas
+AU  - Calise, S. John
+AU  - Davila-Hernandez, Fatima A.
+AU  - Han, Hannah L.
+AU  - Carr, Kenneth D.
+AU  - Li, Zhe
+AU  - McHugh, Ryan
+AU  - Reggiano, Gabriella
+AU  - Kang, Alex
+AU  - Sankaran, Banumathi
+AU  - Dickinson, Miles S.
+AU  - Coventry, Brian
+AU  - Brunette, T. J.
+AU  - Liu, Yulai
+AU  - Dauparas, Justas
+AU  - Borst, Andrew J.
+AU  - Ekiert, Damian
+AU  - Kollman, Justin M.
+AU  - Bhabha, Gira
+AU  - Baker, David
+T2  - Nature
+AB  - Abstract
+            
+              A wooden house frame consists of many different lumber pieces, but because of the regularity of these building blocks, the structure can be designed using straightforward geometrical principles. The design of multicomponent protein assemblies, in comparison, has been much more complex, largely owing to the irregular shapes of protein structures
+              1
+              . Here we describe extendable linear, curved and angled protein building blocks, as well as inter-block interactions, that conform to specified geometric standards; assemblies designed using these blocks inherit their extendability and regular interaction surfaces, enabling them to be expanded or contracted by varying the number of modules, and reinforced with secondary struts. Using X-ray crystallography and electron microscopy, we validate nanomaterial designs ranging from simple polygonal and circular oligomers that can be concentrically nested, up to large polyhedral nanocages and unbounded straight ‘train track’ assemblies with reconfigurable sizes and geometries that can be readily blueprinted. Because of the complexity of protein structures and sequence–structure relationships, it has not previously been possible to build up large protein assemblies by deliberate placement of protein backbones onto a blank three-dimensional canvas; the simplicity and geometric regularity of our design platform now enables construction of protein nanomaterials according to ‘back of an envelope’ architectural blueprints.
+DA  - 2024/03/28/
+PY  - 2024
+DO  - 10.1038/s41586-024-07188-4
+DP  - DOI.org (Crossref)
+VL  - 627
+IS  - 8005
+SP  - 898
+EP  - 904
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - https://www.nature.com/articles/s41586-024-07188-4
+Y2  - 2024/12/26/15:58:19
+L1  - https://www.nature.com/articles/s41586-024-07188-4.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Generalized biomolecular modeling and design with RoseTTAFold All-Atom
+AU  - Krishna, Rohith
+AU  - Wang, Jue
+AU  - Ahern, Woody
+AU  - Sturmfels, Pascal
+AU  - Venkatesh, Preetham
+AU  - Kalvet, Indrek
+AU  - Lee, Gyu Rie
+AU  - Morey-Burrows, Felix S.
+AU  - Anishchenko, Ivan
+AU  - Humphreys, Ian R.
+AU  - McHugh, Ryan
+AU  - Vafeados, Dionne
+AU  - Li, Xinting
+AU  - Sutherland, George A.
+AU  - Hitchcock, Andrew
+AU  - Hunter, C. Neil
+AU  - Kang, Alex
+AU  - Brackenbrough, Evans
+AU  - Bera, Asim K.
+AU  - Baek, Minkyung
+AU  - DiMaio, Frank
+AU  - Baker, David
+T2  - Science
+AB  - Deep-learning methods have revolutionized protein structure prediction and design but are presently limited to protein-only systems. We describe RoseTTAFold All-Atom (RFAA), which combines a residue-based representation of amino acids and DNA bases with an atomic representation of all other groups to model assemblies that contain proteins, nucleic acids, small molecules, metals, and covalent modifications, given their sequences and chemical structures. By fine-tuning on denoising tasks, we developed RFdiffusion All-Atom (RFdiffusionAA), which builds protein structures around small molecules. Starting from random distributions of amino acid residues surrounding target small molecules, we designed and experimentally validated, through crystallography and binding measurements, proteins that bind the cardiac disease therapeutic digoxigenin, the enzymatic cofactor heme, and the light-harvesting molecule bilin.
+          , 
+            Editor’s summary
+            
+              Advances in machine learning have made protein structure prediction and design much more accurate and accessible in recent years, but these tools have generally been limited to polypeptide chains. However, ligands such as small molecules, metal ions, and nucleic acids are crucial components of most proteins, both in terms of structure and biological function. Krishna
+              et al
+              . present a next-generation protein structure prediction and design tool, RoseTTAFold All-Atom, that can accept a wide range of ligands and covalent amino acid modifications. The authors demonstrate superior performance on protein-ligand structure prediction relative to other tools, even in the absence of an input experimental structure. They also perform de novo design of proteins to bind cofactors and small molecules and experimentally validate these designs. —Michael A. Funk
+            
+          , 
+            
+              INTRODUCTION
+              Proteins rarely act alone; they form complexes with other proteins in cell signaling, interact with DNA and RNA during transcription and translation, and interact with small molecules both covalently and noncovalently during metabolism and signaling. Despite substantial recent progress in protein-only structure prediction, modeling such general biomolecular assemblies remains an outstanding challenge.
+            
+            
+              RATIONALE
+              We set out to develop a unified structure prediction and design approach for assemblies containing proteins, nucleic acids, small molecules, metals, and chemical modifications. We sought to combine a sequence-based description of proteins and nucleic acids with an atomic graph representation of small molecules and protein covalent modifications. We started with the RoseTTAFold2 (RF2) network, which takes as input one-dimensional (1D) sequence information, 2D pairwise distance information from homologous templates, and 3D coordinate information and iteratively improves predicted structures through many hidden layers.
+            
+            
+              RESULTS
+              For our biomolecular structure prediction network RoseTTAFold All-Atom (RFAA) (see the figure, top), we retained the representations of protein and nucleic acid chains from RF2 and represented arbitrary small molecules as atom-bond graphs. To the 1D track, we input the chemical element type of each nonpolymer atom; to the 2D track, the chemical bonds between atoms; and to the 3D track, information on chirality. Immediately after input, the full system was represented as a disconnected gas of amino acid residues, nucleic acid bases, and freely moving atoms, which was successively transformed through the many blocks of the network into physically plausible assembly structures. We trained RFAA on protein–small molecule, protein-metal, and covalently modified protein complexes that are found in the Protein Data Bank (PDB), filtering out common solvents and crystallization additives.
+              In the CAMEO blind ligand-docking challenge, RFAA outperforms baseline automated pipelines. Although not all predictions are accurate, the network outputs a confidence estimate that correlates with accuracy. The network generalizes beyond the training set: Accurate predictions are made for proteins with low sequence homology (BLAST e-value >1) and ligands with low similarity (Tanimoto similarity <0.5) to those in the training set. Prediction accuracy is higher for protein–small molecule complexes with more-favorable computed interaction energies using a molecular mechanics force field, which suggests that RFAA has learned aspects of the physical chemistry of protein–small molecule interactions. Nearly half (46%) of covalent modifications are predicted accurately [<2.5-Å root mean square deviation (RMSD)]. These additional prediction capabilities do not come at the expense of the protein structure–prediction task because RFAA has a prediction accuracy on protein monomer structures comparable to that AlphaFold2.
+              For small-molecule binder design, we developed RFdiffusion All-Atom (RFdiffusionAA) by fine-tuning RFAA on diffusion denoising tasks. Starting from random residue distributions, RFdiffusionAA generates folded protein structures that surround the small molecule. In contrast to previous approaches that rely on native or preexisting designed scaffolds, the binding pockets are custom generated for each ligand of interest. We generated small-molecule binding designs for the cardiac disease drug digoxigenin, the enzyme cofactor heme, and optically active bilin molecules. In each case, experimental characterization showed that a subset of the designs had the designed binding activity. The crystal structure of a heme binding design matched the RFdiffusionAA model very closely (0.86-Å Cα RMSD).
+            
+            
+              CONCLUSION
+              RFAA demonstrates that a single neural network can be trained to accurately model general biomolecular assemblies containing a wide diversity of nonprotein components. Although there is still room for improvement in prediction accuracy, we anticipate that RFAA should be broadly useful for modeling full biological assemblies and RFdiffusionAA for designing small molecule–binding proteins and sensors.
+              
+                
+                  Prediction and design of biomolecular assemblies.
+                  RFAA enables the prediction of biomolecular assemblies, including proteins, nucleic acids, metals, small molecules, and covalent modifications (top). RFdiffusionAA builds de novo proteins around small molecules of interest (bottom).
+DA  - 2024/04/19/
+PY  - 2024
+DO  - 10.1126/science.adl2528
+DP  - DOI.org (Crossref)
+VL  - 384
+IS  - 6693
+SP  - eadl2528
+J2  - Science
+LA  - en
+SN  - 0036-8075, 1095-9203
+UR  - https://www.science.org/doi/10.1126/science.adl2528
+Y2  - 2024/12/26/15:59:19
+L1  - https://eprints.whiterose.ac.uk/211216/1/Krishna%20et%20al%20Science%20author%20accepted%20manuscript.pdf
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of modular protein hydrogels with programmable intra- and extracellular viscoelasticity
+AU  - Mout, Rubul
+AU  - Bretherton, Ross C.
+AU  - Decarreau, Justin
+AU  - Lee, Sangmin
+AU  - Gregorio, Nicole
+AU  - Edman, Natasha I.
+AU  - Ahlrichs, Maggie
+AU  - Hsia, Yang
+AU  - Sahtoe, Danny D.
+AU  - Ueda, George
+AU  - Sharma, Alee
+AU  - Schulman, Rebecca
+AU  - DeForest, Cole A.
+AU  - Baker, David
+T2  - Proceedings of the National Academy of Sciences
+AB  - Relating the macroscopic properties of protein-based materials to their underlying component microstructure is an outstanding challenge. Here, we exploit computational design to specify the size, flexibility, and valency of de novo protein building blocks, as well as the interaction dynamics between them, to investigate how molecular parameters govern the macroscopic viscoelasticity of the resultant protein hydrogels. We construct gel systems from pairs of symmetric protein homo-oligomers, each comprising 2, 5, 24, or 120 individual protein components, that are crosslinked either physically or covalently into idealized step-growth biopolymer networks. Through rheological assessment, we find that the covalent linkage of multifunctional precursors yields hydrogels whose viscoelasticity depends on the crosslink length between the constituent building blocks. In contrast, reversibly crosslinking the homo-oligomeric components with a computationally designed heterodimer results in viscoelastic biomaterials exhibiting fluid-like properties under rest and low shear, but solid-like behavior at higher frequencies. Exploiting the unique genetic encodability of these materials, we demonstrate the assembly of protein networks within living mammalian cells and show via fluorescence recovery after photobleaching (FRAP) that mechanical properties can be tuned intracellularly in a manner similar to formulations formed extracellularly. We anticipate that the ability to modularly construct and systematically program the viscoelastic properties of designer protein-based materials could have broad utility in biomedicine, with applications in tissue engineering, therapeutic delivery, and synthetic biology.
+DA  - 2024/02/06/
+PY  - 2024
+DO  - 10.1073/pnas.2309457121
+DP  - DOI.org (Crossref)
+VL  - 121
+IS  - 6
+SP  - e2309457121
+J2  - Proc. Natl. Acad. Sci. U.S.A.
+LA  - en
+SN  - 0027-8424, 1091-6490
+UR  - https://pnas.org/doi/10.1073/pnas.2309457121
+Y2  - 2024/12/26/16:00:36
+L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2309457121
+ER  - 
+
+TY  - JOUR
+TI  - Computationally designed sensors detect endogenous Ras activity and signaling effectors at subcellular resolution
+AU  - Zhang, Jason Z.
+AU  - Nguyen, William H.
+AU  - Greenwood, Nathan
+AU  - Rose, John C.
+AU  - Ong, Shao-En
+AU  - Maly, Dustin J.
+AU  - Baker, David
+T2  - Nature Biotechnology
+AB  - Abstract
+            The utility of genetically encoded biosensors for sensing the activity of signaling proteins has been hampered by a lack of strategies for matching sensor sensitivity to the physiological concentration range of the target. Here we used computational protein design to generate intracellular sensors of Ras activity (LOCKR-based Sensor for Ras activity (Ras-LOCKR-S)) and proximity labelers of the Ras signaling environment (LOCKR-based, Ras activity-dependent Proximity Labeler (Ras-LOCKR-PL)). These tools allow the detection of endogenous Ras activity and labeling of the surrounding environment at subcellular resolution. Using these sensors in human cancer cell lines, we identified Ras-interacting proteins in oncogenic EML4-Alk granules and found that Src-Associated in Mitosis 68-kDa (SAM68) protein specifically enhances Ras activity in the granules. The ability to subcellularly localize endogenous Ras activity should deepen our understanding of Ras function in health and disease and may suggest potential therapeutic strategies.
+DA  - 2024/12//
+PY  - 2024
+DO  - 10.1038/s41587-023-02107-w
+DP  - DOI.org (Crossref)
+VL  - 42
+IS  - 12
+SP  - 1888
+EP  - 1898
+J2  - Nat Biotechnol
+LA  - en
+SN  - 1087-0156, 1546-1696
+UR  - https://www.nature.com/articles/s41587-023-02107-w
+Y2  - 2024/12/26/16:02:43
+L1  - https://www.nature.com/articles/s41587-023-02107-w.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Improving Protein Expression, Stability, and Function with ProteinMPNN
+AU  - Sumida, Kiera H.
+AU  - Núñez-Franco, Reyes
+AU  - Kalvet, Indrek
+AU  - Pellock, Samuel J.
+AU  - Wicky, Basile I. M.
+AU  - Milles, Lukas F.
+AU  - Dauparas, Justas
+AU  - Wang, Jue
+AU  - Kipnis, Yakov
+AU  - Jameson, Noel
+AU  - Kang, Alex
+AU  - De La Cruz, Joshmyn
+AU  - Sankaran, Banumathi
+AU  - Bera, Asim K.
+AU  - Jiménez-Osés, Gonzalo
+AU  - Baker, David
+T2  - Journal of the American Chemical Society
+DA  - 2024/01/24/
+PY  - 2024
+DO  - 10.1021/jacs.3c10941
+VL  - 146
+IS  - 3
+SP  - 2054
+EP  - 2061
+J2  - J. Am. Chem. Soc.
+SN  - 0002-7863
+UR  - https://doi.org/10.1021/jacs.3c10941
+ER  - 
+
+TY  - JOUR
+TI  - Massively parallel measurement of protein–protein interactions by sequencing using MP3-seq
+AU  - Baryshev, Alexandr
+AU  - La Fleur, Alyssa
+AU  - Groves, Benjamin
+AU  - Michel, Cirstyn
+AU  - Baker, David
+AU  - Ljubetič, Ajasja
+AU  - Seelig, Georg
+T2  - Nature Chemical Biology
+DA  - 2024/11//
+PY  - 2024
+DO  - 10.1038/s41589-024-01718-x
+DP  - DOI.org (Crossref)
+VL  - 20
+IS  - 11
+SP  - 1514
+EP  - 1523
+J2  - Nat Chem Biol
+LA  - en
+SN  - 1552-4450, 1552-4469
+UR  - https://www.nature.com/articles/s41589-024-01718-x
+Y2  - 2024/12/26/16:05:23
+L1  - https://www.nature.com/articles/s41589-024-01718-x.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Accurate de novo design of heterochiral protein–protein interactions
+AU  - Sun, Ke
+AU  - Li, Sicong
+AU  - Zheng, Bowen
+AU  - Zhu, Yanlei
+AU  - Wang, Tongyue
+AU  - Liang, Mingfu
+AU  - Yao, Yue
+AU  - Zhang, Kairan
+AU  - Zhang, Jizhong
+AU  - Li, Hongyong
+AU  - Han, Dongyang
+AU  - Zheng, Jishen
+AU  - Coventry, Brian
+AU  - Cao, Longxing
+AU  - Baker, David
+AU  - Liu, Lei
+AU  - Lu, Peilong
+T2  - Cell Research
+AB  - Abstract
+            
+              Abiotic
+              d
+              -proteins that selectively bind to natural
+              l
+              -proteins have gained significant biotechnological interest. However, the underlying structural principles governing such heterochiral protein–protein interactions remain largely unknown. In this study, we present the de novo design of
+              d
+              -proteins consisting of 50–65 residues, aiming to target specific surface regions of
+              l
+              -proteins or
+              l
+              -peptides. Our designer
+              d
+              -protein binders exhibit nanomolar affinity toward an artificial
+              l
+              -peptide, as well as two naturally occurring proteins of therapeutic significance: the D5 domain of human tropomyosin receptor kinase A (TrkA) and human interleukin-6 (IL-6). Notably, these
+              d
+              -protein binders demonstrate high enantiomeric specificity and target specificity. In cell-based experiments, designer
+              d
+              -protein binders effectively inhibited the downstream signaling of TrkA and IL-6 with high potency. Moreover, these binders exhibited remarkable thermal stability and resistance to protease degradation. Crystal structure of the designed heterochiral
+              d
+              -protein–
+              l
+              -peptide complex, obtained at a resolution of 2.0 Å, closely resembled the design model, indicating that the computational method employed is highly accurate. Furthermore, the crystal structure provides valuable information regarding the interactions between helical
+              l
+              -peptides and
+              d
+              -proteins, particularly elucidating a novel mode of heterochiral helix–helix interactions. Leveraging the design of
+              d
+              -proteins specifically targeting
+              l
+              -peptides or
+              l
+              -proteins opens up avenues for systematic exploration of the mirror-image protein universe, paving the way for a diverse range of applications.
+DA  - 2024/08/14/
+PY  - 2024
+DO  - 10.1038/s41422-024-01014-2
+DP  - DOI.org (Crossref)
+VL  - 34
+IS  - 12
+SP  - 846
+EP  - 858
+J2  - Cell Res
+LA  - en
+SN  - 1748-7838
+UR  - https://www.nature.com/articles/s41422-024-01014-2
+Y2  - 2024/12/26/16:06:42
+ER  - 
+
+TY  - JOUR
+TI  - Computational design of soluble and functional membrane protein analogues
+AU  - Goverde, Casper A.
+AU  - Pacesa, Martin
+AU  - Goldbach, Nicolas
+AU  - Dornfeld, Lars J.
+AU  - Balbi, Petra E. M.
+AU  - Georgeon, Sandrine
+AU  - Rosset, Stéphane
+AU  - Kapoor, Srajan
+AU  - Choudhury, Jagrity
+AU  - Dauparas, Justas
+AU  - Schellhaas, Christian
+AU  - Kozlov, Simon
+AU  - Baker, David
+AU  - Ovchinnikov, Sergey
+AU  - Vecchio, Alex J.
+AU  - Correia, Bruno E.
+T2  - Nature
+AB  - Abstract
+            
+              De novo design of complex protein folds using solely computational means remains a substantial challenge
+              1
+              . Here we use a robust deep learning pipeline to design complex folds and soluble analogues of integral membrane proteins. Unique membrane topologies, such as those from G-protein-coupled receptors
+              2
+              , are not found in the soluble proteome, and we demonstrate that their structural features can be recapitulated in solution. Biophysical analyses demonstrate the high thermal stability of the designs, and experimental structures show remarkable design accuracy. The soluble analogues were functionalized with native structural motifs, as a proof of concept for bringing membrane protein functions to the soluble proteome, potentially enabling new approaches in drug discovery. In summary, we have designed complex protein topologies and enriched them with functionalities from membrane proteins, with high experimental success rates, leading to a de facto expansion of the functional soluble fold space.
+DA  - 2024/07/11/
+PY  - 2024
+DO  - 10.1038/s41586-024-07601-y
+DP  - DOI.org (Crossref)
+VL  - 631
+IS  - 8020
+SP  - 449
+EP  - 458
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - https://www.nature.com/articles/s41586-024-07601-y
+Y2  - 2024/12/26/16:13:28
+L1  - https://www.nature.com/articles/s41586-024-07601-y.pdf
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of high-affinity binders of bioactive helical peptides
+AU  - Vázquez Torres, Susana
+AU  - Leung, Philip J. Y.
+AU  - Venkatesh, Preetham
+AU  - Lutz, Isaac D.
+AU  - Hink, Fabian
+AU  - Huynh, Huu-Hien
+AU  - Becker, Jessica
+AU  - Yeh, Andy Hsien-Wei
+AU  - Juergens, David
+AU  - Bennett, Nathaniel R.
+AU  - Hoofnagle, Andrew N.
+AU  - Huang, Eric
+AU  - MacCoss, Michael J.
+AU  - Expòsit, Marc
+AU  - Lee, Gyu Rie
+AU  - Bera, Asim K.
+AU  - Kang, Alex
+AU  - De La Cruz, Joshmyn
+AU  - Levine, Paul M.
+AU  - Li, Xinting
+AU  - Lamb, Mila
+AU  - Gerben, Stacey R.
+AU  - Murray, Analisa
+AU  - Heine, Piper
+AU  - Korkmaz, Elif Nihal
+AU  - Nivala, Jeff
+AU  - Stewart, Lance
+AU  - Watson, Joseph L.
+AU  - Rogers, Joseph M.
+AU  - Baker, David
+T2  - Nature
+AB  - Abstract
+            
+              Many peptide hormones form an α-helix on binding their receptors
+              1–4
+              , and sensitive methods for their detection could contribute to better clinical management of disease
+              5
+              . De novo protein design can now generate binders with high affinity and specificity to structured proteins
+              6,7
+              . However, the design of interactions between proteins and short peptides with helical propensity is an unmet challenge. Here we describe parametric generation and deep learning-based methods for designing proteins to address this challenge. We show that by extending RFdiffusion
+              8
+              to enable binder design to flexible targets, and to refining input structure models by successive noising and denoising (partial diffusion), picomolar-affinity binders can be generated to helical peptide targets by either refining designs generated with other methods, or completely de novo starting from random noise distributions without any subsequent experimental optimization. The RFdiffusion designs enable the enrichment and subsequent detection of parathyroid hormone and glucagon by mass spectrometry, and the construction of bioluminescence-based protein biosensors. The ability to design binders to conformationally variable targets, and to optimize by partial diffusion both natural and designed proteins, should be broadly useful.
+DA  - 2024/02/08/
+PY  - 2024
+DO  - 10.1038/s41586-023-06953-1
+DP  - DOI.org (Crossref)
+VL  - 626
+IS  - 7998
+SP  - 435
+EP  - 442
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - https://www.nature.com/articles/s41586-023-06953-1
+Y2  - 2024/12/26/16:17:52
+L1  - https://www.nature.com/articles/s41586-023-06953-1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Directing polymorph specific calcium carbonate formation with de novo protein templates
+AU  - Davila-Hernandez, Fatima A.
+AU  - Jin, Biao
+AU  - Pyles, Harley
+AU  - Zhang, Shuai
+AU  - Wang, Zheming
+AU  - Huddy, Timothy F.
+AU  - Bera, Asim K.
+AU  - Kang, Alex
+AU  - Chen, Chun-Long
+AU  - De Yoreo, James J.
+AU  - Baker, David
+T2  - Nature Communications
+AB  - Abstract
+            
+              Biomolecules modulate inorganic crystallization to generate hierarchically structured biominerals, but the atomic structure of the organic-inorganic interfaces that regulate mineralization remain largely unknown. We hypothesized that heterogeneous nucleation of calcium carbonate could be achieved by a structured flat molecular template that pre-organizes calcium ions on its surface. To test this hypothesis, we design helical repeat proteins (DHRs) displaying regularly spaced carboxylate arrays on their surfaces and find that both protein monomers and protein-Ca
+              2+
+              supramolecular assemblies directly nucleate nano-calcite with non-natural {110} or {202} faces while vaterite, which forms first in the absence of the proteins, is bypassed. These protein-stabilized nanocrystals then assemble by oriented attachment into calcite mesocrystals. We find further that nanocrystal size and polymorph can be tuned by varying the length and surface chemistry of the designed protein templates. Thus, bio-mineralization can be programmed using de novo protein design, providing a route to next-generation hybrid materials.
+DA  - 2023/12/14/
+PY  - 2023
+DO  - 10.1038/s41467-023-43608-1
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 1
+SP  - 8191
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/s41467-023-43608-1
+Y2  - 2024/12/26/16:19:00
+L1  - https://www.nature.com/articles/s41467-023-43608-1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Design and structural validation of peptide–drug conjugate ligands of the kappa-opioid receptor
+AU  - Muratspahić, Edin
+AU  - Deibler, Kristine
+AU  - Han, Jianming
+AU  - Tomašević, Nataša
+AU  - Jadhav, Kirtikumar B.
+AU  - Olivé-Marti, Aina-Leonor
+AU  - Hochrainer, Nadine
+AU  - Hellinger, Roland
+AU  - Koehbach, Johannes
+AU  - Fay, Jonathan F.
+AU  - Rahman, Mohammad Homaidur
+AU  - Hegazy, Lamees
+AU  - Craven, Timothy W.
+AU  - Varga, Balazs R.
+AU  - Bhardwaj, Gaurav
+AU  - Appourchaux, Kevin
+AU  - Majumdar, Susruta
+AU  - Muttenthaler, Markus
+AU  - Hosseinzadeh, Parisa
+AU  - Craik, David J.
+AU  - Spetea, Mariana
+AU  - Che, Tao
+AU  - Baker, David
+AU  - Gruber, Christian W.
+T2  - Nature Communications
+AB  - Despite the increasing number of GPCR structures and recent advances in peptide design, the development of efficient technologies allowing rational design of high-affinity peptide ligands for single GPCRs remains an unmet challenge. Here, we develop a computational approach for designing conjugates of lariat-shaped macrocyclized peptides and a small molecule opioid ligand. We demonstrate its feasibility by discovering chemical scaffolds for the kappa-opioid receptor (KOR) with desired pharmacological activities. The designed De Novo Cyclic Peptide (DNCP)-β-naloxamine (NalA) exhibit in vitro potent mixed KOR agonism/mu-opioid receptor (MOR) antagonism, nanomolar binding affinity, selectivity, and efficacy bias at KOR. Proof-of-concept in vivo efficacy studies demonstrate that DNCP-β-NalA(1) induces a potent KOR-mediated antinociception in male mice. The high-resolution cryo-EM structure (2.6 Å) of the DNCP-β-NalA–KOR–Gi1 complex and molecular dynamics simulations are harnessed to validate the computational design model. This reveals a network of residues in ECL2/3 and TM6/7 controlling the intrinsic efficacy of KOR. In general, our computational de novo platform overcomes extensive lead optimization encountered in ultra-large library docking and virtual small molecule screening campaigns and offers innovation for GPCR ligand discovery. This may drive the development of next-generation therapeutics for medical applications such as pain conditions.
+DA  - 2023/12/06/
+PY  - 2023
+DO  - 10.1038/s41467-023-43718-w
+DP  - www.nature.com
+VL  - 14
+IS  - 1
+SP  - 8064
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/s41467-023-43718-w
+Y2  - 2024/12/26/16:20:17
+L1  - https://www.nature.com/articles/s41467-023-43718-w.pdf
+KW  - Protein design
+KW  - Peptides
+KW  - Receptor pharmacology
+ER  - 
+
+TY  - JOUR
+TI  - Accurate prediction of protein–nucleic acid complexes using RoseTTAFoldNA
+AU  - Baek, Minkyung
+AU  - McHugh, Ryan
+AU  - Anishchenko, Ivan
+AU  - Jiang, Hanlun
+AU  - Baker, David
+AU  - DiMaio, Frank
+T2  - Nature Methods
+AB  - Abstract
+            Protein–RNA and protein–DNA complexes play critical roles in biology. Despite considerable recent advances in protein structure prediction, the prediction of the structures of protein–nucleic acid complexes without homology to known complexes is a largely unsolved problem. Here we extend the RoseTTAFold machine learning protein-structure-prediction approach to additionally predict nucleic acid and protein–nucleic acid complexes. We develop a single trained network, RoseTTAFoldNA, that rapidly produces three-dimensional structure models with confidence estimates for protein–DNA and protein–RNA complexes. Here we show that confident predictions have considerably higher accuracy than current state-of-the-art methods. RoseTTAFoldNA should be broadly useful for modeling the structure of naturally occurring protein–nucleic acid complexes, and for designing sequence-specific RNA and DNA-binding proteins.
+DA  - 2024/01//
+PY  - 2024
+DO  - 10.1038/s41592-023-02086-5
+DP  - DOI.org (Crossref)
+VL  - 21
+IS  - 1
+SP  - 117
+EP  - 121
+J2  - Nat Methods
+LA  - en
+SN  - 1548-7091, 1548-7105
+UR  - https://www.nature.com/articles/s41592-023-02086-5
+Y2  - 2024/12/26/16:21:18
+L1  - https://www.nature.com/articles/s41592-023-02086-5.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Accurate computational design of three-dimensional protein crystals
+AU  - Li, Zhe
+AU  - Wang, Shunzhi
+AU  - Nattermann, Una
+AU  - Bera, Asim K.
+AU  - Borst, Andrew J.
+AU  - Yaman, Muammer Y.
+AU  - Bick, Matthew J.
+AU  - Yang, Erin C.
+AU  - Sheffler, William
+AU  - Lee, Byeongdu
+AU  - Seifert, Soenke
+AU  - Hura, Greg L.
+AU  - Nguyen, Hannah
+AU  - Kang, Alex
+AU  - Dalal, Radhika
+AU  - Lubner, Joshua M.
+AU  - Hsia, Yang
+AU  - Haddox, Hugh
+AU  - Courbet, Alexis
+AU  - Dowling, Quinton
+AU  - Miranda, Marcos
+AU  - Favor, Andrew
+AU  - Etemadi, Ali
+AU  - Edman, Natasha I.
+AU  - Yang, Wei
+AU  - Weidle, Connor
+AU  - Sankaran, Banumathi
+AU  - Negahdari, Babak
+AU  - Ross, Michael B.
+AU  - Ginger, David S.
+AU  - Baker, David
+T2  - Nature Materials
+AB  - Protein crystallization plays a central role in structural biology. Despite this, the process of crystallization remains poorly understood and highly empirical, with crystal contacts, lattice packing arrangements and space group preferences being largely unpredictable. Programming protein crystallization through precisely engineered side-chain–side-chain interactions across protein–protein interfaces is an outstanding challenge. Here we develop a general computational approach for designing three-dimensional protein crystals with prespecified lattice architectures at atomic accuracy that hierarchically constrains the overall number of degrees of freedom of the system. We design three pairs of oligomers that can be individually purified, and upon mixing, spontaneously self-assemble into >100 µm three-dimensional crystals. The structures of these crystals are nearly identical to the computational design models, closely corresponding in both overall architecture and the specific protein–protein interactions. The dimensions of the crystal unit cell can be systematically redesigned while retaining the space group symmetry and overall architecture, and the crystals are extremely porous and highly stable. Our approach enables the computational design of protein crystals with high accuracy, and the designed protein crystals, which have both structural and assembly information encoded in their primary sequences, provide a powerful platform for biological materials engineering.
+DA  - 2023/12//
+PY  - 2023
+DO  - 10.1038/s41563-023-01683-1
+DP  - www.nature.com
+VL  - 22
+IS  - 12
+SP  - 1556
+EP  - 1563
+J2  - Nat. Mater.
+LA  - en
+SN  - 1476-4660
+UR  - https://www.nature.com/articles/s41563-023-01683-1
+Y2  - 2024/12/26/16:27:13
+L1  - https://www.biorxiv.org/content/biorxiv/early/2022/11/19/2022.11.18.517014.full.pdf
+KW  - Protein design
+KW  - Biomaterials – proteins
+KW  - Nanobiotechnology
+KW  - Self-assembly
+ER  - 
+
+TY  - JOUR
+TI  - Hallucination of closed repeat proteins containing central pockets
+AU  - An, Linna
+AU  - Hicks, Derrick R.
+AU  - Zorine, Dmitri
+AU  - Dauparas, Justas
+AU  - Wicky, Basile I. M.
+AU  - Milles, Lukas F.
+AU  - Courbet, Alexis
+AU  - Bera, Asim K.
+AU  - Nguyen, Hannah
+AU  - Kang, Alex
+AU  - Carter, Lauren
+AU  - Baker, David
+T2  - Nature Structural & Molecular Biology
+AB  - In pseudocyclic proteins, such as TIM barrels, β barrels, and some helical transmembrane channels, a single subunit is repeated in a cyclic pattern, giving rise to a central cavity that can serve as a pocket for ligand binding or enzymatic activity. Inspired by these proteins, we devised a deep-learning-based approach to broadly exploring the space of closed repeat proteins starting from only a specification of the repeat number and length. Biophysical data for 38 structurally diverse pseudocyclic designs produced in Escherichia coli are consistent with the design models, and the three crystal structures we were able to obtain are very close to the designed structures. Docking studies suggest the diversity of folds and central pockets provide effective starting points for designing small-molecule binders and enzymes.
+DA  - 2023/11//
+PY  - 2023
+DO  - 10.1038/s41594-023-01112-6
+DP  - www.nature.com
+VL  - 30
+IS  - 11
+SP  - 1755
+EP  - 1760
+J2  - Nat Struct Mol Biol
+LA  - en
+SN  - 1545-9985
+UR  - https://www.nature.com/articles/s41594-023-01112-6
+Y2  - 2024/12/26/16:28:07
+L1  - https://www.nature.com/articles/s41594-023-01112-6.pdf
+KW  - Proteins
+KW  - Protein folding
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of highly selective miniprotein inhibitors of integrins αvβ6 and αvβ8
+AU  - Roy, Anindya
+AU  - Shi, Lei
+AU  - Chang, Ashley
+AU  - Dong, Xianchi
+AU  - Fernandez, Andres
+AU  - Kraft, John C.
+AU  - Li, Jing
+AU  - Le, Viet Q.
+AU  - Winegar, Rebecca Viazzo
+AU  - Cherf, Gerald Maxwell
+AU  - Slocum, Dean
+AU  - Poulson, P. Daniel
+AU  - Casper, Garrett E.
+AU  - Vallecillo-Zúniga, Mary L.
+AU  - Valdoz, Jonard Corpuz
+AU  - Miranda, Marcos C.
+AU  - Bai, Hua
+AU  - Kipnis, Yakov
+AU  - Olshefsky, Audrey
+AU  - Priya, Tanu
+AU  - Carter, Lauren
+AU  - Ravichandran, Rashmi
+AU  - Chow, Cameron M.
+AU  - Johnson, Max R.
+AU  - Cheng, Suna
+AU  - Smith, McKaela
+AU  - Overed-Sayer, Catherine
+AU  - Finch, Donna K.
+AU  - Lowe, David
+AU  - Bera, Asim K.
+AU  - Matute-Bello, Gustavo
+AU  - Birkland, Timothy P.
+AU  - DiMaio, Frank
+AU  - Raghu, Ganesh
+AU  - Cochran, Jennifer R.
+AU  - Stewart, Lance J.
+AU  - Campbell, Melody G.
+AU  - Van Ry, Pam M.
+AU  - Springer, Timothy
+AU  - Baker, David
+T2  - Nature Communications
+AB  - Abstract
+            The RGD (Arg-Gly-Asp)-binding integrins αvβ6 and αvβ8 are clinically validated cancer and fibrosis targets of considerable therapeutic importance. Compounds that can discriminate between homologous αvβ6 and αvβ8 and other RGD integrins, stabilize specific conformational states, and have high thermal stability could have considerable therapeutic utility. Existing small molecule and antibody inhibitors do not have all these properties, and hence new approaches are needed. Here we describe a generalized method for computationally designing RGD-containing miniproteins selective for a single RGD integrin heterodimer and conformational state. We design hyperstable, selective αvβ6 and αvβ8 inhibitors that bind with picomolar affinity. CryoEM structures of the designed inhibitor-integrin complexes are very close to the computational design models, and show that the inhibitors stabilize specific conformational states of the αvβ6 and the αvβ8 integrins. In a lung fibrosis mouse model, the αvβ6 inhibitor potently reduced fibrotic burden and improved overall lung mechanics, demonstrating the therapeutic potential of de novo designed integrin binding proteins with high selectivity.
+DA  - 2023/09/13/
+PY  - 2023
+DO  - 10.1038/s41467-023-41272-z
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 1
+SP  - 5660
+J2  - Nat Commun
+LA  - en
+SN  - 2041-1723
+UR  - https://www.nature.com/articles/s41467-023-41272-z
+Y2  - 2024/12/26/16:32:16
+L1  - https://www.nature.com/articles/s41467-023-41272-z.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Zero-shot mutation effect prediction on protein stability and function using RoseTTAFold
+AU  - Mansoor, Sanaa
+AU  - Baek, Minkyung
+AU  - Juergens, David
+AU  - Watson, Joseph L.
+AU  - Baker, David
+T2  - Protein Science
+AB  - Predicting the effects of mutations on protein function and stability is an outstanding challenge. Here, we assess the performance of a variant of RoseTTAFold jointly trained for sequence and structure recovery, RFjoint, for mutation effect prediction. Without any further training, we achieve comparable accuracy in predicting mutation effects for a diverse set of protein families using RFjoint to both another zero-shot model (MSA Transformer) and a model that requires specific training on a particular protein family for mutation effect prediction (DeepSequence). Thus, although the architecture of RFjoint was developed to address the protein design problem of scaffolding functional motifs, RFjoint acquired an understanding of the mutational landscapes of proteins during model training that is equivalent to that of recently developed large protein language models. The ability to simultaneously reason over protein structure and sequence could enable even more precise mutation effect predictions following supervised training on the task. These results suggest that RFjoint has a quite broad understanding of protein sequence-structure landscapes, and can be viewed as a joint model for protein sequence and structure which could be broadly useful for protein modeling.
+DA  - 2023///
+PY  - 2023
+DO  - 10.1002/pro.4780
+DP  - Wiley Online Library
+VL  - 32
+IS  - 11
+SP  - e4780
+LA  - en
+SN  - 1469-896X
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.4780
+Y2  - 2024/12/26/16:35:13
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.4780
+L2  - https://onlinelibrary.wiley.com/doi/10.1002/pro.4780
+KW  - protein design
+KW  - deep learning
+KW  - language models
+KW  - mutation effect prediction
+KW  - zero-shot prediction
+ER  - 
+
+TY  - JOUR
+TI  - Precisely patterned nanofibres made from extendable protein multiplexes
+AU  - Bethel, Neville P.
+AU  - Borst, Andrew J.
+AU  - Parmeggiani, Fabio
+AU  - Bick, Matthew J.
+AU  - Brunette, Tj
+AU  - Nguyen, Hannah
+AU  - Kang, Alex
+AU  - Bera, Asim K.
+AU  - Carter, Lauren
+AU  - Miranda, Marcos C.
+AU  - Kibler, Ryan D.
+AU  - Lamb, Mila
+AU  - Li, Xinting
+AU  - Sankaran, Banumathi
+AU  - Baker, David
+T2  - Nature Chemistry
+AB  - Abstract
+            
+              Molecular systems with coincident cyclic and superhelical symmetry axes have considerable advantages for materials design as they can be readily lengthened or shortened by changing the length of the constituent monomers. Among proteins, alpha-helical coiled coils have such symmetric, extendable architectures, but are limited by the relatively fixed geometry and flexibility of the helical protomers. Here we describe a systematic approach to generating modular and rigid repeat protein oligomers with coincident
+              C
+              2
+              to
+              C
+              8
+              and superhelical symmetry axes that can be readily extended by repeat propagation. From these building blocks, we demonstrate that a wide range of unbounded fibres can be systematically designed by introducing hydrophilic surface patches that force staggering of the monomers; the geometry of such fibres can be precisely tuned by varying the number of repeat units in the monomer and the placement of the hydrophilic patches.
+DA  - 2023/12//
+PY  - 2023
+DO  - 10.1038/s41557-023-01314-x
+DP  - DOI.org (Crossref)
+VL  - 15
+IS  - 12
+SP  - 1664
+EP  - 1671
+J2  - Nat. Chem.
+LA  - en
+SN  - 1755-4330, 1755-4349
+UR  - https://www.nature.com/articles/s41557-023-01314-x
+Y2  - 2024/12/26/16:38:49
+L1  - https://www.nature.com/articles/s41557-023-01314-x.pdf
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of monomeric helical bundles for pH-controlled membrane lysis
+AU  - Goldbach, Nicolas
+AU  - Benna, Issa
+AU  - Wicky, Basile I. M.
+AU  - Croft, Jacob T.
+AU  - Carter, Lauren
+AU  - Bera, Asim K.
+AU  - Nguyen, Hannah
+AU  - Kang, Alex
+AU  - Sankaran, Banumathi
+AU  - Yang, Erin C.
+AU  - Lee, Kelly K.
+AU  - Baker, David
+T2  - Protein Science
+AB  - Targeted intracellular delivery via receptor-mediated endocytosis requires the delivered cargo to escape the endosome to prevent lysosomal degradation. This can in principle be achieved by membrane lysis tightly restricted to endosomal membranes upon internalization to avoid general membrane insertion and lysis. Here, we describe the design of small monomeric proteins with buried histidine containing pH-responsive hydrogen bond networks and membrane permeating amphipathic helices. Of the 30 designs that were experimentally tested, all expressed in Escherichia coli, 13 were monomeric with the expected secondary structure, and 4 designs disrupted artificial liposomes in a pH-dependent manner. Mutational analysis showed that the buried histidine hydrogen bond networks mediate pH-responsiveness and control lysis of model membranes within a very narrow range of pH (6.0–5.5) with almost no lysis occurring at neutral pH. These tightly controlled lytic monomers could help mediate endosomal escape in designed targeted delivery platforms.
+DA  - 2023///
+PY  - 2023
+DO  - 10.1002/pro.4769
+DP  - Wiley Online Library
+VL  - 32
+IS  - 11
+SP  - e4769
+LA  - en
+SN  - 1469-896X
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.4769
+Y2  - 2024/12/26/16:39:59
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.4769
+L2  - https://onlinelibrary.wiley.com/doi/10.1002/pro.4769
+KW  - protein design
+KW  - coiled-coil
+KW  - endosomal escape
+KW  - membrane disruption
+KW  - pH responsive
+ER  - 
+
+TY  - JOUR
+TI  - Design of stimulus-responsive two-state hinge proteins
+AU  - Praetorius, Florian
+AU  - Leung, Philip J. Y.
+AU  - Tessmer, Maxx H.
+AU  - Broerman, Adam
+AU  - Demakis, Cullen
+AU  - Dishman, Acacia F.
+AU  - Pillai, Arvind
+AU  - Idris, Abbas
+AU  - Juergens, David
+AU  - Dauparas, Justas
+AU  - Li, Xinting
+AU  - Levine, Paul M.
+AU  - Lamb, Mila
+AU  - Ballard, Ryanne K.
+AU  - Gerben, Stacey R.
+AU  - Nguyen, Hannah
+AU  - Kang, Alex
+AU  - Sankaran, Banumathi
+AU  - Bera, Asim K.
+AU  - Volkman, Brian F.
+AU  - Nivala, Jeff
+AU  - Stoll, Stefan
+AU  - Baker, David
+T2  - Science
+AB  - In nature, proteins that switch between two conformations in response to environmental stimuli structurally transduce biochemical information in a manner analogous to how transistors control information flow in computing devices. Designing proteins with two distinct but fully structured conformations is a challenge for protein design as it requires sculpting an energy landscape with two distinct minima. Here we describe the design of “hinge” proteins that populate one designed state in the absence of ligand and a second designed state in the presence of ligand. X-ray crystallography, electron microscopy, double electron-electron resonance spectroscopy, and binding measurements demonstrate that despite the significant structural differences the two states are designed with atomic level accuracy and that the conformational and binding equilibria are closely coupled.
+          , 
+            Editor’s summary
+            
+              Natural proteins often adopt multiple conformational states, thereby changing their activity or binding partners in response to another protein, small molecule, or other stimulus. It has been difficult to engineer such conformational switching between two folded states in human-designed proteins. Praetorius
+              et al
+              . developed a hinge-like protein by simultaneously considering both desired states in the design process. The successful designs exhibited a large shift in conformation upon binding to a target peptide helix, which could be tailored for specificity. The authors characterized the protein structures, binding kinetics, and conformational equilibrium of the designs. This work provides the groundwork for generating protein switches that respond to biological triggers and can produce conformational changes that modulate protein assemblies. —Michael A. Funk
+            
+          , 
+            A two-state design of protein switches that couple effector binding to a conformational change is discussed.
+DA  - 2023/08/18/
+PY  - 2023
+DO  - 10.1126/science.adg7731
+DP  - DOI.org (Crossref)
+VL  - 381
+IS  - 6659
+SP  - 754
+EP  - 760
+J2  - Science
+LA  - en
+SN  - 0036-8075, 1095-9203
+UR  - https://www.science.org/doi/10.1126/science.adg7731
+Y2  - 2024/12/26/16:41:39
+L1  - https://pmc.ncbi.nlm.nih.gov/articles/PMC10697137/pdf/nihms-1943885.pdf
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of protein structure and function with RFdiffusion
+AU  - Watson, Joseph L.
+AU  - Juergens, David
+AU  - Bennett, Nathaniel R.
+AU  - Trippe, Brian L.
+AU  - Yim, Jason
+AU  - Eisenach, Helen E.
+AU  - Ahern, Woody
+AU  - Borst, Andrew J.
+AU  - Ragotte, Robert J.
+AU  - Milles, Lukas F.
+AU  - Wicky, Basile I. M.
+AU  - Hanikel, Nikita
+AU  - Pellock, Samuel J.
+AU  - Courbet, Alexis
+AU  - Sheffler, William
+AU  - Wang, Jue
+AU  - Venkatesh, Preetham
+AU  - Sappington, Isaac
+AU  - Torres, Susana Vázquez
+AU  - Lauko, Anna
+AU  - De Bortoli, Valentin
+AU  - Mathieu, Emile
+AU  - Ovchinnikov, Sergey
+AU  - Barzilay, Regina
+AU  - Jaakkola, Tommi S.
+AU  - DiMaio, Frank
+AU  - Baek, Minkyung
+AU  - Baker, David
+T2  - Nature
+AB  - There has been considerable recent progress in designing new proteins using deep-learning methods1–9. Despite this progress, a general deep-learning framework for protein design that enables solution of a wide range of design challenges, including de novo binder design and design of higher-order symmetric architectures, has yet to be described. Diffusion models10,11 have had considerable success in image and language generative modelling but limited success when applied to protein modelling, probably due to the complexity of protein backbone geometry and sequence–structure relationships. Here we show that by fine-tuning the RoseTTAFold structure prediction network on protein structure denoising tasks, we obtain a generative model of protein backbones that achieves outstanding performance on unconditional and topology-constrained protein monomer design, protein binder design, symmetric oligomer design, enzyme active site scaffolding and symmetric motif scaffolding for therapeutic and metal-binding protein design. We demonstrate the power and generality of the method, called RoseTTAFold diffusion (RFdiffusion), by experimentally characterizing the structures and functions of hundreds of designed symmetric assemblies, metal-binding proteins and protein binders. The accuracy of RFdiffusion is confirmed by the cryogenic electron microscopy structure of a designed binder in complex with influenza haemagglutinin that is nearly identical to the design model. In a manner analogous to networks that produce images from user-specified inputs, RFdiffusion enables the design of diverse functional proteins from simple molecular specifications.
+DA  - 2023/08//
+PY  - 2023
+DO  - 10.1038/s41586-023-06415-8
+DP  - www.nature.com
+VL  - 620
+IS  - 7976
+SP  - 1089
+EP  - 1100
+LA  - en
+SN  - 1476-4687
+UR  - https://www.nature.com/articles/s41586-023-06415-8
+Y2  - 2024/12/26/16:42:50
+L1  - https://www.nature.com/articles/s41586-023-06415-8.pdf
+KW  - Proteins
+KW  - Protein design
+KW  - Machine learning
+ER  - 
+
+TY  - JOUR
+TI  - Design of Heme Enzymes with a Tunable Substrate Binding Pocket Adjacent to an Open Metal Coordination Site
+AU  - Kalvet, Indrek
+AU  - Ortmayer, Mary
+AU  - Zhao, Jingming
+AU  - Crawshaw, Rebecca
+AU  - Ennist, Nathan M.
+AU  - Levy, Colin
+AU  - Roy, Anindya
+AU  - Green, Anthony P.
+AU  - Baker, David
+T2  - Journal of the American Chemical Society
+DA  - 2023/07/05/
+PY  - 2023
+DO  - 10.1021/jacs.3c02742
+DP  - DOI.org (Crossref)
+VL  - 145
+IS  - 26
+SP  - 14307
+EP  - 14315
+J2  - J. Am. Chem. Soc.
+LA  - en
+SN  - 0002-7863, 1520-5126
+UR  - https://pubs.acs.org/doi/10.1021/jacs.3c02742
+Y2  - 2024/12/26/16:44:21
+L1  - https://pubs.acs.org/doi/pdf/10.1021/jacs.3c02742
+ER  - 
+
+TY  - JOUR
+TI  - Top-down design of protein architectures with reinforcement learning
+AU  - Lutz, Isaac D.
+AU  - Wang, Shunzhi
+AU  - Norn, Christoffer
+AU  - Courbet, Alexis
+AU  - Borst, Andrew J.
+AU  - Zhao, Yan Ting
+AU  - Dosey, Annie
+AU  - Cao, Longxing
+AU  - Xu, Jinwei
+AU  - Leaf, Elizabeth M.
+AU  - Treichel, Catherine
+AU  - Litvicov, Patrisia
+AU  - Li, Zhe
+AU  - Goodson, Alexander D.
+AU  - Rivera-Sánchez, Paula
+AU  - Bratovianu, Ana-Maria
+AU  - Baek, Minkyung
+AU  - King, Neil P.
+AU  - Ruohola-Baker, Hannele
+AU  - Baker, David
+T2  - Science
+AB  - As a result of evolutionary selection, the subunits of naturally occurring protein assemblies often fit together with substantial shape complementarity to generate architectures optimal for function in a manner not achievable by current design approaches. We describe a “top-down” reinforcement learning–based design approach that solves this problem using Monte Carlo tree search to sample protein conformers in the context of an overall architecture and specified functional constraints. Cryo–electron microscopy structures of the designed disk-shaped nanopores and ultracompact icosahedra are very close to the computational models. The icosohedra enable very-high-density display of immunogens and signaling molecules, which potentiates vaccine response and angiogenesis induction. Our approach enables the top-down design of complex protein nanomaterials with desired system properties and demonstrates the power of reinforcement learning in protein design.
+DA  - 2023/04/14/
+PY  - 2023
+DO  - 10.1126/science.adf6591
+DP  - science.org (Atypon)
+VL  - 380
+IS  - 6642
+SP  - 266
+EP  - 273
+UR  - https://www.science.org/doi/10.1126/science.adf6591
+Y2  - 2024/12/26/16:59:26
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of modular peptide-binding proteins by superhelical matching
+AU  - Wu, Kejia
+AU  - Bai, Hua
+AU  - Chang, Ya-Ting
+AU  - Redler, Rachel
+AU  - McNally, Kerrie E.
+AU  - Sheffler, William
+AU  - Brunette, T. J.
+AU  - Hicks, Derrick R.
+AU  - Morgan, Tomos E.
+AU  - Stevens, Tim J.
+AU  - Broerman, Adam
+AU  - Goreshnik, Inna
+AU  - DeWitt, Michelle
+AU  - Chow, Cameron M.
+AU  - Shen, Yihang
+AU  - Stewart, Lance
+AU  - Derivery, Emmanuel
+AU  - Silva, Daniel Adriano
+AU  - Bhabha, Gira
+AU  - Ekiert, Damian C.
+AU  - Baker, David
+T2  - Nature
+AB  - General approaches for designing sequence-specific peptide-binding proteins would have wide utility in proteomics and synthetic biology. However, designing peptide-binding proteins is challenging, as most peptides do not have defined structures in isolation, and hydrogen bonds must be made to the buried polar groups in the peptide backbone1–3. Here, inspired by natural and re-engineered protein–peptide systems4–11, we set out to design proteins made out of repeating units that bind peptides with repeating sequences, with a one-to-one correspondence between the repeat units of the protein and those of the peptide. We use geometric hashing to identify protein backbones and peptide-docking arrangements that are compatible with bidentate hydrogen bonds between the side chains of the protein and the peptide backbone12. The remainder of the protein sequence is then optimized for folding and peptide binding. We design repeat proteins to bind to six different tripeptide-repeat sequences in polyproline II conformations. The proteins are hyperstable and bind to four to six tandem repeats of their tripeptide targets with nanomolar to picomolar affinities in vitro and in living cells. Crystal structures reveal repeating interactions between protein and peptide interactions as designed, including ladders of hydrogen bonds from protein side chains to peptide backbones. By redesigning the binding interfaces of individual repeat units, specificity can be achieved for non-repeating peptide sequences and for disordered regions of native proteins.
+DA  - 2023/04//
+PY  - 2023
+DO  - 10.1038/s41586-023-05909-9
+DP  - www.nature.com
+VL  - 616
+IS  - 7957
+SP  - 581
+EP  - 589
+LA  - en
+SN  - 1476-4687
+UR  - https://www.nature.com/articles/s41586-023-05909-9
+Y2  - 2024/12/26/17:02:11
+L1  - https://www.nature.com/articles/s41586-023-05909-9.pdf
+KW  - Proteins
+KW  - Protein design
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of small beta barrel proteins
+AU  - Kim, David E.
+AU  - Jensen, Davin R.
+AU  - Feldman, David
+AU  - Tischer, Doug
+AU  - Saleem, Ayesha
+AU  - Chow, Cameron M.
+AU  - Li, Xinting
+AU  - Carter, Lauren
+AU  - Milles, Lukas
+AU  - Nguyen, Hannah
+AU  - Kang, Alex
+AU  - Bera, Asim K.
+AU  - Peterson, Francis C.
+AU  - Volkman, Brian F.
+AU  - Ovchinnikov, Sergey
+AU  - Baker, David
+T2  - Proceedings of the National Academy of Sciences
+AB  - Small beta barrel proteins are attractive targets for computational design because of their considerable functional diversity despite their very small size (<70 amino acids). However, there are considerable challenges to designing such structures, and there has been little success thus far. Because of the small size, the hydrophobic core stabilizing the fold is necessarily very small, and the conformational strain of barrel closure can oppose folding; also intermolecular aggregation through free beta strand edges can compete with proper monomer folding. Here, we explore the de novo design of small beta barrel topologies using both Rosetta energy–based methods and deep learning approaches to design four small beta barrel folds: Src homology 3 (SH3) and oligonucleotide/oligosaccharide-binding (OB) topologies found in nature and five and six up-and-down-stranded barrels rarely if ever seen in nature. Both approaches yielded successful designs with high thermal stability and experimentally determined structures with less than 2.4 Å rmsd from the designed models. Using deep learning for backbone generation and Rosetta for sequence design yielded higher design success rates and increased structural diversity than Rosetta alone. The ability to design a large and structurally diverse set of small beta barrel proteins greatly increases the protein shape space available for designing binders to protein targets of interest.
+DA  - 2023/03/14/
+PY  - 2023
+DO  - 10.1073/pnas.2207974120
+DP  - pnas.org (Atypon)
+VL  - 120
+IS  - 11
+SP  - e2207974120
+UR  - https://www.pnas.org/doi/10.1073/pnas.2207974120
+Y2  - 2024/12/26/17:06:01
+L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2207974120
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of luciferases using deep learning
+AU  - Yeh, Andy Hsien-Wei
+AU  - Norn, Christoffer
+AU  - Kipnis, Yakov
+AU  - Tischer, Doug
+AU  - Pellock, Samuel J.
+AU  - Evans, Declan
+AU  - Ma, Pengchen
+AU  - Lee, Gyu Rie
+AU  - Zhang, Jason Z.
+AU  - Anishchenko, Ivan
+AU  - Coventry, Brian
+AU  - Cao, Longxing
+AU  - Dauparas, Justas
+AU  - Halabiya, Samer
+AU  - DeWitt, Michelle
+AU  - Carter, Lauren
+AU  - Houk, K. N.
+AU  - Baker, David
+T2  - Nature
+AB  - De novo enzyme design has sought to introduce active sites and substrate-binding pockets that are predicted to catalyse a reaction of interest into geometrically compatible native scaffolds1,2, but has been limited by a lack of suitable protein structures and the complexity of native protein sequence–structure relationships. Here we describe a deep-learning-based ‘family-wide hallucination’ approach that generates large numbers of idealized protein structures containing diverse pocket shapes and designed sequences that encode them. We use these scaffolds to design artificial luciferases that selectively catalyse the oxidative chemiluminescence of the synthetic luciferin substrates diphenylterazine3 and 2-deoxycoelenterazine. The designed active sites position an arginine guanidinium group adjacent to an anion that develops during the reaction in a binding pocket with high shape complementarity. For both luciferin substrates, we obtain designed luciferases with high selectivity; the most active of these is a small (13.9 kDa) and thermostable (with a melting temperature higher than 95 °C) enzyme that has a catalytic efficiency on diphenylterazine (kcat/Km = 106 M−1 s−1) comparable to that of native luciferases, but a much higher substrate specificity. The creation of highly active and specific biocatalysts from scratch with broad applications in biomedicine is a key milestone for computational enzyme design, and our approach should enable generation of a wide range of luciferases and other enzymes.
+DA  - 2023/02//
+PY  - 2023
+DO  - 10.1038/s41586-023-05696-3
+DP  - www.nature.com
+VL  - 614
+IS  - 7949
+SP  - 774
+EP  - 780
+LA  - en
+SN  - 1476-4687
+UR  - https://www.nature.com/articles/s41586-023-05696-3
+Y2  - 2024/12/26/17:09:03
+L1  - https://www.nature.com/articles/s41586-023-05696-3.pdf
+KW  - Enzymes
+KW  - Protein design
+KW  - Sensors and probes
+ER  - 
+
+TY  - JOUR
+TI  - Peptide-binding specificity prediction using fine-tuned protein structure prediction networks
+AU  - Motmaen, Amir
+AU  - Dauparas, Justas
+AU  - Baek, Minkyung
+AU  - Abedi, Mohamad H.
+AU  - Baker, David
+AU  - Bradley, Philip
+T2  - Proceedings of the National Academy of Sciences
+AB  - Peptide-binding proteins play key roles in biology, and predicting their binding specificity is a long-standing challenge. While considerable protein structural information is available, the most successful current methods use sequence information alone, in part because it has been a challenge to model the subtle structural changes accompanying sequence substitutions. Protein structure prediction networks such as AlphaFold model sequence-structure relationships very accurately, and we reasoned that if it were possible to specifically train such networks on binding data, more generalizable models could be created. We show that placing a classifier on top of the AlphaFold network and fine-tuning the combined network parameters for both classification and structure prediction accuracy leads to a model with strong generalizable performance on a wide range of Class I and Class II peptide-MHC interactions that approaches the overall performance of the state-of-the-art NetMHCpan sequence-based method. The peptide-MHC optimized model shows excellent performance in distinguishing binding and non-binding peptides to SH3 and PDZ domains. This ability to generalize well beyond the training set far exceeds that of sequence-only models and should be particularly powerful for systems where less experimental data are available.
+DA  - 2023/02/28/
+PY  - 2023
+DO  - 10.1073/pnas.2216697120
+DP  - pnas.org (Atypon)
+VL  - 120
+IS  - 9
+SP  - e2216697120
+UR  - https://www.pnas.org/doi/10.1073/pnas.2216697120
+Y2  - 2024/12/26/17:11:06
+L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2216697120
+ER  - 
+
+TY  - JOUR
+TI  - Design of Diverse Asymmetric Pockets in <i>De Novo</i> Homo-oligomeric Proteins
+AU  - Gerben, Stacey R
+AU  - Borst, Andrew J
+AU  - Hicks, Derrick R
+AU  - Moczygemba, Isabelle
+AU  - Feldman, David
+AU  - Coventry, Brian
+AU  - Yang, Wei
+AU  - Bera, Asim K.
+AU  - Miranda, Marcos
+AU  - Kang, Alex
+AU  - Nguyen, Hannah
+AU  - Baker, David
+T2  - Biochemistry
+DA  - 2023/01/17/
+PY  - 2023
+DO  - 10.1021/acs.biochem.2c00497
+DP  - DOI.org (Crossref)
+VL  - 62
+IS  - 2
+SP  - 358
+EP  - 368
+J2  - Biochemistry
+LA  - en
+SN  - 0006-2960, 1520-4995
+UR  - https://pubs.acs.org/doi/10.1021/acs.biochem.2c00497
+Y2  - 2024/12/26/17:13:43
+L1  - https://pmc.ncbi.nlm.nih.gov/articles/PMC9850923/pdf/bi2c00497.pdf
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of obligate ABC-type heterotrimeric proteins
+AU  - Bermeo, Sherry
+AU  - Favor, Andrew
+AU  - Chang, Ya-Ting
+AU  - Norris, Andrew
+AU  - Boyken, Scott E.
+AU  - Hsia, Yang
+AU  - Haddox, Hugh K.
+AU  - Xu, Chunfu
+AU  - Brunette, T. J.
+AU  - Wysocki, Vicki H.
+AU  - Bhabha, Gira
+AU  - Ekiert, Damian C.
+AU  - Baker, David
+T2  - Nature Structural & Molecular Biology
+AB  - The de novo design of three protein chains that associate to form a heterotrimer (but not any of the possible two-chain heterodimers) and that can drive the assembly of higher-order branching structures is an important challenge for protein design. We designed helical heterotrimers with specificity conferred by buried hydrogen bond networks and large aromatic residues to enhance shape complementary packing. We obtained ten designs for which all three chains cooperatively assembled into heterotrimers with few or no other species present. Crystal structures of a helical bundle heterotrimer and extended versions, with helical repeat proteins fused to individual subunits, showed all three chains assembling in the designed orientation. We used these heterotrimers as building blocks to construct larger cyclic oligomers, which were structurally validated by electron microscopy. Our three-way junction designs provide new routes to complex protein nanostructures and enable the scaffolding of three distinct ligands for modulation of cell signaling.
+DA  - 2022/12//
+PY  - 2022
+DO  - 10.1038/s41594-022-00879-4
+DP  - www.nature.com
+VL  - 29
+IS  - 12
+SP  - 1266
+EP  - 1276
+J2  - Nat Struct Mol Biol
+LA  - en
+SN  - 1545-9985
+UR  - https://www.nature.com/articles/s41594-022-00879-4
+Y2  - 2024/12/26/17:59:02
+L1  - https://www.nature.com/articles/s41594-022-00879-4.pdf
+KW  - Protein folding
+ER  - 
+
+TY  - JOUR
+TI  - Design and optimization of enzymatic activity in a de novo β-barrel scaffold
+AU  - Kipnis, Yakov
+AU  - Chaib, Anissa Ouald
+AU  - Vorobieva, Anastassia A.
+AU  - Cai, Guangyang
+AU  - Reggiano, Gabriella
+AU  - Basanta, Benjamin
+AU  - Kumar, Eshan
+AU  - Mittl, Peer R.E.
+AU  - Hilvert, Donald
+AU  - Baker, David
+T2  - Protein Science
+AB  - While native scaffolds offer a large diversity of shapes and topologies for enzyme engineering, their often unpredictable behavior in response to sequence modification makes de novo generated scaffolds an exciting alternative. Here we explore the customization of the backbone and sequence of a de novo designed eight stranded β-barrel protein to create catalysts for a retro-aldolase model reaction. We show that active and specific catalysts can be designed in this fold and use directed evolution to further optimize activity and stereoselectivity. Our results support previous suggestions that different folds have different inherent amenability to evolution and this property could account, in part, for the distribution of natural enzymes among different folds.
+DA  - 2022///
+PY  - 2022
+DO  - 10.1002/pro.4405
+DP  - Wiley Online Library
+VL  - 31
+IS  - 11
+SP  - e4405
+LA  - en
+SN  - 1469-896X
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.4405
+Y2  - 2024/12/26/18:00:18
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.4405
+L2  - https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4405
+KW  - enzyme design
+KW  - protein design
+KW  - biocatalysis
+KW  - computational modeling
+KW  - enzyme mechanism
+ER  - 
+
+TY  - JOUR
+TI  - Exploration of Structured Symmetric Cyclic Peptides as Ligands for Metal-Organic Frameworks
+AU  - Said, Meerit Y.
+AU  - Kang, Christine S.
+AU  - Wang, Shunzhi
+AU  - Sheffler, William
+AU  - Salveson, Patrick J.
+AU  - Bera, Asim K.
+AU  - Kang, Alex
+AU  - Nguyen, Hannah
+AU  - Ballard, Ryanne
+AU  - Li, Xinting
+AU  - Bai, Hua
+AU  - Stewart, Lance
+AU  - Levine, Paul
+AU  - Baker, David
+T2  - Chemistry of Materials
+DA  - 2022/11/08/
+PY  - 2022
+DO  - 10.1021/acs.chemmater.2c02597
+DP  - DOI.org (Crossref)
+VL  - 34
+IS  - 21
+SP  - 9736
+EP  - 9744
+J2  - Chem. Mater.
+LA  - en
+SN  - 0897-4756, 1520-5002
+UR  - https://pubs.acs.org/doi/10.1021/acs.chemmater.2c02597
+Y2  - 2024/12/26/19:40:46
+L1  - https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.2c02597
+ER  - 
+
+TY  - JOUR
+TI  - Accurate de novo design of membrane-traversing macrocycles
+AU  - Bhardwaj, Gaurav
+AU  - O’Connor, Jacob
+AU  - Rettie, Stephen
+AU  - Huang, Yen-Hua
+AU  - Ramelot, Theresa A.
+AU  - Mulligan, Vikram Khipple
+AU  - Alpkilic, Gizem Gokce
+AU  - Palmer, Jonathan
+AU  - Bera, Asim K.
+AU  - Bick, Matthew J.
+AU  - Di Piazza, Maddalena
+AU  - Li, Xinting
+AU  - Hosseinzadeh, Parisa
+AU  - Craven, Timothy W.
+AU  - Tejero, Roberto
+AU  - Lauko, Anna
+AU  - Choi, Ryan
+AU  - Glynn, Calina
+AU  - Dong, Linlin
+AU  - Griffin, Robert
+AU  - van Voorhis, Wesley C.
+AU  - Rodriguez, Jose
+AU  - Stewart, Lance
+AU  - Montelione, Gaetano T.
+AU  - Craik, David
+AU  - Baker, David
+T2  - Cell
+DA  - 2022/09/15/
+PY  - 2022
+DO  - 10.1016/j.cell.2022.07.019
+VL  - 185
+IS  - 19
+SP  - 3520
+EP  - 3532.e26
+SN  - 0092-8674
+UR  - https://doi.org/10.1016/j.cell.2022.07.019
+Y2  - 2024/12/26/
+ER  - 
+
+TY  - JOUR
+TI  - De novo design of protein homodimers containing tunable symmetric protein pockets
+AU  - Hicks, Derrick R.
+AU  - Kennedy, Madison A.
+AU  - Thompson, Kirsten A.
+AU  - DeWitt, Michelle
+AU  - Coventry, Brian
+AU  - Kang, Alex
+AU  - Bera, Asim K.
+AU  - Brunette, T. J.
+AU  - Sankaran, Banumathi
+AU  - Stoddard, Barry
+AU  - Baker, David
+T2  - Proceedings of the National Academy of Sciences
+AB  - Function follows form in biology, and the binding of small molecules requires proteins with pockets that match the shape of the ligand. For design of binding to symmetric ligands, protein homo-oligomers with matching symmetry are advantageous as each protein subunit can make identical interactions with the ligand. Here, we describe a general approach to designing hyperstable C2 symmetric proteins with pockets of diverse size and shape. We first designed repeat proteins that sample a continuum of curvatures but have low helical rise, then docked these into C2 symmetric homodimers to generate an extensive range of C2 symmetric cavities. We used this approach to design thousands of C2 symmetric homodimers, and characterized 101 of them experimentally. Of these, the geometry of 31 were confirmed by small angle X-ray scattering and 2 were shown by crystallographic analyses to be in close agreement with the computational design models. These scaffolds provide a rich set of starting points for binding a wide range of C2 symmetric compounds.
+DA  - 2022/07/26/
+PY  - 2022
+DO  - 10.1073/pnas.2113400119
+DP  - pnas.org (Atypon)
+VL  - 119
+IS  - 30
+SP  - e2113400119
+UR  - https://www.pnas.org/doi/full/10.1073/pnas.2113400119
+Y2  - 2024/12/26/19:51:44
+L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2113400119
+ER  - 
+
+TY  - JOUR
+TI  - Scaffolding protein functional sites using deep learning
+AU  - Wang, Jue
+AU  - Lisanza, Sidney
+AU  - Juergens, David
+AU  - Tischer, Doug
+AU  - Watson, Joseph L.
+AU  - Castro, Karla M.
+AU  - Ragotte, Robert
+AU  - Saragovi, Amijai
+AU  - Milles, Lukas F.
+AU  - Baek, Minkyung
+AU  - Anishchenko, Ivan
+AU  - Yang, Wei
+AU  - Hicks, Derrick R.
+AU  - Expòsit, Marc
+AU  - Schlichthaerle, Thomas
+AU  - Chun, Jung-Ho
+AU  - Dauparas, Justas
+AU  - Bennett, Nathaniel
+AU  - Wicky, Basile I. M.
+AU  - Muenks, Andrew
+AU  - DiMaio, Frank
+AU  - Correia, Bruno
+AU  - Ovchinnikov, Sergey
+AU  - Baker, David
+T2  - Science
+AB  - The binding and catalytic functions of proteins are generally mediated by a small number of functional residues held in place by the overall protein structure. Here, we describe deep learning approaches for scaffolding such functional sites without needing to prespecify the fold or secondary structure of the scaffold. The first approach, “constrained hallucination,” optimizes sequences such that their predicted structures contain the desired functional site. The second approach, “inpainting,” starts from the functional site and fills in additional sequence and structure to create a viable protein scaffold in a single forward pass through a specifically trained RoseTTAFold network. We use these two methods to design candidate immunogens, receptor traps, metalloproteins, enzymes, and protein-binding proteins and validate the designs using a combination of in silico and experimental tests.
+DA  - 2022/07/22/
+PY  - 2022
+DO  - 10.1126/science.abn2100
+DP  - science.org (Atypon)
+VL  - 377
+IS  - 6604
+SP  - 387
+EP  - 394
+UR  - https://www.science.org/doi/10.1126/science.abn2100
+Y2  - 2024/12/26/20:08:49
+L1  - https://pmc.ncbi.nlm.nih.gov/articles/PMC9621694/pdf/nihms-1830590.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Reconfigurable asymmetric protein assemblies through implicit negative design
+AU  - Sahtoe, Danny D.
+AU  - Praetorius, Florian
+AU  - Courbet, Alexis
+AU  - Hsia, Yang
+AU  - Wicky, Basile I. M.
+AU  - Edman, Natasha I.
+AU  - Miller, Lauren M.
+AU  - Timmermans, Bart J. R.
+AU  - Decarreau, Justin
+AU  - Morris, Hana M.
+AU  - Kang, Alex
+AU  - Bera, Asim K.
+AU  - Baker, David
+T2  - Science
+AB  - Asymmetric multiprotein complexes that undergo subunit exchange play central roles in biology but present a challenge for design because the components must not only contain interfaces that enable reversible association but also be stable and well behaved in isolation. We use implicit negative design to generate β sheet–mediated heterodimers that can be assembled into a wide variety of complexes. The designs are stable, folded, and soluble in isolation and rapidly assemble upon mixing, and crystal structures are close to the computational models. We construct linearly arranged hetero-oligomers with up to six different components, branched hetero-oligomers, closed C4-symmetric two-component rings, and hetero-oligomers assembled on a cyclic homo-oligomeric central hub and demonstrate that such complexes can readily reconfigure through subunit exchange. Our approach provides a general route to designing asymmetric reconfigurable protein systems.
+DA  - 2022/01/21/
+PY  - 2022
+DO  - 10.1126/science.abj7662
+DP  - science.org (Atypon)
+VL  - 375
+IS  - 6578
+SP  - eabj7662
+UR  - https://www.science.org/doi/10.1126/science.abj7662
+Y2  - 2024/12/27/13:14:17
+L1  - https://pmc.ncbi.nlm.nih.gov/articles/PMC9881579/pdf/nihms-1843281.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Deep learning and protein structure modeling
+AU  - Baek, Minkyung
+AU  - Baker, David
+T2  - Nature Methods
+AB  - Deep learning has transformed protein structure modeling. Here we relate AlphaFold and RoseTTAFold to classical physically based approaches to protein structure prediction, and discuss the many areas of structural biology that are likely to be affected by further advances in deep learning.
+DA  - 2022/01//
+PY  - 2022
+DO  - 10.1038/s41592-021-01360-8
+DP  - www.nature.com
+VL  - 19
+IS  - 1
+SP  - 13
+EP  - 14
+J2  - Nat Methods
+LA  - en
+SN  - 1548-7105
+UR  - https://www.nature.com/articles/s41592-021-01360-8
+Y2  - 2024/12/27/13:24:17
+KW  - Protein design
+KW  - Protein structure predictions
+ER  - 
+
+TY  - JOUR
+TI  - Design of protein-binding proteins from the target structure alone
+AU  - Cao, Longxing
+AU  - Coventry, Brian
+AU  - Goreshnik, Inna
+AU  - Huang, Buwei
+AU  - Sheffler, William
+AU  - Park, Joon Sung
+AU  - Jude, Kevin M.
+AU  - Marković, Iva
+AU  - Kadam, Rameshwar U.
+AU  - Verschueren, Koen H. G.
+AU  - Verstraete, Kenneth
+AU  - Walsh, Scott Thomas Russell
+AU  - Bennett, Nathaniel
+AU  - Phal, Ashish
+AU  - Yang, Aerin
+AU  - Kozodoy, Lisa
+AU  - DeWitt, Michelle
+AU  - Picton, Lora
+AU  - Miller, Lauren
+AU  - Strauch, Eva-Maria
+AU  - DeBouver, Nicholas D.
+AU  - Pires, Allison
+AU  - Bera, Asim K.
+AU  - Halabiya, Samer
+AU  - Hammerson, Bradley
+AU  - Yang, Wei
+AU  - Bernard, Steffen
+AU  - Stewart, Lance
+AU  - Wilson, Ian A.
+AU  - Ruohola-Baker, Hannele
+AU  - Schlessinger, Joseph
+AU  - Lee, Sangwon
+AU  - Savvides, Savvas N.
+AU  - Garcia, K. Christopher
+AU  - Baker, David
+T2  - Nature
+AB  - The design of proteins that bind to a specific site on the surface of a target protein using no information other than the three-dimensional structure of the target remains a challenge1–5. Here we describe a general solution to this problem that starts with a broad exploration of the vast space of possible binding modes to a selected region of a protein surface, and then intensifies the search in the vicinity of the most promising binding modes. We demonstrate the broad applicability of this approach through the de novo design of binding proteins to 12 diverse protein targets with different shapes and surface properties. Biophysical characterization shows that the binders, which are all smaller than 65 amino acids, are hyperstable and, following experimental optimization, bind their targets with nanomolar to picomolar affinities. We succeeded in solving crystal structures of five of the binder–target complexes, and all five closely match the corresponding computational design models. Experimental data on nearly half a million computational designs and hundreds of thousands of point mutants provide detailed feedback on the strengths and limitations of the method and of our current understanding of protein–protein interactions, and should guide improvements of both. Our approach enables the targeted design of binders to sites of interest on a wide variety of proteins for therapeutic and diagnostic applications.
+DA  - 2022/05//
+PY  - 2022
+DO  - 10.1038/s41586-022-04654-9
+DP  - www.nature.com
+VL  - 605
+IS  - 7910
+SP  - 551
+EP  - 560
+LA  - en
+SN  - 1476-4687
+UR  - https://www.nature.com/articles/s41586-022-04654-9
+Y2  - 2024/12/27/13:28:49
+L1  - https://www.nature.com/articles/s41586-022-04654-9.pdf
+KW  - Protein design
+KW  - High-throughput screening
+ER  - 
+
+TY  - JOUR
+TI  - Multivalent designed proteins neutralize SARS-CoV-2 variants of concern and confer protection against infection in mice
+AU  - Hunt, Andrew C.
+AU  - Case, James Brett
+AU  - Park, Young-Jun
+AU  - Cao, Longxing
+AU  - Wu, Kejia
+AU  - Walls, Alexandra C.
+AU  - Liu, Zhuoming
+AU  - Bowen, John E.
+AU  - Yeh, Hsien-Wei
+AU  - Saini, Shally
+AU  - Helms, Louisa
+AU  - Zhao, Yan Ting
+AU  - Hsiang, Tien-Ying
+AU  - Starr, Tyler N.
+AU  - Goreshnik, Inna
+AU  - Kozodoy, Lisa
+AU  - Carter, Lauren
+AU  - Ravichandran, Rashmi
+AU  - Green, Lydia B.
+AU  - Matochko, Wadim L.
+AU  - Thomson, Christy A.
+AU  - Vögeli, Bastian
+AU  - Krüger, Antje
+AU  - VanBlargan, Laura A.
+AU  - Chen, Rita E.
+AU  - Ying, Baoling
+AU  - Bailey, Adam L.
+AU  - Kafai, Natasha M.
+AU  - Boyken, Scott E.
+AU  - Ljubetič, Ajasja
+AU  - Edman, Natasha
+AU  - Ueda, George
+AU  - Chow, Cameron M.
+AU  - Johnson, Max
+AU  - Addetia, Amin
+AU  - Navarro, Mary-Jane
+AU  - Panpradist, Nuttada
+AU  - Gale, Michael
+AU  - Freedman, Benjamin S.
+AU  - Bloom, Jesse D.
+AU  - Ruohola-Baker, Hannele
+AU  - Whelan, Sean P. J.
+AU  - Stewart, Lance
+AU  - Diamond, Michael S.
+AU  - Veesler, David
+AU  - Jewett, Michael C.
+AU  - Baker, David
+T2  - Science Translational Medicine
+AB  - New variants of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) continue to arise and prolong the coronavirus disease 2019 (COVID-19) pandemic. Here, we used a cell-free expression workflow to rapidly screen and optimize constructs containing multiple computationally designed miniprotein inhibitors of SARS-CoV-2. We found the broadest efficacy was achieved with a homotrimeric version of the 75-residue angiotensin-converting enzyme 2 (ACE2) mimic AHB2 (TRI2-2) designed to geometrically match the trimeric spike architecture. Consistent with the design model, in the cryo-electron microscopy structure TRI2-2 forms a tripod at the apex of the spike protein that engaged all three receptor binding domains simultaneously. TRI2-2 neutralized Omicron (B.1.1.529), Delta (B.1.617.2), and all other variants tested with greater potency than the monoclonal antibodies used clinically for the treatment of COVID-19. TRI2-2 also conferred prophylactic and therapeutic protection against SARS-CoV-2 challenge when administered intranasally in mice. Designed miniprotein receptor mimics geometrically arrayed to match pathogen receptor binding sites could be a widely applicable antiviral therapeutic strategy with advantages over antibodies in greater resistance to viral escape and antigenic drift, and advantages over native receptor traps in lower chances of autoimmune responses.
+          , 
+            Computationally designed trivalent minibinders provide therapeutic protection in mice against emerging SARS-CoV-2 variants of concern.
+          , 
+            Making multivalent minibinders
+            
+              Many types of SARS-CoV-2–neutralizing therapeutics have been developed, with antibodies and angiotensin-converting enzyme 2 decoys being the most common. However, other approaches merit investigation, particularly because variants of concern evade existing therapeutics. Here, Hunt
+              et al.
+              developed and produced multivalent minibinders that recognize the receptor binding domain (RBD) of SARS-CoV-2. One homotrimeric minibinder, TRI2-2, formed a tripod structure that interacted with all three RBDs of the spike trimer. TRI2-2 neutralized SARS-CoV-2 variants of concern, including omicron, and conferred protection against SARS-CoV-2 challenge in mice prophylactically and therapeutically. Together, these data support further investigation into multivalent minibinders as therapeutic agents for SARS-CoV-2.
+DA  - 2022/05/25/
+PY  - 2022
+DO  - 10.1126/scitranslmed.abn1252
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 646
+SP  - eabn1252
+J2  - Sci. Transl. Med.
+LA  - en
+SN  - 1946-6234, 1946-6242
+UR  - https://www.science.org/doi/10.1126/scitranslmed.abn1252
+Y2  - 2024/12/27/13:30:11
+L1  - https://pmc.ncbi.nlm.nih.gov/articles/PMC8282097/pdf/nihpp-2021.07.07.451375v1.pdf
 ER  - 
 
