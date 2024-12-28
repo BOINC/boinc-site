@@ -16,6 +16,7 @@ EP  - pages, 3.498 MB
 LA  - en
 UR  - http://jacow.org/ipac2018/doi/JACoW-IPAC2018-TUPAL064.html
 Y2  - 2022/11/20/15:22:35
+L1  - http://jacow.org/ipac2018/papers/tupal064.pdf
 KW  - 04 Hadron Accelerators
 KW  - A04 Circular Accelerators
 KW  - Accelerator Physics
@@ -55,6 +56,7 @@ LA  - en
 ST  - SixTrack Project
 UR  - http://jacow.org/icap2018/doi/JACoW-ICAP2018-TUPAF02.html
 Y2  - 2022/11/20/15:22:35
+L1  - http://jacow.org/icap2018/papers/tupaf02.pdf
 KW  - Accelerator Physics
 KW  - D-1 Beam Dynamics Simulations
 ER  - 
@@ -81,6 +83,7 @@ EP  - pages, 0.135 MB
 LA  - en
 UR  - http://jacow.org/ipac2017/doi/JACoW-IPAC2017-THPAB047.html
 Y2  - 2022/11/20/15:22:35
+L1  - http://jacow.org/ipac2017/papers/thpab047.pdf
 KW  - Accelerator Physics
 KW  - 05 Beam Dynamics and Electromagnetic Fields
 ER  - 
@@ -122,7 +125,7 @@ UR  - https://www.worldscientific.com/doi/abs/10.1142/S0217751X19420351
 Y2  - 2022/11/20/15:22:57
 ER  - 
 
-TY  - ELEC
+TY  - CONF
 TI  - JACoW : SixTrack project: Status, runtime environment, and new developments
 AU  - De Maria, Riccardo
 AU  - Hoimyr, Nils
@@ -143,33 +146,40 @@ AU  - Kostoglou, Sofia
 AU  - Hermes, Pascal
 AU  - Pellegrini, Dario
 AU  - Schwinzerl, Martin
-T2  - CERN Document Server
 AB  - JACoW
+C3  - CERN Document Server
 DA  - 2019///
 PY  - 2019
+DO  - DOI: 10.18429/JACoW-ICAP2018-TUPAF02
+SP  - TUPAF02
 LA  - en
 ST  - JACoW
 UR  - https://cds.cern.ch/record/2697441
 Y2  - 2022/11/20/15:25:05
+L1  - http://jacow.org/icap2018/papers/tupaf02.pdf
 L1  - https://cds.cern.ch/record/2697441/files/tupaf02.pdf
 L2  - https://cds.cern.ch/record/2697441?ln=en
 ER  - 
 
-TY  - ELEC
+TY  - CONF
 TI  - JACoW : Extended-Domain Tune-Scans for the HL-LHC Dynamic Aperture in Presence of Beam-Beam Effects
 AU  - Kaltchev, Dobrin
 AU  - Karastathis, Nikolaos
 AU  - Pellegrini, Dario
 AU  - McIntosh, E.
 AU  - Papaphilippou, Yannis
-T2  - CERN Document Server
 AB  - Simulations of the HL-LHC dynamic aperture (DA) at collision energy and in the presence of beam-beam effects (weak-strong approximation) have been performed to determine the dependence of DA on the working point in tune space. Both linear domains of working points are explored and two-dimensional ones which focus on more promising sub-regions near the diagonal. The range of parameters, such as bunch intensity and emittance correspond to important HL-LHC scenarios. In this work, the necessary resources were provided by the LHC@home project, based on the BOINC-SixTrack platform for distributed Computing.
+C3  - CERN Document Server
+CN  - CERN-ACC-2018-127
 DA  - 2018///
 PY  - 2018
+DO  - 10.18429/JACoW-IPAC2018-TUPAL064
+SP  - TUPAL064
 LA  - en
 ST  - JACoW
 UR  - https://cds.cern.ch/record/2648698
 Y2  - 2022/11/20/15:26:33
+L1  - http://jacow.org/ipac2018/papers/tupal064.pdf
 L1  - https://cds.cern.ch/record/2648698/files/tupal064.pdf
 ER  - 
 
@@ -192,6 +202,7 @@ SN  - 2469-9888
 UR  - https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.034002
 Y2  - 2022/11/20/15:33:38
 L1  - https://link.aps.org/pdf/10.1103/PhysRevAccelBeams.22.034002
+L1  - https://journals.aps.org/prab/pdf/10.1103/PhysRevAccelBeams.22.034002
 ER  - 
 
 TY  - JOUR
@@ -231,6 +242,7 @@ SN  - 1742-6588, 1742-6596
 ST  - SixTrack Version 5
 UR  - https://iopscience.iop.org/article/10.1088/1742-6596/1350/1/012129
 Y2  - 2022/11/20/15:33:39
+L1  - https://www.duo.uio.no/bitstream/10852/77756/1/De_Maria_2019_J._Phys.__Conf._Ser._1350_012129.pdf
 L1  - https://www.duo.uio.no/bitstream/10852/77756/1/De_Maria_2019_J._Phys.__Conf._Ser._1350_012129.pdf
 ER  - 
 
@@ -313,6 +325,7 @@ SN  - 978-3-95450-214-1
 UR  - https://accelconf.web.cern.ch/ipac2021/doi/JACoW-IPAC2021-WEPAB024.html
 Y2  - 2023/05/20/16:32:05
 L1  - https://jacow.org/ipac2021/papers/wepab024.pdf
+L1  - https://jacow.org/ipac2021/papers/wepab024.pdf
 ER  - 
 
 TY  - CONF
@@ -329,6 +342,7 @@ of the type of computers used. This paper reviews the problems encountered and t
 DA  - 2006///
 PY  - 2006
 UR  - https://accelconf.web.cern.ch/ICAP06/PAPERS/MOM1MP01.PDF
+L1  - https://accelconf.web.cern.ch/ICAP06/PAPERS/MOM1MP01.PDF
 ER  - 
 
 TY  - CONF
@@ -343,5 +357,38 @@ C1  - Edinburgh, UK
 DA  - 2006/07/13/
 PY  - 2006
 UR  - https://cds.cern.ch/search?f=reportnumber&p=CERN-LHC-PROJECT-REPORT-927
+L1  - https://cds.cern.ch/record/972345/files/lhc-project-report-927.pdf
+ER  - 
+
+TY  - JOUR
+TI  - All grown-up; 18 years of LHC@home
+AU  - Cameron, David
+AU  - Field, Laurence
+AU  - Van Der Veken, Frederik
+AU  - Høimyr, Nils
+AU  - Di Croce, Davide
+AU  - Gaillard, Melissa
+AU  - Masullo, Germano
+AU  - Noble, Cath
+AU  - Reguero, Ignacio
+AU  - Reid, Ivan
+AU  - Segal, Ben
+T2  - EPJ Web of Conferences
+A2  - De Vita, R.
+A2  - Espinal, X.
+A2  - Laycock, P.
+A2  - Shadura, O.
+AB  - LHC@home was launched as a BOINC project in 2004 as an outreach project for CERN’s 50 years anniversary. Initially focused on the accelerator physics simulation code SixTrack, the project was expanded in 2011 to run other physics simulation codes on Linux thanks to virtualisation. Later on the experiment and theory applications running on the LHC@home platform have evolved to use containers and take advantage of the CVMFS file system as well as content delivery networks. Furthermore, a substantial part of the contributed computing capacity nowadays is provided as opportunistic back-fill from data centers with spare capacity, in addition to enthusiastic volunteers. The paper will address the challenges with this distributed computing model, new applications to exploit GPUs and the future outlook for volunteer computing.
+DA  - 2024///
+PY  - 2024
+DO  - 10.1051/epjconf/202429504004
+DP  - DOI.org (Crossref)
+VL  - 295
+SP  - 04004
+J2  - EPJ Web of Conf.
+SN  - 2100-014X
+UR  - https://www.epj-conferences.org/10.1051/epjconf/202429504004
+Y2  - 2024/12/28/13:35:00
+L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2024/05/epjconf_chep2024_04004.pdf
 ER  - 
 
