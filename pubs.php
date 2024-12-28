@@ -212,7 +212,7 @@ function main($years) {
     text_start();
     echo "
         <p>
-        Our intent is to list papers containing
+        This is a list papers containing
         scientific results arising, directly or indirectly,
         from BOINC-based computing.
         Please report any issues

@@ -65,7 +65,7 @@ function friendly_name($p) {
 // return an array of bools for the supported platforms,
 // GPU types, and virtualization types
 //
-function get_platform_icon_flags($l) {
+function get_platform_icon_flags($platforms) {
     $x = new StdClass;
     $x->windows = false;
     $x->mac = false;
@@ -79,8 +79,9 @@ function get_platform_icon_flags($l) {
     $x->apple_gpu = false;
     $x->vbox = false;
     $x->docker = false;
-    foreach ($l as $p) {
-        $y = explode('[', $p);
+    foreach ($platforms as $plat) {
+        $p = $plat;
+        $y = explode('[', $plat);
         $pc = "";
         if (sizeof($y) > 1) {
             $p = $y[0];
@@ -88,13 +89,14 @@ function get_platform_icon_flags($l) {
         }
         if (strstr($p, "windows")) $x->windows = true;
         else if (strstr($p, "darwin")) $x->mac = true;
-        else if (strstr($p, "linux")) $x->linux = true;
         else if (strstr($p, "android")) $x->android = true;
         else if (strstr($p, "freebsd")) $x->freebsd = true;
         else if (strstr($p, "arm-unknown-linux-gnueabihf")) $x->rasp_pi = true;
         else if (strstr($p, "armv5")) $x->rasp_pi = true;
         else if (strstr($p, "aarch64")) $x->rasp_pi = true;
         else if (strstr($p, "armv6")) $x->rasp_pi = true;
+        else if (strstr($p, "linux")) $x->linux = true;
+            // must follow android, rasp_pi options
 
         if (strstr($pc, "ati")) $x->amd_gpu = true;
         else if (strstr($pc, "amd")) $x->amd_gpu = true;
@@ -109,45 +111,60 @@ function get_platform_icon_flags($l) {
     return $x;
 }
 
+function icon_image($fname, $title, $background=false) {
+    return sprintf(
+        '<img hspace=%d %s vspace=%d height=%d src=images/%s title="%s">%s',
+        5,          // horiz pad
+        $background?'style="background-color:white;"':'',
+        4,          // vert pad
+        40,         // height
+        $fname,
+        $title,
+        "\n"
+    );
+}
+
 function platform_icons($f) {
     $x = "";
     $ht = 40;
     $hs = 5;
+    $vs = 4;
     if ($f->windows) {
-        $x .= "<img hspace=$hs height=$ht src=images/windows.jpg title=\"Supports Microsoft Windows\">";
+        $x .= icon_image('windows_logo.png', 'Supports Microsoft Windows');
     }
     if ($f->mac) {
-        $x .= "<img hspace=$hs height=$ht src=images/mac.jpg title=\"Supports Mac OS X\">";
+        $x .= icon_image('macos_logo.png', 'Supports Mac OS');
     }
     if ($f->linux) {
-        $x .= "<img hspace=$hs height=$ht src=images/linux.jpg title=\"Supports Linux on Intel\">";
+        $x .= icon_image('linux_logo.png', 'Supports Linux on Intel');
     }
     if ($f->android) {
-        $x .= "<img hspace=$hs height=$ht src=images/android.png title=\"Supports Android\">";
+        $x .= icon_image('android_logo.png', 'Supports Android');
     }
     if ($f->freebsd) {
-        $x .= "<img hspace=$hs height=$ht src=images/freebsd.png title=\"Supports FreeBSD\">";
+        $x .= icon_image('freebsd_logo.png', 'Supports FreeBSD');
     }
     if ($f->rasp_pi) {
-        $x .= "<img hspace=$hs height=$ht src=images/linux_arm.png title=\"Supports Linux on ARM (e.g. Raspberry Pi)\">";
+        $x .= icon_image('linux_arm.png', 'Supports Linux on ARM');
+        $x .= icon_image('raspberrypi_logo.png', 'Supports Raspberry Pi');
     }
     if ($f->nvidia_gpu) {
-        $x .= "<img hspace=$hs height=$ht src=images/nvidia.jpg title=\"Supports NVIDIA GPUs\">";
+        $x .= icon_image('nvidia_logo.png', 'Supports NVIDIA GPUs', true);
     }
     if ($f->amd_gpu) {
-        $x .= "<img hspace=$hs height=$ht src=images/amd_gpu.jpg title=\"Supports AMD GPUs\">";
+        $x .= icon_image('AMD_logo.png', 'Supports AMD GPUs', true);
     }
     if ($f->intel_gpu) {
-        $x .= "<img hspace=$hs height=$ht src=images/intel_gpu.jpg title=\"Supports Intel GPUs\">";
+        $x .= icon_image('intel_logo.png', 'Supports Intel GPUs');
     }
     if ($f->apple_gpu) {
-        $x .= "<img hspace=$hs height=$ht src=images/metal_logo.png title=\"Supports Apple GPUs\">";
+        $x .= icon_image('metal_logo.png', 'Supports Apple GPUs');
     }
     if ($f->vbox) {
-        $x .= "<img hspace=$hs height=$ht src=images/vbox.jpg title=\"Supports VirtualBox\">";
+        $x .= icon_image('virtualbox_logo.png', 'Supports VirtualBox');
     }
     if ($f->docker) {
-        $x .= "<img hspace=$hs height=$ht src=images/docker_logo.png title=\"Supports Docker\">";
+        $x .= icon_image('docker_logo.png', 'Supports Docker');
     }
     return $x;
 }
@@ -339,8 +356,8 @@ function get_platforms_string($url, $comma=true) {
 }
 
 function get_platform_icons($url) {
-    $l = get_platforms_cached($url);
-    $flags = get_platform_icon_flags($l);
+    $platforms = get_platforms_cached($url);
+    $flags = get_platform_icon_flags($platforms);
     return platform_icons($flags);
 }
 

@@ -27,7 +27,7 @@ echo sprintf("
 tra("BOINC is used by many projects.  You can participate in any number of these projects."),
 tra('To decide whether to participate in a project, read its web site and consider'),
 tra('Does the project clearly describe its goals?  Are these goals important and beneficial?'),
-tra('Has the project published results in peer-reviewed journals or conferences?  See %1 a list of publications of BOINC projects %2.',
+tra('Has the project published results in peer-reviewed journals or conferences?  See %1 a list of publications by BOINC projects %2.',
 '<a href=pubs.php>',
 '</a>'
 ),
