@@ -67,11 +67,11 @@ function action() {
     case 'Ubuntu':
         echo '<pre>';
         echo sprintf(
-'sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 40254C9B29853EA6
-sudo apt-add-repository deb https://boinc.berkeley.edu/dl/linux/%s/%s %s main
+'sudo curl -fsSL https://boinc.berkeley.edu/dl/linux/%s/$(lsb_release -cs)/boinc.gpg | sudo gpg --dearmor -o /etc/apt/keyrings/boinc.gpg
+sudo echo deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/boinc.gpg] https://boinc.berkeley.edu/dl/linux/%s/$(lsb_release -cs) $(lsb_release -cs) main | sudo tee /etc/apt/sources.list.d/boinc.list > /dev/null
 sudo apt update
 sudo apt install boinc-client boinc-manager',
-            $build, $os->code, $os->code
+            $build, $build
         );
         echo '</pre>';
         break;
