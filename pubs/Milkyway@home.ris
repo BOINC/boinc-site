@@ -696,3 +696,136 @@ PB  - Rensselaer Polytechnic Institute
 UR  - https://www.proquest.com/docview/2125438843/2C9008B81B5749EEPQ/1?sourcetype=Dissertations%20&%20Theses
 ER  - 
 
+TY  - THES
+TI  - Using MilkyWay@home to Measure the Mass of the Orphan-Chenab Stream Progenitor Dwarf Galaxy
+AU  - Eric J. Mendelsohn
+DA  - 2022///
+PY  - 2022
+PB  - Rensselaer Polytechnic Institute
+UR  - https://milkyway.cs.rpi.edu/milkyway/publications/Eric.M_thesis.pdf
+Y2  - 2025/01/02/
+ER  - 
+
+TY  - JOUR
+TI  - Census of blue stars in SDSS DR8
+AU  - Scibelli, Samantha
+AU  - Newberg, Heidi Jo
+AU  - Carlin, Jeffrey L.
+AU  - Yanny, Brian
+T2  - The Astrophysical Journal Supplement Series
+AB  - We present a census of the 12,060 spectra of blue objects ($(g-r)_0<-0.25$) in the Sloan Digital Sky Survey (SDSS) Data Release 8 (DR8). As part of the data release, all of the spectra were cross-correlated with 48 template spectra of stars, galaxies and QSOs to determine the best match. We compared the blue spectra by eye to the templates assigned in SDSS DR8. 10,856 of the objects matched their assigned template, 170 could not be classified due to low signal-to-noise (S/N), and 1034 were given new classifications. We identify 7458 DA white dwarfs, 1145 DB white dwarfs, 273 rarer white dwarfs (including carbon, DZ, DQ, and magnetic), 294 subdwarf O stars, 648 subdwarf B stars, 679 blue horizontal branch stars, 1026 blue stragglers, 13 cataclysmic variables, 129 white dwarf - M dwarf binaries, 36 objects with spectra similar to DO white dwarfs, 179 QSOs, and 10 galaxies. We provide two tables of these objects, sample spectra that match the templates, figures showing all of the spectra that were grouped by eye, and diagnostic plots that show the positions, colors, apparent magnitudes, proper motions, etc. for each classification. Future surveys will be able to use templates similar to stars in each of the classes we identify to classify blue stars, including rare types, automatically.
+DA  - 2014/12/02/
+PY  - 2014
+DO  - 10.1088/0067-0049/215/2/24
+DP  - arXiv.org
+VL  - 215
+IS  - 2
+SP  - 24
+J2  - ApJS
+SN  - 1538-4365
+UR  - http://arxiv.org/abs/1411.5744
+Y2  - 2025/01/02/20:13:32
+L1  - http://arxiv.org/pdf/1411.5744v1
+L2  - https://arxiv.org/abs/1411.5744
+KW  - Astrophysics - Astrophysics of Galaxies
+KW  - Astrophysics - Solar and Stellar Astrophysics
+ER  - 
+
+TY  - JOUR
+TI  - Exploration of Galactic Structures beyond the Sun toward the anti-center of the Milky Way
+AU  - Xu, Yan
+AU  - Newberg, Heidi
+T2  - Proceedings of the International Astronomical Union
+AB  - We map the stellar distribution on Hess diagram in the Anti-Center roughly in the boxes 130<l<230, −30<b<−10 and 10<b<30. There are ‘extra components’ associated with the anti-center structures of figure 1 of Newberg et al. (2002). The turnoff point of the structure in the North sky is at 16m.5 and the turnoff point in the South is at 17m.5. In our work, these structures can be found in all of the longitude in our box that can't be explained by standard thin or thick disk models. The distance of the North structure is about 2 kpc (we call it the North near structure) and the galactic height is about 0.7 kpc, the distance of the South structure is about 4 – 6 kpc (we call it the South middle structure). The Vgsr distribution of stars selected along the North near structure has a kinematic distribution similar to that of thick disk stars. But the metallicities of these stars are quite similar to the metallicity distribution of thin disk stars. We try to explain these structures with wave structure of the Galactic plane.
+DA  - 2013/05//
+PY  - 2013
+DO  - 10.1017/S1743921313007151
+DP  - Cambridge University Press
+VL  - 9
+IS  - S298
+SP  - 450
+EP  - 450
+LA  - en
+SN  - 1743-9213, 1743-9221
+UR  - https://www.cambridge.org/core/journals/proceedings-of-the-international-astronomical-union/article/exploration-of-galactic-structures-beyond-the-sun-toward-the-anticenter-of-the-milky-way/BA61A196BD2A6BCEAE0C98A4701C36AF
+Y2  - 2025/01/02/20:14:53
+L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BA61A196BD2A6BCEAE0C98A4701C36AF/S1743921313007151a.pdf/div-class-title-exploration-of-galactic-structures-beyond-the-sun-toward-the-anti-center-of-the-milky-way-div.pdf
+KW  - anti-center of the Galactic disk
+KW  - substructure
+ER  - 
+
+TY  - THES
+TI  - The sagittarius tidal stream and the shape of the galactic stellar halo
+AU  - Newby, Matthew T.
+AB  - The stellar halo that surrounds our Galaxy contains clues to understanding galaxy formation, cosmology, stellar evolution, and the nature of dark matter. Gravitationally disrupted dwarf galaxies form tidal streams, which roughly trace orbits through the Galactic halo. The Sagittarius (Sgr) dwarf tidal debris is the most dominant of these streams, and its properties place important constraints on the distribution of mass (including dark matter) in the Galaxy. Stars not associated with substructures form the "smooth" component of the stellar halo, the origin of which is still under investigation. Characterizing halo substructures such as the Sgr stream and the smooth halo provides valuable information on the formation history and evolution of our galaxy, and places constraints on cosmological models. This thesis is primarily concerned with characterizing the 3-dimensional stellar densities of the Sgr tidal debris system and the smooth stellar halo, using data from the Sloan Digital Sky Survey (SDSS). F turnoff stars are used to infer distances, as they are relatively bright, numerous, and distributed about a single intrinsic brightness (magnitude). The inherent spread in brightnesses of these stars is overcome through the use of the recently-developed technique of statistical photometric parallax, in which the bulk properties of a stellar population are used to create a probability distribution for a given star's distance. This was used to build a spatial density model for the smooth stellar halo and tidal streams. The free parameters in this model are then fit to SDSS data with a maximum likelihood technique, and the parameters are optimized by advanced computational methods. Several computing platforms are used in this study, including the RPI SUR Bluegene and the Milkyway home volunteer computing project. Fits to the Sgr stream in 18 SDSS data stripes were performed, and a continuous density profile is found for the major Sgr stream. The stellar halo is found to be strongly oblate (flattening parameter q=0.53). A catalog of stars consistent with this density profile is produced as a template for matching future disruption models. The results of this analysis favor a description of the Sgr debris system that includes more than one dwarf galaxy progenitor, with the major streams above and below the Galactic disk being separate substructures. Preliminary results for the minor tidal stream characterizations are presented and discussed. Additionally, a more robust characterization of halo turnoff star brightnesses is performed, and it is found that increasing color errors with distance result in a previously unaccounted for incompleteness in star counts as the SDSS magnitude limit is approached. These corrections are currently in the process of being implemented on MilkyWay home.
+DA  - 2013/01/01/
+PY  - 2013
+DP  - NASA ADS
+UR  - https://ui.adsabs.harvard.edu/abs/2013PhDT........69N
+Y2  - 2025/01/02/20:20:50
+KW  - Physics, Astronomy and Astrophysics
+KW  - Physics, Astrophysics
+KW  - Physics, General
+ER  - 
+
+TY  - THES
+TI  - Simultaneous orbit fitting of stellar streams: Constraining the galactic dark matter halo
+AU  - Willett, Benjamin Arthur
+AB  - The Milky Way Galaxy serves as a laboratory for testing models of galaxy formation. Discovering the nature of dark matter is often cited as the second most important problem in astrophysics, preceded only by dark energy. Mapping the structure and dynamics of the Milky Way Galaxy can tell us how galaxies form, and place constraints on the properties of dark matter. We can map the distribution of dark matter in the Milky Way using tidal streams, collections of stars that have been gravitationally stripped from satellite dwarf galaxies and globular clusters. By knowing the positions and velocities of these stars, and assuming they came from a compact source, we can follow them back in time and constrain the shape of the Milky Way dark matter halo. This Thesis presents a method that allows us to constrain the parameters of a static Galactic gravitational potential using the data from any number of tidal debris streams. The method is tested on simulated tidal streams, and successfully recovers the original model parameters in most cases. The importance of simultaneously fitting the measured rotation curve of the Milky Way is explored, and the strengths and weaknesses of the algorithm are discussed. The orbit fitting algorithm is applied independently to the Stream of Grillmair and Dionatos (GD-1), the Orphan Stream, and the Cetus Polar Stream (CPS). We show that no known globular cluster or dwarf galaxy in the Milky Way has kinematics consistent with being the progenitor of the GD-1 stream. The Orphan Stream constrains the Milky Way dark matter halo as having a mass at the low end of previous measurements, giving a best fit halo speed of vhalo = 73 +/- 24 km s-1, compared to typical values of vhalo ≈ 115 km s -1. A lower halo speed implies a less massive halo. The GD-1 and Orphan streams are then fit simultaneously with the Sagittarius Dwarf Tidal Stream (Sgr), within a triaxial dark matter halo. Results for restricted triaxial cases are shown to be consistent with previous authors. Simultaneous fits within an unrestricted triaxial halo (free to rotate in any direction) give flattenings qx = 1.33 +/- 0.16, qz = 1.52 +/- 0.14 and XYZ pitch-roll-yaw Euler orientation angles of (θ, φ, psi) = (-50° +/- 18°, 86° +/- 11°, 1° +/- 6°). The best fit halo speed and scale length are vhalo,t = 126 +/- 9 km s-1 and dhalo,t = 22.2 +/- 3.3 kpc, respectively. The φ Euler angle is broadly consistent with that found for the stellar halo by Newberg et al. (2006). The significance of these orientation angles within the context of Galaxy formation and evolution are discussed. Utilizing the orbit fits to the Orphan Stream, a novel technique is presented to fit the density of F-turnoff stars along the stream utilizing semi-analytic N-body simulations. Baseline estimates of the mass and scale radius of the Orphan Stream progenitor are obtained. We discuss the development of a stellar density fitting algorithm, which is implemented on the Milkyway home volunteer computing platform.
+DA  - 2010/12/01/
+PY  - 2010
+DP  - NASA ADS
+ST  - Simultaneous orbit fitting of stellar streams
+UR  - https://ui.adsabs.harvard.edu/abs/2010PhDT.......194W
+Y2  - 2025/01/02/20:26:14
+KW  - Astrophysics
+KW  - Physics
+ER  - 
+
+TY  - BOOK
+TI  - Parallel and Distributed Computational Intelligence
+T2  - Studies in Computational Intelligence
+A2  - Kacprzyk, Janusz
+A3  - De Vega, Francisco Fernández
+A3  - Cantú-Paz, Erick
+CY  - Berlin, Heidelberg
+DA  - 2010///
+PY  - 2010
+DP  - DOI.org (Crossref)
+VL  - 269
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-10674-3 978-3-642-10675-0
+UR  - http://link.springer.com/10.1007/978-3-642-10675-0
+Y2  - 2025/01/02/20:28:20
+ER  - 
+
+TY  - CONF
+TI  - Asynchronous global optimization for massive-scale computing
+AU  - Desell, Travis
+AB  - . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xii
+DA  - 2009///
+PY  - 2009
+DP  - Semantic Scholar
+UR  - https://www.semanticscholar.org/paper/Asynchronous-global-optimization-for-massive-scale-Desell/6fd38c3d2f0a455c1223a47280485b26c0fb9b65
+Y2  - 2025/01/02/20:31:15
+L2  - https://www.semanticscholar.org/paper/Asynchronous-global-optimization-for-massive-scale-Desell/6fd38c3d2f0a455c1223a47280485b26c0fb9b65
+ER  - 
+
+TY  - JOUR
+TI  - A Study of the Sagittarius Tidal Stream Using Maximum Likelihood
+AU  - Cole, N.
+AU  - Newberg, H. J. Magdon-Ismail, M.
+AU  - Desell, T.
+AU  - Varela, C.
+AU  - Szymanski, B.
+AB  - Modern surveys are producing enormous amounts of data that can only be navigated via the use of the ever increasing computational resources available. For example, the SDSS has taken a large amount of photometric data that can be used to discover and study substructure in the Galactic spheroid. A maximum likelihood method was developed and applied to color-selected F turnoff stars from two stripes of SDSS data, to determine the spatial characteristics of the Sagittarius dwarf tidal debris that exists within these stripes. The Sagittarius tidal debris in stripes 79 and 86 were detected at the positions (l,b,R) = (163.311 °, -48.400 °, 30.23 kpc) and (l,b,R) = (34.775 °, -72.342 °, 26.08 kpc) and were found to have a FWHM of 6.53±0.54 kpc and 5.71±0.26 kpc and also to contain ≈9,500 and ≈16,700 F turnoff stars, respectively. The debris pieces are axially aligned with the directions (^X,^Y,^Z) = (0.758 kpc, 0.254 kpc, -0.600 kpc) and (^X,^Y,^Z) = (0.982 kpc, 0.084 kpc, 0.167 kpc), respectively. The results of probabilistically separating the tidal debris from the stellar spheroid are also presented.
+DA  - 2009/09/01/
+PY  - 2009
+DP  - NASA ADS
+VL  - 411
+SP  - 221
+UR  - https://ui.adsabs.harvard.edu/abs/2009ASPC..411..221C
+Y2  - 2025/01/02/20:34:36
+L1  - https://ui.adsabs.harvard.edu/link_gateway/2009ASPC..411..221C/ARTICLE
+ER  - 
+
