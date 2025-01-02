@@ -1,0 +1,49 @@
+TY  - JOUR
+TI  - Unsupervised Discovery of Formulas for Mathematical Constants
+AU  - Shalyt, Michael
+AU  - Seligmann, Uri
+AU  - Halachmi, Itay Beit
+AU  - David, Ofir
+AU  - Elimelech, Rotem
+AU  - Kaminer, Ido
+AB  - Ongoing efforts that span over decades show a rise of AI methods for accelerating scientific discovery, yet accelerating discovery in mathematics remains a persistent challenge for AI. Specifically, AI methods were not effective in creation of formulas for mathematical constants because each such formula must be correct for infinite digits of precision, with "near-true" formulas providing no insight toward the correct ones. Consequently, formula discovery lacks a clear distance metric needed to guide automated discovery in this realm.
+ In this work, we propose a systematic methodology for categorization, characterization, and pattern identification of such formulas. The key to our methodology is introducing metrics based on the convergence dynamics of the formulas, rather than on the numerical value of the formula. These metrics enable the first automated clustering of mathematical formulas. We demonstrate this methodology on Polynomial Continued Fraction formulas, which are ubiquitous in their intrinsic connections to mathematical constants, and generalize many mathematical functions and structures.
+ We test our methodology on a set of 1,768,900 such formulas, identifying many known formulas for mathematical constants, and discover previously unknown formulas for $π$, $\ln(2)$, Gauss', and Lemniscate's constants. The uncovered patterns enable a direct generalization of individual formulas to infinite families, unveiling rich mathematical structures. This success paves the way towards a generative model that creates formulas fulfilling specified mathematical properties, accelerating the rate of discovery of useful formulas.
+DA  - 2024///
+PY  - 2024
+DO  - 10.48550/ARXIV.2412.16818
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/2412.16818
+Y2  - 2025/01/02/19:35:40
+KW  - FOS: Mathematics
+KW  - Number Theory (math.NT)
+KW  - FOS: Computer and information sciences
+KW  - Machine Learning (cs.LG)
+KW  - Artificial Intelligence (cs.AI)
+ER  - 
+
+TY  - JOUR
+TI  - Algorithm-assisted discovery of an intrinsic order among mathematical constants
+AU  - Elimelech, Rotem
+AU  - David, Ofir
+AU  - De la Cruz Mengual, Carlos
+AU  - Kalisch, Rotem
+AU  - Berndt, Wolfgang
+AU  - Shalyt, Michael
+AU  - Silberstein, Mark
+AU  - Hadad, Yaron
+AU  - Kaminer, Ido
+T2  - Proceedings of the National Academy of Sciences
+AB  - In recent decades, a growing number of discoveries in mathematics have been assisted by computer algorithms, primarily for exploring large parameter spaces. As computers become more powerful, an intriguing possibility arises—the interplay between human intuition and computer algorithms can lead to discoveries of mathematical structures that would otherwise remain elusive. Here, we demonstrate computer-assisted discovery of a previously unknown mathematical structure, the conservative matrix field. In the spirit of the Ramanujan Machine project, we developed a massively parallel computer algorithm that found a large number of formulas, in the form of continued fractions, for numerous mathematical constants. The patterns arising from those formulas enabled the construction of the first conservative matrix fields and revealed their overarching properties. Conservative matrix fields unveil unexpected relations between different mathematical constants, such as π and ln(2), or e and the Gompertz constant. The importance of these matrix fields is further realized by their ability to connect formulas that do not have any apparent relation, thus unifying hundreds of existing formulas and generating infinitely many new formulas. We exemplify these implications on values of the Riemann zeta function ζ (n), studied for centuries across mathematics and physics. Matrix fields also enable new mathematical proofs of irrationality. For example, we use them to generalize the celebrated proof by Apéry of the irrationality of ζ (3). Utilizing thousands of personal computers worldwide, our research strategy demonstrates the power of large-scale computational approaches to tackle longstanding open problems and discover unexpected connections across diverse fields of science.
+DA  - 2024/06/18/
+PY  - 2024
+DO  - 10.1073/pnas.2321440121
+DP  - pnas.org (Atypon)
+VL  - 121
+IS  - 25
+SP  - e2321440121
+UR  - https://www.pnas.org/doi/10.1073/pnas.2321440121
+Y2  - 2025/01/02/19:37:41
+L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2321440121
+ER  - 
+
