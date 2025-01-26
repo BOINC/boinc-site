@@ -21,11 +21,11 @@ PB  - Springer International Publishing
 SN  - 978-3-030-92864-3
 UR  - https://link.springer.com/chapter/10.1007/978-3-030-92864-3_38
 KW  - BOINC
+KW  - SAT
+KW  - Volunteer computing
 KW  - Cube-and-Conquer
 KW  - Latin square
 KW  - MOLS
-KW  - SAT
-KW  - Volunteer computing
 ER  - 
 
 TY  - CONF
@@ -49,6 +49,7 @@ PB  - Springer International Publishing
 SN  - 978-3-030-64616-5
 UR  - https://link.springer.com/chapter/10.1007/978-3-030-64616-5_50
 KW  - BOINC
+KW  - Volunteer computing
 KW  - Combinatorics
 KW  - Desktop grid
 KW  - Doubly self-orthogonal diagonal Latin squares
@@ -57,7 +58,6 @@ KW  - Integer sequences
 KW  - OEIS
 KW  - Orthogonal diagonal Latin squares
 KW  - Self-orthogonal diagonal Latin squares
-KW  - Volunteer computing
 ER  - 
 
 TY  - CONF
@@ -81,9 +81,9 @@ PB  - Springer International Publishing
 SN  - 978-3-030-64616-5
 UR  - https://link.springer.com/chapter/10.1007/978-3-030-64616-5_52
 KW  - BOINC
+KW  - Volunteer computing
 KW  - Desktop Grid
 KW  - Replication
-KW  - Volunteer computing
 ER  - 
 
 TY  - CONF
@@ -108,10 +108,10 @@ PB  - Springer International Publishing
 SN  - 978-3-030-36592-9
 UR  - http://link.springer.com/10.1007/978-3-030-36592-9_59
 KW  - BOINC
-KW  - Desktop Grid
-KW  - Orthogonal diagonal Latin squares
-KW  - Orthogonality graph
 KW  - Volunteer computing
+KW  - Orthogonal diagonal Latin squares
+KW  - Desktop Grid
+KW  - Orthogonality graph
 ER  - 
 
 TY  - CONF
@@ -133,7 +133,37 @@ LA  - en
 PB  - Springer International Publishing
 SN  - 978-3-030-05807-4
 UR  - https://link.springer.com/chapter/10.1007/978-3-030-05807-4_51
-KW  - Desktop Grid
 KW  - Distributed computing
+KW  - Desktop Grid
 KW  - Optimal work share
 ER  - 
+
+TY  - CHAP
+TI  - Diagonalization and Canonization of Latin Squares
+AU  - Vatutin, Eduard
+AU  - Belyshev, Alexey
+AU  - Nikitina, Natalia
+AU  - Manzuk, Maxim
+AU  - Albertian, Alexander
+AU  - Kurochkin, Ilya
+AU  - Kripachev, Alexander
+AU  - Pykhtin, Alexey
+T2  - Supercomputing
+A2  - Voevodin, Vladimir
+A2  - Sobolev, Sergey
+A2  - Yakobovskiy, Mikhail
+A2  - Shagaliev, Rashit
+CY  - Cham
+DA  - 2023///
+PY  - 2023
+DP  - DOI.org (Crossref)
+VL  - 14389
+SP  - 48
+EP  - 61
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 978-3-031-49434-5 978-3-031-49435-2
+UR  - https://link.springer.com/10.1007/978-3-031-49435-2_4
+Y2  - 2025/01/26/17:40:10
+ER  - 
+
