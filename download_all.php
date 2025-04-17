@@ -287,7 +287,7 @@ if ($xml) {
             in order to communicate with some projects.
             <p>
             You can also
-            <a href=https://boinc.berkeley.edu/wiki/Github_download>
+            <a href=https://github.com/BOINC/boinc/wiki/Download-executables>
             download executables from GitHub</a>.
         ";
         start_table("table-striped");

@@ -86,7 +86,7 @@ function ordered_display($areas, $sort) {
             tra("Area"),
             tra("Sponsor"),
             tra("Supported platforms").'<br><small>More details at
-                <a href=https://wuprop.boinc-af.org/results/ram.py>WuProp@home</a></small>'
+                <a href=https://wuprop.boinc-af.org/results/ram.py>WUProp@Home</a></small>'
         ),
         null,
         'bg-default'
@@ -142,7 +142,8 @@ echo "
 <p>
 If you run a BOINC-based project
 and would like it to be included on this list,
-please <a href=https://github.com/BOINC/boinc/wiki/Contact-BOINC>contact us</a>.
+please <a href=https://github.com/BOINC/boinc/wiki/Contact-BOINC>contact us</a>,
+and answer the four questions above.
 
 ";
 page_tail();

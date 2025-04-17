@@ -1,6 +1,6 @@
 <?php
 
-echo "Deprecated: see https://github.com/BOINC/boinc/wiki/WebResources";
+echo "Deprecated: see https://github.com/BOINC/boinc/wiki/Web-Resources";
 exit;
 require_once("docutil.php");
 

@@ -120,7 +120,7 @@ function show_links() {
         <br><a href="pubs.php">'.tra("Science publications").'</a>
         <br><a href="https://github.com/BOINC/boinc/wiki/User-manual"><span class=nobr>'.tra("User manual").'</span></a> 
         <br><a " href="addons.php"><span class=nobr>'.tra("Add-ons").'</span></a> 
-        <br><a btn-primary href=https://github.com/BOINC/boinc/wiki/WebResources><span class=nobr>'.tra("Web resources").'</span></a> 
+        <br><a btn-primary href=https://github.com/BOINC/boinc/wiki/Web-Resources><span class=nobr>'.tra("Web resources").'</span></a> 
         <p>
         </div><div class="col-sm-4">
         <font size=+2>

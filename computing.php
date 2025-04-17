@@ -40,7 +40,7 @@ function main() {
         <p> </p>
         <a href=chart_list.php>'.tra("Top 100 volunteers").'</a>
         &middot;
-        <a href=https://github.com/BOINC/boinc/wiki/WebResources#credit-statistics>'.tra("Statistics").'</a>
+        <a href=https://github.com/BOINC/boinc/wiki/Web-Resources#credit-statistics>'.tra("Statistics").'</a>
         <p>
         <h3>Featured volunteer</h3>
     ';

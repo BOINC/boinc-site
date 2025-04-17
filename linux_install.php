@@ -169,9 +169,27 @@ function main() {
     $build = get_str('build', true);
     page_head('Installing BOINC on Linux');
     text_start(800);
-    echo "<p>
-        The recommended way to install BOINC on a Linux system
-        is as a package.
+    echo "
+        <p>
+        There are several ways to install BOINC on Linux:
+    ";
+    start_table('table-striped');
+    table_header('Type', 'Sandboxing', 'Run at boot?', 'Can run without Manager open?');
+    table_row('Standard package', 'account-based', 'yes', 'no');
+    table_row('Flatpack', 'container-based', 'no', 'yes');
+    table_row('Snap', 'container-based', 'TBD', 'TBD');
+    table_row('GNU Guix', 'None', 'TBD', 'TBD');
+    end_table();
+    echo "
+        <p>
+        If you're already using a package manager like Flatpak,
+        you can use it to install BOINC.
+        If not, we recommend using the
+        standard package manager of your Linux distro
+        (apt, yum, or zypper).
+    ";
+    echo "<h2>Standard package</h2>
+        <p>
         Get instructions using this form:
     ";
     form_start('linux_install.php');
@@ -185,6 +203,21 @@ function main() {
     );
     form_submit('Get instructions');
     form_end();
+
+    echo "<h2>Flatpack</h2>
+        <p>
+        <a href=https://flathub.org/apps/edu.berkeley.BOINC>Download BOINC from flathub</a>.
+    ";
+
+
+    echo "<h2>Snap</h2>
+        <p>
+        Coming soon.
+    ";
+    echo "<h2>GNU Guix</h2>
+        <p>
+        <a href=https://hpc.guix.info/package/boinc-client>Download BOINC from Guix</a>.
+    ";
 
     if ($os_num) {
         action();
