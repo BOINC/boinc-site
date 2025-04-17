@@ -235,7 +235,8 @@ function call_to_action() {
         </p><p>
         <center>
     ';
-    echo sprintf('<a class="btn " style= "background-color:mediumseagreen; color:white; font-size:24px; text-decoration:none" href="%s">%s</a>',
+    echo sprintf('<a class="btn " %s href="%s">%s</a>',
+        button_style('green', 24),
         'https://scienceunited.org/su_join.php',
         tra("Join %1", "Science United")
     );
@@ -246,7 +247,8 @@ function call_to_action() {
     echo ' ';
     echo tra("This will let you participate in competitions and systems like Gridcoin.");
     echo '<p><center>';
-    echo sprintf('<a class="btn " style= "background-color:dodgerblue; color:white; font-size:20px; text-decoration:none" href="%s">%s</a>',
+    echo sprintf('<a class="btn " %s href="%s">%s</a>',
+        button_style('blue', 20),
         'download.php',
         tra("Download BOINC")
     );

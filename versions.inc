@@ -21,18 +21,15 @@
 // lists versions in reverse time order.
 // i.e. the first non-dev version is the current one
 
-// -------------- Windows 64-bit -------------------
+// -------------- Windows Intel 64-bit -------------------
 
-$w804 = array(
-    "num"=>"8.0.4",
+$w821 = array(
+    "num"=>"8.2.1",
     "status"=>"Development version",
-    "file"=>"boinc_8.0.4_windows_x86_64.exe",
-    "vbox_file"=>"boinc_8.0.4_windows_x86_64_vbox.exe",
-    "vbox_version"=>"7.0.6",
-    "date"=>"25 July 2024",
+    "file"=>"boinc_8.2.1_windows_x86_64.exe",
+    "date"=>"17 April 2025",
     "type"=>"win_new"
 );
-
 $w802 = array(
     "num"=>"8.0.2",
     "status"=>"Recommended version",
@@ -43,23 +40,31 @@ $w802 = array(
     "type"=>"win_new"
 );
 
-$w724_1 = array(
-    "num"=>"7.24.1",
-    "status"=>"Older version",
-    "file"=>"boinc_7.24.1_windows_x86_64.exe",
-    "vbox_file"=>"boinc_7.24.1_windows_x86_64_vbox.exe",
-    "vbox_version"=>"7.0.6",
-    "date"=>"12 Aug 2023",
-    "type"=>"win_new"
-);
-
 $windowsx64 = array(
-    "name"=>"Windows 64-bit",
+    "name"=>"Windows Intel-compatible 64-bit",
     "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
     "versions"=> array(
-        $w804,
+        $w821,
         $w802
+    )
+);
+
+// -------------- Windows ARM 64-bit -------------------
+
+$wa821 = array(
+    "num"=>"8.2.1",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.1_windows_arm64.exe",
+    "date"=>"17 April 2025",
+    "type"=>"win_new"
+);
+$windows_arm = array(
+    "name"=>"Windows ARM 64-bit",
+    "description"=>"Windows 11",
+    "dbname" => "windows_arm64",
+    "versions"=> array(
+        $wa821
     )
 );
 
@@ -92,7 +97,7 @@ $w5816 = array(
 );
 
 $windows = array(
-    "name"=>"Windows 32-bit",
+    "name"=>"Windows Intel-compatible 32-bit",
     "description"=>"XP/Vista/7/8/8.1/10",
     "dbname" => "windows_intelx86",
     "versions"=>array(
@@ -104,21 +109,21 @@ $windows = array(
 
 // --------------- Mac Intel 64 or ARM --------------------
 
-$m80_4 = array(
-    "num"=>"8.0.4",
+$m82_1 = array(
+    "num"=>"8.2.1",
     "status"=>"Development version (MacOS 10.13+)",
-    "file"=>"boinc_8.0.4_macOSX_universal.zip",
-    "date"=>"23 July 2024",
+    "file"=>"boinc_8.2.1_macOSX_universal.zip",
+    "date"=>"16 Apr 2025",
     "type"=>"mac_advanced",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
 );
 
-$m80_4c = array(
-    "num"=>"8.0.4",
+$m82_1c = array(
+    "num"=>"8.2.1",
     "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_8.0.4_universal-apple-darwin.dmg",
-    "date"=>"23 July 2024",
+    "file"=>"boinc_8.2.1_universal-apple-darwin.dmg",
+    "date"=>"16 Apr 2025",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
@@ -200,8 +205,8 @@ $mac = array(
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
-        $m80_4,
-        $m80_4c,
+        $m82_1,
+        $m82_1c,
         $m80_2,
         $m80_2c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
@@ -217,8 +222,8 @@ $mac_arm = array(
     "description"=>null,
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
-        $m80_4,
-        $m80_4c,
+        $m82_1,
+        $m82_1c,
         $m80_2,
         $m80_2c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
@@ -407,7 +412,15 @@ $l74ubuntux64 = array(
     "type"=>"sea",
 );
 
-$linux_80 = array(
+$linux_821 = array(
+    "num"=>"8.2.1",
+    "status"=>"Recommended version",
+    'file'=>'',
+    "date"=>"17 April 2025",
+    "type"=>'linux_pkg'
+);
+
+$linux_802 = array(
     "num"=>"8.0.2",
     "status"=>"Recommended version",
     'file'=>'',
@@ -421,7 +434,8 @@ $linuxx64 = array(
     "description"=> 'Packages are available for several distros',
     "dbname" => "x86_64-pc-linux-gnu",
     "versions"=>array(
-        $linux_80,
+        $linux_821,
+        $linux_802,
         //$l716ubuntux64dev,
         //$l74ubuntux64,
     )
@@ -467,35 +481,18 @@ $linuxcompat = array(
 
 // --------------- Android --------------------
 
-$a804 = array(
-    "num"=>"8.0.4",
+$a821 = array(
+    "num"=>"8.2.1",
     "status"=>"Development version",
-    "file"=>"boinc_8.0.4.apk",
-    "date"=>"25 July 2024",
+    "file"=>"boinc_8.2.1.apk",
+    "date"=>"17 April 2025",
     "type"=>"apk",
 );
-
 $a802 = array(
     "num"=>"8.0.2",
     "status"=>"Recommended version",
     "file"=>"boinc_8.0.2.apk",
     "date"=>"30 May 2024",
-    "type"=>"apk",
-);
-
-$a724_1 = array(
-    "num"=>"7.24.1",
-    "status"=>"Older Version",
-    "file"=>"boinc_7.24.1.apk",
-    "date"=>"12 Aug 2023",
-    "type"=>"apk",
-);
-
-$a716 = array(
-    "num"=>"7.16.16",
-    "status"=>"Older Version",
-    "file"=>"boinc_7.16.16.apk",
-    "date"=>"12 Feb 2021",
     "type"=>"apk",
 );
 
@@ -507,10 +504,8 @@ $android = array(
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>array(
-        $a804,
+        $a821,
         $a802,
-        $a724_1,
-        $a716
     )
 );
 
@@ -518,6 +513,7 @@ $android = array(
 
 $platforms = array(
     "winx64"=>$windowsx64,
+    "win_arm"=>$windows_arm,
     "win"=>$windows,
     "mac"=>$mac,
     "mac_arm"=>$mac_arm,
