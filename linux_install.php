@@ -4,7 +4,7 @@
 
 require_once('../inc/util.inc');
 
-$versions = ['stable'=>'8.0.2', 'alpha'=>'8.0.4', 'nightly'=>'8.1.0'];
+$versions = ['stable'=>'8.0.2', 'alpha'=>'8.2.1', 'nightly'=>'8.3.0'];
 
 function get_oss() {
     $n = 1;
@@ -175,8 +175,8 @@ function main() {
     ";
     start_table('table-striped');
     table_header('Type', 'Sandboxing', 'Run at boot?', 'Can run without Manager open?');
-    table_row('Standard package', 'account-based', 'yes', 'no');
-    table_row('Flatpack', 'container-based', 'no', 'yes');
+    table_row('Standard package', 'account-based', 'yes', 'yes');
+    table_row('Flatpack', 'container-based', 'no', 'no');
     table_row('Snap', 'container-based', 'TBD', 'TBD');
     table_row('GNU Guix', 'None', 'TBD', 'TBD');
     end_table();
