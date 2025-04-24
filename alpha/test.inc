@@ -91,8 +91,7 @@ $clean = array("clean", "Clean install and uninstall", 5, null,
         <li> Rename the BOINC data directory to a temporary directory name.
         <li> Uninstall BOINC
              <ul>
-             <li> Windows XP: go to <b>Start > Control Panel > Add/Remove Programs</b> and uninstall BOINC
-             <li> Windows 7/8: go to <b>Start > Control Panel > Programs and Features</b> and uninstall BOINC
+             <li> Windows: go to <b>Start > Control Panel > Programs and Features</b> and uninstall BOINC
              <li> Mac: run the 'uninstall BOINC' utility included in the Extras folder with the installer.
              </ul>
         <li> Install new BOINC.
@@ -298,7 +297,7 @@ $modem = array("modem", "Tests for modem-connected connections", 5, null,
 );
 $firewall = array("firewall", "Tests for computers with personal firewalls", 5, null,
     "Do the General Tests on a computer that uses a personal firewall
-        (ZoneAlarm, Symantec, Windows XP, etc.).
+        (ZoneAlarm, Symantec, etc.).
         In your test report Comments field,
         indicate the type of personal firewall.
     "
@@ -632,6 +631,19 @@ $boincandroid = array("boincandroid", "BOINC Android GUI", 5, null,
     "
 );
 
+$docker = array("docker", "Docker tests", 5, null,
+    "<ul>
+        <li> <a href=https://github.com/BOINC/boinc/wiki/Installing-Docker>Install docker or Podman</a>.
+        <li> Check the startup messages to verify
+            that the client detects Docker or Podman.
+        <li> Attach to a project with Docker jobs
+            (currently LHC@home and BOINC Central).
+            If you are issued Docker jobs (typically
+            with app name 'buda') check that they complete correctly.
+    </ul>
+    "
+);
+
 // the following tests are needed only when specific areas change
 //
 $as_needed_tests = array(
@@ -698,9 +710,10 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
-    array("8.0.0", [$general, $clean], $all_platforms),
+    array("8.2.1", [$general, $clean, $docker], $all_platforms),
 );
 $old_versions = array(
+    array("8.0.0", [$general, $clean], $all_platforms),
     array("7.24.1", $screensaver_tests, $platforms_win_mac_android),
     array("7.22.2", [$general, $clean], $platforms_win_mac_android),
     array("7.20.2", array($general, $clean), $platforms_win_mac),

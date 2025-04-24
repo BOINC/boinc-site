@@ -53,15 +53,19 @@ function build_options() {
     return $x;
 }
 
-function action() {
+function action($os_num) {
     $oss = get_oss();
-    $os_num = get_int('os_num');
     $build = get_str('build');
     $os = $oss[$os_num];
-    echo sprintf('To install the %s version of BOINC on %s %s:',
-        $build, $os->type, $os->ver
+    page_head(
+        sprintf('Install the %s version of BOINC on %s %s',
+            $build, $os->type, $os->ver
+        )
     );
-    echo '<p>';
+    echo "<p>
+        In a terminal window, enter:
+        <p>
+    ";
     switch ($os->type) {
     case 'Debian':
     case 'Ubuntu':
@@ -99,6 +103,7 @@ sudo zypper install boinc-client boinc-manager',
         echo '</pre>';
         break;
     }
+    text_start(800);
     echo "<p>On headless systems, omit 'boinc-manager'.
         On such systems, the BOINC client can be
         controlled either using <a href=https://boinc.berkeley.edu/wiki/Boinccmd_tool>boinccmd</a>,
@@ -112,8 +117,7 @@ sudo zypper install boinc-client boinc-manager',
     echo '<p>
         If the system has a GPU, it may be usable by
         BOINC projects that have GPU-enabled apps.
-        On some systems you may need to install
-        GPU drivers that support this.
+        On some systems you may need to install GPU drivers that support this.
         <p>
         Check the BOINC client\'s output on startup.
         It should detect your GPU (NVIDIA, AMD, or Intel) using OpenCL,
@@ -123,6 +127,37 @@ sudo zypper install boinc-client boinc-manager',
         In general, vendor-supplied drivers may be
         preferable to open-source drivers.
     ';
+
+    // Docker instructions
+
+    switch ($os->type) {
+    case 'Debian':
+    case 'Ubuntu':
+    case 'Fedora':
+        echo '<h3>Install Podman</h3>
+            Some BOINC projects use Docker to package their applications.
+            We recommend that you install Podman,
+            an open-source version of Docker.
+            To do so:
+            <p>
+        ';
+        break;
+    }
+    switch ($os->type) {
+    case 'Debian':
+    case 'Ubuntu':
+        echo '<pre>
+sudo apt install podman
+sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 boinc</pre>
+        ';
+        break;
+    case 'Fedora':
+        echo '<pre>
+sudo yum install podman
+sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 boinc</pre>
+        ';
+        break;
+    }
 
     // attach instructions
 
@@ -139,10 +174,8 @@ sudo zypper install boinc-client boinc-manager',
         <p>
         You can configure BOINC to limit its
         computing, memory usage, and disk usage.
-        Do this using the BOINC Manager
-        (Options / Computing Preferences)
-        or the Computing Preferences form
-        on the Science United website.
+        Do this using the BOINC Manager (Options / Computing Preferences)
+        or the Computing Preferences form on the Science United website.
     ';
 
     // uninstall instructions
@@ -162,11 +195,11 @@ sudo zypper install boinc-client boinc-manager',
         echo '<pre>sudo zypper remove boinc-client boinc-manager</pre>';
         break;
     }
+    text_end();
+    page_tail();
 }
 
 function main() {
-    $os_num = get_int('os_num', true);
-    $build = get_str('build', true);
     page_head('Installing BOINC on Linux');
     text_start(800);
     echo "
@@ -209,7 +242,6 @@ function main() {
         <a href=https://flathub.org/apps/edu.berkeley.BOINC>Download BOINC from flathub</a>.
     ";
 
-
     echo "<h2>Snap</h2>
         <p>
         Coming soon.
@@ -226,6 +258,11 @@ function main() {
     page_tail();
 }
 
-main();
+$os_num = get_int('os_num', true);
+if ($os_num) {
+    action ($os_num);
+} else {
+    main();
+}
 
 ?>

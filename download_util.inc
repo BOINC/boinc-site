@@ -35,10 +35,6 @@ function button_link_vbox(
         $boinc_version,
         $vbox_version
     );
-    echo "
-        &nbsp;
-        &nbsp;
-    ";
 }
 
 function button_link($url, $long_name, $size, $boinc_version, $green) {
@@ -101,20 +97,21 @@ function download_link(
             echo "</a>";
         }
 
-        echo "<table width=100%><tr valign=top align=center><td>\n";
+        echo "<center>";
 
         if ($vbox_file) {
             button_link_vbox(
                 $vbox_url, $long_name, $vbox_size, $num, $vbox_version
             );
         }
+        echo "<p><p>";
         if (!$vbox_file || !$vbox_req) {
             button_link($url, $long_name, $size, $num, !$vbox_file);
         }
         if ($pname == 'mac') {
             echo "<br><br>This version of BOINC requires MacOS 10.13 or later.<br>For older versions of MacOS, go <a href=download_all.php>here</a>.";
         }
-        echo "</td></tr></table>\n";
+        echo "</center>";
         if ($pname == 'linux'||$pname == 'linuxx64') {
             echo "<p>", linux_info();
         }

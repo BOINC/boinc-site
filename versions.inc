@@ -414,7 +414,7 @@ $l74ubuntux64 = array(
 
 $linux_821 = array(
     "num"=>"8.2.1",
-    "status"=>"Recommended version",
+    "status"=>"Development version",
     'file'=>'',
     "date"=>"17 April 2025",
     "type"=>'linux_pkg'
