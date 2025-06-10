@@ -123,7 +123,7 @@ function show_version_xml($v, $p) {
             number_format(filesize($path)/1000000, 2)
         );
     }
-    if (array_key_exists('vbox_file', $v)) {
+    if (false && array_key_exists('vbox_file', $v)) {
         $path = "dl/".$v["vbox_file"];
         echo sprintf(
 '    <vbox_version>%s</vbox_version>
@@ -170,7 +170,7 @@ function show_version($pname, $i, $v) {
     if ($v['type'] == 'linux_pkg') {
         $link = '<a href=linux_install.php><b>Package installation instructions</b></a>';
     } else {
-        if (array_key_exists('vbox_file', $v)) {
+        if (false && array_key_exists('vbox_file', $v)) {
             $vbox_file = $v['vbox_file'];
             $vbox_version = $v['vbox_version'];
             $vbox_url = version_url($vbox_file);
@@ -178,7 +178,7 @@ function show_version($pname, $i, $v) {
             $vbox_size = number_format(filesize($vbox_path)/1000000, 2);
             $link = "<a href=\"$vbox_url\"><b>Download BOINC + VirtualBox $vbox_version</b></a> ($vbox_size MB)<br>";
         }
-        $link .= "<a href=\"$url\"><b>Download BOINC</b></a> ($s MB)";
+        $link .= "<a href=\"$url\"><b>Download</b></a> ($s MB)";
     }
     echo "<tr>
         <td>$num</td>

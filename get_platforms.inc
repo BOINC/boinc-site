@@ -3,6 +3,11 @@
 ini_set('display_errors', 'stdout');
 error_reporting(E_ALL);
 
+// when read list of supported platforms from a project,
+// cache it for this long
+//
+define('CACHE_LIFETIME', 86400);
+
 // The platforms for a given project are stored in a JSON file platforms/URL.
 // It's a list of 'extended platform names': strings of the form
 // <platform>
@@ -327,7 +332,7 @@ function get_platforms_cached($url) {
     $u = urlencode($url);
     $fname = "/home/boincadm/boinc-site/platforms/$u";
     $t = @filemtime($fname);
-	if (strstr($url, "gpugrid") || ($t && $t > time() - 604800)) {
+	if (strstr($url, "gpugrid") || ($t && $t > time() - CACHE_LIFETIME)) {
         return json_decode(file_get_contents($fname));
     }
     $l = get_platforms($url);

@@ -32,6 +32,7 @@ $platforms_mac = array(
     array("mac1200", "MacOS 12 (Intel and Apple Silicon)", 3, "mac"),
     array("mac1300", "MacOS 13 (Intel and Apple Silicon)", 3, "mac"),
     array("mac1400", "MacOS 14 (Intel and Apple Silicon)", 3, "mac"),
+    array("mac1500", "MacOS 15 (Intel and Apple Silicon)", 3, "mac"),
 );
 
 $platforms_linux = array(
@@ -56,6 +57,9 @@ $platforms_mac_linux = array_merge($platforms_mac, $platforms_linux);
 $platforms_win_mac_linux = array_merge($platforms_win, $platforms_mac, $platforms_linux);
 
 $platforms_win_mac_android = array_merge($platforms_win, $platforms_mac, $platforms_android);
+
+// define the set of tests.
+// Each test must added to either $as_needed_tests or $general_tests
 
 // 0: short name
 // 1: long name
@@ -638,8 +642,8 @@ $docker = array("docker", "Docker tests", 5, null,
             that the client detects Docker or Podman.
         <li> Attach to a project with Docker jobs
             (currently LHC@home and BOINC Central).
-            If you are issued Docker jobs (typically
-            with app name 'buda') check that they complete correctly.
+            If you are issued Docker jobs,
+            check that they complete correctly.
     </ul>
     "
 );
@@ -672,6 +676,7 @@ $as_needed_tests = array(
     $boincandroid,
     $clean_accounts,
     $auto_attach,
+    $docker,
 );
 
 // the following needed for every client release
@@ -710,9 +715,10 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
-    array("8.2.1", [$general, $clean, $docker], $all_platforms),
+    array("8.2.4", [$general, $clean, $docker], $all_platforms),
 );
 $old_versions = array(
+    array("8.2.1", [$general, $clean, $docker], $all_platforms),
     array("8.0.0", [$general, $clean], $all_platforms),
     array("7.24.1", $screensaver_tests, $platforms_win_mac_android),
     array("7.22.2", [$general, $clean], $platforms_win_mac_android),

@@ -19,6 +19,7 @@
 
 // utility functions for download links
 
+if (0) {
 function button_link_vbox(
     $vbox_url, $long_name, $vbox_size, $boinc_version, $vbox_version
 ) {
@@ -35,6 +36,7 @@ function button_link_vbox(
         $boinc_version,
         $vbox_version
     );
+}
 }
 
 function button_link($url, $long_name, $size, $boinc_version, $green) {
@@ -82,6 +84,11 @@ function download_link(
     if (strstr($client_info, 'Windows NT 4') || strstr($client_info, 'Windows NT 5')) {
         $vbox_file = null;
     }
+
+    // May 2025: don't show VBox anymore.
+    // we want to encourage Docker instead
+    $vbox_file = null;
+
     $long_name = $p['name'];
     $num = $v['num'];
     $path = "dl/$file";

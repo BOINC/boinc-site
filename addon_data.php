@@ -91,9 +91,9 @@ array(
 array(
     'http://www.bc-team.org/downloads.php',
     'BOINCcalculator',
-    '0.5.1',
+    '0.5.8',
     'Show details of CPDN jobs',
-    'http://wiki.bc-team.org/index.php?title=BOINCcalculator',
+    'https://www.bc-team.org/app.php/dlext/?view=detail&df_id=9',
     'Windows (all)',
     'BOINCcalculator shows details of running CPDN jobs: trickles, credits, timesteps, and checkpoints.',
     1236727395

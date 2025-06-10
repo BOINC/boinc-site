@@ -23,11 +23,11 @@
 
 // -------------- Windows Intel 64-bit -------------------
 
-$w821 = array(
-    "num"=>"8.2.1",
+$w824 = array(
+    "num"=>"8.2.4",
     "status"=>"Development version",
-    "file"=>"boinc_8.2.1_windows_x86_64.exe",
-    "date"=>"17 April 2025",
+    "file"=>"boinc_8.2.4_windows_x86_64.exe",
+    "date"=>"8 June 2025",
     "type"=>"win_new"
 );
 $w802 = array(
@@ -45,18 +45,18 @@ $windowsx64 = array(
     "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
     "versions"=> array(
-        $w821,
+        $w824,
         $w802
     )
 );
 
 // -------------- Windows ARM 64-bit -------------------
 
-$wa821 = array(
-    "num"=>"8.2.1",
+$wa824 = array(
+    "num"=>"8.2.4",
     "status"=>"Development version",
-    "file"=>"boinc_8.2.1_windows_arm64.exe",
-    "date"=>"17 April 2025",
+    "file"=>"boinc_8.2.4_windows_arm64.exe",
+    "date"=>"8 June 2025",
     "type"=>"win_new"
 );
 $windows_arm = array(
@@ -64,7 +64,7 @@ $windows_arm = array(
     "description"=>"Windows 11",
     "dbname" => "windows_arm64",
     "versions"=> array(
-        $wa821
+        $wa824
     )
 );
 
@@ -109,21 +109,21 @@ $windows = array(
 
 // --------------- Mac Intel 64 or ARM --------------------
 
-$m82_1 = array(
-    "num"=>"8.2.1",
+$m82_4 = array(
+    "num"=>"8.2.4",
     "status"=>"Development version (MacOS 10.13+)",
-    "file"=>"boinc_8.2.1_macOSX_universal.zip",
-    "date"=>"16 Apr 2025",
+    "file"=>"boinc_8.2.4_macOSX_universal.zip",
+    "date"=>"8 June 2025",
     "type"=>"mac_advanced",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
 );
 
-$m82_1c = array(
-    "num"=>"8.2.1",
+$m82_4c = array(
+    "num"=>"8.2.4",
     "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_8.2.1_universal-apple-darwin.dmg",
-    "date"=>"16 Apr 2025",
+    "file"=>"boinc_8.2.4_universal-apple-darwin.dmg",
+    "date"=>"8 June 2025",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
@@ -205,8 +205,8 @@ $mac = array(
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions"=>array(
-        $m82_1,
-        $m82_1c,
+        $m82_4,
+        $m82_4c,
         $m80_2,
         $m80_2c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
@@ -222,8 +222,8 @@ $mac_arm = array(
     "description"=>null,
     "dbname" => "arm64-apple-darwin",
     "versions"=>array(
-        $m82_1,
-        $m82_1c,
+        $m82_4,
+        $m82_4c,
         $m80_2,
         $m80_2c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12

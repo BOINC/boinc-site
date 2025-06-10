@@ -75,7 +75,9 @@ function action($os_num) {
 sudo echo deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/boinc.gpg] https://boinc.berkeley.edu/dl/linux/%s/%s %s main | sudo tee /etc/apt/sources.list.d/boinc.list > /dev/null
 sudo apt update
 sudo apt install boinc-client boinc-manager',
-            $build, $os->code, $build, $os->code, $os->code
+            $build, $os->code,
+            $build, $os->code,
+            $os->code
         );
         echo '</pre>';
         break;
@@ -226,13 +228,13 @@ function main() {
         Get instructions using this form:
     ";
     form_start('linux_install.php');
-    form_select('Operating system', 'os_num', os_options(), $os_num);
+    form_select('Operating system', 'os_num', os_options());
     form_select(
         'BOINC build<br><font size=-1>
             Stable: recommended version
             <br>Alpha: version under test
             <br>Nightly: very latest version</font>',
-        'build', build_options(), $build
+        'build', build_options()
     );
     form_submit('Get instructions');
     form_end();
@@ -251,9 +253,6 @@ function main() {
         <a href=https://hpc.guix.info/package/boinc-client>Download BOINC from Guix</a>.
     ";
 
-    if ($os_num) {
-        action();
-    }
     text_end();
     page_tail();
 }

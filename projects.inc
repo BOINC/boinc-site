@@ -14,7 +14,7 @@
 // - update Science United: su/project_init.php
 // - wget https://boinc.berkeley.edu/project_list.php and move to
 //      boinc/win_build/installerv2/redist/all_projects_list.xml
-//      (deprecated - this is automated now)
+//      (deprecated - this is automated via a Github action)
 //
 // Use tra() where relevant, and update the BOINC Web site .pot file
 // (boinc-site/build_po.php)
