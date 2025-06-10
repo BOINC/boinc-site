@@ -4,7 +4,7 @@
 
 require_once('../inc/util.inc');
 
-$versions = ['stable'=>'8.0.2', 'alpha'=>'8.2.1', 'nightly'=>'8.3.0'];
+$versions = ['stable'=>'8.0.2', 'alpha'=>'8.2.4', 'nightly'=>'8.3.0'];
 
 function get_oss() {
     $n = 1;
@@ -71,11 +71,11 @@ function action($os_num) {
     case 'Ubuntu':
         echo '<pre>';
         echo sprintf(
-'sudo curl -fsSL https://boinc.berkeley.edu/dl/linux/%s/$(lsb_release -cs)/boinc.gpg | sudo gpg --dearmor -o /etc/apt/keyrings/boinc.gpg
-sudo echo deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/boinc.gpg] https://boinc.berkeley.edu/dl/linux/%s/$(lsb_release -cs) $(lsb_release -cs) main | sudo tee /etc/apt/sources.list.d/boinc.list > /dev/null
+'sudo curl -fsSL https://boinc.berkeley.edu/dl/linux/%s/%s/boinc.gpg | sudo gpg --dearmor -o /etc/apt/keyrings/boinc.gpg
+sudo echo deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/boinc.gpg] https://boinc.berkeley.edu/dl/linux/%s/%s %s main | sudo tee /etc/apt/sources.list.d/boinc.list > /dev/null
 sudo apt update
 sudo apt install boinc-client boinc-manager',
-            $build, $build
+            $build, $os->code, $build, $os->code, $os->code
         );
         echo '</pre>';
         break;
