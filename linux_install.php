@@ -3,6 +3,7 @@
 // get instructions for installing Linux packages
 
 require_once('../inc/util.inc');
+require_once('../inc/clipboard.inc');
 
 $versions = ['stable'=>'8.0.2', 'alpha'=>'8.2.4', 'nightly'=>'8.3.0'];
 
@@ -110,6 +111,7 @@ function action($os_num, $version_num) {
             $build, $os->type, $os->ver
         )
     );
+    copy_to_clipboard_script();
     echo "<p>
         In a terminal window, enter:
         <p>
@@ -117,8 +119,7 @@ function action($os_num, $version_num) {
     switch ($os->type) {
     case 'Debian':
     case 'Ubuntu':
-        echo '<pre>';
-        echo sprintf(
+        $x = sprintf(
 'sudo curl -fsSL https://boinc.berkeley.edu/dl/linux/%s/%s/boinc.gpg | sudo gpg --dearmor -o /etc/apt/keyrings/boinc.gpg
 sudo echo deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/boinc.gpg] https://boinc.berkeley.edu/dl/linux/%s/%s %s main | sudo tee /etc/apt/sources.list.d/boinc.list > /dev/null
 sudo apt update
@@ -127,11 +128,9 @@ sudo apt install boinc-client boinc-manager',
             $build, $os->code,
             $os->code
         );
-        echo '</pre>';
         break;
     case 'Fedora':
-        echo '<pre>';
-        echo sprintf(
+        $x = sprintf(
 'sudo dnf install dnf-plugins-core
 sudo dnf config-manager --add-repo https://boinc.berkeley.edu/dl/linux/%s/%s
 sudo dnf config-manager --set-enabled boinc.berkeley.edu_dl_linux_%s_%s
@@ -141,18 +140,18 @@ sudo yum install boinc-client boinc-manager',
             $build, $os->code,
             $build, $os->code
         );
-        echo '</pre>';
         break;
     case 'openSUSE':
-        echo '<pre>';
-        echo sprintf(
+        $x = sprintf(
 'sudo zypper ar -f https://boinc.berkeley.edu/dl/linux/%s/%s official-boinc-repo
 sudo zypper install boinc-client boinc-manager',
             $build, $os->code
         );
-        echo '</pre>';
         break;
     }
+    echo copy_button($x, 'Copy instructions to clipboard');
+    echo "<pre>$x</pre>\n";
+
     text_start(800);
     echo "<p>On headless systems, omit 'boinc-manager'.
         On such systems, the BOINC client can be
@@ -193,20 +192,21 @@ sudo zypper install boinc-client boinc-manager',
         ';
         break;
     }
+    $x = null;
     switch ($os->type) {
     case 'Debian':
     case 'Ubuntu':
-        echo '<pre>
-sudo apt install podman
-sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 boinc</pre>
-        ';
+        $x = 'sudo apt install podman
+sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 boinc';
         break;
     case 'Fedora':
-        echo '<pre>
-sudo yum install podman
-sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 boinc</pre>
-        ';
+        $x = 'sudo yum install podman
+sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 boinc';
         break;
+    }
+    if ($x) {
+        echo copy_button($x, 'Copy instructions to clipboard');
+        echo "<pre>$x</pre>\n";
     }
 
     // attach instructions
@@ -232,18 +232,24 @@ sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 boinc</pre>
     echo '<h3>Uninstall</h3>
         <p>
         To remove BOINC:
+        <p>
     ';
+    $x = null;
     switch ($os->type) {
     case 'Debian':
     case 'Ubuntu':
-        echo '<pre>sudo apt remove boinc-client boinc-manager</pre>';
+        $x = 'sudo apt remove boinc-client boinc-manager';
         break;
     case 'Fedora':
-        echo '<pre>sudo yum remove boinc-client boinc-manager</pre>';
+        $x = 'sudo yum remove boinc-client boinc-manager';
         break;
     case 'openSUSE':
-        echo '<pre>sudo zypper remove boinc-client boinc-manager</pre>';
+        $x = 'sudo zypper remove boinc-client boinc-manager';
         break;
+    }
+    if ($x) {
+        echo copy_button($x, 'Copy instructions to clipboard');
+        echo "<pre>$x</pre>\n";
     }
     text_end();
     page_tail();
@@ -318,7 +324,7 @@ $os_num = get_int('os_num', true);
 $action = get_str('action', true);
 if ($action) {
     $version_num = get_int('version_num', true);
-    action ($os_num, $version_num);
+    action($os_num, $version_num);
 } else {
     if (!$os_num) $os_num = 0;
     form($os_num);
