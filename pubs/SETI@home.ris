@@ -1,26 +1,37 @@
 TY  - JOUR
-TI  - SETI@home: an experiment in public-resource computing
-AU  - Anderson, David P.
+TI  - First SETI Observations with China’s Five-hundred-meter Aperture Spherical Radio Telescope (FAST)
+AU  - Zhang, Zhi-Song
+AU  - Werthimer, Dan
+AU  - Zhang, Tong-Jie
 AU  - Cobb, Jeff
 AU  - Korpela, Eric
-AU  - Lebofsky, Matt
-AU  - Werthimer, Dan
-T2  - Communications of the ACM
-AB  - Millions of computer owners worldwide contribute computer time to the search for extraterrestrial intelligence, performing the largest computation ever.
-DA  - 2002/11//
-PY  - 2002
-DO  - 10.1145/581571.581573
+AU  - Anderson, David
+AU  - Gajjar, Vishal
+AU  - Lee, Ryan
+AU  - Li, Shi-Yu
+AU  - Pei, Xin
+AU  - Zhang, Xin-Xin
+AU  - Huang, Shi-Jie
+AU  - Wang, Pei
+AU  - Zhu, Yan
+AU  - Duan, Ran
+AU  - Zhang, Hai-Yan
+AU  - Jin, Cheng-jin
+AU  - Zhu, Li-Chun
+AU  - Li, Di
+T2  - The Astrophysical Journal
+DA  - 2020/03/17/
+PY  - 2020
+DO  - 10.3847/1538-4357/ab7376
 DP  - DOI.org (Crossref)
-VL  - 45
-IS  - 11
-SP  - 56
-EP  - 61
-J2  - Commun. ACM
-LA  - en
-SN  - 0001-0782, 1557-7317
-ST  - SETI@home
-UR  - https://dl.acm.org/doi/10.1145/581571.581573
-Y2  - 2022/11/20/20:59:39
+VL  - 891
+IS  - 2
+SP  - 174
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ab7376
+Y2  - 2022/12/07/02:14:08
+L1  - https://arxiv.org/pdf/2002.02130
 ER  - 
 
 TY  - CONF
@@ -44,24 +55,7 @@ DO  - 10.1117/12.2188619
 DP  - DOI.org (Crossref)
 SP  - 96060B
 UR  - http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.2188619
-Y2  - 2022/11/20/20:59:40
-ER  - 
-
-TY  - CHAP
-TI  - Distributed Processing of SETI Data
-AU  - Korpela, Eric
-T2  - Searching for Extraterrestrial Intelligence
-C2  - Shuch, H. Paul
-CY  - Berlin, Heidelberg
-DA  - 2011///
-PY  - 2011
-DP  - DOI.org (Crossref)
-SP  - 183
-EP  - 199
-PB  - Springer Berlin Heidelberg
-SN  - 978-3-642-13195-0 978-3-642-13196-7
-UR  - http://link.springer.com/10.1007/978-3-642-13196-7_11
-Y2  - 2022/11/20/20:59:38
+Y2  - 2022/12/07/02:14:22
 ER  - 
 
 TY  - JOUR
@@ -81,35 +75,24 @@ J2  - Annu. Rev. Earth Planet. Sci.
 LA  - en
 SN  - 0084-6597, 1545-4495
 UR  - https://www.annualreviews.org/doi/10.1146/annurev-earth-040809-152348
-Y2  - 2022/11/20/20:59:39
+Y2  - 2022/12/07/02:14:40
 ER  - 
 
-TY  - CONF
-TI  - Berkeley radio and optical SETI programs: SETI@home, SERENDIP, and SEVENDIP
-AU  - Werthimer, Dan
-AU  - Anderson, David
-AU  - Bowyer, C. Stuart
-AU  - Cobb, Jeff
-AU  - Heien, Eric
-AU  - Korpela, Eric J.
-AU  - Lampton, Michael L.
-AU  - Lebofsky, Matt
-AU  - Marcy, Geoff W.
-AU  - McGarry, Meghan
-AU  - Treffers, Dick
-T2  - Photonics West 2001 - LASE
-A2  - Kingsley, Stuart A.
-A2  - Bhathal, Ragbir
-C1  - San Jose, CA
-DA  - 2001/08/03/
-PY  - 2001
-DO  - 10.1117/12.435384
+TY  - CHAP
+TI  - Distributed Processing of SETI Data
+AU  - Korpela, Eric
+T2  - Searching for Extraterrestrial Intelligence
+C2  - Shuch, H. Paul
+CY  - Berlin, Heidelberg
+DA  - 2011///
+PY  - 2011
 DP  - DOI.org (Crossref)
-SP  - 104
-EP  - 109
-ST  - Berkeley radio and optical SETI programs
-UR  - http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=901650
-Y2  - 2022/11/20/20:59:39
+SP  - 183
+EP  - 199
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-13195-0 978-3-642-13196-7
+UR  - http://link.springer.com/10.1007/978-3-642-13196-7_11
+Y2  - 2022/12/07/02:15:01
 ER  - 
 
 TY  - JOUR
@@ -129,10 +112,10 @@ PY  - 2011
 DO  - 10.48550/ARXIV.1108.3134
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/1108.3134
-Y2  - 2022/11/20/20:59:38
-KW  - Distributed, Parallel, and Cluster Computing (cs.DC)
-KW  - FOS: Computer and information sciences
+Y2  - 2022/12/07/02:15:45
 KW  - FOS: Physical sciences
+KW  - FOS: Computer and information sciences
+KW  - Distributed, Parallel, and Cluster Computing (cs.DC)
 KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
 ER  - 
 
@@ -152,7 +135,7 @@ PY  - 2011
 DO  - 10.48550/ARXIV.1109.1595
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/1109.1595
-Y2  - 2022/11/20/20:59:38
+Y2  - 2022/12/07/02:15:59
 KW  - FOS: Physical sciences
 KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
 ER  - 
@@ -183,7 +166,7 @@ LA  - en
 SN  - 0074-1809
 ST  - Three Years of SETI@home
 UR  - https://www.cambridge.org/core/product/identifier/S0074180900193635/type/journal_article
-Y2  - 2022/11/20/20:59:39
+Y2  - 2022/12/07/02:16:11
 L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37096B9EEE6B49A6B0027450A9DC0343/S0074180900193635a.pdf/div-class-title-three-years-of-seti-home-a-status-report-div.pdf
 ER  - 
 
@@ -208,12 +191,64 @@ LA  - en
 PB  - Springer-Verlag
 SN  - 978-3-540-40179-7
 UR  - http://link.springer.com/10.1007/10857580_44
-Y2  - 2022/11/20/20:59:39
+Y2  - 2022/12/07/02:16:47
+ER  - 
+
+TY  - JOUR
+TI  - SETI@home: an experiment in public-resource computing
+AU  - Anderson, David P.
+AU  - Cobb, Jeff
+AU  - Korpela, Eric
+AU  - Lebofsky, Matt
+AU  - Werthimer, Dan
+T2  - Communications of the ACM
+AB  - Millions of computer owners worldwide contribute computer time to the search for extraterrestrial intelligence, performing the largest computation ever.
+DA  - 2002/11//
+PY  - 2002
+DO  - 10.1145/581571.581573
+DP  - DOI.org (Crossref)
+VL  - 45
+IS  - 11
+SP  - 56
+EP  - 61
+J2  - Commun. ACM
+LA  - en
+SN  - 0001-0782, 1557-7317
+ST  - SETI@home
+UR  - https://dl.acm.org/doi/10.1145/581571.581573
+Y2  - 2022/12/07/02:17:20
+ER  - 
+
+TY  - CONF
+TI  - Berkeley radio and optical SETI programs: SETI@home, SERENDIP, and SEVENDIP
+AU  - Werthimer, Dan
+AU  - Anderson, David
+AU  - Bowyer, C. Stuart
+AU  - Cobb, Jeff
+AU  - Heien, Eric
+AU  - Korpela, Eric J.
+AU  - Lampton, Michael L.
+AU  - Lebofsky, Matt
+AU  - Marcy, Geoff W.
+AU  - McGarry, Meghan
+AU  - Treffers, Dick
+T2  - Photonics West 2001 - LASE
+A2  - Kingsley, Stuart A.
+A2  - Bhathal, Ragbir
+C1  - San Jose, CA
+DA  - 2001/08/03/
+PY  - 2001
+DO  - 10.1117/12.435384
+DP  - DOI.org (Crossref)
+SP  - 104
+EP  - 109
+ST  - Berkeley radio and optical SETI programs
+UR  - http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=901650
+Y2  - 2022/12/07/02:17:50
 ER  - 
 
 TY  - BOOK
 TI  - A new major SETI project based on project SERENDIP data and 100,000 personal computers
-T2  - Proceedings of the 5th international conference on bioastronomy; IAU Colloquium No. 161
 AU  - Sullivan, Woodruff T., III
 AU  - Werthimer, Dan
 AU  - Bowyer, Stuart
@@ -225,7 +260,7 @@ DA  - 1997/01/01/
 PY  - 1997
 DP  - NASA ADS
 UR  - https://ui.adsabs.harvard.edu/abs/1997abos.conf..729S
-Y2  - 2022/11/20/21:10:18
+Y2  - 2022/12/07/02:18:02
 KW  - Computer Graphics
 KW  - Computer Programs
 KW  - Massively Parallel Processors
@@ -236,68 +271,48 @@ KW  - Space Sciences (General)
 KW  - Tape Recorders
 ER  - 
 
-TY  - JOUR
-TI  - SETI with Help from Five Million Volunteers: The Berkeley SETI Efforts
-AU  - Korpela, E. J.
-AU  - Anderson, D. P.
-AU  - Bankay, R.
-AU  - Cobb, J.
-AU  - Foster, G.
-AU  - Howard, A.
-AU  - Lebofsky, M.
-AU  - Marcy, G.
-AU  - Parsons, A.
-AU  - Siemion, A.
-AU  - von Korff, J.
-AU  - Werthimer, D.
-AU  - Douglas, K. A.
-AB  - We summarize radio and optical SETI programs based at the University of California, Berkeley. The ongoing SERENDIP V sky survey searches for radio signals at the 300 meter Arecibo Observatory. The currently installed configuration supports 128 million channels over a 200 MHz bandwidth with 1.6 Hz spectral resolution. Frequency stepping allows the spectrometer to cover the full 300 MHz band of the Arecibo L-band receivers. The final configuration will allow data from all 14 receivers in the Arecibo L-band Focal Array to be monitored simultaneously with over 1.8 billion simultaneous channels. SETI@home uses desktop computers volunteers to analyze over 100 TB of at taken at Arecibo. Over 5 million volunteers have run SETI@home during its 10 year history. The SETI@home sky survey is 10 times more sensitive than SERENDIP V but it covers only a 2.5 MHz band, centered on 1420 MHz. SETI@home searches a much wider parameter space, including 14 octaves of signal bandwidth and 15 octaves of pulse period with Doppler drift corrections from -100 Hz/s to +100 Hz/s. The ASTROPULSE project is the first SETI search for μs time scale pulses in the radio spectrum. Because short pulses are dispersed by the interstellar medium, and amount of dispersion is unknown, ASTROPULSE must search through 30,000 possible dispersions. Substantial computing power is required to conduct this search, so the project will use volunteers and their personal computers to carry out the computation (using distributed computing similar to SETI@home). The SEVENDIP optical pulse search looks for ns time scale pulses at visible wavelengths. It utilizes an automated 30 inch telescope, three ultra fast photo multiplier tubes and a coincidence detector. The target list includes F,G,K and M stars, globular cluster and galaxies.
-DA  - 2009/12/01/
-PY  - 2009
-DP  - NASA ADS
-VL  - 420
-SP  - 431
-ST  - SETI with Help from Five Million Volunteers
-UR  - https://ui.adsabs.harvard.edu/abs/2009ASPC..420..431K
-Y2  - 2022/11/20/21:16:30
-L1  - https://ui.adsabs.harvard.edu/link_gateway/2009ASPC..420..431K/ARTICLE
+TY  - GEN
+TI  - SETI@home: Data Acquisition and Front-End Processing
+AU  - Korpela, Eric J.
+AU  - Anderson, David P.
+AU  - Cobb, Jeff
+AU  - Lebofsky, Matt
+AU  - Liu, Wei
+AU  - Werthimer, Dan
+AB  - SETI@home is a radio Search for Extraterrestrial Intelligence (SETI) project, looking for technosignatures in data recorded at multiple observatories from 1998 to 2020. Most radio SETI projects analyze data using dedicated processing hardware. SETI@home uses a different approach: time-domain data is distributed over the Internet to $\gt 10^{5}$ volunteered home computers, which analyze it. The large amount of computing power this affords ($\sim 10^{15}$ floating-point operations per second (FPOP/s)) allows us to increase the sensitivity and generality of our search in three ways. We use coherent integration, a technique in which data is transformed so that the power of drifting signals is confined to a single discrete Fourier transform (DFT) bin. We perform this coherent search over 123 000 Doppler drift rates in the range ($\pm$100 Hz s$^{-1}$). Second, we search for a variety of signal types, such as pulsed signals and arbitrary repeated waveforms. The analysis uses a range of DFT sizes, with frequency resolutions ranging from 0.075 Hz to 1221 Hz. The front end of SETI@home produces a set of detections that exceed thresholds in power and goodness of fit. We accumulated $\sim 1.2\times 10^{10}$ such detections. The back end of SETI@home takes these detections, identifies and removes radio frequency interference (RFI), and looks for groups of detections that are consistent with extraterrestrial origin and that persist over long timescales. This paper describes the front end of SETI@home and provides parameters for the primary data source, the Arecibo Observatory; the back end and its results are described in a companion paper.
+DA  - 2025/06/17/
+PY  - 2025
+DO  - 10.48550/arXiv.2506.14718
+DP  - arXiv.org
+PB  - arXiv
+ST  - SETI@home
+UR  - http://arxiv.org/abs/2506.14718
+Y2  - 2025/06/25/12:57:09
+L1  - http://arxiv.org/pdf/2506.14718v1
+L2  - https://arxiv.org/abs/2506.14718
+KW  - Computer Science - Distributed, Parallel, and Cluster Computing
+KW  - Astrophysics - Instrumentation and Methods for Astrophysics
+KW  - Physics - Data Analysis, Statistics and Probability
 ER  - 
 
-TY  - JOUR
-TI  - First SETI Observations with China’s Five-hundred-meter Aperture Spherical Radio Telescope (FAST)
-AU  - Zhang, Zhi-Song
+TY  - GEN
+TI  - SETI@home: Data Analysis and Findings
+AU  - Anderson, David P.
+AU  - Korpela, Eric J.
 AU  - Werthimer, Dan
-AU  - Zhang, Tong-Jie
 AU  - Cobb, Jeff
-AU  - Korpela, Eric
-AU  - Anderson, David
-AU  - Gajjar, Vishal
-AU  - Lee, Ryan
-AU  - Li, Shi-Yu
-AU  - Pei, Xin
-AU  - Zhang, Xin-Xin
-AU  - Huang, Shi-Jie
-AU  - Wang, Pei
-AU  - Zhu, Yan
-AU  - Duan, Ran
-AU  - Zhang, Hai-Yan
-AU  - Jin, Cheng-jin
-AU  - Zhu, Li-Chun
-AU  - Li, Di
-T2  - The Astrophysical Journal
-AB  - The Search for Extraterrestrial Intelligence (SETI) attempts to address the possibility of the presence of technological civilizations beyond the Earth. Beneﬁting from high sensitivity, large sky coverage, and an innovative feed cabin for China’s Five-hundred-meter Aperture Spherical radio Telescope (FAST), we performed SETI’s ﬁrst observations with FAST’s newly commissioned 19 beam receiver; we report preliminary results in this paper. Using the data stream produced by the SERENDIP VI real-time multibeam SETI spectrometer installed at FAST, as well as its off-line data processing pipelines, we identify and remove four kinds of radio frequency interference (RFI): zone, broadband, multibeam, and drifting, utilizing the Nebula SETI software pipeline combined with machine-learning algorithms. After RFI mitigation, the Nebula pipeline identiﬁes and ranks interesting narrowband candidate ET signals, scoring candidates by the number of times candidate signals have been seen at roughly the same sky position and same frequency, signal strength, proximity to a nearby star or object of interest, along with several other scoring criteria. We show four example candidate groups that demonstrate this RFI mitigation and candidate selection. This preliminary testing on FAST data helps to validate our SETI instrumentation techniques as well as our data processing pipeline.
-DA  - 2020/03/17/
-PY  - 2020
-DO  - 10.3847/1538-4357/ab7376
-DP  - DOI.org (Crossref)
-VL  - 891
-IS  - 2
-SP  - 174
-J2  - ApJ
-LA  - en
-SN  - 1538-4357
-UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ab7376
-Y2  - 2022/11/20/21:28:23
-L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ab7376/pdf
+AU  - Allen, Bruce
+AB  - SETI@home is a radio Search for Extraterrestrial Intelligence (SETI) project that looks for technosignatures in data recorded at the Arecibo Observatory. The data were collected over a period of 14 years and cover almost the entire sky visible to the telescope. The first stage of data analysis found billions of detections: brief excesses of continuous or pulsed narrowband power. The second stage removed detections that were likely radio frequency interference (RFI), then identified and ranked signal candidates: groups of detections, possibly spread over the 14 years, that plausibly originate from a single cosmic source. We manually examined the top-ranking signal candidates and selected a few hundred. In the third and final stage we are reobserving the corresponding sky locations and frequency ranges using the Five-hundred-meter Aperture Spherical Telescope (FAST) radio telescope. This paper covers SETI@home's second stage of data analysis. We describe the algorithms used to remove RFI and to identify and rank signal candidates. To guide the development of these algorithms, we used artificial candidate birdies that model persistent ET signals with a range of power, bandwidth, and planetary motion parameters. This approach also allowed us to estimate the sensitivity of our detection system to these signals.
+DA  - 2025///
+PY  - 2025
+DO  - 10.48550/ARXIV.2506.14737
+DP  - DOI.org (Datacite)
+PB  - arXiv
+ST  - SETI@home
+UR  - https://arxiv.org/abs/2506.14737
+Y2  - 2025/06/25/12:59:59
+KW  - FOS: Physical sciences
+KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+KW  - Data Analysis, Statistics and Probability (physics.data-an)
 ER  - 
 
