@@ -4,7 +4,7 @@ create table test_report (
     id          integer         not null auto_increment,
     userid      integer         not null,
     version     varchar(64)    not null,
-    platform    varchar(64)    not null,
+    platform    varchar(254)    not null,
     test_group  varchar(64)    not null,
     status      integer         not null,
     comment     text,
