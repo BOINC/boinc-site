@@ -318,3 +318,31 @@ KW  - Data Analysis, Statistics and Probability (physics.data-an)
 T2  - The Astronomical Journal
 ER  - 
 
+TY  - CONF
+TI  - SETI with Help from Five Million Volunteers: The Berkeley SETI Efforts
+AU  - Korpela, E. J.
+AU  - Anderson, D. P.
+AU  - Bankay, R.
+AU  - Cobb, J.
+AU  - Foster, G.
+AU  - Howard, A.
+AU  - Lebofsky, M.
+AU  - Marcy, G.
+AU  - Parsons, A.
+AU  - Siemion, A.
+AU  - von Korff, J.
+AU  - Werthimer, D.
+AU  - Douglas, K. A.
+T2  - Bioastronomy 2007: Molecules, Microbes and Extraterrestrial Life
+AB  - We summarize radio and optical SETI programs based at the University of California, Berkeley. The ongoing SERENDIP V sky survey searches for radio signals at the 300 meter Arecibo Observatory. The currently installed configuration supports 128 million channels over a 200 MHz bandwidth with 1.6 Hz spectral resolution. Frequency stepping allows the spectrometer to cover the full 300 MHz band of the Arecibo L-band receivers. The final configuration will allow data from all 14 receivers in the Arecibo L-band Focal Array to be monitored simultaneously with over 1.8 billion simultaneous channels. SETI@home uses desktop computers volunteers to analyze over 100 TB of at taken at Arecibo. Over 5 million volunteers have run SETI@home during its 10 year history. The SETI@home sky survey is 10 times more sensitive than SERENDIP V but it covers only a 2.5 MHz band, centered on 1420 MHz. SETI@home searches a much wider parameter space, including 14 octaves of signal bandwidth and 15 octaves of pulse period with Doppler drift corrections from -100 Hz/s to +100 Hz/s. The ASTROPULSE project is the first SETI search for μs time scale pulses in the radio spectrum. Because short pulses are dispersed by the interstellar medium, and amount of dispersion is unknown, ASTROPULSE must search through 30,000 possible dispersions. Substantial computing power is required to conduct this search, so the project will use volunteers and their personal computers to carry out the computation (using distributed computing similar to SETI@home). The SEVENDIP optical pulse search looks for ns time scale pulses at visible wavelengths. It utilizes an automated 30 inch telescope, three ultra fast photo multiplier tubes and a coincidence detector. The target list includes F,G,K and M stars, globular cluster and galaxies.
+DA  - 2009/12/01/
+PY  - 2009
+DP  - NASA ADS
+VL  - 420
+SP  - 431
+ST  - SETI with Help from Five Million Volunteers
+UR  - https://ui.adsabs.harvard.edu/abs/2009ASPC..420..431K
+Y2  - 2025/06/25/19:13:03
+L1  - https://ui.adsabs.harvard.edu/link_gateway/2009ASPC..420..431K/ARTICLE
+ER  - 
+
