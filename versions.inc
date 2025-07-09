@@ -589,6 +589,10 @@ function linux_info() {
     ";
 }
 
+function boinc_buda_runner_version() {
+    return 1;
+}
+
 // do not delete!
 $url_base = "https://boinc.berkeley.edu/dl/";
 

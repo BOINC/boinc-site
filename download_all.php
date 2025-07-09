@@ -1,8 +1,8 @@
 <?php
 
 // This file is part of BOINC.
-// http://boinc.berkeley.edu
-// Copyright (C) 2018 University of California
+// https://boinc.berkeley.edu
+// Copyright (C) 2025 University of California
 //
 // BOINC is free software; you can redistribute it and/or modify it
 // under the terms of the GNU Lesser General Public License
@@ -29,7 +29,6 @@
 // platform=x       show only versions for platform x (win/mac/linux/solaris)
 
 require_once("../inc/util.inc");
-//require_once("docutil.php");
 
 $experimental = get_str("exp", true);
 require_once("versions.inc");
@@ -68,11 +67,6 @@ function dl_item($x, $y) {
 function version_url($file) {
     global $url_base;
     return $url_base.$file;
-//    if (is_dev($v)) {
-//        return "https://boinc.berkeley.edu/dl/$file";
-//    } else {
-//        return $url_base.$file;
-//    }
 }
 
 function show_detail($v) {
@@ -267,6 +261,10 @@ if ($xml) {
             show_platform_xml($short_name, $p, $dev);
         }
     }
+    echo sprintf(
+        "<boinc_buda_runner_version>%d</boinc_buda_runner_version>\n",
+        boinc_buda_runner_version()
+    );
     echo "
 </versions>
 ";

@@ -1,7 +1,11 @@
 <?php
 
-// NOTE: the core client fetches download.php?xml=1 every so often;
-// don't break this!!!
+// If xml=1 is specified, redirect to download_all.php
+// the client fetches download.php?xml=1 every so often;
+// so don't break this!!!
+//
+// Otherwise show a user-friendly 'Install BOINC' page
+// for the platform in HTTP header
 
 require_once("versions.inc");
 require_once("download_util.inc");
