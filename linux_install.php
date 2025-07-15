@@ -5,7 +5,7 @@
 require_once('../inc/util.inc');
 require_once('../inc/clipboard.inc');
 
-$versions = ['stable'=>'8.2.4', 'alpha'=>'8.2.4', 'nightly'=>'8.3.0'];
+$versions = ['stable'=>'8.2.4', 'alpha'=>'8.2.5', 'nightly'=>'8.3.0'];
 
 define('OS_DEBIAN', 0);
 define('OS_UBUNTU', 1);
