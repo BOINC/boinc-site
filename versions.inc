@@ -14,7 +14,7 @@
 //          if they use auto-attach
 //          (see https://github.com/BOINC/boinc/wiki/SimpleAttach>
 //      - run get_versions.php in Science United and BOINC Central
-//      - post news item on BOINC and Science Unite
+//      - post news item on BOINC and Science United
 
 // List of platforms.
 // Each has a list of versions, then a structure in which "versions"
@@ -23,54 +23,61 @@
 
 // -------------- Windows Intel 64-bit -------------------
 
-$w824 = array(
-    "num"=>"8.2.4",
+$w825 = [
+    "num"=>"8.2.5",
     "status"=>"Development version",
-    "file"=>"boinc_8.2.4_windows_x86_64.exe",
-    "date"=>"8 June 2025",
+    "file"=>"boinc_8.2.5_windows_x86_64.exe",
+    "date"=>"15 July 2025",
     "type"=>"win_new"
-);
-$w802 = array(
-    "num"=>"8.0.2",
-    "status"=>"Recommended version",
-    "file"=>"boinc_8.0.2_windows_x86_64.exe",
-    "vbox_file"=>"boinc_8.0.2_windows_x86_64_vbox.exe",
-    "vbox_version"=>"7.0.6",
-    "date"=>"30 May 2024",
-    "type"=>"win_new"
-);
+];
 
-$windowsx64 = array(
+$w824 = [
+    "num"=>"8.2.4",
+    "status"=>"Recommended version",
+    "file"=>"boinc_8.2.4_windows_x86_64.exe",
+    "date"=>"10 July 2025",
+    "type"=>"win_new"
+];
+
+$windowsx64 = [
     "name"=>"Windows Intel-compatible 64-bit",
     "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
-    "versions"=> array(
-        $w824,
-        $w802
-    )
-);
+    "versions"=> [
+        $w825,
+        $w824
+    ]
+];
 
 // -------------- Windows ARM 64-bit -------------------
 
-$wa824 = array(
-    "num"=>"8.2.4",
+$wa825 = [
+    "num"=>"8.2.5",
     "status"=>"Development version",
-    "file"=>"boinc_8.2.4_windows_arm64.exe",
-    "date"=>"8 June 2025",
+    "file"=>"boinc_8.2.5_windows_arm64.exe",
+    "date"=>"15 July 2025",
     "type"=>"win_new"
-);
-$windows_arm = array(
+];
+$wa824 = [
+    "num"=>"8.2.4",
+    "status"=>"Recommended version",
+    "file"=>"boinc_8.2.4_windows_arm64.exe",
+    "date"=>"10 July 2025",
+    "type"=>"win_new"
+];
+$windows_arm = [
     "name"=>"Windows ARM 64-bit",
     "description"=>"Windows 11",
     "dbname" => "windows_arm64",
-    "versions"=> array(
+    "versions"=> [
+        $wa825,
         $wa824
-    )
-);
+    ]
+];
 
 // -------------- Windows 32-bit -------------------
 
-$w714 = array(
+$w714 = [
     "num"=>"7.14.2",
     "status"=>"Recommended version",
     "file"=>"boinc_7.14.2_windows_intelx86.exe",
@@ -78,58 +85,58 @@ $w714 = array(
     "vbox_version"=>"5.2.8",
     "date"=>"11 October 2018",
     "type"=>"win_new",
-);
+];
 
-$w66 = array(
+$w66 = [
     "num"=>"6.6.38",
     "status"=>"Older version (also works on Windows 98 and ME)",
     "file"=>"boinc_6.6.38_windows_intelx86.exe",
     "date"=>"28 Oct 2009",
     "type"=>"win_new",
-);
+];
 
-$w5816 = array(
+$w5816 = [
     "num"=>"5.8.16",
     "status"=>"Older version (also works on Windows 95 and NT 4.0)",
     "file"=>"boinc_5.8.16_windows_intelx86.exe",
     "date"=>"1 Mar 2007",
     "type"=>"win_new",
-);
+];
 
-$windows = array(
+$windows = [
     "name"=>"Windows Intel-compatible 32-bit",
     "description"=>"XP/Vista/7/8/8.1/10",
     "dbname" => "windows_intelx86",
-    "versions"=>array(
+    "versions"=> [
           $w714,
           $w66,
           $w5816,
-    )
-);
+    ]
+];
 
 // --------------- Mac Intel 64 or ARM --------------------
 
-$m82_4 = array(
-    "num"=>"8.2.4",
-    "status"=>"Development version (MacOS 10.13+)",
-    "file"=>"boinc_8.2.4_macOSX_universal.zip",
-    "date"=>"8 June 2025",
+$m82_5 = [
+    "num"=>"8.2.5",
+    "status"=>"Recommended version",
+    "file"=>"boinc_8.2.5_macOSX_universal.zip",
+    "date"=>"16 July 2025",
     "type"=>"mac_advanced",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
-);
+];
 
-$m82_4c = array(
-    "num"=>"8.2.4",
-    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_8.2.4_universal-apple-darwin.dmg",
-    "date"=>"8 June 2025",
+$m82_5c = [
+    "num"=>"8.2.5",
+    "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
+    "file"=>"boinc_8.2.5_universal-apple-darwin.dmg",
+    "date"=>"16 July 2025",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
-);
+];
 
-$m80_2 = array(
+$m80_2 = [
     "num"=>"8.0.2",
     "status"=>"Recommended version (MacOS 10.13+)",
     "file"=>"boinc_8.0.2_macOSX_universal.zip",
@@ -137,9 +144,9 @@ $m80_2 = array(
     "type"=>"mac_advanced",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
-);
+];
 
-$m80_2c = array(
+$m80_2c = [
     "num"=>"8.0.2",
     "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
     "file"=>"boinc_8.0.2_universal-apple-darwin.dmg",
@@ -147,10 +154,10 @@ $m80_2c = array(
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
-);
+];
 
 // Do not remove 7.20.2, which is latest version that can run on MacOS 10.10
-$m720_2 = array(
+$m720_2 = [
     "num"=>"7.20.2",
     "status"=>"Older version (MacOS 10.10 - MacOS 12.x)",
     "file"=>"boinc_7.20.2_macOSX_universal.zip",
@@ -158,10 +165,10 @@ $m720_2 = array(
     "type"=>"mac_advanced",
     "min_os_version"=>"101000",
     "max_os_version"=>"129999",
-);
+];
 
 // Do not remove 7.20.2, which is latest version that can run on MacOS 10.10
-$m720_2c = array(
+$m720_2c = [
     "num"=>"7.20.2",
     "status"=>"Older version (Unix command-line version) (MacOS 10.10 - MacOS 12.x)",
     "file"=>"boinc_7.20.2_universal-apple-darwin.dmg",
@@ -169,10 +176,10 @@ $m720_2c = array(
     "type"=>"bare_core",
     "min_os_version"=>"101000",
     "max_os_version"=>"129999",
-);
+];
 
 // Do not remove 7.16.21, which is latest version that can run on MacOS 10.9
-$m716_21 = array(
+$m716_21 = [
     "num"=>"7.16.21",
     "status"=>"Older version (MacOS 10.9 - MacOS 12.x)",
     "file"=>"boinc_7.16.21_macOSX_universal.zip",
@@ -180,10 +187,10 @@ $m716_21 = array(
     "type"=>"mac_advanced",
     "min_os_version"=>"100900",
     "max_os_version"=>"129999",
-);
+];
 
 // Do not remove 7.16.21, which is latest version that can run on MacOS 10.9
-$m716_21c = array(
+$m716_21c = [
     "num"=>"7.16.21",
     "status"=>"Older version (Unix command-line version) (MacOS 10.9 - MacOS 12.x)",
     "file"=>"boinc_7.16.21_universal-apple-darwin.dmg",
@@ -191,7 +198,7 @@ $m716_21c = array(
     "type"=>"bare_core",
     "min_os_version"=>"100900",
     "max_os_version"=>"129999",
-);
+];
 
 // Mac Universal builds contain code for both Intel 64 and 
 // Apple Silicon (ARM64) Macs, but the two architectures 
@@ -200,38 +207,38 @@ $m716_21c = array(
 // the client's New Version Check code to handle them properly.
 // See GitHub Issue #4551 for more details.
 
-$mac = array(
+$mac = [
     "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
-    "versions"=>array(
-        $m82_4,
-        $m82_4c,
-        $m80_2,
-        $m80_2c,
+    "versions" => [
+        $m82_5,
+        $m82_5c,
+        //$m80_2,
+        //$m80_2c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21, // Keep 7.16.21, which is latest version that can run on MacOS 10.9
         $m716_21c,
-    )
-);
+    ]
+];
 
 // mac_arm is not currently used (but see comment above)
-$mac_arm = array(
-    "name"=>"Apple Mac (64-bit Intel and Apple Silicon)",
-    "description"=>null,
+$mac_arm = [
+    "name" => "Apple Mac (64-bit Intel and Apple Silicon)",
+    "description" => null,
     "dbname" => "arm64-apple-darwin",
-    "versions"=>array(
-        $m82_4,
-        $m82_4c,
+    "versions" => [
+        $m82_5,
+        $m82_5c,
         $m80_2,
         $m80_2c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
         $m720_2c,
         $m716_21,  // Keep 7.16.21, which is latest version that can run on MacOS 10.9
         $m716_21c,
-    )
-);
+    ]
+];
 
 // The following are for download.php (not download_all.php)
 // for old OS versions
@@ -247,7 +254,7 @@ $mac_10_9_plus = [
 
 // --------------- Mac Intel 64 --------------------
 
-$m716_11 = array(
+$m716_11 = [
     "num"=>"7.16.11",
     "status"=>"Recommended version",
     "file"=>"boinc_7.16.11_macOSX_x86_64.zip",
@@ -255,9 +262,9 @@ $m716_11 = array(
     "type"=>"mac_advanced",
     "min_os_version"=>"100700",
     "max_os_version"=>"100899",
-);
+];
 
-$m716_11c = array(
+$m716_11c = [
     "num"=>"7.16.11",
     "status"=>"Recommended version (Unix command-line version)",
     "file"=>"boinc_7.16.11_x86_64-apple-darwin.zip",
@@ -265,9 +272,9 @@ $m716_11c = array(
     "type"=>"bare_core",
     "min_os_version"=>"100700",
     "max_os_version"=>"100899",
-); 
+]; 
    
-$m716_6 = array(
+$m716_6 = [
     "num"=>"7.16.6",
     "status"=>"Older version",
     "file"=>"boinc_7.16.6_macOSX_x86_64.zip",
@@ -275,9 +282,9 @@ $m716_6 = array(
     "type"=>"mac_advanced",
     "min_os_version"=>"100700",
     "max_os_version"=>"100899",
-);
+];
 
-$m716_6c = array(
+$m716_6c = [
     "num"=>"7.16.6",
     "status"=>"Older version (Unix command-line version)",
     "file"=>"boinc_7.16.6_x86_64-apple-darwin.zip",
@@ -285,23 +292,23 @@ $m716_6c = array(
     "type"=>"bare_core",
     "min_os_version"=>"100700",
     "max_os_version"=>"100899",
-); 
+]; 
    
-$mac_10_7 = array(
+$mac_10_7 = [
     "name"=>"Apple Mac (64-bit Intel)",
     "description"=>"MacOS 10.7 - 10.15",
     "dbname" => "x86_64-apple-darwin",
-    "versions"=>array(
+    "versions" => [
           $m716_11,
           $m716_11c,
           $m716_6,
           $m716_6c,
-    )
-);
+    ]
+];
 
 // --------------- Mac Intel 32/64 --------------------
 
-$m72 = array(
+$m72 = [
     "num"=>"7.2.42",
     "status"=>"Recommended version",
     "file"=>"boinc_7.2.42_macOSX_i686.zip",
@@ -309,9 +316,9 @@ $m72 = array(
     "type"=>"mac_advanced",
     "min_os_version"=>"100400",
     "max_os_version"=>"100699",
-);
+];
 
-$m72c = array(
+$m72c = [
     "num"=>"7.2.42",
     "status"=>"Recommended version (Unix command-line version)",
     "file"=>"boinc_7.2.42_i686-apple-darwin.zip",
@@ -319,30 +326,30 @@ $m72c = array(
     "type"=>"bare_core",
     "min_os_version"=>"100400",
     "max_os_version"=>"100699",
-);
+];
 
-$mupdater = array(
+$mupdater = [
     "num"=>"any",
     "status"=>"Certificate updater for old versions of BOINC before 7.9.1 only",
     "file"=>"update_boinc_certificate.zip",
     "date"=>"28 April 2018",
     "type"=>"cert_updater",
-);
+];
 
-$mac32 = array(
+$mac32 = [
     "name"=>"Apple Mac (32-bit or 64-bit Intel)",
     "description"=>"MacOS 10.4.0+",
     "dbname" => "x86_64-apple-darwin",
-    "versions"=>array(
+    "versions"=>[
           $m72,
           $m72c,
           $mupdater,
-    )
-);
+    ]
+];
 
 // --------------- Mac PowerPC --------------------
 
-$m612_ppc = array(
+$m612_ppc = [
     "num"=>"6.12.35",
     "status"=>"Recommended version",
     "file"=>"boinc_6.12.35_macOSX_universal.zip",
@@ -350,9 +357,9 @@ $m612_ppc = array(
     "type"=>"mac_advanced",
     "min_os_version"=>"100400",
     "max_os_version"=>"100699",
-);
+];
 
-$m612c_ppc = array(
+$m612c_ppc = [
     "num"=>"6.12.35",
     "status"=>"Recommended version (Unix command-line version)",
     "file"=>"boinc_6.12.35_universal-apple-darwin.zip",
@@ -360,9 +367,9 @@ $m612c_ppc = array(
     "type"=>"bare_core",
     "min_os_version"=>"100400",
     "max_os_version"=>"100699",
-);
+];
 
-$m66 = array(
+$m66 = [
     "num"=>"6.6.36",
     "status"=>"Older version (standard GUI) (works on OS 10.3.9 - OS 10.5.8)",
     "file"=>"boinc_6.6.36_macOSX_universal.zip",
@@ -370,9 +377,9 @@ $m66 = array(
     "type"=>"mac_advanced",
     "min_os_version"=>"100309",
     "max_os_version"=>"100599",
-);
+];
 
-$m66c = array(
+$m66c = [
     "num"=>"6.6.36",
     "status"=>"Older version (Unix command-line version) (works on OS 10.3.9 - OS 10.5.8)",
     "file"=>"boinc_6.6.36_universal-apple-darwin.zip",
@@ -380,138 +387,117 @@ $m66c = array(
     "type"=>"bare_core",
     "min_os_version"=>"100309",
     "max_os_version"=>"100599",
-);
+];
 
-$macppc = array(
+$macppc = [
     "name"=>"Apple Mac (Power PC or 32-bit Intel)",
     "description"=>"MacOS 10.4.0+",
     "dbname" => "powerpc-apple-darwin",
-    "versions"=>array(
+    "versions" => [
         $m612_ppc,
         $m612c_ppc,
         $m66,
         $m66c,
-    )
-);
+    ]
+];
 
 // --------------- Linux 64-bit --------------------
 
-$l716ubuntux64dev = array(
-    "num"=>"7.16.6",
-    "status"=>"Development version",
-    "file"=>"boinc_ubuntu_7.16.6_x86_64-pc-linux-gnu.sh",
-    "date"=>"5 April 2020",
-    "type"=>"sea",
-);
-
-$l74ubuntux64 = array(
-    "num"=>"7.4.22",
-    "status"=>"Older version",
-    "file"=>"boinc_7.4.22_x86_64-pc-linux-gnu.sh",
-    "date"=>"17 Sept 2014",
-    "type"=>"sea",
-);
-
-$linux_821 = array(
-    "num"=>"8.2.1",
-    "status"=>"Development version",
-    'file'=>'',
-    "date"=>"17 April 2025",
-    "type"=>'linux_pkg'
-);
-
-$linux_802 = array(
-    "num"=>"8.0.2",
+$linux_824 = [
+    "num"=>"8.2.4",
     "status"=>"Recommended version",
     'file'=>'',
-    "date"=>"30 May 2024",
+    "date"=>"15 July 2025",
     "type"=>'linux_pkg'
-);
+];
 
-$linuxx64 = array(
+$linuxx64 = [
     "name"=>"Linux x64",
-    //"description"=> linux_info(),
     "description"=> 'Packages are available for several distros',
     "dbname" => "x86_64-pc-linux-gnu",
-    "versions"=>array(
-        $linux_821,
-        $linux_802,
-        //$l716ubuntux64dev,
-        //$l74ubuntux64,
-    )
-);
+    "versions"=>[
+        $linux_824,
+    ]
+];
 
 // --------------- Linux 32-bit --------------------
 
-$l74ubuntu = array(
+$l74ubuntu = [
     "num"=>"7.4.22",
     "status"=>"Recommended version",
     "file"=>"boinc_7.4.22_i686-pc-linux-gnu.sh",
     "date"=>"17 Sept 2014",
     "type"=>"sea",
-);
+];
 
-$linux = array(
+$linux = [
     "name"=>"Linux x86",
     "description"=> linux_info(),
     "dbname" => "i686-pc-linux-gnu",
-    "versions"=>array(
+    "versions"=>[
           $l74ubuntu,
-    )
-);
+    ]
+];
 
 // --------------- Older Linux --------------------
 
-$l612 = array(
+$l612 = [
     "num"=>"6.12.22",
     "status"=>"Recommended version",
     "file"=>"boinc_compat_6.12.22_i686-pc-linux-gnu.sh",
     "date"=>"6 Apr 2011",
     "type"=>"sea",
-);
+];
 
-$linuxcompat = array(
+$linuxcompat = [
     "name"=>"Older Linux x86 and x64",
     "description"=>"For older Linux versions, both x86 and x64; command-line interface only",
     "dbname" => "i686-pc-linux-gnu",
-    "versions"=>array(
+    "versions"=>[
         $l612,
-    )
-);
+    ]
+];
 
 // --------------- Android --------------------
 
-$a821 = array(
+$a825 = [
+    "num"=>"8.2.5",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.5.apk",
+    "date"=>"15 July 2025",
+    "type"=>"apk",
+];
+$a821 = [
     "num"=>"8.2.1",
     "status"=>"Development version",
     "file"=>"boinc_8.2.1.apk",
     "date"=>"17 April 2025",
     "type"=>"apk",
-);
-$a802 = array(
+];
+$a802 = [
     "num"=>"8.0.2",
     "status"=>"Recommended version",
     "file"=>"boinc_8.0.2.apk",
     "date"=>"30 May 2024",
     "type"=>"apk",
-);
+];
 
-$android = array(
+$android = [
     "name"=>"Android",
     "description"=>"Android version 4.1 and later for ARM, AArch64, x86, and x86_64
     <br> Amazon Fire tablets: install from the Amazon Appstore.
     <br> Available on <a href=https://f-droid.org/en/packages/edu.berkeley.boinc/>F-Droid</a>, a repository of open-source apps.
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
-    "versions"=>array(
-        $a821,
+    "versions"=>[
+        $a825,
         $a802,
-    )
-);
+    ]
+];
 
 // -------------- END OF PLATFORMS -------------------
 
-$platforms = array(
+$platforms = [
     "winx64"=>$windowsx64,
     "win_arm"=>$windows_arm,
     "win"=>$windows,
@@ -526,7 +512,7 @@ $platforms = array(
     "linux"=>$linux,
     "linuxcompat"=>$linuxcompat,
     "android"=>$android,
-);
+];
 
 function is_dev($v) {
     return (strstr($v["status"], "Development") != null);
