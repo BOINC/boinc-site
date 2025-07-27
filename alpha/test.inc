@@ -715,9 +715,10 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
-    array("8.2.4", [$general, $clean, $docker], $all_platforms),
+    array("8.2.5", [$general, $clean, $docker], $all_platforms),
 );
 $old_versions = array(
+    array("8.2.4", [$general, $clean, $docker], $all_platforms),
     array("8.2.1", [$general, $clean, $docker], $all_platforms),
     array("8.0.0", [$general, $clean], $all_platforms),
     array("7.24.1", $screensaver_tests, $platforms_win_mac_android),
