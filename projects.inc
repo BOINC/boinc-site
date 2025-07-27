@@ -275,7 +275,7 @@ $astro_phys_chem = array(
         project(
             PROJ_ASTEROIDS,
             "Asteroids@home",
-            "http://asteroidsathome.net/boinc/",
+            "https://asteroidsathome.net/boinc/",
             "Charles University in Prague",
             tra("Astrophysics"),
             tra("The aim of the project is to derive shapes and spin for a significant part of the asteroid population. As input data, we use any asteroid photometry that is available. The results are asteroid convex shape models with the direction of the spin axis and the rotation period."),
