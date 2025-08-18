@@ -24,9 +24,8 @@ foreach ($all_test_groups as $t) {
 
     $status = null;
     $comment = null;
-    $status = get_str($sname, true);
-    if (is_null($status)) continue;
-    $status = BoincDb::escape_string($status);
+    $status = get_int($sname, true);
+    if ($status === null) continue;
     $comment = BoincDb::escape_string(get_str($cname, true));
 
     $query = "select * from $report_table where userid=$user->id and version='$version' and platform='$platform' and test_group='$t[0]'";
@@ -39,7 +38,6 @@ foreach ($all_test_groups as $t) {
     } else {
         //echo "inserting";
         $query = "insert into $report_table (userid, version, platform, test_group, status, comment, product_name) values ($user->id, '$version', '$platform', '$t[0]', $status, '$comment', '$product_name')";
-
         $retval = _mysql_query($query);
     }
     if (!$retval) {
