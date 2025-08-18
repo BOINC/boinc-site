@@ -139,16 +139,38 @@ sudo apt install boinc-client boinc-manager',
         );
         break;
     case 'Fedora':
-        $x = sprintf(
+        switch ($os->ver) {
+        case '37':
+        case '38':
+        case '39':
+        case '40':
+            $x = sprintf(
 'sudo dnf install dnf-plugins-core
 sudo dnf config-manager --add-repo https://boinc.berkeley.edu/dl/linux/%s/%s
 sudo dnf config-manager --set-enabled boinc.berkeley.edu_dl_linux_%s_%s
 sudo rpm --import https://boinc.berkeley.edu/dl/linux/%s/%s/boinc.gpg
 sudo yum install boinc-client boinc-manager',
-            $build, $os->code,
-            $build, $os->code,
-            $build, $os->code
-        );
+                $build, $os->code,
+                $build, $os->code,
+                $build, $os->code
+            );
+            break;
+        case '41':
+        case '42':
+            $x = sprintf(
+'sudo dnf install dnf-plugins-core
+sudo dnf config-manager --from-repofile=https://boinc.berkeley.edu/dl/linux/%s/%s
+sudo dnf config-manager setopt boinc.berkeley.edu_dl_linux_%s_%s.enabled=1
+sudo rpm --import https://boinc.berkeley.edu/dl/linux/%s/%s/boinc.gpg
+sudo yum install boinc-client-%s boinc-manager-%s',
+                $build, $os->code,
+                $build, $os->code,
+                $build, $os->code,
+                $versions[$build],
+                $versions[$build]
+            );
+            break;
+    }
         break;
     case 'openSUSE':
         $x = sprintf(
