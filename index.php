@@ -151,10 +151,13 @@ function show_links() {
         <a href=cert_dev.php>%s</a>
         &middot;
         <a href=poll_results.php>%s</a>
+        &middot;
+        <a href=teams/>%s</a>
         ',
         tra('Computing power'),
         tra('Certificate'),
-        tra('Poll')
+        tra('Poll'),
+        tra('Teams')
     );
     echo sprintf('
         <hr>
@@ -163,8 +166,9 @@ function show_links() {
             <li><a href=https://github.com/BOINC/boinc/wiki/Computing-with-boinc>%s</a> and <a href=https://github.com/BOINC/boinc/wiki/Maintain-your-boinc-project>%s</a> %s.
             <br>
             <li>
+            Run Docker and Autodock jobs with
             <a href=https://boinc.berkeley.edu/central/>
-            Run Autodock Vina jobs with BOINC Central and Raccoon2</a>
+            BOINC Central</a>.
             </ul>
         <p>
         <font size=+2>%s:</font> <br>

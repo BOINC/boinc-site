@@ -97,12 +97,16 @@ function build_options() {
 }
 
 function action($os_num, $version_num) {
-    global $versions;
+    $mint_os = null;
     switch ($os_num) {
         case OS_MINT:
+            $oss = get_oss($os_num);
+            $mint_os = $oss[$version_num];
             $os_num = OS_UBUNTU;
             break;
         case OS_MINT_DEBIAN:
+            $oss = get_oss($os_num);
+            $mint_os = $oss[$version_num];
             $os_num = OS_DEBIAN;
             break;
     }
@@ -111,7 +115,9 @@ function action($os_num, $version_num) {
     $build = get_str('build');
     page_head(
         sprintf('Install the %s version of BOINC on %s %s',
-            $build, $os->type, $os->ver
+            $build,
+            $mint_os?$mint_os->type:$os->type,
+            $mint_os?$mint_os->ver:$os->ver
         )
     );
     copy_to_clipboard_script();

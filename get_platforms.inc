@@ -332,11 +332,12 @@ function get_platforms_cached($url) {
     $u = urlencode($url);
     $fname = "/home/boincadm/boinc-site/platforms/$u";
     $t = @filemtime($fname);
-	if (strstr($url, "gpugrid") || ($t && $t > time() - CACHE_LIFETIME)) {
+	//if (strstr($url, "gpugrid") || ($t && $t > time() - CACHE_LIFETIME)) {
+	if (($t && $t > time() - CACHE_LIFETIME)) {
         return json_decode(file_get_contents($fname));
     }
     $l = get_platforms($url);
-    echo "got $url";
+    //echo "got $url";
     if (!$l) {
         $l = get_platforms2($url);
     }
@@ -374,13 +375,15 @@ function get_platform_icons($url) {
 //$u = "http://www.rnaworld.de/rnaworld/";
 //$u = "http://boinc.gorlaeus.net/";
 //$u = "https://www.ramanujamachine.com/";
-//$x = get_platforms_cached($u);
-//print_r($x);
-//$x = get_platforms2($u);
-//print_r($x);
-//echo json_encode($x);
-//echo get_platforms_string($u);
-
+if (0) {
+    $u = "https://gpugrid.net/gpugrid/";
+    $x = get_platforms_cached($u);
+    print_r($x);
+    //$x = get_platforms2($u);
+    //print_r($x);
+    //echo json_encode($x);
+    //echo get_platforms_string($u);
+}
 
 // Mediawiki extension to show a project's platforms.
 // Doesn't seem to work anymore.

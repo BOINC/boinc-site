@@ -11,7 +11,9 @@
 // If you add or change anything:
 // - look at https://boinc.berkeley.edu/project_list.php
 //      in a browser to make sure you didn't mess up the XML
-// - update Science United: su/project_init.php
+// - update Science United:
+//      php get_projects.php
+//      php project_init.php
 // - wget https://boinc.berkeley.edu/project_list.php and move to
 //      boinc/win_build/installerv2/redist/all_projects_list.xml
 //      (deprecated - this is automated via a Github action)
@@ -180,12 +182,12 @@ $biomed = array(
         project(
             PROJ_GPU_GRID,
             "GPUGrid.net",
-            "https://www.gpugrid.net/",
+            "https://gpugrid.net/gpugrid/",
             "Barcelona Biomedical Research Park (PRBB)",
             tra("Molecular simulations of proteins"),
             tra("GPUGrid.net opens novel computational scenarios by the first full-atom molecular dynamics code (CellMD) specially optimized to run on NVIDIA GPUs. New biomedical applications suddenly become possible giving a new role to computational biology for biomedical research."),
             "gpugrid.png",
-            "https://www.gpugrid.net/",
+            "https://gpugrid.net/gpugrid/",
             tra("Help biomedical research"),
             array(KW_BIOMED, KW_DISEASE, KW_CANCER, KW_VIRUS, KW_EUROPE, KW_SPAIN, KW_PRBB)
         ),
@@ -275,7 +277,7 @@ $astro_phys_chem = array(
         project(
             PROJ_ASTEROIDS,
             "Asteroids@home",
-            "http://asteroidsathome.net/boinc/",
+            "https://asteroidsathome.net/boinc/",
             "Charles University in Prague",
             tra("Astrophysics"),
             tra("The aim of the project is to derive shapes and spin for a significant part of the asteroid population. As input data, we use any asteroid photometry that is available. The results are asteroid convex shape models with the direction of the spin axis and the rotation period."),
