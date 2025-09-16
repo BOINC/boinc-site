@@ -637,13 +637,12 @@ $boincandroid = array("boincandroid", "BOINC Android GUI", 5, null,
 
 $docker = array("docker", "Docker tests", 5, null,
     "<ul>
-        <li> <a href=https://github.com/BOINC/boinc/wiki/Installing-Docker>Install docker or Podman</a>.
+        <li> <a href=https://github.com/BOINC/boinc/wiki/Installing-Docker>Install Docker or Podman</a>.
         <li> Check the startup messages to verify
             that the client detects Docker or Podman.
         <li> Attach to a project with Docker jobs
-            (currently LHC@home and BOINC Central).
-            If you are issued Docker jobs,
-            check that they complete correctly.
+            (currently LHC@home Beta and BOINC Central).
+            If you are issued Docker jobs, check that they complete correctly.
     </ul>
     "
 );
@@ -715,7 +714,7 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
-    array("8.2.5", [$general, $clean, $docker], $all_platforms),
+    array("8.2.5", [$general, $clean, $preference, $docker], $all_platforms),
 );
 $old_versions = array(
     array("8.2.4", [$general, $clean, $docker], $all_platforms),

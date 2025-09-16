@@ -97,6 +97,7 @@ function build_options() {
 }
 
 function action($os_num, $version_num) {
+    global $versions;
     $mint_os = null;
     switch ($os_num) {
         case OS_MINT:
@@ -169,6 +170,7 @@ sudo yum install boinc-client-%s boinc-manager-%s',
                 $versions[$build],
                 $versions[$build]
             );
+            print_r($versions);
             break;
     }
         break;

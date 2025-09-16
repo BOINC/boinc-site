@@ -145,8 +145,10 @@ function download_link(
 //
 function client_info_to_platform($client_info) {
     if (strstr($client_info, 'Windows')) {
-        if (strstr($client_info, 'Win64')||strstr($client_info, 'WOW64')) {
+        if (strstr($client_info, 'x64')) {
             return 'winx64';
+        } else if (strstr($client_info, 'arm')) {
+            return 'win_arm';
         } else {
             return 'win';
         }
