@@ -10,34 +10,26 @@ $platforms_win = array(
     //array("winvista_x64", "Windows Vista", 1, "win"),
     //array("win7_x64", "Windows 7", 5, "win"),
     //array("win8_x64", "Windows 8/8.1", 5, "win"),
+    array("win11_x64", "Windows 11 Intel", 5, "win"),
+    array("win11_arm", "Windows 11 ARM", 5, "win"),
     array("win10_x64", "Windows 10", 5, "win"),
-    array("win11_x64", "Windows 11", 5, "win"),
 );
 
 $platforms_mac = array(
-    //array("mac1004", "Mac OS X 10.4", 1, "mac"),
-    //array("mac1005", "Mac OS X 10.5", 1, "mac"),
-    //array("mac1006", "Mac OS X 10.6", 1, "mac"),
-    //array("mac1007", "Mac OS X 10.7", 1, "mac"),
-    //array("mac1008", "Mac OS X 10.8", 1, "mac"),
-    //array("mac1009", "Mac OS X 10.9", 1, "mac"),
-    //array("mac1010", "Mac OS X 10.10", 1, "mac"),
-    //array("mac1011", "Mac OS X 10.11", 1, "mac"),
-    //array("mac1012", "Mac OS X 10.12", 1, "mac"),
-    //array("mac1013", "Mac OS X 10.13", 1, "mac"),
-    //array("mac1014", "Mac OS X 10.14", 1, "mac"),
-    array("mac1015", "Mac OS X 10.15", 1, "mac"),
+    array("mac1500", "MacOS 15 (Intel and Apple Silicon)", 3, "mac"),
+    array("mac1400", "MacOS 14 (Intel and Apple Silicon)", 3, "mac"),
+    array("mac1300", "MacOS 13 (Intel and Apple Silicon)", 3, "mac"),
+    array("mac1200", "MacOS 12 (Intel and Apple Silicon)", 3, "mac"),
     array("mac1100intel", "MacOS 11 Intel", 1, "mac"),
     array("mac1100arm64", "MacOS 11 Apple Silicon", 1, "mac"),
-    array("mac1200", "MacOS 12 (Intel and Apple Silicon)", 3, "mac"),
-    array("mac1300", "MacOS 13 (Intel and Apple Silicon)", 3, "mac"),
-    array("mac1400", "MacOS 14 (Intel and Apple Silicon)", 3, "mac"),
-    array("mac1500", "MacOS 15 (Intel and Apple Silicon)", 3, "mac"),
+    array("mac1015", "Mac OS X 10.15", 1, "mac"),
 );
 
 $platforms_linux = array(
     array("linux_desktop_x64", "Linux x64 desktop", 5, "linux"),
     array("linux_headless_x64", "Linux x64 headless", 5, "linux"),
+    array("linux_desktop_arm", "Linux ARM desktop", 5, "linux"),
+    array("linux_headless_arm", "Linux ARM headless", 5, "linux"),
 );
 
 $platforms_android = array(
@@ -715,9 +707,10 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
-    array("8.2.5", [$general, $clean, $docker], $all_platforms),
+    array("8.2.6", [$general, $clean, $docker], $all_platforms),
 );
 $old_versions = array(
+    array("8.2.5", [$general, $clean, $docker], $all_platforms),
     array("8.2.4", [$general, $clean, $docker], $all_platforms),
     array("8.2.1", [$general, $clean, $docker], $all_platforms),
     array("8.0.0", [$general, $clean], $all_platforms),

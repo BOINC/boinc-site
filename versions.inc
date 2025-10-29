@@ -23,11 +23,11 @@
 
 // -------------- Windows Intel 64-bit -------------------
 
-$w825 = [
-    "num"=>"8.2.5",
+$w826 = [
+    "num"=>"8.2.6",
     "status"=>"Development version",
-    "file"=>"boinc_8.2.5_windows_x86_64.exe",
-    "date"=>"15 July 2025",
+    "file"=>"boinc_8.2.6_windows_x86_64.exe",
+    "date"=>"29 October 2025",
     "type"=>"win_new"
 ];
 
@@ -44,18 +44,18 @@ $windowsx64 = [
     "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
     "versions"=> [
-        $w825,
+        $w826,
         $w824
     ]
 ];
 
 // -------------- Windows ARM 64-bit -------------------
 
-$wa825 = [
-    "num"=>"8.2.5",
+$wa826 = [
+    "num"=>"8.2.6",
     "status"=>"Development version",
-    "file"=>"boinc_8.2.5_windows_arm64.exe",
-    "date"=>"15 July 2025",
+    "file"=>"boinc_8.2.6_windows_arm64.exe",
+    "date"=>"29 October 2025",
     "type"=>"win_new"
 ];
 $wa824 = [
@@ -70,7 +70,7 @@ $windows_arm = [
     "description"=>"Windows 11",
     "dbname" => "windows_arm64",
     "versions"=> [
-        $wa825,
+        $wa826,
         $wa824
     ]
 ];
@@ -115,6 +115,26 @@ $windows = [
 ];
 
 // --------------- Mac Intel 64 or ARM --------------------
+
+$m82_6 = [
+    "num"=>"8.2.6",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.6_macOSX_universal.zip",
+    "date"=>"28 Oct 2025",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+];
+
+$m82_6c = [
+    "num"=>"8.2.6",
+    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
+    "file"=>"boinc_8.2.6_universal-apple-darwin.dmg",
+    "date"=>"27 OCT 2025",
+    "type"=>"bare_core",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+];
 
 $m82_5 = [
     "num"=>"8.2.5",
@@ -212,6 +232,8 @@ $mac = [
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions" => [
+        $m82_6,
+        $m82_6c,
         $m82_5,
         $m82_5c,
         //$m80_2,
@@ -229,6 +251,8 @@ $mac_arm = [
     "description" => null,
     "dbname" => "arm64-apple-darwin",
     "versions" => [
+        $m82_6,
+        $m82_6c,
         $m82_5,
         $m82_5c,
         $m80_2,
@@ -412,7 +436,7 @@ $linux_824 = [
 ];
 
 $linuxx64 = [
-    "name"=>"Linux x64",
+    "name"=>"Linux (x64 and ARM64)",
     "description"=> 'Packages are available for several distros',
     "dbname" => "x86_64-pc-linux-gnu",
     "versions"=>[
@@ -431,7 +455,7 @@ $l74ubuntu = [
 ];
 
 $linux = [
-    "name"=>"Linux x86",
+    "name"=>"Linux (x86)",
     "description"=> linux_info(),
     "dbname" => "i686-pc-linux-gnu",
     "versions"=>[
@@ -450,7 +474,7 @@ $l612 = [
 ];
 
 $linuxcompat = [
-    "name"=>"Older Linux x86 and x64",
+    "name"=>"Older Linux (x86 and x64)",
     "description"=>"For older Linux versions, both x86 and x64; command-line interface only",
     "dbname" => "i686-pc-linux-gnu",
     "versions"=>[
@@ -460,25 +484,18 @@ $linuxcompat = [
 
 // --------------- Android --------------------
 
-$a825 = [
-    "num"=>"8.2.5",
+$a826 = [
+    "num"=>"8.2.6",
     "status"=>"Development version",
-    "file"=>"boinc_8.2.5.apk",
-    "date"=>"15 July 2025",
+    "file"=>"boinc_8.2.6.apk",
+    "date"=>"29 October 2025",
     "type"=>"apk",
 ];
-$a821 = [
-    "num"=>"8.2.1",
-    "status"=>"Development version",
-    "file"=>"boinc_8.2.1.apk",
-    "date"=>"17 April 2025",
-    "type"=>"apk",
-];
-$a802 = [
-    "num"=>"8.0.2",
+$a824 = [
+    "num"=>"8.2.4",
     "status"=>"Recommended version",
-    "file"=>"boinc_8.0.2.apk",
-    "date"=>"30 May 2024",
+    "file"=>"boinc_8.2.4.apk",
+    "date"=>"10 July 2025",
     "type"=>"apk",
 ];
 
@@ -490,8 +507,8 @@ $android = [
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>[
-        $a825,
-        $a802,
+        $a826,
+        $a824,
     ]
 ];
 
