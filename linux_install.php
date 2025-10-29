@@ -5,7 +5,7 @@
 require_once('../inc/util.inc');
 require_once('../inc/clipboard.inc');
 
-$versions = ['stable'=>'8.2.4', 'alpha'=>'8.2.5', 'nightly'=>'8.3.0'];
+$versions = ['stable'=>'8.2.4', 'alpha'=>'8.2.6', 'nightly'=>'8.3.0'];
 
 define('OS_DEBIAN', 0);
 define('OS_UBUNTU', 1);
@@ -22,6 +22,7 @@ function get_oss($os_num) {
         $oss[$n++] = os('Debian', '10', 'buster', 'June 2024', '2.28');
         $oss[$n++] = os('Debian', '11', 'bullseye', 'June 2026', '2.31');
         $oss[$n++] = os('Debian', '12', 'bookworm', 'June 2028', '2.36');
+//        $oss[$n++] = os('Debian', '13', 'trixie', 'June 2030', '2.41');
         break;
     case OS_UBUNTU:
         $oss[$n++] = os('Ubuntu', '20.04', 'focal', 'April 2025', '2.31');
@@ -40,6 +41,7 @@ function get_oss($os_num) {
         $oss[$n++] = os('openSUSE', '15.4', 'suse15_4', 'December 2023', '2.31');
         $oss[$n++] = os('openSUSE', '15.5', 'suse15_5', 'December 2024', '2.37');
         $oss[$n++] = os('openSUSE', '15.6', 'suse15_6', 'December 2025', '2.37');
+//        $oss[$n++] = os('openSUSE', '16.0', 'suse16_0', 'December 2026', '2.40');
         break;
 
     // the following must match ubuntu/debian version order
@@ -51,7 +53,8 @@ function get_oss($os_num) {
     case OS_MINT_DEBIAN:
         $oss[$n++] = os('Mint Debian edition', '4', 'mintde4', 'August 2022', '2.28');
         $oss[$n++] = os('Mint Debian edition', '5', 'mintde5', 'July 2024', '2.31');
-        $oss[$n++] = os('Mint Debian edition', '6', 'mintde6', 'TBA', '2.36');
+        $oss[$n++] = os('Mint Debian edition', '6', 'mintde6', 'January 2025', '2.36');
+//        $oss[$n++] = os('Mint Debian edition', '7', 'mintde7', 'TBA', '2.41');
         break;
     }
     return $oss;
@@ -97,6 +100,7 @@ function build_options() {
 }
 
 function action($os_num, $version_num) {
+    global $versions;
     $mint_os = null;
     switch ($os_num) {
         case OS_MINT:
@@ -129,7 +133,10 @@ function action($os_num, $version_num) {
     case 'Debian':
     case 'Ubuntu':
         $x = sprintf(
-'sudo curl -fsSL https://boinc.berkeley.edu/dl/linux/%s/%s/boinc.gpg | sudo gpg --dearmor -o /etc/apt/keyrings/boinc.gpg
+'sudo apt update
+sudo apt install gnupg2 curl
+sudo mkdir -p /etc/apt/keyrings
+sudo curl -fsSL https://boinc.berkeley.edu/dl/linux/%s/%s/boinc.gpg | sudo gpg --dearmor -o /etc/apt/keyrings/boinc.gpg
 sudo echo deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/boinc.gpg] https://boinc.berkeley.edu/dl/linux/%s/%s %s main | sudo tee /etc/apt/sources.list.d/boinc.list > /dev/null
 sudo apt update
 sudo apt install boinc-client boinc-manager',
@@ -159,10 +166,11 @@ sudo yum install boinc-client boinc-manager',
         case '42':
             $x = sprintf(
 'sudo dnf install dnf-plugins-core
-sudo dnf config-manager --from-repofile=https://boinc.berkeley.edu/dl/linux/%s/%s
-sudo dnf config-manager setopt boinc.berkeley.edu_dl_linux_%s_%s.enabled=1
+sudo dnf config-manager addrepo --from-repofile=https://boinc.berkeley.edu/dl/linux/%s/%s/boinc-%s-%s.repo
+sudo dnf config-manager setopt boinc-%s-%s.enabled=1
 sudo rpm --import https://boinc.berkeley.edu/dl/linux/%s/%s/boinc.gpg
 sudo yum install boinc-client-%s boinc-manager-%s',
+                $build, $os->code,
                 $build, $os->code,
                 $build, $os->code,
                 $build, $os->code,
@@ -174,8 +182,10 @@ sudo yum install boinc-client-%s boinc-manager-%s',
         break;
     case 'openSUSE':
         $x = sprintf(
-'sudo zypper ar -f https://boinc.berkeley.edu/dl/linux/%s/%s official-boinc-repo
+'sudo rpm --import https://boinc.berkeley.edu/dl/linux/%s/%s/boinc.gpg
+sudo zypper ar -f https://boinc.berkeley.edu/dl/linux/%s/%s official-boinc-repo
 sudo zypper install boinc-client boinc-manager',
+            $build, $os->code,
             $build, $os->code
         );
         break;
