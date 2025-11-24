@@ -152,7 +152,9 @@ function show_scenarios() {
         indicating the nature of the problem
         and the simulation time when it occurred.
         <p>
-        Please post to the <a href=http://lists.ssl.berkeley.edu/mailman/listinfo/boinc_dev>boinc_dev</a> email list if
+        Please post to the
+        <a href=https://github.com/BOINC/boinc/wiki/EmailLists>boinc_dev email list</a>
+        if
         <ul>
         <li> a simulation reveals a bug or bad scheduling decision
         <li> you have problems using BCE

@@ -71,18 +71,18 @@ $sensing = array(
 //            "Help detect earthquakes",
 //            array(KW_EARTH_SCI, KW_AMERICAS, KW_US, KW_USC)
 //        ),
-        project(
-            PROJ_RADIOACTIVE,
-            "Radioactive@Home",
-            "http://radioactiveathome.org/boinc/",
-            tra("BOINC Poland Foundation"),
-            tra("Environmental research"),
-            tra("Radioactive@Home is creating a free and continuously updated map of radiation levels using sensors connected to volunteers' computers.  You must buy a sensor to participate."),
-            "radioactive.jpg",
-            "",
-            tra("Monitor radiation levels"),
-            array(KW_ENV_RESEARCH, KW_EUROPE, KW_POLAND)
-        ),
+//        project(
+//            PROJ_RADIOACTIVE,
+//            "Radioactive@Home",
+//            "http://radioactiveathome.org/boinc/",
+//            tra("BOINC Poland Foundation"),
+//            tra("Environmental research"),
+//            tra("Radioactive@Home is creating a free and continuously updated map of radiation levels using sensors connected to volunteers' computers.  You must buy a sensor to participate."),
+//            "radioactive.jpg",
+//            "",
+//            tra("Monitor radiation levels"),
+//            array(KW_ENV_RESEARCH, KW_EUROPE, KW_POLAND)
+//        ),
     ),
 );
 

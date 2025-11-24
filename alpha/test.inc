@@ -16,6 +16,7 @@ $platforms_win = array(
 );
 
 $platforms_mac = array(
+    array("mac2600", "MacOS 26 (Intel and Apple Silicon)", 3, "mac"),
     array("mac1500", "MacOS 15 (Intel and Apple Silicon)", 3, "mac"),
     array("mac1400", "MacOS 14 (Intel and Apple Silicon)", 3, "mac"),
     array("mac1300", "MacOS 13 (Intel and Apple Silicon)", 3, "mac"),
@@ -707,9 +708,10 @@ $screensaver_tests = array(
 // MAKE SURE YOU USE THE APPROPRIATE SET OF TESTS
 //
 $versions = array(
-    array("8.2.6", [$general, $clean, $docker], $all_platforms),
+    array("8.2.7", [$general, $clean, $docker], $platforms_win_mac_linux),
 );
 $old_versions = array(
+    array("8.2.6", [$general, $clean, $docker], $all_platforms),
     array("8.2.5", [$general, $clean, $docker], $all_platforms),
     array("8.2.4", [$general, $clean, $docker], $all_platforms),
     array("8.2.1", [$general, $clean, $docker], $all_platforms),

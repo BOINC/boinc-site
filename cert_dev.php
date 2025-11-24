@@ -3,12 +3,14 @@ require_once("../inc/util.inc");
 require_once("../inc/cert.inc");
 
 function get_other_projects_cpid($cpid) {
-    $url = "http://boinc.netsoft-online.com/get_user.php?cpid=".$cpid;
+    //$url = "http://boinc.netsoft-online.com/get_user.php?cpid=".$cpid;
+    $url = "https://api.free-dc.org/get_user.php?cpid=$cpid";
 
     //echo "$url\n";
     // Check the cache for that URL
     //
-    $cacheddata = get_cached_data(3600, $url);
+    //$cacheddata = get_cached_data(3600, $url);
+    $cachedata = false;
     if ($cacheddata) {
         $remote = unserialize($cacheddata);
     } else {
@@ -71,8 +73,7 @@ function show_form() {
         <a href=https://scienceunited.org/su_cert.php>here</a>.
         <hr>
         You can get a certificate, suitable for framing,
-        showing how much computing
-        you've done across all BOINC projects.
+        showing how much computing you've done across all BOINC projects.
         <p>
         You'll need your 'cross-project ID'.
         To find this:

@@ -23,19 +23,11 @@
 
 // -------------- Windows Intel 64-bit -------------------
 
-$w826 = [
-    "num"=>"8.2.6",
-    "status"=>"Development version",
-    "file"=>"boinc_8.2.6_windows_x86_64.exe",
-    "date"=>"29 October 2025",
-    "type"=>"win_new"
-];
-
-$w824 = [
-    "num"=>"8.2.4",
+$w828 = [
+    "num"=>"8.2.8",
     "status"=>"Recommended version",
-    "file"=>"boinc_8.2.4_windows_x86_64.exe",
-    "date"=>"10 July 2025",
+    "file"=>"boinc_8.2.8_windows_x86_64.exe",
+    "date"=>"24 November 2025",
     "type"=>"win_new"
 ];
 
@@ -44,34 +36,26 @@ $windowsx64 = [
     "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
     "versions"=> [
-        $w826,
-        $w824
+        $w828
     ]
 ];
 
 // -------------- Windows ARM 64-bit -------------------
 
-$wa826 = [
-    "num"=>"8.2.6",
-    "status"=>"Development version",
-    "file"=>"boinc_8.2.6_windows_arm64.exe",
-    "date"=>"29 October 2025",
-    "type"=>"win_new"
-];
-$wa824 = [
-    "num"=>"8.2.4",
+$wa828 = [
+    "num"=>"8.2.8",
     "status"=>"Recommended version",
-    "file"=>"boinc_8.2.4_windows_arm64.exe",
-    "date"=>"10 July 2025",
+    "file"=>"boinc_8.2.8_windows_arm64.exe",
+    "date"=>"13 November 2025",
     "type"=>"win_new"
 ];
+
 $windows_arm = [
     "name"=>"Windows ARM 64-bit",
     "description"=>"Windows 11",
     "dbname" => "windows_arm64",
     "versions"=> [
-        $wa826,
-        $wa824
+        $wa828
     ]
 ];
 
@@ -116,41 +100,21 @@ $windows = [
 
 // --------------- Mac Intel 64 or ARM --------------------
 
-$m82_6 = [
-    "num"=>"8.2.6",
-    "status"=>"Development version",
-    "file"=>"boinc_8.2.6_macOSX_universal.zip",
-    "date"=>"28 Oct 2025",
-    "type"=>"mac_advanced",
-    "min_os_version"=>"101300",
-    "max_os_version"=>"999999",
-];
-
-$m82_6c = [
-    "num"=>"8.2.6",
-    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_8.2.6_universal-apple-darwin.dmg",
-    "date"=>"27 OCT 2025",
-    "type"=>"bare_core",
-    "min_os_version"=>"101300",
-    "max_os_version"=>"999999",
-];
-
-$m82_5 = [
-    "num"=>"8.2.5",
+$m82_8 = [
+    "num"=>"8.2.8",
     "status"=>"Recommended version",
-    "file"=>"boinc_8.2.5_macOSX_universal.zip",
-    "date"=>"16 July 2025",
+    "file"=>"boinc_8.2.8_macOSX_universal.zip",
+    "date"=>"24 Nov 2025",
     "type"=>"mac_advanced",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
 ];
 
-$m82_5c = [
-    "num"=>"8.2.5",
+$m82_8c = [
+    "num"=>"8.2.8",
     "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_8.2.5_universal-apple-darwin.dmg",
-    "date"=>"16 July 2025",
+    "file"=>"boinc_8.2.8_universal-apple-darwin.dmg",
+    "date"=>"24 Nov 2025",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
@@ -232,10 +196,8 @@ $mac = [
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions" => [
-        $m82_6,
-        $m82_6c,
-        $m82_5,
-        $m82_5c,
+        $m82_8,
+        $m82_8c,
         //$m80_2,
         //$m80_2c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
@@ -251,10 +213,8 @@ $mac_arm = [
     "description" => null,
     "dbname" => "arm64-apple-darwin",
     "versions" => [
-        $m82_6,
-        $m82_6c,
-        $m82_5,
-        $m82_5c,
+        $m82_8,
+        $m82_8c,
         $m80_2,
         $m80_2c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
@@ -484,18 +444,11 @@ $linuxcompat = [
 
 // --------------- Android --------------------
 
-$a826 = [
-    "num"=>"8.2.6",
-    "status"=>"Development version",
-    "file"=>"boinc_8.2.6.apk",
-    "date"=>"29 October 2025",
-    "type"=>"apk",
-];
-$a824 = [
-    "num"=>"8.2.4",
+$a828 = [
+    "num"=>"8.2.8",
     "status"=>"Recommended version",
-    "file"=>"boinc_8.2.4.apk",
-    "date"=>"10 July 2025",
+    "file"=>"boinc_8.2.8.apk",
+    "date"=>"24 Nov 2025",
     "type"=>"apk",
 ];
 
@@ -507,8 +460,7 @@ $android = [
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>[
-        $a826,
-        $a824,
+        $a828
     ]
 ];
 
