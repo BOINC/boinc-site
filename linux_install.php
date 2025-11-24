@@ -5,7 +5,7 @@
 require_once('../inc/util.inc');
 require_once('../inc/clipboard.inc');
 
-$versions = ['stable'=>'8.2.4', 'alpha'=>'8.2.7', 'nightly'=>'8.3.0'];
+$versions = ['stable'=>'8.2.8', 'alpha'=>'8.2.8', 'nightly'=>'8.3.0'];
 
 define('OS_DEBIAN', 0);
 define('OS_UBUNTU', 1);
@@ -22,7 +22,7 @@ function get_oss($os_num) {
         $oss[$n++] = os('Debian', '10', 'buster', 'June 2024', '2.28');
         $oss[$n++] = os('Debian', '11', 'bullseye', 'June 2026', '2.31');
         $oss[$n++] = os('Debian', '12', 'bookworm', 'June 2028', '2.36');
-//        $oss[$n++] = os('Debian', '13', 'trixie', 'June 2030', '2.41');
+        $oss[$n++] = os('Debian', '13', 'trixie', 'June 2030', '2.41');
         break;
     case OS_UBUNTU:
         $oss[$n++] = os('Ubuntu', '20.04', 'focal', 'April 2025', '2.31');
@@ -41,7 +41,7 @@ function get_oss($os_num) {
         $oss[$n++] = os('openSUSE', '15.4', 'suse15_4', 'December 2023', '2.31');
         $oss[$n++] = os('openSUSE', '15.5', 'suse15_5', 'December 2024', '2.37');
         $oss[$n++] = os('openSUSE', '15.6', 'suse15_6', 'December 2025', '2.37');
-//        $oss[$n++] = os('openSUSE', '16.0', 'suse16_0', 'December 2026', '2.40');
+        $oss[$n++] = os('openSUSE', '16.0', 'suse16_0', 'December 2026', '2.40');
         break;
 
     // the following must match ubuntu/debian version order
@@ -54,7 +54,7 @@ function get_oss($os_num) {
         $oss[$n++] = os('Mint Debian edition', '4', 'mintde4', 'August 2022', '2.28');
         $oss[$n++] = os('Mint Debian edition', '5', 'mintde5', 'July 2024', '2.31');
         $oss[$n++] = os('Mint Debian edition', '6', 'mintde6', 'January 2025', '2.36');
-//        $oss[$n++] = os('Mint Debian edition', '7', 'mintde7', 'TBA', '2.41');
+        $oss[$n++] = os('Mint Debian edition', '7', 'mintde7', 'TBA', '2.41');
         break;
     }
     return $oss;
