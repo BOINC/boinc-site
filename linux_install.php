@@ -350,7 +350,7 @@ function form($os_num) {
 
     echo "<h2>Snap</h2>
         <p>
-        Coming soon.
+        <a href=https://snapcraft.io/boinc>Download BOINC from Snapcraft</a>.
     ";
     echo "<h2>GNU Guix</h2>
         <p>
