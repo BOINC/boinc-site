@@ -10,8 +10,8 @@ echo "
 <p>
 There are two ways to control BOINC on Linux:
 <ul>
-<li> <a href=https://boinc.berkeley.edu/wiki/The_BOINC_Manager><code>boincmgr</code></a>: a GUI; also known as the BOINC Manager
-<li> <a href=https://boinc.berkeley.edu/wiki/Boinccmd_tool><code>boinccmd</code></a>: a command-line tool
+<li> <a href=https://github.com/BOINC/boinc/wiki/BOINC_Manager><code>boincmgr</code></a>: a GUI; also known as the BOINC Manager
+<li> <a href=https://github.com/BOINC/boinc/wiki/boinccmd-tool><code>boinccmd</code></a>: a command-line tool
 </ul>
 <p>
 Each of these requires a 'key' to communicate with the BOINC client.

@@ -46,7 +46,7 @@ $wa828 = [
     "num"=>"8.2.8",
     "status"=>"Recommended version",
     "file"=>"boinc_8.2.8_windows_arm64.exe",
-    "date"=>"13 November 2025",
+    "date"=>"24 November 2025",
     "type"=>"win_new"
 ];
 
@@ -545,7 +545,7 @@ function linux_info() {
 }
 
 function boinc_buda_runner_version() {
-    return 1;
+    return 4;
 }
 
 // do not delete!

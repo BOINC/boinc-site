@@ -73,11 +73,12 @@ function show_download($client_info, $pname) {
         //download_link($client_info, 'linuxcompat');
         download_link($client_info, 'android');
         end_table();
-        echo "Linux users: <a href=https://boinc.berkeley.edu/wiki/Installing_on_Linux>see Installation options</a>.";
+        echo "Linux users: <a href=https://github.com/BOINC/boinc/wiki/Installing_on_Linux>see Installation options</a>.";
     }
     echo "<p><ul>";
     switch ($pname) {
     case 'win':
+    case 'winx64':
     case 'mac':
         echo "
             <li>
@@ -86,18 +87,17 @@ function show_download($client_info, $pname) {
             when the download is finished.
         ";
     }
-    echo "<li>\n".tra("When you first run BOINC, you will be asked to choose a project. For instructions, see the %1BOINC User Manual%2.", "<a href=https://boinc.berkeley.edu/wiki/User_manual>", "</a>");
+    echo "<li>\n".tra("When you first run BOINC, you will be asked to choose a project. For instructions, see the %1BOINC User Manual%2.", "<a href=https://github.com/BOINC/boinc/wiki/User-manual>", "</a>");
 
     echo "<li>\n".tra("You may run this software on a computer only if you own the computer or have the permission of its owner.");
     echo "
         </ul>
         <hr>
         <center>
-        <a href=\"wiki/System_requirements\"><span class=nobr>".tra("System requirements")."</span></a>
-        &middot; <a href=https://github.com/BOINC/boinc/wiki/Client-release-notes><span class=nobr>".tra("Release notes")."</span></a>
-        &middot; <a href=\"wiki/BOINC_Help\"><span class=nobr>".tra("Help")."</span></a>
+        <a href=https://github.com/BOINC/boinc/wiki/Client-release-notes><span class=nobr>".tra("Release notes")."</span></a>
+        &middot; <a href=https://github.com/BOINC/boinc/wiki/BOINC-Help><span class=nobr>".tra("Help")."</span></a>
         &middot; <a href=download_all.php><span class=nobr>".tra("All versions")."</span></a>
-        &middot; <a href=http://boinc.berkeley.edu/wiki/GPU_computing>".tra("GPU computing")."</a>
+        &middot; <a href=https://github.com/BOINC/boinc/wiki/GPU_computing>".tra("GPU computing")."</a>
         <p>
     ";
     show_pictures();

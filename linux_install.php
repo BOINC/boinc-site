@@ -196,8 +196,8 @@ sudo zypper install boinc-client boinc-manager',
     text_start(800);
     echo "<p>On headless systems, omit 'boinc-manager'.
         On such systems, the BOINC client can be
-        controlled either using <a href=https://boinc.berkeley.edu/wiki/Boinccmd_tool>boinccmd</a>,
-        or using a <a href=https://boinc.berkeley.edu/wiki/Controlling_BOINC_remotely>remote GUI</a>.
+        controlled either using <a href=https://github.com/BOINC/boinc/wiki/boinccmd-tool>boinccmd</a>,
+        or using a <a href=https://github.com/BOINC/boinc/wiki/Controlling_BOINC_remotely>remote GUI</a>.
         <p>
         Details on the installer are <a href=https://github.com/BOINC/boinc/wiki/Linux-installer>here</a>.
     ";

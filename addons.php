@@ -22,7 +22,7 @@ We do not provide instructions for installing or using these applications.
 In most cases the author has provided these instructions.
 If not, contact the author.
 Instructions for installing and running BOINC are
-<a href=https://boinc.berkeley.edu/wiki/User_manual>here</a>.
+<a href=https://github.com/BOINC/boinc/wiki/User-manual>here</a>.
 <li>
 To submit software for inclusion in this list,
 please email <a href=https://github.com/BOINC/boinc/wiki/ProjectPeople>David Anderson</a>.

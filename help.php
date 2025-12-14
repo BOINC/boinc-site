@@ -45,7 +45,7 @@ echo "
 <p>
 ".sprintf(
     tra("If you're an experienced BOINC user, we encourage you to %sbecome a Help Volunteer%s.  It's a great way to help the cause of scientific research and volunteer computing - and it's fun!"),
-    "<a href=http://boinc.berkeley.edu/wiki/Help_volunteer>",
+    "<a href=https://github.com/BOINC/boinc/wiki/help-volunteer>",
     "</a>"
 )."
 <p>

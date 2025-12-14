@@ -202,7 +202,7 @@ function project_forum_index_intro() {
         It's likely (but not guaranteed) that they'll be able
         to respond to your questions or suggestions.
         <li>
-        See <a href=http://boinc.berkeley.edu/wiki/BOINC_Help>other ways of getting help</a>.
+        See <a href=https://github.com/BOINC/boinc/wiki/BOINC-help>other ways of getting help</a>.
         </ul>
     ";
 }

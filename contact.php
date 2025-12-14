@@ -24,7 +24,7 @@ function main() {
         <p>
         For issues involving the BOINC software, please
         <a href=https://boinc.berkeley.edu/forum_index.php>visit the BOINC message boards</a> or
-        <a href=https://boinc.berkeley.edu/wiki/BOINC_Help>get online help</a>.
+        <a href=https://github.com/BOINC/boinc/wiki/help-volunteer>get online help</a>.
         <p>
         For most other issues, please
         <a href=https://github.com/BOINC/boinc/wiki/EmailLists>post to the appropriate email list</a>.
