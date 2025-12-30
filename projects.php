@@ -86,7 +86,7 @@ function ordered_display($areas, $sort) {
             tra("Area"),
             tra("Sponsor"),
             tra("Supported platforms").'<br><small>More details at
-                <a href=https://wuprop.boinc-af.org/results/ram.py>WUProp@Home</a></small>'
+                <a href=https://wuprop.statseb.fr/results/ram.py>WUProp@Home</a></small>'
         ),
         null,
         'bg-default'
