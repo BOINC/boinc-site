@@ -110,6 +110,16 @@ $m82_8 = [
     "max_os_version"=>"999999",
 ];
 
+$m82_4 = [
+    "num"=>"8.2.4",
+    "status"=>"Older version",
+    "file"=>"boinc_8.2.4_macOSX_universal.zip",
+    "date"=>"8 Jun 2025",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+];
+
 $m82_8c = [
     "num"=>"8.2.8",
     "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
@@ -198,6 +208,7 @@ $mac = [
     "versions" => [
         $m82_8,
         $m82_8c,
+        $m82_4,
         //$m80_2,
         //$m80_2c,
         $m720_2,  // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
