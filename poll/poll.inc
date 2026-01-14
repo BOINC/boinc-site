@@ -7,6 +7,7 @@ $light_blue = "#d5f0ff";
 function list_item2($x, $y) {
     global $light_blue;
     echo "
+        <tr><td colspan=9 height=4px></td></tr>
         <tr>
             <td width=50% bgcolor=$light_blue valign=top >$x</td>
             <td colspan=8>$y</td>

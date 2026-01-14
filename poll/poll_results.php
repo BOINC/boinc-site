@@ -2,8 +2,9 @@
 
 require_once('docutil.php');
 require_once('../inc/translation.inc');
+require_once('../inc/util.inc');
 
-$cachefile = "cache/poll_results_$language_in_use.html";
+$cachefile = "../cache/poll_results.html";
 
 //$cache_time = 0;
 $cache_time = 3600*24;
@@ -22,12 +23,12 @@ ob_implicit_flush(0);
 require_once('poll.inc');
 require_once('poll_data.inc');
 
-$db_conn = new mysqli("p:localhost", "boincadm", "w3Ratapat", "poll");
-
-//mysql_pconnect("localhost", "boincadm", null);
-//mysql_select_db("poll");
-
-$last_time = 0;
+$db_conn = new mysqli(
+    "p:localhost",
+    "boincadm",
+    parse_config(get_config(), '<db_passwd>'),
+    "poll"
+);
 
 function parse_xml2($resp, &$sums) {
     $x = array();
@@ -44,7 +45,6 @@ function parse_xml2($resp, &$sums) {
 }
 
 function parse_xml($resp, &$sums) {
-    global $last_time;
     $xml = $resp->xml;
     $lines = explode("\n", $xml);
     foreach ($lines as $line) {
@@ -145,9 +145,11 @@ function display_choice($sums, $choice, $ntotal) {
             $n = $sums[$name]['on'];
             if ($n > $ntotal) $ntotal = $n;
         }
-        $other_name = $choice['other_name'];
-        $n = count($sums[$other_name]);
-        if ($n > $ntotal) $ntotal = $n;
+        if (!empty($choice['other_name'])) {
+            $other_name = $choice['other_name'];
+            $n = count($sums[$other_name]);
+            if ($n > $ntotal) $ntotal = $n;
+        }
 
         foreach($choice['options'] as $name=>$text) {
             $n = $sums[$name]['on'];
@@ -155,8 +157,9 @@ function display_choice($sums, $choice, $ntotal) {
             $b = bar($n, $ntotal);
             $y .= "$b $text<br>\n";
         }
-        $other_name = $choice['other_name'];
-        $y .= other_link($sums, $other_name, "Other", $ntotal);
+        if (!empty($choice['other_name'])) {
+            $y .= other_link($sums, $other_name, "Other", $ntotal);
+        }
     }
     list_item2($x, $y);
 }
@@ -164,8 +167,8 @@ function display_choice($sums, $choice, $ntotal) {
 function display_choices($sums, $choices) {
     global $run_boinc;
     $n = 0;
-    $rname = $choices[0]['rname'];
-    if ($rname) {
+    if (!empty($choices[0]['rname'])) {
+        $rname = $choices[0]['rname'];
         foreach($choices as $choice) {
             $rname = $choice['rname'];
             $n += $sums[$run_boinc][$rname];
@@ -177,7 +180,6 @@ function display_choices($sums, $choices) {
 }
 
 function display_countries($sums) {
-    $y = "";
     $ntotal = 0;
     foreach ($sums['country'] as $country=>$n) {
         if ($n < 20) continue;
@@ -187,7 +189,7 @@ function display_countries($sums) {
         if ($n < 20) continue;
         $c = urldecode($country);
         $b = bar($n, $ntotal);
-        $y .= "$b $c<br>";
+        $y .= "$b $c<br>\n";
     }
     list_item2("Nationality", $y);
 }

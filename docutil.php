@@ -143,7 +143,7 @@ function html_text($x) {
 }
 
 function list_start($attrs = 'width="100%"') {
-    echo "<p><table $attrs border=0 cellpadding=6>\n";
+    echo sprintf('<p><table %s">', $attrs);
 }
 
 function list_heading($x, $y, $z=null) {
@@ -196,7 +196,7 @@ function list_bar($x, $note="") {
         $note = "<br><span class=note>$note</span>";
     }
     echo "
-        <tr><td colspan=8 class=heading><center><b>$x</b>$note</center></td></tr>
+        <tr><td colspan=8><font size=+2><b>$x</b>$note</font></td></tr>
     ";
 }
 
