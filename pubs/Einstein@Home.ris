@@ -5260,6 +5260,7 @@ DA  - 2016///
 PY  - 2016
 DO  - 10.48550/ARXIV.1608.07589
 DP  - DOI.org (Datacite)
+PB  - arXiv
 UR  - https://arxiv.org/abs/1608.07589
 Y2  - 2022/11/13/20:36:52
 KW  - FOS: Physical sciences
@@ -5278,6 +5279,7 @@ DA  - 2017///
 PY  - 2017
 DO  - 10.48550/ARXIV.1707.05268
 DP  - DOI.org (Datacite)
+PB  - arXiv
 UR  - https://arxiv.org/abs/1707.05268
 Y2  - 2022/11/13/20:36:53
 KW  - FOS: Physical sciences
@@ -5314,6 +5316,7 @@ DA  - 2020///
 PY  - 2020
 DO  - 10.48550/ARXIV.2007.14849
 DP  - DOI.org (Datacite)
+PB  - arXiv
 UR  - https://arxiv.org/abs/2007.14849
 Y2  - 2022/11/13/20:36:53
 KW  - FOS: Physical sciences
@@ -5333,6 +5336,7 @@ DA  - 2023///
 PY  - 2023
 DO  - 10.48550/ARXIV.2303.04109
 DP  - DOI.org (Datacite)
+PB  - arXiv
 UR  - https://arxiv.org/abs/2303.04109
 Y2  - 2023/04/21/00:56:12
 KW  - FOS: Physical sciences
@@ -5543,6 +5547,7 @@ DO  - 10.3847/1538-4357/acee67
 VL  - 958
 IS  - 2
 SP  - 191
+PB  - The American Astronomical Society
 SN  - 0004-637X
 UR  - https://dx.doi.org/10.3847/1538-4357/acee67
 ER  - 
@@ -5568,9 +5573,161 @@ IS  - 2
 SP  - 154
 J2  - ApJ
 LA  - en
+PB  - The American Astronomical Society
 SN  - 0004-637X
 UR  - https://dx.doi.org/10.3847/1538-4357/ad8b9e
 Y2  - 2024/12/12/00:10:11
 L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ad8b9e/pdf
+ER  - 
+
+TY  - JOUR
+TI  - Einstein@Home Searches for Gamma-Ray Pulsars in the Inner Galaxy
+AU  - Clark, C. J.
+AU  - Di Mauro, M.
+AU  - Wu, J.
+AU  - Allen, B.
+AU  - Behnke, O.
+AU  - Eggenstein, H. B.
+AU  - Machenschalk, B.
+AU  - Nieder, L.
+AU  - Saz Parkinson, P. M.
+AU  - Ashok, A.
+AU  - Bruel, P.
+AU  - McGloughlin, B.
+AU  - Papa, M. A.
+AU  - Camilo, F.
+AU  - Kerr, M.
+AU  - Padmanabh, P. Voraganti
+AU  - Ransom, S. M.
+T2  - The Astrophysical Journal
+AB  - Abstract
+            
+              The Fermi Large Area Telescope (LAT) has revealed a mysterious extended excess of GeV gamma-ray emission around the Galactic Center (GC), which can potentially be explained by unresolved emission from a population of pulsars, particularly millisecond pulsars (MSPs), in the Galactic bulge. We used the distributed volunteer computing system Einstein@Home to search the Fermi-LAT data for gamma-ray pulsations from sources in the inner Galaxy, to try to identify the brightest members of this putative population. We discovered four new pulsars, including one new MSP and one young pulsar whose angular separation to the GC of 0
+              
+                
+                  
+                
+                
+                  
+                    
+                      .
+                    
+                    
+                      °
+                    
+                  
+                
+              
+              93 is the smallest of any known gamma-ray pulsar. We demonstrate a phase-resolved difference imaging technique that allows the flux from this pulsar to be disentangled from the diffuse GC emission. No radio pulsations were detected from the four new pulsars in archival radio observations or during the MPIfR-MeerKAT Galactic Plane Survey. While the distances to these pulsars remain uncertain, we find that it is more likely that they are all foreground sources from the Galactic disk, rather than pulsars originating from the predicted bulge population. Nevertheless, our results are not incompatible with an MSP explanation for the GC excess, as only one or two members of this population would have been detectable in our searches.
+DA  - 2025/12/01/
+PY  - 2025
+DO  - 10.3847/1538-4357/ae0b5c
+DP  - DOI.org (Crossref)
+VL  - 994
+IS  - 2
+SP  - 149
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ae0b5c
+Y2  - 2026/01/17/12:12:01
+ER  - 
+
+TY  - GEN
+TI  - Observational constraints on the spin/anisotropy of the CCOs of Cassiopeia A, Vela Jr. and G347.3-0.5 and a single surviving continuous gravitational wave candidate
+AU  - Ming, Jing
+AU  - Papa, Maria Alessandra
+AU  - Eggenstein, Heinz-Bernd
+AU  - Machenschalk, Bernd
+AU  - Martins, J.
+AU  - Steltner, B.
+AU  - McGloughlin, B.
+AU  - Dergachev, V.
+AU  - Prix, R.
+AU  - Bensch, M.
+AB  - We carry out the deepest and broadest search for continuous gravitational-wave signals with frequencies between 20-1500 Hz, from three neutron stars at the center of the supernova remnants Cassiopeia A, Vela Jr., and G347.3-0.5. This search was made possible by the computing power shared by thousands of Einstein@Home volunteers. After the initial Einstein@Home search, we perform a multi-stage follow-up of the most promising $\approx$ 45 million signal candidates. In the last stages, we use independent data to further investigate the remaining candidates from the previous stages. We set the most stringent constraints to date on the gravitational-wave amplitude, equatorial ellipticity, r-mode saturation amplitude, and -- for the first time -- the neutron-star crustal anisotropy. For spin periods lower than 2 ms we constrain the ellipticity to be smaller than $4\times 10^{-7}$ for all targets. We exclude the crustal anisotropy to be smaller than $5\times 10^{-3}$ for spin periods between 1.3-100 ms. Only one candidate -- from the low frequency G347.3 search -- survives all follow-ups. We illustrate properties of this candidate. Investigations on new data will aid in clarifying its nature. Such ``new" data exists and would be optimal for this purpose, but they are not publicly accessible at the time of writing.
+DA  - 2025/12/22/
+PY  - 2025
+DO  - 10.48550/arXiv.2512.15672
+DP  - arXiv.org
+PB  - arXiv
+UR  - http://arxiv.org/abs/2512.15672
+Y2  - 2026/01/17/12:15:55
+L1  - http://arxiv.org/pdf/2512.15672v2
+L2  - https://arxiv.org/abs/2512.15672
+KW  - General Relativity and Quantum Cosmology
+KW  - High Energy Physics - Phenomenology
+ER  - 
+
+TY  - GEN
+TI  - High-frequency continuous gravitational waves searched in LIGO O3 public data with Einstein@Home
+AU  - McGloughlin, Brian
+AU  - Steltner, Benjamin
+AU  - Martins, Jasper
+AU  - Papa, Maria Alessandra
+AU  - Eggenstein, Heinz-Bernd
+AU  - Ming, Jing
+AU  - Machenschalk, Bernd
+AU  - Prix, Reinhard
+AU  - Bensch, Maximillian
+AB  - We search for nearly-monochromatic gravitational wave signals with frequencies $800.0~\textrm{Hz} \leq f \leq 1686.0~\textrm{Hz}$ and spin-down $-2.7\times10^{-9}~\textrm{Hz}\,\textrm{s}^{-1} \leq \dot f \leq 0.2\times 10^{-9}~\textrm{Hz}\,\textrm{s}^{-1}$. We use LIGO O3 public data from the Hanford and Livingston detectors and deploy this search on the Einstein@Home volunteer-computing project. This is the most sensitive search carried out to date in this parameter space. Our results are consistent with a non-detection. We set upper limits on the gravitational wave amplitude $h_{0}$ and translate these to upper limits on neutron star ellipticity and on r-mode amplitude. The most stringent upper limits are at $800~\textrm{Hz}$ with $h_{0} = 1.32\times10^{-25}$, at the $90\%$ confidence level. Searching in the high frequency bands allows us to probe astrophysically interesting ellipticities with our results excluding isolated neutron stars rotating faster than $2.5~\textrm{ms}$ with ellipticities $ε\geq 1.96 \times 10^{-8}\left[\frac{d}{100~\textrm{pc}}\right]$ within a distance $d$ from Earth. Our results also exclude r-mode amplitudes $α\geq 7 \times 10^{-7}\left[\frac{d}{100~\textrm{pc}}\right]$ for neutron stars stars spinning faster than 400 Hz.
+DA  - 2025/08/29/
+PY  - 2025
+DO  - 10.48550/arXiv.2508.20073
+DP  - arXiv.org
+PB  - arXiv
+UR  - http://arxiv.org/abs/2508.20073
+Y2  - 2026/01/17/12:18:30
+L1  - http://arxiv.org/pdf/2508.20073v2
+L2  - https://arxiv.org/abs/2508.20073
+KW  - General Relativity and Quantum Cosmology
+ER  - 
+
+TY  - GEN
+TI  - Einstein@Home all-sky "bucket" search for continuous gravitational waves in LIGO O3 public data
+AU  - McGloughlin, Brian
+AU  - Martins, Jasper
+AU  - Steltner, Benjamin
+AU  - Papa, Maria Alessandra
+AU  - Eggenstein, Heinz-Bernd
+AU  - Machenschalk, Bernd
+AU  - Prix, Reinhard
+AU  - Bensch, Maximillian
+AB  - We conduct an all-sky search for continuous gravitational waves using LIGO O3 public data from the Hanford and Livingston detectors. We search for nearly-monochromatic signals with frequencies $30\, \text{Hz} \leq f \leq 250\, \text{Hz}$ and spin-down $-2.7 \times 10^{-9}\, \text{Hz/s} \leq \dot{f} \leq 0.2 \times 10^{-9}\, \text{Hz/s}$. We deploy this search on the Einstein@Home volunteer-computing project and on three super computer clusters; the Atlas supercomputer at the Max Planck Institute for Gravitational Physics, and the two high performance computing systems Raven and Viper at the Max Planck Computing and Data Facility. Our results are consistent with a non-detection. We set upper limits on the gravitational wave amplitude $h_{0}$, and translate these to upper limits on the neutron star ellipticity and on the r-mode amplitude. The most stringent upper limits are at 173 Hz with $h_{0} = 6.5\times 10^{-26}$, at the 90% confidence level.
+DA  - 2025/08/29/
+PY  - 2025
+DO  - 10.48550/arXiv.2508.16423
+DP  - arXiv.org
+PB  - arXiv
+UR  - http://arxiv.org/abs/2508.16423
+Y2  - 2026/01/17/12:20:24
+L1  - http://arxiv.org/pdf/2508.16423v2
+L2  - https://arxiv.org/abs/2508.16423
+KW  - General Relativity and Quantum Cosmology
+ER  - 
+
+TY  - JOUR
+TI  - Results from an Einstein@Home search for continuous gravitational waves from Cassiopeia A and Vela Jr. using LIGO O2 data
+AU  - Morales, Jorge
+AU  - Ming, Jing
+AU  - Papa, Maria Alessandra
+AU  - Eggenstein, Heinz-Bernd
+AU  - Machenschalk, Bernd
+T2  - The Astrophysical Journal
+AB  - We conduct two searches for continuous, nearly monochromatic gravitational waves originating from the central compact objects in the supernova remnants Cassiopeia A and Vela Jr. using public LIGO data. The search for Cassiopeia A targets signal frequencies between 20 Hz and 400 Hz; the Vela Jr. search between 400 Hz and 1700 Hz, and both investigate the broadest set of waveforms ever considered with highly sensitive deterministic search methods. Above 1500 Hz the Vela Jr. search is the most sensitive carried out thus far, improving on previous results by over 300\%. Above 976 Hz these results improve on existing ones by 50\%. In all we investigate over $10^{18}$ waveforms, leveraging the computational power donated by thousands of Einstein@Home volunteers. We perform a 4-stage follow-up on more than 6 million waveforms. None of the considered waveforms survives the follow-up scrutiny, indicating no significate detection candidate. Our null results constrain the maximum amplitude of continuous signals as a function of signal frequency from the targets. The most stringent 90\% confidence upper limit for Cas A is $h_0^{90 \%}\approx 7.3\times10^{-26}$ near 200 Hz, and for Vela Jr. it is $h_0^{90 \%}\approx 8.9\times10^{-26}$ near 400 Hz. Translated into upper limits on the ellipticity and r-mode amplitude, our results probe physically interesting regions: for example the ellipticity of Vela Jr. is constrained to be smaller than $10^{-7}$ across the frequency band, with a tighter constraint of less than $2\times10^{-8}$ at the highest frequencies.
+DA  - 2025/06/20/
+PY  - 2025
+DO  - 10.3847/1538-4357/add5f5
+DP  - arXiv.org
+VL  - 986
+IS  - 2
+SP  - 202
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - http://arxiv.org/abs/2503.09731
+Y2  - 2026/01/17/12:21:02
+L1  - http://arxiv.org/pdf/2503.09731v2
+L2  - https://arxiv.org/abs/2503.09731
+KW  - General Relativity and Quantum Cosmology
+KW  - High Energy Physics - Phenomenology
 ER  - 
 
