@@ -279,14 +279,19 @@ if ($xml) {
     } else {
         page_head("Download BOINC client software");
         echo "
-            <p>
-            <font color=red>NOTE</font>: versions before 7.18 may require
+            <ul>
+            <li>
+            Some projects require Podman.
+            We recommend <a href=https://github.com/BOINC/boinc/wiki/Installing-Podman>installing it first</a>.
+            <li>
+            Versions before 7.18 may require
             <a href=ca_bundle.php>updating the CA bundle file</a>
             in order to communicate with some projects.
+            </ul>
             <p>
             You can also
             <a href=https://github.com/BOINC/boinc/wiki/Download-executables>
-            download executables from GitHub</a>.
+            download BOINC client executables from GitHub</a>.
         ";
         start_table("table-striped");
         foreach($platforms as $short_name=>$p) {
