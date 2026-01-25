@@ -69,7 +69,7 @@ function project_banner($title, $prefix, $is_main) {
             <img src="logo/boinc_logo.png" height=80 alt="BOINC">
             </div>
             <div class="col-sm-6" align=center>
-            <span style="padding-left:0px; padding-right:30px; font-size:42px;">
+            <span style="padding-left:0px; padding-right:30px; color:white; font-size:44px;">
             '.$title.'
             </span>
             </div>

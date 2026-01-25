@@ -306,11 +306,12 @@ function show_simulation_summary($scen, $sim) {
     $dir = "scenarios/$scen/simulations/$sim";
     $userid = (int)file_get_contents("$dir/userid");
     $user = BoincUser::lookup_id($userid);
+    $name = $user?$user->name:'unknown';
     $date = date_str(filemtime($dir));
 
     echo "<tr>
         <td><a href=sim_web.php?action=show_simulation&scen=$scen&sim=$sim>$sim</a></td>
-        <td>$user->name</td>
+        <td>$name</td>
         <td>$date</td>
         <td><pre>".file_get_contents("$dir/inputs.txt")."
         <td><pre>".file_get_contents("$dir/results.txt")."
@@ -334,9 +335,10 @@ function show_scenario() {
     $desc = file_get_contents("scenarios/$name/description");
     $userid = (int)file_get_contents("scenarios/$name/userid");
     $user = BoincUser::lookup_id($userid);
+    $name = $user?$user->name:'unknown';
     $date = date_str(filemtime("scenarios/$name"));
     start_table();
-    row2("Creator", $user->name);
+    row2("Creator", $name);
     row2("When", $date);
     row2("Description", $desc);
     $x = "<a href=$d/client_state.xml>client_state.xml</a>";
@@ -508,10 +510,12 @@ function show_simulation() {
     start_table();
     $userid = (int)file_get_contents("$dir/userid");
     $user = BoincUser::lookup_id($userid);
+    $name = $user?$user->name:'unknown';
+
     $date = date_str(filemtime($dir));
 
     row2("Scenario", "<a href=sim_web.php?action=show_scenario&name=$scen>$scen</a>");
-    row2("Who", $user->name);
+    row2("Who", $name);
     row2("When", $date);
     row2("Parameters", "<pre>".file_get_contents("$dir/inputs.txt")."</pre>");
     row2("Results", "<pre>".file_get_contents("$dir/results.txt")."</pre>");

@@ -303,7 +303,8 @@ function right() {
     show_news_items();
 }
 
-page_head(tra("Compute for Science"), null, true, '',
+page_head(tra("Compute for Science"), 'style="background-image:url(\'images/52952930671_8f6414b735_k.jpg\')"', true, '',
+//page_head(tra("Compute for Science"), 'style="background-image:url(\'images/52969542198_96938bfbfe_k.jpg\')"', true, '',
 '
     <link rel="shortcut icon" href="logo/favicon.gif">
     <link href="https://plus.google.com/117150698502685192946" rel="publisher" />
