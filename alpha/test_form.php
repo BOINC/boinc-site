@@ -1,10 +1,5 @@
 <?php
 
-//error_reporting(E_ALL);
-//ini_set('display_errors', true);
-//ini_set('display_startup_errors', true);
-
-require_once("../inc/db.inc");
 require_once("../inc/util.inc");
 
 $server = 0;
@@ -13,8 +8,6 @@ if (get_int("server", true)) {
 }
 
 require_once("test_util.inc");
-
-db_init();
 
 $user = get_logged_in_user();
 $version = get_str("version", true);
@@ -44,21 +37,28 @@ echo "
             <br><font size=-2>e.g. Samsung Galaxy S4</font>
         ";
     }
-echo "
+echo sprintf('
     <p>
-    <input type=submit value='Continue'>
+    <input type=submit class="btn" %s value="Continue">
     </form>
-    <hr>
-    <p>To report results for a different version, select
-    a version and click 'Change version'.
-    <form action=test_form.php>
-";
+    ',
+    button_style()
+);
+if (count($versions) > 1) {
+    echo "
+        <hr>
+        <p>
+        To report results for a different version, select
+        a version and click 'Change version'.
+        <form action=test_form.php>
+    ";
     show_version_select();
-echo "
-    <p>
-    <input type=submit value='Change version'>
-    </form>
-";
+    echo "
+        <p>
+        <input type=submit value='Change version'>
+        </form>
+    ";
+}
 
 page_tail();
 ?>

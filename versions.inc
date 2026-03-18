@@ -23,6 +23,14 @@
 
 // -------------- Windows Intel 64-bit -------------------
 
+$w829 = [
+    "num"=>"8.2.9",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.9_windows_x86_64.exe",
+    "date"=>"18 March 2026",
+    "type"=>"win_new"
+];
+
 $w828 = [
     "num"=>"8.2.8",
     "status"=>"Recommended version",
@@ -36,11 +44,20 @@ $windowsx64 = [
     "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
     "versions"=> [
+        $w829,
         $w828
     ]
 ];
 
 // -------------- Windows ARM 64-bit -------------------
+
+$wa829 = [
+    "num"=>"8.2.9",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.9_windows_arm64.exe",
+    "date"=>"18 March 2026",
+    "type"=>"win_new"
+];
 
 $wa828 = [
     "num"=>"8.2.8",
@@ -55,6 +72,7 @@ $windows_arm = [
     "description"=>"Windows 11",
     "dbname" => "windows_arm64",
     "versions"=> [
+        $wa829,
         $wa828
     ]
 ];
@@ -99,6 +117,26 @@ $windows = [
 ];
 
 // --------------- Mac Intel 64 or ARM --------------------
+
+$m82_9 = [
+    "num"=>"8.2.9",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.9_macOSX_universal.zip",
+    "date"=>"17 Mar 2026",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+];
+
+$m82_9c = [
+    "num"=>"8.2.9",
+    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
+    "file"=>"boinc_8.2.9_universal-apple-darwin.dmg",
+    "date"=>"17 Mar 2026",
+    "type"=>"bare_core",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+];
 
 $m82_8 = [
     "num"=>"8.2.8",
@@ -206,6 +244,8 @@ $mac = [
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions" => [
+        $m82_9,
+        $m82_9c,
         $m82_8,
         $m82_8c,
         $m82_4,
@@ -224,6 +264,8 @@ $mac_arm = [
     "description" => null,
     "dbname" => "arm64-apple-darwin",
     "versions" => [
+        $m82_9,
+        $m82_9c,
         $m82_8,
         $m82_8c,
         $m80_2,
@@ -455,6 +497,14 @@ $linuxcompat = [
 
 // --------------- Android --------------------
 
+$a829 = [
+    "num"=>"8.2.9",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.9.apk",
+    "date"=>"18 March 2026",
+    "type"=>"apk",
+];
+
 $a828 = [
     "num"=>"8.2.8",
     "status"=>"Recommended version",
@@ -471,6 +521,7 @@ $android = [
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>[
+        $a829,
         $a828
     ]
 ];

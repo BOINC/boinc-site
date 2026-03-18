@@ -328,7 +328,7 @@ function show_version_select() {
     echo "<select name=version>\n";
     foreach ($versions as $v) {
         $p = $v[0];
-        echo "<option value=$p>$p\n";
+        echo "<option value=$p>$p</option>\n";
     }
     echo "</select>\n";
 }

@@ -137,7 +137,7 @@ function show_links() {
         '.tra("Help").'
         </font>
         <br><a href="https://github.com/BOINC/boinc/wiki/TranslateIntro">'.tra("Translate").'</a>
-        <br><a href="https://github.com/BOINC/boinc/wiki/AlphaInstructions">'.tra("Test").'</a>
+        <br><a href="https://github.com/BOINC/boinc/wiki/Alpha-testing">'.tra("Test").'</a>
         <br><a href="https://github.com/BOINC/boinc/wiki/BoincPr">'.tra("Publicize").'</a>
         </div>
         </div>

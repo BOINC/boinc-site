@@ -47,7 +47,7 @@ row2("Platforms", platform_list($cv));
 row2("Testing is", "$pd% complete");
 end_table();
 echo "
-    <h3> <a href=https://github.com/BOINC/boinc/wiki/AlphaInstructions>Instructions</a></h3>
+    <h3> <a href=https://github.com/BOINC/boinc/wiki/Alpha-testing>Instructions</a></h3>
     <dd> How to be an alpha tester</dd>
     <h3> <a href=test_matrix.php>Test cases</a></h3>
     <dd> The set of test procedures</dd>
