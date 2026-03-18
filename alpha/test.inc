@@ -630,9 +630,9 @@ $boincandroid = array("boincandroid", "BOINC Android GUI", 5, null,
 
 $docker = array("docker", "Docker tests", 5, null,
     "<ul>
-        <li> <a href=https://github.com/BOINC/boinc/wiki/Installing-Docker>Install docker or Podman</a>.
+        <li> Install Podman (see Users Manual).
         <li> Check the startup messages to verify
-            that the client detects Docker or Podman.
+            that the client detects Podman.
         <li> Attach to a project with Docker jobs
             (currently LHC@home and BOINC Central).
             If you are issued Docker jobs,
