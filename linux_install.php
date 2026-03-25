@@ -5,7 +5,7 @@
 require_once('../inc/util.inc');
 require_once('../inc/clipboard.inc');
 
-$versions = ['stable'=>'8.2.8', 'alpha'=>'8.2.9', 'nightly'=>'8.3.0'];
+$versions = ['stable'=>'8.2.9', 'alpha'=>'8.2.9', 'nightly'=>'8.3.0'];
 
 define('OS_DEBIAN', 0);
 define('OS_UBUNTU', 1);
@@ -36,6 +36,7 @@ function get_oss($os_num) {
         $oss[$n++] = os('Fedora', '40', 'fc40', 'May 2025', '2.39');
         $oss[$n++] = os('Fedora', '41', 'fc41', 'November 2025', '2.40');
         $oss[$n++] = os('Fedora', '42', 'fc42', 'May 2026', '2.41');
+        $oss[$n++] = os('Fedora', '43', 'fc43', 'December 2026', '2.42');
         break;
     case OS_OPENSUSE:
         $oss[$n++] = os('openSUSE', '15.4', 'suse15_4', 'December 2023', '2.31');
@@ -164,6 +165,7 @@ sudo yum install boinc-client boinc-manager',
             break;
         case '41':
         case '42':
+        case '43':
             $x = sprintf(
 'sudo dnf install dnf-plugins-core
 sudo dnf config-manager addrepo --from-repofile=https://boinc.berkeley.edu/dl/linux/%s/%s/boinc-%s-%s.repo
