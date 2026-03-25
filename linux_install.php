@@ -193,7 +193,7 @@ sudo zypper install boinc-client boinc-manager',
         break;
     }
     echo "<pre>$x</pre>\n";
-    echo copy_button($x, 'Copy instructions to clipboard', 'id1');
+    echo copy_button($x, 'Copy above instructions to clipboard', 'id1');
 
     text_start(800);
     echo "<p>On headless systems, omit 'boinc-manager'.
@@ -249,7 +249,7 @@ sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 boinc';
     }
     if ($x) {
         echo "<pre>$x</pre>\n";
-        echo copy_button($x, 'Copy instructions to clipboard', 'id2');
+        echo copy_button($x, 'Copy above instructions to clipboard', 'id2');
     }
 
     // attach instructions
@@ -292,7 +292,7 @@ sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 boinc';
     }
     if ($x) {
         echo "<pre>$x</pre>\n";
-        echo copy_button($x, 'Copy instructions to clipboard', 'id3');
+        echo copy_button($x, 'Copy above instructions to clipboard', 'id3');
     }
     text_end();
     page_tail();
