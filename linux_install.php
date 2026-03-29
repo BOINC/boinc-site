@@ -196,6 +196,11 @@ sudo zypper install boinc-client boinc-manager',
     echo copy_button($x, 'Copy above instructions to clipboard', 'id1');
 
     text_start(800);
+    echo "<p>If you have permissions issues when running BOINC Manager,
+    they are often caused by your user not yet being in the BOINC group or that
+    group membership not having taken effect. Try logging out and back in
+    (or restarting your computer) after installation or after adding your user
+    to the BOINC group.";
     echo "<p>On headless systems, omit 'boinc-manager'.
         On such systems, the BOINC client can be
         controlled either using <a href=https://github.com/BOINC/boinc/wiki/boinccmd-tool>boinccmd</a>,
@@ -319,6 +324,11 @@ function form($os_num) {
         If not, we recommend using the
         standard package manager of your Linux distro
         (apt, yum, or zypper).
+    ";
+    echo "
+        <p>
+        If your Linux distro isn't listed above, read the instructions on our
+        <a href=https://github.com/BOINC/boinc/wiki/Installing_on_Linux>wiki page</a>.
     ";
     echo "<h2>Standard package</h2>
         <p>
