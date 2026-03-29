@@ -408,7 +408,7 @@ $linux_829 = [
 
 $linuxx64 = [
     "name"=>"Linux (x64 and ARM64)",
-    "description"=> 'Packages are available for several distros',
+    "description"=> 'Packages are available for several distros.<br>Includes Raspberry Pi.',
     "dbname" => "x86_64-pc-linux-gnu",
     "versions"=>[
         $linux_829,

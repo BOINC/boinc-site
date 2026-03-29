@@ -316,9 +316,12 @@ function form($os_num) {
         <p>
         If you're already using a package manager like Flatpak,
         you can use it to install BOINC.
-        If not, we recommend using the
+        Otherwise we recommend using the
         standard package manager of your Linux distro
         (apt, yum, or zypper).
+        <p>
+        Raspberry Pi computers typically run a Linux distro
+        based on Debian; as of Mar 2026 it's based on Debian 13.
     ";
     echo "<h2>Standard package</h2>
         <p>
@@ -326,7 +329,10 @@ function form($os_num) {
     ";
     form_start('linux_install.php');
     form_input_hidden('action', 'submit');
-    form_select('Operating system', 'os_num', os_options(), $os_num);
+    form_select(
+        'Operating system<br><small>To find your OS and version:<br><code>cat /etc/os-release</code></small>',
+        'os_num', os_options(), $os_num
+    );
     echo "
         <script>
             document.getElementById('os_num').onchange = function() {
