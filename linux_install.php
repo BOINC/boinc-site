@@ -323,7 +323,7 @@ function form($os_num) {
     ";
     echo "
         <p>
-        If you're using a different Linux distro, read instructions on our
+        If your Linux distro isn't listed above, read the instructions on our
         <a href=https://github.com/BOINC/boinc/wiki/Installing_on_Linux>wiki page</a>.
     ";
     echo "<h2>Standard package</h2>
