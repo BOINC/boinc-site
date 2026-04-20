@@ -1,7 +1,6 @@
 <?php
 
-$example = 
-array(
+$example = [
     'filename or URL',
     'name',
     'version',
@@ -10,10 +9,23 @@ array(
     'platform',
     'long description',
     'unix date'
-);
+];
 
-$mobile = array(
-array(
+$desktop = [
+[
+    'https://github.com/AufarZakiev/Fresco/wiki',
+    'Fresco',
+    '',
+    'A modern and full-featured BOINC GUI',
+    'https://github.com/AufarZakiev/Fresco/wiki',
+    'Windows, MacOS, Linux',
+    "Fresco is a full-featured BOINC GUI. It's a more modern (and better looking) alternative to the BOINC Manager.",
+    1775936610
+],
+];
+
+$mobile = [
+[
     'http://code.google.com/p/androboinc/',
     'AndroBOINC',
     'beta',
@@ -22,8 +34,8 @@ array(
     'Android',
     'AndroBOINC lets you monitor and control a BOINC client from an Android device.',
     1347081659
-),
-array(
+],
+[
     'http://www.efmer.eu/boinc/boinc_tasks/mobile.html',
     'BoincTasks Mobile',
     '',
@@ -32,8 +44,8 @@ array(
     'Android, iOS',
     'BoincTasks Mobile lets you monitor and control BOINC clients from a mobile device.  Requires BoincTasks to be running on a desktop computer.',
     1347081659
-),
-);
+],
+];
 
 $win = array(
 array(
@@ -45,18 +57,6 @@ array(
     'Windows',
     'BOINC Client Configuration provides a graphical user interface (GUI) for editing the BOINC client configuration file (cc_config.xml)',
     1382122439
-),
-array(
-    'http://www.setispirit.de/',
-    'SETISpirit',
-    '1.0.4',
-    'SETIspirit is free add-on tool for SETI@home users which provides information about the tasks, the SETI@home project status, workunits and credits, statistic charts and a detailed sky map.',
-    'http://www.setispirit.de/',
-    'Windows',
-    'SETIspirit presents a complete overview about the BOINC workunits, e. g. the number of workunits available/completed as well as the overall workunit status (downloading, ready to run, running, wu progress, uploading, ready to report). SETIspirit shows the user and host credits and the most recent project server states (download and upload server, scheduler service). The statistic module shows the calculated workunits in week-, month- or year charts.
-
-    The SETIspirit sky map shows the position where the workunit is recorded and much more details (report deadline, recorded on/at, wu type, slot, CPU time, time left) as well as the current results of the workunit analysis (spikes, gaussians, pulses and triplets found). The sky map shows all known 88 constellations with constellation shapes and deep sky photographs. The database offers some interesting facts about the constellations.',
-    1371112500
 ),
 array(
     'https://windows10gadgets.pro/toolsandutils/boincmonitor/boincmonitor.html',
@@ -184,33 +184,6 @@ array('setup.exe',
     'Java JRE 1.4',
     'After the installation of the program, it will ask you after the CPDN WU XML.',
     1092395090
-),
-array('SETI_at_BOINCWatch_1.10.15.exe',
-    'SETI@BOINCWatch',
-    '1.10.15',
-    'A SETI@Home/BOINC client watcher! User statistics powered by BOINCStats',
-    'http://www.setiboincwatch.org/',
-    '',
-    'Logging finished results which you can review in details later, builtin; star map which shows the position of the current WU and all the logged results; user, team and country statistics powered by BOINCStats and many more features included...',
-    1115657242
-),
-array('SETIatBOINCWatch(.NET2.0).exe',
-    'SETI@BOINCWatch(.NET 2.0)',
-    '3.0.24 BETA',
-    'A SETI@Home/BOINC client watcher! User statistics powered by BOINCStats. But now built with the .NET environment.',
-    'http://www.setiboincwatch.org/',
-    '2000/XP family/2003 Server family',
-    'Logging finished results which you can review in details later, builtin; star map which shows the position of the current WU and all the logged results; user, team and country statistics powered by BOINCStats and many more features included...',
-    1145198333
-),
-array('SETIatBOINCWatch(.NET).exe',
-    'SETI@BOINCWatch(.NET)',
-    '2.0.24 BETA',
-    'A SETI@Home/BOINC client watcher! User statistics powered by BOINCStats. But now built with the .NET environment.',
-    'http://www.setiboincwatch.org/',
-    '2000/XP family/2003 Server family',
-    'Logging finished results which you can review in details later, builtin; star map which shows the position of the current WU and all the logged results; user, team and country statistics powered by BOINCStats and many more features included...',
-    1145198264
 ),
 array('SetiMapView_Setup_v6.54.exe',
     'SETI@home-MapView',
@@ -594,17 +567,6 @@ array('http://widgets.yahoo.com/gallery/view.php?widget=41595',
     (requires the <a href=http://widgets.yahoo.com/>Yahoo! widget engine</a>)',
     1175144122
 ),
-array('sahuserstats.xpi',
-    'SAH User Statistics',
-    '',
-    'An extension for Firefox (works only with 1.0 to 1.5;
-    may work under Mozilla)
-    that displays your stats for SAH',
-    'http://sahuserstats.mozdev.org/index.html',
-    'FireFox v1.5 or earlier',
-    'An extension for Firefox (may work under Mozilla) that will display your stats for SAH',
-    1138110002
-),
 array('BOINC_User_Statistics_Widget.widget',
     'BOINC User Statistics Widget',
     '2.2',
@@ -615,28 +577,9 @@ array('BOINC_User_Statistics_Widget.widget',
     'The BOINC User Statistics Widget is highly configurable and displays your choice of statistics from almost any BOINC project.',
     1149646406
 ),
-array('boinc_server_status.zip',
-    'BOINC Server Status',
-    '1.1',
-    'Yahoo! widget adds the BOINC Online Scheduler image to your desktop.',
-    'http://www.esea.dk/bos/',
-    'Yahoo! Widget Engine - http://widgets.yahoo.com/',
-    'Adds the BOINC Online Scheduler image to your desktop.
-    (requires the <a href=http://widgets.yahoo.com/>Yahoo! widget engine</a>)',
-    1170011896
-),
 );
 
 $web = array(
-array('http://dl.onext.de/pub/boinc_lcs/boinc_lcs_latest.tar.gz',
-    'Boinc LCS',
-    '3.1',
-    'Shows the current state and other information from an unlimited number of BOINC clients connected to the Internet.',
-    'http://www.onenext.de/',
-    'Apache, PHP',
-    'Boinc LCS is a free PHP based script that allows you to monitor the current state (and other information) from each of your connected BOINC clients. It runs on a simple web server and is platform independent. Boinc LCS is released under the GNU/GPL license. You can modify and redistribute or just use it!',
-    '1301891920'
-),
 array('b-sig.zip',
     'Forum signature showing jobs in progress',
     '',
@@ -702,17 +645,6 @@ array(
     '',
     '',
     'Enter your Cross-Project ID, and each time you pass a credit milestone (10,000, 50,000 etc.) BOINC Milestones will post a message in your Status, where all your friends can see it.',
-    1252300894
-),
-
-array(
-    'http://apps.facebook.com/processors/new.php',
-    'Progress Thru Processors',
-    '',
-    'Facebook-based interface to BOINC',
-    '',
-    '',
-    'A Facebook application that lets you attach to projects and view your status through a Facebook application.  Operated by Intel in conjunction with GridRepublic.',
     1252300894
 ),
 

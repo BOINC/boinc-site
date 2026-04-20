@@ -26,7 +26,7 @@
 require_once("../inc/util.inc");
 
 function check_login($user) {
-    $ids = parse_config(get_config(), '<upload_ids>');
+    $ids = project_config_val('upload_ids');
     $ids = explode(' ', $ids);
     if (!in_array($user->id, $ids)) {
         return false;

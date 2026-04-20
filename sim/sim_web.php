@@ -80,6 +80,7 @@ function show_scenario_summary($f) {
 //
 function show_scenarios() {
     page_head("The BOINC Client Emulator");
+    text_start();
     echo "
         The BOINC Client Emulator (BCE)
         <b>emulates</b> a BOINC client attached to one or more projects.
@@ -165,16 +166,15 @@ function show_scenarios() {
 
         <h3>Existing scenarios</h3>
     ";
-    start_table();
-    echo "
-        <tr>
-            <th>ID<br><span class=note>Click to see simulations</span></th>
-            <th>Who</th>
-            <th>When</th>
-            <th># Simulations</th>
-            <th>Description</th>
-        </tr>
-    ";
+    text_end();
+    start_table('table-striped');
+    table_header(
+        'ID<br><span class=note>Click to see simulations</span>',
+        'Who',
+        'When',
+        '<nobr># Simulations</nobr>',
+        'Description'
+    );
     $d = opendir("scenarios");
     $dirs = array();
     while (false !== ($f = readdir($d))) {
@@ -335,10 +335,10 @@ function show_scenario() {
     $desc = file_get_contents("scenarios/$name/description");
     $userid = (int)file_get_contents("scenarios/$name/userid");
     $user = BoincUser::lookup_id($userid);
-    $name = $user?$user->name:'unknown';
+    $uname = $user?$user->name:'unknown';
     $date = date_str(filemtime("scenarios/$name"));
     start_table();
-    row2("Creator", $name);
+    row2("Creator", $uname);
     row2("When", $date);
     row2("Description", $desc);
     $x = "<a href=$d/client_state.xml>client_state.xml</a>";

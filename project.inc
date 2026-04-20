@@ -30,9 +30,10 @@ define('MODERATORS_CAN_BANISH', true);
 define('VALIDATE_EMAIL_TO_POST', true);
 define('USE_STOPFORUMSPAM', true);
 define('FORUM_QA_MERGED_MODE', true);
+define('NEED_CREDIT_TO_POST_EXCEPT_HELP', false);
 
 function navbar($prefix, $user, $fixed) {
-    $brand = '<p></p><center><a href="https://boinc.berkeley.edu"><img height="50" src="https://boinc.berkeley.edu/logo/boinc_logo.png"></a></center>';
+    $brand = '<div style="margin-bottom: 6px;"></div><center><a href="https://boinc.berkeley.edu"><img height="50" src="https://boinc.berkeley.edu/logo/boinc_logo.png"></a></center><div style="margin-bottom: 6px;"></div>';
     navbar_start($brand, $fixed, false);
         // instead of PROJECT you can use an <img> or other HTML
 

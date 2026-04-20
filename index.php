@@ -101,8 +101,8 @@ function show_project_news() {
     panel(
         tra("News from BOINC Projects"),
         function() use ($items) {
-            show_rss_items($items, 3, 'rss_filter', 200);
-            echo "<a href=project_news.php>... more</a>";
+            show_rss_items($items, 4, 'rss_filter');
+            echo "Visit <a href=https://vcnews.info>Volunteer Computing News</a> for more";
         }
     );
 }
