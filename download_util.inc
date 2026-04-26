@@ -84,7 +84,10 @@ function client_info_to_platform($client_info) {
     if (strstr($client_info, 'Windows')) {
         if (stristr($client_info, 'arm64')) {
             return 'win_arm';
-        } else if (strstr($client_info, 'x64')||strstr($client_info, 'WOW64')) {
+        } else if (stristr($client_info, 'x64')
+            || stristr($client_info, 'win64')
+            || stristr($client_info, 'WOW64')
+        ) {
             return 'winx64';
         } else {
             return 'win';
