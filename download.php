@@ -1,5 +1,7 @@
 <?php
 
+// download page for BOINC web site only
+
 // If xml=1 is specified, redirect to download_all.php
 // the client fetches download.php?xml=1 every so often;
 // so don't break this!!!
@@ -54,7 +56,12 @@ function show_download($client_info, $pname) {
         );
 
     } else if ($pname) {
-        download_link($client_info, $pname, true);
+        if ($pname == 'winx64') {
+            download_link($pname, true);
+            download_link('win_arm', true);
+        } else {
+            download_link($pname, true);
+        }
     } else {
         start_table();
         table_header(
@@ -62,16 +69,16 @@ function show_download($client_info, $pname) {
             'BOINC version ',
             'Click to download'
         );
-        download_link($client_info, 'winx64');
-        download_link($client_info, 'win');
-        download_link($client_info, 'mac');
-        download_link($client_info, 'mac_10_7');
-        download_link($client_info, 'mac32');
-        download_link($client_info, 'macppc');
-        //download_link($client_info, 'linux');
-        //download_link($client_info, 'linuxx64');
-        //download_link($client_info, 'linuxcompat');
-        download_link($client_info, 'android');
+        download_link('winx64');
+        download_link('win');
+        download_link('mac');
+        download_link('mac_10_7');
+        download_link('mac32');
+        download_link('macppc');
+        //download_link('linux');
+        //download_link('linuxx64');
+        //download_link('linuxcompat');
+        download_link('android');
         end_table();
         echo "Linux users: <a href=https://github.com/BOINC/boinc/wiki/Installing_on_Linux>see Installation options</a>.";
     }

@@ -19,27 +19,7 @@
 
 // utility functions for download links
 
-if (0) {
-function button_link_vbox(
-    $vbox_url, $long_name, $vbox_size, $boinc_version, $vbox_version
-) {
-    echo sprintf('
-        <a href="%s" class="btn" style="background-color:seagreen; color:white"><font size=+1><u>%s</u></font>
-        <br>%s (%.2f MB)
-        <br><small>(BOINC %s, VirtualBox %s)</small></a>
-        ',
-        $vbox_url,
-        tra("Download BOINC + VirtualBox"),
-        // "for %s" identifies the operating system, e.g. "for Windows"
-        tra("for %1", $long_name),
-        $vbox_size,
-        $boinc_version,
-        $vbox_version
-    );
-}
-}
-
-function button_link($url, $long_name, $size, $boinc_version, $green) {
+function button_link($url, $long_name, $size, $boinc_version, $green=true) {
     echo sprintf('
         <a href="%s" class="btn" %s><font size=+1><u>%s</u></font>
         <br>%s (%.2f MB)
@@ -57,37 +37,16 @@ function button_link($url, $long_name, $size, $boinc_version, $green) {
 
 // Show download link(s) for the given platform,
 // showing version and download size information.
-// Show both VBox and non-VBox links if available.
 //
 function download_link(
-    $client_info,
     $pname,
-    $button=false,
-        // show as button (else table row)
-    $vbox_req=false
-        // if vbox version is available, show only it
+    $button=false       // show as button (else table row)
 ) {
     global $platforms;
     global $url_base;
     $p = $platforms[$pname];
     $v = latest_version($p);
     $file = $v['file'];
-    if (array_key_exists('vbox_file', $v)) {
-        $vbox_file = $v['vbox_file'];
-        $vbox_version = $v['vbox_version'];
-        $vbox_url = $url_base.$vbox_file;
-        $vbox_path = "dl/$vbox_file";
-        $vbox_size = number_format(filesize($vbox_path)/1000000, 2);
-    } else {
-        $vbox_file = null;
-    }
-    if (strstr($client_info, 'Windows NT 4') || strstr($client_info, 'Windows NT 5')) {
-        $vbox_file = null;
-    }
-
-    // May 2025: don't show VBox anymore.
-    // we want to encourage Docker instead
-    $vbox_file = null;
 
     $long_name = $p['name'];
     $num = $v['num'];
@@ -97,24 +56,10 @@ function download_link(
     $size = number_format(filesize($path)/1000000, 2);
 
     if ($button) {
-        if ($vbox_file && !$vbox_req) {
-            echo tra("We recommend that you also install %1 VirtualBox %2, so your computer can work on science projects that require it.", "<a href=https://www.virtualbox.org/>", "</a>");
-            echo " <a href=http://boinc.berkeley.edu/wiki/VirtualBox>";
-            echo tra("Learn more about VirtualBox.");
-            echo "</a>";
-        }
-
         echo "<center>";
 
-        if ($vbox_file) {
-            button_link_vbox(
-                $vbox_url, $long_name, $vbox_size, $num, $vbox_version
-            );
-        }
         echo "<p><p>";
-        if (!$vbox_file || !$vbox_req) {
-            button_link($url, $long_name, $size, $num, !$vbox_file);
-        }
+        button_link($url, $long_name, $size, $num);
         if ($pname == 'mac') {
             echo "<br><br>This version of BOINC requires MacOS 10.13 or later.<br>For older versions of MacOS, go <a href=download_all.php>here</a>.";
         }
@@ -123,14 +68,6 @@ function download_link(
             echo "<p>", linux_info();
         }
     } else {
-        if ($vbox_file) {
-            echo "<tr>
-                <td class=rowlineleft>$long_name</td>
-                <td class=rowline> $num (with Virtualbox $vbox_version)</td>
-                <td class=rowlineright><a href=$vbox_url>Download</a> ($vbox_size MB)</td>
-                </tr>
-            ";
-        }
         echo "<tr>
             <td class=rowlineleft>$long_name</td>
             <td class=rowline> $num</td>
@@ -145,7 +82,12 @@ function download_link(
 //
 function client_info_to_platform($client_info) {
     if (strstr($client_info, 'Windows')) {
-        if (strstr($client_info, 'Win64')||strstr($client_info, 'WOW64')) {
+        if (stristr($client_info, 'arm64')) {
+            return 'win_arm';
+        } else if (stristr($client_info, 'x64')
+            || stristr($client_info, 'win64')
+            || stristr($client_info, 'WOW64')
+        ) {
             return 'winx64';
         } else {
             return 'win';
