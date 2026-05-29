@@ -15,6 +15,7 @@
 //          (see https://github.com/BOINC/boinc/wiki/SimpleAttach>
 //      - run get_versions.php in Science United and BOINC Central
 //      - post news item on BOINC and Science United
+//      - update linux_install.php
 
 // List of platforms.
 // Each has a list of versions, then a structure in which "versions"
@@ -25,17 +26,9 @@
 
 $w8211 = [
     "num"=>"8.2.11",
-    "status"=>"Development version",
+    "status"=>"Recommended version",
     "file"=>"boinc_8.2.11_windows_x86_64.exe",
     "date"=>"20 April 2026",
-    "type"=>"win_new"
-];
-
-$w829 = [
-    "num"=>"8.2.9",
-    "status"=>"Recommended version",
-    "file"=>"boinc_8.2.9_windows_x86_64.exe",
-    "date"=>"18 March 2026",
     "type"=>"win_new"
 ];
 
@@ -45,7 +38,6 @@ $windowsx64 = [
     "dbname" => "windows_x86_64",
     "versions"=> [
         $w8211,
-        $w829
     ]
 ];
 
@@ -53,17 +45,9 @@ $windowsx64 = [
 
 $wa8211 = [
     "num"=>"8.2.11",
-    "status"=>"Development version",
+    "status"=>"Recommended version",
     "file"=>"boinc_8.2.11_windows_arm64.exe",
     "date"=>"20 April 2026",
-    "type"=>"win_new"
-];
-
-$wa829 = [
-    "num"=>"8.2.9",
-    "status"=>"Recommended version",
-    "file"=>"boinc_8.2.9_windows_arm64.exe",
-    "date"=>"18 March 2026",
     "type"=>"win_new"
 ];
 
@@ -73,7 +57,6 @@ $windows_arm = [
     "dbname" => "windows_arm64",
     "versions"=> [
         $wa8211,
-        $wa829
     ]
 ];
 
@@ -120,7 +103,7 @@ $windows = [
 
 $m82_11 = [
     "num"=>"8.2.11",
-    "status"=>"Development version",
+    "status"=>"Recommended version",
     "file"=>"boinc_8.2.11_macOSX_universal.zip",
     "date"=>"20 April 2026",
     "type"=>"mac_advanced",
@@ -130,29 +113,9 @@ $m82_11 = [
 
 $m82_11c = [
     "num"=>"8.2.11",
-    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
+    "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
     "file"=>"boinc_8.2.11_universal-apple-darwin.dmg",
     "date"=>"20 April 2026",
-    "type"=>"bare_core",
-    "min_os_version"=>"101300",
-    "max_os_version"=>"999999",
-];
-
-$m82_9 = [
-    "num"=>"8.2.9",
-    "status"=>"Recommended version",
-    "file"=>"boinc_8.2.9_macOSX_universal.zip",
-    "date"=>"17 Mar 2026",
-    "type"=>"mac_advanced",
-    "min_os_version"=>"101300",
-    "max_os_version"=>"999999",
-];
-
-$m82_9c = [
-    "num"=>"8.2.9",
-    "status"=>"Recommended version (Unix command-line version) (MacOS 10.13+)",
-    "file"=>"boinc_8.2.9_universal-apple-darwin.dmg",
-    "date"=>"17 Mar 2026",
     "type"=>"bare_core",
     "min_os_version"=>"101300",
     "max_os_version"=>"999999",
@@ -246,8 +209,6 @@ $mac = [
     "versions" => [
         $m82_11,
         $m82_11c,
-        $m82_9,
-        $m82_9c,
         //$m82_4,
         //$m80_2,
         //$m80_2c,
@@ -266,8 +227,6 @@ $mac_arm = [
     "versions" => [
         $m82_11,
         $m82_11c,
-        $m82_9,
-        $m82_9c,
         $m80_2,
         $m80_2c,
         $m720_2,   // Keep 7.20.2, which is latest version that can run on MacOS 10.10 - 10.12
@@ -440,11 +399,11 @@ $macppc = [
 
 // --------------- Linux 64-bit --------------------
 
-$linux_829 = [
-    "num"=>"8.2.9",
+$linux_8211 = [
+    "num"=>"8.2.11",
     "status"=>"Recommended version",
     'file'=>'',
-    "date"=>"24 Mar 2026",
+    "date"=>"30 April 2026",
     "type"=>'linux_pkg'
 ];
 
@@ -453,7 +412,7 @@ $linuxx64 = [
     "description"=> 'Packages are available for several distros.<br>Includes Raspberry Pi.',
     "dbname" => "x86_64-pc-linux-gnu",
     "versions"=>[
-        $linux_829,
+        $linux_8211,
     ]
 ];
 
@@ -499,16 +458,9 @@ $linuxcompat = [
 
 $a8211 = [
     "num"=>"8.2.11",
-    "status"=>"Development version",
-    "file"=>"boinc_8.2.10.apk",
-    "date"=>"20 April 2026",
-    "type"=>"apk",
-];
-$a829 = [
-    "num"=>"8.2.9",
     "status"=>"Recommended version",
-    "file"=>"boinc_8.2.9.apk",
-    "date"=>"18 March 2026",
+    "file"=>"boinc_8.2.11.apk",
+    "date"=>"20 April 2026",
     "type"=>"apk",
 ];
 
@@ -521,7 +473,6 @@ $android = [
     "dbname" => "arm-android-linux-gnu",
     "versions"=>[
         $a8211,
-        $a829,
     ]
 ];
 

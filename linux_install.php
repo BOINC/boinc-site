@@ -5,87 +5,88 @@
 require_once('../inc/util.inc');
 require_once('../inc/clipboard.inc');
 
-$versions = ['stable'=>'8.2.12', 'alpha'=>'8.2.12', 'nightly'=>'8.3.0'];
+$versions = ['stable'=>'8.2.13', 'alpha'=>'8.2.13', 'nightly'=>'8.3.0'];
 
-define('OS_DEBIAN', 0);
-define('OS_UBUNTU', 1);
-define('OS_FEDORA', 2);
-define('OS_OPENSUSE', 3);
-define('OS_MINT', 4);
-define('OS_MINT_DEBIAN', 5);
+define('OS_DEBIAN', 1);
+define('OS_UBUNTU', 2);
+define('OS_FEDORA', 3);
+define('OS_OPENSUSE', 4);
+define('OS_MINT', 5);
+define('OS_MINT_DEBIAN', 6);
 
 function get_oss($os_num) {
     $n = 1;
     $oss = [];
     switch($os_num) {
     case OS_DEBIAN:
-        $oss[$n++] = os('Debian', '10', 'buster', 'June 2024', '2.28');
-        $oss[$n++] = os('Debian', '11', 'bullseye', 'June 2026', '2.31');
-        $oss[$n++] = os('Debian', '12', 'bookworm', 'June 2028', '2.36');
         $oss[$n++] = os('Debian', '13', 'trixie', 'June 2030', '2.41');
+        $oss[$n++] = os('Debian', '12', 'bookworm', 'June 2028', '2.36');
+        $oss[$n++] = os('Debian', '11', 'bullseye', 'June 2026', '2.31');
+        $oss[$n++] = os('Debian', '10', 'buster', 'June 2024', '2.28', '8.2.12');
         break;
     case OS_UBUNTU:
-        $oss[$n++] = os('Ubuntu', '20.04', 'focal', 'April 2025', '2.31');
-        $oss[$n++] = os('Ubuntu', '22.04', 'jammy', 'April 2027', '2.35');
-        $oss[$n++] = os('Ubuntu', '24.04', 'noble', 'April 2029', '2.39');
         $oss[$n++] = os('Ubuntu', '26.04', 'resolute', 'April 2031', '2.42');
+        $oss[$n++] = os('Ubuntu', '24.04', 'noble', 'April 2029', '2.39');
+        $oss[$n++] = os('Ubuntu', '22.04', 'jammy', 'April 2027', '2.35');
+        $oss[$n++] = os('Ubuntu', '20.04', 'focal', 'April 2025', '2.31', '8.2.12');
         break;
     case OS_FEDORA:
-        $oss[$n++] = os('Fedora', '37', 'fc37', 'November 2023', '2.36');
-        $oss[$n++] = os('Fedora', '38', 'fc38', 'May 2024', '2.37');
-        $oss[$n++] = os('Fedora', '39', 'fc39', 'November 2024', '2.38');
-        $oss[$n++] = os('Fedora', '40', 'fc40', 'May 2025', '2.39');
-        $oss[$n++] = os('Fedora', '41', 'fc41', 'November 2025', '2.40');
-        $oss[$n++] = os('Fedora', '42', 'fc42', 'May 2026', '2.41');
-        $oss[$n++] = os('Fedora', '43', 'fc43', 'December 2026', '2.42');
         $oss[$n++] = os('Fedora', '44', 'fc44', 'May 2027', '2.43');
+        $oss[$n++] = os('Fedora', '43', 'fc43', 'December 2026', '2.42');
+        $oss[$n++] = os('Fedora', '42', 'fc42', 'May 2026', '2.41', '8.2.12');
+        $oss[$n++] = os('Fedora', '41', 'fc41', 'November 2025', '2.40', '8.2.12');
+        $oss[$n++] = os('Fedora', '40', 'fc40', 'May 2025', '2.39', '8.2.12');
+        $oss[$n++] = os('Fedora', '39', 'fc39', 'November 2024', '2.38', '8.2.12');
+        $oss[$n++] = os('Fedora', '38', 'fc38', 'May 2024', '2.37', '8.2.12');
+        $oss[$n++] = os('Fedora', '37', 'fc37', 'November 2023', '2.36', '8.2.12');
         break;
     case OS_OPENSUSE:
-        $oss[$n++] = os('openSUSE', '15.4', 'suse15_4', 'December 2023', '2.31');
-        $oss[$n++] = os('openSUSE', '15.5', 'suse15_5', 'December 2024', '2.37');
-        $oss[$n++] = os('openSUSE', '15.6', 'suse15_6', 'December 2025', '2.37');
         $oss[$n++] = os('openSUSE', '16.0', 'suse16_0', 'December 2026', '2.40');
+        $oss[$n++] = os('openSUSE', '15.6', 'suse15_6', 'December 2025', '2.37', '8.2.12');
+        $oss[$n++] = os('openSUSE', '15.5', 'suse15_5', 'December 2024', '2.37', '8.2.12');
+        $oss[$n++] = os('openSUSE', '15.4', 'suse15_4', 'December 2023', '2.31', '8.2.12');
         break;
 
-    // the following must match ubuntu/debian version order
+    // the following must match ubuntu version order
     case OS_MINT:
-        $oss[$n++] = os('Mint', '20', 'mint20', 'April 2025', '2.31');
-        $oss[$n++] = os('Mint', '21', 'mint21', 'April 2027', '2.35');
         $oss[$n++] = os('Mint', '22', 'mint22', 'April 2029', '2.39');
+        $oss[$n++] = os('Mint', '21', 'mint21', 'April 2027', '2.35');
+        $oss[$n++] = os('Mint', '20', 'mint20', 'April 2025', '2.31', '8.2.12');
         break;
+    // the following must match debian version order
     case OS_MINT_DEBIAN:
-        $oss[$n++] = os('Mint Debian edition', '4', 'mintde4', 'August 2022', '2.28');
-        $oss[$n++] = os('Mint Debian edition', '5', 'mintde5', 'July 2024', '2.31');
-        $oss[$n++] = os('Mint Debian edition', '6', 'mintde6', 'January 2025', '2.36');
         $oss[$n++] = os('Mint Debian edition', '7', 'mintde7', 'TBA', '2.41');
+        $oss[$n++] = os('Mint Debian edition', '6', 'mintde6', 'January 2025', '2.36', '8.2.12');
+        $oss[$n++] = os('Mint Debian edition', '5', 'mintde5', 'July 2024', '2.31', '8.2.12');
+        $oss[$n++] = os('Mint Debian edition', '4', 'mintde4', 'August 2022', '2.28', '8.2.12');
         break;
     }
     return $oss;
 }
 
-function os($type, $ver, $code, $support, $glibc) {
+function os($type, $ver, $code, $support, $glibc, $old_version=null) {
     $x = new StdClass();
     $x->type = $type;
     $x->ver = $ver;
     $x->code = $code;
     $x->support = $support;
     $x->glibc = $glibc;
+    $x->old_version = $old_version;
     return $x;
 }
 
 function os_options() {
     return [
-        [0, 'Debian'],
-        [1, 'Ubuntu'],
-        [2, 'Fedora'],
-        [3, 'openSUSE'],
-        [4, 'Mint'],
-        [5, 'Mint Debian edition']
+        [2, 'Ubuntu'],
+        [1, 'Debian'],
+        [3, 'Fedora'],
+        [4, 'openSUSE'],
+        [5, 'Mint'],
+        [6, 'Mint Debian edition']
     ];
 }
 
-function version_options($os_num) {
-    $oss = get_oss($os_num);
+function version_options($oss, $os_num) {
     $x = [];
     foreach ($oss as $i => $os) {
         $x[] = [$i, $os->ver];
@@ -119,7 +120,13 @@ function action($os_num, $version_num) {
     }
     $oss = get_oss($os_num);
     $os = $oss[$version_num];
-    $build = get_str('build');
+    if ($os->old_version) {
+        $build = 'stable';
+        $version = $os->old_version;
+    } else {
+        $build = get_str('build');
+        $version = $versions[$build];
+    }
     page_head(
         sprintf('Install the %s version of BOINC on %s %s',
             $build,
@@ -179,8 +186,8 @@ sudo yum install boinc-client-%s boinc-manager-%s',
                 $build, $os->code,
                 $build, $os->code,
                 $build, $os->code,
-                $versions[$build],
-                $versions[$build]
+                $version,
+                $version
             );
             break;
     }
@@ -306,7 +313,8 @@ sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 boinc';
     page_tail();
 }
 
-function form($os_num) {
+function form($os_num, $version_num) {
+    $oss = get_oss($os_num);
     page_head('Installing BOINC on Linux');
     text_start(900);
     echo "
@@ -346,23 +354,35 @@ function form($os_num) {
         'Operating system<br><small>To find your OS and version:<br><code>cat /etc/os-release</code></small>',
         'os_num', os_options(), $os_num
     );
-    echo "
-        <script>
-            document.getElementById('os_num').onchange = function() {
-                window.location.href = window.location.pathname + '?os_num=' + this.value;
-            };
-        </script>
-    ";
-    form_select('OS version', 'version_num', version_options($os_num));
-    form_select(
-        'BOINC build<br><font size=-1>
-            Stable: recommended version
-            <br>Alpha: version under test
-            <br>Nightly: very latest version</font>',
-        'build', build_options()
+    form_select('OS version', 'version_num',
+        version_options($oss, $os_num), $version_num
     );
+    $os = $oss[$version_num];
+    if ($os->old_version) {
+        form_general('BOINC version', $os->old_version);
+    } else {
+        form_select(
+            'BOINC build<br><font size=-1>
+                Stable: recommended version
+                <br>Alpha: version under test
+                <br>Nightly: very latest version</font>',
+            'build', build_options()
+        );
+    }
     form_submit('Get instructions');
     form_end();
+    echo sprintf('
+        <script>
+            document.getElementById("os_num").onchange = function() {
+                window.location.href = window.location.pathname + "?os_num=" + this.value;
+            };
+            document.getElementById("version_num").onchange = function() {
+                window.location.href = window.location.pathname + "?os_num=%d&version_num=" + this.value;
+            };
+        </script>
+        ',
+        $os_num
+    );
 
     echo "<h2>Flatpack</h2>
         <p>
@@ -383,13 +403,14 @@ function form($os_num) {
 }
 
 $os_num = get_int('os_num', true);
+$version_num = get_int('version_num', true);
+if ($version_num === null) $version_num = 0;
 $action = get_str('action', true);
 if ($action) {
-    $version_num = get_int('version_num', true);
     action($os_num, $version_num);
 } else {
-    if (!$os_num) $os_num = 0;
-    form($os_num);
+    if (!$os_num) $os_num = OS_UBUNTU;
+    form($os_num, $version_num);
 }
 
 ?>
