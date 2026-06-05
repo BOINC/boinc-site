@@ -22,6 +22,16 @@ $desktop = [
     "Fresco is a full-featured BOINC GUI. It's a more modern (and better looking) alternative to the BOINC Manager.",
     1775936610
 ],
+[
+    'https://github.com/Exottiiik/BOINC-RPC',
+    'BOINC-RPC',
+    '',
+    'A lightweight middleware that connects BOINC distributed computing status to Discord Rich Presence.',
+    'https://github.com/Exottiiik/BOINC-RPC',
+    'Windows, MacOS, Linux',
+    'BOINC-RPC displays your current BOINC status in your Discord profile, including: number of active tasks, task progress, and task runtime.',
+    1780646924
+]
 ];
 
 $mobile = [
