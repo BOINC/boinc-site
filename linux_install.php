@@ -5,7 +5,7 @@
 require_once('../inc/util.inc');
 require_once('../inc/clipboard.inc');
 
-$versions = ['stable'=>'8.2.13', 'alpha'=>'8.2.13', 'nightly'=>'8.3.0'];
+$versions = ['stable'=>'8.2.13', 'alpha'=>'8.2.15', 'nightly'=>'8.3.0'];
 
 define('OS_DEBIAN', 1);
 define('OS_UBUNTU', 2);
@@ -21,44 +21,44 @@ function get_oss($os_num) {
     case OS_DEBIAN:
         $oss[$n++] = os('Debian', '13', 'trixie', 'June 2030', '2.41');
         $oss[$n++] = os('Debian', '12', 'bookworm', 'June 2028', '2.36');
-        $oss[$n++] = os('Debian', '11', 'bullseye', 'June 2026', '2.31');
-        $oss[$n++] = os('Debian', '10', 'buster', 'June 2024', '2.28', '8.2.12');
+        $oss[$n++] = os('Debian', '11', 'bullseye', 'August 2026', '2.31', '8.2.13');
+        $oss[$n++] = os('Debian', '10', 'buster', 'June 2024', '2.28', '8.2.13');
         break;
     case OS_UBUNTU:
         $oss[$n++] = os('Ubuntu', '26.04', 'resolute', 'April 2031', '2.42');
         $oss[$n++] = os('Ubuntu', '24.04', 'noble', 'April 2029', '2.39');
         $oss[$n++] = os('Ubuntu', '22.04', 'jammy', 'April 2027', '2.35');
-        $oss[$n++] = os('Ubuntu', '20.04', 'focal', 'April 2025', '2.31', '8.2.12');
+        $oss[$n++] = os('Ubuntu', '20.04', 'focal', 'April 2025', '2.31', '8.2.13');
         break;
     case OS_FEDORA:
         $oss[$n++] = os('Fedora', '44', 'fc44', 'May 2027', '2.43');
         $oss[$n++] = os('Fedora', '43', 'fc43', 'December 2026', '2.42');
-        $oss[$n++] = os('Fedora', '42', 'fc42', 'May 2026', '2.41', '8.2.12');
-        $oss[$n++] = os('Fedora', '41', 'fc41', 'November 2025', '2.40', '8.2.12');
-        $oss[$n++] = os('Fedora', '40', 'fc40', 'May 2025', '2.39', '8.2.12');
-        $oss[$n++] = os('Fedora', '39', 'fc39', 'November 2024', '2.38', '8.2.12');
-        $oss[$n++] = os('Fedora', '38', 'fc38', 'May 2024', '2.37', '8.2.12');
-        $oss[$n++] = os('Fedora', '37', 'fc37', 'November 2023', '2.36', '8.2.12');
+        $oss[$n++] = os('Fedora', '42', 'fc42', 'May 2026', '2.41', '8.2.13');
+        $oss[$n++] = os('Fedora', '41', 'fc41', 'November 2025', '2.40', '8.2.13');
+        $oss[$n++] = os('Fedora', '40', 'fc40', 'May 2025', '2.39', '8.2.13');
+        $oss[$n++] = os('Fedora', '39', 'fc39', 'November 2024', '2.38', '8.2.13');
+        $oss[$n++] = os('Fedora', '38', 'fc38', 'May 2024', '2.37', '8.2.13');
+        $oss[$n++] = os('Fedora', '37', 'fc37', 'November 2023', '2.36', '8.2.13');
         break;
     case OS_OPENSUSE:
         $oss[$n++] = os('openSUSE', '16.0', 'suse16_0', 'December 2026', '2.40');
-        $oss[$n++] = os('openSUSE', '15.6', 'suse15_6', 'December 2025', '2.37', '8.2.12');
-        $oss[$n++] = os('openSUSE', '15.5', 'suse15_5', 'December 2024', '2.37', '8.2.12');
-        $oss[$n++] = os('openSUSE', '15.4', 'suse15_4', 'December 2023', '2.31', '8.2.12');
+        $oss[$n++] = os('openSUSE', '15.6', 'suse15_6', 'December 2025', '2.37', '8.2.13');
+        $oss[$n++] = os('openSUSE', '15.5', 'suse15_5', 'December 2024', '2.37', '8.2.13');
+        $oss[$n++] = os('openSUSE', '15.4', 'suse15_4', 'December 2023', '2.31', '8.2.13');
         break;
 
     // the following must match ubuntu version order
     case OS_MINT:
         $oss[$n++] = os('Mint', '22', 'mint22', 'April 2029', '2.39');
         $oss[$n++] = os('Mint', '21', 'mint21', 'April 2027', '2.35');
-        $oss[$n++] = os('Mint', '20', 'mint20', 'April 2025', '2.31', '8.2.12');
+        $oss[$n++] = os('Mint', '20', 'mint20', 'April 2025', '2.31', '8.2.13');
         break;
     // the following must match debian version order
     case OS_MINT_DEBIAN:
         $oss[$n++] = os('Mint Debian edition', '7', 'mintde7', 'TBA', '2.41');
-        $oss[$n++] = os('Mint Debian edition', '6', 'mintde6', 'January 2025', '2.36', '8.2.12');
-        $oss[$n++] = os('Mint Debian edition', '5', 'mintde5', 'July 2024', '2.31', '8.2.12');
-        $oss[$n++] = os('Mint Debian edition', '4', 'mintde4', 'August 2022', '2.28', '8.2.12');
+        $oss[$n++] = os('Mint Debian edition', '6', 'mintde6', 'January 2025', '2.36', '8.2.13');
+        $oss[$n++] = os('Mint Debian edition', '5', 'mintde5', 'July 2024', '2.31', '8.2.13');
+        $oss[$n++] = os('Mint Debian edition', '4', 'mintde4', 'August 2022', '2.28', '8.2.13');
         break;
     }
     return $oss;
