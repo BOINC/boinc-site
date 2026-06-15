@@ -24,6 +24,14 @@
 
 // -------------- Windows Intel 64-bit -------------------
 
+$w8215 = [
+    "num"=>"8.2.15",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.15_windows_x86_64.exe",
+    "date"=>"15 June 2026",
+    "type"=>"win_new"
+];
+
 $w8211 = [
     "num"=>"8.2.11",
     "status"=>"Recommended version",
@@ -37,11 +45,20 @@ $windowsx64 = [
     "description"=>"Vista/7/8/8.1/10/11",
     "dbname" => "windows_x86_64",
     "versions"=> [
+        $w8215,
         $w8211,
     ]
 ];
 
 // -------------- Windows ARM 64-bit -------------------
+
+$wa8215 = [
+    "num"=>"8.2.15",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.15_windows_arm64.exe",
+    "date"=>"15 June 2026",
+    "type"=>"win_new"
+];
 
 $wa8211 = [
     "num"=>"8.2.11",
@@ -56,6 +73,7 @@ $windows_arm = [
     "description"=>"Windows 11",
     "dbname" => "windows_arm64",
     "versions"=> [
+        $wa8215,
         $wa8211,
     ]
 ];
@@ -100,6 +118,26 @@ $windows = [
 ];
 
 // --------------- Mac Intel 64 or ARM --------------------
+
+$m82_15 = [
+    "num"=>"8.2.15",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.15_macOSX_universal.zip",
+    "date"=>"15 June 2026",
+    "type"=>"mac_advanced",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+];
+
+$m82_15c = [
+    "num"=>"8.2.15",
+    "status"=>"Development version (Unix command-line version) (MacOS 10.13+)",
+    "file"=>"boinc_8.2.15_universal-apple-darwin.dmg",
+    "date"=>"15 June 2026",
+    "type"=>"bare_core",
+    "min_os_version"=>"101300",
+    "max_os_version"=>"999999",
+];
 
 $m82_11 = [
     "num"=>"8.2.11",
@@ -207,6 +245,8 @@ $mac = [
     "description"=>null,
     "dbname" => "x86_64-apple-darwin",
     "versions" => [
+        $m82_15,
+        $m82_15c,
         $m82_11,
         $m82_11c,
         //$m82_4,
@@ -225,6 +265,8 @@ $mac_arm = [
     "description" => null,
     "dbname" => "arm64-apple-darwin",
     "versions" => [
+        $m82_15,
+        $m82_15c,
         $m82_11,
         $m82_11c,
         $m80_2,
@@ -456,6 +498,14 @@ $linuxcompat = [
 
 // --------------- Android --------------------
 
+$a8215 = [
+    "num"=>"8.2.15",
+    "status"=>"Development version",
+    "file"=>"boinc_8.2.15.apk",
+    "date"=>"15 June 2026",
+    "type"=>"apk",
+];
+
 $a8211 = [
     "num"=>"8.2.11",
     "status"=>"Recommended version",
@@ -472,6 +522,7 @@ $android = [
     <br> Or download and install the APK below.  If you have problems, see instructions <a href=https://www.lifewire.com/install-apk-on-android-4177185>here</a>",
     "dbname" => "arm-android-linux-gnu",
     "versions"=>[
+        $a8215,
         $a8211,
     ]
 ];
