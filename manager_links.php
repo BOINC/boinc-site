@@ -28,15 +28,15 @@ if ($target == "notice") {
 	} else if ($controlid == 'statefile') {
 		header('Location: https://github.com/BOINC/boinc/wiki/BOINC-Help');
 	} else if ($controlid == 'proxy_env') {
-		header('Location: https://github.com/BOINC/boinc/wiki/Client_configuration#environment-variables');
+		header('Location: https://github.com/BOINC/boinc/wiki/Client-configuration#environment-variables');
 	} else if ($controlid == 'app_info') {
 		header('Location: https://github.com/BOINC/boinc/wiki/Anonymous_platform');
 	} else if ($controlid == 'remote_hosts') {
 		header('Location: https://github.com/BOINC/boinc/wiki/Controlling_BOINC_remotely');
 	} else if ($controlid == 'log_flags') {
-		header('Location: https://github.com/BOINC/boinc/wiki/Client_configuration#Logging-flags');
+		header('Location: https://github.com/BOINC/boinc/wiki/Client-configuration#Logging-flags');
 	} else if ($controlid == 'config') {
-		header('Location: https://github.com/BOINC/boinc/wiki/Client_configuration#Configuration-files');
+		header('Location: https://github.com/BOINC/boinc/wiki/Client-configuration#Configuration-files');
 	} else {
 		header('Location: https://github.com/BOINC/boinc/wiki/BOINC-Help');
 	}

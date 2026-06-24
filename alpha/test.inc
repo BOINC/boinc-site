@@ -1,5 +1,9 @@
 <?php
 
+// Alpha test info.
+// When you make a new test version, announce it on boinc_alpha
+
+// test targets (platform and possibly OS version)
 // 0: short name
 // 1: long name
 // 2: target #reports
