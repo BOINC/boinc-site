@@ -1,0 +1,35 @@
+TY  - JOUR
+TI  - FALCON@home: a high-throughput protein structure prediction server based on remote homologue recognition
+AU  - Wang, Chao
+AU  - Zhang, Haicang
+AU  - Zheng, Wei-Mou
+AU  - Xu, Dong
+AU  - Zhu, Jianwei
+AU  - Wang, Bing
+AU  - Ning, Kang
+AU  - Sun, Shiwei
+AU  - Li, Shuai Cheng
+AU  - Bu, Dongbo
+T2  - Bioinformatics
+AB  - Abstract
+            Summary: The protein structure prediction approaches can be categorized into template-based modeling (including homology modeling and threading) and free modeling. However, the existing threading tools perform poorly on remote homologous proteins. Thus, improving fold recognition for remote homologous proteins remains a challenge. Besides, the proteome-wide structure prediction poses another challenge of increasing prediction throughput.
+            In this study, we presented FALCON@home as a protein structure prediction server focusing on remote homologue identification. The design of FALCON@home is based on the observation that a structural template, especially for remote homologous proteins, consists of conserved regions interweaved with highly variable regions. The highly variable regions lead to vague alignments in threading approaches. Thus, FALCON@home first extracts conserved regions from each template and then aligns a query protein with conserved regions only rather than the full-length template directly. This helps avoid the vague alignments rooted in highly variable regions, improving remote homologue identification.
+            We implemented FALCON@home using the Berkeley Open Infrastructure of Network Computing (BOINC) volunteer computing protocol. With computation power donated from over 20 000 volunteer CPUs, FALCON@home shows a throughput as high as processing of over 1000 proteins per day. In the Critical Assessment of protein Structure Prediction (CASP11), the FALCON@home-based prediction was ranked the 12th in the template-based modeling category. As an application, the structures of 880 mouse mitochondria proteins were predicted, which revealed the significant correlation between protein half-lives and protein structural factors.
+            Availability and implementation: FALCON@home is freely available at http://protein.ict.ac.cn/FALCON/.
+            Contact:  shuaicli@cityu.edu.hk, dbu@ict.ac.cn
+            Supplementary information:  Supplementary data are available at Bioinformatics online.
+DA  - 2016/02/01/
+PY  - 2016
+DO  - 10.1093/bioinformatics/btv581
+DP  - DOI.org (Crossref)
+VL  - 32
+IS  - 3
+SP  - 462
+EP  - 464
+LA  - en
+SN  - 1367-4811, 1367-4803
+ST  - FALCON@home
+UR  - https://academic.oup.com/bioinformatics/article/32/3/462/1743664
+Y2  - 2026/07/03/18:20:40
+ER  - 
+
