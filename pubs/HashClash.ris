@@ -23,6 +23,7 @@ A2  - Shacham, Hovav
 CY  - Cham
 DA  - 2017///
 PY  - 2017
+DO  - 10.1007/978-3-319-63688-7_19
 DP  - DOI.org (Crossref)
 VL  - 10401
 SP  - 570
@@ -102,6 +103,7 @@ PY  - 2012
 DP  - scholarlypublications.universiteitleiden.nl
 LA  - en
 PB  - Leiden University
+SN  - 978-94-6191-317-3
 UR  - https://hdl.handle.net/1887/19093
 Y2  - 2022/11/19/19:47:28
 L1  - https://scholarlypublications.universiteitleiden.nl/access/item%3A2929015/view
@@ -232,5 +234,20 @@ SP  - 15
 LA  - en
 UR  - https://eprint.iacr.org/2006/360
 L1  - https://www.win.tue.nl/hashclash/TargetCollidingCertificates/TargetCollidingCertificatesAnnouncementv1.1.pdf
+ER  - 
+
+TY  - CONF
+TI  - MD5 considered harmful today, creating a rogue CA certificate
+AU  - Sotirov, A.
+AU  - Stevens, M.
+AU  - Appelbaum, J.
+AU  - Lenstra, Arjen
+AU  - Molnar, D.
+AU  - Osvik, Dag Arne
+AU  - Weger, B.
+T2  - 25th annual Chaos Communication Congress
+DA  - 2008/01/01/
+PY  - 2008
+UR  - https://infoscience.epfl.ch/handle/20.500.14299/65765
 ER  - 
 
