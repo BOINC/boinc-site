@@ -55,6 +55,7 @@ IS  - 4
 SP  - 1382
 EP  - 1397
 J2  - J. Chem. Inf. Model.
+PB  - American Chemical Society
 SN  - 1549-9596
 UR  - https://doi.org/10.1021/acs.jcim.8b00817
 Y2  - 2022/12/29/19:40:18
@@ -137,6 +138,7 @@ IS  - 3
 SP  - 1258
 EP  - 1262
 J2  - J. Chem. Inf. Model.
+PB  - American Chemical Society
 SN  - 1549-9596
 UR  - https://doi.org/10.1021/ci700044s
 Y2  - 2022/12/29/19:44:59
@@ -260,6 +262,7 @@ A2  - Richman, Douglas D.
 CY  - Cham
 DA  - 2015///
 PY  - 2015
+DO  - 10.1007/82_2015_432
 DP  - DOI.org (Crossref)
 VL  - 389
 SP  - 31
@@ -296,12 +299,12 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.23996
 Y2  - 2023/05/28/14:44:43
 L1  - https://europepmc.org/articles/pmc4512903?pdf=render
 L2  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.23996
+KW  - molecular dynamics
 KW  - asynchronous replica exchange
 KW  - binding energy distribution analysis method
 KW  - distributed computing network
 KW  - efficiency analysis
 KW  - host–guest system
-KW  - molecular dynamics
 ER  - 
 
 TY  - JOUR
@@ -329,11 +332,40 @@ UR  - https://www.sciencedirect.com/science/article/pii/S0010465515002556
 Y2  - 2023/05/28/14:45:49
 L1  - https://europepmc.org/articles/pmc4834714?pdf=render
 L2  - https://www.sciencedirect.com/science/article/abs/pii/S0010465515002556?via%3Dihub
-KW  - BOINC
 KW  - Distributed computing
 KW  - Grid computing
+KW  - BOINC
 KW  - Peptide dimerization
 KW  - Protein–ligand binding
 KW  - Replica exchange molecular dynamics
+ER  - 
+
+TY  - JOUR
+TI  - Structure-based virtual screening workflow to identify antivirals targeting HIV-1 capsid
+AU  - Sun, Qinfang
+AU  - Biswas, Avik
+AU  - Vijayan, R. S. K.
+AU  - Craveur, Pierrick
+AU  - Forli, Stefano
+AU  - Olson, Arthur J.
+AU  - Castaner, Andres Emanuelli
+AU  - Kirby, Karen A.
+AU  - Sarafianos, Stefan G.
+AU  - Deng, Nanjie
+AU  - Levy, Ronald
+T2  - Journal of Computer-Aided Molecular Design
+DA  - 2022/03//
+PY  - 2022
+DO  - 10.1007/s10822-022-00446-5
+DP  - DOI.org (Crossref)
+VL  - 36
+IS  - 3
+SP  - 193
+EP  - 203
+J2  - J Comput Aided Mol Des
+LA  - en
+SN  - 0920-654X, 1573-4951
+UR  - https://link.springer.com/10.1007/s10822-022-00446-5
+Y2  - 2026/07/08/11:50:36
 ER  - 
 
