@@ -7,6 +7,7 @@ AU  - Jurisica, Igor
 T2  - Encyclopedia of Bioinformatics and Computational Biology
 DA  - 2019///
 PY  - 2019
+DO  - 10.1016/B978-0-12-809633-8.20430-5
 DP  - DOI.org (Crossref)
 SP  - 1016
 EP  - 1035
@@ -49,6 +50,7 @@ IS  - 25
 SP  - 3399
 EP  - 3414
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-5594
 UR  - https://www.nature.com/articles/s41388-017-0107-x
 Y2  - 2022/12/29/16:24:11
@@ -91,6 +93,7 @@ DA  - 2017///
 PY  - 2017
 DO  - 10.13140/RG.2.2.34687.51363
 DP  - DOI.org (Datacite)
+PB  - Unpublished
 ST  - Network Motif Families for Lung Cancer Diagnostics
 UR  - http://rgdoi.net/10.13140/RG.2.2.34687.51363
 Y2  - 2022/12/29/18:08:27
@@ -154,9 +157,196 @@ SP  - 79
 EP  - 84
 J2  - Nat Methods
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1548-7105
 UR  - https://www.nature.com/articles/nmeth.3178
 Y2  - 2022/12/29/18:58:58
 KW  - Proteome informatics
+ER  - 
+
+TY  - JOUR
+TI  - IID 2021: towards context-specific protein interaction analyses by increased coverage, enhanced annotation and enrichment analysis
+AU  - Kotlyar, Max
+AU  - Pastrello, Chiara
+AU  - Ahmed, Zuhaib
+AU  - Chee, Justin
+AU  - Varyova, Zofia
+AU  - Jurisica, Igor
+T2  - Nucleic Acids Research
+AB  - Abstract
+            Improved bioassays have significantly increased the rate of identifying new protein-protein interactions (PPIs), and the number of detected human PPIs has greatly exceeded early estimates of human interactome size. These new PPIs provide a more complete view of disease mechanisms but precise understanding of how PPIs affect phenotype remains a challenge. It requires knowledge of PPI context (e.g. tissues, subcellular localizations), and functional roles, especially within pathways and protein complexes. The previous IID release focused on PPI context, providing networks with comprehensive tissue, disease, cellular localization, and druggability annotations. The current update adds developmental stages to the available contexts, and provides a way of assigning context to PPIs that could not be previously annotated due to insufficient data or incompatibility with available context categories (e.g. interactions between membrane and cytoplasmic proteins). This update also annotates PPIs with conservation across species, directionality in pathways, membership in large complexes, interaction stability (i.e. stable or transient), and mutation effects. Enrichment analysis is now available for all annotations, and includes multiple options; for example, context annotations can be analyzed with respect to PPIs or network proteins. In addition to tabular view or download, IID provides online network visualization. This update is available at http://ophid.utoronto.ca/iid.
+DA  - 2022/01/07/
+PY  - 2022
+DO  - 10.1093/nar/gkab1034
+DP  - DOI.org (Crossref)
+VL  - 50
+IS  - D1
+SP  - D640
+EP  - D647
+LA  - en
+SN  - 0305-1048, 1362-4962
+ST  - IID 2021
+UR  - https://academic.oup.com/nar/article/50/D1/D640/6424757
+Y2  - 2026/07/08/12:55:35
+L1  - https://academic.oup.com/nar/article-pdf/50/D1/D640/42058365/gkab1034.pdf
+ER  - 
+
+TY  - JOUR
+TI  - IID 2018 update: context-specific physical protein–protein interactions in human, model organisms and domesticated species
+AU  - Kotlyar, Max
+AU  - Pastrello, Chiara
+AU  - Malik, Zara
+AU  - Jurisica, Igor
+T2  - Nucleic Acids Research
+DA  - 2019/01/08/
+PY  - 2019
+DO  - 10.1093/nar/gky1037
+DP  - DOI.org (Crossref)
+VL  - 47
+IS  - D1
+SP  - D581
+EP  - D589
+LA  - en
+SN  - 0305-1048, 1362-4962
+ST  - IID 2018 update
+UR  - https://academic.oup.com/nar/article/47/D1/D581/5165345
+Y2  - 2026/07/08/12:56:04
+L1  - https://academic.oup.com/nar/article-pdf/47/D1/D581/27436983/gky1037.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Integrated interactions database: tissue-specific view of the human and model organism interactomes
+AU  - Kotlyar, Max
+AU  - Pastrello, Chiara
+AU  - Sheahan, Nicholas
+AU  - Jurisica, Igor
+T2  - Nucleic Acids Research
+DA  - 2016/01/04/
+PY  - 2016
+DO  - 10.1093/nar/gkv1115
+DP  - DOI.org (Crossref)
+VL  - 44
+IS  - D1
+SP  - D536
+EP  - D541
+J2  - Nucleic Acids Res
+LA  - en
+SN  - 0305-1048, 1362-4962
+ST  - Integrated interactions database
+UR  - https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkv1115
+Y2  - 2026/07/08/12:56:23
+L1  - https://academic.oup.com/nar/article-pdf/44/D1/D536/16661386/gkv1115.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Informed Use of Protein–Protein Interaction Data: A Focus on the Integrated Interactions Database (IID)
+AU  - Pastrello, Chiara
+AU  - Kotlyar, Max
+AU  - Jurisica, Igor
+T2  - Protein-Protein Interaction Networks
+A2  - Canzar, Stefan
+A2  - Ringeling, Francisca Rojas
+CY  - New York, NY
+DA  - 2020///
+PY  - 2020
+DO  - 10.1007/978-1-4939-9873-9_10
+DP  - DOI.org (Crossref)
+VL  - 2074
+SP  - 125
+EP  - 134
+LA  - en
+PB  - Springer US
+SN  - 978-1-4939-9872-2 978-1-4939-9873-9
+ST  - Informed Use of Protein–Protein Interaction Data
+UR  - http://link.springer.com/10.1007/978-1-4939-9873-9_10
+Y2  - 2026/07/08/12:56:39
+ER  - 
+
+TY  - JOUR
+TI  - <i>USNAP</i> : fast unique dense region detection and its application to lung cancer
+AU  - Wong, Serene W H
+AU  - Pastrello, Chiara
+AU  - Kotlyar, Max
+AU  - Faloutsos, Christos
+AU  - Jurisica, Igor
+T2  - Bioinformatics
+A2  - Kelso, Janet
+AB  - Abstract
+            
+              Motivation
+              Many real-world problems can be modeled as annotated graphs. Scalable graph algorithms that extract actionable information from such data are in demand since these graphs are large, varying in topology, and have diverse node/edge annotations. When these graphs change over time they create dynamic graphs, and open the possibility to find patterns across different time points. In this article, we introduce a scalable algorithm that finds unique dense regions across time points in dynamic graphs. Such algorithms have applications in many different areas, including the biological, financial, and social domains.
+            
+            
+              Results
+              There are three important contributions to this manuscript. First, we designed a scalable algorithm, USNAP, to effectively identify dense subgraphs that are unique to a time stamp given a dynamic graph. Importantly, USNAP provides a lower bound of the density measure in each step of the greedy algorithm. Second, insights and understanding obtained from validating USNAP on real data show its effectiveness. While USNAP is domain independent, we applied it to four non-small cell lung cancer gene expression datasets. Stages in non-small cell lung cancer were modeled as dynamic graphs, and input to USNAP. Pathway enrichment analyses and comprehensive interpretations from literature show that USNAP identified biologically relevant mechanisms for different stages of cancer progression. Third, USNAP is scalable, and has a time complexity of O(m+mc log nc+nc log nc), where m is the number of edges, and n is the number of vertices in the dynamic graph; mc is the number of edges, and nc is the number of vertices in the collapsed graph.
+            
+            
+              Availability and implementation
+              The code of USNAP is available at https://www.cs.utoronto.ca/∼juris/data/USNAP22.
+DA  - 2023/08/01/
+PY  - 2023
+DO  - 10.1093/bioinformatics/btad477
+DP  - DOI.org (Crossref)
+VL  - 39
+IS  - 8
+SP  - btad477
+LA  - en
+SN  - 1367-4803, 1367-4811
+ST  - <i>USNAP</i>
+UR  - https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btad477/7234611
+Y2  - 2026/07/08/12:57:06
+L1  - https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad477/51016582/btad477.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Comparative network analysis via differential graphlet communities
+AU  - Wong, Serene W. H.
+AU  - Cercone, Nick
+AU  - Jurisica, Igor
+T2  - PROTEOMICS
+AB  - While current protein interaction data provides a rich resource for molecular biology, it mostly lacks condition‐specific details. Abundance of mRNA data for most diseases provides potential to model condition‐specific transcriptional changes. Transcriptional data enables modeling disease mechanisms, and in turn provide potential treatments. While approaches to compare networks constructed from healthy and disease samples have been developed, they do not provide the complete comparison, evaluations are performed on very small networks, or no systematic network analyses are performed on differential network structures. We propose a novel method for efficiently exploiting network structure information in the comparison between any graphs, and validate results in non‐small cell lung cancer. We introduce the notion of differential graphlet community to detect deregulated subgraphs between any graphs such that the network structure information is exploited. The differential graphlet community approach systematically captures network structure differences between any graphs. Instead of using connectivity of each protein or each edge, we used shortest path distributions on differential graphlet communities in order to exploit network structure information on identified deregulated subgraphs. We validated the method by analyzing three non‐small cell lung cancer datasets and validated results on four independent datasets. We observed that the shortest path lengths are significantly longer for normal graphs than for tumor graphs between genes that are in differential graphlet communities, suggesting that tumor cells create "shortcuts" between biological processes that may not be present in normal conditions.
+DA  - 2015/01//
+PY  - 2015
+DO  - 10.1002/pmic.201400233
+DP  - DOI.org (Crossref)
+VL  - 15
+IS  - 2-3
+SP  - 608
+EP  - 617
+J2  - Proteomics
+LA  - en
+SN  - 1615-9853, 1615-9861
+UR  - https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/pmic.201400233
+Y2  - 2026/07/08/12:57:25
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pmic.201400233
+ER  - 
+
+TY  - JOUR
+TI  - IID 2025: Physical protein interaction data with detection types, co-purified protein sets, molecular docking, and immune cell networks
+AU  - Kotlyar, Max
+AU  - Pastrello, Chiara
+AU  - Abovsky, Mark
+AU  - Mizeranschi, Alexandru
+AU  - Keating, Armand
+AU  - Cameron, Luiz-Claudio
+AU  - Chandran, Vinod
+AU  - Jurisica, Igor
+T2  - Nucleic Acids Research
+AB  - Abstract
+            Biomedical research benefits from the rapid growth and diversity of experimentally detected protein–protein interactions (PPIs) by gaining important biological insights. However, increasingly dense PPI networks can be challenging to interpret and apply. The 2025 update of the Integrated Interactions Database (IID) enhances accessibility and utility through several new features. We identify and incorporate network structural components from co-purified protein sets, as well as curated and predicted complexes, enabling users to explore network organization beyond binary interactions. Functional, pathway, and disease associations of these components can be analyzed, enabling interactions to be grouped into higher-order structures with known or provisional biological roles. Users can now filter interactions by five detection types: pairwise, co-purification, colocalization, proximity, and other evidence. To extend the value and information of predicted interactions, we include interaction interface predictions for 53 647 PPIs, generated using the MEGADOCK docking algorithm, adding molecular detail for structural biology and variant impact studies. Finally, we map PPIs to 15 immune cell types and 12 additional normal tissues, offering tissue-specific views of interaction networks increasingly relevant in disease and immunology research. IID 2025 now includes over 1 million experimentally detected human PPIs, representing an 83% increase from the previous release, alongside expanded non-human networks. The portal remains publicly available at https://ophid.utoronto.ca/iid.
+DA  - 2026/01/06/
+PY  - 2026
+DO  - 10.1093/nar/gkaf1259
+DP  - DOI.org (Crossref)
+VL  - 54
+IS  - D1
+SP  - D593
+EP  - D600
+LA  - en
+SN  - 0305-1048, 1362-4962
+ST  - IID 2025
+UR  - https://academic.oup.com/nar/article/54/D1/D593/8343505
+Y2  - 2026/07/08/18:41:13
+L1  - https://academic.oup.com/nar/advance-article-pdf/doi/10.1093/nar/gkaf1259/65551609/gkaf1259.pdf
 ER  - 
 
