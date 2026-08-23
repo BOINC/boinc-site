@@ -121,7 +121,7 @@ $windows = [
 
 $m82_15 = [
     "num"=>"8.2.15",
-    "status"=>"Development version",
+    "status"=>"Development version (MacOS 10.13+)",
     "file"=>"boinc_8.2.15_macOSX_universal.zip",
     "date"=>"15 June 2026",
     "type"=>"mac_advanced",
@@ -141,7 +141,7 @@ $m82_15c = [
 
 $m82_11 = [
     "num"=>"8.2.11",
-    "status"=>"Recommended version",
+    "status"=>"Recommended version (MacOS 10.13+)",
     "file"=>"boinc_8.2.11_macOSX_universal.zip",
     "date"=>"20 April 2026",
     "type"=>"mac_advanced",

@@ -169,7 +169,7 @@ function platform_icons($f) {
         $x .= icon_image('virtualbox_logo.png', 'Supports VirtualBox');
     }
     if ($f->docker) {
-        $x .= icon_image('docker_logo.png', 'Supports Docker');
+        $x .= icon_image('docker_logo.png', 'Supports Podman/Docker');
     }
     return $x;
 }

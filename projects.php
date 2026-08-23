@@ -36,6 +36,9 @@ tra('Who owns the results of the computation?  Will they be freely available?  W
 tra('The following projects are known to us at BOINC, and we believe their descriptions are accurate.')
 );
 
+echo "<p>For details about the memory, disk, and processing requirements of project apps, check out
+<a href=https://wuprop.statseb.fr/results/ram.py>WUProp@Home</a>.";
+
 function comp_name($p1, $p2) {
     return strcasecmp($p1->name, $p2->name);
 }
@@ -85,8 +88,7 @@ function ordered_display($areas, $sort) {
             $cat_title,
             tra("Area"),
             tra("Sponsor"),
-            tra("Supported platforms").'<br><small>More details at
-                <a href=https://wuprop.statseb.fr/results/ram.py>WUProp@Home</a></small>'
+            tra("Supported platforms"),
         ),
         null,
         'bg-default'
