@@ -131,6 +131,7 @@ A2  - Zappatore, Sandro
 CY  - Boston, MA
 DA  - 2011///
 PY  - 2011
+DO  - 10.1007/978-1-4419-5574-6_5
 DP  - DOI.org (Crossref)
 SP  - 61
 EP  - 71
@@ -164,14 +165,14 @@ LA  - eng
 SN  - 0926-9630
 UR  - https://pubmed.ncbi.nlm.nih.gov/22942006/
 L2  - http://www.ncbi.nlm.nih.gov/pubmed/22942006
-KW  - Biological Science Disciplines
+KW  - Models, Molecular
 KW  - Computer Simulation
+KW  - Internet
+KW  - Biological Science Disciplines
 KW  - Health Services Research
 KW  - Information Dissemination
 KW  - Information Storage and Retrieval
-KW  - Internet
 KW  - Models, Chemical
-KW  - Models, Molecular
 KW  - User-Computer Interface
 KW  - Workflow
 ER  - 
@@ -272,5 +273,30 @@ UR  - https://hal.inria.fr/tel-01158462
 Y2  - 2022/11/12/20:43:18
 L1  - https://hal.inria.fr/tel-01158462/document
 L2  - https://hal.inria.fr/tel-01158462v2
+ER  - 
+
+TY  - JOUR
+TI  - ISDEP: Integrator of stochastic differential equations for plasmas
+AU  - Velasco, J.L.
+AU  - Bustos, A.
+AU  - Castejón, F.
+AU  - Fernández, L.A.
+AU  - Martin-Mayor, V.
+AU  - Tarancón, A.
+T2  - Computer Physics Communications
+DA  - 2012/09//
+PY  - 2012
+DO  - 10.1016/j.cpc.2012.04.005
+DP  - DOI.org (Crossref)
+VL  - 183
+IS  - 9
+SP  - 1877
+EP  - 1883
+J2  - Computer Physics Communications
+LA  - en
+SN  - 00104655
+ST  - ISDEP
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S001046551200135X
+Y2  - 2026/08/19/09:29:10
 ER  - 
 
