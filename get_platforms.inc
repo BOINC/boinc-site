@@ -228,7 +228,7 @@ function get_platforms($url) {
         //echo "XML parse error";
         return null;
     }
-    if (!array_key_exists('platforms', $s)) {
+    if (!array_key_exists('platforms', (array)$s)) {
         return null;
     }
     $p = $s->platforms;
@@ -237,21 +237,21 @@ function get_platforms($url) {
     //foreach ($p->children() as $x) {
     //    echo $x;
     //}
-    if (!array_key_exists('platform', $p)) {
+    if (!array_key_exists('platform', (array)$p)) {
         return null;
     }
     if (sizeof($p->platform) == 0) {
         return null;
     }
     $list = array();
-    if (array_key_exists(0, $p->platform[0])) {
+    if (array_key_exists(0, (array)$p->platform[0])) {
         foreach ($p->children() as $r) {
             $list[] = (string)$r;
         }
     } else {
         foreach ($p->platform as $r) {
             $plat = (string)$r->platform_name;
-            if (array_key_exists('plan_class', $r)) {
+            if (array_key_exists('plan_class', (array)$r)) {
                 $pc = canonical_plan_class((string)$r->plan_class);
                 if ($pc) {
                     $plat .= "[".$pc."]";
@@ -280,10 +280,10 @@ function get_platforms2($url) {
     $list = array();
     foreach($s->application as $a) {
         foreach ($a->version as $v) {
-            if (!array_key_exists('platform_short', $v)) continue;
+            if (!array_key_exists('platform_short', (array)$v)) continue;
             $p = $v->platform_short[0];
             $pc = "";
-            if (array_key_exists('plan_class', $v)) {
+            if (array_key_exists('plan_class', (array)$v)) {
                 $pc = (string)$v->plan_class;
                 $pc = canonical_plan_class($pc);
             }

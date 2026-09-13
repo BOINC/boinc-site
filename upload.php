@@ -47,6 +47,10 @@ function form() {
 function action() {
     $f = $_FILES['upload_file'];
     $orig_name = $f['name'];
+    if (!is_valid_filename($orig_name)) {
+        http_response_code(400);
+        die('bad filename');
+    }
     $tmp_name = $f['tmp_name'];
     if (!$orig_name) {
         http_response_code(400);
@@ -134,19 +138,23 @@ if (!$user || !check_login($user)) {
     http_response_code(401);
     die('Not authorized');
 }
-$action = get_str('action', true);
+$action = post_str('action', true);
 if ($action == 'zip') {
     $cmd = 'cd /home/boincadm/boinc-site; tar -czvf symstore.tar.gz symstore';
     system($cmd, $retval);
     if ($retval) {
+        http_response_code(500);
         die("tar failed: $retval\n");
     }
     echo "Created symstore.tar.gz\n";
+} else if ($action == 'form') {
+    form();
 } else {
     if (count($_FILES)>0) {
         action();
     } else {
-        form();
+        http_response_code(413);
+        die('No file - check PHP config limits');
     }
 }
 ?>

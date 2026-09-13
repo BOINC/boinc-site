@@ -159,7 +159,7 @@ function show_cert($cpid, $name, $min_credit) {
         </center>
     ";
 
-    $today = gmdate('j F Y', time(0));
+    $today = gmdate('j F Y', time());
 
     echo "
         <p>
