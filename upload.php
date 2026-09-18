@@ -125,12 +125,15 @@ function upload_installer($y, $orig_name, $tmp_name) {
 }
 
 if (0) {
+    echo "<pre>";
     echo "POST: "; print_r($_POST);
     echo "<br>";
     echo "COOKIE: "; print_r($_COOKIE);
     echo "<br>";
     echo "FILES: "; print_r($_FILES);
     echo "<br>";
+    echo "</pre>";
+    //phpinfo();
 }
 
 $user = get_logged_in_user(false);
@@ -139,6 +142,7 @@ if (!$user || !check_login($user)) {
     die('Not authorized');
 }
 $action = post_str('action', true);
+if (!$action) $action = get_str('action', true);
 if ($action == 'zip') {
     $cmd = 'cd /home/boincadm/boinc-site; tar -czvf symstore.tar.gz symstore';
     system($cmd, $retval);

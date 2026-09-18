@@ -103,6 +103,13 @@ function build_options() {
     return $x;
 }
 
+function valid_build($x) {
+    if ($x == 'stable') return true;
+    if ($x == 'alpha') return true;
+    if ($x == 'nightly') return true;
+    return false;
+}
+
 function action($os_num, $version_num) {
     global $versions;
     $mint_os = null;
@@ -125,6 +132,9 @@ function action($os_num, $version_num) {
         $version = $os->old_version;
     } else {
         $build = get_str('build');
+        if (!valid_build($build)) {
+            error_page('invalid build');
+        }
         $version = $versions[$build];
     }
     page_head(
