@@ -477,18 +477,18 @@ $math = array(
             tra("Study the Internet"),
             array(KW_MATH_CS)
         ),
-        project(
-            PROJ_AMICABLE,
-            "Amicable Numbers",
-            "https://sech.me/boinc/Amicable/",
-            tra("Independent"),
-            tra("Mathematics"),
-            tra("'Amicable numbers' are pairs where the sum of the proper divisors of each is equal to the other number. The goal of this project is to collect all amicable numbers up to a very large limit."),
-            "",
-            "",
-            tra("Do research in number theory"),
-            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE)
-        ),
+//        project(
+//            PROJ_AMICABLE,
+//            "Amicable Numbers",
+//            "https://sech.me/boinc/Amicable/",
+//            tra("Independent"),
+//            tra("Mathematics"),
+//            tra("'Amicable numbers' are pairs where the sum of the proper divisors of each is equal to the other number. The goal of this project is to collect all amicable numbers up to a very large limit."),
+//            "",
+//            "",
+//            tra("Do research in number theory"),
+//            array(KW_MATH_CS, KW_NUMBER_THEORY, KW_EUROPE)
+//        ),
         project(
             PROJ_NUMBERFIELDS,
             "NumberFields@home",
