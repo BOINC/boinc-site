@@ -1,0 +1,31 @@
+TY  - RPRT
+TI  - Factorization of a 1061-bit number by the Special Number Field Sieve
+AU  - Childers, Greg
+AB  - I provide the details of the factorization of the Mersenne number $2^{1061}-1$ by the Special Number Field Sieve. Although this factorization is easier than the completed factorization of RSA-768, it represents a new milestone for factorization using publicly available software.
+DA  - 2012/08/06/
+PY  - 2012
+PB  - International Association for Cryptologic Research
+UR  - https://eprint.iacr.org/2012/444
+L1  - https://eprint.iacr.org/2012/444.pdf
+KW  - factoring
+ER  - 
+
+TY  - JOUR
+TI  - A survey of fermat factorization algorithms for factoring RSA composite numbers
+AU  - Balasubramanian, Kannan
+AU  - Pitchai, Mohana Priya
+T2  - Multidisciplinary Science Journal
+AB  - In this research, we delve into the challenges associated with factorization in the context of the RSA cryptosystem. The RSA cryptosystem's security relies on the computational complexity of breaking down its modulus, which is essentially a product of two prime numbers denoted as 'p' and 'q.' Notably, the RSA modulus differs from the typical factorization problem, as it involves exceptionally large prime numbers, each roughly half the size of the modulus itself. If one manages to determine the factors of this modulus, it compromises the security of the entire RSA cryptosystem, as these factors can be exploited to derive the private key.Within this article, we provide an overview of the advancements made in the realm of factoring RSA moduli. Recent efforts in RSA factorization have successfully tackled 250-digit decimal RSA moduli. We also explore the common algorithms employed in factorization and delve into approaches based on the Fermat factorization method. Additionally, we discuss the various programming tools utilized to handle the challenge of factoring large numbers. Furthermore, we delve into the enhancement of the simple Fermat Primality test as a means to expedite the Primality Testing algorithm. Lastly, we offer a concise summary outlining the steps involved in the Number Field Sieve algorithm.
+DA  - 2023/12/15/
+PY  - 2023
+DO  - 10.31893/multiscience.2024ss0101
+DP  - DOI.org (Crossref)
+VL  - 6
+SP  - 2024ss0101
+J2  - Multidiscip. Sci. J.
+SN  - 2675-1240, 2675-1240
+UR  - https://malque.pub/ojs/index.php/msj/article/view/1658
+Y2  - 2026/10/15/19:03:08
+L1  - https://malque.pub/ojs/index.php/msj/article/download/1658/941
+ER  - 
+
