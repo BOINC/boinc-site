@@ -7,9 +7,28 @@ DA  - 2014///
 PY  - 2014
 DO  - 10.48550/ARXIV.1409.2974
 DP  - DOI.org (Datacite)
+PB  - arXiv
 UR  - https://arxiv.org/abs/1409.2974
 Y2  - 2022/11/10/20:58:57
 KW  - FOS: Mathematics
 KW  - Number Theory (math.NT)
+ER  - 
+
+TY  - JOUR
+TI  - ON abc TRIPLES OF THE FORM (1, c − 1, c)
+AU  - Alvarez-Salazar, Elise
+AU  - Barrios, Alexander J.
+AU  - Henaku, Calvin
+AU  - Soller, Summer
+AB  - By an $abc$ triple, we mean a triple $(a,b,c)$ of relatively prime positive integers $a,b,$ and $c$ such that $a+b=c$ and $\operatorname{rad}(abc)<c$, where $\operatorname{rad}(n)$ denotes the product of the distinct prime factors of $n$. The study of $abc$ triples is motivated by the $abc$ conjecture, which states that for each $ε>0$, there are finitely many $abc$ triples $(a,b,c)$ such that $\operatorname{rad}(abc)^{1+ε}<c$. The necessity of the $ε$ in the $abc$ conjecture is demonstrated by the existence of infinitely many $abc$ triples. For instance, $\left( 1,9^{k}-1,9^{k}\right) $ is an $abc$ triple for each positive integer $k$. In this article, we study $abc$ triples of the form $\left(1,c-1,c\right) $ and deduce two general results that allow us to recover existing sequences of $abc$ triples having $a=1$ that are in the literature.
+DA  - 2023/08/25/
+PY  - 2023
+DO  - 10.5281/zenodo.8283159
+DP  - arXiv.org
+UR  - http://arxiv.org/abs/2301.01376
+Y2  - 2026/11/08/13:49:31
+L1  - http://arxiv.org/pdf/2301.01376v2
+L2  - https://arxiv.org/abs/2301.01376
+KW  - Mathematics - Number Theory
 ER  - 
 
