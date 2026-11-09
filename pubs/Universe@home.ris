@@ -74,45 +74,6 @@ L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ab0f27/pdf
 ER  - 
 
 TY  - JOUR
-TI  - The first gravitational-wave source from the isolated evolution of two 40-100 Msun stars
-AU  - Belczynski, Krzysztof
-AU  - Holz, Daniel E.
-AU  - Bulik, Tomasz
-AU  - O'Shaughnessy, Richard
-AB  - The merger of two massive 30 Msun black holes has been detected in gravitational waves (1,GW150914). This discovery validates recent predictions (2-4) that massive binary black holes would constitute the first detection. However, previous calculations have not sampled the relevant binary black hole progenitors---massive, low-metallicity binary stars---with sufficient accuracy and input physics to enable robust predictions to better than several orders of magnitude (5-10). Here we report a suite of high-precision numerical simulations of binary black hole formation via the evolution of isolated binary stars, providing a framework to interpret GW150914 and predict the properties of subsequent binary black hole gravitational-wave events. Our models imply that these events form in an environment where the metallicity is less than 10 percent of solar; have initial masses of 40-100 Msun; and interact through mass transfer and a common envelope phase. Their progenitors likely form either at 2 Gyr, or somewhat less likely, at 11 Gyr after the Big Bang. Most binary black holes form without supernova explosions, and their spins are nearly unchanged since birth, but do not have to be parallel. The classical field formation of binary black holes proposed in this study, with low natal kicks and restricted common envelope evolution, produces 40 times more binary black holes than dynamical formation channels involving globular clusters (11) and is comparable to the rate from homogeneous evolution channels (12-15). Our calculations predict detections of about 1,000 black hole mergers per year with total mass of 20-80 Msun once second generation ground-based gravitational wave observatories reach full sensitivity.
-DA  - 2016///
-PY  - 2016
-DO  - 10.48550/ARXIV.1602.04531
-DP  - DOI.org (Datacite)
-PB  - arXiv
-UR  - https://arxiv.org/abs/1602.04531
-Y2  - 2022/12/23/21:36:22
-KW  - FOS: Physical sciences
-KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
-ER  - 
-
-TY  - JOUR
-TI  - NATURE OF THE EXTREME ULTRALUMINOUS X-RAY SOURCES
-AU  - Wiktorowicz, Grzegorz
-AU  - Sobolewska, Małgorzata
-AU  - Sa˛dowski, Aleksander
-AU  - Belczynski, Krzysztof
-T2  - The Astrophysical Journal
-DA  - 2015/08/25/
-PY  - 2015
-DO  - 10.1088/0004-637X/810/1/20
-DP  - DOI.org (Crossref)
-VL  - 810
-IS  - 1
-SP  - 20
-J2  - ApJ
-SN  - 1538-4357
-UR  - https://iopscience.iop.org/article/10.1088/0004-637X/810/1/20
-Y2  - 2022/12/23/21:36:22
-L1  - https://dspace.mit.edu/bitstream/1721.1/100049/1/Wiktorowicz-2015-NATURE%20OF%20THE%20EXTREM.pdf
-ER  - 
-
-TY  - JOUR
 TI  - Strange Quark Stars in Binaries: Formation Rates, Mergers, and Explosive Phenomena
 AU  - Wiktorowicz, G.
 AU  - Drago, A.
@@ -155,24 +116,6 @@ SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ab45e6
 Y2  - 2022/12/23/21:36:22
 L1  - https://repository.ubn.ru.nl/bitstream/2066/209230/1/209230.pdf
-ER  - 
-
-TY  - JOUR
-TI  - GRAVITATIONAL ENCOUNTERS AND THE EVOLUTION OF GALACTIC NUCLEI. III. ANOMALOUS RELAXATION
-AU  - Merritt, David
-T2  - The Astrophysical Journal
-DA  - 2015/08/24/
-PY  - 2015
-DO  - 10.1088/0004-637X/810/1/2
-DP  - DOI.org (Crossref)
-VL  - 810
-IS  - 1
-SP  - 2
-J2  - ApJ
-SN  - 1538-4357
-UR  - https://iopscience.iop.org/article/10.1088/0004-637X/810/1/2
-Y2  - 2022/12/23/21:36:22
-L1  - https://arxiv.org/pdf/1509.01263
 ER  - 
 
 TY  - JOUR
@@ -325,25 +268,6 @@ Y2  - 2022/12/23/21:36:22
 L1  - https://dro.dur.ac.uk/34177/1/34177.pdf
 ER  - 
 
-TY  - GEN
-TI  - Symmetry breaking in merging binary black holes from young massive clusters and isolated binaries
-AU  - Banerjee, Sambaran
-AU  - Olejak, Aleksandra
-AU  - Belczynski, Krzysztof
-AB  - Properties of the to-date-observed binary black hole (BBH) merger events suggest a preference towards spin-orbit aligned mergers. Naturally, this has caused widespread interest and speculations regrading implications on various merger formation channels. Here we show that (i) not only the BBH-merger population from isolated binaries, but also (ii) BBH population formed in young massive clusters (YMC) would possess an asymmetry in favour of aligned mergers, in the distribution of the events' effective spin parameter ($\chi_{\rm eff}$). In our analysis, we utilize BBH-merger outcomes from state-of-the-art N-body evolutionary models of YMCs and isolated binary population synthesis. We incorporate, for the first time in such an analysis, misalignments due to both natal kicks and dynamical encounters. The YMC $\chi_{\rm eff}$ distribution has a mean (an anti-aligned merger fraction) of $\langle\chi_{\rm eff}\rangle\leq0.04$ ($f_X-\approx40\%$), which is smaller (larger) than but consistent with the observed asymmetry of $\langle\chi_{\rm eff}\rangle\approx0.06$ ($f_X-\approx28\%$) as obtained from the population analysis by the LIGO-Virgo-KAGRA collaboration. In contrast, isolated binaries alone tend to produce a much stronger asymmetry; for the tested physical models, $\langle\chi_{\rm eff}\rangle\approx0.25$ and $f_X-\lesssim7\%$. Although the YMC $\chi_{\rm eff}$ distribution is more similar to the observed counterpart, none of the channels correctly reproduce the observed distribution. Our results suggest that further extensive model explorations for both isolated-binary and dynamical channels as well as better observational constraints are necessary to understand the physics of 'the symmetry breaking' of the BBH-merger population.
-DA  - 2023/06/13/
-PY  - 2023
-DP  - arXiv.org
-PB  - arXiv
-UR  - http://arxiv.org/abs/2302.10851
-Y2  - 2023/06/18/15:23:49
-L1  - https://arxiv.org/pdf/2302.10851.pdf
-L2  - https://arxiv.org/abs/2302.10851
-KW  - Astrophysics - Astrophysics of Galaxies
-KW  - Astrophysics - High Energy Astrophysical Phenomena
-KW  - Astrophysics - Solar and Stellar Astrophysics
-ER  - 
-
 TY  - JOUR
 TI  - Merger of Compact Stars in the Two-families Scenario
 AU  - Pietri, Roberto De
@@ -435,5 +359,146 @@ KW  - BOINC
 KW  - audit-B
 KW  - BOINC, Universe@Home, audit-B, candidate
 KW  - B20
+ER  - 
+
+TY  - JOUR
+TI  - The effect of pair-instability mass loss on black-hole mergers
+AU  - Belczynski, K.
+AU  - Heger, A.
+AU  - Gładysz, W.
+AU  - Ruiter, A. J.
+AU  - Woosley, S.
+AU  - Wiktorowicz, G.
+AU  - Chen, H.-Y.
+AU  - Bulik, T.
+AU  - O'Shaughnessy, R.
+AU  - Holz, D. E.
+AU  - Fryer, C. L.
+AU  - Berti, E.
+T2  - Astronomy & Astrophysics
+AB  - Mergers of two stellar origin black holes are a prime source of gravitational waves and are under intensive investigations. One crucial ingredient in their modeling has so far been neglected. Pair-instability pulsation supernovae with associated severe mass loss may suppress formation of massive black holes, decreasing black hole merger rates for the highest black hole masses. The mass loss associated with pair-instability pulsation supernovae limits the Population I/II stellar-origin black hole mass to 50 Msun, in tension with earlier predictions that the maximum black hole mass could be as high as 100 Msun. Suppression of double black hole merger rates by pair-instability pulsation supernovae is negligible for our evolutionary channel. Our standard evolutionary model with inclusion of pair-instability pulsation supernovae and with pair-instability supernovae is fully consistent with the LIGO detections of black hole mergers: GW150914, GW151226 and LVT151012. The LIGO observations seem to exclude high (>400 km/s) BH natal kicks. We predict the detection of several up to 60 BH-BH mergers with total mass 10--150 Msun (most likely range: 20--80 Msun) in the forthcoming 60 effective days of LIGO O2 observations.
+DA  - 2016/10/18/
+PY  - 2016
+DO  - 10.1051/0004-6361/201628980
+DP  - DOI.org (Crossref)
+VL  - 594
+SP  - A97
+J2  - A&A
+SN  - 0004-6361, 1432-0746
+UR  - https://www.aanda.org/10.1051/0004-6361/201628980
+L4  - https://arxiv.org/pdf/1607.03116
+KW  - BOINC
+ER  - 
+
+TY  - JOUR
+TI  - Spectroscopy of Kerr Black Holes with Earth- and Space-Based Interferometers
+AU  - Berti, Emanuele
+AU  - Sesana, Alberto
+AU  - Barausse, Enrico
+AU  - Cardoso, Vitor
+AU  - Belczynski, Krzysztof
+T2  - Physical Review Letters
+AB  - We estimate the potential of present and future interferometric gravitational-wave detectors to test the Kerr nature of black holes through "gravitational spectroscopy," i.e. the measurement of multiple quasinormal mode frequencies from the remnant of a black hole merger. Using population synthesis models of the formation and evolution of stellar-mass black hole binaries, we find that Voyager-class interferometers will be necessary to perform these tests. Gravitational spectroscopy in the local Universe may become routine with the Einstein Telescope, but a 40-km facility like Cosmic Explorer is necessary to go beyond $z\sim 3$. In contrast, eLISA-like detectors should carry out a few - or even hundreds - of these tests every year, depending on uncertainties in massive black hole formation models. Many space-based spectroscopical measurements will occur at high redshift, testing the strong gravity dynamics of Kerr black holes in domains where cosmological corrections to general relativity (if they occur in nature) must be significant.
+DA  - 2016/09/02/
+PY  - 2016
+DO  - 10.1103/PhysRevLett.117.101102
+DP  - DOI.org (Crossref)
+VL  - 117
+IS  - 10
+SP  - 101102
+J2  - Phys. Rev. Lett.
+LA  - en
+SN  - 0031-9007, 1079-7114
+UR  - https://doi.org/10.1103/PhysRevLett.117.101102
+L4  - https://arxiv.org/pdf/1605.09286
+KW  - BOINC
+ER  - 
+
+TY  - JOUR
+TI  - Symmetry Breaking in Merging Binary Black Holes from Young Massive Clusters and Isolated Binaries
+AU  - Banerjee, Sambaran
+AU  - Olejak, Aleksandra
+AU  - Belczynski, Krzysztof
+T2  - The Astrophysical Journal
+AB  - Properties of the to-date-observed binary black hole (BBH) merger events suggest a preference towards spin-orbit aligned mergers. Naturally, this has caused widespread interest and speculations regrading implications on various merger formation channels. Here we show that (i) not only the BBH-merger population from isolated binaries, but also (ii) BBH population formed in young massive clusters (YMC) would possess an asymmetry in favour of aligned mergers, in the distribution of the events' effective spin parameter ($\chi_{\rm eff}$). In our analysis, we utilize BBH-merger outcomes from state-of-the-art N-body evolutionary models of YMCs and isolated binary population synthesis. We incorporate, for the first time in such an analysis, misalignments due to both natal kicks and dynamical encounters. The YMC $\chi_{\rm eff}$ distribution has a mean (an anti-aligned merger fraction) of $\langle\chi_{\rm eff}\rangle\leq0.04$ ($f_X-\approx40\%$), which is smaller (larger) than but consistent with the observed asymmetry of $\langle\chi_{\rm eff}\rangle\approx0.06$ ($f_X-\approx28\%$) as obtained from the population analysis by the LIGO-Virgo-KAGRA collaboration. In contrast, isolated binaries alone tend to produce a much stronger asymmetry; for the tested physical models, $\langle\chi_{\rm eff}\rangle\approx0.25$ and $f_X-\lesssim7\%$. Although the YMC $\chi_{\rm eff}$ distribution is more similar to the observed counterpart, none of the channels correctly reproduce the observed distribution. Our results suggest that further extensive model explorations for both isolated-binary and dynamical channels as well as better observational constraints are necessary to understand the physics of 'the symmetry breaking' of the BBH-merger population.
+DA  - 2023/08/01/
+PY  - 2023
+DO  - 10.3847/1538-4357/acdd59
+DP  - DOI.org (Crossref)
+VL  - 953
+IS  - 1
+SP  - 80
+J2  - ApJ
+SN  - 0004-637X, 1538-4357
+UR  - https://doi.org/10.3847/1538-4357/acdd59
+Y2  - 2023/06/18/15:23:49
+L1  - https://arxiv.org/pdf/2302.10851.pdf
+L2  - https://arxiv.org/abs/2302.10851
+KW  - BOINC
+KW  - Astrophysics - Astrophysics of Galaxies
+ER  - 
+
+TY  - JOUR
+TI  - The first gravitational-wave source from the isolated evolution of two stars in the 40–100 solar mass range
+AU  - Belczynski, Krzysztof
+AU  - Holz, Daniel E.
+AU  - Bulik, Tomasz
+AU  - O'Shaughnessy, Richard
+T2  - Nature
+AB  - The merger of two massive 30 Msun black holes has been detected in gravitational waves (1,GW150914). This discovery validates recent predictions (2-4) that massive binary black holes would constitute the first detection. However, previous calculations have not sampled the relevant binary black hole progenitors---massive, low-metallicity binary stars---with sufficient accuracy and input physics to enable robust predictions to better than several orders of magnitude (5-10). Here we report a suite of high-precision numerical simulations of binary black hole formation via the evolution of isolated binary stars, providing a framework to interpret GW150914 and predict the properties of subsequent binary black hole gravitational-wave events. Our models imply that these events form in an environment where the metallicity is less than 10 percent of solar; have initial masses of 40-100 Msun; and interact through mass transfer and a common envelope phase. Their progenitors likely form either at 2 Gyr, or somewhat less likely, at 11 Gyr after the Big Bang. Most binary black holes form without supernova explosions, and their spins are nearly unchanged since birth, but do not have to be parallel. The classical field formation of binary black holes proposed in this study, with low natal kicks and restricted common envelope evolution, produces 40 times more binary black holes than dynamical formation channels involving globular clusters (11) and is comparable to the rate from homogeneous evolution channels (12-15). Our calculations predict detections of about 1,000 black hole mergers per year with total mass of 20-80 Msun once second generation ground-based gravitational wave observatories reach full sensitivity.
+DA  - 2016/06/23/
+PY  - 2016
+DO  - 10.1038/nature18322
+DP  - DOI.org (Crossref)
+VL  - 534
+IS  - 7608
+SP  - 512
+EP  - 515
+J2  - Nature
+LA  - en
+SN  - 0028-0836, 1476-4687
+UR  - https://doi.org/10.1038/nature18322
+Y2  - 2022/12/23/21:36:22
+KW  - FOS: Physical sciences
+KW  - BOINC
+ER  - 
+
+TY  - JOUR
+TI  - Nature of the Extreme Ultraluminous X-Ray Sources
+AU  - Wiktorowicz, Grzegorz
+AU  - Sobolewska, Małgorzata
+AU  - Sądowski, Aleksander
+AU  - Belczynski, Krzysztof
+T2  - The Astrophysical Journal
+DA  - 2015/08/25/
+PY  - 2015
+DO  - 10.1088/0004-637X/810/1/20
+DP  - DOI.org (Crossref)
+VL  - 810
+IS  - 1
+SP  - 20
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/810/1/20
+Y2  - 2022/12/23/21:36:22
+L1  - https://dspace.mit.edu/bitstream/1721.1/100049/1/Wiktorowicz-2015-NATURE%20OF%20THE%20EXTREM.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Gravitational Encounters and the Evolution of Galactic Nuclei. III. Anomalous Relaxation
+AU  - Merritt, David
+T2  - The Astrophysical Journal
+DA  - 2015/08/24/
+PY  - 2015
+DO  - 10.1088/0004-637X/810/1/2
+DP  - DOI.org (Crossref)
+VL  - 810
+IS  - 1
+SP  - 2
+J2  - ApJ
+SN  - 1538-4357
+UR  - https://iopscience.iop.org/article/10.1088/0004-637X/810/1/2
+Y2  - 2022/12/23/21:36:22
+L4  - https://arxiv.org/pdf/1509.01263
 ER  - 
 
