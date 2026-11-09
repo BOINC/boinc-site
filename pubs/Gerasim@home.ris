@@ -222,3 +222,22 @@ KW  - B05
 KW  - BOINC, ODLK1 / Gerasim@home, audit-B, confirmed
 ER  - 
 
+TY  - CONF
+TI  - Enumerating the Transversals for Diagonal Latin Squares of Small Order
+AU  - Vatutin, Eduard
+AU  - Kochemazov, Stepan
+AU  - Zaikin, Oleg
+AU  - Valyaev, Sergey
+T2  - BOINC:FAST 2017 / CEUR Workshop Proceedings
+DA  - 2017///
+PY  - 2017
+VL  - 1973
+SP  - 6
+EP  - 14
+UR  - http://ceur-ws.org/Vol-1973/paper01.pdf
+KW  - BOINC
+KW  - audit-B
+KW  - B06
+KW  - BOINC, ODLK, audit-B, strong
+ER  - 
+
