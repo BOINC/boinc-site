@@ -15,7 +15,7 @@ KW  - Number Theory (math.NT)
 ER  - 
 
 TY  - JOUR
-TI  - ON abc TRIPLES OF THE FORM (1, c − 1, c)
+TI  - On abc triples of the form (1, c − 1, c)
 AU  - Alvarez-Salazar, Elise
 AU  - Barrios, Alexander J.
 AU  - Henaku, Calvin
@@ -25,10 +25,24 @@ DA  - 2023/08/25/
 PY  - 2023
 DO  - 10.5281/zenodo.8283159
 DP  - arXiv.org
-UR  - http://arxiv.org/abs/2301.01376
+UR  - https://arxiv.org/abs/2301.01376
 Y2  - 2026/11/08/13:49:31
 L1  - http://arxiv.org/pdf/2301.01376v2
 L2  - https://arxiv.org/abs/2301.01376
 KW  - Mathematics - Number Theory
+ER  - 
+
+TY  - THES
+TI  - Radicals in Arithmetic
+AU  - Palenstijn, Willem Jan
+CY  - Leiden
+DA  - 2014/05/22/
+PY  - 2014
+PB  - Leiden University
+UR  - https://hdl.handle.net/1887/25833
+KW  - BOINC
+KW  - audit-B
+KW  - ABC@home
+KW  - strong
 ER  - 
 
