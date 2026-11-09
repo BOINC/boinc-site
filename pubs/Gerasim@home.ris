@@ -29,7 +29,7 @@ AU  - Kochemazov, Stepan
 AU  - Valyaev, Sergey
 T2  - Open Engineering
 AB  - Abstract
-            In this research, the study concerns around several features of diagonal Latin squares (DLSs) of small order. Authors of the study suggest an algorithm for computing minimal and maximal numbers of transversals of DLSs. According to this algorithm, all DLSs of a particular order are generated, and for each square all its transversals and diagonal transversals are constructed. The algorithm was implemented and applied to DLSs of order at most 7 on a personal computer. The experiment for order 8 was performed in the volunteer computing project Gerasim@home. In addition, the problem of finding pairs of orthogonal DLSs of order 10 was considered and reduced to Boolean satisfiability problem. The obtained problem turned out to be very hard, therefore it was decomposed into a family of subproblems. In order to solve the problem, the volunteer computing project SAT@home was used. As a result, several dozen pairs of described kind were found.
+In this research, the study concerns around several features of diagonal Latin squares (DLSs) of small order. Authors of the study suggest an algorithm for computing minimal and maximal numbers of transversals of DLSs. According to this algorithm, all DLSs of a particular order are generated, and for each square all its transversals and diagonal transversals are constructed. The algorithm was implemented and applied to DLSs of order at most 7 on a personal computer. The experiment for order 8 was performed in the volunteer computing project Gerasim@home. In addition, the problem of finding pairs of orthogonal DLSs of order 10 was considered and reduced to Boolean satisfiability problem. The obtained problem turned out to be very hard, therefore it was decomposed into a family of subproblems. In order to solve the problem, the volunteer computing project SAT@home was used. As a result, several dozen pairs of described kind were found.
 DA  - 2017/12/29/
 PY  - 2017
 DO  - 10.1515/eng-2017-0052
@@ -41,7 +41,7 @@ EP  - 460
 SN  - 2391-5439
 UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0052/html
 Y2  - 2022/11/13/21:38:44
-L1  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0052/pdf
+L4  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0052/pdf
 ER  - 
 
 TY  - JOUR
@@ -49,7 +49,7 @@ TI  - Comparison of Decisions Quality of Heuristic Methods with Limited Depth-Fi
 AU  - Vatutin, Eduard
 T2  - Open Engineering
 AB  - Abstract
-            The article deals with the problem of analysis of effectiveness of the heuristic methods with limited depth-first search techniques of decision obtaining in the test problem of getting the shortest path in graph. The article briefly describes the group of methods based on the limit of branches number of the combinatorial search tree and limit of analyzed subtree depth used to solve the problem. The methodology of comparing experimental data for the estimation of the quality of solutions based on the performing of computational experiments with samples of graphs with pseudo-random structure and selected vertices and arcs number using the BOINC platform is considered. It also shows description of obtained experimental results which allow to identify the areas of the preferable usage of selected subset of heuristic methods depending on the size of the problem and power of constraints. It is shown that the considered pair of methods is ineffective in the selected problem and significantly inferior to the quality of solutions that are provided by ant colony optimization method and its modification with combinatorial returns.
+The article deals with the problem of analysis of effectiveness of the heuristic methods with limited depth-first search techniques of decision obtaining in the test problem of getting the shortest path in graph. The article briefly describes the group of methods based on the limit of branches number of the combinatorial search tree and limit of analyzed subtree depth used to solve the problem. The methodology of comparing experimental data for the estimation of the quality of solutions based on the performing of computational experiments with samples of graphs with pseudo-random structure and selected vertices and arcs number using the BOINC platform is considered. It also shows description of obtained experimental results which allow to identify the areas of the preferable usage of selected subset of heuristic methods depending on the size of the problem and power of constraints. It is shown that the considered pair of methods is ineffective in the selected problem and significantly inferior to the quality of solutions that are provided by ant colony optimization method and its modification with combinatorial returns.
 DA  - 2017/12/29/
 PY  - 2017
 DO  - 10.1515/eng-2017-0041
@@ -61,7 +61,7 @@ EP  - 434
 SN  - 2391-5439
 UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0041/html
 Y2  - 2022/11/13/21:38:44
-L1  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0041/pdf
+L4  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0041/pdf
 ER  - 
 
 TY  - CHAP
@@ -202,5 +202,23 @@ J2  - Telecommunications
 SN  - 16842588
 UR  - http://www.nait.ru/journals/number.php?p_number_id=3440
 Y2  - 2023/06/28/11:33:55
+ER  - 
+
+TY  - CONF
+TI  - Applying Volunteer and Parallel Computing for Enumerating Diagonal Latin Squares of Order 9
+AU  - Vatutin, Eduard I.
+AU  - Kochemazov, Stepan E.
+AU  - Zaikin, Oleg S.
+T2  - Parallel Computational Technologies (PCT 2017)
+DA  - 2017///
+PY  - 2017
+DO  - 10.1007/978-3-319-67035-5_9
+SP  - 114
+EP  - 129
+UR  - https://doi.org/10.1007/978-3-319-67035-5_9
+KW  - BOINC
+KW  - audit-B
+KW  - B05
+KW  - BOINC, ODLK1 / Gerasim@home, audit-B, confirmed
 ER  - 
 
