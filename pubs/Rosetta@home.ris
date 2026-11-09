@@ -531,6 +531,7 @@ VL  - 104
 IS  - 37
 SP  - 14664
 EP  - 14669
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/10.1073/pnas.0703836104
 Y2  - 2022/11/11/18:08:59
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.0703836104
@@ -887,6 +888,7 @@ VL  - 370
 IS  - 6515
 SP  - 426
 EP  - 431
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/10.1126/science.abd9909
 Y2  - 2022/11/11/20:51:09
 L1  - https://www.science.org/doi/pdf/10.1126/science.abd9909
@@ -1014,6 +1016,7 @@ VL  - 103
 IS  - 11
 SP  - 4074
 EP  - 4078
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.0511295103
 Y2  - 2022/11/11/21:39:57
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.0511295103
@@ -1095,6 +1098,7 @@ IS  - 6
 SP  - e148
 J2  - PLOS Biology
 LA  - en
+PB  - Public Library of Science
 SN  - 1545-7885
 UR  - https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0040148
 Y2  - 2022/11/11/21:50:51
@@ -1156,6 +1160,7 @@ IS  - 7093
 SP  - 656
 EP  - 659
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/nature04818
 Y2  - 2022/11/11/22:24:29
@@ -1405,6 +1410,7 @@ VL  - 105
 IS  - 42
 SP  - 16148
 EP  - 16152
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.0807576105
 Y2  - 2022/11/13/15:26:34
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.0807576105
@@ -1486,6 +1492,7 @@ SP  - 1134
 EP  - 1145
 J2  - Cell
 LA  - English
+PB  - Elsevier
 SN  - 0092-8674, 1097-4172
 UR  - https://www.cell.com/cell/abstract/S0092-8674(07)01089-6
 Y2  - 2022/11/13/15:34:37
@@ -1513,6 +1520,7 @@ IS  - 10
 SP  - e146
 J2  - PLOS Computational Biology
 LA  - en
+PB  - Public Library of Science
 SN  - 1553-7358
 UR  - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020146
 Y2  - 2022/11/13/15:36:08
@@ -1549,6 +1557,7 @@ IS  - 1
 SP  - 202
 EP  - 207
 J2  - J. Am. Chem. Soc.
+PB  - American Chemical Society
 SN  - 0002-7863
 UR  - https://doi.org/10.1021/ja905934c
 Y2  - 2022/11/13/15:36:50
@@ -1581,6 +1590,7 @@ VL  - 359
 IS  - 6379
 SP  - 1042
 EP  - 1046
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/abs/10.1126/science.aaq1739
 Y2  - 2022/11/13/15:37:24
 L1  - https://europepmc.org/articles/pmc7328376?pdf=render
@@ -1626,6 +1636,7 @@ IS  - 7625
 SP  - 329
 EP  - 335
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/nature19791
 Y2  - 2022/11/13/15:40:17
@@ -1656,6 +1667,7 @@ IS  - 7503
 SP  - 103
 EP  - 108
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/nature13404
 Y2  - 2022/11/13/15:41:02
@@ -1688,6 +1700,7 @@ VL  - 353
 IS  - 6297
 SP  - 389
 EP  - 394
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/10.1126/science.aaf8818
 Y2  - 2022/11/13/15:41:45
 L1  - https://europepmc.org/articles/pmc5485857?pdf=render
@@ -1761,6 +1774,7 @@ VL  - 106
 IS  - 23
 SP  - 9215
 EP  - 9220
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.0811070106
 Y2  - 2022/11/13/15:47:56
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.0811070106
@@ -1858,6 +1872,7 @@ SP  - 291
 EP  - 294
 J2  - Nat Methods
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1548-7105
 UR  - https://www.nature.com/articles/nmeth.1433
 Y2  - 2022/11/13/15:57:52
@@ -1936,6 +1951,7 @@ IS  - 5
 SP  - e1007507
 J2  - PLOS Computational Biology
 LA  - en
+PB  - Public Library of Science
 SN  - 1553-7358
 ST  - Better together
 UR  - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007507
@@ -1974,6 +1990,7 @@ SP  - 598
 EP  - 603
 J2  - Nat Chem Biol
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1552-4469
 UR  - https://www.nature.com/articles/nchembio.1554
 Y2  - 2022/11/13/16:03:46
@@ -2075,6 +2092,7 @@ SP  - 625
 EP  - 626
 J2  - Nat Methods
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1548-7105
 ST  - CASD-NMR
 UR  - https://www.nature.com/articles/nmeth0909-625
@@ -2137,6 +2155,7 @@ IS  - 47
 SP  - 15907
 EP  - 15915
 J2  - J. Am. Chem. Soc.
+PB  - American Chemical Society
 SN  - 0002-7863
 UR  - https://doi.org/10.1021/ja804040s
 Y2  - 2022/11/13/16:07:39
@@ -2165,6 +2184,7 @@ IS  - 15
 SP  - 3378
 EP  - 3386
 J2  - Biochemistry
+PB  - American Chemical Society
 SN  - 0006-2960
 UR  - https://doi.org/10.1021/bi900057g
 Y2  - 2022/11/13/16:11:50
@@ -2221,6 +2241,7 @@ VL  - 358
 IS  - 6369
 SP  - 1461
 EP  - 1466
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/10.1126/science.aap7577
 Y2  - 2022/11/13/16:15:50
 L1  - https://europepmc.org/articles/pmc5860875?pdf=render
@@ -2270,6 +2291,7 @@ VL  - 111
 IS  - 2
 SP  - 675
 EP  - 680
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.1313605111
 Y2  - 2022/11/13/16:20:13
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.1313605111
@@ -2298,6 +2320,7 @@ VL  - 117
 IS  - 13
 SP  - 7208
 EP  - 7215
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.1914808117
 Y2  - 2022/11/13/16:20:32
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.1914808117
@@ -2334,6 +2357,7 @@ SP  - 1116
 EP  - 1126
 J2  - Structure
 LA  - English
+PB  - Elsevier
 SN  - 0969-2126
 UR  - https://www.cell.com/structure/abstract/S0969-2126(10)00262-5
 Y2  - 2022/11/13/16:22:12
@@ -2433,6 +2457,7 @@ VL  - 46
 IS  - 46
 SP  - 8803
 EP  - 8805
+PB  - The Royal Society of Chemistry
 UR  - http://dx.doi.org/10.1039/C0CC02961K
 ER  - 
 
@@ -2457,6 +2482,7 @@ VL  - 336
 IS  - 6085
 SP  - 1171
 EP  - 1174
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/10.1126/science.1219364
 Y2  - 2022/11/13/16:27:08
 L1  - https://europepmc.org/articles/pmc4138882?pdf=render
@@ -2481,6 +2507,7 @@ SP  - 17796
 EP  - 17805
 J2  - Journal of Biological Chemistry
 LA  - English
+PB  - Elsevier
 SN  - 0021-9258, 1083-351X
 UR  - https://www.jbc.org/article/S0021-9258(20)42378-6/abstract
 Y2  - 2022/11/13/16:28:06
@@ -2519,6 +2546,7 @@ VL  - 112
 IS  - 12
 SP  - 3704
 EP  - 3709
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.1500545112
 Y2  - 2022/11/13/16:28:34
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.1500545112
@@ -2552,6 +2580,7 @@ SP  - 294
 EP  - 300
 J2  - Nat Chem Biol
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1552-4469
 UR  - https://www.nature.com/articles/nchembio.777
 Y2  - 2022/11/13/16:30:16
@@ -2604,6 +2633,7 @@ VL  - 308
 IS  - 5723
 SP  - 857
 EP  - 860
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/10.1126/science.1107387
 Y2  - 2022/11/13/16:32:01
 L1  - https://europepmc.org/articles/pmc3412875?pdf=render
@@ -2626,6 +2656,7 @@ IS  - 10
 SP  - e982
 J2  - PLOS ONE
 LA  - en
+PB  - Public Library of Science
 SN  - 1932-6203
 UR  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000982
 Y2  - 2022/11/13/16:32:30
@@ -2661,6 +2692,7 @@ SP  - 167
 EP  - 174
 J2  - Nat Struct Mol Biol
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1545-9985
 UR  - https://www.nature.com/articles/nsmb.2938
 Y2  - 2022/11/13/16:35:57
@@ -2688,6 +2720,7 @@ IS  - 7764
 SP  - 251
 EP  - 256
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/s41586-019-1361-6
 Y2  - 2022/11/13/16:36:18
@@ -2749,6 +2782,7 @@ SP  - 227
 EP  - 229
 J2  - Nat Struct Mol Biol
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1545-9985
 UR  - https://www.nature.com/articles/nsmb.1964
 Y2  - 2022/11/13/17:03:51
@@ -2790,6 +2824,7 @@ IS  - 7724
 SP  - 485
 EP  - 491
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/s41586-018-0509-0
 Y2  - 2022/11/13/17:05:35
@@ -2819,6 +2854,7 @@ SP  - 29
 EP  - 34
 J2  - Nat Chem Biol
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1552-4469
 UR  - https://www.nature.com/articles/nchembio.1966
 Y2  - 2022/11/13/17:06:12
@@ -2855,6 +2891,7 @@ SP  - 1028
 EP  - 1034
 J2  - Nat Struct Mol Biol
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1545-9985
 UR  - https://www.nature.com/articles/s41594-018-0141-6
 Y2  - 2022/11/13/17:06:30
@@ -2893,6 +2930,7 @@ IS  - 7850
 SP  - 482
 EP  - 487
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/s41586-021-03258-z
 Y2  - 2022/11/13/17:06:56
@@ -2929,6 +2967,7 @@ VL  - 352
 IS  - 6286
 SP  - 680
 EP  - 687
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/10.1126/science.aad8865
 Y2  - 2022/11/13/18:34:34
 L1  - https://europepmc.org/articles/pmc5497568?pdf=render
@@ -2965,6 +3004,7 @@ VL  - 362
 IS  - 6415
 SP  - 705
 EP  - 709
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/abs/10.1126/science.aau3775
 Y2  - 2022/11/13/18:34:55
 L1  - https://digital.lib.washington.edu/researchworks/bitstream/1773/43928/1/Shen_washington_0250E_19923.pdf
@@ -2998,6 +3038,7 @@ IS  - 7610
 SP  - 136
 EP  - 139
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/nature18010
 Y2  - 2022/11/13/18:37:03
@@ -3040,6 +3081,7 @@ IS  - 1
 SP  - 2294
 J2  - Nat Commun
 LA  - en
+PB  - Nature Publishing Group
 SN  - 2041-1723
 UR  - https://www.nature.com/articles/s41467-021-22276-z
 Y2  - 2022/11/13/18:44:13
@@ -3074,6 +3116,7 @@ VL  - 109
 IS  - 27
 SP  - 10873
 EP  - 10878
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.1203013109
 Y2  - 2022/11/13/18:44:43
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.1203013109
@@ -3101,6 +3144,7 @@ IS  - 16
 SP  - 6288
 EP  - 6298
 J2  - J. Am. Chem. Soc.
+PB  - American Chemical Society
 SN  - 0002-7863
 UR  - https://doi.org/10.1021/ja111318m
 Y2  - 2022/11/13/18:45:10
@@ -3128,6 +3172,7 @@ VL  - 26
 IS  - 2
 SP  - 481
 EP  - 493
+PB  - John Wiley & Sons, Ltd
 SN  - 0261-4189
 UR  - https://www.embopress.org/doi/full/10.1038/sj.emboj.7601503
 Y2  - 2022/11/13/18:46:26
@@ -3184,6 +3229,7 @@ IS  - 10
 SP  - 4503
 EP  - 4505
 J2  - J. Phys. Chem. B
+PB  - American Chemical Society
 SN  - 1520-6106
 UR  - https://doi.org/10.1021/jp057161f
 Y2  - 2022/11/13/18:47:55
@@ -3208,6 +3254,7 @@ VL  - 107
 IS  - 42
 SP  - 17880
 EP  - 17887
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.1004728107
 Y2  - 2022/11/13/18:48:19
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.1004728107
@@ -3325,6 +3372,7 @@ IS  - 7268
 SP  - 1300
 EP  - 1304
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/nature08508
 Y2  - 2022/11/13/18:56:52
@@ -3357,6 +3405,7 @@ IS  - 7583
 SP  - 580
 EP  - 584
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/nature16162
 Y2  - 2022/11/13/18:57:09
@@ -3412,6 +3461,7 @@ VL  - 103
 IS  - 44
 SP  - 16083
 EP  - 16088
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.0607193103
 Y2  - 2022/11/13/18:58:04
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.0607193103
@@ -3474,6 +3524,7 @@ VL  - 357
 IS  - 6347
 SP  - 168
 EP  - 175
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/10.1126/science.aan0693
 Y2  - 2022/11/13/18:59:03
 L1  - https://europepmc.org/articles/pmc5568797?pdf=render
@@ -3500,6 +3551,7 @@ IS  - 1
 SP  - e16074
 J2  - PLOS ONE
 LA  - en
+PB  - Public Library of Science
 SN  - 1932-6203
 UR  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016074
 Y2  - 2022/11/13/18:59:23
@@ -3536,6 +3588,7 @@ VL  - 346
 IS  - 6208
 SP  - 481
 EP  - 485
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/abs/10.1126/science.1257481
 Y2  - 2022/11/13/18:59:55
 L1  - https://europepmc.org/articles/pmc4612401?pdf=render
@@ -3562,6 +3615,7 @@ SP  - 1735
 EP  - 1742
 J2  - Structure
 LA  - English
+PB  - Elsevier
 SN  - 0969-2126
 UR  - https://www.cell.com/structure/abstract/S0969-2126(13)00297-9
 Y2  - 2022/11/13/19:00:12
@@ -3591,6 +3645,7 @@ SP  - 741
 EP  - 746
 J2  - Nat Methods
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1548-7105
 UR  - https://www.nature.com/articles/nmeth.1492
 Y2  - 2022/11/13/19:00:28
@@ -3653,6 +3708,7 @@ SP  - 847
 EP  - 856
 J2  - Structure
 LA  - English
+PB  - Elsevier
 SN  - 0969-2126
 UR  - https://www.cell.com/structure/abstract/S0969-2126(06)00176-6
 Y2  - 2022/11/13/19:01:00
@@ -3727,6 +3783,7 @@ SP  - 1102
 EP  - 1104
 J2  - Nat Methods
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1548-7105
 UR  - https://www.nature.com/articles/nmeth.2648
 Y2  - 2022/11/13/19:05:26
@@ -3766,6 +3823,7 @@ IS  - 7348
 SP  - 540
 EP  - 543
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/nature09964
 Y2  - 2022/11/13/19:06:35
@@ -3793,6 +3851,7 @@ VL  - 117
 IS  - 3
 SP  - 1496
 EP  - 1503
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.1914677117
 Y2  - 2022/11/13/19:06:56
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.1914677117
@@ -3883,6 +3942,7 @@ VL  - 1
 IS  - 3
 SP  - e00158
 EP  - 10
+PB  - American Society for Microbiology
 UR  - https://journals.asm.org/doi/10.1128/mBio.00158-10
 Y2  - 2022/11/13/19:08:57
 L1  - https://journals.asm.org/doi/pdf/10.1128/mBio.00158-10
@@ -3915,6 +3975,7 @@ IS  - 7192
 SP  - 190
 EP  - 195
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/nature06879
 Y2  - 2022/11/13/19:09:23
@@ -3945,6 +4006,7 @@ DO  - 10.7554/eLife.09248
 DP  - eLife
 VL  - 4
 SP  - e09248
+PB  - eLife Sciences Publications, Ltd
 SN  - 2050-084X
 UR  - https://doi.org/10.7554/eLife.09248
 Y2  - 2022/11/13/19:11:55
@@ -4038,6 +4100,7 @@ AU  - Bradley, Philip
 T2  - Methods in Enzymology
 DA  - 2011///
 PY  - 2011
+DO  - 10.1016/B978-0-12-381270-4.00019-6
 DP  - DOI.org (Crossref)
 VL  - 487
 SP  - 545
@@ -5104,6 +5167,7 @@ A3  - Walker, John M.
 CY  - Totowa, NJ
 DA  - 2008///
 PY  - 2008
+DO  - 10.1007/978-1-60327-058-8_33
 DP  - DOI.org (Crossref)
 VL  - 426
 SP  - 497
@@ -5481,6 +5545,7 @@ AB  - ABSTRACT
             design of new macrocyclic peptides. We extensively sampled the structural diversity of cyclic peptides between 7–13 amino acids, and identified around 10,000 unique design candidates predicted to fold into the designed structures with high confidence. X-ray crystal structures for seven sequences with diverse sizes and structures designed by our approach match very closely with the design models (root mean squared deviation < 1.0 Å), highlighting the atomic level accuracy in our approach. The computational methods and scaffolds developed here provide the basis for custom-designing peptides for targeted therapeutic applications.
 DA  - 2023/02/26/
 PY  - 2023
+DO  - 10.1101/2023.02.25.529956
 DP  - DOI.org (Crossref)
 LA  - en
 M3  - preprint
@@ -5899,6 +5964,7 @@ VL  - 187
 IS  - 16
 SP  - 4305
 EP  - 4317.e18
+PB  - Elsevier
 SN  - 0092-8674
 UR  - https://doi.org/10.1016/j.cell.2024.05.052
 Y2  - 2024/12/26/
@@ -6081,6 +6147,7 @@ IS  - 5
 SP  - 1125
 EP  - 1130
 J2  - ACS Chem. Biol.
+PB  - American Chemical Society
 SN  - 1554-8929
 UR  - https://doi.org/10.1021/acschembio.4c00076
 ER  - 
@@ -6435,6 +6502,7 @@ IS  - 3
 SP  - 2054
 EP  - 2061
 J2  - J. Am. Chem. Soc.
+PB  - American Chemical Society
 SN  - 0002-7863
 UR  - https://doi.org/10.1021/jacs.3c10941
 ER  - 
@@ -6708,6 +6776,7 @@ IS  - 1
 SP  - 8064
 J2  - Nat Commun
 LA  - en
+PB  - Nature Publishing Group
 SN  - 2041-1723
 UR  - https://www.nature.com/articles/s41467-023-43718-w
 Y2  - 2024/12/26/16:20:17
@@ -6789,6 +6858,7 @@ SP  - 1556
 EP  - 1563
 J2  - Nat. Mater.
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4660
 UR  - https://www.nature.com/articles/s41563-023-01683-1
 Y2  - 2024/12/26/16:27:13
@@ -6825,6 +6895,7 @@ SP  - 1755
 EP  - 1760
 J2  - Nat Struct Mol Biol
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1545-9985
 UR  - https://www.nature.com/articles/s41594-023-01112-6
 Y2  - 2024/12/26/16:28:07
@@ -7094,6 +7165,7 @@ IS  - 7976
 SP  - 1089
 EP  - 1100
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/s41586-023-06415-8
 Y2  - 2024/12/26/16:42:50
@@ -7163,6 +7235,7 @@ VL  - 380
 IS  - 6642
 SP  - 266
 EP  - 273
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/10.1126/science.adf6591
 Y2  - 2024/12/26/16:59:26
 ER  - 
@@ -7201,6 +7274,7 @@ IS  - 7957
 SP  - 581
 EP  - 589
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/s41586-023-05909-9
 Y2  - 2024/12/26/17:02:11
@@ -7236,6 +7310,7 @@ DP  - pnas.org (Atypon)
 VL  - 120
 IS  - 11
 SP  - e2207974120
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/10.1073/pnas.2207974120
 Y2  - 2024/12/26/17:06:01
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2207974120
@@ -7272,6 +7347,7 @@ IS  - 7949
 SP  - 774
 EP  - 780
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/s41586-023-05696-3
 Y2  - 2024/12/26/17:09:03
@@ -7298,6 +7374,7 @@ DP  - pnas.org (Atypon)
 VL  - 120
 IS  - 9
 SP  - e2216697120
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/10.1073/pnas.2216697120
 Y2  - 2024/12/26/17:11:06
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2216697120
@@ -7361,6 +7438,7 @@ SP  - 1266
 EP  - 1276
 J2  - Nat Struct Mol Biol
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1545-9985
 UR  - https://www.nature.com/articles/s41594-022-00879-4
 Y2  - 2024/12/26/17:59:02
@@ -7471,6 +7549,7 @@ VL  - 185
 IS  - 19
 SP  - 3520
 EP  - 3532.e26
+PB  - Elsevier
 SN  - 0092-8674
 UR  - https://doi.org/10.1016/j.cell.2022.07.019
 Y2  - 2024/12/26/
@@ -7498,6 +7577,7 @@ DP  - pnas.org (Atypon)
 VL  - 119
 IS  - 30
 SP  - e2113400119
+PB  - Proceedings of the National Academy of Sciences
 UR  - https://www.pnas.org/doi/full/10.1073/pnas.2113400119
 Y2  - 2024/12/26/19:51:44
 L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2113400119
@@ -7539,6 +7619,7 @@ VL  - 377
 IS  - 6604
 SP  - 387
 EP  - 394
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/10.1126/science.abn2100
 Y2  - 2024/12/26/20:08:49
 L1  - https://pmc.ncbi.nlm.nih.gov/articles/PMC9621694/pdf/nihms-1830590.pdf
@@ -7568,6 +7649,7 @@ DP  - science.org (Atypon)
 VL  - 375
 IS  - 6578
 SP  - eabj7662
+PB  - American Association for the Advancement of Science
 UR  - https://www.science.org/doi/10.1126/science.abj7662
 Y2  - 2024/12/27/13:14:17
 L1  - https://pmc.ncbi.nlm.nih.gov/articles/PMC9881579/pdf/nihms-1843281.pdf
@@ -7589,6 +7671,7 @@ SP  - 13
 EP  - 14
 J2  - Nat Methods
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1548-7105
 UR  - https://www.nature.com/articles/s41592-021-01360-8
 Y2  - 2024/12/27/13:24:17
@@ -7644,6 +7727,7 @@ IS  - 7910
 SP  - 551
 EP  - 560
 LA  - en
+PB  - Nature Publishing Group
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/s41586-022-04654-9
 Y2  - 2024/12/27/13:28:49
@@ -7724,5 +7808,31 @@ SN  - 1946-6234, 1946-6242
 UR  - https://www.science.org/doi/10.1126/scitranslmed.abn1252
 Y2  - 2024/12/27/13:30:11
 L1  - https://pmc.ncbi.nlm.nih.gov/articles/PMC8282097/pdf/nihpp-2021.07.07.451375v1.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Using experimental results of protein design to guide biomolecular energy-function development
+AU  - Haddox, Hugh K.
+AU  - Rocklin, Gabriel J.
+AU  - Motta, Francis C.
+AU  - Strickland, Devin
+AU  - Halabiya, Samer F.
+AU  - Cordray, Cameron
+AU  - Park, Hahnbeom
+AU  - Klavins, Eric
+AU  - Baker, David
+AU  - DiMaio, Frank
+T2  - PLOS Computational Biology
+DA  - 2026///
+PY  - 2026
+DO  - 10.1371/journal.pcbi.1014215
+VL  - 22
+IS  - 4
+SP  - e1014215
+UR  - https://doi.org/10.1371/journal.pcbi.1014215
+KW  - BOINC
+KW  - audit-C
+KW  - BOINC, Rosetta@home, audit-C, confirmed
+KW  - C01
 ER  - 
 
