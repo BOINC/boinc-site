@@ -331,3 +331,22 @@ UR  - http://ieeexplore.ieee.org/document/5338255/
 Y2  - 2023/05/28/15:55:53
 ER  - 
 
+TY  - JOUR
+TI  - Study of the Network Impact on Earthquake Early Warning in the Quake-catcher Network Project
+AU  - Portnoi, Marcos
+AU  - Schlachter, Samuel
+AU  - Taufer, Michela
+T2  - Procedia Computer Science
+DA  - 2014///
+PY  - 2014
+DO  - 10.1016/j.procs.2014.05.041
+VL  - 29
+SP  - 453
+EP  - 464
+UR  - https://doi.org/10.1016/j.procs.2014.05.041
+KW  - BOINC
+KW  - audit-B
+KW  - B17
+KW  - BOINC, Quake-Catcher Network, audit-B, candidate
+ER  - 
+
