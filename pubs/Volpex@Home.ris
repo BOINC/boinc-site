@@ -35,17 +35,17 @@ SP  - 331
 EP  - 335
 UR  - https://ieeexplore.ieee.org/document/7515706
 L2  - https://ieeexplore.ieee.org/document/7515706
+KW  - Computational modeling
+KW  - Servers
+KW  - volunteer computing
 KW  - checkpointing
 KW  - Checkpointing
-KW  - Computational modeling
 KW  - Computer applications
 KW  - Distributed processing
 KW  - Exponential distribution
 KW  - Fault tolerant execution
 KW  - Mathematical model
 KW  - PC grids
-KW  - Servers
-KW  - volunteer computing
 ER  - 
 
 TY  - CONF
@@ -66,13 +66,13 @@ EP  - 56
 UR  - https://ieeexplore.ieee.org/document/7284289
 L1  - https://uh-ir.tdl.org/uh-ir/bitstream/handle/10657/528/ISLAM-THESIS-2013.pdf%3Bjsessionid%3DC025890B36E921890AC4A743C44FB088?sequence%3D1
 L2  - https://ieeexplore.ieee.org/document/7284289
-KW  - Benchmark testing
+KW  - Servers
 KW  - Computer applications
 KW  - Distributed processing
+KW  - Benchmark testing
 KW  - Fault tolerance
 KW  - Object recognition
 KW  - Optimization
-KW  - Servers
 ER  - 
 
 TY  - CONF
@@ -123,6 +123,7 @@ UR  - https://ieeexplore.ieee.org/document/5948604
 L1  - https://www2.cs.uh.edu/%7Ejaspal/papers/11ccgrid.pdf
 L2  - https://ieeexplore.ieee.org/document/5948604
 KW  - Computational modeling
+KW  - Servers
 KW  - Desktop Grids
 KW  - Fault Tolerance
 KW  - Fault tolerant systems
@@ -131,7 +132,6 @@ KW  - Parallel execution
 KW  - Programming
 KW  - Redundancy
 KW  - Redundant Computation
-KW  - Servers
 KW  - Volunteer Computing
 ER  - 
 
@@ -163,6 +163,7 @@ A3  - Weikum, Gerhard
 CY  - Berlin, Heidelberg
 DA  - 2010///
 PY  - 2010
+DO  - 10.1007/978-3-642-15646-5_21
 DP  - DOI.org (Crossref)
 VL  - 6305
 SP  - 198
@@ -224,6 +225,7 @@ A3  - Weikum, Gerhard
 CY  - Berlin, Heidelberg
 DA  - 2010///
 PY  - 2010
+DO  - 10.1007/978-3-642-13374-9_1
 DP  - DOI.org (Crossref)
 VL  - 5898
 SP  - 1
@@ -248,6 +250,7 @@ A2  - Dongarra, Jack
 CY  - Berlin, Heidelberg
 DA  - 2009///
 PY  - 2009
+DO  - 10.1007/978-3-642-03770-2_19
 DP  - DOI.org (Crossref)
 VL  - 5759
 SP  - 124
@@ -257,5 +260,44 @@ SN  - 978-3-642-03769-6 978-3-642-03770-2
 ST  - VolpexMPI
 UR  - http://link.springer.com/10.1007/978-3-642-03770-2_19
 Y2  - 2022/12/28/22:03:18
+ER  - 
+
+TY  - CONF
+TI  - Estimation of MPI Application Performance on Volunteer Environments
+AU  - Nandagudi, Girish
+AU  - Subhlok, Jaspal
+AU  - Gabriel, Edgar
+AU  - Gimenez, Judit
+T2  - Euro-Par 2011: Parallel Processing Workshops
+DA  - 2012///
+PY  - 2012
+DO  - 10.1007/978-3-642-29737-3_56
+SP  - 511
+EP  - 520
+UR  - https://doi.org/10.1007/978-3-642-29737-3_56
+KW  - BOINC
+KW  - audit-B
+KW  - B22
+KW  - BOINC, Volpex@Home, audit-B, candidate
+ER  - 
+
+TY  - JOUR
+TI  - A Robust and Efficient Message Passing Library for Volunteer Computing Environments
+AU  - Anand, Rakhi
+AU  - LeBlanc, Troy
+AU  - Gabriel, Edgar
+AU  - Subhlok, Jaspal
+T2  - Journal of Grid Computing
+DA  - 2011///
+PY  - 2011
+DO  - 10.1007/s10723-010-9172-x
+VL  - 9
+SP  - 325
+EP  - 344
+UR  - https://doi.org/10.1007/s10723-010-9172-x
+KW  - BOINC
+KW  - audit-B
+KW  - BOINC, Volpex@Home, audit-B, candidate
+KW  - B23
 ER  - 
 
