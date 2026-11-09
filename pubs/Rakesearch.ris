@@ -156,6 +156,7 @@ A2  - Shagaliev, Rashit
 CY  - Cham
 DA  - 2023///
 PY  - 2023
+DO  - 10.1007/978-3-031-49435-2_4
 DP  - DOI.org (Crossref)
 VL  - 14389
 SP  - 48
@@ -165,5 +166,44 @@ PB  - Springer Nature Switzerland
 SN  - 978-3-031-49434-5 978-3-031-49435-2
 UR  - https://link.springer.com/10.1007/978-3-031-49435-2_4
 Y2  - 2025/01/26/17:40:10
+ER  - 
+
+TY  - CONF
+TI  - Simulation of Volunteer Computing in a Desktop Grid System
+AU  - Petrenko, Ksenia
+AU  - Kurochkin, Ilya
+T2  - Supercomputing (RuSCDays 2024)
+DA  - 2025///
+PY  - 2025
+DO  - 10.1007/978-3-031-78462-0_9
+SP  - 120
+EP  - 134
+UR  - https://doi.org/10.1007/978-3-031-78462-0_9
+KW  - BOINC
+KW  - audit-B
+KW  - B07
+KW  - BOINC, RakeSearch, audit-B, strong
+ER  - 
+
+TY  - CONF
+TI  - Construction of the spectra of intercalates number in the Latin squares of orders 18-28 using volunteer distributed computing in the BOINC platform
+AU  - Vatutin, E. I.
+AU  - Jia, Wei-Ting
+AU  - Ma, Jun Chi
+AU  - Miao, Qiang
+AU  - Manzyk, M. O.
+AU  - Kukushkina, N. N.
+AU  - Kurochkin, I. I.
+AU  - Albertyan, A. M.
+T2  - Recognition 2025 (in press)
+DA  - 2025///
+PY  - 2025
+SP  - 33
+EP  - 34
+UR  - https://evatutin.narod.ru/kvt/recogn2025.pdf
+KW  - BOINC
+KW  - audit-B
+KW  - BOINC, RakeSearch, audit-B, strong
+KW  - B08
 ER  - 
 
