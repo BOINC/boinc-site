@@ -45,6 +45,7 @@ DA  - 2018///
 PY  - 2018
 DO  - 10.48550/ARXIV.1812.10065
 DP  - DOI.org (Datacite)
+PB  - arXiv
 UR  - https://arxiv.org/abs/1812.10065
 Y2  - 2022/12/23/21:36:22
 KW  - FOS: Physical sciences
@@ -83,6 +84,7 @@ DA  - 2016///
 PY  - 2016
 DO  - 10.48550/ARXIV.1602.04531
 DP  - DOI.org (Datacite)
+PB  - arXiv
 UR  - https://arxiv.org/abs/1602.04531
 Y2  - 2022/12/23/21:36:22
 KW  - FOS: Physical sciences
@@ -340,5 +342,98 @@ L2  - https://arxiv.org/abs/2302.10851
 KW  - Astrophysics - Astrophysics of Galaxies
 KW  - Astrophysics - High Energy Astrophysical Phenomena
 KW  - Astrophysics - Solar and Stellar Astrophysics
+ER  - 
+
+TY  - JOUR
+TI  - Merger of Compact Stars in the Two-families Scenario
+AU  - Pietri, Roberto De
+AU  - Drago, Alessandro
+AU  - Feo, Alessandra
+AU  - Pagliara, Giuseppe
+AU  - Pasquali, Michele
+AU  - Traversi, Silvia
+AU  - Wiktorowicz, Grzegorz
+T2  - The Astrophysical Journal
+DA  - 2019///
+PY  - 2019
+DO  - 10.3847/1538-4357/ab2fd0
+VL  - 881
+IS  - 2
+SP  - 122
+UR  - https://doi.org/10.3847/1538-4357/ab2fd0
+KW  - BOINC
+KW  - audit-B
+KW  - B18
+KW  - BOINC, Universe@Home, audit-B, candidate
+ER  - 
+
+TY  - JOUR
+TI  - Double neutron stars: merger rates revisited
+AU  - Chruslinska, Martyna
+AU  - Belczynski, Krzysztof
+AU  - Klencki, Jakub
+AU  - Benacquista, Matthew
+T2  - Monthly Notices of the Royal Astronomical Society
+DA  - 2018///
+PY  - 2018
+DO  - 10.1093/mnras/stx2923
+VL  - 474
+IS  - 3
+SP  - 2937
+EP  - 2958
+UR  - https://doi.org/10.1093/mnras/stx2923
+KW  - BOINC
+KW  - audit-B
+KW  - BOINC, Universe@Home, audit-B, candidate
+KW  - B19
+ER  - 
+
+TY  - JOUR
+TI  - Evolutionary roads leading to low effective spins, high black hole masses, and O1/O2 rates for LIGO/Virgo binary black holes
+AU  - Belczynski, K.
+AU  - Klencki, J.
+AU  - Fields, C. E.
+AU  - Olejak, A.
+AU  - Berti, E.
+AU  - Meynet, G.
+AU  - Fryer, C. L.
+AU  - Holz, D. E.
+AU  - O’Shaughnessy, R.
+AU  - Brown, D. A.
+AU  - Bulik, T.
+AU  - Leung, S. C.
+AU  - Nomoto, K.
+AU  - Madau, P.
+AU  - Hirschi, R.
+AU  - Kaiser, E.
+AU  - Jones, S.
+AU  - Mondal, S.
+AU  - Chruslinska, M.
+AU  - Drozda, P.
+AU  - Gerosa, D.
+AU  - Doctor, Z.
+AU  - Giersz, M.
+AU  - Ekstrom, S.
+AU  - Georgy, C.
+AU  - Askar, A.
+AU  - Baibhav, V.
+AU  - Wysocki, D.
+AU  - Natan, T.
+AU  - Farr, W. M.
+AU  - Wiktorowicz, G.
+AU  - Coleman Miller, M.
+AU  - Farr, B.
+AU  - Lasota, J.-P.
+T2  - Astronomy & Astrophysics
+DA  - 2020///
+PY  - 2020
+DO  - 10.1051/0004-6361/201936528
+VL  - 636
+SP  - A104
+UR  - https://doi.org/10.1051/0004-6361/201936528
+KW  - BOINC
+KW  - audit-B
+KW  - BOINC, Universe@Home, audit-B, candidate
+KW  - B20
 ER  - 
 
