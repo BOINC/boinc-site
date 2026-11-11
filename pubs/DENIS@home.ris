@@ -16,6 +16,8 @@ PB  - IEEE
 SN  - 978-1-5090-1663-1
 UR  - http://ieeexplore.ieee.org/document/7536443/
 Y2  - 2022/11/11/14:48:16
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "In this work we present DENIS@Home, a simulation platform that follows the Volunteer Computing paradigm. DENIS@Home is based on BOINC, a volunteer computer environment used worldwide, and on CellML, an open standard for mathematical modeling." Section II, verbatim: "DENIS is built upon two different projects. The first one is BOINC, a pioneering resource for volunteer computing that serves as basis for different projects." | Full text: author-uploaded WETICE 2016 full text on ResearchGate (publication 306064056) | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -38,7 +40,9 @@ SN  - 1932-6203
 ST  - DENIS
 UR  - https://dx.plos.org/10.1371/journal.pone.0205568
 Y2  - 2022/11/11/14:48:16
-L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0205568&type=printable
+L4  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0205568&type=printable
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Introduction, verbatim: "We presented the DENIS project (Distributed computing, Electrophysiological models, Networking collaboration, In silico research, Sharing knowledge) [11], which is based on the Berkeley Open Infrastructure for Network Computing (BOINC) platform [12]." Methods, verbatim: "Volunteers need to install the BOINC client to join the project. Once the BOINC client is installed, volunteers must select DENIS from the list of BOINC projects provided by the client." | Full text: PLOS ONE 13(10):e0205568 open-access publisher PDF | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -59,7 +63,9 @@ LA  - en
 SN  - 00063495
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S0006349516332131
 Y2  - 2022/11/11/14:48:16
-L1  - https://www.cell.com/article/S0006349516332131/pdf
+L4  - https://www.cell.com/article/S0006349516332131/pdf
+N1  - <div data-schema-version="9"><p>The DENIS@home projects own publications page lists it under the heading Research results from DENIS@home. The Carro 2019 PhD thesis states that the CRLP model was exported to C++ and included in the DENIS project application. | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - THES
@@ -71,6 +77,8 @@ PY  - 2019
 DP  - ResearchGate
 UR  - https://zaguan.unizar.es/record/78866
 L4  - https://www.researchgate.net/publication/331487397_New_Methodologies_for_the_Development_and_Validation_of_Electrophysiological_Models/citation/download
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Methods, verbatim: "For the simulations, the model was exported to C++ and included in the application of the DENIS project (http://denis.usj.es)." Also verbatim: "The original code of the DENIS application can be found here: https://bitbucket.org/usj_bsicos/denis-myocyte/src/beta_v1.0/." | Full text: Universidad de Zaragoza repository, TESIS-2019-067.pdf (220 pp.) | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -90,7 +98,9 @@ J2  - Jorn. jovenes investig. I3A
 SN  - 2341-4790
 UR  - https://papiro.unizar.es/ojs/index.php/jji3a/article/view/7021
 Y2  - 2023/05/28/12:50:00
-L1  - https://papiro.unizar.es/ojs/index.php/jji3a/article/download/7021/5804
+L4  - https://papiro.unizar.es/ojs/index.php/jji3a/article/download/7021/5804
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Methods (Spanish), verbatim: "Todas las simulaciones fueron realizadas con el simulador de electrofisiologia cardiaca DENIS [9]. Se utilizo el metodo de Fordward Euler para la integracion numerica con un paso de 0.002 ms." (English translation: All simulations were performed with the DENIS cardiac electrophysiology simulator.) | PARTIAL EVIDENCE / INDIRECT CHAIN: the paper has zero occurrences of BOINC but DENIS is BOINC-based - quoted verbatim in the PLOS ONE record (10.1371/journal.pone.0205568). | Full text: Jornada de Jovenes Investigadores del I3A 10 (2022), publisher PDF via OJS | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - CONF
@@ -106,7 +116,9 @@ DO  - 10.22489/CinC.2022.228
 DP  - DOI.org (Crossref)
 UR  - https://www.cinc.org/archives/2022/pdf/CinC2022-228.pdf
 Y2  - 2024/02/08/11:59:44
-L1  - https://doi.org/10.22489/cinc.2022.228
+L4  - https://doi.org/10.22489/cinc.2022.228
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Methods/acknowledgements, verbatim: "Computations were carried out in DENIS (Volunteer Computer platform supported by Universidad San Jorge through Proyectos Internos 2021-22)." Also verbatim: "All simulations were ran using the cardiac electrophysiology simulator DENIS [10]." | PARTIAL EVIDENCE / INDIRECT CHAIN: no BOINC occurrence in the paper; DENIS is BOINC-based - quoted verbatim in the PLOS ONE record (10.1371/journal.pone.0205568). | Full text: Computing in Cardiology 2022, CinC2022-228.pdf | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - CONF
@@ -119,6 +131,8 @@ T2  - CASEIB 2021
 DA  - 2021///
 PY  - 2021
 UR  - https://seib.org.es/descarga/libro-de-actas-caseib-2021/?wpdmdl=3382
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Methods (Spanish), verbatim: "Las simulaciones se llevaron a cabo utilizando DENIS [15], un simulador de electrofisiologia cardiaca basado en el estandar CellML, que utiliza una red de computacion voluntaria." (English translation: The simulations were carried out using DENIS [15], a cardiac electrophysiology simulator based on the CellML standard, which uses a volunteer computing network.) | PARTIAL EVIDENCE / INDIRECT CHAIN: no BOINC occurrence in the paper, but DENIS is BOINC-based. quoted verbatim in the PLOS ONE record (10.1371/journal.pone.0205568). | Source note: this is the authors contribution inside the 229-page CASEIB 2021 Libro de Actas; the quoted sentence is from that contribution. | Full text: CASEIB 2021 Libro de Actas (Libro-de-actas-Caseib-2021.pdf) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - BOINC
 KW  - audit-B
 KW  - B24
