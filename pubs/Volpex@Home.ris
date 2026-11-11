@@ -16,6 +16,8 @@ LA  - en
 SN  - 1532-0626, 1532-0634
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/cpe.4478
 Y2  - 2022/12/28/21:46:21
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Section 6.1 Evaluation testbed, verbatim: "For the results presented in this paper, the codes were executed on a volunteer environment managed by BOINC middleware consisting of cluster nodes from University of Houston and a substantial number of volunteer nodes from around the world." Section 6, verbatim: "The execution management system is integrated with the Volpex Dataspace system and the BOINC scheduler." Summary, verbatim: "Extensive evaluation is conducted with example scientific codes on a pool of around 600 volunteer hosts." | Full text: Wiley / author-uploaded publisher PDF, 19 pp. (DOI 10.1002/cpe.4478) | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - CONF
@@ -35,6 +37,8 @@ SP  - 331
 EP  - 335
 UR  - https://ieeexplore.ieee.org/document/7515706
 L2  - https://ieeexplore.ieee.org/document/7515706
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Framework section, verbatim: "Volpex employs BOINC [5], [4], a well-known middleware for running scientific applications over volunteer nodes, for the basic control and management of execution." Platform for experiments, verbatim: "Experiments were performed on a testbed of volunteer nodes managed by BOINC and Volpex. The testbed consisted of approximately 350 active volunteer nodes." | Source note: the full text is arXiv:1603.03502, the authors longer version of the CCGrid 2016 short paper (the arXiv comments state it was accepted at CCGrid 2016). | Full text: arXiv:1603.03502 full text (longer author version of the CCGrid 2016 paper) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - Computational modeling
 KW  - Servers
 KW  - volunteer computing
@@ -64,8 +68,10 @@ DP  - IEEE Xplore
 SP  - 46
 EP  - 56
 UR  - https://ieeexplore.ieee.org/document/7284289
-L1  - https://uh-ir.tdl.org/uh-ir/bitstream/handle/10657/528/ISLAM-THESIS-2013.pdf%3Bjsessionid%3DC025890B36E921890AC4A743C44FB088?sequence%3D1
 L2  - https://ieeexplore.ieee.org/document/7284289
+L4  - https://uh-ir.tdl.org/uh-ir/bitstream/handle/10657/528/ISLAM-THESIS-2013.pdf%3Bjsessionid%3DC025890B36E921890AC4A743C44FB088?sequence%3D1
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Section I Introduction, verbatim: "BOINC [4], the de facto middleware for volunteer computing on public PCs, has been remarkably successful and is supporting over 60 scientific research projects." Also verbatim: "The environment is integrated with the BOINC [4] system, allowing execution on clusters as well as distributed volunteer PCs." Section III, verbatim: "The Volpex execution environment is integrated with the BOINC system for volunteer computing and is presented in [20]." | Full text: author-uploaded IPDPSW 2015 full text on ResearchGate (publication 308604971) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - Servers
 KW  - Computer applications
 KW  - Distributed processing
@@ -98,6 +104,8 @@ SN  - 978-1-4673-2508-0 978-0-7695-4796-1
 UR  - http://ieeexplore.ieee.org/document/6337577/
 Y2  - 2022/12/28/21:50:56
 L1  - https://www2.cs.uh.edu/~jaspal/papers/12icpp.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Method, verbatim: "The Volpex execution framework is integrated with the BOINC middleware that is used for the basic management of volunteer hosts." Also verbatim: "Some of the runtime features, in particular node selection, are implemented by modifying the BOINC framework." Testbed, verbatim: "For the results presented in this paper, the codes were executed on a volunteer environment managed by BOINC middleware consisting of clusters and desktops from UH Computer Science Labs" | Full text: ICPP 2012 author PDF (www2.cs.uh.edu/~jaspal/papers/12icpp.pdf) | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - CONF
@@ -122,6 +130,8 @@ EP  - 143
 UR  - https://ieeexplore.ieee.org/document/5948604
 L1  - https://www2.cs.uh.edu/%7Ejaspal/papers/11ccgrid.pdf
 L2  - https://ieeexplore.ieee.org/document/5948604
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Introduction, verbatim: "The dataspace API communication is integrated with BOINC framework for a comprehensive solution to parallel computing on volunteer nodes." Also verbatim: "The Berkeley Open Infrastructure for Network Computing (BOINC) [2] is a middleware system widely used for volunteer computing where people donate the use of their computers to help scientific research." | Full text: CCGrid 2011 author PDF (www2.cs.uh.edu/~jaspal/papers/11ccgrid.pdf) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - Computational modeling
 KW  - Servers
 KW  - Desktop Grids
@@ -133,66 +143,6 @@ KW  - Programming
 KW  - Redundancy
 KW  - Redundant Computation
 KW  - Volunteer Computing
-ER  - 
-
-TY  - CHAP
-TI  - Communication Target Selection for Replicated MPI Processes
-AU  - Anand, Rakhi
-AU  - Gabriel, Edgar
-AU  - Subhlok, Jaspal
-T2  - Recent Advances in the Message Passing Interface
-A2  - Keller, Rainer
-A2  - Gabriel, Edgar
-A2  - Resch, Michael
-A2  - Dongarra, Jack
-A3  - Hutchison, David
-A3  - Kanade, Takeo
-A3  - Kittler, Josef
-A3  - Kleinberg, Jon M.
-A3  - Mattern, Friedemann
-A3  - Mitchell, John C.
-A3  - Naor, Moni
-A3  - Nierstrasz, Oscar
-A3  - Pandu Rangan, C.
-A3  - Steffen, Bernhard
-A3  - Sudan, Madhu
-A3  - Terzopoulos, Demetri
-A3  - Tygar, Doug
-A3  - Vardi, Moshe Y.
-A3  - Weikum, Gerhard
-CY  - Berlin, Heidelberg
-DA  - 2010///
-PY  - 2010
-DO  - 10.1007/978-3-642-15646-5_21
-DP  - DOI.org (Crossref)
-VL  - 6305
-SP  - 198
-EP  - 207
-PB  - Springer Berlin Heidelberg
-SN  - 978-3-642-15645-8 978-3-642-15646-5
-UR  - http://link.springer.com/10.1007/978-3-642-15646-5_21
-Y2  - 2022/12/28/21:54:48
-ER  - 
-
-TY  - CONF
-TI  - A High-Level Interpreted MPI Library for Parallel Computing in Volunteer Environments
-AU  - LeBlanc, Troy P.
-AU  - Subhlok, Jaspal
-AU  - Gabriel, Edgar
-T2  - 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing
-C1  - Melbourne, Australia
-C3  - 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing
-DA  - 2010///
-PY  - 2010
-DO  - 10.1109/CCGRID.2010.85
-DP  - DOI.org (Crossref)
-SP  - 673
-EP  - 678
-PB  - IEEE
-SN  - 978-1-4244-6987-1
-UR  - http://ieeexplore.ieee.org/document/5493405/
-Y2  - 2022/12/28/21:57:49
-L1  - https://www2.cs.uh.edu/%7Ejaspal/papers/10ccgrid.pdf
 ER  - 
 
 TY  - CHAP
@@ -235,50 +185,8 @@ SN  - 978-3-642-13373-2 978-3-642-13374-9
 UR  - http://link.springer.com/10.1007/978-3-642-13374-9_1
 Y2  - 2022/12/28/22:01:38
 L1  - https://www2.cs.uh.edu/~jaspal/papers/09lcpc.pdf
-ER  - 
-
-TY  - CHAP
-TI  - VolpexMPI: An MPI Library for Execution of Parallel Applications on Volatile Nodes
-AU  - LeBlanc, Troy
-AU  - Anand, Rakhi
-AU  - Gabriel, Edgar
-AU  - Subhlok, Jaspal
-T2  - Recent Advances in Parallel Virtual Machine and Message Passing Interface
-A2  - Ropo, Matti
-A2  - Westerholm, Jan
-A2  - Dongarra, Jack
-CY  - Berlin, Heidelberg
-DA  - 2009///
-PY  - 2009
-DO  - 10.1007/978-3-642-03770-2_19
-DP  - DOI.org (Crossref)
-VL  - 5759
-SP  - 124
-EP  - 133
-PB  - Springer Berlin Heidelberg
-SN  - 978-3-642-03769-6 978-3-642-03770-2
-ST  - VolpexMPI
-UR  - http://link.springer.com/10.1007/978-3-642-03770-2_19
-Y2  - 2022/12/28/22:03:18
-ER  - 
-
-TY  - CONF
-TI  - Estimation of MPI Application Performance on Volunteer Environments
-AU  - Nandagudi, Girish
-AU  - Subhlok, Jaspal
-AU  - Gabriel, Edgar
-AU  - Gimenez, Judit
-T2  - Euro-Par 2011: Parallel Processing Workshops
-DA  - 2012///
-PY  - 2012
-DO  - 10.1007/978-3-642-29737-3_56
-SP  - 511
-EP  - 520
-UR  - https://doi.org/10.1007/978-3-642-29737-3_56
-KW  - BOINC
-KW  - audit-B
-KW  - B22
-KW  - BOINC, Volpex@Home, audit-B, candidate
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Section 5.6, verbatim: "This project has leveraged BOINC for management of task distribution and redundancy on volatile nodes, while applying the Volpex dataspace API for inter-task communication. When an application is compiled, it is linked with the BOINC and Volpex libraries." Abstract, verbatim: "The communication framework is being integrated with BOINC framework for volunteer computing and target applications include Replica Exchange Molecular Dynamics and MapReduce." | Full text: LCPC 2009 author PDF (09lcpc.pdf) | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -295,6 +203,8 @@ VL  - 9
 SP  - 325
 EP  - 344
 UR  - https://doi.org/10.1007/s10723-010-9172-x
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - &nbsp;Springer publisher abstract, verbatim: "The objective of this research is to convert ordinary idle PCs into virtual clusters for executing parallel applications. The paper presents VolpexMPI that is designed to enable seamless forward application progress in the presence of frequent node failures as well as dynamically changing networks and node execution speeds." Publisher reference list, verbatim: "Anderson, D.: Boinc: a system for public-resource computing and storage. In: Fifth IEEE/ACM International Workshop on Grid Computing (2004)" and "Top 100 multi-project BOINC participants. http://boinc.berkeley.edu/chart_list.php (2010)". | Full text: Springer Nature Link publisher page — abstract + full reference list only | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - BOINC
 KW  - audit-B
 KW  - BOINC, Volpex@Home, audit-B, candidate
