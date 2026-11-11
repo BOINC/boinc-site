@@ -1,35 +1,47 @@
 TY  - JOUR
-TI  - abc triples
-AU  - Martin, Greg
-AU  - Miao, Winnie
-AB  - The abc conjecture, one of the most famous open problems in number theory, claims that three positive integers satisfying a+b=c cannot simultaneously have significant repetition among their prime factors; in particular, the product of the distinct primes dividing the three integers should never be much less than c. Triples of numbers satisfying a+b=c are called abc triples if the product of their distinct prime divisors is strictly less than c. We catalog what is known about abc triples, both numerical examples found through computation and infinite familes of examples established theoretically. In addition, we collect motivations and heuristics supporting the $abc$ conjecture, as well as some of its refinements and generalizations, and we describe the state-of-the-art progress towards establishing the conjecture.
-DA  - 2014///
-PY  - 2014
-DO  - 10.48550/ARXIV.1409.2974
-DP  - DOI.org (Datacite)
-PB  - arXiv
-UR  - https://arxiv.org/abs/1409.2974
-Y2  - 2022/11/10/20:58:57
-KW  - FOS: Mathematics
-KW  - Number Theory (math.NT)
-ER  - 
-
-TY  - JOUR
 TI  - On abc triples of the form (1, c − 1, c)
 AU  - Alvarez-Salazar, Elise
 AU  - Barrios, Alexander J.
 AU  - Henaku, Calvin
 AU  - Soller, Summer
+T2  - Integers
 AB  - By an $abc$ triple, we mean a triple $(a,b,c)$ of relatively prime positive integers $a,b,$ and $c$ such that $a+b=c$ and $\operatorname{rad}(abc)<c$, where $\operatorname{rad}(n)$ denotes the product of the distinct prime factors of $n$. The study of $abc$ triples is motivated by the $abc$ conjecture, which states that for each $ε>0$, there are finitely many $abc$ triples $(a,b,c)$ such that $\operatorname{rad}(abc)^{1+ε}<c$. The necessity of the $ε$ in the $abc$ conjecture is demonstrated by the existence of infinitely many $abc$ triples. For instance, $\left( 1,9^{k}-1,9^{k}\right) $ is an $abc$ triple for each positive integer $k$. In this article, we study $abc$ triples of the form $\left(1,c-1,c\right) $ and deduce two general results that allow us to recover existing sequences of $abc$ triples having $a=1$ that are in the literature.
 DA  - 2023/08/25/
 PY  - 2023
 DO  - 10.5281/zenodo.8283159
 DP  - arXiv.org
-UR  - https://arxiv.org/abs/2301.01376
+VL  - 23
+SP  - A64
+SN  - 1553-1732
+UR  - http://math.colgate.edu/~integers/x64/x64.pdf
 Y2  - 2026/11/08/13:49:31
-L1  - http://arxiv.org/pdf/2301.01376v2
 L2  - https://arxiv.org/abs/2301.01376
+L4  - http://arxiv.org/pdf/2301.01376v2
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Introduction, verbatim: "We conclude the article with Section 4, which is an analysis of the abc triples found by the ABC@Home Project of the form (1, c − 1, c) with c &lt; 10^18." Also verbatim: "The ABC@Home Project was a network computing project that was started in 2006 by the Mathematics Department of Leiden University, together with the Dutch Kennislink Science Institute." Section 4, verbatim: "the ABC@Home project found that there are exactly 45 604 abc triples of the form (1, c− 1, c) with c &lt; 10^18." | Full text: Integers 23 (2023) #A64 publisher PDF (also arXiv:2301.01376) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - Mathematics - Number Theory
+ER  - 
+
+TY  - JOUR
+TI  - abc triples
+AU  - Martin, Greg
+AU  - Miao, Winnie
+T2  - Functiones et Approximatio Commentarii Mathematici
+AB  - The abc conjecture, one of the most famous open problems in number theory, claims that three positive integers satisfying a+b=c cannot simultaneously have significant repetition among their prime factors; in particular, the product of the distinct primes dividing the three integers should never be much less than c. Triples of numbers satisfying a+b=c are called abc triples if the product of their distinct prime divisors is strictly less than c. We catalog what is known about abc triples, both numerical examples found through computation and infinite familes of examples established theoretically. In addition, we collect motivations and heuristics supporting the $abc$ conjecture, as well as some of its refinements and generalizations, and we describe the state-of-the-art progress towards establishing the conjecture.
+DA  - 2016/12/01/
+PY  - 2016
+DO  - 10.7169/facm/2016.55.2.2
+DP  - DOI.org (Crossref)
+VL  - 55
+IS  - 2
+SP  - 145
+EP  - 176
+SN  - 0208-6573, 2080-9433
+UR  - https://doi.org/10.7169/facm/2016.55.2.2
+Y2  - 2022/11/10/
+L4  - https://arxiv.org/pdf/1409.2974
+N1  - <p>BOINC criterion evidence - Section 1, verbatim: "Reken mee met ABC, hosted by the Mathematical Institute of Leiden University [32], is a distributive computing program aiming to collect experimental data on the abc conjecture. The project is based on the BOINC platform [2], and any individual with a computer can download the software and join in the hunt for abc triples." Section 2.1, verbatim: "The ABC@home project, which supports the Reken mee met ABC distributed computation described above, uses the following algorithm [1] to search exhaustively for abc triples." | Full text: arXiv:1409.2974 full text (preprint of Functiones et Approximatio 55(2):145-176, 2016) | Verification: full text checked 2026-11-10.</p>
+KW  - FOS: Mathematics
 ER  - 
 
 TY  - THES
@@ -40,9 +52,8 @@ DA  - 2014/05/22/
 PY  - 2014
 PB  - Leiden University
 UR  - https://hdl.handle.net/1887/25833
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Chapter 7 §7.1, verbatim: "In this chapter, we report results of the project ABC@home, a distributed computing project built on the BOINC platform [1], for which many people worldwide contributed computing resources to enumerate all ABC triples with c &lt; 10^18." Section 7.3, verbatim: "We have covered this triangle by rectangles, and have distributed the resulting work units over participating clients using the BOINC framework." Section 7.5, verbatim: "As part of the ABC@home project a large number of volunteers have executed the algorithm described in the previous sections." | Full text: Leiden University repository full thesis PDF, Chapter 7 (Radicals in Arithmetic, 2014) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - BOINC
-KW  - audit-B
-KW  - ABC@home
-KW  - strong
 ER  - 
 
