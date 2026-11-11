@@ -25,8 +25,10 @@ J2  - Bulletin of the Seismological Society of America
 LA  - en
 SN  - 0037-1106
 UR  - https://pubs.geoscienceworld.org/bssa/article/104/1/184-192/331754
-Y2  - 2022/11/20/20:37:27
+Y2  - 2022/11/20/
 L1  - https://authors.library.caltech.edu/44180/1/184.full.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Methods, verbatim: "Berkeley Open Infrastructure for Network Computing (BOINC), a cyber-infrastructure software package (Anderson and Kubiatowicz, 2002; Anderson, 2004; Christensen et al., 2005), is used to initiate and manage communication between a host computer and the central server" Also verbatim: "The triggers transfer rapidly from the volunteer computer to the server (2–5 s; Fig. 2) through BOINC’s trickle protocol." | Full text: CaltechAUTHORS BSSA author PDF | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -53,32 +55,9 @@ J2  - Seismological Research Letters
 LA  - en
 SN  - 0895-0695
 UR  - https://pubs.geoscienceworld.org/srl/article/82/4/526-532/143840
-Y2  - 2022/11/20/20:37:27
-ER  - 
-
-TY  - JOUR
-TI  - Performance Evaluation of Low-Cost Seismic Sensors for Dense Earthquake Early Warning: 2018–2019 Field Testing in Southwest China
-AU  - Fu, Jihua
-AU  - Li, Zhitao
-AU  - Meng, Hao
-AU  - Wang, Jianjun
-AU  - Shan, Xinjian
-T2  - Sensors
-AB  - Earthquake Early Warning (EEW) was proved to be a potential means of disaster reduction. Unfortunately, the performance of the EEW system is largely determined by the density of EEW network. How to reduce the cost of sensors has become an urgent problem for building a dense EEW. A low-cost seismic sensor integrated with a Class C MEMS accelerometer was proposed in this paper. Based on minimal structure design, the sensor’s reliability was enhanced, while the costs were cut down as well. To fully reveal the performance, ten of the seismic sensors were installed and tested in Sichuan Province, southwest of China from May 2018 to February 2019. The seismic records obtained by the MNSMSs were compared with those by the traditional strong motion seismographs. The records obtained by the MNSMSs have good consistency with the data obtained by the Etnas. The MNSMSs can obtain clear seismic phases that are enough to trigger earthquake detections for EEW. By noise analysis, different channels of the same sensor and different sensors have good consistency. The tested dynamic range (over 87 dB) and useful resolution (over 14.5 bits) are completely in conformity with the designed parameters. Through real field testing, small earthquakes (M 3.1–3.6) can be detected by all three components E-W, N-S, and U-D within 50 km. In all, the low-cost seismic sensor proposed as a high-performance Class C MEMS sensor can meet the needs of dense EEW in terms of noise, dynamic range, useful resolution, reliability, and detecting capabilities.
-DA  - 2019/04/29/
-PY  - 2019
-DO  - 10.3390/s19091999
-DP  - DOI.org (Crossref)
-VL  - 19
-IS  - 9
-SP  - 1999
-J2  - Sensors
-LA  - en
-SN  - 1424-8220
-ST  - Performance Evaluation of Low-Cost Seismic Sensors for Dense Earthquake Early Warning
-UR  - https://www.mdpi.com/1424-8220/19/9/1999
-Y2  - 2022/11/20/20:37:27
-L1  - https://www.mdpi.com/1424-8220/19/9/1999/pdf
+Y2  - 2022/11/20/
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Data and Method, verbatim: "QCN runs on Berkeley Open Infrastructure for Network Computing (BOINC) open-source volunteer computing system (Anderson and Kubiatowicz 2002; Anderson 2004) to utilize idle time on volunteer computers to monitor sensors for strong ground shaking." Introduction, verbatim: "Quake-Catcher Network (QCN) is a new type of seismic network that implements distributed/volunteer computing combined with micro-electro-mechanical systems (MEMS) accelerometers to record earthquakes" | Full text: ResearchGate author-uploaded SRL full text | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -98,8 +77,10 @@ J2  - Front. Earth Sci.
 SN  - 2296-6463
 ST  - Citizen Seismology in Taiwan
 UR  - https://www.frontiersin.org/article/10.3389/feart.2020.00154/full
-Y2  - 2022/11/20/20:37:27
-L1  - https://www.frontiersin.org/articles/10.3389/feart.2020.00154/pdf
+Y2  - 2022/11/20/
+L4  - https://www.frontiersin.org/articles/10.3389/feart.2020.00154/pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - System description, verbatim: "Note that to keep the QCN project active (i.e., seismic data can be continuously sent to the servers), the local host needs to check “project manager window” of the BOINC server software from time to time." Also verbatim: "Citizen seismology in Taiwan was motivated by the need for volunteers to host QCN sensors" and "Up to 2019, 149 volunteers in total installed QCN sensors with Internet-enabled computers at schools." | Criterion link: INDIRECT / educational-outreach result arising from the BOINC-based QCN sensor network rather than a BOINC computation. | Full text: Frontiers in Earth Science 8:154 publisher PDF | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -125,8 +106,10 @@ LA  - en
 SN  - 0895-0695, 1938-2057
 ST  - The Red Atrapa Sismos (Quake-Catcher Network in Mexico)
 UR  - https://pubs.geoscienceworld.org/srl/article/86/3/848-855/315678
-Y2  - 2022/11/20/20:37:27
+Y2  - 2022/11/20/
 L1  - https://authors.library.caltech.edu/109181/1/848.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Introduction, verbatim: "Each volunteer computer monitors ground motion and communicates using the Berkeley Open Infrastructure for Network Computing (BOINC, Anderson, 2004)." Also verbatim: "The Quake-Catcher Network (QCN) is an expanding seismic array made possible by thousands of participants who volunteered time and resources from their computers to record seismic data using low-cost accelerometers" | Full text: CaltechAUTHORS SRL author PDF | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -156,8 +139,10 @@ J2  - Seismological Research Letters
 LA  - en
 SN  - 0895-0695, 1938-2057
 UR  - https://pubs.geoscienceworld.org/srl/article/86/6/1533-1539/349127
-Y2  - 2022/11/20/20:37:27
+Y2  - 2022/11/20/
 L1  - https://dr.ntu.edu.sg/bitstream/10356/104423/1/Dixit%20et%20al%20%5b2015%5d%20-%20Kathmandu%20strong%20motion.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "We present and describe strong-motion data observations from the 2015 M 7.8 Gorkha, Nepal, earthquake sequence collected using existing and new Quake-Catcher Network (QCN) and U.S. Geological Survey NetQuakes sensors located in the Kathmandu Valley." Data section, verbatim: "Data are collected and sent to a central server using the Berkeley Open Infrastructure for Network Computing distributed-computing software (Anderson and Kubiatowicz, 2002)." | Full text: USGS-hosted SRL author PDF (Wayback capture 2020-07-09) | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -181,7 +166,9 @@ J2  - Bulletin of the Seismological Society of America
 LA  - en
 SN  - 0037-1106, 1943-3573
 UR  - https://pubs.geoscienceworld.org/bssa/article/105/3/1314-1323/331819
-Y2  - 2022/11/20/20:37:27
+Y2  - 2022/11/20/
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Introduction, verbatim: "QCN uses Berkeley Open Infrastructure for Network Computing (BOINC) (Anderson, 2004) to monitor, record, and transmit data to QCN servers." Abstract, verbatim: "Immediately following the Mw 7.2 Darfield, New Zealand, earthquake, over 180 Quake-Catcher Network (QCN) low-cost micro-electro-mechanical systems accelerometers were deployed in the Canterbury region. Using data recorded by this dense network from 2010 to 2013, we significantly improved the QCN rapid magnitude estimation relationship." | Full text: ResearchGate author-uploaded BSSA full text | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -205,7 +192,9 @@ J2  - Future Generation Computer Systems
 LA  - en
 SN  - 0167739X
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167739X13000721
-Y2  - 2022/11/20/20:37:27
+Y2  - 2022/11/20/
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Section 1 Introduction, verbatim: "The QCN architecture is built upon the Berkeley Open Infrastructure for Network Computing (BOINC) software for volunteer computing [1]. BOINC enables QCN hosts to efficiently report “triggers”, i.e., indications of probable seismic activity at the host location, to a project server at Stanford University in California, USA." Abstract, verbatim: "we extend EmBOINC, an emulator of Berkeley Open Infrastructure for Network Computing (BOINC) projects, to handle the trickle messages generated by sensors connected to volunteer hosts and sent to the QCN server when strong ground motion is detected." | Full text: ScienceDirect Future Generation Computer Systems full text | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -232,8 +221,10 @@ EP  - 215
 LA  - en
 SN  - 1365-246X, 0956-540X
 UR  - http://academic.oup.com/gji/article/200/1/200/748351/Investigation-of-the-highfrequency-attenuation
-Y2  - 2022/11/20/20:37:27
+Y2  - 2022/11/20/
 L1  - https://escholarship.org/content/qt1m54w1df/qt1m54w1df.pdf?t=oniwbb
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Data and method, verbatim: "The sensors are monitored using the distributed computing software, BOINC (Berkeley Open Infrastructure for Network Computing; Anderson 2004), which uses a participant’s unused central processing units (CPUs) to detect local strong ground motion" Abstract, verbatim: "two temporary seismic deployments: the Quake Catcher Network Rapid Aftershock Mobilization Program (QCN RAMP) and the Incorporated Research Institutions for Seismology CHile Aftershock Mobilization Program (IRIS CHAMP)." | Full text: eScholarship / UC Riverside GJI author PDF | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -242,9 +233,6 @@ AU  - Liang, Wen-Tzong
 AU  - Lee, Jian-Cheng
 AU  - Chen, Kate Huihsuan
 AU  - Hsiao, Nai-Chi
-AU  - Institute of Earth Sciences, Academia Sinica 128, Academia Road, Section 2, Nankang, Taipei 11529, Taiwan
-AU  - Department of Earth Sciences, National Taiwan Normal University, Taipei, Taiwan
-AU  - Seismological Center, Central Weather Bureau, Taipei, Taiwan
 T2  - Journal of Disaster Research
 AB  - Taiwan is located at the convergent plate boundary between the Eurasian and the Philippine Sea plates. As a result, intense earthquake activity and associated surface deformation are manifesting in this region. To implement and promote citizen earthquake science in Taiwan, we have developed several web-based platforms with multi-purpose themes, such as earthquake science information, popular science education, and crowdsourcing systems. First, with the rapid earthquake report issued from the Taiwan Central Weather Bureau (CWB), the available near real-time scientific results obtained from the Taiwanese seismology community are collected and published to a platform, the Taiwan Earthquake Science Information System (TESIS). The scientific information archived at TESIS includes CWB earthquake reports, focal mechanisms, shake maps, and finite source models (for strong earthquakes). All real-time results are integrated into a GIS system with background geospatial information, such as geological maps, traces of active faults, background seismicity, and inter-seismic GPS velocity fields. Second, by collaborating with Stanford University to maintain a regional Quake-Catcher Network (QCN) server in Taiwan, we have promoted citizen seismology in Asia by bringing earthquake information and scientific knowledge to the public. More than 200 school teachers have already installed the QCN sensors in Internet-enabled computers. Through two web-based educational platforms, users are able to access the guidelines and further interact with the recorded waveforms. Third, we also developed an earthquake damage reporting system – the Taiwan Scientific Earthquake Reporting (TSER) system – to encourage the citizen to collect field observation for significant earthquake-induced ground damages such as surface fault rupture, landslide, rock fall, liquefaction, and landslide-triggered dam or lake. The TSER system is constructed under the Ushahidi mapping platform, which has been widely used in crowdsourcing for the geospatial archiving of events. Trained high school teachers and public volunteers can send their ground damage observations, including photographs, through the TSER system. Most of these products and online systems are now being operated by the Taiwan Earthquake Research Center (TEC). With these newly developed platforms and materials, we aim to not only raise earthquake awareness and preparedness, but also encourage public participation in earthquake science in Taiwan.
 DA  - 2017/12/01/
@@ -260,8 +248,10 @@ LA  - en
 SN  - 1883-8030, 1881-2473
 ST  - Citizen Earthquake Science in Taiwan
 UR  - https://www.fujipress.jp/jdr/dr/dsstr001200061174
-Y2  - 2022/11/20/20:37:27
+Y2  - 2022/11/20/
 L1  - https://pdfs.semanticscholar.org/c7f1/9f6cc6e81c0dd63200b8157602cc2efe6981.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Survey report, verbatim: "Second, by collaborating with Stanford University to maintain a regional Quake-Catcher Network (QCN) server in Taiwan, we have promoted citizen seismology in Asia by bringing earthquake information and scientific knowledge to the public. More than 200 school teachers have already installed the QCN sensors in Internet-enabled computers." | PARTIAL EVIDENCE / INDIRECT CHAIN: this paper has no BOINC mention, but its subject is the QCN server and QCN sensors. QCN sensors run on BOINC clients - see the verbatim project-description passages in the 2009 IEEE record (DOI 10.1109/MIM.2009.5338255) and the 2009 SRL record (DOI 10.1785/gssrl.80.1.26) in this same RIS file. | Full text: J-STAGE / Journal of Disaster Research open-access PDF | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -284,7 +274,9 @@ J2  - Seismological Research Letters
 LA  - en
 SN  - 0895-0695, 1938-2057
 UR  - https://pubs.geoscienceworld.org/srl/article/86/3/856-869/315684
-Y2  - 2022/11/20/20:37:27
+Y2  - 2022/11/20/
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Introduction, verbatim: "based on the communication between the sensor data and the server that is provided by Berkeley Open Infrastructure for Network Computing (BOINC) (Anderson and Kubiatowicz, 2002; Anderson, 2004; Christensen et al., 2005; Anderson et al., 2006)." Also verbatim: "QCN has thousands of sensors deployed around the world (see Fig. 1a) that are installed and hosted by volunteers." | Full text: ResearchGate author-uploaded SRL full text | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -308,6 +300,8 @@ ST  - The Quake-Catcher Network
 UR  - https://doi.org/10.1785/gssrl.80.1.26
 Y2  - 2023/05/28/15:54:09
 L2  - https://pubs.geoscienceworld.org/ssa/srl/article-abstract/80/1/26/143483/The-Quake-Catcher-Network-Citizen-Science?redirectedFrom=fulltext
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Growth of the Network, verbatim: "The Berkeley Open Infrastructure for Network Computing (BOINC; http://boinc.berkeley.edu/), (a freeware architecture for distributed computing projects) allowed us to easily utilize internal or external accelerometers by networking volunteer-computers" Introduction, verbatim: "The Quake-Catcher Network (QCN) is a seismic network that implements distributed/volunteer computing with the potential to provide critical earthquake information by filling in the gaps between traditional seismic stations." | Full text: ResearchGate author-uploaded SRL full text | Verification: full text checked 226-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -329,6 +323,8 @@ J2  - IEEE Instrum. Meas. Mag.
 SN  - 1094-6969
 UR  - http://ieeexplore.ieee.org/document/5338255/
 Y2  - 2023/05/28/15:55:53
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Building the Network, verbatim: "QCN is made fully scalable (from 100s to 100,000s of participants) and platform independent by the open-source software package Berkeley Open Infrastructure for Networked Computing (BOINC) [2]. BOINC powers scientific distributed/volunteer computing projects such as SETI@home, Einstein@home, and climateprediction.net." Abstract, verbatim: "The Quake-Catcher Network (QCN) is breaking new ground in seismology by combining new micro-electro-mechanical systems (MEMS) technology with volunteer seismic station distributed computing." | Full text: ResearchGate author-uploaded IEEE I&amp;M Magazine full text | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -344,6 +340,8 @@ VL  - 29
 SP  - 453
 EP  - 464
 UR  - https://doi.org/10.1016/j.procs.2014.05.041
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Section 2.2 (QCN and BOINC), verbatim: "QCN is powered by the BOINC (Berkeley Open Infrastructure for Network Computing) software [5]. A BOINC client in QCN controls the accelerometer in the volunteer’s computer that is use to monitor and capture seismic motions. Every time strong ground motion is detected by the accelerometer, the BOINC client sends a package called trickle message to the QCN server." Acknowledgments, verbatim: "The authors thank all the volunteers whose CPU time contributions make the QCN project possible." | Full text: ScienceDirect open-access Procedia PDF (6 chunks read) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - BOINC
 KW  - audit-B
 KW  - B17
