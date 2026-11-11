@@ -1,174 +1,4 @@
 TY  - CONF
-TI  - Searching for Orthogonal Latin Squares via Cells Mapping and BOINC-Based Cube-and-Conquer
-AU  - Vatutin, Eduard
-AU  - Zaikin, Oleg
-AU  - Manzyuk, Maxim
-AU  - Nikitina, Natalia
-A2  - Voevodin, Vladimir
-A2  - Sobolev, Sergey
-T3  - Communications in Computer and Information Science
-AB  - This study focuses on searching for pairs of orthogonal diagonal Latin squares of order 10. Consider a cells mapping in accordance to which one diagonal Latin square is mapped to another one. Given a certain cells mapping schema, the problem is to find a pair of orthogonal diagonal Latin squares of order 10 such that they match the schema (or to prove that such a pair does not exist). The problem is reduced to the Boolean satisfiability problem (SAT). Three mapping schemes are considered, and for each of them a SAT instance is constructed. If a satisfying assignment is found for an instance, the corresponding pair of orthogonal Latin squares can be easily extracted from it. The Cube-and-Conquer approach is used to solve the instances. The cubing phase is performed on a sequential look-ahead SAT solver, while on the conquer phase an experiment in a BOINC-based volunteer computing project is launched. In the experiment, for two out of three schemes orthogonal pairs are found.
-C1  - Cham
-C3  - Supercomputing
-DA  - 2021///
-PY  - 2021
-DO  - 10.1007/978-3-030-92864-3_38
-DP  - Springer Link
-SP  - 498
-EP  - 512
-LA  - en
-PB  - Springer International Publishing
-SN  - 978-3-030-92864-3
-UR  - https://link.springer.com/chapter/10.1007/978-3-030-92864-3_38
-KW  - BOINC
-KW  - SAT
-KW  - Volunteer computing
-KW  - Cube-and-Conquer
-KW  - Latin square
-KW  - MOLS
-ER  - 
-
-TY  - CONF
-TI  - Enumerating the Orthogonal Diagonal Latin Squares of Small Order for Different Types of Orthogonality
-AU  - Vatutin, Eduard
-AU  - Belyshev, Alexey
-A2  - Voevodin, Vladimir
-A2  - Sobolev, Sergey
-T3  - Communications in Computer and Information Science
-AB  - The article describes computational experiments aimed to enumerating the number of orthogonal diagonal Latin squares for general and special types of orthogonality. General type of orthogonality can be verified using Euler-Parker method, corresponding the number of main classes of orthogonal diagonal Latin squares, the number of normalized orthogonal diagonal Latin squares and total number of orthogonal diagonal Latin squares of general type form previously unknown numerical series A330391, A305570 and A305571 (calculated up to order 8) has been added to OEIS. Self-orthogonal (SODLS), doubly self-orthogonal (DSODLS) and extended self-orthogonal diagonal Latin squares (ESODLS) form the set of special types of orthogonality. For each of these types corresponding numerical series was calculated and published in OEIS with numbers A329685, A287761, A287762 (SODLS, up to order 10), A333366, A333367, A333671 (DSODLS, up to order 10) and A309210, A309598, A309599 (ESODLS, up to order 8). Values for orders 1–8 were obtained by analyzing the complete lists of canonical forms of the main classes of orthogonal DLSs obtained by the authors by exhaustive search. Values for order 9 were derived from the SODLS list of order 9 provided by Harry White. Values for order 10 were obtained by analyzing the list of SOLS of order 10, available online (van Vuuren et al.). The values obtained confirm the similar values for SODLS and DSODLS obtained previously by Francis Gaspalou and partially published by Harry White. For some of the obtained numerical values previously unknown mathematical relations are empirically established.
-C1  - Cham
-C3  - Supercomputing
-DA  - 2020///
-PY  - 2020
-DO  - 10.1007/978-3-030-64616-5_50
-DP  - Springer Link
-SP  - 586
-EP  - 597
-LA  - en
-PB  - Springer International Publishing
-SN  - 978-3-030-64616-5
-UR  - https://link.springer.com/chapter/10.1007/978-3-030-64616-5_50
-KW  - BOINC
-KW  - Volunteer computing
-KW  - Combinatorics
-KW  - Desktop grid
-KW  - Doubly self-orthogonal diagonal Latin squares
-KW  - Gerasim@Home
-KW  - Integer sequences
-KW  - OEIS
-KW  - Orthogonal diagonal Latin squares
-KW  - Self-orthogonal diagonal Latin squares
-ER  - 
-
-TY  - CONF
-TI  - Replication of “Tail” Computations in a Desktop Grid Project
-AU  - Ivashko, Evgeny
-AU  - Nikitina, Natalia
-A2  - Voevodin, Vladimir
-A2  - Sobolev, Sergey
-T3  - Communications in Computer and Information Science
-AB  - The paper addresses the problem of accelerating the “tail” stage of a computational experiment in a Desktop Grid. We provide the mathematical model of a “tail” stage, describe the setting of simulation experiments and provide their results. Task replication in “tail” phase proves to be efficient in decreasing the duration of “tail” by orders of magnitude.
-C1  - Cham
-C3  - Supercomputing
-DA  - 2020///
-PY  - 2020
-DO  - 10.1007/978-3-030-64616-5_52
-DP  - Springer Link
-SP  - 611
-EP  - 621
-LA  - en
-PB  - Springer International Publishing
-SN  - 978-3-030-64616-5
-UR  - https://link.springer.com/chapter/10.1007/978-3-030-64616-5_52
-KW  - BOINC
-KW  - Volunteer computing
-KW  - Desktop Grid
-KW  - Replication
-ER  - 
-
-TY  - CONF
-TI  - Start-up and the Results of the Volunteer Computing Project RakeSearch
-AU  - Manzyuk, Maxim
-AU  - Nikitina, Natalia
-AU  - Vatutin, Eduard
-A2  - Voevodin, Vladimir
-A2  - Sobolev, Sergey
-T3  - Communications in Computer and Information Science
-AB  - In this paper we describe the experience of setting up a computational infrastructure based on BOINC middleware and running a volunteer computing project on its basis. The project is aimed at characterizing the space of diagonal Latin squares of order 9 in the form of an ensemble of orthogonality graphs, previously not addressed. We implement the search for row-permutational squares orthogonal to an initial one, which allows to reconstruct the full graphs. We provide the developed application to search for orthogonal pairs of the squares and describe the obtained results. The results prove the efficiency of volunteer computing in unveiling the structure of the space of diagonal Latin squares.
-C1  - Cham
-C3  - Supercomputing
-DA  - 2019///
-PY  - 2019
-DO  - 10.1007/978-3-030-36592-9_59
-DP  - Springer Link
-SP  - 725
-EP  - 734
-LA  - en
-PB  - Springer International Publishing
-SN  - 978-3-030-36592-9
-UR  - http://link.springer.com/10.1007/978-3-030-36592-9_59
-KW  - BOINC
-KW  - Volunteer computing
-KW  - Orthogonal diagonal Latin squares
-KW  - Desktop Grid
-KW  - Orthogonality graph
-ER  - 
-
-TY  - CONF
-TI  - On Sharing Workload in Desktop Grids
-AU  - Chernov, Ilya
-A2  - Voevodin, Vladimir
-A2  - Sobolev, Sergey
-T3  - Communications in Computer and Information Science
-AB  - We consider two optimization problems of trade-off between risk of not getting an answer (due to failures or errors) and precision or accuracy in Desktop Grid computing. Quite simple models are general enough to be applicable for optimizing real systems. We support the made assumptions by statistics collected in a Desktop Grid computing project.
-C1  - Cham
-C3  - Supercomputing
-DA  - 2019///
-PY  - 2019
-DO  - 10.1007/978-3-030-05807-4_51
-DP  - Springer Link
-SP  - 599
-EP  - 608
-LA  - en
-PB  - Springer International Publishing
-SN  - 978-3-030-05807-4
-UR  - https://link.springer.com/chapter/10.1007/978-3-030-05807-4_51
-KW  - Distributed computing
-KW  - Desktop Grid
-KW  - Optimal work share
-ER  - 
-
-TY  - CHAP
-TI  - Diagonalization and Canonization of Latin Squares
-AU  - Vatutin, Eduard
-AU  - Belyshev, Alexey
-AU  - Nikitina, Natalia
-AU  - Manzuk, Maxim
-AU  - Albertian, Alexander
-AU  - Kurochkin, Ilya
-AU  - Kripachev, Alexander
-AU  - Pykhtin, Alexey
-T2  - Supercomputing
-A2  - Voevodin, Vladimir
-A2  - Sobolev, Sergey
-A2  - Yakobovskiy, Mikhail
-A2  - Shagaliev, Rashit
-CY  - Cham
-DA  - 2023///
-PY  - 2023
-DO  - 10.1007/978-3-031-49435-2_4
-DP  - DOI.org (Crossref)
-VL  - 14389
-SP  - 48
-EP  - 61
-LA  - en
-PB  - Springer Nature Switzerland
-SN  - 978-3-031-49434-5 978-3-031-49435-2
-UR  - https://link.springer.com/10.1007/978-3-031-49435-2_4
-Y2  - 2025/01/26/17:40:10
-ER  - 
-
-TY  - CONF
 TI  - Simulation of Volunteer Computing in a Desktop Grid System
 AU  - Petrenko, Ksenia
 AU  - Kurochkin, Ilya
@@ -176,13 +6,16 @@ T2  - Supercomputing (RuSCDays 2024)
 DA  - 2025///
 PY  - 2025
 DO  - 10.1007/978-3-031-78462-0_9
+DP  - DOI.org (Crossref)
+VL  - 15407
 SP  - 120
 EP  - 134
+PB  - Springer Nature Switzerland
+SN  - 0302-9743, 1611-3349
 UR  - https://doi.org/10.1007/978-3-031-78462-0_9
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "We describe our experience with it, what modifications have been made and how it was validated using the real data gathered by RakeSearch project, along with running experiments in it." Section 4, verbatim: "In our case, the data was provided by RakeSearch [14,15]. It includes records from the project's database over the week."</p>
+</div>
 KW  - BOINC
-KW  - audit-B
-KW  - B07
-KW  - BOINC, RakeSearch, audit-B, strong
 ER  - 
 
 TY  - CONF
@@ -195,15 +28,209 @@ AU  - Manzyk, M. O.
 AU  - Kukushkina, N. N.
 AU  - Kurochkin, I. I.
 AU  - Albertyan, A. M.
-T2  - Recognition 2025 (in press)
+T2  - Optoelectronic Equipment and Devices in Systems of Pattern Recognition, Image and Symbol Information Processing (Recognition-2025)
 DA  - 2025///
 PY  - 2025
 SP  - 33
 EP  - 34
+PB  - Southwest State University, Kursk
+SN  - 978-5-7681-1736-8
 UR  - https://evatutin.narod.ru/kvt/recogn2025.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Proceedings p. 34, verbatim: "which makes the task of transferring calculations to the RakeSearch volunteer distributed computing project on the BOINC platform relevant. The parallelizing strategy of calculations consists of processing individual squares of the current spectrum within the different workunits (abbr. WU)." Printed title reads "boinc planform" (typo in the original).</p>
+</div>
 KW  - BOINC
-KW  - audit-B
-KW  - BOINC, RakeSearch, audit-B, strong
-KW  - B08
+ER  - 
+
+TY  - CONF
+TI  - On the number of transversals in diagonal Latin squares of even orders
+AU  - Vatutin, E. I.
+AU  - Nikitina, N. N.
+AU  - Manzyuk, M. O.
+AU  - Kurochkin, I. I.
+AU  - Albertyan, A. M.
+T2  - Cloud and Distributed Computing Systems (ORVS-2023), National Supercomputing Forum (NSCF-2023)
+DA  - 2024///
+PY  - 2024
+SP  - 101
+EP  - 105
+LA  - ru
+PB  - Program Systems Institute of RAS, Pereslavl-Zalessky
+UR  - https://evatutin.narod.ru/evatutin_ls_trans_num_in_dls.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Full text (Russian), verbatim: "ДЛК порядка 9 были обработаны с использованием вычислительных возможностей проектов добровольных распределенных вычислений Gerasim@Home и RakeSearch на платформе BOINC" ("order-9 DLS were processed using the computing capabilities of the Gerasim@Home and RakeSearch volunteer distributed computing projects on the BOINC platform"). </p>
+</div>
+KW  - BOINC
+ER  - 
+
+TY  - CONF
+TI  - Diagonalization and Canonization of Latin Squares
+AU  - Vatutin, Eduard
+AU  - Belyshev, Alexey
+AU  - Nikitina, Natalia
+AU  - Manzuk, Maxim
+AU  - Albertian, Alexander
+AU  - Kurochkin, Ilya
+AU  - Kripachev, Alexander
+AU  - Pykhtin, Alexey
+T2  - Supercomputing (RuSCDays 2023)
+A2  - Voevodin, Vladimir
+C1  - Cham
+DA  - 2023///
+PY  - 2023
+DO  - 10.1007/978-3-031-49435-2_4
+DP  - DOI.org (Crossref)
+VL  - 14389
+SP  - 48
+EP  - 61
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 0302-9743, 1611-3349
+UR  - https://link.springer.com/10.1007/978-3-031-49435-2_4
+Y2  - 2025/01/26/17:40:10
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Introduction, verbatim: "The corresponding calculations were performed using a computation module oriented to execution under BOINC within the framework of the volunteer distributed computing projects Gerasim@Home and RakeSearch." Keywords, verbatim: "Gerasim@Home · RakeSearch · BOINC". </p>
+</div>
+ER  - 
+
+TY  - CONF
+TI  - Strategy of distributed diagonalization of Latin squares
+AU  - Vatutin, E. I.
+T2  - Science and Education in the Development of Industrial, Social and Economic Spheres of Russian Regions (Murom 2023)
+DA  - 2023///
+PY  - 2023
+SP  - 118
+EP  - 120
+LA  - ru
+PB  - Murom Institute, Vladimir State University
+UR  - https://evatutin.narod.ru/evatutin_ls_distr_diag.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Full text (Russian), verbatim: "для 200 «легких» ДЛК было сформировано около 10 тыс. WU, которые были обсчитаны в проекте добровольных распределенных вычислений RakeSearch" ("for 200 light DLS about 10 thousand workunits were formed, which were computed in the RakeSearch volunteer distributed computing project"). </p>
+</div>
+KW  - BOINC
+ER  - 
+
+TY  - CONF
+TI  - Methods for constructing spectra of rapidly computable numerical characteristics of diagonal Latin squares
+AU  - Vatutin, E. I.
+AU  - Nikitina, N. N.
+AU  - Manzyuk, M. O.
+AU  - Kurochkin, I. I.
+AU  - Albertyan, A. M.
+AU  - Kripachev, A. V.
+AU  - Pykhtin, A. I.
+T2  - Cloud and Distributed Computing Systems in Electronic Management (ORVSEU-2022), National Supercomputing Forum (NSCF-2022)
+DA  - 2023///
+PY  - 2023
+SP  - 19
+EP  - 23
+LA  - ru
+PB  - Program Systems Institute of RAS, Pereslavl-Zalessky
+UR  - https://evatutin.narod.ru/evatutin_dls_heur_spectra_method_2.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Full text (Russian), verbatim: "ДЛК порядка 9 были обработаны с использованием вычислительных возможностей проектов добровольных распределенных вычислений Gerasim@Home и RakeSearch на платформе BOINC" and "Часть из указанных вычислительных экспериментов выполнялась … в проекте добровольных распределенных вычислений RakeSearch" ("part of these computational experiments was carried out in the RakeSearch volunteer distributed computing project").</p>
+</div>
+KW  - BOINC
+ER  - 
+
+TY  - CONF
+TI  - Searching for Orthogonal Latin Squares via Cells Mapping and BOINC-Based Cube-and-Conquer
+AU  - Vatutin, Eduard
+AU  - Zaikin, Oleg
+AU  - Manzyuk, Maxim
+AU  - Nikitina, Natalia
+T2  - Supercomputing (RuSCDays 2021)
+A2  - Voevodin, Vladimir
+T3  - Communications in Computer and Information Science
+AB  - This study focuses on searching for pairs of orthogonal diagonal Latin squares of order 10. Consider a cells mapping in accordance to which one diagonal Latin square is mapped to another one. Given a certain cells mapping schema, the problem is to find a pair of orthogonal diagonal Latin squares of order 10 such that they match the schema (or to prove that such a pair does not exist). The problem is reduced to the Boolean satisfiability problem (SAT). Three mapping schemes are considered, and for each of them a SAT instance is constructed. If a satisfying assignment is found for an instance, the corresponding pair of orthogonal Latin squares can be easily extracted from it. The Cube-and-Conquer approach is used to solve the instances. The cubing phase is performed on a sequential look-ahead SAT solver, while on the conquer phase an experiment in a BOINC-based volunteer computing project is launched. In the experiment, for two out of three schemes orthogonal pairs are found.
+C1  - Cham
+C3  - Supercomputing
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-92864-3_38
+DP  - Springer Link
+VL  - 1510
+SP  - 498
+EP  - 512
+LA  - en
+PB  - Springer International Publishing
+SN  - 1865-0929, 1865-0937
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-92864-3_38
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Section 4.2 "Solving in RakeSearch via Cube-and-Conquer", verbatim: "To process these 7 286 648 cubes, a BOINC-based volunteer computing project RakeSearch [27] was used as an umbrella project". "7 286 648 cubes were divided into 364 334 workunits (at most 20 cubes in each)." "In total, 1 611 computers of 625 volunteers took part in it." Acknowledgements, verbatim: "Authors thank all RakeSearch and Gerasim@home volunteers, whose computers took part in the experiments."</p>
+</div>
+KW  - BOINC
+ER  - 
+
+TY  - CONF
+TI  - Replication of “Tail” Computations in a Desktop Grid Project
+AU  - Ivashko, Evgeny
+AU  - Nikitina, Natalia
+T2  - Supercomputing (RuSCDays 2020)
+A2  - Voevodin, Vladimir
+T3  - Communications in Computer and Information Science
+AB  - The paper addresses the problem of accelerating the “tail” stage of a computational experiment in a Desktop Grid. We provide the mathematical model of a “tail” stage, describe the setting of simulation experiments and provide their results. Task replication in “tail” phase proves to be efficient in decreasing the duration of “tail” by orders of magnitude.
+C1  - Cham
+C3  - Supercomputing
+DA  - 2020///
+PY  - 2020
+DO  - 10.1007/978-3-030-64616-5_52
+DP  - Springer Link
+VL  - 1331
+SP  - 611
+EP  - 621
+LA  - en
+PB  - Springer International Publishing
+SN  - 1865-0929, 1865-0937
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-64616-5_52
+N1  - <div data-schema-version="9"><p>EVIDENCE - Springer publisher page, Abstract, verbatim: "The paper addresses the problem of accelerating the “tail” stage of a computational experiment in a Desktop Grid. We provide the mathematical model of a “tail” stage, describe the setting of simulation experiments and provide their results. Task replication in “tail” phase proves to be efficient in decreasing the duration of “tail” by orders of magnitude." Keywords, verbatim: "Desktop Grid", "Volunteer computing", "BOINC", "Replication". References, verbatim: "Manzyuk, M., Nikitina, N., Vatutin, E.: Start-up and the Results of the Volunteer Computing Project RakeSearch." and "Anderson, D.P.: BOINC: a platform for volunteer computing." Chapter body as quoted in the public CCIS 1331 preview, verbatim: "The key features of the simulator program are: simulation of the computational process on the BOINC platform".</p>
+</div>
+KW  - BOINC
+ER  - 
+
+TY  - CONF
+TI  - Start-up and the Results of the Volunteer Computing Project RakeSearch
+AU  - Manzyuk, Maxim
+AU  - Nikitina, Natalia
+AU  - Vatutin, Eduard
+T2  - Supercomputing (RuSCDays 2019)
+A2  - Voevodin, Vladimir
+T3  - Communications in Computer and Information Science
+AB  - In this paper we describe the experience of setting up a computational infrastructure based on BOINC middleware and running a volunteer computing project on its basis. The project is aimed at characterizing the space of diagonal Latin squares of order 9 in the form of an ensemble of orthogonality graphs, previously not addressed. We implement the search for row-permutational squares orthogonal to an initial one, which allows to reconstruct the full graphs. We provide the developed application to search for orthogonal pairs of the squares and describe the obtained results. The results prove the efficiency of volunteer computing in unveiling the structure of the space of diagonal Latin squares.
+C1  - Cham
+C3  - Supercomputing
+DA  - 2019///
+PY  - 2019
+DO  - 10.1007/978-3-030-36592-9_59
+DP  - Springer Link
+VL  - 1129
+SP  - 725
+EP  - 734
+LA  - en
+PB  - Springer International Publishing
+SN  - 1865-0929, 1865-0937
+UR  - http://link.springer.com/10.1007/978-3-030-36592-9_59
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "In this paper we describe the experience of setting up a computational infrastructure based on BOINC middleware and running a volunteer computing project on its basis." Section 1, verbatim: "In this work, we describe the volunteer computing project RakeSearch [21] aimed at finding and describing such systems. The project is implemented basing on BOINC middleware". </p>
+</div>
+KW  - BOINC
+ER  - 
+
+TY  - CONF
+TI  - On Sharing Workload in Desktop Grids
+AU  - Chernov, Ilya
+T2  - Supercomputing (RuSCDays 2018)
+A2  - Voevodin, Vladimir
+T3  - Communications in Computer and Information Science
+AB  - We consider two optimization problems of trade-off between risk of not getting an answer (due to failures or errors) and precision or accuracy in Desktop Grid computing. Quite simple models are general enough to be applicable for optimizing real systems. We support the made assumptions by statistics collected in a Desktop Grid computing project.
+C1  - Cham
+C3  - Supercomputing
+DA  - 2019///
+PY  - 2019
+DO  - 10.1007/978-3-030-05807-4_51
+DP  - Springer Link
+VL  - 965
+SP  - 599
+EP  - 608
+LA  - en
+PB  - Springer International Publishing
+SN  - 1865-0929, 1865-0937
+UR  - https://link.springer.com/chapter/10.1007/978-3-030-05807-4_51
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Section 2, verbatim: "we considered statistical data gathered from the RakeSearch volunteer computing project [20] at the date of 28 March 2018". </p>
+</div>
+KW  - Distributed computing
 ER  - 
 
