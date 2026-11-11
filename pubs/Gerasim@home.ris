@@ -1,132 +1,47 @@
-TY  - CHAP
-TI  - Enumeration of Isotopy Classes of Diagonal Latin Squares of Small Order Using Volunteer Computing
-AU  - Vatutin, Eduard
-AU  - Belyshev, Alexey
-AU  - Kochemazov, Stepan
-AU  - Zaikin, Oleg
-AU  - Nikitina, Natalia
-T2  - Supercomputing
-A2  - Voevodin, Vladimir
-A2  - Sobolev, Sergey
-CY  - Cham
-DA  - 2019///
-PY  - 2019
-DP  - DOI.org (Crossref)
-VL  - 965
-SP  - 578
-EP  - 586
-PB  - Springer International Publishing
-SN  - 978-3-030-05806-7 978-3-030-05807-4
-UR  - http://link.springer.com/10.1007/978-3-030-05807-4_49
-Y2  - 2022/11/13/21:38:44
-ER  - 
-
 TY  - JOUR
-TI  - Using Volunteer Computing to Study Some Features of Diagonal Latin Squares
-AU  - Vatutin, Eduard
-AU  - Zaikin, Oleg
-AU  - Kochemazov, Stepan
-AU  - Valyaev, Sergey
-T2  - Open Engineering
-AB  - Abstract
-In this research, the study concerns around several features of diagonal Latin squares (DLSs) of small order. Authors of the study suggest an algorithm for computing minimal and maximal numbers of transversals of DLSs. According to this algorithm, all DLSs of a particular order are generated, and for each square all its transversals and diagonal transversals are constructed. The algorithm was implemented and applied to DLSs of order at most 7 on a personal computer. The experiment for order 8 was performed in the volunteer computing project Gerasim@home. In addition, the problem of finding pairs of orthogonal DLSs of order 10 was considered and reduced to Boolean satisfiability problem. The obtained problem turned out to be very hard, therefore it was decomposed into a family of subproblems. In order to solve the problem, the volunteer computing project SAT@home was used. As a result, several dozen pairs of described kind were found.
-DA  - 2017/12/29/
-PY  - 2017
-DO  - 10.1515/eng-2017-0052
+TI  - Use of X-based diagonal fillings and ESODLS CMS schemes for enumeration of main classes of diagonal Latin squares
+AU  - Vatutin, Eduard I.
+AU  - Belyshev, Alexey D.
+AU  - Nikitina, Natalia N.
+AU  - Manzuk, Maxim O.
+T2  - Telecommunications
+AB  - The concept of X-based diagonal fillings in diagonal Latin squares (DLS) is introduced, their enumeration is carried out them, isomorphism classes are constructed, and the interconnection of these problems with problems based on card decks is shown. On their basis, a method for generating strongly normalized canonical forms of the DLS using a limited set of ESODLS CMS schemes is proposed. It makes possible to reduce the necessary computational costs by 3-4 orders of magnitude compared to a software implementation based on a Brute Force based enumeration of the DLS. Using the developed software implementations and the Gerasim@ Home volunteer distributed computing project on the BOINC platform, the number of main classes of DLS of order 9 has been calculated. This number was previously unknown and amounted to 3 292 326 155 394.
+DA  - 2023///
+PY  - 2023
+DO  - 10.31044/1684-2588-2023-0-1-2-16
 DP  - DOI.org (Crossref)
-VL  - 7
 IS  - 1
-SP  - 453
-EP  - 460
-SN  - 2391-5439
-UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0052/html
-Y2  - 2022/11/13/21:38:44
-L4  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0052/pdf
-ER  - 
-
-TY  - JOUR
-TI  - Comparison of Decisions Quality of Heuristic Methods with Limited Depth-First Search Techniques in the Graph Shortest Path Problem
-AU  - Vatutin, Eduard
-T2  - Open Engineering
-AB  - Abstract
-The article deals with the problem of analysis of effectiveness of the heuristic methods with limited depth-first search techniques of decision obtaining in the test problem of getting the shortest path in graph. The article briefly describes the group of methods based on the limit of branches number of the combinatorial search tree and limit of analyzed subtree depth used to solve the problem. The methodology of comparing experimental data for the estimation of the quality of solutions based on the performing of computational experiments with samples of graphs with pseudo-random structure and selected vertices and arcs number using the BOINC platform is considered. It also shows description of obtained experimental results which allow to identify the areas of the preferable usage of selected subset of heuristic methods depending on the size of the problem and power of constraints. It is shown that the considered pair of methods is ineffective in the selected problem and significantly inferior to the quality of solutions that are provided by ant colony optimization method and its modification with combinatorial returns.
-DA  - 2017/12/29/
-PY  - 2017
-DO  - 10.1515/eng-2017-0041
-DP  - DOI.org (Crossref)
-VL  - 7
-IS  - 1
-SP  - 428
-EP  - 434
-SN  - 2391-5439
-UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0041/html
-Y2  - 2022/11/13/21:38:44
-L4  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0041/pdf
+SP  - 2
+EP  - 16
+J2  - Telecommunications
+SN  - 16842588
+UR  - http://www.nait.ru/journals/number.php?p_number_id=3440
+Y2  - 2023/06/28/11:33:55
+N1  - <div data-schema-version="9"><p>From Abstract: “Using the developed software implementations and the Gerasim@ Home volunteer distributed computing project on the BOINC platform, the number of main classes of DLS of order 9 has been calculated. This number was previously unknown and amounted to 3 292 326 155 394.”</p>
+</div>
 ER  - 
 
 TY  - CHAP
 TI  - Enumerating the Orthogonal Diagonal Latin Squares of Small Order for Different Types of Orthogonality
 AU  - Vatutin, Eduard
 AU  - Belyshev, Alexey
-T2  - Supercomputing
+T2  - Supercomputing (RuSCDays 2020)
 A2  - Voevodin, Vladimir
-A2  - Sobolev, Sergey
 CY  - Cham
 DA  - 2020///
 PY  - 2020
+DO  - 10.1007/978-3-030-64616-5_50
 DP  - DOI.org (Crossref)
 VL  - 1331
 SP  - 586
 EP  - 597
 LA  - en
 PB  - Springer International Publishing
-SN  - 978-3-030-64615-8 978-3-030-64616-5
+SN  - 1865-0929, 1865-0937
 UR  - https://link.springer.com/10.1007/978-3-030-64616-5_50
 Y2  - 2022/11/13/21:38:44
-ER  - 
-
-TY  - CHAP
-TI  - Searching for Orthogonal Latin Squares via Cells Mapping and BOINC-Based Cube-and-Conquer
-AU  - Vatutin, Eduard
-AU  - Zaikin, Oleg
-AU  - Manzyuk, Maxim
-AU  - Nikitina, Natalia
-T2  - Supercomputing
-A2  - Voevodin, Vladimir
-A2  - Sobolev, Sergey
-CY  - Cham
-DA  - 2021///
-PY  - 2021
-DP  - DOI.org (Crossref)
-VL  - 1510
-SP  - 498
-EP  - 512
-LA  - en
-PB  - Springer International Publishing
-SN  - 978-3-030-92863-6 978-3-030-92864-3
-UR  - https://link.springer.com/10.1007/978-3-030-92864-3_38
-Y2  - 2022/11/13/21:38:44
-ER  - 
-
-TY  - JOUR
-TI  - On the Selection of Optimal Structure Organization of Logic Multicontrollers
-AU  - Vatutin, Eduard
-AU  - Titov, Vitaly
-AU  - Belyaev, Alexander
-T2  - MATEC Web of Conferences
-A2  - Yurchenko, A.V.
-A2  - Syryamkin, V.I.
-DA  - 2016///
-PY  - 2016
-DO  - 10.1051/matecconf/20167901084
-DP  - DOI.org (Crossref)
-VL  - 79
-SP  - 01084
-J2  - MATEC Web Conf.
-SN  - 2261-236X
-UR  - http://www.matec-conferences.org/10.1051/matecconf/20167901084
-Y2  - 2022/11/13/21:38:44
-L1  - https://www.matec-conferences.org/articles/matecconf/pdf/2016/42/matecconf_imet2016_01084.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Keywords, verbatim: "Gerasim@Home". Section 2, verbatim: "Using it within the volunteer distributed computing project Gerasim@Home on BOINC platform [14,15] a direct enumeration of all DLS orders up to N = 9 were organized". Section 3, verbatim: "The search for all ODLS of orders 1-7 using the software developed by the authors was performed on the single PC, for order 8 the organization of the corresponding computational experiment in the Gerasim@Home project was required." "in the RakeSearch volunteer distributed computing project all possible ODLS pairs of order 9 were found where the square B, orthogonal to the checked square A, was obtained by rearranging the rows of square A" (RakeSearch supplied prior input data only).</p>
+</div>
 ER  - 
 
 TY  - CHAP
@@ -135,39 +50,33 @@ AU  - Vatutin, Eduard
 AU  - Belyshev, Alexey
 AU  - Nikitina, Natalia
 AU  - Manzuk, Maxim
-T2  - High-Performance Computing Systems and Technologies in Scientific Research, Automation of Control and Production
+T2  - High-Performance Computing Systems and Technologies in Scientific Research, Automation of Control and Production (HPCST 2020)
 A2  - Jordan, Vladimir
-A2  - Filimonov, Nikolay
-A2  - Tarasov, Ilya
-A2  - Faerman, Vladimir
 CY  - Cham
 DA  - 2020///
 PY  - 2020
+DO  - 10.1007/978-3-030-66895-2_9
 DP  - DOI.org (Crossref)
 VL  - 1304
 SP  - 127
 EP  - 146
 LA  - en
 PB  - Springer International Publishing
-SN  - 978-3-030-66894-5 978-3-030-66895-2
+SN  - 1865-0929, 1865-0937
 UR  - http://link.springer.com/10.1007/978-3-030-66895-2_9
 Y2  - 2022/11/13/21:38:44
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - HPCST 2020 full text (Russian), verbatim: "в настоящее время разработанная программная реализация используется при поиске пар ОДЛК порядка 10, выполняемом в рамках проекта добровольных распределенных вычислений Gerasim@home на платформе BOINC" ("the developed software implementation is currently used in the search for pairs of ODLS of order 10, carried out within the Gerasim@home volunteer distributed computing project on the BOINC platform"). </p>
+</div>
 ER  - 
 
 TY  - JOUR
-TI  - CENTRAL SYMMETRY PROPERTIES FOR DIAGONAL LATIN SQUARES
-AU  - Southwest State University
-AU  - Vatutin, Eduard
-AU  - Kochemazov, Stepan
-AU  - Matrosov Institute for System Dynamics and Control Theory SB RAS
-AU  - Zaikin, Oleq
-AU  - Matrosov Institute for System Dynamics and Control Theory SB RAS
-AU  - Manzuk, Maxim
-AU  - Internet-portal BOINC.ru
-AU  - Nikitina, Natalia
-AU  - Institute of Applied Mathematical Research
-AU  - Titov, Vitaly
-AU  - Karelian Research Center of the RAS
+TI  - Central symmetry properties for diagonal Latin squares
+AU  - Vatutin, Eduard I.
+AU  - Kochemazov, Stepan E.
+AU  - Zaikin, Oleq S.
+AU  - Manzuk, Maxim O.
+AU  - Nikitina, Natalia N.
+AU  - Titov, Vitaly S.
 T2  - Problems of Information Technology
 DA  - 2019/07/10/
 PY  - 2019
@@ -182,26 +91,57 @@ SN  - 20774001, 23040157
 UR  - https://jpit.az/uploads/article/en/2019_2/CENTRAL_SYMMETRY_PROPERTIES_FOR_DIAGONAL_LATIN_SQUARES.pdf
 Y2  - 2022/11/13/21:38:44
 L1  - https://jpit.az/uploads/article/en/2019_2/CENTRAL_SYMMETRY_PROPERTIES_FOR_DIAGONAL_LATIN_SQUARES.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Section 2 "Definition of symmetries and computing experiments", printed p. 5, verbatim: "The authors have conducted a series of computational experiments within the volunteer computing project Gerasim@Home1 based on BOINC platform [16]. During the experiments, all possible canonical forms of the DLSs were constructed that are symmetric in one plane and, at the same time, include row-inverse DLSs. This has not allowed to increase the previously found orthogonality characteristic." (footnote 1 gives http://gerasim.boinc.ru; [16] is Anderson &amp; Fedak, CCGrid 2006). Section 3 "Conclusion", p. 6, verbatim: "The corresponding experiments are being performed within the framework of the volunteer computing project Gerasim@Home." Section 4 "Acknowledgements", pp. 6-7, verbatim: "The authors of the paper express gratitude to citerra [Russia Team] from the Internet-portal BOINC.ru for his help in implementing some of the algorithms and finding a number of combinatorial structures with unique characteristics." SCOPE CAVEAT - the headline enumeration was NOT BOINC-derived: Section 2 p. 6, verbatim: "in 19 minutes on a Core i7 4770 processor in one thread, the generator defined the number of normalized centrally-symmetric DLSs of order 9, amounting to 327 254 016"; the order-9 ODLS experiment does not name a platform. Inclusion rests on the directly BOINC-derived plane-symmetry experiment plus the indirect BOINC.ru contribution. Full text: https://jpit.az/uploads/article/en/2019_2/CENTRAL_SYMMETRY_PROPERTIES_FOR_DIAGONAL_LATIN_SQUARES.pdf (byte-identical to parked/gerasim_2026-11-08/gerasim_ris/central_symmetry_2019.pdf). &nbsp;| note: Author list corrected from the publisher PDF: six authors. Crossref deposits the six affiliations as additional authors with empty name parts. "Oleq" is the spelling printed in the journal.</p>
+</div>
+ER  - 
+
+TY  - CHAP
+TI  - Enumeration of Isotopy Classes of Diagonal Latin Squares of Small Order Using Volunteer Computing
+AU  - Vatutin, Eduard
+AU  - Belyshev, Alexey
+AU  - Kochemazov, Stepan
+AU  - Zaikin, Oleg
+AU  - Nikitina, Natalia
+T2  - Supercomputing (RuSCDays 2018)
+A2  - Voevodin, Vladimir
+CY  - Cham
+DA  - 2019///
+PY  - 2019
+DO  - 10.1007/978-3-030-05807-4_49
+DP  - DOI.org (Crossref)
+VL  - 965
+SP  - 578
+EP  - 586
+PB  - Springer International Publishing
+SN  - 1865-0929, 1865-0937
+UR  - http://link.springer.com/10.1007/978-3-030-05807-4_49
+Y2  - 2022/11/13/21:38:44
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "For order 8 the computational experiment was conducted in a volunteer computing project." Section 3, verbatim: "A computational experiment for order 8 was conducted in the volunteer computing project Gerasim@home [13]. The deadline of 7 days, and the quorum of 2 were used." "a client application on a volunteers personal computer forms all possible values of other elements of a square". Section 4 Conclusions, verbatim: "The experiments for order up to 7 were conducted on a computer, while for order 8 it was conducted in a volunteer computing project." Full text: boinc_audit/shared_verification/new2026/evatutin_co_dls_cfs_cnt.pdf (Springer-format RuSCDays 2018 preprint from the author's page).</p>
+</div>
 ER  - 
 
 TY  - JOUR
-TI  - USE OF X-BASED DIAGONAL FILLINGS AND ESODLS CMS SCHEMES FOR ENUMERATION OF MAIN CLASSES OF DIAGONAL LATIN SQUARES
+TI  - Using Volunteer Computing to Study Some Features of Diagonal Latin Squares
 AU  - Vatutin, Eduard
-AU  - Belyshev, Alexey
-AU  - Nikitina, Natalia
-AU  - Manzuk, Maxum
-T2  - Telecommunications
-AB  - The concept of X-based diagonal fillings in diagonal Latin squares (DLS) is introduced, their enumeration is carried out them, isomorphism classes are constructed, and the interconnection of these problems with problems based on card decks is shown. On their basis, a method for generating strongly normalized canonical forms of the DLS using a limited set of ESODLS CMS schemes is proposed. It makes possible to reduce the necessary computational costs by 3-4 orders of magnitude compared to a software implementation based on a Brute Force based enumeration of the DLS. Using the developed software implementations and the Gerasim@ Home volunteer distributed computing project on the BOINC platform, the number of main classes of DLS of order 9 has been calculated. This number was previously unknown and amounted to 3 292 326 155 394.
-DA  - 2023///
-PY  - 2023
-DO  - 10.31044/1684-2588-2023-0-1-2-16
+AU  - Zaikin, Oleg
+AU  - Kochemazov, Stepan
+AU  - Valyaev, Sergey
+T2  - Open Engineering
+AB  - Abstract
+DA  - 2017/12/29/
+PY  - 2017
+DO  - 10.1515/eng-2017-0052
 DP  - DOI.org (Crossref)
-SP  - 2
-EP  - 16
-J2  - Telecommunications
-SN  - 16842588
-UR  - http://www.nait.ru/journals/number.php?p_number_id=3440
-Y2  - 2023/06/28/11:33:55
+VL  - 7
+IS  - 1
+SP  - 453
+EP  - 460
+SN  - 2391-5439
+UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0052/html
+Y2  - 2022/11/13/21:38:44
+L4  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0052/pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "The experiment for order 8 was performed in the volunteer computing project Gerasim@home." "In order to solve the problem, the volunteer computing project SAT@home was used. As a result, several dozen pairs of described kind were found." Section 1, verbatim: "In the present study, two volunteer computing projects, Gerasim@home and SAT@home, were used to solve two mentioned combinatorial problems." Acknowledgement, verbatim: "Authors contribution: Eduard Vatutin and Sergey Valyaev - enumeration of transversals for DLS of order up to 8 in Gerasim@home (Section 3); Oleg Zaikin and Stepan Kochemazov - search for MODLS of order 10 in SAT@home (Section 4)." Keywords include BOINC. Full text (open access): https://www.degruyterbrill.com/document/doi/10.1515/eng-2017-0052/html</p>
+</div>
 ER  - 
 
 TY  - CONF
@@ -216,10 +156,9 @@ DO  - 10.1007/978-3-319-67035-5_9
 SP  - 114
 EP  - 129
 UR  - https://doi.org/10.1007/978-3-319-67035-5_9
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "In the first one a computing cluster was employed. The second one was performed in a BOINC-based volunteer computing project. Each experiment took about 3 months. As a result we obtained two similar numbers." Section 4.2 "Experiment in a volunteer computing project", verbatim: "The first experiment was held in the volunteer computing project Gerasim@home [8] which is based on BOINC (Berkeley Open Infrastructure for Network Computing [10])." "According to the statistics, about 500 volunteers from 51 countries participated in it." Footnote, verbatim: "We thank all Gerasim@home volunteers, whose computers took part in the experiment." Full text: ResearchGate author-uploaded PDF, publication 320038314</p>
+</div>
 KW  - BOINC
-KW  - audit-B
-KW  - B05
-KW  - BOINC, ODLK1 / Gerasim@home, audit-B, confirmed
 ER  - 
 
 TY  - CONF
@@ -235,9 +174,8 @@ VL  - 1973
 SP  - 6
 EP  - 14
 UR  - http://ceur-ws.org/Vol-1973/paper01.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - CEUR 1973 full text, verbatim: "We performed this experiment in the BOINC-based volunteer computing project Gerasim@home [VVT15]. In total, 3 003 workunits were genereted for this purpose." Acknowledgements, verbatim: "We thank all Gerasim@home volunteers".</p>
+</div>
 KW  - BOINC
-KW  - audit-B
-KW  - B06
-KW  - BOINC, ODLK, audit-B, strong
 ER  - 
 
