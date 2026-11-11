@@ -1,3 +1,45 @@
+TY  - CHAP
+TI  - Simulation of Different Three-Dimensional Models of Whole Interphase Nuclei Compared to Experiments - A Consistent Scale-Bridging Simulation Framework for Genome Organization
+AU  - Knoch, Tobias A.
+T2  - Nuclear, Chromosomal, and Genomic Architecture in Biology and Medicine
+A2  - Kloc, Malgorzata
+A2  - Kubiak, Jacek Z.
+CY  - Cham
+DA  - 2022/11/09/
+PY  - 2022
+DO  - 10.1007/978-3-031-06573-6_18
+DP  - DOI.org (Crossref)
+VL  - 70
+SP  - 495
+EP  - 549
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-031-06572-9 978-3-031-06573-6
+UR  - https://doi.org/10.1007/978-3-031-06573-6_18
+N1  - <p>BOINC criterion evidence - Acknowledgements, verbatim: "Special thanks also go to all those institutions, universities, and companies providing us with ~500.000 CPUh per day via computational grid resources: the German D-Grid, the European Grid Initiative EGEE, as well as the Erasmus Computing Grid the Almere Grid, and all the unnamed computing grids there is access through via these. Very specially thanks go also to all the world-wide distributed and unnamed donors of desktop computer power of our world-wide Correlizer@home BOINC grid!"</p>
+ER  - 
+
+TY  - CHAP
+TI  - How Genomes Emerge, Function, and Evolve: Living Systems Emergence-Genotype-Phenotype-Multilism-Genome/Systems Ecology
+AU  - Knoch, Tobias A.
+T2  - Nuclear, Chromosomal, and Genomic Architecture in Biology and Medicine
+A2  - Kloc, Malgorzata
+A2  - Kubiak, Jacek Z.
+CY  - Cham
+DA  - 2022/11/09/
+PY  - 2022
+DO  - 10.1007/978-3-031-06573-6_4
+DP  - DOI.org (Crossref)
+VL  - 70
+SP  - 103
+EP  - 156
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-031-06572-9 978-3-031-06573-6
+UR  - https://doi.org/10.1007/978-3-031-06573-6_4
+N1  - <p>BOINC criterion evidence - Acknowledgments, verbatim: "Thanks also go to all those institutions, universities, and companies providing us computational grid resources: the German D-Grid, the European Grid Initiative EGEE, as well as the Erasmus Computing Grid the Almere Grid, and all the unnamed computing grids there is access through via these. Very specially thanks go also to all the world-wide distributed and unnamed donors of desktop computer power of our world-wide Correlizer@home BOINC grid!"</p>
+ER  - 
+
 TY  - JOUR
 TI  - Simulation of different three-dimensional polymer models of interphase chromosomes compared to experiments–an evaluation and review framework of the 3D genome organization
 AU  - Knoch, Tobias A.
@@ -14,10 +56,28 @@ LA  - en
 SN  - 10849521
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S1084952118301058
 Y2  - 2022/11/11/14:46:19
+N1  - <p>BOINC criterion evidence - Acknowledgements, verbatim: "Special thanks also go to all those institutions, universities, and companies providing us with ~500.000 CPUh per day via computational grid resources: the German D-Grid, the European Grid Initiative EGEE, as well as the Erasmus Computing Grid the Almere Grid, and all the unnamed computing grids there is access through via these. Very specially thanks go also to all the world-wide distributed and unnamed donors of desktop computer power of our world-wide Correlizer@home BOINC grid!"</p>
+ER  - 
+
+TY  - CHAP
+TI  - A Consistent Systems Mechanics Model of the 3D Architecture and Dynamics of Genomes
+AU  - Knoch, Tobias A.
+T2  - Chromatin and Epigenetics
+A2  - Logie, Colin
+A2  - Knoch, Tobias A.
+DA  - 2019/12/05/
+PY  - 2019
+DO  - 10.5772/intechopen.89836
+DP  - DOI.org (Crossref)
+LA  - en
+PB  - IntechOpen
+SN  - 978-1-78984-492-4 978-1-78984-493-1
+UR  - https://doi.org/10.5772/intechopen.89836
+N1  - <p>BOINC criterion evidence - Acknowledgments, verbatim: "Thanks also go to all those institutions, universities, and companies providing us computational grid resources: the German D-Grid, the European Grid Initiative EGEE, as well as the Erasmus Computing Grid the Almere Grid, and all the unnamed computing grids there is access through via these. Very special thanks go also to all the world-wide distributed and unnamed donors of desktop computer power of our world-wide Correlizer@home BOINC grid!"</p>
 ER  - 
 
 TY  - JOUR
-TI  - A Guided Protocol for Array Based <i>T2C</i> : A High-Quality Selective High-Resolution High-Throughput Chromosome Interaction Capture
+TI  - A Guided Protocol for Array Based T2C : A High-Quality Selective High-Resolution High-Throughput Chromosome Interaction Capture
 AU  - Knoch, Tobias A.
 T2  - Current Protocols in Human Genetics
 DA  - 2018/10//
@@ -30,66 +90,10 @@ SP  - e55
 J2  - Current Protocols in Human Genetics
 LA  - en
 SN  - 19348266
-ST  - A Guided Protocol for Array Based <i>T2C</i>
+ST  - A Guided Protocol for Array Based T2C
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/cphg.55
 Y2  - 2022/11/11/14:46:20
-ER  - 
-
-TY  - JOUR
-TI  - Large-scale resource sharing at public funded organizations.   e-Human "Grid" Ecology.
-AU  - Knoch, Tobias
-AU  - Baumgärtner, Volkmar
-AU  - de Zeeuw, Luc
-AU  - Grosveld, Frank
-AU  - Egger, Kurt
-DA  - 2009/02//undefined
-PY  - 2009
-UR  - http://hdl.handle.net/1765/77698
-ER  - 
-
-TY  - JOUR
-TI  - Fine-structured multi-scaling long-range correlations in completely sequenced genomes—features, origin, and classification
-AU  - Knoch, Tobias A.
-AU  - Göker, Markus
-AU  - Lohner, Rudolf
-AU  - Abuseiris, Anis
-AU  - Grosveld, Frank G.
-T2  - European Biophysics Journal
-AB  - The sequential organization of genomes, i.e. the relations between distant base pairs and regions within sequences, and its connection to the three-dimensional organization of genomes is still a largely unresolved problem. Long-range power-law correlations were found using correlation analysis on almost the entire observable scale of 132 completely sequenced chromosomes of 0.5 × 106 to 3.0 × 107 bp from Archaea, Bacteria, Arabidopsis thaliana, Saccharomyces cerevisiae, Schizosaccharomyces pombe, Drosophila melanogaster, and Homo sapiens. The local correlation coefficients show a species-specific multi-scaling behaviour: close to random correlations on the scale of a few base pairs, a first maximum from 40 to 3,400 bp (for Arabidopsis thaliana and Drosophila melanogaster divided in two submaxima), and often a region of one or more second maxima from 105 to 3 × 105 bp. Within this multi-scaling behaviour, an additional fine-structure is present and attributable to codon usage in all except the human sequences, where it is related to nucleosomal binding. Computer-generated random sequences assuming a block organization of genomes, the codon usage, and nucleosomal binding explain these results. Mutation by sequence reshuffling destroyed all correlations. Thus, the stability of correlations seems to be evolutionarily tightly controlled and connected to the spatial genome organization, especially on large scales. In summary, genomes show a complex sequential organization related closely to their three-dimensional organization.
-DA  - 2009/07/01/
-PY  - 2009
-DO  - 10.1007/s00249-009-0489-y
-DP  - Springer Link
-VL  - 38
-IS  - 6
-SP  - 757
-EP  - 779
-J2  - Eur Biophys J
-LA  - en
-SN  - 1432-1017
-UR  - https://doi.org/10.1007/s00249-009-0489-y
-Y2  - 2022/11/12/13:41:23
-L1  - https://link.springer.com/content/pdf/10.1007%2Fs00249-009-0489-y.pdf
-KW  - DNA sequence classification
-KW  - Genome organization
-KW  - Long-range correlations
-KW  - Nuclear architecture
-KW  - Scaling analysis
-ER  - 
-
-TY  - JOUR
-TI  - ISDEP, a fusion application deployed in the EDGeS project.
-AU  - Rivero, Alejandro
-AU  - Ferrer, Dario
-T2  - … workshop 30 March …
-AB  - ISDEP, a fusion application deployed in the EDGeS project.
-DA  - 2010/01/01/
-PY  - 2010
-DP  - www.academia.edu
-LA  - en
-UR  - https://www.academia.edu/758702/ISDEP_a_fusion_application_deployed_in_the_EDGeS_project
-Y2  - 2022/11/12/13:43:04
-L2  - https://www.academia.edu/758702/ISDEP_a_fusion_application_deployed_in_the_EDGeS_project
+N1  - <p>BOINC criterion evidence - ACKNOWLEDGMENTS, verbatim: "For computational resources during the development of T2C, special thanks go to all those institutions, universities, and companies providing us with ~500.000 CPUh per day via computational grid resources: the German D-Grid, the European Grid Initiative EGEE, as well as the Erasmus Computing Grid, the Almere Grid, EDGeS Grid, and all the unnamed computing grids we have access through via these. Especially, we would like to thank the German MediGRID, the German Services@MediGRID, EdGES consortia, as well as all the world-wide distributed and unnamed donors of desktop computer power of our world-wide Correlizer@home BOINC grid!"</p>
 ER  - 
 
 TY  - JOUR
@@ -122,4 +126,6 @@ UR  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192698/
 Y2  - 2022/11/12/13:44:25
 L1  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192698/pdf/13072_2016_Article_89.pdf
 L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192698/
+N1  - <p>BOINC criterion evidence - Acknowledgements, verbatim: "We also thank all those institutions, universities, and companies providing us with ~500,000 CPUh per day via computational grid resources: the German D-Grid, the European Grid Initiative EGEE, the Erasmus Computing Grid, the Almere Grid, EDGeS Grid, and all the unnamed computing grids we have access through via these. In particular, we would like to thank all the world-wide distributed unnamed donors of desktop computer power of our world-wide Correlizer@home BOINC grid!" Authors contributions, verbatim: "AA and TAK calculated the sequence correlation data and were responsible for the creation of grids or their usage of the acknowledged grid infrastructures."</p>
 ER  - 
+
