@@ -8,7 +8,7 @@ AU  - Gandhi, Poshak
 AU  - Dickinson, Hugh
 T2  - Monthly Notices of the Royal Astronomical Society
 AB  - ABSTRACT
-            The vast majority of binaries containing a compact object and a regular star spend most of their time in a quiescent state where no strong interactions occur between components. Detection of these binaries is extremely challenging and only few candidates have been detected through optical spectroscopy. Self-lensing represents a new means of detecting compact objects in binaries, where gravitational lensing of the light from the visible component by the compact object produces periodic optical flares. Here we show that current and planned large-area optical surveys can detect a significant number (∼100–10 000s) of these self-lensing binaries and provide insights into the properties of the compact lenses. We show that many of the predicted population of observable self-lensing binaries will be observed with multiple self-lensing flares; this both improves the chances of detection and also immediately distinguishes them from chance-alignment micro-lensing events. Through self-lensing we can investigate long – but previously hidden – stages of binary evolution and consequently provide new constraints on evolutionary models that impact the number and nature of double compact object mergers.
+The vast majority of binaries containing a compact object and a regular star spend most of their time in a quiescent state where no strong interactions occur between components. Detection of these binaries is extremely challenging and only few candidates have been detected through optical spectroscopy. Self-lensing represents a new means of detecting compact objects in binaries, where gravitational lensing of the light from the visible component by the compact object produces periodic optical flares. Here we show that current and planned large-area optical surveys can detect a significant number (∼100–10 000s) of these self-lensing binaries and provide insights into the properties of the compact lenses. We show that many of the predicted population of observable self-lensing binaries will be observed with multiple self-lensing flares; this both improves the chances of detection and also immediately distinguishes them from chance-alignment micro-lensing events. Through self-lensing we can investigate long – but previously hidden – stages of binary evolution and consequently provide new constraints on evolutionary models that impact the number and nature of double compact object mergers.
 DA  - 2021/08/17/
 PY  - 2021
 DO  - 10.1093/mnras/stab2135
@@ -22,6 +22,8 @@ SN  - 0035-8711, 1365-2966
 UR  - https://academic.oup.com/mnras/article/507/1/374/6330465
 Y2  - 2022/12/23/21:36:22
 L1  - https://eprints.soton.ac.uk/451777/1/2104.12666.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We are thankful to thousands of volunteers, who took part in the Universe@Home project and significantly sped up the simulations." Data statement, verbatim: "New data generated during the course of this project is publicly available at https://universeathome.pl/universe/self_lensing.php." | Full text: arXiv:2104.12666 | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -48,6 +50,8 @@ DP  - DOI.org (Datacite)
 PB  - arXiv
 UR  - https://arxiv.org/abs/1812.10065
 Y2  - 2022/12/23/21:36:22
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We would like to thank thousands of Universe@home users that have provided their personal computers and phones for our simulations, and in particular to K. Piszczek (program IT manager)." | Full text: arXiv:1812.10065 (A&amp;A manuscript, Dec 2018) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - FOS: Physical sciences
 KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
 ER  - 
@@ -70,7 +74,9 @@ J2  - ApJ
 SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ab0f27
 Y2  - 2022/12/23/21:36:22
-L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ab0f27/pdf
+L4  - https://iopscience.iop.org/article/10.3847/1538-4357/ab0f27/pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Summary/acknowledgements, verbatim: "We are thankful to thousends of volunteers, who took part in the Universe@Home project and provided their computers for this research." | Full text: arXiv:1811.08998 | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -92,7 +98,9 @@ SN  - 1538-4357
 ST  - Strange Quark Stars in Binaries
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/aa8629
 Y2  - 2022/12/23/21:36:22
-L1  - https://arxiv.org/pdf/1707.01586
+L4  - https://arxiv.org/pdf/1707.01586
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Methods, verbatim: "These large-scale simulation were obtained with a use of the Universe@Home project." Acknowledgements, verbatim: "We want to thank thousands of volunteers who supported the research by participation in Universe@Home project and the anonymous referee for valuable comments." | Full text: arXiv:1707.01586 | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -116,6 +124,8 @@ SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ab45e6
 Y2  - 2022/12/23/21:36:22
 L1  - https://repository.ubn.ru.nl/bitstream/2066/209230/1/209230.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We are thankful to the anonymous referee who helped to improve the paper and thousands of volunteers, who took part in the Universe@Home project and provided their computers for this research." | Full text: arXiv:1907.11431 | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -129,15 +139,15 @@ AU  - Justham, Stephen
 AU  - Belczynski, Krzysztof
 T2  - The Astrophysical Journal
 AB  - Abstract
-            
-              Until recently, black holes (BHs) could be discovered only through accretion from other stars in X-ray binaries, or in merging double compact objects. Improvements in astrometric and spectroscopic measurements have made it possible to detect BHs also in noninteracting BH binaries (nBHBs) through a precise analysis of the companion’s motion. In this study, using an updated version of the
-              StarTrack
-              binary-star population modeling code and a detailed model of the Milky Way (MW) galaxy, we calculate the expected number of detections for Gaia and LAMOST surveys. We develop a formalism to convolve the binary population synthesis output with a realistic stellar density distribution, star formation history (SFH), and chemical evolution for the MW, which produces a probability distribution function of the predicted compact-binary population over the MW. This avoids the additional statistical uncertainty that is introduced by methods that Monte Carlo sample from binary population synthesis output to produce one potential specific realization of the MW compact-binary distribution, and our method is also comparatively fast to such Monte Carlo realizations. Specifically, we predict ∼41–340 nBHBs to be observed by Gaia, although the numbers may drop to ∼10–70 if the recent (≲100 Myr) star formation is low (∼1
-              M
-              ⊙
-               yr
-              −1
-              ). For LAMOST we predict ≲14 detectable nBHBs, which is lower partially because its field of view covers just ∼6% of the Galaxy.
+
+Until recently, black holes (BHs) could be discovered only through accretion from other stars in X-ray binaries, or in merging double compact objects. Improvements in astrometric and spectroscopic measurements have made it possible to detect BHs also in noninteracting BH binaries (nBHBs) through a precise analysis of the companion’s motion. In this study, using an updated version of the
+StarTrack
+binary-star population modeling code and a detailed model of the Milky Way (MW) galaxy, we calculate the expected number of detections for Gaia and LAMOST surveys. We develop a formalism to convolve the binary population synthesis output with a realistic stellar density distribution, star formation history (SFH), and chemical evolution for the MW, which produces a probability distribution function of the predicted compact-binary population over the MW. This avoids the additional statistical uncertainty that is introduced by methods that Monte Carlo sample from binary population synthesis output to produce one potential specific realization of the MW compact-binary distribution, and our method is also comparatively fast to such Monte Carlo realizations. Specifically, we predict ∼41–340 nBHBs to be observed by Gaia, although the numbers may drop to ∼10–70 if the recent (≲100 Myr) star formation is low (∼1
+M
+⊙
+yr
+−1
+). For LAMOST we predict ≲14 detectable nBHBs, which is lower partially because its field of view covers just ∼6% of the Galaxy.
 DA  - 2020/12/01/
 PY  - 2020
 DO  - 10.3847/1538-4357/abc699
@@ -149,7 +159,9 @@ J2  - ApJ
 SN  - 0004-637X, 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/abc699
 Y2  - 2022/12/23/21:36:22
-L1  - https://iopscience.iop.org/article/10.3847/1538-4357/abc699/pdf
+L4  - https://iopscience.iop.org/article/10.3847/1538-4357/abc699/pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Summary/acknowledgements, verbatim: "We are thankful to thousands of volunteers who took part in the Universe@Home project and made the creation of the database used in this study possible." | Full text: IOP published PDF, DOI 10.3847/1538-4357/abc699 | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -172,7 +184,9 @@ SN  - 0035-8711, 1365-2966
 ST  - Dynamical formation of black hole low-mass X-ray binaries in the field
 UR  - https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stx842
 Y2  - 2022/12/23/21:36:22
-L1  - https://arxiv.org/pdf/1607.05186
+L4  - https://arxiv.org/pdf/1607.05186
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We would also like to thank thousands of Universe@Home users who have provided their personal computers for our simulations." | Full text: arXiv:1607.05186 | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -193,7 +207,9 @@ J2  - ApJ
 SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/aa821d
 Y2  - 2022/12/23/21:36:22
-L1  - https://arxiv.org/pdf/1705.06155
+L4  - https://arxiv.org/pdf/1705.06155
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We would like to thank volunteers whose participation in the Universe@Home project made it possible to acquire the results in such a short time and the anonymous referee who helped to significantly improve the paper." | Full text: arXiv:1705.06155 | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -211,27 +227,27 @@ AU  - Wiktorowicz, G.
 AU  - Belloni, D.
 T2  - Astronomy & Astrophysics
 AB  - The first neutron star-neutron star (NS-NS) merger was discovered on August 17, 2017 through gravitational waves (GW170817) and followed with electromagnetic observations. This merger was detected in an old elliptical galaxy with no recent star formation. We perform a suite of numerical calculations to understand the formation mechanism of this merger. We probe three leading formation mechanisms of double compact objects: classical isolated binary star evolution, dynamical evolution in globular clusters, and nuclear cluster formation to test whether they are likely to produce NS-NS mergers in old host galaxies. Our simulations with optimistic assumptions show current NS-NS merger rates at the level of 10
-              −2
-              yr
-              −1
-              from binary stars, 5 × 10
-              −5
-              yr
-              −1
-              from globular clusters, and 10
-              −5
-              yr
-              −1
-              from nuclear clusters for all local elliptical galaxies (within 100 Mpc
-              3
-              ). These models are thus in tension with the detection of GW170817 with an observed rate of 1.5
-              −1.2
-              +3.2
-              yr
-              −1
-              (per 100 Mpc
-              3
-              ; LIGO/Virgo 90% credible limits). Our results imply that either the detection of GW170817 by LIGO/Virgo at their current sensitivity in an elliptical galaxy is a statistical coincidence; that physics in at least one of our three models is incomplete in the context of the evolution of stars that can form NS-NS mergers; or that another very efficient (unknown) formation channel with a long delay time between star formation and merger is at play.
+−2
+yr
+−1
+from binary stars, 5 × 10
+−5
+yr
+−1
+from globular clusters, and 10
+−5
+yr
+−1
+from nuclear clusters for all local elliptical galaxies (within 100 Mpc
+3
+). These models are thus in tension with the detection of GW170817 with an observed rate of 1.5
+−1.2
++3.2
+yr
+−1
+(per 100 Mpc
+3
+; LIGO/Virgo 90% credible limits). Our results imply that either the detection of GW170817 by LIGO/Virgo at their current sensitivity in an elliptical galaxy is a statistical coincidence; that physics in at least one of our three models is incomplete in the context of the evolution of stars that can form NS-NS mergers; or that another very efficient (unknown) formation channel with a long delay time between star formation and merger is at play.
 DA  - 2018/07//
 PY  - 2018
 DO  - 10.1051/0004-6361/201732428
@@ -243,6 +259,8 @@ SN  - 0004-6361, 1432-0746
 UR  - https://www.aanda.org/10.1051/0004-6361/201732428
 Y2  - 2022/12/23/21:36:22
 L1  - https://www.aanda.org/articles/aa/pdf/2018/07/aa32428-17.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We would like to thank thousands of Universe@home users that have provided their personal computers and phones for our simulations, and in particular to K. Piszczek (program IT manager)." | Full text: arXiv:1712.00632 | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -266,6 +284,8 @@ SN  - 0004-637X, 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ac0cf7
 Y2  - 2022/12/23/21:36:22
 L1  - https://dro.dur.ac.uk/34177/1/34177.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We also thank to thousands of volunteers who took part in the Universe@Home project and who provided their computers for simulation used in this study." | Full text: arXiv:2103.02026 | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -285,6 +305,8 @@ VL  - 881
 IS  - 2
 SP  - 122
 UR  - https://doi.org/10.3847/1538-4357/ab2fd0
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We would like to thank thousands of volunteers who by their participation in the Universe@Home project performed calculation necessary for the population synthesis studies." | Full text: arXiv:1904.01545 | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - BOINC
 KW  - audit-B
 KW  - B18
@@ -306,6 +328,8 @@ IS  - 3
 SP  - 2937
 EP  - 2958
 UR  - https://doi.org/10.1093/mnras/stx2923
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We thank to thousands of Universe@home users that have provided their personal computers and phones for our simulations, and in particular to Krzysztof Piszczek and Grzegorz Wiktorowicz (program IT and science managers)." | Full text: MNRAS full text on disk, DOI 10.1093/mnras/stx2923 | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - BOINC
 KW  - audit-B
 KW  - BOINC, Universe@Home, audit-B, candidate
@@ -355,6 +379,8 @@ DO  - 10.1051/0004-6361/201936528
 VL  - 636
 SP  - A104
 UR  - https://doi.org/10.1051/0004-6361/201936528
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We would like to thank thousands of Universe@home users that have provided their personal computers and phones for our simulations, and in particular to Krzysztof Piszczek (program IT managers)." | Full text: A&amp;A 2020 manuscript on disk, DOI 10.1051/0004-6361/201936528 | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - BOINC
 KW  - audit-B
 KW  - BOINC, Universe@Home, audit-B, candidate
@@ -387,6 +413,8 @@ J2  - A&A
 SN  - 0004-6361, 1432-0746
 UR  - https://www.aanda.org/10.1051/0004-6361/201628980
 L4  - https://arxiv.org/pdf/1607.03116
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We would like to thank thousands of Universe@home users that have provided their personal computers and phones for our simulations, and in particular to Krzysztof Piszczek (program IT manager)." | Full text: arXiv:1607.03116 (published A&amp;A 594:A97) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - BOINC
 ER  - 
 
@@ -411,6 +439,8 @@ LA  - en
 SN  - 0031-9007, 1079-7114
 UR  - https://doi.org/10.1103/PhysRevLett.117.101102
 L4  - https://arxiv.org/pdf/1605.09286
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgments, verbatim: "We would like to thank thousands of Universe@home users that have provided their personal computers for our simulations." | Full text: arXiv:1605.09286 (published PRL 117:101102) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - BOINC
 ER  - 
 
@@ -434,6 +464,8 @@ UR  - https://doi.org/10.3847/1538-4357/acdd59
 Y2  - 2023/06/18/15:23:49
 L1  - https://arxiv.org/pdf/2302.10851.pdf
 L2  - https://arxiv.org/abs/2302.10851
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "Special thanks goes to tens of thousands of citizen-science project ”Universe@home” (universeathome.pl) enthusiasts that help to develop the StarTrack population synthesis code used in this study." Methods §2.1, verbatim: "We use a database of properties of isolated binary BBHs generated with StarTrack population synthesis code (Belczynski et al. 2020)." | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - BOINC
 KW  - Astrophysics - Astrophysics of Galaxies
 ER  - 
@@ -459,6 +491,8 @@ LA  - en
 SN  - 0028-0836, 1476-4687
 UR  - https://doi.org/10.1038/nature18322
 Y2  - 2022/12/23/21:36:22
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Acknowledgements, verbatim: "We would like to thank thousands of Universe@home users that have provided their personal computers for our simulations." Also verbatim: "We also want to thank the Hannover GW group for letting us use their ATLAS supercomputer." | Caveat: the paper reports both volunteer and supercomputer compute; the Universe@home acknowledgement is explicit. | Full text: arXiv:1602.04531 (published Nature 534:512-515) | Verification: full text checked 2026-11-10.</p>
+</div>
 KW  - FOS: Physical sciences
 KW  - BOINC
 ER  - 
@@ -482,23 +516,7 @@ SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.1088/0004-637X/810/1/20
 Y2  - 2022/12/23/21:36:22
 L1  - https://dspace.mit.edu/bitstream/1721.1/100049/1/Wiktorowicz-2015-NATURE%20OF%20THE%20EXTREM.pdf
-ER  - 
-
-TY  - JOUR
-TI  - Gravitational Encounters and the Evolution of Galactic Nuclei. III. Anomalous Relaxation
-AU  - Merritt, David
-T2  - The Astrophysical Journal
-DA  - 2015/08/24/
-PY  - 2015
-DO  - 10.1088/0004-637X/810/1/2
-DP  - DOI.org (Crossref)
-VL  - 810
-IS  - 1
-SP  - 2
-J2  - ApJ
-SN  - 1538-4357
-UR  - https://iopscience.iop.org/article/10.1088/0004-637X/810/1/2
-Y2  - 2022/12/23/21:36:22
-L4  - https://arxiv.org/pdf/1509.01263
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Methods §2, verbatim: "We use the BOINC platform for volunteer computing in our program ‘‘Universe@home’’ (http://universeathome.pl) to obtain a large number of X-ray binaries (N = 10^9 of massive binary systems were evolved by volunteers)." | Full text: arXiv:1503.08745 | Verification: full text checked 2026-11-10.</p>
+</div>
 ER  - 
 
