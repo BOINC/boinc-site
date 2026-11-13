@@ -16,7 +16,8 @@ LA  - en
 SN  - 22131337
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S221313371500092X
 Y2  - 2022/11/11/14:35:22
-L1  - https://arxiv.org/pdf/1511.08640
+L4  - https://arxiv.org/pdf/1511.08640
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The project uses the Berkeley Open Infrastructure for Network Computing (BOINC) framework to distribute, collect, and validate small computational units that are solved independently at individual computers of volunteers connected to the project." Acknowledgements, verbatim: "The success of Asteroids@home project would not be possible without tens of thousand of volunteers who provided computing resources of their computers." | Link: project description - sets out the project, its BOINC framework and the volunteer model | Source: Astronomy and Computing 13:80-84 (2015), DOI 10.1016/j.ascom.2015.09.004; arXiv:1511.08640</p>
 ER  - 
 
 TY  - JOUR
@@ -35,6 +36,7 @@ DO  - 10.48550/ARXIV.2010.01820
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/2010.01820
 Y2  - 2022/11/11/14:35:22
+N1  - <p>BOINC criterion evidence - Section 3, verbatim: "We used full convex shape inversion (running at Asteroids@home project 2) and also a simpler ellipsoidal shape model that ran at the computational cluster Tiger at the Astronomical Institute of Charles University." Acknowledgements, verbatim: "We greatly appreciate the contribution of tens of thousands of volunteers who joined the Asteroids@home BOINC project and provided their computing resources." | Caveat: the convex shape inversion ran on Asteroids@home, while the simpler ellipsoidal model ran on a local cluster; the paper reports both. | Source: A&A 643, A59 (2020), DOI 10.1051/0004-6361/202037729; arXiv:2010.01820</p>
 KW  - Earth and Planetary Astrophysics (astro-ph.EP)
 KW  - FOS: Physical sciences
 ER  - 
@@ -51,6 +53,7 @@ DO  - 10.48550/ARXIV.1807.02083
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/1807.02083
 Y2  - 2022/11/11/14:35:22
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The search for best-fitting models was done in the framework of the Asteroids@home distributed computing project." Section 2.2, verbatim: "These time-consuming computations were performed using the distributed computing project Asteroids@home (Ďurech et al. 2015). The whole interval of periods was divided into smaller intervals with roughly similar computing requirements and these tasks were distributed among volunteers participating in the project." Acknowledgements, verbatim: "We would not be able to process data for hundreds of thousands of asteroids without the help of the tens of thousands of volunteers who joined the Asteroids@home BOINC project and provided their computing resources." | Source: A&A 617, A57 (2018), DOI 10.1051/0004-6361/201833437; arXiv:1807.02083</p>
 KW  - Earth and Planetary Astrophysics (astro-ph.EP)
 KW  - FOS: Physical sciences
 ER  - 
@@ -67,6 +70,7 @@ DO  - 10.48550/ARXIV.1909.09395
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/1909.09395
 Y2  - 2022/11/11/14:35:22
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "In the framework of the Asteroids@home distributed computing project, we applied the light curve inversion method to each asteroid to find its convex shape model and spin state that fits the observed photometry." Section 2, verbatim: "In practice, this is done with Asteroids@home distributed computing project (Ďurech et al. 2015)." Acknowledgements, verbatim: "We greatly appreciate contribution of tens of thousand of volunteers who joined the Asteroids@home BOINC project and provided their computing resources." | Source: A&A 631, A2 (2019), DOI 10.1051/0004-6361/201936341; arXiv:1909.09395</p>
 KW  - Earth and Planetary Astrophysics (astro-ph.EP)
 KW  - FOS: Physical sciences
 ER  - 
@@ -254,6 +258,7 @@ SN  - 0004-6361, 1432-0746
 UR  - http://www.aanda.org/10.1051/0004-6361/201527441
 Y2  - 2022/11/11/14:35:22
 L1  - https://www.aanda.org/articles/aa/pdf/2016/02/aa27441-15.pdf
+N1  - <p>BOINC criterion evidence - Section 2, verbatim: "the volunteer project Asteroids@home, which makes use of distributed computing and runs in the framework of Berkeley Open Infrastructure for Network Computing (BOINC), currently employs shape model computations based on Lowell data (Ďurech et al. 2015b). Thousands of individual home computational stations of volunteers are currently participating in the project." | Link: indirect - describes Asteroids@home and its BOINC-based computations, which it uses for shape models from Lowell data; its own models come from dense light curves supplied by a large observer network | Source: A&A 586, A108 (2016), DOI 10.1051/0004-6361/201527441; arXiv:1510.07422</p>
 ER  - 
 
 TY  - JOUR
@@ -270,6 +275,7 @@ DO  - 10.48550/ARXIV.1502.04816
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/1502.04816
 Y2  - 2022/11/11/14:35:22
+N1  - <p>BOINC criterion evidence - Section 6, verbatim: "The increasing availability of sparse-in-time photometry, and its appropriate handling in the inversion, coupled with a dramatic increase of computer time (thanks to projects like Asteroids@Home) have made this possible." | Link: indirect - credits projects such as Asteroids@home for the computer time that makes sparse-photometry inversion practical | Source: arXiv:1502.04816 (2015)</p>
 KW  - Earth and Planetary Astrophysics (astro-ph.EP)
 KW  - FOS: Physical sciences
 ER  - 
@@ -287,6 +293,7 @@ DO  - 10.48550/ARXIV.1601.02909
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/1601.02909
 Y2  - 2022/11/11/14:35:22
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "To speed up the time-consuming process of scanning the period parameter space through the use of convex shape models, we use the distributed computing project Asteroids@home, running on the Berkeley Open Infrastructure for Network Computing (BOINC) platform." Section 2.3, verbatim: "Asteroids@home is a volunteer-based computing project built on the Berkeley Open Infrastructure for Network Computing (BOINC) platform... which were searched individually on the computers of volunteers connected to the project." Acknowledgements, verbatim: "We would not be able to process data for hundreds of thousands of asteroids without the help of tens of thousand of volunteers who joined the Asteroids@home BOINC project and provided computing resources from their computers." | Source: A&A 587, A48 (2016), DOI 10.1051/0004-6361/201527573; arXiv:1601.02909</p>
 KW  - Earth and Planetary Astrophysics (astro-ph.EP)
 KW  - FOS: Physical sciences
 ER  - 
@@ -306,6 +313,7 @@ VL  - 45
 SP  - 304.05
 UR  - https://ui.adsabs.harvard.edu/abs/2013DPS....4530405D
 Y2  - 2022/11/12/11:46:08
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "In our work, we processed data for the first 10,000 numbered asteroids with the lightcurve inversion method (Kaasalainen et al., 2001, Icarus 153,37) using an enormous computational power of Asteroids@home (http://asteroidsathome.net) - a distributed computing project built on the BOINC platform. More than 10,000 users have joined the project and their computers were used for the time-consuming search for the sidereal rotation period in the sparse data." | Link: direct - conference abstract reporting project computations | Source: AAS/Division for Planetary Sciences Meeting Abstracts #45, bibcode 2013DPS....4530405D</p>
 ER  - 
 
 TY  - JOUR
@@ -330,6 +338,7 @@ UR  - https://www.aanda.org/articles/aa/abs/2016/12/aa29192-16/aa29192-16.html
 Y2  - 2022/11/12/11:51:09
 L1  - https://www.aanda.org/articles/aa/pdf/2016/12/aa29192-16.pdf
 L2  - https://www.aanda.org/articles/aa/full_html/2016/12/aa29192-16/aa29192-16.html
+N1  - <p>BOINC criterion evidence - Section 1, verbatim: "using the distributed computing project Asteroids@home (Ďurech et al. 2015), which significantly reduces the computational time of the period search, Ďurech et al. (2016) derived 328 new models from the analysis of Lowell photometric data." | Link: indirect - names Asteroids@home as the facility behind the earlier Ďurech et al. (2016) models that this study builds on and compares with | Source: A&A 596, A57 (2016), DOI 10.1051/0004-6361/201629192; arXiv:1610.02790</p>
 ER  - 
 
 TY  - JOUR
@@ -350,6 +359,28 @@ J2  - Front. Astron. Space Sci.
 SN  - 2296-987X
 UR  - https://www.frontiersin.org/articles/10.3389/fspas.2022.809771/full
 Y2  - 2023/10/15/19:02:02
-L1  - https://www.frontiersin.org/articles/10.3389/fspas.2022.809771/pdf
+L4  - https://www.frontiersin.org/articles/10.3389/fspas.2022.809771/pdf
+N1  - <p>BOINC criterion evidence - Section 2, verbatim: "We processed this data set at Asteroids@home project (Ďurech et al., 2015)". Section 3, verbatim: "we computed other 25 periodograms at Asteroids@home". Acknowledgements, verbatim: "We greatly appreciate the contribution of tens of thousands of volunteers who joined the Asteroids@home BOINC project and provided their computing resources." | Source: Frontiers in Astronomy and Space Sciences 9:809771 (2022), DOI 10.3389/fspas.2022.809771</p>
+ER  - 
+
+TY  - JOUR
+TI  - Spins and shapes of asteroids reconstructed from photometry from surveys
+AU  - Ďurech, J.
+AU  - Hanuš, J.
+T2  - Astronomy & Astrophysics
+AB  - Modern asteroid surveys routinely acquire sparse photometric measurements for hundreds of thousands of asteroids. These data can be exploited to reconstruct asteroid spin states and shapes, providing statistical constraints on the rotational evolution of different dynamical populations. We combined sparse photometry from Catalina, Mt. Lemmon, Pan-STARRS, ZTF, USNO, ATLAS, ASAS-SN, TESS, and Gaia and applied convex light-curve inversion to determine sidereal rotation periods, spin-axis orientations, convex shapes, phase-function parameters, and colors. The extensive parameter-space search was performed using the distributed-computing project Asteroids@home. We derived approximately 30 000 asteroid models, including about 22 000 unique spin-state solutions and almost 10 000 partial pole solutions, tripling the number of available asteroid models.
+DA  - 2026/10/27/
+PY  - 2026
+DO  - 10.1051/0004-6361/202662316
+DP  - DOI.org (Crossref)
+VL  - 714
+SP  - A462
+J2  - A&A
+LA  - en
+SN  - 0004-6361, 1432-0746
+UR  - https://doi.org/10.1051/0004-6361/202662316
+L4  - https://arxiv.org/pdf/2610.06082
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The extensive parameter-space search was performed using the distributed-computing project Asteroids@home." Section 2, verbatim: "To manage this task for more than 300,000 asteroids, we used the distributed computing project Asteroids@home (Ďurech et al. 2015). It uses the Berkeley Open Infrastructure for Network Computing (BOINC) framework to distribute computational units that are solved independently using individual computers belonging to volunteers connected to the project. With about 100 TeraFLOPS of computational power, the data were processed in about half a year." Acknowledgements, verbatim: "The results presented here would not have been possible without the hundreds of thousands of volunteers who freely provided computing resources for the Asteroids@home distributed computing project." | Source: A&A 714, A462 (2026), DOI 10.1051/0004-6361/202662316; arXiv:2610.06082</p>
+KW  - BOINC
 ER  - 
 
