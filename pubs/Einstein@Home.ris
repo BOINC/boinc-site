@@ -10,43 +10,43 @@ AU  - Allen, B.
 AU  - Behnke, O.
 T2  - The Astrophysical Journal
 AB  - Abstract
-            
-              We present results of a search for periodic gravitational wave signals with frequencies between 20 and 400 Hz from the neutron star in the supernova remnant G347.3-0.5 using LIGO O2 public data. The search is deployed on the volunteer computing project Einstein@Home, with thousands of participants donating compute cycles to make this endeavour possible. We find no significant signal candidate and set the most constraining upper limits to date on the amplitude of gravitational wave signals from the target, corresponding to deformations below 10
-              −6
-              in a large part of the band. At the frequency of best strain sensitivity, near 166 Hz, we set 90% confidence upper limits on the gravitational wave intrinsic amplitude of
-              
-                
-                  
-                
-                
-                  
-                    
-                      h
-                    
-                    
-                      0
-                    
-                    
-                      90
-                      %
-                    
-                  
-                  ≈
-                  7.0
-                  ×
-                  
-                    
-                      10
-                    
-                    
-                      −
-                      26
-                    
-                  
-                
-                
-              
-              . Over most of the frequency range our upper limits are a factor of 20 smaller than the indirect age-based upper limit.
+
+We present results of a search for periodic gravitational wave signals with frequencies between 20 and 400 Hz from the neutron star in the supernova remnant G347.3-0.5 using LIGO O2 public data. The search is deployed on the volunteer computing project Einstein@Home, with thousands of participants donating compute cycles to make this endeavour possible. We find no significant signal candidate and set the most constraining upper limits to date on the amplitude of gravitational wave signals from the target, corresponding to deformations below 10
+−6
+in a large part of the band. At the frequency of best strain sensitivity, near 166 Hz, we set 90% confidence upper limits on the gravitational wave intrinsic amplitude of
+
+
+
+
+
+
+
+h
+
+
+0
+
+
+90
+%
+
+
+≈
+7.0
+×
+
+
+10
+
+
+−
+26
+
+
+
+
+
+. Over most of the frequency range our upper limits are a factor of 20 smaller than the indirect age-based upper limit.
 DA  - 2022/01/01/
 PY  - 2022
 DO  - 10.3847/1538-4357/ac35cb
@@ -58,7 +58,8 @@ J2  - ApJ
 SN  - 0004-637X, 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ac35cb
 Y2  - 2022/11/13/19:50:55
-L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ac35cb/pdf
+L4  - https://iopscience.iop.org/article/10.3847/1538-4357/ac35cb/pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The search is deployed on the volunteer computing project Einstein@Home, with thousands of participants donating compute cycles to make this endeavour possible." | Link: results - directed low-frequency search for continuous waves from supernova remnant G347.3 in LIGO O2 data | Source: The Astrophysical Journal (2022); DOI 10.3847/1538-4357/ac35cb</p>
 ER  - 
 
 TY  - JOUR
@@ -99,20 +100,20 @@ AU  - Tan, C. M.
 AU  - Zhu, W. W.
 T2  - The Astrophysical Journal
 AB  - Abstract
-            
-              We present new discoveries and results from long-term timing of 72 pulsars discovered in the Pulsar Arecibo
-              L
-              -band Feed Array (PALFA) survey, including precise determination of astrometric and spin parameters, and flux density and scatter broadening measurements at 1.4 GHz. Notable discoveries include two young pulsars (characteristic ages ∼30 kyr) with no apparent supernova remnant associations, three mode-changing, 12 nulling and two intermittent pulsars. We detected eight glitches in five pulsars. Among them is PSR J1939+2609, an apparently old pulsar (characteristic age ∼1 Gy), and PSR J1954+2529, which likely belongs to a newly emerging class of binary pulsars. The latter is the only pulsar among the 72 that is clearly not isolated: a nonrecycled neutron star with a 931 ms spin period in an eccentric (
-              e
-              = 0.114) wide (
-              P
-              
-                b
-              
-              = 82.7  days) orbit with a companion of undetermined nature having a minimum mass of ∼0.6
-              M
-              ⊙
-              . Since operations at Arecibo ceased in 2020 August, we give a final tally of PALFA sky coverage, and compare its 207 pulsar discoveries to the known population. On average, they are 50% more distant than other Galactic plane radio pulsars; PALFA millisecond pulsars (MSPs) have twice the dispersion measure per unit spin period than the known population of MSP in the plane. The four intermittent pulsars discovered by PALFA more than double the population of such objects, which should help to improve our understanding of pulsar magnetosphere physics. The statistics for these, rotating radio transients, and nulling pulsars suggest that there are many more of these objects in the Galaxy than was previously thought.
+
+We present new discoveries and results from long-term timing of 72 pulsars discovered in the Pulsar Arecibo
+L
+-band Feed Array (PALFA) survey, including precise determination of astrometric and spin parameters, and flux density and scatter broadening measurements at 1.4 GHz. Notable discoveries include two young pulsars (characteristic ages ∼30 kyr) with no apparent supernova remnant associations, three mode-changing, 12 nulling and two intermittent pulsars. We detected eight glitches in five pulsars. Among them is PSR J1939+2609, an apparently old pulsar (characteristic age ∼1 Gy), and PSR J1954+2529, which likely belongs to a newly emerging class of binary pulsars. The latter is the only pulsar among the 72 that is clearly not isolated: a nonrecycled neutron star with a 931 ms spin period in an eccentric (
+e
+= 0.114) wide (
+P
+
+b
+
+= 82.7  days) orbit with a companion of undetermined nature having a minimum mass of ∼0.6
+M
+⊙
+. Since operations at Arecibo ceased in 2020 August, we give a final tally of PALFA sky coverage, and compare its 207 pulsar discoveries to the known population. On average, they are 50% more distant than other Galactic plane radio pulsars; PALFA millisecond pulsars (MSPs) have twice the dispersion measure per unit spin period than the known population of MSP in the plane. The four intermittent pulsars discovered by PALFA more than double the population of such objects, which should help to improve our understanding of pulsar magnetosphere physics. The statistics for these, rotating radio transients, and nulling pulsars suggest that there are many more of these objects in the Galaxy than was previously thought.
 DA  - 2022/01/01/
 PY  - 2022
 DO  - 10.3847/1538-4357/ac375d
@@ -125,7 +126,8 @@ SN  - 0004-637X, 1538-4357
 ST  - Study of 72 Pulsars Discovered in the PALFA Survey
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ac375d
 Y2  - 2022/11/13/19:50:55
-L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ac375d/pdf
+L4  - https://iopscience.iop.org/article/10.3847/1538-4357/ac375d/pdf
+N1  - <p>BOINC criterion evidence - Section 2, verbatim: "The pipelines used are: Quicklook (Stovall 2013), Einstein@Home (E@H; Allen et al. 2013)" "Approximately 40% of the 72 objects we study in this work were first found by either the Quicklook or E@H pipelines." | Link: results - timing of 72 PALFA pulsars, about 40% of them first found by the Einstein@Home pipeline | Source: The Astrophysical Journal (2022); DOI 10.3847/1538-4357/ac375d</p>
 ER  - 
 
 TY  - JOUR
@@ -143,29 +145,29 @@ AU  - Behnke, O.
 AU  - Kwang, S.
 T2  - The Astrophysical Journal
 AB  - Abstract
-            
-              We conduct an all-sky search for continuous gravitational waves in the LIGO O2 data from the Hanford and Livingston detectors. We search for nearly monochromatic signals with frequency 20.0 Hz ≤ 
-              f
-               ≤ 585.15 Hz and spin-down
-              
-                
-                  
-                
-                
-              
-              Hz s
-              −1
-              . We deploy the search on the Einstein@Home volunteer-computing project and follow-up the waveforms associated with the most significant results with eight further search stages, reaching the best sensitivity ever achieved by an all-sky survey up to 500 Hz. Six of the inspected waveforms pass all the stages but they are all associated with hardware injections, which are fake signals simulated at the LIGO detector for validation purposes. We recover all these fake signals with consistent parameters. No other waveform survives, so we find no evidence of a continuous gravitational wave signal at the detectability level of our search. We constrain the
-              h
-              0
-              amplitude of continuous gravitational waves at the detector as a function of the signal frequency, in half-Hz bins. The most constraining upper limit at 163.0 Hz is
-              h
-              0
-               = 1.3 × 10
-              −25
-              , at the 90% confidence level. Our results exclude neutron stars rotating faster than 5 ms with equatorial ellipticities larger than 10
-              −7
-              closer than 100 pc. These are deformations that neutron star crusts could easily support, according to some models.
+
+We conduct an all-sky search for continuous gravitational waves in the LIGO O2 data from the Hanford and Livingston detectors. We search for nearly monochromatic signals with frequency 20.0 Hz ≤
+f
+≤ 585.15 Hz and spin-down
+
+
+
+
+
+
+Hz s
+−1
+. We deploy the search on the Einstein@Home volunteer-computing project and follow-up the waveforms associated with the most significant results with eight further search stages, reaching the best sensitivity ever achieved by an all-sky survey up to 500 Hz. Six of the inspected waveforms pass all the stages but they are all associated with hardware injections, which are fake signals simulated at the LIGO detector for validation purposes. We recover all these fake signals with consistent parameters. No other waveform survives, so we find no evidence of a continuous gravitational wave signal at the detectability level of our search. We constrain the
+h
+0
+amplitude of continuous gravitational waves at the detector as a function of the signal frequency, in half-Hz bins. The most constraining upper limit at 163.0 Hz is
+h
+0
+= 1.3 × 10
+−25
+, at the 90% confidence level. Our results exclude neutron stars rotating faster than 5 ms with equatorial ellipticities larger than 10
+−7
+closer than 100 pc. These are deformations that neutron star crusts could easily support, according to some models.
 DA  - 2021/03/01/
 PY  - 2021
 DO  - 10.3847/1538-4357/abc7c9
@@ -178,6 +180,7 @@ SN  - 0004-637X, 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/abc7c9
 Y2  - 2022/11/13/19:50:55
 L1  - https://bib-pubdb1.desy.de/record/474240/files/Steltner_2021_ApJ_909_79.pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We deploy the search on the Einstein@Home volunteer-computing project and follow-up the waveforms associated with the most significant results with eight further search stages, reaching the best sensitivity ever achieved by an all-sky survey up to 500 Hz." | Link: results - all-sky search for continuous waves in LIGO O2 public data, with eight follow-up stages | Source: The Astrophysical Journal (2021); DOI 10.3847/1538-4357/abc7c9</p>
 ER  - 
 
 TY  - JOUR
@@ -226,19 +229,19 @@ AU  - Sanpa-arsa, S.
 AU  - Steltner, B.
 T2  - The Astrophysical Journal Letters
 AB  - Abstract
-            
-              We report the discovery of 1.97 ms period gamma-ray pulsations from the 75 minute orbital-period binary pulsar now named PSR J1653−0158. The associated Fermi Large Area Telescope gamma-ray source 4FGL J1653.6−0158 has long been expected to harbor a binary millisecond pulsar. Despite the pulsar-like gamma-ray spectrum and candidate optical/X-ray associations—whose periodic brightness modulations suggested an orbit—no radio pulsations had been found in many searches. The pulsar was discovered by directly searching the gamma-ray data using the GPU-accelerated Einstein@Home distributed volunteer computing system. The multidimensional parameter space was bounded by positional and orbital constraints obtained from the optical counterpart. More sensitive analyses of archival and new radio data using knowledge of the pulsar timing solution yield very stringent upper limits on radio emission. Any radio emission is thus either exceptionally weak, or eclipsed for a large fraction of the time. The pulsar has one of the three lowest inferred surface magnetic-field strengths of any known pulsar with
-              B
-              surf
-               ≈ 4 × 10
-              7
-              G. The resulting mass function, combined with models of the companion star’s optical light curve and spectra, suggests a pulsar mass ≳2
-              M
-              ⊙
-              . The companion is lightweight with mass ∼0.01
-              M
-              ⊙
-              , and the orbital period is the shortest known for any rotation-powered binary pulsar. This discovery demonstrates the Fermi Large Area Telescope's potential to discover extreme pulsars that would otherwise remain undetected.
+
+We report the discovery of 1.97 ms period gamma-ray pulsations from the 75 minute orbital-period binary pulsar now named PSR J1653−0158. The associated Fermi Large Area Telescope gamma-ray source 4FGL J1653.6−0158 has long been expected to harbor a binary millisecond pulsar. Despite the pulsar-like gamma-ray spectrum and candidate optical/X-ray associations—whose periodic brightness modulations suggested an orbit—no radio pulsations had been found in many searches. The pulsar was discovered by directly searching the gamma-ray data using the GPU-accelerated Einstein@Home distributed volunteer computing system. The multidimensional parameter space was bounded by positional and orbital constraints obtained from the optical counterpart. More sensitive analyses of archival and new radio data using knowledge of the pulsar timing solution yield very stringent upper limits on radio emission. Any radio emission is thus either exceptionally weak, or eclipsed for a large fraction of the time. The pulsar has one of the three lowest inferred surface magnetic-field strengths of any known pulsar with
+B
+surf
+≈ 4 × 10
+7
+G. The resulting mass function, combined with models of the companion star’s optical light curve and spectra, suggests a pulsar mass ≳2
+M
+⊙
+. The companion is lightweight with mass ∼0.01
+M
+⊙
+, and the orbital period is the shortest known for any rotation-powered binary pulsar. This discovery demonstrates the Fermi Large Area Telescope's potential to discover extreme pulsars that would otherwise remain undetected.
 DA  - 2020/10/01/
 PY  - 2020
 DO  - 10.3847/2041-8213/abbc02
@@ -251,6 +254,7 @@ SN  - 2041-8205, 2041-8213
 UR  - https://iopscience.iop.org/article/10.3847/2041-8213/abbc02
 Y2  - 2022/11/13/19:50:55
 L1  - https://pure.uva.nl/ws/files/55393785/Discovery_of_a_Gamma_Ray_Black_Widow_Pulsar.pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The pulsar was discovered by directly searching the gamma-ray data using the GPU-accelerated Einstein@Home distributed volunteer computing system." | Link: discovery - gamma-ray black widow pulsar PSR J1653-0158, found with volunteer GPUs | Source: The Astrophysical Journal Letters (2020); DOI 10.3847/2041-8213/abbc02</p>
 ER  - 
 
 TY  - JOUR
@@ -276,7 +280,8 @@ J2  - ApJ
 SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ab92a6
 Y2  - 2022/11/13/19:50:55
-L1  - https://arxiv.org/pdf/2005.06544
+L4  - https://arxiv.org/pdf/2005.06544
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "Across the three targets, we investigate the most promising ≈10,000 combinations of gravitational-wave frequency and frequency derivative values, based on the results from an Einstein@Home search of the LIGO O1 observing run data, dedicated to these objects." | Link: results - directed search for continuous waves from the central compact objects in Cassiopeia A, Vela Jr and G347.3 | Source: The Astrophysical Journal (2020); DOI 10.3847/1538-4357/ab92a6</p>
 ER  - 
 
 TY  - JOUR
@@ -287,7 +292,7 @@ AU  - Clark, C. J.
 AU  - Pletsch, H. J.
 T2  - The Astrophysical Journal
 AB  - Abstract
-            It is difficult to discover pulsars via their gamma-ray emission because current instruments typically detect fewer than one photon per million rotations. This creates a significant computing challenge for isolated pulsars, where the typical parameter search space spans wide ranges in four dimensions. It is even more demanding when the pulsar is in a binary system, where the orbital motion introduces several additional unknown parameters. Building on earlier work by Pletsch & Clark, we present optimal methods for such searches. These can also incorporate external constraints on the parameter space to be searched, for example, from optical observations of a presumed binary companion. The solution has two parts. The first is the construction of optimal search grids in parameter space via a parameter space metric, for initial semicoherent searches and subsequent fully coherent follow-ups. The second is a method to demodulate and detect the periodic pulsations. These methods have different sensitivity properties than traditional radio searches for binary pulsars and might unveil new populations of pulsars.
+It is difficult to discover pulsars via their gamma-ray emission because current instruments typically detect fewer than one photon per million rotations. This creates a significant computing challenge for isolated pulsars, where the typical parameter search space spans wide ranges in four dimensions. It is even more demanding when the pulsar is in a binary system, where the orbital motion introduces several additional unknown parameters. Building on earlier work by Pletsch & Clark, we present optimal methods for such searches. These can also incorporate external constraints on the parameter space to be searched, for example, from optical observations of a presumed binary companion. The solution has two parts. The first is the construction of optimal search grids in parameter space via a parameter space metric, for initial semicoherent searches and subsequent fully coherent follow-ups. The second is a method to demodulate and detect the periodic pulsations. These methods have different sensitivity properties than traditional radio searches for binary pulsars and might unveil new populations of pulsars.
 DA  - 2020/10/01/
 PY  - 2020
 DO  - 10.3847/1538-4357/abaf53
@@ -300,6 +305,7 @@ SN  - 0004-637X, 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/abaf53
 Y2  - 2022/11/13/19:50:55
 L1  - https://www.repo.uni-hannover.de/bitstream/123456789/10697/1/Exploiting%20Orbital%20Constraints%20from%20Optical%20Data%20to%20Detect%20Binary%20Gamma-Ray%20Pulsars.pdf
+N1  - <p>BOINC criterion evidence - Section 1, verbatim: "We demonstrate the feasibility of a search using the computing resources of the distributed volunteer computing project Einstein@Home (Allen et al. 2013)." | Link: method - optical orbital constraints used to shrink the parameter space for binary gamma-ray pulsars | Source: The Astrophysical Journal (2020); DOI 10.3847/1538-4357/abaf53</p>
 ER  - 
 
 TY  - JOUR
@@ -321,7 +327,8 @@ LA  - en
 SN  - 2470-0010, 2470-0029
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.99.082004
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/accepted/10.1103/PhysRevD.99.082004
+L4  - https://link.aps.org/accepted/10.1103/PhysRevD.99.082004
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We employ a mock data challenge to assess the ability of this method to recover signals, and compare its sensitivity with that of the global correlation transform method (GCT), which has been used for searches with the Einstein@Home volunteer computing project for a number of years." | Link: method - comparison of analysis methods for all-sky searches | Source: Physical Review D (2019); DOI 10.1103/PhysRevD.99.082004</p>
 ER  - 
 
 TY  - JOUR
@@ -351,7 +358,8 @@ LA  - en
 SN  - 2470-0010, 2470-0029
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.100.024063
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/accepted/10.1103/PhysRevD.100.024063
+L4  - https://link.aps.org/accepted/10.1103/PhysRevD.100.024063
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The search was made possible by the computing power provided by the volunteers of the Einstein@Home project and improves on previous results by a factor of 2 across the entire frequency range for all targets." | Link: results - directed search for continuous waves from Cassiopeia A, Vela Jr and G347.3 | Source: Physical Review D (2019); DOI 10.1103/PhysRevD.100.024063</p>
 ER  - 
 
 TY  - JOUR
@@ -395,6 +403,7 @@ SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/aaa411
 Y2  - 2022/11/13/19:50:55
 L1  - https://hal.archives-ouvertes.fr/hal-01714167/file/Wu_2018_ApJ_854_99.pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We report on the analysis of 13 gamma-ray pulsars discovered in the Einstein@Home blind search survey using Fermi Large Area Telescope (LAT) Pass 8 data." | Link: results - spectral analysis and multiwavelength follow-up of the pulsars found by the gamma-ray survey | Source: The Astrophysical Journal (2018); DOI 10.3847/1538-4357/aaa411</p>
 ER  - 
 
 TY  - JOUR
@@ -533,8 +542,8 @@ AU  - Wood, Kent
 AU  - Wood, Matthew
 T2  - Science Advances
 AB  - A citizen science project discovers a new type of gamma-ray millisecond pulsar with no detectable radio pulsations.
-          , 
-            Millisecond pulsars (MSPs) are old neutron stars that spin hundreds of times per second and appear to pulsate as their emission beams cross our line of sight. To date, radio pulsations have been detected from all rotation-powered MSPs. In an attempt to discover radio-quiet gamma-ray MSPs, we used the aggregated power from the computers of tens of thousands of volunteers participating in the Einstein@Home distributed computing project to search for pulsations from unidentified gamma-ray sources in Fermi Large Area Telescope data. This survey discovered two isolated MSPs, one of which is the only known rotation-powered MSP to remain undetected in radio observations. These gamma-ray MSPs were discovered in completely blind searches without prior constraints from other observations, raising hopes for detecting MSPs from a predicted Galactic bulge population.
+,
+Millisecond pulsars (MSPs) are old neutron stars that spin hundreds of times per second and appear to pulsate as their emission beams cross our line of sight. To date, radio pulsations have been detected from all rotation-powered MSPs. In an attempt to discover radio-quiet gamma-ray MSPs, we used the aggregated power from the computers of tens of thousands of volunteers participating in the Einstein@Home distributed computing project to search for pulsations from unidentified gamma-ray sources in Fermi Large Area Telescope data. This survey discovered two isolated MSPs, one of which is the only known rotation-powered MSP to remain undetected in radio observations. These gamma-ray MSPs were discovered in completely blind searches without prior constraints from other observations, raising hopes for detecting MSPs from a predicted Galactic bulge population.
 DA  - 2018/02/02/
 PY  - 2018
 DO  - 10.1126/sciadv.aao7228
@@ -547,7 +556,8 @@ LA  - en
 SN  - 2375-2548
 UR  - https://www.science.org/doi/10.1126/sciadv.aao7228
 Y2  - 2022/11/13/19:50:55
-L1  - https://europepmc.org/articles/pmc5829974?pdf=render
+L4  - https://europepmc.org/articles/pmc5829974?pdf=render
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "In an attempt to discover radio-quiet gamma-ray MSPs, we used the aggregated power from the computers of tens of thousands of volunteers participating in the Einstein@Home distributed computing project to search for pulsations from unidentified gamma-ray sources in Fermi Large Area Telescope data." | Link: discovery - first radio-quiet gamma-ray millisecond pulsar, found in Fermi-LAT data | Source: Science Advances (2018); DOI 10.1126/sciadv.aao7228</p>
 ER  - 
 
 TY  - JOUR
@@ -574,7 +584,8 @@ LA  - en
 SN  - 2470-0010, 2470-0029
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.97.024051
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/accepted/10.1103/PhysRevD.97.024051
+L4  - https://link.aps.org/accepted/10.1103/PhysRevD.97.024051
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "Our search is designed to use the volunteer computing project Einstein@Home for a few months and assumes the sensitivity and duty cycles of the advanced LIGO detectors during their first science run." | Link: method - grid setup for directed searches in Advanced LIGO O1 data | Source: Physical Review D (2018); DOI 10.1103/PhysRevD.97.024051</p>
 ER  - 
 
 TY  - JOUR
@@ -1633,7 +1644,8 @@ LA  - en
 SN  - 2470-0010, 2470-0029
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.96.122004
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/pdf/10.1103/PhysRevD.96.122004
+L4  - https://link.aps.org/pdf/10.1103/PhysRevD.96.122004
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The search was made possible by the computing power provided by the volunteers of the Einstein@Home project." | Link: results - first low-frequency all-sky search in Advanced LIGO O1 data | Source: Physical Review D (2017); DOI 10.1103/PhysRevD.96.122004</p>
 ER  - 
 
 TY  - JOUR
@@ -1654,7 +1666,8 @@ LA  - en
 SN  - 2470-0010, 2470-0029
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.96.124007
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/accepted/10.1103/PhysRevD.96.124007
+L4  - https://link.aps.org/accepted/10.1103/PhysRevD.96.124007
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "With this veto, we are able to identify as coherent disturbances >99.9% of the 6349 candidates from the recent all-sky low-frequency Einstein@Home search on the data from the Advanced LIGO O1 observing run [1]." | Link: method - veto that removes more than 99.9% of coherent disturbances from a search | Source: Physical Review D (2017); DOI 10.1103/PhysRevD.96.124007</p>
 ER  - 
 
 TY  - JOUR
@@ -1676,7 +1689,8 @@ LA  - en
 SN  - 2470-0010, 2470-0029
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.96.082003
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/accepted/10.1103/PhysRevD.96.082003
+L4  - https://link.aps.org/accepted/10.1103/PhysRevD.96.082003
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "This new procedure was employed in the first Einstein@Home search on data from the first science run of the advanced LIGO detectors (O1) [11]." | Link: method - adaptive clustering of search candidates | Source: Physical Review D (2017); DOI 10.1103/PhysRevD.96.082003</p>
 ER  - 
 
 TY  - JOUR
@@ -1708,6 +1722,7 @@ SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/834/2/106
 Y2  - 2022/11/13/19:50:55
 L1  - https://pure.manchester.ac.uk/ws/files/53601714/Clark_2017_ApJ_834_106.pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We report on the results of a recent blind search survey for gamma-ray pulsars in Fermi Large Area Telescope (LAT) data being carried out on the distributed volunteer computing system, Einstein@Home." | Link: results - blind gamma-ray pulsar survey of unidentified Fermi-LAT sources; 13 new pulsars | Source: The Astrophysical Journal (2017); DOI 10.3847/1538-4357/834/2/106</p>
 ER  - 
 
 TY  - JOUR
@@ -1741,7 +1756,8 @@ J2  - ApJ
 SN  - 2041-8213
 UR  - https://iopscience.iop.org/article/10.3847/2041-8205/832/1/L15
 Y2  - 2022/11/13/19:50:55
-L1  - https://arxiv.org/pdf/1611.01292
+L4  - https://arxiv.org/pdf/1611.01292
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The pulsar was discovered in gamma-ray photon data from the Fermi Large Area Telescope (LAT) during a blind-search survey of unidentified LAT sources, running on the distributed volunteer computing system Einstein@Home." | Link: results - braking index of a radio-quiet gamma-ray pulsar | Source: The Astrophysical Journal (2016); DOI 10.3847/2041-8205/832/1/L15</p>
 ER  - 
 
 TY  - JOUR
@@ -1774,7 +1790,8 @@ LA  - en
 SN  - 2470-0010, 2470-0029
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.94.122006
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/pdf/10.1103/PhysRevD.94.122006
+L4  - https://link.aps.org/pdf/10.1103/PhysRevD.94.122006
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "A new hierarchical multistage approach is taken, supported by the computing power of the Einstein@Home project, allowing us to probe more deeply than ever before." | Link: method - hierarchical follow-up of 16 million subthreshold candidates | Source: Physical Review D (2016); DOI 10.1103/PhysRevD.94.122006</p>
 ER  - 
 
 TY  - JOUR
@@ -1804,7 +1821,8 @@ LA  - en
 SN  - 2470-0010, 2470-0029
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.94.082008
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/pdf/10.1103/PhysRevD.94.082008
+L4  - https://link.aps.org/pdf/10.1103/PhysRevD.94.082008
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The data comes from the sixth science run of LIGO and the search is performed on the volunteer distributed computing network Einstein@Home." | Link: results - directed search for continuous waves from Cassiopeia A | Source: Physical Review D (2016); DOI 10.1103/PhysRevD.94.082008</p>
 ER  - 
 
 TY  - JOUR
@@ -1832,7 +1850,8 @@ LA  - en
 SN  - 2470-0010, 2470-0029
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.94.064061
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/pdf/10.1103/PhysRevD.94.064061
+L4  - https://link.aps.org/pdf/10.1103/PhysRevD.94.064061
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We present results of a high-frequency all-sky search for continuous gravitational waves from isolated compact objects in LIGO's 5th Science Run (S5) data, using the computing power of the Einstein@Home volunteer computing project." | Link: results - high-frequency all-sky search in LIGO S5 data | Source: Physical Review D (2016); DOI 10.1103/PhysRevD.94.064061</p>
 ER  - 
 
 TY  - JOUR
@@ -2807,7 +2826,8 @@ LA  - en
 SN  - 2470-0010, 2470-0029
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.94.102002
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/pdf/10.1103/PhysRevD.94.102002
+L4  - https://link.aps.org/pdf/10.1103/PhysRevD.94.102002
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The search was possible thanks to the computing power provided by the volunteers of the Einstein@Home distributed computing project." | Link: results - deepest all-sky survey, on LIGO S6 data | Source: Physical Review D (2016); DOI 10.1103/PhysRevD.94.102002</p>
 ER  - 
 
 TY  - JOUR
@@ -2946,10 +2966,11 @@ ST  - PSR J1906+0722
 UR  - https://iopscience.iop.org/article/10.1088/2041-8205/809/1/L2
 Y2  - 2022/11/13/19:50:55
 L1  - https://bib-pubdb1.desy.de/record/293263/files/AJL809.pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We report the discovery of PSR J1906+0722, a gamma-ray pulsar detected as part of a blind survey of unidentified Fermi Large Area Telescope (LAT) sources being carried out on the volunteer distributed computing system, Einstein@Home." | Link: discovery - gamma-ray pulsar PSR J1906+0722 | Source: The Astrophysical Journal (2015); DOI 10.1088/2041-8205/809/1/L2</p>
 ER  - 
 
 TY  - JOUR
-TI  - <i>Einstein@Home</i> DISCOVERY OF A PALFA MILLISECOND PULSAR IN AN ECCENTRIC BINARY ORBIT
+TI  - Einstein@Home DISCOVERY OF A PALFA MILLISECOND PULSAR IN AN ECCENTRIC BINARY ORBIT
 AU  - Knispel, B.
 AU  - Lyne, A. G.
 AU  - Stappers, B. W.
@@ -3002,7 +3023,8 @@ J2  - ApJ
 SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.1088/0004-637X/806/1/140
 Y2  - 2022/11/13/19:50:55
-L1  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1136&context=pa_fac
+L4  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1136&context=pa_fac
+N1  - <p>BOINC criterion evidence - Section 1.2, verbatim: "PSR J1950+2414 was discovered by the Einstein@Home PALFA pipeline" "The Einstein@Home PALFA analysis pipeline consists of three main steps." | Link: discovery - millisecond pulsar PSR J1950+2414 in an eccentric binary orbit | Source: The Astrophysical Journal (2015); DOI 10.1088/0004-637X/806/1/140</p>
 ER  - 
 
 TY  - JOUR
@@ -3025,11 +3047,12 @@ SN  - 1550-7998, 1550-2368
 ST  - Fully coherent follow-up of continuous gravitational-wave candidates
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.89.124030
 Y2  - 2022/11/13/19:50:55
-L1  - https://arxiv.org/pdf/1405.1922
+L4  - https://arxiv.org/pdf/1405.1922
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We characterize and present the details of the follow-up method used on the most significant outliers of the Hough Einstein@Home all-sky search for continuous gravitational waves" | Link: method - fully coherent follow-up of the most significant candidates | Source: Physical Review D (2014); DOI 10.1103/PhysRevD.89.124030</p>
 ER  - 
 
 TY  - JOUR
-TI  - EINSTEIN@HOME DISCOVERY OF FOUR YOUNG GAMMA-RAY PULSARS IN <i>FERMI</i> LAT DATA
+TI  - EINSTEIN@HOME DISCOVERY OF FOUR YOUNG GAMMA-RAY PULSARS IN FERMI LAT DATA
 AU  - Pletsch, H. J.
 AU  - Guillemot, L.
 AU  - Allen, B.
@@ -3060,11 +3083,12 @@ J2  - ApJ
 SN  - 2041-8205, 2041-8213
 UR  - https://iopscience.iop.org/article/10.1088/2041-8205/779/1/L11
 Y2  - 2022/11/13/19:50:55
-L1  - https://arxiv.org/pdf/1311.6427
+L4  - https://arxiv.org/pdf/1311.6427
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The pulsars were found using a novel search approach, combining volunteer distributed computing via Einstein@Home and methods originally developed in gravitational-wave astronomy." | Link: discovery - four young gamma-ray pulsars | Source: The Astrophysical Journal (2013); DOI 10.1088/2041-8205/779/1/L11</p>
 ER  - 
 
 TY  - JOUR
-TI  - <i>EINSTEIN@HOME</i> DISCOVERY OF 24 PULSARS IN THE PARKES MULTI-BEAM PULSAR SURVEY
+TI  - EINSTEIN@HOME DISCOVERY OF 24 PULSARS IN THE PARKES MULTI-BEAM PULSAR SURVEY
 AU  - Knispel, B.
 AU  - Eatough, R. P.
 AU  - Kim, H.
@@ -3098,11 +3122,12 @@ J2  - ApJ
 SN  - 0004-637X, 1538-4357
 UR  - https://iopscience.iop.org/article/10.1088/0004-637X/774/2/93
 Y2  - 2022/11/13/19:50:55
-L1  - https://arxiv.org/pdf/1302.0467
+L4  - https://arxiv.org/pdf/1302.0467
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "was provided by the distributed volunteer computing project Einstein@Home, which has a sustained computing power of about 1 PFlop s−1." | Link: discovery - 24 pulsars in the Parkes Multi-beam Pulsar Survey, from about 17,000 CPU core years of volunteer time | Source: The Astrophysical Journal (2013); DOI 10.1088/0004-637X/774/2/93</p>
 ER  - 
 
 TY  - JOUR
-TI  - THE <i>EINSTEIN@HOME</i> SEARCH FOR RADIO PULSARS AND PSR J2007+2722 DISCOVERY
+TI  - THE EINSTEIN@HOME SEARCH FOR RADIO PULSARS AND PSR J2007+2722 DISCOVERY
 AU  - Allen, B.
 AU  - Knispel, B.
 AU  - Cordes, J. M.
@@ -3162,6 +3187,7 @@ SN  - 0004-637X, 1538-4357
 UR  - https://iopscience.iop.org/article/10.1088/0004-637X/773/2/91
 Y2  - 2022/11/13/19:50:55
 L1  - https://pure.uva.nl/ws/files/2071690/147756_The_Einstein_Home.pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "Einstein@Home aggregates the computer power of hundreds of thousands of volunteers from 193 countries, to search for new neutron stars using data from electromagnetic and gravitational-wave detectors." | Link: methods and discovery - the radio pulsar search pipeline and PSR J2007+2722 | Source: The Astrophysical Journal (2013); DOI 10.1088/0004-637X/773/2/91</p>
 ER  - 
 
 TY  - JOUR
@@ -3979,7 +4005,8 @@ LA  - en
 SN  - 1550-7998, 1550-2368
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.87.042001
 Y2  - 2022/11/13/19:50:55
-L1  - https://link.aps.org/pdf/10.1103/PhysRevD.87.042001
+L4  - https://link.aps.org/pdf/10.1103/PhysRevD.87.042001
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "Because these searches are very computationally intensive, they have been carried out with the Einstein@Home volunteer distributed computing project." | Link: results - all-sky search for periodic waves in LIGO S5 data | Source: Physical Review D (2013); DOI 10.1103/PhysRevD.87.042001</p>
 ER  - 
 
 TY  - JOUR
@@ -4035,7 +4062,8 @@ SN  - 2041-8205, 2041-8213
 ST  - ARECIBO PALFA SURVEY AND EINSTEIN@HOME
 UR  - https://iopscience.iop.org/article/10.1088/2041-8205/732/1/L1
 Y2  - 2022/11/13/19:50:55
-L1  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1135&context=pa_fac
+L4  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1135&context=pa_fac
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We report the discovery of the 20.7 ms binary pulsar J1952+2630, made using the distributed computing project Einstein@Home in Pulsar ALFA survey observations with the Arecibo telescope." | Link: discovery - binary pulsar PSR J1952+2630 | Source: The Astrophysical Journal (2011); DOI 10.1088/2041-8205/732/1/L1</p>
 ER  - 
 
 TY  - JOUR
@@ -4500,7 +4528,8 @@ LA  - en
 SN  - 1550-7998, 1550-2368
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.79.022001
 Y2  - 2022/11/13/19:53:15
-L1  - https://link.aps.org/pdf/10.1103/PhysRevD.79.022001
+L4  - https://link.aps.org/pdf/10.1103/PhysRevD.79.022001
+N1  - <p>BOINC criterion evidence - Section III, verbatim: "This distributed computation project, called Einstein@Home [28], follows the model of a number of other well-known volunteer distributed computing projects such as SETI@home [29] and Folding@home [30]." | Link: results - the first search on LIGO S4 data | Source: Physical Review D (2009); DOI 10.1103/PhysRevD.79.022001</p>
 ER  - 
 
 TY  - JOUR
@@ -5022,7 +5051,8 @@ LA  - en
 SN  - 1550-7998, 1550-2368
 UR  - https://link.aps.org/doi/10.1103/PhysRevD.80.042003
 Y2  - 2022/11/13/19:53:15
-L1  - https://link.aps.org/pdf/10.1103/PhysRevD.80.042003
+L4  - https://link.aps.org/pdf/10.1103/PhysRevD.80.042003
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "This search extends Einstein@Home's previous search in LIGO S4 data to about three times better sensitivity." | Link: results - early LIGO S5 search, about three times the sensitivity of the S4 search | Source: Physical Review D (2009); DOI 10.1103/PhysRevD.80.042003</p>
 ER  - 
 
 TY  - JOUR
@@ -5080,7 +5110,8 @@ J2  - ApJ
 SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/834/2/137
 Y2  - 2022/11/13/19:53:16
-L1  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1150&context=pa_fac
+L4  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1150&context=pa_fac
+N1  - <p>BOINC criterion evidence - Section 1, verbatim: "Of the pulsars presented in this paper, 13 were discovered using the Einstein@Home pipeline (Allen et al. 2013), which uses spare cycles of a global network of PCs." "We also thank all Einstein@Home volunteers" | Link: results - timing of 29 PALFA pulsars, 13 of them found by the Einstein@Home pipeline | Source: The Astrophysical Journal (2017); DOI 10.3847/1538-4357/834/2/137</p>
 ER  - 
 
 TY  - JOUR
@@ -5134,7 +5165,8 @@ J2  - ApJ
 SN  - 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/0004-637X/831/2/150
 Y2  - 2022/11/13/19:53:16
-L1  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1138&context=pa_fac
+L4  - https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1138&context=pa_fac
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We report here the Einstein@Home discovery of PSR J1913+1102, a 27.3 ms pulsar found in data from the ongoing Arecibo PALFA pulsar survey." | Link: discovery - double neutron star binary PSR J1913+1102 | Source: The Astrophysical Journal (2016); DOI 10.3847/0004-637X/831/2/150</p>
 ER  - 
 
 TY  - JOUR
@@ -5153,8 +5185,9 @@ J2  - Phys. Rev. Lett.
 LA  - en
 SN  - 0031-9007, 1079-7114
 UR  - https://link.aps.org/doi/10.1103/PhysRevLett.103.181102
-Y2  - 2022/11/13/20:36:52
-L1  - https://arxiv.org/pdf/0906.0023
+Y2  - 2022/11/13/
+L4  - https://arxiv.org/pdf/0906.0023
+N1  - <p>BOINC criterion evidence - Final section, verbatim: "The LIGO Scientific Collaboration is currently working to deploy this technique on the Einstein@Home project [12], starting with LIGO S6 data." | Link: method - correlation technique, subsequently deployed on the project for the S6 search | Source: Physical Review Letters (2009); DOI 10.1103/PhysRevLett.103.181102</p>
 ER  - 
 
 TY  - JOUR
@@ -5174,8 +5207,9 @@ J2  - TOAAJ
 LA  - en
 SN  - 18743811
 UR  - http://benthamopen.com/ABSTRACT/TOAAJ-4-154
-Y2  - 2022/11/13/20:36:52
+Y2  - 2022/11/13/
 L1  - https://benthamopen.com/contents/pdf/TOAAJ/TOAAJ-4-154.pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We present a detailed approach for making use of two new computer hardware architectures -- CBEA and CUDA -- for accelerating a scientific data-analysis application (Einstein@Home)." | Link: methods - GPU and Cell acceleration of the search application | Source: The Open Astronomy Journal (2009); DOI 10.2174/1874381101004010154</p>
 ER  - 
 
 TY  - JOUR
@@ -5223,8 +5257,8 @@ AU  - Stovall, K.
 AU  - Venkataraman, A.
 T2  - Science
 AB  - Einstein@Home, a distributed computing project, discovered a rare, isolated pulsar with a low magnetic field.
-          , 
-            Einstein@Home aggregates the computer power of hundreds of thousands of volunteers from 192 countries to mine large data sets. It has now found a 40.8-hertz isolated pulsar in radio survey data from the Arecibo Observatory taken in February 2007. Additional timing observations indicate that this pulsar is likely a disrupted recycled pulsar. PSR J2007+2722’s pulse profile is remarkably wide with emission over almost the entire spin period; the pulsar likely has closely aligned magnetic and spin axes. The massive computing power provided by volunteers should enable many more such discoveries.
+,
+Einstein@Home aggregates the computer power of hundreds of thousands of volunteers from 192 countries to mine large data sets. It has now found a 40.8-hertz isolated pulsar in radio survey data from the Arecibo Observatory taken in February 2007. Additional timing observations indicate that this pulsar is likely a disrupted recycled pulsar. PSR J2007+2722’s pulse profile is remarkably wide with emission over almost the entire spin period; the pulsar likely has closely aligned magnetic and spin axes. The massive computing power provided by volunteers should enable many more such discoveries.
 DA  - 2010/09/10/
 PY  - 2010
 DO  - 10.1126/science.1195253
@@ -5237,115 +5271,67 @@ J2  - Science
 LA  - en
 SN  - 0036-8075, 1095-9203
 UR  - https://www.science.org/doi/10.1126/science.1195253
-Y2  - 2022/11/13/20:36:52
-L1  - https://arxiv.org/pdf/1008.2172
+Y2  - 2022/11/13/
+L4  - https://arxiv.org/pdf/1008.2172
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "Einstein@Home, a distributed computing project, discovered a rare, isolated pulsar with a low magnetic field." | Link: discovery - PSR J2007+2722, the first pulsar found by volunteer computing | Source: Science (2010); DOI 10.1126/science.1195253</p>
 ER  - 
 
 TY  - JOUR
-TI  - An Einstein@home search for continuous gravitational waves from Cassiopeia A
-AU  - Zhu, Sylvia J.
-AU  - Papa, Maria Alessandra
-AU  - Eggenstein, Heinz-Bernd
-AU  - Prix, Reinhard
-AU  - Wette, Karl
-AU  - Allen, Bruce
-AU  - Bock, Oliver
-AU  - Keitel, David
-AU  - Krishnan, Badri
-AU  - Machenschalk, Bernd
-AU  - Shaltev, Miroslav
-AU  - Siemens, Xavier
-AB  - We report the results of a directed search for continuous gravitational-wave emission in a broad frequency range (between 50 and 1000 Hz) from the central compact object of the supernova remnant Cassiopeia A (Cas A). The data comes from the sixth science run of LIGO and the search is performed on the volunteer distributed computing network Einstein@Home. We find no significant signal candidate, and set the most constraining upper limits to date on the gravitational-wave emission from Cas A, which beat the indirect age-based upper limit across the entire search range. At around 170 Hz (the most sensitive frequency range), we set 90% confidence upper limits on the gravitational wave amplitude $h_0$ of $\sim\!\!~2.9\times 10^{-25}$, roughly twice as constraining as the upper limits from previous searches on Cas A. The upper limits can also be expressed as constraints on the ellipticity of Cas A; with a few reasonable assumptions, we show that at gravitational-wave frequencies greater than 300~Hz, we can exclude an ellipticity of $\gtrsim\!\!~10^{-5}$.
-DA  - 2016///
-PY  - 2016
-DO  - 10.48550/ARXIV.1608.07589
-DP  - DOI.org (Datacite)
-PB  - arXiv
-UR  - https://arxiv.org/abs/1608.07589
-Y2  - 2022/11/13/20:36:52
-KW  - FOS: Physical sciences
-KW  - General Relativity and Quantum Cosmology (gr-qc)
-KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
-KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
+TI  - Einstein@Home discovery of the gamma-ray millisecond pulsar PSR J2039–5617 confirms its predicted redback nature
+AU  - Clark, C J
+AU  - Nieder, L
+AU  - Voisin, G
+AU  - Allen, B
+AU  - Aulbert, C
+AU  - Behnke, O
+AU  - Breton, R P
+AU  - Choquet, C
+AU  - Corongiu, A
+AU  - Dhillon, V S
+AU  - Eggenstein, H B
+AU  - Fehrmann, H
+AU  - Guillemot, L
+AU  - Harding, A K
+AU  - Kennedy, M R
+AU  - Machenschalk, B
+AU  - Marsh, T R
+AU  - Mata Sánchez, D
+AU  - Mignani, R P
+AU  - Stringer, J
+AU  - Wadiasingh, Z
+AU  - Wu, J
+T2  - Monthly Notices of the Royal Astronomical Society
+DA  - 2021///
+PY  - 2021
+DO  - 10.1093/mnras/staa3484
+VL  - 502
+SP  - 915
+EP  - 934
+UR  - https://doi.org/10.1093/mnras/staa3484
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The resulting orbital parameter constraints were used to perform a targeted gamma-ray pulsation search using the Einstein@Home-distributed volunteer computing system." | Link: discovery - redback millisecond pulsar PSR J2039-5617, from a targeted search with optical orbital constraints | Source: Monthly Notices of the Royal Astronomical Society (2021); DOI 10.1093/mnras/staa3484</p>
 ER  - 
 
 TY  - JOUR
-TI  - A new veto for continuous gravitational wave searches
-AU  - Zhu, Sylvia J.
-AU  - Papa, Maria Alessandra
-AU  - Walsh, Sinéad
-AB  - We present a new veto procedure to distinguish between continuous gravitational wave (CW) signals and the detector artifacts that can mimic their behavior. The veto procedure exploits the fact that a long-lasting coherent disturbance is less likely than a real signal to exhibit a Doppler modulation of astrophysical origin. Therefore, in the presence of an outlier from a search, we perform a multi-step search around the frequency of the outlier with the Doppler modulation turned off (DM-off), and compare these results with the results from the original (DM-on) search. If the results from the DM-off search are more significant than those from the DM-on search, the outlier is most likely due to an artifact rather than a signal. We tune the veto procedure so that it has a very low false dismissal rate. With this veto, we are able to identify as coherent disturbances &gt;99.9% of the 6349 candidates from the recent all-sky low-frequency Einstein@Home search on the data from the Advanced LIGO O1 observing run [1]. We present the details of each identified disturbance in the Appendix.
-DA  - 2017///
-PY  - 2017
-DO  - 10.48550/ARXIV.1707.05268
-DP  - DOI.org (Datacite)
-PB  - arXiv
-UR  - https://arxiv.org/abs/1707.05268
-Y2  - 2022/11/13/20:36:53
-KW  - FOS: Physical sciences
-KW  - General Relativity and Quantum Cosmology (gr-qc)
-KW  - Instrumentation and Methods for Astrophysics (astro-ph.IM)
-ER  - 
-
-TY  - JOUR
-TI  - Einstein@Home Discovery of the Gamma-ray Millisecond Pulsar PSR J2039-5617 Confirms Its Predicted Redback Nature
-AU  - Clark, C. J.
-AU  - Nieder, L.
-AU  - Voisin, G.
-AU  - Allen, B.
-AU  - Aulbert, C.
-AU  - Behnke, O.
-AU  - Breton, R. P.
-AU  - Choquet, C.
-AU  - Corongiu, A.
-AU  - Dhillon, V. S.
-AU  - Eggenstein, H. B.
-AU  - Fehrmann, H.
-AU  - Guillemot, L.
-AU  - Harding, A. K.
-AU  - Kennedy, M. R.
-AU  - Machenschalk, B.
-AU  - Marsh, T. R.
-AU  - Sánchez, D. Mata
-AU  - Mignani, R. P.
-AU  - Stringer, J.
-AU  - Wadiasingh, Z.
-AU  - Wu, J.
-AB  - The Fermi Large Area Telescope gamma-ray source 3FGL J2039.6$-$5618 contains a periodic optical and X-ray source that was predicted to be a "redback" millisecond pulsar (MSP) binary system. However, the conclusive identification required the detection of pulsations from the putative MSP. To better constrain the orbital parameters for a directed search for gamma-ray pulsations, we obtained new optical light curves in 2017 and 2018, which revealed long-term variability from the companion star. The resulting orbital parameter constraints were used to perform a targeted gamma-ray pulsation search using the Einstein@Home distributed volunteer computing system. This search discovered pulsations with a period of 2.65 ms, confirming the source as a binary MSP now known as PSR J2039$-$5617. Optical light curve modelling is complicated, and likely biased, by asymmetric heating on the companion star and long-term variability, but we find an inclination $i &gt; 60°$, for a low pulsar mass between $1.1 M_{\odot} &lt; M_{\rm psr} &lt; 1.6 M_{\odot}$ and a companion mass of 0.15--0.22 $M_{\odot}$, confirming the redback classification. Timing the gamma-ray pulsations also revealed significant variability in the orbital period, which we find to be consistent with quadrupole moment variations in the companion star, suggestive of convective activity. We also find that the pulsed flux is modulated at the orbital period, potentially due to inverse Compton scattering between high-energy leptons in the pulsar wind and the companion star's optical photon field.
-DA  - 2020///
-PY  - 2020
-DO  - 10.48550/ARXIV.2007.14849
-DP  - DOI.org (Datacite)
-PB  - arXiv
-UR  - https://arxiv.org/abs/2007.14849
-Y2  - 2022/11/13/20:36:53
-KW  - FOS: Physical sciences
-KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
-ER  - 
-
-TY  - JOUR
-TI  - Deep Einstein@Home all-sky search for continuous gravitational waves in LIGO O3 public data
+TI  - Deep Einstein@Home All-sky Search for Continuous Gravitational Waves in LIGO O3 Public Data
 AU  - Steltner, B.
 AU  - Papa, M. A.
-AU  - Eggenstein, H. -B.
+AU  - Eggenstein, H.-B.
 AU  - Prix, R.
 AU  - Bensch, M.
+AU  - Allen, B.
 AU  - Machenschalk, B.
-AB  - We present the results of an all-sky search for continuous gravitational waves in the public LIGO O3 data. The search covers signal frequencies $20$ Hz $\leq f \leq 800$ Hz and a spin-down range down to $-2.6\times 10^{-9}$ Hz s$^{-1}$, and it is the most sensitive all-sky search to date in this frequency/spin-down region. The search was performed on GPUs provided in equal parts by the volunteers of the Einstein@Home computing project and by the ATLAS cluster. After a hierarchical follow-up in seven stages 12 candidates remain. Nine can be ascribed to continuous-wave fake signals present in the LIGO data for validation purposes, which we recover with very high accuracy. The remaining three, upon further inspection, do not display properties consistent with those of the target signals. Based on our results we set upper limits on the gravitational wave amplitude $h_0$, and translate these in upper limits on the neutron star ellipticity and on the r-mode amplitude. The most stringent upper limits are at $203$ Hz with $h_0=8.1 \times 10^{-26}$, at the 90% confidence level. Our results exclude neutron stars rotating faster than $5$ ms with ellipticities greater than $5\times 10^{-8} \left[{d\over{100~\textrm{pc}}}\right]$ within a distance $d$ from Earth and $r$-mode amplitudes $α\geq 10^{-5} \left[{d\over{100~\textrm{pc}}}\right]$ for neutron stars spinning faster than $150$ Hz.
+T2  - The Astrophysical Journal
 DA  - 2023///
 PY  - 2023
-DO  - 10.48550/ARXIV.2303.04109
-DP  - DOI.org (Datacite)
-PB  - arXiv
-UR  - https://arxiv.org/abs/2303.04109
-Y2  - 2023/04/21/00:56:12
-KW  - FOS: Physical sciences
-KW  - General Relativity and Quantum Cosmology (gr-qc)
-KW  - High Energy Astrophysical Phenomena (astro-ph.HE)
+DO  - 10.3847/1538-4357/acdad4
+VL  - 952
+SP  - 55
+UR  - https://doi.org/10.3847/1538-4357/acdad4
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The initial search was performed using the first half of the public LIGO O3 data (O3a), utilizing graphical processing units provided in equal parts by the volunteers of the Einstein@Home computing project and by the ATLAS cluster." | Link: results - deep all-sky search in LIGO O3 public data, run in equal parts on volunteer GPUs and the ATLAS cluster | Source: The Astrophysical Journal (2023); DOI 10.3847/1538-4357/acdad4</p>
 ER  - 
 
-TY  - JOUR
-TI  - Large-Scale surveys for continuous gravitational waves: from data preparation to multi-stage hierarchical follow-ups
+TY  - THES
+TI  - Large-scale surveys for continuous gravitational waves: from data preparation to multi-stage hierarchical follow-ups
 AU  - Steltner, Benjamin
 AB  - Das Gravitationswellenereignis GW150914 war der erste direkte Nachweis von Gravitationswellen rund 100 Jahre nach deren Vorhersage durch Albert Einstein. Die Entdeckung war ein Durchbruch und eröffnete einen weiteren Kanal zur Beobachtung des Universums. Seitdem wurden über 90 weitere verschmelzende kompakte Objekte entdeckt, die meisten binäre schwarze Löcher unterschiedlicher Masse, aber auch zweimal verschmelzende Schwarze Löcher mit Neutronensternen und zwei Verschmelzungen von binären Neutronensternen. Ein weiterer Durchbruch war die Beobachtung der ersten Verschmelzung zweier Neutronensterne, GW170817, die mit einer Reihe von elektromagnetischen Beobachtungen einherging, darunter ein Gammastrahlenausbruch 1.7s nach der Verschmelzung. Bei der Verschmelzung kompakter Objekte handelt es sich um kataklysmische Ereignisse, bei denen innerhalb von ~Sekunden mehrere Sonnenmassen in Form von Gravitationswellen ausgestoßen werden. Ihr Nachweis erfordert jedoch hochentwickelte Messgeräte: Laserinterferometer im Kilometermaßstab. Eine weitere, noch nicht nachgewiesene Form der Gravitationsstrahlung sind kontinuierliche Gravitationswellen, die z.B., aber nicht nur, von schnell rotierenden Neutronensternen ausgehen, die relativ zu ihrer Rotationsachse nicht achsensymmetrisch sind. Die Amplitude der kontinuierlichen Gravitationswellen auf der Erde ist um Größenordnungen schwächer als die der verschmelzenden kompakten Objekte, wird aber im Fall des nicht achsensymmetrischen Neutronensterns so lange abgestrahlt, wie der Neutronenstern rotiert und die Deformation aufrechterhält, was Monate bis Jahre sein können. Die Gravitationswelle wird meist mit der doppelten Rotationsfrequenz ausgestrahlt, wobei eine Frequenzentwicklung (Spin-down) aufgrund der von Gravitationswellen ausgesandten Energie, sowie anderer Bremsmechanismen möglich ist. Diese nahezu monochromatische, kontinuierliche Welle wird von einem Beobachter auf der Erde Doppler-moduliert durch die Erdumlaufbahn und die Erddrehung empfangen. Obwohl die Wellenform scheinbar einfach ist, ist das Problem des Nachweises von Signalen aus unbekannten Quellen eine große Herausforderung. Die in dieser Arbeit beschriebene Suche nach unbekannten Neutronensternen in unserer Galaxie über den kompletten Himmel verwendete über mehrere Monate hinweg das Volunteer-Computing-Projekt Einstein@Home und den ATLAS-Supercomputer und benötigte insgesamt Zehntausende von Jahren an Rechenzeit. In dieser Arbeit beschreibe ich das vollständige Datenanalyseverfahren einschließlich der Datenvorbereitung, der Optimierung der Suchparameter und der Nachbearbeitung der Suchergebnisse, dessen Entwurf und Implementierung das Kernstück meiner Doktorarbeit darstellt. Außerdem stelle ich eine Reihe von Beobachtungsergebnissen vor, welche die praktische Anwendung der von mir entwickelten Methoden demonstrieren.
 DA  - 2023///
@@ -5356,6 +5342,7 @@ LA  - en
 ST  - Large-Scale surveys for continuous gravitational waves
 UR  - https://www.repo.uni-hannover.de/handle/123456789/13375
 Y2  - 2023/06/18/15:17:32
+N1  - <p>BOINC criterion evidence - Thesis abstract (English), verbatim: "The all-sky search for unknown neutron stars in our galaxy detailed in this work used the volunteer distributed computing project Einstein@Home and the ATLAS supercomputer for several months, taking tens of thousands of total CPU-time years to complete." | Link: thesis - doctoral dissertation on data preparation and multi-stage hierarchical follow-up for the all-sky searches | Source: PhD thesis, Leibniz Universität Hannover (2023); DOI 10.15488/13266</p>
 KW  - continuous gravitational waves
 KW  - data analysis
 KW  - Datenanalyse
@@ -5550,6 +5537,7 @@ SP  - 191
 PB  - The American Astronomical Society
 SN  - 0004-637X
 UR  - https://dx.doi.org/10.3847/1538-4357/acee67
+N1  - <p>BOINC criterion evidence - Section 2, verbatim: "These searches were later migrated to the Einstein@Home distributed volunteer computing system, allowing for longer Tcoh and hence more sensitivity (Pletsch et al. 2013; Clark et al. 2015, 2016, 2017, 2018)." | Link: context - third Fermi-LAT pulsar catalog, which cites the Einstein@Home search pipeline among the methods behind catalog pulsars | Source: The Astrophysical Journal (2023); DOI 10.3847/1538-4357/acee67</p>
 ER  - 
 
 TY  - JOUR
@@ -5576,8 +5564,9 @@ LA  - en
 PB  - The American Astronomical Society
 SN  - 0004-637X
 UR  - https://dx.doi.org/10.3847/1538-4357/ad8b9e
-Y2  - 2024/12/12/00:10:11
-L1  - https://iopscience.iop.org/article/10.3847/1538-4357/ad8b9e/pdf
+Y2  - 2024/12/12/
+L4  - https://iopscience.iop.org/article/10.3847/1538-4357/ad8b9e/pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "Thousands of volunteers donating compute cycles through the computing project Einstein@Home have made this endeavor possible." | Link: results - deep directed searches for continuous waves from Vela Jr and G347.3 in LIGO public data | Source: The Astrophysical Journal (2024); DOI 10.3847/1538-4357/ad8b9e</p>
 ER  - 
 
 TY  - JOUR
@@ -5601,24 +5590,24 @@ AU  - Padmanabh, P. Voraganti
 AU  - Ransom, S. M.
 T2  - The Astrophysical Journal
 AB  - Abstract
-            
-              The Fermi Large Area Telescope (LAT) has revealed a mysterious extended excess of GeV gamma-ray emission around the Galactic Center (GC), which can potentially be explained by unresolved emission from a population of pulsars, particularly millisecond pulsars (MSPs), in the Galactic bulge. We used the distributed volunteer computing system Einstein@Home to search the Fermi-LAT data for gamma-ray pulsations from sources in the inner Galaxy, to try to identify the brightest members of this putative population. We discovered four new pulsars, including one new MSP and one young pulsar whose angular separation to the GC of 0
-              
-                
-                  
-                
-                
-                  
-                    
-                      .
-                    
-                    
-                      °
-                    
-                  
-                
-              
-              93 is the smallest of any known gamma-ray pulsar. We demonstrate a phase-resolved difference imaging technique that allows the flux from this pulsar to be disentangled from the diffuse GC emission. No radio pulsations were detected from the four new pulsars in archival radio observations or during the MPIfR-MeerKAT Galactic Plane Survey. While the distances to these pulsars remain uncertain, we find that it is more likely that they are all foreground sources from the Galactic disk, rather than pulsars originating from the predicted bulge population. Nevertheless, our results are not incompatible with an MSP explanation for the GC excess, as only one or two members of this population would have been detectable in our searches.
+
+The Fermi Large Area Telescope (LAT) has revealed a mysterious extended excess of GeV gamma-ray emission around the Galactic Center (GC), which can potentially be explained by unresolved emission from a population of pulsars, particularly millisecond pulsars (MSPs), in the Galactic bulge. We used the distributed volunteer computing system Einstein@Home to search the Fermi-LAT data for gamma-ray pulsations from sources in the inner Galaxy, to try to identify the brightest members of this putative population. We discovered four new pulsars, including one new MSP and one young pulsar whose angular separation to the GC of 0
+
+
+
+
+
+
+
+.
+
+
+°
+
+
+
+
+93 is the smallest of any known gamma-ray pulsar. We demonstrate a phase-resolved difference imaging technique that allows the flux from this pulsar to be disentangled from the diffuse GC emission. No radio pulsations were detected from the four new pulsars in archival radio observations or during the MPIfR-MeerKAT Galactic Plane Survey. While the distances to these pulsars remain uncertain, we find that it is more likely that they are all foreground sources from the Galactic disk, rather than pulsars originating from the predicted bulge population. Nevertheless, our results are not incompatible with an MSP explanation for the GC excess, as only one or two members of this population would have been detectable in our searches.
 DA  - 2025/12/01/
 PY  - 2025
 DO  - 10.3847/1538-4357/ae0b5c
@@ -5630,79 +5619,70 @@ J2  - ApJ
 SN  - 0004-637X, 1538-4357
 UR  - https://iopscience.iop.org/article/10.3847/1538-4357/ae0b5c
 Y2  - 2026/01/17/12:12:01
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We used the distributed volunteer computing system Einstein@Home to search the Fermi-LAT data for gamma-ray pulsations from sources in the inner Galaxy, to try to identify the brightest members of this putative population." | Link: results - gamma-ray pulsar search of the inner Galaxy in Fermi-LAT data | Source: The Astrophysical Journal (2025); DOI 10.3847/1538-4357/ae0b5c</p>
 ER  - 
 
-TY  - GEN
-TI  - Observational constraints on the spin/anisotropy of the CCOs of Cassiopeia A, Vela Jr. and G347.3-0.5 and a single surviving continuous gravitational wave candidate
+TY  - JOUR
+TI  - Observational Constraints on the Spin/Anisotropy of the Central Compact Objects of Cassiopeia A, Vela Jr., and G347.3–0.5 and a Single Surviving Continuous Gravitational Wave Candidate
 AU  - Ming, Jing
 AU  - Papa, Maria Alessandra
 AU  - Eggenstein, Heinz-Bernd
 AU  - Machenschalk, Bernd
-AU  - Martins, J.
-AU  - Steltner, B.
+AU  - Martins, Jasper
+AU  - Steltner, Benjamin
+AU  - McGloughlin, Brian
+AU  - Dergachev, Vladimir
+AU  - Prix, Reinhard
+AU  - Bensch, Maximillian
+T2  - The Astrophysical Journal
+DA  - 2026///
+PY  - 2026
+DO  - 10.3847/1538-4357/ae6e41
+VL  - 1004
+SP  - 65
+UR  - https://doi.org/10.3847/1538-4357/ae6e41
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "This search was made possible by the computing power shared by thousands of Einstein@Home volunteers." | Link: results - spin and anisotropy constraints for the Cassiopeia A, Vela Jr and G347.3 central compact objects, and one surviving candidate | Source: The Astrophysical Journal (2026); DOI 10.3847/1538-4357/ae6e41</p>
+ER  - 
+
+TY  - JOUR
+TI  - High-frequency Continuous Gravitational Wave Search in LIGO O3 Public Data with Einstein@Home
 AU  - McGloughlin, B.
-AU  - Dergachev, V.
+AU  - Steltner, B.
+AU  - Martins, J.
+AU  - Papa, M. A.
+AU  - Eggenstein, H.-B.
+AU  - Ming, J.
+AU  - Machenschalk, B.
 AU  - Prix, R.
 AU  - Bensch, M.
-AB  - We carry out the deepest and broadest search for continuous gravitational-wave signals with frequencies between 20-1500 Hz, from three neutron stars at the center of the supernova remnants Cassiopeia A, Vela Jr., and G347.3-0.5. This search was made possible by the computing power shared by thousands of Einstein@Home volunteers. After the initial Einstein@Home search, we perform a multi-stage follow-up of the most promising $\approx$ 45 million signal candidates. In the last stages, we use independent data to further investigate the remaining candidates from the previous stages. We set the most stringent constraints to date on the gravitational-wave amplitude, equatorial ellipticity, r-mode saturation amplitude, and -- for the first time -- the neutron-star crustal anisotropy. For spin periods lower than 2 ms we constrain the ellipticity to be smaller than $4\times 10^{-7}$ for all targets. We exclude the crustal anisotropy to be smaller than $5\times 10^{-3}$ for spin periods between 1.3-100 ms. Only one candidate -- from the low frequency G347.3 search -- survives all follow-ups. We illustrate properties of this candidate. Investigations on new data will aid in clarifying its nature. Such ``new" data exists and would be optimal for this purpose, but they are not publicly accessible at the time of writing.
-DA  - 2025/12/22/
-PY  - 2025
-DO  - 10.48550/arXiv.2512.15672
-DP  - arXiv.org
-PB  - arXiv
-UR  - http://arxiv.org/abs/2512.15672
-Y2  - 2026/01/17/12:15:55
-L1  - http://arxiv.org/pdf/2512.15672v2
-L2  - https://arxiv.org/abs/2512.15672
-KW  - General Relativity and Quantum Cosmology
-KW  - High Energy Physics - Phenomenology
+T2  - The Astrophysical Journal
+DA  - 2026///
+PY  - 2026
+DO  - 10.3847/1538-4357/ae2ed8
+VL  - 998
+SP  - 205
+UR  - https://doi.org/10.3847/1538-4357/ae2ed8
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We use LIGO O3 public data from the Hanford and Livingston detectors, and deploy this search on the Einstein@Home volunteer-computing project." | Link: results - high-frequency search in LIGO O3 public data | Source: The Astrophysical Journal (2026); DOI 10.3847/1538-4357/ae2ed8</p>
 ER  - 
 
-TY  - GEN
-TI  - High-frequency continuous gravitational waves searched in LIGO O3 public data with Einstein@Home
-AU  - McGloughlin, Brian
-AU  - Steltner, Benjamin
-AU  - Martins, Jasper
-AU  - Papa, Maria Alessandra
-AU  - Eggenstein, Heinz-Bernd
-AU  - Ming, Jing
-AU  - Machenschalk, Bernd
-AU  - Prix, Reinhard
-AU  - Bensch, Maximillian
-AB  - We search for nearly-monochromatic gravitational wave signals with frequencies $800.0~\textrm{Hz} \leq f \leq 1686.0~\textrm{Hz}$ and spin-down $-2.7\times10^{-9}~\textrm{Hz}\,\textrm{s}^{-1} \leq \dot f \leq 0.2\times 10^{-9}~\textrm{Hz}\,\textrm{s}^{-1}$. We use LIGO O3 public data from the Hanford and Livingston detectors and deploy this search on the Einstein@Home volunteer-computing project. This is the most sensitive search carried out to date in this parameter space. Our results are consistent with a non-detection. We set upper limits on the gravitational wave amplitude $h_{0}$ and translate these to upper limits on neutron star ellipticity and on r-mode amplitude. The most stringent upper limits are at $800~\textrm{Hz}$ with $h_{0} = 1.32\times10^{-25}$, at the $90\%$ confidence level. Searching in the high frequency bands allows us to probe astrophysically interesting ellipticities with our results excluding isolated neutron stars rotating faster than $2.5~\textrm{ms}$ with ellipticities $ε\geq 1.96 \times 10^{-8}\left[\frac{d}{100~\textrm{pc}}\right]$ within a distance $d$ from Earth. Our results also exclude r-mode amplitudes $α\geq 7 \times 10^{-7}\left[\frac{d}{100~\textrm{pc}}\right]$ for neutron stars stars spinning faster than 400 Hz.
-DA  - 2025/08/29/
-PY  - 2025
-DO  - 10.48550/arXiv.2508.20073
-DP  - arXiv.org
-PB  - arXiv
-UR  - http://arxiv.org/abs/2508.20073
-Y2  - 2026/01/17/12:18:30
-L1  - http://arxiv.org/pdf/2508.20073v2
-L2  - https://arxiv.org/abs/2508.20073
-KW  - General Relativity and Quantum Cosmology
-ER  - 
-
-TY  - GEN
-TI  - Einstein@Home all-sky "bucket" search for continuous gravitational waves in LIGO O3 public data
-AU  - McGloughlin, Brian
-AU  - Martins, Jasper
-AU  - Steltner, Benjamin
-AU  - Papa, Maria Alessandra
-AU  - Eggenstein, Heinz-Bernd
-AU  - Machenschalk, Bernd
-AU  - Prix, Reinhard
-AU  - Bensch, Maximillian
-AB  - We conduct an all-sky search for continuous gravitational waves using LIGO O3 public data from the Hanford and Livingston detectors. We search for nearly-monochromatic signals with frequencies $30\, \text{Hz} \leq f \leq 250\, \text{Hz}$ and spin-down $-2.7 \times 10^{-9}\, \text{Hz/s} \leq \dot{f} \leq 0.2 \times 10^{-9}\, \text{Hz/s}$. We deploy this search on the Einstein@Home volunteer-computing project and on three super computer clusters; the Atlas supercomputer at the Max Planck Institute for Gravitational Physics, and the two high performance computing systems Raven and Viper at the Max Planck Computing and Data Facility. Our results are consistent with a non-detection. We set upper limits on the gravitational wave amplitude $h_{0}$, and translate these to upper limits on the neutron star ellipticity and on the r-mode amplitude. The most stringent upper limits are at 173 Hz with $h_{0} = 6.5\times 10^{-26}$, at the 90% confidence level.
-DA  - 2025/08/29/
-PY  - 2025
-DO  - 10.48550/arXiv.2508.16423
-DP  - arXiv.org
-PB  - arXiv
-UR  - http://arxiv.org/abs/2508.16423
-Y2  - 2026/01/17/12:20:24
-L1  - http://arxiv.org/pdf/2508.16423v2
-L2  - https://arxiv.org/abs/2508.16423
-KW  - General Relativity and Quantum Cosmology
+TY  - JOUR
+TI  - Einstein@Home All-sky “Bucket” Search for Continuous Gravitational Waves in LIGO O3a Public Data
+AU  - McGloughlin, B.
+AU  - Martins, J.
+AU  - Steltner, B.
+AU  - Papa, M. A.
+AU  - Eggenstein, H.-B.
+AU  - Machenschalk, B.
+AU  - Prix, R.
+AU  - Bensch, M.
+T2  - The Astrophysical Journal
+DA  - 2026///
+PY  - 2026
+DO  - 10.3847/1538-4357/ae225a
+VL  - 997
+SP  - 149
+UR  - https://doi.org/10.3847/1538-4357/ae225a
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We deploy this search on the Einstein@Home volunteer-computing project and on three supercomputer clusters." | Link: results - all-sky bucket search in LIGO O3a public data | Source: The Astrophysical Journal (2026); DOI 10.3847/1538-4357/ae225a</p>
 ER  - 
 
 TY  - JOUR
@@ -5725,9 +5705,120 @@ J2  - ApJ
 SN  - 0004-637X, 1538-4357
 UR  - http://arxiv.org/abs/2503.09731
 Y2  - 2026/01/17/12:21:02
-L1  - http://arxiv.org/pdf/2503.09731v2
 L2  - https://arxiv.org/abs/2503.09731
+L4  - http://arxiv.org/pdf/2503.09731v2
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "leveraging the computational power donated by thousands of Einstein@Home volunteers." | Link: results - directed search for continuous waves from Cassiopeia A and Vela Jr in LIGO O2 data | Source: The Astrophysical Journal (2025); DOI 10.3847/1538-4357/add5f5</p>
 KW  - General Relativity and Quantum Cosmology
 KW  - High Energy Physics - Phenomenology
+ER  - 
+
+TY  - THES
+TI  - A blind-search survey for gamma-ray pulsars
+AU  - Clark, Colin James
+AB  - It has long been known that young pulsars can emit strongly in gamma rays. However, it is only recently, using observations by the Large Area Telescope (LAT) on-board the Fermi Gamma-ray Space Telescope which launched in 2008, that it has been possible to study a large number of pulsars, including millisecond pulsars, through their gamma-ray pulsations. Many of the pulsars discovered by the LAT have not been detected in subsequent radio searches. Blind searches, which directly search for pulsations at unknown frequencies in gamma-ray data, are necessary to find such “radio-quiet” pulsars, and to provide a more complete view of the local neutron star population. This thesis is a collection of works describing the development of and results from the latest blind gamma-ray pulsar searches. Firstly, techniques were developed to enhance the sensitivity of existing search methods.
+DA  - 2017///
+PY  - 2017
+DO  - 10.15488/8957
+UR  - https://doi.org/10.15488/8957
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "A blind-search survey was performed on the distributed volunteer computing system Einstein@Home using these new techniques to search for pulsations in unidentified LAT sources." | Link: thesis - the Einstein@Home gamma-ray pulsar survey and its discoveries | Source: PhD thesis, Leibniz Universität Hannover (2017); DOI 10.15488/8957</p>
+ER  - 
+
+TY  - THES
+TI  - Improving robustness of continuous-gravitational-wave searches against signal-like instrumental artefacts and a concept for an octahedral gravitational-wave detector in space
+AU  - Keitel, David
+AB  - Gravitational waves (GWs) are one of the few remaining predictions of Einstein's theory of general relativity for which no direct evidence has yet been discovered. They promise to open up a completely new window for astronomy. GW signals are expected to be very weak, so that highly sensitive detectors and data-analysis methods are required. Currently, laser-interferometric detectors provide the most promising way for direct GW detection, although the rst generation of these detectors has not detected any GWs yet. A second generation with increased sensitivity will come online in the next few years, making these exciting times in GW research.
+DA  - 2014///
+PY  - 2014
+DO  - 10.15488/8289
+UR  - https://doi.org/10.15488/8289
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "These newly developed methods for CW data analysis are already in use on the distributed-computing project Einstein@Home." | Link: thesis - robustness of continuous-wave searches, applied to the Einstein@Home searches | Source: PhD thesis, Leibniz Universität Hannover (2014); DOI 10.15488/8289</p>
+ER  - 
+
+TY  - THES
+TI  - Optimization and follow-up of semicoherent searches for continuous gravitational waves
+AU  - Shaltev, Miroslav
+AB  - Direct detection of gravitational-wave emission is expected not only to further increase our confidence in the validity of Einstein’s General Relativity theory, but generally enrich our understanding of the universe. The subject of this thesis is the improvement of the data analysis techniques in the search for previously-unknown objects, such as rapidly spinning neutron stars, which are possible emitters of continuous gravitational waves. Coherent wide parameter-space searches for continuous gravitational waves are typically limited in sensitivity by their prohibitive computing cost. Therefore semicoherent methods, such as StackSlide can often achieve a better sensitivity. An analytical method for finding optimal StackSlide parameters at fixed computing cost is presented. This method assumes ideal conditions of gap-less data with Gaussian stationary noise.
+DA  - 2013///
+PY  - 2013
+DO  - 10.15488/8170
+UR  - https://doi.org/10.15488/8170
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "All hardware injections identified by the Einstein@Home search are recovered and another nine outliers of unknown origin are followed-up." | Link: thesis - follow-up of candidates from the Einstein@Home S5 all-sky search | Source: PhD thesis, Leibniz Universität Hannover (2013); DOI 10.15488/8170</p>
+ER  - 
+
+TY  - THES
+TI  - Pulsar discoveries by volunteer distributed computing and the strongest continuous gravitational wave signal
+AU  - Knispel, Benjamin
+AB  - Neutron stars are the endpoints of stellar evolution and one of the most compact forms of matter in the universe. They can be observed as radio pulsars and are promising sources for the emission of continuous gravitational waves. Discovering new radio pulsars in tight binary orbits offers the opportunity to conduct very high precision tests of General Relativity and to further our understanding of neutron star structure and matter at super-nuclear densities. The direct detection of gravitational waves would validate Einstein’s theory of Relativity and open a new window to the universe by offering a novel astronomical tool. This thesis addresses both of these scientific fields: the first fully coherent search for radio pulsars in tight, circular orbits has been planned, set up and conducted in the course of this thesis.
+DA  - 2011///
+PY  - 2011
+DO  - 10.15488/7667
+UR  - https://doi.org/10.15488/7667
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The massive amount of computational work was done on hundreds of thousands of computers volunteered by members of the general public through the distributed computing project Einstein@Home." | Link: thesis - the first fully coherent radio pulsar search in tight binaries, run on Einstein@Home | Source: PhD thesis, Leibniz Universität Hannover (2011); DOI 10.15488/7667</p>
+ER  - 
+
+TY  - THES
+TI  - Data analysis for continuous gravitational waves: deepest all-sky surveys
+AU  - Pletsch, Holger Johannes
+AB  - Direct detection of gravitational waves would not only validate Einstein’s theory of General Relativity but also constitute an important new astronomical tool. Continuous gravitational-wave (CW) signals are expected for instance from rapidly rotating neutron stars. Most such stars are estimated to be electromagnetically invisible, but might be detected and studied via gravitational waves. This dissertation is concerned with the development, study and application of dataanalysis techniques to detect CW signals from previously unknown sources through allsky surveys over broadest possible ranges of putative source frequencies and frequency time-derivatives. An all-sky CW search is presented using 510 hours of data from the fourth science run (S4) of the Laser Interferometer Gravitational-wave Observatory (LIGO), covering frequencies of 50 to 1500 Hz and linear drifts in frequency.
+DA  - 2009///
+PY  - 2009
+DO  - 10.15488/7273
+UR  - https://doi.org/10.15488/7273
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "The main computational work of the search is distributed over hundreds of thousands of computers via the public volunteer computing project “Einstein@Home”." | Link: thesis - analysis techniques and the S4 all-sky search run on Einstein@Home | Source: PhD thesis, Leibniz Universität Hannover (2009); DOI 10.15488/7273</p>
+ER  - 
+
+TY  - THES
+TI  - Optimal directed searches for continuous gravitational waves
+AU  - Ming, Jing
+AB  - On 14 September, 2015, gravitational waves (GWs) were detected for the first time ever by the Laser Interferometer Gravitational-Wave Observatory (LIGO) detectors. GWs are one of the most important predictions of Einstein’s theory of General Relativity. This particular GW event, GW150914, was a catastrophic merger of two stellar-mass black holes from the depths of the Universe. Since then, a new window on the Universe has been open. Following GW150914, GWs from several other binary black hole mergers were observed. Con- tinuous gravitational waves (CWs) from rapidly rotating compact star have also been predicted, but to date these signals have not been observed. CWs are expected to be weaker gravitational waves compared with binary black hole mergers.
+DA  - 2017///
+PY  - 2017
+DO  - 10.15488/3510
+UR  - https://doi.org/10.15488/3510
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "This search was performed by the volunteer distributed computing project Einstein@Home (E@H) between December, 2016 and April, 2017." | Link: thesis - directed continuous-wave searches performed on Einstein@Home | Source: PhD thesis, Leibniz Universität Hannover (2017); DOI 10.15488/3510</p>
+ER  - 
+
+TY  - THES
+TI  - Improved post-processing in searches for continuous gravitational waves and a model for transient continuous gravitational wave emission from neutron star glitches
+AU  - Singh, Avneet
+AB  - Gravitational waves (GW) are tiny oscillations in the fabric of space-time, first hypothesised within the framework of Einstein’s General theory of Relativity (GR) a little more than 100 years ago. The first direct detection of gravitational waves (GW150914) was made on Sept. 14, 2015 by the two LIGO detectors in Hanford and Livingston. In this path-breaking discovery, the first GW observation revealed a coalescence of two black holes in a binary orbit. Besides compact binary systems, isolated rotating neutron stars with physical asymmetries are also expected to emit GW; in this case, the emission is in the form of long lasting nearly monochromatic continuous gravitational waves (CW). In addition to these standard CW, transient-continuous gravitational waves (tCW) are another subset within the category of CW, characterised by their relatively shorter duration timescales.
+DA  - 2017///
+PY  - 2017
+DO  - 10.15488/3426
+UR  - https://doi.org/10.15488/3426
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "Lastly, we describe the procedure for setting the upper-limits on the continuous gravitational wave amplitudes in the latest CW searches on the Einstein@Home volunteer distributed computing project." | Link: thesis - post-processing and upper limits for the Einstein@Home continuous-wave searches | Source: PhD thesis, Leibniz Universität Hannover (2017); DOI 10.15488/3426</p>
+ER  - 
+
+TY  - THES
+TI  - Searches for continuous gravitational waves: sensitivity estimation and deep learning as a novel search method
+AU  - Dreißigacker, Christoph
+AB  - The first direct detections of gravitational waves from merging black holes and neutron stars started the era of gravitational-wave astronomy. Since then, observing merging compact objects has become routine. Other exciting sources still remain undetected. Rapidly-rotating neutron stars are predicted to emit weak, long-lasting quasi-monochromatic waves called continuous gravitational waves (CWs). In the current detector generation, advanced LIGO and Virgo, various noise sources create far more signal output than a potential CW signal. CW data analysis tries to overcome the weakness of the signals by integrating over long stretches of data. Analyzing large amounts of data usually corresponds to large computing cost. For that reason, CW searches for signals from unknown neutron stars are limited in their sensitivity by computational cost.
+DA  - 2020///
+PY  - 2020
+DO  - 10.15488/10137
+UR  - https://doi.org/10.15488/10137
+N1  - <p>BOINC criterion evidence - Thesis text, verbatim: "Therefore, many of the computationally expensive semi-coherent F-statistic searches are run on the distributed Einstein@Home computing platform [7]." | Link: thesis - sensitivity estimation and deep-learning methods for the Einstein@Home searches | Source: PhD thesis, Leibniz Universität Hannover (2020); DOI 10.15488/10137</p>
+ER  - 
+
+TY  - THES
+TI  - Binary gamma-ray pulsars
+AU  - Nieder, Lars
+AB  - The first pulsar has been detected in 1967 as a seemingly pulsating radio source. Since then, more than 2800 pulsars have been discovered. Most of them also in radio. With the launch of the Fermi Gamma-ray Space Telescope in 2008, more than 250 gamma-ray pulsars have been detected. This thesis concerns the development of methods to directly search the gamma-ray data for pulsars in binary systems, and presents the discovery and analysis of four such pulsars.
+DA  - 2021///
+PY  - 2021
+DO  - 10.15488/10527
+UR  - https://doi.org/10.15488/10527
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "Firstly, two of the exotic “spider” pulsars have been discovered in partially informed searches using the volunteer computing project Einstein@Home." | Link: thesis - binary gamma-ray pulsars, two of them discovered with Einstein@Home | Source: PhD thesis, Leibniz Universität Hannover (2021); DOI 10.15488/10527</p>
+ER  - 
+
+TY  - THES
+TI  - Targeted searches for continuous gravitational waves
+AU  - Ashok, Anjana
+AB  - Gravitational waves are a consequence of Albert Einstein’s General theory of relativity, which he put forward in 1916. One hundred years later, in 2015, a gravitational wave signal from two merging black holes was detected by the Advanced LIGO detectors. Now, the Advanced LIGO detectors have recorded about a hundred such signals from the merging of compact objects in binary systems. Rotating neutron stars with a non-axisymmetric distribution of their mass present a perfect candidate for emitting gravitational waves continuously. Such continuous gravitational waves are several orders of magnitude weaker than those emitted by merging binary systems. Not surprisingly, these continuous gravitational wave signals have not yet been detected in the Advanced LIGO data. Efforts to make a detection of such a signal are going on.
+DA  - 2023///
+PY  - 2023
+DO  - 10.15488/14733
+UR  - https://doi.org/10.15488/14733
+N1  - <p>BOINC criterion evidence - Thesis text, verbatim: "At AEI, the first stage of such searches is carried out with the computational power harnessed through Einstein@Home, which is a citizen volunteer computing system." | Link: thesis - targeted continuous-wave searches whose first stage runs on Einstein@Home | Source: PhD thesis, Leibniz Universität Hannover (2023); DOI 10.15488/14733</p>
 ER  - 
 
