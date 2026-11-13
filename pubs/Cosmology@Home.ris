@@ -20,6 +20,7 @@ SN  - 0004-6361, 1432-0746
 UR  - https://www.aanda.org/10.1051/0004-6361/202037995
 Y2  - 2022/11/11/14:47:26
 L1  - https://www.aanda.org/articles/aa/pdf/2020/07/aa37995-20.pdf
+N1  - <p>BOINC criterion evidence - Acknowledgements, verbatim: "Numerical computations were done on the Sciama High Performance Compute (HPC) cluster which is supported by the ICG, SEPNet and the University of Portsmouth; and on the cx1 cluster hosted by the Research Computing Service facilities at Imperial College London." | Link: cited - Cosmology@Home is cited as a forward-looking example of a computing platform well suited to the method the paper introduces | Source: Astronomy & Astrophysics 639, A91 (2020), DOI 10.1051/0004-6361/202037995; arXiv:2003.04925</p>
 ER  - 
 
 TY  - JOUR
@@ -41,7 +42,8 @@ SN  - 0004-637X, 1538-4357
 ST  - Pico
 UR  - https://iopscience.iop.org/article/10.1086/508342
 Y2  - 2022/11/11/14:47:26
-L1  - https://arxiv.org/pdf/astro-ph/0606709
+L4  - https://arxiv.org/pdf/astro-ph/0606709
+N1  - <p>Link: method - presents the Pico algorithm that the project exists to train; the paper was received before the project issued its first work units | Source: The Astrophysical Journal 654, 2-11 (2007), DOI 10.1086/508342, published version</p>
 ER  - 
 
 TY  - JOUR
@@ -55,18 +57,21 @@ DO  - 10.48550/ARXIV.0712.0194
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/0712.0194
 Y2  - 2022/11/11/14:47:26
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "Training Pico can be done using massively parallel computing resources, including distributed computing projects such as Cosmology@Home." Acknowledgements, verbatim: "We also thank the users of the Cosmology@Home project whose donated CPU hours helped make this work possible." | Source: arXiv:0712.0194 (2007)</p>
 KW  - FOS: Physical sciences
 KW  - Astrophysics (astro-ph)
 ER  - 
 
 TY  - SLIDE
-TI  - DockerCon EU 2015: Finding a Theory of the Universe with Docker and V…
+TI  - DockerCon EU 2015: Finding a Theory of the Universe with Docker and Volunteer Computers
+A2  - Millea, Marius
 A2  - Millea, Marius
 DA  - 2015/12//
 PY  - 2015
 ST  - DockerCon EU 2015
 UR  - https://www.slideshare.net/Docker/finding-a-theory-of-the-universe-with-docker-and-volunteer-computers-55743121
 Y2  - 2022/11/12/13:58:17
+N1  - <p>Link: project description - the project administrator's conference talk on packaging the science application in Docker containers and on the boinc2docker tooling it produced | Source: DockerCon EU 2015, SlideShare record 55743121</p>
 ER  - 
 
 TY  - JOUR
@@ -243,5 +248,6 @@ UR  - https://www.aanda.org/articles/aa/abs/2017/11/aa29504-16/aa29504-16.html
 Y2  - 2022/11/12/14:16:20
 L1  - https://www.aanda.org/articles/aa/pdf/2017/11/aa29504-16.pdf
 L2  - https://www.aanda.org/articles/aa/full_html/2017/11/aa29504-16/aa29504-16.html
+N1  - <p>BOINC criterion evidence - Acknowledgements, verbatim: "We thank all of the users of Cosmology@Home for donating computing time in support of this work, and in particular the top contributors, MaDcCow (Thomas Wooton), 25000ghz (Roberto Piantoni), Rally1965, Mumps, UofS-Computer-Science, and Bryan, as well as the top teams, BOINC.Italy and SETI.USA." | Source: Astronomy & Astrophysics 607, A95 (2017), DOI 10.1051/0004-6361/201629504; arXiv:1608.02487</p>
 ER  - 
 
