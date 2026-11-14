@@ -1,12 +1,18 @@
 TY  - CONF
-TI  - ComsolGrid – A framework for performing large-scale parameter  studies using COMSOL Multiphysics and the Berkeley Open Infrastructure for Network Computing (BOINC)
-AU  - Christian Benjamin Ries
-AU  - Christian Schröder
+TI  - ComsolGrid - A framework for performing large-scale parameter studies using Comsol Multiphysics and Berkeley Open Infrastructure for Network Computing (BOINC)
+AU  - Ries, Christian Benjamin
+AU  - Schröder, Christian
 T2  - COMSOL Conference 2010
-AB  - BOINC (Berkeley Open Infrastructure for Network Computing) is an open-source framework for solving large-scale computational problems by means of public resource computing (PRC). In contrast to massive parallel computing, PRC applications are distributed onto a large number of heterogeneous client computers connected by the Internet where each computer is assigned an individual task that can be solved independently without the need of communication upon the clients. Nowadays even small companies hold remarkable computer resources which are not accessible as a whole but distributed over the numerous computers which belong to the standard working environment in today's companies. Over the day, these computers are rarely operating at full capacity and hence valuable computational power is just wasted. Here, we present a new approach for performing large-scale parameter studies using COMSOL Multiphysics based on the BOINC technology which can be used to utilize idle computer resources that are connected within a companywide intranet. Based on our approach we provide a tool chain called ComsolGrid that allows the COMSOL Multiphysics user to define parameter study by means of a high-level description. ComsolGrid then automatically performs the complete parameter study.
-C1  - Paris, France
-DA  - 2008/03//
-PY  - 2008
-UR  - https://www.comsol.com/paper/comsolgrid-a-framework-for-performing-large-scale-parameter-studies-using-comsol-8288
+DA  - 2010///
+PY  - 2010
+UR  - https://www.comsol.com/paper/download/63357/ries_paper.pdf
+Y2  - 2026/11/08/
+L1  - https://www.comsol.com/paper/download/63357/ries_paper.pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "BOINC (Berkeley Open Infrastructure for Network Computing) is an open-source framework for solving large-scale computational problems by means of public resource computing (PRC)." Abstract, verbatim: "Here, we present a new approach for performing large-scale parameter studies using COMSOL Multiphysics based on the BOINC technology." Introduction, verbatim: "With the help of BOINC [1, 6] it is possible to create and run self-made scientific applications heterogeneous computer networks." Figure 1: BOINC project named "Comsolwrapper." Figure 2: "Most of them are implemented by the BOINC framework." Section 2.2: "The ComsolGridStarter is a wrapper routine handling the BOINC client and BOINC user commands." | Full text: COMSOL Conference 2010, Paris | Link: ComsolGrid / BOINC | Source: COMSOL Conference (2010)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - COMSOL Multiphysics
+KW  - ComsolGrid
+KW  - parameter study
 ER  - 
 
