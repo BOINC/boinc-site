@@ -1,24 +1,30 @@
 TY  - JOUR
-TI  - On a question of Mordell
-AU  - Booker, Andrew R.
-AU  - Sutherland, Andrew V.
-T2  - Proceedings of the National Academy of Sciences
-AB  - We make several improvements to methods for finding integer solutions to $x^3+y^3+z^3=k$ for small values of $k$. We implemented these improvements on Charity Engine's global compute grid of 500,000 volunteer PCs and found new representations for several values of $k$, including $k=3$ and $k=42$. This completes the search begun by Miller and Woollett in 1954 and resolves a challenge posed by Mordell in 1953.
-DA  - 2021/03/16/
-PY  - 2021
-DO  - 10.1073/pnas.2022377118
-DP  - arXiv.org
-VL  - 118
+TI  - Change in cooling degree days with global mean temperature rise increasing from 1.5 °C to 2.0 °C
+AU  - Miranda, Nicole D.
+AU  - Lizana, Jesus
+AU  - Sparrow, Sarah N.
+AU  - Zachau-Walker, Miriam
+AU  - Watson, Peter A. G.
+AU  - Wallom, David C. H.
+AU  - Khosla, Radhika
+AU  - McCulloch, Malcolm
+T2  - Nature Sustainability
+DA  - 2023///
+PY  - 2023
+DO  - 10.1038/s41893-023-01155-z
+DP  - DOI.org (Crossref)
+VL  - 6
 IS  - 11
-SP  - e2022377118
-J2  - Proc. Natl. Acad. Sci. U.S.A.
-SN  - 0027-8424, 1091-6490
-UR  - http://arxiv.org/abs/2007.01209
-Y2  - 2023/12/04/12:35:19
-L1  - https://arxiv.org/pdf/2007.01209.pdf
-L2  - https://arxiv.org/abs/2007.01209
-KW  - 11Y50 (Primary) 11D25 (Secondary)
-KW  - Mathematics - Number Theory
+SP  - 1326
+EP  - 1330
+UR  - https://www.nature.com/articles/s41893-023-01155-z
+Y2  - 2026/11/08/
+L1  - https://www.nature.com/articles/s41893-023-01155-z.pdf
+N1  - <p>BOINC criterion evidence - Listed on the BOINC publications page under Charity Engine and Climateprediction.net; cooling degree days computed using CPDN and Charity Engine volunteer computing resources | Link: Charity Engine / BOINC (listed on project bibliography) | Source: Nature Sustainability 6(11):1326-1330 (2023)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Charity Engine
+KW  - Climateprediction.net
+KW  - cooling degree days
 ER  - 
 
 TY  - JOUR
@@ -30,16 +36,17 @@ AU  - Karpovich, Maia
 AU  - Merzenich, Matthias
 AU  - Raucci, David
 AU  - Riley, Mitchell
-AB  - In the theory of cellular automata, an oscillator is a pattern that repeats itself after a fixed number of generations; that number is called its period. A cellular automaton is called omniperiodic if there exist oscillators of all periods. At the turn of the millennium, only twelve oscillator periods remained to be found in Conway's Game of Life. The search has finally ended, with the discovery of oscillators having the final two periods, 19 and 41, proving that Life is omniperiodic. Besides filling in the missing periods, we give a detailed history of the omniperiodicity problem and the strategies used to solve it, summarising the work of a large number of people in the decades since the creation of Life.
 DA  - 2023///
 PY  - 2023
 DO  - 10.48550/ARXIV.2312.02799
 DP  - DOI.org (Datacite)
 UR  - https://arxiv.org/abs/2312.02799
-Y2  - 2023/12/19/01:39:29
-KW  - FOS: Mathematics
-KW  - FOS: Physical sciences
-KW  - Combinatorics (math.CO)
-KW  - Cellular Automata and Lattice Gases (nlin.CG)
+Y2  - 2026/11/08/
+L1  - http://arxiv.org/pdf/2312.02799v1
+N1  - <p>BOINC criterion evidence - Listed on the BOINC publications page under Charity Engine; Conway's Game of Life search run on Charity Engine volunteer computing platform | Link: Charity Engine / BOINC (listed on project bibliography) | Source: arXiv:2312.02799 (2023)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Charity Engine
+KW  - Conway's Game of Life
+KW  - omniperiodic
 ER  - 
 
