@@ -1,13 +1,11 @@
 TY  - JOUR
-TI  - A Bitslice Implementation of Anderson’s Attack on A5/1
+TI  - A Bitslice Implementation of Anderson's Attack on A5/1
 AU  - Bulavintsev, Vadim
 AU  - Semenov, Alexander
 AU  - Zaikin, Oleg
 AU  - Kochemazov, Stepan
 T2  - Open Engineering
-AB  - Abstract
-            The A5/1 keystream generator is a part of Global System for Mobile Communications (GSM) protocol, employed in cellular networks all over the world. Its cryptographic resistance was extensively analyzed in dozens of papers. However, almost all corresponding methods either employ a specific hardware or require an extensive preprocessing stage and significant amounts of memory. In the present study, a bitslice variant of Anderson’s Attack on A5/1 is implemented. It requires very little computer memory and no preprocessing. Moreover, the attack can be made even more efficient by harnessing the computing power of modern Graphics Processing Units (GPUs). As a result, using commonly available GPUs this method can quite efficiently recover the secret key using only 64 bits of keystream. To test the performance of the implementation, a volunteer computing project was launched. 10 instances of A5/1 cryptanalysis have been successfully solved in this project in a single week.
-DA  - 2018/03/03/
+DA  - 2018///
 PY  - 2018
 DO  - 10.1515/eng-2018-0002
 DP  - DOI.org (Crossref)
@@ -15,9 +13,13 @@ VL  - 8
 IS  - 1
 SP  - 7
 EP  - 16
-SN  - 2391-5439
 UR  - https://www.degruyter.com/document/doi/10.1515/eng-2018-0002/html
-Y2  - 2022/12/28/12:42:52
-L1  - https://www.degruyter.com/document/doi/10.1515/eng-2018-0002/pdf
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "To test this approach, the volunteer computing project Andersonattack@home was launched. In this project, 10 cryptanalysis instances for A5/1 were successfully solved in a single week." Section 4.2, verbatim: "In order to solve the 10 instances mentioned above, the BOINC-based volunteer computing project AndersonAttack@home [6] was launched." | Full text: Open Engineering 8(1):7-16 (2018) | Link: AndersonAttack@home / BOINC | Source: Open Engineering (2018)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - GPU
+KW  - volunteer computing
+KW  - A5/1
+KW  - AndersonAttack@home
 ER  - 
 
