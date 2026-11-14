@@ -17,6 +17,7 @@ SN  - 978-1-4503-7227-5
 ST  - Greyfish
 UR  - https://dl.acm.org/doi/10.1145/3332186.3333055
 Y2  - 2022/12/28/22:52:46
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "A simplified version of Greyfish, known as Reef, is already in production in the BOINC@TACC project." | Full text: PEARC '19, DOI 10.1145/3332186.3333055 | Link: BOINC@TACC / BOINC | Source: PEARC '19 (2019)ER&nbsp;&nbsp;-</p>
 ER  - 
 
 TY  - CHAP
@@ -36,9 +37,10 @@ SP  - 105
 EP  - 119
 LA  - en
 PB  - Springer Singapore
-SN  - 9789811377280 9789811377297
+SN  - 978-981-13-7728-0 978-981-13-7729-7
 UR  - http://link.springer.com/10.1007/978-981-13-7729-7_8
 Y2  - 2022/12/28/22:53:35
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "BOINC is the most popular software framework for VC and it helps in connecting the projects needing computing cycles with the volunteers interested in donating the computing cycles on their resources." Also verbatim: "We have developed a BOINC project, nanoHUB@home, to make use of VC in support of the nanoHUB science gateway." | Full text: Springer LNCS 964, DOI 10.1007/978-981-13-7729-7_8 | Link: BOINC@TACC / BOINC | Source: Software Challenges to Exascale Computing (2019)ER&nbsp;&nbsp;-</p>
 ER  - 
 
 TY  - JOUR
@@ -53,5 +55,6 @@ LA  - en
 ST  - VAST
 UR  - http://rgdoi.net/10.13140/RG.2.2.28139.64805
 Y2  - 2022/12/28/22:55:06
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "We describe the goals of the VAST project, which seeks to integrate academic high performance computing, academic cloud, and BOINC-based volunteer computing capabilities into a unified capability for executing high throughput computing workloads." | Full text: ResearchGate technical report | Link: BOINC@TACC / BOINC | Source: Technical Report (2017)ER&nbsp;&nbsp;-</p>
 ER  - 
 
