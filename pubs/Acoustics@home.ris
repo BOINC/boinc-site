@@ -6,37 +6,40 @@ AU  - Posypkin, Mikhail
 AU  - Bulavintsev, Vadim
 AU  - Kurochkin, Ilya
 T2  - Open Engineering
-AB  - A volunteer computing project aimed at solving computationally hard inverse problems in underwater acoustics is described. This project was used to study the possibilities of the sound speed profile reconstruction in a shallow-water waveguide using a dispersion-based geoacoustic inversion scheme. The computational capabilities provided by the project allowed us to investigate the accuracy of the inversion for different mesh sizes of the sound speed profile discretization grid. This problem suits well for volunteer computing because it can be easily decomposed into independent simpler subproblems.
-DA  - 2017/12/29/
+DA  - 2017///
 PY  - 2017
 DO  - 10.1515/eng-2017-0040
-DP  - ResearchGate
+DP  - DOI.org (Crossref)
 VL  - 7
-J2  - Open Engineering
+IS  - 1
+SP  - 363
+EP  - 370
 UR  - https://www.degruyter.com/document/doi/10.1515/eng-2017-0040/html
-Y2  - 2022/12/28/11:39:30
-L1  - https://www.researchgate.net/publication/322141503_A_Volunteer_Computing_Project_for_Solving_Geoacoustic_Inversion_Problems/fulltext/5a478cf5458515f6b055e58d/A-Volunteer-Computing-Project-for-Solving-Geoacoustic-Inversion-Problems.pdf
-L4  - https://www.researchgate.net/publication/322141503_A_Volunteer_Computing_Project_for_Solving_Geoacoustic_Inversion_Problems
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Introduction, verbatim: "There exists a number of classes of computationally intense geoacoustic inversion problems, which can be solved using embarrassing parallelism. This is the main reason why we launched the volunteer computing project Acoustics@home, aimed at solving such problems. The project is based on the popular platform BOINC (Berkley Open Infrastructure for Network Compuitng [3])." | Full text: Open Engineering 7(1):363-370 (2017) | Link: Acoustics@home / BOINC | Source: Open Engineering (2017)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - Acoustics@home
+KW  - geoacoustic inversion
 ER  - 
 
-TY  - JOUR
+TY  - CONF
 TI  - Application of iterative hill climbing to the sound speed profile inversion in underwater acoustics
 AU  - Zaikin, O.
 AU  - Petrov, P.
 T2  - IOP Conference Series: Materials Science and Engineering
-AB  - An application of the iterative hill climbing algorithm to the solution of inverse problems of underwater acoustics is discussed. Modal dispersion data extracted from a recording of a pulse acoustical signal is used as the input for the geoacoustic inversion procedure. The mismatch of the dispersion curves extracted from experimental data and computed from a given set of waveguide parameters is minimized over the parameters space. The solution of two test inversion problems is considered. It is shown that the iterative launches of the hill climbing algorithm allow to locate either the global minimum or a local minimum which is reasonably close to the former. In the latter case a reasonable estimate of the waveguide parameters is obtained.
-DA  - 2017/02//
+DA  - 2017///
 PY  - 2017
 DO  - 10.1088/1757-899X/173/1/012022
-DP  - Institute of Physics
+DP  - DOI.org (Crossref)
 VL  - 173
 IS  - 1
 SP  - 012022
-J2  - IOP Conf. Ser.: Mater. Sci. Eng.
-LA  - en
-SN  - 1757-899X
-UR  - https://dx.doi.org/10.1088/1757-899X/173/1/012022
-Y2  - 2022/12/28/11:38:30
-L1  - https://iopscience.iop.org/article/10.1088/1757-899X/173/1/012022/pdf
+UR  - https://iopscience.iop.org/article/10.1088/1757-899X/173/1/012022
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Listed on the BOINC publications page under Acoustics@home; related iterative hill climbing calculations subsequently performed on the Acoustics@home volunteer computing project | Link: Acoustics@home / BOINC (listed on project bibliography) | Source: IOP Conf. Ser.: Mater. Sci. Eng. 173 012022 (2017)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Acoustics@home
+KW  - underwater acoustics
 ER  - 
 
