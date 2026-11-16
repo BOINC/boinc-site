@@ -1,19 +1,21 @@
-TY  - GEN
+TY  - JOUR
 TI  - Automatic Synthesis of Totally Self-Checking Circuits
 AU  - Garvie, Michael
 AU  - Husbands, Phil
-AB  - Totally self-checking (TSC) circuits are synthesised with a grid of computers running a distributed population based stochastic optimisation algorithm. The presented method is the first to automatically synthesise TSC circuits from arbitrary logic as all previous methods fail to guarantee the checker is self-testing (ST) for circuits with limited output codespaces. The circuits synthesised by the presented method have significantly lower overhead than the previously reported best for every one of a set of 11 frequently used benchmarks. Average overhead across the entire set is 23% of duplication and comparison overhead, compared with an average of 69% for the previous best reported values across the set. The methodology presented represents a breakthrough in concurrent error detection (CED). The highly efficient, novel designs produced are tailored to each circuit's function, rather than being constrained by a particular modular CED design methodology. Results are synthesised using two-input gates and are TSC with respect to all gate input and output stuck-at faults. The method can be used to add CED with or without modifications to the original logic, and can be generalised to any implementation technology and fault model. An example circuit is analysed and rigorously proven to be TSC.
-DA  - 2019/01/21/
+DA  - 2019///
 PY  - 2019
 DO  - 10.48550/arXiv.1901.07023
-DP  - arXiv.org
-PB  - arXiv
-UR  - http://arxiv.org/abs/1901.07023
-Y2  - 2026/07/03/18:23:21
+DP  - arXiv.org (DataCite)
+UR  - https://arxiv.org/abs/1901.07023
+Y2  - 2026/11/08/
 L1  - http://arxiv.org/pdf/1901.07023v1
-L2  - https://arxiv.org/abs/1901.07023
-KW  - Computer Science - Distributed, Parallel, and Cluster Computing
-KW  - Computer Science - Artificial Intelligence
-KW  - Computer Science - Computers and Society
+N1  - <p>BOINC criterion evidence - Acknowledgments, verbatim: "This research was made possible by processor time donated by the distributed computing community and some experiments presented in this paper were carried out using the Grid'5000 testbed." Section III-A, verbatim: "the overall search algorithm was distributed using an island based coevolutionary model... A grid of up to 150 workstations was used." Section IV-C, verbatim: "The computational cost for the synthesis of the circuits presented varied from a couple of hours on a single 2.8Ghz processor to a couple of weeks on 150 2.8Ghz processors." Section IV-C: "running the distributed evolutionary algorithm." Reference [1]: "Distributed hardware evolution project. http://dhep.ga." Listed on the BOINC publications page under Distributed Hardware Evolution Project. | Full text: arXiv:1901.07023 (2019) | Link: DHEP / BOINC | Source: arXiv (2019)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - concurrent error detection
+KW  - DHEP
+KW  - Distributed Hardware Evolution Project
+KW  - evolutionary algorithm
+KW  - totally self-checking circuits
 ER  - 
 
