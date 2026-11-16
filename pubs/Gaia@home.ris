@@ -1,18 +1,22 @@
-TY  - GEN
+TY  - JOUR
 TI  - Asteroid phase curve modeling with empirical correction for shape and viewing geometry
-AU  - Bartczak, Dagmara Oszkiewicz Przemysław
+AU  - Oszkiewicz, Dagmara
+AU  - Bartczak, Przemysław
 AU  - Colazo, Milagros
 AU  - Penttilä, Antti
-AB  - We present a novel empirical method for correcting asteroid phase curves for rotational and geometrical effects using precomputed spin-and-shape models. Our approach normalizes sparse photometric data to a pole-on geometry, enabling consistent phase-curve fitting across apparitions. We fit both the H,G1,G2 and H,G12 phase functions to the normalized data. We also numerically derive new constraints on parameter ranges that ensure physically meaningful solutions. These constraints are based on the requirement that the reduced magnitude must monotonically decrease with phase angle and remain within plausible slope bounds. Compared to earlier bounds, our new constraints are more permissive. We also compare derivative-based and derivative-free optimization methods, highlighting convergence issues with the HG12 function and offering mitigation strategies. We applied our method to over 25,000 asteroids observed by the ATLAS survey, demonstrating its usability. The new method enables the selection of the preferred spin-and-shape solution based on either statistical phase-curve model selection criteria and/or physically motivated constraints on the phase-curve shape.
-DA  - 2025/11/20/
-PY  - 2025
-DO  - 10.48550/arXiv.2511.16237
-DP  - arXiv.org
-PB  - arXiv
-UR  - http://arxiv.org/abs/2511.16237
-Y2  - 2026/11/08/11:26:06
-L1  - http://arxiv.org/pdf/2511.16237v1
-L2  - https://arxiv.org/abs/2511.16237
-KW  - Astrophysics - Earth and Planetary Astrophysics
+T2  - Icarus
+DA  - 2026///
+PY  - 2026
+DO  - 10.1016/j.icarus.2025.116886
+DP  - DOI.org (Crossref)
+VL  - 446
+SP  - 116886
+UR  - https://doi.org/10.1016/j.icarus.2025.116886
+Y2  - 2026/11/08/
+L1  - https://arxiv.org/pdf/2511.16237
+N1  - <p>BOINC criterion evidence - Acknowledgments, verbatim: "The authors also thank the volunteers of the BOINC Gaia@home project (http://gaiaathome.eu) for providing computing power used in this research." | Full text: Icarus 446:116886 (2026) | Link: Gaia@home / BOINC | Source: Icarus (2026)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - asteroids
+KW  - Gaia@home
 ER  - 
 
