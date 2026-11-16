@@ -1,5 +1,27 @@
+TY  - JOUR
+TI  - Definition and exploration of realistic chemical spaces using the connectivity and cyclic features of ChEMBL and ZINC
+AU  - Cauchy, Thomas
+AU  - Leguy, Jules
+AU  - Da Mota, Benoit
+T2  - Digital Discovery
+DA  - 2023///
+PY  - 2023
+DO  - 10.1039/D2DD00092J
+DP  - DOI.org (Crossref)
+VL  - 2
+IS  - 3
+SP  - 736
+EP  - 747
+UR  - https://doi.org/10.1039/D2DD00092J
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - GridRepublic project website (gridrepublic.org) describes GridRepublic as a BOINC Account Manager for volunteer computing; molecular generation using GridRepublic BOINC volunteer computing | Link: GridRepublic / BOINC (project website description) | Source: Digital Discovery 2(3):736-747 (2023)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - chemical space
+KW  - GridRepublic
+ER  - 
+
 TY  - RPRT
-TI  - Finding <i>Candida auris</i> in public metagenomic repositories
+TI  - Finding Candida auris in public metagenomic repositories
 AU  - Mario-Vasquez, Jorge E.
 AU  - Bagal, Ujwal R.
 AU  - Lowe, Elijah
@@ -13,16 +35,7 @@ AU  - Litvintseva, Anastasia P.
 AU  - Blumberg, Matthew
 AU  - Agarwala, Richa
 AU  - Chow, Nancy A.
-AB  - Abstract
-          
-            Candida auris
-            is a newly emerged multidrug-resistant fungus capable of causing invasive infections with high mortality. Despite intense efforts to understand how this pathogen rapidly emerged and spread worldwide, its environmental reservoirs are poorly understood. Here, we present a collaborative effort between the U.S. Centers for Disease Control and Prevention, the National Center for Biotechnology Information, and GridRepublic (a volunteer computing platform) to identify
-            C. auris
-            sequences in publicly available metagenomic datasets. We developed the MetaNISH pipeline that uses SRPRISM to align sequences to a set of reference genomes and computes a score for each reference genome. We used MetaNISH to scan ∼300,000 SRA metagenomic runs from 2010 onwards and identified five datasets containing
-            C. auris
-            reads. Finally, GridRepublic has implemented a prospective
-            C. auris
-            molecular monitoring system using MetaNISH and volunteer computing.
+AB  - Candida auris is a newly emerged multidrug-resistant fungus capable of causing invasive infections with high mortality. Despite intense efforts to understand how this pathogen rapidly emerged and spread worldwide, its environmental reservoirs are poorly understood. Here, we present a collaborative effort between the U.S. Centers for Disease Control and Prevention, the National Center for Biotechnology Information, and GridRepublic (a volunteer computing platform) to identify C. auris sequences in publicly available metagenomic datasets. We developed the MetaNISH pipeline that uses SRPRISM to align sequences to a set of reference genomes and computes a score for each reference genome. We used MetaNISH to scan ~300,000 SRA metagenomic runs from 2010 onwards and identified five datasets containing C. auris reads. Finally, GridRepublic has implemented a prospective C. auris molecular monitoring system using MetaNISH and volunteer computing.
 DA  - 2023/09/01/
 PY  - 2023
 DP  - DOI.org (Crossref)
@@ -30,6 +43,12 @@ LA  - en
 M3  - preprint
 PB  - Bioinformatics
 UR  - http://biorxiv.org/lookup/doi/10.1101/2023.08.30.555569
-Y2  - 2023/12/03/18:04:11
+Y2  - 2026/11/08/
+L1  - https://www.biorxiv.org/content/biorxiv/early/2023/09/01/2023.08.30.555569.full.pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "GridRepublic (a volunteer computing platform)" and "GridRepublic has implemented a prospective C. auris molecular monitoring system using MetaNISH and volunteer computing." | Full text: bioRxiv preprint (2023) | Link: GridRepublic / BOINC | Source: bioRxiv 10.1101/2023.08.30.555569ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - GridRepublic
+KW  - Candida auris
+KW  - metagenomic
 ER  - 
 
