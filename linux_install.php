@@ -31,6 +31,7 @@ function get_oss($os_num) {
         $oss[$n++] = os('Ubuntu', '20.04', 'focal', 'April 2025', '2.31', '8.2.13');
         break;
     case OS_FEDORA:
+        $oss[$n++] = os('Fedora', '45', 'fc45', 'December 2027', '2.44');
         $oss[$n++] = os('Fedora', '44', 'fc44', 'May 2027', '2.43');
         $oss[$n++] = os('Fedora', '43', 'fc43', 'December 2026', '2.42');
         $oss[$n++] = os('Fedora', '42', 'fc42', 'May 2026', '2.41', '8.2.13');
@@ -41,6 +42,7 @@ function get_oss($os_num) {
         $oss[$n++] = os('Fedora', '37', 'fc37', 'November 2023', '2.36', '8.2.13');
         break;
     case OS_OPENSUSE:
+        $oss[$n++] = os('openSUSE', '16.1', 'suse16_1', 'October 2028', '2.40');
         $oss[$n++] = os('openSUSE', '16.0', 'suse16_0', 'December 2026', '2.40');
         $oss[$n++] = os('openSUSE', '15.6', 'suse15_6', 'December 2025', '2.37', '8.2.13');
         $oss[$n++] = os('openSUSE', '15.5', 'suse15_5', 'December 2024', '2.37', '8.2.13');
@@ -186,6 +188,7 @@ sudo yum install boinc-client boinc-manager',
         case '42':
         case '43':
         case '44':
+        case '45':
             $x = sprintf(
 'sudo dnf install dnf-plugins-core
 sudo dnf config-manager addrepo --from-repofile=https://boinc.berkeley.edu/dl/linux/%s/%s/boinc-%s-%s.repo
