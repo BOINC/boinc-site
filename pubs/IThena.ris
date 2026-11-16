@@ -1,7 +1,8 @@
 TY  - SLIDE
-TI  - iThena Project: Distributed measurements and analysis of the global Internet – BOINC (Berkeley Open Infrastructure for Network Computing) and Big Data environment​
+TI  - iThena Project: Distributed measurements and analysis of the global Internet – BOINC (Berkeley Open Infrastructure for Network Computing) and Big Data environment
+A2  - Swierczewski, Lukasz
 A2  - Swierczewski, L
-AB  - Presentation the iThena project initiative realized on the BOINC platform....
+AB  - Presentation the iThena project initiative realized on the BOINC platform.
 CY  - LVEE 2020 ONLINE EDITION
 DA  - 2020/12/19/
 PY  - 2020
@@ -10,5 +11,10 @@ ST  - iThena Project
 UR  - https://catalog.caida.org/media/2020_lvee_online_edition_ithena
 Y2  - 2022/11/20/13:58:40
 L2  - https://catalog.caida.org/media/2020_lvee_online_edition_ithena/cite
+N1  - <p>BOINC criterion evidence - Abstract and presentation title, verbatim: "iThena Project: Distributed measurements and analysis of the global Internet – BOINC (Berkeley Open Infrastructure for Network Computing) and Big Data environment" and "Presentation the iThena project initiative realized on the BOINC platform." | Full text: LVEE 2020 Online Edition presentation (2020) | Link: IThena / BOINC | Source: CAIDA catalog / LVEE 2020ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Internet measurements
+KW  - IThena
+KW  - network topology
 ER  - 
 
