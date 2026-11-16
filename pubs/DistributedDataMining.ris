@@ -1,12 +1,17 @@
 TY  - CONF
 TI  - Distributed Data Analytics using RapidMiner and BOINC
-AU  - Nico Schlitter
-AU  - Joerg Laessig
+AU  - Schlitter, Nico
+AU  - Lässig, Jörg
 T2  - RapidMiner Community Meeting and Conference, RCOMM 2013
-AB  - RapidMiner is an open source environment for machine learning and data analytics. It is intensively used for academic purposes at universities as well as for industrial or commercial applications. The BOINC framework also attracted attention as it provides the ability to easily setup a distributed computing environment. This article addresses the joint usage of RapidMiner and BOINC. We describe the integration of both tools and present some of the research accomplishments of the distributedDataMining.org project.
-C1  - Porto, Portugal
-DA  - 2013/08//
+DA  - 2013///
 PY  - 2013
 UR  - https://www.researchgate.net/publication/259461196_Distributed_Data_Analytics_using_RapidMiner_and_BOINC
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "This article addresses the joint usage of RapidMiner and BOINC. We describe the integration of both tools and present some of the research accomplishments of the distributedDataMining.org project." Introduction, verbatim: "We describe the usage of the BOINC framework and the distribution of research related computing tasks to thousands of heterogeneous computing nodes located all over the world. Each of these nodes uses the BOINC client to pull computing tasks and data packages from a central server." Section 2.2, verbatim: "The Berkeley Open Infrastructure for Network Computing (BOINC) is a software framework for distributed and grid computing." Section 2.4: "We implemented a module which allows Drupal to interact with the BOINC framework." Section 2.4: "BOINC provides a C++ library which enables a given scientific application to communicate with the BOINC client." | Full text: RCOMM 2013, Porto, Portugal | Link: DistributedDataMining / BOINC | Source: RCOMM 2013 (2013)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - data analytics
+KW  - DistributedDataMining
+KW  - RapidMiner
 ER  - 
 
