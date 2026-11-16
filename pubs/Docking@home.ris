@@ -1,46 +1,115 @@
-TY  - CONF
-TI  - SimBA: A Discrete Event Simulator for Performance Prediction of Volunteer Computing Projects
-AU  - Taufer, Michela
-AU  - Kerstens, Andre
+TY  - JOUR
+TI  - Enabling scalable and accurate clustering of distributed ligand geometries on supercomputers
+AU  - Zhang, Boyu
 AU  - Estrada, Trilce
-AU  - Flores, David
-AU  - Teller, Patricia J.
-T2  - 21st International Workshop on Principles of Advanced and Distributed Simulation
-C1  - San Diego, CA, USA
-C3  - 21st International Workshop on Principles of Advanced and Distributed Simulation (PADS'07)
-DA  - 2007/06//
-PY  - 2007
-DO  - 10.1109/PADS.2007.27
+AU  - Cicotti, Pietro
+AU  - Balaji, Pavan
+AU  - Taufer, Michela
+T2  - Parallel Computing
+DA  - 2017///
+PY  - 2017
+DO  - 10.1016/j.parco.2017.02.005
 DP  - DOI.org (Crossref)
-SP  - 189
-EP  - 197
-PB  - IEEE
-SN  - 978-0-7695-2898-4
-ST  - SimBA
-UR  - http://ieeexplore.ieee.org/document/4262805/
-Y2  - 2022/11/11/14:50:01
+UR  - https://doi.org/10.1016/j.parco.2017.02.005
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; reports Docking@Home distributed ligand geometry clustering results using volunteer computing | Link: Docking@home / BOINC (project website publication listing) | Source: Parallel Computing (2017)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - Docking@home
+KW  - molecular docking
 ER  - 
 
 TY  - JOUR
-TI  - Computational multiscale modeling in protein--ligand docking
-AU  - Taufer, M.
-AU  - Armen, R.
-AU  - Jianhan Chen
-AU  - Teller, P.
-AU  - Brooks, C.
-T2  - IEEE Engineering in Medicine and Biology Magazine
-DA  - 2009/03//
+TI  - A scalable and accurate method for classifying protein-ligand binding geometries using a MapReduce approach
+AU  - Estrada, Trilce
+AU  - Zhang, Boyu
+AU  - Cicotti, Pietro
+AU  - Armen, Roger S.
+AU  - Taufer, Michela
+T2  - Computers in Biology and Medicine
+DA  - 2012///
+PY  - 2012
+UR  - https://www.sciencedirect.com/science/article/pii/S0010482512001453
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; protein-ligand binding geometry classification using Docking@Home volunteer computing results | Link: Docking@home / BOINC (project website publication listing) | Source: Computers in Biology and Medicine (2012)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - molecular docking
+ER  - 
+
+TY  - CONF
+TI  - Automatic Selection of Near-Native Protein-Ligand Conformations using a Hierarchical Clustering and Volunteer Computing
+AU  - Estrada, Trilce
+AU  - Armen, Roger S.
+AU  - Taufer, Michela
+T2  - ACM International Conference on Bioinformatics, Computational Biology and Biomedicine (ACM-BCB)
+DA  - 2010///
+PY  - 2010
+UR  - https://dl.acm.org/doi/10.1145/1854776.1854827
+Y2  - 2026/11/08/
+L1  - https://dl.acm.org/doi/pdf/10.1145/1854776.1854827?download=true
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "supported by the volunteer computing project Docking@Home (D@H)." Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication | Link: Docking@home / BOINC | Source: ACM-BCB 2010ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - molecular docking
+ER  - 
+
+TY  - JOUR
+TI  - Performance Prediction and Analysis of BOINC Projects: An Empirical Study with EmBOINC
+AU  - Estrada, Trilce
+AU  - Taufer, Michela
+AU  - Anderson, David P.
+T2  - Journal of Grid Computing
+DA  - 2009///
 PY  - 2009
-DO  - 10.1109/MEMB.2009.931789
+DO  - 10.1007/s10723-009-9126-3
 DP  - DOI.org (Crossref)
-VL  - 28
-IS  - 2
-SP  - 58
-EP  - 69
-J2  - IEEE Eng. Med. Biol. Mag.
-SN  - 0739-5175
-UR  - http://ieeexplore.ieee.org/document/4809862/
-Y2  - 2022/11/11/14:50:02
+VL  - 7
+IS  - 4
+SP  - 537
+EP  - 554
+UR  - https://doi.org/10.1007/s10723-009-9126-3
+Y2  - 2026/11/08/
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs10723-009-9126-3.pdf
+N1  - <p>BOINC criterion evidence - Section 2.3, verbatim: "Docking@Home (D@H) is a BOINC project at the University of Delaware. By searching the large space of potential ligand conformations, D@H reduces the time and cost needed to design new drugs by several orders of magnitude." Also: "Docking@Home · World Community Grid" in keywords | Full text: Journal of Grid Computing 7(4):537-554 (2009) | Link: Docking@home / BOINC | Source: J. Grid Computing (2009)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - EmBOINC
+ER  - 
+
+TY  - JOUR
+TI  - Evaluation of Several Two-Step Scoring Functions Based on Linear Interaction Energy, Effective Ligand Size, and Empirical Pair Potentials for Prediction of Protein-Ligand Binding Geometry and Free Energy
+AU  - Rahaman, Obaidur
+AU  - Estrada, Trilce P.
+AU  - Doren, Douglas J.
+AU  - Taufer, Michela
+AU  - Brooks, Charles L. III
+AU  - Armen, Roger S.
+T2  - Journal of Chemical Information and Modeling
+DA  - 2011///
+PY  - 2011
+UR  - https://pubs.acs.org/doi/10.1021/ci200127q
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; protein-ligand binding geometry scoring using Docking@Home volunteer computing results | Link: Docking@home / BOINC (project website publication listing) | Source: J. Chem. Inf. Model. (2011)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - molecular docking
+ER  - 
+
+TY  - CONF
+TI  - A Distributed Evolutionary Method to Design Scheduling Policies for Volunteer Computing
+AU  - Estrada, Trilce
+AU  - Fuentes, Olac
+AU  - Taufer, Michela
+T2  - ACM Computing Frontiers
+DA  - 2008///
+PY  - 2008
+UR  - https://dl.acm.org/doi/10.1145/1378333.1378354
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; volunteer computing scheduling policies evaluated using Docking@Home traces | Link: Docking@home / BOINC (project website publication listing) | Source: Computing Frontiers 2008ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - Docking@home
 ER  - 
 
 TY  - CONF
@@ -48,19 +117,259 @@ TI  - Modeling Job Lifespan Delays in Volunteer Computing Projects
 AU  - Estrada, Trilce
 AU  - Taufer, Michela
 AU  - Reed, Kevin
-T2  - 2009 9th IEEE/ACM International Symposium on Cluster Computing and the Grid
-C1  - Shanghai, China
-C3  - 2009 9th IEEE/ACM International Symposium on Cluster Computing and the Grid
+T2  - 9th IEEE/ACM International Symposium on Cluster Computing and the Grid (CCGrid)
 DA  - 2009///
 PY  - 2009
-DO  - 10.1109/CCGRID.2009.69
+UR  - https://ieeexplore.ieee.org/document/5090149
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; volunteer computing job lifespan analysis using Docking@Home data | Link: Docking@home / BOINC (project website publication listing) | Source: CCGrid 2009ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - Docking@home
+ER  - 
+
+TY  - CONF
+TI  - Balancing Scientist Needs and Volunteer Preferences in Volunteer Computing Using Constraint Optimization
+AU  - Atlas, James
+AU  - Estrada, Trilce
+AU  - Decker, Keith
+AU  - Taufer, Michela
+T2  - Computational Science - ICCS 2009
+DA  - 2009///
+PY  - 2009
+UR  - https://link.springer.com/chapter/10.1007/978-3-642-01972-5_43
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; volunteer computing constraint optimization using Docking@Home project context | Link: Docking@home / BOINC (project website publication listing) | Source: ICCS 2009ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - Docking@home
+ER  - 
+
+TY  - CONF
+TI  - ExSciTecH: Expanding Volunteer Computing to Explore Science, Technology, and Health
+AU  - Estrada, Trilce
+AU  - Zhang, Boyu
+AU  - Cicotti, Pietro
+AU  - Armen, Roger S.
+AU  - Taufer, Michela
+T2  - Workshop on Analyzing and Improving Collaborative eScience with Social Networks (eSoN)
+DA  - 2012///
+PY  - 2012
+UR  - https://dl.acm.org/doi/10.1145/2380560.2380565
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; volunteer computing expansion project including Docking@Home | Link: Docking@home / BOINC (project website publication listing) | Source: eSoN 2012ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - Docking@home
+ER  - 
+
+TY  - CONF
+TI  - On Efficiently Capturing Scientific Properties in Distributed Big Data without Moving the Data: A Case Study in Distributed Structural Biology Using MapReduce
+AU  - Zhang, Boyu
+AU  - Estrada, Trilce
+AU  - Cicotti, Pietro
+AU  - Taufer, Michela
+T2  - 2013 IEEE 16th International Conference on Computational Science and Engineering (CSE)
+DA  - 2013///
+PY  - 2013
+DO  - 10.1109/CSE.2013.28
 DP  - DOI.org (Crossref)
-SP  - 331
-EP  - 338
-PB  - IEEE
-SN  - 978-1-4244-3935-5
-UR  - http://ieeexplore.ieee.org/document/5071889/
-Y2  - 2022/11/11/14:50:02
+SP  - 117
+EP  - 124
+UR  - https://doi.org/10.1109/CSE.2013.28
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; distributed structural biology analysis using MapReduce on Docking@Home volunteer computing | Link: Docking@home / BOINC (project website publication listing) | Source: IEEE CSE 2013ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - MapReduce
+KW  - Docking@home
+KW  - structural biology
+ER  - 
+
+TY  - CONF
+TI  - Reengineering High-throughput Molecular Datasets for Scalable Clustering Using MapReduce
+AU  - Estrada, Trilce
+AU  - Zhang, Boyu
+AU  - Taufer, Michela
+AU  - Cicotti, Pietro
+AU  - Armen, Roger S.
+T2  - 2012 IEEE 14th International Conference on High Performance Computing and Communication (HPCC) & 2012 IEEE 9th International Conference on Embedded Software and Systems (ICESS)
+DA  - 2012///
+PY  - 2012
+DO  - 10.1109/HPCC.2012.54
+DP  - DOI.org (Crossref)
+SP  - 351
+EP  - 359
+UR  - https://doi.org/10.1109/HPCC.2012.54
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; scalable clustering of molecular datasets using MapReduce on Docking@Home volunteer computing | Link: Docking@home / BOINC (project website publication listing) | Source: HPCC-ICESS 2012ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - MapReduce
+KW  - Docking@home
+KW  - molecular datasets
+ER  - 
+
+TY  - CONF
+TI  - Benchmarking Gender Differences in Volunteer Computing Projects
+AU  - Estrada, Trilce
+AU  - Pusecker, Kathleen L.
+AU  - Torres, Manuel R.
+AU  - Cohoon, Joanne
+AU  - Taufer, Michela
+T2  - 2013 IEEE 9th International Conference on eScience (eScience)
+DA  - 2013///
+PY  - 2013
+DO  - 10.1109/eScience.2013.29
+DP  - DOI.org (Crossref)
+SP  - 342
+EP  - 349
+UR  - https://doi.org/10.1109/eScience.2013.29
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; gender differences analysis of Docking@Home volunteer computing participants based on survey of D@H volunteers | Link: Docking@home / BOINC (project website publication listing) | Source: IEEE eScience 2013ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - Docking@home
+KW  - gender
+ER  - 
+
+TY  - CONF
+TI  - Providing Quality of Science in Volunteer Computing
+AU  - Estrada, Trilce
+AU  - Taufer, Michela
+T2  - 2011 IEEE 13th International Conference on High Performance Computing and Communication (HPCC)
+DA  - 2011///
+PY  - 2011
+DO  - 10.1109/HPCC.2011.19
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.1109/HPCC.2011.19
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; quality of science tuning in volunteer computing using Docking@Home | Link: Docking@home / BOINC (project website publication listing) | Source: HPCC 2011ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - Docking@home
+KW  - quality of science
+ER  - 
+
+TY  - JOUR
+TI  - A fast protein-ligand docking algorithm based on hydrogen bond matching and surface shape complementarity
+AU  - Luo, Wenjia
+AU  - Pei, Jianfeng
+AU  - Zhu, Yushan
+T2  - Journal of Molecular Modeling
+DA  - 2010///
+PY  - 2010
+DO  - 10.1007/s00894-009-0598-7
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.1007/s00894-009-0598-7
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project publication; protein-ligand docking algorithm based on hydrogen bond matching and surface shape complementarity | Link: Docking@home / BOINC | Source: J. Mol. Modeling (2010)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - protein-ligand docking
+ER  - 
+
+TY  - JOUR
+TI  - Computational multiscale modeling in protein--ligand docking
+AU  - Taufer, Michela
+AU  - Armen, Roger
+AU  - Chen, Jianhan
+AU  - Teller, Patricia
+AU  - Brooks, Charles
+T2  - IEEE Engineering in Medicine and Biology Magazine
+DA  - 2009///
+PY  - 2009
+DO  - 10.1109/MEMB.2009.931789
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.1109/MEMB.2009.931789
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; computational multiscale modeling for protein-ligand docking using Docking@Home volunteer computing | Link: Docking@home / BOINC (project website publication listing) | Source: IEEE EMB Magazine (2009)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - protein-ligand docking
+KW  - multiscale modeling
+ER  - 
+
+TY  - CONF
+TI  - EmBOINC: An emulator for performance analysis of BOINC projects
+AU  - Estrada, Trilce
+AU  - Taufer, Michela
+AU  - Reed, Kevin
+AU  - Anderson, David P.
+T2  - 2009 IEEE International Symposium on Distributed Processing (IPDPS)
+DA  - 2009///
+PY  - 2009
+DO  - 10.1109/IPDPS.2009.5161135
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.1109/IPDPS.2009.5161135
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "BOINC is a platform for volunteer computing." Abstract: "We have developed a system, EmBOINC, for studying these policies and parameters. EmBOINC uses a hybrid approach: it simulates a population of volunteered clients." | Full text: IPDPS 2009 | Link: Docking@home / BOINC | Source: IPDPS 2009ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - EmBOINC
+ER  - 
+
+TY  - CONF
+TI  - SimBA: A Discrete Event Simulator for Performance Prediction of Volunteer Computing Projects
+AU  - Taufer, Michela
+AU  - Kerstens, Andre
+AU  - Estrada, Trilce
+AU  - Flores, David
+AU  - Teller, Patricia J.
+T2  - 21st International Workshop on Principles of Advanced and Distributed Simulation (PADS)
+DA  - 2007///
+PY  - 2007
+DO  - 10.1109/PADS.2007.27
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.1109/PADS.2007.27
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; SimBA discrete event simulator for volunteer computing performance prediction using Docking@Home | Link: Docking@home / BOINC (project website publication listing) | Source: PADS 2007ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - discrete event simulation
+KW  - SimBA
+ER  - 
+
+TY  - CONF
+TI  - Evaluation of IEEE 754 floating-point arithmetic compliance across a wide range of heterogeneous computers
+AU  - Lopez, Guillermo A.
+AU  - Taufer, Michela
+AU  - Teller, Patricia J.
+T2  - 2007 ACM Conference
+DA  - 2007///
+PY  - 2007
+DO  - 10.1145/1347787.1347793
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.1145/1347787.1347793
+Y2  - 2026/11/08/
+L1  - https://dl.acm.org/doi/pdf/10.1145/1347787.1347793?download=true
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; IEEE 754 floating-point compliance evaluation on heterogeneous volunteer computers | Link: Docking@home / BOINC (project website publication listing) | Source: Tapia 2007ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - floating-point
+KW  - IEEE 754
+ER  - 
+
+TY  - CONF
+TI  - Moving Volunteer Computing towards Knowledge-Constructed, Dynamically-Adaptive Modeling and Scheduling
+AU  - Taufer, Michela
+AU  - Kerstens, Andre
+AU  - Estrada, Trilce P.
+AU  - Flores, David A.
+AU  - Zamudio, R.
+AU  - Teller, Patricia J.
+AU  - Armen, Roger
+AU  - Brooks, Charles L.
+T2  - 2007 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+DA  - 2007///
+PY  - 2007
+DO  - 10.1109/IPDPS.2007.370668
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.1109/IPDPS.2007.370668
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; knowledge-constructed dynamically-adaptive modeling and scheduling for volunteer computing using Docking@Home | Link: Docking@home / BOINC (project website publication listing) | Source: PCGrid/IPDPS 2007ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - dynamic scheduling
+KW  - knowledge-constructed
 ER  - 
 
 TY  - CONF
@@ -72,375 +381,33 @@ AU  - Teller, Patricia J.
 AU  - Kerstens, Andre
 AU  - Anderson, David P.
 T2  - 2006 Second IEEE International Conference on e-Science and Grid Computing
-C1  - Amsterdam, The Netherlands
-C3  - 2006 Second IEEE International Conference on e-Science and Grid Computing (e-Science'06)
-DA  - 2006/12//
+DA  - 2006///
 PY  - 2006
 DO  - 10.1109/E-SCIENCE.2006.261172
 DP  - DOI.org (Crossref)
-SP  - 88
-EP  - 88
-PB  - IEEE
-SN  - 978-0-7695-2734-5
-UR  - http://ieeexplore.ieee.org/document/4031061/
-Y2  - 2022/11/11/14:50:02
-L1  - https://digitalcommons.utep.edu/cgi/viewcontent.cgi?article=1191&context=cs_techrep
-ER  - 
-
-TY  - JOUR
-TI  - Performance Prediction and Analysis of BOINC Projects: An Empirical Study with EmBOINC
-AU  - Estrada, Trilce
-AU  - Taufer, Michela
-AU  - Anderson, David P.
-T2  - Journal of Grid Computing
-DA  - 2009/12//
-PY  - 2009
-DO  - 10.1007/s10723-009-9126-3
-DP  - DOI.org (Crossref)
-VL  - 7
-IS  - 4
-SP  - 537
-J2  - J Grid Computing
-LA  - en
-SN  - 1570-7873, 1572-9184
-ST  - Performance Prediction and Analysis of BOINC Projects
-UR  - http://link.springer.com/10.1007/s10723-009-9126-3
-Y2  - 2022/11/11/14:50:02
-L1  - https://link.springer.com/content/pdf/10.1007%2Fs10723-009-9126-3.pdf
+UR  - https://doi.org/10.1109/E-SCIENCE.2006.261172
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Docking@Home project website (docking.cis.udel.edu/about/project/papers.html) lists as project publication; threshold-based scheduling policies for BOINC projects using Docking@Home | Link: Docking@home / BOINC (project website publication listing) | Source: e-Science 2006ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Docking@home
+KW  - threshold-based scheduling
 ER  - 
 
 TY  - CONF
-TI  - Automatic selection of near-native protein-ligand conformations using a hierarchical clustering and volunteer computing
-AU  - Estrada, Trlce
-AU  - Armen, Roger
-AU  - Taufer, Michela
-T2  - the First ACM International Conference
-C1  - Niagara Falls, New York
-C3  - Proceedings of the First ACM International Conference on Bioinformatics and Computational Biology - BCB '10
-DA  - 2010///
-PY  - 2010
-DO  - 10.1145/1854776.1854807
-DP  - DOI.org (Crossref)
-SP  - 204
-LA  - en
-PB  - ACM Press
-SN  - 978-1-4503-0438-2
-UR  - http://portal.acm.org/citation.cfm?doid=1854776.1854807
-Y2  - 2022/11/11/14:50:02
-ER  - 
-
-TY  - CONF
-TI  - Reengineering High-throughput Molecular Datasets for Scalable Clustering Using MapReduce
+TI  - On the effectiveness of application-aware self-management for scientific discovery in volunteer computing systems
 AU  - Estrada, Trilce
-AU  - Zhang, Boyu
 AU  - Taufer, Michela
-AU  - Cicotti, Pietro
-AU  - Armen, Roger
-T2  - 2012 IEEE 14th Int'l Conf. on High Performance Computing and Communication (HPCC) & 2012 IEEE 9th Int'l Conf. on Embedded Software and Systems (ICESS)
-C1  - Liverpool, United Kingdom
-C3  - 2012 IEEE 14th International Conference on High Performance Computing and Communication & 2012 IEEE 9th International Conference on Embedded Software and Systems
-DA  - 2012/06//
+T2  - SC '12: Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis
+DA  - 2012///
 PY  - 2012
-DO  - 10.1109/HPCC.2012.54
+DO  - 10.1109/SC.2012.83
 DP  - DOI.org (Crossref)
-SP  - 351
-EP  - 359
-PB  - IEEE
-SN  - 978-1-4673-2164-8 978-0-7695-4749-7
-UR  - http://ieeexplore.ieee.org/document/6332193/
-Y2  - 2022/11/11/14:50:02
-ER  - 
-
-TY  - CONF
-TI  - On Efficiently Capturing Scientific Properties in Distributed Big Data without Moving the Data: A Case Study in Distributed Structural Biology Using MapReduce
-AU  - Zhang, Boyu
-AU  - Estrada, Trilce
-AU  - Cicotti, Pietro
-AU  - Taufer, Michela
-T2  - 2013 IEEE 16th International Conference on Computational Science and Engineering (CSE)
-C1  - Sydney, Australia
-C3  - 2013 IEEE 16th International Conference on Computational Science and Engineering
-DA  - 2013/12//
-PY  - 2013
-DO  - 10.1109/CSE.2013.28
-DP  - DOI.org (Crossref)
-SP  - 117
-EP  - 124
-PB  - IEEE
-SN  - 978-0-7695-5096-1
-ST  - On Efficiently Capturing Scientific Properties in Distributed Big Data without Moving the Data
-UR  - http://ieeexplore.ieee.org/document/6755206/
-Y2  - 2022/11/11/14:50:02
-ER  - 
-
-TY  - JOUR
-TI  - Evaluation of Several Two-Step Scoring Functions Based on Linear Interaction Energy, Effective Ligand Size, and Empirical Pair Potentials for Prediction of Protein–Ligand Binding Geometry and Free Energy
-AU  - Rahaman, Obaidur
-AU  - Estrada, Trilce P.
-AU  - Doren, Douglas J.
-AU  - Taufer, Michela
-AU  - Brooks, Charles L.
-AU  - Armen, Roger S.
-T2  - Journal of Chemical Information and Modeling
-DA  - 2011/09/26/
-PY  - 2011
-DO  - 10.1021/ci1003009
-DP  - DOI.org (Crossref)
-VL  - 51
-IS  - 9
-SP  - 2047
-EP  - 2065
-J2  - J. Chem. Inf. Model.
-LA  - en
-SN  - 1549-9596, 1549-960X
-UR  - https://pubs.acs.org/doi/10.1021/ci1003009
-Y2  - 2022/11/11/14:50:02
-L1  - https://europepmc.org/articles/pmc3183351?pdf=render
-ER  - 
-
-TY  - CONF
-TI  - Evaluation of IEEE 754 floating-point arithmetic compliance across a wide range of heterogeneous computers
-AU  - Lopez, Guillermo A.
-AU  - Taufer, Michela
-AU  - Teller, Patricia J.
-T2  - the 2007 conference
-C1  - Orlando, Florida
-C3  - Proceedings of the 2007 conference on Diversity in computing  - TAPIA '07
-DA  - 2007///
-PY  - 2007
-DO  - 10.1145/1347787.1347793
-DP  - DOI.org (Crossref)
-SP  - 1
-LA  - en
-PB  - ACM Press
-SN  - 978-1-59593-866-4
-UR  - http://portal.acm.org/citation.cfm?doid=1347787.1347793
-Y2  - 2022/11/11/14:50:01
-ER  - 
-
-TY  - CONF
-TI  - Providing Quality of Science in Volunteer Computing
-AU  - Estrada, Trilce
-AU  - Taufer, Michela
-T2  - Communication (HPCC)
-C1  - Banff, AB, Canada
-C3  - 2011 IEEE International Conference on High Performance Computing and Communications
-DA  - 2011/09//
-PY  - 2011
-DO  - 10.1109/HPCC.2011.19
-DP  - DOI.org (Crossref)
-SP  - 68
-EP  - 77
-PB  - IEEE
-SN  - 978-1-4577-1564-8
-UR  - http://ieeexplore.ieee.org/document/6062978/
-Y2  - 2022/11/11/14:50:01
-ER  - 
-
-TY  - CHAP
-TI  - Balancing Scientist Needs and Volunteer Preferences in Volunteer Computing Using Constraint Optimization
-AU  - Atlas, James
-AU  - Estrada, Trilce
-AU  - Decker, Keith
-AU  - Taufer, Michela
-T2  - Computational Science – ICCS 2009
-A2  - Allen, Gabrielle
-A2  - Nabrzyski, Jaroslaw
-A2  - Seidel, Edward
-A2  - van Albada, Geert Dick
-A2  - Dongarra, Jack
-A2  - Sloot, Peter M. A.
-CY  - Berlin, Heidelberg
-DA  - 2009///
-PY  - 2009
-DP  - DOI.org (Crossref)
-VL  - 5544
-SP  - 143
-EP  - 152
-LA  - en
-PB  - Springer Berlin Heidelberg
-SN  - 978-3-642-01969-2 978-3-642-01970-8
-UR  - https://link.springer.com/10.1007/978-3-642-01970-8_15
-Y2  - 2022/11/11/14:50:01
-L1  - https://link.springer.com/content/pdf/10.1007/978-3-642-01970-8_15.pdf
-ER  - 
-
-TY  - CONF
-TI  - A distributed evolutionary method to design scheduling policies for volunteer computing
-AU  - Estrada, Trilce
-AU  - Fuentes, Olac
-AU  - Taufer, Michela
-T2  - the 2008 conference
-C1  - Ischia, Italy
-C3  - Proceedings of the 2008 conference on Computing frontiers  - CF '08
-DA  - 2008///
-PY  - 2008
-DO  - 10.1145/1366230.1366282
-DP  - DOI.org (Crossref)
-SP  - 313
-LA  - en
-PB  - ACM Press
-SN  - 978-1-60558-077-7
-UR  - http://portal.acm.org/citation.cfm?doid=1366230.1366282
-Y2  - 2022/11/11/14:50:01
-ER  - 
-
-TY  - CONF
-TI  - Benchmarking Gender Differences in Volunteer Computing Projects
-AU  - Estrada, Trilce
-AU  - Pusecker, Kathleen L.
-AU  - Torres, Manuel R.
-AU  - Cohoon, Joanne
-AU  - Taufer, Michela
-T2  - 2013 IEEE 9th International Conference on eScience (eScience)
-C1  - Beijing, China
-C3  - 2013 IEEE 9th International Conference on e-Science
-DA  - 2013/10//
-PY  - 2013
-DO  - 10.1109/eScience.2013.29
-DP  - DOI.org (Crossref)
-SP  - 342
-EP  - 349
-PB  - IEEE
-SN  - 978-0-7695-5083-1
-UR  - http://ieeexplore.ieee.org/document/6683926/
-Y2  - 2022/11/11/14:50:02
-ER  - 
-
-TY  - JOUR
-TI  - A scalable and accurate method for classifying protein–ligand binding geometries using a MapReduce approach
-AU  - Estrada, T.
-AU  - Zhang, B.
-AU  - Cicotti, P.
-AU  - Armen, R.S.
-AU  - Taufer, M.
-T2  - Computers in Biology and Medicine
-DA  - 2012/07//
-PY  - 2012
-DO  - 10.1016/j.compbiomed.2012.05.001
-DP  - DOI.org (Crossref)
-VL  - 42
-IS  - 7
-SP  - 758
-EP  - 771
-J2  - Computers in Biology and Medicine
-LA  - en
-SN  - 00104825
-UR  - https://linkinghub.elsevier.com/retrieve/pii/S0010482512000807
-Y2  - 2022/11/11/14:50:02
-ER  - 
-
-TY  - CONF
-TI  - Moving Volunteer Computing towards Knowledge-Constructed, Dynamically-Adaptive Modeling and Scheduling
-AU  - Taufer, M.
-AU  - Kerstens, A.
-AU  - Estrada, T. P.
-AU  - Flores, D. A.
-AU  - Zamudio, R.
-AU  - Teller, P. J.
-AU  - Armen, R.
-AU  - Brooks, C. L.
-T2  - 2007 IEEE International Parallel and Distributed Processing Symposium
-C1  - Long Beach, CA, USA
-C3  - 2007 IEEE International Parallel and Distributed Processing Symposium
-DA  - 2007///
-PY  - 2007
-DO  - 10.1109/IPDPS.2007.370668
-DP  - DOI.org (Crossref)
-SP  - 1
-EP  - 8
-PB  - IEEE
-SN  - 978-1-4244-0909-9
-UR  - http://ieeexplore.ieee.org/document/4228396/
-Y2  - 2022/11/11/14:50:02
-ER  - 
-
-TY  - CONF
-TI  - EmBOINC: An emulator for performance analysis of BOINC projects
-AU  - Estrada, Trilce
-AU  - Taufer, Michela
-AU  - Reed, Kevin
-AU  - Anderson, David P.
-T2  - Distributed Processing (IPDPS)
-C1  - Rome, Italy
-C3  - 2009 IEEE International Symposium on Parallel & Distributed Processing
-DA  - 2009/05//
-PY  - 2009
-DO  - 10.1109/IPDPS.2009.5161135
-DP  - DOI.org (Crossref)
-SP  - 1
-EP  - 8
-PB  - IEEE
-SN  - 978-1-4244-3751-1
-ST  - EmBOINC
-UR  - http://ieeexplore.ieee.org/document/5161135/
-Y2  - 2022/11/11/14:50:02
-ER  - 
-
-TY  - JOUR
-TI  - A fast protein-ligand docking algorithm based on hydrogen bond matching and surface shape complementarity
-AU  - Luo, Wenjia
-AU  - Pei, Jianfeng
-AU  - Zhu, Yushan
-T2  - Journal of Molecular Modeling
-AB  - With the rapid development of structural determination of target proteins for human diseases, high throughout virtual screening based drug discovery is gaining popularity gradually. In this paper, a fast docking algorithm (H-DOCK) based on hydrogen bond matching and surface shape complementarity was developed. In H-DOCK, firstly a divide-and-conquer strategy based enumeration approach is applied to rank the intermolecular modes between protein and ligand by maximizing their hydrogen bonds matching, then each docked conformation of the ligand is calculated according to the matched hydrogen bonding geometry, finally a simple but effective scoring function reflecting mainly the van der Waals interaction is used to evaluate the docked conformations of the ligand. H-DOCK is tested for rigid ligand docking and flexible one, the latter is implemented by repeating rigid docking for multiple conformations of a small molecule and ranking all together. For rigid ligands, H-DOCK was tested on a set of 271 complexes where there is at least one intermolecular hydrogen bond, and H-DOCK achieved success rate (RMSD<2.0 Å) of 91.1%. For flexible ligands, H-DOCK was tested on another set of 93 complexes, where each case was a conformation ensemble containing native ligand conformation as well as 100 decoy ones generated by AutoDock [1], and the success rate reached 81.7%. The high success rate of H-DOCK indicates that the hydrogen bonding and steric hindrance can grasp the key interaction between protein and ligand. H-DOCK is quite efficient compared with the conventional docking algorithms, and it takes only about 0.14 seconds for a rigid ligand docking and about 8.25 seconds for a flexible one on average. According to the preliminary docking results, it implies that H-DOCK can be potentially used for large scale virtual screening as a pre-filter for a more accurate but less efficient docking algorithm.
-DA  - 2010/05/01/
-PY  - 2010
-DO  - 10.1007/s00894-009-0598-7
-DP  - Springer Link
-VL  - 16
-IS  - 5
-SP  - 903
-EP  - 913
-J2  - J Mol Model
-LA  - en
-SN  - 0948-5023
-UR  - https://doi.org/10.1007/s00894-009-0598-7
-Y2  - 2022/11/12/14:51:27
-KW  - Combinatorial optimization
-KW  - Docking
-KW  - Hydrogen bond matching
-KW  - Virtual screening
-ER  - 
-
-TY  - SLIDE
-TI  - ExSciTecH: Expanding Volunteer Computing to Explore Science, Technology, and Health
-A2  - Michela Taufer
-DA  - 2012/10/15/
-PY  - 2012
-ST  - ExSciTecH
-UR  - https://www.slideshare.net/taufermichela/exscitech-expanding-volunteer-computing-to-explore-science-technology-and-health
-Y2  - 2022/11/12/16:20:33
-ER  - 
-
-TY  - JOUR
-TI  - Enabling scalable and accurate clustering of distributed ligand geometries on supercomputers
-AU  - Zhang, Boyu
-AU  - Estrada, Trilce
-AU  - Cicotti, Pietro
-AU  - Balaji, Pavan
-AU  - Taufer, Michela
-T2  - Parallel Computing
-AB  - We present an efficient and accurate clustering method for the analysis of protein-ligand docking datasets on large distributed-memory systems. For each ligand conformation in the dataset, our clustering algorithm first extracts relevant geometrical properties and transforms the properties into a single metadata point in the N-dimensional (N-D) space. Then, it performs an N-D clustering on the metadata to search for predominant clusters. Our method avoids the need to move ligand conformations among nodes, because it extracts relevant data properties locally and concurrently. By doing so, we transform the analysis problem (e.g., clustering or classification) into a search for property aggregates. Our analysis shows that when using small computer systems of up to 64 nodes, the performance is not sensitive to data content and distribution. When using larger computer systems of up to 256 nodes the scalability of simulations with strong convergence toward specific geometries is less sensitive to overheads due to the shuffling of metadata information. We also demonstrate that our method of metadata extraction captures the geometrical properties of ligand conformations more effectively and clusters and predicts near-native ligand conformations more accurately than do traditional methods, including the hierarchical clustering and energy-based scoring methods.
-DA  - 2017/04/01/
-PY  - 2017
-DO  - 10.1016/j.parco.2017.02.005
-DP  - ScienceDirect
-VL  - 63
-SP  - 38
-EP  - 60
-J2  - Parallel Computing
-LA  - en
-SN  - 0167-8191
-UR  - https://www.sciencedirect.com/science/article/pii/S0167819117300261
-Y2  - 2022/11/12/16:24:30
-L1  - https://www.sciencedirect.com/science/article/am/pii/S0167819117300261
-L2  - https://www.sciencedirect.com/science/article/abs/pii/S0167819117300261
-KW  - Drug design
-KW  - In situ analytics
-KW  - Ligand conformations
-KW  - N-dimensional clustering
-KW  - Octree-based clustering
-KW  - Protein-ligand docking
+UR  - https://doi.org/10.1109/SC.2012.83
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Paper text explicitly mentions Docking@Home: "Other projects such as Docking@Home are exploring multi-scale, resource-driven and application-driven adaptations of the volunteer system" | Link: Docking@home / BOINC (paper explicitly names Docking@Home) | Source: SC 2012ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer computing
+KW  - Docking@home
+KW  - self-management
 ER  - 
 
