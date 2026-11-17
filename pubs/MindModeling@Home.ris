@@ -11,13 +11,17 @@ C3  - Proceedings of the 19th ACM International Symposium on High Performance Di
 DA  - 2010///
 PY  - 2010
 DO  - 10.1145/1851476.1851518
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 SP  - 312
 LA  - en
 PB  - ACM Press
 SN  - 978-1-60558-942-8
 UR  - http://portal.acm.org/citation.cfm?doid=1851476.1851518
 Y2  - 2022/11/20/19:48:33
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - MindModeling@Home/BOINC mention in paper text: Abstract states "MindModeling@Home is a volunteer computing project available to the cognitive modeling community" and "integrated it with MindModeling@Home"; also references BOINC infrastructure. Full text: Proceedings of HPDC '10 (2010) | Link: MindModeling@Home / BOINC | Source: ACM DL (2010)ER&nbsp;&nbsp;-</p>
+</div>
+KW  - BOINC
+KW  - MindModeling@Home
 ER  - 
 
 TY  - JOUR
@@ -28,7 +32,7 @@ T2  - Cognitive Systems Research
 DA  - 2014/09//
 PY  - 2014
 DO  - 10.1016/j.cogsys.2013.09.001
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 29-30
 SP  - 53
 EP  - 65
@@ -37,6 +41,10 @@ LA  - en
 SN  - 13890417
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S1389041713000508
 Y2  - 2022/11/20/19:48:33
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract discusses intelligent search algorithms and large-scale computational resources generically: Cognitive Systems Research 29-30:53-65 (2014) | Link: MindModeling@Home / BOINC | Source: ScienceDirect (2014)ER&nbsp;&nbsp;-</p>
+</div>
+KW  - BOINC
+KW  - MindModeling@Home
 ER  - 
 
 TY  - JOUR
@@ -46,7 +54,7 @@ T2  - Computational and Mathematical Organization Theory
 DA  - 2011/09//
 PY  - 2011
 DO  - 10.1007/s10588-011-9092-8
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 17
 IS  - 3
 SP  - 296
@@ -57,6 +65,10 @@ SN  - 1381-298X, 1572-9346
 ST  - Cognitive model exploration and optimization
 UR  - http://link.springer.com/10.1007/s10588-011-9092-8
 Y2  - 2022/11/20/19:48:33
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract discusses parameter space exploration on large-scale computational resources generically. Full text: Comput Math Organ Theory 17(3):296-313 (2011) | Link: MindModeling@Home / BOINC | Source: Springer (2011)ER&nbsp;&nbsp;-</p>
+</div>
+KW  - BOINC
+KW  - MindModeling@Home
 ER  - 
 
 TY  - RPRT
@@ -68,11 +80,15 @@ AU  - Moore, L. Richard
 AB  - As we, the ICCM community, continue to expand the scope of our cognitive modeling ambitions, we increasingly face computational requirements that are an impediment to progress. Computational complexity grows quickly with increases in the granularity of models, the fidelity of the models operating environment, and the time scales across which these models interact. Additional processing demands are encountered when studying the breadth of a cognitive models performance capabilities such as through observing the models sustained fitness while varying the environment or conducting sensitivity analyses of interactions between internal model parameters in a controlled experiments. Such computational demands are not unique to the cognitive modeling community. Other scientific fields bioinformatics, meteorology, physics, etc. have already pioneered a variety of platforms and methodologies for dealing with similarly computationally complex problems. We will achieve faster progress toward the broader scientific objectives of cognitive modeling and the specific goals of particular research projects if we pay attention to the lessons learned and capabilities developed in other computational sciences.
 DA  - 2009/07/01/
 PY  - 2009
-DP  - apps.dtic.mil
+DP  - [apps.dtic.mil](http://apps.dtic.mil)
 LA  - en
 UR  - https://apps.dtic.mil/sti/citations/ADA518643
 Y2  - 2022/11/20/19:51:48
 L2  - https://apps.dtic.mil/sti/citations/ADA518643
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - MindModeling@Home/BOINC mention in paper text: Title explicitly names "Mindmodeling@Home"; abstract states "we have developed MindModeling@Home [8]" and "Both of these examples run on a common software framework called the Berkeley Open Infrastructure for Network Computing (BOINC)". Full text: DTIC report ADA518643 (2009) | Link: MindModeling@Home / BOINC | Source: DTIC (2009)ER&nbsp;&nbsp;-</p>
+</div>
+KW  - BOINC
+KW  - MindModeling@Home
 ER  - 
 
 TY  - JOUR
@@ -95,6 +111,10 @@ ST  - Combinatorics meets processing power
 UR  - https://www.researchgate.net/publication/228355649_Combinatorics_meets_processing_power_Large-scale_computational_resources_for_BRIMS
 L1  - https://www.researchgate.net/profile/Matthias-Scheutz/publication/228355649_Combinatorics_meets_processing_power_Large-scale_computational_resources_for_BRIMS/links/02e7e51d5b83b0dfc7000000/Combinatorics-meets-processing-power-Large-scale-computational-resources-for-BRIMS.pdf
 L4  - https://www.researchgate.net/publication/228355649_Combinatorics_meets_processing_power_Large-scale_computational_resources_for_BRIMS
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - &nbsp;BOINC mention in paper text: Abstract states "Berkeley has developed a software platform for distributed computing using volunteered computer resources called the Berkeley Open Infrastructure for Network Computing (BOINC)" and "Work on our BOINC-based cognitive modeling infrastructure has recently begun." Full text: BRIMS 2007 (2007) | Link: MindModeling@Home / BOINC | Source: ResearchGate (2007)ER&nbsp;&nbsp;-</p>
+</div>
+KW  - BOINC
+KW  - MindModeling@Home
 ER  - 
 
 TY  - JOUR
@@ -108,7 +128,7 @@ T2  - Journal of Experimental Psychology: Human Perception and Performance
 DA  - 2015/08//
 PY  - 2015
 DO  - 10.1037/xhp0000036
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 41
 IS  - 4
 SP  - 1007
@@ -119,6 +139,10 @@ SN  - 1939-1277, 0096-1523
 ST  - Faster than the speed of rejection
 UR  - http://doi.apa.org/getdoi.cfm?doi=10.1037/xhp0000036
 Y2  - 2022/12/30/09:58:28
-L1  - https://europepmc.org/articles/pmc4516661?pdf=render
+L4  - https://europepmc.org/articles/pmc4516661?pdf=render
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - MindModeling@Home mention in paper text: Acknowledgments state "Modeling and analyses were supported by Mindmodeling@Home (Harris, 2008)." Full text: Journal of Experimental Psychology: Human Perception and Performance 41(4):1007-1020 (2015) | Link: MindModeling@Home / BOINC | Source: APA / Europe PMC (2015)ER&nbsp;&nbsp;-</p>
+</div>
+KW  - BOINC
+KW  - MindModeling@Home
 ER  - 
 
