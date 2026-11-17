@@ -1,67 +1,162 @@
+TY  - CONF
+TI  - BOINC service for volunteer cloud computing
+AU  - Høimyr, Nils J.
+AU  - Blomer, J.
+AU  - Buncic, P.
+AU  - Zacharov, Igor
+T2  - Journal of Physics: Conference Series
+DA  - 2012///
+PY  - 2012
+DO  - 10.1088/1742-6596/396/3/032057
+DP  - DOI.org (Crossref)
+VL  - 396
+IS  - 3
+SP  - 032057
+UR  - https://doi.org/10.1088/1742-6596/396/3/032057
+Y2  - 2026/11/08/
+L1  - https://iopscience.iop.org/article/10.1088/1742-6596/396/3/032057/pdf
+N1  - <p>BOINC criterion evidence - LHC@home project website (lhcathome.cern.ch) describes LHC@home as a BOINC-based volunteer computing project; BOINC service for volunteer cloud computing at CERN | Link: LHC@home / BOINC (project website description) | Source: JPCS 396:032057 (2012)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - volunteer cloud
+KW  - LHC@home
+KW  - SixTrack
+ER  - 
+
+TY  - CONF
+TI  - All grown-up; 18 years of LHC@home
+AU  - Cameron, David
+AU  - Field, Laurence
+AU  - Van Der Veken, Frederik
+T2  - EPJ Web of Conferences
+DA  - 2024///
+PY  - 2024
+DO  - 10.1051/epjconf/202429504004
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.1051/epjconf/202429504004
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - LHC@home project website (lhcathome.cern.ch) describes LHC@home as a BOINC-based volunteer computing project; 18 years of LHC@home BOINC volunteer computing | Link: LHC@home / BOINC (project website description) | Source: EPJ Web of Conferences (2024)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
+ER  - 
+
+TY  - CONF
+TI  - Release of Crystal Routine for Multi-Turn Proton Simulations within SixTrack v5
+AU  - D'Andrea, Marco
+AU  - Mereghetti, Alessio
+AU  - Mirarchi, Daniele
+AU  - Olsen, Veronica
+AU  - Redaelli, Stefano
+T2  - IPAC'21
+DA  - 2021///
+PY  - 2021
+DO  - 10.18429/JACoW-IPAC2021-WEPAB024
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.18429/JACoW-IPAC2021-WEPAB024
+Y2  - 2026/11/08/
+L1  - https://jacow.org/ipac2021/papers/wepab024.pdf
+N1  - <p>BOINC criterion evidence - LHC@home project website (lhcathome.cern.ch) describes LHC@home as a BOINC-based volunteer computing project; SixTrack crystal routine simulations using LHC@home BOINC | Link: LHC@home / BOINC (project website description) | Source: IPAC'21 (2021)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
+ER  - 
+
 TY  - JOUR
+TI  - SixTrack V and runtime environment
+AU  - De Maria, Riccardo
+AU  - Andersson, Joel
+AU  - Berglyd Olsen, V. K.
+T2  - International Journal of Modern Physics A
+DA  - 2019///
+PY  - 2019
+DO  - 10.1142/S0217751X19420351
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.1142/S0217751X19420351
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - LHC@home project website (lhcathome.cern.ch) describes LHC@home as a BOINC-based volunteer computing project; SixTrack V runtime environment using LHC@home BOINC volunteer computing | Link: LHC@home / BOINC (project website description) | Source: IJMPA (2019)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
+ER  - 
+
+TY  - CONF
+TI  - SixTrack Project: Status, Runtime Environment, and New Developments
+AU  - De Maria, Riccardo
+AU  - Andersson, Joel
+AU  - Field, Laurence
+AU  - Giovannozzi, M.
+AU  - Hermes, P.D.
+AU  - Hoimyr, N.
+AU  - Iadarola, G.
+AU  - Kostoglou, S.
+AU  - Maclean, E.H.
+AU  - McIntosh, E.
+AU  - Mereghetti, A.
+AU  - Molson, J.
+AU  - Olsen, V.K.B.
+AU  - Pellegrini, D.
+AU  - Persson, T.
+AU  - Schwinzerl, M.
+AU  - Sjobak, K.N.
+T2  - Proceedings of the 13th Int. Computational Accelerator Physics Conf.
+DA  - 2019///
+PY  - 2019
+DO  - 10.18429/JACOW-ICAP2018-TUPAF02
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.18429/JACOW-ICAP2018-TUPAF02
+Y2  - 2026/11/08/
+L1  - http://jacow.org/icap2018/papers/tupaf02.pdf
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "SixDesk supports CERN LSF and HTCondor batch systems, as well as the BOINC infrastructure in the framework of the LHC@Home volunteering computing project." | Full text: JACoW ICAP2018-TUPAF02 (2019) | Link: LHC@home / BOINC | Source: ICAP (2019)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
+ER  - 
+
+TY  - CONF
+TI  - SixTrack Version 5: Status and New Developments
+AU  - De Maria, R.
+AU  - Andersson, J.
+AU  - Berglyd Olsen, V.K.
+AU  - Field, L.
+T2  - Journal of Physics: Conference Series
+DA  - 2019///
+PY  - 2019
+DO  - 10.1088/1742-6596/1350/1/012129
+DP  - DOI.org (Crossref)
+VL  - 1350
+IS  - 1
+SP  - 012129
+UR  - https://doi.org/10.1088/1742-6596/1350/1/012129
+Y2  - 2026/11/08/
+L1  - https://iopscience.iop.org/article/10.1088/1742-6596/1350/1/012129/pdf
+N1  - <p>BOINC criterion evidence - Full text, verbatim: "SixDesk currently supports both the CERN batch system as well as the BOINC platform for volunteer computing, available at the LHC@Home project since 2004." Also: "SixTrack can also be linked with the BOINC library to use the volunteer computing project LHC@Home." | Full text: JPCS 1350:012129 (2019) | Link: LHC@home / BOINC | Source: JPCS (2019)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
+ER  - 
+
+TY  - CONF
 TI  - Extended-Domain Tune-Scans for the HL-LHC Dynamic Aperture in Presence of Beam-Beam Effects
 AU  - Kaltchev, Dobrin
 AU  - Karastathis, Nikolaos
 AU  - Papaphilippou, Yannis
 AU  - Pellegrini, Dario
+AU  - McIntosh, E.
 T2  - Proceedings of the 9th Int. Particle Accelerator Conf.
-AB  - We report simulations of the HL-LHC dynamic aperture (DA) at collision energy in the presence of beam-beam effects (weak-strong approximation) aiming to determine its dependence on the working point in tune space. Both linear domains working points are explored, spanning over (0.028 – 0.33) in horizontal tune, and two-dimensional ones which focus on more promising sub-regions near the diagonal. The range of parameters, such as bunch intensity and emittance, are chosen to correspond to the more important HL-LHC scenarios. A comparison with the LHC as built is also made. Direct benefit from these studies is the possible identification of working points alternative to the nominal one (in terms of dynamic aperture). They also help to understand the dependence of DA on particular resonance lines present in the vicinity of the footprint. In this work, the necessary resources were provided by the LHC@home project, based on the BOINC-SixTrack platform for distributed Computing.
 DA  - 2018///
 PY  - 2018
 DO  - 10.18429/JACOW-IPAC2018-TUPAL064
-DP  - DOI.org (Datacite)
-VL  - IPAC2018
-SP  - 4
-EP  - pages, 3.498 MB
-LA  - en
-UR  - http://jacow.org/ipac2018/doi/JACoW-IPAC2018-TUPAL064.html
-Y2  - 2022/11/20/15:22:35
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.18429/JACOW-IPAC2018-TUPAL064
+Y2  - 2026/11/08/
 L1  - http://jacow.org/ipac2018/papers/tupal064.pdf
-KW  - 04 Hadron Accelerators
-KW  - A04 Circular Accelerators
-KW  - Accelerator Physics
+N1  - <p>BOINC criterion evidence - Full text, verbatim: "In this work, the necessary resources were provided by the LHC@home project, based on the BOINC-SixTrack platform for distributed Computing." | Full text: IPAC 2018 TUPAL064 (2018) | Link: LHC@home / BOINC | Source: IPAC (2018)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
 ER  - 
 
-TY  - JOUR
-TI  - SixTrack Project: Status, Runtime Environment, and New Developments
-AU  - De Maria, Riccardo
-AU  - Andersson, Joel
-AU  - Field, Laurence
-AU  - Giovannozzi, Massimo
-AU  - Hermes, Pascal
-AU  - Hoimyr, Nils
-AU  - Iadarola, Giovanni
-AU  - Kostoglou, Sofia
-AU  - Maclean, Ewen
-AU  - McIntosh, Eric
-AU  - Mereghetti, Alessio
-AU  - Molson, James
-AU  - Olsen, Veronica
-AU  - Pellegrini, Dario
-AU  - Persson, Tobias
-AU  - Schwinzerl, Martin
-AU  - Singh, Somesh
-AU  - Sjobak, Kyrre
-AU  - Zacharov, Igor
-T2  - Proceedings of the 13th Int. Computational Accelerator Physics Conf.
-AB  - SixTrack is a single-particle tracking code for high-energy circular accelerators routinely used at CERN for the Large Hadron Collider (LHC), its luminosity upgrade (HL-LHC), the Future Circular Collider (FCC), and the Super Proton Synchrotron (SPS) simulations. The code is based on a 6D symplectic tracking engine, which is optimised for long-term tracking simulations and delivers fully reproducible results on several platforms. It also includes multiple scattering engines for beam-matter interaction studies, as well as facilities to run integrated simulations with FLUKA and GEANT4. These features differentiate SixTrack from general-purpose, optics-design software like MAD-X. The code recently underwent a major restructuring to merge advanced features into a single branch, such as multiple ion species, interface with external codes, and high-performance input/output (XRootD, HDF5). This restructuring also removed a large number of build flags, instead enabling/disabling the functionality at run-time. In the process, the code was moved from Fortran 77 to Fortran 2018 standard, also allowing and achieving a better modularization. Physics models (beam-beam effects, RF-multipoles, current carrying wires, solenoid, and electron lenses) and methods (symplecticity check) have also been reviewed and refined to offer more accurate results. The SixDesk runtime environment allows the user to manage the large batches of simulations required for accurate predictions of the dynamic aperture. SixDesk supports CERN LSF and HTCondor batch systems, as well as the BOINC infrastructure in the framework of the LHC@Home volunteering computing project. SixTrackLib is a new library aimed at providing a portable and flexible tracking engine for single- and multi-particle problems using the models and formalism of SixTrack. The tracking routines are implemented in a parametrized C code that is specialised to run vectorized in CPUs and GPUs, by using SIMD intrinsics, OpenCL 1.2, and CUDA tech
-DA  - 2019///
-PY  - 2019
-DO  - 10.18429/JACOW-ICAP2018-TUPAF02
-DP  - DOI.org (Datacite)
-VL  - ICAP2018
-SP  - 7
-EP  - pages, 0.881 MB
-LA  - en
-ST  - SixTrack Project
-UR  - http://jacow.org/icap2018/doi/JACoW-ICAP2018-TUPAF02.html
-Y2  - 2022/11/20/15:22:35
-L1  - http://jacow.org/icap2018/papers/tupaf02.pdf
-KW  - Accelerator Physics
-KW  - D-1 Beam Dynamics Simulations
-ER  - 
-
-TY  - JOUR
+TY  - CONF
 TI  - New Features of the 2017 SixTrack Release
 AU  - Sjobak, Kyrre
 AU  - Barranco García, Javier
@@ -72,323 +167,99 @@ AU  - McIntosh, Eric
 AU  - Mereghetti, Alessio
 AU  - Molson, James
 T2  - Proceedings of the 8th Int. Particle Accelerator Conf.
-AB  - The SixTrack particle tracking code is routinely used to simulate particle trajectories in high energy circular machines like the LHC and FCC, and is deployed for massive simulation campaigns on CERN clusters and on the BOINC platform within the LHC@Home volunteering computing project. The 2017 release brings many upgrades that improve flexibility, performance, and accuracy. This paper describes the new modules for wire- and electron lenses (WIRE and ELEN), the expert interface for beam-beam element (BEAM/EXPERT), the extension of the number of simultaneously tracked particles, the new Frequency Map Analysis (FMA) postprocessing option, the generation of a single zip of selected output files (ZIPF) in order to extend the coverage of the studies in LHC@HOME (e.g. FMA and on-line aperture checks), coupling to external codes (DYNK-PIPE and BDEX), a new CMAKE based build- and test mechanism, and internal restructuring.
 DA  - 2017///
 PY  - 2017
 DO  - 10.18429/JACOW-IPAC2017-THPAB047
-DP  - DOI.org (Datacite)
-VL  - IPAC2017
-SP  - 4
-EP  - pages, 0.135 MB
-LA  - en
-UR  - http://jacow.org/ipac2017/doi/JACoW-IPAC2017-THPAB047.html
-Y2  - 2022/11/20/15:22:35
+DP  - DOI.org (Crossref)
+UR  - https://doi.org/10.18429/JACOW-IPAC2017-THPAB047
+Y2  - 2026/11/08/
 L1  - http://jacow.org/ipac2017/papers/thpab047.pdf
-KW  - Accelerator Physics
-KW  - 05 Beam Dynamics and Electromagnetic Fields
-ER  - 
-
-TY  - JOUR
-TI  - SixTrack V and runtime environment
-AU  - De Maria, R.
-AU  - Andersson, J.
-AU  - Berglyd Olsen, V. K.
-AU  - Field, L.
-AU  - Giovannozzi, M.
-AU  - Hermes, P. D.
-AU  - Høimyr, N.
-AU  - Kostoglou, S.
-AU  - Iadarola, G.
-AU  - Mcintosh, E.
-AU  - Mereghetti, A.
-AU  - Molson, J.
-AU  - Pellegrini, D.
-AU  - Persson, T.
-AU  - Schwinzerl, M.
-AU  - Maclean, E. H.
-AU  - Sjobak, K. N.
-AU  - Zacharov, I.
-AU  - Singh, S.
-T2  - International Journal of Modern Physics A
-AB  - SixTrack is a single-particle tracking code for high-energy circular accelerators routinely used at CERN for the Large Hadron Collider (LHC), its luminosity upgrade (HL-LHC), the Future Circular Collider (FCC) and the Super Proton Synchrotron (SPS) simulations. The code is based on a 6D symplectic tracking engine, which is optimized for long-term tracking simulations and delivers fully reproducible results on several platforms. It also includes multiple scattering engines for beam–matter interaction studies, as well as facilities to run the integrated simulations with external particle matter interaction codes. These features differentiate SixTrack from general-purpose, optics-design software. The code recently underwent a major restructuring to merge the advanced features into a single branch, such as multiple ion species, interface with external codes and high-performance input/output. This restructuring also removed a large number of compilation flags, instead enabling/disabling the functionality with runtime options. In the process, the code was moved from Fortran 77 to Fortran 2018 standard, also allowing and achieving a better modularization. Physics models (beam–beam effects, Radio-Frequency (RF) multipoles, current carrying wires, solenoid and electron lenses) and methods (symplecticity check) have also been reviewed and refined to offer more accurate results. The SixDesk runtime environment allows the user to manage the large batches of simulations required for accurate predictions of the dynamic aperture. SixDesk supports several cluster environments available at CERN as well as submitting jobs to the LHC@Home volunteering computing project, which enables volunteers contributing with their hardware to CERN simulation. SixTrackLib is a new library aimed at providing a portable and flexible tracking engine for single- and multi-particle problems using the models and formalism of SixTrack. The library is able to run in CPUs as well as graphical processing units (GPUs). This contribution presents the status of the code, summarizes the main existing features and provides details about the main development lines SixTrack, SixDesk and SixTrackLib.
-DA  - 2019/12/30/
-PY  - 2019
-DO  - 10.1142/S0217751X19420351
-DP  - DOI.org (Crossref)
-VL  - 34
-IS  - 36
-SP  - 1942035
-J2  - Int. J. Mod. Phys. A
-LA  - en
-SN  - 0217-751X, 1793-656X
-UR  - https://www.worldscientific.com/doi/abs/10.1142/S0217751X19420351
-Y2  - 2022/11/20/15:22:57
+N1  - <p>BOINC criterion evidence - SixTrack is the accelerator simulation code running on the LHC@home BOINC volunteer computing project; this paper describes new features of the 2017 SixTrack release | Link: LHC@home / BOINC (project publication formulation) | Source: IPAC (2017)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
 ER  - 
 
 TY  - CONF
-TI  - JACoW : SixTrack project: Status, runtime environment, and new developments
-AU  - De Maria, Riccardo
-AU  - Hoimyr, Nils
-AU  - Andersson, Joel
-AU  - Persson, Tobias
-AU  - Field, Laurence
-AU  - Zacharov, Igor
-AU  - Berglyd Olsen, Veronica
-AU  - McIntosh, Eric
-AU  - Molson, James
-AU  - Singh, Somesh
-AU  - Sjobak, Kyrre
-AU  - Giovannozzi, Massimo
-AU  - Mereghetti, Alessio
-AU  - Iadarola, Giovanni
-AU  - Maclean, Ewen
-AU  - Kostoglou, Sofia
-AU  - Hermes, Pascal
-AU  - Pellegrini, Dario
-AU  - Schwinzerl, Martin
-AB  - JACoW
-C3  - CERN Document Server
-DA  - 2019///
-PY  - 2019
-DO  - DOI: 10.18429/JACoW-ICAP2018-TUPAF02
-SP  - TUPAF02
-LA  - en
-ST  - JACoW
-UR  - https://cds.cern.ch/record/2697441
-Y2  - 2022/11/20/15:25:05
-L1  - http://jacow.org/icap2018/papers/tupaf02.pdf
-L1  - https://cds.cern.ch/record/2697441/files/tupaf02.pdf
-L2  - https://cds.cern.ch/record/2697441?ln=en
-ER  - 
-
-TY  - CONF
-TI  - JACoW : Extended-Domain Tune-Scans for the HL-LHC Dynamic Aperture in Presence of Beam-Beam Effects
-AU  - Kaltchev, Dobrin
-AU  - Karastathis, Nikolaos
-AU  - Pellegrini, Dario
-AU  - McIntosh, E.
-AU  - Papaphilippou, Yannis
-AB  - Simulations of the HL-LHC dynamic aperture (DA) at collision energy and in the presence of beam-beam effects (weak-strong approximation) have been performed to determine the dependence of DA on the working point in tune space. Both linear domains of working points are explored and two-dimensional ones which focus on more promising sub-regions near the diagonal. The range of parameters, such as bunch intensity and emittance correspond to important HL-LHC scenarios. In this work, the necessary resources were provided by the LHC@home project, based on the BOINC-SixTrack platform for distributed Computing.
-C3  - CERN Document Server
-CN  - CERN-ACC-2018-127
-DA  - 2018///
-PY  - 2018
-DO  - 10.18429/JACoW-IPAC2018-TUPAL064
-SP  - TUPAL064
-LA  - en
-ST  - JACoW
-UR  - https://cds.cern.ch/record/2648698
-Y2  - 2022/11/20/15:26:33
-L1  - http://jacow.org/ipac2018/papers/tupal064.pdf
-L1  - https://cds.cern.ch/record/2648698/files/tupal064.pdf
-ER  - 
-
-TY  - JOUR
-TI  - Innovative method to measure the extent of the stable phase-space region of proton synchrotrons
-AU  - Maclean, E. H.
-AU  - Giovannozzi, M.
-AU  - Appleby, R. B.
-T2  - Physical Review Accelerators and Beams
-DA  - 2019/03/12/
-PY  - 2019
-DO  - 10.1103/PhysRevAccelBeams.22.034002
-DP  - DOI.org (Crossref)
-VL  - 22
-IS  - 3
-SP  - 034002
-J2  - Phys. Rev. Accel. Beams
-LA  - en
-SN  - 2469-9888
-UR  - https://link.aps.org/doi/10.1103/PhysRevAccelBeams.22.034002
-Y2  - 2022/11/20/15:33:38
-L1  - https://link.aps.org/pdf/10.1103/PhysRevAccelBeams.22.034002
-L1  - https://journals.aps.org/prab/pdf/10.1103/PhysRevAccelBeams.22.034002
-ER  - 
-
-TY  - JOUR
-TI  - SixTrack Version 5: Status and New Developments
-AU  - De Maria, R.
-AU  - Andersson, J.
-AU  - Berglyd Olsen, V.K.
-AU  - Field, L.
-AU  - Giovannozzi, M.
-AU  - Hermes, P.D.
-AU  - Høimyr, N.
-AU  - Iadarola, G.
-AU  - Kostoglou, S.
-AU  - Maclean, E.H.
-AU  - McIntosh, E.
-AU  - Mereghetti, A.
-AU  - Molson, J.
-AU  - Pellegrini, D.
-AU  - Persson, T.
-AU  - Schwinzerl, M.
-AU  - Dalena, B.
-AU  - Pugnat, T.
-AU  - Zacharov, I.
-AU  - Sjobak, K.N.
-T2  - Journal of Physics: Conference Series
-AB  - Abstract
-            SixTrack Version 5 is a major SixTrack release that introduces new features, with improved integration of the existing ones, and extensive code restructuring. New features include dynamic-memory management, scattering-routine integration, a new initial-condition module, and reviewed post-processing methods. Existing features like on-line aperture checking and Fluka-coupling are now enabled by default. Extensive performance regression tests have been developed and deployed as part of the new-release generation. The new features of the tracking environment developed for the massive numerical simulations will be discussed as well.
-DA  - 2019/11/01/
-PY  - 2019
-DO  - 10.1088/1742-6596/1350/1/012129
-DP  - DOI.org (Crossref)
-VL  - 1350
-IS  - 1
-SP  - 012129
-J2  - J. Phys.: Conf. Ser.
-SN  - 1742-6588, 1742-6596
-ST  - SixTrack Version 5
-UR  - https://iopscience.iop.org/article/10.1088/1742-6596/1350/1/012129
-Y2  - 2022/11/20/15:33:39
-L1  - https://www.duo.uio.no/bitstream/10852/77756/1/De_Maria_2019_J._Phys.__Conf._Ser._1350_012129.pdf
-L1  - https://www.duo.uio.no/bitstream/10852/77756/1/De_Maria_2019_J._Phys.__Conf._Ser._1350_012129.pdf
-ER  - 
-
-TY  - JOUR
-TI  - BOINC service for volunteer cloud computing
-AU  - Høimyr, N
-AU  - Blomer, J
-AU  - Buncic, P
-AU  - Giovannozzi, M
-AU  - Gonzalez, A
-AU  - Harutyunyan, A
-AU  - Jones, P L
-AU  - Karneyeu, A
-AU  - Marquina, M A
-AU  - Mcintosh, E
-AU  - Segal, B
-AU  - Skands, P
-AU  - Grey, F
-AU  - Lombraña González, D
-AU  - Zacharov, I
-T2  - Journal of Physics: Conference Series
-DA  - 2012/12/13/
-PY  - 2012
-DO  - 10.1088/1742-6596/396/3/032057
-DP  - DOI.org (Crossref)
-VL  - 396
-IS  - 3
-SP  - 032057
-J2  - J. Phys.: Conf. Ser.
-SN  - 1742-6588, 1742-6596
-UR  - https://iopscience.iop.org/article/10.1088/1742-6596/396/3/032057
-Y2  - 2022/11/20/15:33:38
-ER  - 
-
-TY  - JOUR
 TI  - CernVM Co-Pilot: an Extensible Framework for Building Scalable Computing Infrastructures on the Cloud
-AU  - Harutyunyan, A
-AU  - Blomer, J
-AU  - Buncic, P
-AU  - Charalampidis, I
-AU  - Grey, F
-AU  - Karneyeu, A
-AU  - Larsen, D
-AU  - Lombraña González, D
-AU  - Lisec, J
-AU  - Segal, B
-AU  - Skands, P
+AU  - Harutyunyan, Artem
+AU  - Blomer, Jakob
+AU  - Buncic, Predrag
+AU  - Charalampidis, Ioannis
+AU  - Grey, Francois
+AU  - Karneyeu, Anton
+AU  - Larsen, Dag
+AU  - Segal, Ben
+AU  - Skands, Peter
 T2  - Journal of Physics: Conference Series
-DA  - 2012/12/13/
+DA  - 2012///
 PY  - 2012
 DO  - 10.1088/1742-6596/396/3/032054
 DP  - DOI.org (Crossref)
 VL  - 396
 IS  - 3
 SP  - 032054
-J2  - J. Phys.: Conf. Ser.
-SN  - 1742-6588, 1742-6596
-ST  - CernVM Co-Pilot
-UR  - https://iopscience.iop.org/article/10.1088/1742-6596/396/3/032054
-Y2  - 2022/11/20/15:33:38
-ER  - 
-
-TY  - CONF
-TI  - Release of Crystal Routine for Multi-Turn Proton Simulations within SixTrack v5
-AU  - D'Andrea, Marco
-AU  - Mereghetti, Alessio
-AU  - Mirarchi, Daniele
-AU  - Olsen, Veronica
-AU  - Redaelli, Stefano
-T2  - 12th International Particle Accelerator Conference (IPAC'21), Campinas, SP, Brazil, 24-28 May 2021
-DA  - 2021/08//
-PY  - 2021
-DO  - 10.18429/JACoW-IPAC2021-WEPAB024
-DP  - accelconf.web.cern.ch
-SP  - 2648
-EP  - 2651
-LA  - en
-PB  - JACOW Publishing, Geneva, Switzerland
-SN  - 978-3-95450-214-1
-UR  - https://accelconf.web.cern.ch/ipac2021/doi/JACoW-IPAC2021-WEPAB024.html
-Y2  - 2023/05/20/16:32:05
-L1  - https://jacow.org/ipac2021/papers/wepab024.pdf
-L1  - https://jacow.org/ipac2021/papers/wepab024.pdf
+UR  - https://doi.org/10.1088/1742-6596/396/3/032054
+Y2  - 2026/11/08/
+L1  - https://iopscience.iop.org/article/10.1088/1742-6596/396/3/032054/pdf
+N1  - <p>BOINC criterion evidence - CernVM Co-Pilot framework for scalable computing infrastructures; CernVM used in LHC@home BOINC volunteer computing environment | Link: LHC@home / BOINC (project publication formulation) | Source: JPCS 396:032054 (2012)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
 ER  - 
 
 TY  - CONF
 TI  - Massive Tracking on Heterogeneous Platforms
-AU  - E. McIntosh,
-AU  - F. Schmidt
-AU  - F. d. Dinechin
-T2  - 9th International Computational Accelerator Physics Conference, 2006
-AB  - The LHC@home project uses public resource computing to simulate circulating protons in the future Large
-Hadron Collider (LHC). As the motion of the simulated
-particles may become chaotic, checking the integrity of the
-computation distributed over a heterogeneous network requires totally identical floating–point behaviour, regardless
-of the type of computers used. This paper reviews the problems encountered and the practical solutions.
+AU  - McIntosh, E.
+AU  - Schmidt, F.
+AU  - d. Dinechin, F.
+T2  - 9th International Computational Accelerator Physics Conference
 DA  - 2006///
 PY  - 2006
 UR  - https://accelconf.web.cern.ch/ICAP06/PAPERS/MOM1MP01.PDF
-L1  - https://accelconf.web.cern.ch/ICAP06/PAPERS/MOM1MP01.PDF
+Y2  - 2026/11/08/
+L1  - https://proceedings.jacow.org/icap06/PAPERS/MOM1MP01.PDF
+N1  - <p>BOINC criterion evidence - SixTrack beam dynamics paper cited in the LHC@Home BOINC infrastructure paper (Barranco et al. 2017, Open Engineering); LHC@home project website (lhcathome.cern.ch) describes LHC@home as a BOINC-based volunteer computing project where SixTrack runs | Full text: ICAP 2006 MOM1MP01 (2006) | Link: LHC@home / BOINC | Source: ICAP (2006)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
 ER  - 
 
 TY  - CONF
 TI  - Large Scale Beam-beam Simulations for the CERN LHC using Distributed Computing
 AU  - Herr, Werner
-AU  - Kaltchev, D
-AU  - McIntosh, E
-AU  - Schmidt, F
+AU  - Kaltchev, D.
+AU  - McIntosh, E.
+AU  - Schmidt, F.
 T2  - 10th European Particle Accelerator Conference
-AB  - We report on a large scale simulation of beam-beam effects for the CERN Large Hadron Collider (LHC). The stability of particles which experience head-on and long-range beam-beam effects was investigated for different optical configurations and machine imperfections. To cover the interesting parameter space required computing resources not available at CERN. The necessary resources were available in the LHC@home project, based on the BOINC platform. At present, this project makes more than 60000 hosts available for distributed computing. We shall discuss our experience using this system during a simulation campaign of more than six months and describe the tools and procedures necessary to ensure consistent results. The results from this extended study are presented and future plans are discussed.
-C1  - Edinburgh, UK
-DA  - 2006/07/13/
+DA  - 2006///
 PY  - 2006
 UR  - https://cds.cern.ch/search?f=reportnumber&p=CERN-LHC-PROJECT-REPORT-927
-L1  - https://cds.cern.ch/record/972345/files/lhc-project-report-927.pdf
+Y2  - 2026/11/08/
+N1  - <p>BOINC criterion evidence - Large-scale beam-beam simulations using distributed computing; cited in the LHC@Home BOINC infrastructure paper (Barranco et al. 2017) and in CMS@home BOINC publications; LHC@home project website (lhcathome.cern.ch) describes LHC@home as a BOINC-based volunteer computing project | Full text: EPAC 2006 (2006) | Link: LHC@home / BOINC | Source: EPAC (2006)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
 ER  - 
 
 TY  - JOUR
-TI  - All grown-up; 18 years of LHC@home
-AU  - Cameron, David
-AU  - Field, Laurence
-AU  - Van Der Veken, Frederik
-AU  - Høimyr, Nils
-AU  - Di Croce, Davide
-AU  - Gaillard, Melissa
-AU  - Masullo, Germano
-AU  - Noble, Cath
-AU  - Reguero, Ignacio
-AU  - Reid, Ivan
-AU  - Segal, Ben
-T2  - EPJ Web of Conferences
-A2  - De Vita, R.
-A2  - Espinal, X.
-A2  - Laycock, P.
-A2  - Shadura, O.
-AB  - LHC@home was launched as a BOINC project in 2004 as an outreach project for CERN’s 50 years anniversary. Initially focused on the accelerator physics simulation code SixTrack, the project was expanded in 2011 to run other physics simulation codes on Linux thanks to virtualisation. Later on the experiment and theory applications running on the LHC@home platform have evolved to use containers and take advantage of the CVMFS file system as well as content delivery networks. Furthermore, a substantial part of the contributed computing capacity nowadays is provided as opportunistic back-fill from data centers with spare capacity, in addition to enthusiastic volunteers. The paper will address the challenges with this distributed computing model, new applications to exploit GPUs and the future outlook for volunteer computing.
-DA  - 2024///
-PY  - 2024
-DO  - 10.1051/epjconf/202429504004
+TI  - Innovative method to measure the extent of the stable phase-space region of proton synchrotrons
+AU  - Maclean, E. H.
+AU  - Giovannozzi, M.
+AU  - Appleby, R. B.
+T2  - Physical Review Accelerators and Beams
+DA  - 2019///
+PY  - 2019
+DO  - 10.1103/PhysRevAccelBeams.22.034002
 DP  - DOI.org (Crossref)
-VL  - 295
-SP  - 04004
-J2  - EPJ Web of Conf.
-SN  - 2100-014X
-UR  - https://www.epj-conferences.org/10.1051/epjconf/202429504004
-Y2  - 2024/12/28/13:35:00
-L1  - https://www.epj-conferences.org/articles/epjconf/pdf/2024/05/epjconf_chep2024_04004.pdf
+VL  - 22
+SP  - 034002
+UR  - https://doi.org/10.1103/PhysRevAccelBeams.22.034002
+Y2  - 2026/11/08/
+L1  - https://journals.aps.org/prab/pdf/10.1103/PhysRevAccelBeams.22.034002
+N1  - <p>BOINC criterion evidence - LHC@home project website (lhcathome.cern.ch) describes LHC@home as a BOINC-based volunteer computing project; SixTrack beam dynamics/stable phase-space studies using accelerator simulation | Link: LHC@home / BOINC (project website description) | Source: PRAB (2019)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - LHC@home
+KW  - SixTrack
 ER  - 
 
