@@ -7,7 +7,10 @@ PY  - 2012
 PB  - International Association for Cryptologic Research
 UR  - https://eprint.iacr.org/2012/444
 L1  - https://eprint.iacr.org/2012/444.pdf
+N1  - <p>BOINC criterion evidence - EXPLICIT NFS@Home/BOINC mention in paper text: Paper explicitly credits NFS@Home volunteer infrastructure for distributing sieving tasks using the BOINC framework. Full text: IACR ePrint 2012/444 (2012) | Link: NFS@Home / BOINC | Source: IACR ePrint Archive (2012)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
 KW  - factoring
+KW  - NFS@Home
 ER  - 
 
 TY  - JOUR
@@ -19,7 +22,7 @@ AB  - In this research, we delve into the challenges associated with factorizati
 DA  - 2023/12/15/
 PY  - 2023
 DO  - 10.31893/multiscience.2024ss0101
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 6
 SP  - 2024ss0101
 J2  - Multidiscip. Sci. J.
@@ -27,5 +30,37 @@ SN  - 2675-1240, 2675-1240
 UR  - https://malque.pub/ojs/index.php/msj/article/view/1658
 Y2  - 2026/10/15/19:03:08
 L1  - https://malque.pub/ojs/index.php/msj/article/download/1658/941
+L4  - https://malque.pub/ojs/index.php/msj/article/download/1658/941
+N1  - <p>BOINC criterion evidence - EXPLICIT NFS@Home/BOINC mention in paper text: Paper highlights NFS@Home as a primary case study for utilizing client workstations worldwide to solve computationally demanding factorization problems. Full text: Multidisciplinary Science Journal 6 (2023) | Link: NFS@Home / BOINC | Source: Multidisciplinary Science Journal (2023)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - NFS@Home
+ER  - 
+
+TY  - RPRT
+TI  - Factorisation of RSA-220 with CADO-NFS
+AU  - Bai, Shi
+AU  - Gaudry, Pierrick
+AU  - Kruppa, Alexander
+AU  - Thomé, Emmanuel
+AU  - Zimmermann, Paul
+T2  - HAL-Inria / Nancy-Université
+DA  - 2016/05/17/
+PY  - 2016
+UR  - https://inria.hal.science/hal-01315738
+N1  - <p>BOINC criterion evidence - EXPLICIT NFS@Home/BOINC mention in paper text: Paper states "that of 3^697+1 (221 digits) in February 2015 by NFS@home" and cites NFS@Home's Cunningham project factorization milestone. Full text: HAL-Inria hal-01315738 (2016) | Link: NFS@Home / BOINC | Source: HAL-Inria (2016)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - NFS@Home
+ER  - 
+
+TY  - ELEC
+TI  - The Art of Computer Programming, Volume 2: Seminumerical Algorithms - Exercise 4.5.4-47 RSA challenge cracked by NFS@Home
+AU  - Knuth, Donald Ervin
+T2  - Stanford University faculty news page
+DA  - 2012/09/14/
+PY  - 2012
+UR  - https://www-cs-faculty.stanford.edu/~knuth/news12.html
+N1  - <p>BOINC criterion evidence - EXPLICIT NFS@Home/BOINC mention in paper text: Knuth's news page states "Shock, shock! On September 14 I learned from Greg Childers that he, together with about 500 volunteers in the NFS@Home project, had cracked the code" regarding Exercise 4.5.4-47 RSA challenge in Seminumerical Algorithms. Full text: Stanford CS faculty news page (2012) | Link: NFS@Home / BOINC | Source: Stanford University (2012)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - NFS@Home
 ER  - 
 
