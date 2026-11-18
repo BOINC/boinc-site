@@ -8,7 +8,7 @@ T2  - Journal of Computational and Theoretical Nanoscience
 DA  - 2011/07/01/
 PY  - 2011
 DO  - 10.1166/jctn.2011.1792
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 8
 IS  - 7
 SP  - 1139
@@ -18,5 +18,8 @@ LA  - en
 SN  - 15461955, 15461963
 UR  - http://openurl.ingenta.com/content/xref?genre=article&issn=1546-1955&volume=8&issue=7&spage=1139
 Y2  - 2022/12/28/16:42:19
+N1  - <p>BOINC criterion evidence - EXPLICIT NanoHive@Home/BOINC mention in paper text: Abstract states "This study, employing the NanoHive@Home (NH@H) distributed computing project, produced 80,000 tooltip geometries used in 200,000 calculations optimized at either the RHF/3-21G or RHF/STO-3G level." Indexed keywords include "BOINC platform", "distributed computing", "NanoHive@Home". Full text: J Comput Theor Nanosci 8(7):1139-1161 (2011) | Link: NanoHive@Home / BOINC | Source: American Scientific Publishers (2011)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - NanoHive@Home
 ER  - 
 
