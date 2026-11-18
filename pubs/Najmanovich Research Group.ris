@@ -1,26 +1,4 @@
 TY  - JOUR
-TI  - Achievements and challenges in structural bioinformatics and computational biophysics
-AU  - Samish, I.
-AU  - Bourne, P. E.
-AU  - Najmanovich, R. J.
-T2  - Bioinformatics
-DA  - 2015/01/01/
-PY  - 2015
-DO  - 10.1093/bioinformatics/btu769
-DP  - DOI.org (Crossref)
-VL  - 31
-IS  - 1
-SP  - 146
-EP  - 150
-J2  - Bioinformatics
-LA  - en
-SN  - 1367-4803, 1460-2059
-UR  - https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btu769
-Y2  - 2022/12/28/17:29:40
-L1  - https://academic.oup.com/bioinformatics/article-pdf/31/1/146/7000242/btu769.pdf
-ER  - 
-
-TY  - JOUR
 TI  - FlexAID: Revisiting Docking on Non-Native-Complex Structures
 AU  - Gaudreault, Francis
 AU  - Najmanovich, Rafael J.
@@ -28,7 +6,7 @@ T2  - Journal of Chemical Information and Modeling
 DA  - 2015/07/27/
 PY  - 2015
 DO  - 10.1021/acs.jcim.5b00078
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 55
 IS  - 7
 SP  - 1323
@@ -40,30 +18,9 @@ ST  - FlexAID
 UR  - https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078
 Y2  - 2022/12/28/17:31:35
 L1  - https://www.biorxiv.org/content/biorxiv/early/2014/11/26/011791.full.pdf
-ER  - 
-
-TY  - JOUR
-TI  - Analysis of Subpocket Selectivity and Identification of Potent Selective Inhibitors for Matriptase and Matriptase-2
-AU  - Duchêne, Dominic
-AU  - Colombo, Eloïc
-AU  - Désilets, Antoine
-AU  - Boudreault, Pierre-Luc
-AU  - Leduc, Richard
-AU  - Marsault, Eric
-AU  - Najmanovich, Rafael
-T2  - Journal of Medicinal Chemistry
-DA  - 2014/12/11/
-PY  - 2014
-DO  - 10.1021/jm5015633
-DP  - DOI.org (Crossref)
-VL  - 57
-IS  - 23
-SP  - 10198
-EP  - 10204
-J2  - J. Med. Chem.
-LA  - en
-SN  - 0022-2623, 1520-4804
-UR  - https://pubs.acs.org/doi/10.1021/jm5015633
-Y2  - 2022/12/28/17:33:37
+L1  - https://www.biorxiv.org/content/biorxiv/early/2014/11/26/011791.full.pdf
+N1  - <p>BOINC criterion evidence - EXPLICIT Najmanovich Research Group/BOINC mention in paper text: Abstract states "We implemented a grid-computing framework using the BOINC infrastructure. The project NRG@Home (for Najmanovich Research Group at Home) allows people around the world to contribute to our work by allowing their computers to perform FlexAID simulations using the BOINC screen saver." Acknowledgments thank "all the BOINC users that volunteer in the NRG@Home project." Full text: J Chem Inf Model 55(7):1323-1336 (2015) | Link: Najmanovich Research Group / BOINC | Source: ACS Publications (2015)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Najmanovich Research Group
 ER  - 
 
