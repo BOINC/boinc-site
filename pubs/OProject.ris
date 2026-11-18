@@ -1,16 +1,19 @@
-TY  - GEN
+TY  - JOUR
 TI  - The Distributed Computing Model Based on The Capabilities of The Internet
 AU  - Swierczewski, Lukasz
 AB  - Paper describes the theoretical and practical aspects of the proposed model that uses distributed computing to a global network of Internet communication. Distributed computing are widely used in modern solutions such as research, where the requirement is very high processing power, which can not be placed in one centralized point. The presented solution is based on open technologies and computers to perform calculations provided mainly by Internet users who are volunteers.
 DA  - 2012/10/04/
 PY  - 2012
-DP  - arXiv.org
+DP  - [arXiv.org](http://arXiv.org)
 PB  - arXiv
 UR  - http://arxiv.org/abs/1210.1593
 Y2  - 2022/12/24/12:54:58
 L1  - https://arxiv.org/pdf/1210.1593.pdf
 L2  - https://arxiv.org/abs/1210.1593
-KW  - Computer Science - Distributed, Parallel, and Cluster Computing
+N1  - <p>BOINC criterion evidence - EXPLICIT OProject@Home/BOINC mention in paper text: Paper explicitly names BOINC multiple times: "One of the perfect example of a Client/Server model is BOINC (Berkley Open Infrastructure for Network Computing)"; "The principle behind BOINC is quite straightforward"; "this is done in the BOINC"; Figure 4 caption "Separate server daemons at Berkeley Open Infrastructure for Network Computing"; Section IX states "self-developed platform operating under BOINC was used" for the Goldbach Conjecture Project (OProject@Home); "The main problem with the BOINC server was MySQL database server"; "official BOINC requirements for the CPU are high". Reference [4-5] cite Anderson's BOINC papers. Full text: arXiv:1210.1593 (2012) | Link: OProject@Home / BOINC | Source: arXiv (2012)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
 KW  - Computer Science - Networking and Internet Architecture
+KW  - OProject@Home
+KW  - Computer Science - Volunteer, Parallel, and Cluster Computing
 ER  - 
 
