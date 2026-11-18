@@ -11,7 +11,7 @@ C3  - Proceedings of the Practice and Experience in Advanced Research Computing 
 DA  - 2019/07/28/
 PY  - 2019
 DO  - 10.1145/3332186.3332238
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 SP  - 1
 EP  - 7
 LA  - en
@@ -20,5 +20,27 @@ SN  - 978-1-4503-7227-5
 ST  - HUBzero®
 UR  - https://dl.acm.org/doi/10.1145/3332186.3332238
 Y2  - 2022/12/26/19:01:20
+L1  - https://dl.acm.org/doi/pdf/10.1145/3332186.3332238?download=true
+N1  - <p>BOINC criterion evidence - EXPLICIT NanoHUB@Home/BOINC mention in paper text: Abstract states "HUBzero®'s enhancements include extensions for BOINC and XSEDE infrastructures on the backend" and "nanoHUB offers over 500 simulation tools and it has been enhanced with a novel caching system to explore the input parameter space for already computed results via BOINC." Full text: PEARC '19 (2019) | Link: NanoHUB@Home / BOINC | Source: ACM DL (2019)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - NanoHUB@Home
+ER  - 
+
+TY  - CONF
+TI  - nanoHUB@home: Expanding nanoHUB through Volunteer Computing
+AU  - Clark, Steven
+AU  - Haley, Benjamin
+AU  - Hunt, Martin
+AU  - Denny, Nathan
+AU  - Desai, Saaketh
+AU  - Anderson, David
+T2  - Gateways 2019
+DA  - 2019/09//
+PY  - 2019
+UR  - https://par.nsf.gov/biblio/10143977
+L1  - https://par.nsf.gov/servlets/purl/10143977
+N1  - <p>BOINC criterion evidence - EXPLICIT NanoHUB@Home/BOINC mention in paper text: Paper explicitly develops "a BOINC project, nanoHUB@home, to make use of VC in support of the nanoHUB science gateway" and states "Most VC projects use BOINC, an open-source middleware system for VC." Full text: Gateways 2019 (2019) | Link: NanoHUB@Home / BOINC | Source: NSF PAR (2019)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - NanoHUB@Home
 ER  - 
 
