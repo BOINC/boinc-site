@@ -6,7 +6,7 @@ T2  - Journal of Number Theory
 DA  - 2019/09//
 PY  - 2019
 DO  - 10.1016/j.jnt.2019.02.022
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 202
 SP  - 426
 EP  - 429
@@ -15,25 +15,9 @@ LA  - en
 SN  - 0022314X
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S0022314X19300988
 Y2  - 2022/12/28/22:34:27
-ER  - 
-
-TY  - JOUR
-TI  - A targeted Martinet search
-AU  - Driver, Eric D.
-AU  - Jones, John W.
-T2  - Mathematics of Computation
-AB  - Constructing number fields with prescribed ramification is an important problem in computational number theory. In this paper, we consider the problem of computing all imprimitive number fields of a given degree which are unramified outside of a given finite set of primes S by combining the techniques of targeted Hunter searches with Martinet's relative version of Hunter's theorem. We then carry out this algorithm to generate complete tables of imprimitive number fields for degrees 4 through 10 and certain sets S of small primes.
-DA  - 2009/06/01/
-PY  - 2009
-DO  - 10.1090/S0025-5718-08-02178-9
-DP  - NASA ADS
-VL  - 78
-SP  - 1109
-EP  - 1117
-SN  - 0025-5718
-UR  - https://ui.adsabs.harvard.edu/abs/2009MaCom..78.1109D
-Y2  - 2022/12/28/22:36:38
-L1  - https://www.ams.org/mcom/2009-78-266/S0025-5718-08-02178-9/S0025-5718-08-02178-9.pdf
+N1  - <p>BOINC criterion evidence - EXPLICIT NumberFields@Home/BOINC mention in paper text: Abstract states "To accomplish this large-scale computation, we distributed the computation over many servers on the internet through the BOINC network." Full text: Journal of Number Theory 202:426-429 (2019) | Link: NumberFields@Home / BOINC | Source: Elsevier (2019)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - NumberFields@Home
 ER  - 
 
 TY  - JOUR
@@ -44,7 +28,7 @@ T2  - Experimental Mathematics
 DA  - 2010/01//
 PY  - 2010
 DO  - 10.1080/10586458.2010.10390637
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 19
 IS  - 4
 SP  - 475
@@ -55,5 +39,28 @@ SN  - 1058-6458, 1944-950X
 UR  - http://www.tandfonline.com/doi/abs/10.1080/10586458.2010.10390637
 Y2  - 2023/05/28/17:01:25
 L1  - https://projecteuclid.org/journals/experimental-mathematics/volume-19/issue-4/Minimum-Discriminants-of-Imprimitive-Decic-Fields/em/1317758106.pdf
+N1  - <p>BOINC criterion evidence - EXPLICIT NumberFields@Home/BOINC mention in paper text: Paper states "we used a distributed computing approach through the BOINC system [1]. With B = 10^10, the computation took a total of approximately 20,000 machine hours (summed over all hosts)." Full text: Experimental Mathematics 19(4):475-479 (2010) | Link: NumberFields@Home / BOINC | Source: Taylor & Francis (2010)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - NumberFields@Home
+ER  - 
+
+TY  - JOUR
+TI  - A database of number fields
+AU  - Jones, John W.
+AU  - Roberts, David P.
+T2  - LMS Journal of Computation and Mathematics
+DA  - 2014///
+PY  - 2014
+DO  - 10.1112/S1461157014000424
+DP  - [DOI.org](http://DOI.org) (Crossref)
+VL  - 17
+SP  - 595
+EP  - 618
+UR  - https://doi.org/10.1112/S1461157014000424
+L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B22C15C2B107CF6C6BBA861D075B6F1C/S1461157014000424a.pdf/div-class-title-a-database-of-number-fields-div.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Paper describes an online database of number fields; references Driver &amp; Jones 2010 work. Full text: LMS J Comput Math 17:595-618 (2014) | Link: NumberFields@Home / BOINC | Source: LMS (2014)ER&nbsp;&nbsp;-</p>
+</div>
+KW  - BOINC
+KW  - NumberFields@Home
 ER  - 
 
