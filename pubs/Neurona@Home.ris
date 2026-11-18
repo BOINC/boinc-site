@@ -9,12 +9,15 @@ C1  - La Herradura, Spain
 DA  - 2013///
 PY  - 2013
 DO  - 10.1063/1.4776528
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 SP  - 267
 EP  - 270
 ST  - The Neurona@Home project
 UR  - http://aip.scitation.org/doi/abs/10.1063/1.4776528
 Y2  - 2022/12/28/16:59:38
+N1  - <p>BOINC criterion evidence - EXPLICIT Neurona@Home/BOINC mention in paper text: Abstract states "The Berkeley Open Infrastructure for Network Computing (BOINC) has become the standard open source solution for grid computing in the Internet. We have developed a BOINC project called Neurona@Home whose objective is to simulate a cellular automata random network with, at least, one million neurons." Acknowledgments state "We also gratefully acknowledge the support from the BOINC community and the volunteers contributing to this project worldwide." Full text: AIP Conference Proceedings 1510:267-270 (2013) | Link: Neurona@Home / BOINC | Source: AIP Publishing (2013)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Neurona@Home
 ER  - 
 
 TY  - JOUR
@@ -28,7 +31,7 @@ T2  - Physica A: Statistical Mechanics and its Applications
 DA  - 2015/10//
 PY  - 2015
 DO  - 10.1016/j.physa.2015.05.017
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 435
 SP  - 111
 EP  - 119
@@ -38,5 +41,8 @@ SN  - 03784371
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S037843711500432X
 Y2  - 2022/12/28/17:01:08
 L1  - https://riunet.upv.es/bitstream/10251/63784/5/caneuronauthorversion.pdf
+N1  - <p>BOINC criterion evidence - EXPLICIT Neurona@Home/BOINC mention in paper text: Abstract states "This level of connectivity was achieved thanks to a distributed computing environment based on the BOINC (Berkeley Open Infrastructure for Network Computing) platform." Full text: Physica A 435:111-119 (2015) | Link: Neurona@Home / BOINC | Source: Elsevier (2015)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Neurona@Home
 ER  - 
 
