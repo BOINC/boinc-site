@@ -5,7 +5,7 @@ T2  - Icarus
 DA  - 2017/03//
 PY  - 2017
 DO  - 10.1016/j.icarus.2016.12.008
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 284
 SP  - 416
 EP  - 423
@@ -13,7 +13,11 @@ J2  - Icarus
 LA  - en
 SN  - 00191035
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S0019103516300914
-Y2  - 2022/11/20/20:10:39
+Y2  - 2022/11/20/
 L1  - https://arxiv.org/pdf/1604.06328
+L4  - https://arxiv.org/pdf/1604.06328
+N1  - <p>BOINC criterion evidence - EXPLICIT Orbit@home/BOINC mention in paper text: Acknowledgments state "Early versions of this research made use of the BOINC-based orbit@home distributed computing network, and the participants who donated computing time on their personal computers are acknowledged." Reference [1] cites Anderson 2004 BOINC paper. Full text: Icarus 284:416-423 (2017) | Link: Orbit@home / BOINC | Source: Elsevier / arXiv (2017)ER&nbsp;&nbsp;-</p>
+KW  - BOINC
+KW  - Orbit@home
 ER  - 
 
