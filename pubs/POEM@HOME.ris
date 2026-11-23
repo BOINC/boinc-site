@@ -16,8 +16,10 @@ SP  - 034114
 J2  - The Journal of Chemical Physics
 LA  - en
 SN  - 0021-9606, 1089-7690
-UR  - http://aip.scitation.org/doi/10.1063/1.3177008
-Y2  - 2022/11/20/20:12:12
+UR  - https://aip.scitation.org/doi/10.1063/1.3177008
+Y2  - 2022/11/20/
+N1  - <div data-schema-version="9"><p>The article reports computational alanine screening with the PFF02 all-atom free-energy force field, identifying the method used for this protein-simulation work.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -47,7 +49,8 @@ J2  - Acta Biomaterialia
 LA  - en
 SN  - 17427061
 UR  - https://linkinghub.elsevier.com/retrieve/pii/S1742706111005253
-Y2  - 2022/11/20/20:12:12
+Y2  - 2022/11/20/
+N1  - <p>The paper's modelling section says DewA models were relaxed in the PFF02 forcefield using POEM@HOME.</p>
 ER  - 
 
 TY  - JOUR
@@ -67,8 +70,9 @@ EP  - 428
 J2  - J Math Chem
 LA  - en
 SN  - 0259-9791, 1572-8897
-UR  - http://link.springer.com/10.1007/s10910-011-9937-x
-Y2  - 2022/11/20/20:12:12
+UR  - https://link.springer.com/10.1007/s10910-011-9937-x
+Y2  - 2022/11/20/
+N1  - <p>The paper says its Monte Carlo simulations ran on the POEM@HOME volunteer-computing network using the BOINC framework.</p>
 ER  - 
 
 TY  - JOUR
@@ -98,7 +102,8 @@ LA  - en
 SN  - 01928651
 ST  - SIMONA 1.0
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.23089
-Y2  - 2022/11/20/20:12:12
+Y2  - 2022/11/20/
+N1  - <p>The article text explicitly says the authors used the BOINC server POEM@HOME for 200,000 protein-protein docking simulations on 35,000 computers, and also describes simulations exploiting the POEM@HOME network.</p>
 ER  - 
 
 TY  - JOUR
@@ -126,6 +131,25 @@ EP  - 8043
 LA  - en
 UR  - https://pubs.rsc.org/en/content/articlelanding/2014/cp/c3cp53850h
 Y2  - 2023/05/28/15:21:38
-L1  - https://pubs.rsc.org/en/content/articlepdf/2014/cp/c3cp53850h
+L4  - https://pubs.rsc.org/en/content/articlepdf/2014/cp/c3cp53850h
+N1  - <p>The article's acknowledgements state: “We are grateful for the support from the volunteers of POEM@HOME, where a part of the simulations was carried out.”</p>
+ER  - 
+
+TY  - CONF
+TI  - Benchmarking the POEM@HOME Network for Protein Structure Prediction
+AU  - Strunk, Timo
+AU  - Anand, Priya
+AU  - Brieg, Martin
+AU  - Wolf, Moritz
+AU  - Klenin, Konstantin V.
+AU  - Meliciani, Irene
+AU  - Tristram, Frank
+AU  - Kondov, Ivan
+AU  - Wenzel, Wolfgang
+T2  - 3rd International Workshop on Science Gateways for Life Sciences (IWSG-Life 2011)
+DA  - 2011///
+PY  - 2011
+UR  - https://publikationen.bibliothek.kit.edu/170083282
+N1  - <p>The paper investigates POEM@HOME as a distributed-computing network for protein structure prediction and reports its use for protein-structure-prediction assessment targets.</p>
 ER  - 
 
