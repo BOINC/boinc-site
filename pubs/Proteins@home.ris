@@ -1,6 +1,6 @@
 TY  - JOUR
 TI  - Computational protein design: Software implementation, parameter optimization, and performance of a simple model
-AU  - Schmidt Am Busch, Marcel
+AU  - Schmidt am Busch, Marcel
 AU  - Lopes, Anne
 AU  - Mignon, David
 AU  - Simonson, Thomas
@@ -18,29 +18,19 @@ LA  - en
 SN  - 01928651, 1096987X
 ST  - Computational protein design
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.20870
-Y2  - 2022/11/20/20:21:15
+Y2  - 2022/11/20/
+N1  - <p>Confirmed Proteins@home/BOINC paper. Abstract: "Calculations were done using our Proteins @ Home distributed computing platform, with the help of several thousand volunteers." The text adds that Proteins@Home is "based on the Berkeley Open Infrastructure for Network Computing, BOINC" and thanks "the many volunteers who have participated in the Proteins at Home project" and "the BOINC development community for testing the alpha version of the Proteins at Home platform."</p>
 ER  - 
 
 TY  - JOUR
 TI  - Testing the Coulomb/Accessible Surface Area solvent model for protein stability, ligand binding, and protein design
-AU  - am Busch, Marcel Schmidt
+AU  - Schmidt am Busch, Marcel
 AU  - Lopes, Anne
 AU  - Amara, Najette
 AU  - Bathelt, Christine
 AU  - Simonson, Thomas
 T2  - BMC Bioinformatics
-AB  - Abstract
-            
-              Background
-              Protein structure prediction and computational protein design require efficient yet sufficiently accurate descriptions of aqueous solvent. We continue to evaluate the performance of the Coulomb/Accessible Surface Area (CASA) implicit solvent model, in combination with the Charmm19 molecular mechanics force field. We test a set of model parameters optimized earlier, and we also carry out a new optimization in this work, using as a target a set of experimental stability changes for single point mutations of various proteins and peptides. The optimization procedure is general, and could be used with other force fields. The computation of stability changes requires a model for the unfolded state of the protein. In our approach, this state is represented by tripeptide structures of the sequence Ala-X-Ala for each amino acid type X. We followed an iterative optimization scheme which, at each cycle, optimizes the solvation parameters and a set of tripeptide structures for the unfolded state. This protocol uses a set of 140 experimental stability mutations and a large set of tripeptide conformations to find the best tripeptide structures and solvation parameters.
-            
-            
-              Results
-              Using the optimized parameters, we obtain a mean unsigned error of 2.28 kcal/mol for the stability mutations. The performance of the CASA model is assessed by two further applications: (i) calculation of protein-ligand binding affinities and (ii) computational protein design. For these two applications, the previous parameters and the ones optimized here give a similar performance. For ligand binding, we obtain reasonable agreement with a set of 55 experimental mutation data, with a mean unsigned error of 1.76 kcal/mol with the new parameters and 1.47 kcal/mol with the earlier ones. We show that the optimized CASA model is not inferior to the Generalized Born/Surface Area (GB/SA) model for the prediction of these binding affinities. Likewise, the new parameters perform well for the design of 8 SH3 domain proteins where an average of 32.8% sequence identity relative to the native sequences was achieved. Further, it was shown that the computed sequences have the character of naturally-occuring homologues of the native sequences.
-            
-            
-              Conclusion
-              Overall, the two CASA variants explored here perform very well for a wide variety of applications. Both variants provide an efficient solvent treatment for the computational engineering of ligands and proteins.
+AB  - Background: Protein structure prediction and computational protein design require efficient yet sufficiently accurate descriptions of aqueous solvent. We continue to evaluate the performance of the Coulomb/Accessible Surface Area (CASA) implicit solvent model, in combination with the Charmm19 molecular mechanics force field. We test a set of model parameters optimized earlier, and we also carry out a new optimization in this work, using as a target a set of experimental stability changes for single point mutations of various proteins and peptides. The optimization procedure is general, and could be used with other force fields. The computation of stability changes requires a model for the unfolded state of the protein. In our approach, this state is represented by tripeptide structures of the sequence Ala-X-Ala for each amino acid type X. We followed an iterative optimization scheme which, at each cycle, optimizes the solvation parameters and a set of tripeptide structures for the unfolded state. This protocol uses a set of 140 experimental stability mutations and a large set of tripeptide conformations to find the best tripeptide structures and solvation parameters. Results: Using the optimized parameters, we obtain a mean unsigned error of 2.28 kcal/mol for the stability mutations. The performance of the CASA model is assessed by two further applications: (i) calculation of protein-ligand binding affinities and (ii) computational protein design. For these two applications, the previous parameters and the ones optimized here give a similar performance. For ligand binding, we obtain reasonable agreement with a set of 55 experimental mutation data, with a mean unsigned error of 1.76 kcal/mol with the new parameters and 1.47 kcal/mol with the earlier ones. We show that the optimized CASA model is not inferior to the Generalized Born/Surface Area (GB/SA) model for the prediction of these binding affinities. Likewise, the new parameters perform well for the design of 8 SH3 domain proteins where an average of 32.8% sequence identity relative to the native sequences was achieved. Further, it was shown that the computed sequences have the character of naturally-occuring homologues of the native sequences. Conclusion: Overall, the two CASA variants explored here perform very well for a wide variety of applications. Both variants provide an efficient solvent treatment for the computational engineering of ligands and proteins.
 DA  - 2008/12//
 PY  - 2008
 DO  - 10.1186/1471-2105-9-148
@@ -52,8 +42,9 @@ J2  - BMC Bioinformatics
 LA  - en
 SN  - 1471-2105
 UR  - https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-148
-Y2  - 2022/11/20/20:21:15
-L1  - https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-9-148
+Y2  - 2022/11/20/
+L4  - https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-9-148
+N1  - <p>Confirmed Proteins@home/BOINC paper. Results: "The protein design calculations were carried out using our Proteins@Home distributed computing platform, with the help of volunteers in several countries. Proteins@Home is discribed in more detail elsewhere [49]." Methods: "The calculations were done using our Proteins@Home distributed computing platform. This allows us to use the computers of several thousand volunteers in over 70 countries. Proteins@Home is based on the Berkeley Open Infrastructure for Network Computing, BOINC [65]." Acknowledgements thank "the many volunteers who have participated in the Proteins@Home project" and "the BOINC development community for testing the alpha version of Proteins@Home."</p>
 ER  - 
 
 TY  - JOUR
@@ -74,9 +65,11 @@ J2  - PLoS ONE
 LA  - en
 SN  - 1932-6203
 ST  - Computational Protein Design
-UR  - https://dx.plos.org/10.1371/journal.pone.0010410
-Y2  - 2022/11/20/20:21:15
+UR  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010410
+Y2  - 2022/11/20/
 L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0010410&type=printable
+L4  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0010410&type=printable
+N1  - <p>Confirmed Proteins@home/BOINC paper. Abstract: "Calculations are done with the Proteins@Home volunteer computing platform." Methods: "We employed our Proteins@Home distributed computing platform, which allows us to use the computers of several thousand volunteers in over 100 countries... Proteins@Home is based on the Berkeley Open Infrastructure for Network Computing, BOINC [77]." Acknowledgments thank "the many volunteers who have participated in the ProteinsHome project" and "the BOINC development community for testing the alpha version of ProteinsHome."</p>
 ER  - 
 
 TY  - JOUR
@@ -97,12 +90,13 @@ J2  - Proteins
 LA  - en
 SN  - 08873585, 10970134
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/prot.22426
-Y2  - 2022/11/20/20:21:15
+Y2  - 2022/11/20/
+N1  - <p>Confirmed Proteins@home/BOINC paper. Abstract: "Energy calculations are done with the Proteins@Home volunteer computing platform." Full text: "We used our Proteins@Home distributed computing platform, which allows us to use the computers of several thousand volunteers in over 100 countries... Proteins@Home is based on the Berkeley Open Infrastructure for Network Computing, BOINC." The paper also states that "The Proteins@Home platform and project will be described in detail elsewhere" (ref. 71 = the 2008 Tektum chapter).</p>
 ER  - 
 
 TY  - CHAP
 TI  - The Inverse Protein Folding Problem: Protein Design and Structure Prediction in the Genomic Era
-AU  - Schmidt Am Busch, Marcel
+AU  - Schmidt am Busch, Marcel
 AU  - Lopes, Anne
 AU  - Mignon, David
 AU  - Gaillard, Thomas
@@ -122,7 +116,25 @@ LA  - en
 PB  - Springer Netherlands
 SN  - 978-94-007-4947-4 978-94-007-4948-1
 ST  - The Inverse Protein Folding Problem
-UR  - https://link.springer.com/10.1007/978-94-007-4948-1_7
+UR  - https://link.springer.com/chapter/10.1007/978-94-007-4948-1_7
 Y2  - 2026/07/05/13:40:16
+N1  - <p>Confirmed Proteins@home/BOINC chapter. Abstract: "Some of the calculations have been distributed to volunteers on the Internet, through our Proteins@Home volunteer computing project." Acknowledgements: "We thank the many volunteers who have participated in the Proteins@Home project... We thank the BOINC development community for testing the alpha version of Proteins@Home."</p>
+ER  - 
+
+TY  - CHAP
+TI  - The inverse protein folding problem: structure prediction in the genomic era
+AU  - Simonson, Thomas
+AU  - Mignon, David
+AU  - Schmidt am Busch, Marcel
+AU  - Lopes, Anne
+AU  - Bathelt, Christine
+T2  - Distributed & Grid Computing – Science Made Transparent for Everyone: Principles, Applications and Supporting Communities
+A2  - Weber, M. H. W.
+CY  - Berlin
+DA  - 2008///
+PY  - 2008
+LA  - en
+PB  - Tektum Publishers
+N1  - <p>Project description chapter in a distributed/grid computing book. Two project papers point to it as the detailed description of Proteins@Home: BMC Bioinformatics 2008 says "Proteins@Home is discribed in more detail elsewhere [49]" (Results), and Proteins 2009 says "The Proteins@Home platform and project will be described in detail elsewhere" (ref. 71). The project's archived website publishes the same material as "The inverse protein folding problem: structure prediction and protein design with Proteins@Home" (Simonson, Mignon, Schmidt am Busch, Lopes, Bathelt, Madigou), including a section titled "Protein design on the BOINC distributed computing platform" (http://web.archive.org/web/20090926232911/http://biology.polytechnique.fr/proteinsathome/documentation2.php). Publisher is cited as Tektum Publishers (Berlin) in the project's papers; the book itself was produced by Rechenkraft.net e.V.</p>
 ER  - 
 
