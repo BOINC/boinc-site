@@ -6,11 +6,13 @@ C3  - 4th Annual International Conference on Computational Mathematics, Computat
 DA  - 2015/01/26/
 PY  - 2015
 DO  - 10.5176/2251-1911_CMCGS15.43
-DP  - DOI.org (Crossref)
+DP  - Crossref
 PB  - Global Science and Technology Forum (GSTF)
 ST  - PrimeGrid
-UR  - https://www.dropbox.com/s/6lmn8c7ujnj1cng/CMCGS_2015_Proceedings_Paper_20.pdf?dl=0
-Y2  - 2022/11/20/20:16:37
+UR  - https://ibethune.github.io/files/cmcgs_bethune.pdf
+Y2  - 2022/11/20/
+L1  - https://ibethune.github.io/files/cmcgs_bethune.pdf
+N1  - <p>Abstract states the project "has discovered over 60 new million-digit primes, as well as record sized twin and Sophie Germain primes" and presents "how the BOINC distributed computing architecture is used to harness tens of thousands of computers." Body describes BOINC client/server architecture, PrimeGrid history (Message@Home renamed PrimeGrid September 2005), subprojects and record primes (Cullen, Woodall, Twin, Sophie Germain, Generalized Fermat, Riesel, AP26), and states "The majority of PrimeGrid's work is done using BOINC." Keywords include "volunteer computing."</p>
 ER  - 
 
 TY  - CHAP
@@ -25,14 +27,16 @@ A2  - Waśniewski, Jerzy
 CY  - Berlin, Heidelberg
 DA  - 2014///
 PY  - 2014
-DP  - DOI.org (Crossref)
+DO  - 10.1007/978-3-642-55224-3_11
+DP  - Crossref
 VL  - 8384
 SP  - 106
 EP  - 113
 PB  - Springer Berlin Heidelberg
 SN  - 978-3-642-55223-6 978-3-642-55224-3
-UR  - http://link.springer.com/10.1007/978-3-642-55224-3_11
-Y2  - 2022/11/20/20:16:37
+UR  - https://link.springer.com/chapter/10.1007/978-3-642-55224-3_11
+Y2  - 2022/11/20/
+N1  - <p>Reports Generalized Fermat Number search results from PrimeGrid: "In 2009 PrimeGrid restarted the GFN search beginning from where the previous effort left off" and "Many of these prime searches are coordinated by the PrimeGrid project, which uses the Berkeley Open Infrastructure for Network Computing (BOINC) to allow client computers to download, process, and return work units consisting of primality tests or sieving." Keywords include "Volunteer Computing." Abstract states "The results of the ongoing search are used to extend Gallot and Dubner's published tables... and we report on recent discoveries of GFN primes with over one million digits." References cite the BOINC paper and the PrimeGrid website.</p>
 ER  - 
 
 TY  - JOUR
@@ -43,7 +47,7 @@ T2  - Journal of Open Research Software
 DA  - 2015/11/19/
 PY  - 2015
 DO  - 10.5334/jors.ca
-DP  - DOI.org (Crossref)
+DP  - Crossref
 VL  - 3
 IS  - 1
 SP  - 10
@@ -51,7 +55,37 @@ J2  - JORS
 SN  - 2049-9647
 ST  - Genefer
 UR  - https://openresearchsoftware.metajnl.com/article/10.5334/jors.ca/
-Y2  - 2022/11/20/20:16:37
-L1  - https://openresearchsoftware.metajnl.com/articles/10.5334/jors.ca/galley/110/download/
+Y2  - 2022/11/20/
+L1  - https://openresearchsoftware.metajnl.com/articles/77/files/submission/proof/77-1-759-2-10-20151124.pdf
+L4  - https://openresearchsoftware.metajnl.com/articles/10.5334/jors.ca/galley/110/download/
+N1  - <p>Abstract: "Genefer has been extensively used by PrimeGrid - a volunteer computing project searching for large prime numbers of various kinds, including GFNs." Introduction: "Since 2009, the PrimeGrid volunteer computing project has used Genefer to extend the search to well over a million digits and is currently searching for a world-record sized GFN prime." Also states "support for BOINC has been added, which enables Genefer to be used by many thousands of users transparently via the BOINC client" and "The released binaries are then distributed to PrimeGrid users via BOINC." References cite the PrimeGrid platform paper and the PPAM Generalized Fermat paper.</p>
+ER  - 
+
+TY  - JOUR
+TI  - PrimeGrid: Searching for a New World Record Prime Number
+AU  - Bethune, Iain
+T2  - Mathematics Today
+DA  - 2013/12//
+PY  - 2013
+VL  - 49
+IS  - 6
+SP  - 250
+EP  - 251
+UR  - https://ibethune.github.io/files/PrimeGrid_MT_Dec2013.pdf
+L1  - https://ibethune.github.io/files/PrimeGrid_MT_Dec2013.pdf
+N1  - <p>Article about the PrimeGrid volunteer computing project: "PrimeGrid is a volunteer computing project which has two main aims; firstly to find large prime numbers, and secondly to educate members of the project and the wider public about the mathematics of primes." Reports "as of November 2013, over 70% of the primes on the Top 5000 list of largest known primes were discovered by PrimeGrid" and records for the largest known Cullen and Woodall primes, largest known Twin primes and Sophie Germain pairs, and longest arithmetic progression (26 primes). Describes the Generalized Fermat Number search via PrimeGrid and participation via the BOINC Manager. References cite the PrimeGrid website and the PPAM Generalized Fermat paper.</p>
+ER  - 
+
+TY  - JOUR
+TI  - An Efficient Modular Exponentiation Proof Scheme
+AU  - Li, Darren
+AU  - Gallot, Yves
+T2  - arXiv:2209.15623 [cs.CR]
+DA  - 2022/09/16/
+PY  - 2022
+DO  - 10.48550/arXiv.2209.15623
+UR  - https://arxiv.org/abs/2209.15623
+L1  - http://arxiv.org/pdf/2209.15623v2
+N1  - <p>Abstract: proof scheme "has been successfully implemented at PrimeGrid, doubling the efficiency of distributed searches for primes." Introduction: "The majority of ongoing organized searches for primes of record-breaking sizes, such as PrimeGrid, are distributed." Section 5.3 "Implementation at PrimeGrid": "Our proof scheme and its corresponding verification process has been successfully implemented at PrimeGrid, doubling the speed of PrimeGrid's search that spans hundreds of thousands of computers worldwide. Among others, the search for the world's largest prime on PrimeGrid now uses our proof scheme." and "The first prime found using our work is 117687318131072 + 1, with 1057847 digits, discovered by Tom Greer." Acknowledgements thank the PrimeGrid administrators for integration into the PrimeGrid servers. References cite the PrimeGrid website and the Genefer paper.</p>
 ER  - 
 
