@@ -16,9 +16,11 @@ SP  - 1627
 EP  - 1641
 J2  - Concurrency Computat.: Pract. Exper.
 LA  - en
-SN  - 1532-0626, 1532-0634
+SN  - 1532-0626
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/cpe.949
 Y2  - 2022/11/11/14:50:01
+N1  - <div data-schema-version="9"><p>The abstract describes a docking algorithm applicable to "loosely coupled distributed systems such as desktop Grids". Source: https://www.researchgate.net/publication/227662655_Study_of_a_highly_accurate_and_fast_protein-ligand_docking_method_based_on_molecular_dynamics</p>
+</div>
 ER  - 
 
 TY  - CONF
@@ -26,7 +28,7 @@ TI  - Homogeneous Redundancy: a Technique to Ensure Integrity of Molecular Simul
 AU  - Taufer, M.
 AU  - Anderson, D.
 AU  - Cicotti, P.
-AU  - Brooks, C.L.
+AU  - Brooks, C. L.
 T2  - 19th IEEE International Parallel and Distributed Processing Symposium
 C1  - Denver, CO, USA
 C3  - 19th IEEE International Parallel and Distributed Processing Symposium
@@ -41,38 +43,17 @@ SN  - 978-0-7695-2312-5
 ST  - Homogeneous Redundancy
 UR  - https://ieeexplore.ieee.org/document/1419946
 Y2  - 2022/11/11/14:50:02
-ER  - 
-
-TY  - CONF
-TI  - Study of a highly accurate and fast protein-ligand docking algorithm based on molecular dynamics
-AU  - Taufer, M.
-AU  - Crowley, M.
-AU  - Price, D.
-AU  - Chien, A.A.
-AU  - Brooks, C.L.
-T2  - 18th International Parallel and Distributed Processing Symposium, 2004.
-C1  - Santa Fe, NM, USA
-C3  - 18th International Parallel and Distributed Processing Symposium, 2004. Proceedings.
-DA  - 2004///
-PY  - 2004
-DO  - 10.1109/IPDPS.2004.1303203
-DP  - DOI.org (Crossref)
-SP  - 188
-EP  - 195
-PB  - IEEE
-SN  - 978-0-7695-2132-9
-UR  - http://ieeexplore.ieee.org/document/1303203/
-Y2  - 2022/11/11/14:50:02
+N1  - <p>The abstract states: "HR has been deployed in Predictor@home", referring to the homogeneous redundancy validation technique. Source: https://dl.acm.org/doi/10.1109/IPDPS.2005.247</p>
 ER  - 
 
 TY  - JOUR
-TI  - Predictor@Home: A "Protein Structure Prediction Supercomputer' Based on Global Computing
+TI  - Predictor@Home: A "Protein Structure Prediction Supercomputer" Based on Global Computing
 AU  - Taufer, M.
 AU  - An, Chahm
 AU  - Kerstens, A.
-AU  - Brooks III, C.L.
+AU  - Brooks III, C. L.
 T2  - IEEE Transactions on Parallel and Distributed Systems
-AB  - Predicting the structure of a protein from its amino acid sequence is a complex process, the understanding of which could be used to gain new insight into the nature of protein functions or provide targets for structure-based design of drugs to treat new and existing diseases. While protein structures can be accurately modeled using computational methods based on all-atom physics-based force fields including implicit solvation, these methods require extensive sampling of native-like protein conformations for successful prediction and, consequently, they are often limited by inadequate computing power. To address this problem, we developed Predictor@Home, a "structure prediction supercomputer” powered by the Berkeley Open Infrastructure for Network Computing (BOINC) framework and based on the global computing paradigm (i.e., volunteered computing resources interconnected to the Internet and owned by the public). In this paper, we describe the protocol we employed for protein structure prediction and its integration into a global computing architecture based on public resources. We show how Predictor@Home significantly improved our ability to predict protein structures by increasing our sampling capacity by one to two orders of magnitude.
+AB  - Predicting the structure of a protein from its amino acid sequence is a complex process, the understanding of which could be used to gain new insight into the nature of protein functions or provide targets for structure-based design of drugs to treat new and existing diseases. While protein structures can be accurately modeled using computational methods based on all-atom physics-based force fields including implicit solvation, these methods require extensive sampling of native-like protein conformations for successful prediction and, consequently, they are often limited by inadequate computing power. To address this problem, we developed Predictor@Home, a "structure prediction supercomputer" powered by the Berkeley Open Infrastructure for Network Computing (BOINC) framework and based on the global computing paradigm (i.e., volunteered computing resources interconnected to the Internet and owned by the public). In this paper, we describe the protocol we employed for protein structure prediction and its integration into a global computing architecture based on public resources. We show how Predictor@Home significantly improved our ability to predict protein structures by increasing our sampling capacity by one to two orders of magnitude.
 DA  - 2006/08//
 PY  - 2006
 DO  - 10.1109/TPDS.2006.110
@@ -84,15 +65,16 @@ EP  - 796
 SN  - 1558-2183
 ST  - Predictor@Home
 UR  - https://ieeexplore.ieee.org/document/1652942
+N1  - <p>The abstract identifies Predictor@Home as a BOINC-powered structure prediction system and reports improved sampling capacity. The paper compares CASP protein structures generated on P@H with those generated on a local cluster. Source: https://www.researchgate.net/publication/3301075_PredictorHome_A_Protein_Structure_Prediction_Supercomputer'_Based_on_Global_Computing</p>
 KW  - Proteins
-KW  - Amino acids
 KW  - Computational modeling
-KW  - Computer networks
 KW  - Diseases
+KW  - molecular dynamics
+KW  - Amino acids
+KW  - Computer networks
 KW  - Drugs
 KW  - Global computing paradigm
 KW  - Home computing
-KW  - molecular dynamics.
 KW  - Monte Carlo simulations
 KW  - Physics computing
 KW  - protein conformational sampling
@@ -104,33 +86,105 @@ ER  -
 TY  - CONF
 TI  - Metrics for effective resource management in global computing environments
 AU  - Taufer, M.
-AU  - Teller, P.J.
-AU  - Anderson, D.P.
-AU  - Brooks, C.L.
+AU  - Teller, P. J.
+AU  - Anderson, D. P.
+AU  - Brooks, C. L.
 T2  - First International Conference on e-Science and Grid Computing (e-Science'05)
-AB  - Global computing uses Internet-connected PCs volunteered by their owners. These PCs are diverse, volatile, and error-prone. Sophisticated scheduling methods commonly applied in grid computing may not be sufficiently scalable and flexible for global computing environments. This paper shows that it is possible to classify global computing hosts based on simple metrics such as availability and reliability, and that it is efficient to assign tasks to such hosts accordingly. The proposed classification of workers is applied to P@H, a global computing project for protein structure prediction
+AB  - Global computing uses Internet-connected PCs volunteered by their owners. These PCs are diverse, volatile, and error-prone. Sophisticated scheduling methods commonly applied in grid computing may not be sufficiently scalable and flexible for global computing environments. This paper shows that it is possible to classify global computing hosts based on simple metrics such as availability and reliability, and that it is efficient to assign tasks to such hosts accordingly. The proposed classification of workers is applied to P@H, a global computing project for protein structure prediction.
 C3  - First International Conference on e-Science and Grid Computing (e-Science'05)
-DA  - 2005/07//
+DA  - 2005///
 PY  - 2005
 DO  - 10.1109/E-SCIENCE.2005.58
 DP  - IEEE Xplore
-SP  - 8
-EP  - pp.-211
+SP  - 204
+EP  - 211
 UR  - https://ieeexplore.ieee.org/abstract/document/1572227
 L2  - https://ieeexplore.ieee.org/abstract/document/1572227
+N1  - <p>The abstract states that the proposed worker classification is applied to P@H, a global computing project for protein structure prediction. The authors identify the conference as December 2005; page range 204-211 is given by DBLP. Sources: https://ieeexplore.ieee.org/abstract/document/1572227 and https://dblp.org/pid/19/2141.html</p>
 KW  - Proteins
-KW  - Internet
 KW  - Computational modeling
+KW  - Distributed computing
+KW  - Grid computing
+KW  - Internet
+KW  - molecular dynamics
+KW  - Resource management
 KW  - Monte Carlo simulations
 KW  - Availability
 KW  - Biology computing
-KW  - Distributed computing
-KW  - Grid computing
 KW  - Large-scale simulations
-KW  - molecular dynamics
 KW  - Personal communication networks
 KW  - Processor scheduling
 KW  - resource classification
-KW  - Resource management
+ER  - 
+
+TY  - CONF
+TI  - Predictor@Home: A "Protein Structure Prediction Supercomputer" Based on Public-Resource Computing
+AU  - Taufer, Michela
+AU  - An, Chahm
+AU  - Kerstens, Andreas
+AU  - Brooks III, Charles L.
+T2  - 19th IEEE International Parallel and Distributed Processing Symposium
+C1  - Denver, CO, USA
+DA  - 2005///
+PY  - 2005
+DO  - 10.1109/IPDPS.2005.357
+PB  - IEEE
+UR  - https://doi.org/10.1109/IPDPS.2005.357
+L1  - http://www.hicomb.org/HiCOMB2003/papers/HICOMB2005-09.pdf
+N1  - <p>The paper describes the Predictor@Home BOINC system and compares CASP6 structures produced by P@H with local-cluster results. The 2005 conference paper is distinct from the 2006 journal article. Source: http://www.hicomb.org/HiCOMB2003/papers/HICOMB2005-09.pdf</p>
+ER  - 
+
+TY  - CONF
+TI  - The Effectiveness of Threshold-Based Scheduling Policies in BOINC Projects
+AU  - Estrada, Trilce
+AU  - Flores, David A.
+AU  - Taufer, Michela
+AU  - Teller, Patricia J.
+AU  - Kerstens, Andre
+AU  - Anderson, David P.
+T2  - Second IEEE International Conference on e-Science and Grid Computing
+DA  - 2006///
+PY  - 2006
+DO  - 10.1109/E-SCIENCE.2006.137
+PB  - IEEE
+UR  - https://doi.org/10.1109/E-SCIENCE.2006.137
+L1  - https://www.cs.unm.edu/~estrada/trilce/uploads/Main/escience06_estrada.pdf
+N1  - <p>The paper states that "P@H traces were used to drive the simulations discussed in this paper" and identifies P@H as Predictor@Home, a BOINC project. Source: https://www.cs.unm.edu/~estrada/trilce/uploads/Main/escience06_estrada.pdf</p>
+ER  - 
+
+TY  - CONF
+TI  - SimBA: A Discrete Event Simulator for Performance Prediction of Volunteer Computing Projects
+AU  - Taufer, Michela
+AU  - Kerstens, Andre
+AU  - Estrada, Trilce
+AU  - Flores, David A.
+AU  - Teller, Patricia J.
+T2  - 21st Workshop on Principles of Advanced and Distributed Simulation
+C1  - San Diego, CA, USA
+DA  - 2007///
+PY  - 2007
+DO  - 10.1109/PADS.2007.27
+SP  - 189
+EP  - 197
+PB  - IEEE
+UR  - https://doi.org/10.1109/PADS.2007.27
+N1  - <p>The abstract reports that SimBA's predictions of Predictor@Home performance were within approximately 5% of the performance reported by the BOINC project. Source: https://www.academia.edu/23746314/SimBA_A_Discrete_Event_Simulator_for_Performance_Prediction_of_Volunteer_Computing_Projects</p>
+ER  - 
+
+TY  - CONF
+TI  - Modeling Job Lifespan Delays in Volunteer Computing Projects
+AU  - Estrada, Trilce
+AU  - Taufer, Michela
+AU  - Reed, Kevin
+T2  - 2009 9th IEEE/ACM International Symposium on Cluster Computing and the Grid
+C1  - Shanghai, China
+DA  - 2009///
+PY  - 2009
+DO  - 10.1109/CCGRID.2009.69
+SP  - 331
+EP  - 338
+PB  - IEEE
+UR  - https://doi.org/10.1109/CCGRID.2009.69
+N1  - <p>A subsequent paper by Estrada, Taufer and Anderson identifies this work as reference 9 and says it modeled hosts for "Predictor@Home and WCG BOINC projects". This is indirect evidence from a later account, rather than a verified quote from the conference paper itself. Source: https://link.springer.com/content/pdf/10.1007/s10723-009-9126-3.pdf</p>
 ER  - 
 
