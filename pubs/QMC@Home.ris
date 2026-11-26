@@ -16,7 +16,8 @@ J2  - J. Phys. Chem. A
 LA  - en
 SN  - 1089-5639, 1520-5215
 UR  - https://pubs.acs.org/doi/10.1021/jp204132g
-Y2  - 2022/11/20/20:29:48
+Y2  - 2022/11/20/
+N1  - <p>BOINC criterion evidence - Acknowledgment, verbatim: "The authors thank all 85000+ volunteers worldwide for supporting QMC@HOME and QuantumFIRE alpha, especially K. Marks and M. Heinrich." References 33–36, verbatim: "Korth, M. QMC@HOME. http://qah.uni-muenster.de (2006)", "Anderson, D. BOINC. http://boinc.berkeley.edu (2006)", "Detailed statistics can be found on the independent website http://www.boincstats.com", and "Korth, M. QuantumFIRE alpha. http://cah.tcm.phy.cam.ac.uk (2010)"; reference 11 is the 2008 QMC@HOME results paper. | Full text: CasinoQMC copy of J. Phys. Chem. A 115(42):11734–11739 | Link: QMC@HOME / BOINC | Source: DOI 10.1021/jp204132g | Verification: full text checked 2026-11-26.</p>
 ER  - 
 
 TY  - JOUR
@@ -38,7 +39,8 @@ LA  - en
 SN  - 1089-5639, 1520-5215
 ST  - Toward the Exact Solution of the Electronic Schrödinger Equation for Noncovalent Molecular Interactions
 UR  - https://pubs.acs.org/doi/10.1021/jp077592t
-Y2  - 2022/11/20/20:29:48
+Y2  - 2022/11/20/
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "Quantum Monte Carlo (QMC) calculations on the stacked (st) and Watson/Crick (wc) bound adenine/thymine (A/T) and cytosine/guanine (C/G) DNA base pair complexes were made possible with the first large scale distributed computing project in ab initio quantum chemistry, Quantum Monte Carlo at Home (QMC@HOME)." The archived QMC@HOME homepage says "Good news: Results for the DNA base pairs and the JSCH2005-S22 benchmark set published!" and quotes the paper's acknowledgment, verbatim: "the authors thank J. Budde, M. Heinrich, C. Diedrich and C. Mück-Lichtenfeld for technical assistance and more than 18000 volunteers worldwide for supporting QMC@HOME, especially K. Marks and D. Sutton." | Full text: PubMed 18201073 / ACS abstract | Link: archived QMC@HOME homepage and official NEWS thread | Source: DOI 10.1021/jp077592t | Verification: abstract and first-party pages checked 2026-11-26.</p>
 ER  - 
 
 TY  - JOUR
@@ -57,7 +59,9 @@ LA  - en
 SN  - 09317597, 15222667
 ST  - ChemInform Abstract
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/chin.200839002
-Y2  - 2022/11/20/20:29:48
+Y2  - 2022/11/20/
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Indirect bibliographic and methodological link: the Wiley ChemInform record is a secondary abstract whose reference is "Annika Bande, Arne Luechow ... Phys. Chem. Chem. Phys., 2008, 10, 3371–3376. 10.1039/b803571g"; Wiley says "ChemInform is a weekly Abstracting Service, delivering concise information at a glance that was extracted from about 200 leading journals." The underlying PCCP abstract reports "Calculations with the diffusion quantum Monte Carlo method ... for vanadium oxide molecules". First-party QMC@HOME Science II, verbatim: "The program we use for our FNDMC calculations is Amolqc, a QMC program by Arne Lüchow et al." and "To aquire the needed computing power we decided to use the BOINC Public Resource Computing Middleware to set up our Quanten Monte Carlo At Home (QMC@HOME) project." | Full text: Wiley ChemInform record / RSC PCCP abstract / archived QMC@HOME Science II | Source: DOI 10.1002/chin.200839002; underlying DOI 10.1039/b803571g | Verification: checked 2026-11-26.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -78,7 +82,9 @@ J2  - J. Org. Chem.
 LA  - en
 SN  - 0022-3263, 1520-6904
 UR  - https://pubs.acs.org/doi/10.1021/jo062446p
-Y2  - 2022/11/20/20:29:48
+Y2  - 2022/11/20/
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Indirect project-workflow evidence: ACS abstract, verbatim: "The reaction energies for 34 typical organic isomerizations including oxygen and nitrogen heteroatoms are investigated with modern quantum chemical methods"; this is the source of the ISO34 benchmark set. First-party QMC@HOME NEWS update, verbatim: "We already started to look into covalent interactions (here the breaking and forming of chemical bonds in reactions) with the ISO34 benchmark set (yes, the smaller molecules) and found very challenging - or let's say interesting - results. A publication with our first findings in this field is in preparation". | Full text: ACS abstract / archived QMC@HOME NEWS thread | Link: ISO34 phase / QMC@HOME | Source: DOI 10.1021/jo062446p | Verification: checked 2026-11-26.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -89,13 +95,13 @@ AU  - Balducci, Andrea
 AU  - Korth, Martin
 T2  - Physical Chemistry Chemical Physics
 AB  - A volunteer computing approach is presented for the purpose of screening a large number of molecular structures with respect to their suitability as new battery electrolyte solvents.
-          , 
-            
-              A volunteer computing approach is presented for the purpose of screening a large number of molecular structures with respect to their suitability as new battery electrolyte solvents. Collective properties like melting, boiling and flash points are evaluated using COSMOtherm and quantitative structure–property relationship (QSPR) based methods, while electronic structure theory methods are used for the computation of electrochemical stability window estimators. Two application examples are presented: first, the results of a previous large-scale screening test (
-              PCCP
-              , 2014,
-              16
-              , 7919) are re-evaluated with respect to the mentioned collective properties. As a second application example, all reasonable nitrile solvents up to 12 heavy atoms are generated and used to illustrate a suitable filter protocol for picking Pareto-optimal candidates.
+,
+
+A volunteer computing approach is presented for the purpose of screening a large number of molecular structures with respect to their suitability as new battery electrolyte solvents. Collective properties like melting, boiling and flash points are evaluated using COSMOtherm and quantitative structure–property relationship (QSPR) based methods, while electronic structure theory methods are used for the computation of electrochemical stability window estimators. Two application examples are presented: first, the results of a previous large-scale screening test (
+PCCP
+, 2014,
+16
+, 7919) are re-evaluated with respect to the mentioned collective properties. As a second application example, all reasonable nitrile solvents up to 12 heavy atoms are generated and used to illustrate a suitable filter protocol for picking Pareto-optimal candidates.
 DA  - 2015///
 PY  - 2015
 DO  - 10.1039/C4CP04338C
@@ -109,8 +115,9 @@ LA  - en
 SN  - 1463-9076, 1463-9084
 ST  - Large-scale virtual high-throughput screening for the identification of new battery electrolyte solvents
 UR  - http://xlink.rsc.org/?DOI=C4CP04338C
-Y2  - 2022/11/20/20:29:48
-L1  - https://pubs.rsc.org/en/content/articlepdf/2015/cp/c4cp04338c
+Y2  - 2022/11/20/
+L4  - https://pubs.rsc.org/en/content/articlepdf/2015/cp/c4cp04338c
+N1  - <p>BOINC criterion evidence - Abstract, verbatim: "A volunteer computing approach is presented for the purpose of screening a large number of molecular structures with respect to their suitability as new battery electrolyte solvents." Section 2, verbatim: "In 2005, Korth and Grimme released the first VC project in chemistry, Quantum Monte Carlo at home (QMC@home)" and "We present here the cleanmobility.now project, which is a re-release of the QMC@HOME project, now with a focus on the search for new electrolyte materials." Conclusions, verbatim: "We have presented a volunteer computing approach for screening molecular electrolyte components". References include "BOINC, boinc.berkeley.edu, accessed Jul. 15, 2014" and "cleanmobility.now. www.qmcathome.org/clean_mobility_now.html, accessed Jul. 15, 2014". | Caveat: the article also says computations were verified on local resources at this stage, but the project infrastructure and volunteer-computing approach are explicit. | Full text: RSC PCCP 17(5):3394–3401 PDF | Link: cleanmobility.now / BOINC / QMC@HOME | Source: DOI 10.1039/C4CP04338C | Verification: full text checked 2026-11-26.</p>
 ER  - 
 
 TY  - JOUR
@@ -130,7 +137,9 @@ J2  - J. Phys. Chem. B
 LA  - en
 SN  - 1520-6106, 1520-5207
 UR  - https://pubs.acs.org/doi/10.1021/jp402719k
-Y2  - 2022/11/20/20:29:48
+Y2  - 2022/11/20/
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Indirect first-party project-group evidence: archived qmcathome.org/korth.html lists this paper under "Selected publications" for "quantum mechanical methods for computational drug design" and says of its second Volunteer Computing project, verbatim: "the second project, Quantum Medicinal Chemistry at home, which we run in cooperation with Stefan Grimme, lets the public help with developing quantum-mechanics-based approaches for computational drug design". The same page says "we try to foster Citizen Cyber Science approaches in computational chemistry". The archived Yilmazer CV hosted on the project domain lists "Comparison of molecular mechanics, semi-empirical quantum mechanical, and density functional theory methods for scoring protein-ligand interactions", J Phys Chem B 117 (2013) 8075–8084. | Full text: ACS abstract / archived qmcathome.org/korth.html / archived project CV | Source: DOI 10.1021/jp402719k | Verification: checked 2026-11-26.</p>
+</div>
 ER  - 
 
 TY  - JOUR
@@ -151,7 +160,75 @@ J2  - J. Comput. Chem.
 LA  - en
 SN  - 01928651
 UR  - https://onlinelibrary.wiley.com/doi/10.1002/jcc.24513
-Y2  - 2022/11/20/20:29:48
-L1  - https://d-nb.info/1140739468/04
+Y2  - 2022/11/20/
+L4  - https://d-nb.info/1140739468/04
+N1  - <p>BOINC criterion evidence - Indirect first-party project-group evidence: archived qmcathome.org/korth.html lists "Developing Adaptive QM/MM Computer Simulations for Electrochemistry" as a selected publication in "quantum chemistry based multiscale modelling in electrochemistry"; the same project-domain page says "We try to foster Citizen Cyber Science approaches in computational chemistry" and identifies cleanmobility.now as its "main Volunteer Computing project". Wiley's reference list connects the article to the project's screening programme by citing 10.1039/C4CP00547C, 10.1039/C4CP04338C, 10.1039/C5CP02937F and 10.1039/C5CP03119B. | Caveat: no explicit QMC@HOME or BOINC mention was found in the accessible article record; the original L1 DNB link resolves to dissertation front matter/TOC, not the journal article. | Full text: Wiley article landing/reference list / archived qmcathome.org/korth.html | Source: DOI 10.1002/jcc.24513 | Verification: checked 2026-11-26.</p>
+ER  - 
+
+TY  - JOUR
+TI  - “Mindless” DFT Benchmarking
+AU  - Korth, Martin
+AU  - Grimme, Stefan
+T2  - Journal of Chemical Theory and Computation
+DA  - 2009/03/04/
+PY  - 2009
+DO  - 10.1021/ct800511q
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 4
+SP  - 993
+EP  - 1003
+J2  - J. Chem. Theory Comput.
+LA  - en
+SN  - 1549-9618, 1549-9626
+UR  - https://pubs.acs.org/doi/10.1021/ct800511q
+Y2  - 2026/11/26/
+N1  - <p>BOINC criterion evidence - First-party QMC@HOME homepage (8 Dec 2009), verbatim: "Current projects: Mindless Benchmarking!" and "With 'Mindless Benchmarking' we have arrived in a new project phase: 'Mindless' DFT Benchmarking", with the phase title hyperlinked to DOI 10.1021/ct800511q. First-party NEWS thread, verbatim: "The next year will be devoted to covalently bound systems with the 'Mindless Benchmarking' set" and "we will continue with QMC calculations on the 'Mindless Benchmark'". The paper's abstract defines the 165-entry MB08-165 benchmark set. | Caveat: the paper does not itself mention BOINC or QMC@HOME; the direct link is the project's own designation of this paper as the basis for its next QMC calculation phase. | Full text: ACS abstract / archived QMC@HOME homepage and NEWS thread | Link: Mindless Benchmarking phase / QMC@HOME | Source: J. Chem. Theory Comput. 5(4):993–1003, DOI 10.1021/ct800511q | Verification: checked 2026-11-26.</p>
+ER  - 
+
+TY  - JOUR
+TI  - Charting the known chemical space for non-aqueous lithium–air battery electrolyte solvents
+AU  - Husch, Tamara
+AU  - Korth, Martin
+T2  - Physical Chemistry Chemical Physics
+DA  - 2015/09/21/
+PY  - 2015
+DO  - 10.1039/C5CP02937F
+DP  - DOI.org (Crossref)
+VL  - 17
+IS  - 35
+SP  - 22596
+EP  - 22603
+J2  - Phys. Chem. Chem. Phys.
+LA  - en
+SN  - 1463-9076, 1463-9084
+UR  - https://doi.org/10.1039/C5CP02937F
+Y2  - 2026/11/26/
+L1  - https://arxiv.org/pdf/1507.00305
+L4  - https://arxiv.org/pdf/1507.00305
+N1  - <p>BOINC criterion evidence - Computational details, verbatim: "Here we mostly relied on standard compute cluster resources, but work on integrating our Volunteer Computing resources more closely is in progress." Supplementary-information note, verbatim: "Raw data will be made available as a web-accessible database on http://qmcathome.org/clean_mobility_now.html." Reference 28, verbatim: "cleanmobility.now. www.qmcathome.org/clean_mobility_now.html (accessed Mar 17, 2015)." The publisher full text also cites cleanmobility.now as the project URL. | Caveat: the article explicitly says most calculations for this study used standard cluster resources, so it is included because of the explicit Volunteer Computing integration and cleanmobility.now data/project citation, not as a claim that all calculations ran on BOINC. | Full text: RSC PCCP 17(35):22596–22603 / arXiv:1507.00305v2 | Link: cleanmobility.now (re-release of QMC@HOME) / BOINC | Source: DOI 10.1039/C5CP02937F | Verification: full text and Crossref references checked 2026-11-26.</p>
+ER  - 
+
+TY  - JOUR
+TI  - Toward New Solvents for EDLCs: From Computational Screening to Electrochemical Validation
+AU  - Schütter, Christoph
+AU  - Husch, Tamara
+AU  - Korth, Martin
+AU  - Balducci, Andrea
+T2  - The Journal of Physical Chemistry C
+DA  - 2015/06/18/
+PY  - 2015
+DO  - 10.1021/acs.jpcc.5b02113
+DP  - DOI.org (Crossref)
+VL  - 119
+IS  - 24
+SP  - 13413
+EP  - 13424
+J2  - J. Phys. Chem. C
+LA  - en
+SN  - 1932-7447, 1932-7455
+UR  - https://pubs.acs.org/doi/10.1021/acs.jpcc.5b02113
+Y2  - 2026/11/26/
+N1  - <p>BOINC criterion evidence - Crossref-deposited article references, verbatim: "http://Qmcathome.Org/Clean_Mobility_Now.html, Accessed 18.02.15." The same article cites the QMC@HOME/cleanmobility.now screening papers 10.1039/C4CP00547C and 10.1039/C4CP04338C; the publisher abstract says the work correlates "computational screening results with experimental findings" for "all reasonable nitriles, comprising almost 5000 compounds". An archived first-party qmcathome.org group page lists the paper under "Selected publications" for molecular materials for electrochemical energy storage and says, verbatim: "Our main Volunteer Computing project cleanmobility.now invites volunteers to find safer and greener materials for e-vehicle batteries." | Caveat: the direct criterion evidence is the article's citation of the cleanmobility.now project page; no direct QMC@HOME or BOINC phrase was found in the accessible publisher abstract. | Full text: ACS publisher abstract and Crossref reference metadata / archived qmcathome.org/korth.html | Link: cleanmobility.now / QMC@HOME | Source: J. Phys. Chem. C 119(24):13413–13424, DOI 10.1021/acs.jpcc.5b02113 | Verification: checked 2026-11-26.</p>
 ER  - 
 
