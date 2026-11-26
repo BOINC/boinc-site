@@ -6,20 +6,21 @@ AU  - Cauchy, Thomas
 AU  - Da Mota, Benoit
 T2  - Journal of Cheminformatics
 AB  - Abstract
-            Chemical diversity is one of the key term when dealing with machine learning and molecular generation. This is particularly true for quantum chemical datasets. The composition of which should be done meticulously since the calculation is highly time demanding. Previously we have seen that the most known quantum chemical dataset QM9 lacks chemical diversity. As a consequence, ML models trained on QM9 showed generalizability shortcomings. In this paper we would like to present (i) a fast and generic method to evaluate chemical diversity, (ii) a new quantum chemical dataset of 435k molecules, OD9, that includes QM9 and new molecules generated with a diversity objective, (iii) an analysis of the diversity impact on unconstrained and goal-directed molecular generation on the example of QED optimization. Our innovative approach makes it possible to individually estimate the impact of a solution to the diversity of a set, allowing for effective incremental evaluation. In the first application, we will see how the diversity constraint allows us to generate more than a million of molecules that would efficiently complete the reference datasets. The compounds were calculated with DFT thanks to a collaborative effort through the QuChemPedIA@home BOINC project. With regard to goal-directed molecular generation, getting a high QED score is not complicated, but adding a little diversity can cut the number of calls to the evaluation function by a factor of ten
+
+Chemical diversity is one of the key term when dealing with machine learning and molecular generation. This is particularly true for quantum chemical datasets. The composition of which should be done meticulously since the calculation is highly time demanding. Previously we have seen that the most known quantum chemical dataset QM9 lacks chemical diversity. As a consequence, ML models trained on QM9 showed generalizability shortcomings. In this paper we would like to present (i) a fast and generic method to evaluate chemical diversity, (ii) a new quantum chemical dataset of 435k molecules, OD9, that includes QM9 and new molecules generated with a diversity objective, (iii) an analysis of the diversity impact on unconstrained and goal-directed molecular generation on the example of QED optimization. Our innovative approach makes it possible to individually estimate the impact of a solution to the diversity of a set, allowing for effective incremental evaluation. In the first application, we will see how the diversity constraint allows us to generate more than a million of molecules that would efficiently complete the reference datasets. The compounds were calculated with DFT thanks to a collaborative effort through the QuChemPedIA@home BOINC project. With regard to goal-directed molecular generation, getting a high QED score is not complicated, but adding a little diversity can cut the number of calls to the evaluation function by a factor of ten
 DA  - 2021/12//
 PY  - 2021
 DO  - 10.1186/s13321-021-00554-8
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 13
 IS  - 1
 SP  - 76
 J2  - J Cheminform
 LA  - en
 SN  - 1758-2946
-UR  - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00554-8
+UR  - [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00554-8](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00554-8)
 Y2  - 2022/12/26/19:07:55
-L1  - https://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-021-00554-8
+N1  - <p>Direct project evidence in the paper text: abstract, 'The compounds were calculated with DFT thanks to a collaborative effort through the QuChemPedIA@home BOINC project.' Methods, 'We have set up an instance of BOINC, named QuChemPedIA@home, to allow us to distribute our numerous calculations on our machines and on the computers of the volunteers.' Results, 'All these molecules were then recalculated twice with the BOINC project.' Acknowledgements, 'the more than 1.2M compounds corresponding to the OD9 dataset have been recalculated at the B3LYP/3-21G level of theory using our BOINC collaborative computing project, called QuChemPedIA@home'; data availability, '435 032 NWChem logfiles calculated thanks to the QuChemPedIA@home BOINC project.' The project's own news post of 5 Oct 2021 adds, 'the results of this article are based on the calculations of this BOINC project!'</p>
 ER  - 
 
 TY  - JOUR
@@ -31,11 +32,12 @@ AU  - Duval, Béatrice
 AU  - Da Mota, Benoit
 T2  - Journal of Cheminformatics
 AB  - Abstract
-            The objective of this work is to design a molecular generator capable of exploring known as well as unfamiliar areas of the chemical space. Our method must be flexible to adapt to very different problems. Therefore, it has to be able to work with or without the influence of prior data and knowledge. Moreover, regardless of the success, it should be as interpretable as possible to allow for diagnosis and improvement. We propose here a new open source generation method using an evolutionary algorithm to sequentially build molecular graphs. It is independent of starting data and can generate totally unseen compounds. To be able to search a large part of the chemical space, we define an original set of 7 generic mutations close to the atomic level. Our method achieves excellent performances and even records on the QED, penalised logP, SAscore, CLscore as well as the set of goal-directed functions defined in GuacaMol. To demonstrate its flexibility, we tackle a very different objective issued from the organic molecular materials domain. We show that EvoMol can generate sets of optimised molecules having high energy HOMO or low energy LUMO, starting only from methane. We can also set constraints on a synthesizability score and structural features. Finally, the interpretability of EvoMol allows for the visualisation of its exploration process as a chemically relevant tree.
+
+The objective of this work is to design a molecular generator capable of exploring known as well as unfamiliar areas of the chemical space. Our method must be flexible to adapt to very different problems. Therefore, it has to be able to work with or without the influence of prior data and knowledge. Moreover, regardless of the success, it should be as interpretable as possible to allow for diagnosis and improvement. We propose here a new open source generation method using an evolutionary algorithm to sequentially build molecular graphs. It is independent of starting data and can generate totally unseen compounds. To be able to search a large part of the chemical space, we define an original set of 7 generic mutations close to the atomic level. Our method achieves excellent performances and even records on the QED, penalised logP, SAscore, CLscore as well as the set of goal-directed functions defined in GuacaMol. To demonstrate its flexibility, we tackle a very different objective issued from the organic molecular materials domain. We show that EvoMol can generate sets of optimised molecules having high energy HOMO or low energy LUMO, starting only from methane. We can also set constraints on a synthesizability score and structural features. Finally, the interpretability of EvoMol allows for the visualisation of its exploration process as a chemically relevant tree.
 DA  - 2020/12//
 PY  - 2020
 DO  - 10.1186/s13321-020-00458-z
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 12
 IS  - 1
 SP  - 55
@@ -43,9 +45,9 @@ J2  - J Cheminform
 LA  - en
 SN  - 1758-2946
 ST  - EvoMol
-UR  - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00458-z
+UR  - [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00458-z](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00458-z)
 Y2  - 2022/12/26/19:08:05
-L1  - https://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-020-00458-z
+N1  - <p>Direct project evidence in the paper text: Results and discussion, 'Initially computed with different methods, we relaunched them using our BOINC collaborative computing project, called QuChemPedIA@home, in order to have a homogeneous and clean dataset.' Acknowledgements, 'the more than 200k compounds corresponding to the union of the QM9 and PC9 datasets (used in Fig. 8) have been recalculated at the B3LYP/3-21G level of theory using our BOINC collaborative computing project, called QuChemPedIA@home (https://quchempedia.univ-angers.fr/athome/).' The project's About page states, 'To compute the molecules proposed by EvoMol, a collaborative computing infrastructure has been launched, the QuChemPedia BOINC project'; its news forum announced this paper's preprint on 18 Jul 2020.</p>
 ER  - 
 
 TY  - JOUR
@@ -57,20 +59,21 @@ AU  - Cauchy, Thomas
 AU  - Da Mota, Benoit
 T2  - Journal of Cheminformatics
 AB  - Abstract
-            The QM9 dataset has become the golden standard for Machine Learning (ML) predictions of various chemical properties. QM9 is based on the GDB, which is a combinatorial exploration of the chemical space. ML molecular predictions have been recently published with an accuracy on par with Density Functional Theory calculations. Such ML models need to be tested and generalized on real data. PC9, a new QM9 equivalent dataset (only H, C, N, O and F and up to 9 “heavy” atoms) of the PubChemQC project is presented in this article. A statistical study of bonding distances and chemical functions shows that this new dataset encompasses more chemical diversity. Kernel Ridge Regression, Elastic Net and the Neural Network model provided by SchNet have been used on both datasets. The overall accuracy in energy prediction is higher for the QM9 subset. However, a model trained on PC9 shows a stronger ability to predict energies of the other dataset.
+
+The QM9 dataset has become the golden standard for Machine Learning (ML) predictions of various chemical properties. QM9 is based on the GDB, which is a combinatorial exploration of the chemical space. ML molecular predictions have been recently published with an accuracy on par with Density Functional Theory calculations. Such ML models need to be tested and generalized on real data. PC9, a new QM9 equivalent dataset (only H, C, N, O and F and up to 9 “heavy” atoms) of the PubChemQC project is presented in this article. A statistical study of bonding distances and chemical functions shows that this new dataset encompasses more chemical diversity. Kernel Ridge Regression, Elastic Net and the Neural Network model provided by SchNet have been used on both datasets. The overall accuracy in energy prediction is higher for the QM9 subset. However, a model trained on PC9 shows a stronger ability to predict energies of the other dataset.
 DA  - 2019/12//
 PY  - 2019
 DO  - 10.1186/s13321-019-0391-2
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 11
 IS  - 1
 SP  - 69
 J2  - J Cheminform
 LA  - en
 SN  - 1758-2946
-UR  - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-019-0391-2
+UR  - [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-019-0391-2](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-019-0391-2)
 Y2  - 2022/12/26/19:08:16
-L1  - https://jcheminf.biomedcentral.com/track/pdf/10.1186/s13321-019-0391-2.pdf
+N1  - <p>Project confirmation: on the QuChemPedIA@home forum on 4 Nov 2019 the project administrator wrote, 'We wrote an article (Dataset’s chemical diversity limits the generalizability of machine learning predictions) that was accepted and will be published (in open access) soon,' and the project scientist wrote, 'The publication mentioned by damotbe was written when we launch the boinc project.' The same author explained that the project intended to 'recalculat[e] the interesting molecules of QM9 and PC9 with the same level of calculation this time' and reported 'We have calculated roughly 130 k over 200 k thanks to your help!' Later papers in this series (EvoMol, 2020; OD9, 2021) document that these QM9/PC9 recalculations were performed through QuChemPedIA@home.</p>
 ER  - 
 
 TY  - JOUR
@@ -80,15 +83,20 @@ AU  - Leguy, Jules
 AU  - Da Mota, Benoit
 T2  - Digital Discovery
 AB  - For the generation of realistic molecules, we introduce and stress the importance of a new filter based on cyclic features, in addition to connectivity feature filtering (based on ECFP4).
-          , 
-            
-              Discovering an efficient new molecule can have a huge impact on the chemical research field. For several problems, the current knowledge is too scarce to train robust deep learning models. An exploratory approach can be a solution. However, when we consider several types of atoms, a phenomenal amount of combinations are possible even for small molecules. Many of these combinations contain very exotic associations. In addition to connectivity feature filtering (based on ECFP4), we introduce and stress the importance of a new filter based on cyclic features. In this article, we show that whitelists including all connectivity and cyclic features of either ChEMBL or ChEMBL and ZINC allow for the definition of large realistic chemical spaces. An enumeration dataset, Evo10, has been built with more than 600 000 molecules having 10 or fewer heavy atoms (C, N, O, F, and S). Starting only from a methane molecule, we were able to navigate through the chemical space of those realistic molecules and rediscover all molecules passing these same filters from the reference datasets which are here ChEMBL, ZINC, QM9, PC9, GDB11, and GDBChEMBL. Unlike previously published scores, SAscores and CLscores, which are based on similarity averages on the most common chemical environments, the method proposed here excludes any molecule with an ECFP and cyclic feature that is absent from the lists. The visualisation of the proposed top solutions, that pass all the filters, for the optimisation of the QED or HOMO and LUMO energies, convinces us of the relevance of this approach for the systematic
-              de novo
-              generation of realistic solutions.
+
+,
+
+
+
+Discovering an efficient new molecule can have a huge impact on the chemical research field. For several problems, the current knowledge is too scarce to train robust deep learning models. An exploratory approach can be a solution. However, when we consider several types of atoms, a phenomenal amount of combinations are possible even for small molecules. Many of these combinations contain very exotic associations. In addition to connectivity feature filtering (based on ECFP4), we introduce and stress the importance of a new filter based on cyclic features. In this article, we show that whitelists including all connectivity and cyclic features of either ChEMBL or ChEMBL and ZINC allow for the definition of large realistic chemical spaces. An enumeration dataset, Evo10, has been built with more than 600 000 molecules having 10 or fewer heavy atoms (C, N, O, F, and S). Starting only from a methane molecule, we were able to navigate through the chemical space of those realistic molecules and rediscover all molecules passing these same filters from the reference datasets which are here ChEMBL, ZINC, QM9, PC9, GDB11, and GDBChEMBL. Unlike previously published scores, SAscores and CLscores, which are based on similarity averages on the most common chemical environments, the method proposed here excludes any molecule with an ECFP and cyclic feature that is absent from the lists. The visualisation of the proposed top solutions, that pass all the filters, for the optimisation of the QED or HOMO and LUMO energies, convinces us of the relevance of this approach for the systematic
+
+de novo
+
+generation of realistic solutions.
 DA  - 2023///
 PY  - 2023
 DO  - 10.1039/D2DD00092J
-DP  - DOI.org (Crossref)
+DP  - [DOI.org](http://DOI.org) (Crossref)
 VL  - 2
 IS  - 3
 SP  - 736
@@ -96,8 +104,8 @@ EP  - 747
 J2  - Digital Discovery
 LA  - en
 SN  - 2635-098X
-UR  - http://xlink.rsc.org/?DOI=D2DD00092J
+UR  - [http://xlink.rsc.org/?DOI=D2DD00092J](http://xlink.rsc.org/?DOI=D2DD00092J)
 Y2  - 2023/06/18/15:06:16
-L1  - https://pubs.rsc.org/en/content/articlepdf/2023/dd/d2dd00092j
+N1  - <p>Direct project evidence in the paper text: Results, 'This is a much lower proportion than that observed during the BOINC computational campaign associated with the generation of diversity without filters, where the proportion of failures was rather 66%.' Acknowledgements, 'TC and BDM would especially like to thank the BOINC community involved in our project, called QuChemPedIA@home (https://quchempedia.univ-angers.fr/athome/). While no results published here came from the community, it is the large failure ratio observed in the DFT calculations during the collaborative computing effort that paved the ideas of this article.'</p>
 ER  - 
 
