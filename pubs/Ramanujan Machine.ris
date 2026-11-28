@@ -1,28 +1,4 @@
 TY  - JOUR
-TI  - Unsupervised Discovery of Formulas for Mathematical Constants
-AU  - Shalyt, Michael
-AU  - Seligmann, Uri
-AU  - Halachmi, Itay Beit
-AU  - David, Ofir
-AU  - Elimelech, Rotem
-AU  - Kaminer, Ido
-AB  - Ongoing efforts that span over decades show a rise of AI methods for accelerating scientific discovery, yet accelerating discovery in mathematics remains a persistent challenge for AI. Specifically, AI methods were not effective in creation of formulas for mathematical constants because each such formula must be correct for infinite digits of precision, with "near-true" formulas providing no insight toward the correct ones. Consequently, formula discovery lacks a clear distance metric needed to guide automated discovery in this realm.
- In this work, we propose a systematic methodology for categorization, characterization, and pattern identification of such formulas. The key to our methodology is introducing metrics based on the convergence dynamics of the formulas, rather than on the numerical value of the formula. These metrics enable the first automated clustering of mathematical formulas. We demonstrate this methodology on Polynomial Continued Fraction formulas, which are ubiquitous in their intrinsic connections to mathematical constants, and generalize many mathematical functions and structures.
- We test our methodology on a set of 1,768,900 such formulas, identifying many known formulas for mathematical constants, and discover previously unknown formulas for $π$, $\ln(2)$, Gauss', and Lemniscate's constants. The uncovered patterns enable a direct generalization of individual formulas to infinite families, unveiling rich mathematical structures. This success paves the way towards a generative model that creates formulas fulfilling specified mathematical properties, accelerating the rate of discovery of useful formulas.
-DA  - 2024///
-PY  - 2024
-DO  - 10.48550/ARXIV.2412.16818
-DP  - DOI.org (Datacite)
-UR  - https://arxiv.org/abs/2412.16818
-Y2  - 2025/01/02/19:35:40
-KW  - FOS: Mathematics
-KW  - Number Theory (math.NT)
-KW  - FOS: Computer and information sciences
-KW  - Machine Learning (cs.LG)
-KW  - Artificial Intelligence (cs.AI)
-ER  - 
-
-TY  - JOUR
 TI  - Algorithm-assisted discovery of an intrinsic order among mathematical constants
 AU  - Elimelech, Rotem
 AU  - David, Ofir
@@ -44,6 +20,28 @@ IS  - 25
 SP  - e2321440121
 UR  - https://www.pnas.org/doi/10.1073/pnas.2321440121
 Y2  - 2025/01/02/19:37:41
-L1  - https://www.pnas.org/doi/pdf/10.1073/pnas.2321440121
+L1  - https://pmc.ncbi.nlm.nih.gov/articles/PMC11194572/pdf/pnas.202321440.pdf
+L4  - https://www.pnas.org/doi/pdf/10.1073/pnas.2321440121
+N1  - <p>BOINC project paper: listed on the Ramanujan Machine project publications page (ramanujanmachine.com/publications); reports the BOINC Distributed Factorial Reduction search live since October 2021. Paper text (Sec. 1.2 / Fig. 3, Distributed Factorial Reduction algorithm) states: "The distribution of the computing chunks is done using the Berkeley Open Infrastructure for Network Computing (BOINC)"; "Each chunk is computed by off-site worker computers donated by volunteers"; "We executed the distributed algorithm first on a Technion computing cluster (Zeus), and then distributed it on individual computers with the help of the BOINC community. The thousands of new formulas discovered in this project are in large part thanks to the contribution of the BOINC community"; "our Distributed Factorial Reduction algorithm has been running online since October 2021. At the time of writing, the algorithm is distributed over >5000 computers, and has been supported by >1000 volunteers"; Appendix C.2: families "manually generalized based on examples discovered by the BOINC community, executing the Distributed Factorial Reduction algorithm." Acknowledgements: "We are grateful to the volunteers in the BOINC community whose contribution made this discovery possible." Reference [44]: "Ramanujan Machine on BOINC (2023)." Preprint: arXiv:2308.11829.</p>
+ER  - 
+
+TY  - JOUR
+TI  - A Note on the Ramanujan Machine
+AU  - Brier, Éric
+AU  - Naccache, David
+AU  - Yifrach-Stav, Ofer
+T2  - arXiv (math.NT)
+AB  - The Ramanujan Machine project detects new expressions related to constants of interest, such as ζ function values, γ and algebraic numbers (to name a few). In particular the project lists a number of conjectures involving even and odd ζ function values, logarithms etc. We show that many relations detected by the Ramanujan Machine Project stem from a specific algebraic observation and show how to generate infinitely many. This provides an automated proof and/or an explanation of many of the relations listed as conjectures by the project (although not all of them).
+DA  - 2022///
+PY  - 2022
+DO  - 10.48550/arXiv.2211.01058
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/2211.01058
+L1  - http://arxiv.org/pdf/2211.01058v2
+N1  - <p>BOINC-era (flagged): proves/explains conjectures from the project results file results_different_zeta_orders.pdf, announced June 2022 ("Using a new algorithm, The Ramanujan Machine discovered in June 2022 several conjectures that include different values of Riemann Zeta function"), i.e. after the BOINC project launch (October 2021) and within the Distributed Factorial Reduction period reported in Elimelech et al. (2024) as "running online since October 2021." The paper itself does not state whether those specific conjectures were volunteer-computed, so BOINC provenance is by project date, not by an explicit computation statement. Paper text states: "The Ramanujan Machine project detects new expressions related to constants of interest... In particular the project lists several conjectures concerning values of the ζ function. We show that many relations detected by the Ramanujan Machine Project stem from a specific algebraic observation and show how to generate and machine-prove infinitely many. This provides an automated proof and/or an explanation of many of the relations listed as conjectures by the project"; worked example: "The Ramanujan Machine identity ζ(4) + 4ζ(3) − 8."</p>
+KW  - continued fractions
+KW  - Ramanujan Machine
+KW  - automated proof
+KW  - zeta function
 ER  - 
 
