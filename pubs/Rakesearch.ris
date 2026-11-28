@@ -1,20 +1,18 @@
-TY  - CONF
-TI  - Simulation of Volunteer Computing in a Desktop Grid System
-AU  - Petrenko, Ksenia
+TY  - JOUR
+TI  - Modification of the Load Balancing System for a Heterogeneous Distributed Computing System
 AU  - Kurochkin, Ilya
-T2  - Supercomputing (RuSCDays 2024)
-DA  - 2025///
-PY  - 2025
-DO  - 10.1007/978-3-031-78462-0_9
-DP  - DOI.org (Crossref)
-VL  - 15407
-SP  - 120
-EP  - 134
-PB  - Springer Nature Switzerland
-SN  - 0302-9743, 1611-3349
-UR  - https://doi.org/10.1007/978-3-031-78462-0_9
-N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "We describe our experience with it, what modifications have been made and how it was validated using the real data gathered by RakeSearch project, along with running experiments in it." Section 4, verbatim: "In our case, the data was provided by RakeSearch [14,15]. It includes records from the project's database over the week."</p>
-</div>
+AU  - Kondrashov, Nikita
+T2  - Physics of Particles and Nuclei
+DA  - 2026/07/20/
+PY  - 2026
+DO  - 10.1134/S1063779626700164
+VL  - 57
+SP  - 575
+EP  - 577
+PB  - Springer
+SN  - 1063-7796
+UR  - https://link.springer.com/article/10.1134/S1063779626700164
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "The experiments are based on historical data from the RakeSearch project, with variations in client computing power and task complexity." References, verbatim: "M. Manzyuk, N. Nikitina, and E. Vatutin, 'Start-up and the results of the Volunteer Computing project RakeSearch,' in Supercomputing, Communications in Computer and Information Science (Springer, Cham, 2019), pp. 725–734." Listed on the RakeSearch project publications page at https://rake.boincfast.ru/rakesearch/publications.php (as a related presentation from the same research group at GRID'2025).</p></div>
 KW  - BOINC
 ER  - 
 
@@ -36,27 +34,28 @@ EP  - 34
 PB  - Southwest State University, Kursk
 SN  - 978-5-7681-1736-8
 UR  - https://evatutin.narod.ru/kvt/recogn2025.pdf
+L1  - https://evatutin.narod.ru/kvt/recogn2025.pdf
 N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Proceedings p. 34, verbatim: "which makes the task of transferring calculations to the RakeSearch volunteer distributed computing project on the BOINC platform relevant. The parallelizing strategy of calculations consists of processing individual squares of the current spectrum within the different workunits (abbr. WU)." Printed title reads "boinc planform" (typo in the original).</p>
 </div>
 KW  - BOINC
 ER  - 
 
 TY  - CONF
-TI  - On the number of transversals in diagonal Latin squares of even orders
-AU  - Vatutin, E. I.
-AU  - Nikitina, N. N.
-AU  - Manzyuk, M. O.
-AU  - Kurochkin, I. I.
-AU  - Albertyan, A. M.
-T2  - Cloud and Distributed Computing Systems (ORVS-2023), National Supercomputing Forum (NSCF-2023)
-DA  - 2024///
-PY  - 2024
-SP  - 101
-EP  - 105
-LA  - ru
-PB  - Program Systems Institute of RAS, Pereslavl-Zalessky
-UR  - https://evatutin.narod.ru/evatutin_ls_trans_num_in_dls.pdf
-N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Full text (Russian), verbatim: "ДЛК порядка 9 были обработаны с использованием вычислительных возможностей проектов добровольных распределенных вычислений Gerasim@Home и RakeSearch на платформе BOINC" ("order-9 DLS were processed using the computing capabilities of the Gerasim@Home and RakeSearch volunteer distributed computing projects on the BOINC platform"). </p>
+TI  - Simulation of Volunteer Computing in a Desktop Grid System
+AU  - Petrenko, Ksenia
+AU  - Kurochkin, Ilya
+T2  - Supercomputing (RuSCDays 2024)
+DA  - 2025///
+PY  - 2025
+DO  - 10.1007/978-3-031-78462-0_9
+DP  - DOI.org (Crossref)
+VL  - 15407
+SP  - 120
+EP  - 134
+PB  - Springer Nature Switzerland
+SN  - 0302-9743, 1611-3349
+UR  - https://doi.org/10.1007/978-3-031-78462-0_9
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "We describe our experience with it, what modifications have been made and how it was validated using the real data gathered by RakeSearch project, along with running experiments in it." Section 4, verbatim: "In our case, the data was provided by RakeSearch [14,15]. It includes records from the project's database over the week."</p>
 </div>
 KW  - BOINC
 ER  - 
@@ -91,22 +90,6 @@ N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Introduction, v
 ER  - 
 
 TY  - CONF
-TI  - Strategy of distributed diagonalization of Latin squares
-AU  - Vatutin, E. I.
-T2  - Science and Education in the Development of Industrial, Social and Economic Spheres of Russian Regions (Murom 2023)
-DA  - 2023///
-PY  - 2023
-SP  - 118
-EP  - 120
-LA  - ru
-PB  - Murom Institute, Vladimir State University
-UR  - https://evatutin.narod.ru/evatutin_ls_distr_diag.pdf
-N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Full text (Russian), verbatim: "для 200 «легких» ДЛК было сформировано около 10 тыс. WU, которые были обсчитаны в проекте добровольных распределенных вычислений RakeSearch" ("for 200 light DLS about 10 thousand workunits were formed, which were computed in the RakeSearch volunteer distributed computing project"). </p>
-</div>
-KW  - BOINC
-ER  - 
-
-TY  - CONF
 TI  - Methods for constructing spectra of rapidly computable numerical characteristics of diagonal Latin squares
 AU  - Vatutin, E. I.
 AU  - Nikitina, N. N.
@@ -123,6 +106,7 @@ EP  - 23
 LA  - ru
 PB  - Program Systems Institute of RAS, Pereslavl-Zalessky
 UR  - https://evatutin.narod.ru/evatutin_dls_heur_spectra_method_2.pdf
+L1  - https://evatutin.narod.ru/evatutin_dls_heur_spectra_method_2.pdf
 N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Full text (Russian), verbatim: "ДЛК порядка 9 были обработаны с использованием вычислительных возможностей проектов добровольных распределенных вычислений Gerasim@Home и RakeSearch на платформе BOINC" and "Часть из указанных вычислительных экспериментов выполнялась … в проекте добровольных распределенных вычислений RakeSearch" ("part of these computational experiments was carried out in the RakeSearch volunteer distributed computing project").</p>
 </div>
 KW  - BOINC
@@ -157,13 +141,35 @@ KW  - BOINC
 ER  - 
 
 TY  - CONF
-TI  - Replication of “Tail” Computations in a Desktop Grid Project
+TI  - On polynomial reduction of problems based on diagonal Latin squares to the exact cover problem
+AU  - Vatutin, Eduard
+AU  - Nikitina, Natalia
+AU  - Belyshev, Alexey
+AU  - Manzyuk, Maxim
+T2  - Information, Computation, and Control Systems for Distributed Environments (ICCS-DE 2020)
+AB  - The paper discusses the reduction of problems based on Latin squares to the exact cover problem aiming at its subsequent solution using the dancing links algorithm. The former problems include generation of Latin squares and diagonal Latin squares of a general form/with a given normalization, generation of orthogonal Latin and diagonal Latin squares directly/through the set of transversals, obtaining a set of transversals for a given square, forming a subset of disjoint transversals. For each subproblem, we describe in detail the process of forming the corresponding binary coverage matrices. We show that the use of the proposed approach in comparison with the classical one, i.e. the formation of sets of transversals and their coverages using exhaustive enumeration, allows one to increase the effective processing pace of diagonal Latin squares by 2.5–5.6 times. The developed software implementations of the algorithms are used in computational experiments as part of the Gerasim@Home volunteer distributed computing project on the BOINC platform.
+DA  - 2020///
+PY  - 2020
+DO  - 10.47350/ICCS-DE.2020.26
+VL  - 2638
+SP  - 289
+EP  - 297
+LA  - en
+PB  - CEUR Workshop Proceedings
+UR  - https://ceur-ws.org/Vol-2638/paper26.pdf
+L1  - https://ceur-ws.org/Vol-2638/paper26.pdf
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Abstract, verbatim: "The developed software implementations of the algorithms are used in computational experiments as part of the Gerasim@Home volunteer distributed computing project on the BOINC platform." Introduction, verbatim: "Currently, in the projects of volunteer computing RakeSearch [4] and Gerasim@Home [5], the lists of canonical forms (lexicographically minimal representatives within the corresponding main classes) of the ODLS of orders 9 and 10 are being constructed. Moreover, the computations within the RakeSearch project are based on the existence of such ODLS pairs, for some orders [6], in which an orthogonal mate is obtained from the original one by rearranging its rows (a special case of orthogonality of the ESOLS type (Extended Self-Orthogonal Latin Squares) [7], which allows one to raise the processing rate of squares to a value of about 70,000–80,000 DLS/s."</p></div>
+KW  - BOINC
+ER  - 
+
+TY  - CONF
+TI  - Replication of "Tail" Computations in a Desktop Grid Project
 AU  - Ivashko, Evgeny
 AU  - Nikitina, Natalia
 T2  - Supercomputing (RuSCDays 2020)
 A2  - Voevodin, Vladimir
 T3  - Communications in Computer and Information Science
-AB  - The paper addresses the problem of accelerating the “tail” stage of a computational experiment in a Desktop Grid. We provide the mathematical model of a “tail” stage, describe the setting of simulation experiments and provide their results. Task replication in “tail” phase proves to be efficient in decreasing the duration of “tail” by orders of magnitude.
+AB  - The paper addresses the problem of accelerating the "tail" stage of a computational experiment in a Desktop Grid. We provide the mathematical model of a "tail" stage, describe the setting of simulation experiments and provide their results. Task replication in "tail" phase proves to be efficient in decreasing the duration of "tail" by orders of magnitude.
 C1  - Cham
 C3  - Supercomputing
 DA  - 2020///
@@ -177,7 +183,7 @@ LA  - en
 PB  - Springer International Publishing
 SN  - 1865-0929, 1865-0937
 UR  - https://link.springer.com/chapter/10.1007/978-3-030-64616-5_52
-N1  - <div data-schema-version="9"><p>EVIDENCE - Springer publisher page, Abstract, verbatim: "The paper addresses the problem of accelerating the “tail” stage of a computational experiment in a Desktop Grid. We provide the mathematical model of a “tail” stage, describe the setting of simulation experiments and provide their results. Task replication in “tail” phase proves to be efficient in decreasing the duration of “tail” by orders of magnitude." Keywords, verbatim: "Desktop Grid", "Volunteer computing", "BOINC", "Replication". References, verbatim: "Manzyuk, M., Nikitina, N., Vatutin, E.: Start-up and the Results of the Volunteer Computing Project RakeSearch." and "Anderson, D.P.: BOINC: a platform for volunteer computing." Chapter body as quoted in the public CCIS 1331 preview, verbatim: "The key features of the simulator program are: simulation of the computational process on the BOINC platform".</p>
+N1  - <div data-schema-version="9"><p>BOINC criterion evidence - Springer publisher page, Abstract, verbatim: "The paper addresses the problem of accelerating the "tail" stage of a computational experiment in a Desktop Grid. We provide the mathematical model of a "tail" stage, describe the setting of simulation experiments and provide their results. Task replication in "tail" phase proves to be efficient in decreasing the duration of "tail" by orders of magnitude." Keywords, verbatim: "Desktop Grid", "Volunteer computing", "BOINC", "Replication". References, verbatim: "Manzyuk, M., Nikitina, N., Vatutin, E.: Start-up and the Results of the Volunteer Computing Project RakeSearch." and "Anderson, D.P.: BOINC: a platform for volunteer computing." Chapter body as quoted in the public CCIS 1331 preview, verbatim: "The key features of the simulator program are: simulation of the computational process on the BOINC platform".</p>
 </div>
 KW  - BOINC
 ER  - 
